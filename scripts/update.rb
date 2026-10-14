@@ -22,7 +22,7 @@ APPROVED_PATH = File.join(ROOT, "config", "approved.txt")
 REJECTED_PATH = File.join(ROOT, "config", "rejected.txt")
 UA = "AIThreatWatch/1.0 (+https://aithreat.io; feed reader)"
 KEEP_DAYS = 14
-MAX_WIRE = 400
+MAX_WIRE = 800
 MODEL = ENV.fetch("ATW_MODEL", "claude-sonnet-5-5")
 
 AI_RE = /\b(AI|A\.I\.|artificial intelligence|LLMs?|GPT(-\d)?|ChatGPT|Claude|Gemini|Copilot|OpenAI|Anthropic|DeepSeek|Mistral|Llama|Grok|xAI|prompt[- ]injection|jailbreak|deepfakes?|voice[- ]clon|agentic|AI agents?|MCP|model context protocol|machine[- ]learning|neural|chatbots?|Ollama|Hugging ?Face|LangChain|LangFlow|Flowise|vLLM|LiteLLM|Vertex AI|Bedrock|Azure OpenAI|coding agents?|Cursor|Codex|RAG|vector database|OpenClaw|Moltbook)\b/i
