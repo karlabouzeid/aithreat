@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-14T17:04:21Z",
-  "wire_items": 400,
-  "new_items": 121,
-  "candidates": 0,
+  "updated_at": "2026-10-14T17:15:57Z",
+  "wire_items": 473,
+  "new_items": 330,
+  "candidates": 37,
   "incidents": 57,
   "feeds_ok": [
     "BleepingComputer",
@@ -28,10 +28,29 @@
     "Google News (Français)",
     "Google News (Español)",
     "Google News (العربية)",
-    "Google News (中文)"
+    "Google News (中文)",
+    "CrowdStrike",
+    "SentinelOne Labs",
+    "Check Point Research",
+    "Kaspersky Securelist",
+    "ESET WeLiveSecurity",
+    "Cisco Talos",
+    "Zscaler ThreatLabz",
+    "Proofpoint",
+    "Recorded Future",
+    "Wiz Research",
+    "Embrace The Red",
+    "Trail of Bits",
+    "UK NCSC",
+    "CERT-FR",
+    "arXiv cs.CR",
+    "Schneier on Security",
+    "GBHackers",
+    "404 Media",
+    "CISA KEV (AI products)"
   ],
   "feeds_failed": [
 
   ],
-  "triage": "triage failed: no JSON in reply"
+  "triage": "triaged 554 items with claude-sonnet-5-5 in 22 batches (1 failed: no JSON (stop=refusal): ); kept 330"
 }
