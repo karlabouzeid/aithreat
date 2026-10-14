@@ -1720,5 +1720,292 @@
     "verified": false,
     "drafted_at": "2026-10-14T20:20:23Z",
     "wire_id": "4ed362b305e0"
+  },
+  {
+    "id": "ngate-variant-trojanized-nfc-app",
+    "date": "2026-10-14",
+    "title": "New NGate variant hides in trojanized NFC payment app, possibly built with AI",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "Users of NFC payment apps",
+    "loss_usd": null,
+    "summary": "ESET researchers found another NGate malware iteration disguised as an NFC payment app, possibly developed with AI assistance.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "attribution": "ESET links the sample to the NGate malware family; the operator is not named in the summary.",
+    "motive": "Unknown",
+    "vector": "Trojanized NFC payment app",
+    "root_cause": "Unknown; AI involvement in development is only suspected.",
+    "impact": "Unknown; the summary gives no victim or loss details.",
+    "response": "ESET researchers discovered and publicly analysed the variant.",
+    "status": "under investigation",
+    "cve": null,
+    "confidence": 0.4,
+    "source": "ESET WeLiveSecurity",
+    "url": "https://www.welivesecurity.com/en/eset-research/new-ngate-variant-hides-in-a-trojanized-nfc-payment-app",
+    "sources": [
+      {
+        "name": "ESET WeLiveSecurity",
+        "url": "https://www.welivesecurity.com/en/eset-research/new-ngate-variant-hides-in-a-trojanized-nfc-payment-app"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-14",
+        "event": "Reported by ESET WeLiveSecurity"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-14T21:47:53Z",
+    "wire_id": "9415ee252e22"
+  },
+  {
+    "id": "claude-code-source-leak-npm",
+    "date": "2026-03-31",
+    "title": "Anthropic's Claude Code source code leaked via npm and weaponized by threat actors",
+    "category": "Model & data leak",
+    "direction": "on-ai",
+    "severity": "high",
+    "country": "US",
+    "region": "North America",
+    "target": "Anthropic Claude Code",
+    "loss_usd": null,
+    "summary": "Anthropic accidentally exposed the full source code of Claude Code, its terminal-based coding agent, through npm on 2026-03-31. Zscaler says threat actors are now weaponizing the leak.",
+    "actor": "Unknown",
+    "actor_type": "accident",
+    "attribution": "The exposure was accidental on Anthropic's side. The threat actors weaponizing the leak are not named in the summary.",
+    "motive": "Unknown",
+    "vector": "Source code accidentally published in an npm package",
+    "root_cause": "Accidental publication of the full source code through npm. The exact packaging error is not stated in the summary.",
+    "impact": "The full source of Anthropic's flagship coding agent was exposed. Threat actors are reportedly weaponizing it, with specific victims not stated.",
+    "response": "Zscaler ThreatLabz issued a critical alert with protection guidance. Any Anthropic remediation is not stated in the summary.",
+    "status": "ongoing",
+    "cve": null,
+    "confidence": 0.75,
+    "source": "Zscaler ThreatLabz",
+    "url": "https://www.zscaler.com/blogs/security-research/anthropic-claude-code-leak",
+    "sources": [
+      {
+        "name": "Zscaler ThreatLabz",
+        "url": "https://www.zscaler.com/blogs/security-research/anthropic-claude-code-leak"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-03-31",
+        "event": "Reported by Zscaler ThreatLabz"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-14T21:47:53Z",
+    "wire_id": "653ed54bf319"
+  },
+  {
+    "id": "context-ai-oauth-token-compromise",
+    "date": "2026-10-14",
+    "title": "Context.ai OAuth token compromise enables SaaS supply chain attack",
+    "category": "AI supply chain",
+    "direction": "on-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "Context.ai OAuth tokens and connected SaaS integrations",
+    "loss_usd": null,
+    "summary": "Wiz Research reports that compromised Context.ai OAuth tokens enabled attackers to run a supply chain attack through trusted SaaS integrations.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "attribution": "Unknown; the summary names no actor.",
+    "motive": "Unknown",
+    "vector": "Compromised OAuth tokens abused via trusted SaaS integrations.",
+    "root_cause": "Context.ai OAuth tokens were compromised; how is not stated.",
+    "impact": "Downstream victims and scale are not stated in the summary.",
+    "response": "Wiz published guidance on assessing risk and preventing a repeat.",
+    "status": "under investigation",
+    "cve": null,
+    "confidence": 0.45,
+    "source": "Wiz Research",
+    "url": "https://www.wiz.io/blog/contextai-oauth-token-compromise",
+    "sources": [
+      {
+        "name": "Wiz Research",
+        "url": "https://www.wiz.io/blog/contextai-oauth-token-compromise"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-14",
+        "event": "Reported by Wiz Research"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-14T21:47:53Z",
+    "wire_id": "57f02021fc5e"
+  },
+  {
+    "id": "teampcp-litellm-trojanized-pypi",
+    "date": "2026-03-24",
+    "title": "TeamPCP trojanizes LiteLLM versions 1.82.7 and 1.82.8 to steal cloud and CI/CD secrets",
+    "category": "AI supply chain",
+    "direction": "on-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "LiteLLM open-source package users",
+    "loss_usd": null,
+    "summary": "Malicious LiteLLM versions 1.82.7 and 1.82.8 abuse Python's .pth mechanism for stealthy persistence and exfiltrate cloud credentials, CI/CD secrets and keys to attacker-controlled domains.",
+    "actor": "TeamPCP",
+    "actor_type": "unknown",
+    "attribution": "Wiz Research describes the compromise as a continuation of TeamPCP's open-source attack campaign.",
+    "motive": "Credential and secret theft (cloud credentials, CI/CD secrets, keys)",
+    "vector": "Trojanized LiteLLM package releases (1.82.7, 1.82.8) using Python .pth files for persistence",
+    "root_cause": "Unknown; LiteLLM was compromised as part of TeamPCP's wider open-source attack spree.",
+    "impact": "Malware exfiltrates cloud credentials, CI/CD secrets and keys to attacker-controlled domains. Number of victims Unknown.",
+    "response": "Wiz Research published an analysis of the malicious versions. Vendor remediation details Unknown.",
+    "status": "under investigation",
+    "cve": null,
+    "confidence": 0.6,
+    "source": "Wiz Research",
+    "url": "https://www.wiz.io/blog/threes-a-crowd-teampcp-trojanizes-litellm-in-continuation-of-campaign",
+    "sources": [
+      {
+        "name": "Wiz Research",
+        "url": "https://www.wiz.io/blog/threes-a-crowd-teampcp-trojanizes-litellm-in-continuation-of-campaign"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-03-24",
+        "event": "Reported by Wiz Research"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-14T21:47:53Z",
+    "wire_id": "7ed3ff0cd5ea"
+  },
+  {
+    "id": "nx-s1ngularity-ai-malware",
+    "date": "2025-08-26",
+    "title": "s1ngularity: Nx supply chain attack deploys AI-powered malware",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "Nx build tool users and downstream developers",
+    "loss_usd": null,
+    "summary": "The s1ngularity attack on the Nx supply chain used AI-powered malware; Wiz analysed how the malware performed, calculated the incident impact and shared novel TTPs.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "attribution": "Unknown; Wiz's analysis does not name an actor in the summary.",
+    "motive": "Unknown",
+    "vector": "Compromise of the Nx supply chain delivering malware that uses AI tooling",
+    "root_cause": "Unknown from the summary.",
+    "impact": "Wiz calculated the incident impact, but the summary gives no figures. Unknown.",
+    "response": "Wiz published a deeper analysis and shared TTPs for further investigation.",
+    "status": "under investigation",
+    "cve": null,
+    "confidence": 0.55,
+    "source": "Wiz Research",
+    "url": "https://www.wiz.io/blog/s1ngularitys-aftermath",
+    "sources": [
+      {
+        "name": "Wiz Research",
+        "url": "https://www.wiz.io/blog/s1ngularitys-aftermath"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2025-08-26",
+        "event": "Reported by Wiz Research"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-14T21:47:53Z",
+    "wire_id": "82d293cbb6b0"
+  },
+  {
+    "id": "deepseek-exposed-database-chat-history",
+    "date": "2025-01-29",
+    "title": "Wiz finds exposed DeepSeek database leaking chat history and logs",
+    "category": "Model & data leak",
+    "direction": "on-ai",
+    "severity": "high",
+    "country": "CN",
+    "region": "Asia-Pacific",
+    "target": "DeepSeek internal database",
+    "loss_usd": null,
+    "summary": "A publicly accessible DeepSeek database allowed full control of database operations and exposed over a million lines of log streams with highly sensitive information, including chat history.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "attribution": "Discovered and reported by Wiz Research; no malicious actor identified in the summary.",
+    "motive": "Unknown",
+    "vector": "Publicly accessible database with no access restriction, allowing full control of database operations.",
+    "root_cause": "Database exposed to the public internet, allowing access to internal data and operations.",
+    "impact": "Over a million lines of log streams with highly sensitive information, including chat history, were exposed.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "confidence": 0.6,
+    "source": "Wiz Research",
+    "url": "https://www.wiz.io/blog/wiz-research-uncovers-exposed-deepseek-database-leak",
+    "sources": [
+      {
+        "name": "Wiz Research",
+        "url": "https://www.wiz.io/blog/wiz-research-uncovers-exposed-deepseek-database-leak"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2025-01-29",
+        "event": "Reported by Wiz Research"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-14T21:47:53Z",
+    "wire_id": "2d80cae7fd60"
+  },
+  {
+    "id": "langflow-validate-code-rce-cve-2025-3248",
+    "date": "2026-10-14",
+    "title": "Langflow validate/code missing-auth RCE (CVE-2025-3248) actively exploited per CISA KEV",
+    "category": "AI supply chain",
+    "direction": "on-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "Langflow AI workflow platform deployments",
+    "loss_usd": null,
+    "summary": "CISA lists Langflow's missing-authentication flaw in /api/v1/validate/code as actively exploited, letting remote unauthenticated attackers run arbitrary code via crafted HTTP requests.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "attribution": "No attribution given in the KEV entry.",
+    "motive": "Unknown",
+    "vector": "Crafted unauthenticated HTTP requests to the /api/v1/validate/code endpoint.",
+    "root_cause": "Missing authentication on the code validation endpoint allows arbitrary code execution.",
+    "impact": "Remote unauthenticated code execution on affected Langflow installations; victims and scale not stated.",
+    "response": "CISA added the flaw to its Known Exploited Vulnerabilities catalog.",
+    "status": "unresolved",
+    "cve": "CVE-2025-3248",
+    "confidence": 0.55,
+    "source": "CISA KEV",
+    "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2025-3248",
+    "sources": [
+      {
+        "name": "CISA KEV",
+        "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2025-3248"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-14",
+        "event": "Reported by CISA KEV"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-14T21:47:53Z",
+    "wire_id": "0e289441d136"
   }
 ]
