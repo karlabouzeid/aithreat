@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-14T12:35:49Z",
-  "wire_items": 139,
-  "new_items": 213,
+  "updated_at": "2026-10-14T13:24:53Z",
+  "wire_items": 140,
+  "new_items": 75,
   "candidates": 0,
   "incidents": 57,
   "feeds_ok": [
@@ -26,5 +26,5 @@
   "feeds_failed": [
 
   ],
-  "triage": "no ANTHROPIC_API_KEY: keyword filter only"
+  "triage": "triage failed: API 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"x-api-key header is required\"},\"request_id\":\""
 }
