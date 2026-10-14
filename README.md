@@ -54,5 +54,20 @@ the pages, but the robot will rebuild them anyway.
 The strategy, the account steps (Google Search Console, Bing Webmaster Tools, dataset mirrors) and the
 weekly checklist are in `GROWTH.md`.
 
+## If the 30-minute schedule misses runs
+GitHub's free scheduler is best-effort: it can delay or skip cron runs for an hour or more. If the
+"Updated N min ago" stamp on the site keeps drifting past 40 minutes, add an outside timer that presses
+the "Run workflow" button for you:
+1. github.com → your avatar → Settings → Developer settings → Personal access tokens → **Fine-grained tokens**
+   → Generate new token. Name `aithreat-cron`, expiration 1 year, Repository access: only `aithreat`,
+   Permissions → Repository permissions → **Actions: Read and write**. Generate and copy the token.
+2. Create a free account at cron-job.org → Create cronjob:
+   - URL: `https://api.github.com/repos/karlabouzeid/aithreat/actions/workflows/update.yml/dispatches`
+   - Schedule: every 30 minutes (minutes 5 and 35)
+   - Advanced → Request method **POST**; Headers: `Authorization: Bearer <the token>`,
+     `Accept: application/vnd.github+json`; Request body: `{"ref":"main"}`
+3. Save. Each ping starts a run within seconds; GitHub shows them as "Manually run" via API.
+The token lives only in cron-job.org; never paste it anywhere else.
+
 ## Changing sources
 Edit `config/feeds.json`. Each entry is a name and an RSS/Atom URL. `"ai_only": true` means every item from that feed counts as AI-related without keyword checks.
