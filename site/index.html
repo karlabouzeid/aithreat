@@ -487,11 +487,13 @@
   const byDateDesc = (a, b) => b.date.localeCompare(a.date);
   const el = (tag, cls, text) => { const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; };
   const byId = new Map(INC.map((i) => [i.id, i]));
+  const track = (name, data) => { try { if (window.umami && window.umami.track) window.umami.track(name, Object.assign({ lang: state.lang }, data || {})); } catch (e) {} };
   const L = (i) => { const tr = TR[state.lang] && TR[state.lang][i.id]; if (!tr) return i; const o = { ...i, ...tr }; if (Array.isArray(tr.timeline)) o.timeline = i.timeline.map((e, n) => ({ date: e.date, event: tr.timeline[n] || e.event })); return o; };
 
   // ---- Language ----
   async function setLang(lang, first) {
     if (!LANGS.includes(lang)) lang = 'en';
+    if (!first && lang !== state.lang) track('language', { to: lang, from: state.lang });
     state.lang = lang; regionNames = null;
     try { localStorage.setItem('atw-lang', lang); } catch (e) {}
     document.documentElement.lang = lang;
@@ -549,7 +551,7 @@
   const winBox = document.getElementById('win-filter');
   [48, 168, 720, 0].forEach((h) => {
     const b = el('button', 'chip'); b.type = 'button'; b.dataset.win = String(h); b.setAttribute('aria-pressed', String(h === state.win));
-    b.addEventListener('click', () => { state.win = h; winBox.querySelectorAll('.chip').forEach((c) => c.setAttribute('aria-pressed', String(Number(c.dataset.win) === h))); render(); });
+    b.addEventListener('click', () => { state.win = h; track('filter', { window: h }); winBox.querySelectorAll('.chip').forEach((c) => c.setAttribute('aria-pressed', String(Number(c.dataset.win) === h))); render(); });
     winBox.append(b);
   });
   const verBox = document.getElementById('ver-filter');
@@ -617,7 +619,7 @@
     if (state.place && !groups.has(state.place)) state.place = null;
     renderPanel(list);
   }
-  function select(k) { state.place = k; renderPanel(filtered()); }
+  function select(k) { if (k && k !== state.place) track('region', { place: k }); state.place = k; renderPanel(filtered()); }
 
   function renderPanel(list) {
     const k = state.place;
@@ -657,6 +659,7 @@
     const cf = el('button', 'open primary', t('open_case')); cf.type = 'button'; acts.append(cf);
     if (safe) { const o = el('a', 'open', `${t('read_report')} · ${i.source} ↗`); o.href = i.url; o.target = '_blank'; o.rel = 'noopener noreferrer'; acts.append(o); }
     c.append(meta, h, el('p', null, i.summary), facts, acts);
+    c.addEventListener('click', (e) => { if (e.target.closest('a')) track('report_click', { id: i.id, source: i.source }); });
     c.addEventListener('click', (e) => { if (e.target.closest('a')) return; openCase(i.id); });
     c.addEventListener('mouseenter', () => { const k = placeOf(i); pinLayer.selectAll('g.pin').classed('lit', (d) => d.k === k); ww.classList.toggle('lit', k === 'GL'); });
     c.addEventListener('mouseleave', () => { pinLayer.selectAll('g.pin').classed('lit', false); ww.classList.remove('lit'); });
@@ -671,6 +674,7 @@
   const sec = (title, ...kids) => { const s = el('section', 'sec'); s.append(el('h3', null, title), ...kids); return s; };
   function openCase(id) {
     const i = byId.get(id); if (!i) return;
+    if (state.open !== id) track('case_open', { id, severity: i.severity, category: i.category, verified: i.verified !== false });
     state.open = id;
     if (location.hash.slice(1) !== id) history.replaceState(null, '', '#' + id);
     renderCase(i); caseEl.hidden = false; document.body.style.overflow = 'hidden';
@@ -704,8 +708,8 @@
     const eb = el('div', 'eyebrow'); eb.append(el('span', null, t('case') + ' ' + i.id), el('span', null, tt('cats', i.category)), el('span', null, fmtDate(i.date)), el('span', null, placeName(k)));
     const h2 = el('h2', null, i.title); h2.id = 'd-title';
     const tools = el('div', 'tools');
-    const b1 = el('button', 'open', t('copy_cite')); b1.type = 'button'; b1.addEventListener('click', () => copyText(b1, citation(i)));
-    const b2 = el('button', 'open', t('copy_link')); b2.type = 'button'; b2.addEventListener('click', () => copyText(b2, caseUrl(i.id)));
+    const b1 = el('button', 'open', t('copy_cite')); b1.type = 'button'; b1.addEventListener('click', () => { track('copy_citation', { id: i.id }); copyText(b1, citation(i)); });
+    const b2 = el('button', 'open', t('copy_link')); b2.type = 'button'; b2.addEventListener('click', () => { track('copy_link', { id: i.id }); copyText(b2, caseUrl(i.id)); });
     tools.append(b1, b2);
     head.append(eb, h2, el('p', null, i.summary), tools);
     const facts = el('dl', 'facts-grid');
@@ -723,6 +727,7 @@
     ((i.sources && i.sources.length) ? i.sources : [{ name: i.source, url: i.url }]).filter((s) => /^https?:\/\//.test(s.url)).forEach((s) => {
       const li = el('li'); const a = el('a', null, s.name); a.href = s.url; a.target = '_blank'; a.rel = 'noopener noreferrer';
       let host = ''; try { host = new URL(s.url).hostname.replace(/^www\./, ''); } catch (e) {}
+      a.addEventListener('click', () => track('source_click', { id: i.id, host }));
       li.append(a, ' ', el('small', null, host)); srcs.append(li);
     });
     const invBox = el('div', 'inv'); invBox.id = 'inv-box';
@@ -759,7 +764,7 @@
     const fail = (e) => { msg.hidden = false; msg.textContent = e && e.code === 'invalid_argument' ? t('readonly') : t('save_fail'); };
     if (!inv) {
       const b = el('button', 'btn', t('open_inv')); b.type = 'button';
-      b.addEventListener('click', async () => { b.disabled = true; try { await invWrite(id, { status: 'open', opened_at: new Date().toISOString(), notes: [] }); } catch (e) { fail(e); b.disabled = false; } });
+      b.addEventListener('click', async () => { b.disabled = true; track('investigation_open', { id }); try { await invWrite(id, { status: 'open', opened_at: new Date().toISOString(), notes: [] }); } catch (e) { fail(e); b.disabled = false; } });
       box.append(el('p', 'inv-msg', t('no_inv')), b, msg); return;
     }
     const row = el('div', 'inv-row');
@@ -808,6 +813,7 @@
       const when = el('div', 'wire-when'); when.append(el('b', null, new Date(w.published).toLocaleTimeString(loc(), { hour: '2-digit', minute: '2-digit' })), el('span', null, w.source));
       const body = el('div', 'wire-body');
       const a = el('a', null, w.title); a.href = w.url; a.target = '_blank'; a.rel = 'noopener noreferrer';
+      a.addEventListener('click', () => track('wire_click', { source: w.source, kind: w.kind || 'untagged' }));
       body.append(a);
       if (w.one_line || w.summary) body.append(el('p', null, w.one_line || w.summary));
       const tags = el('div', 'wire-tags');
@@ -896,7 +902,7 @@
   }
   function dlButton(label, name, type, make) {
     const a = el('a', 'btn', label); a.download = name; a.href = '#';
-    a.addEventListener('click', (e) => { e.preventDefault(); const blob = new Blob([make()], { type }); const u = URL.createObjectURL(blob); const x = el('a'); x.href = u; x.download = name; document.body.append(x); x.click(); x.remove(); setTimeout(() => URL.revokeObjectURL(u), 2000); });
+    a.addEventListener('click', (e) => { e.preventDefault(); track('download', { file: name }); const blob = new Blob([make()], { type }); const u = URL.createObjectURL(blob); const x = el('a'); x.href = u; x.download = name; document.body.append(x); x.click(); x.remove(); setTimeout(() => URL.revokeObjectURL(u), 2000); });
     return a;
   }
   function renderData() {
@@ -921,7 +927,8 @@
     if (byId.has(h)) { openCase(h); return; }
     if (!caseEl.hidden) { state.open = null; caseEl.hidden = true; document.body.style.overflow = ''; }
     const view = ['map', 'wire', 'markets', 'data'].includes(h) ? h : 'map';
-    state.view = view;
+    if (view !== state.view || !state.routed) track('view', { view });
+    state.view = view; state.routed = true;
     ['map', 'wire', 'markets', 'data'].forEach((k) => { document.getElementById('view-' + k).hidden = k !== view; });
     document.querySelectorAll('#views a').forEach((a) => { if (a.dataset.view === view) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current'); });
     window.scrollTo(0, 0);
@@ -932,7 +939,7 @@
   let lang = 'en';
   try { lang = new URLSearchParams(location.search).get('lang') || localStorage.getItem('atw-lang') || (navigator.language || 'en').slice(0, 2); } catch (e) {}
   renderChrome(); render(); renderWire(); renderMarkets(); renderData(); route();
-  setLang(lang);
+  setLang(lang, true);
   loadLive();
 })();
 </script>
