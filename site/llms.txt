@@ -10,6 +10,9 @@ Positioning: a reference registry of AI security incidents (attacks on AI system
 - [Live wire](https://aithreat.io/#wire): AI security headlines from vetted sources, refreshed every 30 minutes (machine-triaged, not verified)
 - [Market reaction](https://aithreat.io/#markets): share-price moves of listed companies after incidents (methodology on the page)
 - [Data and citing](https://aithreat.io/#data): download links, field list, inclusion rule, severity scale
+- [About and method](https://aithreat.io/about/): inclusion rule, severity scale, verified case files versus the machine-triaged wire, CC BY 4.0 licence and citation format, corrections policy (public change log, no silent edits), contact
+- [Glossary of incident types](https://aithreat.io/cases/glossary/): plain-language definitions of the nine categories, each linked to its cases
+- Company hubs: https://aithreat.io/cases/company/<slug>/ lists the cases in which one company or product was the target (see the list below)
 
 ## Open data
 - [incidents.en.json](https://aithreat.io/data/incidents.en.json): the full verified dataset (fields: id, date, title, category, direction, severity, country, region, target, loss_usd, summary, actor, actor_type, attribution, motive, vector, root_cause, timeline, impact, response, status, cve, sources)
@@ -18,7 +21,7 @@ Positioning: a reference registry of AI security incidents (attacks on AI system
 - [Sitemap](https://aithreat.io/sitemap.xml)
 
 ## Case files by type
-- [AI phishing](https://aithreat.io/cases/category/ai-phishing/): 1 cases
+- [AI phishing](https://aithreat.io/cases/category/ai-phishing/): 1 case
 - [AI supply chain](https://aithreat.io/cases/category/ai-supply-chain/): 12 cases
 - [AI-assisted malware](https://aithreat.io/cases/category/ai-assisted-malware/): 6 cases
 - [Agent hijack](https://aithreat.io/cases/category/agent-hijack/): 5 cases
@@ -27,6 +30,65 @@ Positioning: a reference registry of AI security incidents (attacks on AI system
 - [Model & data leak](https://aithreat.io/cases/category/model-data-leak/): 12 cases
 - [Prompt injection](https://aithreat.io/cases/category/prompt-injection/): 6 cases
 - [State actor AI ops](https://aithreat.io/cases/category/state-actor-ai-ops/): 5 cases
+
+## Case files by company
+- [300+ organizations' developers](https://aithreat.io/cases/company/300-organizations-developers/): 1 case
+- [Amazon Q Developer extension](https://aithreat.io/cases/company/amazon-q-developer-extension/): 1 case
+- [Anthropic Claude](https://aithreat.io/cases/company/anthropic-claude/): 1 case
+- [Anthropic Claude Code / developers](https://aithreat.io/cases/company/anthropic-claude-code-developers/): 1 case
+- [Anthropic Claude Mythos Preview](https://aithreat.io/cases/company/anthropic-claude-mythos-preview/): 1 case
+- [Anthropic mcp-server-git](https://aithreat.io/cases/company/anthropic-mcp-server-git/): 1 case
+- [BerriAI LiteLLM proxy](https://aithreat.io/cases/company/berriai-litellm-proxy/): 1 case
+- [Brazilian consumers](https://aithreat.io/cases/company/brazilian-consumers/): 1 case
+- [ChatGPT Gmail connector](https://aithreat.io/cases/company/chatgpt-gmail-connector/): 1 case
+- [Cline CLI users](https://aithreat.io/cases/company/cline-cli-users/): 1 case
+- [Codeway Chat & Ask AI](https://aithreat.io/cases/company/codeway-chat-ask-ai/): 1 case
+- [Copilot Studio, Salesforce Agentforce](https://aithreat.io/cases/company/copilot-studio-salesforce-agentforce/): 1 case
+- [Corporate cloud tenants](https://aithreat.io/cases/company/corporate-cloud-tenants/): 1 case
+- [DeepSeek](https://aithreat.io/cases/company/deepseek/): 1 case
+- [Exposed Ollama servers](https://aithreat.io/cases/company/exposed-ollama-servers/): 1 case
+- [Exposed Ollama, vLLM and MCP endpoints](https://aithreat.io/cases/company/exposed-ollama-vllm-and-mcp-endpoints/): 1 case
+- [Fintech and crypto companies](https://aithreat.io/cases/company/fintech-and-crypto-companies/): 1 case
+- [Flowise AI agent builder](https://aithreat.io/cases/company/flowise-ai-agent-builder/): 1 case
+- [Google Cloud Vertex AI Agent Engine](https://aithreat.io/cases/company/google-cloud-vertex-ai-agent-engine/): 1 case
+- [Google Gemini / multiple sectors](https://aithreat.io/cases/company/google-gemini-multiple-sectors/): 1 case
+- [Grafana AI assistant](https://aithreat.io/cases/company/grafana-ai-assistant/): 1 case
+- [Healthcare, government, emergency services](https://aithreat.io/cases/company/healthcare-government-emergency-services/): 1 case
+- [Hugging Face](https://aithreat.io/cases/company/hugging-face/): 1 case
+- [Italian business executives](https://aithreat.io/cases/company/italian-business-executives/): 1 case
+- [Langflow servers](https://aithreat.io/cases/company/langflow-servers/): 1 case
+- [Linux cloud environments](https://aithreat.io/cases/company/linux-cloud-environments/): 1 case
+- [McDonald's / Paradox.ai](https://aithreat.io/cases/company/mcdonald-s-paradox-ai/): 1 case
+- [McKinsey Lilli AI platform](https://aithreat.io/cases/company/mckinsey-lilli-ai-platform/): 1 case
+- [Mercor; clients Meta, OpenAI, Anthropic](https://aithreat.io/cases/company/mercor-clients-meta-openai-anthropic/): 1 case
+- [Meta AI account-recovery assistant / Instagram](https://aithreat.io/cases/company/meta-ai-account-recovery-assistant-instagram/): 1 case
+- [Meta internal systems](https://aithreat.io/cases/company/meta-internal-systems/): 1 case
+- [Mexican tax authority, electoral institute, state governments](https://aithreat.io/cases/company/mexican-tax-authority-electoral-institute-state-governments/): 1 case
+- [Microsoft 365 Copilot](https://aithreat.io/cases/company/microsoft-365-copilot/): 1 case
+- [Microsoft Azure OpenAI customers](https://aithreat.io/cases/company/microsoft-azure-openai-customers/): 1 case
+- [Microsoft Copilot Personal](https://aithreat.io/cases/company/microsoft-copilot-personal/): 1 case
+- [Moltbook](https://aithreat.io/cases/company/moltbook/): 1 case
+- [Multinational firm (Singapore office)](https://aithreat.io/cases/company/multinational-firm-singapore-office/): 1 case
+- [npm/PyPI AI developer packages](https://aithreat.io/cases/company/npm-pypi-ai-developer-packages/): 1 case
+- [Nx build system users](https://aithreat.io/cases/company/nx-build-system-users/): 1 case
+- [OpenAI API platform users](https://aithreat.io/cases/company/openai-api-platform-users/): 1 case
+- [OpenAI Codex users](https://aithreat.io/cases/company/openai-codex-users/): 1 case
+- [OpenClaw agent users](https://aithreat.io/cases/company/openclaw-agent-users/): 1 case
+- [postmark-mcp users](https://aithreat.io/cases/company/postmark-mcp-users/): 1 case
+- [Ray (Anyscale) AI compute clusters](https://aithreat.io/cases/company/ray-anyscale-ai-compute-clusters/): 1 case
+- [RubyGems / RubyDoc.info](https://aithreat.io/cases/company/rubygems-rubydoc-info/): 1 case
+- [Salesloft Drift / Salesforce customers](https://aithreat.io/cases/company/salesloft-drift-salesforce-customers/): 1 case
+- [South Korean defense-related researchers](https://aithreat.io/cases/company/south-korean-defense-related-researchers/): 1 case
+- [Starmangalsutra (Sky Gold and Diamonds)](https://aithreat.io/cases/company/starmangalsutra-sky-gold-and-diamonds/): 1 case
+- [Tech, finance, chemical firms, government agencies](https://aithreat.io/cases/company/tech-finance-chemical-firms-government-agencies/): 1 case
+- [Ukrainian/European defense, drone makers, North African government](https://aithreat.io/cases/company/ukrainian-european-defense-drone-makers-north-african-government/): 1 case
+- [Ukrainian government bodies](https://aithreat.io/cases/company/ukrainian-government-bodies/): 1 case
+- [US organizations](https://aithreat.io/cases/company/us-organizations/): 1 case
+- [US State Department / senior officials](https://aithreat.io/cases/company/us-state-department-senior-officials/): 1 case
+- [Vercel / Context.ai](https://aithreat.io/cases/company/vercel-context-ai/): 1 case
+- [Windows and Linux systems](https://aithreat.io/cases/company/windows-and-linux-systems/): 1 case
+- [Windows systems](https://aithreat.io/cases/company/windows-systems/): 1 case
+- [xAI Grok users](https://aithreat.io/cases/company/xai-grok-users/): 1 case
 
 ## Verified case files
 - [PixelLeak: AI coding agents push 13,000 internal screenshots to public GitHub](https://aithreat.io/cases/pixelleak-agent-screenshots/): 2026-09-29, medium, Model & data leak, Worldwide. Glow Labs found coding agents uploaded internal app screenshots, including billing and treasury consoles, to public repos so reviewers could see them, mostly under personal accounts.
