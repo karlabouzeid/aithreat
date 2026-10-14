@@ -4558,52 +4558,6 @@
     ]
   },
   {
-    "id": "jordan-cybercrime-unit-deepfake-warning",
-    "date": "2025-07-29",
-    "title": "Jordan's Cybercrime Unit warns of deepfake accounts impersonating public figures for fraud",
-    "category": "Deepfake fraud",
-    "direction": "with-ai",
-    "severity": "medium",
-    "country": "JO",
-    "region": "Middle East & Africa",
-    "target": "Jordanian public",
-    "loss_usd": null,
-    "summary": "Jordan's Cybercrime Unit warned that fake social media accounts were using AI deepfake audio and video of public figures to lure citizens to fraudulent websites for financial scams and data theft.",
-    "source": "Roya News (citing Cybercrime Unit)",
-    "url": "https://royanews.tv/news/355018",
-    "actor": "Unknown",
-    "actor_type": "criminal",
-    "attribution": "Unknown.",
-    "motive": "Financial fraud and personal data theft.",
-    "vector": "Fake accounts posting AI-generated videos of public figures linking to fraudulent sites.",
-    "root_cause": "Low cost of generating convincing synthetic media of well-known Jordanians.",
-    "timeline": [
-      {
-        "date": "2025-07-28",
-        "event": "Fake accounts with deepfaked public figures reported to the Cybercrime Unit"
-      },
-      {
-        "date": "2025-07-29",
-        "event": "Cybercrime Unit issues public warning"
-      }
-    ],
-    "impact": "No loss figures published.",
-    "response": "Public warning and call to report via official channels.",
-    "status": "ongoing",
-    "cve": null,
-    "verification": "confirmed",
-    "sources": [
-      {
-        "name": "Roya News",
-        "url": "https://royanews.tv/news/355018"
-      },
-      {
-        "name": "OECD AI Incidents Monitor",
-        "url": "https://oecd.ai/en/incidents/2025-07-29-e1ab"
-      }
-    ]
-  },
-  {
     "id": "chatgpt-shared-chats-indexed",
     "date": "2025-07-31",
     "title": "Thousands of shared ChatGPT conversations surface in Google search; OpenAI kills feature",
