@@ -221,6 +221,13 @@ wire = (fresh + existing).uniq { |w| w["id"] }.select { |w| Time.parse(w["publis
 File.write(WIRE_PATH, JSON.pretty_generate(wire))
 File.write(CAND_PATH, JSON.pretty_generate(candidates))
 File.write(INC_PATH, JSON.pretty_generate(incidents)) if promoted.any?
+esc = ->(s) { s.to_s.gsub("&", "&amp;").gsub("<", "&lt;").gsub(">", "&gt;").gsub('"', "&quot;") }
+rss_items = wire.first(60).map do |w|
+  desc = [w["one_line"], w["summary"]].compact.reject(&:empty?).first.to_s
+  "<item><title>#{esc.(w['title'])}</title><link>#{esc.(w['url'])}</link><guid isPermaLink=\"false\">#{w['id']}</guid><pubDate>#{Time.parse(w['published']).rfc2822}</pubDate><category>#{esc.(w['kind'] || 'untagged')}</category><description>#{esc.("#{w['source']}: #{desc}")}</description></item>"
+end
+File.write(File.join(SITE, "feed.xml"), %(<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>AI Threat Watch wire</title><link>https://aithreat.io/#wire</link><description>AI security headlines from vetted sources, refreshed every 30 minutes.</description><lastBuildDate>#{now.rfc2822}</lastBuildDate>#{rss_items.join}</channel></rss>))
+
 status = { "updated_at" => now.iso8601, "wire_items" => wire.size, "new_items" => fresh.size, "candidates" => candidates.size, "incidents" => incidents.size, "feeds_ok" => feeds_ok, "feeds_failed" => feeds_failed, "triage" => triage_note }
 File.write(STATUS_PATH, JSON.pretty_generate(status))
 log status.to_json

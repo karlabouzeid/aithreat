@@ -8,6 +8,7 @@
 <meta property="og:description" content="Live map and case files of AI security incidents worldwide.">
 <meta property="og:type" content="website">
 <style>html{color-scheme:light}body{margin:0;font:14px system-ui,sans-serif}img{max-width:100%}[hidden]{display:none!important}</style>
+<link rel="alternate" type="application/rss+xml" title="AI Threat Watch wire" href="/feed.xml">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Ccircle cx=%2716%27 cy=%2716%27 r=%2714%27 fill=%27%231e4f7c%27/%3E%3Ccircle cx=%2716%27 cy=%2716%27 r=%276%27 fill=%27%23bf2a30%27/%3E%3C/svg%3E">
 <script defer src="https://cloud.umami.is/script.js" data-website-id="aafe3de7-3e98-4efd-91e0-2d01c4a8994f"></script>
 <title>AI Threat Watch</title>
@@ -16,185 +17,219 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+Condensed:wght@600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Sans+Arabic:wght@400;500;600&family=Noto+Sans+SC:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Sans+Arabic:wght@400;500;600&family=Noto+Sans+SC:wght@400;500;600&display=swap">
 <style>
-  /* Layout: advisory-desk console. Top bar with views and language; map left, sticky dossier right; stacks under 960px. */
+  /* Situation Room: dark by default, day mode via data-theme="light". Map is the stage; panel floats over it on wide screens, stacks below on phones. */
   :root {
-    --bg: #edf0f3; --surface: #ffffff; --ink: #15212c; --muted: #586674; --line: #d4dbe2;
-    --ocean: #e2e8ee; --land: #c8d1da; --land-hit: #9fb0c1; --accent: #1e4f7c; --accent-ink: #ffffff;
-    --crit: #bf2a30; --high: #cc6418; --med: #9c7c08; --low: #6a7683; --pin-ink: #ffffff; --up: #1f7a4d; --down: #bf2a30;
-    --f-display: "IBM Plex Sans Condensed", "Arial Narrow", system-ui, sans-serif;
+    --bg: #0b1220; --surface: #121a2b; --surface2: #0e1627; --ink: #e6edf5; --muted: #8b9bb1; --line: #1c2740; --line2: #263450;
+    --ocean: #0b1220; --land: #223049; --land-hit: #3a4f70; --accent: #f5b942; --accent-ink: #0b1220; --accent-soft: rgba(245,185,66,0.15);
+    --crit: #ff5d62; --high: #ff9a4c; --med: #e0bf47; --low: #8e9aa7; --up: #4fc384; --down: #ff5d62; --pin-ink: #0b1220; --halo: .32; --glass: rgba(18,26,43,0.86);
+    --f-display: "Archivo", "Arial Narrow", system-ui, sans-serif;
     --f-body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
     --f-mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+    color-scheme: dark;
   }
-  @media (prefers-color-scheme: dark) {
-    :root:not([data-theme="light"]) {
-      --bg: #0e151c; --surface: #16202a; --ink: #e4eaf0; --muted: #93a1ae; --line: #283643;
-      --ocean: #121b24; --land: #283542; --land-hit: #44576b; --accent: #82b2df; --accent-ink: #0e151c;
-      --crit: #ff5d62; --high: #ff9a4c; --med: #e0bf47; --low: #8e9aa7; --pin-ink: #0e151c; --up: #4fc384; --down: #ff5d62; color-scheme: dark;
-    }
-  }
-  :root[data-theme="dark"] {
-    --bg: #0e151c; --surface: #16202a; --ink: #e4eaf0; --muted: #93a1ae; --line: #283643;
-    --ocean: #121b24; --land: #283542; --land-hit: #44576b; --accent: #82b2df; --accent-ink: #0e151c;
-    --crit: #ff5d62; --high: #ff9a4c; --med: #e0bf47; --low: #8e9aa7; --pin-ink: #0e151c; --up: #4fc384; --down: #ff5d62; color-scheme: dark;
+  :root[data-theme="light"] {
+    --bg: #eef2f7; --surface: #ffffff; --surface2: #f6f8fb; --ink: #0f1a2b; --muted: #5b6b80; --line: #d9e0ea; --line2: #c5cfdd;
+    --ocean: #e3e9f1; --land: #c6d1de; --land-hit: #93a7c0; --accent: #b7791f; --accent-ink: #ffffff; --accent-soft: rgba(183,121,31,0.14);
+    --crit: #c62828; --high: #d2691e; --med: #a08200; --low: #6a7683; --up: #1f7a4d; --down: #c62828; --pin-ink: #ffffff; --halo: .22; --glass: rgba(255,255,255,0.9);
+    color-scheme: light;
   }
   html[lang="ar"] { --f-body: "IBM Plex Sans Arabic", "IBM Plex Sans", system-ui, sans-serif; --f-display: "IBM Plex Sans Arabic", system-ui, sans-serif; }
   html[lang="zh"] { --f-body: "Noto Sans SC", "PingFang SC", "Microsoft YaHei", system-ui, sans-serif; --f-display: "Noto Sans SC", "PingFang SC", system-ui, sans-serif; }
   body { background: var(--bg); color: var(--ink); font-family: var(--f-body); font-size: 15px; line-height: 1.5; }
-  .wrap { max-width: 1320px; margin: 0 auto; padding-inline: clamp(16px, 3vw, 32px); padding-block: 16px 40px; display: grid; gap: 20px; }
+  .wrap { max-width: 1400px; margin: 0 auto; padding-inline: clamp(16px, 2.5vw, 32px); padding-block: 12px 40px; display: grid; gap: 18px; }
+  .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+  :is(.chip, .pin, .ww, a, button, select, textarea, input):focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 
-  .bar { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 18px; border-bottom: 1px solid var(--line); padding-bottom: 12px; }
-  .brand { font-family: var(--f-display); font-weight: 600; font-size: 20px; letter-spacing: -.01em; display: inline-flex; align-items: center; gap: 8px; }
-  .brand i { width: 10px; height: 10px; border-radius: 50%; background: var(--crit); }
+  /* Top bar */
+  .bar { display: flex; align-items: center; gap: 10px 22px; border-bottom: 1px solid var(--line); padding-bottom: 12px; flex-wrap: wrap; }
+  .brand { font-family: var(--f-display); font-weight: 800; font-size: 19px; letter-spacing: -.01em; text-transform: uppercase; display: inline-flex; align-items: center; gap: 10px; white-space: nowrap; }
+  html[lang="ar"] .brand, html[lang="zh"] .brand { text-transform: none; }
+  .brand i { width: 10px; height: 10px; border-radius: 50%; background: var(--crit); box-shadow: 0 0 0 4px color-mix(in srgb, var(--crit) 25%, transparent); }
   @media (prefers-reduced-motion: no-preference) { .brand i { animation: ping2 2.4s ease-out infinite; } @keyframes ping2 { 0% { box-shadow: 0 0 0 0 color-mix(in srgb, var(--crit) 50%, transparent); } 100% { box-shadow: 0 0 0 10px transparent; } } }
   nav.views { display: flex; gap: 4px; flex-wrap: wrap; }
-  nav.views a { font: 500 14px var(--f-body); color: var(--muted); text-decoration: none; padding: 6px 12px; border-radius: 6px; }
+  nav.views a { font: 500 14px var(--f-body); color: var(--muted); text-decoration: none; padding: 8px 14px; border-radius: 999px; min-height: 36px; display: inline-flex; align-items: center; }
   nav.views a:hover { color: var(--ink); background: var(--surface); }
-  nav.views a[aria-current="page"] { color: var(--accent); background: var(--surface); border: 1px solid var(--line); }
-  .lang { margin-inline-start: auto; display: inline-flex; align-items: center; gap: 8px; font-size: 13px; color: var(--muted); }
-  .lang select { font: 500 13px var(--f-body); color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 6px 8px; }
-  .notice { font-size: 12px; color: var(--muted); background: var(--surface); border: 1px dashed var(--line); border-radius: 6px; padding: 6px 10px; }
-  .fresh { font: 12px var(--f-mono); color: var(--muted); display: inline-flex; align-items: center; gap: 6px; }
+  nav.views a[aria-current="page"] { color: var(--accent-ink); background: var(--accent); font-weight: 600; }
+  .bar-right { margin-inline-start: auto; display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+  .fresh { font: 12px var(--f-mono); color: var(--muted); display: inline-flex; align-items: center; gap: 6px; text-transform: uppercase; letter-spacing: .04em; }
   .fresh::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--up); }
   .fresh.stale::before { background: var(--high); }
-  html[lang="ar"] .fresh, html[lang="zh"] .fresh { font-family: var(--f-body); }
+  html[lang="ar"] .fresh, html[lang="zh"] .fresh { font-family: var(--f-body); letter-spacing: 0; text-transform: none; }
+  .lang { display: inline-flex; align-items: center; gap: 8px; font-size: 13px; color: var(--muted); }
+  .lang select, .iconbtn { font: 500 13px var(--f-body); color: var(--ink); background: var(--surface); border: 1px solid var(--line2); border-radius: 8px; padding: 0 10px; min-height: 36px; cursor: pointer; }
+  .iconbtn { display: inline-flex; align-items: center; gap: 6px; }
+  .iconbtn svg { width: 16px; height: 16px; }
+  .notice { font-size: 12px; color: var(--muted); background: var(--surface); border: 1px dashed var(--line2); border-radius: 6px; padding: 6px 10px; }
 
-  /* Wire */
-  .wire-list { list-style: none; margin: 0; padding: 0; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; }
-  .wire-item { display: grid; grid-template-columns: 7.5em minmax(0, 1fr); gap: 4px 14px; padding: 12px 16px; border-bottom: 1px solid var(--line); }
-  .wire-item:last-child { border-bottom: 0; }
-  @media (max-width: 560px) { .wire-item { grid-template-columns: minmax(0, 1fr); } }
-  .wire-when { font: 12px var(--f-mono); color: var(--muted); display: grid; gap: 2px; }
-  html[lang="ar"] .wire-when, html[lang="zh"] .wire-when { font-family: var(--f-body); }
-  .wire-when b { font-weight: 500; color: var(--ink); }
-  .wire-body { display: grid; gap: 3px; min-width: 0; }
-  .wire-body a { color: var(--ink); font-weight: 600; text-decoration: none; font-size: 15px; line-height: 1.35; }
-  .wire-body a:hover { color: var(--accent); text-decoration: underline; }
-  .wire-body p { margin: 0; font-size: 13.5px; color: var(--muted); }
-  .wire-tags { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
-  .tag { font: 500 11px var(--f-mono); color: var(--muted); border: 1px solid var(--line); border-radius: 999px; padding: 1px 8px; }
-  .tag.k-incident { color: var(--crit); border-color: var(--crit); }
-  .tag.k-vulnerability { color: var(--high); border-color: var(--high); }
-  .tag.cand { color: var(--accent); border-color: var(--accent); cursor: pointer; background: none; font-family: var(--f-mono); }
-  .day-h { font: 600 12px var(--f-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); padding: 14px 16px 6px; border-bottom: 1px solid var(--line); background: var(--bg); }
-  html[lang="ar"] .day-h, html[lang="zh"] .day-h { font-family: var(--f-body); letter-spacing: 0; }
-  .unv { display: inline-flex; align-items: center; gap: 5px; font: 500 11px var(--f-mono); letter-spacing: .04em; text-transform: uppercase; color: var(--high); border: 1px dashed var(--high); border-radius: 999px; padding: 2px 8px; }
-  html[lang="ar"] .unv, html[lang="zh"] .unv { font-family: var(--f-body); letter-spacing: 0; }
-  .pin.unv .dot { stroke-dasharray: 3 2; stroke: var(--ink); fill-opacity: .55; }
-  .card.unv::before { background: repeating-linear-gradient(var(--c) 0 4px, transparent 4px 7px); }
-
-  header.top { display: grid; gap: 6px; }
-  .eyebrow { font-family: var(--f-mono); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: center; }
-  html[lang="ar"] .eyebrow, html[lang="zh"] .eyebrow { letter-spacing: 0; font-family: var(--f-body); }
-  .tlp { border: 1px solid var(--line); background: var(--surface); padding: 1px 7px; border-radius: 3px; color: var(--ink); }
-  h1 { font-family: var(--f-display); font-weight: 600; font-size: clamp(30px, 4.5vw, 44px); line-height: 1.1; margin: 0; letter-spacing: -.01em; text-wrap: balance; }
-  .lede { margin: 0; color: var(--muted); max-width: 68ch; }
-
-  .stats { display: flex; flex-wrap: wrap; gap: 8px 28px; font-variant-numeric: tabular-nums; }
-  .stat { display: grid; }
-  .stat b { font-family: var(--f-display); font-size: 26px; font-weight: 600; line-height: 1.1; }
-  .stat span { font-size: 12px; color: var(--muted); letter-spacing: .04em; text-transform: uppercase; }
-  .stat.crit b { color: var(--crit); }
-
-  .filters { display: flex; flex-wrap: wrap; gap: 10px 20px; align-items: center; }
-  .group { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
-  .group > span { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; margin-inline-end: 2px; }
-  .chip { font: 500 13px/1 var(--f-body); color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 999px; padding: 7px 12px; cursor: pointer; display: inline-flex; gap: 6px; align-items: center; }
-  .chip:hover { border-color: var(--muted); }
-  .chip[aria-pressed="false"] { color: var(--muted); background: transparent; }
-  .chip[aria-pressed="false"] .sw { opacity: .3; }
-  :is(.chip, .pin, .ww, a, button, select, textarea):focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
-  .sw { width: 9px; height: 9px; border-radius: 50%; background: var(--c); }
-
-  .main { display: grid; grid-template-columns: minmax(0, 1fr) 400px; gap: 20px; align-items: start; }
-  @media (max-width: 960px) { .main { grid-template-columns: minmax(0, 1fr); } }
-
-  .mapbox { position: relative; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 12px; min-width: 0; }
-  #map { width: 100%; height: auto; display: block; }
+  /* Hero: map + overlays + floating panel */
+  .hero { position: relative; }
+  .mapbox { position: relative; background: var(--surface2); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; min-height: 320px; }
+  #globe { width: 100%; height: auto; display: block; }
   .sphere { fill: var(--ocean); }
   .grat { fill: none; stroke: var(--line); stroke-width: .5; }
-  .country { fill: var(--land); stroke: var(--surface); stroke-width: .5; transition: fill .2s; }
+  .country { fill: var(--land); stroke: var(--bg); stroke-width: .5; transition: fill .2s; }
   .country.hit { fill: var(--land-hit); }
   .pin { cursor: pointer; outline: none; }
-  .pin .dot { stroke: var(--surface); stroke-width: 1.5; }
-  .pin .halo { opacity: .2; transition: opacity .15s; }
-  .pin text { font: 500 11px var(--f-mono); fill: var(--pin-ink); text-anchor: middle; pointer-events: none; }
-  .pin.active .halo, .pin.lit .halo, .pin:hover .halo { opacity: .45; }
+  .pin .dot { stroke: var(--bg); stroke-width: 1.5; }
+  .pin .halo { opacity: var(--halo); transition: opacity .15s; }
+  .pin text { font: 600 11px var(--f-mono); fill: var(--pin-ink); text-anchor: middle; pointer-events: none; }
+  .pin.active .halo, .pin.lit .halo, .pin:hover .halo { opacity: .6; }
   .pin.active .dot { stroke: var(--ink); stroke-width: 2; }
   [data-sev="critical"] { --c: var(--crit); } [data-sev="high"] { --c: var(--high); }
   [data-sev="medium"] { --c: var(--med); } [data-sev="low"] { --c: var(--low); }
   .pin .dot, .pin .halo { fill: var(--c); }
   @media (prefers-reduced-motion: no-preference) {
     .pin.newest .halo { animation: ping 2.4s ease-out infinite; transform-box: fill-box; transform-origin: center; }
-    @keyframes ping { 0% { transform: scale(.8); opacity: .5; } 100% { transform: scale(1.9); opacity: 0; } }
+    @keyframes ping { 0% { transform: scale(.8); opacity: .6; } 100% { transform: scale(2); opacity: 0; } }
   }
-  .ww { position: absolute; inset-inline-start: 22px; bottom: 22px; display: flex; gap: 10px; align-items: center; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 8px 12px 8px 8px; cursor: pointer; font: inherit; color: var(--ink); text-align: start; max-width: calc(100% - 44px); }
+  .pin.unv .dot { stroke-dasharray: 3 2; stroke: var(--ink); fill-opacity: .55; }
+  .overlay-top { position: absolute; inset-inline: 0; top: 0; padding: 20px 22px 0; display: flex; justify-content: space-between; align-items: flex-start; gap: 16px; pointer-events: none; background: linear-gradient(180deg, color-mix(in srgb, var(--bg) 88%, transparent), transparent); }
+  .overlay-top > * { pointer-events: auto; }
+  .stats { display: flex; flex-wrap: wrap; gap: 6px 30px; font-variant-numeric: tabular-nums; }
+  .stat { display: grid; gap: 4px; }
+  .stat b { font-family: var(--f-display); font-size: clamp(30px, 3.6vw, 52px); font-weight: 800; line-height: 1; letter-spacing: -.02em; }
+  .stat span { font: 11px var(--f-mono); color: var(--muted); letter-spacing: .1em; text-transform: uppercase; }
+  html[lang="ar"] .stat span, html[lang="zh"] .stat span { font-family: var(--f-body); letter-spacing: 0; text-transform: none; }
+  .stat.crit b { color: var(--crit); } .stat.gold b { color: var(--accent); }
+  .filters { display: flex; flex-wrap: wrap; gap: 8px 14px; justify-content: flex-end; }
+  .group { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+  .group > span { font: 11px var(--f-mono); color: var(--muted); text-transform: uppercase; letter-spacing: .08em; margin-inline-end: 2px; }
+  html[lang="ar"] .group > span, html[lang="zh"] .group > span { font-family: var(--f-body); letter-spacing: 0; text-transform: none; }
+  .chip { font: 500 13px/1 var(--f-body); color: var(--ink); background: var(--glass); border: 1px solid var(--line2); border-radius: 999px; padding: 0 12px; min-height: 36px; cursor: pointer; display: inline-flex; gap: 6px; align-items: center; backdrop-filter: blur(6px); }
+  .chip:hover { border-color: var(--muted); }
+  .chip[aria-pressed="true"][data-sev] { border-color: var(--c); background: color-mix(in srgb, var(--c) 16%, var(--glass)); }
+  .chip[aria-pressed="true"]:not([data-sev]) { border-color: var(--accent); background: var(--accent-soft); color: var(--ink); }
+  .chip[aria-pressed="false"] { color: var(--muted); }
+  .chip[aria-pressed="false"] .sw { opacity: .3; }
+  .sw { width: 8px; height: 8px; border-radius: 50%; background: var(--c); }
+  .ww { position: absolute; inset-inline-start: 22px; bottom: 96px; display: flex; gap: 10px; align-items: center; background: var(--glass); border: 1px solid var(--line2); border-radius: 10px; padding: 8px 12px 8px 8px; cursor: pointer; font: inherit; color: var(--ink); text-align: start; max-width: 300px; backdrop-filter: blur(6px); }
   .ww:hover, .ww.active, .ww.lit { border-color: var(--c); }
-  .ww .disc { width: 34px; height: 34px; border-radius: 50%; background: var(--c); color: var(--pin-ink); display: grid; place-items: center; font: 500 13px var(--f-mono); flex: none; }
+  .ww .disc { width: 34px; height: 34px; border-radius: 50%; background: var(--c); color: var(--pin-ink); display: grid; place-items: center; font: 600 13px var(--f-mono); flex: none; }
   .ww strong { display: block; font-size: 13px; }
   .ww small { display: block; font-size: 12px; color: var(--muted); }
-  @media (max-width: 560px) { .ww { position: static; margin-top: 10px; } }
-  .legend { display: flex; flex-wrap: wrap; gap: 4px 16px; font-size: 12px; color: var(--muted); padding: 10px 4px 0; }
+  .legend { position: absolute; inset-inline-start: 22px; bottom: 56px; display: flex; flex-wrap: wrap; gap: 4px 14px; font: 11px var(--f-mono); color: var(--muted); }
   .legend span { display: inline-flex; align-items: center; gap: 6px; }
+  html[lang="ar"] .legend, html[lang="zh"] .legend { font-family: var(--f-body); }
   .tip { position: absolute; pointer-events: none; background: var(--ink); color: var(--bg); border-radius: 6px; padding: 6px 10px; font-size: 13px; white-space: nowrap; transform: translate(-50%, calc(-100% - 12px)); z-index: 3; }
   html[dir="rtl"] .tip { transform: translate(50%, calc(-100% - 12px)); }
   .tip small { color: inherit; opacity: .75; font-family: var(--f-mono); font-size: 11px; }
+  .ticker { position: absolute; inset-inline: 0; bottom: 0; height: 44px; background: color-mix(in srgb, var(--bg) 92%, transparent); border-top: 1px solid var(--line); display: flex; align-items: center; overflow: hidden; }
+  .ticker .lbl { flex: none; background: var(--accent); color: var(--accent-ink); font: 700 11px var(--f-mono); letter-spacing: .1em; padding: 0 14px; height: 100%; display: inline-flex; align-items: center; z-index: 1; }
+  .ticker .track { display: flex; gap: 32px; white-space: nowrap; padding-inline-start: 16px; font: 12px var(--f-mono); color: var(--ink); will-change: transform; }
+  .ticker .track a { color: inherit; text-decoration: none; }
+  .ticker .track a:hover { color: var(--accent); }
+  .ticker .track b { color: var(--accent); font-weight: 500; margin-inline-end: 6px; }
+  html[lang="ar"] .ticker .track, html[lang="zh"] .ticker .track { font-family: var(--f-body); }
+  @media (prefers-reduced-motion: no-preference) { .ticker .track { animation: slide var(--dur, 60s) linear infinite; } .ticker:hover .track { animation-play-state: paused; } @keyframes slide { from { transform: translateX(0); } to { transform: translateX(-50%); } } html[dir="rtl"] .ticker .track { animation-name: slide-rtl; } @keyframes slide-rtl { from { transform: translateX(0); } to { transform: translateX(50%); } } }
+  @media (prefers-reduced-motion: reduce) { .ticker { overflow-x: auto; } }
 
-  .panel { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; display: grid; grid-template-rows: auto minmax(0, 1fr); max-height: calc(100vh - 32px); position: sticky; top: calc(16px + env(safe-area-inset-top, 0px)); min-width: 0; }
-  @media (max-width: 960px) { .panel { position: static; max-height: none; } }
-  .phead { padding: 16px 18px 14px; border-bottom: 1px solid var(--line); display: grid; gap: 8px; }
+  .panel { background: var(--glass); backdrop-filter: blur(8px); border: 1px solid var(--line2); border-radius: 12px; display: grid; grid-template-rows: auto minmax(0, 1fr); min-width: 0; }
+  @media (min-width: 1100px) { .panel { position: absolute; inset-inline-end: 22px; top: 150px; bottom: 60px; width: 380px; } }
+  @media (max-width: 1099px) { .panel { margin-top: 14px; max-height: 70vh; } .panel::before { content: ""; width: 40px; height: 4px; border-radius: 2px; background: var(--line2); margin: 10px auto 0; } }
+  .phead { padding: 12px 16px 10px; border-bottom: 1px solid var(--line); display: grid; gap: 6px; }
   .phead-row { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; }
-  .phead h2 { font-family: var(--f-display); font-weight: 600; font-size: 24px; margin: 0; line-height: 1.1; }
-  .phead p { margin: 0; color: var(--muted); font-size: 13px; }
-  .reset { font: 500 13px var(--f-body); color: var(--accent); background: none; border: 0; padding: 0; cursor: pointer; white-space: nowrap; }
+  .phead h2 { font-family: var(--f-display); font-weight: 700; font-size: 18px; margin: 0; line-height: 1.15; }
+  .phead p { margin: 0; color: var(--muted); font-size: 12.5px; }
+  .reset { font: 500 12px var(--f-mono); color: var(--accent); background: none; border: 0; padding: 0; cursor: pointer; white-space: nowrap; letter-spacing: .06em; text-transform: uppercase; }
   .reset:hover { text-decoration: underline; }
-  .pmeta { display: flex; flex-wrap: wrap; gap: 4px 16px; font: 12px var(--f-mono); color: var(--muted); font-variant-numeric: tabular-nums; }
+  .pmeta { display: flex; flex-wrap: wrap; gap: 4px 14px; font: 11px var(--f-mono); color: var(--muted); font-variant-numeric: tabular-nums; }
   .pmeta b { color: var(--ink); font-weight: 500; }
-  .list { overflow-y: auto; padding: 6px 0; }
-  .empty { padding: 24px 18px; color: var(--muted); }
+  .list { overflow-y: auto; padding: 8px; display: grid; gap: 8px; align-content: start; }
+  .empty { padding: 20px 10px; color: var(--muted); font-size: 14px; }
 
-  .card { padding: 14px 18px 14px 20px; border-bottom: 1px solid var(--line); display: grid; gap: 6px; position: relative; cursor: pointer; }
-  html[dir="rtl"] .card { padding: 14px 20px 14px 18px; }
-  .card:last-child { border-bottom: 0; }
-  .card::before { content: ""; position: absolute; inset-inline-start: 0; top: 14px; bottom: 14px; width: 3px; background: var(--c); border-radius: 2px; }
-  .card:hover { background: color-mix(in srgb, var(--c) 6%, transparent); }
-  .cmeta { display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: center; font: 12px var(--f-mono); color: var(--muted); }
+  .card { padding: 12px 14px; background: var(--surface2); border: 1px solid var(--line2); border-inline-start: 3px solid var(--c); border-radius: 10px; display: grid; gap: 6px; position: relative; cursor: pointer; }
+  .card:hover { border-color: var(--c); }
+  .card.unv { border-inline-start-style: dashed; }
+  .cmeta { display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: center; font: 11px var(--f-mono); color: var(--muted); }
   html[lang="ar"] .cmeta, html[lang="zh"] .cmeta { font-family: var(--f-body); }
-  .sev { color: var(--c); font-weight: 500; text-transform: uppercase; letter-spacing: .06em; }
-  .card h3 { margin: 0; font-size: 15px; line-height: 1.35; font-weight: 600; }
+  .sev { color: var(--c); font-weight: 600; text-transform: uppercase; letter-spacing: .06em; }
+  .card h3 { margin: 0; font-size: 14px; line-height: 1.35; font-weight: 600; }
   .card h3 a { color: var(--ink); text-decoration: none; }
   .card h3 a:hover { text-decoration: underline; text-decoration-color: var(--c); text-underline-offset: 3px; }
-  .card p { margin: 0; font-size: 13.5px; color: var(--muted); }
-  .facts { display: flex; flex-wrap: wrap; gap: 2px 14px; font-size: 12.5px; }
+  .card p { margin: 0; font-size: 13px; color: var(--muted); display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .facts { display: flex; flex-wrap: wrap; gap: 2px 12px; font-size: 12px; }
   .facts span { color: var(--muted); }
   .facts b { font-weight: 500; color: var(--ink); }
-  .open { justify-self: start; display: inline-flex; gap: 6px; align-items: center; font: 500 13px var(--f-body); color: var(--accent); text-decoration: none; border: 1px solid var(--line); border-radius: 6px; padding: 5px 10px; margin-top: 2px; background: transparent; cursor: pointer; }
+  .open { justify-self: start; display: inline-flex; gap: 6px; align-items: center; font: 500 12.5px var(--f-body); color: var(--accent); text-decoration: none; border: 1px solid var(--line2); border-radius: 8px; padding: 0 10px; min-height: 34px; background: transparent; cursor: pointer; }
   .open:hover { border-color: var(--accent); }
   .open.primary { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
-  .cactions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 2px; }
-  .badge { display: inline-flex; align-items: center; gap: 5px; font: 500 11px var(--f-mono); letter-spacing: .04em; text-transform: uppercase; color: var(--accent); border: 1px solid var(--accent); border-radius: 999px; padding: 2px 8px; }
+  .cactions { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 2px; }
+  .badge { display: inline-flex; align-items: center; gap: 5px; font: 500 10.5px var(--f-mono); letter-spacing: .04em; text-transform: uppercase; color: var(--accent); border: 1px solid var(--accent); border-radius: 999px; padding: 2px 8px; }
   .badge::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: var(--accent); }
+  .unv { display: inline-flex; align-items: center; gap: 5px; font: 500 10.5px var(--f-mono); letter-spacing: .04em; text-transform: uppercase; color: var(--high); border: 1px dashed var(--high); border-radius: 999px; padding: 2px 8px; }
+  html[lang="ar"] .unv, html[lang="zh"] .unv, html[lang="ar"] .badge, html[lang="zh"] .badge { font-family: var(--f-body); letter-spacing: 0; }
+
+  /* Home cards */
+  .home { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 14px; }
+  .hcard { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 18px; display: flex; flex-direction: column; gap: 10px; min-width: 0; }
+  .hcard.gold { border-color: var(--line2); background: linear-gradient(160deg, color-mix(in srgb, var(--accent) 14%, var(--surface)), var(--surface)); }
+  .hcard .k { font: 11px var(--f-mono); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+  .hcard.gold .k { color: var(--accent); }
+  html[lang="ar"] .hcard .k, html[lang="zh"] .hcard .k { font-family: var(--f-body); letter-spacing: 0; text-transform: none; }
+  .hcard .big { font-family: var(--f-display); font-weight: 800; font-size: 40px; line-height: 1; letter-spacing: -.02em; }
+  .hcard .big small { font-size: 15px; font-weight: 600; color: var(--up); margin-inline-start: 8px; letter-spacing: 0; }
+  .hcard .sub { color: var(--muted); font-size: 13px; }
+  .hcard h3 { margin: 0; font-family: var(--f-display); font-weight: 600; font-size: 20px; line-height: 1.2; }
+  .hcard .row { display: flex; justify-content: space-between; font-size: 14px; border-bottom: 1px solid var(--line); padding: 6px 0; }
+  .hcard .row:last-of-type { border-bottom: 0; }
+  .hcard .row .tk { font: 12px var(--f-mono); color: var(--muted); margin-inline-start: 6px; }
+  .hcard .row .pct { font-family: var(--f-mono); }
+  .hcard .cta { margin-top: auto; align-self: flex-start; text-decoration: none; font-weight: 600; font-size: 13px; background: var(--line); color: var(--ink); padding: 0 14px; border-radius: 8px; min-height: 40px; display: inline-flex; align-items: center; border: 0; cursor: pointer; }
+  .hcard a.link { margin-top: auto; align-self: flex-start; text-decoration: none; font-weight: 600; font-size: 13px; color: var(--accent); min-height: 40px; display: inline-flex; align-items: center; }
+  .alerts { display: flex; gap: 8px; margin-top: 4px; }
+  .alerts input { flex: 1; min-width: 0; background: var(--bg); border: 1px solid var(--line2); border-radius: 8px; color: var(--ink); padding: 0 12px; min-height: 44px; font: 14px var(--f-body); }
+  .alerts button { background: var(--accent); color: var(--accent-ink); border: 0; border-radius: 8px; font: 600 14px var(--f-body); padding: 0 16px; min-height: 44px; cursor: pointer; }
+  .alerts-msg { font-size: 12.5px; color: var(--muted); }
+  .alerts-msg.ok { color: var(--up); }
   footer { font-size: 12px; color: var(--muted); max-width: 90ch; }
 
+  /* Phone */
+  .tabbar { display: none; }
+  @media (max-width: 1099px) {
+    .mapbox { display: flex; flex-direction: column; min-height: 0; padding-bottom: 44px; }
+    .overlay-top { position: static; order: -1; padding: 14px 16px 6px; display: grid; gap: 10px; background: none; }
+    .stats { flex-wrap: nowrap; overflow-x: auto; gap: 24px; padding-bottom: 4px; scrollbar-width: none; }
+    .stat { flex: none; }
+    .stat b { font-size: 32px; }
+    .stat span { white-space: nowrap; }
+    .filters { justify-content: flex-start; flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; padding-bottom: 4px; }
+    .group { flex-wrap: nowrap; }
+    .ww { position: static; margin: 10px 16px; max-width: calc(100% - 32px); }
+    .legend { position: static; padding: 0 16px 10px; }
+  }
+  @media (max-width: 760px) {
+    .wrap { padding-bottom: 92px; }
+    nav.views { display: none; }
+    .bar { gap: 8px 12px; }
+    .fresh { font-size: 11px; }
+    .tabbar { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); position: fixed; inset-inline: 0; bottom: 0; background: var(--surface); border-top: 1px solid var(--line); padding: 6px 8px calc(8px + env(safe-area-inset-bottom, 0px)); z-index: 10; }
+    .tabbar a { text-decoration: none; color: var(--muted); display: flex; flex-direction: column; align-items: center; gap: 3px; font: 500 11px var(--f-body); min-height: 44px; justify-content: center; }
+    .tabbar a[aria-current="page"] { color: var(--accent); }
+    .tabbar svg { width: 22px; height: 22px; }
+    .case { padding: 0; }
+  }
+
   /* Case file */
-  .case { position: fixed; inset: 0; z-index: 20; background: color-mix(in srgb, var(--ink) 55%, transparent); padding: clamp(0px, 2vw, 24px); padding-top: calc(clamp(0px, 2vw, 24px) + env(safe-area-inset-top, 0px)); padding-bottom: calc(clamp(0px, 2vw, 24px) + env(safe-area-inset-bottom, 0px)); overflow: hidden; }
-  .doc { background: var(--surface); color: var(--ink); border: 1px solid var(--line); border-radius: 10px; max-width: 1000px; height: 100%; margin: 0 auto; overflow-y: auto; display: grid; grid-template-rows: auto 1fr; min-width: 0; }
-  @media (max-width: 560px) { .case { padding: 0; } .doc { border-radius: 0; border: 0; } }
+  .case { position: fixed; inset: 0; z-index: 20; background: color-mix(in srgb, var(--bg) 70%, transparent); backdrop-filter: blur(4px); padding: clamp(0px, 2vw, 24px); padding-top: calc(clamp(0px, 2vw, 24px) + env(safe-area-inset-top, 0px)); padding-bottom: calc(clamp(0px, 2vw, 24px) + env(safe-area-inset-bottom, 0px)); overflow: hidden; }
+  .doc { background: var(--surface); color: var(--ink); border: 1px solid var(--line2); border-radius: 14px; max-width: 1000px; height: 100%; margin: 0 auto; overflow-y: auto; display: grid; grid-template-rows: auto 1fr; min-width: 0; }
+  @media (max-width: 560px) { .doc { border-radius: 0; border: 0; } }
   .dtop { position: sticky; top: 0; z-index: 2; background: var(--surface); border-bottom: 1px solid var(--line); padding: 10px 16px; display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; }
-  .back { font: 500 13px var(--f-body); color: var(--accent); background: none; border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; cursor: pointer; }
+  .back { font: 500 13px var(--f-body); color: var(--accent); background: none; border: 1px solid var(--line2); border-radius: 8px; padding: 0 10px; min-height: 36px; cursor: pointer; }
   .back:hover { border-color: var(--accent); }
-  .pill { font: 500 11px var(--f-mono); letter-spacing: .06em; text-transform: uppercase; border-radius: 999px; padding: 4px 10px; border: 1px solid var(--line); color: var(--muted); }
+  .pill { font: 500 11px var(--f-mono); letter-spacing: .06em; text-transform: uppercase; border-radius: 999px; padding: 4px 10px; border: 1px solid var(--line2); color: var(--muted); }
   html[lang="ar"] .pill, html[lang="zh"] .pill { font-family: var(--f-body); letter-spacing: 0; }
   .pill.sev { color: var(--c); border-color: var(--c); }
   .dbody { padding: clamp(18px, 3vw, 36px); display: grid; gap: 28px; }
   .dhead { display: grid; gap: 10px; }
-  .dhead .eyebrow { gap: 8px; }
-  .dhead h2 { font-family: var(--f-display); font-weight: 600; font-size: clamp(24px, 3.4vw, 36px); line-height: 1.15; margin: 0; text-wrap: balance; }
+  .eyebrow { font-family: var(--f-mono); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: center; }
+  html[lang="ar"] .eyebrow, html[lang="zh"] .eyebrow { letter-spacing: 0; font-family: var(--f-body); }
+  .dhead h2 { font-family: var(--f-display); font-weight: 700; font-size: clamp(24px, 3.4vw, 36px); line-height: 1.15; margin: 0; text-wrap: balance; letter-spacing: -.01em; }
   .dhead p { margin: 0; font-size: 16px; max-width: 72ch; }
   .tools { display: flex; flex-wrap: wrap; gap: 8px; }
-  .facts-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 1px; background: var(--line); border: 1px solid var(--line); border-radius: 8px; overflow: hidden; margin: 0; }
-  .facts-grid div { background: var(--bg); padding: 10px 12px; display: grid; gap: 2px; min-width: 0; }
+  .facts-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 1px; background: var(--line); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; margin: 0; }
+  .facts-grid div { background: var(--surface2); padding: 10px 12px; display: grid; gap: 2px; min-width: 0; }
   .facts-grid dt { font: 11px var(--f-mono); letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
   html[lang="ar"] .facts-grid dt, html[lang="zh"] .facts-grid dt, html[lang="ar"] .sec h3, html[lang="zh"] .sec h3 { font-family: var(--f-body); letter-spacing: 0; }
   .facts-grid dd { margin: 0; font-size: 14px; font-weight: 500; overflow-wrap: anywhere; }
@@ -205,7 +240,7 @@
   .sec .lbl { font-weight: 600; }
   .pending { color: var(--muted); font-style: italic; }
   .two { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px; }
-  .tl { list-style: none; margin: 0; padding: 0; display: grid; border-inline-start: 2px solid var(--line); margin-inline-start: 6px; }
+  .tl { list-style: none; margin: 0; padding: 0; display: grid; border-inline-start: 2px solid var(--line2); margin-inline-start: 6px; }
   .tl li { position: relative; padding: 4px 0 14px 18px; display: grid; gap: 2px; }
   html[dir="rtl"] .tl li { padding: 4px 18px 14px 0; }
   .tl li::before { content: ""; position: absolute; inset-inline-start: -7px; top: 9px; width: 10px; height: 10px; border-radius: 50%; background: var(--surface); border: 2px solid var(--accent); }
@@ -213,33 +248,33 @@
   .srcs { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
   .srcs a { color: var(--accent); overflow-wrap: anywhere; }
   .srcs small { color: var(--muted); font-family: var(--f-mono); font-size: 11px; }
-  .inv { border: 1px solid var(--accent); border-radius: 8px; padding: 16px; display: grid; gap: 12px; background: color-mix(in srgb, var(--accent) 6%, transparent); }
+  .inv { border: 1px solid var(--accent); border-radius: 10px; padding: 16px; display: grid; gap: 12px; background: var(--accent-soft); }
   .inv h3 { margin: 0; font: 600 12px var(--f-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--accent); }
   .inv-row { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
-  .inv select, .inv textarea { font: inherit; color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 8px 10px; }
+  .inv select, .inv textarea { font: inherit; color: var(--ink); background: var(--surface); border: 1px solid var(--line2); border-radius: 8px; padding: 8px 10px; }
   .inv textarea { width: 100%; min-height: 72px; resize: vertical; box-sizing: border-box; }
-  .btn { font: 500 13px var(--f-body); color: var(--accent-ink); background: var(--accent); border: 1px solid var(--accent); border-radius: 6px; padding: 8px 14px; cursor: pointer; }
+  .btn { font: 500 13px var(--f-body); color: var(--accent-ink); background: var(--accent); border: 1px solid var(--accent); border-radius: 8px; padding: 0 14px; min-height: 40px; cursor: pointer; }
   .btn.ghost { color: var(--accent); background: transparent; }
   .btn:disabled { opacity: .5; cursor: default; }
   .notes { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
-  .notes li { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 8px 12px; display: grid; gap: 2px; font-size: 14px; }
+  .notes li { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 8px 12px; display: grid; gap: 2px; font-size: 14px; }
   .notes time { font: 11px var(--f-mono); color: var(--muted); }
   .inv-msg { font-size: 13px; color: var(--muted); }
+  .callout { border-inline-start: 3px solid var(--high); background: var(--surface2); padding: 10px 14px; font-size: 13.5px; color: var(--muted); border-radius: 0 8px 8px 0; max-width: 80ch; }
 
-  /* Markets + Data views */
+  /* Wire, Markets, Data views */
   .view { display: grid; gap: 20px; }
   .prose { max-width: 72ch; display: grid; gap: 10px; }
   .prose p { margin: 0; }
-  .prose h2 { font-family: var(--f-display); font-weight: 600; font-size: clamp(24px, 3vw, 32px); margin: 0; line-height: 1.15; }
-  .callout { border-inline-start: 3px solid var(--high); background: var(--surface); padding: 10px 14px; font-size: 13.5px; color: var(--muted); border-radius: 0 6px 6px 0; max-width: 80ch; }
-  .tablebox { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; overflow-x: auto; }
+  .prose h2 { font-family: var(--f-display); font-weight: 700; font-size: clamp(24px, 3vw, 32px); margin: 0; line-height: 1.15; letter-spacing: -.01em; }
+  .tablebox { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; overflow-x: auto; }
   table.mk { border-collapse: collapse; width: 100%; min-width: 760px; font-size: 13.5px; font-variant-numeric: tabular-nums; }
   .mk th, .mk td { text-align: start; padding: 10px 12px; border-bottom: 1px solid var(--line); vertical-align: middle; }
   .mk td:nth-child(2) { min-width: 280px; }
   .mk td:first-child { white-space: nowrap; }
   .mk th { font: 600 11px var(--f-mono); letter-spacing: .06em; text-transform: uppercase; color: var(--muted); white-space: nowrap; }
   html[lang="ar"] .mk th, html[lang="zh"] .mk th { font-family: var(--f-body); letter-spacing: 0; }
-  .mk tbody tr:hover { background: color-mix(in srgb, var(--accent) 5%, transparent); }
+  .mk tbody tr:hover { background: color-mix(in srgb, var(--accent) 6%, transparent); }
   .mk td.num { text-align: end; white-space: nowrap; font-family: var(--f-mono); }
   .mk .pos { color: var(--up); } .mk .neg { color: var(--down); }
   .mk a { color: var(--ink); text-decoration: none; font-weight: 500; }
@@ -248,15 +283,33 @@
   .spark { width: 120px; height: 34px; display: block; }
   .spark .t { fill: none; stroke: var(--accent); stroke-width: 1.5; }
   .spark .s { fill: none; stroke: var(--muted); stroke-width: 1; stroke-dasharray: 2 2; }
-  .spark .z { stroke: var(--line); stroke-width: 1; }
-  .role { font: 500 11px var(--f-mono); color: var(--muted); border: 1px solid var(--line); border-radius: 999px; padding: 1px 7px; white-space: nowrap; }
+  .spark .z { stroke: var(--line2); stroke-width: 1; }
+  .role { font: 500 11px var(--f-mono); color: var(--muted); border: 1px solid var(--line2); border-radius: 999px; padding: 1px 7px; white-space: nowrap; }
   .cards3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; }
-  .kcard { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 14px 16px; display: grid; gap: 4px; }
-  .kcard b { font-family: var(--f-display); font-size: 28px; font-weight: 600; line-height: 1.1; }
+  .kcard { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; display: grid; gap: 4px; }
+  .kcard b { font-family: var(--f-display); font-size: 28px; font-weight: 800; line-height: 1.1; letter-spacing: -.02em; }
   .kcard span { font-size: 12px; color: var(--muted); }
   .dl { display: flex; flex-wrap: wrap; gap: 10px; }
   code { font-family: var(--f-mono); font-size: 12.5px; background: var(--surface); border: 1px solid var(--line); border-radius: 4px; padding: 1px 6px; overflow-wrap: anywhere; }
-  pre.cite { font-family: var(--f-mono); font-size: 12.5px; background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 12px; white-space: pre-wrap; margin: 0; max-width: 80ch; }
+  pre.cite { font-family: var(--f-mono); font-size: 12.5px; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 12px; white-space: pre-wrap; margin: 0; max-width: 80ch; }
+  .wire-list { list-style: none; margin: 0; padding: 0; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; }
+  .wire-item { display: grid; grid-template-columns: 7.5em minmax(0, 1fr); gap: 4px 14px; padding: 12px 16px; border-bottom: 1px solid var(--line); }
+  .wire-item:last-child { border-bottom: 0; }
+  @media (max-width: 560px) { .wire-item { grid-template-columns: minmax(0, 1fr); } }
+  .wire-when { font: 12px var(--f-mono); color: var(--muted); display: grid; gap: 2px; }
+  html[lang="ar"] .wire-when, html[lang="zh"] .wire-when { font-family: var(--f-body); }
+  .wire-when b { font-weight: 500; color: var(--accent); }
+  .wire-body { display: grid; gap: 3px; min-width: 0; }
+  .wire-body a { color: var(--ink); font-weight: 600; text-decoration: none; font-size: 15px; line-height: 1.35; }
+  .wire-body a:hover { color: var(--accent); }
+  .wire-body p { margin: 0; font-size: 13.5px; color: var(--muted); }
+  .wire-tags { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+  .tag { font: 500 11px var(--f-mono); color: var(--muted); border: 1px solid var(--line2); border-radius: 999px; padding: 1px 8px; }
+  .tag.k-incident { color: var(--crit); border-color: var(--crit); }
+  .tag.k-vulnerability { color: var(--high); border-color: var(--high); }
+  .tag.cand { color: var(--accent); border-color: var(--accent); cursor: pointer; background: none; font-family: var(--f-mono); }
+  .day-h { font: 600 11px var(--f-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); padding: 14px 16px 6px; border-bottom: 1px solid var(--line); background: var(--surface2); }
+  html[lang="ar"] .day-h, html[lang="zh"] .day-h { font-family: var(--f-body); letter-spacing: 0; }
 </style>
 
 <div class="wrap">
@@ -268,34 +321,37 @@
       <a href="#markets" data-view="markets"></a>
       <a href="#data" data-view="data"></a>
     </nav>
-    <span class="fresh" id="fresh" hidden></span>
-    <label class="lang"><span id="lang-label"></span>
-      <select id="lang">
-        <option value="en">English</option><option value="fr">Français</option><option value="es">Español</option><option value="ar">العربية</option><option value="zh">中文</option>
-      </select>
-    </label>
+    <div class="bar-right">
+      <span class="fresh" id="fresh" hidden></span>
+      <button class="iconbtn" id="theme" type="button" aria-pressed="false"><svg id="theme-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"></path></svg><span id="theme-label"></span></button>
+      <label class="lang"><span class="sr" id="lang-label"></span>
+        <select id="lang">
+          <option value="en">English</option><option value="fr">Français</option><option value="es">Español</option><option value="ar">العربية</option><option value="zh">中文</option>
+        </select>
+      </label>
+    </div>
   </div>
   <div class="notice" id="notice" hidden></div>
 
   <div class="view" id="view-map">
-    <header class="top">
-      <div class="eyebrow"><span class="tlp">TLP:CLEAR</span><span id="t-osint"></span><span id="period"></span></div>
-      <h1 id="t-h1"></h1>
-      <p class="lede" id="t-lede"></p>
-    </header>
-    <div class="stats" id="stats"></div>
-    <div class="filters">
-      <div class="group" id="sev-filter"><span id="t-sev"></span></div>
-      <div class="group" id="dir-filter"><span id="t-type"></span></div>
-      <div class="group" id="win-filter"><span id="t-win"></span></div>
-      <div class="group" id="ver-filter" hidden><span id="t-ver"></span></div>
-    </div>
-    <div class="main">
+    <h1 class="sr" id="t-h1"></h1>
+    <p class="sr" id="t-lede"></p>
+    <div class="hero">
       <div class="mapbox" id="mapbox">
-        <svg id="map" role="img"></svg>
+        <svg id="globe" role="img"></svg>
+        <div class="overlay-top">
+          <div class="stats" id="stats"></div>
+          <div class="filters">
+            <div class="group" id="sev-filter"><span id="t-sev"></span></div>
+            <div class="group" id="dir-filter"><span id="t-type"></span></div>
+            <div class="group" id="win-filter"><span id="t-win"></span></div>
+            <div class="group" id="ver-filter" hidden><span id="t-ver"></span></div>
+          </div>
+        </div>
         <button class="ww" id="ww" type="button"><span class="disc" id="ww-n">0</span><span><strong id="t-ww"></strong><small id="t-ww-sub"></small></span></button>
-        <div class="tip" id="tip" hidden></div>
         <div class="legend" id="legend"></div>
+        <div class="tip" id="tip" hidden></div>
+        <div class="ticker" id="ticker" hidden><span class="lbl" id="t-wirelbl"></span><div class="track" id="track"></div></div>
       </div>
       <aside class="panel" aria-live="polite">
         <div class="phead">
@@ -306,13 +362,21 @@
         <div class="list" id="list"></div>
       </aside>
     </div>
-    <footer id="foot"></footer>
+    <section class="home" id="home"></section>
+    <footer><span id="t-osint"></span> · <span id="period"></span> · <span id="foot"></span></footer>
   </div>
 
   <div class="view" id="view-wire" hidden></div>
   <div class="view" id="view-markets" hidden></div>
   <div class="view" id="view-data" hidden></div>
 </div>
+
+<nav class="tabbar" id="tabbar" aria-label="Sections">
+  <a href="#map" data-view="map"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18"></path></svg><span></span></a>
+  <a href="#wire" data-view="wire"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"></rect><path d="M7 9h10M7 13h10M7 17h6"></path></svg><span></span></a>
+  <a href="#markets" data-view="markets"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 17l6-6 4 4 8-8"></path><path d="M14 7h7v7"></path></svg><span></span></a>
+  <a href="#data" data-view="data"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><ellipse cx="12" cy="6" rx="8" ry="3"></ellipse><path d="M4 6v12c0 1.7 3.6 3 8 3s8-1.3 8-3V6M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3"></path></svg><span></span></a>
+</nav>
 
 <div class="case" id="case" hidden role="dialog" aria-modal="true" aria-labelledby="d-title">
   <div class="doc" id="doc">
@@ -375,7 +439,7 @@
       dt_cite_h: 'How to cite', dt_cite_p: 'Every case file has a permanent link (the address ends in the case id). Cite the case file and the primary source it points to.', dt_method_h: 'Method', dt_method_p: 'Incidents are included when a vendor, government body, court, or reputable outlet has reported them publicly. Severity reflects scale and confirmed harm: critical for confirmed breaches with large-scale data theft, active exploitation in the wild, or state operations; high for confirmed compromise or fraud with material loss; medium for demonstrated flaws, fixed before abuse, or limited exposures; low for proofs of concept. Attribution is reported as the source stated it, with its confidence. "Worldwide" is used when an incident hit many countries or has no single location.', dt_sev_h: 'Severity scale', dt_contact: 'Corrections and new reports: open the case file, copy its link, and send it with your source.',
       retrieved: 'retrieved',
       nav_wire: 'News', wire_h: 'News and threats', wire_threats: 'Threats reported', wire_news: 'News', wire_untagged: 'Not yet sorted', wire_intro: 'AI security headlines from {n} vetted sources, refreshed every 30 minutes and machine-triaged. Items flagged as incidents are drafted into case files and shown on the map as unverified until an editor confirms them.', wire_empty: 'The wire has not loaded yet. It fills in once the site is deployed with its update job.', updated_ago: 'Updated {m} min ago', updated_h: 'Updated {h} h ago', updated_stale: 'Last update {h} h ago', wire_sources: '{ok} of {n} sources responded', kinds: { incident: 'Incident', vulnerability: 'Vulnerability', research: 'Research', policy: 'Policy', 'vendor-report': 'Vendor report', other: 'News' }, open_draft: 'Open draft case file',
-      f_ver: 'Verification', ver_all: 'All', ver_verified: 'Verified only', unverified: 'Unverified · auto-drafted', unv_hint: 'This case file was drafted automatically from a single news report and has not yet been checked by an editor. Treat every field as provisional and read the source.', confidence: 'Model confidence', today: 'Today', yesterday: 'Yesterday' },
+      f_ver: 'Verification', ver_all: 'All', ver_verified: 'Verified only', unverified: 'Unverified · auto-drafted', unv_hint: 'This case file was drafted automatically from a single news report and has not yet been checked by an editor. Treat every field as provisional and read the source.', confidence: 'Model confidence', today: 'Today', yesterday: 'Yesterday', theme_day: 'Day', theme_night: 'Night', st_stories: 'Stories · 48 h · {n} sources', home_threats: 'Threats reported today', home_vs: '{d} vs yesterday', home_sub: 'Stories the robot flagged as incidents or exploited flaws in the last 24 hours. Drafts wait for an editor.', home_untagged: 'Stories on the wire in the last 24 hours. Sorting into threats and news starts once the robot has its key.', open_wire: 'Open the wire →', home_mk: 'Market reaction · 5 days', markets_page: 'Markets page →', get_alerts: 'Get alerts', alerts_h: 'Critical incidents in your inbox within 30 minutes', alerts_ph: 'you@company.com', subscribe: 'Subscribe', alerts_note: 'Free. Also as RSS.', alerts_ok: 'Subscribed. Thank you.', alerts_fail: 'Could not subscribe from this preview. Try on aithreat.io.', wire_lbl: 'WIRE' },
     fr: { osint: 'Sources ouvertes', h1: 'AI Threat Watch', lede: 'Attaques signalées publiquement contre des systèmes d’IA, et attaques menées avec l’IA. Survolez un repère pour lire ce qui s’est passé, puis ouvrez le rapport d’origine dans un nouvel onglet.',
       nav_map: 'Carte', nav_markets: 'Marchés', nav_data: 'Données et citation', lang: 'Langue', translated: 'Les dossiers dans cette langue sont traduits automatiquement et relus pour la terminologie ; la version anglaise fait référence.', no_tr: 'Traduction indisponible hors ligne ; dossiers affichés en anglais.',
       st_inc: 'Incidents', st_crit: 'Critiques', st_countries: 'Pays cités', st_ww: 'Mondial', st_loss: 'Pertes déclarées',
@@ -398,7 +462,7 @@
       dt_cite_h: 'Comment citer', dt_cite_p: 'Chaque dossier a un lien permanent (l’adresse se termine par l’identifiant du dossier). Citez le dossier et la source primaire vers laquelle il renvoie.', dt_method_h: 'Méthode', dt_method_p: 'Un incident est retenu lorsqu’un éditeur, un organisme public, un tribunal ou un média reconnu l’a signalé publiquement. La gravité reflète l’ampleur et le préjudice confirmé : critique pour les intrusions confirmées avec vol massif de données, exploitation active ou opérations étatiques ; élevée pour une compromission ou une fraude confirmée avec perte matérielle ; moyenne pour les failles démontrées, corrigées avant abus, ou les expositions limitées ; faible pour les preuves de concept. L’attribution est rapportée telle que la source l’a formulée, avec son niveau de confiance. « Mondial » désigne un incident touchant plusieurs pays ou sans localisation unique.', dt_sev_h: 'Échelle de gravité', dt_contact: 'Corrections et nouveaux signalements : ouvrez le dossier, copiez son lien et envoyez-le avec votre source.',
       retrieved: 'consulté le',
       nav_wire: 'Actualités', wire_h: 'Actualités et menaces', wire_threats: 'Menaces signalées', wire_news: 'Actualités', wire_untagged: 'Pas encore trié', wire_intro: 'Titres de sécurité de l’IA issus de {n} sources vérifiées, actualisés toutes les 30 minutes et triés automatiquement. Les éléments identifiés comme incidents sont transformés en brouillons de dossiers et affichés sur la carte comme non vérifiés jusqu’à confirmation par un éditeur.', wire_empty: 'Le fil n’est pas encore chargé. Il se remplit une fois le site déployé avec sa tâche de mise à jour.', updated_ago: 'Mis à jour il y a {m} min', updated_h: 'Mis à jour il y a {h} h', updated_stale: 'Dernière mise à jour il y a {h} h', wire_sources: '{ok} sources sur {n} ont répondu', kinds: { incident: 'Incident', vulnerability: 'Vulnérabilité', research: 'Recherche', policy: 'Réglementation', 'vendor-report': 'Rapport éditeur', other: 'Actualité' }, open_draft: 'Ouvrir le brouillon de dossier',
-      f_ver: 'Vérification', ver_all: 'Tous', ver_verified: 'Vérifiés seulement', unverified: 'Non vérifié · brouillon automatique', unv_hint: 'Ce dossier a été rédigé automatiquement à partir d’un seul article et n’a pas encore été relu par un éditeur. Considérez chaque champ comme provisoire et lisez la source.', confidence: 'Confiance du modèle', today: 'Aujourd’hui', yesterday: 'Hier' },
+      f_ver: 'Vérification', ver_all: 'Tous', ver_verified: 'Vérifiés seulement', unverified: 'Non vérifié · brouillon automatique', unv_hint: 'Ce dossier a été rédigé automatiquement à partir d’un seul article et n’a pas encore été relu par un éditeur. Considérez chaque champ comme provisoire et lisez la source.', confidence: 'Confiance du modèle', today: 'Aujourd’hui', yesterday: 'Hier', theme_day: 'Jour', theme_night: 'Nuit', st_stories: 'Articles · 48 h · {n} sources', home_threats: 'Menaces signalées aujourd’hui', home_vs: '{d} vs hier', home_sub: 'Articles classés incidents ou failles exploitées par le robot ces 24 dernières heures. Les brouillons attendent un éditeur.', home_untagged: 'Articles du fil des 24 dernières heures. Le tri entre menaces et actualités commence quand le robot aura sa clé.', open_wire: 'Ouvrir le fil →', home_mk: 'Réaction des marchés · 5 jours', markets_page: 'Page Marchés →', get_alerts: 'Recevoir les alertes', alerts_h: 'Les incidents critiques dans votre boîte mail en 30 minutes', alerts_ph: 'vous@entreprise.com', subscribe: 'S’abonner', alerts_note: 'Gratuit. Aussi en RSS.', alerts_ok: 'Inscription enregistrée. Merci.', alerts_fail: 'Inscription impossible depuis cet aperçu. Réessayez sur aithreat.io.', wire_lbl: 'FIL' },
     es: { osint: 'Fuentes abiertas', h1: 'AI Threat Watch', lede: 'Ataques contra sistemas de IA y ataques realizados con IA, reportados públicamente. Pase el cursor sobre un punto para ver qué ocurrió allí y abra el informe original en una pestaña nueva.',
       nav_map: 'Mapa', nav_markets: 'Mercados', nav_data: 'Datos y citas', lang: 'Idioma', translated: 'Los expedientes en este idioma son traducciones automáticas revisadas en terminología; la versión en inglés es la de referencia.', no_tr: 'Traducción no disponible sin conexión; se muestran los expedientes en inglés.',
       st_inc: 'Incidentes', st_crit: 'Críticos', st_countries: 'Países citados', st_ww: 'Global', st_loss: 'Pérdidas reportadas',
@@ -421,7 +485,7 @@
       dt_cite_h: 'Cómo citar', dt_cite_p: 'Cada expediente tiene un enlace permanente (la dirección termina con el id del caso). Cite el expediente y la fuente primaria a la que remite.', dt_method_h: 'Método', dt_method_p: 'Un incidente se incluye cuando un proveedor, un organismo público, un tribunal o un medio reconocido lo ha reportado públicamente. La gravedad refleja la escala y el daño confirmado: crítica para intrusiones confirmadas con robo masivo de datos, explotación activa u operaciones estatales; alta para compromisos o fraudes confirmados con pérdida material; media para fallos demostrados, corregidos antes de ser abusados, o exposiciones limitadas; baja para pruebas de concepto. La atribución se reporta tal como la expresó la fuente, con su nivel de confianza. «Global» se usa cuando un incidente afectó a muchos países o no tiene una ubicación única.', dt_sev_h: 'Escala de gravedad', dt_contact: 'Correcciones y nuevos reportes: abra el expediente, copie su enlace y envíelo junto con su fuente.',
       retrieved: 'consultado el',
       nav_wire: 'Noticias', wire_h: 'Noticias y amenazas', wire_threats: 'Amenazas reportadas', wire_news: 'Noticias', wire_untagged: 'Sin clasificar aún', wire_intro: 'Titulares de seguridad de la IA de {n} fuentes verificadas, actualizados cada 30 minutos y clasificados automáticamente. Los elementos marcados como incidentes se convierten en borradores de expediente y aparecen en el mapa como no verificados hasta que un editor los confirma.', wire_empty: 'El hilo aún no se ha cargado. Se llena cuando el sitio se despliega con su tarea de actualización.', updated_ago: 'Actualizado hace {m} min', updated_h: 'Actualizado hace {h} h', updated_stale: 'Última actualización hace {h} h', wire_sources: '{ok} de {n} fuentes respondieron', kinds: { incident: 'Incidente', vulnerability: 'Vulnerabilidad', research: 'Investigación', policy: 'Regulación', 'vendor-report': 'Informe de proveedor', other: 'Noticia' }, open_draft: 'Abrir borrador de expediente',
-      f_ver: 'Verificación', ver_all: 'Todos', ver_verified: 'Solo verificados', unverified: 'No verificado · borrador automático', unv_hint: 'Este expediente se redactó automáticamente a partir de una sola noticia y aún no lo ha revisado un editor. Considere cada campo provisional y lea la fuente.', confidence: 'Confianza del modelo', today: 'Hoy', yesterday: 'Ayer' },
+      f_ver: 'Verificación', ver_all: 'Todos', ver_verified: 'Solo verificados', unverified: 'No verificado · borrador automático', unv_hint: 'Este expediente se redactó automáticamente a partir de una sola noticia y aún no lo ha revisado un editor. Considere cada campo provisional y lea la fuente.', confidence: 'Confianza del modelo', today: 'Hoy', yesterday: 'Ayer', theme_day: 'Día', theme_night: 'Noche', st_stories: 'Noticias · 48 h · {n} fuentes', home_threats: 'Amenazas reportadas hoy', home_vs: '{d} vs ayer', home_sub: 'Noticias que el robot clasificó como incidentes o fallos explotados en las últimas 24 horas. Los borradores esperan a un editor.', home_untagged: 'Noticias del hilo en las últimas 24 horas. La clasificación en amenazas y noticias empieza cuando el robot tenga su clave.', open_wire: 'Abrir el hilo →', home_mk: 'Reacción del mercado · 5 días', markets_page: 'Página Mercados →', get_alerts: 'Recibir alertas', alerts_h: 'Incidentes críticos en su correo en 30 minutos', alerts_ph: 'usted@empresa.com', subscribe: 'Suscribirse', alerts_note: 'Gratis. También por RSS.', alerts_ok: 'Suscripción registrada. Gracias.', alerts_fail: 'No se pudo suscribir desde esta vista previa. Inténtelo en aithreat.io.', wire_lbl: 'HILO' },
     ar: { osint: 'تقارير مفتوحة المصدر', h1: 'مرصد تهديدات الذكاء الاصطناعي', lede: 'هجمات مُعلنة على أنظمة الذكاء الاصطناعي، وهجمات نُفِّذت باستخدام الذكاء الاصطناعي. مرّر المؤشر فوق علامة لقراءة ما حدث هناك، ثم افتح التقرير الأصلي في تبويب جديد.',
       nav_map: 'الخريطة', nav_markets: 'الأسواق', nav_data: 'البيانات والاستشهاد', lang: 'اللغة', translated: 'الملفات بهذه اللغة مترجمة آليًا ومراجعة من حيث المصطلحات؛ النسخة الإنجليزية هي المرجع.', no_tr: 'الترجمة غير متاحة دون اتصال؛ تُعرض الملفات بالإنجليزية.',
       st_inc: 'الحوادث', st_crit: 'حرجة', st_countries: 'دول مذكورة', st_ww: 'عالمي', st_loss: 'خسائر مُعلنة',
@@ -444,7 +508,7 @@
       dt_cite_h: 'طريقة الاستشهاد', dt_cite_p: 'لكل ملف رابط دائم (ينتهي العنوان بمعرّف الحالة). استشهد بالملف وبالمصدر الأولي الذي يشير إليه.', dt_method_h: 'المنهجية', dt_method_p: 'تُدرج الحادثة عندما تعلنها شركة أو جهة حكومية أو محكمة أو وسيلة إعلام موثوقة. تعكس الخطورة الحجم والضرر المؤكد: حرجة للاختراقات المؤكدة مع سرقة بيانات واسعة أو استغلال نشط أو عمليات دول؛ عالية للاختراق أو الاحتيال المؤكد مع خسارة مادية؛ متوسطة للثغرات المثبتة التي أُصلحت قبل استغلالها أو التعرضات المحدودة؛ منخفضة لإثباتات المفهوم. يُنقل الإسناد كما ذكره المصدر مع مستوى ثقته. تُستخدم «عالمي» عندما تصيب الحادثة دولًا كثيرة أو لا يكون لها موقع واحد.', dt_sev_h: 'مقياس الخطورة', dt_contact: 'للتصحيحات والبلاغات الجديدة: افتح الملف، انسخ رابطه، وأرسله مع مصدرك.',
       retrieved: 'تاريخ الاطلاع',
       nav_wire: 'الأخبار', wire_h: 'الأخبار والتهديدات', wire_threats: 'تهديدات مُبلغ عنها', wire_news: 'أخبار', wire_untagged: 'لم تُصنَّف بعد', wire_intro: 'عناوين أمن الذكاء الاصطناعي من {n} مصدرًا موثوقًا، تُحدّث كل 30 دقيقة وتُصنَّف آليًا. العناصر المصنفة كحوادث تُحوَّل إلى مسودات ملفات وتظهر على الخريطة كغير موثّقة حتى يؤكدها محرر.', wire_empty: 'لم يُحمَّل البث بعد. يمتلئ بعد نشر الموقع مع مهمة التحديث.', updated_ago: 'حُدّث قبل {m} دقيقة', updated_h: 'حُدّث قبل {h} ساعة', updated_stale: 'آخر تحديث قبل {h} ساعة', wire_sources: 'استجاب {ok} من {n} مصدرًا', kinds: { incident: 'حادثة', vulnerability: 'ثغرة', research: 'بحث', policy: 'سياسات', 'vendor-report': 'تقرير شركة', other: 'خبر' }, open_draft: 'فتح مسودة الملف',
-      f_ver: 'التوثيق', ver_all: 'الكل', ver_verified: 'الموثّقة فقط', unverified: 'غير موثّق · مسودة آلية', unv_hint: 'أُعدّ هذا الملف آليًا من تقرير إخباري واحد ولم يراجعه محرر بعد. اعتبر كل حقل مؤقتًا واقرأ المصدر.', confidence: 'ثقة النموذج', today: 'اليوم', yesterday: 'أمس' },
+      f_ver: 'التوثيق', ver_all: 'الكل', ver_verified: 'الموثّقة فقط', unverified: 'غير موثّق · مسودة آلية', unv_hint: 'أُعدّ هذا الملف آليًا من تقرير إخباري واحد ولم يراجعه محرر بعد. اعتبر كل حقل مؤقتًا واقرأ المصدر.', confidence: 'ثقة النموذج', today: 'اليوم', yesterday: 'أمس', theme_day: 'نهاري', theme_night: 'ليلي', st_stories: 'أخبار · 48 ساعة · {n} مصدرًا', home_threats: 'تهديدات مُبلغ عنها اليوم', home_vs: '{d} مقارنة بالأمس', home_sub: 'أخبار صنّفها الروبوت كحوادث أو ثغرات مستغلة خلال آخر 24 ساعة. المسودات بانتظار محرر.', home_untagged: 'أخبار البث خلال آخر 24 ساعة. يبدأ الفرز بين التهديدات والأخبار عندما يحصل الروبوت على مفتاحه.', open_wire: 'فتح البث ←', home_mk: 'ردة فعل السوق · 5 أيام', markets_page: 'صفحة الأسواق ←', get_alerts: 'استقبال التنبيهات', alerts_h: 'الحوادث الحرجة في بريدك خلال 30 دقيقة', alerts_ph: 'you@company.com', subscribe: 'اشتراك', alerts_note: 'مجانًا، ومتاح أيضًا عبر RSS.', alerts_ok: 'تم تسجيل الاشتراك. شكرًا.', alerts_fail: 'تعذّر الاشتراك من هذه المعاينة. جرّب على aithreat.io.', wire_lbl: 'البث' },
     zh: { osint: '公开来源报道', h1: 'AI 威胁观察', lede: '公开报道的针对 AI 系统的攻击，以及利用 AI 发动的攻击。将鼠标悬停在标记上查看当地发生了什么，然后在新标签页中打开原始报道。',
       nav_map: '地图', nav_markets: '市场', nav_data: '数据与引用', lang: '语言', translated: '本语言的案例档案为机器翻译并经术语校对；以英文版本为准。', no_tr: '离线状态下无法加载翻译，当前显示英文案例档案。',
       st_inc: '事件', st_crit: '严重', st_countries: '涉及国家', st_ww: '全球', st_loss: '已报告损失',
@@ -467,7 +531,7 @@
       dt_cite_h: '如何引用', dt_cite_p: '每个案例档案都有永久链接（地址以案例 id 结尾）。请引用案例档案及其指向的原始来源。', dt_method_h: '方法', dt_method_p: '当厂商、政府机构、法院或可信媒体公开报道时，事件即被收录。严重程度反映规模和已确认的危害：严重指确认的入侵并伴有大规模数据窃取、在野利用或国家行动；高指确认的入侵或欺诈并造成实质损失；中指已演示的漏洞、在被滥用前修复或影响有限的暴露；低指概念验证。归因按来源的表述及其置信度如实记录。“全球”用于波及多国或没有单一地点的事件。', dt_sev_h: '严重程度标准', dt_contact: '更正与新线索：打开案例档案，复制其链接，连同您的来源一并发送。',
       retrieved: '检索于',
       nav_wire: '新闻', wire_h: '新闻与威胁', wire_threats: '已报道的威胁', wire_news: '新闻', wire_untagged: '尚未分类', wire_intro: '来自 {n} 个可信来源的 AI 安全头条，每 30 分钟刷新并由机器分类。被标记为事件的条目会自动生成案例档案草稿，在编辑确认前以“未核实”状态显示在地图上。', wire_empty: '快讯尚未加载。站点部署并启用更新任务后将自动填充。', updated_ago: '{m} 分钟前更新', updated_h: '{h} 小时前更新', updated_stale: '上次更新于 {h} 小时前', wire_sources: '{n} 个来源中有 {ok} 个响应', kinds: { incident: '事件', vulnerability: '漏洞', research: '研究', policy: '政策', 'vendor-report': '厂商报告', other: '新闻' }, open_draft: '打开草稿档案',
-      f_ver: '核实状态', ver_all: '全部', ver_verified: '仅已核实', unverified: '未核实 · 自动草稿', unv_hint: '此案例档案由单篇新闻报道自动生成，尚未经编辑核实。请将所有字段视为临时信息并阅读来源。', confidence: '模型置信度', today: '今天', yesterday: '昨天' },
+      f_ver: '核实状态', ver_all: '全部', ver_verified: '仅已核实', unverified: '未核实 · 自动草稿', unv_hint: '此案例档案由单篇新闻报道自动生成，尚未经编辑核实。请将所有字段视为临时信息并阅读来源。', confidence: '模型置信度', today: '今天', yesterday: '昨天', theme_day: '日间', theme_night: '夜间', st_stories: '报道 · 48 小时 · {n} 个来源', home_threats: '今日报道的威胁', home_vs: '较昨日 {d}', home_sub: '机器人在过去 24 小时内归类为事件或已被利用漏洞的报道。草稿等待编辑确认。', home_untagged: '过去 24 小时的快讯报道。机器人获得密钥后将开始区分威胁与新闻。', open_wire: '打开快讯 →', home_mk: '市场反应 · 5 日', markets_page: '市场页面 →', get_alerts: '订阅提醒', alerts_h: '严重事件 30 分钟内送达您的邮箱', alerts_ph: 'you@company.com', subscribe: '订阅', alerts_note: '免费，也提供 RSS。', alerts_ok: '已订阅，谢谢。', alerts_fail: '无法在此预览中订阅，请在 aithreat.io 上重试。', wire_lbl: '快讯' },
   };
 
   const CAT_EN = Object.keys(UI.en.cats);
@@ -510,9 +574,28 @@
     }
     notice.hidden = lang === 'en';
     notice.textContent = lang === 'en' ? '' : (TR[lang] ? t('translated') : t('no_tr'));
-    renderChrome(); render(); renderWire(); renderMarkets(); renderData(); renderFresh();
+    renderChrome(); render(); renderWire(); renderTicker(); renderHome(); renderMarkets(); renderData(); renderFresh();
     if (state.open) renderCase(byId.get(state.open));
   }
+
+  // ---- Theme (dark by default, day mode on request) ----
+  function applyTheme(mode) {
+    state.theme = mode;
+    if (mode === 'light') document.documentElement.setAttribute('data-theme', 'light'); else document.documentElement.removeAttribute('data-theme');
+    try { localStorage.setItem('atw-theme', mode); } catch (e) {}
+    renderThemeButton();
+  }
+  function renderThemeButton() {
+    const b = document.getElementById('theme'); if (!b) return;
+    const light = state.theme === 'light';
+    b.setAttribute('aria-pressed', String(light));
+    document.getElementById('theme-label').textContent = light ? t('theme_night') : t('theme_day');
+    b.setAttribute('aria-label', light ? t('theme_night') : t('theme_day'));
+    document.getElementById('theme-icon').innerHTML = light
+      ? '<path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"></path>'
+      : '<circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"></path>';
+  }
+  document.getElementById('theme').addEventListener('click', () => { const next = state.theme === 'light' ? 'dark' : 'light'; track('theme', { to: next }); applyTheme(next); });
   document.getElementById('lang').addEventListener('change', (e) => setLang(e.target.value));
 
   function renderChrome() {
@@ -520,7 +603,10 @@
     set('t-osint', 'osint'); set('t-h1', 'h1'); set('t-lede', 'lede'); set('t-sev', 'f_sev'); set('t-type', 'f_type'); set('t-win', 'f_win'); set('t-ver', 'f_ver'); set('t-ww', 'ww'); set('t-ww-sub', 'ww_sub'); set('reset', 'show_all'); set('back', 'back'); set('lang-label', 'lang');
     verBox.querySelectorAll('.chip').forEach((b) => { b.textContent = b.dataset.ver === 'all' ? t('ver_all') : t('ver_verified'); });
     document.querySelectorAll('#views a').forEach((a) => { a.textContent = t('nav_' + a.dataset.view); });
-    document.getElementById('map').setAttribute('aria-label', t('h1'));
+    document.querySelectorAll('#tabbar a').forEach((a) => { a.querySelector('span').textContent = t('nav_' + a.dataset.view); });
+    document.getElementById('t-wirelbl').textContent = t('wire_lbl');
+    renderThemeButton();
+    document.getElementById('globe').setAttribute('aria-label', t('h1'));
     const dates = INC.map((i) => i.date).sort();
     document.getElementById('period').textContent = `${fmtMonth(dates[0])} – ${fmtMonth(dates[dates.length - 1])}`;
     document.getElementById('foot').textContent = t('foot', { n: fmtN(INC.length), date: fmtDate(dates[dates.length - 1]) });
@@ -565,7 +651,7 @@
 
   // ---- Map ----
   const W = 960, H = 480;
-  const svg = d3.select('#map').attr('viewBox', `0 0 ${W} ${H}`);
+  const svg = d3.select('#globe').attr('viewBox', `0 0 ${W} ${H}`);
   const proj = d3.geoEqualEarth().fitExtent([[6, 6], [W - 6, H - 6]], { type: 'Sphere' });
   const path = d3.geoPath(proj);
   const features = topojson.feature(WORLD, WORLD.objects.countries).features.filter((f) => f.id !== '010');
@@ -615,7 +701,9 @@
     const gl = groups.get('GL') || [];
     ww.hidden = gl.length === 0; ww.dataset.sev = worstOf(gl); document.getElementById('ww-n').textContent = gl.length;
     const losses = d3.sum(list, (i) => Number(i.loss_usd) || 0);
-    const items = [[fmtN(list.length), t('st_inc'), ''], [fmtN(list.filter((i) => i.severity === 'critical').length), t('st_crit'), 'crit'], [fmtN([...groups.keys()].filter((k) => k !== 'GL').length), t('st_countries'), ''], [fmtN(gl.length), t('st_ww'), ''], [losses ? fmtUsd(losses) : '—', t('st_loss'), '']];
+    const since48 = Date.now() - 48 * 3600e3;
+    const w48 = state.wire.filter((w) => Date.parse(w.published) >= since48);
+    const items = [[fmtN(list.length), t('st_inc'), ''], [fmtN(list.filter((i) => i.severity === 'critical').length), t('st_crit'), 'crit'], [fmtN(w48.length), t('st_stories', { n: fmtN(new Set(w48.map((w) => w.source)).size) }), ''], [losses ? fmtUsd(losses) : '—', t('st_loss'), 'gold']];
     document.getElementById('stats').replaceChildren(...items.map(([v, label, cls]) => { const d = el('div', 'stat' + (cls ? ' ' + cls : '')); d.append(el('b', null, v), el('span', null, label)); return d; }));
     if (state.place && !groups.has(state.place)) state.place = null;
     renderPanel(list);
@@ -784,6 +872,52 @@
     box.append(row, notes, ta, add, msg);
   }
 
+  // ---- Ticker + home cards ----
+  const mine = () => state.wire.filter((w) => !w.lang || w.lang === 'en' || w.lang === state.lang);
+  function renderTicker() {
+    const tk = document.getElementById('ticker'), track = document.getElementById('track');
+    const items = mine().slice(0, 10);
+    tk.hidden = items.length === 0; if (!items.length) return;
+    const mk = () => items.map((w) => { const a = el('a'); a.href = w.url; a.target = '_blank'; a.rel = 'noopener noreferrer'; a.append(el('b', null, new Date(w.published).toLocaleTimeString(loc(), { hour: '2-digit', minute: '2-digit' })), `${w.source} · ${w.one_line || w.title}`); a.addEventListener('click', () => track('wire_click', { source: w.source, kind: w.kind || 'untagged', from: 'ticker' })); return a; });
+    track.replaceChildren(...mk(), ...mk());
+    track.style.setProperty('--dur', `${Math.max(40, items.length * 9)}s`);
+  }
+  function renderHome() {
+    const h = document.getElementById('home'); if (!h) return;
+    const day = Date.now() - 24 * 3600e3, prev = Date.now() - 48 * 3600e3;
+    const isThreat = (w) => w.kind === 'incident' || w.kind === 'vulnerability';
+    const tagged = state.wire.some((w) => w.kind);
+    const pick = (w) => tagged ? isThreat(w) : true;
+    const today = state.wire.filter((w) => pick(w) && Date.parse(w.published) >= day).length;
+    const yday = state.wire.filter((w) => pick(w) && Date.parse(w.published) >= prev && Date.parse(w.published) < day).length;
+    const d = today - yday;
+    const c1 = el('div', 'hcard'); c1.append(el('div', 'k', tagged ? t('home_threats') : t('st_inc')));
+    const big = el('div', 'big', fmtN(today)); if (state.wire.length) { const s = el('small', null, t('home_vs', { d: (d >= 0 ? '↑ ' : '↓ ') + fmtN(Math.abs(d)) })); if (d < 0) s.style.color = 'var(--down)'; big.append(s); }
+    c1.append(big, el('div', 'sub', tagged ? t('home_sub') : t('home_untagged')));
+    const a1 = el('a', 'cta', t('open_wire')); a1.href = '#wire'; c1.append(a1);
+    const c2 = el('div', 'hcard'); c2.append(el('div', 'k', t('home_mk')));
+    MKT.slice().sort((a, b) => b.date.localeCompare(a.date)).slice(0, 3).forEach((ev) => { const r = ret(ev, 5); const row = el('div', 'row'); const l = el('span', null, ev.company); l.append(el('span', 'tk', ev.ticker)); const p = el('span', 'pct', r == null ? t('mk_na') : fmtPct(r)); p.style.color = r == null ? 'var(--muted)' : r >= 0 ? 'var(--up)' : 'var(--down)'; row.append(l, p); c2.append(row); });
+    const a2 = el('a', 'link', t('markets_page')); a2.href = '#markets'; c2.append(a2);
+    const c3 = el('div', 'hcard gold'); c3.append(el('div', 'k', t('get_alerts')), el('h3', null, t('alerts_h')));
+    const f = el('form', 'alerts'); f.setAttribute('name', 'alerts'); f.setAttribute('method', 'POST'); f.setAttribute('data-netlify', 'true'); f.setAttribute('netlify-honeypot', 'bot-field');
+    const hid = el('input'); hid.type = 'hidden'; hid.name = 'form-name'; hid.value = 'alerts';
+    const hp = el('input'); hp.type = 'text'; hp.name = 'bot-field'; hp.tabIndex = -1; hp.autocomplete = 'off'; hp.style.cssText = 'position:absolute;left:-9999px';
+    const lab = el('label', 'sr', 'Email'); lab.htmlFor = 'alert-email';
+    const inp = el('input'); inp.type = 'email'; inp.name = 'email'; inp.id = 'alert-email'; inp.required = true; inp.placeholder = t('alerts_ph');
+    const lng = el('input'); lng.type = 'hidden'; lng.name = 'lang'; lng.value = state.lang;
+    const btn = el('button', null, t('subscribe')); btn.type = 'submit';
+    f.append(hid, hp, lab, inp, lng, btn);
+    const msg = el('div', 'alerts-msg', t('alerts_note'));
+    f.addEventListener('submit', async (e) => {
+      e.preventDefault(); btn.disabled = true; track('subscribe', {});
+      try { const r = await fetch('/', { method: 'POST', headers: { 'Content-Type': 'application/x-www-form-urlencoded' }, body: new URLSearchParams(new FormData(f)).toString() }); if (!r.ok) throw new Error(r.status); msg.textContent = t('alerts_ok'); msg.classList.add('ok'); f.reset(); }
+      catch (err) { msg.textContent = t('alerts_fail'); }
+      btn.disabled = false;
+    });
+    c3.append(f, msg);
+    h.replaceChildren(c1, c2, c3);
+  }
+
   // ---- Live wire ----
   function renderFresh() {
     const f = document.getElementById('fresh');
@@ -847,7 +981,7 @@
       cands.forEach((c) => { if (byId.has(c.id)) { Object.assign(byId.get(c.id), c, { verified: false }); } else { c.verified = false; INC.push(c); byId.set(c.id, c); } });
       verBox.hidden = !INC.some((i) => i.verified === false);
     }
-    renderFresh(); renderWire(); render();
+    renderFresh(); renderWire(); renderTicker(); renderHome(); render();
     if (state.open && byId.has(state.open)) renderCase(byId.get(state.open));
     const h = location.hash.slice(1); if (byId.has(h) && caseEl.hidden) openCase(h);
   }
@@ -942,7 +1076,7 @@
     if (view !== state.view || !state.routed) track('view', { view });
     state.view = view; state.routed = true;
     ['map', 'wire', 'markets', 'data'].forEach((k) => { document.getElementById('view-' + k).hidden = k !== view; });
-    document.querySelectorAll('#views a').forEach((a) => { if (a.dataset.view === view) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current'); });
+    document.querySelectorAll('#views a, #tabbar a').forEach((a) => { if (a.dataset.view === view) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current'); });
     window.scrollTo(0, 0);
   }
   window.addEventListener('hashchange', route);
@@ -950,7 +1084,10 @@
   // ---- Boot ----
   let lang = 'en';
   try { lang = new URLSearchParams(location.search).get('lang') || localStorage.getItem('atw-lang') || (navigator.language || 'en').slice(0, 2); } catch (e) {}
-  renderChrome(); render(); renderWire(); renderMarkets(); renderData(); route();
+  let theme = 'dark';
+  try { theme = localStorage.getItem('atw-theme') || 'dark'; } catch (e) {}
+  applyTheme(theme);
+  renderChrome(); render(); renderWire(); renderTicker(); renderHome(); renderMarkets(); renderData(); route();
   setLang(lang, true);
   loadLive();
 })();

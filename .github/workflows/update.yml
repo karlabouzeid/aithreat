@@ -28,7 +28,7 @@ jobs:
         run: |
           git config user.name "aithreat-bot"
           git config user.email "bot@aithreat.io"
-          git add site/data
+          git add site/data site/feed.xml
           if git diff --cached --quiet; then
             echo "No changes"
           else
