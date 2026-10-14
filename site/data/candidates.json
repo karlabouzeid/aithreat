@@ -1515,5 +1515,210 @@
     "verified": false,
     "drafted_at": "2026-10-14T17:15:57Z",
     "wire_id": "6903183f69f4"
+  },
+  {
+    "id": "rathat-ai-c2-panel-maas",
+    "date": "2026-10-14",
+    "title": "RatHat malware C2 panel uses AI to build malware and rank victims across ~100 deployments",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "Android users; financial data",
+    "loss_usd": null,
+    "summary": "RatHat's C2 panel builds malware and ranks victims with AI across nearly 100 deployments, pointing to malware-as-a-service. Zimperium describes the Android strain as Chinese-made, stealing financial data.",
+    "actor": "RatHat operators",
+    "actor_type": "unknown",
+    "attribution": "Zimperium describes RatHat as Chinese-made; the operators are not identified in the available text.",
+    "motive": "Financial data theft",
+    "vector": "Android spyware/backdoor malware managed through a C2 panel with AI features; infection route not stated.",
+    "root_cause": "Unknown",
+    "impact": "Nearly 100 deployments observed; the number of victims and any losses are not stated.",
+    "response": "Researchers at Zimperium and a second research team published findings; no takedown reported.",
+    "status": "ongoing",
+    "cve": null,
+    "confidence": 0.5,
+    "source": "Infosecurity Magazine",
+    "url": "https://www.infosecurity-magazine.com/news/rathat-c2-panel-malware-as-a",
+    "sources": [
+      {
+        "name": "Infosecurity Magazine",
+        "url": "https://www.infosecurity-magazine.com/news/rathat-c2-panel-malware-as-a"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-14",
+        "event": "Reported by Infosecurity Magazine"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-14T18:14:13Z",
+    "wire_id": "5d1073ea8959"
+  },
+  {
+    "id": "wiz-red-agent-snowflake-jira",
+    "date": "2026-10-14",
+    "title": "Wiz Red Agent reaches Snowflake's internal Jira via GitHub Actions flaw in Copilot-assisted PR",
+    "category": "AI supply chain",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "US",
+    "region": "North America",
+    "target": "Snowflake internal Jira and GitHub Actions workflow",
+    "loss_usd": null,
+    "summary": "Wiz's autonomous Red Agent found and exploited a GitHub Actions injection in a GitHub Copilot-assisted PR, validated access to sensitive data in Snowflake's internal Jira and assessed blast radius without human help.",
+    "actor": "Wiz Red Agent (autonomous AI attacker)",
+    "actor_type": "researcher",
+    "attribution": "Reported by Wiz Research as its own Red Agent; the flaw was missed by GitHub's Advanced Security.",
+    "motive": "Security research and demonstration of the Red Agent product.",
+    "vector": "GitHub Actions injection in a workflow tied to a GitHub Copilot-assisted pull request.",
+    "root_cause": "Injectable GitHub Actions workflow that GitHub Advanced Security did not flag, live for five days before exploitation.",
+    "impact": "Validated access to sensitive data in Snowflake's internal Jira; blast radius assessed by the agent.",
+    "response": "Unknown",
+    "status": "unresolved",
+    "cve": null,
+    "confidence": 0.45,
+    "source": "Wiz Research",
+    "url": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
+    "sources": [
+      {
+        "name": "Wiz Research",
+        "url": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-14",
+        "event": "Reported by Wiz Research"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-14T18:14:13Z",
+    "wire_id": "10a5b0bc8332"
+  },
+  {
+    "id": "ultralytics-pypi-cryptomining",
+    "date": "2024-12-04",
+    "title": "Ultralytics AI library hacked via GitHub Actions to push cryptominer on PyPI",
+    "category": "AI supply chain",
+    "direction": "on-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "Ultralytics AI library (PyPI users)",
+    "loss_usd": null,
+    "summary": "A supply chain attack on Ultralytics exploited GitHub Actions to inject malicious PyPI packages used for cryptomining.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "attribution": "Not stated in the summary.",
+    "motive": "Cryptomining",
+    "vector": "Exploitation of GitHub Actions to inject malicious packages into the PyPI release of the Ultralytics library.",
+    "root_cause": "Weakness in the project's GitHub Actions workflow allowed malicious code injection into published packages.",
+    "impact": "Malicious Ultralytics packages were published to PyPI to run cryptominers on installing systems; number of victims not stated.",
+    "response": "Wiz published an account of how it unfolded and mitigation steps for users.",
+    "status": "contained",
+    "cve": null,
+    "confidence": 0.6,
+    "source": "Wiz Research",
+    "url": "https://www.wiz.io/blog/ultralytics-ai-library-hacked-via-github-for-cryptomining",
+    "sources": [
+      {
+        "name": "Wiz Research",
+        "url": "https://www.wiz.io/blog/ultralytics-ai-library-hacked-via-github-for-cryptomining"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2024-12-04",
+        "event": "Reported by Wiz Research"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-14T18:14:13Z",
+    "wire_id": "55e50a2184f5"
+  },
+  {
+    "id": "cooke-van-orden-deepfake-videos",
+    "date": "2026-10-14",
+    "title": "Cooke campaign sends cease-and-desist to Rep. Van Orden over deepfake videos",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "low",
+    "country": "US",
+    "region": "North America",
+    "target": "Congressional candidate Rebecca Cooke (WI)",
+    "loss_usd": null,
+    "summary": "Attorneys for Democratic candidate Rebecca Cooke sent a cease-and-desist to U.S. Rep. Derrick Van Orden over his use of deepfake videos in the race for November's election.",
+    "actor": "Rep. Derrick Van Orden (alleged)",
+    "actor_type": "unknown",
+    "attribution": "Alleged by Cooke's attorneys in a cease-and-desist letter; not independently confirmed in the summary.",
+    "motive": "Political advantage in the November election (alleged)",
+    "vector": "Deepfake videos used in political messaging",
+    "root_cause": "Unknown",
+    "impact": "Alleged deceptive deepfake content about a congressional candidate ahead of the election; scale of reach unknown.",
+    "response": "Cooke's attorneys sent a cease-and-desist letter to Van Orden.",
+    "status": "ongoing",
+    "cve": null,
+    "confidence": 0.45,
+    "source": "AI Incident Database",
+    "url": "https://www.wpr.org/news/cooke-cease-and-desist-letter-van-orden-ai-deepfakes",
+    "sources": [
+      {
+        "name": "AI Incident Database",
+        "url": "https://www.wpr.org/news/cooke-cease-and-desist-letter-van-orden-ai-deepfakes"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-14",
+        "event": "Reported by AI Incident Database"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-14T20:20:23Z",
+    "wire_id": "17ef900006eb"
+  },
+  {
+    "id": "n8n-expression-rce-cve-2025-68613-kev",
+    "date": "2026-10-14",
+    "title": "n8n workflow expression RCE (CVE-2025-68613) added to CISA KEV as exploited",
+    "category": "AI supply chain",
+    "direction": "on-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "n8n workflow automation deployments",
+    "loss_usd": null,
+    "summary": "CISA added n8n's workflow expression evaluation flaw, allowing remote code execution, to its KEV catalog as actively exploited.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "attribution": "Unknown; CISA KEV entry does not name the exploiting actor.",
+    "motive": "Unknown",
+    "vector": "Improper control of dynamically managed code resources in n8n's workflow expression evaluation system.",
+    "root_cause": "Workflow expression evaluation does not properly control dynamically managed code, enabling remote code execution.",
+    "impact": "Unknown; the entry only confirms active exploitation, not victims or scale.",
+    "response": "Listed in CISA's Known Exploited Vulnerabilities catalog.",
+    "status": "ongoing",
+    "cve": "CVE-2025-68613",
+    "confidence": 0.45,
+    "source": "CISA KEV",
+    "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2025-68613",
+    "sources": [
+      {
+        "name": "CISA KEV",
+        "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2025-68613"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-14",
+        "event": "Reported by CISA KEV"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-14T20:20:23Z",
+    "wire_id": "4ed362b305e0"
   }
 ]
