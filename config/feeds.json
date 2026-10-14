@@ -130,5 +130,120 @@
     "ai_only": true,
     "lang": "zh",
     "google": true
+  },
+  {
+    "name": "CrowdStrike",
+    "url": "https://www.crowdstrike.com/en-us/blog/feed/",
+    "ai_only": false,
+    "lang": "en"
+  },
+  {
+    "name": "SentinelOne Labs",
+    "url": "https://www.sentinelone.com/labs/feed/",
+    "ai_only": false,
+    "lang": "en"
+  },
+  {
+    "name": "Check Point Research",
+    "url": "https://research.checkpoint.com/feed/",
+    "ai_only": false,
+    "lang": "en"
+  },
+  {
+    "name": "Kaspersky Securelist",
+    "url": "https://securelist.com/feed/",
+    "ai_only": false,
+    "lang": "en"
+  },
+  {
+    "name": "ESET WeLiveSecurity",
+    "url": "https://www.welivesecurity.com/en/rss/feed/",
+    "ai_only": false,
+    "lang": "en"
+  },
+  {
+    "name": "Cisco Talos",
+    "url": "https://blog.talosintelligence.com/rss/",
+    "ai_only": false,
+    "lang": "en"
+  },
+  {
+    "name": "Zscaler ThreatLabz",
+    "url": "https://www.zscaler.com/blogs/feeds/security-research",
+    "ai_only": false,
+    "lang": "en"
+  },
+  {
+    "name": "Proofpoint",
+    "url": "https://www.proofpoint.com/us/rss.xml",
+    "ai_only": false,
+    "lang": "en"
+  },
+  {
+    "name": "Recorded Future",
+    "url": "https://www.recordedfuture.com/feed",
+    "ai_only": false,
+    "lang": "en"
+  },
+  {
+    "name": "Wiz Research",
+    "url": "https://www.wiz.io/feed/rss.xml",
+    "ai_only": false,
+    "lang": "en"
+  },
+  {
+    "name": "Embrace The Red",
+    "url": "https://embracethered.com/blog/index.xml",
+    "ai_only": true,
+    "lang": "en"
+  },
+  {
+    "name": "Trail of Bits",
+    "url": "https://blog.trailofbits.com/feed/",
+    "ai_only": false,
+    "lang": "en"
+  },
+  {
+    "name": "UK NCSC",
+    "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
+    "ai_only": false,
+    "lang": "en"
+  },
+  {
+    "name": "CERT-FR",
+    "url": "https://www.cert.ssi.gouv.fr/feed/",
+    "ai_only": false,
+    "lang": "fr"
+  },
+  {
+    "name": "arXiv cs.CR",
+    "url": "https://rss.arxiv.org/rss/cs.CR",
+    "ai_only": false,
+    "lang": "en"
+  },
+  {
+    "name": "Schneier on Security",
+    "url": "https://www.schneier.com/feed/atom/",
+    "ai_only": false,
+    "lang": "en"
+  },
+  {
+    "name": "GBHackers",
+    "url": "https://gbhackers.com/feed/",
+    "ai_only": false,
+    "lang": "en"
+  },
+  {
+    "name": "404 Media",
+    "url": "https://www.404media.co/rss/",
+    "ai_only": false,
+    "lang": "en"
+  },
+  {
+    "name": "CISA KEV (AI products)",
+    "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+    "ai_only": true,
+    "lang": "en",
+    "json": "kev"
   }
 ]

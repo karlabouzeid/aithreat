@@ -60,6 +60,17 @@ def norm_url(u)
   uri.to_s.sub(/\/$/, "")
 end
 
+KEV_AI_RE = /\b(AI|LLM|GPT|OpenAI|Anthropic|Langflow|Flowise|LiteLLM|Ollama|vLLM|Ray|Anyscale|Hugging ?Face|Gradio|Open WebUI|AnythingLLM|Dify|n8n|LangChain|MCP|Triton|NVIDIA|PyTorch|TensorFlow|Jupyter|MLflow|Kubeflow|model|agent|chatbot|machine learning)\b/i
+def parse_kev(name, body)
+  data = JSON.parse(body)
+  (data["vulnerabilities"] || []).select { |v| "#{v['vendorProject']} #{v['product']} #{v['vulnerabilityName']} #{v['shortDescription']}" =~ KEV_AI_RE }.map do |v|
+    { title: "#{v['cveID']}: #{v['vendorProject']} #{v['product']} actively exploited", url: "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=#{v['cveID']}", published: v["dateAdded"], summary: strip_html(v["shortDescription"].to_s)[0, 400], publisher: "CISA KEV", source: name }
+  end
+rescue => e
+  log "kev parse failed: #{e.class} #{e.message}"
+  []
+end
+
 def parse_feed(name, body)
   feed = RSS::Parser.parse(body, false)
   items = []
@@ -99,7 +110,7 @@ feeds_ok, feeds_failed, fresh = [], [], []
 FEEDS.each do |f|
   begin
     body = http_get(f["url"])
-    items = parse_feed(f["name"], body)
+    items = f["json"] == "kev" ? parse_kev(f["name"], body) : parse_feed(f["name"], body)
     kept = items.select { |i| i[:url] && !i[:url].empty? && relevant?(i, f["ai_only"]) }
     kept.each do |i|
       url = norm_url(i[:url])
