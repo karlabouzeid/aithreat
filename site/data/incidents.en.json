@@ -200,6 +200,60 @@
     ]
   },
   {
+    "id": "brazil-voiceover-mion-deepfake",
+    "date": "2025-01-16",
+    "title": "Brasilia police Operacao VoiceOver busts gang using Marcos Mion deepfakes for voucher scam",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "BR",
+    "region": "Latin America",
+    "target": "Brazilian consumers",
+    "loss_usd": null,
+    "summary": "The Policia Civil do Distrito Federal arrested three people aged 20 to 23 who used deepfake video and voice of TV host Marcos Mion in sponsored ads for fake Outback discount vouchers sold on cloned sites.",
+    "source": "Policia Civil do Distrito Federal",
+    "url": "https://www.portaltela.com/noticias/2025/01/16/policia-desarticula-quadrilha-que-usava-deepfake-de-marcos-mion-para-fraudes-digitais/",
+    "actor": "Taguatinga-based fraud group",
+    "actor_type": "criminal",
+    "attribution": "PCDF cybercrime unit identified a group operating from a fake marketing office in Taguatinga; one suspect confessed.",
+    "motive": "Payments for non-existent discount vouchers.",
+    "vector": "Deepfake videos of Marcos Mion in paid social media ads directing victims to cloned sites that collected payments to gang-controlled accounts.",
+    "root_cause": "Cheap deepfake tooling plus paid ad distribution of celebrity endorsements.",
+    "timeline": [
+      {
+        "date": "2025-01-10",
+        "event": "27 complaints about fake Mion promotion received in four days"
+      },
+      {
+        "date": "2025-01-16",
+        "event": "Operacao VoiceOver: three arrested, four search warrants served"
+      },
+      {
+        "date": "2025-05-07",
+        "event": "Second phase: 24-year-old site builder arrested in Santa Helena de Goias"
+      }
+    ],
+    "impact": "Dozens of victims; two imported vehicles and electronics seized; combined charges carry up to 21 years.",
+    "response": "Arrests, account freezes and charges of electronic fraud, criminal association and money laundering.",
+    "status": "under investigation",
+    "cve": null,
+    "verification": "confirmed",
+    "sources": [
+      {
+        "name": "Portal Tela (PCDF)",
+        "url": "https://www.portaltela.com/noticias/2025/01/16/policia-desarticula-quadrilha-que-usava-deepfake-de-marcos-mion-para-fraudes-digitais/"
+      },
+      {
+        "name": "Jornal Opcao",
+        "url": "https://www.jornalopcao.com.br/ultimas-noticias/jovem-e-preso-em-goias-por-usar-deepfake-de-marcos-mion-em-golpes-com-sites-falsos-705126/"
+      },
+      {
+        "name": "SBT News",
+        "url": "https://sbtnews.sbt.com.br/noticia/policia/hacker-e-preso-suspeito-de-usar-inteligencia-artificial-em-golpes-com-imagens-de-famosos"
+      }
+    ]
+  },
+  {
     "id": "brad-pitt-ai-romance-scam-france",
     "date": "2025-01-17",
     "title": "French woman loses 830,000 euros to AI-generated 'Brad Pitt' romance scam; probe opened",
@@ -685,6 +739,52 @@
       {
         "name": "AI Incident Database",
         "url": "https://incidentdatabase.ai/cite/918/"
+      }
+    ]
+  },
+  {
+    "id": "mexico-condusef-voice-clone-alert",
+    "date": "2025-02-06",
+    "title": "Mexico's Condusef warns of AI voice-cloning calls used to request large bank transfers",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "low",
+    "country": "MX",
+    "region": "Latin America",
+    "target": "Mexican bank customers",
+    "loss_usd": null,
+    "summary": "Financial consumer regulator Condusef alerted the public that fraudsters were using AI to clone familiar voices in phone calls, typically to request large bank transfers, and linked it to a parallel WhatsApp scam.",
+    "source": "Condusef via Posta",
+    "url": "https://www.posta.com.mx/share/condusef-alerta-sobre-fraude-de-clonacion-de-voz-con-inteligencia-artificial/vl1753226",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "attribution": "Unknown.",
+    "motive": "Fraudulent bank transfers.",
+    "vector": "Phone calls using AI-cloned voices of relatives or acquaintances.",
+    "root_cause": "Voice samples available from social media and messaging.",
+    "timeline": [
+      {
+        "date": "2025-01-14",
+        "event": "Condusef warns of WhatsApp fraud using AI-generated voice notes"
+      },
+      {
+        "date": "2025-02-06",
+        "event": "Condusef publishes voice-cloning phone fraud alert"
+      }
+    ],
+    "impact": "No case counts or losses published.",
+    "response": "Public awareness alert.",
+    "status": "ongoing",
+    "cve": null,
+    "verification": "confirmed",
+    "sources": [
+      {
+        "name": "Posta (citing Condusef)",
+        "url": "https://www.posta.com.mx/share/condusef-alerta-sobre-fraude-de-clonacion-de-voz-con-inteligencia-artificial/vl1753226"
+      },
+      {
+        "name": "Record",
+        "url": "https://www.record.com.mx/contra/condusef-alerta-por-clonacion-de-voz-con-ia-que-suplanta-tus-familiares"
       }
     ]
   },
@@ -1349,6 +1449,114 @@
       {
         "name": "Security Affairs",
         "url": "https://securityaffairs.com/?p=174779"
+      }
+    ]
+  },
+  {
+    "id": "tbilisi-deepfake-crypto-boiler-room-uk",
+    "date": "2025-03-05",
+    "title": "Leaked files expose Tbilisi call centre using Martin Lewis deepfakes to con 6,000 people",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "critical",
+    "country": "GB",
+    "region": "Europe",
+    "target": "Retail investors in the UK and Europe",
+    "loss_usd": 35000000,
+    "summary": "A 1.9TB leak to SVT, OCCRP and the Guardian exposed a Tbilisi boiler room of about 85 agents that used deepfakes of Martin Lewis, Zoe Ball and Ben Fogle to lure 6,179 victims into fake crypto platforms for about $35M.",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/money/2025/mar/05/deepfakes-cash-and-crypto-how-call-centre-scammers-duped-6000-people",
+    "actor": "A.K. Group call centre, Tbilisi (self-styled skameri)",
+    "actor_type": "criminal",
+    "attribution": "Leaked recordings and CRM data link the operation to Georgian telemarketing firm A.K. Group; director Meri Shotadze and alleged boss Akaki Kevkhishvili did not respond to the Guardian.",
+    "motive": "Financial gain through fake cryptocurrency investment platforms and withdrawal fees.",
+    "vector": "Social media ads with deepfake celebrity endorsements led to fake trading dashboards; agents posing as advisers groomed victims by phone and coached them to deceive bank compliance staff.",
+    "root_cause": "Platforms ran paid adverts with AI-altered celebrity videos; cross-border enforcement gaps left a Georgia-based operation largely unreachable by UK police.",
+    "timeline": [
+      {
+        "date": "2022-05-01",
+        "event": "Tbilisi call centre begins targeting victims with fake crypto investment adverts"
+      },
+      {
+        "date": "2024-03-01",
+        "event": "Ben Fogle warns on Instagram about a deepfake of himself promoting crypto"
+      },
+      {
+        "date": "2025-03-05",
+        "event": "Guardian, OCCRP and SVT publish the Scam Empire investigation based on the leak"
+      },
+      {
+        "date": "2025-03-05",
+        "event": "Georgian prosecutors say they are looking into A.K. Group"
+      }
+    ],
+    "impact": "At least 6,179 victims worldwide lost about $35M; UK victims accounted for nearly a third, around £9M, with the largest single UK loss about £162,000. The UK represented about 45 percent of attempted calls.",
+    "response": "Georgian prosecutors opened a probe after journalists' inquiries; UK figures renewed calls for Meta and Google to block deepfake adverts. No arrests were reported at publication.",
+    "status": "under investigation",
+    "cve": null,
+    "verification": "confirmed",
+    "sources": [
+      {
+        "name": "The Guardian",
+        "url": "https://www.theguardian.com/money/2025/mar/05/deepfakes-cash-and-crypto-how-call-centre-scammers-duped-6000-people"
+      },
+      {
+        "name": "OCCRP Scam Empire",
+        "url": "https://www.occrp.org/en/project/scam-empire/diamonds-dior-and-dubai-vacations-the-luxurious-lives-of-georgias-call-center-scammers"
+      },
+      {
+        "name": "AI Incident Database",
+        "url": "https://incidentdatabase.ai/reports/4841"
+      }
+    ]
+  },
+  {
+    "id": "argentina-caputo-deepfake-immediate-ai",
+    "date": "2025-03-11",
+    "title": "Argentine federal prosecutor probes AI video of minister Caputo promoting Immediate AI",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "AR",
+    "region": "Latin America",
+    "target": "Argentine social media users",
+    "loss_usd": null,
+    "summary": "Authorities warned of a fake AI video of Economy Minister Luis Caputo endorsing the Immediate AI Comerciante platform, promising daily gains of up to 2M pesos; Fiscalia Federal No 5 under Franco Picardi took the case.",
+    "source": "El Economista (citing Fiscalia Federal No 5)",
+    "url": "https://eleconomista.com.ar/economia/alertan-una-nueva-estafa-vuelven-utilizar-imagen-luis-caputo-promocionar-una-plataforma-inversiones-n82830/amp",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "attribution": "Unknown; scammers also cloned Argentina.gob.ar and a La Nacion article in the earlier PrimeAurora case.",
+    "motive": "Collect personal data and deposits for a fake trading platform.",
+    "vector": "Manipulated video of the minister on Facebook leading to an online form harvesting contact details before soliciting funds.",
+    "root_cause": "Government officials' footage repurposed with AI; cloned official websites added credibility.",
+    "timeline": [
+      {
+        "date": "2025-02-25",
+        "event": "PrimeAurora scam using Caputo deepfake investigated"
+      },
+      {
+        "date": "2025-03-11",
+        "event": "New Immediate AI Comerciante video reported; Fiscalia Federal No 5 handles case"
+      }
+    ],
+    "impact": "No victim counts or losses published.",
+    "response": "Federal prosecutor investigation and public warning.",
+    "status": "under investigation",
+    "cve": null,
+    "verification": "confirmed",
+    "sources": [
+      {
+        "name": "El Economista (citing Fiscalia Federal No 5)",
+        "url": "https://eleconomista.com.ar/economia/alertan-una-nueva-estafa-vuelven-utilizar-imagen-luis-caputo-promocionar-una-plataforma-inversiones-n82830/amp"
+      },
+      {
+        "name": "Minuto Uno",
+        "url": "https://www.minutouno.com/economia/advierten-una-nueva-estafa-declaraciones-falsas-luis-caputo-n6122004"
+      },
+      {
+        "name": "Chequeado",
+        "url": "https://chequeado.com/ultimas-noticias/alertan-por-una-estafa-virtual-que-utiliza-la-imagen-de-luis-caputo-para-promocionar-una-supuesta-plataforma-de-inversion/"
       }
     ]
   },
@@ -2114,6 +2322,52 @@
     ]
   },
   {
+    "id": "bcp-credicorp-ceo-deepfake",
+    "date": "2025-05-08",
+    "title": "Peru's BCP denounces AI video impersonating Credicorp CEO Gianfranco Ferrari in scam",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "PE",
+    "region": "Latin America",
+    "target": "Banco de Credito del Peru customers",
+    "loss_usd": null,
+    "summary": "Banco de Credito del Peru said a social media video of Credicorp CEO Gianfranco Ferrari inviting the public into an investment programme was an AI simulation of his voice and appearance, and announced legal action.",
+    "source": "Banco de Credito del Peru",
+    "url": "https://www.peru-retail.com/bcp-denuncia-video-falso-con-ia-que-simula-al-ceo-de-credicorp-para-estafar-con-inversiones/",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "attribution": "Unknown.",
+    "motive": "Lure investors using the credibility of Peru's largest bank.",
+    "vector": "Deepfake video of the CEO on social media promoting a fake investment programme.",
+    "root_cause": "Executive media appearances provide training data; social platforms carried the fake ad.",
+    "timeline": [
+      {
+        "date": "2025-05-07",
+        "event": "Deepfake Ferrari video circulates on social media"
+      },
+      {
+        "date": "2025-05-08",
+        "event": "BCP publishes statement declaring the video false and announcing legal action"
+      }
+    ],
+    "impact": "No losses disclosed; reputational harm to BCP and Credicorp.",
+    "response": "Public statement, legal action announced, customers urged to verify and report.",
+    "status": "under investigation",
+    "cve": null,
+    "verification": "confirmed",
+    "sources": [
+      {
+        "name": "Peru Retail (citing BCP)",
+        "url": "https://www.peru-retail.com/bcp-denuncia-video-falso-con-ia-que-simula-al-ceo-de-credicorp-para-estafar-con-inversiones/"
+      },
+      {
+        "name": "Libero",
+        "url": "https://libero.pe/tiempoextra/2025/05/07/bcp-lanza-comunicado-ultima-hora-alarma-todos-sus-usuarios-esten-atentos-476336"
+      }
+    ]
+  },
+  {
     "id": "cursor-npm-macos-backdoor",
     "date": "2025-05-09",
     "title": "npm packages 'sw-cur' and 'aiide-cur' backdoor Cursor on macOS, 3,200 downloads",
@@ -2718,6 +2972,56 @@
     ]
   },
   {
+    "id": "stockholm-police-doctor-deepfake-ads",
+    "date": "2025-06-09",
+    "title": "Stockholm police warn of AI deepfakes of Anders Tegnell and Agnes Wold in card-theft ads",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "SE",
+    "region": "Europe",
+    "target": "Swedish consumers",
+    "loss_usd": null,
+    "summary": "Stockholm County Police reported multiple complaints since late May 2025 about social media ads using AI to imitate well-known doctors in fake health product promotions that harvested card details.",
+    "source": "Polisen (Swedish Police)",
+    "url": "https://polisen.se/aktuellt/nyheter/stockholm/2025/juni/aibedragerier/",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "attribution": "Unknown.",
+    "motive": "Card data theft and unauthorised charges.",
+    "vector": "Deepfake videos of former state epidemiologist Anders Tegnell and professor Agnes Wold in social media ads leading to fraudulent shops that captured card details.",
+    "root_cause": "Trusted public health figures impersonated with AI on ad platforms lacking advertiser verification.",
+    "timeline": [
+      {
+        "date": "2025-05-25",
+        "event": "Deepfake doctor ads begin circulating on social media"
+      },
+      {
+        "date": "2025-06-09",
+        "event": "Stockholm police publish warning about AI scams on social media"
+      }
+    ],
+    "impact": "Several reported victims had card details stolen and faced large unauthorised charges; no total loss figure published.",
+    "response": "Police issued a public warning; impersonated doctors complained publicly.",
+    "status": "ongoing",
+    "cve": null,
+    "verification": "confirmed",
+    "sources": [
+      {
+        "name": "Polisen",
+        "url": "https://polisen.se/aktuellt/nyheter/stockholm/2025/juni/aibedragerier/"
+      },
+      {
+        "name": "Dagens Nyheter",
+        "url": "https://www.dn.se/sverige/bedragare-utnyttjar-kanda-lakare-for-att-lura-svenskar/"
+      },
+      {
+        "name": "AI Incident Database",
+        "url": "https://incidentdatabase.ai/cite/1242/"
+      }
+    ]
+  },
+  {
     "id": "echoleak-m365-copilot",
     "date": "2025-06-11",
     "title": "EchoLeak: zero-click prompt injection in Microsoft 365 Copilot (CVE-2025-32711)",
@@ -3298,6 +3602,60 @@
       {
         "name": "Simon Willison link blog",
         "url": "https://feeds.simonwillison.net/2025/Jul/6/supabase-mcp-lethal-trifecta/"
+      }
+    ]
+  },
+  {
+    "id": "israel-ostin-deepfake-pump-dump",
+    "date": "2025-07-07",
+    "title": "Deepfakes of Netanyahu, Gadot and Musk drive Ostin Technology pump-and-dump in Israel",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "IL",
+    "region": "Middle East & Africa",
+    "target": "Israeli retail investors",
+    "loss_usd": null,
+    "summary": "From April 2025 a campaign used deepfakes of Netanyahu, Amir Yaron, Gal Gadot and Elon Musk plus fake WhatsApp groups impersonating the TASE and Israeli banks to pump Nasdaq-listed Ostin Technology; it fell 93 percent.",
+    "source": "Ynetnews",
+    "url": "https://www.ynetnews.com/business/article/hkzaj8krll",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "attribution": "Unknown; organised pump-and-dump network running paid Meta ads with Hebrew and Russian-subtitled deepfakes.",
+    "motive": "Profit from inflating a thinly traded stock before dumping shares.",
+    "vector": "Paid Facebook and Instagram ads with deepfakes, WhatsApp groups issuing buy signals, fake trading dashboards and impersonation of Bank Hapoalim, Discount Bank and the Israel Securities Authority.",
+    "root_cause": "Platform ads allowed AI impersonation of national leaders and regulators; victims trusted group social proof.",
+    "timeline": [
+      {
+        "date": "2025-04-01",
+        "event": "Campaign launches and OST price begins scripted rise"
+      },
+      {
+        "date": "2025-05-15",
+        "event": "Deepfake ads and WhatsApp groups intensify"
+      },
+      {
+        "date": "2025-07-06",
+        "event": "OST collapses nearly 93 percent to about $0.17"
+      },
+      {
+        "date": "2025-07-07",
+        "event": "Israeli media report widespread losses"
+      }
+    ],
+    "impact": "Losses in the hundreds of thousands of shekels overall, including individual losses of 250,000 and 150,000 shekels.",
+    "response": "Authorities said to be pursuing perpetrators; Israeli Internet Association pushed for platform accountability legislation; Meta said it invests in detection.",
+    "status": "under investigation",
+    "cve": null,
+    "verification": "reported",
+    "sources": [
+      {
+        "name": "Ynetnews",
+        "url": "https://www.ynetnews.com/business/article/hkzaj8krll"
+      },
+      {
+        "name": "AI Incident Database",
+        "url": "https://incidentdatabase.ai/cite/1154"
       }
     ]
   },
@@ -4200,6 +4558,52 @@
     ]
   },
   {
+    "id": "jordan-cybercrime-unit-deepfake-warning",
+    "date": "2025-07-29",
+    "title": "Jordan's Cybercrime Unit warns of deepfake accounts impersonating public figures for fraud",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "JO",
+    "region": "Middle East & Africa",
+    "target": "Jordanian public",
+    "loss_usd": null,
+    "summary": "Jordan's Cybercrime Unit warned that fake social media accounts were using AI deepfake audio and video of public figures to lure citizens to fraudulent websites for financial scams and data theft.",
+    "source": "Roya News (citing Cybercrime Unit)",
+    "url": "https://royanews.tv/news/355018",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "attribution": "Unknown.",
+    "motive": "Financial fraud and personal data theft.",
+    "vector": "Fake accounts posting AI-generated videos of public figures linking to fraudulent sites.",
+    "root_cause": "Low cost of generating convincing synthetic media of well-known Jordanians.",
+    "timeline": [
+      {
+        "date": "2025-07-28",
+        "event": "Fake accounts with deepfaked public figures reported to the Cybercrime Unit"
+      },
+      {
+        "date": "2025-07-29",
+        "event": "Cybercrime Unit issues public warning"
+      }
+    ],
+    "impact": "No loss figures published.",
+    "response": "Public warning and call to report via official channels.",
+    "status": "ongoing",
+    "cve": null,
+    "verification": "confirmed",
+    "sources": [
+      {
+        "name": "Roya News",
+        "url": "https://royanews.tv/news/355018"
+      },
+      {
+        "name": "OECD AI Incidents Monitor",
+        "url": "https://oecd.ai/en/incidents/2025-07-29-e1ab"
+      }
+    ]
+  },
+  {
     "id": "chatgpt-shared-chats-indexed",
     "date": "2025-07-31",
     "title": "Thousands of shared ChatGPT conversations surface in Google search; OpenAI kills feature",
@@ -4712,6 +5116,56 @@
       {
         "name": "BetaNews",
         "url": "https://betanews.com/2025/08/18/lenovos-lena-ai-chatbot-had-weakness-that-let-attackers-hijack-sessions/"
+      }
+    ]
+  },
+  {
+    "id": "nz-fma-deepfake-pump-dump-warning",
+    "date": "2025-08-19",
+    "title": "NZ FMA flags pump-and-dump scam using deepfakes of Kiwi business leaders in Meta ads",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "NZ",
+    "region": "Asia-Pacific",
+    "target": "New Zealand retail investors",
+    "loss_usd": null,
+    "summary": "New Zealand's Financial Markets Authority warned that Facebook and Instagram ads with deepfake videos of prominent local business figures were funnelling investors into WhatsApp groups pushing low-value foreign shares.",
+    "source": "Financial Markets Authority (NZ)",
+    "url": "https://www.fma.govt.nz/news/all-releases/media-releases/pump-and-dump-scam-nets-kiwi-investors/",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "attribution": "Unknown; global pump-and-dump operation.",
+    "motive": "Inflate thinly traded shares and dump them on lured investors; secondary recovery fraud.",
+    "vector": "Deepfake endorsement ads on Meta platforms leading to WhatsApp investment groups with coordinated buy instructions.",
+    "root_cause": "Platform advertising permitted AI-fabricated endorsements of real executives.",
+    "timeline": [
+      {
+        "date": "2025-08-19",
+        "event": "FMA warns about deepfake-driven pump-and-dump scam"
+      },
+      {
+        "date": "2026-10-06",
+        "event": "FMA repeats warning during World Investor Week citing AI deepfakes"
+      }
+    ],
+    "impact": "Kiwi investors caught in share pumps and follow-on recovery scams; no aggregate loss published.",
+    "response": "FMA media release MR 2025-41 and renewed warnings; FMA later reported flagging more than 190 fake trading sites for removal.",
+    "status": "ongoing",
+    "cve": null,
+    "verification": "confirmed",
+    "sources": [
+      {
+        "name": "Financial Markets Authority",
+        "url": "https://www.fma.govt.nz/news/all-releases/media-releases/pump-and-dump-scam-nets-kiwi-investors/"
+      },
+      {
+        "name": "AI Incident Database",
+        "url": "https://incidentdatabase.ai/cite/1227/"
+      },
+      {
+        "name": "Finance Magnates",
+        "url": "https://financemagnates.com/forex/regulation/australia-and-new-zealand-sound-alarm-on-ai-powered-investment-scams-as-takedowns-hit-record-pace"
       }
     ]
   },
@@ -5409,6 +5863,52 @@
     ]
   },
   {
+    "id": "ireland-humphreys-deepfake-boi-warning",
+    "date": "2025-09-11",
+    "title": "Bank of Ireland warns of deepfake videos cloning presidential candidate Heather Humphreys",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "IE",
+    "region": "Europe",
+    "target": "Irish consumers",
+    "loss_usd": null,
+    "summary": "Bank of Ireland warned that fraudsters were cloning the image and voice of presidential candidate Heather Humphreys in fake investment videos on Meta platforms, and called for platforms to verify financial advertisers.",
+    "source": "Bank of Ireland",
+    "url": "https://www.con-telegraph.ie/2025/09/11/mayo-scam-alert-fraudsters-cloning-presidential-election-candidate-in-fake-investment-videos/",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "attribution": "Unknown.",
+    "motive": "Investment fraud exploiting election-period attention.",
+    "vector": "AI voice and image cloning in social media adverts endorsing a high-return scheme.",
+    "root_cause": "Social platforms do not verify that financial advertisers are authorised.",
+    "timeline": [
+      {
+        "date": "2025-09-10",
+        "event": "Humphreys deepfake investment adverts detected on Meta platforms"
+      },
+      {
+        "date": "2025-09-11",
+        "event": "Bank of Ireland issues public warning"
+      }
+    ],
+    "impact": "No losses disclosed; bank expected more adverts during the campaign.",
+    "response": "Warning, advice to check the Central Bank of Ireland register, call for advertiser verification.",
+    "status": "ongoing",
+    "cve": null,
+    "verification": "confirmed",
+    "sources": [
+      {
+        "name": "Connaught Telegraph (citing Bank of Ireland)",
+        "url": "https://www.con-telegraph.ie/2025/09/11/mayo-scam-alert-fraudsters-cloning-presidential-election-candidate-in-fake-investment-videos/"
+      },
+      {
+        "name": "AI Incident Database",
+        "url": "https://incidentdatabase.ai/reports/6210"
+      }
+    ]
+  },
+  {
     "id": "whitecobra-vsix-crypto-stealers",
     "date": "2025-09-13",
     "title": "WhiteCobra floods Open VSX and VS Code Marketplace with 24 crypto-stealing extensions",
@@ -5558,6 +6058,56 @@
       {
         "name": "Pauta",
         "url": "https://www.pauta.cl/actualidad/2026/07/23/camara-aprueba-proyecto-que-regula-deepfakes-contempla-multas-de-hasta-716-millones.html"
+      }
+    ]
+  },
+  {
+    "id": "kenya-raila-x-hack-crypto-deepfake",
+    "date": "2025-09-18",
+    "title": "Hacked Raila Odinga X account posts deepfake endorsing crypto token to scam Kenyans",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "KE",
+    "region": "Middle East & Africa",
+    "target": "Kenyan crypto buyers",
+    "loss_usd": null,
+    "summary": "A deepfake video of former PM Raila Odinga endorsing the Kenya Token was posted from his reportedly hacked X account and removed the same evening; unconfirmed data suggested 20 percent of supply was bought soon after.",
+    "source": "Kenyans.co.ke",
+    "url": "https://www.kenyans.co.ke/news/116373-concerns-large-scale-scamming-after-hacked-raila-odinga-account-endorses-dubious?page=1",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "attribution": "Unknown; account compromise followed a similar apparent endorsement by ICT Cabinet Secretary William Kabogo weeks earlier.",
+    "motive": "Pump a token using a national figure's verified account.",
+    "vector": "Account takeover of a verified X profile combined with an AI-generated endorsement video.",
+    "root_cause": "Compromised credentials on a high-trust account amplified a deepfake.",
+    "timeline": [
+      {
+        "date": "2025-09-18",
+        "event": "Deepfake crypto endorsement posted from Odinga's X account and removed that evening"
+      },
+      {
+        "date": "2025-09-19",
+        "event": "Kenyan media report scam concerns"
+      }
+    ],
+    "impact": "Potential large-scale losses by token buyers; no official figure.",
+    "response": "Video removed; government sources informally confirmed it was fake.",
+    "status": "unresolved",
+    "cve": null,
+    "verification": "reported",
+    "sources": [
+      {
+        "name": "Kenyans.co.ke",
+        "url": "https://www.kenyans.co.ke/news/116373-concerns-large-scale-scamming-after-hacked-raila-odinga-account-endorses-dubious?page=1"
+      },
+      {
+        "name": "TechCabal",
+        "url": "https://techcabal.com/2025/09/19/raila-odinga-kenya-token-project/"
+      },
+      {
+        "name": "Kenyan Wall Street",
+        "url": "https://kenyanwallstreet.com/deepfake-scam-raila-odinga-x-account-escalating-cryptocurrency-fraud"
       }
     ]
   },
@@ -5880,6 +6430,52 @@
     ]
   },
   {
+    "id": "sarb-kganyago-deepfake-warning",
+    "date": "2025-09-25",
+    "title": "South African Reserve Bank warns of deepfake video of Governor Kganyago pushing investment",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "ZA",
+    "region": "Middle East & Africa",
+    "target": "South African public",
+    "loss_usd": null,
+    "summary": "The SARB posted on X that a circulating video showing Governor Lesetja Kganyago endorsing an investment was a deepfake with an altered voice, stressing the central bank never promotes investments or asks for transfers.",
+    "source": "IOL (citing SARB)",
+    "url": "https://iol.co.za/business/2025-09-25-south-african-reserve-bank-warns-public-about-deepfake-investment-scam/",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "attribution": "Unknown.",
+    "motive": "Lure investors to a fraudulent platform using central bank credibility.",
+    "vector": "AI-generated video with cloned voice of the governor shared on social media directing viewers to a suspicious platform.",
+    "root_cause": "Public figures' speeches provide ample training material for voice and face cloning.",
+    "timeline": [
+      {
+        "date": "2025-09-24",
+        "event": "SARB flags deepfake video on X"
+      },
+      {
+        "date": "2025-09-25",
+        "event": "South African media report the warning"
+      }
+    ],
+    "impact": "No losses disclosed; coverage cited reports of a 1,200 percent rise in deepfake fraud cases in South Africa.",
+    "response": "Public warning; SARB urged verification before trusting online content.",
+    "status": "ongoing",
+    "cve": null,
+    "verification": "confirmed",
+    "sources": [
+      {
+        "name": "IOL",
+        "url": "https://iol.co.za/business/2025-09-25-south-african-reserve-bank-warns-public-about-deepfake-investment-scam/"
+      },
+      {
+        "name": "Personal Finance",
+        "url": "https://persfin.co.za/business/2025-09-25-south-african-reserve-bank-warns-public-about-deepfake-investment-scam"
+      }
+    ]
+  },
+  {
     "id": "gemini-trifecta-tenable",
     "date": "2025-09-30",
     "title": "Gemini Trifecta: log, search-history and browsing flaws let Gemini exfiltrate user data",
@@ -6033,6 +6629,52 @@
       {
         "name": "Malay Mail (Reuters)",
         "url": "https://www.malaymail.com/news/tech-gadgets/2025/10/05/brazilian-scammers-rake-in-millions-using-gisele-bundchen-deepfakes-in-instagram-ads-to-defraud-victims/193369"
+      }
+    ]
+  },
+  {
+    "id": "old-mutual-trevor-manuel-deepfake",
+    "date": "2025-10-03",
+    "title": "Old Mutual warns of deepfake videos of chairman Trevor Manuel pushing fake investments",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "ZA",
+    "region": "Middle East & Africa",
+    "target": "Old Mutual customers and South African public",
+    "loss_usd": null,
+    "summary": "Old Mutual warned that AI videos using the likeness and cloned voice of its chairman, former finance minister Trevor Manuel, were circulating on social media to solicit money for fake investments.",
+    "source": "AI Incident Database",
+    "url": "https://incidentdatabase.ai/cite/1226/",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "attribution": "Unknown.",
+    "motive": "Solicit investment funds under a trusted financial brand.",
+    "vector": "Deepfake videos on social media impersonating the chairman of a major insurer.",
+    "root_cause": "Unverified financial advertising on social platforms.",
+    "timeline": [
+      {
+        "date": "2025-10-01",
+        "event": "Deepfake Manuel investment videos circulate on social media"
+      },
+      {
+        "date": "2025-10-03",
+        "event": "Old Mutual issues public warning; Manuel denies involvement"
+      }
+    ],
+    "impact": "No loss figures published; reputational risk to Old Mutual and its chairman.",
+    "response": "Public denial and warning by Old Mutual and Trevor Manuel.",
+    "status": "ongoing",
+    "cve": null,
+    "verification": "reported",
+    "sources": [
+      {
+        "name": "AI Incident Database",
+        "url": "https://incidentdatabase.ai/cite/1226/"
+      },
+      {
+        "name": "AI Incident Database entity",
+        "url": "https://incidentdatabase.ai/entities/unknown-scammers-impersonating-trevor-manuel/"
       }
     ]
   },
@@ -6545,6 +7187,52 @@
     ]
   },
   {
+    "id": "uae-economy-minister-deepfake-videos",
+    "date": "2025-10-16",
+    "title": "UAE Economy Minister says his face was deepfaked in social media investment scam videos",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "AE",
+    "region": "Middle East & Africa",
+    "target": "UAE social media users",
+    "loss_usd": null,
+    "summary": "At GITEX 2025, UAE Minister of Economy Abdulla bin Touq Al Marri said fraudsters had manipulated his image in social media videos promoting fraudulent share investment schemes and called for deepfake detection tools.",
+    "source": "AGBI",
+    "url": "https://www.agbi.com/tech/2025/10/uae-minister-and-tech-experts-warn-of-deepfake-explosion/",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "attribution": "Unknown.",
+    "motive": "Lure investors with a government minister's apparent endorsement.",
+    "vector": "Manipulated videos of the minister on social media promoting share investment schemes.",
+    "root_cause": "Abundant public footage of officials and limited platform verification of financial ads.",
+    "timeline": [
+      {
+        "date": "2025-10-14",
+        "event": "Minister discusses being targeted by deepfake investment videos at GITEX"
+      },
+      {
+        "date": "2025-10-16",
+        "event": "Regional media report the warning and Sumsub MENA deepfake growth figures"
+      }
+    ],
+    "impact": "No losses disclosed; Sumsub data cited 600 percent growth in deepfakes in Saudi Arabia and 200 percent in Kuwait.",
+    "response": "Minister publicly stated he would never endorse share investments on camera.",
+    "status": "ongoing",
+    "cve": null,
+    "verification": "confirmed",
+    "sources": [
+      {
+        "name": "AGBI",
+        "url": "https://www.agbi.com/tech/2025/10/uae-minister-and-tech-experts-warn-of-deepfake-explosion/"
+      },
+      {
+        "name": "MENA Startup Digest",
+        "url": "https://menastartupdigest.com/uae-minister-warns-of-mena-deepfake-explosion-after-being-targeted-in-investment-scams/"
+      }
+    ]
+  },
+  {
     "id": "pampanga-marcos-deepfake-p93m",
     "date": "2025-10-22",
     "title": "Philippine doctor loses P93M to investment scam backed by deepfake of President Marcos",
@@ -6641,6 +7329,60 @@
       {
         "name": "eSecurity Planet",
         "url": "https://esecurityplanet.com/news/bluenoroff-expands-cyberattacks-with-ai-driven-campaigns-targeting-executives"
+      }
+    ]
+  },
+  {
+    "id": "sweden-deepfake-pump-dump-500m-sek",
+    "date": "2025-10-31",
+    "title": "Deepfake ads of Swedish finance figures lure 5,000 savers into pump-and-dump scams",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "critical",
+    "country": "SE",
+    "region": "Europe",
+    "target": "Swedish retail investors",
+    "loss_usd": 52000000,
+    "summary": "Swedish media reported at least 5,000 small savers lost about 500M SEK (about $52M) in 2025 to pump-and-dump share scams promoted with deepfake ads of journalist Gabriel Mellqvist and investor Gunter Marder on Meta.",
+    "source": "Sveriges Radio",
+    "url": "https://www.sverigesradio.se/artikel/thousands-of-small-savers-in-sweden-conned-out-of-millions-in-ai-powered-deepfake-investment-scams",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "attribution": "Unknown; organised pump-and-dump operators using social media advertising.",
+    "motive": "Profit from inflating low-value shares before dumping them on lured retail buyers.",
+    "vector": "AI-generated deepfake videos and fake profiles of trusted Swedish finance personalities in paid social media ads directing savers to stock tips and chat groups.",
+    "root_cause": "Meta ad systems carried fabricated endorsements; impersonated figures reported great frustration at slow platform takedowns.",
+    "timeline": [
+      {
+        "date": "2025-01-01",
+        "event": "Deepfake investment adverts circulate on Meta platforms through 2025"
+      },
+      {
+        "date": "2025-10-24",
+        "event": "TV4 Nyheterna reports 5,000 Swedes defrauded"
+      },
+      {
+        "date": "2025-10-31",
+        "event": "Sveriges Radio reports losses of about half a billion kronor"
+      }
+    ],
+    "impact": "At least 5,000 investors and roughly 500M SEK in losses; reputational harm to impersonated journalists.",
+    "response": "Impersonated figures publicly criticised Meta; no police action was reported in the coverage reviewed.",
+    "status": "ongoing",
+    "cve": null,
+    "verification": "reported",
+    "sources": [
+      {
+        "name": "Sveriges Radio",
+        "url": "https://www.sverigesradio.se/artikel/thousands-of-small-savers-in-sweden-conned-out-of-millions-in-ai-powered-deepfake-investment-scams"
+      },
+      {
+        "name": "TV4",
+        "url": "https://www.tv4.se/artikel/6YQRkByHXwnifKU4fHbRN1/finansprofiler-utnyttjas-av-bedragare-5000-svenskar-har-blivit-lurade"
+      },
+      {
+        "name": "AI Incident Database",
+        "url": "https://incidentdatabase.ai/cite/1256/"
       }
     ]
   },
@@ -7035,6 +7777,52 @@
       {
         "name": "Cybersecurity Dive",
         "url": "https://www.cybersecuritydive.com/news/anthropic-state-actor-ai-tool-espionage/805550/"
+      }
+    ]
+  },
+  {
+    "id": "qatarenergy-ai-video-investment-scam",
+    "date": "2025-11-17",
+    "title": "QatarEnergy repeats warning over AI-generated videos impersonating it in investment scams",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "QA",
+    "region": "Middle East & Africa",
+    "target": "QatarEnergy and Qatari public",
+    "loss_usd": null,
+    "summary": "QatarEnergy reissued a warning that fraudulent online investment schemes were using its name and logo, including AI-generated videos impersonating the company, and stressed it never solicits money from the public.",
+    "source": "The Peninsula Qatar",
+    "url": "https://www.thepeninsulaqatar.com/article/17/11/2025/qatarenergy-reminds-public-to-exercise-caution-over-fake-investment-ads",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "attribution": "Unknown.",
+    "motive": "Collect investment deposits under a state energy company's brand.",
+    "vector": "AI-generated videos and fake adverts online inviting the public into QatarEnergy investment opportunities.",
+    "root_cause": "Brand impersonation enabled by generative video tools.",
+    "timeline": [
+      {
+        "date": "2025-03-01",
+        "event": "QatarEnergy first warns about AI-generated investment videos using its name"
+      },
+      {
+        "date": "2025-11-17",
+        "event": "QatarEnergy reposts the warning"
+      }
+    ],
+    "impact": "No losses disclosed.",
+    "response": "Repeated public warnings urging verification of offers.",
+    "status": "ongoing",
+    "cve": null,
+    "verification": "confirmed",
+    "sources": [
+      {
+        "name": "The Peninsula Qatar",
+        "url": "https://www.thepeninsulaqatar.com/article/17/11/2025/qatarenergy-reminds-public-to-exercise-caution-over-fake-investment-ads"
+      },
+      {
+        "name": "Qatar Tribune",
+        "url": "https://www.qatar-tribune.com/article/169404/latest-news/qatarenergy-warns-of-fake-adverts-videos-offering-investment-opportunities"
       }
     ]
   },
@@ -7527,6 +8315,126 @@
     ]
   },
   {
+    "id": "fsca-banxso-deepfake-ads-r2bn",
+    "date": "2025-12-09",
+    "title": "South Africa's FSCA fines Banxso R2bn over platform fed by Musk and Rupert deepfake ads",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "critical",
+    "country": "ZA",
+    "region": "Middle East & Africa",
+    "target": "South African retail investors",
+    "loss_usd": null,
+    "summary": "The FSCA imposed about R2bn (about $115M) in penalties on Banxso and its directors plus 30-year debarments after finding the platform benefited from deceptive deepfake adverts of Elon Musk and Johann Rupert.",
+    "source": "Moonstone (citing FSCA)",
+    "url": "https://www.moonstone.co.za/fsca-slaps-banxso-and-directors-with-record-r2bn-fine/",
+    "actor": "Banxso (Pty) Ltd and associated Immediate Matrix funnel",
+    "actor_type": "criminal",
+    "attribution": "FSCA found Banxso was directly or indirectly involved in, or at minimum materially benefited from, deepfake advertising; Banxso denies producing the ads and claims it was hacked.",
+    "motive": "Client acquisition and revenue from an unlicensed trading model in which funds were controlled internally.",
+    "vector": "Social media deepfake videos of Musk and Rupert pushed users to Immediate Matrix, which funnelled them into Banxso and Afrimarkets accounts, sometimes without consent.",
+    "root_cause": "Affiliate-style deepfake ad networks feeding an unlicensed derivatives platform with weak client fund segregation.",
+    "timeline": [
+      {
+        "date": "2024-03-01",
+        "event": "FSCA opens investigation into Banxso deepfake adverts"
+      },
+      {
+        "date": "2024-10-01",
+        "event": "Banxso licence provisionally withdrawn"
+      },
+      {
+        "date": "2025-08-01",
+        "event": "Cape Town High Court places Banxso in provisional liquidation"
+      },
+      {
+        "date": "2025-12-09",
+        "event": "FSCA announces R2bn penalties and 30-year debarments"
+      }
+    ],
+    "impact": "Investors reported significant losses; record administrative penalty in South Africa; matter referred to SAPS for criminal investigation.",
+    "response": "Penalties, debarments, licence withdrawal, referral to police; Banxso sought Financial Services Tribunal reconsideration.",
+    "status": "under investigation",
+    "cve": null,
+    "verification": "confirmed",
+    "sources": [
+      {
+        "name": "Moonstone",
+        "url": "https://www.moonstone.co.za/fsca-slaps-banxso-and-directors-with-record-r2bn-fine/"
+      },
+      {
+        "name": "Daily Investor",
+        "url": "https://dailyinvestor.com/finance/149610/the-scheme-that-used-johann-rupert-and-elon-musk-to-steal-r1-billion-from-south-african-investors/"
+      },
+      {
+        "name": "Launch Base Africa",
+        "url": "https://launchbaseafrica.com/2025/12/10/end-of-the-road-for-banxso-executives-south-africas-fintech-dream-turns-into-a-118m-nightmare"
+      }
+    ]
+  },
+  {
+    "id": "amsterdam-deepfake-46-bank-accounts",
+    "date": "2025-12-17",
+    "title": "Dutch police arrest Amsterdam man who used deepfakes to pass bank ID checks, 46 accounts",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "NL",
+    "region": "Europe",
+    "target": "Dutch banks and rental applicants",
+    "loss_usd": null,
+    "summary": "Dutch police arrested a 34-year-old who collected ID documents via fake apartment listings, then used AI to overlay victims' facial features onto his own face to pass ABN Amro's identity checks for at least 46 accounts.",
+    "source": "NH Nieuws (citing Politie)",
+    "url": "https://www.nhnieuws.nl/nieuws/355381/amsterdammer-aangehouden-die-met-deepfakes-46-bankrekeningen-opende",
+    "actor": "34-year-old Amsterdam resident",
+    "actor_type": "criminal",
+    "attribution": "Identified after the Koninklijke Marechaussee noticed him carrying multiple bank cards at a border crossing while police were already investigating.",
+    "motive": "Bank accounts in victims' names for onward fraud.",
+    "vector": "Fake rental ads harvested ID documents; deepfake face composites defeated remote KYC video checks.",
+    "root_cause": "Remote onboarding liveness checks vulnerable to AI face manipulation.",
+    "timeline": [
+      {
+        "date": "2025-03-20",
+        "event": "Suspect begins opening accounts with deepfaked identity checks, per court"
+      },
+      {
+        "date": "2025-12-17",
+        "event": "Police announce arrest after Marechaussee flags suspect carrying many bank cards"
+      },
+      {
+        "date": "2026-03-23",
+        "event": "Amsterdam court orders extra investigation into phone data"
+      },
+      {
+        "date": "2026-05-01",
+        "event": "Court sentences suspect to 2.5 years, six months suspended"
+      }
+    ],
+    "impact": "At least 46 bank accounts opened and misused; amounts not disclosed.",
+    "response": "Arrest in December 2025; Amsterdam court reopened the investigation in March 2026 and later sentenced him to 2.5 years, six months suspended, plus 13,000 euros damages to ABN Amro.",
+    "status": "resolved",
+    "cve": null,
+    "verification": "confirmed",
+    "sources": [
+      {
+        "name": "Rechtspraak (Rechtbank Amsterdam)",
+        "url": "https://www.rechtspraak.nl/organisatie-en-contact/organisatie/rechtbanken/rechtbank-amsterdam/nieuws/extra-onderzoek-nodig-in-zaak-oplichting-bank-met-deepfake-technologie"
+      },
+      {
+        "name": "NH Nieuws (arrest)",
+        "url": "https://www.nhnieuws.nl/nieuws/355381/amsterdammer-aangehouden-die-met-deepfakes-46-bankrekeningen-opende"
+      },
+      {
+        "name": "NH Nieuws (sentence)",
+        "url": "https://www.nhnieuws.nl/nieuws/360788/amsterdammer-deepfakes-47-bankrekeningen-openen"
+      },
+      {
+        "name": "NL Times",
+        "url": "https://nltimes.nl/2026/03/23/amsterdam-man-opened-nearly-50-bank-accounts-sticking-head-onto-stolen-passports"
+      }
+    ]
+  },
+  {
     "id": "amsterdam-deepfake-bank-accounts",
     "date": "2025-12-17",
     "title": "Amsterdam man used AI face-morphs on tenants' IDs to open 46 ABN Amro accounts",
@@ -7627,6 +8535,52 @@
       {
         "name": "OECD.AI Incidents Monitor",
         "url": "https://oecd.ai/en/incidents/2026-01-02-2d6d"
+      }
+    ]
+  },
+  {
+    "id": "kuwait-cbk-nbk-deepfake-warning",
+    "date": "2026-01-08",
+    "title": "NBK warns of deepfake investment ads under Central Bank of Kuwait Let's Be Aware campaign",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "low",
+    "country": "KW",
+    "region": "Middle East & Africa",
+    "target": "Kuwaiti bank customers",
+    "loss_usd": null,
+    "summary": "National Bank of Kuwait, under the Central Bank of Kuwait's Let's Be Aware campaign, warned that deepfake videos making trusted figures appear to endorse investments or trading platforms were used to steal money.",
+    "source": "Kuwait Times",
+    "url": "https://kuwaittimes.com/article/38210/business/nbk-warns-against-fake-investment-ads-on-social-media/",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "attribution": "Unknown.",
+    "motive": "Investment fraud and credential theft.",
+    "vector": "Social media ads with AI-altered video or audio of well-known figures promoting fake trading platforms.",
+    "root_cause": "Unverified financial advertising on social platforms.",
+    "timeline": [
+      {
+        "date": "2025-12-01",
+        "event": "Central Bank of Kuwait runs Let's Be Aware anti-fraud campaign with local banks"
+      },
+      {
+        "date": "2026-01-08",
+        "event": "NBK publishes deepfake investment ad warning"
+      }
+    ],
+    "impact": "No specific incidents or losses published.",
+    "response": "Awareness campaign by central bank, banks and Kuwait Banking Association.",
+    "status": "ongoing",
+    "cve": null,
+    "verification": "confirmed",
+    "sources": [
+      {
+        "name": "Kuwait Times",
+        "url": "https://kuwaittimes.com/article/38210/business/nbk-warns-against-fake-investment-ads-on-social-media/"
+      },
+      {
+        "name": "Al Jarida",
+        "url": "https://www.aljarida.com/article/76884"
       }
     ]
   },
@@ -8315,6 +9269,56 @@
     ]
   },
   {
+    "id": "surrey-martin-lewis-deepfake-20k",
+    "date": "2026-02-03",
+    "title": "Surrey PCC: retired engineer loses £20,000 to deepfake Martin Lewis investment video",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "low",
+    "country": "GB",
+    "region": "Europe",
+    "target": "Retired engineer in Surrey",
+    "loss_usd": 25000,
+    "summary": "Surrey's Police and Crime Commissioner publicised a retired engineer who invested after a Facebook deepfake of Martin Lewis, then paid repeated fees to withdraw, losing about £20,000 (about $25,000).",
+    "source": "Office of the Police and Crime Commissioner for Surrey",
+    "url": "https://www.surrey-pcc.gov.uk/pcc-question-everything-surrey-victim-loses-life-savings-deepfake-video/",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "attribution": "Unknown; the scammers were not identified by police.",
+    "motive": "Financial gain via fake investment platform and withdrawal fees.",
+    "vector": "Facebook video deepfake of Martin Lewis promoting an investment scheme; victim invested £200, then £5,000, then was asked for £5,000 and £10,000 in fees to release about £25,000 in supposed gains.",
+    "root_cause": "Convincing AI-generated celebrity endorsement on social media combined with advance-fee withdrawal pressure.",
+    "timeline": [
+      {
+        "date": "2025-12-01",
+        "event": "Victim sees deepfake Martin Lewis video on Facebook and invests £200"
+      },
+      {
+        "date": "2026-01-15",
+        "event": "Victim pays fees demanded to withdraw funds before realising it is a scam"
+      },
+      {
+        "date": "2026-02-03",
+        "event": "Surrey PCC publishes the case under its Question EVERYTHING campaign"
+      }
+    ],
+    "impact": "Victim lost about £20,000 of life savings and continues to receive near-daily recovery-scam approaches.",
+    "response": "Surrey PCC launched a public awareness campaign including a deepfake of the Commissioner herself to show how convincing the technology is.",
+    "status": "unresolved",
+    "cve": null,
+    "verification": "confirmed",
+    "sources": [
+      {
+        "name": "Surrey PCC",
+        "url": "https://www.surrey-pcc.gov.uk/pcc-question-everything-surrey-victim-loses-life-savings-deepfake-video/"
+      },
+      {
+        "name": "Surrey PCC news listing",
+        "url": "https://www.surrey-pcc.gov.uk/category/communication-and-engagement/page/2/"
+      }
+    ]
+  },
+  {
     "id": "certfr-genai-threat-2026",
     "date": "2026-02-04",
     "title": "CERT-FR: 42 attacker groups actively use generative AI, none yet autonomous against France",
@@ -8459,6 +9463,56 @@
       {
         "name": "SOC Prime",
         "url": "https://socprime.com/active-threats/unc1069-targets-cryptocurrency-sector/"
+      }
+    ]
+  },
+  {
+    "id": "nigeria-okonjo-iweala-ai-video-scam",
+    "date": "2026-02-11",
+    "title": "Okonjo-Iweala alerts Nigerians to AI video using her image for fake investment scheme",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "NG",
+    "region": "Middle East & Africa",
+    "target": "Nigerian social media users",
+    "loss_usd": null,
+    "summary": "WTO Director-General Ngozi Okonjo-Iweala warned on X of an AI-manipulated video using her likeness to promote a supposedly government-backed scheme promising up to N2.66M in a week from a N380,000 deposit.",
+    "source": "Ripples Nigeria",
+    "url": "https://www.ripplesnigeria.com/okonjo-iweala-alerts-nigerians-to-fake-ai-video-scam/",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "attribution": "Unknown.",
+    "motive": "Collect deposits for a fake automated investment programme capped at 4,000 accounts.",
+    "vector": "AI-manipulated video spread on Instagram, Facebook and WhatsApp, platforms she does not use.",
+    "root_cause": "Trusted public figure impersonated with generative video.",
+    "timeline": [
+      {
+        "date": "2026-02-10",
+        "event": "Fake video circulates on social media"
+      },
+      {
+        "date": "2026-02-11",
+        "event": "Okonjo-Iweala posts alert on X; authorities said to be investigating"
+      }
+    ],
+    "impact": "No losses disclosed.",
+    "response": "Public alert; authorities investigating the source.",
+    "status": "under investigation",
+    "cve": null,
+    "verification": "reported",
+    "sources": [
+      {
+        "name": "Ripples Nigeria",
+        "url": "https://www.ripplesnigeria.com/okonjo-iweala-alerts-nigerians-to-fake-ai-video-scam/"
+      },
+      {
+        "name": "Technext",
+        "url": "https://technext24.com/news/deepfake-ngozi-okonjo-iweala-ai-video/"
+      },
+      {
+        "name": "Nigeria SEC via VON",
+        "url": "https://von.gov.ng/sec-warns-nigerians-of-ai-investment-scams/"
       }
     ]
   },
@@ -10275,6 +11329,64 @@
     ]
   },
   {
+    "id": "bangladesh-azhari-deepfake-drug-ring",
+    "date": "2026-04-23",
+    "title": "Bangladesh police arrest 10 who sold illegal drugs with deepfakes of preacher Azhari",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "BD",
+    "region": "Asia-Pacific",
+    "target": "Bangladeshi online shoppers",
+    "loss_usd": null,
+    "summary": "Police arrested ten members of a ring that used AI to replicate scholar Mizanur Rahman Azhari's face and voice in ads across about 24 fake Facebook pages and websites selling illegal stimulant drugs; two were remanded.",
+    "source": "Prothom Alo",
+    "url": "https://www.prothomalo.com/bangladesh/crime/zqzpowc54a",
+    "actor": "Chattogram-based online fraud ring",
+    "actor_type": "criminal",
+    "attribution": "Nine arrested in Chattogram's Bayezid Bostami area and one in Dhaka's Mohammadpur under case No 19 at Paltan Model Police Station.",
+    "motive": "Sales of illegal products using a trusted religious figure's endorsement.",
+    "vector": "Deepfake video adverts on Facebook pages directing to fake sites; payments collected via cash-on-delivery couriers.",
+    "root_cause": "Easy face and voice cloning of a widely followed public figure.",
+    "timeline": [
+      {
+        "date": "2025-02-15",
+        "event": "Azhari first encounters fake videos using his identity"
+      },
+      {
+        "date": "2026-02-25",
+        "event": "General diary filed at Paltan Model Police Station"
+      },
+      {
+        "date": "2026-04-23",
+        "event": "Case registered under Cyber Security Act; nine arrested in Chattogram"
+      },
+      {
+        "date": "2026-04-24",
+        "event": "Tenth suspect arrested in Dhaka; court remands two"
+      }
+    ],
+    "impact": "24 fake pages and sites; 11 laptops, 47 phones, 21 SIM cards and illegal drugs seized.",
+    "response": "Arrests, remand of two suspects, eight sent to jail pending trial.",
+    "status": "under investigation",
+    "cve": null,
+    "verification": "confirmed",
+    "sources": [
+      {
+        "name": "Prothom Alo",
+        "url": "https://www.prothomalo.com/bangladesh/crime/zqzpowc54a"
+      },
+      {
+        "name": "Jago News",
+        "url": "https://www.jagonews24.com/law-courts/news/1116649"
+      },
+      {
+        "name": "ThreatCluster",
+        "url": "https://threatcluster.io/cluster/10-arrested-for-ai-deepfake-drug-scam-involving-prominent-is-5a5623e7"
+      }
+    ]
+  },
+  {
     "id": "banque-de-france-governor-deepfake",
     "date": "2026-04-27",
     "title": "Banque de France warns of deepfakes of governor Villeroy de Galhau selling investments",
@@ -10367,6 +11479,56 @@
       {
         "name": "AI Incident Database",
         "url": "https://incidentdatabase.ai/reports/7170/"
+      }
+    ]
+  },
+  {
+    "id": "austria-albania-van-der-bellen-crypto",
+    "date": "2026-04-29",
+    "title": "WKStA and Albanian police raid call centres using fake Van der Bellen crypto videos",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "critical",
+    "country": "AT",
+    "region": "Europe",
+    "target": "Investors in Austria, Germany, Italy, Spain, UK and Canada",
+    "loss_usd": 57000000,
+    "summary": "Austria's WKStA and Bundeskriminalamt, with Albanian police, Europol and Eurojust, raided three Albanian call centres pushing crypto schemes with fake Van der Bellen videos; ten arrested, damage at least 50M euros.",
+    "source": "Salzburg24 / APA",
+    "url": "https://www.salzburg24.at/news/oesterreich/als-armin-wolf-ausgegeben-50-millionen-euro-schaden-durch-internet-betrug-art-324237",
+    "actor": "Albania-based call centre fraud network",
+    "actor_type": "criminal",
+    "attribution": "Austrian prosecutors identified a network of about 450 call centre workers in Albania; ten suspects were arrested in the raids.",
+    "motive": "Financial gain from fake crypto investments and follow-on recovery fees.",
+    "vector": "Fake news articles and manipulated videos of Van der Bellen, David Alaba and Hermann Maier promoted crypto schemes; agents pressured victims and later posed as authorities offering recovery for a fee.",
+    "root_cause": "Fabricated celebrity endorsements on social media plus multilingual call centres operating outside victims' jurisdictions.",
+    "timeline": [
+      {
+        "date": "2024-04-01",
+        "event": "Austrian investigation begins after victim complaints"
+      },
+      {
+        "date": "2026-04-28",
+        "event": "Raids on three Albanian call centres; ten arrested, 900,000 euros cash seized"
+      },
+      {
+        "date": "2026-04-29",
+        "event": "WKStA and BK announce results at Vienna press conference"
+      }
+    ],
+    "impact": "At least 50M euros taken from victims across seven countries; 450 computers and 238 phones seized.",
+    "response": "Ten suspects arrested; proceedings under Austrian and Albanian law with Europol and Eurojust support.",
+    "status": "under investigation",
+    "cve": null,
+    "verification": "confirmed",
+    "sources": [
+      {
+        "name": "Salzburg24 / APA",
+        "url": "https://www.salzburg24.at/news/oesterreich/als-armin-wolf-ausgegeben-50-millionen-euro-schaden-durch-internet-betrug-art-324237"
+      },
+      {
+        "name": "CIO.de / dpa",
+        "url": "https://www.cio.de/article/4164915/deepfake-falle-fahnder-zerschlagen-50-millionen-krypto-mafia.html"
       }
     ]
   },
@@ -11016,6 +12178,60 @@
     ]
   },
   {
+    "id": "sao-paulo-fake-lawyer-voice-clone",
+    "date": "2026-05-19",
+    "title": "Sao Paulo police and OAB-SP bust fake-lawyer ring that cloned lawyers' voices; R$10M moved",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "BR",
+    "region": "Latin America",
+    "target": "Litigants with pending court cases in Sao Paulo state",
+    "loss_usd": 1800000,
+    "summary": "Operacao SP Advocacia Mais Segura by the Policia Civil and OAB-SP arrested at least eight members of a call-centre ring that used AI-cloned lawyers' voices and fake court rulings; about R$10M (about $1.8M) moved.",
+    "source": "OAB-SP",
+    "url": "https://www.oabsp.org.br/jornaldaadvocacia/26-05-20-1636-operacao-conjunta-da-oab-sp-e-policia-civil-prende-organizacao-criminosa-que-movimentou-r-milhoes-com-golpe-do-falso-advogado",
+    "actor": "Fake-lawyer call centre organisation",
+    "actor_type": "criminal",
+    "attribution": "Identified by the Delegacia Seccional de Sao Jose do Rio Preto with the OAB-SP task force; names not released.",
+    "motive": "Advance payments supposedly needed to release court awards.",
+    "vector": "Public court data used to target litigants; callers with AI-cloned voices of their real lawyers sent fake judicial decisions and requested transfers.",
+    "root_cause": "Open judicial records plus voice cloning enabled highly targeted social engineering.",
+    "timeline": [
+      {
+        "date": "2025-10-01",
+        "event": "Ring begins six-month run of fake-lawyer calls"
+      },
+      {
+        "date": "2026-05-19",
+        "event": "Operation serves 10 arrest and 15 search warrants; eight arrested"
+      },
+      {
+        "date": "2026-05-20",
+        "event": "OAB-SP publishes operation results"
+      }
+    ],
+    "impact": "At least 12 identified victims (one lost R$35,000) and an estimated 700 potential victims; R$10M moved through accounts.",
+    "response": "Arrests, asset freezes ordered to compensate victims; investigation continues.",
+    "status": "under investigation",
+    "cve": null,
+    "verification": "confirmed",
+    "sources": [
+      {
+        "name": "OAB-SP",
+        "url": "https://www.oabsp.org.br/jornaldaadvocacia/26-05-20-1636-operacao-conjunta-da-oab-sp-e-policia-civil-prende-organizacao-criminosa-que-movimentou-r-milhoes-com-golpe-do-falso-advogado"
+      },
+      {
+        "name": "Folhapress via Acessa",
+        "url": "https://www.acessa.com/noticias/2026/05/326019-golpe-usava-ia-para-clonar-voz-de-advogados-diz-policia-de-sp-oito-suspeitos-sao-presos.html"
+      },
+      {
+        "name": "OECD AI Incidents Monitor",
+        "url": "https://oecd.ai/en/incidents/2026-05-19-df32"
+      }
+    ]
+  },
+  {
     "id": "checkpoint-nimbus-manticore-minifast",
     "date": "2026-05-22",
     "title": "Nimbus Manticore's MiniFast backdoor shows AI-assisted coding during Iran conflict",
@@ -11652,6 +12868,52 @@
     ]
   },
   {
+    "id": "israel-synthetic-identity-ai-agents",
+    "date": "2026-06-21",
+    "title": "Lahav 433 arrests 20-year-old who animated stolen ID photos with AI to open bank accounts",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "IL",
+    "region": "Middle East & Africa",
+    "target": "Israeli banks and about 120 identity theft victims",
+    "loss_usd": null,
+    "summary": "Israel Police allege a 20-year-old bought ID photos on the darknet, used AI to animate them past remote video account-opening checks, and used AI agents to open bank accounts and cards in hundreds of victims' names.",
+    "source": "Calcalist",
+    "url": "http://www.calcalistech.com/ctechnews/article/s1djyjrggg",
+    "actor": "20-year-old suspect from Tzur Yitzhak",
+    "actor_type": "criminal",
+    "attribution": "Police allegations; suspect's lawyer says the investigation is preliminary.",
+    "motive": "Cash withdrawals and purchases on fraudulently obtained cards.",
+    "vector": "AI-animated synthetic identities defeated liveness and selfie checks; AI agents automated account and card applications; AI tools used to hide the suspect's identity.",
+    "root_cause": "Remote KYC relying on live video and selfies that generative AI can now satisfy.",
+    "timeline": [
+      {
+        "date": "2026-06-18",
+        "event": "Rishon LeZion court extends suspect's detention by a week"
+      },
+      {
+        "date": "2026-06-21",
+        "event": "Calcalist reports police allegations; about 90 warrants and 120 complainants"
+      }
+    ],
+    "impact": "Hundreds of identities stolen; estimated theft of hundreds of thousands of shekels; victims unaware of accounts opened in their names.",
+    "response": "Arrest, detention extension and ongoing Lahav 433 investigation.",
+    "status": "under investigation",
+    "cve": null,
+    "verification": "reported",
+    "sources": [
+      {
+        "name": "Calcalist",
+        "url": "http://www.calcalistech.com/ctechnews/article/s1djyjrggg"
+      },
+      {
+        "name": "Frank on Fraud",
+        "url": "https://frankonfraud.com/he-used-ai-to-wear-other-peoples-faces-and-agents-to-help-him/"
+      }
+    ]
+  },
+  {
     "id": "chiba-teen-ai-ransomware-arrest",
     "date": "2026-06-25",
     "title": "Chiba police arrest 19-year-old who built ransomware with AI after Asahi attack news",
@@ -11856,6 +13118,110 @@
       {
         "name": "CSO Online",
         "url": "https://www.csoonline.com/article/4191923/sandbox-bypass-flaws-in-cursor-ide-highlight-prompt-injection-as-an-rce-vector.html"
+      }
+    ]
+  },
+  {
+    "id": "chemnitz-lanz-deepfake-investhub",
+    "date": "2026-07-08",
+    "title": "Saxony woman loses over 1M euros after deepfake Markus Lanz video promotes Investhub 3.0",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "DE",
+    "region": "Europe",
+    "target": "Private investor in Lichtenberg, Saxony",
+    "loss_usd": 1100000,
+    "summary": "Chemnitz police are investigating after a Saxony woman transferred sums from 250 to 460,000 euros to the Investhub 3.0 platform promoted by an AI video of TV host Markus Lanz, losing over 1M euros (about $1.1M).",
+    "source": "Polizeidirektion Chemnitz via Berliner Zeitung",
+    "url": "https://www.berliner-zeitung.de/article/frau-aus-sachsen-verliert-ueber-eine-million-euro-nach-deepfake-mit-falschem-markus-lanz-10171914",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "attribution": "Unknown.",
+    "motive": "Financial gain via fake trading platform.",
+    "vector": "Deepfake video circulating since April 2026 showing Markus Lanz endorsing Investhub 3.0 with unusually high returns; victim made multiple transfers.",
+    "root_cause": "Highly realistic AI video and audio of a trusted broadcaster used to lend credibility to an unlicensed platform.",
+    "timeline": [
+      {
+        "date": "2026-04-01",
+        "event": "Deepfake Lanz video promoting Investhub 3.0 begins circulating"
+      },
+      {
+        "date": "2026-07-04",
+        "event": "Victim files police report in Chemnitz"
+      },
+      {
+        "date": "2026-07-08",
+        "event": "Case reported alongside new BaFin warnings"
+      }
+    ],
+    "impact": "Single victim lost over 1M euros across several transfers.",
+    "response": "Chemnitz police investigating; BaFin issued parallel warnings about identity-cloning investment sites.",
+    "status": "under investigation",
+    "cve": null,
+    "verification": "reported",
+    "sources": [
+      {
+        "name": "Berliner Zeitung (citing Polizeidirektion Chemnitz)",
+        "url": "https://www.berliner-zeitung.de/article/frau-aus-sachsen-verliert-ueber-eine-million-euro-nach-deepfake-mit-falschem-markus-lanz-10171914"
+      },
+      {
+        "name": "Boerse Express",
+        "url": "https://www.boerse-express.com/news/articles/deepfake-betrug-millionenschaden-durch-ki-videos-mit-markus-lanz-925864"
+      },
+      {
+        "name": "Heidelberg24",
+        "url": "https://www.heidelberg24.de/welt/ueber-eine-million-euro-verloren-frau-aus-sachsen-faellt-auf-markus-lanz-fake-herein-zr-94385292.html"
+      }
+    ]
+  },
+  {
+    "id": "colombia-ibague-deepfake-visa-ring",
+    "date": "2026-07-13",
+    "title": "Colombian Dijin dismantles Ibague ring using deepfakes to pose as US consular officials",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "CO",
+    "region": "Latin America",
+    "target": "Visa applicants in seven countries",
+    "loss_usd": null,
+    "summary": "The Dijin, Fiscalia General, Ameripol and US HSI raided three Ibague properties, arresting five people who altered their faces and accents on video calls to impersonate US consular officials selling fake visas.",
+    "source": "Policia Nacional de Colombia",
+    "url": "https://www.policia.gov.co/noticia/cae-red-transnacional-en-ibague-que-estafaba-ciudadanos-7-paises-usando-inteligencia",
+    "actor": "Ibague-based fake visa network",
+    "actor_type": "criminal",
+    "attribution": "Five captured in flagrante; three arrests legalised by a judge, two given administrative measures.",
+    "motive": "Fees for non-existent US visas.",
+    "vector": "Over 100 fake social media profiles recruited applicants from seven countries; real-time face and accent alteration on video calls plus chatbots and voice cloning automated contact.",
+    "root_cause": "Real-time deepfake tools made impersonation of officials convincing on live calls.",
+    "timeline": [
+      {
+        "date": "2026-07-10",
+        "event": "Raids on three Ibague operations centres; five captured"
+      },
+      {
+        "date": "2026-07-13",
+        "event": "Fiscalia charges include aggravated personal falsity using AI"
+      }
+    ],
+    "impact": "Victims across seven countries; seized $330,000 in counterfeit dollars, 13M pesos cash and two forged Bank of America cheques totalling $430,000.",
+    "response": "Arrests, AI software neutralised, charges of data violation, AI-aggravated falsity, illicit network use and counterfeiting.",
+    "status": "under investigation",
+    "cve": null,
+    "verification": "confirmed",
+    "sources": [
+      {
+        "name": "Policia Nacional de Colombia",
+        "url": "https://www.policia.gov.co/noticia/cae-red-transnacional-en-ibague-que-estafaba-ciudadanos-7-paises-usando-inteligencia"
+      },
+      {
+        "name": "El Pais Colombia",
+        "url": "https://www.elpais.com.co/judicial/desmantelan-en-ibague-red-que-ofrecia-falsas-visas-para-estados-unidos-y-usaba-inteligencia-artificial-para-suplantar-funcionarios-1346.html"
+      },
+      {
+        "name": "El Colombiano",
+        "url": "https://www.elcolombiano.com/colombia/cae-red-fraude-visas-estados-unidos-ia-video-falso-ibague-NF38790805"
       }
     ]
   },
@@ -12074,6 +13440,52 @@
       {
         "name": "Yle News",
         "url": "https://yle.fi/news/18-217206"
+      }
+    ]
+  },
+  {
+    "id": "finland-police-google-meet-deepfake",
+    "date": "2026-07-22",
+    "title": "Finnish NBI warns of Google Meet scam calls using deepfakes of police commissioner",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "FI",
+    "region": "Europe",
+    "target": "Immigrants in Finland",
+    "loss_usd": null,
+    "summary": "Finland's National Bureau of Investigation warned of Google Meet calls by scammers posing as police, some using suspected deepfakes of real officers including Commissioner Ilkka Koskimaki, to obtain bank details.",
+    "source": "Yle",
+    "url": "https://yle.fi/a/74-20237545",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "attribution": "Unknown.",
+    "motive": "Theft of banking and personal information.",
+    "vector": "Unsolicited Google Meet video calls impersonating police officers, with threats of account closure, arrest or deportation; victims asked to show payment cards on camera.",
+    "root_cause": "Video conferencing defaults allow calls from unknown contacts; deepfaked faces of real officers increased credibility.",
+    "timeline": [
+      {
+        "date": "2026-06-01",
+        "event": "First police-impersonation video calls reported"
+      },
+      {
+        "date": "2026-07-22",
+        "event": "NBI issues public warning noting deepfake use in newer calls"
+      }
+    ],
+    "impact": "Scams primarily targeted immigrants; police did not publish loss figures.",
+    "response": "Police advised that officers never contact the public by video call and recommended restricting Google Meet to known contacts.",
+    "status": "ongoing",
+    "cve": null,
+    "verification": "confirmed",
+    "sources": [
+      {
+        "name": "Yle",
+        "url": "https://yle.fi/a/74-20237545"
+      },
+      {
+        "name": "OECD AI Incidents Monitor",
+        "url": "https://oecd.ai/en/incidents/2026-07-22-2305"
       }
     ]
   },
@@ -12344,6 +13756,102 @@
     ]
   },
   {
+    "id": "norway-ai-fake-documents-tax-fraud",
+    "date": "2026-08-10",
+    "title": "Skatteetaten uncovers AI-generated fake receipts behind 2bn NOK in bogus tax claims",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "NO",
+    "region": "Europe",
+    "target": "Norwegian Tax Administration",
+    "loss_usd": null,
+    "summary": "The Norwegian Tax Administration warned of a new fraud method in which filers attached AI-generated fictitious documentation to tax returns to claim deductions; claims worth over 2bn NOK (about $190M) were found.",
+    "source": "Skatteetaten via NTB",
+    "url": "https://kommunikasjon.ntb.no/pressemelding/19017504/advarer-mot-ny-svindelmetode-ki-misbruk-og-fiktive-vedlegg-i-skattemeldingen?publisherId=1726411&lang=no",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "attribution": "Unknown; numerous individual filers.",
+    "motive": "Illegitimate tax refunds.",
+    "vector": "Generative AI used to fabricate receipts and supporting attachments submitted with tax returns.",
+    "root_cause": "Document-based deduction controls assumed attachments were hard to forge convincingly.",
+    "timeline": [
+      {
+        "date": "2026-04-30",
+        "event": "Tax return season sees surge in suspicious AI-made attachments"
+      },
+      {
+        "date": "2026-08-10",
+        "event": "Skatteetaten issues warning; media report over 2bn NOK in fraudulent claims"
+      }
+    ],
+    "impact": "Over 2bn NOK in fraudulent deduction claims detected; disbursed losses not published.",
+    "response": "Skatteetaten public warning and enhanced controls on attachments.",
+    "status": "contained",
+    "cve": null,
+    "verification": "reported",
+    "sources": [
+      {
+        "name": "NTB press release (Skatteetaten)",
+        "url": "https://kommunikasjon.ntb.no/pressemelding/19017504/advarer-mot-ny-svindelmetode-ki-misbruk-og-fiktive-vedlegg-i-skattemeldingen?publisherId=1726411&lang=no"
+      },
+      {
+        "name": "TV 2",
+        "url": "https://www.tv2.no/nyheter/avdekket-omfattende-ki-svindelforsok-1/19109402/"
+      },
+      {
+        "name": "OECD AI Incidents Monitor",
+        "url": "https://oecd.ai/en/incidents/2026-08-10-6d0c"
+      }
+    ]
+  },
+  {
+    "id": "australia-nasc-albanese-deepfake-7-4m",
+    "date": "2026-08-17",
+    "title": "Australia's NASC: deepfakes of Albanese and nine public figures tied to A$7.4M in losses",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "AU",
+    "region": "Asia-Pacific",
+    "target": "Australian retail investors",
+    "loss_usd": 4800000,
+    "summary": "National Anti-Scam Centre data for FY2026 showed Scamwatch reports involving impersonations of the ten most-copied public figures, led by PM Anthony Albanese, were tied to A$7.4M (about $4.8M) in losses.",
+    "source": "National Anti-Scam Centre / ASIC",
+    "url": "https://www.bitdefender.com/en-au/blog/hotforsecurity/top-aussie-public-figures-impersonated-in-investment-scams",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "attribution": "Unknown; multiple overseas investment scam networks.",
+    "motive": "Lure investors with fabricated endorsements promising returns such as A$40,000 a month from A$4,000.",
+    "vector": "AI videos overlaying fake audio on real footage of politicians and finance commentators, distributed via social media ads to fake platforms.",
+    "root_cause": "Scammers rotate impersonated figures to match news cycles; social proof from trusted faces overrides scepticism.",
+    "timeline": [
+      {
+        "date": "2025-07-01",
+        "event": "FY2026 reporting period begins"
+      },
+      {
+        "date": "2026-08-17",
+        "event": "NASC publishes top impersonated figures and A$7.4M loss figure"
+      }
+    ],
+    "impact": "A$7.4M reported losses across the top ten impersonations; ASIC handled over 19,400 scams in the year, nearly triple the prior year.",
+    "response": "ASIC and NASC public warnings; ASIC takedowns of scam websites.",
+    "status": "ongoing",
+    "cve": null,
+    "verification": "confirmed",
+    "sources": [
+      {
+        "name": "Bitdefender Hot for Security (citing NASC)",
+        "url": "https://www.bitdefender.com/en-au/blog/hotforsecurity/top-aussie-public-figures-impersonated-in-investment-scams"
+      },
+      {
+        "name": "The Outpost",
+        "url": "https://theoutpost.ai/news-story/deepfake-scams-using-anthony-albanese-cost-australians-7-4-m-as-asic-reports-182-surge-29829/"
+      }
+    ]
+  },
+  {
     "id": "ray-cve-2025-62593-rondodox-kev",
     "date": "2026-08-17",
     "title": "Browser-based Ray RCE (CVE-2025-62593) used by RondoDox botnet lands on CISA KEV",
@@ -12536,6 +14044,52 @@
       {
         "name": "MLflow advisory",
         "url": "https://github.com/mlflow/mlflow/security/advisories/GHSA-7gwp-5pfp-969j"
+      }
+    ]
+  },
+  {
+    "id": "heidelberg-pensioner-deepfake-investment",
+    "date": "2026-08-20",
+    "title": "Heidelberg police: 75-year-old loses six-figure sum to celebrity deepfake investment video",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "DE",
+    "region": "Europe",
+    "target": "Pensioner in Mannheim/Heidelberg area",
+    "loss_usd": null,
+    "summary": "The Kriminalpolizeidirektion Heidelberg reported that a 75-year-old man lost a six-figure euro sum after a convincing video used a well-known personality's manipulated face and voice to promote an investment.",
+    "source": "BornCity (citing Kriminalpolizeidirektion Heidelberg)",
+    "url": "https://borncity.com/news/anlagebetrug-deepfakes-ergaunern-senioren-sechsstellige-betraege/",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "attribution": "Unknown.",
+    "motive": "Financial gain from fake investment.",
+    "vector": "Deepfake celebrity investment video leading to a fraudulent platform; victim transferred a large sum.",
+    "root_cause": "Manipulated faces and voices that police say are hard to distinguish from originals.",
+    "timeline": [
+      {
+        "date": "2026-08-01",
+        "event": "Victim invests after viewing deepfake celebrity video"
+      },
+      {
+        "date": "2026-08-20",
+        "event": "Heidelberg criminal police publicise case and warning"
+      }
+    ],
+    "impact": "Total loss of a six-figure investment; two other regional pensioners lost five-figure sums in related phone and crypto scams.",
+    "response": "Police warned that extreme return promises with minimal risk almost always indicate fraud and advised verifying platforms with banks.",
+    "status": "under investigation",
+    "cve": null,
+    "verification": "reported",
+    "sources": [
+      {
+        "name": "BornCity (citing Kriminalpolizeidirektion Heidelberg)",
+        "url": "https://borncity.com/news/anlagebetrug-deepfakes-ergaunern-senioren-sechsstellige-betraege/"
+      },
+      {
+        "name": "BornCity (police deepfake warning)",
+        "url": "https://borncity.com/news/anlagebetrug-mit-ki-deepfakes-polizei-warnt-vor-manipulierten-videos/"
       }
     ]
   },
@@ -13486,6 +15040,56 @@
       {
         "name": "AI Weekly",
         "url": "https://aiweekly.co/alerts/wsj-openai-agents-attacked-rubygems-in-may-two-months-before-hugging-face-breach"
+      }
+    ]
+  },
+  {
+    "id": "greece-voice-clone-relatives-gang",
+    "date": "2026-09-18",
+    "title": "Greek police bust gang that cloned relatives' voices with AI to steal over 1M euros",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "GR",
+    "region": "Europe",
+    "target": "Elderly residents of Attica",
+    "loss_usd": 1100000,
+    "summary": "Greek police arrested two collectors from a gang that posed as utility staff, recorded relatives voices, then used AI voice clones of those relatives to talk victims into handing over valuables; over 1M euros taken.",
+    "source": "Euronews (citing Hellenic Police)",
+    "url": "https://www.euronews.com/2026/09/18/greece-police-bust-gang-using-ai-to-clone-relatives-voices-for-cash",
+    "actor": "Attica voice-cloning fraud gang",
+    "actor_type": "criminal",
+    "attribution": "Two arrested; four others named in the case file, three identified.",
+    "motive": "Cash and valuables collected from homes.",
+    "vector": "Pretext calls as utility technicians; a relative's voice sampled via a second pretext call, cloned with AI, and used to reassure the victim.",
+    "root_cause": "Seconds of audio suffice to clone a voice; verification by calling relatives was subverted.",
+    "timeline": [
+      {
+        "date": "2026-09-14",
+        "event": "Vehicle later used by the gang reported stolen"
+      },
+      {
+        "date": "2026-09-17",
+        "event": "Two suspects arrested after collecting about 30,000 euros in valuables"
+      },
+      {
+        "date": "2026-09-18",
+        "event": "Suspects referred to examining magistrate; five more cases linked"
+      }
+    ],
+    "impact": "Over 1M euros in estimated illicit proceeds across linked cases.",
+    "response": "Arrests, prosecutor referral, seizure of vehicle and phones; investigation continues.",
+    "status": "under investigation",
+    "cve": null,
+    "verification": "confirmed",
+    "sources": [
+      {
+        "name": "Euronews",
+        "url": "https://www.euronews.com/2026/09/18/greece-police-bust-gang-using-ai-to-clone-relatives-voices-for-cash"
+      },
+      {
+        "name": "Greek City Times",
+        "url": "https://greekcitytimes.com/2026/09/19/greece-police-ai-voice-cloning-scam-gang/"
       }
     ]
   },
