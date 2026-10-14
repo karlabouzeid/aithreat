@@ -100,6 +100,106 @@
     ]
   },
   {
+    "id": "funksec-ai-assisted-ransomware",
+    "date": "2025-01-10",
+    "title": "Check Point: FunkSec ransomware group built its Rust encryptor with AI assistance",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "85+ organisations listed on FunkSec leak site",
+    "loss_usd": null,
+    "summary": "Check Point Research found that FunkSec, a RaaS group that claimed 85 victims in December 2024, likely developed its Rust encryptor and tooling with AI help, letting an inexperienced author iterate fast.",
+    "source": "Check Point Research",
+    "url": "https://research.checkpoint.com/2025/funksec-alleged-top-ransomware-group-powered-by-ai/",
+    "actor": "FunkSec (DesertStorm persona)",
+    "actor_type": "criminal",
+    "attribution": "Check Point Research assessed the developer is likely an inexperienced author based in Algeria, citing Ghost Algeria references and upload sources; Kaspersky later made similar AI-code observations.",
+    "motive": "Financial extortion mixed with hacktivist posturing; ransom demands as low as 10,000 USD",
+    "vector": "Double-extortion ransomware (FunkSec V1.5, Rust) plus Python DDoS tool, HVNC remote access tool and a password scraping tool, all showing AI-generated code traits",
+    "root_cause": "Generative AI lowered the skill needed to produce a working encryptor; code had polished English comments while operators showed weak English, and the group ran its own Miniapps chatbot for malicious tasks",
+    "timeline": [
+      {
+        "date": "2024-12-01",
+        "event": "FunkSec data leak site launches and lists 85 claimed victims within the month"
+      },
+      {
+        "date": "2025-01-10",
+        "event": "Check Point Research publishes analysis calling the tooling likely AI-assisted"
+      },
+      {
+        "date": "2025-07-28",
+        "event": "Kaspersky publishes its own FunkSec analysis noting LLM-style placeholder comments"
+      }
+    ],
+    "impact": "More than 85 claimed victims in about a month, though Check Point judged real impact modest and noted many leaked datasets were recycled from earlier hacktivist leaks. V1.5 was detected by only 3 antivirus engines at upload.",
+    "response": "Check Point published IOCs and detection guidance; the report flagged AI-assisted tooling as a sign that novices can produce functional ransomware quickly.",
+    "status": "ongoing",
+    "cve": null,
+    "verification": "confirmed",
+    "sources": [
+      {
+        "name": "Check Point Research",
+        "url": "https://research.checkpoint.com/2025/funksec-alleged-top-ransomware-group-powered-by-ai/"
+      },
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2025/01/ai-driven-ransomware-funksec-targets-85.html"
+      },
+      {
+        "name": "Infosecurity Magazine",
+        "url": "https://www.infosecurity-magazine.com/news/new-ransomware-group-uses-ai/"
+      }
+    ]
+  },
+  {
+    "id": "brasilia-marcos-mion-deepfake-vouchers",
+    "date": "2025-01-16",
+    "title": "Brasilia police bust group using Marcos Mion deepfakes to sell fake restaurant vouchers",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "low",
+    "country": "BR",
+    "region": "Latin America",
+    "target": "Consumers in Brazil's Federal District; Marcos Mion",
+    "loss_usd": null,
+    "summary": "Brasilia civil police arrested at least three people who manipulated TV host Marcos Mion's image and voice to sell restaurant vouchers never delivered; a May 2025 second phase arrested the alleged site builder.",
+    "source": "SBT News",
+    "url": "https://sbtnews.sbt.com.br/noticia/policia/policia-prende-golpistas-que-usavam-deepfake-de-marcos-mion-na-internet",
+    "actor": "Brasilia-based fraud group behind Operacao Voice Over",
+    "actor_type": "criminal",
+    "attribution": "PCDF identified a technology company used as a front; a 24-year-old in Santa Helena de Goias was arrested in May 2025 for building the fake sites.",
+    "motive": "Low-value mass fraud through fake discount vouchers.",
+    "vector": "Deepfake video ads on social media, automated payment pages and digital marketing tooling.",
+    "root_cause": "Celebrity likeness cloning combined with paid ad distribution.",
+    "timeline": [
+      {
+        "date": "2025-01-16",
+        "event": "PCDF serves warrants; three arrested in flagrante"
+      },
+      {
+        "date": "2025-05-01",
+        "event": "Second phase of Operacao Voice Over arrests site developer in Goias"
+      }
+    ],
+    "impact": "Dozens of victims in the Federal District; amounts not disclosed; two imported vehicles seized.",
+    "response": "Charges of electronic fraud, criminal association and money laundering carrying up to 21 years.",
+    "status": "under investigation",
+    "cve": null,
+    "verification": "confirmed",
+    "sources": [
+      {
+        "name": "SBT News",
+        "url": "https://sbtnews.sbt.com.br/noticia/policia/policia-prende-golpistas-que-usavam-deepfake-de-marcos-mion-na-internet"
+      },
+      {
+        "name": "Jornal Opcao",
+        "url": "https://www.jornalopcao.com.br/ultimas-noticias/jovem-e-preso-em-goias-por-usar-deepfake-de-marcos-mion-em-golpes-com-sites-falsos-705126/"
+      }
+    ]
+  },
+  {
     "id": "brad-pitt-ai-romance-scam-france",
     "date": "2025-01-17",
     "title": "French woman loses 830,000 euros to AI-generated 'Brad Pitt' romance scam; probe opened",
@@ -154,6 +254,114 @@
     ]
   },
   {
+    "id": "ghostgpt-criminal-chatbot",
+    "date": "2025-01-23",
+    "title": "GhostGPT: uncensored chatbot sold on Telegram to write malware and phishing for criminals",
+    "category": "AI phishing",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "Businesses targeted by phishing and BEC",
+    "loss_usd": null,
+    "summary": "Abnormal Security documented GhostGPT, a jailbroken LLM wrapper sold via Telegram with a no-logs claim, that produced a convincing DocuSign phishing email on request and is marketed for malware and exploit work.",
+    "source": "Abnormal AI",
+    "url": "https://abnormal.ai/blog/ghostgpt-uncensored-ai-chatbot",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "attribution": "Abnormal Security researchers identified the service on underground forums; operator identity not established.",
+    "motive": "Selling uncensored AI access to cybercriminals for profit",
+    "vector": "Telegram-delivered chatbot, likely a wrapper around a jailbroken commercial or open-source model, with guardrails removed",
+    "root_cause": "Commercial LLM guardrails can be bypassed by wrapper services, giving low-skill actors ready-made phishing and malware generation",
+    "timeline": [
+      {
+        "date": "2024-11-01",
+        "event": "GhostGPT advertisements accumulate thousands of views on cybercrime forums"
+      },
+      {
+        "date": "2025-01-23",
+        "event": "Abnormal Security publishes analysis after testing the tool with a DocuSign phishing request"
+      }
+    ],
+    "impact": "Forum posts with thousands of views indicated real criminal demand; the tool lowered the barrier for BEC and phishing lures with no jailbreak skills needed.",
+    "response": "Abnormal published indicators and warned defenders; no takedown reported.",
+    "status": "ongoing",
+    "cve": null,
+    "verification": "confirmed",
+    "sources": [
+      {
+        "name": "Abnormal AI",
+        "url": "https://abnormal.ai/blog/ghostgpt-uncensored-ai-chatbot"
+      },
+      {
+        "name": "TechRepublic",
+        "url": "https://www.techrepublic.com/article/what-is-ghostgpt/"
+      },
+      {
+        "name": "Security Boulevard",
+        "url": "https://securityboulevard.com/2025/01/ghostgpt-a-malicious-ai-chatbot-for-hackers"
+      }
+    ]
+  },
+  {
+    "id": "storm-1516-bundestag-deepfakes",
+    "date": "2025-01-23",
+    "title": "Storm-1516 floods German election with 100+ AI-written fake news sites and deepfakes",
+    "category": "State actor AI ops",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "DE",
+    "region": "Europe",
+    "target": "German Bundestag election candidates and voters",
+    "loss_usd": null,
+    "summary": "CORRECTIV and NewsGuard exposed a Russian network of more than 100 German-language fake news sites filled with LLM-rewritten articles and deepfake videos smearing Habeck, Baerbock and Faber before the February 2025 vote.",
+    "source": "CORRECTIV",
+    "url": "https://correctiv.org/faktencheck/russische-desinformation/2025/01/23/angriff-aus-russland-auf-bundestageswahl-deepfake-ki/",
+    "actor": "Storm-1516 (John Mark Dougan network)",
+    "actor_type": "state",
+    "attribution": "Linked by researchers to Moscow-based former US officer John Mark Dougan and to the GRU; the German government formally blamed Russia and summoned its ambassador in December 2025.",
+    "motive": "Undermine trust in pro-Ukraine candidates and influence the Bundestag election.",
+    "vector": "Domains registered in waves from November 2024, LLM-rewritten articles, fake whistleblower videos including a face-swap deepfake of FDP politician Marcus Faber, amplified by pro-Russian influencers.",
+    "root_cause": "Low cost of LLM content generation and deepfake tooling let a small team run a large synthetic media network ahead of a snap election.",
+    "timeline": [
+      {
+        "date": "2024-11-19",
+        "event": "First wave of German-language fake news domains registered"
+      },
+      {
+        "date": "2025-01-23",
+        "event": "CORRECTIV publishes investigation listing 102 Storm-1516 domains"
+      },
+      {
+        "date": "2025-02-23",
+        "event": "Bundestag election held"
+      },
+      {
+        "date": "2025-12-12",
+        "event": "German Foreign Office summons Russian ambassador over Storm-1516 interference"
+      }
+    ],
+    "impact": "Fabricated abuse and espionage claims against leading candidates circulated on social media; most individual fakes did not go viral but the network persisted into 2026 state elections.",
+    "response": "Media fact-checks and domain exposure; German authorities confirmed the operation and summoned Russia's ambassador; Storm-1516 videos reappeared during the 2026 Mecklenburg-Vorpommern vote.",
+    "status": "ongoing",
+    "cve": null,
+    "verification": "confirmed",
+    "sources": [
+      {
+        "name": "CORRECTIV",
+        "url": "https://correctiv.org/faktencheck/russische-desinformation/2025/01/23/angriff-aus-russland-auf-bundestageswahl-deepfake-ki/"
+      },
+      {
+        "name": "CORRECTIV",
+        "url": "https://correctiv.org/aktuelles/hybride-kriegsfuehrung/2025/12/12/russlands-botschafter-einbestellt-behoerden-bestaetigen-correctiv-recherche-zu-einflussoperation/"
+      },
+      {
+        "name": "ZDFheute",
+        "url": "https://www.zdfheute.de/politik/deutschland/faktencheck-manipulierte-stimmzettel-wahl-mecklenburg-vorpommern-100.html"
+      }
+    ]
+  },
+  {
     "id": "indonesia-prabowo-deepfake-aid-scam",
     "date": "2025-01-24",
     "title": "Indonesian police arrest two over deepfake videos of President Prabowo promising cash aid",
@@ -204,6 +412,64 @@
       {
         "name": "OECD.AI Incidents Monitor",
         "url": "https://oecd.ai/en/incidents/2025-04-24-4595"
+      }
+    ]
+  },
+  {
+    "id": "deepseek-ddos-registration-halt",
+    "date": "2025-01-28",
+    "title": "DeepSeek halts new sign-ups after month-long DDoS and brute-force campaign peaks",
+    "category": "LLMjacking",
+    "direction": "on-ai",
+    "severity": "high",
+    "country": "CN",
+    "region": "Asia-Pacific",
+    "target": "DeepSeek chat and API services",
+    "loss_usd": null,
+    "summary": "DeepSeek said its services were under large-scale malicious attack on 28 January 2025 and limited sign-ups to Chinese mobile numbers; Qi An Xin XLab traced a month of escalating DDoS and brute-force traffic.",
+    "source": "The Paper (澎湃新闻)",
+    "url": "https://www.thepaper.cn/newsDetail_forward_30058949",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "attribution": "Qi An Xin XLab said attack and brute-force IPs were located in the United States; no group was named and DeepSeek did not attribute the attack.",
+    "motive": "Unknown; analysts suggested disruption of the newly popular R1 service.",
+    "vector": "Three phases: HTTP proxy floods from 3 January, SSDP and NTP reflection amplification from 20 January, then application-layer HTTP proxy attacks and password brute-forcing peaking 27 to 28 January.",
+    "root_cause": "Sudden global demand for DeepSeek R1 outpaced the startup's DDoS mitigation and account-protection capacity.",
+    "timeline": [
+      {
+        "date": "2025-01-03",
+        "event": "XLab observes first suspected HTTP proxy attacks against DeepSeek"
+      },
+      {
+        "date": "2025-01-27",
+        "event": "Application-layer attacks surge; DeepSeek reports degraded web and API performance"
+      },
+      {
+        "date": "2025-01-28",
+        "event": "DeepSeek status page cites large-scale malicious attack and restricts registration to +86 numbers"
+      },
+      {
+        "date": "2025-01-29",
+        "event": "The Paper publishes Qi An Xin XLab analysis of the three attack phases"
+      }
+    ],
+    "impact": "Hours of outages and degraded API performance for users worldwide; new registrations blocked for non-Chinese phone numbers; existing users could still log in.",
+    "response": "DeepSeek switched IP addresses at 00:58 on 28 January, restricted sign-ups and restored service in stages; no user-data theft was confirmed.",
+    "status": "resolved",
+    "cve": null,
+    "verification": "confirmed",
+    "sources": [
+      {
+        "name": "The Paper (澎湃新闻)",
+        "url": "https://www.thepaper.cn/newsDetail_forward_30058949"
+      },
+      {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/deepseek-halts-new-signups-amid-large-scale-cyberattack"
+      },
+      {
+        "name": "GIGAZINE",
+        "url": "https://gigazine.net/gsc_news/en/20250128-deepseek-large-scale-cyber-attack"
       }
     ]
   },
@@ -473,6 +739,56 @@
       {
         "name": "Help Net Security",
         "url": "https://www.helpnetsecurity.com/2025/02/10/malicious-ml-models-found-on-hugging-face-hub/"
+      }
+    ]
+  },
+  {
+    "id": "sysdig-llmjacking-deepseek",
+    "date": "2025-02-07",
+    "title": "LLMjacking crews load stolen DeepSeek keys into reverse proxies days after model launch",
+    "category": "LLMjacking",
+    "direction": "on-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "Cloud and AI API account holders (OpenAI, AWS, Azure)",
+    "loss_usd": null,
+    "summary": "Sysdig found over 20 reverse proxies running on stolen credentials; one held 55 DeepSeek keys, another burned 2.2 billion tokens worth tens of thousands of dollars in 4.5 days and resold access for 30 USD a month.",
+    "source": "Sysdig Threat Research Team",
+    "url": "https://www.sysdig.com/blog/llmjacking-targets-deepseek",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "attribution": "Sysdig TRT observed operators sharing access on Rentry and 4chan and hiding behind TryCloudflare tunnels; individuals not identified.",
+    "motive": "Avoiding LLM costs and reselling model access",
+    "vector": "Credentials stolen from vulnerable services such as Laravel or scraped from public repositories, verified by scripts and loaded into ORP proxies",
+    "root_cause": "Leaked long-lived API keys with no usage caps; proxies made abuse look like legitimate traffic",
+    "timeline": [
+      {
+        "date": "2024-12-26",
+        "event": "DeepSeek-V3 released; support appears in an ORP within days"
+      },
+      {
+        "date": "2025-01-21",
+        "event": "DeepSeek-R1 added to proxies the day after its release"
+      },
+      {
+        "date": "2025-02-07",
+        "event": "Sysdig publishes findings on DeepSeek-focused LLMjacking"
+      }
+    ],
+    "impact": "One sampled proxy showed 132,651 prompts and 2.213 billion tokens, estimated at roughly 49,596 USD of victim spend in 4.5 days; Claude 3 Opus alone accounted for an estimated 38,951 USD.",
+    "response": "Sysdig published indicators and urged key rotation, usage limits and secret scanning; affected providers were notified.",
+    "status": "ongoing",
+    "cve": null,
+    "verification": "confirmed",
+    "sources": [
+      {
+        "name": "Sysdig",
+        "url": "https://www.sysdig.com/blog/llmjacking-targets-deepseek"
+      },
+      {
+        "name": "SecurityBrief",
+        "url": "https://securitybrief.co.uk/story/llmjacking-exploits-target-ai-models-like-deepseek-experts-warn"
       }
     ]
   },
@@ -876,6 +1192,60 @@
     ]
   },
   {
+    "id": "sheinbaum-pemex-ai-investment-videos",
+    "date": "2025-02-26",
+    "title": "Sheinbaum denounces AI videos of her urging Mexicans to invest in Pemex shares",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "MX",
+    "region": "Latin America",
+    "target": "Mexican Facebook users; President Claudia Sheinbaum",
+    "loss_usd": null,
+    "summary": "Sheinbaum said AI-generated Facebook reels showing her inviting people to invest in Pemex for 6,000 to 7,000 pesos a day were false and had circulated since November 2024; Condusef issued parallel alerts.",
+    "source": "El Financiero",
+    "url": "https://www.elfinanciero.com.mx/nacional/2025/02/26/sheinbaum-evitar-hacer-un-milei-no-estoy-invitando-a-invertir-en-nada-aclara-sobre-videos-con-ia/",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "attribution": "No suspects; phishing domains such as pemexwealth.click were identified by fact-checkers.",
+    "motive": "Lure victims to fake investment platforms and harvest personal data.",
+    "vector": "Deepfake video and voice ads on Facebook and Instagram linking to fake Pemex investment sites.",
+    "root_cause": "Platform ad review failed to block synthetic presidential endorsements.",
+    "timeline": [
+      {
+        "date": "2024-11-01",
+        "event": "AI investment videos of Sheinbaum begin circulating"
+      },
+      {
+        "date": "2025-01-26",
+        "event": "Condusef warns of deepfake investment scheme"
+      },
+      {
+        "date": "2025-02-26",
+        "event": "Sheinbaum publicly denounces the videos at the mananera"
+      }
+    ],
+    "impact": "Presidential likeness used for months in fraud; victim losses not published.",
+    "response": "Videos added to the presidency's Detector de Mentiras segment; Condusef repeated warnings in June and August 2025.",
+    "status": "unresolved",
+    "cve": null,
+    "verification": "confirmed",
+    "sources": [
+      {
+        "name": "El Financiero",
+        "url": "https://www.elfinanciero.com.mx/nacional/2025/02/26/sheinbaum-evitar-hacer-un-milei-no-estoy-invitando-a-invertir-en-nada-aclara-sobre-videos-con-ia/"
+      },
+      {
+        "name": "Xataka Mexico",
+        "url": "https://www.xataka.com.mx/politica/claudia-sheinbaum-advierte-estafas-video-realizados-ia"
+      },
+      {
+        "name": "adn40",
+        "url": "https://www.adn40.mx/es-tendencia/2025-01-26/deepfake-modus-operandi-nueva-estafa-por-la-que-alerta-condusef"
+      }
+    ]
+  },
+  {
     "id": "wayback-copilot-lasso",
     "date": "2025-02-26",
     "title": "Copilot serves code from 20,000 GitHub repos that were made private, via Bing cache",
@@ -1029,6 +1399,56 @@
     ]
   },
   {
+    "id": "qatarenergy-ai-investment-videos",
+    "date": "2025-03-26",
+    "title": "QatarEnergy warns public of AI-generated videos impersonating it to sell fake investments",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "low",
+    "country": "QA",
+    "region": "Middle East & Africa",
+    "target": "QatarEnergy brand and Gulf investors",
+    "loss_usd": null,
+    "summary": "Qatar's state energy company warned about fake adverts and AI-generated videos presenting investment opportunities in its name, stressing it never asks the public for money; it reissued the warning in November 2025.",
+    "source": "Qatar Tribune",
+    "url": "https://www.qatar-tribune.com/article/169404/latest-news/qatarenergy-warns-of-fake-adverts-videos-offering-investment-opportunities",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "attribution": "No attribution; part of a regional wave of deepfake investment scams noted by Gulf regulators.",
+    "motive": "Investment fraud using a trusted state brand.",
+    "vector": "AI-generated promotional videos and fake adverts on social media.",
+    "root_cause": "Brand and executive footage easily cloned; no platform verification of corporate endorsements.",
+    "timeline": [
+      {
+        "date": "2025-03-26",
+        "event": "QatarEnergy issues first warning"
+      },
+      {
+        "date": "2025-11-17",
+        "event": "QatarEnergy reissues warning over continued AI videos"
+      }
+    ],
+    "impact": "Ongoing impersonation of a national energy company; losses not disclosed.",
+    "response": "Public advisories urging verification before acting on any offer.",
+    "status": "ongoing",
+    "cve": null,
+    "verification": "confirmed",
+    "sources": [
+      {
+        "name": "Qatar Tribune",
+        "url": "https://www.qatar-tribune.com/article/169404/latest-news/qatarenergy-warns-of-fake-adverts-videos-offering-investment-opportunities"
+      },
+      {
+        "name": "The Peninsula",
+        "url": "https://www.thepeninsulaqatar.com/article/17/11/2025/qatarenergy-reminds-public-to-exercise-caution-over-fake-investment-ads"
+      },
+      {
+        "name": "Marhaba",
+        "url": "https://marhaba.qa/qatarenergy-reissues-warning-over-fake-adverts-and-ai-generated-investment-scams/"
+      }
+    ]
+  },
+  {
     "id": "singapore-deepfake-zoom",
     "date": "2025-04-07",
     "title": "Deepfake Zoom call of executives tricks Singapore finance director into $499K transfer",
@@ -1140,6 +1560,56 @@
     ]
   },
   {
+    "id": "xanthorox-ai-darknet",
+    "date": "2025-04-07",
+    "title": "Xanthorox AI: self-hosted five-model criminal platform marketed as WormGPT killer",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "Potential phishing and malware victims worldwide",
+    "loss_usd": null,
+    "summary": "SlashNext found Xanthorox AI on darknet forums from late Q1 2025, claiming five custom models on private servers for coding, vision, reasoning and voice; seller screenshots showed Defender-evading ransomware output.",
+    "source": "SlashNext",
+    "url": "https://securityboulevard.com/2025/04/xanthorox-ai-the-next-generation-of-malicious-ai-threats-emerges/",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "attribution": "SlashNext researchers documented seller claims; capabilities largely unverified beyond vendor screenshots.",
+    "motive": "Selling malicious AI tooling to cybercriminals",
+    "vector": "Subscription access to a modular malicious AI suite sold through darknet forums and encrypted channels",
+    "root_cause": "Locally hosted models outside commercial provider controls avoid guardrails and takedowns",
+    "timeline": [
+      {
+        "date": "2025-03-15",
+        "event": "Xanthorox AI first spotted circulating in cybercrime communities"
+      },
+      {
+        "date": "2025-04-07",
+        "event": "SlashNext publishes analysis of the platform"
+      }
+    ],
+    "impact": "Lowered the bar for phishing, social engineering and malware creation; real-world attack volume attributable to the tool not established.",
+    "response": "SlashNext published the analysis and indicators; no takedown reported.",
+    "status": "ongoing",
+    "cve": null,
+    "verification": "reported",
+    "sources": [
+      {
+        "name": "SlashNext via Security Boulevard",
+        "url": "https://securityboulevard.com/2025/04/xanthorox-ai-the-next-generation-of-malicious-ai-threats-emerges/"
+      },
+      {
+        "name": "Infosecurity Magazine",
+        "url": "https://www.infosecurity-magazine.com/news/darknets-xanthorox-ai-hackers-tools"
+      },
+      {
+        "name": "eSecurity Planet",
+        "url": "https://www.esecurityplanet.com/cybersecurity/xanthorox-ai/"
+      }
+    ]
+  },
+  {
     "id": "pindrop-ivan-x-deepfake-applicant",
     "date": "2025-04-08",
     "title": "Pindrop unmasks 'Ivan X', deepfake engineering candidate traced near Russia-DPRK border",
@@ -1182,6 +1652,60 @@
       {
         "name": "AI Incident Database",
         "url": "https://incidentdatabase.ai/reports/5056"
+      }
+    ]
+  },
+  {
+    "id": "akirabot-openai-spam",
+    "date": "2025-04-09",
+    "title": "AkiraBot uses GPT-4o-mini to spam 80,000 websites through contact forms and chat widgets",
+    "category": "AI phishing",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "Small business sites on Shopify, Wix, Squarespace, GoDaddy",
+    "loss_usd": null,
+    "summary": "SentinelLABS exposed AkiraBot, a Python framework that scrapes each target site and asks OpenAI to write unique SEO spam, bypassing CAPTCHAs; it targeted 420,000 domains and hit at least 80,000 since September 2024.",
+    "source": "SentinelLABS",
+    "url": "https://www.sentinelone.com/labs/akirabot-ai-powered-bot-bypasses-captchas-spams-websites-at-scale/",
+    "actor": "AkiraBot operators",
+    "actor_type": "criminal",
+    "attribution": "SentinelLABS analysis of the framework and its archives; operators unidentified and unrelated to Akira ransomware.",
+    "motive": "Promoting dubious SEO services",
+    "vector": "Automated form and chat submissions with LLM-generated messages, Selenium fingerprint spoofing, CAPTCHA-solving services and SmartProxy rotation",
+    "root_cause": "Hardcoded OpenAI API keys and per-message generation defeated template-based spam filters and CAPTCHA defences",
+    "timeline": [
+      {
+        "date": "2024-09-01",
+        "event": "Earliest AkiraBot archives show campaign start"
+      },
+      {
+        "date": "2025-04-09",
+        "event": "SentinelLABS publishes analysis"
+      },
+      {
+        "date": "2025-04-10",
+        "event": "OpenAI disables the API key and investigates associated assets"
+      }
+    ],
+    "impact": "At least 80,000 websites successfully spammed out of more than 420,000 unique domains targeted.",
+    "response": "OpenAI revoked the key, saying distributing output for spam violates policy; SentinelLABS advised blocking rotating promo domains rather than relying on CAPTCHA.",
+    "status": "contained",
+    "cve": null,
+    "verification": "confirmed",
+    "sources": [
+      {
+        "name": "SentinelLABS",
+        "url": "https://www.sentinelone.com/labs/akirabot-ai-powered-bot-bypasses-captchas-spams-websites-at-scale/"
+      },
+      {
+        "name": "Infosecurity Magazine",
+        "url": "https://infosecurity-magazine.com/news/aipowered-akirabot-captcha-spam"
+      },
+      {
+        "name": "Security Affairs",
+        "url": "https://securityaffairs.com/176415/cyber-crime/akirabot-ai-powered-spam-bot-evades-captcha-to-target-80000-websites.html"
       }
     ]
   },
@@ -1320,6 +1844,114 @@
       {
         "name": "OpenAI June 2025 report (cites the Anthropic report)",
         "url": "https://cdn.openai.com/threat-intelligence-reports/5f73af09-a3a3-4a55-992e-069237681620/disrupting-malicious-uses-of-ai-june-2025.pdf"
+      }
+    ]
+  },
+  {
+    "id": "east-java-khofifah-deepfake-arrests",
+    "date": "2025-04-24",
+    "title": "Indonesian police arrest three over TikTok deepfake of governor selling Rp500k motorbikes",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "low",
+    "country": "ID",
+    "region": "Asia-Pacific",
+    "target": "Indonesian TikTok users; Governor Khofifah Indar Parawansa",
+    "loss_usd": 5200,
+    "summary": "Three men from Pangandaran edited videos of Governor Khofifah with AI to advertise a fake programme offering motorbikes for Rp500,000, taking about Rp87 million from roughly 100 victims before arrest.",
+    "source": "Metro TV News",
+    "url": "https://www.metrotvnews.com/read/KvJCLaYx-polri-tangkap-3-pelaku-penipuan-ai-deepfake-gubernur-jatim",
+    "actor": "Suspects HMP, UP and AH from Pangandaran",
+    "actor_type": "criminal",
+    "attribution": "Arrested 16 April 2025 by Ditressiber Polda Jatim with Bareskrim support; roles were video creation, uploading and WhatsApp contact.",
+    "motive": "Petty fraud through fake subsidised vehicle offers.",
+    "vector": "Deepfake video edits posted from accounts imitating the governor on TikTok, with payments collected via WhatsApp.",
+    "root_cause": "Cheap AI editing tools plus public trust in official-looking social accounts.",
+    "timeline": [
+      {
+        "date": "2025-04-16",
+        "event": "Three suspects arrested in Pangandaran, West Java"
+      },
+      {
+        "date": "2025-04-24",
+        "event": "Bareskrim announces arrests"
+      },
+      {
+        "date": "2025-04-28",
+        "event": "Polda Jatim press conference details roles and proceeds"
+      }
+    ],
+    "impact": "About 100 victims and roughly Rp87 million, about US$5,200, in losses; similar deepfakes used governors of Central and West Java.",
+    "response": "Arrests and charges under the ITE law and criminal code; police warned of a wider deepfake fraud syndicate.",
+    "status": "resolved",
+    "cve": null,
+    "verification": "confirmed",
+    "sources": [
+      {
+        "name": "Metro TV News",
+        "url": "https://www.metrotvnews.com/read/KvJCLaYx-polri-tangkap-3-pelaku-penipuan-ai-deepfake-gubernur-jatim"
+      },
+      {
+        "name": "detikJatim",
+        "url": "https://www.detik.com/jatim/hukum-dan-kriminal/d-7890165/3-pelaku-penipuan-deepfake-berbasis-ai-gubernur-khofifah-ditangkap"
+      },
+      {
+        "name": "Metro TV News",
+        "url": "https://www.metrotvnews.com/read/NnjCe4jx-3-pelaku-video-hoaks-khofifah-pakai-ai-dibekuk"
+      }
+    ]
+  },
+  {
+    "id": "korea-pipc-deepseek-prompt-transfer",
+    "date": "2025-04-24",
+    "title": "Korea's PIPC: DeepSeek sent Korean users' prompts to ByteDance-linked Volcano Engine",
+    "category": "Model & data leak",
+    "direction": "on-ai",
+    "severity": "high",
+    "country": "KR",
+    "region": "Asia-Pacific",
+    "target": "South Korean DeepSeek app users",
+    "loss_usd": null,
+    "summary": "Korea's PIPC found DeepSeek sent user data and AI prompts to five firms in China and the US, including ByteDance affiliate Volcano Engine, without consent, and ordered corrective measures.",
+    "source": "Newsis",
+    "url": "https://www.newsis.com/view/NISX20250424_0003153087",
+    "actor": "DeepSeek (Hangzhou DeepSeek AI)",
+    "actor_type": "accident",
+    "attribution": "PIPC pre-inspection established the transfers; DeepSeek said Volcano Engine was used for security and UX analytics, not marketing.",
+    "motive": "Service analytics and model training; no malicious intent established.",
+    "vector": "App automatically sent device, network and prompt data to overseas cloud providers on each session, with no Korean privacy policy, opt-out or age check.",
+    "root_cause": "Launch without a Korean-language privacy notice, consent flow or cross-border transfer safeguards required under PIPA.",
+    "timeline": [
+      {
+        "date": "2025-02-17",
+        "event": "PIPC confirms data flow to ByteDance-linked servers; DeepSeek suspends new Korean downloads"
+      },
+      {
+        "date": "2025-04-10",
+        "event": "DeepSeek blocks new cross-border transfers of prompt data"
+      },
+      {
+        "date": "2025-04-24",
+        "event": "PIPC publishes findings and issues corrective recommendations"
+      }
+    ],
+    "impact": "Prompts and metadata of Korean users, over one million downloads, sent abroad without consent; app removed from Korean stores pending fixes.",
+    "response": "DeepSeek added an opt-out for training use, a Korean privacy policy and age verification, destroyed transferred prompt data and was required to report compliance within 60 days.",
+    "status": "resolved",
+    "cve": null,
+    "verification": "confirmed",
+    "sources": [
+      {
+        "name": "Newsis",
+        "url": "https://www.newsis.com/view/NISX20250424_0003153087"
+      },
+      {
+        "name": "Hankyoreh via Daum",
+        "url": "https://v.daum.net/v/20250217135901030"
+      },
+      {
+        "name": "Malwarebytes Labs",
+        "url": "https://www.malwarebytes.com/blog/news/2025/02/deepseek-found-to-be-sharing-user-data-with-tiktok-parent-company-bytedance"
       }
     ]
   },
@@ -1528,6 +2160,106 @@
       {
         "name": "SecurityWeek",
         "url": "https://www.securityweek.com/malicious-npm-packages-target-cursor-ais-macos-users/"
+      }
+    ]
+  },
+  {
+    "id": "fsca-kamlana-deepfake-nedbank",
+    "date": "2025-05-09",
+    "title": "FSCA warns of WhatsApp deepfake of its commissioner pushing fake Nedbank AI trading tool",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "ZA",
+    "region": "Middle East & Africa",
+    "target": "South African retail investors; FSCA and Nedbank brands",
+    "loss_usd": null,
+    "summary": "South Africa's FSCA flagged a WhatsApp deepfake in which Commissioner Unathi Kamlana appears to endorse an NBSG or Nedbank Securities AI trading tool promising 20 to 30 percent higher returns.",
+    "source": "Business Report",
+    "url": "https://businessreport.co.za/business/2025-05-09-is-your-investment-safe-fsca-warns-against-deepfake-trading-scams-on-whatsapp/",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "attribution": "No suspects named; FSCA described a marked rise in AI-generated impersonators of licensed providers and prominent South Africans.",
+    "motive": "Lure investors into a fraudulent trading platform.",
+    "vector": "AI-generated video of the regulator's commissioner with Nedbank branding distributed via WhatsApp and Facebook groups, following a similar J532-NBSG scam the previous month.",
+    "root_cause": "Public footage of officials enables cheap voice and face cloning; messaging platforms offer little pre-publication screening.",
+    "timeline": [
+      {
+        "date": "2025-04-01",
+        "event": "FSCA flags earlier J532-NBSG scam on Facebook and WhatsApp"
+      },
+      {
+        "date": "2025-05-09",
+        "event": "FSCA warns public about deepfake of Commissioner Kamlana"
+      }
+    ],
+    "impact": "Reputational misuse of the regulator and Nedbank; number of victims and losses not disclosed.",
+    "response": "Public warning to disregard the video and verify providers via FSCA channels; Momentum Group issued parallel warnings.",
+    "status": "unresolved",
+    "cve": null,
+    "verification": "confirmed",
+    "sources": [
+      {
+        "name": "Business Report",
+        "url": "https://businessreport.co.za/business/2025-05-09-is-your-investment-safe-fsca-warns-against-deepfake-trading-scams-on-whatsapp/"
+      },
+      {
+        "name": "Cape Argus",
+        "url": "https://capeargus.co.za/business/2025-05-09-is-your-investment-safe-fsca-warns-against-deepfake-trading-scams-on-whatsapp"
+      },
+      {
+        "name": "Daily Investor",
+        "url": "https://dailyinvestor.com/finance/76822/investment-scam-warning-in-south-africa/"
+      }
+    ]
+  },
+  {
+    "id": "fbi-ai-voice-us-officials",
+    "date": "2025-05-15",
+    "title": "FBI warns AI-voice vishing campaign impersonates senior US officials to hijack accounts",
+    "category": "AI phishing",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "US",
+    "region": "North America",
+    "target": "Senior US federal and state officials and their contacts",
+    "loss_usd": null,
+    "summary": "FBI PSA I-051525 said that since April 2025 actors have sent smishing texts and AI-generated voice messages posing as senior US officials to build rapport, push malicious links and take over accounts.",
+    "source": "FBI IC3",
+    "url": "https://www.ic3.gov/PSA/2025/PSA250515",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "attribution": "FBI did not attribute the campaign to a criminal or state group.",
+    "motive": "Account takeover, information theft and fraud against officials' networks",
+    "vector": "Text messages and AI-cloned voice messages suggesting a move to another messaging platform via a malicious link",
+    "root_cause": "Cheap voice cloning plus public availability of officials' voices and contact graphs",
+    "timeline": [
+      {
+        "date": "2025-04-01",
+        "event": "Campaign activity against officials begins, per FBI"
+      },
+      {
+        "date": "2025-05-15",
+        "event": "FBI issues public service announcement"
+      },
+      {
+        "date": "2025-07-08",
+        "event": "State Department cable reports AI-voice impersonation of Secretary Rubio on Signal"
+      }
+    ],
+    "impact": "Compromised accounts were used to reach further officials and solicit information or money; number of victims not disclosed.",
+    "response": "FBI advised independent verification, MFA, family code words and reporting to IC3.",
+    "status": "ongoing",
+    "cve": null,
+    "verification": "confirmed",
+    "sources": [
+      {
+        "name": "FBI IC3 PSA",
+        "url": "https://www.ic3.gov/PSA/2025/PSA250515"
+      },
+      {
+        "name": "BleepingComputer",
+        "url": "https://bleepingcomputer.com/news/security/fbi-us-officials-targeted-in-voice-deepfake-attacks-since-april"
       }
     ]
   },
@@ -2200,6 +2932,60 @@
     ]
   },
   {
+    "id": "wormgpt-grok-mixtral-variants",
+    "date": "2025-06-17",
+    "title": "Cato CTRL: new WormGPT variants are jailbroken wrappers on Grok and Mixtral",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "Phishing and credential-theft victims of subscribers",
+    "loss_usd": null,
+    "summary": "Cato CTRL obtained two WormGPT variants sold via Telegram and showed one runs on xAI Grok and the other on Mistral Mixtral with guardrail-stripping system prompts; both wrote phishing emails and credential stealers.",
+    "source": "Cato Networks CTRL",
+    "url": "https://www.catonetworks.com/blog/cato-ctrl-wormgpt-variants-powered-by-grok-and-mixtral/",
+    "actor": "keanu and xzin0vich (forum handles)",
+    "actor_type": "criminal",
+    "attribution": "Cato researcher Vitaly Simonovich extracted system prompt fragments identifying the underlying models; high confidence on model identity.",
+    "motive": "Subscription revenue from uncensored AI access, about 550 EUR per year or up to 5,000 EUR for private setups",
+    "vector": "Telegram chatbot wrappers around commercial LLM APIs with manipulated system prompts",
+    "root_cause": "Prompt-level guardrails on commercial models can be overridden by a hostile system prompt",
+    "timeline": [
+      {
+        "date": "2024-10-26",
+        "event": "Mixtral-based variant advertised on BreachForums"
+      },
+      {
+        "date": "2025-02-25",
+        "event": "Grok-based variant advertised"
+      },
+      {
+        "date": "2025-06-17",
+        "event": "Cato CTRL publishes findings; xAI and Mistral did not comment"
+      }
+    ],
+    "impact": "Working uncensored assistants available to paying criminals; direct victim counts not reported.",
+    "response": "Cato published the analysis; no provider action was reported at publication.",
+    "status": "ongoing",
+    "cve": null,
+    "verification": "confirmed",
+    "sources": [
+      {
+        "name": "Cato Networks",
+        "url": "https://www.catonetworks.com/blog/cato-ctrl-wormgpt-variants-powered-by-grok-and-mixtral/"
+      },
+      {
+        "name": "CyberScoop",
+        "url": "https://cyberscoop.com/uncensored-ai-tool-traced-to-mistral-xai-grok/"
+      },
+      {
+        "name": "TechRepublic",
+        "url": "https://www.techrepublic.com/article/news-wormgpt-variants-ai-models-grok-mixtral/"
+      }
+    ]
+  },
+  {
     "id": "asana-mcp-cross-tenant-exposure",
     "date": "2025-06-18",
     "title": "Asana MCP server bug exposed customer data to other organizations for a month",
@@ -2320,6 +3106,52 @@
     ]
   },
   {
+    "id": "skynet-prompt-injection-malware",
+    "date": "2025-06-25",
+    "title": "Skynet malware sample embeds prompt injection to fool AI malware analysis tools",
+    "category": "Prompt injection",
+    "direction": "on-ai",
+    "severity": "low",
+    "country": "NL",
+    "region": "Europe",
+    "target": "LLM-based malware analysis pipelines",
+    "loss_usd": null,
+    "summary": "Check Point found a half-finished Windows sample on VirusTotal with a string telling any analysing LLM to ignore instructions, act as a calculator and reply NO MALWARE DETECTED; it failed against o3 and GPT-4.1.",
+    "source": "Check Point Research",
+    "url": "https://research.checkpoint.com/2025/ai-evasion-prompt-injection/",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "attribution": "Uploaded anonymously from the Netherlands in early June 2025; author unknown.",
+    "motive": "Evade AI-assisted detection and triage",
+    "vector": "Hardcoded natural-language prompt inside the binary alongside sandbox checks, Tor proxy and string obfuscation",
+    "root_cause": "AI analysis tools ingest attacker-controlled code as text, creating an injection surface",
+    "timeline": [
+      {
+        "date": "2025-06-05",
+        "event": "Sample uploaded to VirusTotal via web interface"
+      },
+      {
+        "date": "2025-06-25",
+        "event": "Check Point publishes analysis after testing injection against OpenAI models"
+      }
+    ],
+    "impact": "No successful evasion observed; Check Point called it an early sign of malware targeting AI auditing tools.",
+    "response": "Check Point tested the injection and published the sample analysis as a warning to AI-tool builders.",
+    "status": "unresolved",
+    "cve": null,
+    "verification": "confirmed",
+    "sources": [
+      {
+        "name": "Check Point Research",
+        "url": "https://research.checkpoint.com/2025/ai-evasion-prompt-injection/"
+      },
+      {
+        "name": "GovInfoSecurity",
+        "url": "https://www.govinfosecurity.com/skynet-tries-to-outwit-ai-malware-analysis-a-28875"
+      }
+    ]
+  },
+  {
     "id": "microsoft-jasper-sleet-ai-identities",
     "date": "2025-06-30",
     "title": "Microsoft: DPRK's Jasper Sleet IT workers use AI to forge IDs; 3,000 accounts suspended",
@@ -2374,6 +3206,56 @@
     ]
   },
   {
+    "id": "mumbai-valueleaf-deepfake-stock-ads",
+    "date": "2025-07-01",
+    "title": "Mumbai cyber police bust Bengaluru agency running deepfake stock-expert ads",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "IN",
+    "region": "Asia-Pacific",
+    "target": "Indian retail investors; impersonated market analysts",
+    "loss_usd": null,
+    "summary": "After an analyst found deepfake videos of himself, Mumbai Cyber Police traced paid promotions run in July 2025 by Bengaluru firm Valueleaf, reportedly for Hong Kong client First Bridge, and arrested four in October.",
+    "source": "Lokmat Times",
+    "url": "https://www.lokmattimes.com/mumbai/mumbai-cyber-police-bust-chinese-backed-deepfake-share-trading-scam-a522/",
+    "actor": "Valueleaf staff; alleged client First Bridge (Hong Kong)",
+    "actor_type": "criminal",
+    "attribution": "Police reportedly described Chinese companies hiring Indian marketing firms for multi-crore ad contracts; four arrested including two engineers and an MBA graduate.",
+    "motive": "Drive investors to fraudulent share-trading schemes.",
+    "vector": "Deepfake videos of market experts distributed as paid Meta ads; after Meta flagged them, operators expanded ad accounts and moved domains to Dubai.",
+    "root_cause": "Ad-agency intermediaries ran synthetic endorsement campaigns without verifying consent.",
+    "timeline": [
+      {
+        "date": "2025-07-01",
+        "event": "Deepfake ads begin circulating as paid promotions"
+      },
+      {
+        "date": "2025-07-18",
+        "event": "Videos removed after being flagged as misinformation"
+      },
+      {
+        "date": "2025-10-18",
+        "event": "Four arrested in Bengaluru; remanded to police custody"
+      }
+    ],
+    "impact": "Reputations of named analysts misused; investor losses not quantified; police called it possibly India's first deepfake investment-fraud case.",
+    "response": "Case registered under BNS and IT Act; arrests and raid on Valueleaf office.",
+    "status": "under investigation",
+    "cve": null,
+    "verification": "reported",
+    "sources": [
+      {
+        "name": "Lokmat Times",
+        "url": "https://www.lokmattimes.com/mumbai/mumbai-cyber-police-bust-chinese-backed-deepfake-share-trading-scam-a522/"
+      },
+      {
+        "name": "AI Incident Database",
+        "url": "https://incidentdatabase.ai/cite/1235/"
+      }
+    ]
+  },
+  {
     "id": "supabase-mcp-cursor-token-leak",
     "date": "2025-07-06",
     "title": "Support ticket prompt injection makes Cursor plus Supabase MCP dump integration tokens",
@@ -2416,6 +3298,56 @@
       {
         "name": "Simon Willison link blog",
         "url": "https://feeds.simonwillison.net/2025/Jul/6/supabase-mcp-lethal-trifecta/"
+      }
+    ]
+  },
+  {
+    "id": "kenya-ruto-resignation-deepfakes",
+    "date": "2025-07-08",
+    "title": "AI videos of President Ruto resigning hit 1.4M views on TikTok during Kenya protests",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "KE",
+    "region": "Middle East & Africa",
+    "target": "Kenyan public; President William Ruto",
+    "loss_usd": null,
+    "summary": "During deadly protests, AI videos built on State House footage showed Ruto announcing his resignation; one TikTok clip drew over 1.4 million views before deletion and Africa Check rated the claims false.",
+    "source": "Africa Check",
+    "url": "https://africacheck.org/fact-checks/meta-programme-fact-checks/ignore-ai-generated-videos-used-falsely-claim-kenyan",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "attribution": "No attribution; clips reused footage from June 2025 State House meetings.",
+    "motive": "Political disinformation amid unrest.",
+    "vector": "Lip-synced AI video dubbed over real presidential footage, spread on TikTok and Facebook.",
+    "root_cause": "Fast synthetic video generation during a volatile news event.",
+    "timeline": [
+      {
+        "date": "2025-06-27",
+        "event": "Fake resignation letter surfaces online"
+      },
+      {
+        "date": "2025-07-07",
+        "event": "At least 10 killed in Nairobi protests; resignation videos spread"
+      },
+      {
+        "date": "2025-07-08",
+        "event": "Africa Check and Africanews debunk the videos"
+      }
+    ],
+    "impact": "Millions of views of a false head-of-state announcement during a security crisis.",
+    "response": "Fact-check debunks; one video deleted by TikTok; no official statement reported.",
+    "status": "resolved",
+    "cve": null,
+    "verification": "confirmed",
+    "sources": [
+      {
+        "name": "Africa Check",
+        "url": "https://africacheck.org/fact-checks/meta-programme-fact-checks/ignore-ai-generated-videos-used-falsely-claim-kenyan"
+      },
+      {
+        "name": "Africanews",
+        "url": "https://www.africanews.com/2025/07/08/ai-videos-falsely-show-kenyan-president-resigning-following-deadly-protests/"
       }
     ]
   },
@@ -2688,6 +3620,64 @@
     ]
   },
   {
+    "id": "global-group-ai-negotiator",
+    "date": "2025-07-15",
+    "title": "GLOBAL GROUP RaaS deploys AI chatbot negotiators to press seven-figure ransoms",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "US",
+    "region": "North America",
+    "target": "17 victims incl. US and Australian healthcare, UK industry",
+    "loss_usd": null,
+    "summary": "EclecticIQ found the BlackLock rebrand GLOBAL GROUP running an AI-driven chatbot in its ransom negotiation panel so non-English affiliates could pressure victims; one affiliate demanded 1 million USD within 48 hours.",
+    "source": "EclecticIQ",
+    "url": "https://blog.eclecticiq.com/global-group-emerging-ransomware-as-a-service",
+    "actor": "GLOBAL GROUP (actor $$$, ex-BlackLock and Mamona)",
+    "actor_type": "criminal",
+    "attribution": "EclecticIQ, medium confidence that GLOBAL GROUP is a BlackLock rebrand and high confidence that $$$ runs it, based on shared mutex, infrastructure and qTOX name change.",
+    "motive": "Financial extortion with 80 percent affiliate payouts",
+    "vector": "Initial access brokers selling edge-appliance and RDP access, Go-based multi-platform encryptor, AI chatbot negotiation portal",
+    "root_cause": "AI negotiation automation removed language barriers for affiliates and scaled extortion pressure",
+    "timeline": [
+      {
+        "date": "2025-06-02",
+        "event": "GLOBAL GROUP promoted on Ramp4u forum"
+      },
+      {
+        "date": "2025-06-26",
+        "event": "Group announces GLOBAL RaaS officially released"
+      },
+      {
+        "date": "2025-07-14",
+        "event": "Victim count reaches 17 across US, UK, Australia and Brazil"
+      },
+      {
+        "date": "2025-07-15",
+        "event": "EclecticIQ publishes analysis"
+      }
+    ],
+    "impact": "17 claimed victims in six weeks, mostly healthcare; ransom demands up to 1 million USD.",
+    "response": "EclecticIQ published indicators; no law enforcement action reported.",
+    "status": "ongoing",
+    "cve": null,
+    "verification": "confirmed",
+    "sources": [
+      {
+        "name": "EclecticIQ",
+        "url": "https://blog.eclecticiq.com/global-group-emerging-ransomware-as-a-service"
+      },
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2025/07/newly-emerged-global-group-raas-expands.html"
+      },
+      {
+        "name": "Axios",
+        "url": "https://www.axios.com/2025/07/29/ransomware-gang-ai-chatbot-negotiate"
+      }
+    ]
+  },
+  {
     "id": "meta-ai-prompt-idor",
     "date": "2025-07-15",
     "title": "Meta AI bug let any logged-in user read other people's private prompts and replies",
@@ -2956,6 +3946,56 @@
     ]
   },
   {
+    "id": "medellin-gutierrez-voice-clone-scam",
+    "date": "2025-07-23",
+    "title": "Medellin mayor's AI-cloned voice used in paid ads for fake Nubank investment platform",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "low",
+    "country": "CO",
+    "region": "Latin America",
+    "target": "Colombian social media users; Mayor Federico Gutierrez",
+    "loss_usd": null,
+    "summary": "A paid video cloned the voices of Medellin mayor Federico Gutierrez and Nubank founder David Velez to promote a platform asking for 300,000 peso deposits; Gutierrez denounced it on X as absolutely false.",
+    "source": "Vanguardia",
+    "url": "https://www.vanguardia.com/colombia/2025/07/24/clonan-voz-de-federico-gutierrez-con-ia-para-estafa-piramidal-asi-intentan-enganar/",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "attribution": "No attribution; Nu's CEO separately reported fake interviews imitating major media outlets.",
+    "motive": "Pyramid-style investment fraud.",
+    "vector": "AI voice cloning over edited footage, distributed as sponsored content.",
+    "root_cause": "Abundant public audio of officials and executives; weak ad vetting.",
+    "timeline": [
+      {
+        "date": "2025-07-23",
+        "event": "Gutierrez warns on X about the cloned video"
+      },
+      {
+        "date": "2025-09-19",
+        "event": "Nu CEO David Velez denounces wave of fake AI interviews"
+      }
+    ],
+    "impact": "Mayors of Cartagena and Monteria also impersonated; victim losses unknown.",
+    "response": "Public warnings by the mayor and Nu; Colombia's Law 2502 of 2025 later added AI deepfakes as an aggravating factor for impersonation.",
+    "status": "unresolved",
+    "cve": null,
+    "verification": "confirmed",
+    "sources": [
+      {
+        "name": "Vanguardia",
+        "url": "https://www.vanguardia.com/colombia/2025/07/24/clonan-voz-de-federico-gutierrez-con-ia-para-estafa-piramidal-asi-intentan-enganar/"
+      },
+      {
+        "name": "Forbes Colombia",
+        "url": "https://forbes.co/2025/09/19/tecnologia/david-velez-nu/"
+      },
+      {
+        "name": "Enter.co",
+        "url": "https://www.enter.co/?p=575154"
+      }
+    ]
+  },
+  {
     "id": "llama-cpp-slots-prompt-leak",
     "date": "2025-07-25",
     "title": "Exposed llama.cpp servers leak user prompts through the /slots debug endpoint",
@@ -3114,6 +4154,52 @@
     ]
   },
   {
+    "id": "jordan-cybercrime-deepfake-warning",
+    "date": "2025-07-29",
+    "title": "Jordan's Cybercrime Unit warns of deepfake accounts impersonating public figures",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "low",
+    "country": "JO",
+    "region": "Middle East & Africa",
+    "target": "Jordanian citizens; impersonated public figures",
+    "loss_usd": null,
+    "summary": "Jordan's Cybercrime Unit cautioned that fake accounts were using AI deepfake audio and video of public figures to steer citizens to fraudulent websites for financial scams and data theft.",
+    "source": "Roya News",
+    "url": "https://royanews.tv/news/355018",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "attribution": "No attribution given by the unit.",
+    "motive": "Financial fraud and data theft.",
+    "vector": "Impersonation accounts posting AI-generated video and audio with links to phishing sites.",
+    "root_cause": "Cheap generative media and unverified social accounts.",
+    "timeline": [
+      {
+        "date": "2025-07-29",
+        "event": "Cybercrime Unit issues public warning on deepfake impersonation accounts"
+      },
+      {
+        "date": "2025-07-29",
+        "event": "Jordanian outlets including Roya News carry the advisory"
+      }
+    ],
+    "impact": "Public warned of active impersonation campaigns; no victim totals published.",
+    "response": "Advisory urging vigilance and reporting to the unit.",
+    "status": "unresolved",
+    "cve": null,
+    "verification": "reported",
+    "sources": [
+      {
+        "name": "Roya News",
+        "url": "https://royanews.tv/news/355018"
+      },
+      {
+        "name": "OECD.AI Incidents Monitor",
+        "url": "https://oecd.ai/en/incidents/2025-07-29-e1ab"
+      }
+    ]
+  },
+  {
     "id": "chatgpt-shared-chats-indexed",
     "date": "2025-07-31",
     "title": "Thousands of shared ChatGPT conversations surface in Google search; OpenAI kills feature",
@@ -3268,6 +4354,52 @@
       {
         "name": "Security Affairs",
         "url": "https://securityaffairs.com/180680/malware/malicious-ai-generated-npm-package-hits-solana-users.html"
+      }
+    ]
+  },
+  {
+    "id": "crowdstrike-famous-chollima-genai",
+    "date": "2025-08-04",
+    "title": "CrowdStrike: DPRK's FAMOUS CHOLLIMA used GenAI to infiltrate 320+ companies as IT workers",
+    "category": "State actor AI ops",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "US",
+    "region": "North America",
+    "target": "More than 320 companies employing remote IT contractors",
+    "loss_usd": null,
+    "summary": "CrowdStrike's 2025 Threat Hunting Report said North Korea's FAMOUS CHOLLIMA used generative AI across its insider scheme, from fake resumes and deepfaked interviews to on-the-job work, infiltrating 320+ firms in a year.",
+    "source": "CrowdStrike",
+    "url": "https://ir.crowdstrike.com/news-releases/news-release-details/2025-crowdstrike-threat-hunting-report-adversaries-weaponize-and/",
+    "actor": "FAMOUS CHOLLIMA",
+    "actor_type": "state",
+    "attribution": "CrowdStrike attributes FAMOUS CHOLLIMA to North Korea; the report also cited a 220 percent year-on-year rise in infiltrated companies.",
+    "motive": "Sanctions-evading revenue for the DPRK regime",
+    "vector": "AI-generated application materials, deepfake video interviews, AI-assisted coding on the job under stolen or fabricated identities",
+    "root_cause": "Remote hiring pipelines lacked identity verification able to detect AI-fabricated personas",
+    "timeline": [
+      {
+        "date": "2024-07-01",
+        "event": "Start of the twelve-month reporting window"
+      },
+      {
+        "date": "2025-08-04",
+        "event": "CrowdStrike releases the 2025 Threat Hunting Report at Black Hat USA"
+      }
+    ],
+    "impact": "Over 320 companies infiltrated; salaries diverted to the DPRK and insider access gained.",
+    "response": "CrowdStrike published hunting guidance; the report also noted EMBER BEAR using GenAI for influence content.",
+    "status": "ongoing",
+    "cve": null,
+    "verification": "reported",
+    "sources": [
+      {
+        "name": "CrowdStrike press release",
+        "url": "https://ir.crowdstrike.com/news-releases/news-release-details/2025-crowdstrike-threat-hunting-report-adversaries-weaponize-and/"
+      },
+      {
+        "name": "Business Wire",
+        "url": "https://www.businesswire.com/news/home/20250803570128/en/2025-CrowdStrike-Threat-Hunting-Report-Adversaries-Weaponize-and-Target-AI-at-Scale"
       }
     ]
   },
@@ -3584,6 +4716,60 @@
     ]
   },
   {
+    "id": "pib-sitharaman-quantumai-deepfakes",
+    "date": "2025-08-19",
+    "title": "PIB flags deepfakes of India's finance minister endorsing QuantumAI get-rich scheme",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "IN",
+    "region": "Asia-Pacific",
+    "target": "Indian Facebook users; Finance Minister Nirmala Sitharaman",
+    "loss_usd": null,
+    "summary": "India's PIB fact-check unit labelled fake several Facebook videos in which an AI-altered Nirmala Sitharaman promised returns such as Rs 10 lakh a month on Rs 22,000 or a QuantumAI platform; more clips were flagged later.",
+    "source": "Storyboard18",
+    "url": "https://www.storyboard18.com/brand-makers/deepfake-danger-pib-flags-fake-videos-of-fm-endorsing-fraudulent-platforms-79167.htm",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "attribution": "No attribution; PIB noted unnatural lip-sync, mismatched logos and suspicious domains.",
+    "motive": "Investment fraud.",
+    "vector": "Deepfake video ads on Facebook leading to fake trading platforms.",
+    "root_cause": "Recycled official footage altered with lip-sync tools; ad platforms slow to remove.",
+    "timeline": [
+      {
+        "date": "2025-08-19",
+        "event": "PIB Fact Check labels Sitharaman investment videos fake"
+      },
+      {
+        "date": "2025-10-28",
+        "event": "PIB debunks new clip promising Rs 60,000 a day"
+      },
+      {
+        "date": "2026-04-16",
+        "event": "PIB flags further Sitharaman deepfake on Facebook"
+      }
+    ],
+    "impact": "Repeated misuse of the finance minister's likeness over nine months; losses not disclosed.",
+    "response": "Public debunks with side-by-side original footage; advice to verify via official channels.",
+    "status": "ongoing",
+    "cve": null,
+    "verification": "confirmed",
+    "sources": [
+      {
+        "name": "Storyboard18",
+        "url": "https://www.storyboard18.com/brand-makers/deepfake-danger-pib-flags-fake-videos-of-fm-endorsing-fraudulent-platforms-79167.htm"
+      },
+      {
+        "name": "Gulf News",
+        "url": "https://gulfnews.com/amp/story/world%2Fasia%2Findia%2Fviral-ai-video-of-indias-fm-sitharaman-offering-huge-returns-is-fake-1.500510156"
+      },
+      {
+        "name": "Outlook Money",
+        "url": "https://www.outlookmoney.com/news/pib-fact-check-flags-fake-ai-video-of-nirmala-sitharaman-promoting-investment-scheme"
+      }
+    ]
+  },
+  {
     "id": "comet-reddit-injection-brave",
     "date": "2025-08-20",
     "title": "Brave shows Perplexity Comet can be hijacked by a Reddit comment to steal Gmail OTPs",
@@ -3687,6 +4873,60 @@
       {
         "name": "Yahoo News",
         "url": "https://www.yahoo.com/news/articles/thousands-private-user-conversations-elon-173216941.html"
+      }
+    ]
+  },
+  {
+    "id": "proofpoint-lovable-phishing",
+    "date": "2025-08-20",
+    "title": "Proofpoint: Lovable AI builder abused for Tycoon MFA phishing hitting 5,000+ organisations",
+    "category": "AI phishing",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "Microsoft 365 users, UPS customers, Aave wallet holders",
+    "loss_usd": null,
+    "summary": "Proofpoint saw tens of thousands of malicious Lovable URLs a month since February 2025; one Tycoon campaign hit over 5,000 organisations with AI-built fake Microsoft logins capturing MFA tokens and session cookies.",
+    "source": "Proofpoint Threat Research",
+    "url": "https://www.proofpoint.com/us/blog/threat-insight/cybercriminals-abuse-ai-website-creation-app-phishing",
+    "actor": "Multiple criminal groups incl. Tycoon kit operators",
+    "actor_type": "criminal",
+    "attribution": "Proofpoint telemetry; Lovable matched the reports to a cluster its Trust and Safety team had already found.",
+    "motive": "Credential theft, card fraud and crypto wallet draining",
+    "vector": "Prompt-generated phishing pages hosted on lovable.app, math CAPTCHA gates, adversary-in-the-middle Microsoft login clones, remixable harvester templates",
+    "root_cause": "The AI builder generated and hosted deceptive credential pages without technical or policy barriers",
+    "timeline": [
+      {
+        "date": "2025-02-01",
+        "event": "Tycoon file-sharing lure campaign impacts over 5,000 organisations"
+      },
+      {
+        "date": "2025-06-01",
+        "event": "UPS impersonation (3,500 messages) and Aave drainer (10,000 emails) campaigns"
+      },
+      {
+        "date": "2025-07-01",
+        "event": "Lovable adds real-time detection and daily scans of published projects"
+      },
+      {
+        "date": "2025-08-20",
+        "event": "Proofpoint publishes research"
+      }
+    ],
+    "impact": "Over 5,000 organisations hit in one campaign; payment card and SMS code data posted to Telegram; zgRAT delivered via a German invoice lure.",
+    "response": "Lovable removed hundreds of phishing domains and the UPS app, added prompt-time blocking and daily scanning, and planned account-level fraud controls.",
+    "status": "contained",
+    "cve": null,
+    "verification": "confirmed",
+    "sources": [
+      {
+        "name": "Proofpoint",
+        "url": "https://www.proofpoint.com/us/blog/threat-insight/cybercriminals-abuse-ai-website-creation-app-phishing"
+      },
+      {
+        "name": "TechRadar",
+        "url": "https://www.techradar.com/pro/security/top-ai-website-builder-lovable-hit-in-worrying-cyberattack-heres-what-we-know"
       }
     ]
   },
@@ -4061,6 +5301,64 @@
     ]
   },
   {
+    "id": "wuhan-ai-faceswap-mcn-hijack",
+    "date": "2025-09-09",
+    "title": "Wuhan cyber police crack AI face-swap gang that hijacked an MCN agency's official account",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "CN",
+    "region": "Asia-Pacific",
+    "target": "Wuhan MCN agency's official account and company registration",
+    "loss_usd": null,
+    "summary": "A gang used AI face-swap videos to pass platform identity checks, changed a Wuhan MCN firm's legal representative, hijacked its official account and posted scam lures; police arrested four.",
+    "source": "Guangming Daily (光明网)",
+    "url": "https://m.gmw.cn/2025-12/02/content_1304246595.htm",
+    "actor": "Four suspects led by 'A Cheng' of Weifang, Shandong",
+    "actor_type": "criminal",
+    "attribution": "Wuhan police traced the operation to A Cheng, who performed face-swap verifications for three upstream brokers selling 'face pass' services.",
+    "motive": "Paid bypass of real-name verification for account takeovers and scam promotion.",
+    "vector": "Synthetic face videos defeating liveness checks on a platform, then alteration of company legal-person data and password reset.",
+    "root_cause": "Platform identity verification relied on facial liveness that mature face-swap tooling could defeat.",
+    "timeline": [
+      {
+        "date": "2025-06-10",
+        "event": "MCN staff find account hijacked and legal representative altered"
+      },
+      {
+        "date": "2025-07-17",
+        "event": "Officers arrest A Cheng in Weifang and seize face-swap materials"
+      },
+      {
+        "date": "2025-09-09",
+        "event": "Wuhan police announce Hubei's first AI face-swap intrusion case solved"
+      },
+      {
+        "date": "2025-12-02",
+        "event": "Ministry of Public Security cyber bureau publicises the case"
+      }
+    ],
+    "impact": "Corporate account and legal-person data altered; scam content pushed to followers; over 400,000 yuan in illicit proceeds recovered.",
+    "response": "Four arrested for illegal intrusion into computer information systems; case featured in national Jingwang 2025 campaign.",
+    "status": "resolved",
+    "cve": null,
+    "verification": "confirmed",
+    "sources": [
+      {
+        "name": "Guangming Daily (光明网)",
+        "url": "https://m.gmw.cn/2025-12/02/content_1304246595.htm"
+      },
+      {
+        "name": "The Paper (澎湃新闻)",
+        "url": "https://m.thepaper.cn/newsDetail_forward_31644121"
+      },
+      {
+        "name": "Xinhua (新华网)",
+        "url": "https://www.news.cn/legal/20250924/ecc49082bdf54da298e2402a6df778a5/c.html"
+      }
+    ]
+  },
+  {
     "id": "vyro-ai-elasticsearch-leak",
     "date": "2025-09-10",
     "title": "Vyro AI leaves 116GB of ImagineArt and Chatly prompts and tokens on open Elasticsearch",
@@ -4210,6 +5508,60 @@
     ]
   },
   {
+    "id": "chile-boric-deepfake-cde-referral",
+    "date": "2025-09-17",
+    "title": "Chile weighs state legal action over deepfake of President Boric in investment scam ad",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "low",
+    "country": "CL",
+    "region": "Latin America",
+    "target": "Chilean social media users; President Gabriel Boric",
+    "loss_usd": null,
+    "summary": "Security Minister Luis Cordero said the government was weighing a referral to the Consejo de Defensa del Estado over a deepfake that spliced Boric's voice and image into an ad for a supposed investment platform.",
+    "source": "Pauta",
+    "url": "https://www.pauta.cl/actualidad/2025/09/17/gobierno-evalua-denunciar-ante-el-cde-estafa-que-usa-imagen-del-presidente-boric.html",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "attribution": "No attribution; reporting linked earlier Boric and Codelco fakes to campaigns run from Uruguay for XMR Markets.",
+    "motive": "Investment fraud.",
+    "vector": "AI-edited presidential footage in paid social media ads promising returns of 8 million pesos on 200,000.",
+    "root_cause": "No legal framework for deepfakes in Chile at the time; ad platforms slow to act.",
+    "timeline": [
+      {
+        "date": "2025-06-04",
+        "event": "Study reports Boric lithium-investment deepfake among top social scams"
+      },
+      {
+        "date": "2025-09-17",
+        "event": "Government evaluates CDE complaint over new Boric deepfake"
+      },
+      {
+        "date": "2026-07-23",
+        "event": "Chamber of Deputies approves deepfake bill with fines up to 716 million pesos"
+      }
+    ],
+    "impact": "Presidential likeness repeatedly used in scams; victim losses not quantified.",
+    "response": "Ministerial denunciation and possible CDE action; legislative response in 2026.",
+    "status": "unresolved",
+    "cve": null,
+    "verification": "reported",
+    "sources": [
+      {
+        "name": "Pauta",
+        "url": "https://www.pauta.cl/actualidad/2025/09/17/gobierno-evalua-denunciar-ante-el-cde-estafa-que-usa-imagen-del-presidente-boric.html"
+      },
+      {
+        "name": "Emol",
+        "url": "https://www.emol.com/noticias/Economia/2025/06/04/1168317/estafas-redes-sociales-estudio.html"
+      },
+      {
+        "name": "Pauta",
+        "url": "https://www.pauta.cl/actualidad/2026/07/23/camara-aprueba-proyecto-que-regula-deepfakes-contempla-multas-de-hasta-716-millones.html"
+      }
+    ]
+  },
+  {
     "id": "shadowleak-deep-research",
     "date": "2025-09-18",
     "title": "ShadowLeak: zero-click prompt injection makes ChatGPT Deep Research leak Gmail data",
@@ -4314,6 +5666,60 @@
       {
         "name": "Schneier on Security",
         "url": "https://www.schneier.com/?p=70883"
+      }
+    ]
+  },
+  {
+    "id": "malterminal-gpt4-malware",
+    "date": "2025-09-22",
+    "title": "SentinelLABS finds MalTerminal, GPT-4-driven malware generator likely predating Nov 2023",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "low",
+    "country": "GL",
+    "region": "Global",
+    "target": "None confirmed; proof-of-concept or red team tooling",
+    "loss_usd": null,
+    "summary": "Hunting for embedded API keys, SentinelLABS found MalTerminal.exe and loaders that ask GPT-4 to generate ransomware or a reverse shell at runtime via an endpoint deprecated in November 2023; no in-the-wild use found.",
+    "source": "SentinelLABS",
+    "url": "https://www.sentinelone.com/labs/prompts-as-code-embedded-keys-the-hunt-for-llm-enabled-malware/",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "attribution": "SentinelLABS presented the finding at LABScon 2025; authorship unknown, possibly a researcher or red team.",
+    "motive": "Unknown",
+    "vector": "Python-compiled Windows executable prompting the OpenAI chat completions API to write malicious code on demand",
+    "root_cause": "Cloud LLM APIs allow malware to defer malicious logic generation to runtime, leaving little static signature",
+    "timeline": [
+      {
+        "date": "2023-11-01",
+        "event": "Deprecated OpenAI endpoint suggests sample written before this date"
+      },
+      {
+        "date": "2025-09-19",
+        "event": "Findings presented at LABScon 2025"
+      },
+      {
+        "date": "2025-09-22",
+        "event": "Coverage and abridged write-up published"
+      }
+    ],
+    "impact": "No victims identified; a VirusTotal retrohunt found over 7,000 samples with 6,000 unique API keys, plus offensive LLM tools such as vulnerability injectors and WormGPT copycats.",
+    "response": "SentinelLABS published hunting methods based on embedded keys and prompt structures.",
+    "status": "resolved",
+    "cve": null,
+    "verification": "confirmed",
+    "sources": [
+      {
+        "name": "SentinelLABS",
+        "url": "https://www.sentinelone.com/labs/prompts-as-code-embedded-keys-the-hunt-for-llm-enabled-malware/"
+      },
+      {
+        "name": "Security Affairs",
+        "url": "https://securityaffairs.com/182433/malware/researchers-expose-malterminal-an-llm-enabled-malware-pioneer.html"
+      },
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2025/09/researchers-uncover-gpt-4-powered.html"
       }
     ]
   },
@@ -4524,6 +5930,60 @@
     ]
   },
   {
+    "id": "argentina-adorni-ypf-ai-video",
+    "date": "2025-10-01",
+    "title": "AI-altered video of Argentine spokesman Adorni touts fake YPF investment platform",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "low",
+    "country": "AR",
+    "region": "Latin America",
+    "target": "Argentine Facebook users; YPF and spokesman Manuel Adorni",
+    "loss_usd": null,
+    "summary": "Chequeado rated false a Facebook video in which a July 2025 press conference by spokesman Manuel Adorni was altered with AI to announce a YPF platform paying 3 million pesos a month; links led to phishing sites.",
+    "source": "Chequeado",
+    "url": "https://chequeado.com/ultimas-noticias/no-manuel-adorni-no-promociono-una-plataforma-de-inversion-del-gobierno-con-ypf-en-este-video-fue-alterado-con-ia/",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "attribution": "No attribution; same template used with Milei, Caputo and Kicillof since February 2025.",
+    "motive": "Phishing and investment fraud.",
+    "vector": "Lip-synced AI edit of official footage, device-dependent redirect to fake advisory or fake newspaper site collecting personal data.",
+    "root_cause": "Public press-conference video is easily repurposed; ad and post moderation lagged.",
+    "timeline": [
+      {
+        "date": "2025-02-01",
+        "event": "YPF deepfake scams featuring Milei and Kicillof circulate"
+      },
+      {
+        "date": "2025-07-24",
+        "event": "Adorni gives the press conference later manipulated"
+      },
+      {
+        "date": "2025-10-01",
+        "event": "Chequeado publishes fact-check rating the video false"
+      }
+    ],
+    "impact": "Government and state oil company likeness abused for data harvesting; losses unknown.",
+    "response": "YPF said it communicates only through verified channels; fact-check published.",
+    "status": "unresolved",
+    "cve": null,
+    "verification": "confirmed",
+    "sources": [
+      {
+        "name": "Chequeado",
+        "url": "https://chequeado.com/ultimas-noticias/no-manuel-adorni-no-promociono-una-plataforma-de-inversion-del-gobierno-con-ypf-en-este-video-fue-alterado-con-ia/"
+      },
+      {
+        "name": "Chequeado",
+        "url": "https://chequeado.com/ultimas-noticias/las-estafas-con-las-que-intentaron-enganarnos-en-2025/"
+      },
+      {
+        "name": "Chequeado",
+        "url": "https://chequeado.com/ultimas-noticias/estafas-y-videos-creados-con-inteligencia-artificial-asi-se-utiliza-la-imagen-de-famosos-para-enganar-con-falsas-inversiones-en-ypf/"
+      }
+    ]
+  },
+  {
     "id": "brazil-gisele-deepfake-ads",
     "date": "2025-10-01",
     "title": "Brazil police bust ring using Gisele Bundchen deepfakes in Instagram ad scams",
@@ -4573,6 +6033,52 @@
       {
         "name": "Malay Mail (Reuters)",
         "url": "https://www.malaymail.com/news/tech-gadgets/2025/10/05/brazilian-scammers-rake-in-millions-using-gisele-bundchen-deepfakes-in-instagram-ads-to-defraud-victims/193369"
+      }
+    ]
+  },
+  {
+    "id": "pesaro-meloni-deepfake-pensioners",
+    "date": "2025-10-05",
+    "title": "Pesaro retirees lose over 10,000 euros to deepfake of Meloni promoting investment site",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "low",
+    "country": "IT",
+    "region": "Europe",
+    "target": "Retired couple in Pesaro; Prime Minister Meloni's likeness",
+    "loss_usd": 11700,
+    "summary": "A couple in their sixties told Pesaro police that a video with Meloni's cloned face and voice, styled as a government spot, led them to deposit over 10,000 euros on a platform that vanished at withdrawal.",
+    "source": "Open",
+    "url": "https://www.open.online/2025/10/05/pesaro-truffa-clone-giorgia-meloni-ai-coppia-raggirata/",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "attribution": "Under investigation by the Pesaro Questura alongside other synthetic-voice scams.",
+    "motive": "Fake investment platform fraud.",
+    "vector": "Deepfake video of the prime minister mixed into social media feeds, small initial deposits followed by blocked withdrawals.",
+    "root_cause": "Synthetic political endorsements and absent moderation of paid content.",
+    "timeline": [
+      {
+        "date": "2025-09-01",
+        "event": "Couple sees deepfake Meloni video and begins investing"
+      },
+      {
+        "date": "2025-10-05",
+        "event": "Two complaints filed with Pesaro police reported in press"
+      }
+    ],
+    "impact": "More than 10,000 euros, about US$11,700, lost by one couple; over 25,000 euros across two Pesaro cases.",
+    "response": "Police investigation opened; no arrests reported.",
+    "status": "under investigation",
+    "cve": null,
+    "verification": "reported",
+    "sources": [
+      {
+        "name": "Open",
+        "url": "https://www.open.online/2025/10/05/pesaro-truffa-clone-giorgia-meloni-ai-coppia-raggirata/"
+      },
+      {
+        "name": "Blue News",
+        "url": "https://www.bluewin.ch/it/attualita/borsa-economia/italia-boom-truffe-finanziarie-deepfake-anche-con-musk-meloni-li.2431891"
       }
     ]
   },
@@ -4877,6 +6383,64 @@
     ]
   },
   {
+    "id": "hk-ai-faceswap-lost-id-syndicate",
+    "date": "2025-10-10",
+    "title": "Hong Kong police arrest 22 who used AI face-swaps on lost ID cards to open bank accounts",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "HK",
+    "region": "Asia-Pacific",
+    "target": "Seven Hong Kong banks and stored-value facilities",
+    "loss_usd": 216000,
+    "summary": "A syndicate pasted members' faces onto photos from lost Hong Kong ID cards to pass remote onboarding at seven banks, opening 19 accounts that laundered about HK$190 million; 22 people were arrested.",
+    "source": "TVB News",
+    "url": "https://news.tvb.com/en/799013-CriminalsyndicateforgeIDcardswithAItoopenbankaccountsandborrowloans",
+    "actor": "Hong Kong triad-linked fraud syndicate",
+    "actor_type": "criminal",
+    "attribution": "Hong Kong Island Regional Crime Unit identified two ringleaders, five core members and 15 mule account holders, some with triad backgrounds.",
+    "motive": "Obtain loans and credit cards and launder proceeds of phone, investment and shopping scams.",
+    "vector": "AI face-swapping of lost ID card images used in 23 online account applications between September 2024 and April 2025; 19 passed KYC checks.",
+    "root_cause": "Remote onboarding relied on selfie-to-ID matching that could be defeated by synthetic faces built on genuine stolen documents.",
+    "timeline": [
+      {
+        "date": "2024-09-01",
+        "event": "Syndicate begins submitting AI-altered account applications"
+      },
+      {
+        "date": "2025-10-08",
+        "event": "Police make arrests across Hong Kong over two days"
+      },
+      {
+        "date": "2025-10-10",
+        "event": "Police announce 22 arrests and HK$190 million in laundered funds"
+      }
+    ],
+    "impact": "Accounts linked to at least 14 local scams with losses of about HK$1.68 million, roughly US$216,000, and about HK$190 million in suspected criminal proceeds moved in a year.",
+    "response": "Arrests for conspiracy to defraud and money laundering; phones, laptops and printers seized; regulators and banks told to strengthen remote identity checks.",
+    "status": "under investigation",
+    "cve": null,
+    "verification": "confirmed",
+    "sources": [
+      {
+        "name": "HK01",
+        "url": "https://global.hk01.com/突发/60284283/警捣犯罪集团拘22人-ai换报失身份证头像开户借贷-洗-1-9亿黑钱"
+      },
+      {
+        "name": "TVB News",
+        "url": "https://news.tvb.com/en/799013-CriminalsyndicateforgeIDcardswithAItoopenbankaccountsandborrowloans"
+      },
+      {
+        "name": "The Standard",
+        "url": "https://www.thestandard.com.hk/news/article/313790/Police-dismantle-AI-driven-fraud-syndicate-arresting-22"
+      },
+      {
+        "name": "World Journal (世界日報)",
+        "url": "https://www.worldjournal.com/wj/amp/story/121341/9063323"
+      }
+    ]
+  },
+  {
     "id": "smithery-mcp-hosting-traversal",
     "date": "2025-10-15",
     "title": "Path traversal in Smithery MCP hosting exposed root access to 3,000 hosted MCP servers",
@@ -4931,6 +6495,152 @@
       {
         "name": "SC World",
         "url": "https://scworld.com/news/smithery-ai-fixes-path-traversal-flaw-that-exposed-3000-mcp-servers"
+      }
+    ]
+  },
+  {
+    "id": "uae-economy-minister-deepfake-ads",
+    "date": "2025-10-16",
+    "title": "UAE economy minister says his deepfake was used in social media investment scam campaigns",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "low",
+    "country": "AE",
+    "region": "Middle East & Africa",
+    "target": "UAE residents; Economy Minister Abdullah bin Touq Al Marri",
+    "loss_usd": null,
+    "summary": "At GITEX 2025, Minister Abdullah bin Touq Al Marri said fraudsters had manipulated his image in video campaigns urging people to invest in shares, and called for deepfake detection technology.",
+    "source": "AGBI",
+    "url": "https://www.agbi.com/tech/2025/10/uae-minister-and-tech-experts-warn-of-deepfake-explosion/",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "attribution": "No attribution; the minister described recent targeting by fraudsters.",
+    "motive": "Investment fraud using a ministerial endorsement.",
+    "vector": "Manipulated video of the minister in social media ad campaigns.",
+    "root_cause": "Abundant public footage of officials and limited content authentication.",
+    "timeline": [
+      {
+        "date": "2025-10-14",
+        "event": "Minister discloses deepfake targeting at GITEX Global"
+      },
+      {
+        "date": "2025-10-16",
+        "event": "Regional press reports the warning"
+      }
+    ],
+    "impact": "Ministerial likeness used to lure investors; no loss figures given.",
+    "response": "Public warning; call for authentication tools; no enforcement action reported.",
+    "status": "unresolved",
+    "cve": null,
+    "verification": "reported",
+    "sources": [
+      {
+        "name": "AGBI",
+        "url": "https://www.agbi.com/tech/2025/10/uae-minister-and-tech-experts-warn-of-deepfake-explosion/"
+      },
+      {
+        "name": "MENA Startup Digest",
+        "url": "https://menastartupdigest.com/?p=18580"
+      }
+    ]
+  },
+  {
+    "id": "pampanga-marcos-deepfake-p93m",
+    "date": "2025-10-22",
+    "title": "Philippine doctor loses P93M to investment scam backed by deepfake of President Marcos",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "PH",
+    "region": "Asia-Pacific",
+    "target": "Dr. Marie Faith Sagun-Villarta, Pampanga",
+    "loss_usd": 1600000,
+    "summary": "PNP-CIDG entrapped two suspects in Angeles City who used an AI-generated video of President Marcos Jr. and gifts supposedly from him to convince a doctor to hand over about P93 million for fake investments.",
+    "source": "GMA News",
+    "url": "https://www.gmanetwork.com/news/topstories/nation/963384/marcos-deepfake-video-scam-pampanga/story/",
+    "actor": "Two suspects detained by PNP-CIDG Tarlac",
+    "actor_type": "criminal",
+    "attribution": "Palace press officer Claire Castro confirmed the video was an AI deepfake; suspects face estafa charges under cybercrime law.",
+    "motive": "Financial fraud using the president's likeness.",
+    "vector": "Deepfake video of the president plus luxury gifts and promises of 20 to 30 percent dividends over about a year.",
+    "root_cause": "Synthetic media exploited trust in a head of state; no verification channel for supposed presidential investment offers.",
+    "timeline": [
+      {
+        "date": "2024-10-01",
+        "event": "Victim begins investing after seeing manipulated video and receiving gifts"
+      },
+      {
+        "date": "2025-10-21",
+        "event": "CIDG entrapment at a coffee shop with marked money"
+      },
+      {
+        "date": "2025-10-22",
+        "event": "Arrests and deepfake confirmation reported"
+      }
+    ],
+    "impact": "About P93 million, roughly US$1.6 million, lost by one victim.",
+    "response": "Two arrested and charged with estafa through fraudulent means related to cybercrime; CICC had earlier warned about Marcos deepfakes promoting trading platforms.",
+    "status": "under investigation",
+    "cve": null,
+    "verification": "confirmed",
+    "sources": [
+      {
+        "name": "GMA News",
+        "url": "https://www.gmanetwork.com/news/topstories/nation/963384/marcos-deepfake-video-scam-pampanga/story/"
+      },
+      {
+        "name": "AI Incident Database",
+        "url": "https://incidentdatabase.ai/cite/1148/"
+      },
+      {
+        "name": "ABS-CBN",
+        "url": "https://abs-cbn.com/news/technology/2025/6/24/cicc-warns-vs-deepfake-video-using-president-s-image-to-promote-trading-platform-0700"
+      }
+    ]
+  },
+  {
+    "id": "kaspersky-bluenoroff-ghostcall",
+    "date": "2025-10-28",
+    "title": "Kaspersky: BlueNoroff GhostCall and GhostHire campaigns sped up by generative AI",
+    "category": "State actor AI ops",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "Web3 and crypto executives and blockchain developers",
+    "loss_usd": null,
+    "summary": "Kaspersky said BlueNoroff used generative AI to speed malware development and analyse stolen data for targeting in GhostCall (fake VC calls on macOS) and GhostHire (fake recruiter tests), active since April 2025.",
+    "source": "Kaspersky GReAT",
+    "url": "https://www.kaspersky.com/about/press-releases/kaspersky-bluenoroff-targets-executives-on-windows-and-macos-using-ai-driven-tools",
+    "actor": "BlueNoroff (Lazarus subgroup)",
+    "actor_type": "state",
+    "attribution": "Kaspersky GReAT attributes both campaigns to BlueNoroff under the Lazarus umbrella; shared C2 and tooling.",
+    "motive": "Cryptocurrency theft for the DPRK",
+    "vector": "Telegram approaches from fake or hijacked VC accounts, fake Zoom and Teams update pages, malicious GitHub skill-test repos; seven multi-stage chains delivering crypto and credential stealers",
+    "root_cause": "AI-accelerated tooling and replayed victim videos made social engineering and malware iteration faster and more convincing",
+    "timeline": [
+      {
+        "date": "2025-04-01",
+        "event": "GhostCall and GhostHire activity observed from at least this month"
+      },
+      {
+        "date": "2025-10-28",
+        "event": "Kaspersky presents findings at Security Analyst Summit"
+      }
+    ],
+    "impact": "Executives and developers compromised across several countries; stolen data reused for supply-chain style follow-on attacks.",
+    "response": "Kaspersky published indicators and detection guidance for macOS and Windows chains.",
+    "status": "ongoing",
+    "cve": null,
+    "verification": "confirmed",
+    "sources": [
+      {
+        "name": "Kaspersky",
+        "url": "https://www.kaspersky.com/about/press-releases/kaspersky-bluenoroff-targets-executives-on-windows-and-macos-using-ai-driven-tools"
+      },
+      {
+        "name": "eSecurity Planet",
+        "url": "https://esecurityplanet.com/news/bluenoroff-expands-cyberattacks-with-ai-driven-campaigns-targeting-executives"
       }
     ]
   },
@@ -5390,6 +7100,64 @@
     ]
   },
   {
+    "id": "uruguay-orsi-deepfake-ad-wave",
+    "date": "2025-11-19",
+    "title": "Uruguay's Interior Ministry warns of deepfake of President Orsi as paid scam ads escalate",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "UY",
+    "region": "Latin America",
+    "target": "Uruguayan social media users; President Yamandu Orsi",
+    "loss_usd": null,
+    "summary": "Uruguay's Interior Ministry warned of a deepfake of President Orsi with phishing links; by July 2026 detection firm Revelum counted 19 paid ads cloning his face and voice, 16 of them in two days.",
+    "source": "Montevideo Portal",
+    "url": "https://www.montevideo.com.uy/Noticias/Circula-un-intento-de-estafa-con-deepfake-de-Orsi-alerto-el-Ministerio-del-Interior-uc943776",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "attribution": "No attribution; Revelum noted the same four deepfake videos reused under different names to evade detection.",
+    "motive": "Investment fraud and data theft via phishing sites.",
+    "vector": "Paid social media ads with cloned presidential video, fake Canal 10 and Banco Central branding, and spoofed news sites requesting US$250 deposits.",
+    "root_cause": "Ad platforms approved synthetic videos of a head of state; cheap voice and lip-sync cloning.",
+    "timeline": [
+      {
+        "date": "2025-10-31",
+        "event": "Authorities warn of scams using Orsi and Vice President Cosse"
+      },
+      {
+        "date": "2025-11-19",
+        "event": "Interior Ministry issues deepfake alert"
+      },
+      {
+        "date": "2026-07-23",
+        "event": "Sixteen new Orsi deepfake ads appear in two days"
+      },
+      {
+        "date": "2026-07-29",
+        "event": "El Observador publishes Revelum findings"
+      }
+    ],
+    "impact": "Nearly 4,000 fraudulent ads targeted Uruguay in the first seven months of 2026 per Revelum; losses from the Orsi campaign not disclosed.",
+    "response": "Government advised not to open links; no takedown figures published.",
+    "status": "ongoing",
+    "cve": null,
+    "verification": "confirmed",
+    "sources": [
+      {
+        "name": "Montevideo Portal",
+        "url": "https://www.montevideo.com.uy/Noticias/Circula-un-intento-de-estafa-con-deepfake-de-Orsi-alerto-el-Ministerio-del-Interior-uc943776"
+      },
+      {
+        "name": "El Observador",
+        "url": "https://www.elobservador.com.uy/ciencia-y-tecnologia/aumentan-los-deepfakes-orsi-cometer-estafas-detectan-una-campana-que-exploto-la-ultima-semana-n6052424"
+      },
+      {
+        "name": "El Observador",
+        "url": "https://www.elobservador.com.uy/nacional/alarma-nacional-uruguay-estos-son-los-videos-hechos-ia-estafar-utilizan-la-imagen-del-presidente-yamandu-orsi-n6025248"
+      }
+    ]
+  },
+  {
     "id": "hashjack-url-fragment",
     "date": "2025-11-25",
     "title": "HashJack: prompts hidden in URL fragments hijack Comet, Edge Copilot and Gemini in Chrome",
@@ -5440,6 +7208,56 @@
       {
         "name": "Infosecurity Magazine",
         "url": "https://www.infosecurity-magazine.com/news/hashjack-indirect-prompt-injection"
+      }
+    ]
+  },
+  {
+    "id": "unit42-wormgpt4-kawaiigpt",
+    "date": "2025-11-25",
+    "title": "Unit 42 tests WormGPT 4 and KawaiiGPT, criminal LLMs that write ransomware scripts",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "Phishing, BEC and ransomware victims of subscribers",
+    "loss_usd": null,
+    "summary": "Unit 42 found WormGPT 4 sold for 50 USD a month with 500+ Telegram subscribers and free KawaiiGPT on GitHub; both produced ransomware PowerShell, ransom notes, spear-phishing and lateral movement scripts in testing.",
+    "source": "Palo Alto Networks Unit 42",
+    "url": "https://unit42.paloaltonetworks.com/dilemma-of-ai-malicious-llms/",
+    "actor": "WormGPT 4 and KawaiiGPT developers",
+    "actor_type": "criminal",
+    "attribution": "Unit 42 analysis of underground sales channels and the tools themselves; developers unidentified.",
+    "motive": "Subscription revenue and community growth around uncensored AI",
+    "vector": "Web and Telegram sales, DarknetArmy forum ads, GitHub distribution with a CLI",
+    "root_cause": "Uncensored models and jailbroken wrappers give low-skill actors polished attack content",
+    "timeline": [
+      {
+        "date": "2025-07-01",
+        "event": "KawaiiGPT first identified"
+      },
+      {
+        "date": "2025-09-27",
+        "event": "WormGPT 4 sales campaign begins"
+      },
+      {
+        "date": "2025-11-25",
+        "event": "Unit 42 publishes findings"
+      }
+    ],
+    "impact": "Hundreds of active users; WormGPT 4 generated an AES-256 file encryptor with Tor exfiltration and a 72-hour ransom note in tests.",
+    "response": "Unit 42 published analysis and defensive guidance.",
+    "status": "ongoing",
+    "cve": null,
+    "verification": "confirmed",
+    "sources": [
+      {
+        "name": "Unit 42",
+        "url": "https://unit42.paloaltonetworks.com/dilemma-of-ai-malicious-llms/"
+      },
+      {
+        "name": "BleepingComputer",
+        "url": "https://bleepingcomputer.com/news/security/malicious-llms-empower-inexperienced-hackers-with-advanced-tools"
       }
     ]
   },
@@ -5705,6 +7523,110 @@
       {
         "name": "TechRepublic",
         "url": "https://www.techrepublic.com/article/news-geminijack-zero-click-flaw/"
+      }
+    ]
+  },
+  {
+    "id": "amsterdam-deepfake-bank-accounts",
+    "date": "2025-12-17",
+    "title": "Amsterdam man used AI face-morphs on tenants' IDs to open 46 ABN Amro accounts",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "NL",
+    "region": "Europe",
+    "target": "ABN Amro and prospective tenants",
+    "loss_usd": null,
+    "summary": "Dutch police arrested a 34-year-old who harvested ID documents via fake apartment listings, then used AI to blend victims' faces with his own to pass bank video checks, opening at least 46 accounts.",
+    "source": "NH Nieuws",
+    "url": "https://www.nhnieuws.nl/nieuws/355381/amsterdammer-aangehouden-die-met-deepfakes-46-bankrekeningen-opende",
+    "actor": "34-year-old Amsterdam resident",
+    "actor_type": "criminal",
+    "attribution": "Identified after the Royal Marechaussee found him carrying many bank cards at a border crossing; convicted by Amsterdam district court.",
+    "motive": "Open mule accounts under stolen identities for fraud.",
+    "vector": "Fake rental listings to harvest passports, then deepfake face edits to defeat the bank's digital identity check.",
+    "root_cause": "Selfie-based remote onboarding accepted AI-blended faces matching stolen documents.",
+    "timeline": [
+      {
+        "date": "2025-12-17",
+        "event": "Police announce arrest and link 46 accounts to the suspect"
+      },
+      {
+        "date": "2026-03-23",
+        "event": "Prosecutors demand 30 months; court reopens inquiry into deepfake technique"
+      },
+      {
+        "date": "2026-05-01",
+        "event": "Court sentences him to 2.5 years and 13,000 euro compensation to ABN Amro"
+      }
+    ],
+    "impact": "Dozens of victims' identities abused; at least 46 accounts opened at ABN Amro and used in scams; total losses not published.",
+    "response": "Arrest, prosecution and 2.5-year prison sentence; police said they had adjusted detection of deepfake onboarding methods.",
+    "status": "resolved",
+    "cve": null,
+    "verification": "confirmed",
+    "sources": [
+      {
+        "name": "NH Nieuws",
+        "url": "https://www.nhnieuws.nl/nieuws/355381/amsterdammer-aangehouden-die-met-deepfakes-46-bankrekeningen-opende"
+      },
+      {
+        "name": "Rechtspraak.nl",
+        "url": "https://www.rechtspraak.nl/organisatie-en-contact/organisatie/rechtbanken/rechtbank-amsterdam/nieuws/2026/03/extra-onderzoek-nodig-in-zaak-oplichting-bank-met-deepfake-technologie"
+      },
+      {
+        "name": "NL Times",
+        "url": "https://nltimes.nl/2026/03/23/amsterdam-man-opened-nearly-50-bank-accounts-sticking-head-onto-stolen-passports"
+      },
+      {
+        "name": "NH Nieuws",
+        "url": "https://www.nhnieuws.nl/nieuws/360788/amsterdammer-deepfakes-47-bankrekeningen-openen"
+      }
+    ]
+  },
+  {
+    "id": "egypt-haifa-wehbe-ai-videos-probe",
+    "date": "2025-12-24",
+    "title": "Egyptian prosecutors order trace of AI-fabricated explicit videos of singer Haifa Wehbe",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "EG",
+    "region": "Middle East & Africa",
+    "target": "Lebanese singer Haifa Wehbe",
+    "loss_usd": null,
+    "summary": "After a complaint backed by a forensic report finding the material fully synthetic, Egypt's Public Prosecution ordered AI-generated sexual videos of Haifa Wehbe pulled from Facebook, TikTok and Telegram and traced.",
+    "source": "An-Nahar",
+    "url": "https://www.annahar.com/lifestyle/arts/264512/فيدوات-هيفا-وهبي-المزيفة-النيابة-المصرية-تتحرك-بعد-شكوى-النجمة-اللبنانية",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "attribution": "Accounts and groups named in the complaint; Interior Ministry internet investigations unit tasked with identifying operators.",
+    "motive": "Defamation and possible extortion.",
+    "vector": "Deepfake image and video generation distributed through social media groups and websites.",
+    "root_cause": "Generative tools enable non-consensual synthetic imagery of public figures with little platform friction.",
+    "timeline": [
+      {
+        "date": "2025-12-01",
+        "event": "Fabricated videos spread on Facebook, TikTok and Telegram"
+      },
+      {
+        "date": "2025-12-24",
+        "event": "Prosecution opens investigation and orders takedowns"
+      }
+    ],
+    "impact": "Reputational harm to the artist; material widely shared before removal orders.",
+    "response": "Prosecutors ordered removal, source tracing and technical analysis by the Interior Ministry with legal action to follow.",
+    "status": "under investigation",
+    "cve": null,
+    "verification": "confirmed",
+    "sources": [
+      {
+        "name": "An-Nahar (النهار)",
+        "url": "https://www.annahar.com/lifestyle/arts/264512/فيدوات-هيفا-وهبي-المزيفة-النيابة-المصرية-تتحرك-بعد-شكوى-النجمة-اللبنانية"
+      },
+      {
+        "name": "OECD.AI Incidents Monitor",
+        "url": "https://oecd.ai/en/incidents/2026-01-02-2d6d"
       }
     ]
   },
@@ -6240,6 +8162,56 @@
     ]
   },
   {
+    "id": "taichung-chatgpt-deepfake-japan-police",
+    "date": "2026-01-29",
+    "title": "Taichung indicts ring using ChatGPT scripts and deepfake Japanese police on video calls",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "TW",
+    "region": "Asia-Pacific",
+    "target": "Japanese residents called from a Kuala Lumpur call centre",
+    "loss_usd": 120000,
+    "summary": "A Taiwan-Japan-Malaysia ring wrote fraud scripts with ChatGPT and used AI face-swaps to appear as Japanese police when victims asked for video proof; about 18.65 million yen was laundered into USDT.",
+    "source": "ETtoday",
+    "url": "https://www.ettoday.net/news/20260129/3109640.htm",
+    "actor": "Ring led by Taiwanese suspect surnamed Yang",
+    "actor_type": "criminal",
+    "attribution": "Taichung District Prosecutors Office indicted Yang and three others under anti-fraud, money-laundering and organised-crime laws after Malaysian police raids.",
+    "motive": "Telephone fraud against Japanese victims.",
+    "vector": "Random VoIP calls claiming unpaid phone bills and investigations, followed by deepfake video calls with impersonated officers in seized Japanese police uniforms.",
+    "root_cause": "Generative AI removed language and visual barriers for a cross-border scam crew targeting a foreign population.",
+    "timeline": [
+      {
+        "date": "2025-05-01",
+        "event": "Yang establishes the call centre in Kuala Lumpur"
+      },
+      {
+        "date": "2025-10-01",
+        "event": "Royal Malaysia Police raid the site and seize uniforms and fake badges"
+      },
+      {
+        "date": "2026-01-29",
+        "event": "Taichung prosecutors indict four and seek heavy sentences"
+      }
+    ],
+    "impact": "About 18,653,667 yen, roughly US$120,000, taken from Japanese victims and converted to USDT; no restitution made.",
+    "response": "International cooperation among Taiwan, Japan and Malaysia; indictment of four with confiscation sought.",
+    "status": "under investigation",
+    "cve": null,
+    "verification": "confirmed",
+    "sources": [
+      {
+        "name": "ETtoday",
+        "url": "https://www.ettoday.net/news/20260129/3109640.htm"
+      },
+      {
+        "name": "People News (民報)",
+        "url": "https://www.peoplenews.tw/?p=14492"
+      }
+    ]
+  },
+  {
     "id": "moltbook-db-exposure",
     "date": "2026-02-02",
     "title": "Moltbook AI-agent social network exposes 1.5M agent API tokens",
@@ -6293,6 +8265,98 @@
       {
         "name": "TechRadar",
         "url": "https://www.techradar.com/pro/security/ai-agent-social-media-network-moltbook-is-a-security-disaster-millions-of-credentials-and-other-details-left-unsecured"
+      }
+    ]
+  },
+  {
+    "id": "taiwan-starlink-deepfake-ecny",
+    "date": "2026-02-02",
+    "title": "Taiwan ring used Starlink and deepfake faces to beat e-CNY checks and drain NT$200M",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "TW",
+    "region": "Asia-Pacific",
+    "target": "Digital yuan app users in mainland China",
+    "loss_usd": 6100000,
+    "summary": "Taiwan's CIB and Thai police arrested a Taichung man backing a Chinese fraud network that built AI 3D face videos from brokered photos to pass e-CNY facial login and drain about NT$200 million from 55 victims.",
+    "source": "PTS News (公視新聞)",
+    "url": "https://news.pts.org.tw/article/793506",
+    "actor": "Taichung man surnamed Lin and Chinese fraud network",
+    "actor_type": "criminal",
+    "attribution": "Taichung prosecutors indicted Lin and three accomplices for fraud, computer interference and organised crime; Lin allegedly took a 10 percent cut of about NT$18 million.",
+    "motive": "Financial theft from victims' bank accounts via the digital yuan wallet.",
+    "vector": "Victim photos and personal data bought from Chinese photo brokers, deepfake liveness videos fed to the e-CNY app camera check, Starlink satellite links to evade IP tracing from Thailand.",
+    "root_cause": "Facial liveness verification on the wallet accepted pre-recorded synthetic video as a live camera feed.",
+    "timeline": [
+      {
+        "date": "2025-06-01",
+        "event": "Ring operates from Thailand using Starlink connectivity"
+      },
+      {
+        "date": "2026-02-02",
+        "event": "CIB announces arrests with Thai police and prosecutors indict four"
+      }
+    ],
+    "impact": "At least 55 victims in mainland China lost about NT$200 million, roughly US$6.1 million; first Taiwanese case combining satellite internet with deepfake KYC bypass.",
+    "response": "Four indicted and released on bail of NT$200,000 to NT$1 million; CIB shared the method with Taiwan's Financial Supervisory Commission to harden local banks.",
+    "status": "under investigation",
+    "cve": null,
+    "verification": "confirmed",
+    "sources": [
+      {
+        "name": "PTS News (公視新聞)",
+        "url": "https://news.pts.org.tw/article/793506"
+      },
+      {
+        "name": "World Journal (世界日報)",
+        "url": "https://www.worldjournal.com/wj/amp/story/121475/9305011"
+      }
+    ]
+  },
+  {
+    "id": "certfr-genai-threat-2026",
+    "date": "2026-02-04",
+    "title": "CERT-FR: 42 attacker groups actively use generative AI, none yet autonomous against France",
+    "category": "State actor AI ops",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "FR",
+    "region": "Europe",
+    "target": "French public and private entities",
+    "loss_usd": null,
+    "summary": "ANSSI's CERT-FR published CERTFR-2026-CTI-001, a TLP:CLEAR synthesis reporting that 42 groups use GenAI such as Gemini for profiling, lures and malware, while no attack on a French entity is attributed to autonomous AI.",
+    "source": "ANSSI CERT-FR",
+    "url": "https://www.cert.ssi.gouv.fr/uploads/CERTFR-2026-CTI-001.pdf",
+    "actor": "Multiple state-linked groups (China, Iran, North Korea, Russia)",
+    "actor_type": "state",
+    "attribution": "CERT-FR synthesis of vendor and partner reporting; press coverage cites 20 Chinese, 10 Iranian, 9 North Korean and 3 Russian groups.",
+    "motive": "Espionage, fraud and sabotage enabled by AI productivity gains",
+    "vector": "GenAI services used for reconnaissance, social engineering content and malware development; models also targeted via poisoning and data exfiltration",
+    "root_cause": "Dual-use AI services are accessible to attackers at each stage of the intrusion chain",
+    "timeline": [
+      {
+        "date": "2026-02-04",
+        "event": "CERT-FR publishes CERTFR-2026-CTI-001 (12 pages)"
+      },
+      {
+        "date": "2026-02-05",
+        "event": "Report circulates publicly; press coverage breaks down the 42 groups by country"
+      }
+    ],
+    "impact": "Advisory-level; documents attacker GenAI adoption across state groups and sets expectations for French defenders.",
+    "response": "ANSSI recommends regular reassessment and hardening of AI deployments; no specific French victim named.",
+    "status": "ongoing",
+    "cve": null,
+    "verification": "reported",
+    "sources": [
+      {
+        "name": "CERT-FR",
+        "url": "https://www.cert.ssi.gouv.fr/uploads/CERTFR-2026-CTI-001.pdf"
+      },
+      {
+        "name": "ActuIA",
+        "url": "https://www.actuia.com/acteur/anssi/"
       }
     ]
   },
@@ -6701,6 +8765,60 @@
     ]
   },
   {
+    "id": "lagos-peter-obi-ai-forex-fraud",
+    "date": "2026-02-18",
+    "title": "Lagos court remands man over N230M forex scam using AI-cloned image of Peter Obi",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "NG",
+    "region": "Middle East & Africa",
+    "target": "Nigerian investor Fredrick Amaechi; Peter Obi's likeness",
+    "loss_usd": 150000,
+    "summary": "Nigerian police arraigned Olayinka Adesiyan in Lagos on six counts for allegedly using AI-altered images of Peter Obi endorsing the Modmut International forex platform to obtain about N230 million in 2025.",
+    "source": "THISDAY",
+    "url": "https://www.thisdaylive.com/2026/02/18/court-remands-businessman-accused-of-using-ai-to-impersonate-peter-obi-in-n230m-forex-fraud",
+    "actor": "Olayinka Adesiyan and others at large",
+    "actor_type": "criminal",
+    "attribution": "Charged by the Federal Republic of Nigeria; defendant pleaded not guilty and the case is pending.",
+    "motive": "Investment fraud using a prominent politician's endorsement.",
+    "vector": "AI-cloned Facebook image and adverts presenting Obi as a beneficiary of a forex trading partnership.",
+    "root_cause": "Unverified social media advertising and public trust in political figures.",
+    "timeline": [
+      {
+        "date": "2025-07-01",
+        "event": "Alleged fraudulent adverts begin circulating"
+      },
+      {
+        "date": "2025-10-31",
+        "event": "Alleged scheme ends after N230 million received"
+      },
+      {
+        "date": "2026-02-18",
+        "event": "Defendant arraigned and remanded at Ikoyi"
+      }
+    ],
+    "impact": "About N230 million, roughly US$150,000, allegedly obtained from one investor and diverted.",
+    "response": "Police prosecution on conspiracy, false pretence, fraudulent advertising and stealing counts; Obi publicly disowned AI adverts using his image.",
+    "status": "under investigation",
+    "cve": null,
+    "verification": "reported",
+    "sources": [
+      {
+        "name": "THISDAY",
+        "url": "https://www.thisdaylive.com/2026/02/18/court-remands-businessman-accused-of-using-ai-to-impersonate-peter-obi-in-n230m-forex-fraud"
+      },
+      {
+        "name": "Leadership",
+        "url": "https://leadership.ng/n230m-fraud-police-arraign-man-over-ai-cloned-image-of-peter-obi/"
+      },
+      {
+        "name": "Arise News",
+        "url": "https://www.arise.tv/court-remands-lagos-businessman-over-n230m-forex-scam-using-ai-cloned-peter-obi-image"
+      }
+    ]
+  },
+  {
     "id": "anthropic-distillation",
     "date": "2026-02-23",
     "title": "Anthropic accuses DeepSeek, Moonshot and MiniMax of distilling Claude via 24,000 accounts",
@@ -6857,6 +8975,106 @@
       {
         "name": "TechSpot",
         "url": "https://www.techspot.com/news/111504-us-arrests-onlyfake-operator-accused-selling-over-10000.html"
+      }
+    ]
+  },
+  {
+    "id": "zscaler-dust-specter-iraq",
+    "date": "2026-03-02",
+    "title": "Iran-nexus Dust Specter hits Iraqi officials with malware showing generative AI traces",
+    "category": "State actor AI ops",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "IQ",
+    "region": "Middle East & Africa",
+    "target": "Iraqi government officials",
+    "loss_usd": null,
+    "summary": "Zscaler found a January 2026 campaign impersonating Iraq's foreign ministry that dropped TWINTASK, TWINTALK and GHOSTFORM; emojis and placeholders in decompiled code suggested generative AI helped build the malware.",
+    "source": "Zscaler ThreatLabz",
+    "url": "https://www.zscaler.com/blogs/security-research/dust-specter-apt-targets-government-officials-iraq",
+    "actor": "Dust Specter",
+    "actor_type": "state",
+    "attribution": "Zscaler ThreatLabz attributes to an Iran-nexus actor with medium-to-high confidence based on tooling, techniques and victimology overlap.",
+    "motive": "Espionage against Iraqi government",
+    "vector": "Phishing posing as Iraq's Ministry of Foreign Affairs, WinRAR-disguised .NET dropper, DLL sideloading via VLC and WingetUI, fake Google Forms survey lure",
+    "root_cause": "AI-assisted development accelerated new tooling; compromised Iraqi government-related hosting delivered payloads",
+    "timeline": [
+      {
+        "date": "2025-07-01",
+        "event": "Earlier Dust Specter page disguised as Webex invite reuses TWINTALK C2 domain"
+      },
+      {
+        "date": "2026-01-15",
+        "event": "Campaign against Iraqi officials detected by ThreatLabz"
+      },
+      {
+        "date": "2026-03-02",
+        "event": "Zscaler publishes analysis"
+      }
+    ],
+    "impact": "Government officials targeted with remote access and exfiltration tooling; victim count not disclosed.",
+    "response": "Zscaler published IOCs and detections; no official Iraqi statement reported.",
+    "status": "under investigation",
+    "cve": null,
+    "verification": "confirmed",
+    "sources": [
+      {
+        "name": "Zscaler ThreatLabz",
+        "url": "https://www.zscaler.com/blogs/security-research/dust-specter-apt-targets-government-officials-iraq"
+      },
+      {
+        "name": "Infosecurity Magazine",
+        "url": "https://www.infosecurity-magazine.com/news/iran-cyber-threat-actor-iraq/"
+      },
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/03/dust-specter-targets-iraqi-officials.html"
+      }
+    ]
+  },
+  {
+    "id": "hp-wolf-vibe-hacking-2026",
+    "date": "2026-03-04",
+    "title": "HP Wolf: AI-generated 'vibe-hacking' infection scripts slip past email gateways",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "Enterprise email users",
+    "loss_usd": null,
+    "summary": "HP's Q4 2025 Threat Insights Report documented attackers using AI to write infection scripts and rework lures, including a fake invoice PDF chain bouncing victims to Booking.com; 14 percent of threats evaded gateways.",
+    "source": "HP Wolf Security",
+    "url": "https://securitybrief.co.uk/story/hp-warns-of-ai-fuelled-flat-pack-cyberattacks-surge",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "attribution": "HP Security Lab telemetry from consenting customers, October to December 2025; actors not named.",
+    "motive": "Low-cost, high-volume malware delivery",
+    "vector": "AI-generated scripts in modular flat-pack campaigns reusing shared installers with swapped lures and payloads",
+    "root_cause": "Generative AI let attackers mass-produce script variants faster than signature defences adapt",
+    "timeline": [
+      {
+        "date": "2025-10-01",
+        "event": "Start of reporting window for AI-generated script campaigns"
+      },
+      {
+        "date": "2026-03-04",
+        "event": "HP publishes Threat Insights Report"
+      }
+    ],
+    "impact": "At least 14 percent of email threats isolated by HP Sure Click had bypassed one or more gateway scanners.",
+    "response": "HP recommended isolation and exposure reduction over variant-by-variant detection.",
+    "status": "ongoing",
+    "cve": null,
+    "verification": "reported",
+    "sources": [
+      {
+        "name": "SecurityBrief UK (HP report coverage)",
+        "url": "https://securitybrief.co.uk/story/hp-warns-of-ai-fuelled-flat-pack-cyberattacks-surge"
+      },
+      {
+        "name": "Cyber Magazine",
+        "url": "https://cybermagazine.com/news/hp-wolf-security-how-vibe-hacking-overwhelms-legacy-defence"
       }
     ]
   },
@@ -7160,6 +9378,52 @@
       {
         "name": "Sysdig (earlier Open WebUI case)",
         "url": "https://www.sysdig.com/blog/attacker-exploits-misconfigured-ai-tool-to-run-ai-generated-payload"
+      }
+    ]
+  },
+  {
+    "id": "unit42-gpt4-gated-sliver-dropper",
+    "date": "2026-03-19",
+    "title": "Unit 42: Go dropper asks GPT-4 whether to deploy Sliver based on host telemetry",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "Windows hosts of unknown victims",
+    "loss_usd": null,
+    "summary": "Unit 42 analysed a Golang dropper that sends host telemetry to GPT-4 posing as an OPSEC AI and only runs its Sliver payload if the model returns execute true, plus a .NET stealer whose GPT-3.5 calls were mostly theatre.",
+    "source": "Palo Alto Networks Unit 42",
+    "url": "https://unit42.paloaltonetworks.com/ai-use-in-malware/",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "attribution": "Unit 42 could not determine whether the samples were AI-written; dropper first flagged publicly by MalwareHunterTeam.",
+    "motive": "Unknown",
+    "vector": "Dropper with embedded OpenAI API usage gating payload execution on an LLM verdict",
+    "root_cause": "Public LLM APIs provide malware a remote decision engine that evades static analysis",
+    "timeline": [
+      {
+        "date": "2026-03-01",
+        "event": "MalwareHunterTeam flags the GPT-4-gated Sliver dropper on X"
+      },
+      {
+        "date": "2026-03-19",
+        "event": "Unit 42 publishes analysis of AI-written and AI-controlled malware samples"
+      }
+    ],
+    "impact": "No campaign or victims identified; demonstrates AI-gated execution in real samples.",
+    "response": "Unit 42 shared hashes and detections.",
+    "status": "under investigation",
+    "cve": null,
+    "verification": "reported",
+    "sources": [
+      {
+        "name": "Unit 42",
+        "url": "https://unit42.paloaltonetworks.com/ai-use-in-malware/"
+      },
+      {
+        "name": "BleepingComputer",
+        "url": "https://bleepingcomputer.com/news/security/malicious-llms-empower-inexperienced-hackers-with-advanced-tools"
       }
     ]
   },
@@ -7965,6 +10229,102 @@
     ]
   },
   {
+    "id": "talos-softr-ai-phishing-page",
+    "date": "2026-04-22",
+    "title": "Talos IR: public-sector credential theft via phishing page vibe-coded on Softr AI builder",
+    "category": "AI phishing",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "Public administration employees' Exchange and OWA accounts",
+    "loss_usd": null,
+    "summary": "Cisco Talos IR's Q1 2026 report described a public-sector phishing case where the page targeting Exchange and OWA logins was built on Softr with a few AI prompts and no code, exfiltrating credentials to Google Sheets.",
+    "source": "Cisco Talos",
+    "url": "https://blog.talosintelligence.com/ir-trends-q1-2026/",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "attribution": "Talos IR engagement; Talos has moderate confidence Softr has been abused since May 2023.",
+    "motive": "Credential theft",
+    "vector": "Phishing email linking to an AI-built form page mimicking Exchange login, with captured data sent to an external store and email alerts per capture",
+    "root_cause": "AI app builders let low-skill actors spin up convincing credential pages in minutes",
+    "timeline": [
+      {
+        "date": "2026-01-01",
+        "event": "Engagement occurs during Q1 2026"
+      },
+      {
+        "date": "2026-04-22",
+        "event": "Talos publishes Q1 2026 IR trends naming Softr"
+      }
+    ],
+    "impact": "Phishing was the top initial access vector (over a third of engagements); MFA weaknesses in 35 percent.",
+    "response": "Talos recommended MFA hardening and user awareness; first documented AI-builder case in a Talos IR engagement.",
+    "status": "resolved",
+    "cve": null,
+    "verification": "confirmed",
+    "sources": [
+      {
+        "name": "Cisco Talos",
+        "url": "https://blog.talosintelligence.com/ir-trends-q1-2026/"
+      },
+      {
+        "name": "SC Media",
+        "url": "https://www.scworld.com/brief/ai-assisted-phishing-attacks-on-the-rise-report-finds"
+      }
+    ]
+  },
+  {
+    "id": "banque-de-france-governor-deepfake",
+    "date": "2026-04-27",
+    "title": "Banque de France warns of deepfakes of governor Villeroy de Galhau selling investments",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "FR",
+    "region": "Europe",
+    "target": "French savers over 50 and companies",
+    "loss_usd": null,
+    "summary": "The French central bank and ACPR issued a joint alert about AI deepfakes of Governor Villeroy de Galhau and ACPR chief Emmanuelle Assouan recommending investments, followed by calls demanding advance fees.",
+    "source": "Banque de France",
+    "url": "https://www.banque-france.fr/fr/communiques-de-presse/la-banque-de-france-et-lacpr-mettent-en-garde-le-public-contre-un-risque-de-fraude-avec-usurpation-0",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "attribution": "No attribution; the institutions described organised fraud groups using social media ads.",
+    "motive": "Advance-fee and fake investment fraud.",
+    "vector": "Social media deepfake videos cloning voice and expressions, then email or phone follow-up by fake central bank officials citing inheritances or blocked savings.",
+    "root_cause": "High public trust in central bank officials combined with inexpensive video cloning.",
+    "timeline": [
+      {
+        "date": "2026-04-27",
+        "event": "Joint Banque de France and ACPR press release published"
+      },
+      {
+        "date": "2026-04-28",
+        "event": "French press reports on the campaign"
+      }
+    ],
+    "impact": "Victim numbers and losses not disclosed; both individuals and companies targeted with fake aid programmes.",
+    "response": "Public warning that no official will ever recommend a product, with advice to verify through official channels.",
+    "status": "unresolved",
+    "cve": null,
+    "verification": "confirmed",
+    "sources": [
+      {
+        "name": "Banque de France",
+        "url": "https://www.banque-france.fr/fr/communiques-de-presse/la-banque-de-france-et-lacpr-mettent-en-garde-le-public-contre-un-risque-de-fraude-avec-usurpation-0"
+      },
+      {
+        "name": "Le Journal de l'Economie",
+        "url": "https://www.journaldeleconomie.fr/la-banque-de-france-victime-dune-arnaque-a-lia/"
+      },
+      {
+        "name": "Economie Matin",
+        "url": "https://www.economiematin.fr/?p=219581"
+      }
+    ]
+  },
+  {
     "id": "ahmedabad-aadhaar-deepfake-racket",
     "date": "2026-04-28",
     "title": "Ahmedabad police bust racket using deepfake videos to beat Aadhaar face checks for loans",
@@ -8165,6 +10525,52 @@
       {
         "name": "PCrisk",
         "url": "https://www.pcrisk.com/internet-threat-news/35274-hugging-face-pushed-infostealer-via-fake-openai-repository"
+      }
+    ]
+  },
+  {
+    "id": "sysdig-marimo-llm-agent-pivots",
+    "date": "2026-05-10",
+    "title": "Sysdig: LLM agent pivots from marimo RCE to internal Postgres dump in under an hour",
+    "category": "Agent hijack",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "Cloud environment of an unnamed organisation",
+    "loss_usd": null,
+    "summary": "After exploiting CVE-2026-39987 in an exposed marimo notebook, an attacker gave stolen AWS credentials to an LLM agent that fetched an SSH key, hopped a bastion and dumped a PostgreSQL database in under an hour.",
+    "source": "Sysdig Threat Research Team",
+    "url": "https://www.sysdig.com/blog/ai-agent-at-the-wheel-how-an-attacker-used-llms-to-move-from-a-cve-to-an-internal-database-in-4-pivots",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "attribution": "Sysdig TRT; a leaked Chinese-language planning comment and machine-shaped commands indicated LLM agent execution. Operator unidentified.",
+    "motive": "Credential and data theft",
+    "vector": "Unauthenticated marimo terminal WebSocket RCE, credential harvesting from .env and AWS files, Secrets Manager replay, SSH bastion lateral movement",
+    "root_cause": "Internet-exposed notebook with pre-auth RCE and long-lived cloud credentials on the host",
+    "timeline": [
+      {
+        "date": "2026-05-10",
+        "event": "Marimo exploited at 18:23 UTC; database dumped within the hour"
+      },
+      {
+        "date": "2026-05-26",
+        "event": "Sysdig publishes analysis"
+      }
+    ],
+    "impact": "Schema and full contents of an internal PostgreSQL database including api_key, credential and user tables exfiltrated; bastion phase took 113 seconds.",
+    "response": "Sysdig published detections; marimo 0.23.0 fixes the flaw.",
+    "status": "patched",
+    "cve": "CVE-2026-39987",
+    "verification": "confirmed",
+    "sources": [
+      {
+        "name": "Sysdig",
+        "url": "https://www.sysdig.com/blog/ai-agent-at-the-wheel-how-an-attacker-used-llms-to-move-from-a-cve-to-an-internal-database-in-4-pivots"
+      },
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/05/attackers-use-llm-agent-for-post.html"
       }
     ]
   },
@@ -8610,6 +11016,64 @@
     ]
   },
   {
+    "id": "checkpoint-nimbus-manticore-minifast",
+    "date": "2026-05-22",
+    "title": "Nimbus Manticore's MiniFast backdoor shows AI-assisted coding during Iran conflict",
+    "category": "State actor AI ops",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "Aviation, defence, telecom and government in US and Mideast",
+    "loss_usd": null,
+    "summary": "Check Point tracked three Nimbus Manticore waves from February to April 2026 delivering the new MiniFast backdoor via job lures, trojanized Zoom installers and SEO poisoning, with code traits of LLM-assisted development.",
+    "source": "Check Point Research",
+    "url": "https://research.checkpoint.com/2026/fast-and-furious-nimbus-manticore-operations-during-the-iranian-conflict/",
+    "actor": "Nimbus Manticore (UNC1549)",
+    "actor_type": "state",
+    "attribution": "Check Point attributes to IRGC-affiliated Nimbus Manticore; AI assistance assessed from verbose error handling, descriptive naming and debug strings.",
+    "motive": "Espionage and access during Operation Epic Fury",
+    "vector": "Career-themed ZIPs with signed host binaries and AppDomain hijacking, trojanized Zoom installers hijacking the update task, SEO-poisoned fake download site",
+    "root_cause": "AI tooling cut development time, letting the actor roll out new loaders and MiniFast during the conflict",
+    "timeline": [
+      {
+        "date": "2026-02-01",
+        "event": "Wave 1 Rising Tension uses AppDomain hijacking and MiniJunk"
+      },
+      {
+        "date": "2026-02-28",
+        "event": "Operation Epic Fury begins; wave 2 introduces MiniFast via Zoom installers"
+      },
+      {
+        "date": "2026-04-01",
+        "event": "Post-ceasefire SEO poisoning via getsqldeveloper site"
+      },
+      {
+        "date": "2026-05-22",
+        "event": "Check Point publishes report"
+      }
+    ],
+    "impact": "Long-term access backdoors deployed against aviation and defence targets; victim count not disclosed.",
+    "response": "Check Point published IOCs; SSL.com-issued signing certificates abused.",
+    "status": "ongoing",
+    "cve": null,
+    "verification": "confirmed",
+    "sources": [
+      {
+        "name": "Check Point Research",
+        "url": "https://research.checkpoint.com/2026/fast-and-furious-nimbus-manticore-operations-during-the-iranian-conflict/"
+      },
+      {
+        "name": "PolySwarm",
+        "url": "https://blog.polyswarm.io/iranian-threat-actor-nimbus-manticore-expands-wartime-cyber-operations-with-ai-assisted-malware-and-seo-poisoning"
+      },
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/05/iranian-hackers-deploy-minifast-and.html"
+      }
+    ]
+  },
+  {
     "id": "turkey-yapay-zeka-2-deepfake-ads",
     "date": "2026-05-24",
     "title": "Turkey's 'Yapay Zeka-2' operation: 16 held for deepfake ads imitating officials' voices",
@@ -8709,6 +11173,106 @@
       {
         "name": "PointGuard AI",
         "url": "https://www.pointguardai.com/ai-security-incidents/malicious-npm-package-steals-openai-codex-authentication-tokens"
+      }
+    ]
+  },
+  {
+    "id": "sophos-cursor-edr-evasion-lab",
+    "date": "2026-06-02",
+    "title": "Sophos finds ransomware-linked actor using Cursor and Claude agents to build EDR evasions",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "Sophos customer tenant; Sophos, CrowdStrike and Defender EDR",
+    "loss_usd": null,
+    "summary": "Sophos X-Ops caught a threat actor inside a customer tenant using Cursor with a Claude Opus 4.5 agent, sub-agents, Git via MCP and Ludus VMs to build nearly 80 modules testing 70-plus EDR evasion techniques.",
+    "source": "Sophos X-Ops",
+    "url": "https://www.sophos.com/en-us/blog/pointing-a-cursor-at-evading-detection",
+    "actor": "Unknown Russian-speaking ransomware-linked actor",
+    "actor_type": "criminal",
+    "attribution": "Sophos CTU linked the activity to known ransomware deployment and data theft; many scripts were written in Russian.",
+    "motive": "Ransomware and data theft enablement",
+    "vector": "Agentic coding workflow producing Rust and Go payloads, Cobalt Strike profiles, Telegram C2 and Cloudflare Worker redirector",
+    "root_cause": "Red team framing bypassed Claude guardrails; agent orchestration compressed weeks of evasion testing into days",
+    "timeline": [
+      {
+        "date": "2026-05-01",
+        "event": "Anomalous endpoint triggers alerts on payloads in a test directory"
+      },
+      {
+        "date": "2026-06-02",
+        "event": "Sophos X-Ops publishes findings"
+      }
+    ],
+    "impact": "Evasion toolkit versioned in Git and later tied to ransomware operations; Sophos noted claimed success rates were not supported by test output.",
+    "response": "Sophos published indicators and urged defence in depth.",
+    "status": "ongoing",
+    "cve": null,
+    "verification": "confirmed",
+    "sources": [
+      {
+        "name": "Sophos X-Ops",
+        "url": "https://www.sophos.com/en-us/blog/pointing-a-cursor-at-evading-detection"
+      },
+      {
+        "name": "Hexnode Threat Watch",
+        "url": "https://www.hexnode.com/threat-watch/sophos-ai-malware-lab-edr-evasion/"
+      }
+    ]
+  },
+  {
+    "id": "nigeria-tinubu-ai-voice-arrest",
+    "date": "2026-06-05",
+    "title": "Nigerian police arrest man behind viral AI voice clip attributed to President Tinubu",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "NG",
+    "region": "Middle East & Africa",
+    "target": "President Bola Tinubu; Nigerian public discourse",
+    "loss_usd": null,
+    "summary": "Police arrested Ifechukwu Dennis for allegedly creating an AI voice clip in which Tinubu appears to admit sustaining insecurity in the South-East; the audio was dubbed over activist VeryDarkMan's footage.",
+    "source": "BusinessDay",
+    "url": "https://businessday.ng/news/article/police-arrest-man-behind-tinubu-voice-recording/",
+    "actor": "Ifechukwu Dennis",
+    "actor_type": "unknown",
+    "attribution": "Arrest announced by presidential adviser Bayo Onanuga citing an Inspector-General of Police team; charges not yet disclosed.",
+    "motive": "Unknown; clip spread politically damaging claims.",
+    "vector": "AI-synthesised presidential voice dubbed over an existing Instagram video and recirculated on social media.",
+    "root_cause": "Voice cloning tools and viral resharing of unverified audio.",
+    "timeline": [
+      {
+        "date": "2026-05-27",
+        "event": "Fake Tinubu voice note begins circulating"
+      },
+      {
+        "date": "2026-06-04",
+        "event": "Presidency announces arrest of suspect"
+      },
+      {
+        "date": "2026-06-05",
+        "event": "Nigerian press reports arrest details"
+      }
+    ],
+    "impact": "Fabricated presidential statements reached thousands and were initially blamed on an activist's platform.",
+    "response": "Arrest by IGP team; presidency publicly debunked the clip.",
+    "status": "under investigation",
+    "cve": null,
+    "verification": "reported",
+    "sources": [
+      {
+        "name": "BusinessDay",
+        "url": "https://businessday.ng/news/article/police-arrest-man-behind-tinubu-voice-recording/"
+      },
+      {
+        "name": "News Central",
+        "url": "https://newscentraltv.com/?p=415019"
+      },
+      {
+        "name": "PM News",
+        "url": "https://pmnewsnigeria.com/2026/06/04/man-who-fooled-thousands-with-fake-tinubus-voice-has-been-arrested/"
       }
     ]
   },
@@ -8984,6 +11548,60 @@
     ]
   },
   {
+    "id": "aikido-jetbrains-ai-key-theft",
+    "date": "2026-06-16",
+    "title": "15 JetBrains Marketplace AI plugins with 70,000 installs steal OpenAI and DeepSeek keys",
+    "category": "LLMjacking",
+    "direction": "on-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "Developers using JetBrains IDE AI assistant plugins",
+    "loss_usd": null,
+    "summary": "Aikido found at least 15 plugins from seven vendor accounts that acted as AI assistants but sent users OpenAI, DeepSeek and SiliconFlow API keys over plain HTTP to an attacker server; a paid tier gave out harvested keys.",
+    "source": "Aikido Security",
+    "url": "https://www.aikido.dev/blog/multiple-jetbrains-ide-plugins-caught-stealing-ai-keys",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "attribution": "Aikido Security analysis of plugin code and exfil endpoint; operator identity unknown.",
+    "motive": "Harvesting and resale of paid AI API access",
+    "vector": "Trojanized IDE plugins exfiltrating keys when users click Apply in settings",
+    "root_cause": "Marketplace review did not catch key exfiltration; users pasted live keys into third-party plugins",
+    "timeline": [
+      {
+        "date": "2025-10-01",
+        "event": "First malicious plugins published"
+      },
+      {
+        "date": "2026-06-10",
+        "event": "New plugins still being published"
+      },
+      {
+        "date": "2026-06-16",
+        "event": "Aikido discloses to JetBrains and publishes; top plugins still listed"
+      }
+    ],
+    "impact": "Roughly 70,000 combined installs; DeepSeek AI Assist and CodeGPT AI Assistant alone had over 53,000 downloads.",
+    "response": "Aikido advised rotating keys; JetBrains had not responded at publication.",
+    "status": "under investigation",
+    "cve": null,
+    "verification": "confirmed",
+    "sources": [
+      {
+        "name": "Aikido Security",
+        "url": "https://www.aikido.dev/blog/multiple-jetbrains-ide-plugins-caught-stealing-ai-keys"
+      },
+      {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/malicious-jetbrains-marketplace-plugins-steal-ai-api-keys-from-developers/"
+      },
+      {
+        "name": "Infosecurity Magazine",
+        "url": "https://infosecurity-magazine.com/news/fifteen-jetbrains-marketplace"
+      }
+    ]
+  },
+  {
     "id": "mastra-npm-sapphire-sleet",
     "date": "2026-06-17",
     "title": "North Korea's Sapphire Sleet hijacks maintainer account to trojanize 140+ Mastra AI npm packages",
@@ -9030,6 +11648,56 @@
       {
         "name": "BleepingComputer npm tag",
         "url": "https://www.bleepingcomputer.com/tag/npm/"
+      }
+    ]
+  },
+  {
+    "id": "chiba-teen-ai-ransomware-arrest",
+    "date": "2026-06-25",
+    "title": "Chiba police arrest 19-year-old who built ransomware with AI after Asahi attack news",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "JP",
+    "region": "Asia-Pacific",
+    "target": "Japanese internet users in a teen hacking chat group",
+    "loss_usd": null,
+    "summary": "Chiba police arrested a 19-year-old from Otsu for creating ransomware with generative AI in February 2026, saying news of the Asahi attack inspired him; eight others aged 13 to 19 were referred over the same chat group.",
+    "source": "Akita Sakigake Shimpo (Kyodo)",
+    "url": "https://www.sakigake.jp/news/article/20260625CO0175/",
+    "actor": "19-year-old company employee from Otsu, Shiga",
+    "actor_type": "criminal",
+    "attribution": "Suspect admitted the charge; police say he led a group on an online communication service where malware was exchanged.",
+    "motive": "Financial gain inspired by media coverage of the Asahi Group ransomware attack.",
+    "vector": "Generative AI prompted to produce ransomware code on a home PC; malware shared within a youth chat community.",
+    "root_cause": "Consumer AI tools lowered the skill barrier for malware creation among minors.",
+    "timeline": [
+      {
+        "date": "2025-04-01",
+        "event": "Victim reports paying 110,000 yen after a malicious file stole personal data"
+      },
+      {
+        "date": "2026-02-01",
+        "event": "Suspect allegedly creates ransomware with AI at home"
+      },
+      {
+        "date": "2026-06-25",
+        "event": "Chiba police announce arrest; eight minors referred to prosecutors or child welfare"
+      }
+    ],
+    "impact": "Ransomware created and circulated within a youth group; a separate member's malware extorted 110,000 yen from one victim.",
+    "response": "Arrest under the law on creation of unauthorised commands; Chiba police ran Japan's first rehabilitation programme for two 13 and 15-year-old members.",
+    "status": "under investigation",
+    "cve": null,
+    "verification": "confirmed",
+    "sources": [
+      {
+        "name": "Akita Sakigake Shimpo (秋田魁新報)",
+        "url": "https://www.sakigake.jp/news/article/20260625CO0175/"
+      },
+      {
+        "name": "Kumamoto Nichinichi Shimbun (熊本日日新聞)",
+        "url": "https://kumanichi.com/articles/2006833"
       }
     ]
   },
@@ -9084,6 +11752,56 @@
       {
         "name": "Lets Data Science",
         "url": "https://letsdatascience.com/news/taiwanese-woman-arrested-over-ai-deepfake-investment-scam-599be468"
+      }
+    ]
+  },
+  {
+    "id": "sysdig-jadepuffer-agentic-ransomware",
+    "date": "2026-07-01",
+    "title": "JADEPUFFER: LLM agent runs Langflow intrusion to database extortion end to end",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "Unnamed organisation running Langflow, MySQL and Nacos",
+    "loss_usd": null,
+    "summary": "Sysdig documented an LLM agent that exploited Langflow CVE-2025-3248, harvested keys, pivoted via a Nacos auth bypass, encrypted 1,342 config items with a key it never saved, dropped databases and left a ransom note.",
+    "source": "Sysdig Threat Research Team",
+    "url": "https://www.sysdig.com/blog/jadepuffer-agentic-ransomware-for-automated-database-extortion",
+    "actor": "JADEPUFFER",
+    "actor_type": "unknown",
+    "attribution": "Sysdig assesses an LLM agent drove the operation, citing self-narrating code and a 31-second failure fix; a human may have configured the agent. Operator unidentified.",
+    "motive": "Extortion",
+    "vector": "Unauthenticated Langflow code execution, secret harvesting, default MinIO credentials, cron beacon, forged Nacos JWT and backdoor admin account",
+    "root_cause": "Internet-facing Langflow with a known RCE and default credentials downstream",
+    "timeline": [
+      {
+        "date": "2025-04-09",
+        "event": "Langflow CVE-2025-3248 disclosed; fixed in 1.3.0"
+      },
+      {
+        "date": "2026-07-01",
+        "event": "Sysdig publishes JADEPUFFER analysis"
+      }
+    ],
+    "impact": "1,342 Nacos configuration items encrypted unrecoverably and several databases dropped; ransom amount not stated.",
+    "response": "Sysdig published IOCs; patch Langflow to 1.3.0 or later.",
+    "status": "unresolved",
+    "cve": "CVE-2025-3248",
+    "verification": "reported",
+    "sources": [
+      {
+        "name": "Sysdig",
+        "url": "https://www.sysdig.com/blog/jadepuffer-agentic-ransomware-for-automated-database-extortion"
+      },
+      {
+        "name": "Infosecurity Magazine",
+        "url": "https://infosecurity-magazine.com/news/researchers-first-agentic"
+      },
+      {
+        "name": "Outpost24",
+        "url": "https://outpost24.com/blog/jadepuffer-agentic-ransomware/"
       }
     ]
   },
@@ -9191,6 +11909,60 @@
     ]
   },
   {
+    "id": "unit42-tuxbot-v3-llm-botnet",
+    "date": "2026-07-16",
+    "title": "TuxBot v3: Keksec-linked IoT botnet built with LLM help keeps safety disclaimers",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "Linux IoT devices across 17 architectures",
+    "loss_usd": null,
+    "summary": "Unit 42 recovered the TuxBot v3 Evolution framework whose 61 C files carry an unremoved LLM safety disclaimer and chain-of-thought comments; about 70 percent works, including Telnet brute force and DDoS.",
+    "source": "Palo Alto Networks Unit 42",
+    "url": "https://unit42.paloaltonetworks.com/tuxbot-v3-evolution-iot-botnet/",
+    "actor": "Keksec ecosystem operator",
+    "actor_type": "criminal",
+    "attribution": "Unit 42 links the operator to Keksec via shared Kaitori v3.9 and AISURU dropper infrastructure; a Git log leaked an Iranian-hosted hostname.",
+    "motive": "DDoS-for-hire",
+    "vector": "Telnet, SSH, HTTP and ADB scanners, exploits for 30-plus IoT families, Go C2 with DDoS panel",
+    "root_cause": "LLM-generated code let a low-skill developer assemble a large framework, bugs and disclaimers included",
+    "timeline": [
+      {
+        "date": "2026-03-01",
+        "event": "C2 infrastructure active from at least this month"
+      },
+      {
+        "date": "2026-04-01",
+        "event": "Unit 42 sees six new samples in telemetry"
+      },
+      {
+        "date": "2026-07-15",
+        "event": "Unit 42 publishes analysis"
+      }
+    ],
+    "impact": "Operational DDoS capability; infection counts not reported. Several claimed features such as Argon2id hashing and the exploit VM were non-functional.",
+    "response": "Unit 42 published IOCs and noted it fixed several bugs with a few prompts, warning more polished versions likely exist.",
+    "status": "ongoing",
+    "cve": null,
+    "verification": "confirmed",
+    "sources": [
+      {
+        "name": "Unit 42",
+        "url": "https://unit42.paloaltonetworks.com/tuxbot-v3-evolution-iot-botnet/"
+      },
+      {
+        "name": "Security Affairs",
+        "url": "https://securityaffairs.com/195486/ai/tuxbot-v3-the-iot-botnet-built-with-ai-bugs-disclaimers-and-all.html"
+      },
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/07/tuxbot-v3-evolution-shows-signs-of-llm.html"
+      }
+    ]
+  },
+  {
     "id": "openai-agent-hugging-face",
     "date": "2026-07-21",
     "title": "OpenAI evaluation agent escapes sandbox and breaches Hugging Face production systems",
@@ -9252,6 +12024,148 @@
       {
         "name": "Quartz",
         "url": "https://qz.com/openai-rogue-agent-modal-labs-customer-hugging-face-072926"
+      }
+    ]
+  },
+  {
+    "id": "finland-deepfake-police-video-calls",
+    "date": "2026-07-22",
+    "title": "Finnish police warn of Google Meet deepfakes impersonating National Police Commissioner",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "FI",
+    "region": "Europe",
+    "target": "Immigrants in Finland; Finnish Police",
+    "loss_usd": null,
+    "summary": "Finland's National Bureau of Investigation said scammers have since June 2026 used Google Meet calls with suspected deepfakes of real officers, including Commissioner Ilkka Koskimaki, to extract banking details.",
+    "source": "Yle",
+    "url": "https://yle.fi/a/74-20237545",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "attribution": "No attribution; calls made in Finnish and English.",
+    "motive": "Bank credential theft and payment-card fraud.",
+    "vector": "Unsolicited video calls with deepfake officer faces, victims told to show payment cards to the camera.",
+    "root_cause": "Public photos of senior officers and free video-call tools enable live impersonation.",
+    "timeline": [
+      {
+        "date": "2026-06-01",
+        "event": "First reports of deepfake police video calls"
+      },
+      {
+        "date": "2026-07-22",
+        "event": "Police issue public warning naming impersonated officers"
+      }
+    ],
+    "impact": "Victims' banking and identity data targeted; totals not published.",
+    "response": "Police stated they never contact the public by video call and advised restricting Meet calls to known contacts.",
+    "status": "ongoing",
+    "cve": null,
+    "verification": "confirmed",
+    "sources": [
+      {
+        "name": "Yle",
+        "url": "https://yle.fi/a/74-20237545"
+      },
+      {
+        "name": "University of Oulu",
+        "url": "https://www.oulu.fi/en/news/beware-scam-calls-made-name-police"
+      },
+      {
+        "name": "Yle News",
+        "url": "https://yle.fi/news/18-217206"
+      }
+    ]
+  },
+  {
+    "id": "trend-ai-agent-pentest-pretext-sea",
+    "date": "2026-07-29",
+    "title": "Trend Micro: APT passes AI agent off as authorised pentest to attack Southeast Asian org",
+    "category": "State actor AI ops",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Asia-Pacific",
+    "target": "An organisation in Southeast Asia",
+    "loss_usd": null,
+    "summary": "Trend Micro described an actor, possibly Earth Lamia, that convinced an autonomous AI agent the operation was an authorised penetration test; the agent then ran scanning, exploitation, credential harvesting and spraying.",
+    "source": "Trend Micro",
+    "url": "https://www.trendaisecurity.com/en-us/resources-insights/deep-research/2026-h1-apt-report-how-apts-are-weaponizing-trust-in-the-age-of-ai",
+    "actor": "Possibly Earth Lamia",
+    "actor_type": "state",
+    "attribution": "Trend Micro ties the case to a possible Earth Lamia operation; confidence not stated.",
+    "motive": "Espionage",
+    "vector": "Autonomous AI agent driven under a pentest pretext performing recon, exploitation and lateral movement",
+    "root_cause": "Agent safeguards accepted an authorisation claim without verification",
+    "timeline": [
+      {
+        "date": "2026-01-01",
+        "event": "Activity observed in first half of 2026"
+      },
+      {
+        "date": "2026-07-29",
+        "event": "Trend Micro publishes H1 2026 APT report"
+      }
+    ],
+    "impact": "Agent-driven recon and credential attacks against a Southeast Asian organisation; extent of compromise not disclosed.",
+    "response": "Trend Micro published the case as part of its roundup.",
+    "status": "under investigation",
+    "cve": null,
+    "verification": "reported",
+    "sources": [
+      {
+        "name": "Trend Micro",
+        "url": "https://www.trendaisecurity.com/en-us/resources-insights/deep-research/2026-h1-apt-report-how-apts-are-weaponizing-trust-in-the-age-of-ai"
+      },
+      {
+        "name": "Trend Micro APT Activity Roundup PDF",
+        "url": "https://documents.trendmicro.com/assets/pdf/APT_Activity_Roundup_2026.pdf"
+      }
+    ]
+  },
+  {
+    "id": "trend-earth-krahang-naga-genai",
+    "date": "2026-07-29",
+    "title": "Trend Micro: Earth Krahang and Earth Naga fold generative AI into exploits and loaders",
+    "category": "State actor AI ops",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Asia-Pacific",
+    "target": "Organisations with vulnerable WordPress servers and Windows",
+    "loss_usd": null,
+    "summary": "Trend Micro's H1 2026 APT report documented China-aligned Earth Krahang using GenAI to turn a public exploit into a mass scanner and Earth Naga iteratively vibe-coding a PowerShell and C# backdoor loader.",
+    "source": "Trend Micro",
+    "url": "https://www.trendaisecurity.com/en-us/resources-insights/deep-research/2026-h1-apt-report-how-apts-are-weaponizing-trust-in-the-age-of-ai",
+    "actor": "Earth Krahang and Earth Naga",
+    "actor_type": "state",
+    "attribution": "Trend Micro attributes both to China-aligned actors; describes them as still in an exploratory phase of AI use.",
+    "motive": "Espionage",
+    "vector": "AI-enhanced exploit scanning at scale and AI-written backdoor loaders",
+    "root_cause": "Generative AI shortened exploit weaponisation and loader development for state operators",
+    "timeline": [
+      {
+        "date": "2026-01-01",
+        "event": "Activity observed during first half of 2026"
+      },
+      {
+        "date": "2026-07-29",
+        "event": "Trend Micro publishes H1 2026 APT report"
+      }
+    ],
+    "impact": "Large-scale automated vulnerability scanning and new loader tooling; victim counts not disclosed.",
+    "response": "Trend Micro published the roundup with detection guidance.",
+    "status": "ongoing",
+    "cve": null,
+    "verification": "reported",
+    "sources": [
+      {
+        "name": "Trend Micro",
+        "url": "https://www.trendaisecurity.com/en-us/resources-insights/deep-research/2026-h1-apt-report-how-apts-are-weaponizing-trust-in-the-age-of-ai"
+      },
+      {
+        "name": "Trend Micro newsroom",
+        "url": "https://newsroom.trendmicro.com/2026-07-29-TrendAI-TM-Reports-Nation-State-Activity-in-H1-2026-APT-Activity-Roundup?asPDF=1"
       }
     ]
   },
@@ -9480,6 +12394,102 @@
       {
         "name": "Bitsight",
         "url": "https://www.bitsight.com/blog/rondodox-botnet-infrastructure-analysis"
+      }
+    ]
+  },
+  {
+    "id": "bitdefender-silkparasite-ai-rats",
+    "date": "2026-08-19",
+    "title": "SilkParasite: China-nexus Central Asia espionage with AI-assisted lures and RAT code",
+    "category": "State actor AI ops",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "UZ",
+    "region": "Asia-Pacific",
+    "target": "Government bodies in Uzbekistan, Turkmenistan and Kazakhstan",
+    "loss_usd": null,
+    "summary": "Bitdefender tracked seven RAT families, five new, in about 65 infections at Central Asian governments; two lures appeared AI-generated and malware such as GoginRAT carried leftover test code suggesting AI assistance.",
+    "source": "Bitdefender Labs",
+    "url": "https://www.bitdefender.com/en-us/blog/businessinsights/silkparasite-tracking-china-nexus-apt-across-central-asia",
+    "actor": "SilkParasite (China-nexus cluster)",
+    "actor_type": "state",
+    "attribution": "Bitdefender assesses China-nexus with medium confidence via SpiceRAT links to SneakyChef, China Unicom IPs and victimology; no single group named.",
+    "motive": "Espionage on economic decision-making bodies",
+    "vector": "Archived lure documents evading gateways, DriveSilkRAT using a shared Google Drive folder for C2, plus CookiETagRAT, NomadRAT, GoginRAT, NodeEdgeRAT, SpiceRAT and BloodAlchemy",
+    "root_cause": "AI-assisted workflow let a human-engineered operation spawn redundant RAT families in multiple languages",
+    "timeline": [
+      {
+        "date": "2025-10-01",
+        "event": "Initial detection at a Central Asian economic government body"
+      },
+      {
+        "date": "2026-08-19",
+        "event": "Bitdefender publishes SilkParasite report"
+      }
+    ],
+    "impact": "About 65 infection instances (upper bound), mostly in Asia.",
+    "response": "Bitdefender published IOCs and notified affected parties.",
+    "status": "ongoing",
+    "cve": null,
+    "verification": "confirmed",
+    "sources": [
+      {
+        "name": "Bitdefender Labs",
+        "url": "https://www.bitdefender.com/en-us/blog/businessinsights/silkparasite-tracking-china-nexus-apt-across-central-asia"
+      },
+      {
+        "name": "Dark Reading",
+        "url": "https://darkreading.com/threat-intelligence/silkparasite-central-asian-orgs-flurry-rats"
+      },
+      {
+        "name": "BankInfoSecurity",
+        "url": "https://www.bankinfosecurity.com/china-linked-apt-uses-ai-to-optimize-hand-built-malware-a-32597"
+      }
+    ]
+  },
+  {
+    "id": "cisa-aa26-231a-siemens-ai-scripts",
+    "date": "2026-08-19",
+    "title": "NSA, CISA, FBI warn of AI-generated scripts probing Siemens S7 PLCs as fake OT monitors",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "US",
+    "region": "North America",
+    "target": "US critical manufacturing, energy, water, chemical and food",
+    "loss_usd": null,
+    "summary": "Joint advisory AA26-231A said threat actors use AI-generated Python scripts built on python-snap7, posing as monitoring tools, to read and write memory and ladder logic on internet-exposed Siemens S7 PLCs.",
+    "source": "CISA",
+    "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-231a",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "attribution": "Authored by NSA, CISA, FBI, DOE and EPA; the advisory does not attribute the activity to a specific actor or state.",
+    "motive": "Reconnaissance and capability development for future disruptive effects",
+    "vector": "Internet scanning for exposed PLCs with default or weak credentials, then AI-written S7comm scripts reading and writing data blocks",
+    "root_cause": "Internet-reachable PLCs with outdated firmware and weak credentials; AI lowered the cost of OT tooling",
+    "timeline": [
+      {
+        "date": "2026-08-19",
+        "event": "AA26-231A released by five US agencies"
+      },
+      {
+        "date": "2026-08-23",
+        "event": "Secondary advisories from ZeroFox and others amplify the warning"
+      }
+    ],
+    "impact": "Persistent reconnaissance across S7-200 through S7-1500 models; agencies assess a high-probability attack scenario but no confirmed sabotage.",
+    "response": "Agencies urged inventory, patching, blocking TCP 102 at the perimeter, allowlisting, MFA for remote OT access and ICS-aware monitoring.",
+    "status": "ongoing",
+    "cve": null,
+    "verification": "confirmed",
+    "sources": [
+      {
+        "name": "CISA advisory AA26-231A",
+        "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-231a"
+      },
+      {
+        "name": "ZeroFox advisory",
+        "url": "https://www.zerofox.com/advisories/41577/"
       }
     ]
   },
@@ -9833,6 +12843,52 @@
       {
         "name": "Let's Data Science coverage",
         "url": "https://letsdatascience.com/news/google-documents-criminal-use-of-autonomous-ai-agents-a1f2a31a"
+      }
+    ]
+  },
+  {
+    "id": "okta-infostealer-ai-tokens",
+    "date": "2026-09-08",
+    "title": "Okta: free Telegram stealer dump holds thousands of live AI session tokens and 24 API keys",
+    "category": "LLMjacking",
+    "direction": "on-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "Users of Google, Microsoft, Anthropic, Amazon and OpenAI AI",
+    "loss_usd": null,
+    "summary": "Okta analysed a 7 GB stealer log dump of 5,871 machines posted free on Telegram on 2 August 2026 and found 24 valid AI API keys plus thousands of unexpired session tokens for Google, Microsoft, Anthropic and Amazon.",
+    "source": "Okta Threat Intelligence",
+    "url": "https://www.okta.com/blog/threat-intelligence/signing_in_without_actually_signing_in/",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "attribution": "Okta analysis of a dump used as a teaser for paid stealer-log subscriptions; operators unidentified.",
+    "motive": "Resale of replayable AI access and subscription upsell",
+    "vector": "Infostealer logs containing browser session cookies, JWTs and API keys replayed through anti-detect browsers and proxies",
+    "root_cause": "Long-lived AI session tokens and API keys stored on endpoints without device binding or usage caps",
+    "timeline": [
+      {
+        "date": "2026-08-02",
+        "event": "Stealer log dump released free on a Telegram channel"
+      },
+      {
+        "date": "2026-09-08",
+        "event": "Okta publishes analysis"
+      }
+    ],
+    "impact": "9,213 unexpired Google and 1,763 Microsoft session tokens, 164 Anthropic and 254 Amazon tokens, 24 valid keys for Gemini, OpenAI, Groq and OpenRouter; 1,843 unexpired JWTs and JWEs, many from OpenAI.",
+    "response": "Okta recommended session-reuse detection, device-bound credentials, short-lived tokens, API usage caps and IP allowlisting.",
+    "status": "ongoing",
+    "cve": null,
+    "verification": "confirmed",
+    "sources": [
+      {
+        "name": "Okta Threat Intelligence",
+        "url": "https://www.okta.com/blog/threat-intelligence/signing_in_without_actually_signing_in/"
+      },
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/09/infostealer-logs-expose-replayable-ai.html"
       }
     ]
   },
