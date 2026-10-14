@@ -1,0 +1,30 @@
+{
+  "updated_at": "2026-10-14T12:35:49Z",
+  "wire_items": 139,
+  "new_items": 213,
+  "candidates": 0,
+  "incidents": 57,
+  "feeds_ok": [
+    "BleepingComputer",
+    "The Record",
+    "The Hacker News",
+    "SecurityWeek",
+    "Dark Reading",
+    "The Register",
+    "CyberScoop",
+    "Krebs on Security",
+    "WIRED Security",
+    "Help Net Security",
+    "Infosecurity Magazine",
+    "TechCrunch Security",
+    "Unit 42",
+    "Microsoft Security Blog",
+    "CISA Advisories",
+    "Simon Willison (prompt injection)",
+    "AI Incident Database"
+  ],
+  "feeds_failed": [
+
+  ],
+  "triage": "no ANTHROPIC_API_KEY: keyword filter only"
+}

@@ -1,0 +1,19 @@
+[
+  { "name": "BleepingComputer", "url": "https://www.bleepingcomputer.com/feed/", "ai_only": false },
+  { "name": "The Record", "url": "https://therecord.media/feed", "ai_only": false },
+  { "name": "The Hacker News", "url": "https://feeds.feedburner.com/TheHackersNews", "ai_only": false },
+  { "name": "SecurityWeek", "url": "https://www.securityweek.com/feed/", "ai_only": false },
+  { "name": "Dark Reading", "url": "https://www.darkreading.com/rss.xml", "ai_only": false },
+  { "name": "The Register", "url": "https://www.theregister.com/security/headlines.atom", "ai_only": false },
+  { "name": "CyberScoop", "url": "https://cyberscoop.com/feed/", "ai_only": false },
+  { "name": "Krebs on Security", "url": "https://krebsonsecurity.com/feed/", "ai_only": false },
+  { "name": "WIRED Security", "url": "https://www.wired.com/feed/category/security/latest/rss", "ai_only": false },
+  { "name": "Help Net Security", "url": "https://www.helpnetsecurity.com/feed/", "ai_only": false },
+  { "name": "Infosecurity Magazine", "url": "https://www.infosecurity-magazine.com/rss/news/", "ai_only": false },
+  { "name": "TechCrunch Security", "url": "https://techcrunch.com/category/security/feed/", "ai_only": false },
+  { "name": "Unit 42", "url": "https://unit42.paloaltonetworks.com/feed/", "ai_only": false },
+  { "name": "Microsoft Security Blog", "url": "https://www.microsoft.com/en-us/security/blog/feed/", "ai_only": false },
+  { "name": "CISA Advisories", "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml", "ai_only": false },
+  { "name": "Simon Willison (prompt injection)", "url": "https://simonwillison.net/tags/prompt-injection.atom", "ai_only": true },
+  { "name": "AI Incident Database", "url": "https://incidentdatabase.ai/rss.xml", "ai_only": true }
+]

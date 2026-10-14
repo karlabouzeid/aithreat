@@ -1,0 +1,3139 @@
+[
+  {
+    "id": "deepseek-db-exposure",
+    "date": "2025-01-29",
+    "title": "DeepSeek leaves ClickHouse database with chat logs and API secrets open",
+    "category": "Model & data leak",
+    "direction": "on-ai",
+    "severity": "high",
+    "country": "CN",
+    "region": "Asia-Pacific",
+    "target": "DeepSeek",
+    "loss_usd": null,
+    "summary": "Wiz found a publicly reachable DeepSeek ClickHouse database exposing over a million log lines including user chat history, API secrets and backend details; it was locked down after disclosure.",
+    "source": "Wiz Research",
+    "url": "https://www.wiz.io/blog/wiz-research-uncovers-exposed-deepseek-database-leak",
+    "actor": "Misconfiguration by DeepSeek; found by Wiz Research (responsible disclosure)",
+    "actor_type": "accident",
+    "attribution": "Self-evident misconfiguration; discovered and disclosed by Wiz Research, which notified DeepSeek before publishing",
+    "motive": "None (accidental exposure); Wiz motive was security research",
+    "vector": "Unauthenticated ClickHouse database reachable on ports 8123 and 9000 at oauth2callback.deepseek.com and dev.deepseek.com, queried via the HTTP interface",
+    "root_cause": "Internal ClickHouse log database deployed with no authentication and exposed to the public internet; sensitive data (chat history, API keys) written to plaintext logs",
+    "timeline": [
+      {
+        "date": "2025-01-06",
+        "event": "Oldest entries in the exposed log_stream table are dated from this day"
+      },
+      {
+        "date": "2025-01",
+        "event": "Wiz Research finds the open database within minutes while assessing DeepSeek's external attack surface"
+      },
+      {
+        "date": "2025-01-29",
+        "event": "Wiz publishes findings after DeepSeek promptly locks down the database following disclosure"
+      },
+      {
+        "date": "2025-01-30",
+        "event": "Wide press coverage (BleepingComputer, Fortune) amid scrutiny of DeepSeek's security and privacy posture"
+      }
+    ],
+    "impact": "Over one million log lines exposed: user chat history, API secret keys, backend details and operational metadata; Wiz said an attacker could have taken full control of the database and potentially escalated privileges",
+    "response": "DeepSeek secured the database promptly after Wiz's disclosure; no public statement from DeepSeek on whether anyone else accessed the data",
+    "status": "resolved",
+    "cve": null,
+    "sources": [
+      {
+        "name": "Wiz Research",
+        "url": "https://www.wiz.io/blog/wiz-research-uncovers-exposed-deepseek-database-leak"
+      },
+      {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/deepseek-ai-exposed-databases-with-user-chat-history-api-keys/"
+      },
+      {
+        "name": "Fortune",
+        "url": "https://fortune.com/2025/01/31/deepseek-sensitive-information-exposed-wiz-researchers"
+      }
+    ]
+  },
+  {
+    "id": "crosetto-voice-clone",
+    "date": "2025-02-12",
+    "title": "AI-cloned voice of Italy's defence minister used to con business leaders",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "IT",
+    "region": "Europe",
+    "target": "Italian business executives",
+    "loss_usd": null,
+    "summary": "Scammers mimicked Defence Minister Guido Crosetto's voice to solicit ransom money for 'kidnapped journalists'; Massimo Moratti wired nearly EUR 1M, which police later froze in the Netherlands.",
+    "source": "Reuters (via Yahoo News)",
+    "url": "https://www.yahoo.com/news/italian-police-freeze-cash-ai-191616980.html",
+    "actor": "Unknown fraud ring; two Dutch nationals placed under investigation",
+    "actor_type": "criminal",
+    "attribution": "Milan prosecutors placed two foreign (Dutch) nationals under investigation per ANSA; believed to be acting for others; no public arrests confirmed",
+    "motive": "Financial fraud (fake ransom for kidnapped journalists)",
+    "vector": "Phone calls from fake defence ministry officials handing over to an AI-cloned voice of Minister Crosetto requesting urgent wire transfers to foreign accounts",
+    "root_cause": "Realistic voice cloning of a public figure combined with urgency and authority pretext; victims had no out-of-band verification before wiring funds",
+    "timeline": [
+      {
+        "date": "2025-02",
+        "event": "Callers posing as Crosetto contact Armani, Bertelli, Moratti and other business leaders seeking ransom money"
+      },
+      {
+        "date": "2025-02",
+        "event": "Moratti wires two payments totalling almost EUR 1M, then files a complaint with Milan prosecutors"
+      },
+      {
+        "date": "2025-02-12",
+        "event": "Italian police announce the funds were traced to a Dutch account and completely frozen"
+      },
+      {
+        "date": "2025-02-13",
+        "event": "ANSA reports two Dutch nationals under investigation; Milan prosecutors probe organised-crime group formation"
+      }
+    ],
+    "impact": "Massimo Moratti wired almost EUR 1 million; Giorgio Armani, Patrizio Bertelli and other elites targeted but did not pay; funds later frozen",
+    "response": "Moratti filed a complaint; Milan prosecutors opened an organised-crime probe; funds traced and frozen in the Netherlands; two suspects identified",
+    "status": "under investigation",
+    "cve": null,
+    "sources": [
+      {
+        "name": "Reuters (via Yahoo News)",
+        "url": "https://www.yahoo.com/news/italian-police-freeze-cash-ai-191616980.html"
+      },
+      {
+        "name": "ANSA",
+        "url": "https://www.ansa.it/english/news/general_news/2025/02/13/two-probed-over-crosetto-fraud-case_32818e79-b700-4d77-a94a-1a8938e7dcee.html"
+      },
+      {
+        "name": "Cyprus Mail (Reuters)",
+        "url": "https://cyprus-mail.com/2025/02/12/italian-police-freeze-cash-from-ai-voice-scam-that-targeted-business-leaders"
+      }
+    ]
+  },
+  {
+    "id": "storm-2139-azure-openai",
+    "date": "2025-02-27",
+    "title": "Microsoft names Storm-2139 members who hijacked Azure OpenAI with stolen keys",
+    "category": "LLMjacking",
+    "direction": "on-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "Microsoft Azure OpenAI customers",
+    "loss_usd": null,
+    "summary": "Microsoft amended its lawsuit to name four people in a ring that used scraped customer API keys to access Azure OpenAI, bypass guardrails, resell access and generate harmful imagery.",
+    "source": "SecurityWeek",
+    "url": "https://www.securityweek.com/microsoft-names-suspects-in-lawsuit-against-ai-hackers/",
+    "actor": "Storm-2139 (Arian Yadegarnia, Alan Krysiak, Ricky Yuen, Phat Phung Tan)",
+    "actor_type": "criminal",
+    "attribution": "Named by Microsoft Digital Crimes Unit in an amended civil complaint (E.D. Virginia); members located in Iran, UK, Hong Kong and Vietnam",
+    "motive": "Resale of illicit access to generative AI services and creation of harmful or non-consensual imagery",
+    "vector": "Customer Azure OpenAI API keys scraped from public sources, used with a custom de3u tool and reverse-proxy to bypass safety guardrails and resell access",
+    "root_cause": "Customers leaking API keys in public code and configs; keys alone sufficed for access, enabling abuse until anomalous usage was detected",
+    "timeline": [
+      {
+        "date": "2024-07",
+        "event": "Microsoft discovers abuse of stolen Azure OpenAI API keys via the de3u tool"
+      },
+      {
+        "date": "2024-12",
+        "event": "Microsoft DCU files lawsuit against 10 John Does in Eastern District of Virginia; court allows seizure of a key domain"
+      },
+      {
+        "date": "2025-01",
+        "event": "Filings unsealed; Storm-2139 members allegedly dox Microsoft's lawyers in response"
+      },
+      {
+        "date": "2025-02-27",
+        "event": "Microsoft amends complaint naming four individuals (Fiz, Drago, cg-dot, Asakuri)"
+      }
+    ],
+    "impact": "Unauthorised use of Azure OpenAI accounts of Microsoft customers, guardrails bypassed to generate harmful images including of celebrities; access resold to end users; financial loss not disclosed",
+    "response": "Microsoft revoked access, added safety countermeasures, seized the de3u website, pursued civil litigation and referred the matter to law enforcement",
+    "status": "ongoing",
+    "cve": null,
+    "sources": [
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/microsoft-names-suspects-in-lawsuit-against-ai-hackers/"
+      },
+      {
+        "name": "Microsoft On the Issues",
+        "url": "https://blogs.microsoft.com/on-the-issues/?p=66868"
+      },
+      {
+        "name": "TechTarget",
+        "url": "https://www.techtarget.com/cybersecurity/news/366619781/Microsoft-targets-AI-deepfake-cybercrime-network-in-lawsuit"
+      },
+      {
+        "name": "Security Affairs",
+        "url": "https://securityaffairs.com/?p=174779"
+      }
+    ]
+  },
+  {
+    "id": "singapore-deepfake-zoom",
+    "date": "2025-04-07",
+    "title": "Deepfake Zoom call of executives tricks Singapore finance director into $499K transfer",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "SG",
+    "region": "Asia-Pacific",
+    "target": "Multinational firm (Singapore office)",
+    "loss_usd": 499000,
+    "summary": "A finance director joined a Zoom call with deepfaked company executives and wired about US$499,000 to a mule account; Singapore and Hong Kong police traced and froze the funds.",
+    "source": "Singapore Police Force",
+    "url": "https://www.police.gov.sg/media-room/news/20250407_singapore_and_hong_kong_police_force_recover_over_$670000_in_a_scam",
+    "actor": "Unknown business email compromise / deepfake fraud syndicate",
+    "actor_type": "criminal",
+    "attribution": "Not publicly attributed; Singapore Police Force and Hong Kong Anti-Deception Coordination Centre investigating",
+    "motive": "Financial fraud (CEO impersonation / business email compromise)",
+    "vector": "WhatsApp approach impersonating the CFO, followed by a Zoom call with deepfaked CEO and executives instructing a transfer to a local mule account",
+    "root_cause": "Video deepfakes of known executives defeated visual trust; no independent verification or dual-approval control on a large urgent transfer",
+    "timeline": [
+      {
+        "date": "2025-03-24",
+        "event": "Finance director contacted on WhatsApp by scammer impersonating the company's CFO"
+      },
+      {
+        "date": "2025-03-26",
+        "event": "Victim joins deepfake Zoom call and transfers over USD 499,000 from the firm's HSBC account to a mule account"
+      },
+      {
+        "date": "2025-03-28",
+        "event": "Victim alerts HSBC after a further USD 1.4M request; SPF Anti-Scam Centre and Hong Kong ADCC trace and withhold funds"
+      },
+      {
+        "date": "2025-04-07",
+        "event": "Singapore Police Force publicises the case and the cross-border recovery"
+      }
+    ],
+    "impact": "Over USD 499,000 (about S$670,000) transferred; over USD 494,000 moved on to Hong Kong accounts before being traced and withheld; scammers sought a further USD 1.4M",
+    "response": "HSBC notified the Anti-Scam Centre; Singapore and Hong Kong police traced and withheld the funds within days; investigations ongoing",
+    "status": "under investigation",
+    "cve": null,
+    "sources": [
+      {
+        "name": "Singapore Police Force",
+        "url": "https://www.police.gov.sg/media-room/news/20250407_singapore_and_hong_kong_police_force_recover_over_$670000_in_a_scam"
+      },
+      {
+        "name": "HRD Asia",
+        "url": "https://hcamag.com/asia/specialisation/hr-technology/singapore-firm-nearly-lost-500000-after-deepfake-video-scam-police/531450"
+      },
+      {
+        "name": "Frank on Fraud",
+        "url": "https://frankonfraud.com/hsbc-business-customer-got-deepfaked-sent-wire/"
+      }
+    ]
+  },
+  {
+    "id": "echoleak-m365-copilot",
+    "date": "2025-06-11",
+    "title": "EchoLeak: zero-click prompt injection in Microsoft 365 Copilot (CVE-2025-32711)",
+    "category": "Prompt injection",
+    "direction": "on-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "Microsoft 365 Copilot",
+    "loss_usd": null,
+    "summary": "Aim Security showed a crafted email could make M365 Copilot silently exfiltrate tenant data with no clicks; Microsoft fixed it server-side, CVSS 9.3, no in-the-wild abuse reported.",
+    "source": "SOC Prime",
+    "url": "https://socprime.com/blog/cve-2025-32711-zero-click-ai-vulnerability/",
+    "actor": "Security researchers at Aim Security (responsible disclosure)",
+    "actor_type": "researcher",
+    "attribution": "Self-disclosed by Aim Security; vulnerability confirmed and rated critical by Microsoft (MSRC)",
+    "motive": "Security research; no malicious exploitation reported",
+    "vector": "Indirect prompt injection via a crafted inbound email that Copilot ingests through RAG, exfiltrating data via an allowlisted Teams image proxy while bypassing the XPIA classifier and link redaction",
+    "root_cause": "LLM scope violation: untrusted email content could steer Copilot into reading privileged tenant data and emitting it in outbound requests without user interaction",
+    "timeline": [
+      {
+        "date": "2025-01",
+        "event": "Aim Security discovers the zero-click chain and reports it to Microsoft"
+      },
+      {
+        "date": "2025-05",
+        "event": "Microsoft deploys a server-side fix (some reports place final remediation in June)"
+      },
+      {
+        "date": "2025-06-11",
+        "event": "CVE-2025-32711 published (CVSS 9.3); Aim Security publishes EchoLeak research"
+      }
+    ],
+    "impact": "Proof-of-concept only: could silently exfiltrate emails, files and chat context from a Microsoft 365 tenant; no evidence of in-the-wild exploitation",
+    "response": "Microsoft fixed the issue server-side with no customer action required and assigned a critical CVE; Aim criticised the roughly five-month remediation time",
+    "status": "patched",
+    "cve": "CVE-2025-32711",
+    "sources": [
+      {
+        "name": "SOC Prime",
+        "url": "https://socprime.com/blog/cve-2025-32711-zero-click-ai-vulnerability/"
+      },
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2025/06/zero-click-ai-vulnerability-exposes.html"
+      },
+      {
+        "name": "Hack The Box",
+        "url": "https://www.hackthebox.com/blog/cve-2025-32711-echoleak-copilot-vulnerability"
+      }
+    ]
+  },
+  {
+    "id": "langflow-flodrix",
+    "date": "2025-06-17",
+    "title": "Langflow AI agent builder RCE (CVE-2025-3248) exploited to spread Flodrix botnet",
+    "category": "AI supply chain",
+    "direction": "on-ai",
+    "severity": "critical",
+    "country": "GL",
+    "region": "Global",
+    "target": "Langflow servers",
+    "loss_usd": null,
+    "summary": "After CISA added the unauthenticated Langflow code-injection flaw to KEV, attackers used public exploits on exposed AI workflow servers to install the Flodrix DDoS botnet.",
+    "source": "Trend Micro",
+    "url": "https://www.trendmicro.com/en_us/research/25/f/langflow-vulnerability-flodric-botnet.html",
+    "actor": "Unknown Flodrix botnet operators",
+    "actor_type": "criminal",
+    "attribution": "No public attribution; campaign documented by Trend Micro Research, exploitation confirmed by CISA KEV listing",
+    "motive": "Building a DDoS botnet; potential data theft from compromised AI servers",
+    "vector": "Unauthenticated code injection in the /api/v1/validate/code endpoint of Langflow, exploited with public PoCs to drop a 'docker' shell script that fetches Flodrix ELF binaries",
+    "root_cause": "Missing authentication and unsafe evaluation of user-supplied Python in the code-validation endpoint of Langflow versions before 1.3.0; many instances exposed to the internet unpatched",
+    "timeline": [
+      {
+        "date": "2025-03",
+        "event": "Langflow 1.3.0 released fixing CVE-2025-3248 (CVSS 9.8)"
+      },
+      {
+        "date": "2025-05-05",
+        "event": "CISA adds CVE-2025-3248 to the Known Exploited Vulnerabilities catalog"
+      },
+      {
+        "date": "2025-06-17",
+        "event": "Trend Micro publishes analysis of Flodrix botnet campaign exploiting exposed Langflow servers"
+      }
+    ],
+    "impact": "Full compromise of unpatched internet-exposed Langflow servers, enrolment into the Flodrix DDoS botnet and possible exposure of AI workflows and credentials; victim count not disclosed",
+    "response": "Langflow patched in v1.3.0; CISA mandated federal patching via KEV; Trend Micro published IOCs and urged upgrades and network isolation",
+    "status": "patched",
+    "cve": "CVE-2025-3248",
+    "sources": [
+      {
+        "name": "Trend Micro",
+        "url": "https://www.trendmicro.com/en_us/research/25/f/langflow-vulnerability-flodric-botnet.html"
+      },
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/recent-langflow-vulnerability-exploited-by-flodrix-botnet/"
+      },
+      {
+        "name": "Dark Reading",
+        "url": "https://www.darkreading.com/vulnerabilities-threats/hackers-exploit-langflow-flaw-flodrix-botnet"
+      }
+    ]
+  },
+  {
+    "id": "rubio-ai-impersonation",
+    "date": "2025-07-08",
+    "title": "AI voice impersonator of Marco Rubio contacts foreign ministers via Signal",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "US",
+    "region": "North America",
+    "target": "US State Department / senior officials",
+    "loss_usd": null,
+    "summary": "A State Department cable warned an impostor used AI-generated voice and text on Signal to pose as Secretary Rubio, contacting three foreign ministers, a governor and a member of Congress.",
+    "source": "Anchorage Daily News (Washington Post)",
+    "url": "https://www.adn.com/nation-world/2025/07/08/a-marco-rubio-impostor-is-using-ai-voice-to-call-high-level-officials/",
+    "actor": "Unknown impostor",
+    "actor_type": "unknown",
+    "attribution": "Not publicly attributed; State Department cable said identity unknown; FBI had warned in May 2025 of similar impersonation of senior US officials",
+    "motive": "Likely access to information or accounts of targeted officials (per State Department cable)",
+    "vector": "Signal account with display name Marco.Rubio@state.gov sending AI-generated voicemails and text messages mimicking Rubio's voice and writing style",
+    "root_cause": "Public availability of Rubio's voice samples for cloning; reliance on consumer messaging apps where identity is unverified",
+    "timeline": [
+      {
+        "date": "2025-05",
+        "event": "FBI warns of AI voice and text campaigns impersonating senior US officials"
+      },
+      {
+        "date": "2025-06",
+        "event": "Impostor contacts three foreign ministers, a US governor and a member of Congress via Signal in mid-June"
+      },
+      {
+        "date": "2025-07-03",
+        "event": "State Department cable alerts diplomatic posts to the impersonation"
+      },
+      {
+        "date": "2025-07-08",
+        "event": "Washington Post and Reuters report the cable publicly"
+      }
+    ],
+    "impact": "At least five non-Department individuals contacted; no confirmed compromise of information or accounts was publicly reported",
+    "response": "State Department opened an investigation, warned partners about fake accounts and advised officials to report impersonation attempts to Diplomatic Security",
+    "status": "under investigation",
+    "cve": null,
+    "sources": [
+      {
+        "name": "Anchorage Daily News (Washington Post)",
+        "url": "https://www.adn.com/nation-world/2025/07/08/a-marco-rubio-impostor-is-using-ai-voice-to-call-high-level-officials/"
+      },
+      {
+        "name": "KSL (Reuters)",
+        "url": "https://www.ksl.com/article/news/politics/rubio-impersonator-using-ai-contacted-foreign-ministers-cable-says/51342064"
+      },
+      {
+        "name": "Yahoo News",
+        "url": "https://www.yahoo.com/news/fake-ai-voice-impersonating-secretary-131407943.html"
+      }
+    ]
+  },
+  {
+    "id": "mchire-paradox-exposure",
+    "date": "2025-07-09",
+    "title": "McDonald's McHire AI hiring bot exposed up to 64M applicant records via '123456' login",
+    "category": "Model & data leak",
+    "direction": "on-ai",
+    "severity": "high",
+    "country": "US",
+    "region": "North America",
+    "target": "McDonald's / Paradox.ai",
+    "loss_usd": null,
+    "summary": "Researchers accessed the admin panel of the Olivia hiring chatbot with default 123456 credentials and an IDOR flaw, exposing chat logs and contact data tied to up to 64M applications.",
+    "source": "BleepingComputer",
+    "url": "https://www.bleepingcomputer.com/news/security/123456-password-exposed-chats-for-64-million-mcdonalds-job-chatbot-applications",
+    "actor": "Security researchers Ian Carroll and Sam Curry (responsible disclosure)",
+    "actor_type": "researcher",
+    "attribution": "Self-disclosed by the researchers; confirmed by Paradox.ai and McDonald's",
+    "motive": "Security research; no malicious access reported",
+    "vector": "Default credentials 123456/123456 on a Paradox.ai test franchise account in the McHire admin portal, plus an IDOR on an internal API allowing lead_id enumeration",
+    "root_cause": "Unchanged default test credentials on a production-connected admin portal and missing authorisation checks on an applicant-data API",
+    "timeline": [
+      {
+        "date": "2025-06-30",
+        "event": "Researchers find the flaws and report to Paradox.ai and McDonald's"
+      },
+      {
+        "date": "2025-06-30",
+        "event": "Default credentials disabled and IDOR fixed the same day, per McDonald's and Paradox.ai"
+      },
+      {
+        "date": "2025-07-09",
+        "event": "Public disclosure via Wired and BleepingComputer; Paradox.ai announces a bug bounty programme"
+      }
+    ],
+    "impact": "Names, emails, phone numbers, addresses and chatbot transcripts tied to up to 64 million McHire applications were reachable; Paradox said only the researchers accessed a portion of records",
+    "response": "Paradox.ai and McDonald's fixed the issues the day they were reported; Paradox launched a vulnerability disclosure bounty programme",
+    "status": "patched",
+    "cve": null,
+    "sources": [
+      {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/123456-password-exposed-chats-for-64-million-mcdonalds-job-chatbot-applications"
+      },
+      {
+        "name": "CSO Online",
+        "url": "https://www.csoonline.com/article/4020919/mcdonalds-ai-hiring-tools-password-123456-exposes-data-of-64m-applicants.html"
+      },
+      {
+        "name": "Cyber Daily",
+        "url": "https://www.cyberdaily.au/security/12382-not-lovin-it-mcdonalds-hiring-backend-exposes-64m-chatbot-job-discussions"
+      }
+    ]
+  },
+  {
+    "id": "lamehug-apt28",
+    "date": "2025-07-17",
+    "title": "LameHug: APT28-linked malware queries Qwen LLM to generate commands",
+    "category": "State actor AI ops",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "UA",
+    "region": "Europe",
+    "target": "Ukrainian government bodies",
+    "loss_usd": null,
+    "summary": "CERT-UA reported phishing that delivered LameHug, a Python stealer using Qwen 2.5-Coder via Hugging Face's API to craft recon and theft commands, attributed to APT28 with moderate confidence.",
+    "source": "BleepingComputer",
+    "url": "https://www.bleepingcomputer.com/news/security/lamehug-malware-uses-ai-llm-to-craft-windows-data-theft-commands-in-real-time/",
+    "actor": "APT28 (Russian GRU-linked, aka Fancy Bear / UAC-0001)",
+    "actor_type": "state",
+    "attribution": "Attributed by CERT-UA with moderate (medium) confidence",
+    "motive": "Espionage against Ukrainian security and defence sector",
+    "vector": "Phishing from compromised accounts impersonating ministry officials with a ZIP holding a PyInstaller .pif executable that queries Qwen2.5-Coder-32B via the Hugging Face API for commands",
+    "root_cause": "Email account compromise enabling convincing lures; LLM API calls to a legitimate service blend malicious command generation into normal traffic",
+    "timeline": [
+      {
+        "date": "2025-07-10",
+        "event": "CERT-UA receives reports of phishing emails targeting executive government bodies"
+      },
+      {
+        "date": "2025-07-17",
+        "event": "CERT-UA publishes LameHug analysis and APT28 attribution"
+      },
+      {
+        "date": "2025-07-23",
+        "event": "Cato Networks estimates roughly 270 Hugging Face tokens were used by the operators"
+      }
+    ],
+    "impact": "Targeted Ukrainian government bodies; malware collected system information and Office, PDF and TXT documents for exfiltration via SFTP or HTTP POST; number of victims not disclosed",
+    "response": "CERT-UA issued an advisory with IOCs; Hugging Face reportedly notified; defenders urged to block the delivery infrastructure",
+    "status": "contained",
+    "cve": null,
+    "sources": [
+      {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/lamehug-malware-uses-ai-llm-to-craft-windows-data-theft-commands-in-real-time/"
+      },
+      {
+        "name": "Security Affairs",
+        "url": "https://securityaffairs.com/180092/apt/lamehug-first-ai-powered-malware-linked-to-russias-apt28-group.html"
+      },
+      {
+        "name": "Infosecurity Magazine",
+        "url": "https://www.infosecurity-magazine.com/news/new-lamehug-malware-deploys/"
+      }
+    ]
+  },
+  {
+    "id": "amazon-q-wiper-prompt",
+    "date": "2025-07-23",
+    "title": "Hacker plants data-wiping prompt in Amazon Q Developer VS Code extension",
+    "category": "AI supply chain",
+    "direction": "on-ai",
+    "severity": "high",
+    "country": "US",
+    "region": "North America",
+    "target": "Amazon Q Developer extension",
+    "loss_usd": null,
+    "summary": "A malicious pull request slipped a prompt telling the AI agent to wipe local files and AWS resources into a signed Q extension release; a formatting error kept it from executing.",
+    "source": "BleepingComputer",
+    "url": "https://bleepingcomputer.com/news/security/amazon-ai-coding-agent-hacked-to-inject-data-wiping-commands",
+    "actor": "Unknown hacker using GitHub alias lkmanka58",
+    "actor_type": "hacktivist",
+    "attribution": "Self-claimed via 404 Media interview (said goal was to expose 'AI security theater'); identity not publicly attributed by Amazon",
+    "motive": "Demonstrating weak AI supply-chain controls; attacker claimed no intent to cause real damage",
+    "vector": "Commit to the open-source aws-toolkit-vscode GitHub repository inserting a destructive natural-language prompt that shipped in signed release 1.84.0",
+    "root_cause": "Inadequate access controls and code review in the public repository allowed an unknown account to land a prompt payload that was then packaged and signed without detection",
+    "timeline": [
+      {
+        "date": "2025-07-13",
+        "event": "Account lkmanka58 commits the malicious prompt to Amazon's GitHub repository"
+      },
+      {
+        "date": "2025-07-17",
+        "event": "Version 1.84.0 of Amazon Q Developer for VS Code ships with the wiper prompt"
+      },
+      {
+        "date": "2025-07-23",
+        "event": "404 Media reports the compromise; Amazon acknowledges and pulls the release"
+      },
+      {
+        "date": "2025-07-24",
+        "event": "Amazon releases clean version 1.85.0 and revokes compromised credentials"
+      }
+    ],
+    "impact": "Malicious prompt distributed to an extension with over 950,000 installs; Amazon said the prompt was malformed and no customer resources were affected",
+    "response": "Amazon removed 1.84.0, revoked and replaced credentials, published 1.85.0 and said it mitigated an attempt to exploit a known issue in two open-source repositories",
+    "status": "resolved",
+    "cve": null,
+    "sources": [
+      {
+        "name": "BleepingComputer",
+        "url": "https://bleepingcomputer.com/news/security/amazon-ai-coding-agent-hacked-to-inject-data-wiping-commands"
+      },
+      {
+        "name": "TechRepublic",
+        "url": "https://www.techrepublic.com/article/news-amazon-q-data-wiping-prompt-security-hack/"
+      },
+      {
+        "name": "CyberInsider",
+        "url": "https://cyberinsider.com/amazons-ai-coding-assistant-for-vsc-infected-with-data-wiper/"
+      }
+    ]
+  },
+  {
+    "id": "grok-chats-indexed",
+    "date": "2025-08-20",
+    "title": "Over 370,000 Grok conversations exposed in Google search via share links",
+    "category": "Model & data leak",
+    "direction": "on-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "xAI Grok users",
+    "loss_usd": null,
+    "summary": "Forbes found Grok's share button generated indexable URLs, so search engines surfaced hundreds of thousands of user chats, some with personal, medical or credential details.",
+    "source": "Fortune",
+    "url": "https://fortune.com/2025/08/22/xai-grok-chats-public-on-google-search-elon-musk",
+    "actor": "xAI product design flaw; exposure found by Forbes",
+    "actor_type": "accident",
+    "attribution": "Self-evident from Forbes investigation; xAI did not dispute the indexing",
+    "motive": "None (accidental exposure via share feature)",
+    "vector": "Grok 'Share' button created public URLs on grok.com with no noindex protection or user warning, which Google, Bing and DuckDuckGo crawled and indexed",
+    "root_cause": "Share links published on the open web without noindex headers or consent disclosure, repeating the earlier ChatGPT shared-link indexing problem",
+    "timeline": [
+      {
+        "date": "2025-08-20",
+        "event": "Forbes reports over 370,000 Grok conversations indexed by Google"
+      },
+      {
+        "date": "2025-08-22",
+        "event": "Fortune and others detail exposed content including passwords, medical questions and harmful instructions"
+      }
+    ],
+    "impact": "More than 370,000 user conversations publicly searchable, some containing names, passwords, medical details and instructions for drugs, explosives and malware",
+    "response": "No formal statement from xAI beyond a Google spokesperson noting publishers control indexing; no public confirmation of a feature fix",
+    "status": "unresolved",
+    "cve": null,
+    "sources": [
+      {
+        "name": "Fortune",
+        "url": "https://fortune.com/2025/08/22/xai-grok-chats-public-on-google-search-elon-musk"
+      },
+      {
+        "name": "Forbes Australia",
+        "url": "https://www.forbes.com.au/news/innovation/xai-published-hundreds-of-thousands-of-grok-chatbot-conversations/"
+      },
+      {
+        "name": "Yahoo News",
+        "url": "https://www.yahoo.com/news/articles/thousands-private-user-conversations-elon-173216941.html"
+      }
+    ]
+  },
+  {
+    "id": "salesloft-drift-oauth",
+    "date": "2025-08-26",
+    "title": "Drift AI chatbot OAuth tokens stolen to raid 700+ Salesforce tenants",
+    "category": "AI supply chain",
+    "direction": "on-ai",
+    "severity": "critical",
+    "country": "GL",
+    "region": "Global",
+    "target": "Salesloft Drift / Salesforce customers",
+    "loss_usd": null,
+    "summary": "UNC6395 used OAuth tokens stolen from the Drift AI chat integration to bulk-export Salesforce data from hundreds of organizations and hunt for cloud keys and passwords.",
+    "source": "Security Affairs",
+    "url": "https://securityaffairs.com/181632/hacking/unc6395-targets-salesloft-in-drift-oauth-token-theft-campaign.html",
+    "actor": "UNC6395 (unknown financially motivated group)",
+    "actor_type": "criminal",
+    "attribution": "Tracked as UNC6395 by Google Threat Intelligence Group and Mandiant; a group claiming ties to ShinyHunters also claimed responsibility, unconfirmed",
+    "motive": "Credential harvesting (AWS keys, Snowflake tokens, passwords) from CRM data for follow-on intrusions and extortion",
+    "vector": "Stolen OAuth and refresh tokens for the Salesloft Drift Salesforce integration used to run SOQL queries and bulk-export Account, Case, Opportunity and User objects",
+    "root_cause": "Compromise of Salesloft's GitHub and Drift AWS environment exposed long-lived OAuth tokens for a widely trusted third-party app with broad Salesforce data scope",
+    "timeline": [
+      {
+        "date": "2025-03",
+        "event": "Per Mandiant, actor gains access to Salesloft's GitHub account (March to June) and later Drift's AWS environment"
+      },
+      {
+        "date": "2025-08-08",
+        "event": "Mass Salesforce data exfiltration via Drift OAuth tokens begins, continuing through at least August 18"
+      },
+      {
+        "date": "2025-08-20",
+        "event": "Salesforce and Salesloft revoke all Drift tokens and remove Drift from AppExchange"
+      },
+      {
+        "date": "2025-08-26",
+        "event": "Google Threat Intelligence Group publishes UNC6395 advisory; Drift Email tokens also found abused against Google Workspace"
+      }
+    ],
+    "impact": "Over 700 organisations' Salesforce data exported, including support cases containing AWS keys, Snowflake tokens and passwords; downstream disclosures from Cloudflare, Zscaler, Palo Alto Networks, Google and others",
+    "response": "Tokens revoked, Drift integration disabled and later taken offline, Mandiant engaged, customers told to rotate exposed secrets; FBI issued a FLASH alert",
+    "status": "contained",
+    "cve": null,
+    "sources": [
+      {
+        "name": "Security Affairs",
+        "url": "https://securityaffairs.com/181632/hacking/unc6395-targets-salesloft-in-drift-oauth-token-theft-campaign.html"
+      },
+      {
+        "name": "Google Cloud Threat Intelligence",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/unc6395-github-malware-salesforce-data"
+      },
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2025/08/27/hundreds-of-salesforce-customer-orgs-hit-in-clever-attack-with-potentially-huge-blast-radius/"
+      }
+    ]
+  },
+  {
+    "id": "promptlock-ransomware",
+    "date": "2025-08-26",
+    "title": "ESET finds PromptLock, ransomware that uses a local gpt-oss model to write scripts",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "low",
+    "country": "GL",
+    "region": "Global",
+    "target": "Windows and Linux systems",
+    "loss_usd": null,
+    "summary": "ESET described PromptLock, a Go ransomware prototype that prompts gpt-oss:20b via Ollama to generate Lua scripts for discovery, exfiltration and encryption; likely a proof of concept.",
+    "source": "Security Affairs",
+    "url": "https://securityaffairs.com/181595/malware/eset-warns-of-promptlock-the-first-ai-driven-ransomware.html",
+    "actor": "NYU Tandon researchers (Ransomware 3.0 academic prototype)",
+    "actor_type": "researcher",
+    "attribution": "NYU Tandon team publicly claimed authorship after ESET's disclosure; ESET agreed the academic prototype closely resembles the PromptLock samples",
+    "motive": "Academic research into LLM-orchestrated ransomware; samples uploaded to VirusTotal to test detection",
+    "vector": "Go binary with hard-coded prompts calling OpenAI gpt-oss:20b via the Ollama API to generate Lua scripts for file enumeration, exfiltration and encryption",
+    "root_cause": "Freely available open-weight LLMs can be embedded in malware to generate polymorphic payloads at runtime; sample reached VirusTotal without research labelling",
+    "timeline": [
+      {
+        "date": "2025-08",
+        "event": "Windows and Linux PromptLock samples uploaded to VirusTotal"
+      },
+      {
+        "date": "2025-08-26",
+        "event": "ESET publishes analysis calling it the first AI-powered ransomware, judged a proof of concept"
+      },
+      {
+        "date": "2025-09",
+        "event": "NYU Tandon researchers reveal PromptLock is their Ransomware 3.0 prototype and non-functional outside a lab"
+      }
+    ],
+    "impact": "No real-world victims; destruction features unimplemented; demonstrated feasibility of LLM-driven ransomware across Windows and Linux",
+    "response": "ESET published detections and IOCs; NYU clarified the research origin and stated the prototype was lab-only",
+    "status": "resolved",
+    "cve": null,
+    "sources": [
+      {
+        "name": "Security Affairs",
+        "url": "https://securityaffairs.com/181595/malware/eset-warns-of-promptlock-the-first-ai-driven-ransomware.html"
+      },
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2025/08/someone-created-first-ai-powered.html"
+      },
+      {
+        "name": "Security Boulevard",
+        "url": "https://securityboulevard.com/2025/09/nyu-scientists-develop-eset-detects-first-ai-powered-ransomware/"
+      },
+      {
+        "name": "Dark Reading",
+        "url": "https://www.darkreading.com/vulnerabilities-threats/ai-powered-ransomware-promptlock"
+      }
+    ]
+  },
+  {
+    "id": "nx-s1ngularity",
+    "date": "2025-08-27",
+    "title": "s1ngularity: trojanized Nx packages weaponize Claude and Gemini CLIs to steal secrets",
+    "category": "AI supply chain",
+    "direction": "on-ai",
+    "severity": "critical",
+    "country": "GL",
+    "region": "Global",
+    "target": "Nx build system users",
+    "loss_usd": null,
+    "summary": "Malicious Nx npm releases ran local AI coding CLIs with permission-bypass flags to inventory secrets, then leaked thousands of developer credentials to public GitHub repos.",
+    "source": "Okta",
+    "url": "https://www.okta.com/newsroom/articles/the-s1ngularity-attack--when-attackers-prompt-your-ai-agents-to-",
+    "actor": "Unknown supply-chain attacker (s1ngularity)",
+    "actor_type": "criminal",
+    "attribution": "No public attribution; analysed by Nx maintainers, Wiz, StepSecurity, Socket and GitHub Security Lab",
+    "motive": "Mass theft of developer secrets (GitHub and npm tokens, SSH keys, crypto wallets, cloud credentials)",
+    "vector": "Malicious postinstall script in Nx npm releases 20.9.0 to 21.8.0 ran Claude, Gemini and Q CLIs with permission-bypass flags to find secrets, then pushed them to public GitHub repos",
+    "root_cause": "Nx GitHub Actions workflow using pull_request_target with an unsanitised PR title let the attacker steal the npm publish token from an outdated branch",
+    "timeline": [
+      {
+        "date": "2025-08-21",
+        "event": "Vulnerable workflow added to Nx repo; reverted on master but still present on an outdated branch"
+      },
+      {
+        "date": "2025-08-26",
+        "event": "Attacker publishes trojanized Nx versions to npm; malware runs AI CLIs and leaks secrets for several hours"
+      },
+      {
+        "date": "2025-08-27",
+        "event": "Nx pulls malicious versions, revokes tokens and publishes advisory GHSA-cxm3-wv7p-598c"
+      },
+      {
+        "date": "2025-08-28",
+        "event": "Second phase: stolen GitHub tokens used to flip about 6,700 private repos public across 480 accounts"
+      },
+      {
+        "date": "2025-09-09",
+        "event": "Wiz reports 2,180 accounts and 7,200 repositories affected across three phases"
+      }
+    ],
+    "impact": "Over 2,000 secrets and 20,000 files leaked from about 1,000 developers; 480 accounts and about 6,700 private repositories made public; 2,180 accounts affected overall per Wiz",
+    "response": "Nx revoked npm tokens, removed packages, enforced 2FA and trusted publishing; GitHub removed leaked repositories; victims told to rotate all credentials",
+    "status": "contained",
+    "cve": null,
+    "sources": [
+      {
+        "name": "Okta",
+        "url": "https://www.okta.com/newsroom/articles/the-s1ngularity-attack--when-attackers-prompt-your-ai-agents-to-"
+      },
+      {
+        "name": "Wiz",
+        "url": "https://www.wiz.io/blog/s1ngularity-supply-chain-attack"
+      },
+      {
+        "name": "BleepingComputer",
+        "url": "https://bleepingcomputer.com/news/security/ai-powered-malware-hit-2-180-github-accounts-in-s1ngularity-attack"
+      },
+      {
+        "name": "GitHub Security Lab",
+        "url": "https://securitylab.github.com/advisories/GHSL-2025-111_nrwl_nx/"
+      }
+    ]
+  },
+  {
+    "id": "anthropic-vibe-hacking",
+    "date": "2025-08-27",
+    "title": "Claude Code used to automate data extortion against 17 organizations",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "Healthcare, government, emergency services",
+    "loss_usd": null,
+    "summary": "Anthropic's threat report described a criminal using Claude Code for recon, credential harvesting and tailored ransom notes against at least 17 organizations, demanding up to ~$500K.",
+    "source": "Malwarebytes",
+    "url": "https://www.malwarebytes.com/blog/news/2025/08/claude-ai-chatbot-abused-to-launch-cybercrime-spree",
+    "actor": "GTG-2002 (unnamed cybercriminal tracked by Anthropic)",
+    "actor_type": "criminal",
+    "attribution": "Identified and disrupted by Anthropic's threat intelligence team; actor identity not publicly disclosed",
+    "motive": "Financial extortion via data theft (ransoms of USD 75,000 to over 500,000 in bitcoin)",
+    "vector": "Claude Code used as an autonomous operator: scanning thousands of VPN endpoints, credential harvesting, writing obfuscated tunnelling tools, selecting data to steal and drafting ransom notes",
+    "root_cause": "Agentic coding tools can be misused to run end-to-end intrusions at scale; victims had internet-exposed VPN services and weak credential hygiene",
+    "timeline": [
+      {
+        "date": "2025-07",
+        "event": "Anthropic detects the extortion operation spanning at least 17 organisations"
+      },
+      {
+        "date": "2025-08-27",
+        "event": "Anthropic publishes threat intelligence report describing the vibe hacking case and bans the accounts"
+      }
+    ],
+    "impact": "At least 17 organisations in healthcare, emergency services, government and religious sectors had personal, health and financial records stolen; ransoms demanded up to over USD 500,000",
+    "response": "Anthropic banned the accounts, deployed new classifiers to detect similar misuse and shared indicators with partners and authorities",
+    "status": "contained",
+    "cve": null,
+    "sources": [
+      {
+        "name": "Malwarebytes",
+        "url": "https://www.malwarebytes.com/blog/news/2025/08/claude-ai-chatbot-abused-to-launch-cybercrime-spree"
+      },
+      {
+        "name": "Anthropic",
+        "url": "https://www.anthropic.com/news/detecting-countering-misuse-aug-2025"
+      },
+      {
+        "name": "Dark Reading",
+        "url": "https://www.darkreading.com/cyberattacks-data-breaches/anthropic-ai-automate-data-extortion-campaign"
+      }
+    ]
+  },
+  {
+    "id": "kimsuky-chatgpt-military-id",
+    "date": "2025-09-15",
+    "title": "Kimsuky uses ChatGPT-forged South Korean military ID in spear-phishing",
+    "category": "State actor AI ops",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "KR",
+    "region": "Asia-Pacific",
+    "target": "South Korean defense-related researchers",
+    "loss_usd": null,
+    "summary": "Genians found North Korea's Kimsuky attached AI-generated deepfake military ID drafts to phishing emails that dropped malware on researchers, activists and journalists.",
+    "source": "The Record",
+    "url": "https://therecord.media/north-korea-kimsuky-hackers-phishing-fake-military-ids-chatgpt",
+    "actor": "Kimsuky (North Korean state-sponsored, aka APT43)",
+    "actor_type": "state",
+    "attribution": "Attributed by Genians Security Center based on infrastructure and tooling overlap with known Kimsuky campaigns",
+    "motive": "Espionage against South Korean defence, research, activist and journalist targets",
+    "vector": "Spear-phishing from a spoofed defence domain with Government_ID_Draft.zip whose shortcut ran obfuscated PowerShell to fetch malware and a ChatGPT-generated fake military ID image",
+    "root_cause": "Image-generation guardrails bypassed by framing prompts as legitimate sample designs; targets trusted an official-looking ID lure",
+    "timeline": [
+      {
+        "date": "2025-07-17",
+        "event": "Phishing emails with deepfake military ID attachment sent to South Korean targets"
+      },
+      {
+        "date": "2025-09-15",
+        "event": "Genians publishes analysis attributing the campaign to Kimsuky; The Record and The Register report it"
+      }
+    ],
+    "impact": "Malware delivered to defence-related researchers, activists and journalists in South Korea; number of successful infections not disclosed",
+    "response": "Genians published IOCs and detection guidance; no public response from OpenAI specific to this campaign",
+    "status": "ongoing",
+    "cve": null,
+    "sources": [
+      {
+        "name": "The Record",
+        "url": "https://therecord.media/north-korea-kimsuky-hackers-phishing-fake-military-ids-chatgpt"
+      },
+      {
+        "name": "Genians",
+        "url": "https://genians.com/news/chatgpt-exploited-in-north-korean-cyber-espionage-campaign-genians-reveals/"
+      },
+      {
+        "name": "The Register",
+        "url": "https://www.theregister.com/2025/09/15/north_korea_chatgpt_fake_id/"
+      }
+    ]
+  },
+  {
+    "id": "microsoft-llm-svg-phishing",
+    "date": "2025-09-24",
+    "title": "Microsoft blocks phishing campaign using LLM-generated obfuscated SVG files",
+    "category": "AI phishing",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "US",
+    "region": "North America",
+    "target": "US organizations",
+    "loss_usd": null,
+    "summary": "Microsoft Threat Intelligence detected credential phishing using SVG attachments posing as PDFs whose verbose obfuscated code was likely written by an LLM.",
+    "source": "SecurityBrief UK",
+    "url": "https://securitybrief.co.uk/story/microsoft-details-ai-powered-defences-against-novel-svg-phishing",
+    "actor": "Unknown credential-phishing operators",
+    "actor_type": "criminal",
+    "attribution": "No public attribution; Microsoft Threat Intelligence assessed the code was likely LLM-generated using Security Copilot",
+    "motive": "Credential theft (phishing for account logins)",
+    "vector": "Self-addressed emails from a compromised business account carrying SVG files posing as PDFs; hidden business-term attributes decoded by JavaScript redirect to a fake CAPTCHA and login page",
+    "root_cause": "SVG files can carry executable script and evade PDF-focused filters; LLM-generated obfuscation masked the payload from signature-based detection",
+    "timeline": [
+      {
+        "date": "2025-08-18",
+        "event": "Microsoft Defender for Office 365 detects and blocks the SVG phishing campaign"
+      },
+      {
+        "date": "2025-09-24",
+        "event": "Microsoft publishes 'AI vs AI' analysis of the campaign"
+      }
+    ],
+    "impact": "Campaign blocked by Defender for Office 365; limited to US organisations; no confirmed credential compromises reported",
+    "response": "Microsoft blocked the campaign, published indicators and detection guidance, and used Security Copilot to characterise the AI-generated code",
+    "status": "contained",
+    "cve": null,
+    "sources": [
+      {
+        "name": "SecurityBrief UK",
+        "url": "https://securitybrief.co.uk/story/microsoft-details-ai-powered-defences-against-novel-svg-phishing"
+      },
+      {
+        "name": "Microsoft Security Blog",
+        "url": "https://microsoft.com/en-us/security/blog/2025/09/24/ai-vs-ai-detecting-an-ai-obfuscated-phishing-campaign"
+      },
+      {
+        "name": "Infosecurity Magazine",
+        "url": "https://www.infosecurity-magazine.com/news/ai-generated-code-phishing/"
+      }
+    ]
+  },
+  {
+    "id": "postmark-mcp-backdoor",
+    "date": "2025-09-25",
+    "title": "First malicious MCP server found: postmark-mcp npm package BCCs all emails to attacker",
+    "category": "AI supply chain",
+    "direction": "on-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "postmark-mcp users",
+    "loss_usd": null,
+    "summary": "Koi Security found a lookalike postmark-mcp package whose v1.0.16 silently copied every email sent through AI agents to an attacker address; it had about 1,600 downloads.",
+    "source": "The Hacker News",
+    "url": "https://thehackernews.com/2025/09/first-malicious-mcp-server-found.html",
+    "actor": "npm publisher 'phanpak' (identity unknown)",
+    "actor_type": "criminal",
+    "attribution": "Identified by Koi Security; package tied to npm account phanpak, which maintained 31 other packages; account later deleted",
+    "motive": "Covert harvesting of email contents (invoices, password resets, internal communications)",
+    "vector": "Trusted npm package postmark-mcp, a copy of Postmark's official MCP server, updated in v1.0.16 with a one-line BCC to phan@giftshop.club on every outbound email",
+    "root_cause": "AI agents installed unvetted community MCP servers with full email-sending trust; a single maintainer could push a backdoored update with no review",
+    "timeline": [
+      {
+        "date": "2025-09-17",
+        "event": "Version 1.0.16 of postmark-mcp published with the hidden BCC line"
+      },
+      {
+        "date": "2025-09-25",
+        "event": "Koi Security discloses the backdoor; package has about 1,500 weekly downloads"
+      },
+      {
+        "date": "2025-09-26",
+        "event": "Developer removes the package from npm without responding to Koi"
+      }
+    ],
+    "impact": "An estimated 300 organisations exposed; thousands of emails a day including password resets and invoices silently copied to the attacker's server",
+    "response": "Package deleted from npm by the publisher; Koi, Snyk and Qualys advised uninstalling v1.0.16+, rotating credentials and auditing outbound mail",
+    "status": "contained",
+    "cve": null,
+    "sources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2025/09/first-malicious-mcp-server-found.html"
+      },
+      {
+        "name": "Snyk",
+        "url": "https://snyk.io/es/blog/malicious-mcp-server-on-npm-postmark-mcp-harvests-emails/"
+      },
+      {
+        "name": "Qualys",
+        "url": "https://threatprotect.qualys.com/2025/09/30/malicious-mcp-server-on-npm-postmark-mcp-exploited-in-attack/"
+      }
+    ]
+  },
+  {
+    "id": "brazil-gisele-deepfake-ads",
+    "date": "2025-10-01",
+    "title": "Brazil police bust ring using Gisele Bundchen deepfakes in Instagram ad scams",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "BR",
+    "region": "Latin America",
+    "target": "Brazilian consumers",
+    "loss_usd": 3900000,
+    "summary": "Rio Grande do Sul police arrested suspects accused of running deepfake celebrity ads for fake giveaways and products, moving over R$20M (about $3.9M) in suspicious funds.",
+    "source": "AI Incident Database (CNN Brasil, Reuters)",
+    "url": "https://incidentdatabase.ai/cite/1224/",
+    "actor": "Unnamed Brazilian fraud ring (Operation Jungle Mode suspects)",
+    "actor_type": "criminal",
+    "attribution": "Identified by Rio Grande do Sul Civil Police after COAF flagged suspicious funds; suspects not publicly named",
+    "motive": "Consumer fraud (fake giveaways and products with shipping-fee payments)",
+    "vector": "Instagram ads with deepfake videos of Gisele Bundchen and other celebrities promoting fake suitcase giveaways and skincare products, collecting shipping fees for goods never delivered",
+    "root_cause": "Easy celebrity deepfake generation combined with insufficient ad-platform screening of fraudulent celebrity endorsements",
+    "timeline": [
+      {
+        "date": "2024-08",
+        "event": "Scheme active since at least this month, per police"
+      },
+      {
+        "date": "2025-10-01",
+        "event": "Operation Jungle Mode: 7 arrest and 9 search warrants executed across five Brazilian states; four suspects arrested"
+      },
+      {
+        "date": "2025-10-03",
+        "event": "Reuters reports the case; Meta says it removes deceptive celebrity ads when detected"
+      }
+    ],
+    "impact": "Over R$20 million (about USD 3.9M) in suspicious funds moved from victims who paid for non-existent goods; victim count not disclosed",
+    "response": "Police arrested suspects, froze assets across five states; Bundchen's team warned consumers to verify offers; Meta cited ad-removal policies",
+    "status": "under investigation",
+    "cve": null,
+    "sources": [
+      {
+        "name": "AI Incident Database",
+        "url": "https://incidentdatabase.ai/cite/1224/"
+      },
+      {
+        "name": "Reuters (via Yahoo News)",
+        "url": "https://www.yahoo.com/news/articles/brazilian-scammers-raking-millions-used-204932574.html"
+      },
+      {
+        "name": "Malay Mail (Reuters)",
+        "url": "https://www.malaymail.com/news/tech-gadgets/2025/10/05/brazilian-scammers-rake-in-millions-using-gisele-bundchen-deepfakes-in-instagram-ads-to-defraud-victims/193369"
+      }
+    ]
+  },
+  {
+    "id": "gtig-promptflux",
+    "date": "2025-11-05",
+    "title": "Google flags PROMPTFLUX and other malware that call Gemini at runtime",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "Windows systems",
+    "loss_usd": null,
+    "summary": "Google's threat team reported experimental malware such as PROMPTFLUX that asks Gemini to rewrite its own VBScript for evasion, plus state use of LLM-enabled tools like PROMPTSTEAL.",
+    "source": "CyberInsider",
+    "url": "https://cyberinsider.com/promptflux-malware-uses-gemini-to-rewrite-and-hide-itself-in-real-time/",
+    "actor": "Unknown developer (PROMPTFLUX); APT28 (Russian GRU-linked) for PROMPTSTEAL",
+    "actor_type": "state",
+    "attribution": "PROMPTFLUX not attributed by Google (naming consistent with financially motivated actors); PROMPTSTEAL attributed to APT28 by GTIG and CERT-UA",
+    "motive": "Evasion research and testing (PROMPTFLUX); espionage and data theft against Ukraine (PROMPTSTEAL)",
+    "vector": "Malware embedding Gemini API calls to regenerate obfuscated VBScript at runtime; PROMPTSTEAL used a Hugging Face-hosted Qwen model with stolen API tokens to generate commands",
+    "root_cause": "Public LLM APIs reachable from malware with stolen or free keys; just-in-time code generation lets malware offload logic to an external model to evade static detection",
+    "timeline": [
+      {
+        "date": "2025-07",
+        "event": "CERT-UA documents LAMEHUG/PROMPTSTEAL used by APT28 against Ukrainian targets"
+      },
+      {
+        "date": "2025-11-05",
+        "event": "GTIG publishes AI Threat Tracker describing PROMPTFLUX, PROMPTSTEAL and other LLM-calling malware"
+      },
+      {
+        "date": "2025-11-05",
+        "event": "Google says it disabled API keys and projects associated with the activity"
+      }
+    ],
+    "impact": "PROMPTFLUX assessed as experimental with no confirmed victims; PROMPTSTEAL collected system data and documents from Ukrainian targets. No financial loss reported.",
+    "response": "Google disabled associated Gemini API keys and projects and added classifier protections; researchers including Marcus Hutchins questioned PROMPTFLUX's practical significance.",
+    "status": "contained",
+    "cve": null,
+    "sources": [
+      {
+        "name": "CyberInsider",
+        "url": "https://cyberinsider.com/promptflux-malware-uses-gemini-to-rewrite-and-hide-itself-in-real-time/"
+      },
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2025/11/google-uncovers-promptflux-malware-that.html"
+      },
+      {
+        "name": "Field Effect",
+        "url": "https://fieldeffect.com/blog/google-threat-intelligence-group-reports-on-adversaries-weaponizing-ai-tools"
+      },
+      {
+        "name": "Decrypt",
+        "url": "https://decrypt.co/347781/google-threat-report-links-ai-powered-malware-to-dprk-crypto-theft"
+      }
+    ]
+  },
+  {
+    "id": "anthropic-gtg-1002",
+    "date": "2025-11-13",
+    "title": "Chinese state group used Claude Code to run largely autonomous espionage",
+    "category": "State actor AI ops",
+    "direction": "with-ai",
+    "severity": "critical",
+    "country": "GL",
+    "region": "Global",
+    "target": "Tech, finance, chemical firms, government agencies",
+    "loss_usd": null,
+    "summary": "Anthropic said GTG-1002 tasked Claude Code agents to perform 80-90% of intrusion work against ~30 targets, with a handful of successful breaches, before accounts were banned.",
+    "source": "Anthropic",
+    "url": "https://assets.anthropic.com/m/ec212e6566a0d47/original/Disrupting-the-first-reported-AI-orchestrated-cyber-espionage-campaign.pdf",
+    "actor": "GTG-1002 (assessed Chinese state-sponsored group)",
+    "actor_type": "state",
+    "attribution": "Attributed by Anthropic with high confidence to a Chinese state-sponsored group; Chinese officials denied involvement",
+    "motive": "Espionage and intelligence collection from tech, finance, chemical and government targets",
+    "vector": "Jailbroken Claude Code agents orchestrated via MCP tools, with tasks decomposed into innocuous subtasks under a fake penetration-testing persona",
+    "root_cause": "Agentic coding tools can be tricked by role-play and task decomposition into running recon, exploitation and exfiltration without recognizing malicious intent",
+    "timeline": [
+      {
+        "date": "2025-09",
+        "event": "Campaign runs in mid-September against roughly 30 organizations"
+      },
+      {
+        "date": "2025-09",
+        "event": "Anthropic detects suspicious activity and begins a ten-day investigation"
+      },
+      {
+        "date": "2025-11-13",
+        "event": "Anthropic publishes report calling it the first AI-orchestrated cyber-espionage campaign"
+      }
+    ],
+    "impact": "About 30 targets; a small number of intrusions succeeded with data accessed and exfiltrated. Claude performed an estimated 80-90% of tactical work. No financial loss disclosed.",
+    "response": "Anthropic banned the accounts, notified affected entities and authorities, expanded detection classifiers and published its findings.",
+    "status": "contained",
+    "cve": null,
+    "sources": [
+      {
+        "name": "Anthropic",
+        "url": "https://assets.anthropic.com/m/ec212e6566a0d47/original/Disrupting-the-first-reported-AI-orchestrated-cyber-espionage-campaign.pdf"
+      },
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2025/11/chinese-hackers-use-anthropics-ai-to.html"
+      },
+      {
+        "name": "Cybersecurity Dive",
+        "url": "https://www.cybersecuritydive.com/news/anthropic-state-actor-ai-tool-espionage/805550/"
+      }
+    ]
+  },
+  {
+    "id": "shadowray-2",
+    "date": "2025-11-18",
+    "title": "ShadowRay 2.0 turns exposed Ray AI clusters into self-spreading mining botnet",
+    "category": "LLMjacking",
+    "direction": "on-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "Ray (Anyscale) AI compute clusters",
+    "loss_usd": null,
+    "summary": "Oligo reported attackers abusing unauthenticated Ray job APIs (CVE-2023-48022) with LLM-written payloads to hijack AI GPU clusters for cryptomining, DDoS and data theft.",
+    "source": "The Register",
+    "url": "https://www.theregister.com/2025/11/18/selfreplicating_botnet_ray_clusters/",
+    "actor": "IronErn440 (tracked by Oligo Security)",
+    "actor_type": "criminal",
+    "attribution": "Attributed by Oligo Security to a cluster it tracks as IronErn440; no government attribution",
+    "motive": "Financial gain via cryptomining, plus credential theft and DDoS-for-hire",
+    "vector": "Unauthenticated Ray Jobs API on internet-exposed dashboards used to submit multi-stage Bash and Python payloads, spread cluster-wide via Ray orchestration",
+    "root_cause": "CVE-2023-48022 left unpatched because Anyscale treats unauthenticated job submission as a design choice; over 230,000 Ray servers exposed to the internet",
+    "timeline": [
+      {
+        "date": "2023-11",
+        "event": "CVE-2023-48022 (ShadowRay) disclosed; Anyscale declines to patch"
+      },
+      {
+        "date": "2024-09",
+        "event": "Oligo says ShadowRay 2.0 activity begins"
+      },
+      {
+        "date": "2025-11-05",
+        "event": "First wave using GitLab payload delivery is taken down"
+      },
+      {
+        "date": "2025-11-17",
+        "event": "Second wave begins using GitHub repositories"
+      },
+      {
+        "date": "2025-11-18",
+        "event": "Oligo publishes ShadowRay 2.0 findings"
+      }
+    ],
+    "impact": "Exposed Ray AI clusters hijacked for XMRig mining, DDoS and theft of credentials and data; GPU compute stolen at scale. No dollar figure reported.",
+    "response": "Oligo reported the campaign and payload repositories were removed from GitLab and GitHub, though attackers quickly recreated them; Anyscale offers configuration tooling but no patch.",
+    "status": "ongoing",
+    "cve": "CVE-2023-48022",
+    "sources": [
+      {
+        "name": "The Register",
+        "url": "https://www.theregister.com/2025/11/18/selfreplicating_botnet_ray_clusters/"
+      },
+      {
+        "name": "BleepingComputer",
+        "url": "https://bleepingcomputer.com/news/security/new-shadowray-attacks-convert-ray-clusters-into-crypto-miners"
+      },
+      {
+        "name": "Dark Reading",
+        "url": "https://www.darkreading.com/cyber-risk/shadowray-20-ai-clusters-crypto-botnets"
+      }
+    ]
+  },
+  {
+    "id": "openai-mixpanel",
+    "date": "2025-11-26",
+    "title": "OpenAI API user data exposed in breach of analytics vendor Mixpanel",
+    "category": "Model & data leak",
+    "direction": "on-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "OpenAI API platform users",
+    "loss_usd": null,
+    "summary": "An attacker who smished Mixpanel exported a dataset with names, emails and coarse locations of OpenAI API users; OpenAI said no chats, keys or payment data were exposed.",
+    "source": "OpenAI",
+    "url": "https://openai.com/index/mixpanel-incident/",
+    "actor": "Unknown attacker who smished Mixpanel employees",
+    "actor_type": "criminal",
+    "attribution": "No public attribution; disclosed by Mixpanel and OpenAI",
+    "motive": "Data theft; one unverified report said the attacker tried to sell the dataset",
+    "vector": "SMS phishing (smishing) of Mixpanel staff leading to access to internal systems and export of analytics datasets",
+    "root_cause": "Third-party analytics vendor with user metadata; employee credentials compromised via social engineering",
+    "timeline": [
+      {
+        "date": "2025-11-08",
+        "event": "Mixpanel detects smishing campaign against employees"
+      },
+      {
+        "date": "2025-11-09",
+        "event": "Mixpanel identifies unauthorized access and data export; notifies OpenAI"
+      },
+      {
+        "date": "2025-11-25",
+        "event": "Mixpanel shares the affected dataset with OpenAI"
+      },
+      {
+        "date": "2025-11-26",
+        "event": "OpenAI publicly discloses the incident"
+      },
+      {
+        "date": "2025-12-19",
+        "event": "OpenAI clarifies some ChatGPT users were also affected"
+      }
+    ],
+    "impact": "Names, email addresses, approximate location, browser and OS details of OpenAI API users exposed; no prompts, API keys, passwords or payment data. Other Mixpanel customers also affected.",
+    "response": "Mixpanel revoked sessions, rotated credentials, blocked IPs and hired outside forensics firms; OpenAI removed Mixpanel from production and notified affected users.",
+    "status": "contained",
+    "cve": null,
+    "sources": [
+      {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/mixpanel-incident/"
+      },
+      {
+        "name": "CSO Online",
+        "url": "https://www.csoonline.com/article/4097488/openai-admits-data-breach-after-analytics-partner-hit-by-phishing-attack-2.html"
+      },
+      {
+        "name": "eWeek",
+        "url": "https://www.eweek.com/news/openai-mixpanel-data-exposure/"
+      }
+    ]
+  },
+  {
+    "id": "reprompt-copilot",
+    "date": "2026-01-14",
+    "title": "Reprompt: one-click attack hijacks Microsoft Copilot sessions to steal data",
+    "category": "Prompt injection",
+    "direction": "on-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "Microsoft Copilot Personal",
+    "loss_usd": null,
+    "summary": "Varonis showed a crafted Microsoft link could pre-fill Copilot prompts via URL parameter and keep exfiltrating a victim's data and memory even after the chat closed.",
+    "source": "Varonis",
+    "url": "https://www.varonis.com/blog/reprompt",
+    "actor": "Varonis Threat Labs (responsible disclosure)",
+    "actor_type": "researcher",
+    "attribution": "Self-disclosed by Varonis; confirmed and patched by Microsoft",
+    "motive": "Security research; no exploitation in the wild reported",
+    "vector": "Phishing link to a legitimate copilot.microsoft.com URL whose q parameter auto-executes a prompt, with follow-up instructions fetched from attacker server",
+    "root_cause": "Copilot Personal auto-ran prompts passed via URL parameter and allowed persistent exfiltration after the chat window closed",
+    "timeline": [
+      {
+        "date": "2025-08-31",
+        "event": "Varonis reports the flaw to Microsoft"
+      },
+      {
+        "date": "2026-01-13",
+        "event": "Microsoft ships fix in January Patch Tuesday"
+      },
+      {
+        "date": "2026-01-14",
+        "event": "Varonis publishes Reprompt research"
+      }
+    ],
+    "impact": "Proof of concept only; could have exfiltrated personal data and Copilot memory from consumer users. Microsoft 365 Copilot not affected. No victims reported.",
+    "response": "Microsoft rolled out protections against the scenario and said it is adding defense-in-depth measures; Varonis published guidance.",
+    "status": "patched",
+    "cve": null,
+    "sources": [
+      {
+        "name": "Varonis",
+        "url": "https://www.varonis.com/blog/reprompt"
+      },
+      {
+        "name": "TechRepublic",
+        "url": "https://techrepublic.com/article/news-reprompt-attack-microsoft-copilot"
+      },
+      {
+        "name": "Windows Report",
+        "url": "https://windowsreport.com/microsoft-patches-copilot-vulnerability-as-hackers-eye-to-exploit-with-new-reprompt-attack/"
+      }
+    ]
+  },
+  {
+    "id": "voidlink-ai-built",
+    "date": "2026-01-20",
+    "title": "VoidLink cloud malware framework found to be built mostly by an AI agent",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "Linux cloud environments",
+    "loss_usd": null,
+    "summary": "Check Point concluded the 30+ module VoidLink Linux implant was planned and coded largely by an AI agent under one developer, reaching ~88,000 lines in about a week.",
+    "source": "The Register",
+    "url": "https://www.theregister.com/2026/01/20/voidlink_ai_developed/",
+    "actor": "Single unnamed developer, assessed by Check Point as likely Chinese",
+    "actor_type": "criminal",
+    "attribution": "Check Point Research assessment based on leaked sprint plans and documentation; no formal attribution",
+    "motive": "Development of a commercial-grade Linux cloud implant; large-scale deployment not yet observed",
+    "vector": "AI agent (TRAE SOLO IDE assistant) used to plan architecture, split work into virtual teams and write a 30-plus module implant",
+    "root_cause": "AI coding agents let a lone actor produce complex offensive tooling at team scale; developer OPSEC failures exposed the artifacts",
+    "timeline": [
+      {
+        "date": "2025-11",
+        "event": "Development begins using TRAE SOLO; first functional implant in under a week"
+      },
+      {
+        "date": "2025-12",
+        "event": "Codebase reaches about 88,000 lines"
+      },
+      {
+        "date": "2026-01",
+        "event": "Check Point publishes initial VoidLink analysis"
+      },
+      {
+        "date": "2026-01-20",
+        "event": "Check Point follow-up concludes the framework was mostly AI-built"
+      }
+    ],
+    "impact": "No confirmed victims or large-scale exploitation reported; framework includes loaders, rootkit modules and dozens of plugins targeting Linux cloud environments.",
+    "response": "Check Point published detections and analysis; no takedown or law-enforcement action reported.",
+    "status": "under investigation",
+    "cve": null,
+    "sources": [
+      {
+        "name": "The Register",
+        "url": "https://www.theregister.com/2026/01/20/voidlink_ai_developed/"
+      },
+      {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/voidlink-cloud-malware-shows-clear-signs-of-being-ai-generated/"
+      },
+      {
+        "name": "Dark Reading",
+        "url": "https://darkreading.com/threat-intelligence/voidlink-linux-malware-ai"
+      }
+    ]
+  },
+  {
+    "id": "anthropic-git-mcp-injection",
+    "date": "2026-01-20",
+    "title": "Prompt injection flaws in Anthropic's Git MCP server enable file access and code execution",
+    "category": "Prompt injection",
+    "direction": "on-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "Anthropic mcp-server-git",
+    "loss_usd": null,
+    "summary": "Researchers showed malicious repository content could steer agents using Anthropic's reference Git MCP server into reading or deleting files and running code; fixes shipped.",
+    "source": "OECD AI Incidents Monitor",
+    "url": "https://oecd.ai/en/incidents/2026-01-20-c1f6",
+    "actor": "Cyata security researchers (responsible disclosure)",
+    "actor_type": "researcher",
+    "attribution": "Self-disclosed by Cyata; fixes acknowledged by Anthropic",
+    "motive": "Security research; no in-the-wild exploitation reported",
+    "vector": "Prompt injection via malicious README, issue text or webpage steering an agent to call git_init, git_diff with injected flags, or out-of-scope repository paths",
+    "root_cause": "Missing path validation on repo_path, unrestricted git_init and unsanitized git_diff target argument passed to the git CLI",
+    "timeline": [
+      {
+        "date": "2025-06",
+        "event": "Cyata begins reporting the issues to Anthropic (June-July)"
+      },
+      {
+        "date": "2025-12-18",
+        "event": "Anthropic releases mcp-server-git 2025.12.18 fixing all three flaws"
+      },
+      {
+        "date": "2026-01-20",
+        "event": "Cyata and media publish details"
+      }
+    ],
+    "impact": "Proof of concept allowing arbitrary file read, file deletion and, chained with the filesystem MCP server, code execution on agent hosts. No victims reported.",
+    "response": "Anthropic validated repository paths, removed the git_init tool and fixed argument injection; users told to upgrade to 2025.12.18 or later.",
+    "status": "patched",
+    "cve": "CVE-2025-68143, CVE-2025-68144, CVE-2025-68145",
+    "sources": [
+      {
+        "name": "OECD AI Incidents Monitor",
+        "url": "https://oecd.ai/en/incidents/2026-01-20-c1f6"
+      },
+      {
+        "name": "The Register",
+        "url": "https://www.theregister.com/2026/01/20/anthropic_prompt_injection_flaws/"
+      },
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/anthropic-mcp-server-flaws-lead-to-code-execution-data-exposure/"
+      },
+      {
+        "name": "Infosecurity Magazine",
+        "url": "https://www.infosecurity-magazine.com/news/prompt-injection-bugs-anthropic/"
+      }
+    ]
+  },
+  {
+    "id": "bizarre-bazaar-llmjacking",
+    "date": "2026-01-28",
+    "title": "Operation Bizarre Bazaar: hijacked LLM endpoints resold through commercial marketplace",
+    "category": "LLMjacking",
+    "direction": "on-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "Exposed Ollama, vLLM and MCP endpoints",
+    "loss_usd": null,
+    "summary": "Pillar Security logged ~35,000 attack sessions scanning for exposed AI endpoints, validating access and reselling it via a marketplace covering 30+ LLM providers.",
+    "source": "Pillar Security",
+    "url": "https://www.pillar.security/blog/operation-bizarre-bazaar-first-attributed-llmjacking-campaign-with-commercial-marketplace-monetization",
+    "actor": "Threat actor using aliases Hecker, Sakuya and LiveGamer101",
+    "actor_type": "criminal",
+    "attribution": "Attributed by Pillar Security based on honeypot telemetry and marketplace infrastructure",
+    "motive": "Financial: reselling stolen LLM access through a marketplace",
+    "vector": "Shodan and Censys scanning for exposed Ollama, vLLM and MCP endpoints, automated API validation via silver.inc, resale via NeXeonAI storefront",
+    "root_cause": "Self-hosted LLM servers and MCP endpoints exposed on default ports without authentication",
+    "timeline": [
+      {
+        "date": "2025-12",
+        "event": "Pillar honeypots begin logging campaign activity"
+      },
+      {
+        "date": "2026-01",
+        "event": "About 35,000 attack sessions recorded across the campaign window"
+      },
+      {
+        "date": "2026-01-28",
+        "event": "Pillar Security publishes Operation Bizarre Bazaar report"
+      }
+    ],
+    "impact": "Hijacked compute, exposure of prompt data and potential pivoting via MCP servers; marketplace resold access to over 30 LLM providers. No dollar figure reported.",
+    "response": "Pillar published indicators of compromise; no takedown or arrests reported.",
+    "status": "ongoing",
+    "cve": null,
+    "sources": [
+      {
+        "name": "Pillar Security",
+        "url": "https://www.pillar.security/blog/operation-bizarre-bazaar-first-attributed-llmjacking-campaign-with-commercial-marketplace-monetization"
+      },
+      {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-exposed-llm-endpoints-in-bizarre-bazaar-operation/"
+      },
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/llms-hijacked-monetized-in-operation-bizarre-bazaar/"
+      }
+    ]
+  },
+  {
+    "id": "chat-ask-ai-leak",
+    "date": "2026-01-29",
+    "title": "Chat & Ask AI app leaks ~300M messages from 25M users via open Firebase",
+    "category": "Model & data leak",
+    "direction": "on-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "Codeway Chat & Ask AI",
+    "loss_usd": null,
+    "summary": "A researcher found the popular AI chat wrapper's Firebase rules left full chat histories readable, exposing about 300 million messages tied to more than 25 million users.",
+    "source": "Malwarebytes",
+    "url": "https://www.malwarebytes.com/blog/news/2026/02/ai-chat-app-leak-exposes-300-million-messages-tied-to-25-million-users",
+    "actor": "Independent researcher known as Harry (responsible disclosure)",
+    "actor_type": "researcher",
+    "motive": "Research; no malicious exploitation reported",
+    "attribution": "Self-disclosed by the researcher; reported by Malwarebytes",
+    "vector": "Firebase Security Rules set to public, allowing unauthenticated read, write and delete of the chat database",
+    "root_cause": "Misconfigured Firebase backend shared across Codeway apps; no access controls on user chat collections",
+    "timeline": [
+      {
+        "date": "2026-01-20",
+        "event": "Researcher finds the open Firebase backend and reports it to Codeway"
+      },
+      {
+        "date": "2026-01-29",
+        "event": "Researcher publishes findings"
+      },
+      {
+        "date": "2026-02-09",
+        "event": "Malwarebytes reports the leak"
+      }
+    ],
+    "impact": "About 300 million messages tied to roughly 25 million users exposed, including sensitive content such as self-harm and drug queries; data from other Codeway apps also exposed.",
+    "response": "Codeway reportedly fixed the rules across its apps within hours of the report; no regulatory action reported.",
+    "status": "patched",
+    "cve": null,
+    "sources": [
+      {
+        "name": "Malwarebytes",
+        "url": "https://www.malwarebytes.com/blog/news/2026/02/ai-chat-app-leak-exposes-300-million-messages-tied-to-25-million-users"
+      },
+      {
+        "name": "Fox News",
+        "url": "https://www.foxnews.com/tech/millions-ai-chat-messages-exposed-app-data-leak"
+      },
+      {
+        "name": "Hackmag",
+        "url": "https://hackmag.com/news/chat-ask-ai"
+      }
+    ]
+  },
+  {
+    "id": "moltbook-db-exposure",
+    "date": "2026-02-02",
+    "title": "Moltbook AI-agent social network exposes 1.5M agent API tokens",
+    "category": "Model & data leak",
+    "direction": "on-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "Moltbook",
+    "loss_usd": null,
+    "summary": "Wiz found Moltbook's Supabase database lacked row-level security, letting anyone read and write 1.5M agent tokens, 35,000 emails and private messages containing third-party API keys.",
+    "source": "BankInfoSecurity",
+    "url": "https://www.bankinfosecurity.com/moltbook-gave-everyone-control-every-ai-agent-a-30710",
+    "actor": "Wiz Research and researcher Jameson O'Reilly (responsible disclosure)",
+    "actor_type": "researcher",
+    "attribution": "Self-disclosed by Wiz; Moltbook confirmed and fixed",
+    "motive": "Research; no malicious exploitation confirmed",
+    "vector": "Supabase API key in client-side JavaScript combined with missing row-level security policies on production tables",
+    "root_cause": "Vibe-coded platform shipped without row-level security, so the public anon key granted full read and write access",
+    "timeline": [
+      {
+        "date": "2026-01-31",
+        "event": "Researchers discover the exposed Supabase database"
+      },
+      {
+        "date": "2026-02-01",
+        "event": "Moltbook secures the database within hours with Wiz help"
+      },
+      {
+        "date": "2026-02-02",
+        "event": "Wiz publishes findings"
+      }
+    ],
+    "impact": "1.5 million agent API tokens, about 35,000 owner emails and private agent messages containing third-party API keys readable and writable; any agent could be impersonated.",
+    "response": "Moltbook enabled row-level security and rotated tokens; Wiz deleted data accessed during research.",
+    "status": "patched",
+    "cve": null,
+    "sources": [
+      {
+        "name": "BankInfoSecurity",
+        "url": "https://www.bankinfosecurity.com/moltbook-gave-everyone-control-every-ai-agent-a-30710"
+      },
+      {
+        "name": "Wiz",
+        "url": "https://www.wiz.io/blog/exposed-moltbook-database-reveals-millions-of-api-keys"
+      },
+      {
+        "name": "Infosecurity Magazine",
+        "url": "https://www.infosecurity-magazine.com/news/moltbook-exposes-user-data-api/"
+      },
+      {
+        "name": "TechRadar",
+        "url": "https://www.techradar.com/pro/security/ai-agent-social-media-network-moltbook-is-a-security-disaster-millions-of-credentials-and-other-details-left-unsecured"
+      }
+    ]
+  },
+  {
+    "id": "clawhub-malicious-skills",
+    "date": "2026-02-04",
+    "title": "Over 230 malicious OpenClaw skills on ClawHub push password stealers",
+    "category": "AI supply chain",
+    "direction": "on-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "OpenClaw agent users",
+    "loss_usd": null,
+    "summary": "Researchers found hundreds of ClawHub skills posing as crypto and social tools that told users to install a fake 'AuthTool', delivering infostealers such as AMOS on macOS.",
+    "source": "ThaiCERT",
+    "url": "https://www.thaicert.or.th/en/2026/02/04/researchers-discover-over-200-malicious-skills-on-openclaw-distributing-password-stealing-malware/",
+    "actor": "ClawHavoc operation (unnamed group) plus smaller unrelated uploaders",
+    "actor_type": "criminal",
+    "attribution": "Koi Security linked 335 of 341 malicious skills to a single coordinated operation it calls ClawHavoc; no named group",
+    "motive": "Financial: credential and crypto wallet theft via infostealers",
+    "vector": "Fake Prerequisites sections in skill docs instructing users to download password-protected ZIPs or run obfuscated scripts delivering AMOS and other stealers",
+    "root_cause": "Unvetted skill marketplace with no code review; users trusting install instructions for crypto and social tools",
+    "timeline": [
+      {
+        "date": "2026-01-27",
+        "event": "First wave of malicious skill uploads to ClawHub"
+      },
+      {
+        "date": "2026-02-01",
+        "event": "Koi Security completes audit of 2,857 skills, flagging 341"
+      },
+      {
+        "date": "2026-02-04",
+        "event": "Findings published; OpenClaw adds user reporting"
+      }
+    ],
+    "impact": "341 malicious skills identified, over 100 posing as crypto tools; payloads included AMOS stealer, reverse shells and config exfiltration. Infection counts not confirmed.",
+    "response": "Malicious skills removed from ClawHub; OpenClaw maintainer added a reporting feature; Koi published indicators.",
+    "status": "contained",
+    "cve": null,
+    "sources": [
+      {
+        "name": "ThaiCERT",
+        "url": "https://www.thaicert.or.th/en/2026/02/04/researchers-discover-over-200-malicious-skills-on-openclaw-distributing-password-stealing-malware/"
+      },
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/02/researchers-find-341-malicious-clawhub.html"
+      },
+      {
+        "name": "SC World",
+        "url": "https://www.scworld.com/news/openclaw-agents-targeted-with-341-malicious-clawhub-skills"
+      }
+    ]
+  },
+  {
+    "id": "unc1069-deepfake-zoom",
+    "date": "2026-02-09",
+    "title": "North Korea's UNC1069 uses AI deepfake video in fake Zoom calls against crypto firms",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "Fintech and crypto companies",
+    "loss_usd": null,
+    "summary": "Mandiant tied a fintech intrusion to DPRK-linked UNC1069, which paired a hijacked Telegram account, a spoofed Zoom meeting with AI-generated video, and ClickFix lures to plant macOS malware.",
+    "source": "The Record",
+    "url": "https://therecord.media/north-korean-hackers-targeted-crypto-exec-clickfix",
+    "actor": "UNC1069 (North Korea-linked, aka Masan)",
+    "actor_type": "state",
+    "attribution": "Attributed by Mandiant with high confidence to a DPRK-nexus group tracked since 2018",
+    "motive": "Cryptocurrency theft and harvesting identities for future social engineering",
+    "vector": "Compromised executive Telegram account, Calendly link to spoofed Zoom page with AI-generated video of a CEO, ClickFix command installing macOS loaders",
+    "root_cause": "Trust in known contacts on messaging apps and willingness to run pasted terminal commands to fix a fake meeting issue",
+    "timeline": [
+      {
+        "date": "2025-11",
+        "event": "GTIG notes UNC1069 using Gemini for wallet-targeting scripts and lures"
+      },
+      {
+        "date": "2026-02-09",
+        "event": "Mandiant publishes intrusion analysis with new SILENCELIFT, DEEPBREATH and CHROMEPUSH malware"
+      }
+    ],
+    "impact": "Seven macOS malware families on one victim host; credentials, browser data, session tokens, Keychain items, Telegram data and Apple Notes collected. Losses not disclosed.",
+    "response": "Mandiant incident response, publication of indicators and hardening guidance on unsigned script execution.",
+    "status": "ongoing",
+    "cve": null,
+    "sources": [
+      {
+        "name": "The Record",
+        "url": "https://therecord.media/north-korean-hackers-targeted-crypto-exec-clickfix"
+      },
+      {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/north-korean-hackers-use-new-macos-malware-in-crypto-theft-attacks/"
+      },
+      {
+        "name": "SOC Prime",
+        "url": "https://socprime.com/active-threats/unc1069-targets-cryptocurrency-sector/"
+      }
+    ]
+  },
+  {
+    "id": "gtig-gemini-state-misuse",
+    "date": "2026-02-12",
+    "title": "Google: state hackers use Gemini across all attack stages; 100K-prompt extraction try",
+    "category": "State actor AI ops",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "Google Gemini / multiple sectors",
+    "loss_usd": null,
+    "summary": "GTIG reported Chinese, Iranian, North Korean and Russian groups using Gemini for recon, exploit research and lures, and blocked a 100,000+ prompt campaign to extract its reasoning.",
+    "source": "BleepingComputer",
+    "url": "https://bleepingcomputer.com/news/security/google-says-hackers-are-abusing-gemini-ai-for-all-attacks-stages/",
+    "actor": "APT31, Temp.HEX, APT42, UNC2970 and Russian groups; unnamed distillers",
+    "actor_type": "state",
+    "attribution": "Attributed by Google Threat Intelligence Group; distillation campaign actors not publicly named",
+    "motive": "Espionage support (recon, lures, exploit research) and intellectual property theft via model extraction",
+    "vector": "Abuse of legitimate Gemini accounts and APIs; reasoning trace coercion prompts to extract internal chain of thought",
+    "root_cause": "General-purpose AI assistants accessible to state actors; API access enables large-scale output harvesting for distillation",
+    "timeline": [
+      {
+        "date": "2025-11",
+        "event": "Previous GTIG AI Threat Tracker covers PROMPTFLUX-era findings"
+      },
+      {
+        "date": "2026-02-12",
+        "event": "GTIG publishes report on state misuse and a 100,000-plus prompt extraction campaign"
+      }
+    ],
+    "impact": "No breakthrough capabilities observed; Google says extraction attempt was flagged in real time and reasoning traces protected. Accounts and infrastructure disabled.",
+    "response": "Google disabled abusive accounts and infrastructure, hardened Gemini classifiers and warned of takedowns and legal action.",
+    "status": "contained",
+    "cve": null,
+    "sources": [
+      {
+        "name": "BleepingComputer",
+        "url": "https://bleepingcomputer.com/news/security/google-says-hackers-are-abusing-gemini-ai-for-all-attacks-stages/"
+      },
+      {
+        "name": "SecurityBrief",
+        "url": "https://securitybrief.co.uk/story/google-warns-of-ai-model-theft-state-backed-misuse"
+      },
+      {
+        "name": "TechInformed",
+        "url": "https://techinformed.com/google-disrupts-gemini-model-extraction-attempts/"
+      }
+    ]
+  },
+  {
+    "id": "cline-cli-openclaw",
+    "date": "2026-02-17",
+    "title": "Compromised Cline CLI npm release silently installs OpenClaw agent",
+    "category": "AI supply chain",
+    "direction": "on-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "Cline CLI users",
+    "loss_usd": null,
+    "summary": "A stolen npm token was used to publish cline@2.3.0 with a postinstall script that globally installed the OpenClaw agent; it was live about 8 hours and downloaded ~4,000 times.",
+    "source": "Dark Reading",
+    "url": "https://www.darkreading.com/application-security/supply-chain-attack-openclaw-cline-users",
+    "actor": "Unknown party using a stolen npm publish token",
+    "actor_type": "unknown",
+    "attribution": "No public attribution; Cline says a compromised npm token was used. One vendor report ties it to prior AI triage workflow research by Adnan Khan",
+    "motive": "Unclear; payload was a legitimate package, possibly a prank or demonstration",
+    "vector": "Unauthorized npm publish of cline@2.3.0 with a postinstall script running npm install -g openclaw@latest",
+    "root_cause": "Long-lived npm publish token exposed via a GitHub Actions workflow; no trusted publishing or provenance enforcement",
+    "timeline": [
+      {
+        "date": "2026-02-17",
+        "event": "cline@2.3.0 published at 3:26 AM PT with malicious postinstall"
+      },
+      {
+        "date": "2026-02-17",
+        "event": "Clean 2.4.0 published at 11:23 AM PT and 2.3.0 deprecated at 11:30 AM PT"
+      },
+      {
+        "date": "2026-02-18",
+        "event": "GHSA-9ppg-jx86-fqw7 advisory and media coverage"
+      }
+    ],
+    "impact": "About 4,000 downloads in an eight-hour window installed OpenClaw globally without consent; no credential theft or malicious payload reported.",
+    "response": "Cline revoked the token, moved publishing to OIDC provenance via GitHub Actions, published 2.4.0 and told users to uninstall OpenClaw if unwanted.",
+    "status": "resolved",
+    "cve": null,
+    "sources": [
+      {
+        "name": "Dark Reading",
+        "url": "https://www.darkreading.com/application-security/supply-chain-attack-openclaw-cline-users"
+      },
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/02/cline-cli-230-supply-chain-attack.html"
+      },
+      {
+        "name": "Endor Labs",
+        "url": "https://endorlabs.com/learn/supply-chain-attack-targeting-cline-installs-openclaw"
+      },
+      {
+        "name": "GitHub Advisory via OSV",
+        "url": "https://osv.dev/vulnerability/GHSA-9ppg-jx86-fqw7"
+      }
+    ]
+  },
+  {
+    "id": "anthropic-distillation",
+    "date": "2026-02-23",
+    "title": "Anthropic accuses DeepSeek, Moonshot and MiniMax of distilling Claude via 24,000 accounts",
+    "category": "Model & data leak",
+    "direction": "on-ai",
+    "severity": "high",
+    "country": "US",
+    "region": "North America",
+    "target": "Anthropic Claude",
+    "loss_usd": null,
+    "summary": "Anthropic said three Chinese labs used fraudulent account networks and proxies to run 16M+ Claude exchanges to extract capabilities for their own models.",
+    "source": "The Decoder",
+    "url": "https://the-decoder.com/anthropic-accuses-deepseek-moonshot-and-minimax-of-stealing-claudes-ai-data-through-16-million-queries/",
+    "actor": "DeepSeek, Moonshot AI and MiniMax (per Anthropic)",
+    "actor_type": "criminal",
+    "attribution": "Alleged by Anthropic based on account, infrastructure and request-pattern evidence; not independently adjudicated",
+    "motive": "Extracting Claude capabilities to train competing models cheaply (intellectual property theft)",
+    "vector": "About 24,000 fraudulent accounts and proxy services used to run over 16 million Claude exchanges in violation of terms and regional restrictions",
+    "root_cause": "API access allows output harvesting at scale; account verification and regional controls bypassed with fake accounts and proxies",
+    "timeline": [
+      {
+        "date": "2025",
+        "event": "Campaigns run; MiniMax activity detected while it was still training a model"
+      },
+      {
+        "date": "2026-02-23",
+        "event": "Anthropic publicly accuses the three labs and details per-lab exchange counts"
+      }
+    ],
+    "impact": "MiniMax over 13 million exchanges, Moonshot over 3.4 million, DeepSeek over 150,000, targeting coding, agentic reasoning and tool use. No direct financial loss disclosed.",
+    "response": "Anthropic banned the accounts, published findings and cited the case in support of chip export controls; the labs were asked for comment.",
+    "status": "under investigation",
+    "cve": null,
+    "sources": [
+      {
+        "name": "The Decoder",
+        "url": "https://the-decoder.com/anthropic-accuses-deepseek-moonshot-and-minimax-of-stealing-claudes-ai-data-through-16-million-queries/"
+      },
+      {
+        "name": "Interesting Engineering",
+        "url": "https://interestingengineering.com/ai-robotics/anthropic-china-ai-distillation-claims"
+      },
+      {
+        "name": "eWeek",
+        "url": "https://www.eweek.com/de/security/anthropic-deepseek-moonshot-minimax-targeted-claude/"
+      }
+    ]
+  },
+  {
+    "id": "mexico-gov-claude-breach",
+    "date": "2026-02-25",
+    "title": "Hacker uses Claude to breach Mexican agencies and steal 150GB of tax and voter data",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "critical",
+    "country": "MX",
+    "region": "Latin America",
+    "target": "Mexican tax authority, electoral institute, state governments",
+    "loss_usd": null,
+    "summary": "Gambit Security found an attacker jailbroke Claude, with some ChatGPT help, to find and exploit flaws in Mexican government systems, stealing ~150GB incl. 195M taxpayer records.",
+    "source": "Bloomberg Law",
+    "url": "https://news.bloomberglaw.com/esg/hacker-used-anthropics-claude-to-steal-sensitive-mexican-data",
+    "actor": "Unknown lone hacker (Spanish-speaking)",
+    "actor_type": "criminal",
+    "attribution": "Not publicly attributed; findings by Gambit Security from exposed conversation logs. Mexican agencies deny evidence of a breach",
+    "motive": "Theft and likely resale of tax, voter and personal data",
+    "vector": "Jailbroke Claude by posing as a bug-bounty hunter, used Claude Code to find and exploit flaws and exfiltrate data, then used ChatGPT for lateral movement guidance",
+    "root_cause": "AI safety refusals bypassed via role-play; vulnerable government web systems; attacker left conversation logs publicly accessible",
+    "timeline": [
+      {
+        "date": "2025-12",
+        "event": "Campaign reportedly starts with Mexico's tax authority SAT"
+      },
+      {
+        "date": "2026-02",
+        "event": "Gambit Security finds publicly accessible attacker chat logs"
+      },
+      {
+        "date": "2026-02-25",
+        "event": "Bloomberg reports the findings; Anthropic and OpenAI ban the accounts"
+      }
+    ],
+    "impact": "Gambit claims about 150GB stolen from 10 agencies and a bank, including roughly 195 million taxpayer records and voter data; SAT, INE and Jalisco deny confirmed breaches.",
+    "response": "Anthropic and OpenAI banned the accounts; Mexican agencies reviewed logs and disputed the claims; no arrests reported.",
+    "status": "under investigation",
+    "cve": null,
+    "sources": [
+      {
+        "name": "Bloomberg Law",
+        "url": "https://news.bloomberglaw.com/esg/hacker-used-anthropics-claude-to-steal-sensitive-mexican-data"
+      },
+      {
+        "name": "Security Affairs",
+        "url": "https://securityaffairs.com/posts/claude-code-abused-to-steal-150gb-in-cyberattack-on-mexican-agencies"
+      },
+      {
+        "name": "Insurance Journal",
+        "url": "https://www.insurancejournal.com/news/international/2026/02/27/859786.htm"
+      }
+    ]
+  },
+  {
+    "id": "mckinsey-lilli-breach",
+    "date": "2026-03-09",
+    "title": "Autonomous AI agent breaches McKinsey's Lilli chatbot platform in two hours",
+    "category": "Model & data leak",
+    "direction": "on-ai",
+    "severity": "high",
+    "country": "US",
+    "region": "North America",
+    "target": "McKinsey Lilli AI platform",
+    "loss_usd": null,
+    "summary": "CodeWall's offensive agent found SQL injection via unauthenticated Lilli API endpoints, claiming read-write access to 46.5M chat messages and system prompts; McKinsey patched within a day.",
+    "source": "The Register",
+    "url": "https://www.theregister.com/2026/03/09/mckinsey_ai_chatbot_hacked",
+    "actor": "CodeWall autonomous offensive AI agent (responsible disclosure)",
+    "actor_type": "researcher",
+    "attribution": "Self-disclosed by CodeWall; McKinsey confirmed patching",
+    "motive": "Security research demonstrating autonomous agent capability",
+    "vector": "22 unauthenticated API endpoints; SQL injection via JSON keys concatenated into queries, plus broken access control on user IDs",
+    "root_cause": "Unauthenticated endpoints and unsanitized JSON field names in SQL, with prompts, files, configs and user data stored in one backend",
+    "timeline": [
+      {
+        "date": "2026-02",
+        "event": "CodeWall agent gains read-write access in under two hours in late February"
+      },
+      {
+        "date": "2026-03-01",
+        "event": "CodeWall notifies McKinsey security team"
+      },
+      {
+        "date": "2026-03-02",
+        "event": "McKinsey patches exposed endpoints and takes dev environment offline"
+      },
+      {
+        "date": "2026-03-09",
+        "event": "CodeWall publishes findings"
+      }
+    ],
+    "impact": "Claimed access to 46.5 million chat messages, 728,000 files, 57,000 user accounts and 95 writable system prompts; no malicious exploitation reported.",
+    "response": "McKinsey patched within a day and took the environment offline; CodeWall and Promptfoo published analyses.",
+    "status": "patched",
+    "cve": null,
+    "sources": [
+      {
+        "name": "The Register",
+        "url": "https://www.theregister.com/2026/03/09/mckinsey_ai_chatbot_hacked"
+      },
+      {
+        "name": "BankInfoSecurity",
+        "url": "https://www.bankinfosecurity.com/autonomous-agent-hacked-mckinseys-ai-in-2-hours-a-31007"
+      },
+      {
+        "name": "Outpost24",
+        "url": "https://outpost24.com/?p=12216"
+      }
+    ]
+  },
+  {
+    "id": "meta-agent-data-exposure",
+    "date": "2026-03-20",
+    "title": "Meta AI agent's flawed advice exposes sensitive data to employees for two hours",
+    "category": "Model & data leak",
+    "direction": "on-ai",
+    "severity": "medium",
+    "country": "US",
+    "region": "North America",
+    "target": "Meta internal systems",
+    "loss_usd": null,
+    "summary": "An engineer acted on an internal AI agent's faulty guidance, making large amounts of sensitive user and company data visible to unauthorized staff for about two hours.",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/technology/2026/mar/20/meta-ai-agents-instruction-causes-large-sensitive-data-leak-to-employees",
+    "actor": "Meta engineer acting on internal AI agent advice",
+    "actor_type": "accident",
+    "attribution": "Confirmed by Meta to The Information; classified internally as Sev 1",
+    "motive": "None (accidental)",
+    "vector": "AI agent on an internal forum gave faulty engineering guidance that, once implemented, exposed data to unauthorized employees",
+    "root_cause": "Unverified AI-generated instructions executed without review; permission model allowed a single change to expose sensitive data broadly",
+    "timeline": [
+      {
+        "date": "2026-03-18",
+        "event": "Engineer applies AI agent's suggested fix; data visible to staff for about two hours"
+      },
+      {
+        "date": "2026-03-20",
+        "event": "The Information and The Guardian report the incident"
+      }
+    ],
+    "impact": "Large volume of sensitive user and company data visible to unauthorized Meta engineers for about two hours; Meta says no user data was mishandled.",
+    "response": "Meta reverted the change, classified it as Sev 1 and said a human could also have given erroneous advice.",
+    "status": "resolved",
+    "cve": null,
+    "sources": [
+      {
+        "name": "The Guardian",
+        "url": "https://www.theguardian.com/technology/2026/mar/20/meta-ai-agents-instruction-causes-large-sensitive-data-leak-to-employees"
+      },
+      {
+        "name": "Storyboard18",
+        "url": "https://storyboard18.com/digital/meta-ai-agent-goes-rogue-exposes-company-and-user-data-for-two-hours-report-92649.htm"
+      },
+      {
+        "name": "PointGuard AI",
+        "url": "https://www.pointguardai.com/ai-security-incidents/metas-ai-agent-misfire-spills-data-across-the-workforce"
+      }
+    ]
+  },
+  {
+    "id": "claude-code-leak-lures",
+    "date": "2026-03-31",
+    "title": "Claude Code source map leak followed by malware-laced fake 'leak' repos",
+    "category": "Model & data leak",
+    "direction": "on-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "Anthropic Claude Code / developers",
+    "loss_usd": null,
+    "summary": "Anthropic accidentally shipped a source map exposing ~513,000 lines of Claude Code; attackers then used fake leaked-code GitHub repos to spread malware to developers.",
+    "source": "Zscaler ThreatLabz",
+    "url": "https://www.zscaler.com/blogs/security-research/anthropic-claude-code-leak",
+    "actor": "Anthropic packaging error; GitHub user idbzoomh spreading Vidar and GhostSocks",
+    "actor_type": "criminal",
+    "attribution": "Leak self-disclosed by Anthropic as human error; malware lures identified by Zscaler and Trend Micro, operator not named",
+    "motive": "Leak accidental; follow-on campaign financially motivated credential theft and proxy botnet building",
+    "vector": "Source map in npm package 2.1.88 exposing TypeScript source; SEO-optimized fake leak repos with a Rust dropper in GitHub Releases",
+    "root_cause": "Build pipeline shipped a 59.8 MB source map; developers downloading unverified archives from repositories claiming to host the leak",
+    "timeline": [
+      {
+        "date": "2026-03-31",
+        "event": "Anthropic publishes @anthropic-ai/claude-code 2.1.88 with full source map"
+      },
+      {
+        "date": "2026-04-01",
+        "event": "Fake leaked Claude Code repos appear on GitHub pushing Vidar and GhostSocks"
+      },
+      {
+        "date": "2026-04-02",
+        "event": "Zscaler, Trend Micro and media report the malware campaign"
+      }
+    ],
+    "impact": "About 513,000 lines of Claude Code source exposed; developers who ran the fake leak archive infected with Vidar infostealer and GhostSocks proxy malware.",
+    "response": "Anthropic pulled the package and called it a packaging error; researchers warned against downloading leak repos; malicious repos reported to GitHub.",
+    "status": "contained",
+    "cve": null,
+    "sources": [
+      {
+        "name": "Zscaler ThreatLabz",
+        "url": "https://www.zscaler.com/blogs/security-research/anthropic-claude-code-leak"
+      },
+      {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/claude-code-leak-used-to-push-infostealer-malware-on-github/"
+      },
+      {
+        "name": "The Register",
+        "url": "https://www.theregister.com/2026/04/02/trojanized_claude_code_leak_github/"
+      },
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/04/03/claude-code-leak-github-malware/"
+      }
+    ]
+  },
+  {
+    "id": "vertex-ai-double-agent",
+    "date": "2026-03-31",
+    "title": "Vertex AI 'Double Agent': over-privileged agents leak credentials and code",
+    "category": "Agent hijack",
+    "direction": "on-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "Google Cloud Vertex AI Agent Engine",
+    "loss_usd": null,
+    "summary": "Unit 42 showed agents deployed on Vertex AI inherited broad default service-account rights, letting a compromised agent steal credentials and reach restricted images and source code.",
+    "source": "Unit 42 (Palo Alto Networks)",
+    "url": "https://unit42.paloaltonetworks.com/double-agents-vertex-ai/",
+    "actor": "Security researchers at Palo Alto Networks Unit 42 (responsible disclosure)",
+    "actor_type": "researcher",
+    "attribution": "Self-attributed research by Unit 42; Google confirmed and worked with researchers on the fix",
+    "motive": "Security research and responsible disclosure",
+    "vector": "Code running inside a deployed ADK agent queried the GCP instance metadata service to obtain the OAuth token of the Google-managed service agent (P4SA)",
+    "root_cause": "Vertex AI Agent Engine attached a default per-product service agent with broad permissions, so any compromised or malicious agent inherited over-privileged, Google-managed identity",
+    "timeline": [
+      {
+        "date": "2026-03",
+        "event": "Unit 42 demonstrates credential extraction and access to customer data and Google-internal Artifact Registry images"
+      },
+      {
+        "date": "2026-03-31",
+        "event": "Unit 42 publishes Double Agents research after responsible disclosure to Google"
+      },
+      {
+        "date": "2026-04-01",
+        "event": "Google confirms production image tampering was blocked and updates Vertex AI permissions documentation"
+      }
+    ],
+    "impact": "Proof of concept only: a deployed agent could return service-agent credentials, reach customer data, internal Dockerfiles and Google internal Artifact Registry contents; no confirmed real-world victims",
+    "response": "Google worked with Unit 42, confirmed internal controls block tampering with production images, rewrote agent permission docs and recommends Bring Your Own Service Account (least privilege) for Vertex AI deployments",
+    "status": "patched",
+    "cve": null,
+    "sources": [
+      {
+        "name": "Unit 42 (Palo Alto Networks)",
+        "url": "https://unit42.paloaltonetworks.com/double-agents-vertex-ai/"
+      },
+      {
+        "name": "TechRadar",
+        "url": "https://www.techradar.com/pro/security/what-if-the-ai-agent-you-just-deployed-was-secretly-working-against-you-vertex-ai-double-agent-flaw-exposes-customer-data-and-googles-internal-code"
+      },
+      {
+        "name": "Cloud Security Alliance",
+        "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-vertex-ai-service-agent-privilege-escalati/"
+      }
+    ]
+  },
+  {
+    "id": "mercor-litellm-breach",
+    "date": "2026-04-03",
+    "title": "Poisoned LiteLLM releases tied to Mercor breach exposing AI lab training secrets",
+    "category": "AI supply chain",
+    "direction": "on-ai",
+    "severity": "critical",
+    "country": "US",
+    "region": "North America",
+    "target": "Mercor; clients Meta, OpenAI, Anthropic",
+    "loss_usd": null,
+    "summary": "Malicious versions of the LiteLLM gateway library were linked to a breach at AI data vendor Mercor, prompting Meta to pause work amid fears training methods and contractor data leaked.",
+    "source": "WIRED",
+    "url": "https://www.wired.com/story/meta-pauses-work-with-mercor-after-data-breach-puts-ai-industry-secrets-at-risk/",
+    "actor": "TeamPCP (LiteLLM poisoning); Lapsus$ claimed the Mercor data",
+    "actor_type": "criminal",
+    "attribution": "TeamPCP linked by security researchers (Wiz and others); Lapsus$ self-claimed Mercor access; link between the two groups unconfirmed",
+    "motive": "Credential theft, data theft and extortion; stolen data listed for sale",
+    "vector": "Maintainer credentials stolen via Trivy supply-chain attack used to publish trojanized LiteLLM 1.82.7 and 1.82.8 to PyPI; Mercor pulled the poisoned package into its environment",
+    "root_cause": "Compromised maintainer credentials on PyPI with no secondary release gate, plus downstream consumers auto-installing new library versions without pinning or verification",
+    "timeline": [
+      {
+        "date": "2026-03-27",
+        "event": "TeamPCP publishes malicious LiteLLM 1.82.7 and 1.82.8 to PyPI; live about 40 minutes"
+      },
+      {
+        "date": "2026-03",
+        "event": "Mercor confirms it was among thousands of organizations hit; Lapsus$ claims its data"
+      },
+      {
+        "date": "2026-04-01",
+        "event": "Class action filed on behalf of affected contractors; further suits follow"
+      },
+      {
+        "date": "2026-04-03",
+        "event": "WIRED reports Meta indefinitely pauses work with Mercor; OpenAI investigates"
+      }
+    ],
+    "impact": "Reported theft of Mercor source code, user database and storage buckets including interview videos, passport scans and SSNs of tens of thousands of contractors; AI lab training workflows feared exposed; Meta contractors put on pause",
+    "response": "Mercor contained the incident and hired third-party forensics; Meta paused work, OpenAI opened a review; LiteLLM yanked the versions; multiple contractor lawsuits filed",
+    "status": "under investigation",
+    "cve": null,
+    "sources": [
+      {
+        "name": "WIRED",
+        "url": "https://www.wired.com/story/meta-pauses-work-with-mercor-after-data-breach-puts-ai-industry-secrets-at-risk/"
+      },
+      {
+        "name": "TechRepublic",
+        "url": "https://www.techrepublic.com/article/news-meta-pauses-work-with-mercor-after-data-breach/"
+      },
+      {
+        "name": "The Next Web",
+        "url": "https://thenextweb.com/news/meta-mercor-breach-ai-training-secrets-risk"
+      },
+      {
+        "name": "Storyboard18",
+        "url": "https://www.storyboard18.com/digital/ai-startup-mercor-flags-data-exposure-in-supply-chain-attack-linked-to-litellm-94295.htm"
+      }
+    ]
+  },
+  {
+    "id": "flowise-rce-exploited",
+    "date": "2026-04-07",
+    "title": "Max-severity Flowise CustomMCP RCE (CVE-2025-59528) exploited in the wild",
+    "category": "Agent hijack",
+    "direction": "on-ai",
+    "severity": "critical",
+    "country": "GL",
+    "region": "Global",
+    "target": "Flowise AI agent builder",
+    "loss_usd": null,
+    "summary": "Attackers began exploiting JavaScript injection in Flowise's CustomMCP node to run code on AI workflow servers, with 12,000-15,000 instances exposed online.",
+    "source": "BleepingComputer",
+    "url": "https://www.bleepingcomputer.com/news/security/max-severity-flowise-rce-vulnerability-now-exploited-in-attacks/",
+    "actor": "Unknown attacker operating from a single Starlink IP",
+    "actor_type": "unknown",
+    "attribution": "No public attribution; exploitation detected by VulnCheck Canary honeypot network",
+    "motive": "Unknown; likely opportunistic server takeover",
+    "vector": "Malicious mcpServerConfig string sent to Flowise CustomMCP node, which evaluated it via the JavaScript Function() constructor with full Node.js privileges; only an API token required",
+    "root_cause": "CustomMCP node executed user-supplied configuration as JavaScript without validation, giving access to child_process and fs modules",
+    "timeline": [
+      {
+        "date": "2025-09",
+        "event": "Flaw disclosed and patched in Flowise 3.0.6; CVE-2025-59528 assigned with CVSS 10.0"
+      },
+      {
+        "date": "2026-04-07",
+        "event": "VulnCheck reports first in-the-wild exploitation; 12,000-15,000 instances exposed online"
+      },
+      {
+        "date": "2026-04-07",
+        "event": "BleepingComputer and others urge upgrade to 3.1.1 or later"
+      }
+    ],
+    "impact": "Remote code execution on exposed Flowise servers; exploitation limited to one source IP at time of reporting; number of compromised instances unknown",
+    "response": "Vendor fix already available (3.0.6+); researchers urged upgrading, removing instances from the internet and rotating API tokens; VulnCheck shared signatures with customers",
+    "status": "patched",
+    "cve": "CVE-2025-59528",
+    "sources": [
+      {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/max-severity-flowise-rce-vulnerability-now-exploited-in-attacks/"
+      },
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/04/flowise-ai-agent-builder-under-active.html"
+      },
+      {
+        "name": "Security Affairs",
+        "url": "https://securityaffairs.com/190471/security/attackers-exploit-critical-flowise-flaw-cve-2025-59528-for-remote-code-execution.html"
+      },
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/critical-flowise-vulnerability-in-attacker-crosshairs/"
+      }
+    ]
+  },
+  {
+    "id": "grafanaghost",
+    "date": "2026-04-07",
+    "title": "GrafanaGhost: indirect prompt injection makes Grafana AI leak enterprise data",
+    "category": "Prompt injection",
+    "direction": "on-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "Grafana AI assistant",
+    "loss_usd": null,
+    "summary": "Researchers showed hidden instructions in external content could make Grafana's AI render an attacker image URL carrying enterprise data; Grafana patched it.",
+    "source": "SecurityWeek",
+    "url": "https://www.securityweek.com/grafanaghost-attackers-can-abuse-grafana-to-leak-enterprise-data/",
+    "actor": "Security researchers at Noma Security (Sasi Levi), responsible disclosure",
+    "actor_type": "researcher",
+    "attribution": "Self-attributed research by Noma Security; Grafana Labs validated the flaw but disputed its severity",
+    "motive": "Security research and responsible disclosure",
+    "vector": "Crafted URL path carrying hidden instructions, an INTENT keyword to bypass guardrails, and a protocol-relative image URL that evaded external-image domain validation",
+    "root_cause": "Grafana AI assistant trusted content in URL paths and external pages, and URL validation failed to block protocol-relative links, enabling zero-click exfiltration via image rendering",
+    "timeline": [
+      {
+        "date": "2026-03",
+        "event": "Noma Security discovers the chained bypass and reports it to Grafana Labs"
+      },
+      {
+        "date": "2026-04-07",
+        "event": "Grafana patches the core issue; Noma publishes GrafanaGhost research"
+      },
+      {
+        "date": "2026-04-07",
+        "event": "SecurityWeek, CyberScoop and Dark Reading cover the disclosure"
+      }
+    ],
+    "impact": "Proof of concept only; no confirmed data breach. Attack could have leaked dashboard data including financial metrics, infrastructure and customer telemetry to an attacker server",
+    "response": "Grafana Labs validated the report and rolled out a fix for the URL validation and guardrail bypass; disputed the severity, noting repeated user involvement was needed",
+    "status": "patched",
+    "cve": null,
+    "sources": [
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/grafanaghost-attackers-can-abuse-grafana-to-leak-enterprise-data/"
+      },
+      {
+        "name": "CyberScoop",
+        "url": "https://cyberscoop.com/grafanaghost-grafana-prompt-injection-vulnerability-data-exfiltration/"
+      },
+      {
+        "name": "Dark Reading",
+        "url": "https://darkreading.com/application-security/grafana-patches-ai-bug-leaked-user-data"
+      },
+      {
+        "name": "CSO Online",
+        "url": "https://www.csoonline.com/article/4155004/zero-click-grafana-ai-attack-can-enable-enterprise-data-exfiltration.html"
+      }
+    ]
+  },
+  {
+    "id": "copilot-agentforce-injection",
+    "date": "2026-04-15",
+    "title": "Prompt injection leaks data from Microsoft Copilot Studio and Salesforce Agentforce agents",
+    "category": "Prompt injection",
+    "direction": "on-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "Copilot Studio, Salesforce Agentforce",
+    "loss_usd": null,
+    "summary": "Researchers demonstrated indirect prompt injection that exfiltrated data from enterprise agents built on Copilot Studio (CVE-2026-21520) and Agentforce despite earlier patches.",
+    "source": "OECD AI Incidents Monitor",
+    "url": "https://oecd.ai/en/incidents/2026-04-15-d934",
+    "actor": "Security researchers at Capsule Security (responsible disclosure)",
+    "actor_type": "researcher",
+    "attribution": "Self-attributed research by Capsule Security; Microsoft assigned CVE-2026-21520 (ShareLeak); Salesforce confirmed addressing PipeLeak",
+    "motive": "Security research and responsible disclosure",
+    "vector": "Indirect prompt injection via ordinary business inputs: a SharePoint form comment field (Copilot Studio) and a public lead form (Agentforce) carrying fake system instructions",
+    "root_cause": "Untrusted form input was concatenated into agent system prompts with no separation between trusted instructions and user data, so agents followed injected commands through authorized tools",
+    "timeline": [
+      {
+        "date": "2026-01-15",
+        "event": "Microsoft patches the Copilot Studio flaw server-side"
+      },
+      {
+        "date": "2026-01-22",
+        "event": "CVE-2026-21520 published (CVSS 7.5)"
+      },
+      {
+        "date": "2026-04-15",
+        "event": "Capsule Security publicly discloses ShareLeak and PipeLeak alongside its launch"
+      }
+    ],
+    "impact": "Demonstrated exfiltration of SharePoint list data by email and misuse of Agentforce workflows; Microsoft safety filters flagged but did not stop the payload; no confirmed real-world victims",
+    "response": "Microsoft mitigated internally with no customer action required; Salesforce said it addressed the issue; researchers warned the attack class remains open",
+    "status": "patched",
+    "cve": "CVE-2026-21520",
+    "sources": [
+      {
+        "name": "OECD AI Incidents Monitor",
+        "url": "https://oecd.ai/en/incidents/2026-04-15-d934"
+      },
+      {
+        "name": "CSO Online",
+        "url": "https://www.csoonline.com/article/4159079/copilot-and-agentforce-fall-to-form-based-prompt-injection-tricks.html"
+      },
+      {
+        "name": "SiliconANGLE",
+        "url": "https://siliconangle.com/2026/04/15/capsule-security-launches-7m-secure-ai-agents-runtime/"
+      }
+    ]
+  },
+  {
+    "id": "vercel-context-ai",
+    "date": "2026-04-19",
+    "title": "Compromised Context.ai AI tool's OAuth grant leads to Vercel breach",
+    "category": "AI supply chain",
+    "direction": "on-ai",
+    "severity": "high",
+    "country": "US",
+    "region": "North America",
+    "target": "Vercel / Context.ai",
+    "loss_usd": null,
+    "summary": "Attackers who compromised the Context.ai agent platform abused an employee's broad Google Workspace OAuth grant to enter Vercel and read non-sensitive customer environment variables.",
+    "source": "Trend Micro",
+    "url": "https://trendmicro.com/en_us/research/26/d/vercel-breach-oauth-supply-chain.html",
+    "actor": "Unknown threat actor; data-sale claims on BreachForums unverified",
+    "actor_type": "unknown",
+    "attribution": "No public attribution; Vercel self-disclosed and traced origin to Context.ai compromise with Google Mandiant",
+    "motive": "Credential and data theft; possible resale (unverified extortion claims)",
+    "vector": "Compromised Context.ai Google Workspace OAuth application used to take over a Vercel employee's corporate Google account, then pivot into Vercel environments",
+    "root_cause": "Broad OAuth scopes granted to a third-party AI tool, and Vercel environment variables not marked sensitive being readable in plaintext",
+    "timeline": [
+      {
+        "date": "2026-02",
+        "event": "Context.ai employee reportedly infected with Lumma Stealer; OAuth tokens later compromised"
+      },
+      {
+        "date": "2026-03",
+        "event": "Context.ai discloses unauthorized access to its AWS environment and hires CrowdStrike"
+      },
+      {
+        "date": "2026-04-19",
+        "event": "Vercel detects unauthorized access to internal systems via employee Google Workspace account"
+      },
+      {
+        "date": "2026-04-21",
+        "event": "Vercel publishes bulletin, notifies affected customers and publishes OAuth app IOC"
+      }
+    ],
+    "impact": "Attacker accessed some Vercel environments and customer environment variables not marked sensitive for a limited set of customers; sensitive-flagged variables showed no evidence of access",
+    "response": "Vercel engaged Google Mandiant, notified affected customers, recommended credential rotation, published an OAuth app IOC and confirmed with GitHub, npm and Socket that its packages were untouched",
+    "status": "under investigation",
+    "cve": null,
+    "sources": [
+      {
+        "name": "Trend Micro",
+        "url": "https://trendmicro.com/en_us/research/26/d/vercel-breach-oauth-supply-chain.html"
+      },
+      {
+        "name": "Help Net Security",
+        "url": "https://helpnetsecurity.com/2026/04/20/vercel-breached"
+      },
+      {
+        "name": "The Register",
+        "url": "https://www.theregister.com/2026/04/20/vercel_context_ai_security_incident/"
+      }
+    ]
+  },
+  {
+    "id": "mythos-unauthorized-access",
+    "date": "2026-04-21",
+    "title": "Unauthorized group accesses Anthropic's restricted Claude Mythos model via vendor",
+    "category": "Model & data leak",
+    "direction": "on-ai",
+    "severity": "high",
+    "country": "US",
+    "region": "North America",
+    "target": "Anthropic Claude Mythos Preview",
+    "loss_usd": null,
+    "summary": "Bloomberg reported a small group reached the restricted cyber-capable Mythos model using a contractor's account and a guessed URL; Anthropic investigated a third-party vendor environment.",
+    "source": "The Decoder",
+    "url": "https://the-decoder.com/unauthorized-users-breach-anthropics-restricted-mythos-ai-model/",
+    "actor": "Small Discord-based group of AI enthusiasts, one with contractor access",
+    "actor_type": "insider",
+    "attribution": "Reported by Bloomberg based on screenshots and live demo; Anthropic confirmed investigating a third-party vendor environment",
+    "motive": "Curiosity and experimentation with unreleased models, per the group; no reported malicious use",
+    "vector": "Shared accounts and API keys of an authorized contractor plus a guessed model endpoint URL based on Anthropic naming conventions",
+    "root_cause": "Weak access controls in a third-party vendor environment: shared credentials and predictable model endpoints with no additional gating",
+    "timeline": [
+      {
+        "date": "2026-04-07",
+        "event": "Mythos Preview announced under Project Glasswing; group reportedly gains access the same day"
+      },
+      {
+        "date": "2026-04-21",
+        "event": "Bloomberg reports the unauthorized access; Anthropic confirms investigation"
+      },
+      {
+        "date": "2026-04-22",
+        "event": "Anthropic says no evidence of impact to core systems beyond the vendor environment"
+      }
+    ],
+    "impact": "Unauthorized use of a restricted cyber-capable model by a handful of users over roughly two weeks; no evidence of core-system compromise reported",
+    "response": "Anthropic investigated the vendor environment; outcome of the investigation not publicly reported",
+    "status": "under investigation",
+    "cve": null,
+    "sources": [
+      {
+        "name": "The Decoder",
+        "url": "https://the-decoder.com/unauthorized-users-breach-anthropics-restricted-mythos-ai-model/"
+      },
+      {
+        "name": "Security Boulevard",
+        "url": "https://securityboulevard.com/2026/04/unauthorized-group-gains-access-to-anthropics-restricted-mythos-ai-cybersecurity-tool/"
+      },
+      {
+        "name": "The Next Web",
+        "url": "https://thenextweb.com/news/anthropic-mythos-unauthorized-access-vendor-breach"
+      }
+    ]
+  },
+  {
+    "id": "mini-shai-hulud-ai-packages",
+    "date": "2026-05-12",
+    "title": "Mini Shai-Hulud worm hits TanStack, Mistral AI and Guardrails AI packages",
+    "category": "AI supply chain",
+    "direction": "on-ai",
+    "severity": "critical",
+    "country": "GL",
+    "region": "Global",
+    "target": "npm/PyPI AI developer packages",
+    "loss_usd": null,
+    "summary": "TeamPCP's worm hijacked release pipelines to publish 170+ malicious npm/PyPI versions, stealing cloud, CI and AI-tool credentials and planting persistence in Claude Code and VS Code.",
+    "source": "Tom's Hardware",
+    "url": "https://www.tomshardware.com/tech-industry/cyber-security/compromised-mistral-ai-and-tanstack-packages-may-have-exposed-github-cloud-and-ci-cd-credentials-in-mini-shai-hulud-malware-infection-supply-chain-campaign-spreads-across-npm-and-ai-developer-ecosystems-like-wildfire",
+    "actor": "TeamPCP",
+    "actor_type": "criminal",
+    "attribution": "Attributed to TeamPCP by Wiz, Socket, Expel and Phoenix Security based on tooling overlap with earlier campaigns",
+    "motive": "Mass credential theft (cloud, CI, npm, AI-tool tokens) for resale and further compromise",
+    "vector": "Fork pull request against TanStack router poisoned the GitHub Actions cache, extracted an OIDC publish token and published trojanized packages; worm then reused stolen npm tokens to spread",
+    "root_cause": "GitHub Actions cache collision between fork and upstream PRs, overly broad token permissions and build-plus-publish in one job, defeating 2FA and trusted publishing",
+    "timeline": [
+      {
+        "date": "2026-05-10",
+        "event": "Attacker fork of TanStack/router created; orphaned commit plants malicious workflow"
+      },
+      {
+        "date": "2026-05-11",
+        "event": "Malicious TanStack, OpenSearch, Mistral AI and Guardrails AI versions published to npm and PyPI"
+      },
+      {
+        "date": "2026-05-12",
+        "event": "Socket, Wiz and Expel publish analyses; maintainers yank versions and rotate tokens"
+      },
+      {
+        "date": "2026-08",
+        "event": "Related fork-triggered compromise hits openapi-react-query-codegen"
+      }
+    ],
+    "impact": "170+ malicious versions across 19 npm namespaces plus PyPI, including packages with 1.3M weekly downloads; stole GitHub, AWS, Vault, Kubernetes, npm and AI-tool credentials and planted persistence hooks in Claude Code and VS Code",
+    "response": "Compromised versions removed; TanStack published a post-mortem; vendors issued IOCs and cleanup guidance for IDE persistence hooks; affected users told to rotate all secrets",
+    "status": "contained",
+    "cve": null,
+    "sources": [
+      {
+        "name": "Tom's Hardware",
+        "url": "https://www.tomshardware.com/tech-industry/cyber-security/compromised-mistral-ai-and-tanstack-packages-may-have-exposed-github-cloud-and-ci-cd-credentials-in-mini-shai-hulud-malware-infection-supply-chain-campaign-spreads-across-npm-and-ai-developer-ecosystems-like-wildfire"
+      },
+      {
+        "name": "Expel",
+        "url": "https://expel.com/blog/mini-shai-hulud-cross-ecosystem-supply-chain-worm/"
+      },
+      {
+        "name": "Phoenix Security",
+        "url": "https://phoenix.security/mini-shai-hulud-teampcp-tanstack/"
+      },
+      {
+        "name": "Endor Labs",
+        "url": "https://www.endorlabs.com/learn/shai-hulud-compromises-the-tanstack-ecosystem-80-packages-compromised"
+      }
+    ]
+  },
+  {
+    "id": "codexui-android-npm",
+    "date": "2026-06-02",
+    "title": "Trojanized codexui-android npm package steals OpenAI Codex tokens",
+    "category": "AI supply chain",
+    "direction": "on-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "OpenAI Codex users",
+    "loss_usd": null,
+    "summary": "A package posing as a remote web UI for OpenAI Codex built a user base for a month before activating a payload that exfiltrated Codex authentication tokens.",
+    "source": "Cloud Security Alliance",
+    "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-openai-codex-npm-supply-chain-developer-cr/",
+    "actor": "Package author of codexui-android (identity not public)",
+    "actor_type": "unknown",
+    "attribution": "Discovered by Aikido Security; author claimed lost npm access then said it was investigating; no law-enforcement attribution",
+    "motive": "Theft of OpenAI Codex refresh tokens for persistent account access",
+    "vector": "Working Codex web UI package that fetched malicious code at runtime, read ~/.codex/auth.json, XOR-encoded it and POSTed it to a fake Sentry endpoint at sentry.anyclaw.store",
+    "root_cause": "Codex stored non-expiring refresh tokens in a plaintext file readable by any installed package, and npm package contents diverged from the public GitHub source",
+    "timeline": [
+      {
+        "date": "2026-05",
+        "event": "Package gains roughly 27,000-29,000 weekly downloads; exfiltration runs for about a month"
+      },
+      {
+        "date": "2026-06-02",
+        "event": "Aikido Security publicly discloses the token stealer"
+      },
+      {
+        "date": "2026-06-04",
+        "event": "Companion Android apps found forwarding Codex credentials to the same endpoint"
+      }
+    ],
+    "impact": "Codex access, refresh and ID tokens of an unknown number of developers (package had ~27,000 weekly downloads) exfiltrated, enabling persistent account access",
+    "response": "Malicious code removed by author after inquiry; researchers advised revoking and rotating Codex tokens and blocking the exfiltration domain",
+    "status": "contained",
+    "cve": null,
+    "sources": [
+      {
+        "name": "Cloud Security Alliance",
+        "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-openai-codex-npm-supply-chain-developer-cr/"
+      },
+      {
+        "name": "Kiteworks",
+        "url": "https://www.kiteworks.com/cybersecurity-risk-management/openai-codex-npm-supply-chain-attack/"
+      },
+      {
+        "name": "PointGuard AI",
+        "url": "https://www.pointguardai.com/ai-security-incidents/malicious-npm-package-steals-openai-codex-authentication-tokens"
+      }
+    ]
+  },
+  {
+    "id": "meta-ai-support-instagram",
+    "date": "2026-06-08",
+    "title": "Hackers trick Meta's AI support chatbot into handing over Instagram accounts",
+    "category": "Agent hijack",
+    "direction": "on-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "Meta AI account-recovery assistant / Instagram",
+    "loss_usd": null,
+    "summary": "Attackers asked Meta's AI support assistant to link new emails to target accounts, then reset passwords, hijacking high-profile accounts before Meta fixed the flow.",
+    "source": "Engadget",
+    "url": "https://engadget.com/2185225/meta-ai-support-chatbot-made-it-ridiculously-easy-for-hackers-to-take-over-instagram-accounts",
+    "actor": "Account-hijacking crews coordinating on Telegram",
+    "actor_type": "criminal",
+    "attribution": "Reported by 404 Media from Telegram chat logs; Meta confirmed and fixed the issue but did not attribute",
+    "motive": "Resale of short or high-value Instagram usernames; propaganda posts from hijacked accounts",
+    "vector": "Attackers used a VPN to match the victim's region, then asked the AI support assistant to link a new email to the target account and used the reset code to change the password",
+    "root_cause": "AI recovery assistant could change account email with no human review and weak identity verification beyond approximate location",
+    "timeline": [
+      {
+        "date": "2026-03",
+        "event": "Meta launches AI support assistant; Telegram users begin abusing it"
+      },
+      {
+        "date": "2026-05-29",
+        "event": "Meta reportedly applies emergency patch after high-profile takeovers"
+      },
+      {
+        "date": "2026-06-01",
+        "event": "404 Media reports hijacks of accounts tied to Obama, Sephora and a Space Force chief"
+      },
+      {
+        "date": "2026-06-08",
+        "event": "Meta says the issue is resolved and impacted accounts are being secured"
+      }
+    ],
+    "impact": "Unknown number of Instagram accounts hijacked, including high-profile ones used to post propaganda; 2FA-protected accounts received reset prompts but were largely not taken over",
+    "response": "Meta closed the loophole, said impacted accounts were being secured; no explanation of the flaw's cause",
+    "status": "patched",
+    "cve": null,
+    "sources": [
+      {
+        "name": "Engadget",
+        "url": "https://engadget.com/2185225/meta-ai-support-chatbot-made-it-ridiculously-easy-for-hackers-to-take-over-instagram-accounts"
+      },
+      {
+        "name": "TechSpot",
+        "url": "https://www.techspot.com/news/112614-hackers-tricked-meta-ai-chatbot-handing-over-instagram.html"
+      },
+      {
+        "name": "heise",
+        "url": "https://heise.de/-11314517"
+      },
+      {
+        "name": "Silicon UK",
+        "url": "https://www.silicon.co.uk/security/cyberwar/meta-instagram-ai-hack-630083"
+      }
+    ]
+  },
+  {
+    "id": "litellm-cve-2026-42271",
+    "date": "2026-06-08",
+    "title": "CISA adds actively exploited LiteLLM AI gateway RCE (CVE-2026-42271) to KEV",
+    "category": "Agent hijack",
+    "direction": "on-ai",
+    "severity": "critical",
+    "country": "GL",
+    "region": "Global",
+    "target": "BerriAI LiteLLM proxy",
+    "loss_usd": null,
+    "summary": "Attackers exploited command injection in LiteLLM's MCP server preview endpoints, chainable with a Starlette Host bypass for unauthenticated RCE and theft of AI provider keys.",
+    "source": "The Hacker News",
+    "url": "https://thehackernews.com/2026/06/litellm-flaw-cve-2026-42271-exploited.html",
+    "actor": "Unknown attackers exploiting in the wild",
+    "actor_type": "unknown",
+    "attribution": "No public attribution; CISA confirmed active exploitation via KEV listing; chain validated by Horizon3.ai",
+    "motive": "Takeover of AI gateways and theft of upstream AI provider API keys",
+    "vector": "POST to /mcp-rest/test/connection or /mcp-rest/test/tools/list with a stdio MCP config whose command is spawned as a subprocess; chained with Starlette BadHost (CVE-2026-48710) to skip auth",
+    "root_cause": "MCP preview endpoints executed user-supplied commands and were exposed to any API key holder; Starlette rebuilt request paths from unvalidated Host headers, letting auth middleware be bypassed",
+    "timeline": [
+      {
+        "date": "2026-04-20",
+        "event": "CVE-2026-42271 disclosed in LiteLLM 1.74.2 through 1.83.6"
+      },
+      {
+        "date": "2026-05-08",
+        "event": "LiteLLM 1.83.7 restricts MCP test endpoints to PROXY_ADMIN"
+      },
+      {
+        "date": "2026-05-26",
+        "event": "Starlette CVE-2026-48710 BadHost disclosed; Horizon3.ai validates unauthenticated chain June 1"
+      },
+      {
+        "date": "2026-06-08",
+        "event": "CISA adds CVE-2026-42271 to KEV with federal deadline June 22"
+      }
+    ],
+    "impact": "Unauthenticated remote code execution on exposed LiteLLM proxies and theft of stored AI provider keys; number of compromised deployments not disclosed",
+    "response": "BerriAI shipped 1.83.7, Starlette 1.0.1 fixed BadHost; CISA KEV listing with remediation deadline; WAF blocking of the test endpoints advised",
+    "status": "patched",
+    "cve": "CVE-2026-42271, CVE-2026-48710",
+    "sources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/06/litellm-flaw-cve-2026-42271-exploited.html"
+      },
+      {
+        "name": "Horizon3.ai",
+        "url": "https://www.horizon3.ai/cve-2026-42271-chained-with-cve-2026-48710"
+      },
+      {
+        "name": "Wiz Vulnerability Database",
+        "url": "https://www.wiz.io/vulnerability-database/cve/cve-2026-42271"
+      },
+      {
+        "name": "Cloud Security Alliance",
+        "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-litellm-cve-2026-42271-ai-gateway-exploita/"
+      }
+    ]
+  },
+  {
+    "id": "ollama-vapt-autonomous-attack",
+    "date": "2026-06-12",
+    "title": "Hijacked Ollama server used as brain of autonomous hacking pipeline",
+    "category": "LLMjacking",
+    "direction": "on-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "Exposed Ollama servers",
+    "loss_usd": null,
+    "summary": "Sysdig observed an attacker using an unauthenticated Ollama instance as the reasoning engine of a tool that scanned targets, wrote exploits and attempted intrusions.",
+    "source": "Sysdig",
+    "url": "https://sysdig.com/blog/llmjacking-evolved-attackers-are-using-stolen-ai-compute-to-build-offensive-agentic-tools/",
+    "actor": "Unknown attacker developing an offensive tool called VAPT",
+    "actor_type": "unknown",
+    "attribution": "No public attribution; observed by Sysdig Threat Research Team on its honeypot infrastructure",
+    "motive": "Free model compute to build and test an autonomous penetration-testing and exploitation tool",
+    "vector": "Unauthenticated Ollama API on port 11434 reachable from the internet used as the LLM backend for a multi-stage exploitation pipeline",
+    "root_cause": "Ollama ships with no authentication by default and roughly 175,000 instances are publicly exposed",
+    "timeline": [
+      {
+        "date": "2026-06-12",
+        "event": "Sysdig observes the VAPT pipeline using its exposed Ollama honeypot as reasoning engine"
+      },
+      {
+        "date": "2026-06-17",
+        "event": "Sysdig publishes LLMjacking Evolved research"
+      },
+      {
+        "date": "2026-06-26",
+        "event": "Cloud Security Alliance issues research note on the campaign"
+      }
+    ],
+    "impact": "Stolen inference compute; tool fingerprinted services, found vulnerabilities, wrote exploits and extracted credentials against lab ranges and HackTheBox targets; no confirmed real-world victims",
+    "response": "Sysdig published IOCs and advised keeping self-hosted LLM endpoints off public networks and requiring authentication at a reverse proxy",
+    "status": "ongoing",
+    "cve": null,
+    "sources": [
+      {
+        "name": "Sysdig",
+        "url": "https://sysdig.com/blog/llmjacking-evolved-attackers-are-using-stolen-ai-compute-to-build-offensive-agentic-tools/"
+      },
+      {
+        "name": "Cloud Security Alliance",
+        "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-llmjacking-evolved-offensive-agentic-tools/"
+      },
+      {
+        "name": "CyberWire Research Saturday",
+        "url": "https://thecyberwire.com/podcasts/research-saturday/439/notes"
+      }
+    ]
+  },
+  {
+    "id": "sky-gold-deepfake-director",
+    "date": "2026-07-15",
+    "title": "Indian jeweller Sky Gold's unit loses Rs 10.7 crore to alleged deepfake of director",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "IN",
+    "region": "Asia-Pacific",
+    "target": "Starmangalsutra (Sky Gold and Diamonds)",
+    "loss_usd": 1100000,
+    "summary": "Fraudsters compromised a company phone and laptop and allegedly used deepfake impersonation of a director to get an employee to wire Rs 10.70 crore (~$1.1M) to unknown accounts.",
+    "source": "AI Incident Database (Economic Times)",
+    "url": "https://incidentdatabase.ai/cite/1596/",
+    "actor": "Unidentified fraudsters",
+    "actor_type": "criminal",
+    "attribution": "Not publicly attributed; deepfake element reported by the company and press, not forensically confirmed",
+    "motive": "Financial fraud (business email/executive impersonation)",
+    "vector": "Compromise of a company-issued phone and laptop, then deepfake impersonation of a director instructing an employee to transfer funds",
+    "root_cause": "Payment instructions accepted on the basis of perceived executive identity without out-of-band verification; compromised corporate devices",
+    "timeline": [
+      {
+        "date": "2026-07",
+        "event": "Employee transfers Rs 10.70 crore to unknown accounts on fraudulent director instructions"
+      },
+      {
+        "date": "2026-07-15",
+        "event": "Sky Gold discloses the loss at subsidiary Starmangalsutra; shares fall"
+      },
+      {
+        "date": "2026-07",
+        "event": "Subsidiary files complaint with cybercrime authorities"
+      }
+    ],
+    "impact": "Rs 10.70 crore (about USD 1.1 million) transferred to unknown accounts; Sky Gold share price dropped after disclosure",
+    "response": "Complaint filed with cybercrime authorities; recovery status and arrests not publicly reported",
+    "status": "under investigation",
+    "cve": null,
+    "sources": [
+      {
+        "name": "AI Incident Database (Economic Times)",
+        "url": "https://incidentdatabase.ai/cite/1596/"
+      },
+      {
+        "name": "AI Incident Database entity page",
+        "url": "https://incidentdatabase.ai/entities/starmangalsutra/"
+      }
+    ]
+  },
+  {
+    "id": "openai-agent-hugging-face",
+    "date": "2026-07-21",
+    "title": "OpenAI evaluation agent escapes sandbox and breaches Hugging Face production systems",
+    "category": "Agent hijack",
+    "direction": "with-ai",
+    "severity": "critical",
+    "country": "US",
+    "region": "North America",
+    "target": "Hugging Face",
+    "loss_usd": null,
+    "summary": "During a cyber eval, OpenAI agents exploited zero-days to escape their environment and break into Hugging Face servers; Hugging Face contained it and alerted the FBI before OpenAI noticed.",
+    "source": "Security Affairs (Reuters)",
+    "url": "https://securityaffairs.com/196120/ai/reuters-openai-agent-hacked-hugging-face-for-days-before-being-detected/",
+    "actor": "OpenAI evaluation agents (GPT-5.6 Sol and an unreleased model)",
+    "actor_type": "autonomous-ai",
+    "attribution": "Reported by Reuters from sources and OpenAI logs; OpenAI acknowledged the agent but said the reporting contained inaccuracies",
+    "motive": "None intended; agents pursued cyber-evaluation objectives beyond their sandbox",
+    "vector": "Sandbox escape from an OpenAI test environment, use of stolen credentials and a previously unknown flaw to reach Hugging Face servers via a third-party-hosted sandbox (Modal Labs customer)",
+    "root_cause": "Insufficient isolation of autonomous agents during offensive-capability evaluations and delayed monitoring; a Modal customer had exposed an unauthenticated code-execution endpoint",
+    "timeline": [
+      {
+        "date": "2026-05-13",
+        "event": "Agents reportedly begin probing Hugging Face, per later Reuters reporting"
+      },
+      {
+        "date": "2026-07-09",
+        "event": "Agent attempts to break out of its OpenAI sandbox"
+      },
+      {
+        "date": "2026-07-11",
+        "event": "Intrusions into Hugging Face systems run through July 13; Hugging Face contains and alerts FBI"
+      },
+      {
+        "date": "2026-07-16",
+        "event": "Hugging Face blogs about an autonomous AI agent system; OpenAI links logs and contacts Hugging Face July 20"
+      },
+      {
+        "date": "2026-07-28",
+        "event": "Reuters reports the agent also compromised a Modal Labs customer account"
+      }
+    ],
+    "impact": "Unauthorized access to Hugging Face production systems for several days; OpenAI later said four accounts at four services were accessed; Senate subcommittee inquiry opened",
+    "response": "Hugging Face contained the intrusion and notified the FBI; OpenAI deactivated, encrypted and restricted the model; joint investigations ongoing",
+    "status": "under investigation",
+    "cve": null,
+    "sources": [
+      {
+        "name": "Security Affairs (Reuters)",
+        "url": "https://securityaffairs.com/196120/ai/reuters-openai-agent-hacked-hugging-face-for-days-before-being-detected/"
+      },
+      {
+        "name": "Engadget",
+        "url": "https://engadget.com/2223141/openai-rogue-agent-days-hacking-spree-reuters"
+      },
+      {
+        "name": "Al Jazeera",
+        "url": "https://aljazeera.com/news/2026/7/29/openais-rogue-agent-hacked-an-account-at-a-second-technology-firm-report"
+      },
+      {
+        "name": "Quartz",
+        "url": "https://qz.com/openai-rogue-agent-modal-labs-customer-hugging-face-072926"
+      }
+    ]
+  },
+  {
+    "id": "chatgpt-gmail-covert-channel",
+    "date": "2026-09-08",
+    "title": "Planted prompt makes ChatGPT copy victims' Gmail data to attacker account",
+    "category": "Prompt injection",
+    "direction": "on-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "ChatGPT Gmail connector",
+    "loss_usd": null,
+    "summary": "Check Point showed a planted instruction could make ChatGPT read connected Gmail and pass it to an attacker's ChatGPT account through a covert channel between sandboxes; OpenAI disabled the service.",
+    "source": "Mezha",
+    "url": "https://mezha.ua/en/news/openai-chatgpt-gmail-flaw-304958/",
+    "actor": "Security researchers at Check Point Research (responsible disclosure)",
+    "actor_type": "researcher",
+    "attribution": "Self-attributed research by Check Point; OpenAI confirmed the internal service was decommissioned",
+    "motive": "Security research and responsible disclosure",
+    "vector": "Prompt injection via shared conversation or custom GPT made the victim's code sandbox read Gmail and write chunks as properties on a shared JFrog Artifactory item readable by the attacker's sandbox",
+    "root_cause": "Per-account sandboxes shared one internal Artifactory package service with credentials that allowed writes, giving a cross-account covert channel with no per-account separation",
+    "timeline": [
+      {
+        "date": "2026-06",
+        "event": "Check Point discovers the cross-account channel and reports it to OpenAI"
+      },
+      {
+        "date": "2026-09-08",
+        "event": "Check Point publishes research; OpenAI confirms the Artifactory instance was decommissioned"
+      }
+    ],
+    "impact": "Proof of concept only; demonstrated silent exfiltration of a victim's Gmail data (also applicable to Drive, Teams and GitHub connectors) with only a Talked to Gmail label visible",
+    "response": "OpenAI decommissioned the shared internal package service; no CVE assigned and no user-facing patch required",
+    "status": "patched",
+    "cve": null,
+    "sources": [
+      {
+        "name": "Mezha",
+        "url": "https://mezha.ua/en/news/openai-chatgpt-gmail-flaw-304958/"
+      },
+      {
+        "name": "CSO Online",
+        "url": "https://www.csoonline.com/article/4220203/chatgpt-flaw-lets-attackers-pull-gmail-data-across-accounts-via-a-hidden-channel.html"
+      },
+      {
+        "name": "Cybernews",
+        "url": "https://cybernews.com/news/chatgpt-flaw-steal-gmail-data/"
+      },
+      {
+        "name": "TechRadar",
+        "url": "https://techradar.com/pro/security/a-worrying-chatgpt-bug-let-strangers-read-gmail-messages-via-a-hidden-cross-account-channel"
+      }
+    ]
+  },
+  {
+    "id": "anthropic-jackpoterz-russia",
+    "date": "2026-09-10",
+    "title": "Russia-aligned actor used AI agents to self-rebuild malware and steal ID records",
+    "category": "State actor AI ops",
+    "direction": "with-ai",
+    "severity": "critical",
+    "country": "GL",
+    "region": "Global",
+    "target": "Ukrainian/European defense, drone makers, North African government",
+    "loss_usd": null,
+    "summary": "Anthropic's threat report described a Midnight Blizzard-like operator whose agents auto-rebuilt detected malware, raided drone makers and stole 300,000+ national ID records.",
+    "source": "CyberScoop",
+    "url": "https://cyberscoop.com/anthropic-report-ai-enabled-cyber-attacks/",
+    "actor": "Suspected Russia-aligned actor consistent with Midnight Blizzard (SVR-linked)",
+    "actor_type": "state",
+    "attribution": "Anthropic assessed activity as consistent with Midnight Blizzard; described as suspected, not confirmed",
+    "motive": "Espionage against Ukrainian government, military, diplomats and defense suppliers",
+    "vector": "Phishing, hotel Wi-Fi hijacking and WhatsApp account takeover, with Claude agents automating malware rewriting when detected and mailbox extraction",
+    "root_cause": "Abuse of commercial AI agents to automate detection-evasion and intrusion tasks at scale; targets' exposure to phishing and account takeover",
+    "timeline": [
+      {
+        "date": "2025-12",
+        "event": "Start of the eight-month period covered by Anthropic's report"
+      },
+      {
+        "date": "2026-08",
+        "event": "Anthropic detects and disrupts the accounts involved"
+      },
+      {
+        "date": "2026-09-10",
+        "event": "Anthropic publishes Detecting and countering misuse of AI threat report"
+      }
+    ],
+    "impact": "Entire mailboxes stolen from two drone component makers, a drone vision SDK taken, and 300,000+ national identity records exfiltrated from a North African government agency",
+    "response": "Anthropic dismantled the accounts, upgraded safety classifiers and shared intelligence with governments and industry peers",
+    "status": "contained",
+    "cve": null,
+    "sources": [
+      {
+        "name": "CyberScoop",
+        "url": "https://cyberscoop.com/anthropic-report-ai-enabled-cyber-attacks/"
+      },
+      {
+        "name": "Anadolu Agency",
+        "url": "https://aa.com.tr/en/features/explainer-anthropic-threat-intelligence-report-what-to-know/4054686"
+      },
+      {
+        "name": "The Register",
+        "url": "https://www.theregister.com/a/5295702"
+      }
+    ]
+  },
+  {
+    "id": "anthropic-shinyhunters-agents",
+    "date": "2026-09-10",
+    "title": "ShinyHunters affiliates use AI agents to dump 2,100+ Azure tokens from 40+ tenants",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "Corporate cloud tenants",
+    "loss_usd": null,
+    "summary": "Anthropic reported ShinyHunters-linked actors whose AI agents did nearly all the work in a supply-chain breach of 40+ cloud tenants and a three-hour takeover from one stolen token.",
+    "source": "CyberScoop",
+    "url": "https://cyberscoop.com/anthropic-report-ai-enabled-cyber-attacks/",
+    "actor": "Suspected ShinyHunters-linked extortion actor",
+    "actor_type": "criminal",
+    "attribution": "Assessed by Anthropic as a suspected ShinyHunters threat actor based on tradecraft; not confirmed by law enforcement",
+    "motive": "Data theft and extortion",
+    "vector": "Supply-chain compromise of a shared provider, then Claude agents automated extraction of Azure AD authentication tokens and lateral movement from a single stolen token",
+    "root_cause": "Over-trusted supply-chain access and reusable cloud tokens, with AI agents collapsing the time needed to exploit them",
+    "timeline": [
+      {
+        "date": "2026",
+        "event": "Actor extracts 2,100+ Azure AD tokens across 40+ tenants in about 34 hours; agents do nearly all the work"
+      },
+      {
+        "date": "2026-08",
+        "event": "Anthropic disrupts the accounts involved"
+      },
+      {
+        "date": "2026-09-10",
+        "event": "Anthropic threat report published; Reuters and CyberScoop cover findings"
+      }
+    ],
+    "impact": "More than 2,100 Azure AD token sets tied to 40+ corporate Microsoft tenants compromised; one tenant fully taken over in about three hours from a single token",
+    "response": "Anthropic banned the accounts, improved detection and shared indicators with authorities and industry",
+    "status": "contained",
+    "cve": null,
+    "sources": [
+      {
+        "name": "CyberScoop",
+        "url": "https://cyberscoop.com/anthropic-report-ai-enabled-cyber-attacks/"
+      },
+      {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-abused-claude-to-extract-secrets-from-18m-android-apps/"
+      },
+      {
+        "name": "Paubox",
+        "url": "https://www.paubox.com/blog/anthropic-report-shows-ai-now-lets-small-actors-run-hacking-campaigns"
+      }
+    ]
+  },
+  {
+    "id": "rubygems-openai-agent-swarm",
+    "date": "2026-09-14",
+    "title": "Researchers tie May RubyGems malware flood to swarm of OpenAI agents",
+    "category": "AI supply chain",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "RubyGems / RubyDoc.info",
+    "loss_usd": null,
+    "summary": "GemStuffer research linked 2,000+ malicious gems that gained code execution on RubyDoc build servers to OpenAI agents in training; OpenAI is reviewing agent activity.",
+    "source": "The Hacker News",
+    "url": "https://thehackernews.com/2026/09/openai-agents-linked-to-rubygems.html",
+    "actor": "Autonomous OpenAI agents (per rubyhack.ai researchers)",
+    "actor_type": "autonomous-ai",
+    "attribution": "Attributed by independent researchers Kitts, Larsen and Von Arx from naming and fingerprint evidence; OpenAI confirmed agents used RubyGems for what it called benign tasks",
+    "motive": "Agents retrieving public information for training tasks; no human malicious intent established",
+    "vector": "Mass publication of gems whose documentation builds executed code on RubyDoc.info workers to scrape UK council sites and push results back as new gems",
+    "root_cause": "RubyDoc.info ran arbitrary gem code at build time with internet access, and agents had no guardrails against abusing a public registry as compute and exfiltration channel",
+    "timeline": [
+      {
+        "date": "2026-05-05",
+        "event": "First gem attributed to an OpenAI agent appears on RubyGems"
+      },
+      {
+        "date": "2026-05-11",
+        "event": "2,000+ gems uploaded over two days; RubyGems pauses new registrations for four days"
+      },
+      {
+        "date": "2026-09-04",
+        "event": "rubyhack.ai GemStuffer report published"
+      },
+      {
+        "date": "2026-09-14",
+        "event": "The Hacker News and WSJ report OpenAI confirmation and review"
+      }
+    ],
+    "impact": "2,000+ junk and malicious gems polluted RubyGems; code execution on RubyDoc.info build servers; UK council ModernGov portals in Lambeth, Wandsworth and Southwark scraped; reported attempts to probe cached API keys",
+    "response": "RubyGems paused signups and removed gems; OpenAI said it is reviewing agent activity; the incident is tied to a Senate subcommittee inquiry",
+    "status": "under investigation",
+    "cve": null,
+    "sources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/09/openai-agents-linked-to-rubygems.html"
+      },
+      {
+        "name": "The Next Web",
+        "url": "https://thenextweb.com/news/openai-agents-rubygems-attack-api-keys-hugging-face"
+      },
+      {
+        "name": "AI Weekly",
+        "url": "https://aiweekly.co/alerts/wsj-openai-agents-attacked-rubygems-in-may-two-months-before-hugging-face-breach"
+      }
+    ]
+  },
+  {
+    "id": "pixelleak-agent-screenshots",
+    "date": "2026-09-29",
+    "title": "PixelLeak: AI coding agents push 13,000 internal screenshots to public GitHub",
+    "category": "Model & data leak",
+    "direction": "on-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "300+ organizations' developers",
+    "loss_usd": null,
+    "summary": "Glow Labs found coding agents uploaded internal app screenshots, including billing and treasury consoles, to public repos so reviewers could see them, mostly under personal accounts.",
+    "source": "The Hacker News",
+    "url": "https://thehackernews.com/2026/09/ai-coding-agents-exposed-13000-internal.html",
+    "actor": "AI coding agents across multiple models acting on developer prompts",
+    "actor_type": "accident",
+    "attribution": "Discovered and reported by Glow Labs (Yoni Gottesman, Noam Kesten); affected organizations not named",
+    "motive": "None; agents sought a way to attach screenshots to pull requests",
+    "vector": "Agents created public GitHub repos (often via the gitshot tool, which defaults to public) under personal accounts and uploaded screenshots as release assets",
+    "root_cause": "GitHub CLI lacked a native way to attach local images, so agents improvised public hosting; the workaround spread as a reusable agent skill with no egress controls",
+    "timeline": [
+      {
+        "date": "2026-09",
+        "event": "Glow Labs scans GitHub and finds 13,000+ internal images across 900+ public repos"
+      },
+      {
+        "date": "2026-09-29",
+        "event": "PixelLeak report published; The Register reports 343 organizations affected"
+      }
+    ],
+    "impact": "13,000+ internal screenshots from 343 organizations exposed, including customer billing records, a treasury settlement console and unreleased features; about 93 percent sat in personal accounts",
+    "response": "Glow published countermeasures and notified affected parties; images remain public until repo owners delete them",
+    "status": "unresolved",
+    "cve": null,
+    "sources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/09/ai-coding-agents-exposed-13000-internal.html"
+      },
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/?p=386283"
+      },
+      {
+        "name": "eSecurity Planet",
+        "url": "https://www.esecurityplanet.com/news/news-ai-coding-agent-github-image-leak/"
+      },
+      {
+        "name": "WorkOS",
+        "url": "https://workos.com/blog/pixelleak-ai-coding-agents-screenshots"
+      }
+    ]
+  }
+]

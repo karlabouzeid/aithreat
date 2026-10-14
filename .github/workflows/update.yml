@@ -1,0 +1,38 @@
+name: Update wire every 30 minutes
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-wire
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+      - name: Pull feeds, triage, write data
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: ruby scripts/update.rb
+      - name: Commit changes
+        run: |
+          git config user.name "aithreat-bot"
+          git config user.email "bot@aithreat.io"
+          git add site/data
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "wire: $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git pull --rebase
+            git push
+          fi
