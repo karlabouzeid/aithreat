@@ -24,7 +24,7 @@ LOCALE = { "en" => "en_US", "fr" => "fr_FR", "es" => "es_ES", "ar" => "ar_AR", "
 LANG_NAME = { "en" => "English", "fr" => "Français", "es" => "Español", "ar" => "العربية", "zh" => "中文" }.freeze
 UMAMI = %(<script defer src="https://cloud.umami.is/script.js" data-website-id="aafe3de7-3e98-4efd-91e0-2d01c4a8994f"></script>)
 FONTS = %(<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Sans+Arabic:wght@400;500;600&family=Noto+Sans+SC:wght@400;500;600&display=swap">)
-ICON = %(<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Ccircle cx=%2716%27 cy=%2716%27 r=%2714%27 fill=%27%231e4f7c%27/%3E%3Ccircle cx=%2716%27 cy=%2716%27 r=%276%27 fill=%27%23bf2a30%27/%3E%3C/svg%3E">)
+ICON = %(<link rel="icon" href="/assets/brand/favicon.svg" type="image/svg+xml"><link rel="icon" href="/assets/brand/favicon-32.png" sizes="32x32" type="image/png"><link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png">)
 OG_IMAGE = "#{BASE}/assets/brand/og-image.png"
 
 # ---------- read the UI strings straight out of index.html (single source of truth) ----------
