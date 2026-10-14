@@ -39,7 +39,7 @@ Three engines, in this order of payoff:
 | `robots.txt` | Welcomes all crawlers, including AI search bots; hides the raw wire JSON from results. |
 | `llms.txt` | A plain-text map of the site for AI agents (adoption is growing; cost is zero). |
 | JSON-LD structured data: Article + breadcrumbs on each case, WebSite + Organization + **Dataset** on the homepage | The Dataset block gets the data into Google Dataset Search, which researchers use. |
-| Open Graph and Twitter cards with a 1200×630 image (`og.png`) | Links shared on LinkedIn, Slack and X now unfurl with a proper preview. |
+| Open Graph and Twitter cards with the brand image (`assets/brand/og-image.png`) | Links shared on LinkedIn, Slack and X now unfurl with a proper preview. |
 | "Copy link" in the map now copies the permanent page address | Every share becomes a crawlable backlink to a real page. |
 | `/cases/feed.xml` (verified case files RSS, per language) | Lets newsletters, Slack and Feedly subscribe to verified cases only, separate from the noisy wire. |
 | CORS headers on `/data/*` | Notebooks and other sites can load the JSON directly. |
