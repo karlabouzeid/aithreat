@@ -2,7 +2,7 @@ name: Update wire every 30 minutes
 
 on:
   schedule:
-    - cron: "7,37 * * * *"
+    - cron: "9,39 * * * *"
   workflow_dispatch:
 
 permissions:
