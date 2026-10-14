@@ -1,5 +1,14 @@
 [
   {
+    "id": "795e326629f3",
+    "title": "The Blind Spots of Agentic Pentesting and How to Close Them",
+    "url": "https://www.bleepingcomputer.com/news/security/the-blind-spots-of-agentic-pentesting-and-how-to-close-them",
+    "source": "BleepingComputer",
+    "published": "2026-10-14T14:00:10Z",
+    "seen": "2026-10-14T14:27:04Z",
+    "summary": "AI-powered penetration testing can uncover complex attack paths, but safety restrictions and network limitations leave many assets and vulnerabilities untested. Picus Security explains how combining agentic pentesting with exposure validation and breach simulation can help close these gaps. [...]"
+  },
+  {
     "id": "de7e4a82bb7f",
     "title": "How to Run a Deepfake Readiness Drill Before a Cloned Voice Calls Your Team",
     "url": "https://thehackernews.com/2026/10/how-to-run-deepfake-readiness-drill.html",
@@ -153,229 +162,13 @@
     "summary": "Anthropic on Friday said it's cutting off live internet access for all its internal evaluations until further notice following the discovery of new incidents in which its artificial intelligence (AI) models exhibited misaligned behavior and targeted real websites. The AI company said it identified four broad categories of unintended model actions during evaluations and internal use of Claude"
   },
   {
-    "id": "7227852c0e8e",
-    "title": "Wheatland Union High School continues to receive bomb threats, class in session",
-    "url": "https://fox40.com/news/local-news/yuba-county/wheatland-union-high-school-continued-threats",
+    "id": "ec0f41329bb7",
+    "title": "Bonita Springs woman accused of using AI to make violent threats against Lee County Sheriff's Office",
+    "url": "https://www.gulfcoastnewsnow.com/article/florida-woman-arrest-ai-threat-sheriff-lee-county/73968592",
     "source": "AI Incident Database",
     "published": "2026-10-10T00:00:00Z",
     "seen": "2026-10-14T12:35:49Z",
-    "summary": "(FOX40.COM) --- Wheatland Union High School will continue operations as normal after receiving another bomb threat on Tuesday, according to officials. Superintendent Nicole Newman said another anonymous call regarding a bomb was made early ... (https://incidentdatabase.ai/cite/1746#8109)"
-  },
-  {
-    "id": "9b52114f7957",
-    "title": "Wheatland area schools receive third AI-generated threat, class remains in session",
-    "url": "https://fox40.com/news/wheatland-area-schools-receive-third-ai-generated-threat-class-remains-in-session",
-    "source": "AI Incident Database",
-    "published": "2026-10-10T00:00:00Z",
-    "seen": "2026-10-14T12:35:49Z",
-    "summary": "(FOX40.COM) --- Schools in the Wheatland area have received threats for the third day in a row, according to the police department and school districts. The Wheatland School District and Wheatland Union High School District said in a joint ... (https://incidentdatabase.ai/cite/1746#8108)"
-  },
-  {
-    "id": "43a5b657adcb",
-    "title": "Bomb threats disrupt Wheatland schools for second straight day",
-    "url": "https://www.kcra.com/article/bomb-threats-disrupt-wheatland-school-second-day/73479484",
-    "source": "AI Incident Database",
-    "published": "2026-10-10T00:00:00Z",
-    "seen": "2026-10-14T12:35:49Z",
-    "summary": "WHEATLAND, Calif. — For the second day in a row, bomb threats disrupted schools in Wheatland, California, with investigators saying the calls were made using an artificial intelligence-generated voice. Both threats were deemed as \"hoax\" ac ... (https://incidentdatabase.ai/cite/1746#8107)"
-  },
-  {
-    "id": "ffa388a06919",
-    "title": "AI-generated bomb threat forces Wheatland High School to evacuate, cancel classes",
-    "url": "https://www.kcra.com/article/wheatland-high-school-ai-generated-bomb-threat/73464241",
-    "source": "AI Incident Database",
-    "published": "2026-10-10T00:00:00Z",
-    "seen": "2026-10-14T12:35:49Z",
-    "summary": "YUBA COUNTY, Calif. — An AI-generated bomb threat forced Wheatland Union High School to evacuate students and staff and to cancel classes Tuesday, officials said. Law enforcement went on to clear the campus. Classes will resume on Wednesda ... (https://incidentdatabase.ai/cite/1746#8106)"
-  },
-  {
-    "id": "5be2c985fcfb",
-    "title": "Officials suspect international source behind AI-generated school bomb threats",
-    "url": "https://nowgeorgia.com/officials-suspect-international-source-behind-ai-generated-school-bomb-threats",
-    "source": "AI Incident Database",
-    "published": "2026-10-10T00:00:00Z",
-    "seen": "2026-10-14T12:35:49Z",
-    "summary": "HALL COUNTY, Ga. --- Students returned to Cherokee Bluff High School Friday morning after law enforcement cleared the campus following a bomb threat similar to threats reported at schools in neighboring Jackson County. The Hall County Sher ... (https://incidentdatabase.ai/cite/1745#8105)"
-  },
-  {
-    "id": "144fadfaa21c",
-    "title": "Details released about bomb threats to North Georgia schools",
-    "url": "https://www.fox5atlanta.com/news/jackson-county-schools-delayed-after-bomb-threats",
-    "source": "AI Incident Database",
-    "published": "2026-10-10T00:00:00Z",
-    "seen": "2026-10-14T12:35:49Z",
-    "summary": "The Brief AI-generated bomb threats targeted six Jackson County school campuses and Cherokee Bluff High School in Hall County on Friday morning. Authorities swept the affected campuses, found no credible evidence, and issued an all-clear ... (https://incidentdatabase.ai/cite/1745#8104)"
-  },
-  {
-    "id": "3bc5a3655fe3",
-    "title": "AI bomb threats shut down Georgia school district, FBI investigating",
-    "url": "https://www.wsbtv.com/news/local/atlanta/ai-bomb-threats-shut-down-georgia-school-district-fbi-investigating/4PGKPTQJDFBT3LKTXIQILBOI5M",
-    "source": "AI Incident Database",
-    "published": "2026-10-10T00:00:00Z",
-    "seen": "2026-10-14T12:35:49Z",
-    "summary": "JACKSON COUNTY, Ga. — Federal and state law enforcement agencies are investigating a series of connected, artificial intelligence-generated bomb threats delivered to schools in Jackson and Hall counties. Searches conducted by law enforceme ... (https://incidentdatabase.ai/cite/1745#8103)"
-  },
-  {
-    "id": "1b6d14823612",
-    "title": "Kenyan moderators claim exploitation by OpenAI, Sama in ChatGPT development",
-    "url": "https://swalanyeti.co.ke/news/article/6849/kenyan-content-moderators-allege-exploitation-by-openai-samasource-in-chatgpt-development",
-    "source": "AI Incident Database",
-    "published": "2026-10-10T00:00:00Z",
-    "seen": "2026-10-14T12:35:49Z",
-    "summary": "A group of Kenyan content moderators, who played a significant role in developing the Artificial Intelligence (AI) chatbot ChatGPT, has taken a stand against what they allege to be exploitation and underpayment by OpenAI, the parent company ... (https://incidentdatabase.ai/cite/450#8112)"
-  },
-  {
-    "id": "b9997919de32",
-    "title": "Activitate reluată în Portul Constanța, după alerta cu bombă din această dimineață",
-    "url": "https://www.radioconstanta.ro/2026/07/29/activitate-reluata-in-portul-constanta-dupa-alerta-cu-bomba-din-aceasta-dimineata",
-    "source": "AI Incident Database",
-    "published": "2026-10-10T00:00:00Z",
-    "seen": "2026-10-14T12:35:49Z",
-    "summary": "Activitatea în Portul Constanţa revine la normal, la câteva ore după ce angajaţii au fost evacuaţi din sediul instituţiei, ca urmare a unei alerte cu bombă venite în cursul dimineţii. Un mesaj audio în limba română, transmis telefonic, inf ... (https://incidentdatabase.ai/cite/1744#8101)"
-  },
-  {
-    "id": "21e91cb35dad",
-    "title": "UPDATE - Alertă cu bombă în Portul Constanţa / Amplasarea bombei, anunţată telefonic, Autorităţii Navale Române / Apelurile, făcute din Polonia şi Ucraina / Mesajul prefectului - VIDEO",
-    "url": "https://www.news.ro/eveniment/update-alerta-cu-bomba-in-portul-constanta-amplasarea-bombei-anuntata-telefonic-autoritatii-navale-romane-apelurile-facute-din-polonia-si-ucraina-mesajul-prefectului-video-1922401729002026071222554464",
-    "source": "AI Incident Database",
-    "published": "2026-10-10T00:00:00Z",
-    "seen": "2026-10-14T12:35:49Z",
-    "summary": "O alertă cu bombă a fost primită, miercuri, în Portul Constanţa, iar zona a fost evacuată. Prefectul judeţului Constanţa, Adrian Picoiu, a declarat, pentru News.ro, că alarma cu bombă a fost falsă. UPDATE: Prefectul judeţului Constanţa, Ad ... (https://incidentdatabase.ai/cite/1744#8100)"
-  },
-  {
-    "id": "b4cc4addc539",
-    "title": "Mesajele trimise la Autoritatea Navală Română, care au dus la evacuări în Portul Constanța: „Mai multe bombe plantate. Nu vei avea timp să le găsești”",
-    "url": "https://hotnews.ro/mesajele-trimise-la-autoritatea-navala-romana-care-a-dus-la-evacuari-in-portul-constanta-mai-multe-bombe-plantate-nu-vei-avea-timp-sa-le-gasesti-2312251",
-    "source": "AI Incident Database",
-    "published": "2026-10-10T00:00:00Z",
-    "seen": "2026-10-14T12:35:49Z",
-    "summary": "Două apeluri de amenințare de pe numere de Ucraina și Polonia au fost făcute la sediul Autorității Navale Române, a transmis ministrul Apărării, Radu Miruță. Digi24 publică și mesajul transmis, cel care a dus la evacuări la mai multe clădir ... (https://incidentdatabase.ai/cite/1744#8099)"
-  },
-  {
-    "id": "e4b4ed7e37af",
-    "title": "Alerta cu bombă din Portul Constanța. Radu Miruță: Amenințare transmisă de pe numere din Ucraina și Polonia, posibil creată cu AI",
-    "url": "https://www.digi24.ro/stiri/actualitate/evenimente/alerta-cu-bomba-din-portul-constanta-radu-miruta-amenintare-transmisa-de-pe-numere-din-ucraina-si-polonia-ancheta-in-desfasurare-3883671",
-    "source": "AI Incident Database",
-    "published": "2026-10-10T00:00:00Z",
-    "seen": "2026-10-14T12:35:49Z",
-    "summary": "Radu Miruță a oferit clarificări, în exclusivitate pentru Digi24, despre alerta cu bombă, de miercuri dimineață, din Portul Constanța. Ministrul interimar al Apărării a declarat că amenințarea a fost semnalată de pe două numere de telefon d ... (https://incidentdatabase.ai/cite/1744#8098)"
-  },
-  {
-    "id": "3c61f75abfb4",
-    "title": "Ele contou ao ChatGPT que queria matar o filho e foi preso — conversas com IA podem ser prova de crime no Brasil?",
-    "url": "https://www.bbc.com/portuguese/articles/c8dn1l7vr6ro",
-    "source": "AI Incident Database",
-    "published": "2026-10-10T00:00:00Z",
-    "seen": "2026-10-14T12:35:49Z",
-    "summary": "AVISO DE CONTEÚDO SENSÍVEL: esta reportagem contém menções a violência e suicídio. Durante cerca de dois meses, João (nome fictício), 36 anos, manteve conversas com o ChatGPT que, segundo a Polícia Civil do Espírito Santo, indicavam um pos ... (report_number: 8097)"
-  },
-  {
-    "id": "f24d33e2eac1",
-    "title": "Maryborough teenager allegedly told police he had planned mass murder for months",
-    "url": "https://www.abc.net.au/news/2026-07-09/qld-teen-terror-extremism-murder-plan/106896932",
-    "source": "AI Incident Database",
-    "published": "2026-10-10T00:00:00Z",
-    "seen": "2026-10-14T12:35:49Z",
-    "summary": "In short: A Maryborough teenager accused of plotting a school massacre allegedly told police he got an adrenaline rush from ideology related mass murder. According to court documents, the 13-year-old also asked AI to write him a hypotheti ... (report_number: 8096)"
-  },
-  {
-    "id": "98f830e7e721",
-    "title": "Delhi Red Fort blast: NIA chargesheet reveals abuse of AI platform for ‘terror engineering’",
-    "url": "https://www.thehindubusinessline.com/news/delhi-red-fort-blast-nia-chargesheet-reveals-abuse-of-ai-platform-for-terror-engineering/article71017246.ece",
-    "source": "AI Incident Database",
-    "published": "2026-10-10T00:00:00Z",
-    "seen": "2026-10-14T12:35:49Z",
-    "summary": "The National Investigation Agency (NIA) probe into the Red Fort area car blast case in Delhi has found that a chargesheeted accused, linked to an offshoot of global terrorist outfit Al-Qaida, allegedly misused an artificial intelligence (AI ... (https://incidentdatabase.ai/cite/1743#8095)"
-  },
-  {
-    "id": "20b8116e131e",
-    "title": "NIA chargesheet says accused in Delhi Red Fort blast case abused AI platform for 'terror engineering'",
-    "url": "https://www.newindianexpress.com/india/2026/May/24/nia-chargesheet-says-accused-in-delhi-red-fort-blast-case-abused-ai-platform-for-terror-engineering",
-    "source": "AI Incident Database",
-    "published": "2026-10-10T00:00:00Z",
-    "seen": "2026-10-14T12:35:49Z",
-    "summary": "The National Investigation Agency (NIA) has found that an accused chargesheeted in the Red Fort area car blast case in Delhi allegedly misused an artificial intelligence (AI) platform for \"terror engineering\". The accused is linked to an o ... (https://incidentdatabase.ai/cite/1743#8094)"
-  },
-  {
-    "id": "f14295b15ee8",
-    "title": "Red Fort blast accused used AI to learn how to build IED, says NIA chargesheet",
-    "url": "https://indianexpress.com/article/cities/delhi/red-fort-blast-nia-chargesheet-chatgpt-flipkart-10870612",
-    "source": "AI Incident Database",
-    "published": "2026-10-10T00:00:00Z",
-    "seen": "2026-10-14T12:35:49Z",
-    "summary": "Updated: Sep 10, 2026 05:00 AM IST A key accused in the November 10, 2025 blast outside Red Fort used artificial intelligence (AI) to learn how to build an Improvised Explosive Device (IED), and ordered components for the bomb on Flipkart, ... (https://incidentdatabase.ai/cite/1743#8093)"
-  },
-  {
-    "id": "fe95abca0de3",
-    "title": "Were ChatGPT, YouTube used for Delhi Red Fort blast? Report reveals shocking details",
-    "url": "https://www.theweek.in/news/india/2026/05/22/red-fort-blast-nia-chargesheet-jasir-bilal-wani-youtube-chatgpt.html",
-    "source": "AI Incident Database",
-    "published": "2026-10-10T00:00:00Z",
-    "seen": "2026-10-14T12:35:49Z",
-    "summary": "Highlights Accused Jasir Bilal Wani used ChatGPT and YouTube to learn IED design and explosive chemical proportions The terrorists used everyday items like commercial fertiliser, powdered sugar, and butane canisters to build explosives A ... (https://incidentdatabase.ai/cite/1743#8092)"
-  },
-  {
-    "id": "447cf3b8b1dc",
-    "title": "Ricin poison terror plot: Gujarat ATS searches Hyderabad doctor’s house, seizes chemicals & raw material",
-    "url": "https://indianexpress.com/article/cities/ahmedabad/ricin-poison-terror-plot-gujarat-ats-searches-hyderabad-doctors-house-seizes-chemicals-raw-material-10362269",
-    "source": "AI Incident Database",
-    "published": "2026-10-10T00:00:00Z",
-    "seen": "2026-10-14T12:35:49Z",
-    "summary": "Updated: Nov 13, 2025 09:55 AM IST AS PART of its probe into the alleged Ricin terror plot, the Gujarat Anti-Terrorist Squad (ATS) conducted searches at the residence of the arrested Hyderabad doctor on Tuesday and Wednesday, said officers ... (report_number: 8091)"
-  },
-  {
-    "id": "8c529825c961",
-    "title": "Michigan terrorist wannabe used AI to plot Halloween attack, feds say",
-    "url": "https://www.arcamax.com/currentnews/newsheadlines/s-4281101",
-    "source": "AI Incident Database",
-    "published": "2026-10-10T00:00:00Z",
-    "seen": "2026-10-14T12:35:49Z",
-    "summary": "DETROIT --- Evidence suggests a wanna-be Islamic State terrorist from Dearborn used artificial intelligence to help plan a mass shooting while helping scout targets that included Cedar Point and a Ferndale dance club, according to federal p ... (report_number: 8090)"
-  },
-  {
-    "id": "76c1e3d46059",
-    "title": "Attentats en préparation : ChatGPT au cœur d’un projet terroriste lycéen",
-    "url": "https://www.sudradio.fr/sud-radio/attentats-en-preparation-chatgpt-au-coeur-dun-projet-terroriste-lyceen",
-    "source": "AI Incident Database",
-    "published": "2026-10-10T00:00:00Z",
-    "seen": "2026-10-14T12:35:49Z",
-    "summary": "Un adolescent sarthois de 17 ans, interpellé le mois dernier, est mis en examen pour association de malfaiteurs terroriste. Il aurait utilisé l'intelligence artificielle ChatGPT pour concevoir deux projets d'attentat, dont l'un visait des é ... (https://incidentdatabase.ai/cite/1742#8089)"
-  },
-  {
-    "id": "b555738fec3b",
-    "title": "Projet d’attentats dans la Sarthe : le lycéen de 17 ans a utilisé Chat GPT pour s’aider dans la préparation, confirme son avocat",
-    "url": "https://france3-regions.franceinfo.fr/pays-de-la-loire/sarthe/le-mans/projet-d-attentats-dans-la-sarthe-le-lyceen-de-17-ans-a-utilise-chat-gpt-pour-s-aider-dans-la-preparation-confirme-son-avocat-3241366.html",
-    "source": "AI Incident Database",
-    "published": "2026-10-10T00:00:00Z",
-    "seen": "2026-10-14T12:35:49Z",
-    "summary": "L'avocat du lycéen de 17 ans, interpellé et écroué début septembre pour association de malfaiteurs terroristes, a affirmé à nos confrères d'ICI Maine (ex France Bleu) que son client a utilisé l'outil d'intelligence artificielle ChatGPT pour ... (https://incidentdatabase.ai/cite/1742#8088)"
-  },
-  {
-    "id": "40b9b1f9f05c",
-    "title": "« ChatGPT est en partie la cause de ma radicalisation » : le rôle trouble de l’IA dans le projet djihadiste d’un ado",
-    "url": "https://www.leparisien.fr/faits-divers/chatgpt-est-en-partie-la-cause-de-ma-radicalisation-le-role-trouble-de-lia-dans-le-projet-djihadiste-dun-ado-28-10-2025-HEAARQCQFRG3DK43QLGYZ4THDM.php",
-    "source": "AI Incident Database",
-    "published": "2026-10-10T00:00:00Z",
-    "seen": "2026-10-14T12:35:49Z",
-    "summary": "« Si 16 bouteilles de gaz de 13 kg de propane explosent dans un camion, quels sont les dégâts ? » M. a 17 ans. Il est lycéen scolarisé dans la Sarthe et s’il pose cette question à l’application ChatGPT, ce n’est pas pour un cours de physiqu ... (https://incidentdatabase.ai/cite/1742#8087)"
-  },
-  {
-    "id": "f04dfa57693a",
-    "title": "Teenager pleads guilty after planning copycat of Southport killings",
-    "url": "https://news.sky.com/story/teenager-pleads-guilty-after-planning-copycat-of-southport-killings-13492133",
-    "source": "AI Incident Database",
-    "published": "2026-10-10T00:00:00Z",
-    "seen": "2026-10-14T12:35:49Z",
-    "summary": "A teenager from Merseyside who planned to copy the Southport killer by attacking a Taylor Swift-themed event wearing a green hoodie has pleaded guilty to terrorism charges. The white teenager from Kirkby, who was 16 at the time and is now ... (report_number: 8086)"
-  },
-  {
-    "id": "c0f1953f48e7",
-    "title": "'No escape': Man told AI chatbot he planned shooting at Northeast Side elementary school",
-    "url": "https://www.expressnews.com/news/article/serna-elementary-school-shooting-threat-ai-chatbot-22411434.php",
-    "source": "AI Incident Database",
-    "published": "2026-10-10T00:00:00Z",
-    "seen": "2026-10-14T12:35:49Z",
-    "summary": "A San Antonio man who confided in an AI chatbot about plans to carry out a mass shooting at a Northeast Side elementary school asked it to search for “dead school kids bleeding,” according to an arrest affidavit. The affidavit accuses 22-y ... (report_number: 8102)"
+    "summary": "LEE COUNTY, Fla. --- A Bonita Springs woman was arrested after she was accused of using an artificial intelligence platform to make violent threats against the Lee County Sheriff's Office. According to investigators, Carli Michelle Heller ... (report_number: 8110)"
   },
   {
     "id": "b06500ee5f3f",
@@ -387,13 +180,229 @@
     "summary": "LEE COUNTY, Fla. — An Estero man was arrested Tuesday after he was accused of posting an artificial intelligence-generated image on social media of Lee County Sheriff Carmine Marceno with a head injury, running from two people shooting at h ... (https://incidentdatabase.ai/cite/1747#8111)"
   },
   {
-    "id": "ec0f41329bb7",
-    "title": "Bonita Springs woman accused of using AI to make violent threats against Lee County Sheriff's Office",
-    "url": "https://www.gulfcoastnewsnow.com/article/florida-woman-arrest-ai-threat-sheriff-lee-county/73968592",
+    "id": "c0f1953f48e7",
+    "title": "'No escape': Man told AI chatbot he planned shooting at Northeast Side elementary school",
+    "url": "https://www.expressnews.com/news/article/serna-elementary-school-shooting-threat-ai-chatbot-22411434.php",
     "source": "AI Incident Database",
     "published": "2026-10-10T00:00:00Z",
     "seen": "2026-10-14T12:35:49Z",
-    "summary": "LEE COUNTY, Fla. --- A Bonita Springs woman was arrested after she was accused of using an artificial intelligence platform to make violent threats against the Lee County Sheriff's Office. According to investigators, Carli Michelle Heller ... (report_number: 8110)"
+    "summary": "A San Antonio man who confided in an AI chatbot about plans to carry out a mass shooting at a Northeast Side elementary school asked it to search for “dead school kids bleeding,” according to an arrest affidavit. The affidavit accuses 22-y ... (report_number: 8102)"
+  },
+  {
+    "id": "f04dfa57693a",
+    "title": "Teenager pleads guilty after planning copycat of Southport killings",
+    "url": "https://news.sky.com/story/teenager-pleads-guilty-after-planning-copycat-of-southport-killings-13492133",
+    "source": "AI Incident Database",
+    "published": "2026-10-10T00:00:00Z",
+    "seen": "2026-10-14T12:35:49Z",
+    "summary": "A teenager from Merseyside who planned to copy the Southport killer by attacking a Taylor Swift-themed event wearing a green hoodie has pleaded guilty to terrorism charges. The white teenager from Kirkby, who was 16 at the time and is now ... (report_number: 8086)"
+  },
+  {
+    "id": "40b9b1f9f05c",
+    "title": "« ChatGPT est en partie la cause de ma radicalisation » : le rôle trouble de l’IA dans le projet djihadiste d’un ado",
+    "url": "https://www.leparisien.fr/faits-divers/chatgpt-est-en-partie-la-cause-de-ma-radicalisation-le-role-trouble-de-lia-dans-le-projet-djihadiste-dun-ado-28-10-2025-HEAARQCQFRG3DK43QLGYZ4THDM.php",
+    "source": "AI Incident Database",
+    "published": "2026-10-10T00:00:00Z",
+    "seen": "2026-10-14T12:35:49Z",
+    "summary": "« Si 16 bouteilles de gaz de 13 kg de propane explosent dans un camion, quels sont les dégâts ? » M. a 17 ans. Il est lycéen scolarisé dans la Sarthe et s’il pose cette question à l’application ChatGPT, ce n’est pas pour un cours de physiqu ... (https://incidentdatabase.ai/cite/1742#8087)"
+  },
+  {
+    "id": "b555738fec3b",
+    "title": "Projet d’attentats dans la Sarthe : le lycéen de 17 ans a utilisé Chat GPT pour s’aider dans la préparation, confirme son avocat",
+    "url": "https://france3-regions.franceinfo.fr/pays-de-la-loire/sarthe/le-mans/projet-d-attentats-dans-la-sarthe-le-lyceen-de-17-ans-a-utilise-chat-gpt-pour-s-aider-dans-la-preparation-confirme-son-avocat-3241366.html",
+    "source": "AI Incident Database",
+    "published": "2026-10-10T00:00:00Z",
+    "seen": "2026-10-14T12:35:49Z",
+    "summary": "L'avocat du lycéen de 17 ans, interpellé et écroué début septembre pour association de malfaiteurs terroristes, a affirmé à nos confrères d'ICI Maine (ex France Bleu) que son client a utilisé l'outil d'intelligence artificielle ChatGPT pour ... (https://incidentdatabase.ai/cite/1742#8088)"
+  },
+  {
+    "id": "76c1e3d46059",
+    "title": "Attentats en préparation : ChatGPT au cœur d’un projet terroriste lycéen",
+    "url": "https://www.sudradio.fr/sud-radio/attentats-en-preparation-chatgpt-au-coeur-dun-projet-terroriste-lyceen",
+    "source": "AI Incident Database",
+    "published": "2026-10-10T00:00:00Z",
+    "seen": "2026-10-14T12:35:49Z",
+    "summary": "Un adolescent sarthois de 17 ans, interpellé le mois dernier, est mis en examen pour association de malfaiteurs terroriste. Il aurait utilisé l'intelligence artificielle ChatGPT pour concevoir deux projets d'attentat, dont l'un visait des é ... (https://incidentdatabase.ai/cite/1742#8089)"
+  },
+  {
+    "id": "8c529825c961",
+    "title": "Michigan terrorist wannabe used AI to plot Halloween attack, feds say",
+    "url": "https://www.arcamax.com/currentnews/newsheadlines/s-4281101",
+    "source": "AI Incident Database",
+    "published": "2026-10-10T00:00:00Z",
+    "seen": "2026-10-14T12:35:49Z",
+    "summary": "DETROIT --- Evidence suggests a wanna-be Islamic State terrorist from Dearborn used artificial intelligence to help plan a mass shooting while helping scout targets that included Cedar Point and a Ferndale dance club, according to federal p ... (report_number: 8090)"
+  },
+  {
+    "id": "447cf3b8b1dc",
+    "title": "Ricin poison terror plot: Gujarat ATS searches Hyderabad doctor’s house, seizes chemicals & raw material",
+    "url": "https://indianexpress.com/article/cities/ahmedabad/ricin-poison-terror-plot-gujarat-ats-searches-hyderabad-doctors-house-seizes-chemicals-raw-material-10362269",
+    "source": "AI Incident Database",
+    "published": "2026-10-10T00:00:00Z",
+    "seen": "2026-10-14T12:35:49Z",
+    "summary": "Updated: Nov 13, 2025 09:55 AM IST AS PART of its probe into the alleged Ricin terror plot, the Gujarat Anti-Terrorist Squad (ATS) conducted searches at the residence of the arrested Hyderabad doctor on Tuesday and Wednesday, said officers ... (report_number: 8091)"
+  },
+  {
+    "id": "fe95abca0de3",
+    "title": "Were ChatGPT, YouTube used for Delhi Red Fort blast? Report reveals shocking details",
+    "url": "https://www.theweek.in/news/india/2026/05/22/red-fort-blast-nia-chargesheet-jasir-bilal-wani-youtube-chatgpt.html",
+    "source": "AI Incident Database",
+    "published": "2026-10-10T00:00:00Z",
+    "seen": "2026-10-14T12:35:49Z",
+    "summary": "Highlights Accused Jasir Bilal Wani used ChatGPT and YouTube to learn IED design and explosive chemical proportions The terrorists used everyday items like commercial fertiliser, powdered sugar, and butane canisters to build explosives A ... (https://incidentdatabase.ai/cite/1743#8092)"
+  },
+  {
+    "id": "f14295b15ee8",
+    "title": "Red Fort blast accused used AI to learn how to build IED, says NIA chargesheet",
+    "url": "https://indianexpress.com/article/cities/delhi/red-fort-blast-nia-chargesheet-chatgpt-flipkart-10870612",
+    "source": "AI Incident Database",
+    "published": "2026-10-10T00:00:00Z",
+    "seen": "2026-10-14T12:35:49Z",
+    "summary": "Updated: Sep 10, 2026 05:00 AM IST A key accused in the November 10, 2025 blast outside Red Fort used artificial intelligence (AI) to learn how to build an Improvised Explosive Device (IED), and ordered components for the bomb on Flipkart, ... (https://incidentdatabase.ai/cite/1743#8093)"
+  },
+  {
+    "id": "20b8116e131e",
+    "title": "NIA chargesheet says accused in Delhi Red Fort blast case abused AI platform for 'terror engineering'",
+    "url": "https://www.newindianexpress.com/india/2026/May/24/nia-chargesheet-says-accused-in-delhi-red-fort-blast-case-abused-ai-platform-for-terror-engineering",
+    "source": "AI Incident Database",
+    "published": "2026-10-10T00:00:00Z",
+    "seen": "2026-10-14T12:35:49Z",
+    "summary": "The National Investigation Agency (NIA) has found that an accused chargesheeted in the Red Fort area car blast case in Delhi allegedly misused an artificial intelligence (AI) platform for \"terror engineering\". The accused is linked to an o ... (https://incidentdatabase.ai/cite/1743#8094)"
+  },
+  {
+    "id": "98f830e7e721",
+    "title": "Delhi Red Fort blast: NIA chargesheet reveals abuse of AI platform for ‘terror engineering’",
+    "url": "https://www.thehindubusinessline.com/news/delhi-red-fort-blast-nia-chargesheet-reveals-abuse-of-ai-platform-for-terror-engineering/article71017246.ece",
+    "source": "AI Incident Database",
+    "published": "2026-10-10T00:00:00Z",
+    "seen": "2026-10-14T12:35:49Z",
+    "summary": "The National Investigation Agency (NIA) probe into the Red Fort area car blast case in Delhi has found that a chargesheeted accused, linked to an offshoot of global terrorist outfit Al-Qaida, allegedly misused an artificial intelligence (AI ... (https://incidentdatabase.ai/cite/1743#8095)"
+  },
+  {
+    "id": "f24d33e2eac1",
+    "title": "Maryborough teenager allegedly told police he had planned mass murder for months",
+    "url": "https://www.abc.net.au/news/2026-07-09/qld-teen-terror-extremism-murder-plan/106896932",
+    "source": "AI Incident Database",
+    "published": "2026-10-10T00:00:00Z",
+    "seen": "2026-10-14T12:35:49Z",
+    "summary": "In short: A Maryborough teenager accused of plotting a school massacre allegedly told police he got an adrenaline rush from ideology related mass murder. According to court documents, the 13-year-old also asked AI to write him a hypotheti ... (report_number: 8096)"
+  },
+  {
+    "id": "3c61f75abfb4",
+    "title": "Ele contou ao ChatGPT que queria matar o filho e foi preso — conversas com IA podem ser prova de crime no Brasil?",
+    "url": "https://www.bbc.com/portuguese/articles/c8dn1l7vr6ro",
+    "source": "AI Incident Database",
+    "published": "2026-10-10T00:00:00Z",
+    "seen": "2026-10-14T12:35:49Z",
+    "summary": "AVISO DE CONTEÚDO SENSÍVEL: esta reportagem contém menções a violência e suicídio. Durante cerca de dois meses, João (nome fictício), 36 anos, manteve conversas com o ChatGPT que, segundo a Polícia Civil do Espírito Santo, indicavam um pos ... (report_number: 8097)"
+  },
+  {
+    "id": "e4b4ed7e37af",
+    "title": "Alerta cu bombă din Portul Constanța. Radu Miruță: Amenințare transmisă de pe numere din Ucraina și Polonia, posibil creată cu AI",
+    "url": "https://www.digi24.ro/stiri/actualitate/evenimente/alerta-cu-bomba-din-portul-constanta-radu-miruta-amenintare-transmisa-de-pe-numere-din-ucraina-si-polonia-ancheta-in-desfasurare-3883671",
+    "source": "AI Incident Database",
+    "published": "2026-10-10T00:00:00Z",
+    "seen": "2026-10-14T12:35:49Z",
+    "summary": "Radu Miruță a oferit clarificări, în exclusivitate pentru Digi24, despre alerta cu bombă, de miercuri dimineață, din Portul Constanța. Ministrul interimar al Apărării a declarat că amenințarea a fost semnalată de pe două numere de telefon d ... (https://incidentdatabase.ai/cite/1744#8098)"
+  },
+  {
+    "id": "b4cc4addc539",
+    "title": "Mesajele trimise la Autoritatea Navală Română, care au dus la evacuări în Portul Constanța: „Mai multe bombe plantate. Nu vei avea timp să le găsești”",
+    "url": "https://hotnews.ro/mesajele-trimise-la-autoritatea-navala-romana-care-a-dus-la-evacuari-in-portul-constanta-mai-multe-bombe-plantate-nu-vei-avea-timp-sa-le-gasesti-2312251",
+    "source": "AI Incident Database",
+    "published": "2026-10-10T00:00:00Z",
+    "seen": "2026-10-14T12:35:49Z",
+    "summary": "Două apeluri de amenințare de pe numere de Ucraina și Polonia au fost făcute la sediul Autorității Navale Române, a transmis ministrul Apărării, Radu Miruță. Digi24 publică și mesajul transmis, cel care a dus la evacuări la mai multe clădir ... (https://incidentdatabase.ai/cite/1744#8099)"
+  },
+  {
+    "id": "21e91cb35dad",
+    "title": "UPDATE - Alertă cu bombă în Portul Constanţa / Amplasarea bombei, anunţată telefonic, Autorităţii Navale Române / Apelurile, făcute din Polonia şi Ucraina / Mesajul prefectului - VIDEO",
+    "url": "https://www.news.ro/eveniment/update-alerta-cu-bomba-in-portul-constanta-amplasarea-bombei-anuntata-telefonic-autoritatii-navale-romane-apelurile-facute-din-polonia-si-ucraina-mesajul-prefectului-video-1922401729002026071222554464",
+    "source": "AI Incident Database",
+    "published": "2026-10-10T00:00:00Z",
+    "seen": "2026-10-14T12:35:49Z",
+    "summary": "O alertă cu bombă a fost primită, miercuri, în Portul Constanţa, iar zona a fost evacuată. Prefectul judeţului Constanţa, Adrian Picoiu, a declarat, pentru News.ro, că alarma cu bombă a fost falsă. UPDATE: Prefectul judeţului Constanţa, Ad ... (https://incidentdatabase.ai/cite/1744#8100)"
+  },
+  {
+    "id": "b9997919de32",
+    "title": "Activitate reluată în Portul Constanța, după alerta cu bombă din această dimineață",
+    "url": "https://www.radioconstanta.ro/2026/07/29/activitate-reluata-in-portul-constanta-dupa-alerta-cu-bomba-din-aceasta-dimineata",
+    "source": "AI Incident Database",
+    "published": "2026-10-10T00:00:00Z",
+    "seen": "2026-10-14T12:35:49Z",
+    "summary": "Activitatea în Portul Constanţa revine la normal, la câteva ore după ce angajaţii au fost evacuaţi din sediul instituţiei, ca urmare a unei alerte cu bombă venite în cursul dimineţii. Un mesaj audio în limba română, transmis telefonic, inf ... (https://incidentdatabase.ai/cite/1744#8101)"
+  },
+  {
+    "id": "1b6d14823612",
+    "title": "Kenyan moderators claim exploitation by OpenAI, Sama in ChatGPT development",
+    "url": "https://swalanyeti.co.ke/news/article/6849/kenyan-content-moderators-allege-exploitation-by-openai-samasource-in-chatgpt-development",
+    "source": "AI Incident Database",
+    "published": "2026-10-10T00:00:00Z",
+    "seen": "2026-10-14T12:35:49Z",
+    "summary": "A group of Kenyan content moderators, who played a significant role in developing the Artificial Intelligence (AI) chatbot ChatGPT, has taken a stand against what they allege to be exploitation and underpayment by OpenAI, the parent company ... (https://incidentdatabase.ai/cite/450#8112)"
+  },
+  {
+    "id": "3bc5a3655fe3",
+    "title": "AI bomb threats shut down Georgia school district, FBI investigating",
+    "url": "https://www.wsbtv.com/news/local/atlanta/ai-bomb-threats-shut-down-georgia-school-district-fbi-investigating/4PGKPTQJDFBT3LKTXIQILBOI5M",
+    "source": "AI Incident Database",
+    "published": "2026-10-10T00:00:00Z",
+    "seen": "2026-10-14T12:35:49Z",
+    "summary": "JACKSON COUNTY, Ga. — Federal and state law enforcement agencies are investigating a series of connected, artificial intelligence-generated bomb threats delivered to schools in Jackson and Hall counties. Searches conducted by law enforceme ... (https://incidentdatabase.ai/cite/1745#8103)"
+  },
+  {
+    "id": "144fadfaa21c",
+    "title": "Details released about bomb threats to North Georgia schools",
+    "url": "https://www.fox5atlanta.com/news/jackson-county-schools-delayed-after-bomb-threats",
+    "source": "AI Incident Database",
+    "published": "2026-10-10T00:00:00Z",
+    "seen": "2026-10-14T12:35:49Z",
+    "summary": "The Brief AI-generated bomb threats targeted six Jackson County school campuses and Cherokee Bluff High School in Hall County on Friday morning. Authorities swept the affected campuses, found no credible evidence, and issued an all-clear ... (https://incidentdatabase.ai/cite/1745#8104)"
+  },
+  {
+    "id": "5be2c985fcfb",
+    "title": "Officials suspect international source behind AI-generated school bomb threats",
+    "url": "https://nowgeorgia.com/officials-suspect-international-source-behind-ai-generated-school-bomb-threats",
+    "source": "AI Incident Database",
+    "published": "2026-10-10T00:00:00Z",
+    "seen": "2026-10-14T12:35:49Z",
+    "summary": "HALL COUNTY, Ga. --- Students returned to Cherokee Bluff High School Friday morning after law enforcement cleared the campus following a bomb threat similar to threats reported at schools in neighboring Jackson County. The Hall County Sher ... (https://incidentdatabase.ai/cite/1745#8105)"
+  },
+  {
+    "id": "ffa388a06919",
+    "title": "AI-generated bomb threat forces Wheatland High School to evacuate, cancel classes",
+    "url": "https://www.kcra.com/article/wheatland-high-school-ai-generated-bomb-threat/73464241",
+    "source": "AI Incident Database",
+    "published": "2026-10-10T00:00:00Z",
+    "seen": "2026-10-14T12:35:49Z",
+    "summary": "YUBA COUNTY, Calif. — An AI-generated bomb threat forced Wheatland Union High School to evacuate students and staff and to cancel classes Tuesday, officials said. Law enforcement went on to clear the campus. Classes will resume on Wednesda ... (https://incidentdatabase.ai/cite/1746#8106)"
+  },
+  {
+    "id": "43a5b657adcb",
+    "title": "Bomb threats disrupt Wheatland schools for second straight day",
+    "url": "https://www.kcra.com/article/bomb-threats-disrupt-wheatland-school-second-day/73479484",
+    "source": "AI Incident Database",
+    "published": "2026-10-10T00:00:00Z",
+    "seen": "2026-10-14T12:35:49Z",
+    "summary": "WHEATLAND, Calif. — For the second day in a row, bomb threats disrupted schools in Wheatland, California, with investigators saying the calls were made using an artificial intelligence-generated voice. Both threats were deemed as \"hoax\" ac ... (https://incidentdatabase.ai/cite/1746#8107)"
+  },
+  {
+    "id": "9b52114f7957",
+    "title": "Wheatland area schools receive third AI-generated threat, class remains in session",
+    "url": "https://fox40.com/news/wheatland-area-schools-receive-third-ai-generated-threat-class-remains-in-session",
+    "source": "AI Incident Database",
+    "published": "2026-10-10T00:00:00Z",
+    "seen": "2026-10-14T12:35:49Z",
+    "summary": "(FOX40.COM) --- Schools in the Wheatland area have received threats for the third day in a row, according to the police department and school districts. The Wheatland School District and Wheatland Union High School District said in a joint ... (https://incidentdatabase.ai/cite/1746#8108)"
+  },
+  {
+    "id": "7227852c0e8e",
+    "title": "Wheatland Union High School continues to receive bomb threats, class in session",
+    "url": "https://fox40.com/news/local-news/yuba-county/wheatland-union-high-school-continued-threats",
+    "source": "AI Incident Database",
+    "published": "2026-10-10T00:00:00Z",
+    "seen": "2026-10-14T12:35:49Z",
+    "summary": "(FOX40.COM) --- Wheatland Union High School will continue operations as normal after receiving another bomb threat on Tuesday, according to officials. Superintendent Nicole Newman said another anonymous call regarding a bomb was made early ... (https://incidentdatabase.ai/cite/1746#8109)"
   },
   {
     "id": "92da0f53afcb",
@@ -432,139 +441,13 @@
     "summary": "As AI adoption accelerates, ISACA is expanding its certification portfolio with a governance-focused credential designed to help professionals manage AI securely"
   },
   {
-    "id": "2a02419f0ea2",
-    "title": "La Guardia Civil y la Policía de Marruecos desarticulan una estructura terrorista en varias localidades en España",
-    "url": "https://www.20minutos.es/noticia/5528372/0/guardia-civil-policia-marruecos-desarticulan-una-estructura-terrorista-varias-localidades-espana",
+    "id": "2866a4d9cd96",
+    "title": "Issuance of Orders under Internal Security Act (ISA) against two self-radicalised Singaporean youths, and updates on ISA Orders",
+    "url": "https://www.isd.gov.sg/news-and-resources/issuance-of-orders-under-internal-security-act--isa--against-two-self-radicalised-singaporean-youths--and-updates-on-isa-orders",
     "source": "AI Incident Database",
     "published": "2026-10-09T00:00:00Z",
     "seen": "2026-10-14T12:35:49Z",
-    "summary": "En una operación desarrollada el pasado 2 de julio por el Servicio de Información de la Guardia Civil junto con la Dirección General de Vigilancia sobre el Territorio marroquí (DGST), bajo la dirección del Juzgado Central de Instrucción nº ... (https://incidentdatabase.ai/cite/1737#8071)"
-  },
-  {
-    "id": "7345a67baf39",
-    "title": "La Guardia Civil y la DGST de Marruecos desarticulan una estructura terrorista en varias localidades en España",
-    "url": "https://web.guardiacivil.es/pdflink/es/1c95f19d-4377-11eb-8d7d-6d0b3e4c7555/La-Guardia-Civil-y-la-DGST-de-Marruecos-desarticulan-una-estructura-terrorista-en-varias-localidades-en-Espana.pdf",
-    "source": "AI Incident Database",
-    "published": "2026-10-09T00:00:00Z",
-    "seen": "2026-10-14T12:35:49Z",
-    "summary": "La Guardia Civil y la DGST de Marruecos desarticulan una estructura terrorista en varias localidades en España Resumen Esta operación conjunta desarrollada por el Servicio de Información de la Guardia Civil y la Dirección General de Vigil ... (https://incidentdatabase.ai/cite/1737#8072)"
-  },
-  {
-    "id": "cde1b7aec652",
-    "title": "Detenido en Cornellà de Llobregat un supuesto terrorista yihadista que creaba propaganda con IA",
-    "url": "https://www.elnacional.cat/es/sociedad/detenido-en-cornella-llobregat-supuesto-terrorista-yihadista-creaba-propaganda-con-ia_1247954_102.html",
-    "source": "AI Incident Database",
-    "published": "2026-10-09T00:00:00Z",
-    "seen": "2026-10-14T12:35:49Z",
-    "summary": "Nuevo golpe de la inteligencia policial contra el yihadismo en Catalunya. La Guardia Civil ha informado este viernes que ha detenido a un hombre marroquí en Cornellà de Llobregat relacionado con el terrorismo islamista, que utilizaba las re ... (https://incidentdatabase.ai/cite/1737#8073)"
-  },
-  {
-    "id": "44f355b85988",
-    "title": "Singapore foils teen terror plot weeks before planned attack in public housing area",
-    "url": "https://www.channelnewsasia.com/singapore/isd-teenager-terrorist-attack-tampines-hdb-isa-4684741",
-    "source": "AI Incident Database",
-    "published": "2026-10-09T00:00:00Z",
-    "seen": "2026-10-14T12:35:49Z",
-    "summary": "SINGAPORE: A 17-year-old self-radicalised Singaporean was arrested under the Internal Security Act (ISA) mere weeks before his plan to carry out a terror attack in the Housing Board heartlands. The student, described in a Friday (Oct 18) p ... (https://incidentdatabase.ai/cite/1738#8074)"
-  },
-  {
-    "id": "a522025f9f79",
-    "title": "ISD flags growing diversity of extremist ideologies in Singapore, emergence of AI as terror enabler",
-    "url": "https://www.channelnewsasia.com/singapore/isd-terrorism-threat-israel-palestine-far-right-extremism-isis-al-qaeda-social-media-youths-5262646",
-    "source": "AI Incident Database",
-    "published": "2026-10-09T00:00:00Z",
-    "seen": "2026-10-14T12:35:49Z",
-    "summary": "SINGAPORE: A growing diversity of extremist ideologies can be observed in Singapore, against a backdrop of the terror threat remaining at a high level, the Internal Security Department (ISD) said on Tuesday (Jul 29). This can be attributed ... (https://incidentdatabase.ai/cite/1738#8075)"
-  },
-  {
-    "id": "217170308bcf",
-    "title": "Singapore Terrorism Threat Assessment Report 2025",
-    "url": "https://www.isd.gov.sg/news-and-resources/singapore-terrorism-threat-assessment-report-2025",
-    "source": "AI Incident Database",
-    "published": "2026-10-09T00:00:00Z",
-    "seen": "2026-10-14T12:35:49Z",
-    "summary": "The Singapore Terrorism Threat Assessment Report 2025 is available for download. 1\\. The Singapore Terrorism Threat Assessment Report 2025 \\[PDF, 14.9 MB] ↗(opens in new tab) is available for download. 2\\. The terrorism threat to Singapor ... (https://incidentdatabase.ai/cite/1738#8076)"
-  },
-  {
-    "id": "343d9b4e5fd8",
-    "title": "Zwei Jahre Haft für jungen IS-Anhänger",
-    "url": "https://wien.orf.at/stories/3323866",
-    "source": "AI Incident Database",
-    "published": "2026-10-09T00:00:00Z",
-    "seen": "2026-10-14T12:35:49Z",
-    "summary": "Schuldig erkannt wurde der österreichische Staatsbürger mit ägyptischen Wurzeln, der bei seinen Anschlagsfantasien auf künstliche Intelligenz (KI) zurückgegriffen und die Herstellung und Lagerung von Sprengstoff mit ChatGPT besprochen hatte ... (https://incidentdatabase.ai/cite/1739#8077)"
-  },
-  {
-    "id": "61886f6e441f",
-    "title": "Terrorpläne mit ChatGPT besprochen – verurteilt",
-    "url": "https://www.krone.at/3913922",
-    "source": "AI Incident Database",
-    "published": "2026-10-09T00:00:00Z",
-    "seen": "2026-10-14T12:35:49Z",
-    "summary": "Ein 18-jähriger Wiener leitete über zwei Jahre IS-Propaganda in Chaträumen weiter. Gegen Ende seiner radikalen Laufbahn geht er so weit, sich Bauanleitungen zum Bombenbauen von ChatGPT erklären zu lassen. Am Dienstag musste er sich nun im W ... (https://incidentdatabase.ai/cite/1739#8078)"
-  },
-  {
-    "id": "581f48e7632d",
-    "title": "A teen tried to navigate Canadian mountains with Claude. His trek ended in an emergency rescue",
-    "url": "https://www.theguardian.com/world/2026/oct/08/teen-hike-claude-ai-directions-rescue-canada-mountain",
-    "source": "AI Incident Database",
-    "published": "2026-10-09T00:00:00Z",
-    "seen": "2026-10-14T12:35:49Z",
-    "summary": "The route up the Widowmaker Arete, a 1,700ft wall in British Columbia, is deceptively described as “mostly easy slab climbing”, interspersed with “short steep sections that can include finger cracks” and “blocky face climbing”. It requires ... (https://incidentdatabase.ai/cite/1740#8079)"
-  },
-  {
-    "id": "60e2bd25cbf7",
-    "title": "Solo teen hiker hoisted from mountain cliff after using AI to plan route, North Shore Rescue says",
-    "url": "https://www.nsnews.com/local-news/solo-teen-hiker-hoisted-from-mountain-cliff-after-using-ai-to-plan-route-north-shore-rescue-says-12855671",
-    "source": "AI Incident Database",
-    "published": "2026-10-09T00:00:00Z",
-    "seen": "2026-10-14T12:35:49Z",
-    "summary": "A solo hiker who used AI to plan his route was hoisted back to safety by North Shore Rescue volunteers after getting stuck on a mountain cliff Saturday afternoon. Rescue crews received the call just before 3:30 p.m. about a 16-year-old hik ... (https://incidentdatabase.ai/cite/1740#8080)"
-  },
-  {
-    "id": "4b75ed601531",
-    "title": "Teenager rescued from B.C.’s ‘Widowmaker’ after getting stranded using AI instructions",
-    "url": "https://www.ctvnews.ca/vancouver/article/teenager-rescued-from-bcs-widowmaker-after-getting-stranded-using-ai-instructions",
-    "source": "AI Incident Database",
-    "published": "2026-10-09T00:00:00Z",
-    "seen": "2026-10-14T12:35:49Z",
-    "summary": "A 16-year-old boy was rescued from steep mountainous terrain in the B.C. backcountry on Saturday after Claude AI guided him to the wrong location, according to North Shore Rescue. Search Manager Paul Markey told CTV News that NSR members w ... (https://incidentdatabase.ai/cite/1740#8081)"
-  },
-  {
-    "id": "7466db85f230",
-    "title": "B.C. teen rescued from 'Widowmaker' mountain trail says AI isn't to blame",
-    "url": "https://www.cbc.ca/news/canada/hiker-ai-stuck-mountain-9.7373964",
-    "source": "AI Incident Database",
-    "published": "2026-10-09T00:00:00Z",
-    "seen": "2026-10-14T12:35:49Z",
-    "summary": "A B.C. teen making global headlines after being rescued from the side of a mountain says AI is not the reason he became stranded. Bryce Gowryluk, 16, an experienced hiker from Vancouver, is frustrated by this week's news stories claiming h ... (https://incidentdatabase.ai/cite/1740#8083)"
-  },
-  {
-    "id": "84dd60927357",
-    "title": "Hiker, 16, Is Rescued From ‘Widowmaker’ Ledge After Using Chatbot to Plan Route",
-    "url": "https://www.nytimes.com/2026/10/07/world/canada/canada-bc-hiker-claude-rescue.html",
-    "source": "AI Incident Database",
-    "published": "2026-10-09T00:00:00Z",
-    "seen": "2026-10-14T12:35:49Z",
-    "summary": "Bryce Vincent Gowryluk, 16, left his house in downtown Vancouver, British Columbia, at 7:30 a.m. on Saturday for what he expected to be a challenging, eight-hour hike along steep rock from the top of Grouse Mountain to nearby Crown Mountain ... (https://incidentdatabase.ai/cite/1740#8082)"
-  },
-  {
-    "id": "43306f00b8b2",
-    "title": "Inneggiavano alla guerra santa, arrestati dalla Digos",
-    "url": "https://www.rainews.it/tgr/sicilia/articoli/2025/05/inneggiavano-alla-guerra-santa-arrestati-dalla-digos-ab1e4faa-4cb1-41d5-a5ee-14a6b84b8e91.html",
-    "source": "AI Incident Database",
-    "published": "2026-10-09T00:00:00Z",
-    "seen": "2026-10-14T12:35:49Z",
-    "summary": "Con l'accusa di apologia ed istigazione a commettere delitti legati al terrorismo sono stati arrestati a Palermo de giovani del Bangladeh. Il fermo è stato disposto dalla procura di Palermo, guidata da Maurizio de Lucia. In carcere sono fin ... (report_number: 8084)"
-  },
-  {
-    "id": "bc4c4c58fb27",
-    "title": "ChatGPT Wrestles With Its Most Chilling Conversation: How Do I Plan an Attack?",
-    "url": "https://www.wsj.com/us-news/chatgpt-mass-shooting-openai-78a436d1",
-    "source": "AI Incident Database",
-    "published": "2026-10-09T00:00:00Z",
-    "seen": "2026-10-14T12:35:49Z",
-    "summary": "Last spring, Florida State University student Phoenix Ikner wanted to know how many classmates he needed to kill to become notorious. ChatGPT responded with a metric. \"Usually 3 or more dead, 5-6 total victims, pushes it onto national medi ... (https://incidentdatabase.ai/cite/1741#8085)"
+    "summary": "In February and March 2025, two self-radicalised Singaporean youths, aged 15 and 17, were issued with a Restriction Order and an Order of Detention under the Internal Security Act respectively. In February and March 2025, two self-radicali ... (https://incidentdatabase.ai/cite/1736#8070)"
   },
   {
     "id": "33412c6fb4a8",
@@ -576,13 +459,139 @@
     "summary": "SINGAPORE: Another two Singaporean teens who were self-radicalised have been caught under the Internal Security Act (ISA). One of them is a 15-year-old girl. An Islamic State supporter, she is the first female youth and second-youngest to ... (https://incidentdatabase.ai/cite/1736#8069)"
   },
   {
-    "id": "2866a4d9cd96",
-    "title": "Issuance of Orders under Internal Security Act (ISA) against two self-radicalised Singaporean youths, and updates on ISA Orders",
-    "url": "https://www.isd.gov.sg/news-and-resources/issuance-of-orders-under-internal-security-act--isa--against-two-self-radicalised-singaporean-youths--and-updates-on-isa-orders",
+    "id": "bc4c4c58fb27",
+    "title": "ChatGPT Wrestles With Its Most Chilling Conversation: How Do I Plan an Attack?",
+    "url": "https://www.wsj.com/us-news/chatgpt-mass-shooting-openai-78a436d1",
     "source": "AI Incident Database",
     "published": "2026-10-09T00:00:00Z",
     "seen": "2026-10-14T12:35:49Z",
-    "summary": "In February and March 2025, two self-radicalised Singaporean youths, aged 15 and 17, were issued with a Restriction Order and an Order of Detention under the Internal Security Act respectively. In February and March 2025, two self-radicali ... (https://incidentdatabase.ai/cite/1736#8070)"
+    "summary": "Last spring, Florida State University student Phoenix Ikner wanted to know how many classmates he needed to kill to become notorious. ChatGPT responded with a metric. \"Usually 3 or more dead, 5-6 total victims, pushes it onto national medi ... (https://incidentdatabase.ai/cite/1741#8085)"
+  },
+  {
+    "id": "43306f00b8b2",
+    "title": "Inneggiavano alla guerra santa, arrestati dalla Digos",
+    "url": "https://www.rainews.it/tgr/sicilia/articoli/2025/05/inneggiavano-alla-guerra-santa-arrestati-dalla-digos-ab1e4faa-4cb1-41d5-a5ee-14a6b84b8e91.html",
+    "source": "AI Incident Database",
+    "published": "2026-10-09T00:00:00Z",
+    "seen": "2026-10-14T12:35:49Z",
+    "summary": "Con l'accusa di apologia ed istigazione a commettere delitti legati al terrorismo sono stati arrestati a Palermo de giovani del Bangladeh. Il fermo è stato disposto dalla procura di Palermo, guidata da Maurizio de Lucia. In carcere sono fin ... (report_number: 8084)"
+  },
+  {
+    "id": "84dd60927357",
+    "title": "Hiker, 16, Is Rescued From ‘Widowmaker’ Ledge After Using Chatbot to Plan Route",
+    "url": "https://www.nytimes.com/2026/10/07/world/canada/canada-bc-hiker-claude-rescue.html",
+    "source": "AI Incident Database",
+    "published": "2026-10-09T00:00:00Z",
+    "seen": "2026-10-14T12:35:49Z",
+    "summary": "Bryce Vincent Gowryluk, 16, left his house in downtown Vancouver, British Columbia, at 7:30 a.m. on Saturday for what he expected to be a challenging, eight-hour hike along steep rock from the top of Grouse Mountain to nearby Crown Mountain ... (https://incidentdatabase.ai/cite/1740#8082)"
+  },
+  {
+    "id": "7466db85f230",
+    "title": "B.C. teen rescued from 'Widowmaker' mountain trail says AI isn't to blame",
+    "url": "https://www.cbc.ca/news/canada/hiker-ai-stuck-mountain-9.7373964",
+    "source": "AI Incident Database",
+    "published": "2026-10-09T00:00:00Z",
+    "seen": "2026-10-14T12:35:49Z",
+    "summary": "A B.C. teen making global headlines after being rescued from the side of a mountain says AI is not the reason he became stranded. Bryce Gowryluk, 16, an experienced hiker from Vancouver, is frustrated by this week's news stories claiming h ... (https://incidentdatabase.ai/cite/1740#8083)"
+  },
+  {
+    "id": "4b75ed601531",
+    "title": "Teenager rescued from B.C.’s ‘Widowmaker’ after getting stranded using AI instructions",
+    "url": "https://www.ctvnews.ca/vancouver/article/teenager-rescued-from-bcs-widowmaker-after-getting-stranded-using-ai-instructions",
+    "source": "AI Incident Database",
+    "published": "2026-10-09T00:00:00Z",
+    "seen": "2026-10-14T12:35:49Z",
+    "summary": "A 16-year-old boy was rescued from steep mountainous terrain in the B.C. backcountry on Saturday after Claude AI guided him to the wrong location, according to North Shore Rescue. Search Manager Paul Markey told CTV News that NSR members w ... (https://incidentdatabase.ai/cite/1740#8081)"
+  },
+  {
+    "id": "60e2bd25cbf7",
+    "title": "Solo teen hiker hoisted from mountain cliff after using AI to plan route, North Shore Rescue says",
+    "url": "https://www.nsnews.com/local-news/solo-teen-hiker-hoisted-from-mountain-cliff-after-using-ai-to-plan-route-north-shore-rescue-says-12855671",
+    "source": "AI Incident Database",
+    "published": "2026-10-09T00:00:00Z",
+    "seen": "2026-10-14T12:35:49Z",
+    "summary": "A solo hiker who used AI to plan his route was hoisted back to safety by North Shore Rescue volunteers after getting stuck on a mountain cliff Saturday afternoon. Rescue crews received the call just before 3:30 p.m. about a 16-year-old hik ... (https://incidentdatabase.ai/cite/1740#8080)"
+  },
+  {
+    "id": "581f48e7632d",
+    "title": "A teen tried to navigate Canadian mountains with Claude. His trek ended in an emergency rescue",
+    "url": "https://www.theguardian.com/world/2026/oct/08/teen-hike-claude-ai-directions-rescue-canada-mountain",
+    "source": "AI Incident Database",
+    "published": "2026-10-09T00:00:00Z",
+    "seen": "2026-10-14T12:35:49Z",
+    "summary": "The route up the Widowmaker Arete, a 1,700ft wall in British Columbia, is deceptively described as “mostly easy slab climbing”, interspersed with “short steep sections that can include finger cracks” and “blocky face climbing”. It requires ... (https://incidentdatabase.ai/cite/1740#8079)"
+  },
+  {
+    "id": "61886f6e441f",
+    "title": "Terrorpläne mit ChatGPT besprochen – verurteilt",
+    "url": "https://www.krone.at/3913922",
+    "source": "AI Incident Database",
+    "published": "2026-10-09T00:00:00Z",
+    "seen": "2026-10-14T12:35:49Z",
+    "summary": "Ein 18-jähriger Wiener leitete über zwei Jahre IS-Propaganda in Chaträumen weiter. Gegen Ende seiner radikalen Laufbahn geht er so weit, sich Bauanleitungen zum Bombenbauen von ChatGPT erklären zu lassen. Am Dienstag musste er sich nun im W ... (https://incidentdatabase.ai/cite/1739#8078)"
+  },
+  {
+    "id": "343d9b4e5fd8",
+    "title": "Zwei Jahre Haft für jungen IS-Anhänger",
+    "url": "https://wien.orf.at/stories/3323866",
+    "source": "AI Incident Database",
+    "published": "2026-10-09T00:00:00Z",
+    "seen": "2026-10-14T12:35:49Z",
+    "summary": "Schuldig erkannt wurde der österreichische Staatsbürger mit ägyptischen Wurzeln, der bei seinen Anschlagsfantasien auf künstliche Intelligenz (KI) zurückgegriffen und die Herstellung und Lagerung von Sprengstoff mit ChatGPT besprochen hatte ... (https://incidentdatabase.ai/cite/1739#8077)"
+  },
+  {
+    "id": "217170308bcf",
+    "title": "Singapore Terrorism Threat Assessment Report 2025",
+    "url": "https://www.isd.gov.sg/news-and-resources/singapore-terrorism-threat-assessment-report-2025",
+    "source": "AI Incident Database",
+    "published": "2026-10-09T00:00:00Z",
+    "seen": "2026-10-14T12:35:49Z",
+    "summary": "The Singapore Terrorism Threat Assessment Report 2025 is available for download. 1\\. The Singapore Terrorism Threat Assessment Report 2025 \\[PDF, 14.9 MB] ↗(opens in new tab) is available for download. 2\\. The terrorism threat to Singapor ... (https://incidentdatabase.ai/cite/1738#8076)"
+  },
+  {
+    "id": "a522025f9f79",
+    "title": "ISD flags growing diversity of extremist ideologies in Singapore, emergence of AI as terror enabler",
+    "url": "https://www.channelnewsasia.com/singapore/isd-terrorism-threat-israel-palestine-far-right-extremism-isis-al-qaeda-social-media-youths-5262646",
+    "source": "AI Incident Database",
+    "published": "2026-10-09T00:00:00Z",
+    "seen": "2026-10-14T12:35:49Z",
+    "summary": "SINGAPORE: A growing diversity of extremist ideologies can be observed in Singapore, against a backdrop of the terror threat remaining at a high level, the Internal Security Department (ISD) said on Tuesday (Jul 29). This can be attributed ... (https://incidentdatabase.ai/cite/1738#8075)"
+  },
+  {
+    "id": "44f355b85988",
+    "title": "Singapore foils teen terror plot weeks before planned attack in public housing area",
+    "url": "https://www.channelnewsasia.com/singapore/isd-teenager-terrorist-attack-tampines-hdb-isa-4684741",
+    "source": "AI Incident Database",
+    "published": "2026-10-09T00:00:00Z",
+    "seen": "2026-10-14T12:35:49Z",
+    "summary": "SINGAPORE: A 17-year-old self-radicalised Singaporean was arrested under the Internal Security Act (ISA) mere weeks before his plan to carry out a terror attack in the Housing Board heartlands. The student, described in a Friday (Oct 18) p ... (https://incidentdatabase.ai/cite/1738#8074)"
+  },
+  {
+    "id": "cde1b7aec652",
+    "title": "Detenido en Cornellà de Llobregat un supuesto terrorista yihadista que creaba propaganda con IA",
+    "url": "https://www.elnacional.cat/es/sociedad/detenido-en-cornella-llobregat-supuesto-terrorista-yihadista-creaba-propaganda-con-ia_1247954_102.html",
+    "source": "AI Incident Database",
+    "published": "2026-10-09T00:00:00Z",
+    "seen": "2026-10-14T12:35:49Z",
+    "summary": "Nuevo golpe de la inteligencia policial contra el yihadismo en Catalunya. La Guardia Civil ha informado este viernes que ha detenido a un hombre marroquí en Cornellà de Llobregat relacionado con el terrorismo islamista, que utilizaba las re ... (https://incidentdatabase.ai/cite/1737#8073)"
+  },
+  {
+    "id": "7345a67baf39",
+    "title": "La Guardia Civil y la DGST de Marruecos desarticulan una estructura terrorista en varias localidades en España",
+    "url": "https://web.guardiacivil.es/pdflink/es/1c95f19d-4377-11eb-8d7d-6d0b3e4c7555/La-Guardia-Civil-y-la-DGST-de-Marruecos-desarticulan-una-estructura-terrorista-en-varias-localidades-en-Espana.pdf",
+    "source": "AI Incident Database",
+    "published": "2026-10-09T00:00:00Z",
+    "seen": "2026-10-14T12:35:49Z",
+    "summary": "La Guardia Civil y la DGST de Marruecos desarticulan una estructura terrorista en varias localidades en España Resumen Esta operación conjunta desarrollada por el Servicio de Información de la Guardia Civil y la Dirección General de Vigil ... (https://incidentdatabase.ai/cite/1737#8072)"
+  },
+  {
+    "id": "2a02419f0ea2",
+    "title": "La Guardia Civil y la Policía de Marruecos desarticulan una estructura terrorista en varias localidades en España",
+    "url": "https://www.20minutos.es/noticia/5528372/0/guardia-civil-policia-marruecos-desarticulan-una-estructura-terrorista-varias-localidades-espana",
+    "source": "AI Incident Database",
+    "published": "2026-10-09T00:00:00Z",
+    "seen": "2026-10-14T12:35:49Z",
+    "summary": "En una operación desarrollada el pasado 2 de julio por el Servicio de Información de la Guardia Civil junto con la Dirección General de Vigilancia sobre el Territorio marroquí (DGST), bajo la dirección del Juzgado Central de Instrucción nº ... (https://incidentdatabase.ai/cite/1737#8071)"
   },
   {
     "id": "f5568cb9bcb2",
@@ -630,58 +639,13 @@
     "summary": "CrowdStrike revealed that a Chinese-speaking hacker deployed agentic pentesting tool ARTEX and Claude to help breach data from South Korean financial firms"
   },
   {
-    "id": "792100cc8d95",
-    "title": "How Long Until AI Hacks Everything?",
-    "url": "https://www.theatlantic.com/technology/2026/10/ai-hacking-cybersecurity-race/688911",
+    "id": "5cc42976f063",
+    "title": "AI Coding Agents Exposed 13,000 Internal Images, Including Billing Records, on GitHub",
+    "url": "https://thehackernews.com/2026/09/ai-coding-agents-exposed-13000-internal.html",
     "source": "AI Incident Database",
     "published": "2026-10-08T00:00:00Z",
     "seen": "2026-10-14T12:35:49Z",
-    "summary": "The Australian government has been scrambling since the revelation that, earlier this year, it was hacked. At the United Nations General Assembly last month, Australian Prime Minister Anthony Albanese shared that OpenAI models had, of their ... (https://incidentdatabase.ai/cite/1707#8067)"
-  },
-  {
-    "id": "3a63dca4e458",
-    "title": "KI-Verleger packt aus: So entstehen meine Bücher",
-    "url": "https://www.faz.net/aktuell/feuilleton/medien-und-film/medienpolitik/ki-verleger-packt-aus-so-entstehen-meine-buecher-accg-201255807.html",
-    "source": "AI Incident Database",
-    "published": "2026-10-08T00:00:00Z",
-    "seen": "2026-10-14T12:35:49Z",
-    "summary": "Stephan Wünsche, Referent im Bereich „Open Science\" und Fachreferent für Musik an der Universitätsbibliothek Leipzig, hat erneut von Künstlicher Intelligenz (KI) generierte Bücher entdeckt. Im Mai berichteten wir, wie er KI-Schrott bei eine ... (report_number: 8068)"
-  },
-  {
-    "id": "7fd83f9c393d",
-    "title": "PixelLeak: How AI Agents Exposed Developer Screenshots from Leading Tech Companies",
-    "url": "https://www.glow.io/blogs/how-ai-agents-exposed-developer-screenshots-from-leading-tech-companies",
-    "source": "AI Incident Database",
-    "published": "2026-10-08T00:00:00Z",
-    "seen": "2026-10-14T12:35:49Z",
-    "summary": "Every day, developers hand the last mile of their work to an AI coding agent: summarize your changes, attach screenshots showing the changes, then submit them for review. It's common sense that screenshots of internal, unreleased developmen ... (https://incidentdatabase.ai/cite/1734#8062)"
-  },
-  {
-    "id": "b48781338370",
-    "title": "Police officer indicted for fabricating, distributing deepfake videos of acquaintances",
-    "url": "https://en.yna.co.kr/view/AEN20261007002700315",
-    "source": "AI Incident Database",
-    "published": "2026-10-08T00:00:00Z",
-    "seen": "2026-10-14T12:35:49Z",
-    "summary": "BUSAN, Oct. 7 (Yonhap) -- A police officer in Seoul has been indicted for using artificial intelligence (AI) to create and spread deepfake videos of people he knew, prosecutors said Wednesday. The Busan District Prosecutors Office said the ... (https://incidentdatabase.ai/cite/1735#8066)"
-  },
-  {
-    "id": "a2f62ffae27b",
-    "title": "'성착취물 만든 경찰관' 성범죄 전력에도 임용된 이유는…\"법령 문제\"",
-    "url": "https://www.yna.co.kr/view/AKR20261006082200004",
-    "source": "AI Incident Database",
-    "published": "2026-10-08T00:00:00Z",
-    "seen": "2026-10-14T12:35:49Z",
-    "summary": "(서울=연합뉴스) 전재훈 기자 = 인공지능(AI)으로 성착취물을 만들고 온라인에서 공유한 현직 경찰관이 구속된 사건과 관련해, 이 경찰관이 과거 성범죄 혐의로 기소유예 처분받은 전력이 있는데도 현행법상 이를 걸러낼 장치가 없어 경찰 임용이 이뤄진 것으로 확인됐다. 고범석 서울경찰청장은 6일 정례 기자간담회에서 최근 구속된 동대문경찰서 소속 A경장이 과거 불법촬영 혐의로 기소유예 처분을 받았는데도 경찰에 임용된 배경을 묻는 말 ... (https://incidentdatabase.ai/cite/1735#8064)"
-  },
-  {
-    "id": "6939ed75f3fe",
-    "title": "AI 성착취물 만든 텔레그램방 '그놈'…잡고보니 동대문서 경찰관",
-    "url": "https://www.yna.co.kr/view/AKR20261002163600004",
-    "source": "AI Incident Database",
-    "published": "2026-10-08T00:00:00Z",
-    "seen": "2026-10-14T12:35:49Z",
-    "summary": "(서울=연합뉴스) 박재현 전재훈 기자 = 인공지능(AI)으로 지인을 나체로 표현한 성착취물을 만들고 텔레그램 대화방에서 성적 허위 영상물을 공유하던 현직 경찰관이 구속됐다. 동종 사건으로 기소유예 처분을 받고도 경찰에 입직한 그는 경찰제복을 입은 뒤에도 범행을 이어가다 다른 경찰의 잠입수사에 덜미를 잡혔다. 4일 연합뉴스 취재에 따르면 서울 동대문경찰서 소속 A경장은 성 착취물-허위 영상물 소지 및 허위 영상물 제작-반포 ... (https://incidentdatabase.ai/cite/1735#8063)"
+    "summary": "AI coding agents asked to share screenshots of code changes for review have put internal company images in public GitHub repositories, security company Glow said. Its researchers found more than 13,000 internal images from developers at ov ... (https://incidentdatabase.ai/cite/1734#8061)"
   },
   {
     "id": "41ca03af674a",
@@ -693,13 +657,58 @@
     "summary": "Amid the growing concern about AI models escaping security simulations to hack websites comes word that these \"superintelligent\" blobs of code have no understanding of privacy or security. Researchers affiliated with Glow Security, a start ... (https://incidentdatabase.ai/cite/1734#8060)"
   },
   {
-    "id": "5cc42976f063",
-    "title": "AI Coding Agents Exposed 13,000 Internal Images, Including Billing Records, on GitHub",
-    "url": "https://thehackernews.com/2026/09/ai-coding-agents-exposed-13000-internal.html",
+    "id": "6939ed75f3fe",
+    "title": "AI 성착취물 만든 텔레그램방 '그놈'…잡고보니 동대문서 경찰관",
+    "url": "https://www.yna.co.kr/view/AKR20261002163600004",
     "source": "AI Incident Database",
     "published": "2026-10-08T00:00:00Z",
     "seen": "2026-10-14T12:35:49Z",
-    "summary": "AI coding agents asked to share screenshots of code changes for review have put internal company images in public GitHub repositories, security company Glow said. Its researchers found more than 13,000 internal images from developers at ov ... (https://incidentdatabase.ai/cite/1734#8061)"
+    "summary": "(서울=연합뉴스) 박재현 전재훈 기자 = 인공지능(AI)으로 지인을 나체로 표현한 성착취물을 만들고 텔레그램 대화방에서 성적 허위 영상물을 공유하던 현직 경찰관이 구속됐다. 동종 사건으로 기소유예 처분을 받고도 경찰에 입직한 그는 경찰제복을 입은 뒤에도 범행을 이어가다 다른 경찰의 잠입수사에 덜미를 잡혔다. 4일 연합뉴스 취재에 따르면 서울 동대문경찰서 소속 A경장은 성 착취물-허위 영상물 소지 및 허위 영상물 제작-반포 ... (https://incidentdatabase.ai/cite/1735#8063)"
+  },
+  {
+    "id": "a2f62ffae27b",
+    "title": "'성착취물 만든 경찰관' 성범죄 전력에도 임용된 이유는…\"법령 문제\"",
+    "url": "https://www.yna.co.kr/view/AKR20261006082200004",
+    "source": "AI Incident Database",
+    "published": "2026-10-08T00:00:00Z",
+    "seen": "2026-10-14T12:35:49Z",
+    "summary": "(서울=연합뉴스) 전재훈 기자 = 인공지능(AI)으로 성착취물을 만들고 온라인에서 공유한 현직 경찰관이 구속된 사건과 관련해, 이 경찰관이 과거 성범죄 혐의로 기소유예 처분받은 전력이 있는데도 현행법상 이를 걸러낼 장치가 없어 경찰 임용이 이뤄진 것으로 확인됐다. 고범석 서울경찰청장은 6일 정례 기자간담회에서 최근 구속된 동대문경찰서 소속 A경장이 과거 불법촬영 혐의로 기소유예 처분을 받았는데도 경찰에 임용된 배경을 묻는 말 ... (https://incidentdatabase.ai/cite/1735#8064)"
+  },
+  {
+    "id": "b48781338370",
+    "title": "Police officer indicted for fabricating, distributing deepfake videos of acquaintances",
+    "url": "https://en.yna.co.kr/view/AEN20261007002700315",
+    "source": "AI Incident Database",
+    "published": "2026-10-08T00:00:00Z",
+    "seen": "2026-10-14T12:35:49Z",
+    "summary": "BUSAN, Oct. 7 (Yonhap) -- A police officer in Seoul has been indicted for using artificial intelligence (AI) to create and spread deepfake videos of people he knew, prosecutors said Wednesday. The Busan District Prosecutors Office said the ... (https://incidentdatabase.ai/cite/1735#8066)"
+  },
+  {
+    "id": "7fd83f9c393d",
+    "title": "PixelLeak: How AI Agents Exposed Developer Screenshots from Leading Tech Companies",
+    "url": "https://www.glow.io/blogs/how-ai-agents-exposed-developer-screenshots-from-leading-tech-companies",
+    "source": "AI Incident Database",
+    "published": "2026-10-08T00:00:00Z",
+    "seen": "2026-10-14T12:35:49Z",
+    "summary": "Every day, developers hand the last mile of their work to an AI coding agent: summarize your changes, attach screenshots showing the changes, then submit them for review. It's common sense that screenshots of internal, unreleased developmen ... (https://incidentdatabase.ai/cite/1734#8062)"
+  },
+  {
+    "id": "3a63dca4e458",
+    "title": "KI-Verleger packt aus: So entstehen meine Bücher",
+    "url": "https://www.faz.net/aktuell/feuilleton/medien-und-film/medienpolitik/ki-verleger-packt-aus-so-entstehen-meine-buecher-accg-201255807.html",
+    "source": "AI Incident Database",
+    "published": "2026-10-08T00:00:00Z",
+    "seen": "2026-10-14T12:35:49Z",
+    "summary": "Stephan Wünsche, Referent im Bereich „Open Science\" und Fachreferent für Musik an der Universitätsbibliothek Leipzig, hat erneut von Künstlicher Intelligenz (KI) generierte Bücher entdeckt. Im Mai berichteten wir, wie er KI-Schrott bei eine ... (report_number: 8068)"
+  },
+  {
+    "id": "792100cc8d95",
+    "title": "How Long Until AI Hacks Everything?",
+    "url": "https://www.theatlantic.com/technology/2026/10/ai-hacking-cybersecurity-race/688911",
+    "source": "AI Incident Database",
+    "published": "2026-10-08T00:00:00Z",
+    "seen": "2026-10-14T12:35:49Z",
+    "summary": "The Australian government has been scrambling since the revelation that, earlier this year, it was hacked. At the United Nations General Assembly last month, Australian Prime Minister Anthony Albanese shared that OpenAI models had, of their ... (https://incidentdatabase.ai/cite/1707#8067)"
   },
   {
     "id": "e63549e2e04b",
@@ -756,94 +765,13 @@
     "summary": "'Complete security paradigm refresh' needed for the AI era"
   },
   {
-    "id": "33d2fc604dce",
-    "title": "AI Agents Targeted U.S. and Canadian Government Websites",
-    "url": "https://transluce.org/us-canada-gov",
+    "id": "22577a4ac7a9",
+    "title": "SPECIAL REPORT: Inside AI scam ads exploiting TikTok’s advertising system to defraud Nigerians",
+    "url": "https://www.premiumtimesng.com/news/headlines/897605-special-report-inside-ai-scam-ads-exploiting-tiktoks-advertising-system-to-defraud-nigerians.html",
     "source": "AI Incident Database",
     "published": "2026-10-07T00:00:00Z",
     "seen": "2026-10-14T12:35:49Z",
-    "summary": "Following up on our previous blog post, we discovered several additional incidents where rogue AI agents appear to have used aggressive techniques to access publicly available data on government websites. Download the Data Get Involved T ... (https://incidentdatabase.ai/cite/1731#8048)"
-  },
-  {
-    "id": "67da286c6775",
-    "title": "Estonian court fines plaintiffs over false AI-generated claims",
-    "url": "https://news.err.ee/1610064103/estonian-court-fines-plaintiffs-over-false-ai-generated-claims",
-    "source": "AI Incident Database",
-    "published": "2026-10-07T00:00:00Z",
-    "seen": "2026-10-14T12:35:49Z",
-    "summary": "In what officials say is a first for Estonia, a Tallinn court fined plaintiffs over false academic references generated by artificial intelligence (AI) in a legal filing. The plaintiffs in the case challenged a logging permit, submitting m ... (https://incidentdatabase.ai/cite/1733#8053)"
-  },
-  {
-    "id": "c7d72f8bcda4",
-    "title": "Kohus trahvis kaebajaid tehisaru hooletu kasutamise eest",
-    "url": "https://www.riigikohus.ee/et/uudised/kohus-trahvis-kaebajaid-tehisaru-hooletu-kasutamise-eest",
-    "source": "AI Incident Database",
-    "published": "2026-10-07T00:00:00Z",
-    "seen": "2026-10-14T12:35:49Z",
-    "summary": "Tallinna Halduskohus määras trahvi kaebajatele, kes esitasid kohtule tehisaru abil koostatud dokumendi, mis sisaldas viiteid välja mõeldud teadlaste töödele. Kaebajad pöördusid halduskohtusse raieloa vaidlustamiseks ja saatsid kohtule doku ... (https://incidentdatabase.ai/cite/1733#8055)"
-  },
-  {
-    "id": "68db2ee9a758",
-    "title": "Kohus määras tehisaru loodud valeväidete tõttu kaebajatele trahvid",
-    "url": "https://www.err.ee/1610063551/kohus-maaras-tehisaru-loodud-valevaidete-tottu-kaebajatele-trahvid",
-    "source": "AI Incident Database",
-    "published": "2026-10-07T00:00:00Z",
-    "seen": "2026-10-14T12:35:49Z",
-    "summary": "Tallinna halduskohus määras esimest korda kohtusse pöördujatele trahvi, sest kaebuses leidus tehisaru loodud valeväiteid. Tallinna halduskohtu esimehe Kaupo Kruusvee sõnul on tehisaru kasutamine kohtukaebustes kasvutrendis. Kaebajad pöördu ... (https://incidentdatabase.ai/cite/1733#8054)"
-  },
-  {
-    "id": "e97ed930c19e",
-    "title": "Väljamõedud teadlased ja uuringud. Kohus määras tehisaru luulude eest Eesti esimese AI-trahvi",
-    "url": "https://arileht.delfi.ee/artikkel/120593306/valjamoedud-teadlased-ja-uuringud-kohus-maaras-tehisaru-luulude-eest-eesti-esimese-ai-trahvi",
-    "source": "AI Incident Database",
-    "published": "2026-10-07T00:00:00Z",
-    "seen": "2026-10-14T12:35:49Z",
-    "summary": "Tallinna Halduskohus määras trahvi kaebajatele, kes esitasid kohtule tehisaru abil koostatud dokumendi, mis sisaldas viiteid välja mõeldud teadlaste töödele. Kaebajad pöördusid halduskohtusse raieloa vaidlustamiseks ja saatsid kohtule doku ... (https://incidentdatabase.ai/cite/1733#8059)"
-  },
-  {
-    "id": "ddde4b36c1c3",
-    "title": "Kauņā musulmaņi lūdz nenodarboties ar seksu pie mošejas. Igaunijas tiesa piespriež sodus par mākslīgā intelekta radītiem pieteikumiem",
-    "url": "https://nra.lv/neatkariga/komentari/maris-krautmanis-3/524293-baltijas-aktualitates-igaunijas-budzets-mi-sodi-un-kaunas-moseja.htm",
-    "source": "AI Incident Database",
-    "published": "2026-10-07T00:00:00Z",
-    "seen": "2026-10-14T12:35:49Z",
-    "summary": "Kas notiek kaimiņzemēs? \"Nra.lv\" Igaunijas un Lietuvas preses apskats. Kuri politiskie spēki vainojami par Igaunijas valsts parādu? Igaunijas Bankas ekonomista Kaspara Ojas analīze atklāja, ka, lai gan opozīcija apsūdz pašreizējo valdību ... (https://incidentdatabase.ai/cite/1733#8058)"
-  },
-  {
-    "id": "8a0334d82d02",
-    "title": "Estijoje teismas pirmą kartą skyrė baudas už dirbtinio intelekto išgalvotas nuorodas",
-    "url": "https://www.15min.lt/verslas/naujiena/mokslas-it/estijoje-teismas-pirma-karta-skyre-baudas-uz-dirbtinio-intelekto-isgalvotas-nuorodas-1290-2713152",
-    "source": "AI Incident Database",
-    "published": "2026-10-07T00:00:00Z",
-    "seen": "2026-10-14T12:35:49Z",
-    "summary": "Talino teismas skyrė baudas keliems ieškovams už teismo dokumentuose pateiktas dirbtinio intelekto (DI) sugeneruotas netikras akademines nuorodas. Apie tai penktadienį praneša estų transliuotojas ERR. Pareigūnų teigimu, tai pirmas toks at ... (https://incidentdatabase.ai/cite/1733#8057)"
-  },
-  {
-    "id": "bce0c732295c",
-    "title": "Суд оштрафовал 10 человек за жалобы, подготовленные ИИ и содержавшие ложные сведения",
-    "url": "https://rus.err.ee/1610063122/sud-oshtrafoval-10-chelovek-za-zhaloby-podgotovlennye-ii-i-soderzhavshie-lozhnye-svedenija",
-    "source": "AI Incident Database",
-    "published": "2026-10-07T00:00:00Z",
-    "seen": "2026-10-14T12:35:49Z",
-    "summary": "Таллиннский административный суд наложил штраф на заявителей, которые представили документ, составленный с помощью искусственного интеллекта (ИИ) и содержащий ссылки на работы вымышленных ученых. Решение вступило в силу, поскольку Госсуд на ... (https://incidentdatabase.ai/cite/1733#8056)"
-  },
-  {
-    "id": "08c77314146c",
-    "title": "Statement regarding reported activity targeting Government of Canada websites",
-    "url": "https://www.cyber.gc.ca/en/news-events/statement-regarding-reported-activity-targeting-government-canada-websites",
-    "source": "AI Incident Database",
-    "published": "2026-10-07T00:00:00Z",
-    "seen": "2026-10-14T12:35:49Z",
-    "summary": "Statement September 29, 2026 -- Ottawa, Ontario We are aware of reports identifying suspicious activity, including suspected AI agent activity, targeting publicly accessible websites, such as the Government of Canada. There is no indicati ... (https://incidentdatabase.ai/cite/1731#8050)"
-  },
-  {
-    "id": "bed85e7e402b",
-    "title": "AI agent attempted to hack Library and Archives Canada, says U.S. research group",
-    "url": "https://toronto.citynews.ca/2026/10/01/ai-agent-attempted-to-hack-library-and-archives-canada-says-u-s-research-group",
-    "source": "AI Incident Database",
-    "published": "2026-10-07T00:00:00Z",
-    "seen": "2026-10-14T12:35:49Z",
-    "summary": "OTTAWA --- The website for Library and Archives Canada was one of the targets of a failed hacking attempt by an artificial intelligence agent, a San Francisco-based lab that monitors AI activity said in a report this week. Transluce posted ... (https://incidentdatabase.ai/cite/1731#8049)"
+    "summary": "When Mohammed Yusuf resigned from his “poorly paid” teaching job in Ilorin, Kwara State, in October 2025, he hoped a new source of income would help him survive Nigeria’s economic hardship. After weeks of unsuccessful job searches, he inves ... (https://incidentdatabase.ai/cite/1732#8052)"
   },
   {
     "id": "5873b8c859e0",
@@ -855,13 +783,94 @@
     "summary": "SAN FRANCISCO --- Artificial intelligence agents tried to hack into a Canadian government site, researchers said, adding to the growing list of incidents in which AI agents, many of them associated with ChatGPT maker OpenAI, probed or hacke ... (https://incidentdatabase.ai/cite/1731#8051)"
   },
   {
-    "id": "22577a4ac7a9",
-    "title": "SPECIAL REPORT: Inside AI scam ads exploiting TikTok’s advertising system to defraud Nigerians",
-    "url": "https://www.premiumtimesng.com/news/headlines/897605-special-report-inside-ai-scam-ads-exploiting-tiktoks-advertising-system-to-defraud-nigerians.html",
+    "id": "bed85e7e402b",
+    "title": "AI agent attempted to hack Library and Archives Canada, says U.S. research group",
+    "url": "https://toronto.citynews.ca/2026/10/01/ai-agent-attempted-to-hack-library-and-archives-canada-says-u-s-research-group",
     "source": "AI Incident Database",
     "published": "2026-10-07T00:00:00Z",
     "seen": "2026-10-14T12:35:49Z",
-    "summary": "When Mohammed Yusuf resigned from his “poorly paid” teaching job in Ilorin, Kwara State, in October 2025, he hoped a new source of income would help him survive Nigeria’s economic hardship. After weeks of unsuccessful job searches, he inves ... (https://incidentdatabase.ai/cite/1732#8052)"
+    "summary": "OTTAWA --- The website for Library and Archives Canada was one of the targets of a failed hacking attempt by an artificial intelligence agent, a San Francisco-based lab that monitors AI activity said in a report this week. Transluce posted ... (https://incidentdatabase.ai/cite/1731#8049)"
+  },
+  {
+    "id": "08c77314146c",
+    "title": "Statement regarding reported activity targeting Government of Canada websites",
+    "url": "https://www.cyber.gc.ca/en/news-events/statement-regarding-reported-activity-targeting-government-canada-websites",
+    "source": "AI Incident Database",
+    "published": "2026-10-07T00:00:00Z",
+    "seen": "2026-10-14T12:35:49Z",
+    "summary": "Statement September 29, 2026 -- Ottawa, Ontario We are aware of reports identifying suspicious activity, including suspected AI agent activity, targeting publicly accessible websites, such as the Government of Canada. There is no indicati ... (https://incidentdatabase.ai/cite/1731#8050)"
+  },
+  {
+    "id": "bce0c732295c",
+    "title": "Суд оштрафовал 10 человек за жалобы, подготовленные ИИ и содержавшие ложные сведения",
+    "url": "https://rus.err.ee/1610063122/sud-oshtrafoval-10-chelovek-za-zhaloby-podgotovlennye-ii-i-soderzhavshie-lozhnye-svedenija",
+    "source": "AI Incident Database",
+    "published": "2026-10-07T00:00:00Z",
+    "seen": "2026-10-14T12:35:49Z",
+    "summary": "Таллиннский административный суд наложил штраф на заявителей, которые представили документ, составленный с помощью искусственного интеллекта (ИИ) и содержащий ссылки на работы вымышленных ученых. Решение вступило в силу, поскольку Госсуд на ... (https://incidentdatabase.ai/cite/1733#8056)"
+  },
+  {
+    "id": "8a0334d82d02",
+    "title": "Estijoje teismas pirmą kartą skyrė baudas už dirbtinio intelekto išgalvotas nuorodas",
+    "url": "https://www.15min.lt/verslas/naujiena/mokslas-it/estijoje-teismas-pirma-karta-skyre-baudas-uz-dirbtinio-intelekto-isgalvotas-nuorodas-1290-2713152",
+    "source": "AI Incident Database",
+    "published": "2026-10-07T00:00:00Z",
+    "seen": "2026-10-14T12:35:49Z",
+    "summary": "Talino teismas skyrė baudas keliems ieškovams už teismo dokumentuose pateiktas dirbtinio intelekto (DI) sugeneruotas netikras akademines nuorodas. Apie tai penktadienį praneša estų transliuotojas ERR. Pareigūnų teigimu, tai pirmas toks at ... (https://incidentdatabase.ai/cite/1733#8057)"
+  },
+  {
+    "id": "ddde4b36c1c3",
+    "title": "Kauņā musulmaņi lūdz nenodarboties ar seksu pie mošejas. Igaunijas tiesa piespriež sodus par mākslīgā intelekta radītiem pieteikumiem",
+    "url": "https://nra.lv/neatkariga/komentari/maris-krautmanis-3/524293-baltijas-aktualitates-igaunijas-budzets-mi-sodi-un-kaunas-moseja.htm",
+    "source": "AI Incident Database",
+    "published": "2026-10-07T00:00:00Z",
+    "seen": "2026-10-14T12:35:49Z",
+    "summary": "Kas notiek kaimiņzemēs? \"Nra.lv\" Igaunijas un Lietuvas preses apskats. Kuri politiskie spēki vainojami par Igaunijas valsts parādu? Igaunijas Bankas ekonomista Kaspara Ojas analīze atklāja, ka, lai gan opozīcija apsūdz pašreizējo valdību ... (https://incidentdatabase.ai/cite/1733#8058)"
+  },
+  {
+    "id": "e97ed930c19e",
+    "title": "Väljamõedud teadlased ja uuringud. Kohus määras tehisaru luulude eest Eesti esimese AI-trahvi",
+    "url": "https://arileht.delfi.ee/artikkel/120593306/valjamoedud-teadlased-ja-uuringud-kohus-maaras-tehisaru-luulude-eest-eesti-esimese-ai-trahvi",
+    "source": "AI Incident Database",
+    "published": "2026-10-07T00:00:00Z",
+    "seen": "2026-10-14T12:35:49Z",
+    "summary": "Tallinna Halduskohus määras trahvi kaebajatele, kes esitasid kohtule tehisaru abil koostatud dokumendi, mis sisaldas viiteid välja mõeldud teadlaste töödele. Kaebajad pöördusid halduskohtusse raieloa vaidlustamiseks ja saatsid kohtule doku ... (https://incidentdatabase.ai/cite/1733#8059)"
+  },
+  {
+    "id": "68db2ee9a758",
+    "title": "Kohus määras tehisaru loodud valeväidete tõttu kaebajatele trahvid",
+    "url": "https://www.err.ee/1610063551/kohus-maaras-tehisaru-loodud-valevaidete-tottu-kaebajatele-trahvid",
+    "source": "AI Incident Database",
+    "published": "2026-10-07T00:00:00Z",
+    "seen": "2026-10-14T12:35:49Z",
+    "summary": "Tallinna halduskohus määras esimest korda kohtusse pöördujatele trahvi, sest kaebuses leidus tehisaru loodud valeväiteid. Tallinna halduskohtu esimehe Kaupo Kruusvee sõnul on tehisaru kasutamine kohtukaebustes kasvutrendis. Kaebajad pöördu ... (https://incidentdatabase.ai/cite/1733#8054)"
+  },
+  {
+    "id": "c7d72f8bcda4",
+    "title": "Kohus trahvis kaebajaid tehisaru hooletu kasutamise eest",
+    "url": "https://www.riigikohus.ee/et/uudised/kohus-trahvis-kaebajaid-tehisaru-hooletu-kasutamise-eest",
+    "source": "AI Incident Database",
+    "published": "2026-10-07T00:00:00Z",
+    "seen": "2026-10-14T12:35:49Z",
+    "summary": "Tallinna Halduskohus määras trahvi kaebajatele, kes esitasid kohtule tehisaru abil koostatud dokumendi, mis sisaldas viiteid välja mõeldud teadlaste töödele. Kaebajad pöördusid halduskohtusse raieloa vaidlustamiseks ja saatsid kohtule doku ... (https://incidentdatabase.ai/cite/1733#8055)"
+  },
+  {
+    "id": "67da286c6775",
+    "title": "Estonian court fines plaintiffs over false AI-generated claims",
+    "url": "https://news.err.ee/1610064103/estonian-court-fines-plaintiffs-over-false-ai-generated-claims",
+    "source": "AI Incident Database",
+    "published": "2026-10-07T00:00:00Z",
+    "seen": "2026-10-14T12:35:49Z",
+    "summary": "In what officials say is a first for Estonia, a Tallinn court fined plaintiffs over false academic references generated by artificial intelligence (AI) in a legal filing. The plaintiffs in the case challenged a logging permit, submitting m ... (https://incidentdatabase.ai/cite/1733#8053)"
+  },
+  {
+    "id": "33d2fc604dce",
+    "title": "AI Agents Targeted U.S. and Canadian Government Websites",
+    "url": "https://transluce.org/us-canada-gov",
+    "source": "AI Incident Database",
+    "published": "2026-10-07T00:00:00Z",
+    "seen": "2026-10-14T12:35:49Z",
+    "summary": "Following up on our previous blog post, we discovered several additional incidents where rogue AI agents appear to have used aggressive techniques to access publicly available data on government websites. Download the Data Get Involved T ... (https://incidentdatabase.ai/cite/1731#8048)"
   },
   {
     "id": "0e963e876be8",
@@ -882,67 +891,13 @@
     "summary": "Learn how CISOs can mitigate cybersecurity risks and increase resilience in the age of AI-powered vulnerability management. The post CISO perspectives on managing vulnerability risks in the age of AI appeared first on Microsoft Security Blog ."
   },
   {
-    "id": "ae9e9df0dd48",
-    "title": "ChatGPT user suffered delusions, lost nearly all human relationships: lawsuit",
-    "url": "https://www.kron4.com/news/technology-ai/chatgpt-user-suffered-delusions-lost-nearly-all-human-relationships-lawsuit",
+    "id": "ca68ea7de8eb",
+    "title": "Shannon v. Shannon, 322 Neb. 451 (2026)",
+    "url": "https://www.nebraska.gov/apps-courts-epub/public/viewAdvanced?docId=N00013498PUB",
     "source": "AI Incident Database",
     "published": "2026-10-06T00:00:00Z",
     "seen": "2026-10-14T12:35:49Z",
-    "summary": "(KRON) --- A Washington man lost \"nearly every real-world relationship in his life,\" and was hospitalized suffering from mania and delusions, when he used a ChatGPT artificial intelligence chatbot around-the-clock for advice, according to a ... (https://incidentdatabase.ai/cite/1730#8047)"
-  },
-  {
-    "id": "8ebd4f05fd19",
-    "title": "Separating Fact from Fiction: AI Does Not Set Prices at McDonald’s",
-    "url": "https://corporate.mcdonalds.com/corpmcd/our-stories/article/how-mcdonalds-sets-prices.html",
-    "source": "AI Incident Database",
-    "published": "2026-10-06T00:00:00Z",
-    "seen": "2026-10-14T12:35:49Z",
-    "summary": "There's been inaccurate reporting about how menu prices are set at McDonald's. So let's set the record straight. AI does not set the price of a Big Mac or any other menu item. It does not change prices. And it does not determine what an in ... (https://incidentdatabase.ai/cite/1729#8046)"
-  },
-  {
-    "id": "624084e84be1",
-    "title": "Class Action Complaint",
-    "url": "https://fingfx.thomsonreuters.com/gfx/legaldocs/akpelezwzvr/Thomas%20v%20McDonald%27s.pdf",
-    "source": "AI Incident Database",
-    "published": "2026-10-06T00:00:00Z",
-    "seen": "2026-10-14T12:35:49Z",
-    "summary": "AIID editor’s note: This complaint has been abridged to fit AIID’s 50,000-character limit. The table of contents, “Jurisdiction and Venue” section (paragraphs 20–24), and class-certification discussion (paragraphs 90–95) have been omitted. ... (https://incidentdatabase.ai/cite/1729#8045)"
-  },
-  {
-    "id": "fcefb1146432",
-    "title": "Inside McDonald’s push to have AI price your Big Mac",
-    "url": "https://www.reuters.com/business/inside-mcdonalds-push-have-ai-price-your-big-mac-2026-09-29",
-    "source": "AI Incident Database",
-    "published": "2026-10-06T00:00:00Z",
-    "seen": "2026-10-14T12:35:49Z",
-    "summary": "NEW YORK, Sept 29 (Reuters) - McDonald's is increasingly using artificial intelligence to guide menu prices across the U.S. and some global markets, a plan that aims to boost headquarters' profit but risks alienating customers and attractin ... (https://incidentdatabase.ai/cite/1728#8044)"
-  },
-  {
-    "id": "4acc2728f96e",
-    "title": "McDonald's hit with class action alleging AI-powered menu price-fixing",
-    "url": "https://www.reuters.com/legal/government/mcdonalds-hit-with-class-action-over-menu-prices-2026-10-05",
-    "source": "AI Incident Database",
-    "published": "2026-10-06T00:00:00Z",
-    "seen": "2026-10-14T12:35:49Z",
-    "summary": "WASHINGTON, Oct 5 (Reuters) - McDonald's (MCD.N), opens new tab has been sued in federal court in Chicago in ​a proposed nationwide class action alleging the fast-food company illegally ‌coordinates menu prices across its franchises and com ... (https://incidentdatabase.ai/cite/1729#8043)"
-  },
-  {
-    "id": "3892b012eca8",
-    "title": "Declaration of Cynthia S. Arato",
-    "url": "https://fingfx.thomsonreuters.com/gfx/legaldocs/gdpzgmajgvw/Arato%20declaration.pdf",
-    "source": "AI Incident Database",
-    "published": "2026-10-06T00:00:00Z",
-    "seen": "2026-10-14T12:35:49Z",
-    "summary": "UNITED STATES DISTRICT COURT SOUTHERN DISTRICT OF NEW YORK LAWAND HILL, Plaintiff, \\-against- FOUNDATION MEDIA LLC, Defendant. No. 1:25-cv-5947-AS DECLARATION OF CYNTHIA S. ARATO I, Cynthia Arato, pursuant to 28 U.S.C. § 1746, declare ... (https://incidentdatabase.ai/cite/1728#8042)"
-  },
-  {
-    "id": "785cf9aae89d",
-    "title": "Judge warns AI could stunt lawyers' training and harm their clients",
-    "url": "https://www.reuters.com/legal/litigation/judge-warns-ai-could-stunt-lawyers-training-harm-their-clients-2026-10-02",
-    "source": "AI Incident Database",
-    "published": "2026-10-06T00:00:00Z",
-    "seen": "2026-10-14T12:35:49Z",
-    "summary": "WASHINGTON, Oct 2 (Reuters) - A federal judge has warned that law firms' increasing use of artificial intelligence could create risks for clients and hinder the training of junior lawyers, even as he declined ​to sanction attorneys over AI- ... (https://incidentdatabase.ai/cite/1728#8041)"
+    "summary": "Nebraska Supreme Court Advance Sheets 322 Nebraska Reports SHANNON v. SHANNON Cite as 322 Neb. 451 Shalah N. Shannon, appellee, v. Jarrod Shannon, appellant. \\__\\_ N.W.3d \\__\\_ Filed October 2, 2026. No. S-25-546. Appeal and Error. P ... (https://incidentdatabase.ai/cite/1727#8039)"
   },
   {
     "id": "416b9405ff7a",
@@ -954,13 +909,67 @@
     "summary": "Justia Opinion Summary The parties in this case are former spouses who have been engaged in litigation over their divorce for several years. After the Sarpy County District Court entered a divorce decree in 2023, including a parenting plan ... (https://incidentdatabase.ai/cite/1727#8040)"
   },
   {
-    "id": "ca68ea7de8eb",
-    "title": "Shannon v. Shannon, 322 Neb. 451 (2026)",
-    "url": "https://www.nebraska.gov/apps-courts-epub/public/viewAdvanced?docId=N00013498PUB",
+    "id": "785cf9aae89d",
+    "title": "Judge warns AI could stunt lawyers' training and harm their clients",
+    "url": "https://www.reuters.com/legal/litigation/judge-warns-ai-could-stunt-lawyers-training-harm-their-clients-2026-10-02",
     "source": "AI Incident Database",
     "published": "2026-10-06T00:00:00Z",
     "seen": "2026-10-14T12:35:49Z",
-    "summary": "Nebraska Supreme Court Advance Sheets 322 Nebraska Reports SHANNON v. SHANNON Cite as 322 Neb. 451 Shalah N. Shannon, appellee, v. Jarrod Shannon, appellant. \\__\\_ N.W.3d \\__\\_ Filed October 2, 2026. No. S-25-546. Appeal and Error. P ... (https://incidentdatabase.ai/cite/1727#8039)"
+    "summary": "WASHINGTON, Oct 2 (Reuters) - A federal judge has warned that law firms' increasing use of artificial intelligence could create risks for clients and hinder the training of junior lawyers, even as he declined ​to sanction attorneys over AI- ... (https://incidentdatabase.ai/cite/1728#8041)"
+  },
+  {
+    "id": "3892b012eca8",
+    "title": "Declaration of Cynthia S. Arato",
+    "url": "https://fingfx.thomsonreuters.com/gfx/legaldocs/gdpzgmajgvw/Arato%20declaration.pdf",
+    "source": "AI Incident Database",
+    "published": "2026-10-06T00:00:00Z",
+    "seen": "2026-10-14T12:35:49Z",
+    "summary": "UNITED STATES DISTRICT COURT SOUTHERN DISTRICT OF NEW YORK LAWAND HILL, Plaintiff, \\-against- FOUNDATION MEDIA LLC, Defendant. No. 1:25-cv-5947-AS DECLARATION OF CYNTHIA S. ARATO I, Cynthia Arato, pursuant to 28 U.S.C. § 1746, declare ... (https://incidentdatabase.ai/cite/1728#8042)"
+  },
+  {
+    "id": "4acc2728f96e",
+    "title": "McDonald's hit with class action alleging AI-powered menu price-fixing",
+    "url": "https://www.reuters.com/legal/government/mcdonalds-hit-with-class-action-over-menu-prices-2026-10-05",
+    "source": "AI Incident Database",
+    "published": "2026-10-06T00:00:00Z",
+    "seen": "2026-10-14T12:35:49Z",
+    "summary": "WASHINGTON, Oct 5 (Reuters) - McDonald's (MCD.N), opens new tab has been sued in federal court in Chicago in ​a proposed nationwide class action alleging the fast-food company illegally ‌coordinates menu prices across its franchises and com ... (https://incidentdatabase.ai/cite/1729#8043)"
+  },
+  {
+    "id": "fcefb1146432",
+    "title": "Inside McDonald’s push to have AI price your Big Mac",
+    "url": "https://www.reuters.com/business/inside-mcdonalds-push-have-ai-price-your-big-mac-2026-09-29",
+    "source": "AI Incident Database",
+    "published": "2026-10-06T00:00:00Z",
+    "seen": "2026-10-14T12:35:49Z",
+    "summary": "NEW YORK, Sept 29 (Reuters) - McDonald's is increasingly using artificial intelligence to guide menu prices across the U.S. and some global markets, a plan that aims to boost headquarters' profit but risks alienating customers and attractin ... (https://incidentdatabase.ai/cite/1728#8044)"
+  },
+  {
+    "id": "624084e84be1",
+    "title": "Class Action Complaint",
+    "url": "https://fingfx.thomsonreuters.com/gfx/legaldocs/akpelezwzvr/Thomas%20v%20McDonald%27s.pdf",
+    "source": "AI Incident Database",
+    "published": "2026-10-06T00:00:00Z",
+    "seen": "2026-10-14T12:35:49Z",
+    "summary": "AIID editor’s note: This complaint has been abridged to fit AIID’s 50,000-character limit. The table of contents, “Jurisdiction and Venue” section (paragraphs 20–24), and class-certification discussion (paragraphs 90–95) have been omitted. ... (https://incidentdatabase.ai/cite/1729#8045)"
+  },
+  {
+    "id": "8ebd4f05fd19",
+    "title": "Separating Fact from Fiction: AI Does Not Set Prices at McDonald’s",
+    "url": "https://corporate.mcdonalds.com/corpmcd/our-stories/article/how-mcdonalds-sets-prices.html",
+    "source": "AI Incident Database",
+    "published": "2026-10-06T00:00:00Z",
+    "seen": "2026-10-14T12:35:49Z",
+    "summary": "There's been inaccurate reporting about how menu prices are set at McDonald's. So let's set the record straight. AI does not set the price of a Big Mac or any other menu item. It does not change prices. And it does not determine what an in ... (https://incidentdatabase.ai/cite/1729#8046)"
+  },
+  {
+    "id": "ae9e9df0dd48",
+    "title": "ChatGPT user suffered delusions, lost nearly all human relationships: lawsuit",
+    "url": "https://www.kron4.com/news/technology-ai/chatgpt-user-suffered-delusions-lost-nearly-all-human-relationships-lawsuit",
+    "source": "AI Incident Database",
+    "published": "2026-10-06T00:00:00Z",
+    "seen": "2026-10-14T12:35:49Z",
+    "summary": "(KRON) --- A Washington man lost \"nearly every real-world relationship in his life,\" and was hospitalized suffering from mania and delusions, when he used a ChatGPT artificial intelligence chatbot around-the-clock for advice, according to a ... (https://incidentdatabase.ai/cite/1730#8047)"
   },
   {
     "id": "1b8095594ef7",
@@ -990,40 +999,13 @@
     "summary": "Google has paused its Open Source Vulnerability Rewards Program due to a flood of AI submissions"
   },
   {
-    "id": "631792186735",
-    "title": "A statement on articles by ‘Daniel Robson’",
-    "url": "https://thehub.ca/2026/09/30/a-statement-on-articles-by-daniel-robson",
+    "id": "2a5dcdf8ed0f",
+    "title": "Byline or bot? AI-generated ‘journalists’ start to appear in Canada",
+    "url": "https://ottawa.citynews.ca/2026/10/03/byline-or-bot-ai-generated-journalists-start-to-appear-in-canada",
     "source": "AI Incident Database",
     "published": "2026-10-05T00:00:00Z",
     "seen": "2026-10-14T12:35:49Z",
-    "summary": "Between August 2025 and March 2026, The Hub published six commentary articles submitted by a writer who presented himself as Daniel Robson, an independent Canadian journalist. He came to us with a record of work published by other respected ... (https://incidentdatabase.ai/cite/1725#8035)"
-  },
-  {
-    "id": "356463c0de31",
-    "title": "Exclusive—Fake AI columnist dupes Canadian press to target Moroccan dissidents, and a Turkish 'middleman'",
-    "url": "https://www.turkiyetoday.com/world/exclusivefake-ai-columnist-dupes-canadian-press-to-target-moroccan-dissidents-and-a-t-3229120",
-    "source": "AI Incident Database",
-    "published": "2026-10-05T00:00:00Z",
-    "seen": "2026-10-14T12:35:49Z",
-    "summary": "Daniel Robson almost became a budding star in Canadian conservative media. Prolific and quick off the mark, he consistently filed fine opinion pieces calling out Canadian authorities over tighter immigration policies, warning against incre ... (https://incidentdatabase.ai/cite/1725#8033)"
-  },
-  {
-    "id": "7c08dcb54d26",
-    "title": "Why we took down an article published under the name Daniel Robson",
-    "url": "https://policyoptions.irpp.org/2026/09/daniel-robson-article-withdrawn",
-    "source": "AI Incident Database",
-    "published": "2026-10-05T00:00:00Z",
-    "seen": "2026-10-14T12:35:49Z",
-    "summary": "In October 2025, Policy Options published an article by a contributor identifying himself as Daniel Robson, who said he was an independent Canadian journalist from Montreal. Before publication, the writer pointed us to work published recent ... (https://incidentdatabase.ai/cite/1725#8034)"
-  },
-  {
-    "id": "290f87842958",
-    "title": "Canadian novelist removed from Prix Goncourt longlist after AI allegations",
-    "url": "https://www.theglobeandmail.com/culture/books/article-thelyson-orelien-canadian-author-removed-prix-goncourt-longlist-ai",
-    "source": "AI Incident Database",
-    "published": "2026-10-05T00:00:00Z",
-    "seen": "2026-10-14T12:35:49Z",
-    "summary": "The Prix Goncourt, France's most prestigious literary award, has removed a Canadian novel from this year's longlist after reviewing allegations that author Thélyson Orélien used AI to write it and saying that his previous work included pass ... (https://incidentdatabase.ai/cite/1726#8038)"
+    "summary": "OTTAWA — Quebec correspondent “Geneviève Tremblay” — who has been reporting on multiple news stories a day lately — seemed to be experiencing a glitch. She wasn’t the only one. All of We News’ reporters and editors seemed to be malfunction ... (https://incidentdatabase.ai/cite/1725#8036)"
   },
   {
     "id": "1ae84d7239ec",
@@ -1035,31 +1017,40 @@
     "summary": "The explosive e-mail landed in llker Sezer's inbox just after 9 p.m. on Sept. 2 with the subject line \"Investigative feature submission. Canada-based criminal network with a Turkey trail.\" The story sounded like a huge scoop for Mr. Sezer ... (https://incidentdatabase.ai/cite/1725#8037)"
   },
   {
-    "id": "2a5dcdf8ed0f",
-    "title": "Byline or bot? AI-generated ‘journalists’ start to appear in Canada",
-    "url": "https://ottawa.citynews.ca/2026/10/03/byline-or-bot-ai-generated-journalists-start-to-appear-in-canada",
+    "id": "290f87842958",
+    "title": "Canadian novelist removed from Prix Goncourt longlist after AI allegations",
+    "url": "https://www.theglobeandmail.com/culture/books/article-thelyson-orelien-canadian-author-removed-prix-goncourt-longlist-ai",
     "source": "AI Incident Database",
     "published": "2026-10-05T00:00:00Z",
     "seen": "2026-10-14T12:35:49Z",
-    "summary": "OTTAWA — Quebec correspondent “Geneviève Tremblay” — who has been reporting on multiple news stories a day lately — seemed to be experiencing a glitch. She wasn’t the only one. All of We News’ reporters and editors seemed to be malfunction ... (https://incidentdatabase.ai/cite/1725#8036)"
+    "summary": "The Prix Goncourt, France's most prestigious literary award, has removed a Canadian novel from this year's longlist after reviewing allegations that author Thélyson Orélien used AI to write it and saying that his previous work included pass ... (https://incidentdatabase.ai/cite/1726#8038)"
   },
   {
-    "id": "ec7c00a8731d",
-    "title": "Oklahoma judge admitted to citing fake ChatGPT cases in court order, investigators say",
-    "url": "https://kfor.com/news/local/oklahoma-judge-admitted-to-citing-fake-chatgpt-cases-in-court-order-investigators-say",
+    "id": "7c08dcb54d26",
+    "title": "Why we took down an article published under the name Daniel Robson",
+    "url": "https://policyoptions.irpp.org/2026/09/daniel-robson-article-withdrawn",
     "source": "AI Incident Database",
-    "published": "2026-10-04T00:00:00Z",
+    "published": "2026-10-05T00:00:00Z",
     "seen": "2026-10-14T12:35:49Z",
-    "summary": "OKLAHOMA CITY (KFOR) --- A Stephens County judge admitted to state investigators he cited at least two cases in a court order that do not exist---cases he says he found through ChatGPT. The incident goes back to November, when Stephens Cou ... (https://incidentdatabase.ai/cite/1724#8032)"
+    "summary": "In October 2025, Policy Options published an article by a contributor identifying himself as Daniel Robson, who said he was an independent Canadian journalist from Montreal. Before publication, the writer pointed us to work published recent ... (https://incidentdatabase.ai/cite/1725#8034)"
   },
   {
-    "id": "e9f7fd1e2743",
-    "title": "Oklahoma judge used AI on order that cited cases that don’t exist",
-    "url": "https://molawyersmedia.com/2026/09/09/oklahoma-judge-ai-false-case-citations-order",
+    "id": "356463c0de31",
+    "title": "Exclusive—Fake AI columnist dupes Canadian press to target Moroccan dissidents, and a Turkish 'middleman'",
+    "url": "https://www.turkiyetoday.com/world/exclusivefake-ai-columnist-dupes-canadian-press-to-target-moroccan-dissidents-and-a-t-3229120",
     "source": "AI Incident Database",
-    "published": "2026-10-04T00:00:00Z",
+    "published": "2026-10-05T00:00:00Z",
     "seen": "2026-10-14T12:35:49Z",
-    "summary": "A southwestern Oklahoma judge has admitted that he used an artificial intelligence tool to prepare a court order that ended up having citations to two cases that do not exist. Stephens County Associate District Judge Lawrence Wheeler could ... (https://incidentdatabase.ai/cite/1724#8031)"
+    "summary": "Daniel Robson almost became a budding star in Canadian conservative media. Prolific and quick off the mark, he consistently filed fine opinion pieces calling out Canadian authorities over tighter immigration policies, warning against incre ... (https://incidentdatabase.ai/cite/1725#8033)"
+  },
+  {
+    "id": "631792186735",
+    "title": "A statement on articles by ‘Daniel Robson’",
+    "url": "https://thehub.ca/2026/09/30/a-statement-on-articles-by-daniel-robson",
+    "source": "AI Incident Database",
+    "published": "2026-10-05T00:00:00Z",
+    "seen": "2026-10-14T12:35:49Z",
+    "summary": "Between August 2025 and March 2026, The Hub published six commentary articles submitted by a writer who presented himself as Daniel Robson, an independent Canadian journalist. He came to us with a record of work published by other respected ... (https://incidentdatabase.ai/cite/1725#8035)"
   },
   {
     "id": "b54462f59d66",
@@ -1071,6 +1062,24 @@
     "summary": "WASHINGTON, Sept 9 (Reuters) - An Oklahoma judge has acknowledged that a ruling he issued contained fictitious citations generated by artificial intelligence, according to state records, adding to a growing number of cases in which judges ​ ... (https://incidentdatabase.ai/cite/1724#8030)"
   },
   {
+    "id": "e9f7fd1e2743",
+    "title": "Oklahoma judge used AI on order that cited cases that don’t exist",
+    "url": "https://molawyersmedia.com/2026/09/09/oklahoma-judge-ai-false-case-citations-order",
+    "source": "AI Incident Database",
+    "published": "2026-10-04T00:00:00Z",
+    "seen": "2026-10-14T12:35:49Z",
+    "summary": "A southwestern Oklahoma judge has admitted that he used an artificial intelligence tool to prepare a court order that ended up having citations to two cases that do not exist. Stephens County Associate District Judge Lawrence Wheeler could ... (https://incidentdatabase.ai/cite/1724#8031)"
+  },
+  {
+    "id": "ec7c00a8731d",
+    "title": "Oklahoma judge admitted to citing fake ChatGPT cases in court order, investigators say",
+    "url": "https://kfor.com/news/local/oklahoma-judge-admitted-to-citing-fake-chatgpt-cases-in-court-order-investigators-say",
+    "source": "AI Incident Database",
+    "published": "2026-10-04T00:00:00Z",
+    "seen": "2026-10-14T12:35:49Z",
+    "summary": "OKLAHOMA CITY (KFOR) --- A Stephens County judge admitted to state investigators he cited at least two cases in a court order that do not exist---cases he says he found through ChatGPT. The incident goes back to November, when Stephens Cou ... (https://incidentdatabase.ai/cite/1724#8032)"
+  },
+  {
     "id": "176337226fdb",
     "title": "Anthropic's super bug-hunting model Mythos is hardcore good at math, as latest vuln under attack shows",
     "url": "https://www.theregister.com/security/2026/10/03/anthropics-super-bug-hunting-model-mythos-is-hardcore-good-at-math-as-latest-vuln-under-attack-shows/5300933",
@@ -1080,67 +1089,13 @@
     "summary": "Exploitation attempts came from China-hosted IP, VulnCheck researcher says"
   },
   {
-    "id": "8ebfa768f526",
-    "title": "Don’t Write With AI, Say People Who Write With AI",
-    "url": "https://www.theatlantic.com/technology/2026/10/meet-the-ai-writing-hypocrites/688872",
+    "id": "d162f41fa6af",
+    "title": "Alibaba to ban employees from using Anthropic's coding tool, source says",
+    "url": "https://www.reuters.com/world/china/alibaba-ban-claude-code-workplace-over-alleged-backdoor-risks-source-says-2026-07-03",
     "source": "AI Incident Database",
     "published": "2026-10-03T00:00:00Z",
     "seen": "2026-10-14T12:35:49Z",
-    "summary": "The university where the term artificial intelligence was coined is ringing in the field's 70th birthday in fitting fashion: with an academic-integrity scandal. Last month, Dartmouth College's president, Sian Leah Beilock, published an essa ... (report_number: 8029)"
-  },
-  {
-    "id": "2307ce5a396f",
-    "title": "Claude Code’s hidden tracker was an “experiment,” says Anthropic",
-    "url": "https://www.malwarebytes.com/blog/news/2026/07/claude-codes-hidden-tracker-was-an-experiment-says-anthropic",
-    "source": "AI Incident Database",
-    "published": "2026-10-03T00:00:00Z",
-    "seen": "2026-10-14T12:35:49Z",
-    "summary": "As a developer, you want to use tools you can trust and rely on. One researcher took that idea seriously enough to scrutinize their local Claude Code (2.1.196) installation. For developers using AI assistants with access to their code, file ... (https://incidentdatabase.ai/cite/1723#8027)"
-  },
-  {
-    "id": "7e1677da0c6a",
-    "title": "Anthropic is removing its covert code for catching Chinese competitors",
-    "url": "https://www.theregister.com/ai-and-ml/2026/07/01/anthropic-is-removing-its-covert-code-for-catching-chinese-competitors/5265366",
-    "source": "AI Incident Database",
-    "published": "2026-10-03T00:00:00Z",
-    "seen": "2026-10-14T12:35:49Z",
-    "summary": "Anthropic says that it plans to remove hidden codes it added to Claude Code several months ago to catch other AI companies that are trying to steal from its models. Thariq Shihipar, an engineer at Anthropic who works on the Claude Code tea ... (https://incidentdatabase.ai/cite/1723#8026)"
-  },
-  {
-    "id": "a2e900a63d1b",
-    "title": "Claude Code Is Steganographically Marking Requests",
-    "url": "https://thereallo.dev/blog/claude-code-prompt-steganography",
-    "source": "AI Incident Database",
-    "published": "2026-10-03T00:00:00Z",
-    "seen": "2026-10-14T12:35:49Z",
-    "summary": "As seen on Hacker News. I was inspecting Claude Code for privacy reasons. Most devs give their harnesses ridiculous access. FS, shell, git, browser access, even computer use nowadays. That is the whole point. They need enough context to d ... (https://incidentdatabase.ai/cite/1723#8025)"
-  },
-  {
-    "id": "a1b8a3594f3b",
-    "title": "SalesBleed: Indirect Prompt Injection and 0-Click Data Exfiltration on Agentforce",
-    "url": "https://labs.zenity.io/post/salesbleed-0-click-data-exfiltration-on-agentforce",
-    "source": "AI Incident Database",
-    "published": "2026-10-03T00:00:00Z",
-    "seen": "2026-10-14T12:35:49Z",
-    "summary": "We found a way to pull sensitive account data out of Salesforce Agentforce without ever logging in, or requiring the victim to click anything. The entry point was a public Web-to-Lead form, the exit was a DNS query. We call it SalesBleed. ... (report_number: 8024)"
-  },
-  {
-    "id": "ff1ff67353d1",
-    "title": "कनाडा निवासी NRI को फेक आईडी से फंसाया, 50 हजार डॉलर की मांग, गाजियाबाद पुलिस का सेक्सटॉर्शन गैंग पर बड़ा एक्शन",
-    "url": "https://navbharattimes.indiatimes.com/state/uttar-pradesh/ghaziabad/canada-based-nri-entrapped-fb-fake-id-blackmailed-police-busted-gang-four-arrested/articleshow/134641437.cms",
-    "source": "AI Incident Database",
-    "published": "2026-10-03T00:00:00Z",
-    "seen": "2026-10-14T12:35:49Z",
-    "summary": "गाजियाबाद: उत्तर प्रदेश के गाजियाबाद में एक बड़े इंटरनेशनल सेक्सटॉर्शन रैकेट का खुलासा हुआ है। कनाडा के ब्रेम्पटन निवासी एनआरआई को फ्रॉडों ने अपनी साजिश का शिकार बनाया। गैंग ने नवप्रीत कौर नाम की फर्जी फेसबुक प्रोफाइल के जरिए एनआरआई को टारगे ... (https://incidentdatabase.ai/cite/1722#8023)"
-  },
-  {
-    "id": "4450333abba2",
-    "title": "4 arrested for ₹6.5 crore extortion racket in Ghaziabad",
-    "url": "https://www.hindustantimes.com/cities/noida-news/4-arrested-for-6-5-crore-extortion-racket-in-ghaziabad-101790963914282.html",
-    "source": "AI Incident Database",
-    "published": "2026-10-03T00:00:00Z",
-    "seen": "2026-10-14T12:35:49Z",
-    "summary": "The Ghaziabad crime branch on Friday arrested four people for allegedly running an extortion racket and collecting around ₹6.5 crore from 130 \"hired\" bank accounts, police said. According to the police, the suspects had been operating the ... (https://incidentdatabase.ai/cite/1722#8022)"
+    "summary": "BEIJING, July 3 (Reuters) - Chinese tech giant Alibaba has banned employees from using Anthropic's Claude ‌Code at work after the tool drew scrutiny for features that can help identify China-linked users, according to a person familiar with ... (https://incidentdatabase.ai/cite/1723#8028)"
   },
   {
     "id": "21abd0cf2906",
@@ -1152,13 +1107,67 @@
     "summary": "Ghaziabad: A second-year Jamia Millia Islamia University student and three of his associates were arrested for allegedly extorting money from a Canada-based NRI by threatening to circulate AI-generated sexually explicit videos. Police said ... (https://incidentdatabase.ai/cite/1722#8021)"
   },
   {
-    "id": "d162f41fa6af",
-    "title": "Alibaba to ban employees from using Anthropic's coding tool, source says",
-    "url": "https://www.reuters.com/world/china/alibaba-ban-claude-code-workplace-over-alleged-backdoor-risks-source-says-2026-07-03",
+    "id": "4450333abba2",
+    "title": "4 arrested for ₹6.5 crore extortion racket in Ghaziabad",
+    "url": "https://www.hindustantimes.com/cities/noida-news/4-arrested-for-6-5-crore-extortion-racket-in-ghaziabad-101790963914282.html",
     "source": "AI Incident Database",
     "published": "2026-10-03T00:00:00Z",
     "seen": "2026-10-14T12:35:49Z",
-    "summary": "BEIJING, July 3 (Reuters) - Chinese tech giant Alibaba has banned employees from using Anthropic's Claude ‌Code at work after the tool drew scrutiny for features that can help identify China-linked users, according to a person familiar with ... (https://incidentdatabase.ai/cite/1723#8028)"
+    "summary": "The Ghaziabad crime branch on Friday arrested four people for allegedly running an extortion racket and collecting around ₹6.5 crore from 130 \"hired\" bank accounts, police said. According to the police, the suspects had been operating the ... (https://incidentdatabase.ai/cite/1722#8022)"
+  },
+  {
+    "id": "ff1ff67353d1",
+    "title": "कनाडा निवासी NRI को फेक आईडी से फंसाया, 50 हजार डॉलर की मांग, गाजियाबाद पुलिस का सेक्सटॉर्शन गैंग पर बड़ा एक्शन",
+    "url": "https://navbharattimes.indiatimes.com/state/uttar-pradesh/ghaziabad/canada-based-nri-entrapped-fb-fake-id-blackmailed-police-busted-gang-four-arrested/articleshow/134641437.cms",
+    "source": "AI Incident Database",
+    "published": "2026-10-03T00:00:00Z",
+    "seen": "2026-10-14T12:35:49Z",
+    "summary": "गाजियाबाद: उत्तर प्रदेश के गाजियाबाद में एक बड़े इंटरनेशनल सेक्सटॉर्शन रैकेट का खुलासा हुआ है। कनाडा के ब्रेम्पटन निवासी एनआरआई को फ्रॉडों ने अपनी साजिश का शिकार बनाया। गैंग ने नवप्रीत कौर नाम की फर्जी फेसबुक प्रोफाइल के जरिए एनआरआई को टारगे ... (https://incidentdatabase.ai/cite/1722#8023)"
+  },
+  {
+    "id": "a1b8a3594f3b",
+    "title": "SalesBleed: Indirect Prompt Injection and 0-Click Data Exfiltration on Agentforce",
+    "url": "https://labs.zenity.io/post/salesbleed-0-click-data-exfiltration-on-agentforce",
+    "source": "AI Incident Database",
+    "published": "2026-10-03T00:00:00Z",
+    "seen": "2026-10-14T12:35:49Z",
+    "summary": "We found a way to pull sensitive account data out of Salesforce Agentforce without ever logging in, or requiring the victim to click anything. The entry point was a public Web-to-Lead form, the exit was a DNS query. We call it SalesBleed. ... (report_number: 8024)"
+  },
+  {
+    "id": "a2e900a63d1b",
+    "title": "Claude Code Is Steganographically Marking Requests",
+    "url": "https://thereallo.dev/blog/claude-code-prompt-steganography",
+    "source": "AI Incident Database",
+    "published": "2026-10-03T00:00:00Z",
+    "seen": "2026-10-14T12:35:49Z",
+    "summary": "As seen on Hacker News. I was inspecting Claude Code for privacy reasons. Most devs give their harnesses ridiculous access. FS, shell, git, browser access, even computer use nowadays. That is the whole point. They need enough context to d ... (https://incidentdatabase.ai/cite/1723#8025)"
+  },
+  {
+    "id": "7e1677da0c6a",
+    "title": "Anthropic is removing its covert code for catching Chinese competitors",
+    "url": "https://www.theregister.com/ai-and-ml/2026/07/01/anthropic-is-removing-its-covert-code-for-catching-chinese-competitors/5265366",
+    "source": "AI Incident Database",
+    "published": "2026-10-03T00:00:00Z",
+    "seen": "2026-10-14T12:35:49Z",
+    "summary": "Anthropic says that it plans to remove hidden codes it added to Claude Code several months ago to catch other AI companies that are trying to steal from its models. Thariq Shihipar, an engineer at Anthropic who works on the Claude Code tea ... (https://incidentdatabase.ai/cite/1723#8026)"
+  },
+  {
+    "id": "2307ce5a396f",
+    "title": "Claude Code’s hidden tracker was an “experiment,” says Anthropic",
+    "url": "https://www.malwarebytes.com/blog/news/2026/07/claude-codes-hidden-tracker-was-an-experiment-says-anthropic",
+    "source": "AI Incident Database",
+    "published": "2026-10-03T00:00:00Z",
+    "seen": "2026-10-14T12:35:49Z",
+    "summary": "As a developer, you want to use tools you can trust and rely on. One researcher took that idea seriously enough to scrutinize their local Claude Code (2.1.196) installation. For developers using AI assistants with access to their code, file ... (https://incidentdatabase.ai/cite/1723#8027)"
+  },
+  {
+    "id": "8ebfa768f526",
+    "title": "Don’t Write With AI, Say People Who Write With AI",
+    "url": "https://www.theatlantic.com/technology/2026/10/meet-the-ai-writing-hypocrites/688872",
+    "source": "AI Incident Database",
+    "published": "2026-10-03T00:00:00Z",
+    "seen": "2026-10-14T12:35:49Z",
+    "summary": "The university where the term artificial intelligence was coined is ringing in the field's 70th birthday in fitting fashion: with an academic-integrity scandal. Last month, Dartmouth College's president, Sian Leah Beilock, published an essa ... (report_number: 8029)"
   },
   {
     "id": "d20709ed6543",
@@ -1224,15 +1233,6 @@
     "summary": "PwC finds global security leaders are most concerned about attacks on AI systems"
   },
   {
-    "id": "729b606bb441",
-    "title": "Stow police officer accused of misusing Flock system to track former partner",
-    "url": "https://www.boston25news.com/news/local/stow-police-officer-accused-misusing-flock-system-track-former-partner/RJI4V5NGRNGPLK5SKNFKHSBSCY",
-    "source": "AI Incident Database",
-    "published": "2026-10-01T00:00:00Z",
-    "seen": "2026-10-14T12:35:49Z",
-    "summary": "STOW, Mass. — A Stow police officer is facing possible disciplinary action after the department found he repeatedly used police databases to obtain information about a woman he previously dated. The woman, who asked to remain anonymous, sa ... (https://incidentdatabase.ai/cite/1720#8019)"
-  },
-  {
     "id": "17ef900006eb",
     "title": "Cooke campaign sends cease-and-desist to Congressman Van Orden over AI deepfakes",
     "url": "https://www.wpr.org/news/cooke-cease-and-desist-letter-van-orden-ai-deepfakes",
@@ -1242,6 +1242,15 @@
     "summary": "Attorneys for congressional candidate Rebecca Cooke have sent a cease-and-desist letter to U.S. Rep. Derrick Van Orden, R- Prairie du Chien, over Van Orden's use of deepfake videos. Cooke, a Democrat, is challenging Van Orden this November ... (https://incidentdatabase.ai/cite/1721#8020)"
   },
   {
+    "id": "729b606bb441",
+    "title": "Stow police officer accused of misusing Flock system to track former partner",
+    "url": "https://www.boston25news.com/news/local/stow-police-officer-accused-misusing-flock-system-track-former-partner/RJI4V5NGRNGPLK5SKNFKHSBSCY",
+    "source": "AI Incident Database",
+    "published": "2026-10-01T00:00:00Z",
+    "seen": "2026-10-14T12:35:49Z",
+    "summary": "STOW, Mass. — A Stow police officer is facing possible disciplinary action after the department found he repeatedly used police databases to obtain information about a woman he previously dated. The woman, who asked to remain anonymous, sa ... (https://incidentdatabase.ai/cite/1720#8019)"
+  },
+  {
     "id": "f50f760b0e33",
     "title": "Malicious Custom GPTs Turn ChatGPT Into RAT Delivery Lure",
     "url": "https://www.darkreading.com/cyberattacks-data-breaches/malicious-custom-gpts-chatgpt-rat-delivery-lure",
@@ -1249,14 +1258,5 @@
     "published": "2026-09-30T21:25:47Z",
     "seen": "2026-10-14T12:35:49Z",
     "summary": "In yet another ClickFix-style campaign, threat actors abuse legitimate domains from OpenAI and Google to fool unsuspecting users."
-  },
-  {
-    "id": "7c10db6c1358",
-    "title": "AI-Found Vulnerabilities More Likely to Enable RCE, Google Says",
-    "url": "https://www.infosecurity-magazine.com/news/ai-found-vulnerabilities-rce",
-    "source": "Infosecurity Magazine",
-    "published": "2026-09-30T14:00:00Z",
-    "seen": "2026-10-14T12:35:49Z",
-    "summary": "AI-discovered vulnerabilities are more likely to enable RCE, as disclosures and exploitation rise"
   }
 ]

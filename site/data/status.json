@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T13:24:53Z",
+  "updated_at": "2026-10-14T14:27:04Z",
   "wire_items": 140,
   "new_items": 75,
   "candidates": 0,
@@ -26,5 +26,5 @@
   "feeds_failed": [
 
   ],
-  "triage": "triage failed: API 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"x-api-key header is required\"},\"request_id\":\""
+  "triage": "triage failed: API 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cg2H"
 }
