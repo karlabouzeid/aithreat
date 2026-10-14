@@ -65,7 +65,10 @@ def parse_feed(name, body)
   items = []
   if feed.respond_to?(:items) && feed.feed_type == "rss"
     feed.items.each do |it|
-      items << { title: strip_html(it.title), url: it.link.to_s, published: (it.date || it.pubDate rescue nil), summary: strip_html(it.description.to_s)[0, 400] }
+      publisher = (it.source ? it.source.content.to_s.strip : "") rescue ""
+      title = strip_html(it.title)
+      title = title.sub(/\s+-\s+#{Regexp.escape(publisher)}\z/, "") unless publisher.empty?
+      items << { title: title, url: it.link.to_s, published: (it.date || it.pubDate rescue nil), summary: strip_html(it.description.to_s)[0, 400], publisher: publisher }
     end
   elsif feed.respond_to?(:entries)
     feed.entries.each do |e|
@@ -104,7 +107,10 @@ FEEDS.each do |f|
       next if known.include?(id)
       pub = (Time.parse(i[:published].to_s).utc rescue now)
       pub = now if pub > now + 3600
-      fresh << { "id" => id, "title" => i[:title][0, 200], "url" => url, "source" => i[:source], "published" => pub.iso8601, "seen" => now.iso8601, "summary" => i[:summary] }
+      summary = i[:summary].to_s
+      summary = "" if f["google"] # Google's summary is only the headline and publisher again
+      src = (i[:publisher] && !i[:publisher].empty?) ? i[:publisher] : i[:source]
+      fresh << { "id" => id, "title" => i[:title][0, 200], "url" => url, "source" => src, "via" => f["name"], "lang" => (f["lang"] || "en"), "published" => pub.iso8601, "seen" => now.iso8601, "summary" => summary }
       known << id
     end
     feeds_ok << f["name"]
@@ -115,9 +121,10 @@ FEEDS.each do |f|
   end
 end
 # dedupe near-identical titles among fresh items
-seen_titles = (existing.map { |w| w["title"].downcase.gsub(/[^a-z0-9]+/, " ").strip })
+title_key = ->(s) { s.to_s.downcase.gsub(/[[:punct:]\s]+/, " ").strip }
+seen_titles = existing.map { |w| title_key.(w["title"]) }
 fresh = fresh.reject do |w|
-  key = w["title"].downcase.gsub(/[^a-z0-9]+/, " ").strip
+  key = title_key.(w["title"])
   dup = seen_titles.include?(key); seen_titles << key; dup
 end
 log "new items: #{fresh.size}"
@@ -133,7 +140,7 @@ if api_key && !fresh.empty?
   known_cats = ["Prompt injection", "Deepfake fraud", "AI-assisted malware", "AI supply chain", "Model & data leak", "LLMjacking", "Agent hijack", "AI phishing", "State actor AI ops"]
   prompt = <<~P
     You are the triage editor of AI Threat Watch, a public tracker of AI security incidents (attacks ON AI systems and attacks carried out WITH AI).
-    Today is #{now.strftime('%Y-%m-%d')}. Below are new headlines from security news feeds, each with an index, title, source and summary.
+    Today is #{now.strftime('%Y-%m-%d')}. Below are new headlines from security and general news feeds in several languages, each with an index, title, source and summary. Headlines may be in English, French, Spanish, Arabic or Chinese; always write "tag", "one_line" and every draft field in English.
 
     For EACH item return an object:
     - "i": the index
