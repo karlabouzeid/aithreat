@@ -138,7 +138,8 @@ triage_note = nil
 if api_key && !fresh.empty?
   recent_titles = (incidents.map { |i| "#{i['date']} #{i['title']}" } + candidates.map { |c| "#{c['date']} #{c['title']}" }).last(120)
   known_cats = ["Prompt injection", "Deepfake fraud", "AI-assisted malware", "AI supply chain", "Model & data leak", "LLMjacking", "Agent hijack", "AI phishing", "State actor AI ops"]
-  prompt = <<~P
+  build_prompt = lambda do |batch, offset|
+  <<~P
     You are the triage editor of AI Threat Watch, a public tracker of AI security incidents (attacks ON AI systems and attacks carried out WITH AI).
     Today is #{now.strftime('%Y-%m-%d')}. Below are new headlines from security and general news feeds in several languages, each with an index, title, source and summary. Headlines may be in English, French, Spanish, Arabic or Chinese; always write "tag", "one_line" and every draft field in English.
 
@@ -156,21 +157,36 @@ if api_key && !fresh.empty?
     #{recent_titles.join("\n")}
 
     New items:
-    #{fresh.each_with_index.map { |w, n| "#{n}. [#{w['source']}] #{w['title']} — #{w['summary'][0, 300]}" }.join("\n")}
+    #{batch.each_with_index.map { |w, n| "#{offset + n}. [#{w['source']}] #{w['title']} — #{w['summary'][0, 300]}" }.join("\n")}
 
-    Reply with ONLY a JSON array, no prose.
+    Reply with ONLY a JSON array, no prose, no code fences.
   P
+  end
+  by_i = {}
+  batches_ok, batches_failed, sample = 0, 0, nil
+  fresh.each_slice(25).with_index do |batch, bi|
+    offset = bi * 25
+    begin
+      uri = URI("https://api.anthropic.com/v1/messages")
+      http = Net::HTTP.new(uri.host, uri.port); http.use_ssl = true; http.read_timeout = 180
+      req = Net::HTTP::Post.new(uri.path, { "content-type" => "application/json", "x-api-key" => api_key, "anthropic-version" => "2023-06-01" })
+      req.body = { model: MODEL, max_tokens: 12000, messages: [{ role: "user", content: build_prompt.(batch, offset) }] }.to_json
+      res = http.request(req)
+      raise "API #{res.code}: #{res.body[0, 200]}" unless res.is_a?(Net::HTTPSuccess)
+      body = JSON.parse(res.body)
+      text = body["content"].map { |c| c["text"] }.join.gsub(/```(?:json)?/, "")
+      json = text[/\[.*\]/m] or raise "no JSON (stop=#{body['stop_reason']}): #{text[0, 160]}"
+      verdicts = JSON.parse(json)
+      verdicts.each { |v| by_i[v["i"].to_i] = v }
+      batches_ok += 1
+    rescue => e
+      batches_failed += 1
+      sample ||= e.message[0, 220]
+      log "triage batch #{bi} failed: #{e.class} #{e.message[0, 160]}"
+    end
+  end
   begin
-    uri = URI("https://api.anthropic.com/v1/messages")
-    http = Net::HTTP.new(uri.host, uri.port); http.use_ssl = true; http.read_timeout = 180
-    req = Net::HTTP::Post.new(uri.path, { "content-type" => "application/json", "x-api-key" => api_key, "anthropic-version" => "2023-06-01" })
-    req.body = { model: MODEL, max_tokens: 8000, messages: [{ role: "user", content: prompt }] }.to_json
-    res = http.request(req)
-    raise "API #{res.code}: #{res.body[0, 300]}" unless res.is_a?(Net::HTTPSuccess)
-    text = JSON.parse(res.body)["content"].map { |c| c["text"] }.join
-    json = text[/\[.*\]/m] or raise "no JSON in reply"
-    verdicts = JSON.parse(json)
-    by_i = verdicts.each_with_object({}) { |v, h| h[v["i"].to_i] = v }
+    raise "all #{batches_failed} batches failed: #{sample}" if batches_ok == 0
     kept = []
     fresh.each_with_index do |w, n|
       v = by_i[n]
@@ -191,7 +207,7 @@ if api_key && !fresh.empty?
       end
       kept << w
     end
-    triage_note = "triaged #{fresh.size} items with #{MODEL}; kept #{kept.size}"
+    triage_note = "triaged #{fresh.size} items with #{MODEL} in #{batches_ok} batches (#{batches_failed} failed#{sample ? ': ' + sample : ''}); kept #{kept.size}"
     fresh = kept
   rescue => e
     log "triage failed: #{e.class} #{e.message}"
