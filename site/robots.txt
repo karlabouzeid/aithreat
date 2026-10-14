@@ -1,0 +1,14 @@
+# AI Threat Watch (aithreat.io)
+# Everything here is public, open data (CC BY 4.0). Search engines and AI
+# assistants are welcome to crawl, index and cite it. Please link back.
+
+User-agent: *
+Allow: /
+
+# Keep the machine-triaged wire data out of search results; the verified
+# case files are the pages worth indexing.
+Disallow: /data/wire.json
+Disallow: /data/candidates.json
+Disallow: /data/status.json
+
+Sitemap: https://aithreat.io/sitemap.xml

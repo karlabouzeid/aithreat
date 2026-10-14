@@ -43,5 +43,16 @@ The robot drafts a case file for anything that looks like a real new incident. D
 3. To remove a bad draft: add its id to `config/rejected.txt` the same way.
 The next run (within 30 minutes) applies your decisions. Unreviewed drafts expire after 30 days.
 
+## Getting found (search engines and AI assistants)
+`scripts/build_pages.rb` turns the verified case files into plain HTML pages that Google, Bing and AI
+crawlers can read: `site/cases/<id>/` (English) and `site/fr|es|ar|zh/cases/<id>/`, plus hub pages by type
+and country, `sitemap.xml`, `llms.txt` and `cases/feed.xml`. The robot runs it after every wire update and
+pings Bing (IndexNow) with the pages that changed, so an approved draft gets its page within 30 minutes.
+Nothing to do by hand; if you edit a case file locally you can run `ruby scripts/build_pages.rb` to preview
+the pages, but the robot will rebuild them anyway.
+
+The strategy, the account steps (Google Search Console, Bing Webmaster Tools, dataset mirrors) and the
+weekly checklist are in `GROWTH.md`.
+
 ## Changing sources
 Edit `config/feeds.json`. Each entry is a name and an RSS/Atom URL. `"ai_only": true` means every item from that feed counts as AI-related without keyword checks.

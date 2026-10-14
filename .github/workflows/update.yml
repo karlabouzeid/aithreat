@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: "9,39 * * * *"
   workflow_dispatch:
+    inputs:
+      submit_all:
+        description: "Also submit every page in sitemap.xml to IndexNow (tick once after a big change)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -28,11 +33,18 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: ruby scripts/update.rb
+      # Static, crawlable case pages + sitemap + llms.txt. Deterministic, so it
+      # only produces a diff when a case file or translation actually changed.
+      # Never allowed to block the wire update.
+      - name: Build case pages, sitemap and llms.txt
+        continue-on-error: true
+        run: ruby scripts/build_pages.rb
       - name: Commit changes
+        id: commit
         run: |
           git config user.name "aithreat-bot"
           git config user.email "bot@aithreat.io"
-          git add site/data site/feed.xml
+          git add -A site
           if git diff --cached --quiet; then
             echo "No changes"
           else
@@ -41,4 +53,15 @@ jobs:
               git push origin HEAD:main && break
               git fetch origin main && git rebase origin/main
             done
+            echo "pushed=1" >> "$GITHUB_OUTPUT"
           fi
+      # Bing, Yandex and friends learn about new or edited case pages within
+      # minutes. Google ignores IndexNow and reads sitemap.xml instead.
+      - name: Tell search engines which pages changed (IndexNow)
+        if: steps.commit.outputs.pushed == '1'
+        continue-on-error: true
+        run: ruby scripts/indexnow.rb
+      - name: Submit the whole sitemap to IndexNow (manual runs only)
+        if: github.event_name == 'workflow_dispatch' && inputs.submit_all
+        continue-on-error: true
+        run: ruby scripts/indexnow.rb --all

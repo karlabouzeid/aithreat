@@ -4,9 +4,21 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="description" content="AI Threat Watch: a world map of publicly reported AI security incidents, with full case files, market reaction and open data. In English, French, Spanish, Arabic and Chinese.">
-<meta property="og:title" content="AI Threat Watch">
+<meta property="og:title" content="AI Threat Watch: live map and verified case files of AI security incidents">
 <meta property="og:description" content="Live map and case files of AI security incidents worldwide.">
 <meta property="og:type" content="website">
+<link rel="canonical" href="https://aithreat.io/">
+<meta property="og:url" content="https://aithreat.io/">
+<meta property="og:site_name" content="AI Threat Watch">
+<meta property="og:image" content="https://aithreat.io/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="AI Threat Watch: live map and verified case files of AI security incidents">
+<meta name="twitter:description" content="Live map and case files of AI security incidents worldwide.">
+<meta name="twitter:image" content="https://aithreat.io/og.png">
+<link rel="alternate" type="application/rss+xml" title="AI Threat Watch verified case files" href="/cases/feed.xml">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://aithreat.io/#org","name":"AI Threat Watch","url":"https://aithreat.io/","logo":"https://aithreat.io/og.png"},{"@type":"WebSite","@id":"https://aithreat.io/#site","url":"https://aithreat.io/","name":"AI Threat Watch","description":"A world map and verified case files of publicly reported AI security incidents: attacks on AI systems and attacks carried out with AI. Live wire refreshed every 30 minutes. Open data in English, French, Spanish, Arabic and Chinese.","inLanguage":["en","fr","es","ar","zh"],"publisher":{"@id":"https://aithreat.io/#org"}},{"@type":"Dataset","@id":"https://aithreat.io/#dataset","name":"AI Threat Watch: verified AI security incidents","description":"Structured case files of publicly reported attacks on AI systems and attacks carried out with AI. Each record carries date, category, direction, severity, country, region, target, loss in USD, summary, actor, actor type, attribution, motive, attack vector, root cause, timeline, impact, response, status, CVE and primary sources. Machine-drafted entries are published only after human review.","url":"https://aithreat.io/cases/","license":"https://creativecommons.org/licenses/by/4.0/","isAccessibleForFree":true,"creator":{"@id":"https://aithreat.io/#org"},"keywords":["AI security","AI incidents","prompt injection","deepfake fraud","LLM security","AI supply chain","cybersecurity","threat intelligence"],"temporalCoverage":"2023/..","spatialCoverage":"Worldwide","distribution":[{"@type":"DataDownload","encodingFormat":"application/json","contentUrl":"https://aithreat.io/data/incidents.en.json"}]}]}</script>
 <style>html{color-scheme:light}body{margin:0;font:14px system-ui,sans-serif}img{max-width:100%}[hidden]{display:none!important}</style>
 <link rel="alternate" type="application/rss+xml" title="AI Threat Watch wire" href="/feed.xml">
 <link rel="icon" href="/assets/brand/favicon.svg" type="image/svg+xml">
@@ -17,7 +29,7 @@
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <script defer src="https://cloud.umami.is/script.js" data-website-id="aafe3de7-3e98-4efd-91e0-2d01c4a8994f"></script>
-<title>AI Threat Watch</title>
+<title>AI Threat Watch: live map and verified case files of AI security incidents</title>
 </head>
 <body>
 
@@ -371,6 +383,7 @@
     </div>
     <section class="home" id="home"></section>
     <footer><span id="t-osint"></span> · <span id="period"></span> · <span id="foot"></span></footer>
+    <nav aria-label="Site" style="font-size:12px;color:var(--muted);margin-top:6px"><a href="/cases/">All case files</a> · <a href="/cases/feed.xml">Case files RSS</a> · <a href="/feed.xml">Wire RSS</a> · <a href="/data/incidents.en.json">Open data (JSON)</a> · <a href="/llms.txt">llms.txt</a></nav>
   </div>
 
   <div class="view" id="view-wire" hidden></div>
@@ -789,7 +802,8 @@
     try { await navigator.clipboard.writeText(text); btn.textContent = t('copied'); } catch (e) { window.prompt ? null : null; btn.textContent = old; const ta = el('textarea'); ta.value = text; ta.style.cssText = 'position:fixed;opacity:0'; document.body.append(ta); ta.select(); try { document.execCommand('copy'); btn.textContent = t('copied'); } catch (e2) {} ta.remove(); }
     setTimeout(() => { btn.textContent = old; }, 1500);
   }
-  const caseUrl = (id) => location.origin.startsWith('http') ? location.origin + location.pathname + '#' + id : location.href.split('#')[0] + '#' + id;
+  // Permanent links point at the static, crawlable case pages (built by scripts/build_pages.rb). Unverified drafts have no static page yet, so they keep the map link.
+  const caseUrl = (id) => { const origin = location.origin.startsWith('http') ? location.origin : 'https://aithreat.io'; const i = byId.get(id); if (!i || i.verified === false) return origin + location.pathname + '#' + id; const pre = (state.lang !== 'en' && TR[state.lang] && TR[state.lang][id]) ? '/' + state.lang : ''; return origin + pre + '/cases/' + id + '/'; };
   const citation = (i) => `${i.title}. AI Threat Watch, ${t('case').toLowerCase()} ${i.id}, ${fmtDate(i.date)}. ${t('retrieved')} ${new Date().toLocaleDateString(loc())}: ${caseUrl(i.id)}`;
 
   function renderCase(raw) {
