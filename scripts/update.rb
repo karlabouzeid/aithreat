@@ -125,7 +125,8 @@ log "new items: #{fresh.size}"
 # ---------- 2. triage with Claude (optional) ----------
 incidents = File.exist?(INC_PATH) ? JSON.parse(File.read(INC_PATH)) : []
 candidates = File.exist?(CAND_PATH) ? JSON.parse(File.read(CAND_PATH)) : []
-api_key = ENV["ANTHROPIC_API_KEY"]
+api_key = ENV["ANTHROPIC_API_KEY"].to_s.strip
+api_key = nil if api_key.empty?
 triage_note = nil
 if api_key && !fresh.empty?
   recent_titles = (incidents.map { |i| "#{i['date']} #{i['title']}" } + candidates.map { |c| "#{c['date']} #{c['title']}" }).last(120)
