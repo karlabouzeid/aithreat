@@ -4,6 +4,9 @@
 #   site/cases/<id>/index.html                 English case pages
 #   site/<lang>/cases/<id>/index.html          French, Spanish, Arabic, Chinese (when a translation exists)
 #   site/cases/, site/cases/category/<slug>/, site/cases/country/<cc>/   hub pages (and per language)
+#   site/cases/company/<slug>/                 one hub per targeted company or product (and per language)
+#   site/cases/glossary/                       plain-language definitions of the nine incident types (and per language)
+#   site/about/                                method, severity scale, verified-vs-wire, licence, corrections, contact (and per language)
 #   site/cases/feed.xml (+ per language)       RSS of verified case files
 #   site/sitemap.xml, site/llms.txt
 # Output is deterministic: same inputs give byte-identical files, so the robot
