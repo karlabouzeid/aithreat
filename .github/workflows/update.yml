@@ -20,6 +20,10 @@ jobs:
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: "3.3"
+      - name: Start from the latest main
+        run: |
+          git fetch origin main
+          git checkout -B main origin/main
       - name: Pull feeds, triage, write data
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -33,6 +37,8 @@ jobs:
             echo "No changes"
           else
             git commit -m "wire: $(date -u +'%Y-%m-%d %H:%M UTC')"
-            git pull --rebase
-            git push
+            for i in 1 2 3; do
+              git push origin HEAD:main && break
+              git fetch origin main && git rebase origin/main
+            done
           fi
