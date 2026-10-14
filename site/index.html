@@ -896,7 +896,7 @@
     const tk = document.getElementById('ticker'), track = document.getElementById('track');
     const items = mine().slice(0, 10);
     tk.hidden = items.length === 0; if (!items.length) return;
-    const mk = () => items.map((w) => { const a = el('a'); a.href = w.url; a.target = '_blank'; a.rel = 'noopener noreferrer'; a.append(el('b', null, new Date(w.published).toLocaleTimeString(loc(), { hour: '2-digit', minute: '2-digit' })), `${w.source} · ${w.one_line || w.title}`); a.addEventListener('click', () => track('wire_click', { source: w.source, kind: w.kind || 'untagged', from: 'ticker' })); return a; });
+    const mk = () => items.map((w) => { const a = el('a'); a.href = w.url; a.target = '_blank'; a.rel = 'noopener noreferrer'; a.append(el('b', null, new Date(w.seen || w.published).toLocaleTimeString(loc(), { hour: '2-digit', minute: '2-digit' })), `${w.source} · ${w.one_line || w.title}`); a.addEventListener('click', () => track('wire_click', { source: w.source, kind: w.kind || 'untagged', from: 'ticker' })); return a; });
     track.replaceChildren(...mk(), ...mk());
     track.style.setProperty('--dur', `${Math.max(40, items.length * 9)}s`);
   }
@@ -971,9 +971,10 @@
   }
   function wireItem(w, dayHeader) {
     const nodes = [];
-    { const dh = dayHeader(dayLabel(w.published)); if (dh) nodes.push(dh);
+    { const seen = w.seen || w.published; const dh = dayHeader(dayLabel(seen)); if (dh) nodes.push(dh);
       const li = el('li', 'wire-item');
-      const when = el('div', 'wire-when'); when.append(el('b', null, new Date(w.published).toLocaleTimeString(loc(), { hour: '2-digit', minute: '2-digit' })), el('span', null, w.source));
+      const when = el('div', 'wire-when'); when.append(el('b', null, new Date(seen).toLocaleTimeString(loc(), { hour: '2-digit', minute: '2-digit' })), el('span', null, w.source));
+      if (w.published && w.published.slice(0, 10) !== String(seen).slice(0, 10)) when.append(el('span', null, new Date(w.published).toLocaleDateString(loc(), { month: 'short', day: 'numeric', timeZone: 'UTC' })));
       const body = el('div', 'wire-body');
       const a = el('a', null, w.title); a.href = w.url; a.target = '_blank'; a.rel = 'noopener noreferrer';
       if (w.lang && w.lang !== state.lang) a.lang = w.lang;

@@ -107,8 +107,10 @@ existing = File.exist?(WIRE_PATH) ? JSON.parse(File.read(WIRE_PATH)) : []
 require "set"
 known = existing.map { |w| w["id"] }.to_set
 feeds_ok, feeds_failed, fresh = [], [], []
+prev_ok = (File.exist?(STATUS_PATH) ? (JSON.parse(File.read(STATUS_PATH))["feeds_ok"] rescue []) : []) || []
 FEEDS.each do |f|
   begin
+    first_read = !prev_ok.include?(f["name"]) # a feed's first read brings its archive; don't present old articles as news
     body = http_get(f["url"])
     items = f["json"] == "kev" ? parse_kev(f["name"], body) : parse_feed(f["name"], body)
     kept = items.select { |i| i[:url] && !i[:url].empty? && relevant?(i, f["ai_only"]) }
@@ -121,7 +123,8 @@ FEEDS.each do |f|
       summary = i[:summary].to_s
       summary = "" if f["google"] # Google's summary is only the headline and publisher again
       src = (i[:publisher] && !i[:publisher].empty?) ? i[:publisher] : i[:source]
-      fresh << { "id" => id, "title" => i[:title][0, 200], "url" => url, "source" => src, "via" => f["name"], "lang" => (f["lang"] || "en"), "published" => pub.iso8601, "seen" => now.iso8601, "summary" => summary }
+      seen = (first_read && pub < now - 48 * 3600) ? pub : now
+      fresh << { "id" => id, "title" => i[:title][0, 200], "url" => url, "source" => src, "via" => f["name"], "lang" => (f["lang"] || "en"), "published" => pub.iso8601, "seen" => seen.iso8601, "summary" => summary }
       known << id
     end
     feeds_ok << f["name"]
@@ -244,7 +247,9 @@ candidates.reject! { |c| (now - Time.parse(c["drafted_at"])) > 30 * 86400 } # st
 
 # ---------- 4. write ----------
 cutoff = now - KEEP_DAYS * 86400
-wire = (fresh + existing).uniq { |w| w["id"] }.select { |w| Time.parse(w["published"]) >= cutoff }.sort_by { |w| w["published"] }.reverse.first(MAX_WIRE)
+wire = (fresh + existing).uniq { |w| w["id"] }.select { |w| Time.parse(w["published"]) >= cutoff }
+wire.each { |w| w["seen"] = w["published"] if Time.parse(w["seen"]) - Time.parse(w["published"]) > 48 * 3600 } # archive items discovered late are not news
+wire = wire.sort_by { |w| [w["seen"], w["published"]] }.reverse.first(MAX_WIRE)
 File.write(WIRE_PATH, JSON.pretty_generate(wire))
 File.write(CAND_PATH, JSON.pretty_generate(candidates))
 File.write(INC_PATH, JSON.pretty_generate(incidents)) if promoted.any?
