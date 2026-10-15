@@ -1,6 +1,6 @@
 # Launch kit for aithreat.io
 
-Written 15 October 2026 from the live data (295 verified case files in `site/data/incidents.en.json`,
+Written 15 October 2026, figures refreshed the same evening after the duplicate merge (284 verified case files in `site/data/incidents.en.json`,
 `site/data/status.json`, the live pages) and GROWTH.md. Everything below is paste-ready. Square brackets
 mark the only places where you need to add something in your own words.
 
@@ -15,29 +15,29 @@ ruby -rjson -e 'inc=JSON.parse(File.read("site/data/incidents.en.json")); puts "
 
 | Figure | Value | Where it comes from |
 | --- | --- | --- |
-| Verified case files | 295 | `incidents.en.json`, also shown on https://aithreat.io/cases/ |
+| Verified case files | 284 | `incidents.en.json`, also shown on https://aithreat.io/cases/ |
 | Date range | 5 Jan 2025 to 7 Oct 2026 | `date` field |
-| By category | Deepfake fraud 88 · Model & data leak 40 · AI supply chain 36 · AI-assisted malware 33 · State actor AI ops 28 · Prompt injection 24 · Agent hijack 21 · LLMjacking 13 · AI phishing 12 | `category` field, matches https://aithreat.io/llms.txt |
-| Direction | Attacks carried out with AI 167 (57%) · Attacks on AI systems 128 (43%) | `direction` field: `with-ai` / `on-ai` |
-| Location | 51 countries plus 120 cross-border cases filed as Worldwide. Top: Worldwide 120, United States 66, China 7, Israel 7, Sweden 5 | `country` field (52 distinct codes, one is GL = Worldwide) |
-| Severity | Critical 31 · High 140 · Medium 108 · Low 16 | `severity` field |
+| By category | Deepfake fraud 82 · Model & data leak 36 · AI supply chain 36 · AI-assisted malware 33 · State actor AI ops 28 · Prompt injection 24 · Agent hijack 20 · LLMjacking 13 · AI phishing 12 | `category` field, matches https://aithreat.io/llms.txt |
+| Direction | Attacks carried out with AI 161 (57%) · Attacks on AI systems 123 (43%) | `direction` field: `with-ai` / `on-ai` |
+| Location | 51 countries plus 119 cross-border cases filed as Worldwide. Top: Worldwide 119, United States 62, China 7, Israel 7, then South Korea, South Africa, Sweden and India with 4 each | `country` field (52 distinct codes, one is GL = Worldwide) |
+| Severity | Critical 31 · High 136 · Medium 103 · Low 14 | `severity` field |
 | Losses on record | 30 cases carry a published dollar figure, $224.3M in total; largest: Austria/Albania call-centre raid $57M, Sweden pump-and-dump $52M, Tbilisi boiler room $35M | `loss_usd` field |
-| Case files with a CVE | 27 | `cve` field |
-| Sources per case file | Every file has 2 to 4 named sources (116 have 2, 157 have 3, 22 have 4) | `sources` field |
-| Verification label | Confirmed by victim, vendor or authority 202 · Reported by credible press or researchers 33 · Disputed 3 · (57 files have no label yet, see checklist) | `verification` field |
+| Case files with a CVE | 26 | `cve` field |
+| Sources per case file | Every file has at least 2 named sources (109 have 2, 148 have 3, 25 have 4, two have 5 or 6) | `sources` field |
+| Verification label | Confirmed by victim, vendor or authority 232 · Reported by credible press or researchers 45 · Disputed 7 · no file is unlabelled | `verification` field |
 | Languages | 5 (English, French, Spanish, Arabic, Chinese) | `/fr/ /es/ /ar/ /zh/` |
-| Pages in the sitemap | 3,256 | https://aithreat.io/sitemap.xml |
-| Hub pages | 9 by type, 52 by country, 292 by company | `site/cases/category|country|company` |
-| Wire | 50 vetted sources, refreshed every 30 minutes, machine-triaged; 53 auto-drafted case files waiting for review on 15 Oct | https://aithreat.io/data/status.json |
+| Pages in the sitemap | 3,146 | https://aithreat.io/sitemap.xml |
+| Hub pages | 9 by type, 52 by country, 281 by company | `site/cases/category|country|company` |
+| Wire | 50 vetted sources, refreshed every 30 minutes, machine-triaged; the 53 drafts waiting on 15 Oct were reviewed that day (34 approved, 19 rejected); the robot publishes the 34 on its first run after the push, so the case count rises to about 318 then | https://aithreat.io/data/status.json |
 | Markets page | 13 price events across 6 listed companies (Microsoft, Amazon, Salesforce, Meta, Alphabet, McDonald's) | `market-data` block in `site/index.html` |
 | Licence | CC BY 4.0 on every page and in the Dataset metadata | https://aithreat.io/about/ |
 | Mirrors | https://github.com/karlabouzeid/aithreat · https://huggingface.co/datasets/karlabouzeid/ai-security-incidents | both return 200 |
 | Newsletter | https://buttondown.com/aithreat, sign-up box on every page | commit 61eed5a9 |
 
-Q3 2026 (1 July to 30 September), used in the LinkedIn numbers post: 42 case files. Deepfake fraud 11,
+Q3 2026 (1 July to 30 September), used in the LinkedIn numbers post: 41 case files. Deepfake fraud 10,
 AI-assisted malware 6, State actor AI ops 6, AI supply chain 6, Model & data leak 5, Agent hijack 4,
-LLMjacking 2, Prompt injection 2. With AI 27 (64%), on AI 15 (36%). Worldwide 23, United States 6.
-Severity: high 26, critical 8, medium 8. Published losses: $8.1M across 4 cases.
+LLMjacking 2, Prompt injection 2. With AI 26 (63%), on AI 15 (37%). Worldwide 23, United States 6.
+Severity: high 26, critical 8, medium 7. Published losses: $8.1M across 4 cases.
 
 ---
 
@@ -45,9 +45,9 @@ Severity: high 26, critical 8, medium 8. Published losses: $8.1M across 4 cases.
 
 ### Three candidate titles (all under 80 characters)
 
-1. `Show HN: AI Threat Watch – 295 verified AI security incidents as open data`
-2. `Show HN: A KEV-style registry of AI security incidents (295 cases, CC BY 4.0)`
-3. `Show HN: Map and case files of 295 AI security incidents, in five languages`
+1. `Show HN: AI Threat Watch – 284 verified AI security incidents as open data`
+2. `Show HN: A KEV-style registry of AI security incidents (284 cases, CC BY 4.0)`
+3. `Show HN: Map and case files of 284 AI security incidents, in five languages`
 
 Use title 1 unless you want to lead with the positioning. HN strips "Show HN:" into its own tag and
 dislikes marketing words, so no "revolutionary", no exclamation marks, no emoji. Post the URL
@@ -59,7 +59,7 @@ dislikes marketing words, so no "revolutionary", no exclamation marks, no emoji.
 >
 > I built AI Threat Watch because every time an AI security story broke I wanted to know whether it had happened before, to whom, and how it actually worked. The lists that existed were too broad (every AI harm), too slow, or unverified.
 >
-> What it is: 295 case files of publicly reported AI security incidents since January 2025, split into attacks on AI systems (prompt injection, agent hijacks, leaks, supply chain) and attacks carried out with AI (deepfake fraud, AI-assisted malware, state operations). Each file has date, target, vector, root cause, timeline, impact, response, status, CVE and two to four named sources. There is also a wire from 50 security feeds, refreshed every 30 minutes and triaged by a model; nothing on it is verified.
+> What it is: 284 case files of publicly reported AI security incidents since January 2025, split into attacks on AI systems (prompt injection, agent hijacks, leaks, supply chain) and attacks carried out with AI (deepfake fraud, AI-assisted malware, state operations). Each file has date, target, vector, root cause, timeline, impact, response, status, CVE and at least two named sources. There is also a wire from 50 security feeds, refreshed every 30 minutes and triaged by a model; nothing on it is verified.
 >
 > Verification: the robot drafts a case file from a wire item and marks it unverified. It gets no page and no feed entry until I have read the sources and approved it by id. Corrections happen in the open, in the data file's git history.
 >
@@ -99,7 +99,7 @@ Timing: submit on a Tuesday or Wednesday between 8:30 and 9:30 US Eastern (14:30
 ### Ready answers to the eight most likely objections
 
 **1. "Is this just AI-generated content?"**
-The wire is machine-triaged and labelled as such: 50 feeds, a model sorts them every 30 minutes, nothing on it is verified. Case files are different. A draft starts machine-written, but it gets no page and no feed entry until I have read its sources and approved it by id. Every published file names two to four sources so you can check it without trusting me. It is one person doing the approving, part-time, so the queue is visible on the site as "unverified, auto-drafted".
+The wire is machine-triaged and labelled as such: 50 feeds, a model sorts them every 30 minutes, nothing on it is verified. Case files are different. A draft starts machine-written, but it gets no page and no feed entry until I have read its sources and approved it by id. Every published file names at least two sources so you can check it without trusting me. It is one person doing the approving, part-time, so the queue is visible on the site as "unverified, auto-drafted".
 
 **2. "How is this different from the AI Incident Database?"**
 AIID covers every kind of AI harm, from bias to self-driving crashes, and is built from crowd-submitted reports. AI Threat Watch is security only, and every entry is structured: vector, root cause, timeline, impact, response, status, CVE, loss, actor type, attribution. It is also faster (a wire every 30 minutes, a case page within 30 minutes of approval), in five languages, and the whole thing is one JSON file under CC BY 4.0. We use AIID as a source where it applies (21 case files cite it) and link to it. MITRE ATLAS is a taxonomy of techniques, not an incident list; the OECD monitor is news aggregation. The model I had in mind is CISA's Known Exploited Vulnerabilities list: small, verified, structured, and fast.
@@ -114,13 +114,13 @@ Data, case files and translations: CC BY 4.0. Copy it, build on it, sell things 
 For incidents that hit a listed company, the page shows how its share price moved after disclosure relative to the S&P 500 (SPY). Data: daily closing prices from Yahoo Finance. Excess return = stock return minus SPY return from the last close before disclosure, shown over 1, 5 and 30 trading days, with a sparkline from 20 days before to 45 days after. Right now that is 13 price events across 6 listed companies (Microsoft, Amazon, Salesforce, Meta, Alphabet, McDonald's), each tagged victim, platform abused or indirect. The page itself says price moves are not proof of cause: earnings and macro news move these stocks far more than a security disclosure. It is context for a conversation, not a measured impact.
 
 **6. "Deepfake fraud isn't an AI security incident. Why is it here?"**
-Because the dataset records two directions and lets you filter on either. "Attacks on AI systems" (128 files: prompt injection, agent hijacks, leaks, supply chain, LLMjacking) is the half most people here mean by AI security. "Attacks carried out with AI" (167 files: deepfake fraud, AI-assisted malware, AI phishing, state operations) is what police, regulators and banks mean by it. The `direction` field is in every record, and https://aithreat.io/cases/ filters by type, so you never have to look at the half you don't want.
+Because the dataset records two directions and lets you filter on either. "Attacks on AI systems" (123 files: prompt injection, agent hijacks, leaks, supply chain, LLMjacking) is the half most people here mean by AI security. "Attacks carried out with AI" (161 files: deepfake fraud, AI-assisted malware, AI phishing, state operations) is what police, regulators and banks mean by it. The `direction` field is in every record, and https://aithreat.io/cases/ filters by type, so you never have to look at the half you don't want.
 
 **7. "The translations look machine-made."**
 They are. English is the reference version; French, Spanish, Arabic and Chinese are machine-translated and reviewed for terminology, and the about page says so. The point is that a reader in Cairo or Taipei can find the DeepSeek database exposure in their own language with the same sources attached. Corrections to any language are welcome by issue.
 
 **8. "I found two files for the same incident" or "this date/figure is wrong."**
-Thank you, that is exactly what the corrections policy is for. [If the duplicate pairs in the checklist are not merged by launch day, answer: "Yes, there are a handful of pairs where two outlets reported the same case on different days and both got approved; I'm merging them today."] Every change is visible in the git log of the data file, nothing is edited silently, and the case id in the URL never changes.
+Thank you, that is exactly what the corrections policy is for. If someone links an old id: eleven duplicate pairs were merged on 15 October 2026 and the removed addresses redirect to the kept file, so no link broke. Every change is visible in the git log of the data file, nothing is edited silently, and the case id in the URL never changes.
 
 ---
 
@@ -130,7 +130,7 @@ Thank you, that is exactly what the corrections policy is for. [If the duplicate
 
 **Tagline (60 characters max):** Verified case files of AI security incidents, open data
 
-**Description (260 characters max):** A world map and 295 verified case files of AI security incidents: prompt injection, agent hijacks, model leaks, deepfake fraud. Sources on every case, a 30-minute news wire, five languages, JSON under CC BY 4.0.
+**Description (260 characters max):** A world map and 284 verified case files of AI security incidents: prompt injection, agent hijacks, model leaks, deepfake fraud. Sources on every case, a 30-minute news wire, five languages, JSON under CC BY 4.0.
 
 **Topics:** Security, Open Source, Data & Analytics, Artificial Intelligence
 
@@ -140,7 +140,7 @@ Thank you, that is exactly what the corrections policy is for. [If the duplicate
 
 > Hi Product Hunt. I'm Karl, and I built AI Threat Watch because I kept asking the same question after every AI security headline: has this happened before, and how did it actually work?
 >
-> It is a reference site, not a product you install. Right now it holds 295 verified case files going back to January 2025, each with a permanent link, the attack vector, the root cause, a timeline, the response and two to four named sources. They are split into attacks on AI systems (prompt injection, agent hijacks, model and data leaks, AI supply chain) and attacks carried out with AI (deepfake fraud, AI-assisted malware, state operations), and you can browse them by type, by country or by company.
+> It is a reference site, not a product you install. Right now it holds 284 verified case files going back to January 2025, each with a permanent link, the attack vector, the root cause, a timeline, the response and at least two named sources. They are split into attacks on AI systems (prompt injection, agent hijacks, model and data leaks, AI supply chain) and attacks carried out with AI (deepfake fraud, AI-assisted malware, state operations), and you can browse them by type, by country or by company.
 >
 > Around the case files: a world map, a news wire from 50 security sources refreshed every 30 minutes (machine-sorted, clearly marked as unverified), a Markets page showing how listed companies' shares moved after an incident, and the whole dataset as JSON under CC BY 4.0. Everything is in English, French, Spanish, Arabic and Chinese.
 >
@@ -172,7 +172,7 @@ map or the category table; link it rather than attach it. Send on a Monday morni
 > One case file I think your readers would want: the s1ngularity attack on the Nx build system. Malicious Nx releases ran a postinstall script that invoked the Claude, Gemini and Q command-line tools with permission-bypass flags to inventory secrets on developer machines, then pushed over 2,000 secrets from about 1,000 developers to public GitHub repositories. Root cause was a `pull_request_target` workflow with an unsanitised PR title. Sources (Wiz, GitHub Security Lab, Okta) are on the page:
 > https://aithreat.io/cases/nx-s1ngularity/
 >
-> It is one of 36 AI supply-chain case files on AI Threat Watch, a registry of publicly reported AI security incidents I maintain: 295 verified cases since January 2025, each with vector, root cause, timeline, response, CVE and two to four sources. The supply-chain hub is https://aithreat.io/cases/category/ai-supply-chain/ and every hub has its own RSS feed. All of it is JSON under CC BY 4.0.
+> It is one of 36 AI supply-chain case files on AI Threat Watch, a registry of publicly reported AI security incidents I maintain: 284 verified cases since January 2025, each with vector, root cause, timeline, response, CVE and at least two sources. The supply-chain hub is https://aithreat.io/cases/category/ai-supply-chain/ and every hub has its own RSS feed. All of it is JSON under CC BY 4.0.
 >
 > If any of it is useful for tl;dr sec, take whatever you need. Corrections welcome too.
 >
@@ -188,7 +188,7 @@ map or the category table; link it rather than attach it. Send on a Monday morni
 > A dataset you may find useful for the newsletter: AI Threat Watch now has 28 verified case files on state-actor use of AI, each with the vendor or government report it came from. The most cited one is GTG-1002, where Anthropic said Claude Code agents did an estimated 80 to 90 percent of the intrusion work against about 30 targets before the accounts were banned:
 > https://aithreat.io/cases/anthropic-gtg-1002/
 >
-> The full hub is https://aithreat.io/cases/category/state-actor-ai-ops/ . Across the whole site there are 295 verified case files since January 2025, split between attacks on AI systems (128) and attacks carried out with AI (167), with a 30-minute wire from 50 security feeds on top. Attribution is recorded as the source stated it, never upgraded, and every edit to the data is in the public git log.
+> The full hub is https://aithreat.io/cases/category/state-actor-ai-ops/ . Across the whole site there are 284 verified case files since January 2025, split between attacks on AI systems (123) and attacks carried out with AI (161), with a 30-minute wire from 50 security feeds on top. Attribution is recorded as the source stated it, never upgraded, and every edit to the data is in the public git log.
 >
 > The whole thing is open data (CC BY 4.0, JSON and RSS), so if a case file ever helps you check a date or a figure, use it freely. If you spot something wrong, I fix it in the open.
 >
@@ -204,7 +204,7 @@ map or the category table; link it rather than attach it. Send on a Monday morni
 > You will recognise most of these: AI Threat Watch has 24 verified case files on prompt injection, from CamoLeak (invisible pull-request comments making GitHub Copilot Chat leak private secrets through the Camo image proxy) to AgentFlayer (one poisoned Google Drive document making ChatGPT leak API keys). Each file records the vector, the exfiltration channel, the vendor fix and the sources:
 > https://aithreat.io/cases/category/prompt-injection/
 >
-> Your prompt injection tag is one of the 50 feeds the site's wire reads every 30 minutes, which is why I am writing: you have thought harder than anyone about how to classify these. Two things I would value your view on. First, whether the line I draw between "prompt injection" (24 cases) and "agent hijack" (21 cases, where the injected instruction leads to actions rather than leaks) is useful or confusing. Second, which fields a researcher would need that the JSON does not yet have.
+> Your prompt injection tag is one of the 50 feeds the site's wire reads every 30 minutes, which is why I am writing: you have thought harder than anyone about how to classify these. Two things I would value your view on. First, whether the line I draw between "prompt injection" (24 cases) and "agent hijack" (20 cases, where the injected instruction leads to actions rather than leaks) is useful or confusing. Second, which fields a researcher would need that the JSON does not yet have.
 >
 > All data is CC BY 4.0, in five languages. For a quick look at the format: https://aithreat.io/cases/deepseek-db-exposure/
 >
@@ -220,7 +220,7 @@ map or the category table; link it rather than attach it. Send on a Monday morni
 > A data point for your readers: the National Anti-Scam Centre's FY2026 figures tie Scamwatch reports involving impersonations of the ten most-copied public figures, led by the Prime Minister, to A$7.4 million in losses, and ASIC handled over 19,400 scams in the year. The case file, with the sources, is here:
 > https://aithreat.io/cases/australia-nasc-albanese-deepfake-7-4m/
 >
-> It is the only Australian entry so far in AI Threat Watch, a registry of publicly reported AI security incidents I maintain: 295 verified case files since January 2025 across 51 countries, 88 of them deepfake fraud, with 30 cases carrying a published loss figure ($224.3M in total). The Australia page is https://aithreat.io/cases/country/au/ and I would like it to stop being a page of one. If your reporters cover an Australian AI incident that is not there, send me the link and it gets a case file with credit to you as first reporter.
+> It is the only Australian entry so far in AI Threat Watch, a registry of publicly reported AI security incidents I maintain: 284 verified case files since January 2025 across 51 countries, 82 of them deepfake fraud, with 30 cases carrying a published loss figure ($224.3M in total). The Australia page is https://aithreat.io/cases/country/au/ and I would like it to stop being a page of one. If your reporters cover an Australian AI incident that is not there, send me the link and it gets a case file with credit to you as first reporter.
 >
 > Everything is open data under CC BY 4.0, with RSS per country, so feel free to cite or reuse any of it.
 >
@@ -229,14 +229,14 @@ map or the category table; link it rather than attach it. Send on a Monday morni
 
 ### 3.5 AIAAIC Alert (Charlie Pownall)
 
-**Subject:** 88 deepfake fraud cases with loss figures, CC BY 4.0, cross-listing welcome
+**Subject:** 82 deepfake fraud cases with loss figures, CC BY 4.0, cross-listing welcome
 
 > Hi Charlie,
 >
-> A dataset that overlaps with AIAAIC's and might be worth cross-listing: AI Threat Watch holds 295 verified case files of AI security incidents since January 2025, of which 88 are deepfake fraud. Thirty cases across the site carry a published loss figure, $224.3 million in total; the largest is the Austrian and Albanian raid on call centres that used fake videos of President Van der Bellen, at about $57 million:
+> A dataset that overlaps with AIAAIC's and might be worth cross-listing: AI Threat Watch holds 284 verified case files of AI security incidents since January 2025, of which 82 are deepfake fraud. Thirty cases across the site carry a published loss figure, $224.3 million in total; the largest is the Austrian and Albanian raid on call centres that used fake videos of President Van der Bellen, at about $57 million:
 > https://aithreat.io/cases/austria-albania-van-der-bellen-crypto/
 >
-> The deepfake hub is https://aithreat.io/cases/category/deepfake-fraud/ . Each file has a permanent link, the vector, the police or regulator response, the status and two to four sources. Where the AI Incident Database already has an entry, the file cites it (21 do). Cases come from 51 countries, and every file exists in English, French, Spanish, Arabic and Chinese.
+> The deepfake hub is https://aithreat.io/cases/category/deepfake-fraud/ . Each file has a permanent link, the vector, the police or regulator response, the status and at least two sources. Where the AI Incident Database already has an entry, the file cites it (21 do). Cases come from 51 countries, and every file exists in English, French, Spanish, Arabic and Chinese.
 >
 > It is all CC BY 4.0, so AIAAIC can take any of it with a link back. If you see a case that contradicts your record, tell me and I will correct it in the open.
 >
@@ -268,16 +268,16 @@ links in the body to fewer people). Add the map screenshot as the image.
 >
 > Same root cause each time: an agent with write access, no path guardrail, and no approval gate on destructive actions.
 >
-> Every case above is a verified file on AI Threat Watch, with sources, timeline and the vendor's response. 295 cases and counting, open data. Link in the first comment.
+> Every case above is a verified file on AI Threat Watch, with sources, timeline and the vendor's response. 284 cases and counting, open data. Link in the first comment.
 
 First comment: https://aithreat.io/cases/category/agent-hijack/
 
 ### 4.2 Quarterly numbers post (Q3 2026)
 
-> AI security incidents, third quarter of 2026. 42 verified case files were added to AI Threat Watch for incidents between 1 July and 30 September.
+> AI security incidents, third quarter of 2026. 41 verified case files were added to AI Threat Watch for incidents between 1 July and 30 September.
 >
 > By type:
-> Deepfake fraud 11
+> Deepfake fraud 10
 > AI-assisted malware 6
 > State-actor AI operations 6
 > AI supply chain 6
@@ -286,13 +286,13 @@ First comment: https://aithreat.io/cases/category/agent-hijack/
 > LLMjacking 2
 > Prompt injection 2
 >
-> Direction: 27 were attacks carried out with AI (64%), 15 were attacks on AI systems (36%). Over the whole registry since January 2025 it is closer: 167 with AI (57%) against 128 on AI (43%).
+> Direction: 26 were attacks carried out with AI (63%), 15 were attacks on AI systems (37%). Over the whole registry since January 2025 it is closer: 161 with AI (57%) against 123 on AI (43%).
 >
-> Where: 23 of the 42 were cross-border or had no single location. The United States had 6, Finland and Germany 2 each.
+> Where: 23 of the 41 were cross-border or had no single location. The United States had 6, Germany 2.
 >
-> Severity: 26 high, 8 critical, 8 medium, no lows. Only 4 of the 42 came with a published loss figure, $8.1M together. Most AI fraud losses are reported by police or courts, not by the victim, so the real number is higher.
+> Severity: 26 high, 8 critical, 7 medium, no lows. Only 4 of the 41 came with a published loss figure, $8.1M together. Most AI fraud losses are reported by police or courts, not by the victim, so the real number is higher.
 >
-> All 295 case files, with sources, are open data under CC BY 4.0. Link in the first comment.
+> All 284 case files, with sources, are open data under CC BY 4.0. Link in the first comment.
 
 First comment: https://aithreat.io/cases/
 
@@ -308,11 +308,11 @@ First comment: https://aithreat.io/cases/
 >
 > 4. Severity has four defined levels, from critical (confirmed large-scale theft, exploitation in the wild, state operations) to low (proof of concept).
 >
-> 5. Only then do I approve it by id. Within 30 minutes it has a permanent page in five languages, two to four named sources, and a place in the RSS feeds.
+> 5. Only then do I approve it by id. Within 30 minutes it has a permanent page in five languages, at least two named sources, and a place in the RSS feeds.
 >
 > 6. Corrections happen in the open. Every edit to the data file is in the public change log; nothing is rewritten silently.
 >
-> 295 case files so far. The method page is linked in the first comment.
+> 284 case files so far. The method page is linked in the first comment.
 
 First comment: https://aithreat.io/about/
 
@@ -327,10 +327,10 @@ everything by whole weeks if the "must be true" list is not done; do not launch 
 
 | # | Condition | How to check |
 | --- | --- | --- |
-| 1 | Drafts reviewed: the "unverified, auto-drafted" queue (53 on 15 Oct) worked down to what you have actually read; nothing older than two weeks left in it | https://aithreat.io/data/status.json → `candidates` |
-| 2 | Duplicate pairs merged (two files for one incident). Known on 15 Oct: `replit-agent-saastr-db-wipe` / `replit-agent-deletes-database`; `asana-mcp-cross-tenant` / `asana-mcp-cross-tenant-exposure`; `xai-api-key-github-leak` / `xai-key-leak-spacex-tesla-llms`; `lovable-rls-exposure` / `lovable-rls-cve-2025-48757`; `omnigpt-breach-claim` / `omnigpt-alleged-breach`; `amsterdam-deepfake-bank-accounts` / `amsterdam-deepfake-46-bank-accounts`; `uae-economy-minister-deepfake-videos` / `uae-economy-minister-deepfake-ads`; `finland-police-google-meet-deepfake` / `finland-deepfake-police-video-calls`; `brazil-voiceover-mion-deepfake` / `brasilia-marcos-mion-deepfake-vouchers`; `openai-scam-networks-oct-2025` / `openai-scam-centres-oct2025`. HN will find these in minutes. | search the ids on https://aithreat.io/cases/ |
-| 3 | The 57 case files with no verification label get one (confirmed / reported / disputed) | run the numbers script; the `verification` count should show no blanks |
-| 4 | Search Console: property verified, sitemap submitted (3,256 URLs), and the Pages report shows the homepage, /cases/, /about/ and all nine category hubs as indexed. Write the indexed count here on launch morning: ______ of 3,256 | https://search.google.com/search-console → Pages |
+| 1 | Drafts reviewed: the 53 drafts waiting on 15 Oct were reviewed that day (34 approved, 19 rejected, commit 048db448). Keep the queue empty of anything older than two weeks until launch | https://aithreat.io/data/status.json → `candidates` |
+| 2 | Duplicate pairs merged: done 15 Oct (commit 409683dc), 11 pairs merged, 55 redirects added so the removed ids still open. Re-run the pair check before launch: two files with the same date, category and country deserve a look | run the numbers script; compare dates by eye on https://aithreat.io/cases/ |
+| 3 | Verification labels: done 15 Oct (commit 409683dc); confirmed 232, reported 45, disputed 7, none blank. Keep it that way for new approvals | run the numbers script |
+| 4 | Search Console: property verified, sitemap submitted (3,146 URLs), and the Pages report shows the homepage, /cases/, /about/ and all nine category hubs as indexed. Write the indexed count here on launch morning: ______ of 3,146 | https://search.google.com/search-console → Pages |
 | 5 | Sign-up box live: subscribe with your own address from https://aithreat.io/ and from one case page; the Buttondown confirmation mail arrives; https://buttondown.com/aithreat opens | do it by hand |
 | 6 | Numbers in this file refreshed with the script at the top (case count, category counts, shares, losses) | launch morning |
 | 7 | Licence decision for the code: add a LICENSE file to the repo, or keep the ready answer in objection 4 | https://github.com/karlabouzeid/aithreat |
@@ -344,7 +344,7 @@ everything by whole weeks if the "must be true" list is not done; do not launch 
 
 | Date | Time (Beirut / Paris) | Do |
 | --- | --- | --- |
-| Thu 15 Oct to Fri 23 Oct | any | Work the "must be true" list: review drafts, merge duplicates, label the 57 files, check Search Console, test the sign-up box, take the gallery images. |
+| Thu 15 Oct to Fri 23 Oct | any | Push today's commits (drafts reviewed, duplicates merged, labels filled, this kit). After the robot's first run, re-run the numbers script and update every figure in this file. Then: check Search Console, test the sign-up box, take the gallery images. |
 | Mon 26 Oct | 09:00 | Send the five pitch emails (section 3), one per recipient, plain text. Newsletters need a week or more of lead time. |
 | Mon 2 Nov | 09:00 | Refresh the numbers (script at the top). Re-read every URL in this file once; they must all open. Final go / no-go on the checklist. If any of items 1 to 5 is not done, move the launch a week. |
 | Tue 3 Nov | 18:00 | Reply to any editor who answered. Prepare the HN tabs: the five case files, the about page, the eight answers. |
