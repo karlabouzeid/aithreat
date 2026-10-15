@@ -245,5 +245,71 @@
     "ai_only": true,
     "lang": "en",
     "json": "kev"
+  },
+  {
+    "name": "GitHub Advisory Database (AI packages)",
+    "urls": [
+      "https://api.github.com/advisories?per_page=50&ecosystem=pip&sort=published",
+      "https://api.github.com/advisories?per_page=50&ecosystem=npm&sort=published"
+    ],
+    "ai_only": true,
+    "lang": "en",
+    "json": "ghsa"
+  },
+  {
+    "name": "Hacker News",
+    "urls": [
+      "https://hn.algolia.com/api/v1/search_by_date?query=%22prompt%20injection%22&tags=story&numericFilters=points%3E5&hitsPerPage=20",
+      "https://hn.algolia.com/api/v1/search_by_date?query=%22AI%20security%22&tags=story&numericFilters=points%3E5&hitsPerPage=20",
+      "https://hn.algolia.com/api/v1/search_by_date?query=deepfake&tags=story&numericFilters=points%3E5&hitsPerPage=20",
+      "https://hn.algolia.com/api/v1/search_by_date?query=jailbreak%20LLM&tags=story&numericFilters=points%3E5&hitsPerPage=20",
+      "https://hn.algolia.com/api/v1/search_by_date?query=%22AI%20agent%22%20vulnerability&tags=story&numericFilters=points%3E5&hitsPerPage=20",
+      "https://hn.algolia.com/api/v1/search_by_date?query=MCP%20vulnerability&tags=story&numericFilters=points%3E5&hitsPerPage=20"
+    ],
+    "ai_only": true,
+    "lang": "en",
+    "json": "hn"
+  },
+  {
+    "name": "US court filings (CourtListener)",
+    "url": "https://www.courtlistener.com/api/rest/v4/search/?q=deepfake%20OR%20deepfakes%20OR%20%22voice%20cloning%22%20OR%20%22voice%20clone%22%20OR%20%22AI-generated%22&type=r&order_by=dateFiled%20desc&filed_after={{date-30}}",
+    "ai_only": true,
+    "lang": "en",
+    "json": "courtlistener"
+  },
+  {
+    "name": "GitHub new repositories",
+    "url": "https://api.github.com/search/repositories?q=%22prompt%20injection%22%20OR%20%22LLM%20security%22%20OR%20%22AI%20red%20team%22%20stars:%3E4%20created:%3E{{date-14}}&sort=updated&per_page=20",
+    "ai_only": true,
+    "lang": "en",
+    "json": "ghrepos"
+  },
+  {
+    "name": "Bluesky",
+    "urls": [
+      "https://public.api.bsky.app/xrpc/app.bsky.feed.searchPosts?q=%22prompt%20injection%22&sort=latest&limit=25",
+      "https://public.api.bsky.app/xrpc/app.bsky.feed.searchPosts?q=%22AI%20security%22%20breach&sort=latest&limit=25"
+    ],
+    "ai_only": true,
+    "lang": "en",
+    "json": "bsky"
+  },
+  {
+    "name": "Reddit r/netsec",
+    "url": "https://www.reddit.com/r/netsec/new.rss",
+    "ai_only": false,
+    "lang": "en"
+  },
+  {
+    "name": "Europol",
+    "url": "https://www.europol.europa.eu/rss.xml",
+    "ai_only": false,
+    "lang": "en"
+  },
+  {
+    "name": "FBI IC3 alerts",
+    "url": "https://www.ic3.gov/PSA/rss",
+    "ai_only": false,
+    "lang": "en"
   }
 ]

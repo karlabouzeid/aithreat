@@ -32,6 +32,7 @@ jobs:
       - name: Pull feeds, triage, write data
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: ruby scripts/update.rb
       # Static, crawlable case pages + sitemap + llms.txt. Deterministic, so it
       # only produces a diff when a case file or translation actually changed.

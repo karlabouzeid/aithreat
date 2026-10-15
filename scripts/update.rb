@@ -37,7 +37,9 @@ def http_get(url, limit = 5)
   http.use_ssl = uri.scheme == "https"
   http.open_timeout = 10
   http.read_timeout = 20
-  req = Net::HTTP::Get.new(uri.request_uri, { "User-Agent" => UA, "Accept" => "*/*" })
+  headers = { "User-Agent" => UA, "Accept" => "*/*" }
+  headers["Authorization"] = "Bearer #{ENV['GITHUB_TOKEN']}" if uri.host == "api.github.com" && !ENV["GITHUB_TOKEN"].to_s.empty?
+  req = Net::HTTP::Get.new(uri.request_uri, headers)
   res = http.request(req)
   case res
   when Net::HTTPSuccess then res.body
@@ -69,6 +71,59 @@ def parse_kev(name, body)
 rescue => e
   log "kev parse failed: #{e.class} #{e.message}"
   []
+end
+
+AI_PKGS = %w[langchain langchain-core langchain-community llama-index llama_index vllm litellm ollama gradio mlflow transformers torch pytorch tensorflow keras huggingface-hub huggingface_hub diffusers openai anthropic langflow flowise dify open-webui anythingllm n8n mcp fastmcp autogen crewai semantic-kernel llama.cpp llama-cpp-python triton ray jupyter streamlit chromadb qdrant weaviate pinecone lancedb milvus guardrails haystack dspy instructor pydantic-ai smolagents browser-use]
+def parse_ghsa(name, body)
+  JSON.parse(body).select { |a|
+    pkgs = (a["vulnerabilities"] || []).map { |v| v.dig("package", "name").to_s.downcase }
+    pkgs.any? { |p| AI_PKGS.include?(p) } || "#{a['summary']} #{a['description']}" =~ AI_RE
+  }.map { |a|
+    pk = (a["vulnerabilities"] || []).map { |v| v.dig("package", "name") }.compact.uniq.join(", ")
+    { title: "#{a['ghsa_id']}#{a['cve_id'] ? ' / ' + a['cve_id'] : ''}: #{a['summary']} (#{pk}, #{a['severity']})", url: a["html_url"], published: a["published_at"], summary: strip_html(a["description"].to_s)[0, 400], publisher: "GitHub Advisory Database", source: name }
+  }
+rescue => e
+  log "ghsa parse failed: #{e.class} #{e.message}"; []
+end
+
+def parse_hn(name, body)
+  JSON.parse(body)["hits"].to_a.map { |h|
+    url = h["url"].to_s.empty? ? "https://news.ycombinator.com/item?id=#{h['objectID']}" : h["url"]
+    host = (URI(url).host.to_s.sub(/^www\./, "") rescue "")
+    { title: h["title"].to_s, url: url, published: h["created_at"], summary: "#{h['points']} points, #{h['num_comments']} comments on Hacker News", publisher: (host.empty? ? "Hacker News" : "#{host} via Hacker News"), source: name }
+  }
+rescue => e
+  log "hn parse failed: #{e.class} #{e.message}"; []
+end
+
+def parse_courtlistener(name, body)
+  JSON.parse(body)["results"].to_a.map { |r|
+    path = r["docket_absolute_url"] || r["absolute_url"]
+    next nil if path.to_s.empty? || r["court"].to_s =~ /bankruptcy/i
+    snippet = (r["recap_documents"] || []).map { |d| strip_html(d["snippet"].to_s) }.reject(&:empty?).first.to_s
+    next nil unless "#{r['caseName']} #{r['cause']} #{snippet}" =~ /deepfake|voice[- ]?clon|AI[- ]generated|artificial intelligence|chatbot|large language model/i
+    { title: "Court filing: #{r['caseName']} (#{r['court']})", url: "https://www.courtlistener.com#{path}", published: r["dateFiled"], summary: "Docket #{r['docketNumber']}, filed #{r['dateFiled']}#{r['cause'].to_s.empty? ? '' : ', ' + r['cause']}. #{snippet}"[0, 400], publisher: "CourtListener (RECAP)", source: name }
+  }.compact
+rescue => e
+  log "courtlistener parse failed: #{e.class} #{e.message}"; []
+end
+
+def parse_ghrepos(name, body)
+  JSON.parse(body)["items"].to_a.map { |r|
+    { title: "#{r['full_name']}: #{r['description'].to_s[0, 120]}", url: r["html_url"], published: r["created_at"], summary: "New GitHub repository, #{r['stargazers_count']} stars. #{r['description']}".to_s[0, 400], publisher: "GitHub", source: name }
+  }
+rescue => e
+  log "ghrepos parse failed: #{e.class} #{e.message}"; []
+end
+
+def parse_bsky(name, body)
+  JSON.parse(body)["posts"].to_a.map { |p|
+    handle = p.dig("author", "handle"); rkey = p["uri"].to_s.split("/").last
+    text = p.dig("record", "text").to_s.gsub(/\s+/, " ").strip
+    { title: text[0, 140], url: "https://bsky.app/profile/#{handle}/post/#{rkey}", published: p.dig("record", "createdAt"), summary: text[0, 400], publisher: "Bluesky @#{handle}", source: name }
+  }
+rescue => e
+  log "bsky parse failed: #{e.class} #{e.message}"; []
 end
 
 def parse_feed(name, body)
@@ -111,8 +166,19 @@ prev_ok = (File.exist?(STATUS_PATH) ? (JSON.parse(File.read(STATUS_PATH))["feeds
 FEEDS.each do |f|
   begin
     first_read = !prev_ok.include?(f["name"]) # a feed's first read brings its archive; don't present old articles as news
-    body = http_get(f["url"])
-    items = f["json"] == "kev" ? parse_kev(f["name"], body) : parse_feed(f["name"], body)
+    urls = (f["urls"] || [f["url"]]).map { |u| u.gsub(/\{\{date-(\d+)\}\}/) { (now - $1.to_i * 86400).strftime("%Y-%m-%d") } }
+    items = urls.flat_map do |u|
+      body = http_get(u)
+      case f["json"]
+      when "kev" then parse_kev(f["name"], body)
+      when "ghsa" then parse_ghsa(f["name"], body)
+      when "hn" then parse_hn(f["name"], body)
+      when "courtlistener" then parse_courtlistener(f["name"], body)
+      when "ghrepos" then parse_ghrepos(f["name"], body)
+      when "bsky" then parse_bsky(f["name"], body)
+      else parse_feed(f["name"], body)
+      end
+    end
     kept = items.select { |i| i[:url] && !i[:url].empty? && relevant?(i, f["ai_only"]) }
     kept.each do |i|
       url = norm_url(i[:url])
