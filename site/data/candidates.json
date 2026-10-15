@@ -262,5 +262,49 @@
     "first_seen": "2026-10-15T14:05:39Z",
     "first_published": "2026-04-04T09:36:51Z",
     "updated_at": "2026-10-15T14:05:39Z"
+  },
+  {
+    "id": "teampcp-litellm-trojanized-1-82-7-8",
+    "date": "2026-10-15",
+    "title": "TeamPCP trojanizes LiteLLM versions 1.82.7 and 1.82.8 to steal credentials",
+    "category": "AI supply chain",
+    "direction": "on-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "LiteLLM package users (cloud, CI/CD environments)",
+    "loss_usd": null,
+    "summary": "Malicious LiteLLM versions 1.82.7 and 1.82.8 abuse Python's .pth mechanism for stealthy persistence and exfiltrate cloud credentials, CI/CD secrets and keys to attacker-controlled domains.",
+    "actor": "TeamPCP",
+    "actor_type": "unknown",
+    "attribution": "Wiz Research describes it as a continuation of TeamPCP's open-source attack spree, with LiteLLM the latest victim.",
+    "motive": "Credential and secret theft (cloud credentials, CI/CD secrets, keys).",
+    "vector": "Trojanized LiteLLM releases (1.82.7, 1.82.8) using Python .pth files for persistence and exfiltration.",
+    "root_cause": "Unknown; the summary does not say how the malicious versions were published.",
+    "impact": "Malware exfiltrates cloud credentials, CI/CD secrets and keys to attacker-controlled domains. Number of victims is not stated.",
+    "response": "Wiz Research published an analysis of the malicious versions; other response actions are not stated.",
+    "status": "under investigation",
+    "cve": null,
+    "confidence": 0.55,
+    "source": "Wiz Research",
+    "url": "https://www.wiz.io/blog/threes-a-crowd-teampcp-trojanizes-litellm-in-continuation-of-campaign",
+    "sources": [
+      {
+        "name": "Wiz Research",
+        "url": "https://www.wiz.io/blog/threes-a-crowd-teampcp-trojanizes-litellm-in-continuation-of-campaign"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-15",
+        "event": "Reported by Wiz Research"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-15T15:05:38Z",
+    "wire_id": "7ed3ff0cd5ea",
+    "first_seen": "2026-10-15T15:05:38Z",
+    "first_published": "2026-03-24T18:40:52Z",
+    "updated_at": "2026-10-15T15:05:38Z"
   }
 ]
