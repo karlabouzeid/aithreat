@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-15T09:34:44Z",
-  "wire_items": 562,
-  "new_items": 321,
+  "updated_at": "2026-10-15T10:17:28Z",
+  "wire_items": 570,
+  "new_items": 305,
   "candidates": 53,
   "incidents": 295,
   "feeds_ok": [
@@ -57,7 +57,7 @@
     "FBI IC3 alerts"
   ],
   "feeds_failed": [
-    "Bluesky"
+
   ],
-  "triage": "triaged 665 items with claude-sonnet-5-5 in 26 batches (1 failed: no JSON (stop=refusal): [{\"i\":500,\"keep\":false,\"kind\":\"other\",\"tag\":\"Security program opinion\",\"one_line\":\"Blog post on the 'Homefield Advantage' concept for running a security program); kept 321"
+  "triage": "triaged 635 items with claude-sonnet-5-5 in 26 batches (0 failed); kept 305"
 }
