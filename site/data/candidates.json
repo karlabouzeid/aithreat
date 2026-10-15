@@ -666,5 +666,50 @@
     "first_seen": "2026-10-15T16:35:58Z",
     "first_published": "2023-01-03T13:10:27Z",
     "updated_at": "2026-10-15T16:35:58Z"
+  },
+  {
+    "id": "italian-bank-108m-ai-messaging-fraud",
+    "date": "2026-10-15",
+    "title": "Italian bank loses $108M to AI messaging fraud",
+    "category": "AI phishing",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "IT",
+    "region": "Europe",
+    "target": "Italian bank",
+    "loss_usd": 108000000,
+    "summary": "Biometric Update reports an Italian bank lost about $108M to AI messaging fraud, with identifAI warning of the deepfake threat. The headline gives no further detail.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Financial services",
+    "attribution": "Unknown",
+    "motive": "Financial gain (implied by fraud)",
+    "vector": "AI-driven messaging fraud; exact method not stated",
+    "root_cause": "Unknown",
+    "impact": "Reported loss of about $108M at an Italian bank.",
+    "response": "Unknown; identifAI issued a warning about the deepfake threat.",
+    "status": "under investigation",
+    "cve": null,
+    "confidence": 0.4,
+    "source": "Biometric Update",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNSlRVRmViOEZlUnBnTmpHVHpQRHprWk5aQ0tXTUtQS1pTLWsxOUttZmVicUduVFZpdHhROWxrWWR2Q1ExYWtkQy12SUtjZnJBdlg4RV9qdDd4dUZsOFJYUDIzZEVUYjkzRzFCOHJQWFVHbkpCZUlCR1FWZ3Bhakt6S1hfSlV3ODM4STBLSnNIYW05MExPVldwZ1NITndkdlhYd1M1MWRyYkNiaU9TZjlIV0hzZXVJMDRIbUI5aTNmaw?oc=5",
+    "sources": [
+      {
+        "name": "Biometric Update",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNSlRVRmViOEZlUnBnTmpHVHpQRHprWk5aQ0tXTUtQS1pTLWsxOUttZmVicUduVFZpdHhROWxrWWR2Q1ExYWtkQy12SUtjZnJBdlg4RV9qdDd4dUZsOFJYUDIzZEVUYjkzRzFCOHJQWFVHbkpCZUlCR1FWZ3Bhakt6S1hfSlV3ODM4STBLSnNIYW05MExPVldwZ1NITndkdlhYd1M1MWRyYkNiaU9TZjlIV0hzZXVJMDRIbUI5aTNmaw?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-15",
+        "event": "Reported by Biometric Update"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-15T18:35:41Z",
+    "wire_id": "5506b4879069",
+    "first_seen": "2026-10-15T18:35:41Z",
+    "first_published": "2026-10-15T18:22:00Z",
+    "updated_at": "2026-10-15T18:35:41Z"
   }
 ]
