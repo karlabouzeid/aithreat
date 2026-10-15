@@ -2007,5 +2007,46 @@
     "verified": false,
     "drafted_at": "2026-10-14T21:47:53Z",
     "wire_id": "0e289441d136"
+  },
+  {
+    "id": "moltbook-exposed-database",
+    "date": "2026-10-14",
+    "title": "Moltbook AI social network exposes database with 35,000 emails and 1.5M API keys",
+    "category": "Model & data leak",
+    "direction": "on-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "Moltbook AI social network",
+    "loss_usd": null,
+    "summary": "Wiz Research found one exposed Moltbook database holding 35,000 emails and 1.5M API keys; about 17,000 humans were behind the supposedly autonomous AI network.",
+    "actor": "Wiz Research (discoverer)",
+    "actor_type": "researcher",
+    "attribution": "Found by Wiz Research; no malicious actor is reported in the summary.",
+    "motive": "Unknown",
+    "vector": "Exposed database",
+    "root_cause": "A single database was left exposed; the summary gives no further technical detail.",
+    "impact": "35,000 emails and 1.5M API keys exposed; the 'autonomous' network was shown to be run by about 17,000 humans.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "confidence": 0.6,
+    "source": "Wiz Research",
+    "url": "https://www.wiz.io/blog/exposed-moltbook-database-reveals-millions-of-api-keys",
+    "sources": [
+      {
+        "name": "Wiz Research",
+        "url": "https://www.wiz.io/blog/exposed-moltbook-database-reveals-millions-of-api-keys"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-14",
+        "event": "Reported by Wiz Research"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-14T23:26:33Z",
+    "wire_id": "4892651bb83e"
   }
 ]
