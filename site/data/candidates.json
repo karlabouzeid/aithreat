@@ -801,5 +801,140 @@
     "first_seen": "2026-10-15T22:05:43Z",
     "first_published": "2026-10-15T05:00:00Z",
     "updated_at": "2026-10-15T22:05:43Z"
+  },
+  {
+    "id": "unit42-ai-espionage-gov-linux",
+    "date": "2026-10-15",
+    "title": "AI-powered espionage campaign targets government Linux infrastructure",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "Government Linux infrastructure",
+    "loss_usd": null,
+    "summary": "Unit 42 reports an AI-powered espionage campaign against government Linux infrastructure using custom malware, web shells and advanced credential theft.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Government & public sector",
+    "attribution": "Unknown from the summary; no actor named.",
+    "motive": "Espionage",
+    "vector": "Custom malware and web shells on Linux systems; initial access method not stated.",
+    "root_cause": "Unknown",
+    "impact": "Credential theft and compromise of government Linux infrastructure; scale not stated.",
+    "response": "Unit 42 published analysis of the campaign.",
+    "status": "under investigation",
+    "cve": null,
+    "confidence": 0.55,
+    "source": "Unit 42",
+    "url": "https://unit42.paloaltonetworks.com/ai-campaign-targets-linux-infrastructure",
+    "sources": [
+      {
+        "name": "Unit 42",
+        "url": "https://unit42.paloaltonetworks.com/ai-campaign-targets-linux-infrastructure"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-15",
+        "event": "Reported by Unit 42"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-15T22:35:36Z",
+    "wire_id": "d0e0e442d471",
+    "first_seen": "2026-10-15T22:35:36Z",
+    "first_published": "2026-10-15T22:00:09Z",
+    "updated_at": "2026-10-15T22:35:36Z"
+  },
+  {
+    "id": "storm-3168-agentic-azure-attacks",
+    "date": "2026-10-15",
+    "title": "Storm-3168 runs agentic Azure attacks via compromised service principals",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "Azure cloud tenants",
+    "loss_usd": null,
+    "summary": "Microsoft attributes agentic-driven Azure reconnaissance, resource deletion and credential access with compromised service principals to Storm-3168, linked to JADEPUFFER.",
+    "actor": "Storm-3168 (JADEPUFFER-linked)",
+    "actor_type": "unknown",
+    "sector": "Unknown",
+    "attribution": "Microsoft identifies the activity as Storm-3168 and associates it with JADEPUFFER.",
+    "motive": "Unknown",
+    "vector": "Compromised Azure service principals driving agentic reconnaissance and actions.",
+    "root_cause": "Compromised service principal credentials; how they were obtained is not stated.",
+    "impact": "Azure reconnaissance, resource deletion and credential access; victim count not stated.",
+    "response": "Microsoft published defender guidance.",
+    "status": "ongoing",
+    "cve": null,
+    "confidence": 0.55,
+    "source": "Microsoft Security Blog",
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/09/25/storm-3168-agentic-driven-cloud-attacks-using-compromised-service-principals",
+    "sources": [
+      {
+        "name": "Microsoft Security Blog",
+        "url": "https://www.microsoft.com/en-us/security/blog/2026/09/25/storm-3168-agentic-driven-cloud-attacks-using-compromised-service-principals"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-15",
+        "event": "Reported by Microsoft Security Blog"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-15T22:35:36Z",
+    "wire_id": "86e30b544cc9",
+    "first_seen": "2026-10-15T22:35:36Z",
+    "first_published": "2026-09-25T15:35:08Z",
+    "updated_at": "2026-10-15T22:35:36Z"
+  },
+  {
+    "id": "moltbook-exposed-database-leak",
+    "date": "2026-02-02",
+    "title": "Exposed Moltbook AI social network database leaks 35,000 emails and 1.5M API keys",
+    "category": "Model & data leak",
+    "direction": "on-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "Moltbook AI social network",
+    "loss_usd": null,
+    "summary": "Wiz Research found an exposed Moltbook database holding 35,000 emails and 1.5M API keys, and showed about 17,000 humans were behind the supposedly autonomous AI network.",
+    "actor": "Unknown",
+    "actor_type": "researcher",
+    "sector": "Technology & AI vendors",
+    "attribution": "Discovered and reported by Wiz Research; no malicious actor identified in the text.",
+    "motive": "Unknown",
+    "vector": "Publicly exposed database",
+    "root_cause": "Database exposed without adequate access control, per the headline; exact misconfiguration not stated.",
+    "impact": "35,000 email addresses and 1.5M API keys exposed; the network was shown to be controllable by humans rather than autonomous agents.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "confidence": 0.55,
+    "source": "Wiz Research",
+    "url": "https://www.wiz.io/blog/exposed-moltbook-database-reveals-millions-of-api-keys",
+    "sources": [
+      {
+        "name": "Wiz Research",
+        "url": "https://www.wiz.io/blog/exposed-moltbook-database-reveals-millions-of-api-keys"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-02-02",
+        "event": "Reported by Wiz Research"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-15T22:35:36Z",
+    "wire_id": "4892651bb83e",
+    "first_seen": "2026-10-15T22:35:36Z",
+    "first_published": "2026-02-02T15:00:03Z",
+    "updated_at": "2026-10-15T22:35:36Z"
   }
 ]
