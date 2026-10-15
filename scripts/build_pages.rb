@@ -245,6 +245,8 @@ MORE = {
             about_contact_h: "联系", about_contact_p: "您也可以在项目的 GitHub 仓库中提交 issue。", github_issues: "在 GitHub 上报告" }
 }
 LANGS.each { |l| EXTRA[l] = EXTRA[l].merge(MORE[l]) }
+require_relative "why_strings"
+LANGS.each { |l| EXTRA[l] = EXTRA[l].merge(WHY[l]) }
 EXTRA.freeze
 REPO = "https://github.com/karlabouzeid/aithreat"
 CHANGELOG_URL = "#{REPO}/commits/main/site/data/incidents.en.json"
@@ -551,7 +553,7 @@ def footer(lang)
   parts = []
   parts << %(<span>#{h(x(lang, :licence))}</span>)
   parts << %(<span>#{h(t(lang, 'translated'))}</span>) if lang != "en"
-  parts << %(<span><a href="#{pre(lang)}/about/">#{h(x(lang, :about))}</a> · <a href="#{pre(lang)}/cases/glossary/">#{h(x(lang, :glossary))}</a> · <a href="#{pre(lang)}/cases/">#{h(x(lang, :all_cases))}</a></span>)
+  parts << %(<span><a href="#{pre(lang)}/why/">#{h(x(lang, :why))}</a> · <a href="#{pre(lang)}/about/">#{h(x(lang, :about))}</a> · <a href="#{pre(lang)}/cases/glossary/">#{h(x(lang, :glossary))}</a> · <a href="#{pre(lang)}/cases/">#{h(x(lang, :all_cases))}</a></span>)
   parts << %(<span><a href="/data/incidents.en.json">#{h(x(lang, :data))}</a> · <a href="#{pre(lang)}/cases/feed.xml">#{h(x(lang, :cases_feed))}</a> · <a href="/feed.xml">#{h(x(lang, :wire_feed))}</a> · <a href="/sitemap.xml">Sitemap</a></span>)
   %(<footer>#{parts.join}</footer>)
 end
@@ -767,7 +769,7 @@ def about_page(lang, newest_en)
   body = <<~HTML
     #{crumbs_html(lang, [[x(lang, :about), nil]])}
     <h1>#{h(title)}</h1>
-    <p class="lede">#{h(intro)}</p>
+    <p class="lede">#{h(intro)} <a href="#{pre(lang)}/why/">#{h(x(lang, :why_h))} →</a></p>
     <section class="sec"><h2>#{h(x(lang, :about_wire_h))}</h2><p>#{h(x(lang, :about_wire_p1))}</p><p>#{h(x(lang, :about_wire_p2))}</p><p>#{h(x(lang, :about_langs))}</p></section>
     <section class="sec"><h2>#{h(t(lang, 'dt_method_h'))}</h2><p>#{h(t(lang, 'dt_method_p'))}</p></section>
     <div class="two">
@@ -780,6 +782,33 @@ def about_page(lang, newest_en)
     <p class="langs">#{h(t(lang, 'lang'))}: #{lang_links(lang, alternates)}</p>
   HTML
   shell(lang, "about", headhtml, body, alternates)
+end
+
+# The founder's statement of purpose: why the registry exists, what it believes, whom it serves.
+def why_page(lang)
+  path = "#{pre(lang)}/why/"
+  url = BASE + path
+  alternates = Hash[LANGS.map { |l| [l, "#{BASE}#{pre(l)}/why/"] }]
+  title = x(lang, :why_h)
+  lede = x(lang, :why_lede)
+  jsonld = [
+    { "@context" => "https://schema.org", "@type" => "AboutPage", "@id" => url, "name" => title, "description" => lede, "url" => url, "inLanguage" => lang, "isAccessibleForFree" => true,
+      "license" => "https://creativecommons.org/licenses/by/4.0/", "about" => { "@type" => "Organization", "name" => "AI Threat Watch", "url" => "#{BASE}/" },
+      "publisher" => { "@type" => "Organization", "name" => "AI Threat Watch", "url" => "#{BASE}/" } },
+    crumbs_ld(lang, [[x(lang, :why), url]])
+  ]
+  headhtml = head(lang: lang, title: "#{title} · AI Threat Watch", desc: lede, url: url, alternates: alternates, jsonld: jsonld, feed: "#{pre(lang)}/cases/feed.xml")
+  sections = (1..7).map { |n| %(<section class="sec"><h2>#{h(x(lang, "why_#{n}h".to_sym))}</h2><p>#{h(x(lang, "why_#{n}p".to_sym))}</p></section>) }.join
+  q = lang == "en" ? "" : "?lang=#{lang}"
+  body = <<~HTML
+    #{crumbs_html(lang, [[x(lang, :why), nil]])}
+    <h1>#{h(title)}</h1>
+    <p class="lede">#{h(lede)}</p>
+    #{sections}
+    <p><a class="btn" href="#{ISSUES_URL}" rel="noopener" target="_blank">#{h(x(lang, :why_report))}</a> <a class="btn" href="/#{q}#alerts">#{h(x(lang, :why_alerts))}</a> <a class="btn" href="#{pre(lang)}/about/">#{h(x(lang, :why_about))}</a></p>
+    <p class="langs">#{h(t(lang, 'lang'))}: #{lang_links(lang, alternates)}</p>
+  HTML
+  shell(lang, "why", headhtml, body, alternates)
 end
 
 def feed(items_en, lang)
@@ -801,7 +830,7 @@ countries = incidents.map { |i| i["country"] || "GL" }.uniq.sort_by { |c| [c == 
 companies = incidents.map { |i| i["target"] }.select { |v| present(v) }.map(&:strip).uniq.sort_by { |c| [slug(c), c] }
 abort "build_pages: two targets produce the same company slug" if companies.map { |c| slug(c) }.uniq.size != companies.size
 
-LANGS.each { |l| FileUtils.rm_rf(File.join(SITE, pre(l).sub("/", ""), "cases")); FileUtils.rm_rf(File.join(SITE, pre(l).sub("/", ""), "about")) }
+LANGS.each { |l| FileUtils.rm_rf(File.join(SITE, pre(l).sub("/", ""), "cases")); FileUtils.rm_rf(File.join(SITE, pre(l).sub("/", ""), "about")); FileUtils.rm_rf(File.join(SITE, pre(l).sub("/", ""), "why")) }
 written = 0
 write = lambda do |rel, content|
   p = File.join(SITE, rel)
@@ -829,6 +858,7 @@ LANGS.each do |lang|
   companies.each { |c| write.("#{pre(lang)}/cases/company/#{slug(c)}/index.html", list_page(avail.select { |i| i['target'].to_s.strip == c }, lang, kind: :company, key: c, **lists)) }
   write.("#{pre(lang)}/cases/glossary/index.html", glossary_page(lang, glossary_cats, cat_counts))
   write.("#{pre(lang)}/about/index.html", about_page(lang, incidents.first))
+  write.("#{pre(lang)}/why/index.html", why_page(lang))
   write.("#{pre(lang)}/cases/feed.xml", feed(avail, lang))
 end
 
@@ -864,7 +894,7 @@ end
 # sitemap: group alternates per logical page
 incidents.each { |i| add_url.(case_url("en", i["id"]), Hash[langs_for(i).map { |l| [l, case_url(l, i["id"])] }]) }
 %w[fr es ar zh].each { |l| incidents.select { |i| langs_for(i).include?(l) }.each { |i| add_url.(case_url(l, i["id"]), Hash[langs_for(i).map { |m| [m, case_url(m, i["id"])] }]) } }
-list_paths = ["/cases/", "/cases/glossary/", "/about/"] + cats.map { |c| "/cases/category/#{slug(c)}/" } + countries.map { |c| "/cases/country/#{slug(c)}/" } + companies.map { |c| "/cases/company/#{slug(c)}/" }
+list_paths = ["/cases/", "/cases/glossary/", "/about/", "/why/"] + cats.map { |c| "/cases/category/#{slug(c)}/" } + countries.map { |c| "/cases/country/#{slug(c)}/" } + companies.map { |c| "/cases/company/#{slug(c)}/" }
 list_paths.each { |p| LANGS.each { |l| add_url.("#{BASE}#{pre(l)}#{p}", Hash[LANGS.map { |m| [m, "#{BASE}#{pre(m)}#{p}"] }]) } }
 File.write(File.join(SITE, "sitemap.xml"), %(<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n#{sitemap.join("\n")}\n</urlset>\n))
 
@@ -882,6 +912,7 @@ llm << "- [Interactive world map](#{BASE}/): the same cases on a map with filter
 llm << "- [Live wire](#{BASE}/#wire): AI security headlines from vetted sources, refreshed every 30 minutes (machine-triaged, not verified)"
 llm << "- [Market reaction](#{BASE}/#markets): share-price moves of listed companies after incidents (methodology on the page)"
 llm << "- [Data and citing](#{BASE}/#data): download links, field list, inclusion rule, severity scale"
+llm << "- [Why this exists](#{BASE}/why/): the founder's statement of purpose: AI's benefits are worth defending, the harm is documented and happening now, incidents were scattered so victims started from zero; who the registry serves; independent, no vendor money"
 llm << "- [About and method](#{BASE}/about/): inclusion rule, severity scale, verified case files versus the machine-triaged wire, CC BY 4.0 licence and citation format, corrections policy (public change log, no silent edits), contact"
 llm << "- [Glossary of incident types](#{BASE}/cases/glossary/): plain-language definitions of the nine categories, each linked to its cases"
 llm << "- Company hubs: #{BASE}/cases/company/<slug>/ lists the cases in which one company or product was the target (see the list below)"
