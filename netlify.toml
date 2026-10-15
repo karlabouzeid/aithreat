@@ -20,3 +20,226 @@
   [headers.values]
     Content-Type = "text/plain; charset=utf-8"
     Access-Control-Allow-Origin = "*"
+
+# Case files merged on 2026-10-15 (two files described one incident). The removed ids keep
+# working: each old URL, in every language, sends readers to the file that was kept.
+[[redirects]]
+  from = "/cases/replit-agent-deletes-database/*"
+  to = "/cases/replit-agent-saastr-db-wipe/:splat"
+  status = 301
+[[redirects]]
+  from = "/fr/cases/replit-agent-deletes-database/*"
+  to = "/fr/cases/replit-agent-saastr-db-wipe/:splat"
+  status = 301
+[[redirects]]
+  from = "/es/cases/replit-agent-deletes-database/*"
+  to = "/es/cases/replit-agent-saastr-db-wipe/:splat"
+  status = 301
+[[redirects]]
+  from = "/ar/cases/replit-agent-deletes-database/*"
+  to = "/ar/cases/replit-agent-saastr-db-wipe/:splat"
+  status = 301
+[[redirects]]
+  from = "/zh/cases/replit-agent-deletes-database/*"
+  to = "/zh/cases/replit-agent-saastr-db-wipe/:splat"
+  status = 301
+[[redirects]]
+  from = "/cases/asana-mcp-cross-tenant-exposure/*"
+  to = "/cases/asana-mcp-cross-tenant/:splat"
+  status = 301
+[[redirects]]
+  from = "/fr/cases/asana-mcp-cross-tenant-exposure/*"
+  to = "/fr/cases/asana-mcp-cross-tenant/:splat"
+  status = 301
+[[redirects]]
+  from = "/es/cases/asana-mcp-cross-tenant-exposure/*"
+  to = "/es/cases/asana-mcp-cross-tenant/:splat"
+  status = 301
+[[redirects]]
+  from = "/ar/cases/asana-mcp-cross-tenant-exposure/*"
+  to = "/ar/cases/asana-mcp-cross-tenant/:splat"
+  status = 301
+[[redirects]]
+  from = "/zh/cases/asana-mcp-cross-tenant-exposure/*"
+  to = "/zh/cases/asana-mcp-cross-tenant/:splat"
+  status = 301
+[[redirects]]
+  from = "/cases/xai-api-key-github-leak/*"
+  to = "/cases/xai-key-leak-spacex-tesla-llms/:splat"
+  status = 301
+[[redirects]]
+  from = "/fr/cases/xai-api-key-github-leak/*"
+  to = "/fr/cases/xai-key-leak-spacex-tesla-llms/:splat"
+  status = 301
+[[redirects]]
+  from = "/es/cases/xai-api-key-github-leak/*"
+  to = "/es/cases/xai-key-leak-spacex-tesla-llms/:splat"
+  status = 301
+[[redirects]]
+  from = "/ar/cases/xai-api-key-github-leak/*"
+  to = "/ar/cases/xai-key-leak-spacex-tesla-llms/:splat"
+  status = 301
+[[redirects]]
+  from = "/zh/cases/xai-api-key-github-leak/*"
+  to = "/zh/cases/xai-key-leak-spacex-tesla-llms/:splat"
+  status = 301
+[[redirects]]
+  from = "/cases/lovable-rls-exposure/*"
+  to = "/cases/lovable-rls-cve-2025-48757/:splat"
+  status = 301
+[[redirects]]
+  from = "/fr/cases/lovable-rls-exposure/*"
+  to = "/fr/cases/lovable-rls-cve-2025-48757/:splat"
+  status = 301
+[[redirects]]
+  from = "/es/cases/lovable-rls-exposure/*"
+  to = "/es/cases/lovable-rls-cve-2025-48757/:splat"
+  status = 301
+[[redirects]]
+  from = "/ar/cases/lovable-rls-exposure/*"
+  to = "/ar/cases/lovable-rls-cve-2025-48757/:splat"
+  status = 301
+[[redirects]]
+  from = "/zh/cases/lovable-rls-exposure/*"
+  to = "/zh/cases/lovable-rls-cve-2025-48757/:splat"
+  status = 301
+[[redirects]]
+  from = "/cases/omnigpt-breach-claim/*"
+  to = "/cases/omnigpt-alleged-breach/:splat"
+  status = 301
+[[redirects]]
+  from = "/fr/cases/omnigpt-breach-claim/*"
+  to = "/fr/cases/omnigpt-alleged-breach/:splat"
+  status = 301
+[[redirects]]
+  from = "/es/cases/omnigpt-breach-claim/*"
+  to = "/es/cases/omnigpt-alleged-breach/:splat"
+  status = 301
+[[redirects]]
+  from = "/ar/cases/omnigpt-breach-claim/*"
+  to = "/ar/cases/omnigpt-alleged-breach/:splat"
+  status = 301
+[[redirects]]
+  from = "/zh/cases/omnigpt-breach-claim/*"
+  to = "/zh/cases/omnigpt-alleged-breach/:splat"
+  status = 301
+[[redirects]]
+  from = "/cases/amsterdam-deepfake-bank-accounts/*"
+  to = "/cases/amsterdam-deepfake-46-bank-accounts/:splat"
+  status = 301
+[[redirects]]
+  from = "/fr/cases/amsterdam-deepfake-bank-accounts/*"
+  to = "/fr/cases/amsterdam-deepfake-46-bank-accounts/:splat"
+  status = 301
+[[redirects]]
+  from = "/es/cases/amsterdam-deepfake-bank-accounts/*"
+  to = "/es/cases/amsterdam-deepfake-46-bank-accounts/:splat"
+  status = 301
+[[redirects]]
+  from = "/ar/cases/amsterdam-deepfake-bank-accounts/*"
+  to = "/ar/cases/amsterdam-deepfake-46-bank-accounts/:splat"
+  status = 301
+[[redirects]]
+  from = "/zh/cases/amsterdam-deepfake-bank-accounts/*"
+  to = "/zh/cases/amsterdam-deepfake-46-bank-accounts/:splat"
+  status = 301
+[[redirects]]
+  from = "/cases/uae-economy-minister-deepfake-ads/*"
+  to = "/cases/uae-economy-minister-deepfake-videos/:splat"
+  status = 301
+[[redirects]]
+  from = "/fr/cases/uae-economy-minister-deepfake-ads/*"
+  to = "/fr/cases/uae-economy-minister-deepfake-videos/:splat"
+  status = 301
+[[redirects]]
+  from = "/es/cases/uae-economy-minister-deepfake-ads/*"
+  to = "/es/cases/uae-economy-minister-deepfake-videos/:splat"
+  status = 301
+[[redirects]]
+  from = "/ar/cases/uae-economy-minister-deepfake-ads/*"
+  to = "/ar/cases/uae-economy-minister-deepfake-videos/:splat"
+  status = 301
+[[redirects]]
+  from = "/zh/cases/uae-economy-minister-deepfake-ads/*"
+  to = "/zh/cases/uae-economy-minister-deepfake-videos/:splat"
+  status = 301
+[[redirects]]
+  from = "/cases/finland-police-google-meet-deepfake/*"
+  to = "/cases/finland-deepfake-police-video-calls/:splat"
+  status = 301
+[[redirects]]
+  from = "/fr/cases/finland-police-google-meet-deepfake/*"
+  to = "/fr/cases/finland-deepfake-police-video-calls/:splat"
+  status = 301
+[[redirects]]
+  from = "/es/cases/finland-police-google-meet-deepfake/*"
+  to = "/es/cases/finland-deepfake-police-video-calls/:splat"
+  status = 301
+[[redirects]]
+  from = "/ar/cases/finland-police-google-meet-deepfake/*"
+  to = "/ar/cases/finland-deepfake-police-video-calls/:splat"
+  status = 301
+[[redirects]]
+  from = "/zh/cases/finland-police-google-meet-deepfake/*"
+  to = "/zh/cases/finland-deepfake-police-video-calls/:splat"
+  status = 301
+[[redirects]]
+  from = "/cases/brasilia-marcos-mion-deepfake-vouchers/*"
+  to = "/cases/brazil-voiceover-mion-deepfake/:splat"
+  status = 301
+[[redirects]]
+  from = "/fr/cases/brasilia-marcos-mion-deepfake-vouchers/*"
+  to = "/fr/cases/brazil-voiceover-mion-deepfake/:splat"
+  status = 301
+[[redirects]]
+  from = "/es/cases/brasilia-marcos-mion-deepfake-vouchers/*"
+  to = "/es/cases/brazil-voiceover-mion-deepfake/:splat"
+  status = 301
+[[redirects]]
+  from = "/ar/cases/brasilia-marcos-mion-deepfake-vouchers/*"
+  to = "/ar/cases/brazil-voiceover-mion-deepfake/:splat"
+  status = 301
+[[redirects]]
+  from = "/zh/cases/brasilia-marcos-mion-deepfake-vouchers/*"
+  to = "/zh/cases/brazil-voiceover-mion-deepfake/:splat"
+  status = 301
+[[redirects]]
+  from = "/cases/openai-scam-networks-oct-2025/*"
+  to = "/cases/openai-scam-centres-oct2025/:splat"
+  status = 301
+[[redirects]]
+  from = "/fr/cases/openai-scam-networks-oct-2025/*"
+  to = "/fr/cases/openai-scam-centres-oct2025/:splat"
+  status = 301
+[[redirects]]
+  from = "/es/cases/openai-scam-networks-oct-2025/*"
+  to = "/es/cases/openai-scam-centres-oct2025/:splat"
+  status = 301
+[[redirects]]
+  from = "/ar/cases/openai-scam-networks-oct-2025/*"
+  to = "/ar/cases/openai-scam-centres-oct2025/:splat"
+  status = 301
+[[redirects]]
+  from = "/zh/cases/openai-scam-networks-oct-2025/*"
+  to = "/zh/cases/openai-scam-centres-oct2025/:splat"
+  status = 301
+[[redirects]]
+  from = "/cases/qatarenergy-ai-video-investment-scam/*"
+  to = "/cases/qatarenergy-ai-investment-videos/:splat"
+  status = 301
+[[redirects]]
+  from = "/fr/cases/qatarenergy-ai-video-investment-scam/*"
+  to = "/fr/cases/qatarenergy-ai-investment-videos/:splat"
+  status = 301
+[[redirects]]
+  from = "/es/cases/qatarenergy-ai-video-investment-scam/*"
+  to = "/es/cases/qatarenergy-ai-investment-videos/:splat"
+  status = 301
+[[redirects]]
+  from = "/ar/cases/qatarenergy-ai-video-investment-scam/*"
+  to = "/ar/cases/qatarenergy-ai-investment-videos/:splat"
+  status = 301
+[[redirects]]
+  from = "/zh/cases/qatarenergy-ai-video-investment-scam/*"
+  to = "/zh/cases/qatarenergy-ai-investment-videos/:splat"
+  status = 301

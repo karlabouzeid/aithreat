@@ -154,52 +154,6 @@
     ]
   },
   {
-    "id": "brasilia-marcos-mion-deepfake-vouchers",
-    "date": "2025-01-16",
-    "title": "Brasilia police bust group using Marcos Mion deepfakes to sell fake restaurant vouchers",
-    "category": "Deepfake fraud",
-    "direction": "with-ai",
-    "severity": "low",
-    "country": "BR",
-    "region": "Latin America",
-    "target": "Consumers in Brazil's Federal District; Marcos Mion",
-    "loss_usd": null,
-    "summary": "Brasilia civil police arrested at least three people who manipulated TV host Marcos Mion's image and voice to sell restaurant vouchers never delivered; a May 2025 second phase arrested the alleged site builder.",
-    "source": "SBT News",
-    "url": "https://sbtnews.sbt.com.br/noticia/policia/policia-prende-golpistas-que-usavam-deepfake-de-marcos-mion-na-internet",
-    "actor": "Brasilia-based fraud group behind Operacao Voice Over",
-    "actor_type": "criminal",
-    "attribution": "PCDF identified a technology company used as a front; a 24-year-old in Santa Helena de Goias was arrested in May 2025 for building the fake sites.",
-    "motive": "Low-value mass fraud through fake discount vouchers.",
-    "vector": "Deepfake video ads on social media, automated payment pages and digital marketing tooling.",
-    "root_cause": "Celebrity likeness cloning combined with paid ad distribution.",
-    "timeline": [
-      {
-        "date": "2025-01-16",
-        "event": "PCDF serves warrants; three arrested in flagrante"
-      },
-      {
-        "date": "2025-05-01",
-        "event": "Second phase of Operacao Voice Over arrests site developer in Goias"
-      }
-    ],
-    "impact": "Dozens of victims in the Federal District; amounts not disclosed; two imported vehicles seized.",
-    "response": "Charges of electronic fraud, criminal association and money laundering carrying up to 21 years.",
-    "status": "under investigation",
-    "cve": null,
-    "verification": "confirmed",
-    "sources": [
-      {
-        "name": "SBT News",
-        "url": "https://sbtnews.sbt.com.br/noticia/policia/policia-prende-golpistas-que-usavam-deepfake-de-marcos-mion-na-internet"
-      },
-      {
-        "name": "Jornal Opcao",
-        "url": "https://www.jornalopcao.com.br/ultimas-noticias/jovem-e-preso-em-goias-por-usar-deepfake-de-marcos-mion-em-golpes-com-sites-falsos-705126/"
-      }
-    ]
-  },
-  {
     "id": "brazil-voiceover-mion-deepfake",
     "date": "2025-01-16",
     "title": "Brasilia police Operacao VoiceOver busts gang using Marcos Mion deepfakes for voucher scam",
@@ -250,6 +204,10 @@
       {
         "name": "SBT News",
         "url": "https://sbtnews.sbt.com.br/noticia/policia/hacker-e-preso-suspeito-de-usar-inteligencia-artificial-em-golpes-com-imagens-de-famosos"
+      },
+      {
+        "name": "SBT News (arrests)",
+        "url": "https://sbtnews.sbt.com.br/noticia/policia/policia-prende-golpistas-que-usavam-deepfake-de-marcos-mion-na-internet"
       }
     ]
   },
@@ -623,6 +581,7 @@
     "response": "DeepSeek secured the database promptly after Wiz's disclosure; no public statement from DeepSeek on whether anyone else accessed the data",
     "status": "resolved",
     "cve": null,
+    "verification": "reported",
     "sources": [
       {
         "name": "Wiz Research",
@@ -943,52 +902,6 @@
       {
         "name": "SecureWorld",
         "url": "https://www.secureworld.io/industry-news/omnigpt-massive-data-breach"
-      }
-    ]
-  },
-  {
-    "id": "omnigpt-breach-claim",
-    "date": "2025-02-09",
-    "title": "Hacker claims OmniGPT breach exposing 34 million chat messages and 30,000 user emails",
-    "category": "Model & data leak",
-    "direction": "on-ai",
-    "severity": "high",
-    "country": "US",
-    "region": "North America",
-    "target": "OmniGPT AI chatbot aggregator",
-    "loss_usd": null,
-    "summary": "A BreachForums user named Gloomer posted samples allegedly taken from OmniGPT: over 34 million lines of user-chatbot conversations, around 30,000 emails with some phone numbers, file links and credentials. Unconfirmed.",
-    "source": "KrakenLabs / Hackread",
-    "url": "https://cyberinsider.com/omnigpt-allegedly-breached-34-million-user-messages-leaked/",
-    "actor": "Gloomer (BreachForums poster)",
-    "actor_type": "criminal",
-    "attribution": "Self-claimed by the poster; samples reviewed by researchers but not verified by the vendor",
-    "motive": "Data sale and notoriety",
-    "vector": "Unknown; attacker claimed access to backend message store and user tables",
-    "root_cause": "Unknown",
-    "timeline": [
-      {
-        "date": "2025-02-09",
-        "event": "Data samples posted on BreachForums"
-      },
-      {
-        "date": "2025-02-12",
-        "event": "Wide press coverage; OmniGPT silent"
-      }
-    ],
-    "impact": "Alleged exposure of millions of private AI conversations, uploaded documents, API keys and crypto keys",
-    "response": "No public statement from OmniGPT found",
-    "status": "unresolved",
-    "cve": null,
-    "verification": "reported",
-    "sources": [
-      {
-        "name": "CyberInsider",
-        "url": "https://cyberinsider.com/omnigpt-allegedly-breached-34-million-user-messages-leaked/"
-      },
-      {
-        "name": "SiliconANGLE",
-        "url": "https://siliconangle.com/2025/02/12/ai-aggregator-omnigpt-reportedly-breached-sensitive-user-data-leaked-online/"
       },
       {
         "name": "CSO Online",
@@ -1088,6 +1001,7 @@
     "response": "Moratti filed a complaint; Milan prosecutors opened an organised-crime probe; funds traced and frozen in the Netherlands; two suspects identified",
     "status": "under investigation",
     "cve": null,
+    "verification": "confirmed",
     "sources": [
       {
         "name": "Reuters (via Yahoo News)",
@@ -1433,6 +1347,7 @@
     "response": "Microsoft revoked access, added safety countermeasures, seized the de3u website, pursued civil litigation and referred the matter to law enforcement",
     "status": "ongoing",
     "cve": null,
+    "verification": "confirmed",
     "sources": [
       {
         "name": "SecurityWeek",
@@ -1698,6 +1613,7 @@
     "response": "HSBC notified the Anti-Scam Centre; Singapore and Hong Kong police traced and withheld the funds within days; investigations ongoing",
     "status": "under investigation",
     "cve": null,
+    "verification": "confirmed",
     "sources": [
       {
         "name": "Singapore Police Force",
@@ -2218,56 +2134,6 @@
     ]
   },
   {
-    "id": "xai-api-key-github-leak",
-    "date": "2025-05-01",
-    "title": "xAI employee leaks API key on GitHub exposing 60 private Grok models for two months",
-    "category": "Model & data leak",
-    "direction": "on-ai",
-    "severity": "high",
-    "country": "US",
-    "region": "North America",
-    "target": "xAI private and unreleased Grok models",
-    "loss_usd": null,
-    "summary": "A key committed to a public GitHub repo by an xAI staffer worked against at least 60 fine-tuned and unreleased models, including grok-2.5V and models apparently built on SpaceX and Tesla data. It stayed valid two months.",
-    "source": "KrebsOnSecurity / GitGuardian",
-    "url": "https://getcoai.com/news/xai-developer-exposes-api-key-for-spacex-and-teslas-private-llms/",
-    "actor": "xAI employee (accidental)",
-    "actor_type": "insider",
-    "attribution": "Found by consultant Philippe Caturegli and GitGuardian",
-    "motive": "None (accidental commit)",
-    "vector": "Secret committed to a public code repository",
-    "root_cause": "No secret scanning or key rotation on employee repositories",
-    "timeline": [
-      {
-        "date": "2025-03-02",
-        "event": "GitGuardian alerts the employee"
-      },
-      {
-        "date": "2025-04-30",
-        "event": "GitGuardian alerts xAI security; key still valid"
-      },
-      {
-        "date": "2025-05-01",
-        "event": "Repository removed after reporting"
-      }
-    ],
-    "impact": "Two months of potential unauthorised access to private LLMs; no confirmed misuse",
-    "response": "Repository taken down; xAI did not publicly comment",
-    "status": "resolved",
-    "cve": null,
-    "verification": "confirmed",
-    "sources": [
-      {
-        "name": "CO/AI",
-        "url": "https://getcoai.com/news/xai-developer-exposes-api-key-for-spacex-and-teslas-private-llms/"
-      },
-      {
-        "name": "Fullerton College Cybersecurity",
-        "url": "https://cybersecurity.fullcoll.edu/?p=304"
-      }
-    ]
-  },
-  {
     "id": "xai-key-leak-spacex-tesla-llms",
     "date": "2025-05-01",
     "title": "xAI employee leaks API key on GitHub exposing 60 private Grok models for two months",
@@ -2318,6 +2184,10 @@
       {
         "name": "CO/AI",
         "url": "https://getcoai.com/news/xai-developer-exposes-api-key-for-spacex-and-teslas-private-llms/"
+      },
+      {
+        "name": "Fullerton College Cybersecurity",
+        "url": "https://cybersecurity.fullcoll.edu/?p=304"
       }
     ]
   },
@@ -2647,6 +2517,10 @@
     "root_cause": "AI-generated backends defaulted to no effective row-level security and Lovable's later scanner only checked that a policy existed, not that it blocked unauthorized access",
     "timeline": [
       {
+        "date": "2025-01",
+        "event": "Palmer first notices the issue on a Lovable-built site"
+      },
+      {
         "date": "2025-03-21",
         "event": "Palmer reports the flaw to Lovable with proof-of-concept examples"
       },
@@ -2680,47 +2554,9 @@
       {
         "name": "Cyber Security News",
         "url": "https://cybersecuritynews.com/lovable-security-vulnerability/"
-      }
-    ]
-  },
-  {
-    "id": "lovable-rls-exposure",
-    "date": "2025-05-29",
-    "title": "170 Lovable-built apps expose user data through missing Supabase row-level security",
-    "category": "Model & data leak",
-    "direction": "on-ai",
-    "severity": "high",
-    "country": "SE",
-    "region": "Europe",
-    "target": "Apps generated with Lovable AI app builder",
-    "loss_usd": null,
-    "summary": "Matt Palmer scanned 1,645 Lovable-generated apps and found 170 with 303 endpoints where anyone with the public anon key could dump emails, phone numbers, payment records and API keys. Tracked as CVE-2025-48757.",
-    "source": "Matt Palmer",
-    "url": "https://superblocks.com/blog/lovable-vulnerabilities",
-    "actor": "Matt Palmer (independent researcher)",
-    "actor_type": "researcher",
-    "attribution": "Public disclosure after scanning; Lovable's own infrastructure was not breached",
-    "motive": "Security research",
-    "vector": "Direct queries to Supabase tables using the public anon key exposed in app JavaScript",
-    "root_cause": "AI-generated apps shipped without row-level security policies",
-    "timeline": [
-      {
-        "date": "2025-01",
-        "event": "Palmer first notices the issue on a Lovable-built site"
       },
       {
-        "date": "2025-05-29",
-        "event": "Public disclosure and CVE-2025-48757"
-      }
-    ],
-    "impact": "Personal data and API keys from at least 170 apps were publicly readable",
-    "response": "Lovable added security scanning for generated projects; affected developers were urged to enable RLS",
-    "status": "contained",
-    "cve": "CVE-2025-48757",
-    "verification": "confirmed",
-    "sources": [
-      {
-        "name": "Superblocks",
+        "name": "Superblocks (vulnerability write-up)",
         "url": "https://superblocks.com/blog/lovable-vulnerabilities"
       },
       {
@@ -3059,6 +2895,7 @@
     "response": "Microsoft fixed the issue server-side with no customer action required and assigned a critical CVE; Aim criticised the roughly five-month remediation time",
     "status": "patched",
     "cve": "CVE-2025-32711",
+    "verification": "confirmed",
     "sources": [
       {
         "name": "SOC Prime",
@@ -3146,8 +2983,8 @@
     "root_cause": "Logic flaw in tenant scoping of the MCP server",
     "timeline": [
       {
-        "date": "2025-05",
-        "event": "Asana launches MCP server"
+        "date": "2025-05-01",
+        "event": "Asana launches its MCP server for AI integrations"
       },
       {
         "date": "2025-06-04",
@@ -3220,6 +3057,7 @@
     "response": "Langflow patched in v1.3.0; CISA mandated federal patching via KEV; Trend Micro published IOCs and urged upgrades and network isolation",
     "status": "patched",
     "cve": "CVE-2025-3248",
+    "verification": "confirmed",
     "sources": [
       {
         "name": "Trend Micro",
@@ -3286,64 +3124,6 @@
       {
         "name": "TechRepublic",
         "url": "https://www.techrepublic.com/article/news-wormgpt-variants-ai-models-grok-mixtral/"
-      }
-    ]
-  },
-  {
-    "id": "asana-mcp-cross-tenant-exposure",
-    "date": "2025-06-18",
-    "title": "Asana MCP server bug exposed customer data to other organizations for a month",
-    "category": "Model & data leak",
-    "direction": "on-ai",
-    "severity": "medium",
-    "country": "US",
-    "region": "North America",
-    "target": "Asana customers using the MCP server",
-    "loss_usd": null,
-    "summary": "A logic flaw in Asana's Model Context Protocol server, launched May 1, let data from one customer's domain surface to other MCP users' AI assistants; Asana took the feature offline for two weeks and notified about 1,000 customers.",
-    "source": "BleepingComputer",
-    "url": "https://www.bleepingcomputer.com/news/security/asana-warns-mcp-ai-feature-exposed-customer-data-to-other-orgs/",
-    "actor": "Asana (software defect)",
-    "actor_type": "accident",
-    "attribution": "Internal software bug acknowledged by Asana; not the result of a hack",
-    "motive": "None; software defect",
-    "vector": "Cross-tenant data retrieval through the Asana MCP integration used by LLM clients",
-    "root_cause": "Tenant isolation logic error in the experimental MCP server released as a beta",
-    "timeline": [
-      {
-        "date": "2025-05-01",
-        "event": "Asana launches its MCP server for AI integrations"
-      },
-      {
-        "date": "2025-06-04",
-        "event": "Asana discovers the cross-organization exposure bug"
-      },
-      {
-        "date": "2025-06-05",
-        "event": "MCP server taken offline for maintenance"
-      },
-      {
-        "date": "2025-06-17",
-        "event": "Service restored after all MCP connections are reset; customers must reconnect"
-      }
-    ],
-    "impact": "Task details, project metadata, team information, comments and uploaded files could have been visible to other MCP users, scoped to each user's access; roughly 1,000 customers affected, no evidence of exploitation",
-    "response": "Feature disabled for nearly two weeks, all MCP connections reset, affected organizations notified and told to delete foreign data and request access logs",
-    "status": "resolved",
-    "cve": null,
-    "verification": "confirmed",
-    "sources": [
-      {
-        "name": "BleepingComputer",
-        "url": "https://www.bleepingcomputer.com/news/security/asana-warns-mcp-ai-feature-exposed-customer-data-to-other-orgs/"
-      },
-      {
-        "name": "The Register",
-        "url": "https://www.theregister.com/2025/06/18/asana_mcp_server_bug/"
-      },
-      {
-        "name": "UpGuard",
-        "url": "https://upguard.com/blog/asana-discloses-data-exposure-bug-in-mcp-server"
       }
     ]
   },
@@ -3751,6 +3531,7 @@
     "response": "State Department opened an investigation, warned partners about fake accounts and advised officials to report impersonation attempts to Diplomatic Security",
     "status": "under investigation",
     "cve": null,
+    "verification": "confirmed",
     "sources": [
       {
         "name": "Anchorage Daily News (Washington Post)",
@@ -3804,6 +3585,7 @@
     "response": "Paradox.ai and McDonald's fixed the issues the day they were reported; Paradox launched a vulnerability disclosure bounty programme",
     "status": "patched",
     "cve": null,
+    "verification": "confirmed",
     "sources": [
       {
         "name": "BleepingComputer",
@@ -4123,6 +3905,7 @@
     "response": "CERT-UA issued an advisory with IOCs; Hugging Face reportedly notified; defenders urged to block the delivery infrastructure",
     "status": "contained",
     "cve": null,
+    "verification": "confirmed",
     "sources": [
       {
         "name": "BleepingComputer",
@@ -4139,62 +3922,8 @@
     ]
   },
   {
-    "id": "replit-agent-deletes-database",
-    "date": "2025-07-19",
-    "title": "Replit AI agent deletes SaaStr production database during code freeze, then misreports it",
-    "category": "Agent hijack",
-    "direction": "on-ai",
-    "severity": "high",
-    "country": "US",
-    "region": "North America",
-    "target": "SaaStr (Replit Agent user)",
-    "loss_usd": null,
-    "summary": "During a 12-day vibe-coding test, Replit's agent ran destructive commands that wiped a database of about 1,200 executives and 1,190 companies despite instructions not to change anything, then said rollback was impossible",
-    "source": "Jason Lemkin (SaaStr) / Replit",
-    "url": "https://www.eweek.com/news/replit-ai-coding-assistant-failure/",
-    "actor": "Replit Agent (autonomous action)",
-    "actor_type": "autonomous-ai",
-    "attribution": "Confirmed by the user's public posts and by Replit CEO Amjad Masad",
-    "motive": "None; agent acted on its own interpretation after seeing an empty query result",
-    "vector": "Agent with production database credentials executed unapproved destructive commands; shared database across preview, test and production",
-    "root_cause": "No separation between development and production databases and no enforced approval gate for destructive actions",
-    "timeline": [
-      {
-        "date": "2025-07-18",
-        "event": "Agent deletes the production database on day nine of the experiment"
-      },
-      {
-        "date": "2025-07-19",
-        "event": "Lemkin publicises the incident; data later restored from a backup"
-      },
-      {
-        "date": "2025-07-21",
-        "event": "Replit announces dev/prod separation, planning-only mode and one-click restore"
-      }
-    ],
-    "impact": "Loss of a live database (recovered from backup); agent also generated fake data and misleading test results",
-    "response": "Replit shipped automatic dev/prod database separation, a chat-only planning mode and backup restoration, and refunded the customer",
-    "status": "resolved",
-    "cve": null,
-    "verification": "confirmed",
-    "sources": [
-      {
-        "name": "eWeek",
-        "url": "https://www.eweek.com/news/replit-ai-coding-assistant-failure/"
-      },
-      {
-        "name": "heise",
-        "url": "https://heise.de/-10499597"
-      },
-      {
-        "name": "OECD AI Incidents Monitor",
-        "url": "https://oecd.ai/en/incidents/2025-07-19-1eb1"
-      }
-    ]
-  },
-  {
     "id": "replit-agent-saastr-db-wipe",
-    "date": "2025-07-22",
+    "date": "2025-07-19",
     "title": "Replit AI agent deletes SaaStr production database during a code freeze",
     "category": "Agent hijack",
     "direction": "on-ai",
@@ -4216,6 +3945,10 @@
       {
         "date": "2025-07-18",
         "event": "On day nine of the experiment the agent wipes the production database during a code freeze"
+      },
+      {
+        "date": "2025-07-19",
+        "event": "Lemkin publicises the incident; data later restored from a backup"
       },
       {
         "date": "2025-07-20",
@@ -4243,6 +3976,10 @@
       {
         "name": "SaaStr",
         "url": "https://www.saastr.com/replits-new-release-address-most-of-the-challenges-we-hit-vibe-coding-but-is-prosumer-vibe-coding-really-ready-for-commercial-apps-yet"
+      },
+      {
+        "name": "heise",
+        "url": "https://heise.de/-10499597"
       }
     ]
   },
@@ -4288,6 +4025,7 @@
     "response": "Amazon removed 1.84.0, revoked and replaced credentials, published 1.85.0 and said it mitigated an attempt to exploit a known issue in two open-source repositories",
     "status": "resolved",
     "cve": null,
+    "verification": "confirmed",
     "sources": [
       {
         "name": "BleepingComputer",
@@ -5269,6 +5007,7 @@
     "response": "No formal statement from xAI beyond a Google spokesperson noting publishers control indexing; no public confirmation of a feature fix",
     "status": "unresolved",
     "cve": null,
+    "verification": "reported",
     "sources": [
       {
         "name": "Fortune",
@@ -5376,6 +5115,7 @@
     "response": "ESET published detections and IOCs; NYU clarified the research origin and stated the prototype was lab-only",
     "status": "resolved",
     "cve": null,
+    "verification": "reported",
     "sources": [
       {
         "name": "Security Affairs",
@@ -5437,6 +5177,7 @@
     "response": "Tokens revoked, Drift integration disabled and later taken offline, Mandiant engaged, customers told to rotate exposed secrets; FBI issued a FLASH alert",
     "status": "contained",
     "cve": null,
+    "verification": "confirmed",
     "sources": [
       {
         "name": "Security Affairs",
@@ -5578,6 +5319,7 @@
     "response": "Anthropic banned the accounts, deployed new classifiers to detect similar misuse and shared indicators with partners and authorities",
     "status": "contained",
     "cve": null,
+    "verification": "confirmed",
     "sources": [
       {
         "name": "Malwarebytes",
@@ -5639,6 +5381,7 @@
     "response": "Nx revoked npm tokens, removed packages, enforced 2FA and trusted publishing; GitHub removed leaked repositories; victims told to rotate all credentials",
     "status": "contained",
     "cve": null,
+    "verification": "confirmed",
     "sources": [
       {
         "name": "Okta",
@@ -5946,6 +5689,7 @@
     "response": "Genians published IOCs and detection guidance; no public response from OpenAI specific to this campaign",
     "status": "ongoing",
     "cve": null,
+    "verification": "reported",
     "sources": [
       {
         "name": "The Record",
@@ -6261,6 +6005,7 @@
     "response": "Microsoft blocked the campaign, published indicators and detection guidance, and used Security Copilot to characterise the AI-generated code",
     "status": "contained",
     "cve": null,
+    "verification": "confirmed",
     "sources": [
       {
         "name": "SecurityBrief UK",
@@ -6368,6 +6113,7 @@
     "response": "Package deleted from npm by the publisher; Koi, Snyk and Qualys advised uninstalling v1.0.16+, rotating credentials and auditing outbound mail",
     "status": "contained",
     "cve": null,
+    "verification": "reported",
     "sources": [
       {
         "name": "The Hacker News",
@@ -6571,6 +6317,7 @@
     "response": "Police arrested suspects, froze assets across five states; Bundchen's team warned consumers to verify offers; Meta cited ad-removal policies",
     "status": "under investigation",
     "cve": null,
+    "verification": "confirmed",
     "sources": [
       {
         "name": "AI Incident Database",
@@ -6800,6 +6547,10 @@
     "root_cause": "Scam centres embedding AI for efficiency; OpenAI noted the model is used three times more often to detect scams than to run them",
     "timeline": [
       {
+        "date": "2025-07",
+        "event": "OpenAI begins tracking the scam-related account clusters over a three-month period"
+      },
+      {
         "date": "2025-10",
         "event": "OpenAI notes model used three times more to detect scams than to run them"
       },
@@ -6825,47 +6576,9 @@
       {
         "name": "vpnMentor coverage",
         "url": "https://www.vpnmentor.com/news/openai-new-security-report-reveals-latest-ai-threats/"
-      }
-    ]
-  },
-  {
-    "id": "openai-scam-networks-oct-2025",
-    "date": "2025-10-07",
-    "title": "OpenAI bans ChatGPT accounts of scam networks in Cambodia, Myanmar and Nigeria",
-    "category": "Deepfake fraud",
-    "direction": "with-ai",
-    "severity": "medium",
-    "country": "GL",
-    "region": "Global",
-    "target": "Online fraud victims worldwide",
-    "loss_usd": null,
-    "summary": "OpenAI's October 2025 threat report said it disrupted scam networks likely based in Cambodia, Myanmar and Nigeria that used ChatGPT for scripts, impersonation, translation and victim engagement, and banned the accounts.",
-    "source": "OpenAI",
-    "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-scam-operations",
-    "actor": "Organised online fraud networks in Cambodia, Myanmar and Nigeria",
-    "actor_type": "criminal",
-    "attribution": "OpenAI investigation based on account behaviour; locations assessed as likely, not confirmed by law enforcement",
-    "motive": "Financial gain through investment, romance and task scams",
-    "vector": "ChatGPT used to draft scam scripts, translate conversations, build personas and sustain victim engagement",
-    "root_cause": "General-purpose LLM access lowered the language and labour cost of running multilingual scam operations",
-    "timeline": [
-      {
-        "date": "2025-07",
-        "event": "OpenAI begins tracking the scam-related account clusters over a three-month period"
       },
       {
-        "date": "2025-10-07",
-        "event": "OpenAI publishes case study and confirms account bans"
-      }
-    ],
-    "impact": "Scale of victim losses not published; OpenAI described attempts to defraud people online across several regions",
-    "response": "Accounts banned and indicators shared with industry partners",
-    "status": "contained",
-    "cve": null,
-    "verification": "confirmed",
-    "sources": [
-      {
-        "name": "OpenAI",
+        "name": "OpenAI (case study)",
         "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-scam-operations"
       },
       {
@@ -7091,52 +6804,6 @@
       {
         "name": "SC World",
         "url": "https://scworld.com/news/smithery-ai-fixes-path-traversal-flaw-that-exposed-3000-mcp-servers"
-      }
-    ]
-  },
-  {
-    "id": "uae-economy-minister-deepfake-ads",
-    "date": "2025-10-16",
-    "title": "UAE economy minister says his deepfake was used in social media investment scam campaigns",
-    "category": "Deepfake fraud",
-    "direction": "with-ai",
-    "severity": "low",
-    "country": "AE",
-    "region": "Middle East & Africa",
-    "target": "UAE residents; Economy Minister Abdullah bin Touq Al Marri",
-    "loss_usd": null,
-    "summary": "At GITEX 2025, Minister Abdullah bin Touq Al Marri said fraudsters had manipulated his image in video campaigns urging people to invest in shares, and called for deepfake detection technology.",
-    "source": "AGBI",
-    "url": "https://www.agbi.com/tech/2025/10/uae-minister-and-tech-experts-warn-of-deepfake-explosion/",
-    "actor": "Unknown",
-    "actor_type": "criminal",
-    "attribution": "No attribution; the minister described recent targeting by fraudsters.",
-    "motive": "Investment fraud using a ministerial endorsement.",
-    "vector": "Manipulated video of the minister in social media ad campaigns.",
-    "root_cause": "Abundant public footage of officials and limited content authentication.",
-    "timeline": [
-      {
-        "date": "2025-10-14",
-        "event": "Minister discloses deepfake targeting at GITEX Global"
-      },
-      {
-        "date": "2025-10-16",
-        "event": "Regional press reports the warning"
-      }
-    ],
-    "impact": "Ministerial likeness used to lure investors; no loss figures given.",
-    "response": "Public warning; call for authentication tools; no enforcement action reported.",
-    "status": "unresolved",
-    "cve": null,
-    "verification": "reported",
-    "sources": [
-      {
-        "name": "AGBI",
-        "url": "https://www.agbi.com/tech/2025/10/uae-minister-and-tech-experts-warn-of-deepfake-explosion/"
-      },
-      {
-        "name": "MENA Startup Digest",
-        "url": "https://menastartupdigest.com/?p=18580"
       }
     ]
   },
@@ -7516,6 +7183,7 @@
     "response": "Google disabled associated Gemini API keys and projects and added classifier protections; researchers including Marcus Hutchins questioned PROMPTFLUX's practical significance.",
     "status": "contained",
     "cve": null,
+    "verification": "confirmed",
     "sources": [
       {
         "name": "CyberInsider",
@@ -7719,6 +7387,7 @@
     "response": "Anthropic banned the accounts, notified affected entities and authorities, expanded detection classifiers and published its findings.",
     "status": "contained",
     "cve": null,
+    "verification": "confirmed",
     "sources": [
       {
         "name": "Anthropic",
@@ -7731,52 +7400,6 @@
       {
         "name": "Cybersecurity Dive",
         "url": "https://www.cybersecuritydive.com/news/anthropic-state-actor-ai-tool-espionage/805550/"
-      }
-    ]
-  },
-  {
-    "id": "qatarenergy-ai-video-investment-scam",
-    "date": "2025-11-17",
-    "title": "QatarEnergy repeats warning over AI-generated videos impersonating it in investment scams",
-    "category": "Deepfake fraud",
-    "direction": "with-ai",
-    "severity": "medium",
-    "country": "QA",
-    "region": "Middle East & Africa",
-    "target": "QatarEnergy and Qatari public",
-    "loss_usd": null,
-    "summary": "QatarEnergy reissued a warning that fraudulent online investment schemes were using its name and logo, including AI-generated videos impersonating the company, and stressed it never solicits money from the public.",
-    "source": "The Peninsula Qatar",
-    "url": "https://www.thepeninsulaqatar.com/article/17/11/2025/qatarenergy-reminds-public-to-exercise-caution-over-fake-investment-ads",
-    "actor": "Unknown",
-    "actor_type": "criminal",
-    "attribution": "Unknown.",
-    "motive": "Collect investment deposits under a state energy company's brand.",
-    "vector": "AI-generated videos and fake adverts online inviting the public into QatarEnergy investment opportunities.",
-    "root_cause": "Brand impersonation enabled by generative video tools.",
-    "timeline": [
-      {
-        "date": "2025-03-01",
-        "event": "QatarEnergy first warns about AI-generated investment videos using its name"
-      },
-      {
-        "date": "2025-11-17",
-        "event": "QatarEnergy reposts the warning"
-      }
-    ],
-    "impact": "No losses disclosed.",
-    "response": "Repeated public warnings urging verification of offers.",
-    "status": "ongoing",
-    "cve": null,
-    "verification": "confirmed",
-    "sources": [
-      {
-        "name": "The Peninsula Qatar",
-        "url": "https://www.thepeninsulaqatar.com/article/17/11/2025/qatarenergy-reminds-public-to-exercise-caution-over-fake-investment-ads"
-      },
-      {
-        "name": "Qatar Tribune",
-        "url": "https://www.qatar-tribune.com/article/169404/latest-news/qatarenergy-warns-of-fake-adverts-videos-offering-investment-opportunities"
       }
     ]
   },
@@ -7826,6 +7449,7 @@
     "response": "Oligo reported the campaign and payload repositories were removed from GitLab and GitHub, though attackers quickly recreated them; Anyscale offers configuration tooling but no patch.",
     "status": "ongoing",
     "cve": "CVE-2023-48022",
+    "verification": "reported",
     "sources": [
       {
         "name": "The Register",
@@ -8049,6 +7673,7 @@
     "response": "Mixpanel revoked sessions, rotated credentials, blocked IPs and hired outside forensics firms; OpenAI removed Mixpanel from production and notified affected users.",
     "status": "contained",
     "cve": null,
+    "verification": "confirmed",
     "sources": [
       {
         "name": "OpenAI",
@@ -8389,64 +8014,6 @@
     ]
   },
   {
-    "id": "amsterdam-deepfake-bank-accounts",
-    "date": "2025-12-17",
-    "title": "Amsterdam man used AI face-morphs on tenants' IDs to open 46 ABN Amro accounts",
-    "category": "Deepfake fraud",
-    "direction": "with-ai",
-    "severity": "medium",
-    "country": "NL",
-    "region": "Europe",
-    "target": "ABN Amro and prospective tenants",
-    "loss_usd": null,
-    "summary": "Dutch police arrested a 34-year-old who harvested ID documents via fake apartment listings, then used AI to blend victims' faces with his own to pass bank video checks, opening at least 46 accounts.",
-    "source": "NH Nieuws",
-    "url": "https://www.nhnieuws.nl/nieuws/355381/amsterdammer-aangehouden-die-met-deepfakes-46-bankrekeningen-opende",
-    "actor": "34-year-old Amsterdam resident",
-    "actor_type": "criminal",
-    "attribution": "Identified after the Royal Marechaussee found him carrying many bank cards at a border crossing; convicted by Amsterdam district court.",
-    "motive": "Open mule accounts under stolen identities for fraud.",
-    "vector": "Fake rental listings to harvest passports, then deepfake face edits to defeat the bank's digital identity check.",
-    "root_cause": "Selfie-based remote onboarding accepted AI-blended faces matching stolen documents.",
-    "timeline": [
-      {
-        "date": "2025-12-17",
-        "event": "Police announce arrest and link 46 accounts to the suspect"
-      },
-      {
-        "date": "2026-03-23",
-        "event": "Prosecutors demand 30 months; court reopens inquiry into deepfake technique"
-      },
-      {
-        "date": "2026-05-01",
-        "event": "Court sentences him to 2.5 years and 13,000 euro compensation to ABN Amro"
-      }
-    ],
-    "impact": "Dozens of victims' identities abused; at least 46 accounts opened at ABN Amro and used in scams; total losses not published.",
-    "response": "Arrest, prosecution and 2.5-year prison sentence; police said they had adjusted detection of deepfake onboarding methods.",
-    "status": "resolved",
-    "cve": null,
-    "verification": "confirmed",
-    "sources": [
-      {
-        "name": "NH Nieuws",
-        "url": "https://www.nhnieuws.nl/nieuws/355381/amsterdammer-aangehouden-die-met-deepfakes-46-bankrekeningen-opende"
-      },
-      {
-        "name": "Rechtspraak.nl",
-        "url": "https://www.rechtspraak.nl/organisatie-en-contact/organisatie/rechtbanken/rechtbank-amsterdam/nieuws/2026/03/extra-onderzoek-nodig-in-zaak-oplichting-bank-met-deepfake-technologie"
-      },
-      {
-        "name": "NL Times",
-        "url": "https://nltimes.nl/2026/03/23/amsterdam-man-opened-nearly-50-bank-accounts-sticking-head-onto-stolen-passports"
-      },
-      {
-        "name": "NH Nieuws",
-        "url": "https://www.nhnieuws.nl/nieuws/360788/amsterdammer-deepfakes-47-bankrekeningen-openen"
-      }
-    ]
-  },
-  {
     "id": "egypt-haifa-wehbe-ai-videos-probe",
     "date": "2025-12-24",
     "title": "Egyptian prosecutors order trace of AI-fabricated explicit videos of singer Haifa Wehbe",
@@ -8576,6 +8143,7 @@
     "response": "Microsoft rolled out protections against the scenario and said it is adding defense-in-depth measures; Varonis published guidance.",
     "status": "patched",
     "cve": null,
+    "verification": "confirmed",
     "sources": [
       {
         "name": "Varonis",
@@ -8629,6 +8197,7 @@
     "response": "Anthropic validated repository paths, removed the git_init tool and fixed argument injection; users told to upgrade to 2025.12.18 or later.",
     "status": "patched",
     "cve": "CVE-2025-68143, CVE-2025-68144, CVE-2025-68145",
+    "verification": "confirmed",
     "sources": [
       {
         "name": "OECD AI Incidents Monitor",
@@ -8690,6 +8259,7 @@
     "response": "Check Point published detections and analysis; no takedown or law-enforcement action reported.",
     "status": "under investigation",
     "cve": null,
+    "verification": "reported",
     "sources": [
       {
         "name": "The Register",
@@ -8951,6 +8521,7 @@
     "response": "Pillar published indicators of compromise; no takedown or arrests reported.",
     "status": "ongoing",
     "cve": null,
+    "verification": "reported",
     "sources": [
       {
         "name": "Pillar Security",
@@ -8982,8 +8553,8 @@
     "url": "https://www.malwarebytes.com/blog/news/2026/02/ai-chat-app-leak-exposes-300-million-messages-tied-to-25-million-users",
     "actor": "Independent researcher known as Harry (responsible disclosure)",
     "actor_type": "researcher",
-    "motive": "Research; no malicious exploitation reported",
     "attribution": "Self-disclosed by the researcher; reported by Malwarebytes",
+    "motive": "Research; no malicious exploitation reported",
     "vector": "Firebase Security Rules set to public, allowing unauthenticated read, write and delete of the chat database",
     "root_cause": "Misconfigured Firebase backend shared across Codeway apps; no access controls on user chat collections",
     "timeline": [
@@ -9004,6 +8575,7 @@
     "response": "Codeway reportedly fixed the rules across its apps within hours of the report; no regulatory action reported.",
     "status": "patched",
     "cve": null,
+    "verification": "reported",
     "sources": [
       {
         "name": "Malwarebytes",
@@ -9157,6 +8729,7 @@
     "response": "Moltbook enabled row-level security and rotated tokens; Wiz deleted data accessed during research.",
     "status": "patched",
     "cve": null,
+    "verification": "confirmed",
     "sources": [
       {
         "name": "BankInfoSecurity",
@@ -9356,6 +8929,7 @@
     "response": "Malicious skills removed from ClawHub; OpenClaw maintainer added a reporting feature; Koi published indicators.",
     "status": "contained",
     "cve": null,
+    "verification": "confirmed",
     "sources": [
       {
         "name": "ThaiCERT",
@@ -9405,6 +8979,7 @@
     "response": "Mandiant incident response, publication of indicators and hardening guidance on unsigned script execution.",
     "status": "ongoing",
     "cve": null,
+    "verification": "reported",
     "sources": [
       {
         "name": "The Record",
@@ -9604,6 +9179,7 @@
     "response": "Google disabled abusive accounts and infrastructure, hardened Gemini classifiers and warned of takedowns and legal action.",
     "status": "contained",
     "cve": null,
+    "verification": "confirmed",
     "sources": [
       {
         "name": "BleepingComputer",
@@ -9753,6 +9329,7 @@
     "response": "Cline revoked the token, moved publishing to OIDC provenance via GitHub Actions, published 2.4.0 and told users to uninstall OpenClaw if unwanted.",
     "status": "resolved",
     "cve": null,
+    "verification": "confirmed",
     "sources": [
       {
         "name": "Dark Reading",
@@ -9860,6 +9437,7 @@
     "response": "Anthropic banned the accounts, published findings and cited the case in support of chip export controls; the labs were asked for comment.",
     "status": "under investigation",
     "cve": null,
+    "verification": "confirmed",
     "sources": [
       {
         "name": "The Decoder",
@@ -9913,6 +9491,7 @@
     "response": "Anthropic and OpenAI banned the accounts; Mexican agencies reviewed logs and disputed the claims; no arrests reported.",
     "status": "under investigation",
     "cve": null,
+    "verification": "disputed",
     "sources": [
       {
         "name": "Bloomberg Law",
@@ -10270,6 +9849,7 @@
     "response": "McKinsey patched within a day and took the environment offline; CodeWall and Promptfoo published analyses.",
     "status": "patched",
     "cve": null,
+    "verification": "confirmed",
     "sources": [
       {
         "name": "The Register",
@@ -10469,6 +10049,7 @@
     "response": "Meta reverted the change, classified it as Sev 1 and said a human could also have given erroneous advice.",
     "status": "resolved",
     "cve": null,
+    "verification": "confirmed",
     "sources": [
       {
         "name": "The Guardian",
@@ -10626,6 +10207,7 @@
     "response": "Anthropic pulled the package and called it a packaging error; researchers warned against downloading leak repos; malicious repos reported to GitHub.",
     "status": "contained",
     "cve": null,
+    "verification": "confirmed",
     "sources": [
       {
         "name": "Zscaler ThreatLabz",
@@ -10733,6 +10315,7 @@
     "response": "Google worked with Unit 42, confirmed internal controls block tampering with production images, rewrote agent permission docs and recommends Bring Your Own Service Account (least privilege) for Vertex AI deployments",
     "status": "patched",
     "cve": null,
+    "verification": "confirmed",
     "sources": [
       {
         "name": "Unit 42 (Palo Alto Networks)",
@@ -10790,6 +10373,7 @@
     "response": "Mercor contained the incident and hired third-party forensics; Meta paused work, OpenAI opened a review; LiteLLM yanked the versions; multiple contractor lawsuits filed",
     "status": "under investigation",
     "cve": null,
+    "verification": "confirmed",
     "sources": [
       {
         "name": "WIRED",
@@ -10847,6 +10431,7 @@
     "response": "Vendor fix already available (3.0.6+); researchers urged upgrading, removing instances from the internet and rotating API tokens; VulnCheck shared signatures with customers",
     "status": "patched",
     "cve": "CVE-2025-59528",
+    "verification": "reported",
     "sources": [
       {
         "name": "BleepingComputer",
@@ -10904,6 +10489,7 @@
     "response": "Grafana Labs validated the report and rolled out a fix for the URL validation and guardrail bypass; disputed the severity, noting repeated user involvement was needed",
     "status": "patched",
     "cve": null,
+    "verification": "disputed",
     "sources": [
       {
         "name": "SecurityWeek",
@@ -10961,6 +10547,7 @@
     "response": "Microsoft mitigated internally with no customer action required; Salesforce said it addressed the issue; researchers warned the attack class remains open",
     "status": "patched",
     "cve": "CVE-2026-21520",
+    "verification": "confirmed",
     "sources": [
       {
         "name": "OECD AI Incidents Monitor",
@@ -11076,6 +10663,7 @@
     "response": "Vercel engaged Google Mandiant, notified affected customers, recommended credential rotation, published an OAuth app IOC and confirmed with GitHub, npm and Socket that its packages were untouched",
     "status": "under investigation",
     "cve": null,
+    "verification": "confirmed",
     "sources": [
       {
         "name": "Trend Micro",
@@ -11221,6 +10809,7 @@
     "response": "Anthropic investigated the vendor environment; outcome of the investigation not publicly reported",
     "status": "under investigation",
     "cve": null,
+    "verification": "confirmed",
     "sources": [
       {
         "name": "The Decoder",
@@ -12008,6 +11597,7 @@
     "response": "Compromised versions removed; TanStack published a post-mortem; vendors issued IOCs and cleanup guidance for IDE persistence hooks; affected users told to rotate all secrets",
     "status": "contained",
     "cve": null,
+    "verification": "confirmed",
     "sources": [
       {
         "name": "Tom's Hardware",
@@ -12331,6 +11921,7 @@
     "response": "Malicious code removed by author after inquiry; researchers advised revoking and rotating Codex tokens and blocking the exfiltration domain",
     "status": "contained",
     "cve": null,
+    "verification": "reported",
     "sources": [
       {
         "name": "Cloud Security Alliance",
@@ -12488,6 +12079,7 @@
     "response": "BerriAI shipped 1.83.7, Starlette 1.0.1 fixed BadHost; CISA KEV listing with remediation deadline; WAF blocking of the test endpoints advised",
     "status": "patched",
     "cve": "CVE-2026-42271, CVE-2026-48710",
+    "verification": "confirmed",
     "sources": [
       {
         "name": "The Hacker News",
@@ -12549,6 +12141,7 @@
     "response": "Meta closed the loophole, said impacted accounts were being secured; no explanation of the flaw's cause",
     "status": "patched",
     "cve": null,
+    "verification": "confirmed",
     "sources": [
       {
         "name": "Engadget",
@@ -12652,6 +12245,7 @@
     "response": "Sysdig published IOCs and advised keeping self-hosted LLM endpoints off public networks and requiring authentication at a reverse proxy",
     "status": "ongoing",
     "cve": null,
+    "verification": "reported",
     "sources": [
       {
         "name": "Sysdig",
@@ -13217,6 +12811,7 @@
     "response": "Complaint filed with cybercrime authorities; recovery status and arrests not publicly reported",
     "status": "under investigation",
     "cve": null,
+    "verification": "confirmed",
     "sources": [
       {
         "name": "AI Incident Database (Economic Times)",
@@ -13328,6 +12923,7 @@
     "response": "Hugging Face contained the intrusion and notified the FBI; OpenAI deactivated, encrypted and restricted the model; joint investigations ongoing",
     "status": "under investigation",
     "cve": null,
+    "verification": "disputed",
     "sources": [
       {
         "name": "Security Affairs (Reuters)",
@@ -13394,48 +12990,6 @@
       {
         "name": "Yle News",
         "url": "https://yle.fi/news/18-217206"
-      }
-    ]
-  },
-  {
-    "id": "finland-police-google-meet-deepfake",
-    "date": "2026-07-22",
-    "title": "Finnish NBI warns of Google Meet scam calls using deepfakes of police commissioner",
-    "category": "Deepfake fraud",
-    "direction": "with-ai",
-    "severity": "medium",
-    "country": "FI",
-    "region": "Europe",
-    "target": "Immigrants in Finland",
-    "loss_usd": null,
-    "summary": "Finland's National Bureau of Investigation warned of Google Meet calls by scammers posing as police, some using suspected deepfakes of real officers including Commissioner Ilkka Koskimaki, to obtain bank details.",
-    "source": "Yle",
-    "url": "https://yle.fi/a/74-20237545",
-    "actor": "Unknown",
-    "actor_type": "criminal",
-    "attribution": "Unknown.",
-    "motive": "Theft of banking and personal information.",
-    "vector": "Unsolicited Google Meet video calls impersonating police officers, with threats of account closure, arrest or deportation; victims asked to show payment cards on camera.",
-    "root_cause": "Video conferencing defaults allow calls from unknown contacts; deepfaked faces of real officers increased credibility.",
-    "timeline": [
-      {
-        "date": "2026-06-01",
-        "event": "First police-impersonation video calls reported"
-      },
-      {
-        "date": "2026-07-22",
-        "event": "NBI issues public warning noting deepfake use in newer calls"
-      }
-    ],
-    "impact": "Scams primarily targeted immigrants; police did not publish loss figures.",
-    "response": "Police advised that officers never contact the public by video call and recommended restricting Google Meet to known contacts.",
-    "status": "ongoing",
-    "cve": null,
-    "verification": "confirmed",
-    "sources": [
-      {
-        "name": "Yle",
-        "url": "https://yle.fi/a/74-20237545"
       },
       {
         "name": "OECD AI Incidents Monitor",
@@ -14185,6 +13739,7 @@
     "response": "OpenAI decommissioned the shared internal package service; no CVE assigned and no user-facing patch required",
     "status": "patched",
     "cve": null,
+    "verification": "confirmed",
     "sources": [
       {
         "name": "Mezha",
@@ -14872,6 +14427,7 @@
     "response": "Anthropic dismantled the accounts, upgraded safety classifiers and shared intelligence with governments and industry peers",
     "status": "contained",
     "cve": null,
+    "verification": "confirmed",
     "sources": [
       {
         "name": "CyberScoop",
@@ -14925,6 +14481,7 @@
     "response": "Anthropic banned the accounts, improved detection and shared indicators with authorities and industry",
     "status": "contained",
     "cve": null,
+    "verification": "confirmed",
     "sources": [
       {
         "name": "CyberScoop",
@@ -14982,6 +14539,7 @@
     "response": "RubyGems paused signups and removed gems; OpenAI said it is reviewing agent activity; the incident is tied to a Senate subcommittee inquiry",
     "status": "under investigation",
     "cve": null,
+    "verification": "disputed",
     "sources": [
       {
         "name": "The Hacker News",
@@ -15081,6 +14639,7 @@
     "response": "Glow published countermeasures and notified affected parties; images remain public until repo owners delete them",
     "status": "unresolved",
     "cve": null,
+    "verification": "reported",
     "sources": [
       {
         "name": "The Hacker News",
