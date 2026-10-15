@@ -576,5 +576,95 @@
     "first_seen": "2026-10-15T16:05:41Z",
     "first_published": "2024-12-09T15:56:01Z",
     "updated_at": "2026-10-15T16:05:41Z"
+  },
+  {
+    "id": "microsoft-ai-github-38tb-sas-exposure",
+    "date": "2023-09-18",
+    "title": "Microsoft AI researchers accidentally expose 38TB via misconfigured SAS token",
+    "category": "Model & data leak",
+    "direction": "on-ai",
+    "severity": "high",
+    "country": "US",
+    "region": "North America",
+    "target": "Microsoft AI research GitHub repository",
+    "loss_usd": null,
+    "summary": "Wiz Research found a misconfigured SAS token on Microsoft's AI GitHub repository exposing 38TB of data, including over 30,000 internal Microsoft Teams messages.",
+    "actor": "Unknown",
+    "actor_type": "accident",
+    "sector": "Technology & AI vendors",
+    "attribution": "No attacker identified; accidental exposure discovered by Wiz Research.",
+    "motive": "None; accidental exposure.",
+    "vector": "Misconfigured SAS token associated with Microsoft's AI GitHub repository.",
+    "root_cause": "A single misconfigured SAS token granted overly broad access to storage data.",
+    "impact": "38TB of data exposed, including over 30,000 internal Microsoft Teams messages.",
+    "response": "Unknown; the summary does not describe remediation.",
+    "status": "resolved",
+    "cve": null,
+    "confidence": 0.6,
+    "source": "Wiz Research",
+    "url": "https://www.wiz.io/blog/38-terabytes-of-private-data-accidentally-exposed-by-microsoft-ai-researchers",
+    "sources": [
+      {
+        "name": "Wiz Research",
+        "url": "https://www.wiz.io/blog/38-terabytes-of-private-data-accidentally-exposed-by-microsoft-ai-researchers"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2023-09-18",
+        "event": "Reported by Wiz Research"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-15T16:35:58Z",
+    "wire_id": "bff8813243d9",
+    "first_seen": "2026-10-15T16:35:58Z",
+    "first_published": "2023-09-18T13:01:29Z",
+    "updated_at": "2026-10-15T16:35:58Z"
+  },
+  {
+    "id": "pytorch-torchtriton-dependency-confusion",
+    "date": "2022-12-30",
+    "title": "Malicious 'torchtriton' dependency confusion attack hits PyTorch via PyPI",
+    "category": "AI supply chain",
+    "direction": "on-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "PyTorch users and PyPI",
+    "loss_usd": null,
+    "summary": "PyTorch maintainers identified a malicious torchtriton dependency on PyPI via dependency confusion; teams were told to check infected resources and rotate exposed keys.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Technology & AI vendors",
+    "attribution": "Not stated in the summary.",
+    "motive": "Unknown",
+    "vector": "Dependency confusion attack using a malicious 'torchtriton' package on PyPI.",
+    "root_cause": "Dependency confusion on the open-source PyTorch project allowed a malicious package to be installed.",
+    "impact": "Unknown scale; exposed keys on infected systems may need rotation.",
+    "response": "PyTorch developers identified the attack; security teams advised to check for infected resources and rotate exposed keys.",
+    "status": "contained",
+    "cve": null,
+    "confidence": 0.6,
+    "source": "Wiz Research",
+    "url": "https://www.wiz.io/blog/malicious-pytorch-dependency-torchtriton-on-pypi-everything-you-need-to-know",
+    "sources": [
+      {
+        "name": "Wiz Research",
+        "url": "https://www.wiz.io/blog/malicious-pytorch-dependency-torchtriton-on-pypi-everything-you-need-to-know"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2022-12-30",
+        "event": "Reported by Wiz Research"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-15T16:35:58Z",
+    "wire_id": "3f5bb5b90ccd",
+    "first_seen": "2026-10-15T16:35:58Z",
+    "first_published": "2023-01-03T13:10:27Z",
+    "updated_at": "2026-10-15T16:35:58Z"
   }
 ]
