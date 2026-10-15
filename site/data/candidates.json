@@ -396,5 +396,185 @@
     "first_seen": "2026-10-15T15:35:46Z",
     "first_published": "2026-04-01T20:45:48Z",
     "updated_at": "2026-10-15T15:35:46Z"
+  },
+  {
+    "id": "bodyswap-deepfake-platform-breach",
+    "date": "2026-10-15",
+    "title": "BodySwap sexual deepfake platform breach exposes about 10,300 user accounts",
+    "category": "Model & data leak",
+    "direction": "on-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "BodySwap deepfake platform and its users",
+    "loss_usd": null,
+    "summary": "User account data from BodySwap, a sexual deepfake platform, was reported leaked: about 10,300 accounts per French Breaches, about 10,000 customers per Libération.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Individuals & consumers",
+    "attribution": "Not stated in the headlines.",
+    "motive": "Unknown",
+    "vector": "Unknown",
+    "root_cause": "Unknown; the headlines do not explain how the accounts were compromised.",
+    "impact": "Roughly 10,000 BodySwap user accounts were exposed or pirated. The exact data fields are not stated.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "confidence": 0.55,
+    "source": "French Breaches",
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5WZlVTOGtUT0pncDdfV01OZjhfY1FoN25fSzE0X1ZvOTVqSHFNSUhuaDlQR2JfcWF2Q1UzZmxaMjFUQTFvWGJfQ3BFU0xoNWdCdVZLLUw2MFMtOGNGRWFOYTB0akFqcHIzU3lrNFpKNA?oc=5",
+    "sources": [
+      {
+        "name": "French Breaches",
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5WZlVTOGtUT0pncDdfV01OZjhfY1FoN25fSzE0X1ZvOTVqSHFNSUhuaDlQR2JfcWF2Q1UzZmxaMjFUQTFvWGJfQ3BFU0xoNWdCdVZLLUw2MFMtOGNGRWFOYTB0akFqcHIzU3lrNFpKNA?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-15",
+        "event": "Reported by French Breaches"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-15T16:05:41Z",
+    "wire_id": "5ccd78a4b35d",
+    "first_seen": "2026-10-15T16:05:41Z",
+    "first_published": "2026-10-14T21:43:00Z",
+    "updated_at": "2026-10-15T16:05:41Z"
+  },
+  {
+    "id": "nx-s1ngularity-ai-malware-supply-chain",
+    "date": "2025-08-26",
+    "title": "s1ngularity: AI-powered malware in the Nx supply chain attack",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "Nx package users and their developer environments",
+    "loss_usd": null,
+    "summary": "Supply chain attack on Nx used AI-powered malware; Wiz analysed how the malware performed, the incident's impact and new TTPs.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Technology & AI vendors",
+    "attribution": "Unknown",
+    "motive": "Unknown",
+    "vector": "Compromise of the Nx software supply chain delivering AI-powered malware",
+    "root_cause": "Unknown from the summary",
+    "impact": "Wiz calculated incident impact; no figures are given in the summary.",
+    "response": "Wiz shared novel TTPs for further investigation.",
+    "status": "under investigation",
+    "cve": null,
+    "confidence": 0.55,
+    "source": "Wiz Research",
+    "url": "https://www.wiz.io/blog/s1ngularitys-aftermath",
+    "sources": [
+      {
+        "name": "Wiz Research",
+        "url": "https://www.wiz.io/blog/s1ngularitys-aftermath"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2025-08-26",
+        "event": "Reported by Wiz Research"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-15T16:05:41Z",
+    "wire_id": "82d293cbb6b0",
+    "first_seen": "2026-10-15T16:05:41Z",
+    "first_published": "2025-09-03T14:13:55Z",
+    "updated_at": "2026-10-15T16:05:41Z"
+  },
+  {
+    "id": "deepseek-exposed-database-chat-leak",
+    "date": "2025-01-29",
+    "title": "Exposed DeepSeek database leaks chat history and sensitive logs",
+    "category": "Model & data leak",
+    "direction": "on-ai",
+    "severity": "high",
+    "country": "CN",
+    "region": "Asia-Pacific",
+    "target": "DeepSeek internal database",
+    "loss_usd": null,
+    "summary": "Wiz Research found a publicly accessible DeepSeek database with full control over operations, exposing chat history and over a million lines of sensitive log streams.",
+    "actor": "Unknown",
+    "actor_type": "accident",
+    "sector": "Technology & AI vendors",
+    "attribution": "Discovered by Wiz Research; no malicious actor identified in the summary.",
+    "motive": "Not applicable; apparent exposure rather than a deliberate attack",
+    "vector": "Publicly accessible database allowing full control of database operations",
+    "root_cause": "Database left publicly accessible without authentication; exact cause not stated in the summary.",
+    "impact": "Over a million lines of log streams with highly sensitive information, including chat history, were exposed; internal data was accessible.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "confidence": 0.7,
+    "source": "Wiz Research",
+    "url": "https://www.wiz.io/blog/wiz-research-uncovers-exposed-deepseek-database-leak",
+    "sources": [
+      {
+        "name": "Wiz Research",
+        "url": "https://www.wiz.io/blog/wiz-research-uncovers-exposed-deepseek-database-leak"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2025-01-29",
+        "event": "Reported by Wiz Research"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-15T16:05:41Z",
+    "wire_id": "2d80cae7fd60",
+    "first_seen": "2026-10-15T16:05:41Z",
+    "first_published": "2025-01-29T20:47:40Z",
+    "updated_at": "2026-10-15T16:05:41Z"
+  },
+  {
+    "id": "ultralytics-pypi-cryptomining-compromise",
+    "date": "2024-12-05",
+    "title": "Ultralytics AI library hacked via GitHub Actions to push cryptominer",
+    "category": "AI supply chain",
+    "direction": "on-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "Ultralytics library and PyPI users",
+    "loss_usd": null,
+    "summary": "A supply chain attack exploited GitHub Actions to inject malicious Ultralytics packages on PyPI that carried cryptomining.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Technology & AI vendors",
+    "attribution": "Unknown",
+    "motive": "Cryptomining",
+    "vector": "Exploitation of GitHub Actions to publish malicious PyPI packages",
+    "root_cause": "GitHub Actions weakness in the project's build/release pipeline; specifics not given in the summary.",
+    "impact": "Malicious packages carrying cryptomining reached PyPI; scale not stated.",
+    "response": "Wiz published mitigation steps.",
+    "status": "under investigation",
+    "cve": null,
+    "confidence": 0.7,
+    "source": "Wiz Research",
+    "url": "https://www.wiz.io/blog/ultralytics-ai-library-hacked-via-github-for-cryptomining",
+    "sources": [
+      {
+        "name": "Wiz Research",
+        "url": "https://www.wiz.io/blog/ultralytics-ai-library-hacked-via-github-for-cryptomining"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2024-12-05",
+        "event": "Reported by Wiz Research"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-15T16:05:41Z",
+    "wire_id": "55e50a2184f5",
+    "first_seen": "2026-10-15T16:05:41Z",
+    "first_published": "2024-12-09T15:56:01Z",
+    "updated_at": "2026-10-15T16:05:41Z"
   }
 ]
