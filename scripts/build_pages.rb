@@ -8,6 +8,7 @@
 #   site/cases/glossary/                       plain-language definitions of the nine incident types (and per language)
 #   site/about/                                method, severity scale, verified-vs-wire, licence, corrections, contact (and per language)
 #   site/cases/feed.xml (+ per language)       RSS of verified case files
+#   site/cases/<old-id>/index.html             redirect pages for merged case files (config/redirects.json, and per language)
 #   site/sitemap.xml, site/llms.txt
 # Output is deterministic: same inputs give byte-identical files, so the robot
 # can run it every 30 minutes without producing noise commits.
@@ -827,6 +828,35 @@ LANGS.each do |lang|
   write.("#{pre(lang)}/cases/glossary/index.html", glossary_page(lang, glossary_cats, cat_counts))
   write.("#{pre(lang)}/about/index.html", about_page(lang, incidents.first))
   write.("#{pre(lang)}/cases/feed.xml", feed(avail, lang))
+end
+
+# Redirects for case files that were merged into another (config/redirects.json: old id => kept id).
+# The old URLs are still linked from feeds, search results and other sites, so each gets a small
+# page that sends readers and crawlers to the kept file. Rewritten on every run, not in the sitemap.
+redirects_path = File.join(ROOT, "config", "redirects.json")
+redirects = File.exist?(redirects_path) ? JSON.parse(File.read(redirects_path, encoding: "UTF-8")) : {}
+ids = incidents.map { |i| i["id"] }
+redirects.each do |old_id, new_id|
+  abort "build_pages: redirect source #{old_id} is still a case file" if ids.include?(old_id)
+  abort "build_pages: redirect target #{new_id} is not a case file" unless ids.include?(new_id)
+  LANGS.each do |lang|
+    to = case_url(lang, new_id)
+    write.("#{pre(lang)}/cases/#{old_id}/index.html", <<~HTML)
+      <!doctype html>
+      <html lang="#{lang}"#{RTL.include?(lang) ? ' dir="rtl"' : ''}>
+      <head>
+      <meta charset="utf-8">
+      <title>AI Threat Watch: #{h(new_id)}</title>
+      <meta name="robots" content="noindex">
+      <meta http-equiv="refresh" content="0; url=#{h(to)}">
+      <link rel="canonical" href="#{h(to)}">
+      </head>
+      <body>
+      <p>This case file was merged into <a href="#{h(to)}">#{h(to)}</a>.</p>
+      </body>
+      </html>
+    HTML
+  end
 end
 
 # sitemap: group alternates per logical page
