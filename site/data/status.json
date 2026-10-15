@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-15T15:05:38Z",
+  "updated_at": "2026-10-15T15:35:46Z",
   "wire_items": 599,
-  "new_items": 296,
-  "candidates": 7,
+  "new_items": 291,
+  "candidates": 9,
   "incidents": 318,
   "feeds_ok": [
     "BleepingComputer",
@@ -14,6 +14,7 @@
     "CyberScoop",
     "Krebs on Security",
     "WIRED Security",
+    "Help Net Security",
     "Infosecurity Magazine",
     "TechCrunch Security",
     "Unit 42",
@@ -56,7 +57,7 @@
     "FBI IC3 alerts"
   ],
   "feeds_failed": [
-    "Help Net Security"
+
   ],
-  "triage": "triaged 641 items with claude-sonnet-5-5 in 26 batches (0 failed); kept 296"
+  "triage": "triaged 638 items with claude-sonnet-5-5 in 25 batches (1 failed: no JSON (stop=refusal): [\n{\"i\":425,\"keep\":false,\"kind\":\"other\",\"tag\":\"Red team tips\",\"one_line\":\"Blog post on adding date and time to shell prompts for better red team and pentest repo); kept 291"
 }

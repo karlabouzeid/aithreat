@@ -306,5 +306,95 @@
     "first_seen": "2026-10-15T15:05:38Z",
     "first_published": "2026-03-24T18:40:52Z",
     "updated_at": "2026-10-15T15:05:38Z"
+  },
+  {
+    "id": "stow-police-flock-misuse-ex-partner",
+    "date": "2026-10-15",
+    "title": "Stow police officer accused of misusing Flock system to track former partner",
+    "category": "Model & data leak",
+    "direction": "on-ai",
+    "severity": "medium",
+    "country": "US",
+    "region": "North America",
+    "target": "Former partner of Stow, Mass. police officer",
+    "loss_usd": null,
+    "summary": "A Stow, Massachusetts officer allegedly repeatedly used police databases, reportedly including the Flock system, to obtain information on a woman he previously dated. Disciplinary action is possible.",
+    "actor": "Stow police officer (unnamed)",
+    "actor_type": "insider",
+    "sector": "Individuals & consumers",
+    "attribution": "The department's own review found the officer repeatedly used police databases to look up the woman.",
+    "motive": "Apparently personal interest in a former partner.",
+    "vector": "Insider misuse of authorised access to police databases and the Flock system.",
+    "root_cause": "An insider with legitimate access to surveillance and police databases used it for a personal purpose.",
+    "impact": "The woman was tracked and had her information obtained without authorisation. She asked to remain anonymous.",
+    "response": "The department found the misuse; the officer faces possible disciplinary action.",
+    "status": "under investigation",
+    "cve": null,
+    "confidence": 0.4,
+    "source": "AI Incident Database",
+    "url": "https://www.boston25news.com/news/local/stow-police-officer-accused-misusing-flock-system-track-former-partner/RJI4V5NGRNGPLK5SKNFKHSBSCY",
+    "sources": [
+      {
+        "name": "AI Incident Database",
+        "url": "https://www.boston25news.com/news/local/stow-police-officer-accused-misusing-flock-system-track-former-partner/RJI4V5NGRNGPLK5SKNFKHSBSCY"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-15",
+        "event": "Reported by AI Incident Database"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-15T15:35:46Z",
+    "wire_id": "729b606bb441",
+    "first_seen": "2026-10-15T15:35:46Z",
+    "first_published": "2026-10-01T00:00:00Z",
+    "updated_at": "2026-10-15T15:35:46Z"
+  },
+  {
+    "id": "claude-code-npm-source-leak",
+    "date": "2026-03-31",
+    "title": "Anthropic accidentally leaks Claude Code source via npm; actors weaponize it",
+    "category": "Model & data leak",
+    "direction": "on-ai",
+    "severity": "medium",
+    "country": "US",
+    "region": "North America",
+    "target": "Anthropic Claude Code",
+    "loss_usd": null,
+    "summary": "Anthropic accidentally exposed the full source code of Claude Code, its terminal-based coding agent, via npm. Zscaler ThreatLabz reports threat actors are weaponizing the leak.",
+    "actor": "Anthropic (accidental exposure); unnamed actors weaponizing the leak",
+    "actor_type": "accident",
+    "sector": "Technology & AI vendors",
+    "attribution": "Exposure was accidental on Anthropic's side; the actors weaponizing the leak are not identified in the summary.",
+    "motive": "Unknown for the leak itself (accidental); follow-on abuse by threat actors.",
+    "vector": "Source code exposed through an npm package published by Anthropic.",
+    "root_cause": "Accidental exposure of full source via an npm release; exact mechanism not stated in the summary.",
+    "impact": "Full source of the Claude Code terminal agent was exposed, and threat actors are reportedly weaponizing it.",
+    "response": "Zscaler ThreatLabz issued an alert with protection guidance; Anthropic's response is not stated.",
+    "status": "ongoing",
+    "cve": null,
+    "confidence": 0.75,
+    "source": "Zscaler ThreatLabz",
+    "url": "https://www.zscaler.com/blogs/security-research/anthropic-claude-code-leak",
+    "sources": [
+      {
+        "name": "Zscaler ThreatLabz",
+        "url": "https://www.zscaler.com/blogs/security-research/anthropic-claude-code-leak"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-03-31",
+        "event": "Reported by Zscaler ThreatLabz"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-15T15:35:46Z",
+    "wire_id": "653ed54bf319",
+    "first_seen": "2026-10-15T15:35:46Z",
+    "first_published": "2026-04-01T20:45:48Z",
+    "updated_at": "2026-10-15T15:35:46Z"
   }
 ]

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T15:16:58Z",
+  "generated_at": "2026-10-15T15:43:58Z",
   "total": 318,
   "trend_from": "2025-01-01",
   "this_quarter": {
@@ -280,9 +280,9 @@
       "anthropic-eval-claude-pypi-malware",
       "rubygems-openai-agent-swarm",
       "openai-agent-hacks-australia-medicare",
-      "aisi-eval-agent-attacks-third-parties",
+      "meta-ai-model-exploits-flaw-in-eval",
       "gemini-breakout-hacks-three-companies",
-      "meta-ai-model-exploits-flaw-in-eval"
+      "aisi-eval-agent-attacks-third-parties"
     ]
   },
   "actors": [
@@ -474,11 +474,11 @@
       "n": 67
     },
     {
-      "country": "IL",
+      "country": "CN",
       "n": 7
     },
     {
-      "country": "CN",
+      "country": "IL",
       "n": 7
     },
     {
@@ -486,7 +486,15 @@
       "n": 5
     },
     {
-      "country": "IN",
+      "country": "TW",
+      "n": 4
+    },
+    {
+      "country": "ZA",
+      "n": 4
+    },
+    {
+      "country": "GB",
       "n": 4
     },
     {
@@ -498,15 +506,7 @@
       "n": 4
     },
     {
-      "country": "TW",
-      "n": 4
-    },
-    {
-      "country": "GB",
-      "n": 4
-    },
-    {
-      "country": "ZA",
+      "country": "IN",
       "n": 4
     },
     {
@@ -719,10 +719,10 @@
       "kinds": {
         "incident": 5,
         "vulnerability": 3,
-        "research": 20,
+        "research": 21,
         "vendor-report": 8,
-        "policy": 2,
-        "other": 12,
+        "policy": 3,
+        "other": 13,
         "untagged": 0
       }
     }
