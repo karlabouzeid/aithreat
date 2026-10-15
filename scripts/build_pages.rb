@@ -730,6 +730,9 @@ def glossary_page(lang, cats, counts)
 end
 
 # ---------- about / method ----------
+HF_URL = "https://huggingface.co/datasets/karlabouzeid/ai-security-incidents"
+MIRRORS_H = {"en"=>"Downloads and mirrors", "fr"=>"Téléchargements et miroirs", "es"=>"Descargas y réplicas", "ar"=>"التنزيلات والنسخ", "zh"=>"下载与镜像"}.freeze
+
 def about_page(lang, newest_en)
   path = "#{pre(lang)}/about/"
   url = BASE + path
@@ -757,7 +760,7 @@ def about_page(lang, newest_en)
       <section class="sec"><h2>#{h(t(lang, 'dt_sev_h'))}</h2><ul class="srcs">#{sev_rows}</ul></section>
       <section class="sec"><h2>#{h(t(lang, 'ww'))}</h2><p>#{h(t(lang, 'ww_hint'))}</p><p>#{h(t(lang, 'ww_sub'))}</p></section>
     </div>
-    <section class="sec" id="licence"><h2>#{h(x(lang, :about_lic_h))}</h2><p>#{h(x(lang, :about_lic_p))}</p><p><a href="https://creativecommons.org/licenses/by/4.0/" rel="license noopener" target="_blank">CC BY 4.0</a></p><p>#{h(t(lang, 'dt_cite_p'))}</p><pre class="cite">#{h(x(lang, :cite_fmt, case: t(lang, 'case').downcase))}</pre><p class="lbl">#{h(x(lang, :cite_example))}:</p><pre class="cite">#{h(example)}</pre></section>
+    <section class="sec" id="licence"><h2>#{h(x(lang, :about_lic_h))}</h2><p>#{h(x(lang, :about_lic_p))}</p><p><a href="https://creativecommons.org/licenses/by/4.0/" rel="license noopener" target="_blank">CC BY 4.0</a></p><p><span class="lbl">#{h(MIRRORS_H[lang] || MIRRORS_H['en'])}: </span><a href="/data/incidents.en.json">JSON</a> · <a href="#{HF_URL}" rel="noopener" target="_blank">Hugging Face</a> · <a href="#{REPO}" rel="noopener" target="_blank">GitHub</a></p><p>#{h(t(lang, 'dt_cite_p'))}</p><pre class="cite">#{h(x(lang, :cite_fmt, case: t(lang, 'case').downcase))}</pre><p class="lbl">#{h(x(lang, :cite_example))}:</p><pre class="cite">#{h(example)}</pre></section>
     <section class="sec" id="corrections"><h2>#{h(x(lang, :about_corr_h))}</h2><p>#{h(x(lang, :about_corr_p))}</p><p><a href="#{CHANGELOG_URL}" rel="noopener" target="_blank">#{h(x(lang, :changelog))}</a></p></section>
     <section class="sec" id="contact"><h2>#{h(x(lang, :about_contact_h))}</h2><p>#{h(t(lang, 'dt_contact'))}</p><p>#{h(x(lang, :about_contact_p))} <a href="#{ISSUES_URL}" rel="noopener" target="_blank">#{h(x(lang, :github_issues))}</a></p></section>
     <p class="langs">#{h(t(lang, 'lang'))}: #{lang_links(lang, alternates)}</p>
