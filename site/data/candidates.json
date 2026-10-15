@@ -2180,5 +2180,93 @@
     "first_seen": "2026-05-29T07:05:31Z",
     "first_published": "2026-05-29T07:05:31Z",
     "updated_at": "2026-10-15T09:34:44Z"
+  },
+  {
+    "id": "ai-women-singapore-tiktok-disinfo",
+    "date": "2026-10-15",
+    "title": "AI-generated women spread disinformation about Singapore on TikTok",
+    "category": "State actor AI ops",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "SG",
+    "region": "Asia-Pacific",
+    "target": "Singapore public discourse via TikTok",
+    "loss_usd": null,
+    "summary": "CNA reports that AI-generated female personas are spreading disinformation about Singapore on TikTok.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "attribution": "Unknown; the headline does not name an operator.",
+    "motive": "Unknown; the headline says only that the accounts spread disinformation about Singapore.",
+    "vector": "AI-generated female personas posting on TikTok.",
+    "root_cause": "Unknown",
+    "impact": "Disinformation about Singapore is reaching TikTok audiences; the scale is not stated.",
+    "response": "Unknown",
+    "status": "unresolved",
+    "cve": null,
+    "confidence": 0.4,
+    "source": "channelnewsasia.com via Hacker News",
+    "url": "https://www.channelnewsasia.com/singapore/tiktok-ai-women-disinformation-deepfake-presenters-6250271",
+    "sources": [
+      {
+        "name": "channelnewsasia.com via Hacker News",
+        "url": "https://www.channelnewsasia.com/singapore/tiktok-ai-women-disinformation-deepfake-presenters-6250271"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-15",
+        "event": "Reported by channelnewsasia.com via Hacker News"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-15T12:40:36Z",
+    "wire_id": "3d7dcd9bb2af",
+    "first_seen": "2026-10-15T12:40:36Z",
+    "first_published": "2026-07-16T01:40:12Z",
+    "updated_at": "2026-10-15T12:40:36Z"
+  },
+  {
+    "id": "high-school-deepfakes-404media",
+    "date": "2026-10-15",
+    "title": "Deepfakes tear apart a high school community, per 404 Media",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "High school students and community",
+    "loss_usd": null,
+    "summary": "404 Media reports that deepfakes disrupted and divided a high school. Location, perpetrators and details are not given in the headline.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "attribution": "Unknown",
+    "motive": "Unknown",
+    "vector": "Deepfake media targeting people at a high school.",
+    "root_cause": "Unknown",
+    "impact": "A high school community was seriously disrupted; the number of victims is not stated.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "confidence": 0.3,
+    "source": "404media.co via Hacker News",
+    "url": "https://www.404media.co/radnor-high-school-pennsylvania-ai-deepfakes-child-sexual-abuse-material",
+    "sources": [
+      {
+        "name": "404media.co via Hacker News",
+        "url": "https://www.404media.co/radnor-high-school-pennsylvania-ai-deepfakes-child-sexual-abuse-material"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-15",
+        "event": "Reported by 404media.co via Hacker News"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-15T12:40:36Z",
+    "wire_id": "484fee2a07c9",
+    "first_seen": "2026-10-15T12:40:36Z",
+    "first_published": "2026-05-22T07:52:15Z",
+    "updated_at": "2026-10-15T12:40:36Z"
   }
 ]
