@@ -1,56 +1,56 @@
 {
-  "generated_at": "2026-10-15T12:52:09Z",
+  "generated_at": "2026-10-15T13:05:37Z",
   "categories": [
     {
       "name": "AI phishing",
       "slug": "ai-phishing",
-      "count": 12
+      "count": 16
     },
     {
       "name": "AI supply chain",
       "slug": "ai-supply-chain",
-      "count": 36
+      "count": 45
     },
     {
       "name": "AI-assisted malware",
       "slug": "ai-assisted-malware",
-      "count": 33
+      "count": 44
     },
     {
       "name": "Agent hijack",
       "slug": "agent-hijack",
-      "count": 21
+      "count": 23
     },
     {
       "name": "Deepfake fraud",
       "slug": "deepfake-fraud",
-      "count": 88
+      "count": 82
     },
     {
       "name": "LLMjacking",
       "slug": "llmjacking",
-      "count": 13
+      "count": 14
     },
     {
       "name": "Model & data leak",
       "slug": "model-data-leak",
-      "count": 40
+      "count": 37
     },
     {
       "name": "Prompt injection",
       "slug": "prompt-injection",
-      "count": 24
+      "count": 27
     },
     {
       "name": "State actor AI ops",
       "slug": "state-actor-ai-ops",
-      "count": 28
+      "count": 30
     }
   ],
   "countries": [
     {
       "code": "AE",
-      "count": 2
+      "count": 1
     },
     {
       "code": "AR",
@@ -62,7 +62,7 @@
     },
     {
       "code": "AU",
-      "count": 1
+      "count": 2
     },
     {
       "code": "BD",
@@ -70,7 +70,7 @@
     },
     {
       "code": "BR",
-      "count": 4
+      "count": 3
     },
     {
       "code": "CL",
@@ -94,11 +94,11 @@
     },
     {
       "code": "ES",
-      "count": 1
+      "count": 2
     },
     {
       "code": "FI",
-      "count": 2
+      "count": 1
     },
     {
       "code": "FR",
@@ -106,7 +106,7 @@
     },
     {
       "code": "GB",
-      "count": 3
+      "count": 4
     },
     {
       "code": "GH",
@@ -114,7 +114,7 @@
     },
     {
       "code": "GL",
-      "count": 120
+      "count": 141
     },
     {
       "code": "GR",
@@ -161,8 +161,12 @@
       "count": 2
     },
     {
+      "code": "KP",
+      "count": 1
+    },
+    {
       "code": "KR",
-      "count": 4
+      "count": 5
     },
     {
       "code": "KW",
@@ -206,7 +210,7 @@
     },
     {
       "code": "QA",
-      "count": 2
+      "count": 1
     },
     {
       "code": "RU",
@@ -214,7 +218,7 @@
     },
     {
       "code": "SE",
-      "count": 5
+      "count": 4
     },
     {
       "code": "SG",
@@ -230,7 +234,7 @@
     },
     {
       "code": "TW",
-      "count": 3
+      "count": 4
     },
     {
       "code": "UA",
@@ -238,7 +242,7 @@
     },
     {
       "code": "US",
-      "count": 66
+      "count": 67
     },
     {
       "code": "UY",
