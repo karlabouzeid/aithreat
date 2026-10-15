@@ -280,6 +280,7 @@ if api_key && !fresh.empty?
         d["sources"] = [{ "name" => w["source"], "url" => w["url"] }]
         d["timeline"] = [{ "date" => d["date"], "event" => "Reported by #{w['source']}" }]
         d["verified"] = false; d["drafted_at"] = now.iso8601; d["wire_id"] = w["id"]
+        d["first_seen"] = w["seen"]; d["first_published"] = w["published"]; d["updated_at"] = now.iso8601
         d["confidence"] = d["confidence"].to_f
         candidates << d
         w["candidate_id"] = d["id"]
@@ -303,7 +304,9 @@ approved, rejected = read_ids.(APPROVED_PATH), read_ids.(REJECTED_PATH)
 promoted = candidates.select { |c| approved.include?(c["id"]) }
 promoted.each do |c|
   next if incidents.any? { |i| i["id"] == c["id"] }
-  inc = c.reject { |k, _| %w[verified drafted_at wire_id confidence].include?(k) }
+  inc = c.reject { |k, _| %w[verified wire_id confidence first_published].include?(k) }
+  inc["verified_at"] = now.iso8601; inc["updated_at"] = now.iso8601
+  inc["verification"] ||= "reported"
   incidents << inc
   log "promoted to verified: #{c['id']}"
 end
@@ -325,6 +328,28 @@ rss_items = wire.first(60).map do |w|
   "<item><title>#{esc.(w['title'])}</title><link>#{esc.(w['url'])}</link><guid isPermaLink=\"false\">#{w['id']}</guid><pubDate>#{Time.parse(w['published']).rfc2822}</pubDate><category>#{esc.(w['kind'] || 'untagged')}</category><description>#{esc.("#{w['source']}: #{desc}")}</description></item>"
 end
 File.write(File.join(SITE, "feed.xml"), %(<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>AI Threat Watch wire</title><link>https://aithreat.io/#wire</link><description>AI security headlines from vetted sources, refreshed every 30 minutes.</description><lastBuildDate>#{now.rfc2822}</lastBuildDate>#{rss_items.join}</channel></rss>))
+
+# ---------- alert feeds ----------
+SITE_URL = "https://aithreat.io"
+def write_rss(path, title, desc, items)
+  esc = ->(s) { s.to_s.gsub("&", "&amp;").gsub("<", "&lt;").gsub(">", "&gt;").gsub('"', "&quot;") }
+  body = items.map { |i| "<item><title>#{esc.(i[:title])}</title><link>#{esc.(i[:link])}</link><guid isPermaLink=\"false\">#{esc.(i[:guid])}</guid><pubDate>#{i[:date].rfc2822}</pubDate>#{i[:category] ? "<category>#{esc.(i[:category])}</category>" : ''}<description>#{esc.(i[:desc])}</description></item>" }.join
+  FileUtils.mkdir_p(File.dirname(path))
+  File.write(path, %(<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>#{esc.(title)}</title><link>#{SITE_URL}/</link><description>#{esc.(desc)}</description><lastBuildDate>#{Time.now.utc.rfc2822}</lastBuildDate>#{body}</channel></rss>))
+end
+require "fileutils"
+case_item = ->(i) { { title: "[#{i['severity'].to_s.upcase}] #{i['title']}", link: "#{SITE_URL}/cases/#{i['id']}/", guid: "case-#{i['id']}", date: (Time.parse(i['verified_at'] || i['date'].to_s + 'T12:00:00Z').utc rescue now), category: i["category"], desc: "#{i['summary']} Target: #{i['target']}. #{i['country']}. Verification: #{i['verification'] || 'confirmed'}." } }
+draft_item = ->(c) { { title: "[DEVELOPING] #{c['title']}", link: "#{SITE_URL}/##{c['id']}", guid: "draft-#{c['id']}", date: (Time.parse(c['drafted_at']).utc rescue now), category: c["category"], desc: "Unverified, auto-drafted from #{c['source']}. #{c['summary']} Source: #{c['url']}" } }
+wire_item = ->(w) { { title: w["title"], link: w["url"], guid: w["id"], date: (Time.parse(w["seen"] || w["published"]).utc rescue now), category: w["kind"], desc: "#{w['source']}: #{w['one_line'] || w['summary']}" } }
+recent_cases = incidents.sort_by { |i| i["verified_at"] || i["date"] }.reverse
+write_rss(File.join(SITE, "feeds", "critical.xml"), "AI Threat Watch: critical and high severity cases", "Verified case files rated critical or high.", recent_cases.select { |i| %w[critical high].include?(i["severity"]) }.first(50).map(&case_item))
+write_rss(File.join(SITE, "feeds", "cases.xml"), "AI Threat Watch: all verified cases", "Every verified case file, newest first.", recent_cases.first(100).map(&case_item))
+write_rss(File.join(SITE, "feeds", "threats.xml"), "AI Threat Watch: threats on the wire", "Headlines the robot classified as incidents or exploited flaws, refreshed every 30 minutes.", wire.select { |w| %w[incident vulnerability].include?(w["kind"]) }.first(80).map(&wire_item))
+write_rss(File.join(SITE, "feeds", "drafts.xml"), "AI Threat Watch: developing (unverified drafts)", "Auto-drafted case files awaiting editorial review.", candidates.sort_by { |c| c["drafted_at"] }.reverse.first(50).map(&draft_item))
+slug = ->(s) { s.to_s.downcase.gsub(/[^a-z0-9]+/, "-").gsub(/^-|-$/, "") }
+recent_cases.group_by { |i| i["category"] }.each { |cat, items| write_rss(File.join(SITE, "feeds", "category", "#{slug.(cat)}.xml"), "AI Threat Watch: #{cat}", "Verified case files in the category #{cat}.", items.first(50).map(&case_item)) }
+recent_cases.group_by { |i| i["country"] }.each { |cc, items| write_rss(File.join(SITE, "feeds", "country", "#{cc}.xml"), "AI Threat Watch: #{cc}", "Verified case files located in #{cc}.", items.first(50).map(&case_item)) }
+File.write(File.join(SITE, "feeds", "index.json"), JSON.pretty_generate({ "generated_at" => now.iso8601, "categories" => recent_cases.map { |i| i["category"] }.uniq.sort.map { |c| { "name" => c, "slug" => slug.(c), "count" => recent_cases.count { |i| i["category"] == c } } }, "countries" => recent_cases.map { |i| i["country"] }.uniq.sort.map { |c| { "code" => c, "count" => recent_cases.count { |i| i["country"] == c } } } }))
 
 status = { "updated_at" => now.iso8601, "wire_items" => wire.size, "new_items" => fresh.size, "candidates" => candidates.size, "incidents" => incidents.size, "feeds_ok" => feeds_ok, "feeds_failed" => feeds_failed, "triage" => triage_note }
 File.write(STATUS_PATH, JSON.pretty_generate(status))
