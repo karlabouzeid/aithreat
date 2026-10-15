@@ -86,5 +86,137 @@
     "first_seen": "2026-10-15T12:40:36Z",
     "first_published": "2026-05-22T07:52:15Z",
     "updated_at": "2026-10-15T12:40:36Z"
+  },
+  {
+    "id": "cooke-van-orden-political-deepfakes",
+    "date": "2026-10-15",
+    "title": "Cooke campaign sends cease-and-desist to Rep. Van Orden over AI deepfake videos",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "low",
+    "country": "US",
+    "region": "North America",
+    "target": "Rebecca Cooke, congressional candidate (Wisconsin)",
+    "loss_usd": null,
+    "summary": "Attorneys for Democratic candidate Rebecca Cooke sent a cease-and-desist letter to Rep. Derrick Van Orden over his use of deepfake videos ahead of the November election.",
+    "actor": "Rep. Derrick Van Orden (alleged)",
+    "actor_type": "unknown",
+    "attribution": "Alleged by the Cooke campaign's attorneys in a cease-and-desist letter; not independently confirmed in the summary.",
+    "motive": "Political advantage in the November congressional race (alleged).",
+    "vector": "Deepfake videos of the opposing candidate.",
+    "root_cause": "Unknown",
+    "impact": "Deepfake videos depicting a congressional candidate circulated during an election campaign.",
+    "response": "Cooke campaign attorneys sent a cease-and-desist letter to Van Orden.",
+    "status": "ongoing",
+    "cve": null,
+    "confidence": 0.5,
+    "source": "AI Incident Database",
+    "url": "https://www.wpr.org/news/cooke-cease-and-desist-letter-van-orden-ai-deepfakes",
+    "sources": [
+      {
+        "name": "AI Incident Database",
+        "url": "https://www.wpr.org/news/cooke-cease-and-desist-letter-van-orden-ai-deepfakes"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-15",
+        "event": "Reported by AI Incident Database"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-15T13:35:40Z",
+    "wire_id": "17ef900006eb",
+    "first_seen": "2026-10-15T13:35:40Z",
+    "first_published": "2026-10-01T00:00:00Z",
+    "updated_at": "2026-10-15T13:35:40Z"
+  },
+  {
+    "id": "ai-built-clickfix-smartrat-7be4",
+    "date": "2026-10-15",
+    "title": "AI-built typosquat sites deliver SmartRAT via ClickFix",
+    "category": "AI phishing",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "Users visiting typosquatted domains",
+    "loss_usd": null,
+    "summary": "Zscaler ThreatLabz observed typosquatting domains in March 2026 hosting lure content made with AI website-creation tools, running a ClickFix campaign that delivers SmartRAT.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "attribution": "Not stated in the summary; described only as threat actors using AI website builders.",
+    "motive": "Unknown",
+    "vector": "Typosquatted domains with AI-generated lure pages using ClickFix to deliver the SmartRAT malware.",
+    "root_cause": "AI website builders let attackers quickly create convincing lures at scale.",
+    "impact": "Unknown; the summary gives no victim counts or losses.",
+    "response": "Zscaler ThreatLabz observed and analysed the campaign.",
+    "status": "under investigation",
+    "cve": null,
+    "confidence": 0.5,
+    "source": "Zscaler ThreatLabz",
+    "url": "https://www.zscaler.com/blogs/security-research/clickfix-campaign-generated-ai-delivers-smartrat",
+    "sources": [
+      {
+        "name": "Zscaler ThreatLabz",
+        "url": "https://www.zscaler.com/blogs/security-research/clickfix-campaign-generated-ai-delivers-smartrat"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-15",
+        "event": "Reported by Zscaler ThreatLabz"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-15T13:35:40Z",
+    "wire_id": "7be4bdd16bb8",
+    "first_seen": "2026-10-15T13:35:40Z",
+    "first_published": "2026-06-17T17:58:25Z",
+    "updated_at": "2026-10-15T13:35:40Z"
+  },
+  {
+    "id": "langflow-cve-2026-9198-kev",
+    "date": "2026-10-15",
+    "title": "Langflow code injection RCE (CVE-2026-9198) added to CISA KEV as actively exploited",
+    "category": "AI supply chain",
+    "direction": "on-ai",
+    "severity": "critical",
+    "country": "GL",
+    "region": "Global",
+    "target": "Langflow AI workflow platform default deployments",
+    "loss_usd": null,
+    "summary": "CISA lists a Langflow code injection flaw that lets unauthenticated attackers get full remote code execution on default deployments as actively exploited.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "attribution": "Not stated in the CISA KEV entry.",
+    "motive": "Unknown",
+    "vector": "Unauthenticated code injection against default Langflow deployments, giving remote code execution.",
+    "root_cause": "Code injection vulnerability in Langflow that can be reached without authentication on default configurations.",
+    "impact": "Full remote code execution on exposed default Langflow instances. Number of victims is not stated.",
+    "response": "CISA added CVE-2026-9198 to the Known Exploited Vulnerabilities catalog.",
+    "status": "ongoing",
+    "cve": "CVE-2026-9198",
+    "confidence": 0.6,
+    "source": "CISA KEV",
+    "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-9198",
+    "sources": [
+      {
+        "name": "CISA KEV",
+        "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-9198"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-15",
+        "event": "Reported by CISA KEV"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-15T13:35:40Z",
+    "wire_id": "227a87e98eb0",
+    "first_seen": "2026-10-15T13:35:40Z",
+    "first_published": "2026-08-04T00:00:00Z",
+    "updated_at": "2026-10-15T13:35:40Z"
   }
 ]
