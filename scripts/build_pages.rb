@@ -912,7 +912,7 @@ llm << "- [Interactive world map](#{BASE}/): the same cases on a map with filter
 llm << "- [Live wire](#{BASE}/#wire): AI security headlines from vetted sources, refreshed every 30 minutes (machine-triaged, not verified)"
 llm << "- [Market reaction](#{BASE}/#markets): share-price moves of listed companies after incidents (methodology on the page)"
 llm << "- [Data and citing](#{BASE}/#data): download links, field list, inclusion rule, severity scale"
-llm << "- [Why this exists](#{BASE}/why/): the founder's statement of purpose: AI's benefits are worth defending, the harm is documented and happening now, incidents were scattered so victims started from zero; who the registry serves; independent, no vendor money"
+llm << "- [Why this exists](#{BASE}/why/): the founder's statement of purpose: AI's benefits are worth defending, the harm is documented and happening now, incidents were scattered so victims started from zero; who the registry serves; independent, nobody pays for content"
 llm << "- [About and method](#{BASE}/about/): inclusion rule, severity scale, verified case files versus the machine-triaged wire, CC BY 4.0 licence and citation format, corrections policy (public change log, no silent edits), contact"
 llm << "- [Glossary of incident types](#{BASE}/cases/glossary/): plain-language definitions of the nine categories, each linked to its cases"
 llm << "- Company hubs: #{BASE}/cases/company/<slug>/ lists the cases in which one company or product was the target (see the list below)"

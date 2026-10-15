@@ -15,7 +15,7 @@ WHY = {
     why_5h: "Who it is for",
     why_5p: "Journalists who need a verifiable record before they publish. Security teams who want to know which technique is being used against organisations like theirs this week. Finance and risk executives who have to price the exposure. Researchers and policymakers who need a dataset rather than anecdotes. And every community that deserves a warning before the disaster, not an explanation after it.",
     why_6h: "Who is behind it",
-    why_6p: "AI Threat Watch is an independent project started in 2026 by Karl Abou Zeid. It takes no money from AI vendors or security vendors. The research, triage and translations are done with AI tools and checked by a human editor; we say so because a site about the misuse of AI should be transparent about its own use of it.",
+    why_6p: "AI Threat Watch is an independent project started in 2026 by Karl Abou Zeid. It is independent: no company pays for a case file, a rating or a mention, and no incident is left out or softened for money. The research, triage and translations are done with AI tools and checked by a human editor; we say so because a site about the misuse of AI should be transparent about its own use of it.",
     why_7h: "How you can help",
     why_7p: "Report an incident we have missed, correct one we got wrong, subscribe to the alerts, reuse the data, or tell someone who needs it. Every contribution makes the next attack a little less likely to succeed.",
     why_report: "Report an incident", why_about: "Method, licence and corrections", why_alerts: "Get alerts"
@@ -34,7 +34,7 @@ WHY = {
     why_5h: "À qui cela s’adresse",
     why_5p: "Aux journalistes qui ont besoin d’un registre vérifiable avant de publier. Aux équipes de sécurité qui veulent savoir quelle technique vise cette semaine des organisations comme la leur. Aux dirigeants financiers et aux responsables des risques qui doivent chiffrer l’exposition. Aux chercheurs et aux décideurs publics qui ont besoin d’un jeu de données plutôt que d’anecdotes. Et à toutes les communautés qui méritent un avertissement avant la catastrophe, pas une explication après.",
     why_6h: "Qui est derrière",
-    why_6p: "AI Threat Watch est un projet indépendant lancé en 2026 par Karl Abou Zeid. Il ne reçoit aucun financement d’éditeurs d’IA ni de fournisseurs de sécurité. La recherche, le tri et les traductions sont réalisés avec des outils d’IA et relus par un éditeur humain ; nous le disons parce qu’un site consacré aux dérives de l’IA se doit d’être transparent sur son propre usage de l’IA.",
+    why_6p: "AI Threat Watch est un projet indépendant lancé en 2026 par Karl Abou Zeid. Il est indépendant : aucune entreprise ne paie pour un dossier, une évaluation ou une mention, et aucun incident n’est omis ou adouci contre de l’argent. La recherche, le tri et les traductions sont réalisés avec des outils d’IA et relus par un éditeur humain ; nous le disons parce qu’un site consacré aux dérives de l’IA se doit d’être transparent sur son propre usage de l’IA.",
     why_7h: "Comment aider",
     why_7p: "Signalez un incident qui nous a échappé, corrigez une erreur, abonnez-vous aux alertes, réutilisez les données ou parlez-en à quelqu’un qui en a besoin. Chaque contribution rend la prochaine attaque un peu moins susceptible de réussir.",
     why_report: "Signaler un incident", why_about: "Méthode, licence et corrections", why_alerts: "Recevoir les alertes"
@@ -53,7 +53,7 @@ WHY = {
     why_5h: "Para quién es",
     why_5p: "Para periodistas que necesitan un registro verificable antes de publicar. Para equipos de seguridad que quieren saber qué técnica se está usando esta semana contra organizaciones como la suya. Para directivos financieros y de riesgos que tienen que valorar la exposición. Para investigadores y responsables públicos que necesitan un conjunto de datos y no anécdotas. Y para toda comunidad que merece un aviso antes del desastre, no una explicación después.",
     why_6h: "Quién está detrás",
-    why_6p: "AI Threat Watch es un proyecto independiente iniciado en 2026 por Karl Abou Zeid. No recibe dinero de proveedores de IA ni de seguridad. La investigación, la clasificación y las traducciones se hacen con herramientas de IA y las revisa un editor humano; lo decimos porque un sitio sobre el mal uso de la IA debe ser transparente sobre su propio uso de ella.",
+    why_6p: "AI Threat Watch es un proyecto independiente iniciado en 2026 por Karl Abou Zeid. Es independiente: ninguna empresa paga por un expediente, una calificación o una mención, y ningún incidente se omite o se suaviza por dinero. La investigación, la clasificación y las traducciones se hacen con herramientas de IA y las revisa un editor humano; lo decimos porque un sitio sobre el mal uso de la IA debe ser transparente sobre su propio uso de ella.",
     why_7h: "Cómo puede ayudar",
     why_7p: "Reporte un incidente que se nos haya escapado, corrija uno en el que nos equivocamos, suscríbase a las alertas, reutilice los datos o cuénteselo a alguien que lo necesite. Cada aportación hace que el próximo ataque tenga un poco menos de probabilidades de éxito.",
     why_report: "Reportar un incidente", why_about: "Método, licencia y correcciones", why_alerts: "Recibir alertas"
@@ -72,7 +72,7 @@ WHY = {
     why_5h: "لمن هذا الموقع",
     why_5p: "للصحفيين الذين يحتاجون سجلًا يمكن التحقق منه قبل النشر. لفرق الأمن التي تريد معرفة الأسلوب المستخدم هذا الأسبوع ضد مؤسسات مثل مؤسساتهم. للمديرين الماليين ومسؤولي المخاطر الذين عليهم تقدير حجم التعرض. للباحثين وصنّاع السياسات الذين يحتاجون مجموعة بيانات لا حكايات. ولكل مجتمع يستحق تحذيرًا قبل الكارثة، لا تفسيرًا بعدها.",
     why_6h: "من يقف خلفه",
-    why_6p: "AI Threat Watch مشروع مستقل أطلقه كارل أبو زيد عام 2026. لا يتلقى أموالًا من شركات الذكاء الاصطناعي أو شركات الأمن. يُنجز البحث والفرز والترجمة بأدوات الذكاء الاصطناعي ويراجعها محرر بشري؛ نقول ذلك لأن موقعًا عن إساءة استخدام الذكاء الاصطناعي يجب أن يكون شفافًا بشأن استخدامه هو له.",
+    why_6p: "AI Threat Watch مشروع مستقل أطلقه كارل أبو زيد عام 2026. وهو مستقل: لا تدفع أي شركة مقابل ملف أو تقييم أو ذكر، ولا تُحذف أي حادثة أو تُخفَّف مقابل المال. يُنجز البحث والفرز والترجمة بأدوات الذكاء الاصطناعي ويراجعها محرر بشري؛ نقول ذلك لأن موقعًا عن إساءة استخدام الذكاء الاصطناعي يجب أن يكون شفافًا بشأن استخدامه هو له.",
     why_7h: "كيف يمكنك المساعدة",
     why_7p: "أبلغ عن حادثة فاتتنا، أو صحّح خطأ وقعنا فيه، أو اشترك في التنبيهات، أو أعد استخدام البيانات، أو أخبر من يحتاجها. كل مساهمة تجعل نجاح الهجوم التالي أقل احتمالًا.",
     why_report: "الإبلاغ عن حادثة", why_about: "المنهجية والرخصة والتصحيحات", why_alerts: "استقبال التنبيهات"
@@ -91,7 +91,7 @@ WHY = {
     why_5h: "为谁而建",
     why_5p: "为需要在发表前核实记录的记者；为想知道本周有哪种手法正用于攻击同类机构的安全团队；为必须评估风险敞口的财务和风控高管；为需要数据集而非零散轶事的研究者和政策制定者；也为每一个应该在灾难之前得到预警、而不是在之后听取解释的社区。",
     why_6h: "谁在背后",
-    why_6p: "AI Threat Watch 是 Karl Abou Zeid 于 2026 年发起的独立项目，不接受 AI 厂商或安全厂商的资金。研究、分类和翻译借助 AI 工具完成，并由人工编辑审核；我们之所以说明这一点，是因为一个关于 AI 滥用的网站理应对自身使用 AI 的方式保持透明。",
+    why_6p: "AI Threat Watch 是 Karl Abou Zeid 于 2026 年发起的独立项目，项目保持独立：没有任何公司为案例档案、评级或提及付费，也没有任何事件因金钱而被省略或淡化。研究、分类和翻译借助 AI 工具完成，并由人工编辑审核；我们之所以说明这一点，是因为一个关于 AI 滥用的网站理应对自身使用 AI 的方式保持透明。",
     why_7h: "您可以如何帮助",
     why_7p: "报告我们遗漏的事件，纠正我们的错误，订阅提醒，复用数据，或者告诉需要它的人。每一份贡献都让下一次攻击更难得逞。",
     why_report: "报告事件", why_about: "方法、许可与更正", why_alerts: "订阅提醒"
