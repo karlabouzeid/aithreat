@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-15T21:35:36Z",
-  "wire_items": 631,
-  "new_items": 295,
-  "candidates": 17,
+  "updated_at": "2026-10-15T22:05:43Z",
+  "wire_items": 633,
+  "new_items": 306,
+  "candidates": 18,
   "incidents": 318,
   "feeds_ok": [
     "BleepingComputer",
@@ -36,6 +36,7 @@
     "ESET WeLiveSecurity",
     "Cisco Talos",
     "Zscaler ThreatLabz",
+    "Proofpoint",
     "Recorded Future",
     "Wiz Research",
     "Embrace The Red",
@@ -56,7 +57,7 @@
     "FBI IC3 alerts"
   ],
   "feeds_failed": [
-    "Proofpoint"
+
   ],
-  "triage": "triaged 651 items with claude-sonnet-5-5 in 27 batches (0 failed); kept 295"
+  "triage": "triaged 658 items with claude-sonnet-5-5 in 27 batches (0 failed); kept 306"
 }

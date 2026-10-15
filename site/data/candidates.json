@@ -756,5 +756,50 @@
     "first_seen": "2026-10-15T20:35:40Z",
     "first_published": "2026-10-14T00:00:00Z",
     "updated_at": "2026-10-15T20:35:40Z"
+  },
+  {
+    "id": "bon-jovi-impersonation-romance-scam",
+    "date": "2026-10-15",
+    "title": "Woman believes for a year she is dating Jon Bon Jovi in AI-enabled romance scam",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "low",
+    "country": "GL",
+    "region": "Global",
+    "target": "Individual woman targeted by celebrity impersonation",
+    "loss_usd": null,
+    "summary": "A woman was reportedly deceived for a year into believing she was in a relationship with Jon Bon Jovi; the report links the case to AI evolving as a tool for fraud.",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "sector": "Individuals & consumers",
+    "attribution": "Unknown; the headline does not name the perpetrators.",
+    "motive": "Likely financial fraud (romance scam); not confirmed in the headline.",
+    "vector": "Impersonation of a celebrity, reportedly using AI; exact methods are not stated.",
+    "root_cause": "Victim's trust in a convincing AI-assisted celebrity persona; details are not stated.",
+    "impact": "Victim deceived for about a year; financial loss not stated.",
+    "response": "Unknown",
+    "status": "unresolved",
+    "cve": null,
+    "confidence": 0.4,
+    "source": "El Nacional.cat",
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZVBSMDBzakVLX1gyNXVnX3BsYmhfSVA4NEtvX3hVejVyRW9UalpneU56QkNjeDlYem5MbThVd1BaYWFjMTBEa0tsTHlqRkFIN0RucTJvTlZvYmFPZml2akcyZ1AwZlVhRWJPWV8tZ3pIMXdSUk1NWWNFTU9rdkpFTUU5QnhHZDVtSGxWRlhIa1VyV3dqMU1qRXV4OEVwMVJLaTNPcUFrd19pN3FZS2VGa2ZrLXh3eVNNZXphQ1RvQ09IZXBx?oc=5",
+    "sources": [
+      {
+        "name": "El Nacional.cat",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZVBSMDBzakVLX1gyNXVnX3BsYmhfSVA4NEtvX3hVejVyRW9UalpneU56QkNjeDlYem5MbThVd1BaYWFjMTBEa0tsTHlqRkFIN0RucTJvTlZvYmFPZml2akcyZ1AwZlVhRWJPWV8tZ3pIMXdSUk1NWWNFTU9rdkpFTUU5QnhHZDVtSGxWRlhIa1VyV3dqMU1qRXV4OEVwMVJLaTNPcUFrd19pN3FZS2VGa2ZrLXh3eVNNZXphQ1RvQ09IZXBx?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-15",
+        "event": "Reported by El Nacional.cat"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-15T22:05:43Z",
+    "wire_id": "8fea0346d12a",
+    "first_seen": "2026-10-15T22:05:43Z",
+    "first_published": "2026-10-15T05:00:00Z",
+    "updated_at": "2026-10-15T22:05:43Z"
   }
 ]
