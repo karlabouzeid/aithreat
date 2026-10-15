@@ -12,6 +12,8 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 concurrency:
   group: update-wire
@@ -20,6 +22,9 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
       - uses: ruby/setup-ruby@v1
@@ -66,3 +71,15 @@ jobs:
         if: github.event_name == 'workflow_dispatch' && inputs.submit_all
         continue-on-error: true
         run: ruby scripts/indexnow.rb --all
+      # A commit made by the robot does not start other workflows, so the robot
+      # publishes the site itself. Human pushes still go through pages.yml.
+      - name: Publish the site to GitHub Pages
+        if: steps.commit.outputs.pushed == '1'
+        uses: actions/configure-pages@v5
+      - if: steps.commit.outputs.pushed == '1'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - id: deployment
+        if: steps.commit.outputs.pushed == '1'
+        uses: actions/deploy-pages@v4
