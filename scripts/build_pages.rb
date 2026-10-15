@@ -247,6 +247,8 @@ MORE = {
 LANGS.each { |l| EXTRA[l] = EXTRA[l].merge(MORE[l]) }
 require_relative "why_strings"
 LANGS.each { |l| EXTRA[l] = EXTRA[l].merge(WHY[l]) }
+require_relative "patterns_strings"
+LANGS.each { |l| EXTRA[l] = EXTRA[l].merge(PATTERNS[l]) }
 EXTRA.freeze
 REPO = "https://github.com/karlabouzeid/aithreat"
 CHANGELOG_URL = "#{REPO}/commits/main/site/data/incidents.en.json"
@@ -540,7 +542,7 @@ end
 
 def bar(lang, current)
   q = lang == "en" ? "" : "?lang=#{lang}"
-  links = [["#{'/' + q}#map", t(lang, "nav_map"), "map"], ["/#{q}#wire", t(lang, "nav_wire"), "wire"], ["/#{q}#markets", t(lang, "nav_markets"), "markets"], ["/#{q}#data", t(lang, "nav_data"), "data"], ["#{pre(lang)}/why/", t(lang, "nav_why"), "why"], ["#{pre(lang)}/cases/", x(lang, :all_cases), "cases"]]
+  links = [["#{'/' + q}#map", t(lang, "nav_map"), "map"], ["/#{q}#wire", t(lang, "nav_wire"), "wire"], ["/#{q}#markets", t(lang, "nav_markets"), "markets"], ["#{pre(lang)}/patterns/", t(lang, "nav_patterns"), "patterns"], ["/#{q}#data", t(lang, "nav_data"), "data"], ["#{pre(lang)}/why/", t(lang, "nav_why"), "why"], ["#{pre(lang)}/cases/", x(lang, :all_cases), "cases"]]
   nav = links.map { |href, label, key| %(<a href="#{h(href)}"#{key == current ? ' aria-current="page"' : ''}>#{h(label)}</a>) }.join
   %(<div class="bar"><a class="brand" href="/#{q}"><i></i>AI Threat Watch</a><nav class="views" aria-label="Sections">#{nav}</nav><div class="bar-right" id="langbar"></div></div>)
 end
@@ -615,6 +617,7 @@ def case_page(i_en, lang, prev_i, next_i)
   facts = [
     [t(lang, "reported"), date_h, nil], [t(lang, "location"), place, nil], [t(lang, "target"), i["target"], nil], [t(lang, "severity"), sev, "sev"],
     [t(lang, "triggered_by"), i["actor"], nil], [t(lang, "actor_type"), (i["actor_type"] ? tt(lang, "actor_types", i["actor_type"]) : nil), nil],
+    [x(lang, :l_sector), (present(i["sector"]) ? sector_name(lang, i["sector"]) : nil), nil],
     [t(lang, "reported_loss"), (i["loss_usd"] ? fmt_usd(i["loss_usd"]) : t(lang, "none_reported")), nil], [t(lang, "cve"), (present(i["cve"]) ? i["cve"] : t(lang, "none")), nil]
   ].map { |label, v, cls| %(<div><dt>#{h(label)}</dt><dd#{cls ? %( class="#{cls}" data-sev="#{i['severity']}") : ''}>#{h(present(v) ? v : t(lang, 'pending'))}</dd></div>) }.join
 
@@ -830,7 +833,12 @@ countries = incidents.map { |i| i["country"] || "GL" }.uniq.sort_by { |c| [c == 
 companies = incidents.map { |i| i["target"] }.select { |v| present(v) }.map(&:strip).uniq.sort_by { |c| [slug(c), c] }
 abort "build_pages: two targets produce the same company slug" if companies.map { |c| slug(c) }.uniq.size != companies.size
 
-LANGS.each { |l| FileUtils.rm_rf(File.join(SITE, pre(l).sub("/", ""), "cases")); FileUtils.rm_rf(File.join(SITE, pre(l).sub("/", ""), "about")); FileUtils.rm_rf(File.join(SITE, pre(l).sub("/", ""), "why")) }
+LANGS.each { |l| FileUtils.rm_rf(File.join(SITE, pre(l).sub("/", ""), "cases")); FileUtils.rm_rf(File.join(SITE, pre(l).sub("/", ""), "about")); FileUtils.rm_rf(File.join(SITE, pre(l).sub("/", ""), "why")); FileUtils.rm_rf(File.join(SITE, pre(l).sub("/", ""), "patterns")) }
+require_relative "build_patterns"
+pulse_hist = (JSON.parse(File.read(File.join(SITE, "data", "pulse.json"))) rescue {})
+stats = patterns_stats(incidents, pulse_hist.is_a?(Hash) ? pulse_hist : {})
+File.write(File.join(SITE, "data", "stats.json"), JSON.pretty_generate(stats))
+
 written = 0
 write = lambda do |rel, content|
   p = File.join(SITE, rel)
@@ -859,6 +867,7 @@ LANGS.each do |lang|
   write.("#{pre(lang)}/cases/glossary/index.html", glossary_page(lang, glossary_cats, cat_counts))
   write.("#{pre(lang)}/about/index.html", about_page(lang, incidents.first))
   write.("#{pre(lang)}/why/index.html", why_page(lang))
+  write.("#{pre(lang)}/patterns/index.html", patterns_page(lang, stats, incidents))
   write.("#{pre(lang)}/cases/feed.xml", feed(avail, lang))
 end
 
@@ -894,7 +903,7 @@ end
 # sitemap: group alternates per logical page
 incidents.each { |i| add_url.(case_url("en", i["id"]), Hash[langs_for(i).map { |l| [l, case_url(l, i["id"])] }]) }
 %w[fr es ar zh].each { |l| incidents.select { |i| langs_for(i).include?(l) }.each { |i| add_url.(case_url(l, i["id"]), Hash[langs_for(i).map { |m| [m, case_url(m, i["id"])] }]) } }
-list_paths = ["/cases/", "/cases/glossary/", "/about/", "/why/"] + cats.map { |c| "/cases/category/#{slug(c)}/" } + countries.map { |c| "/cases/country/#{slug(c)}/" } + companies.map { |c| "/cases/company/#{slug(c)}/" }
+list_paths = ["/cases/", "/cases/glossary/", "/about/", "/why/", "/patterns/"] + cats.map { |c| "/cases/category/#{slug(c)}/" } + countries.map { |c| "/cases/country/#{slug(c)}/" } + companies.map { |c| "/cases/company/#{slug(c)}/" }
 list_paths.each { |p| LANGS.each { |l| add_url.("#{BASE}#{pre(l)}#{p}", Hash[LANGS.map { |m| [m, "#{BASE}#{pre(m)}#{p}"] }]) } }
 File.write(File.join(SITE, "sitemap.xml"), %(<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n#{sitemap.join("\n")}\n</urlset>\n))
 
@@ -912,6 +921,7 @@ llm << "- [Interactive world map](#{BASE}/): the same cases on a map with filter
 llm << "- [Live wire](#{BASE}/#wire): AI security headlines from vetted sources, refreshed every 30 minutes (machine-triaged, not verified)"
 llm << "- [Market reaction](#{BASE}/#markets): share-price moves of listed companies after incidents (methodology on the page)"
 llm << "- [Data and citing](#{BASE}/#data): download links, field list, inclusion rule, severity scale"
+llm << "- [Patterns and statistics](#{BASE}/patterns/): trends recomputed each update from the verified case files: cases per quarter by direction (on AI vs with AI), category heat map, attacks by autonomous AI agents, actor types by year, severity mix, documented losses by category, victim sectors, countries, status and verification speed, wire volume by kind; numbers as JSON at #{BASE}/data/stats.json"
 llm << "- [Why this exists](#{BASE}/why/): the founder's statement of purpose: AI's benefits are worth defending, the harm is documented and happening now, incidents were scattered so victims started from zero; who the registry serves; independent, nobody pays for content"
 llm << "- [About and method](#{BASE}/about/): inclusion rule, severity scale, verified case files versus the machine-triaged wire, CC BY 4.0 licence and citation format, corrections policy (public change log, no silent edits), contact"
 llm << "- [Glossary of incident types](#{BASE}/cases/glossary/): plain-language definitions of the nine categories, each linked to its cases"

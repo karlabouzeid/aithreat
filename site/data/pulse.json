@@ -1,0 +1,81 @@
+{
+  "2026-10-01": {
+    "incident": 2
+  },
+  "2026-10-02": {
+    "incident": 1,
+    "policy": 1,
+    "research": 1,
+    "vendor-report": 1,
+    "vulnerability": 1
+  },
+  "2026-10-03": {
+    "policy": 1,
+    "research": 1,
+    "untagged": 4,
+    "vulnerability": 1
+  },
+  "2026-10-04": {
+    "research": 2,
+    "untagged": 3
+  },
+  "2026-10-05": {
+    "untagged": 9
+  },
+  "2026-10-06": {
+    "research": 1,
+    "untagged": 11
+  },
+  "2026-10-07": {
+    "incident": 1,
+    "other": 2,
+    "untagged": 18,
+    "vulnerability": 1
+  },
+  "2026-10-08": {
+    "incident": 1,
+    "research": 2,
+    "untagged": 14,
+    "vulnerability": 25
+  },
+  "2026-10-09": {
+    "untagged": 24
+  },
+  "2026-10-10": {
+    "untagged": 30
+  },
+  "2026-10-11": {
+    "other": 2,
+    "untagged": 1
+  },
+  "2026-10-12": {
+    "other": 5,
+    "untagged": 32
+  },
+  "2026-10-13": {
+    "incident": 1,
+    "other": 1,
+    "policy": 1,
+    "research": 4,
+    "untagged": 144,
+    "vendor-report": 1,
+    "vulnerability": 2
+  },
+  "2026-10-14": {
+    "incident": 5,
+    "other": 9,
+    "policy": 1,
+    "research": 65,
+    "untagged": 110,
+    "vendor-report": 2,
+    "vulnerability": 2
+  },
+  "2026-10-15": {
+    "incident": 5,
+    "other": 12,
+    "policy": 2,
+    "research": 20,
+    "vendor-report": 8,
+    "vulnerability": 3
+  }
+}

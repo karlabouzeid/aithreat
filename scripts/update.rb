@@ -230,7 +230,7 @@ if api_key && !fresh.empty?
     - "tag": 2-4 word label for the wire, e.g. "Prompt injection", "Deepfake fraud", "LLM data leak"
     - "one_line": one neutral sentence (<=140 chars) saying what happened, for the wire
     - "new_incident": true ONLY if kind is "incident" or an actively exploited "vulnerability", the event is specific and credible, and it is NOT already in the known list below
-    - if new_incident is true, also "draft": {"id": kebab-case slug <=40 chars, "date": "YYYY-MM-DD" (event or report date), "title": <=90 chars, "category": one of #{known_cats.to_json}, "direction": "on-ai" or "with-ai", "severity": "critical"|"high"|"medium"|"low", "country": ISO-3166 alpha-2 or "GL" for global/multi-country, "region": "North America"|"Europe"|"Asia-Pacific"|"Latin America"|"Middle East & Africa"|"Global", "target": <=60 chars, "loss_usd": number or null, "summary": <=220 chars, "actor": <=80 chars or "Unknown", "actor_type": "state"|"criminal"|"insider"|"researcher"|"hacktivist"|"accident"|"autonomous-ai"|"unknown", "attribution": <=200 chars, "motive": <=160 chars, "vector": <=200 chars, "root_cause": <=220 chars, "impact": <=260 chars, "response": <=260 chars, "status": "resolved"|"patched"|"contained"|"ongoing"|"under investigation"|"unresolved", "cve": string or null, "confidence": 0.0-1.0 (how sure you are this is a real, distinct, correctly summarised AI security incident based ONLY on the headline and summary)}
+    - if new_incident is true, also "draft": {"id": kebab-case slug <=40 chars, "date": "YYYY-MM-DD" (event or report date), "title": <=90 chars, "category": one of #{known_cats.to_json}, "direction": "on-ai" or "with-ai", "severity": "critical"|"high"|"medium"|"low", "country": ISO-3166 alpha-2 or "GL" for global/multi-country, "region": "North America"|"Europe"|"Asia-Pacific"|"Latin America"|"Middle East & Africa"|"Global", "target": <=60 chars, "loss_usd": number or null, "summary": <=220 chars, "actor": <=80 chars or "Unknown", "actor_type": "state"|"criminal"|"insider"|"researcher"|"hacktivist"|"accident"|"autonomous-ai"|"unknown", "sector": sector of the victim, one of "Financial services"|"Government & public sector"|"Technology & AI vendors"|"Healthcare"|"Media & entertainment"|"Retail & consumer brands"|"Education & research"|"Energy, industrial & infrastructure"|"Defence & security"|"Politics & elections"|"Individuals & consumers"|"Multiple / cross-sector"|"Unknown", "attribution": <=200 chars, "motive": <=160 chars, "vector": <=200 chars, "root_cause": <=220 chars, "impact": <=260 chars, "response": <=260 chars, "status": "resolved"|"patched"|"contained"|"ongoing"|"under investigation"|"unresolved", "cve": string or null, "confidence": 0.0-1.0 (how sure you are this is a real, distinct, correctly summarised AI security incident based ONLY on the headline and summary)}
     Use only facts in the headline and summary; write "Unknown" where the text does not say. Never invent numbers.
 
     Known incidents (do not duplicate):
@@ -321,6 +321,18 @@ wire.each { |w| w["seen"] = w["published"] if Time.parse(w["seen"]) - Time.parse
 wire = wire.sort_by { |w| [w["seen"], w["published"]] }.reverse.first(MAX_WIRE)
 File.write(WIRE_PATH, JSON.pretty_generate(wire))
 File.write(CAND_PATH, JSON.pretty_generate(candidates))
+# Wire pulse: how many stories of each kind were published per day (by publication date, The wire itself only
+# not discovery date). The wire itself only keeps KEEP_DAYS, so the Patterns page reads
+# this growing history instead. Days still
+# covered by the wire are recomputed (late tagging), older days are kept as they were.
+pulse_path = File.join(SITE, "data", "pulse.json")
+pulse = (JSON.parse(File.read(pulse_path)) rescue {})
+pulse = {} unless pulse.is_a?(Hash)
+wire.group_by { |w| w["published"].to_s[0, 10] }.each do |day, items|
+  next if day.empty? || day > now.strftime("%Y-%m-%d")
+  pulse[day] = items.group_by { |w| (w["kind"] || "untagged").to_s }.map { |k, v| [k, v.size] }.sort.to_h
+end
+File.write(pulse_path, JSON.pretty_generate(pulse.sort.to_h))
 File.write(INC_PATH, JSON.pretty_generate(incidents)) if promoted.any?
 esc = ->(s) { s.to_s.gsub("&", "&amp;").gsub("<", "&lt;").gsub(">", "&gt;").gsub('"', "&quot;") }
 rss_items = wire.first(60).map do |w|

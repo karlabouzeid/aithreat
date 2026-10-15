@@ -38,7 +38,8 @@
     "drafted_at": "2026-10-14T17:15:57Z",
     "verified_at": "2026-10-15T13:05:37Z",
     "updated_at": "2026-10-15T13:05:37Z",
-    "verification": "reported"
+    "verification": "reported",
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "microsoft-ai-38tb-sas-token-exposure",
@@ -79,7 +80,8 @@
     "drafted_at": "2026-10-14T17:15:57Z",
     "verified_at": "2026-10-15T13:05:37Z",
     "updated_at": "2026-10-15T13:05:37Z",
-    "verification": "reported"
+    "verification": "reported",
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "ultralytics-pypi-cryptomining",
@@ -120,7 +122,8 @@
     "drafted_at": "2026-10-14T18:14:13Z",
     "verified_at": "2026-10-15T13:05:37Z",
     "updated_at": "2026-10-15T13:05:37Z",
-    "verification": "reported"
+    "verification": "reported",
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "hk-kowloon-bay-deepfake-ring",
@@ -174,7 +177,8 @@
         "name": "The Standard (Hong Kong)",
         "url": "https://www.thestandard.com.hk/news/article/324116/Police-charge-nine-more-in-34m-deepfake-crypto-scam"
       }
-    ]
+    ],
+    "sector": "Individuals & consumers"
   },
   {
     "id": "cybertruck-chatgpt-planning",
@@ -220,7 +224,8 @@
         "name": "KOAA",
         "url": "https://www.koaa.com/news/crime/new-details-on-matthew-livelsberger-man-who-blew-up-cybertruck-in-las-vegas"
       }
-    ]
+    ],
+    "sector": "Individuals & consumers"
   },
   {
     "id": "funksec-ai-assisted-ransomware",
@@ -274,7 +279,8 @@
         "name": "Infosecurity Magazine",
         "url": "https://www.infosecurity-magazine.com/news/new-ransomware-group-uses-ai/"
       }
-    ]
+    ],
+    "sector": "Multiple / cross-sector"
   },
   {
     "id": "brazil-voiceover-mion-deepfake",
@@ -332,7 +338,8 @@
         "name": "SBT News (arrests)",
         "url": "https://sbtnews.sbt.com.br/noticia/policia/policia-prende-golpistas-que-usavam-deepfake-de-marcos-mion-na-internet"
       }
-    ]
+    ],
+    "sector": "Individuals & consumers"
   },
   {
     "id": "brad-pitt-ai-romance-scam-france",
@@ -386,7 +393,8 @@
         "name": "Global News",
         "url": "https://globalnews.ca/news/10959758/brad-pitt-scam"
       }
-    ]
+    ],
+    "sector": "Individuals & consumers"
   },
   {
     "id": "ghostgpt-criminal-chatbot",
@@ -436,7 +444,8 @@
         "name": "Security Boulevard",
         "url": "https://securityboulevard.com/2025/01/ghostgpt-a-malicious-ai-chatbot-for-hackers"
       }
-    ]
+    ],
+    "sector": "Multiple / cross-sector"
   },
   {
     "id": "storm-1516-bundestag-deepfakes",
@@ -494,7 +503,8 @@
         "name": "ZDFheute",
         "url": "https://www.zdfheute.de/politik/deutschland/faktencheck-manipulierte-stimmzettel-wahl-mecklenburg-vorpommern-100.html"
       }
-    ]
+    ],
+    "sector": "Politics & elections"
   },
   {
     "id": "indonesia-prabowo-deepfake-aid-scam",
@@ -548,7 +558,8 @@
         "name": "OECD.AI Incidents Monitor",
         "url": "https://oecd.ai/en/incidents/2025-04-24-4595"
       }
-    ]
+    ],
+    "sector": "Individuals & consumers"
   },
   {
     "id": "deepseek-ddos-registration-halt",
@@ -606,7 +617,8 @@
         "name": "GIGAZINE",
         "url": "https://gigazine.net/gsc_news/en/20250128-deepseek-large-scale-cyber-attack"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "deepseeek-pypi-packages",
@@ -660,7 +672,8 @@
         "name": "Help Net Security",
         "url": "https://www.helpnetsecurity.com/2025/02/03/deepseeks-popularity-exploited-to-push-malicious-packages-via-pypi/"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "deepseek-db-exposure",
@@ -718,7 +731,8 @@
         "name": "Fortune",
         "url": "https://fortune.com/2025/01/31/deepseek-sensitive-information-exposed-wiz-researchers"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "openai-deepseek-distillation",
@@ -772,7 +786,8 @@
         "name": "The Decoder",
         "url": "https://the-decoder.com/?p=20884"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "thailand-poipet-ai-police-scam",
@@ -822,7 +837,8 @@
         "name": "AI Incident Database",
         "url": "https://incidentdatabase.ai/cite/918/"
       }
-    ]
+    ],
+    "sector": "Individuals & consumers"
   },
   {
     "id": "mexico-condusef-voice-clone-alert",
@@ -868,7 +884,8 @@
         "name": "Record",
         "url": "https://www.record.com.mx/contra/condusef-alerta-por-clonacion-de-voz-con-ia-que-suplanta-tus-familiares"
       }
-    ]
+    ],
+    "sector": "Individuals & consumers"
   },
   {
     "id": "nullifai-hugging-face-pickle",
@@ -922,7 +939,8 @@
         "name": "Help Net Security",
         "url": "https://www.helpnetsecurity.com/2025/02/10/malicious-ml-models-found-on-hugging-face-hub/"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "sysdig-llmjacking-deepseek",
@@ -972,7 +990,8 @@
         "name": "SecurityBrief",
         "url": "https://securitybrief.co.uk/story/llmjacking-exploits-target-ai-models-like-deepseek-experts-warn"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "omnigpt-alleged-breach",
@@ -1030,7 +1049,8 @@
         "name": "CSO Online",
         "url": "https://www.csoonline.com/article/3822911/hacker-allegedly-puts-massive-omnigpt-breach-data-for-sale-on-the-dark-web.html"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "vidoc-deepfake-job-candidates",
@@ -1080,7 +1100,8 @@
         "name": "Fox 26 Houston",
         "url": "https://www.fox26houston.com/news/scammers-ai-apply-jobs-deepfake-applicants-company-threat"
       }
-    ]
+    ],
+    "sector": "Defence & security"
   },
   {
     "id": "crosetto-voice-clone",
@@ -1138,7 +1159,8 @@
         "name": "Cyprus Mail (Reuters)",
         "url": "https://cyprus-mail.com/2025/02/12/italian-police-freeze-cash-from-ai-voice-scam-that-targeted-business-leaders"
       }
-    ]
+    ],
+    "sector": "Individuals & consumers"
   },
   {
     "id": "openai-cambodia-romance-baiting",
@@ -1184,7 +1206,8 @@
         "name": "AI Incident Database report",
         "url": "https://incidentdatabase.ai/reports/4741"
       }
-    ]
+    ],
+    "sector": "Individuals & consumers"
   },
   {
     "id": "openai-dprk-employment-feb2025",
@@ -1230,7 +1253,8 @@
         "name": "AI Incident Database report",
         "url": "https://incidentdatabase.ai/reports/4741"
       }
-    ]
+    ],
+    "sector": "Multiple / cross-sector"
   },
   {
     "id": "openai-kimsuky-bluenoroff-rdp",
@@ -1276,7 +1300,8 @@
         "name": "AI Incident Database report",
         "url": "https://incidentdatabase.ai/reports/4741"
       }
-    ]
+    ],
+    "sector": "Financial services"
   },
   {
     "id": "openai-peer-review-qianyue",
@@ -1326,7 +1351,8 @@
         "name": "AI Incident Database report",
         "url": "https://incidentdatabase.ai/reports/4741"
       }
-    ]
+    ],
+    "sector": "Individuals & consumers"
   },
   {
     "id": "sheinbaum-pemex-ai-investment-videos",
@@ -1380,7 +1406,8 @@
         "name": "adn40",
         "url": "https://www.adn40.mx/es-tendencia/2025-01-26/deepfake-modus-operandi-nueva-estafa-por-la-que-alerta-condusef"
       }
-    ]
+    ],
+    "sector": "Individuals & consumers"
   },
   {
     "id": "wayback-copilot-lasso",
@@ -1426,7 +1453,8 @@
         "name": "SC World",
         "url": "https://www.scworld.com/brief/microsoft-copilot-access-to-thousands-of-since-protected-github-repos-remains"
       }
-    ]
+    ],
+    "sector": "Multiple / cross-sector"
   },
   {
     "id": "storm-2139-azure-openai",
@@ -1488,7 +1516,8 @@
         "name": "Security Affairs",
         "url": "https://securityaffairs.com/?p=174779"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "tbilisi-deepfake-crypto-boiler-room-uk",
@@ -1546,7 +1575,8 @@
         "name": "AI Incident Database",
         "url": "https://incidentdatabase.ai/reports/4841"
       }
-    ]
+    ],
+    "sector": "Individuals & consumers"
   },
   {
     "id": "argentina-caputo-deepfake-immediate-ai",
@@ -1596,7 +1626,8 @@
         "name": "Chequeado",
         "url": "https://chequeado.com/ultimas-noticias/alertan-por-una-estafa-virtual-que-utiliza-la-imagen-de-luis-caputo-para-promocionar-una-supuesta-plataforma-de-inversion/"
       }
-    ]
+    ],
+    "sector": "Individuals & consumers"
   },
   {
     "id": "malaysia-vip-deepfake-investment-videos",
@@ -1642,7 +1673,8 @@
         "name": "The Vibes",
         "url": "https://www.thevibes.com/articles/news/105779/police-detect-five-vip-deepfake-videos-linked-to-investment-scams"
       }
-    ]
+    ],
+    "sector": "Individuals & consumers"
   },
   {
     "id": "qatarenergy-ai-investment-videos",
@@ -1692,7 +1724,8 @@
         "name": "Marhaba",
         "url": "https://marhaba.qa/qatarenergy-reissues-warning-over-fake-adverts-and-ai-generated-investment-scams/"
       }
-    ]
+    ],
+    "sector": "Individuals & consumers"
   },
   {
     "id": "singapore-deepfake-zoom",
@@ -1750,7 +1783,8 @@
         "name": "Frank on Fraud",
         "url": "https://frankonfraud.com/hsbc-business-customer-got-deepfaked-sent-wire/"
       }
-    ]
+    ],
+    "sector": "Unknown"
   },
   {
     "id": "spain-coinblack-deepfake-crypto",
@@ -1804,7 +1838,8 @@
         "name": "AI Incident Database",
         "url": "https://incidentdatabase.ai/cite/1017"
       }
-    ]
+    ],
+    "sector": "Individuals & consumers"
   },
   {
     "id": "xanthorox-ai-darknet",
@@ -1854,7 +1889,8 @@
         "name": "eSecurity Planet",
         "url": "https://www.esecurityplanet.com/cybersecurity/xanthorox-ai/"
       }
-    ]
+    ],
+    "sector": "Multiple / cross-sector"
   },
   {
     "id": "pindrop-ivan-x-deepfake-applicant",
@@ -1900,7 +1936,8 @@
         "name": "AI Incident Database",
         "url": "https://incidentdatabase.ai/reports/5056"
       }
-    ]
+    ],
+    "sector": "Defence & security"
   },
   {
     "id": "akirabot-openai-spam",
@@ -1954,7 +1991,8 @@
         "name": "Security Affairs",
         "url": "https://securityaffairs.com/176415/cyber-crime/akirabot-ai-powered-spam-bot-evades-captcha-to-target-80000-websites.html"
       }
-    ]
+    ],
+    "sector": "Multiple / cross-sector"
   },
   {
     "id": "anthropic-iot-camera-creds",
@@ -2000,7 +2038,8 @@
         "name": "OpenAI June 2025 report (cites the Anthropic report)",
         "url": "https://cdn.openai.com/threat-intelligence-reports/5f73af09-a3a3-4a55-992e-069237681620/disrupting-malicious-uses-of-ai-june-2025.pdf"
       }
-    ]
+    ],
+    "sector": "Individuals & consumers"
   },
   {
     "id": "anthropic-novice-malware-builder",
@@ -2046,7 +2085,8 @@
         "name": "OpenAI June 2025 report (cites the Anthropic report)",
         "url": "https://cdn.openai.com/threat-intelligence-reports/5f73af09-a3a3-4a55-992e-069237681620/disrupting-malicious-uses-of-ai-june-2025.pdf"
       }
-    ]
+    ],
+    "sector": "Individuals & consumers"
   },
   {
     "id": "anthropic-recruitment-fraud-2025",
@@ -2092,7 +2132,8 @@
         "name": "OpenAI June 2025 report (cites the Anthropic report)",
         "url": "https://cdn.openai.com/threat-intelligence-reports/5f73af09-a3a3-4a55-992e-069237681620/disrupting-malicious-uses-of-ai-june-2025.pdf"
       }
-    ]
+    ],
+    "sector": "Individuals & consumers"
   },
   {
     "id": "east-java-khofifah-deepfake-arrests",
@@ -2146,7 +2187,8 @@
         "name": "Metro TV News",
         "url": "https://www.metrotvnews.com/read/NnjCe4jx-3-pelaku-video-hoaks-khofifah-pakai-ai-dibekuk"
       }
-    ]
+    ],
+    "sector": "Individuals & consumers"
   },
   {
     "id": "korea-pipc-deepseek-prompt-transfer",
@@ -2200,7 +2242,8 @@
         "name": "Malwarebytes Labs",
         "url": "https://www.malwarebytes.com/blog/news/2025/02/deepseek-found-to-be-sharing-user-data-with-tiktok-parent-company-bytedance"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "vietnam-deepfake-extortion-ring",
@@ -2254,7 +2297,8 @@
         "name": "Viet Nam News",
         "url": "https://vietnamnews.vn/society/1694933/vietnamese-authorities-warn-of-rising-ai-driven-deepfake-extortion-scams.html"
       }
-    ]
+    ],
+    "sector": "Individuals & consumers"
   },
   {
     "id": "xai-key-leak-spacex-tesla-llms",
@@ -2312,7 +2356,8 @@
         "name": "Fullerton College Cybersecurity",
         "url": "https://cybersecurity.fullcoll.edu/?p=304"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "bcp-credicorp-ceo-deepfake",
@@ -2358,7 +2403,8 @@
         "name": "Libero",
         "url": "https://libero.pe/tiempoextra/2025/05/07/bcp-lanza-comunicado-ultima-hora-alarma-todos-sus-usuarios-esten-atentos-476336"
       }
-    ]
+    ],
+    "sector": "Individuals & consumers"
   },
   {
     "id": "cursor-npm-macos-backdoor",
@@ -2408,7 +2454,8 @@
         "name": "SecurityWeek",
         "url": "https://www.securityweek.com/malicious-npm-packages-target-cursor-ais-macos-users/"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "fsca-kamlana-deepfake-nedbank",
@@ -2458,7 +2505,8 @@
         "name": "Daily Investor",
         "url": "https://dailyinvestor.com/finance/76822/investment-scam-warning-in-south-africa/"
       }
-    ]
+    ],
+    "sector": "Individuals & consumers"
   },
   {
     "id": "fbi-ai-voice-us-officials",
@@ -2508,7 +2556,8 @@
         "name": "BleepingComputer",
         "url": "https://bleepingcomputer.com/news/security/fbi-us-officials-targeted-in-voice-deepfake-attacks-since-april"
       }
-    ]
+    ],
+    "sector": "Government & public sector"
   },
   {
     "id": "aliyun-ai-labs-pypi-pickle",
@@ -2562,7 +2611,8 @@
         "name": "OSV MAL-2025-5096",
         "url": "https://osv.dev/vulnerability/MAL-2025-5096"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "gitlab-duo-hidden-prompt",
@@ -2616,7 +2666,8 @@
         "name": "TechRepublic",
         "url": "https://www.techrepublic.com/article/news-gitlab-duo-vulnerability-hidden-prompts/"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "lovable-rls-cve-2025-48757",
@@ -2690,7 +2741,8 @@
         "name": "Vibe App Scanner",
         "url": "https://vibeappscanner.com/lovable-vulnerability-cve-2025-48757"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "open-webui-sysdig-cryptojacking",
@@ -2740,7 +2792,8 @@
         "name": "Wiz Cloud Threat Landscape",
         "url": "https://threats.wiz.io/all-incidents/open-webui-misconfiguration-exploited-for-cryptojacking"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "openai-scopecreep-malware",
@@ -2790,7 +2843,8 @@
         "name": "TechRadar coverage",
         "url": "https://www.techradar.com/pro/security/openai-says-it-disrupted-at-least-10-malicious-ai-campaigns-already-this-year"
       }
-    ]
+    ],
+    "sector": "Individuals & consumers"
   },
   {
     "id": "openai-vague-focus",
@@ -2836,7 +2890,8 @@
         "name": "OpenAI June 2025 report PDF",
         "url": "https://cdn.openai.com/threat-intelligence-reports/5f73af09-a3a3-4a55-992e-069237681620/disrupting-malicious-uses-of-ai-june-2025.pdf"
       }
-    ]
+    ],
+    "sector": "Government & public sector"
   },
   {
     "id": "openai-vixen-keyhole-panda",
@@ -2882,7 +2937,8 @@
         "name": "Security Affairs coverage",
         "url": "https://securityaffairs.com/178797/intelligence/openai-bans-chatgpt-accounts-linked-to-russian-chinese-cyber-ops.html"
       }
-    ]
+    ],
+    "sector": "Defence & security"
   },
   {
     "id": "openai-wrong-number-task-scam",
@@ -2928,7 +2984,8 @@
         "name": "OpenAI June 2025 report PDF",
         "url": "https://cdn.openai.com/threat-intelligence-reports/5f73af09-a3a3-4a55-992e-069237681620/disrupting-malicious-uses-of-ai-june-2025.pdf"
       }
-    ]
+    ],
+    "sector": "Individuals & consumers"
   },
   {
     "id": "stockholm-police-doctor-deepfake-ads",
@@ -2978,7 +3035,8 @@
         "name": "AI Incident Database",
         "url": "https://incidentdatabase.ai/cite/1242/"
       }
-    ]
+    ],
+    "sector": "Individuals & consumers"
   },
   {
     "id": "echoleak-m365-copilot",
@@ -3032,7 +3090,8 @@
         "name": "Hack The Box",
         "url": "https://www.hackthebox.com/blog/cve-2025-32711-echoleak-copilot-vulnerability"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "meta-ai-discover-feed",
@@ -3082,7 +3141,8 @@
         "name": "Mozilla Foundation",
         "url": "https://www.mozillafoundation.org/en/campaigns/meta-help-users-stop-accidentally-sharing-private-ai-conversations/"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "asana-mcp-cross-tenant",
@@ -3140,7 +3200,8 @@
         "name": "UpGuard",
         "url": "https://upguard.com/blog/asana-discloses-data-exposure-bug-in-mcp-server"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "langflow-flodrix",
@@ -3194,7 +3255,8 @@
         "name": "Dark Reading",
         "url": "https://www.darkreading.com/vulnerabilities-threats/hackers-exploit-langflow-flaw-flodrix-botnet"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "wormgpt-grok-mixtral-variants",
@@ -3248,7 +3310,8 @@
         "name": "TechRepublic",
         "url": "https://www.techrepublic.com/article/news-wormgpt-variants-ai-models-grok-mixtral/"
       }
-    ]
+    ],
+    "sector": "Multiple / cross-sector"
   },
   {
     "id": "pickai-comfyui-backdoor",
@@ -3310,7 +3373,8 @@
         "name": "SC World",
         "url": "https://www.scworld.com/brief/malware-distributed-via-comfyui-server-exploits"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "skynet-prompt-injection-malware",
@@ -3356,7 +3420,8 @@
         "name": "GovInfoSecurity",
         "url": "https://www.govinfosecurity.com/skynet-tries-to-outwit-ai-malware-analysis-a-28875"
       }
-    ]
+    ],
+    "sector": "Defence & security"
   },
   {
     "id": "microsoft-jasper-sleet-ai-identities",
@@ -3410,7 +3475,8 @@
         "name": "The Record",
         "url": "https://therecord.media/microsoft-shuts-down-3000-north-korea-it-worker-email"
       }
-    ]
+    ],
+    "sector": "Multiple / cross-sector"
   },
   {
     "id": "mumbai-valueleaf-deepfake-stock-ads",
@@ -3460,7 +3526,8 @@
         "name": "AI Incident Database",
         "url": "https://incidentdatabase.ai/cite/1235/"
       }
-    ]
+    ],
+    "sector": "Individuals & consumers"
   },
   {
     "id": "supabase-mcp-cursor-token-leak",
@@ -3506,7 +3573,8 @@
         "name": "Simon Willison link blog",
         "url": "https://feeds.simonwillison.net/2025/Jul/6/supabase-mcp-lethal-trifecta/"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "israel-ostin-deepfake-pump-dump",
@@ -3560,7 +3628,8 @@
         "name": "AI Incident Database",
         "url": "https://incidentdatabase.ai/cite/1154"
       }
-    ]
+    ],
+    "sector": "Individuals & consumers"
   },
   {
     "id": "kenya-ruto-resignation-deepfakes",
@@ -3610,7 +3679,8 @@
         "name": "Africanews",
         "url": "https://www.africanews.com/2025/07/08/ai-videos-falsely-show-kenyan-president-resigning-following-deadly-protests/"
       }
-    ]
+    ],
+    "sector": "Politics & elections"
   },
   {
     "id": "rubio-ai-impersonation",
@@ -3668,7 +3738,8 @@
         "name": "Yahoo News",
         "url": "https://www.yahoo.com/news/fake-ai-voice-impersonating-secretary-131407943.html"
       }
-    ]
+    ],
+    "sector": "Government & public sector"
   },
   {
     "id": "mchire-paradox-exposure",
@@ -3722,7 +3793,8 @@
         "name": "Cyber Daily",
         "url": "https://www.cyberdaily.au/security/12382-not-lovin-it-mcdonalds-hiring-backend-exposes-64m-chatbot-job-discussions"
       }
-    ]
+    ],
+    "sector": "Retail & consumer brands"
   },
   {
     "id": "cursor-solidity-extension-theft",
@@ -3780,7 +3852,8 @@
         "name": "SC World",
         "url": "https://www.scworld.com/news/fake-visual-studio-code-extension-for-cursor-led-to-500k-theft"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "gemini-gmail-summary-phishing",
@@ -3826,7 +3899,8 @@
         "name": "Tom's Hardware",
         "url": "https://www.tomshardware.com/tech-industry/cyber-security/investigation-reveals-google-gemini-for-workspace-flaw-that-could-have-been-exploited-to-enlist-the-ai-in-phishing-schemes-summarize-this-email-tool-would-faithfully-obey-malicious-instructions-hidden-inside-an-email"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "doge-xai-api-key-leak",
@@ -3880,7 +3954,8 @@
         "name": "Quartz",
         "url": "https://qz.com/doge-staffer-xai-leak-elon-musk-marko-elez"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "global-group-ai-negotiator",
@@ -3938,7 +4013,8 @@
         "name": "Axios",
         "url": "https://www.axios.com/2025/07/29/ransomware-gang-ai-chatbot-negotiate"
       }
-    ]
+    ],
+    "sector": "Multiple / cross-sector"
   },
   {
     "id": "meta-ai-prompt-idor",
@@ -3988,7 +4064,8 @@
         "name": "Malwarebytes",
         "url": "https://www.malwarebytes.com/blog/news/2025/07/meta-ai-chatbot-bug-could-have-allowed-anyone-to-see-private-conversations"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "lamehug-apt28",
@@ -4042,7 +4119,8 @@
         "name": "Infosecurity Magazine",
         "url": "https://www.infosecurity-magazine.com/news/new-lamehug-malware-deploys/"
       }
-    ]
+    ],
+    "sector": "Government & public sector"
   },
   {
     "id": "replit-agent-saastr-db-wipe",
@@ -4104,7 +4182,8 @@
         "name": "heise",
         "url": "https://heise.de/-10499597"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "amazon-q-wiper-prompt",
@@ -4162,7 +4241,8 @@
         "name": "CyberInsider",
         "url": "https://cyberinsider.com/amazons-ai-coding-assistant-for-vsc-infected-with-data-wiper/"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "medellin-gutierrez-voice-clone-scam",
@@ -4212,7 +4292,8 @@
         "name": "Enter.co",
         "url": "https://www.enter.co/?p=575154"
       }
-    ]
+    ],
+    "sector": "Individuals & consumers"
   },
   {
     "id": "llama-cpp-slots-prompt-leak",
@@ -4258,7 +4339,8 @@
         "name": "AI Incident Database",
         "url": "https://incidentdatabase.ai/cite/1020/"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "gemini-cli-tracebit-hijack",
@@ -4316,7 +4398,8 @@
         "name": "CyberScoop",
         "url": "https://cyberscoop.com/google-gemini-cli-prompt-injection-arbitrary-code-execution/"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "base44-auth-bypass-wiz",
@@ -4370,7 +4453,8 @@
         "name": "SecurityWeek",
         "url": "https://www.securityweek.com/flaw-in-vibe-coding-platform-base44-exposed-private-enterprise-applications/"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "jordan-cybercrime-deepfake-warning",
@@ -4416,7 +4500,8 @@
         "name": "OECD.AI Incidents Monitor",
         "url": "https://oecd.ai/en/incidents/2025-07-29-e1ab"
       }
-    ]
+    ],
+    "sector": "Individuals & consumers"
   },
   {
     "id": "chatgpt-shared-chats-indexed",
@@ -4466,7 +4551,8 @@
         "name": "eWeek",
         "url": "https://www.eweek.com/news/openai-chatgpt-google-search-indexes/"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "cursor-curxecute-mcpoison",
@@ -4524,7 +4610,8 @@
         "name": "Tenable CVE entry",
         "url": "https://www.tenable.com/cve/CVE-2025-54136"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "kodane-npm-claude-drainer",
@@ -4574,7 +4661,8 @@
         "name": "Security Affairs",
         "url": "https://securityaffairs.com/180680/malware/malicious-ai-generated-npm-package-hits-solana-users.html"
       }
-    ]
+    ],
+    "sector": "Individuals & consumers"
   },
   {
     "id": "crowdstrike-famous-chollima-genai",
@@ -4620,7 +4708,8 @@
         "name": "Business Wire",
         "url": "https://www.businesswire.com/news/home/20250803570128/en/2025-CrowdStrike-Threat-Hunting-Report-Adversaries-Weaponize-and-Target-AI-at-Scale"
       }
-    ]
+    ],
+    "sector": "Multiple / cross-sector"
   },
   {
     "id": "claude-code-cve-2025-54795",
@@ -4666,7 +4755,8 @@
         "name": "Phoenix Security",
         "url": "https://phoenix.security/claude-code-leak-to-vulnerability-three-cves-in-claude-code-cli-and-the-chain-that-connects-them/"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "agentflayer-chatgpt-connectors",
@@ -4716,7 +4806,8 @@
         "name": "TechSpot",
         "url": "https://www.techspot.com/news/108975-chatgpt-vulnerability-allows-hidden-prompts-steal-google-drive-cloud-data.html"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "gemini-calendar-invite-hijack",
@@ -4770,7 +4861,8 @@
         "name": "TMCnet",
         "url": "https://blog.tmcnet.com/blog/rich-tehrani/security/hackers-exploit-google-gemini-to-hijack-smart-home-devices.html"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "copilot-yolo-mode-cve-2025-53773",
@@ -4824,7 +4916,8 @@
         "name": "Repello AI",
         "url": "https://repello.ai/blog/vscode-copilot-workspace-trust-bypass"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "copilot-audit-log-bypass",
@@ -4878,7 +4971,8 @@
         "name": "heise",
         "url": "https://heise.de/-10578970"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "lenovo-lena-chatbot-xss",
@@ -4932,7 +5026,8 @@
         "name": "BetaNews",
         "url": "https://betanews.com/2025/08/18/lenovos-lena-ai-chatbot-had-weakness-that-let-attackers-hijack-sessions/"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "nz-fma-deepfake-pump-dump-warning",
@@ -4982,7 +5077,8 @@
         "name": "Finance Magnates",
         "url": "https://financemagnates.com/forex/regulation/australia-and-new-zealand-sound-alarm-on-ai-powered-investment-scams-as-takedowns-hit-record-pace"
       }
-    ]
+    ],
+    "sector": "Individuals & consumers"
   },
   {
     "id": "pib-sitharaman-quantumai-deepfakes",
@@ -5036,7 +5132,8 @@
         "name": "Outlook Money",
         "url": "https://www.outlookmoney.com/news/pib-fact-check-flags-fake-ai-video-of-nirmala-sitharaman-promoting-investment-scheme"
       }
-    ]
+    ],
+    "sector": "Individuals & consumers"
   },
   {
     "id": "comet-reddit-injection-brave",
@@ -5094,7 +5191,8 @@
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/news/perplexity-comet-flaw-exposed-user-232510101.html"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "grok-chats-indexed",
@@ -5144,7 +5242,8 @@
         "name": "Yahoo News",
         "url": "https://www.yahoo.com/news/articles/thousands-private-user-conversations-elon-173216941.html"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "proofpoint-lovable-phishing",
@@ -5198,7 +5297,8 @@
         "name": "TechRadar",
         "url": "https://www.techradar.com/pro/security/top-ai-website-builder-lovable-hit-in-worrying-cyberattack-heres-what-we-know"
       }
-    ]
+    ],
+    "sector": "Multiple / cross-sector"
   },
   {
     "id": "promptlock-ransomware",
@@ -5256,7 +5356,8 @@
         "name": "Dark Reading",
         "url": "https://www.darkreading.com/vulnerabilities-threats/ai-powered-ransomware-promptlock"
       }
-    ]
+    ],
+    "sector": "Multiple / cross-sector"
   },
   {
     "id": "salesloft-drift-oauth",
@@ -5314,7 +5415,8 @@
         "name": "Help Net Security",
         "url": "https://www.helpnetsecurity.com/2025/08/27/hundreds-of-salesforce-customer-orgs-hit-in-clever-attack-with-potentially-huge-blast-radius/"
       }
-    ]
+    ],
+    "sector": "Multiple / cross-sector"
   },
   {
     "id": "anthropic-dprk-remote-workers",
@@ -5360,7 +5462,8 @@
         "name": "heise coverage",
         "url": "https://heise.de/-10623474"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "anthropic-nocode-raas",
@@ -5406,7 +5509,8 @@
         "name": "heise coverage",
         "url": "https://heise.de/-10623474"
       }
-    ]
+    ],
+    "sector": "Multiple / cross-sector"
   },
   {
     "id": "anthropic-vibe-hacking",
@@ -5456,7 +5560,8 @@
         "name": "Dark Reading",
         "url": "https://www.darkreading.com/cyberattacks-data-breaches/anthropic-ai-automate-data-extortion-campaign"
       }
-    ]
+    ],
+    "sector": "Multiple / cross-sector"
   },
   {
     "id": "nx-s1ngularity",
@@ -5522,7 +5627,8 @@
         "name": "GitHub Security Lab",
         "url": "https://securitylab.github.com/advisories/GHSL-2025-111_nrwl_nx/"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "talos-exposed-ollama-servers",
@@ -5572,7 +5678,8 @@
         "name": "GovInfoSecurity",
         "url": "https://www.govinfosecurity.com/exposed-llm-servers-expose-ollama-risks-a-29354"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "wuhan-ai-faceswap-mcn-hijack",
@@ -5630,7 +5737,8 @@
         "name": "Xinhua (新华网)",
         "url": "https://www.news.cn/legal/20250924/ecc49082bdf54da298e2402a6df778a5/c.html"
       }
-    ]
+    ],
+    "sector": "Media & entertainment"
   },
   {
     "id": "vyro-ai-elasticsearch-leak",
@@ -5680,7 +5788,8 @@
         "name": "Daily Security Review",
         "url": "https://dailysecurityreview.com/cyber-security/popular-ai-chatbots-leak-sensitive-user-data-from-unsecured-server/"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "ireland-humphreys-deepfake-boi-warning",
@@ -5726,7 +5835,8 @@
         "name": "AI Incident Database",
         "url": "https://incidentdatabase.ai/reports/6210"
       }
-    ]
+    ],
+    "sector": "Individuals & consumers"
   },
   {
     "id": "whitecobra-vsix-crypto-stealers",
@@ -5776,7 +5886,8 @@
         "name": "Kaspersky",
         "url": "https://www.kaspersky.com/about/press-releases/kaspersky-uncovers-500k-crypto-heist-through-malicious-packages-targeting-cursor-developers"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "kimsuky-chatgpt-military-id",
@@ -5826,7 +5937,8 @@
         "name": "The Register",
         "url": "https://www.theregister.com/2025/09/15/north_korea_chatgpt_fake_id/"
       }
-    ]
+    ],
+    "sector": "Defence & security"
   },
   {
     "id": "chile-boric-deepfake-cde-referral",
@@ -5880,7 +5992,8 @@
         "name": "Pauta",
         "url": "https://www.pauta.cl/actualidad/2026/07/23/camara-aprueba-proyecto-que-regula-deepfakes-contempla-multas-de-hasta-716-millones.html"
       }
-    ]
+    ],
+    "sector": "Individuals & consumers"
   },
   {
     "id": "kenya-raila-x-hack-crypto-deepfake",
@@ -5930,7 +6043,8 @@
         "name": "Kenyan Wall Street",
         "url": "https://kenyanwallstreet.com/deepfake-scam-raila-odinga-x-account-escalating-cryptocurrency-fraud"
       }
-    ]
+    ],
+    "sector": "Individuals & consumers"
   },
   {
     "id": "shadowleak-deep-research",
@@ -5984,7 +6098,8 @@
         "name": "Infosecurity Magazine",
         "url": "https://www.infosecurity-magazine.com/news/vulnerability-chatgpt-agent-gmail"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "notion-agent-pdf-exfil",
@@ -6038,7 +6153,8 @@
         "name": "Schneier on Security",
         "url": "https://www.schneier.com/?p=70883"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "malterminal-gpt4-malware",
@@ -6092,7 +6208,8 @@
         "name": "The Hacker News",
         "url": "https://thehackernews.com/2025/09/researchers-uncover-gpt-4-powered.html"
       }
-    ]
+    ],
+    "sector": "Unknown"
   },
   {
     "id": "microsoft-llm-svg-phishing",
@@ -6142,7 +6259,8 @@
         "name": "Infosecurity Magazine",
         "url": "https://www.infosecurity-magazine.com/news/ai-generated-code-phishing/"
       }
-    ]
+    ],
+    "sector": "Multiple / cross-sector"
   },
   {
     "id": "forcedleak-agentforce",
@@ -6196,7 +6314,8 @@
         "name": "Security Affairs",
         "url": "https://securityaffairs.com/182676/hacking/forcedleak-flaw-in-salesforce-agentforce-exposes-crm-data-via-prompt-injection.html"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "postmark-mcp-backdoor",
@@ -6250,7 +6369,8 @@
         "name": "Qualys",
         "url": "https://threatprotect.qualys.com/2025/09/30/malicious-mcp-server-on-npm-postmark-mcp-exploited-in-attack/"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "sarb-kganyago-deepfake-warning",
@@ -6296,7 +6416,8 @@
         "name": "Personal Finance",
         "url": "https://persfin.co.za/business/2025-09-25-south-african-reserve-bank-warns-public-about-deepfake-investment-scam"
       }
-    ]
+    ],
+    "sector": "Individuals & consumers"
   },
   {
     "id": "gemini-trifecta-tenable",
@@ -6346,7 +6467,8 @@
         "name": "iTWire",
         "url": "https://itwire.com/guest-articles/guest-research/tenable-exposes-ai-flaws-in-google-gemini-that-could-have-let-hackers-steal-data-from-millions"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "argentina-adorni-ypf-ai-video",
@@ -6400,7 +6522,8 @@
         "name": "Chequeado",
         "url": "https://chequeado.com/ultimas-noticias/estafas-y-videos-creados-con-inteligencia-artificial-asi-se-utiliza-la-imagen-de-famosos-para-enganar-con-falsas-inversiones-en-ypf/"
       }
-    ]
+    ],
+    "sector": "Individuals & consumers"
   },
   {
     "id": "brazil-gisele-deepfake-ads",
@@ -6454,7 +6577,8 @@
         "name": "Malay Mail (Reuters)",
         "url": "https://www.malaymail.com/news/tech-gadgets/2025/10/05/brazilian-scammers-rake-in-millions-using-gisele-bundchen-deepfakes-in-instagram-ads-to-defraud-victims/193369"
       }
-    ]
+    ],
+    "sector": "Individuals & consumers"
   },
   {
     "id": "old-mutual-trevor-manuel-deepfake",
@@ -6500,7 +6624,8 @@
         "name": "AI Incident Database entity",
         "url": "https://incidentdatabase.ai/entities/unknown-scammers-impersonating-trevor-manuel/"
       }
-    ]
+    ],
+    "sector": "Individuals & consumers"
   },
   {
     "id": "pesaro-meloni-deepfake-pensioners",
@@ -6546,7 +6671,8 @@
         "name": "Blue News",
         "url": "https://www.bluewin.ch/it/attualita/borsa-economia/italia-boom-truffe-finanziarie-deepfake-anche-con-musk-meloni-li.2431891"
       }
-    ]
+    ],
+    "sector": "Individuals & consumers"
   },
   {
     "id": "openai-dprk-korean-c2-phishing",
@@ -6596,7 +6722,8 @@
         "name": "SiliconANGLE coverage",
         "url": "https://siliconangle.com/2025/10/07/openai-details-expanding-efforts-disrupt-malicious-use-ai-new-report/"
       }
-    ]
+    ],
+    "sector": "Government & public sector"
   },
   {
     "id": "openai-russian-rat-stealers",
@@ -6646,7 +6773,8 @@
         "name": "vpnMentor coverage",
         "url": "https://www.vpnmentor.com/news/openai-new-security-report-reveals-latest-ai-threats/"
       }
-    ]
+    ],
+    "sector": "Individuals & consumers"
   },
   {
     "id": "openai-scam-centres-oct2025",
@@ -6708,7 +6836,8 @@
         "name": "TechRadar",
         "url": "https://www.techradar.com/pro/security/openai-says-it-stopped-an-asian-scam-campaign-hijacking-chatgpt-to-lure-in-victims"
       }
-    ]
+    ],
+    "sector": "Individuals & consumers"
   },
   {
     "id": "openai-unk-droppitch-taiwan",
@@ -6758,7 +6887,8 @@
         "name": "SiliconANGLE coverage",
         "url": "https://siliconangle.com/2025/10/07/openai-details-expanding-efforts-disrupt-malicious-use-ai-new-report/"
       }
-    ]
+    ],
+    "sector": "Multiple / cross-sector"
   },
   {
     "id": "camoleak-copilot-chat",
@@ -6812,7 +6942,8 @@
         "name": "eSecurity Planet",
         "url": "https://www.esecurityplanet.com/news/github-copilot-data-theft/"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "hk-ai-faceswap-lost-id-syndicate",
@@ -6870,7 +7001,8 @@
         "name": "World Journal (世界日報)",
         "url": "https://www.worldjournal.com/wj/amp/story/121341/9063323"
       }
-    ]
+    ],
+    "sector": "Financial services"
   },
   {
     "id": "smithery-mcp-hosting-traversal",
@@ -6928,7 +7060,8 @@
         "name": "SC World",
         "url": "https://scworld.com/news/smithery-ai-fixes-path-traversal-flaw-that-exposed-3000-mcp-servers"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "uae-economy-minister-deepfake-videos",
@@ -6974,7 +7107,8 @@
         "name": "MENA Startup Digest",
         "url": "https://menastartupdigest.com/uae-minister-warns-of-mena-deepfake-explosion-after-being-targeted-in-investment-scams/"
       }
-    ]
+    ],
+    "sector": "Individuals & consumers"
   },
   {
     "id": "pampanga-marcos-deepfake-p93m",
@@ -7028,7 +7162,8 @@
         "name": "ABS-CBN",
         "url": "https://abs-cbn.com/news/technology/2025/6/24/cicc-warns-vs-deepfake-video-using-president-s-image-to-promote-trading-platform-0700"
       }
-    ]
+    ],
+    "sector": "Individuals & consumers"
   },
   {
     "id": "kaspersky-bluenoroff-ghostcall",
@@ -7074,7 +7209,8 @@
         "name": "eSecurity Planet",
         "url": "https://esecurityplanet.com/news/bluenoroff-expands-cyberattacks-with-ai-driven-campaigns-targeting-executives"
       }
-    ]
+    ],
+    "sector": "Financial services"
   },
   {
     "id": "sweden-deepfake-pump-dump-500m-sek",
@@ -7128,7 +7264,8 @@
         "name": "AI Incident Database",
         "url": "https://incidentdatabase.ai/cite/1256/"
       }
-    ]
+    ],
+    "sector": "Individuals & consumers"
   },
   {
     "id": "microsoft-sesameop-backdoor",
@@ -7174,7 +7311,8 @@
         "name": "Microsoft AI as tradecraft post (related)",
         "url": "https://www.microsoft.com/en-us/security/blog/2026/03/06/ai-as-tradecraft-how-threat-actors-operationalize-ai/"
       }
-    ]
+    ],
+    "sector": "Unknown"
   },
   {
     "id": "gtig-china-ctf-pretext",
@@ -7220,7 +7358,8 @@
         "name": "Hendry Adrian mirror",
         "url": "https://www.hendryadrian.com/?p=84695"
       }
-    ]
+    ],
+    "sector": "Unknown"
   },
   {
     "id": "gtig-muddywater-gemini-opsec",
@@ -7266,7 +7405,8 @@
         "name": "Hendry Adrian mirror",
         "url": "https://www.hendryadrian.com/?p=84695"
       }
-    ]
+    ],
+    "sector": "Unknown"
   },
   {
     "id": "gtig-promptflux",
@@ -7324,7 +7464,8 @@
         "name": "Decrypt",
         "url": "https://decrypt.co/347781/google-threat-report-links-ai-powered-malware-to-dprk-crypto-theft"
       }
-    ]
+    ],
+    "sector": "Multiple / cross-sector"
   },
   {
     "id": "gtig-quietvault-stealer",
@@ -7370,7 +7511,8 @@
         "name": "Hendry Adrian mirror",
         "url": "https://www.hendryadrian.com/?p=84695"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "tenable-hackedgpt",
@@ -7424,7 +7566,8 @@
         "name": "SecurityBrief Asia",
         "url": "https://securitybrief.asia/story/seven-chatgpt-flaws-expose-user-data-to-attack-tenable-warns"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "bangkok-chinese-deepfake-kyc-gang",
@@ -7470,7 +7613,8 @@
         "name": "Asia News Network",
         "url": "https://asianews.network/four-suspected-chinese-online-scammers-arrested-in-bangkok"
       }
-    ]
+    ],
+    "sector": "Financial services"
   },
   {
     "id": "anthropic-gtg-1002",
@@ -7524,7 +7668,8 @@
         "name": "Cybersecurity Dive",
         "url": "https://www.cybersecuritydive.com/news/anthropic-state-actor-ai-tool-espionage/805550/"
       }
-    ]
+    ],
+    "sector": "Multiple / cross-sector"
   },
   {
     "id": "shadowray-2",
@@ -7586,7 +7731,8 @@
         "name": "Dark Reading",
         "url": "https://www.darkreading.com/cyber-risk/shadowray-20-ai-clusters-crypto-botnets"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "uruguay-orsi-deepfake-ad-wave",
@@ -7644,7 +7790,8 @@
         "name": "El Observador",
         "url": "https://www.elobservador.com.uy/nacional/alarma-nacional-uruguay-estos-son-los-videos-hechos-ia-estafar-utilizan-la-imagen-del-presidente-yamandu-orsi-n6025248"
       }
-    ]
+    ],
+    "sector": "Individuals & consumers"
   },
   {
     "id": "hashjack-url-fragment",
@@ -7698,7 +7845,8 @@
         "name": "Infosecurity Magazine",
         "url": "https://www.infosecurity-magazine.com/news/hashjack-indirect-prompt-injection"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "unit42-wormgpt4-kawaiigpt",
@@ -7748,7 +7896,8 @@
         "name": "BleepingComputer",
         "url": "https://bleepingcomputer.com/news/security/malicious-llms-empower-inexperienced-hackers-with-advanced-tools"
       }
-    ]
+    ],
+    "sector": "Multiple / cross-sector"
   },
   {
     "id": "openai-mixpanel",
@@ -7810,7 +7959,8 @@
         "name": "eWeek",
         "url": "https://www.eweek.com/news/openai-mixpanel-data-exposure/"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "antigravity-d-drive-wipe",
@@ -7856,7 +8006,8 @@
         "name": "AI Incident Database",
         "url": "https://incidentdatabase.ai/reports/7050/"
       }
-    ]
+    ],
+    "sector": "Individuals & consumers"
   },
   {
     "id": "europol-700m-deepfake-crypto-ads",
@@ -7910,7 +8061,8 @@
         "name": "TechRadar",
         "url": "https://www.techradar.com/pro/security/europol-takes-down-crypto-and-laundering-network-worth-700-million"
       }
-    ]
+    ],
+    "sector": "Individuals & consumers"
   },
   {
     "id": "danang-korean-deepfake-romance-ring",
@@ -7960,7 +8112,8 @@
         "name": "Cambodia Daily",
         "url": "https://english.cambodiadaily.com/?p=181932"
       }
-    ]
+    ],
+    "sector": "Individuals & consumers"
   },
   {
     "id": "geminijack-enterprise",
@@ -8014,7 +8167,8 @@
         "name": "TechRepublic",
         "url": "https://www.techrepublic.com/article/news-geminijack-zero-click-flaw/"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "fsca-banxso-deepfake-ads-r2bn",
@@ -8072,7 +8226,8 @@
         "name": "Launch Base Africa",
         "url": "https://launchbaseafrica.com/2025/12/10/end-of-the-road-for-banxso-executives-south-africas-fintech-dream-turns-into-a-118m-nightmare"
       }
-    ]
+    ],
+    "sector": "Individuals & consumers"
   },
   {
     "id": "amsterdam-deepfake-46-bank-accounts",
@@ -8134,7 +8289,8 @@
         "name": "NL Times",
         "url": "https://nltimes.nl/2026/03/23/amsterdam-man-opened-nearly-50-bank-accounts-sticking-head-onto-stolen-passports"
       }
-    ]
+    ],
+    "sector": "Financial services"
   },
   {
     "id": "egypt-haifa-wehbe-ai-videos-probe",
@@ -8180,7 +8336,8 @@
         "name": "OECD.AI Incidents Monitor",
         "url": "https://oecd.ai/en/incidents/2026-01-02-2d6d"
       }
-    ]
+    ],
+    "sector": "Media & entertainment"
   },
   {
     "id": "kuwait-cbk-nbk-deepfake-warning",
@@ -8226,7 +8383,8 @@
         "name": "Al Jarida",
         "url": "https://www.aljarida.com/article/76884"
       }
-    ]
+    ],
+    "sector": "Individuals & consumers"
   },
   {
     "id": "reprompt-copilot",
@@ -8280,7 +8438,8 @@
         "name": "Windows Report",
         "url": "https://windowsreport.com/microsoft-patches-copilot-vulnerability-as-hackers-eye-to-exploit-with-new-reprompt-attack/"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "anthropic-git-mcp-injection",
@@ -8338,7 +8497,8 @@
         "name": "Infosecurity Magazine",
         "url": "https://www.infosecurity-magazine.com/news/prompt-injection-bugs-anthropic/"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "voidlink-ai-built",
@@ -8396,7 +8556,8 @@
         "name": "Dark Reading",
         "url": "https://darkreading.com/threat-intelligence/voidlink-linux-malware-ai"
       }
-    ]
+    ],
+    "sector": "Multiple / cross-sector"
   },
   {
     "id": "bodysnatcher-servicenow",
@@ -8450,7 +8611,8 @@
         "name": "TechInformed",
         "url": "https://techinformed.com/the-bodysnatcher-breach-that-wasnt-what-servicenows-agentic-ai-flaw-teaches/"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "copilot-confidential-emails-bug",
@@ -8500,7 +8662,8 @@
         "name": "TechRadar",
         "url": "https://techradar.com/pro/security/microsoft-admits-an-office-bug-exposed-confidential-user-emails-to-copilot"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "maliciouscorgi-vscode-ai-extensions",
@@ -8546,7 +8709,8 @@
         "name": "BleepingComputer VS Code tag",
         "url": "https://www.bleepingcomputer.com/tag/vs-code/"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "openclaw-exposed-gateways",
@@ -8604,7 +8768,8 @@
         "name": "OECD AI Incidents Monitor",
         "url": "https://oecd.ai/en/incidents/2026-01-30-9567"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "bizarre-bazaar-llmjacking",
@@ -8658,7 +8823,8 @@
         "name": "SecurityWeek",
         "url": "https://www.securityweek.com/llms-hijacked-monetized-in-operation-bizarre-bazaar/"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "chat-ask-ai-leak",
@@ -8712,7 +8878,8 @@
         "name": "Hackmag",
         "url": "https://hackmag.com/news/chat-ask-ai"
       }
-    ]
+    ],
+    "sector": "Individuals & consumers"
   },
   {
     "id": "hugging-face-android-rat-cdn",
@@ -8762,7 +8929,8 @@
         "name": "Netzwoche",
         "url": "https://www.netzwoche.ch/news/2026-02-04/cyberkriminelle-verteilen-android-malware-ueber-hugging-face"
       }
-    ]
+    ],
+    "sector": "Individuals & consumers"
   },
   {
     "id": "taichung-chatgpt-deepfake-japan-police",
@@ -8812,7 +8980,8 @@
         "name": "People News (民報)",
         "url": "https://www.peoplenews.tw/?p=14492"
       }
-    ]
+    ],
+    "sector": "Individuals & consumers"
   },
   {
     "id": "moltbook-db-exposure",
@@ -8870,7 +9039,8 @@
         "name": "TechRadar",
         "url": "https://www.techradar.com/pro/security/ai-agent-social-media-network-moltbook-is-a-security-disaster-millions-of-credentials-and-other-details-left-unsecured"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "taiwan-starlink-deepfake-ecny",
@@ -8916,7 +9086,8 @@
         "name": "World Journal (世界日報)",
         "url": "https://www.worldjournal.com/wj/amp/story/121475/9305011"
       }
-    ]
+    ],
+    "sector": "Individuals & consumers"
   },
   {
     "id": "surrey-martin-lewis-deepfake-20k",
@@ -8966,7 +9137,8 @@
         "name": "Surrey PCC news listing",
         "url": "https://www.surrey-pcc.gov.uk/category/communication-and-engagement/page/2/"
       }
-    ]
+    ],
+    "sector": "Individuals & consumers"
   },
   {
     "id": "certfr-genai-threat-2026",
@@ -9012,7 +9184,8 @@
         "name": "ActuIA",
         "url": "https://www.actuia.com/acteur/anssi/"
       }
-    ]
+    ],
+    "sector": "Multiple / cross-sector"
   },
   {
     "id": "clawhub-malicious-skills",
@@ -9066,7 +9239,8 @@
         "name": "SC World",
         "url": "https://www.scworld.com/news/openclaw-agents-targeted-with-341-malicious-clawhub-skills"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "unc1069-deepfake-zoom",
@@ -9116,7 +9290,8 @@
         "name": "SOC Prime",
         "url": "https://socprime.com/active-threats/unc1069-targets-cryptocurrency-sector/"
       }
-    ]
+    ],
+    "sector": "Financial services"
   },
   {
     "id": "nigeria-okonjo-iweala-ai-video-scam",
@@ -9166,7 +9341,8 @@
         "name": "Nigeria SEC via VON",
         "url": "https://von.gov.ng/sec-warns-nigerians-of-ai-investment-scams/"
       }
-    ]
+    ],
+    "sector": "Individuals & consumers"
   },
   {
     "id": "turkey-osmaniye-deepfake-410m-tl",
@@ -9216,7 +9392,8 @@
         "name": "OECD.AI Incidents Monitor",
         "url": "https://oecd.ai/en/incidents/2026-02-11-a158"
       }
-    ]
+    ],
+    "sector": "Individuals & consumers"
   },
   {
     "id": "gtig-coinbait-lovable-phish",
@@ -9266,7 +9443,8 @@
         "name": "Decryption Digest analysis",
         "url": "https://www.decryptiondigest.com/blog/honestcue-ai-malware-gemini-apt-live-operations"
       }
-    ]
+    ],
+    "sector": "Financial services"
   },
   {
     "id": "gtig-gemini-state-misuse",
@@ -9316,7 +9494,8 @@
         "name": "TechInformed",
         "url": "https://techinformed.com/google-disrupts-gemini-model-extraction-attempts/"
       }
-    ]
+    ],
+    "sector": "Multiple / cross-sector"
   },
   {
     "id": "gtig-honestcue-gemini-loader",
@@ -9366,7 +9545,8 @@
         "name": "Decryption Digest analysis",
         "url": "https://www.decryptiondigest.com/blog/honestcue-ai-malware-gemini-apt-live-operations"
       }
-    ]
+    ],
+    "sector": "Multiple / cross-sector"
   },
   {
     "id": "vidar-steals-openclaw-secrets",
@@ -9412,7 +9592,8 @@
         "name": "BleepingComputer OpenClaw tag",
         "url": "https://www.bleepingcomputer.com/tag/openclaw/"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "cline-cli-openclaw",
@@ -9470,7 +9651,8 @@
         "name": "GitHub Advisory via OSV",
         "url": "https://osv.dev/vulnerability/GHSA-9ppg-jx86-fqw7"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "lagos-peter-obi-ai-forex-fraud",
@@ -9524,7 +9706,8 @@
         "name": "Arise News",
         "url": "https://www.arise.tv/court-remands-lagos-businessman-over-n230m-forex-scam-using-ai-cloned-peter-obi-image"
       }
-    ]
+    ],
+    "sector": "Individuals & consumers"
   },
   {
     "id": "anthropic-distillation",
@@ -9574,7 +9757,8 @@
         "name": "eWeek",
         "url": "https://www.eweek.com/de/security/anthropic-deepseek-moonshot-minimax-targeted-claude/"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "mexico-gov-claude-breach",
@@ -9628,7 +9812,8 @@
         "name": "Insurance Journal",
         "url": "https://www.insurancejournal.com/news/international/2026/02/27/859786.htm"
       }
-    ]
+    ],
+    "sector": "Government & public sector"
   },
   {
     "id": "onlyfake-nazarenko-guilty-plea",
@@ -9686,7 +9871,8 @@
         "name": "TechSpot",
         "url": "https://www.techspot.com/news/111504-us-arrests-onlyfake-operator-accused-selling-over-10000.html"
       }
-    ]
+    ],
+    "sector": "Financial services"
   },
   {
     "id": "zscaler-dust-specter-iraq",
@@ -9740,7 +9926,8 @@
         "name": "The Hacker News",
         "url": "https://thehackernews.com/2026/03/dust-specter-targets-iraqi-officials.html"
       }
-    ]
+    ],
+    "sector": "Government & public sector"
   },
   {
     "id": "hp-wolf-vibe-hacking-2026",
@@ -9786,7 +9973,8 @@
         "name": "Cyber Magazine",
         "url": "https://cybermagazine.com/news/hp-wolf-security-how-vibe-hacking-overwhelms-legacy-defence"
       }
-    ]
+    ],
+    "sector": "Multiple / cross-sector"
   },
   {
     "id": "bing-ai-fake-openclaw-installer",
@@ -9832,7 +10020,8 @@
         "name": "BleepingComputer OpenClaw tag",
         "url": "https://www.bleepingcomputer.com/tag/openclaw/"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "microsoft-coral-sleet-agentic",
@@ -9882,7 +10071,8 @@
         "name": "CSA research note",
         "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-microsoft-ai-attack-lifecycle-intelligence/"
       }
-    ]
+    ],
+    "sector": "Multiple / cross-sector"
   },
   {
     "id": "microsoft-jasper-sleet-faceswap",
@@ -9928,7 +10118,8 @@
         "name": "Robinson and Cole summary",
         "url": "https://www.dataprivacyandsecurityinsider.com/2026/03/north-korean-threat-groups-using-ai-in-remote-technical-employee-schemes/"
       }
-    ]
+    ],
+    "sector": "Multiple / cross-sector"
   },
   {
     "id": "mckinsey-lilli-breach",
@@ -9986,7 +10177,8 @@
         "name": "Outpost24",
         "url": "https://outpost24.com/?p=12216"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "n8n-cve-2025-68613-kev",
@@ -10044,7 +10236,8 @@
         "name": "The Hacker News",
         "url": "https://thehackernews.com/2026/03/cisa-flags-actively-exploited-n8n-rce.html"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "ai-built-clickfix-smartrat",
@@ -10085,7 +10278,8 @@
     "drafted_at": "2026-10-14T17:15:57Z",
     "verified_at": "2026-10-15T13:05:37Z",
     "updated_at": "2026-10-15T13:05:37Z",
-    "verification": "reported"
+    "verification": "reported",
+    "sector": "Individuals & consumers"
   },
   {
     "id": "open-webui-cybernews-compromised",
@@ -10131,7 +10325,8 @@
         "name": "Sysdig (earlier Open WebUI case)",
         "url": "https://www.sysdig.com/blog/attacker-exploits-misconfigured-ai-tool-to-run-ai-generated-payload"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "unit42-gpt4-gated-sliver-dropper",
@@ -10177,7 +10372,8 @@
         "name": "BleepingComputer",
         "url": "https://bleepingcomputer.com/news/security/malicious-llms-empower-inexperienced-hackers-with-advanced-tools"
       }
-    ]
+    ],
+    "sector": "Unknown"
   },
   {
     "id": "meta-agent-data-exposure",
@@ -10227,7 +10423,8 @@
         "name": "PointGuard AI",
         "url": "https://www.pointguardai.com/ai-security-incidents/metas-ai-agent-misfire-spills-data-across-the-workforce"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "langflow-cve-2026-33017-exploited",
@@ -10281,7 +10478,8 @@
         "name": "Sysdig",
         "url": "https://www.sysdig.com/blog/cve-2026-33017-how-attackers-compromised-langflow-ai-pipelines-in-20-hours"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "chatgpt-dns-runtime-leak",
@@ -10331,7 +10529,8 @@
         "name": "CSO Online",
         "url": "https://www.csoonline.com/article/4152393/openai-patches-twin-leaks-as-codex-slips-and-chatgpt-spills.html"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "claude-code-leak-lures",
@@ -10389,7 +10588,8 @@
         "name": "Help Net Security",
         "url": "https://www.helpnetsecurity.com/2026/04/03/claude-code-leak-github-malware/"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "codex-branch-name-injection",
@@ -10439,7 +10639,8 @@
         "name": "Hackmag",
         "url": "https://hackmag.com/news/chatgpt-codex-flaws"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "vertex-ai-double-agent",
@@ -10493,7 +10694,8 @@
         "name": "Cloud Security Alliance",
         "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-vertex-ai-service-agent-privilege-escalati/"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "prt-scan-supply-chain-campaign",
@@ -10534,7 +10736,8 @@
     "drafted_at": "2026-10-14T17:15:57Z",
     "verified_at": "2026-10-15T13:05:37Z",
     "updated_at": "2026-10-15T13:05:37Z",
-    "verification": "reported"
+    "verification": "reported",
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "mercor-litellm-breach",
@@ -10596,7 +10799,8 @@
         "name": "Storyboard18",
         "url": "https://www.storyboard18.com/digital/ai-startup-mercor-flags-data-exposure-in-supply-chain-attack-linked-to-litellm-94295.htm"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "flowise-rce-exploited",
@@ -10654,7 +10858,8 @@
         "name": "SecurityWeek",
         "url": "https://www.securityweek.com/critical-flowise-vulnerability-in-attacker-crosshairs/"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "grafanaghost",
@@ -10712,7 +10917,8 @@
         "name": "CSO Online",
         "url": "https://www.csoonline.com/article/4155004/zero-click-grafana-ai-attack-can-enable-enterprise-data-exfiltration.html"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "copilot-agentforce-injection",
@@ -10766,7 +10972,8 @@
         "name": "SiliconANGLE",
         "url": "https://siliconangle.com/2026/04/15/capsule-security-launches-7m-secure-ai-agents-runtime/"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "marimo-rce-nkabuse-hugging-face",
@@ -10824,7 +11031,8 @@
         "name": "BleepingComputer",
         "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-marimo-flaw-to-deploy-nkabuse-malware-from-hugging-face/"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "vercel-context-ai",
@@ -10882,7 +11090,8 @@
         "name": "The Register",
         "url": "https://www.theregister.com/2026/04/20/vercel_context_ai_security_incident/"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "lovable-pre-nov-2025-projects",
@@ -10928,7 +11137,8 @@
         "name": "Superblocks (background on 2025 CVE)",
         "url": "https://www.superblocks.com/blog/lovable-rls-breach"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "claude-code-symlink-escape",
@@ -10974,7 +11184,8 @@
         "name": "Phoenix Security",
         "url": "https://phoenix.security/claude-code-leak-to-vulnerability-three-cves-in-claude-code-cli-and-the-chain-that-connects-them/"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "mythos-unauthorized-access",
@@ -11028,7 +11239,8 @@
         "name": "The Next Web",
         "url": "https://thenextweb.com/news/anthropic-mythos-unauthorized-access-vendor-breach"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "talos-softr-ai-phishing-page",
@@ -11074,7 +11286,8 @@
         "name": "SC Media",
         "url": "https://www.scworld.com/brief/ai-assisted-phishing-attacks-on-the-rise-report-finds"
       }
-    ]
+    ],
+    "sector": "Government & public sector"
   },
   {
     "id": "bangladesh-azhari-deepfake-drug-ring",
@@ -11132,7 +11345,8 @@
         "name": "ThreatCluster",
         "url": "https://threatcluster.io/cluster/10-arrested-for-ai-deepfake-drug-scam-involving-prominent-is-5a5623e7"
       }
-    ]
+    ],
+    "sector": "Individuals & consumers"
   },
   {
     "id": "banque-de-france-governor-deepfake",
@@ -11182,7 +11396,8 @@
         "name": "Economie Matin",
         "url": "https://www.economiematin.fr/?p=219581"
       }
-    ]
+    ],
+    "sector": "Individuals & consumers"
   },
   {
     "id": "ahmedabad-aadhaar-deepfake-racket",
@@ -11228,7 +11443,8 @@
         "name": "AI Incident Database",
         "url": "https://incidentdatabase.ai/reports/7170/"
       }
-    ]
+    ],
+    "sector": "Financial services"
   },
   {
     "id": "austria-albania-van-der-bellen-crypto",
@@ -11278,7 +11494,8 @@
         "name": "CIO.de / dpa",
         "url": "https://www.cio.de/article/4164915/deepfake-falle-fahnder-zerschlagen-50-millionen-krypto-mafia.html"
       }
-    ]
+    ],
+    "sector": "Individuals & consumers"
   },
   {
     "id": "pytorch-lightning-2-6-3-backdoor",
@@ -11324,7 +11541,8 @@
         "name": "BleepingComputer PyPI tag",
         "url": "https://www.bleepingcomputer.com/tag/pypi/"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "ghana-mahama-deepfake-arrests",
@@ -11382,7 +11600,8 @@
         "name": "OECD.AI Incidents Monitor",
         "url": "https://oecd.ai/en/incidents/2026-05-07-b538"
       }
-    ]
+    ],
+    "sector": "Individuals & consumers"
   },
   {
     "id": "hf-fake-openai-privacy-filter",
@@ -11436,7 +11655,8 @@
         "name": "PCrisk",
         "url": "https://www.pcrisk.com/internet-threat-news/35274-hugging-face-pushed-infostealer-via-fake-openai-repository"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "sysdig-marimo-llm-agent-pivots",
@@ -11482,7 +11702,8 @@
         "name": "The Hacker News",
         "url": "https://thehackernews.com/2026/05/attackers-use-llm-agent-for-post.html"
       }
-    ]
+    ],
+    "sector": "Unknown"
   },
   {
     "id": "gtig-ai-built-2fa-zero-day",
@@ -11528,7 +11749,8 @@
         "name": "Secure Blink coverage",
         "url": "https://www.secureblink.com/threat-feeds/google-discovers-ai-engineered-zero-day-exploit-bypassing-security-stacks"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "gtig-apt45-cve-prompt-farm",
@@ -11574,7 +11796,8 @@
         "name": "Secure Blink coverage",
         "url": "https://www.secureblink.com/threat-feeds/google-discovers-ai-engineered-zero-day-exploit-bypassing-security-stacks"
       }
-    ]
+    ],
+    "sector": "Multiple / cross-sector"
   },
   {
     "id": "gtig-canfail-longstream-decoy",
@@ -11620,7 +11843,8 @@
         "name": "Secure Blink coverage",
         "url": "https://www.secureblink.com/threat-feeds/google-discovers-ai-engineered-zero-day-exploit-bypassing-security-stacks"
       }
-    ]
+    ],
+    "sector": "Multiple / cross-sector"
   },
   {
     "id": "gtig-promptspy-android",
@@ -11666,7 +11890,8 @@
         "name": "Secure Blink coverage",
         "url": "https://www.secureblink.com/threat-feeds/google-discovers-ai-engineered-zero-day-exploit-bypassing-security-stacks"
       }
-    ]
+    ],
+    "sector": "Individuals & consumers"
   },
   {
     "id": "gtig-unc2814-tplink-rce",
@@ -11712,7 +11937,8 @@
         "name": "Secure Blink coverage",
         "url": "https://www.secureblink.com/threat-feeds/google-discovers-ai-engineered-zero-day-exploit-bypassing-security-stacks"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "gtig-unc5673-llm-account-pooling",
@@ -11758,7 +11984,8 @@
         "name": "Secure Blink coverage",
         "url": "https://www.secureblink.com/threat-feeds/google-discovers-ai-engineered-zero-day-exploit-bypassing-security-stacks"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "mini-shai-hulud-ai-packages",
@@ -11820,7 +12047,8 @@
         "name": "Endor Labs",
         "url": "https://www.endorlabs.com/learn/shai-hulud-compromises-the-tanstack-ecosystem-80-packages-compromised"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "openai-tanstack-worm-breach",
@@ -11870,7 +12098,8 @@
         "name": "BleepingComputer (campaign)",
         "url": "https://www.bleepingcomputer.com/news/security/shai-hulud-attack-ships-signed-malicious-tanstack-mistral-npm-packages/"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "singapore-pm-wong-deepfake-zoom",
@@ -11924,7 +12153,8 @@
         "name": "The Online Citizen",
         "url": "https://theonlinecitizen.com/2026/05/15/singapore-businessman-loses-s-4-9-million-in-deepfake-strait-of-hormuz-government-scam"
       }
-    ]
+    ],
+    "sector": "Individuals & consumers"
   },
   {
     "id": "sao-paulo-fake-lawyer-voice-clone",
@@ -11978,7 +12208,8 @@
         "name": "OECD AI Incidents Monitor",
         "url": "https://oecd.ai/en/incidents/2026-05-19-df32"
       }
-    ]
+    ],
+    "sector": "Individuals & consumers"
   },
   {
     "id": "checkpoint-nimbus-manticore-minifast",
@@ -12036,7 +12267,8 @@
         "name": "The Hacker News",
         "url": "https://thehackernews.com/2026/05/iranian-hackers-deploy-minifast-and.html"
       }
-    ]
+    ],
+    "sector": "Multiple / cross-sector"
   },
   {
     "id": "turkey-yapay-zeka-2-deepfake-ads",
@@ -12086,7 +12318,8 @@
         "name": "OECD.AI Incidents Monitor",
         "url": "https://oecd.ai/en/incidents/2026-05-24-3e4f"
       }
-    ]
+    ],
+    "sector": "Individuals & consumers"
   },
   {
     "id": "codexui-android-npm",
@@ -12140,7 +12373,8 @@
         "name": "PointGuard AI",
         "url": "https://www.pointguardai.com/ai-security-incidents/malicious-npm-package-steals-openai-codex-authentication-tokens"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "sophos-cursor-edr-evasion-lab",
@@ -12186,7 +12420,8 @@
         "name": "Hexnode Threat Watch",
         "url": "https://www.hexnode.com/threat-watch/sophos-ai-malware-lab-edr-evasion/"
       }
-    ]
+    ],
+    "sector": "Defence & security"
   },
   {
     "id": "nigeria-tinubu-ai-voice-arrest",
@@ -12240,7 +12475,8 @@
         "name": "PM News",
         "url": "https://pmnewsnigeria.com/2026/06/04/man-who-fooled-thousands-with-fake-tinubus-voice-has-been-arrested/"
       }
-    ]
+    ],
+    "sector": "Politics & elections"
   },
   {
     "id": "litellm-cve-2026-42271",
@@ -12302,7 +12538,8 @@
         "name": "Cloud Security Alliance",
         "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-litellm-cve-2026-42271-ai-gateway-exploita/"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "meta-ai-support-instagram",
@@ -12364,7 +12601,8 @@
         "name": "Silicon UK",
         "url": "https://www.silicon.co.uk/security/cyberwar/meta-instagram-ai-hack-630083"
       }
-    ]
+    ],
+    "sector": "Individuals & consumers"
   },
   {
     "id": "mcp-server-npm-typosquats",
@@ -12410,7 +12648,8 @@
         "name": "OSV MAL-2026-5479",
         "url": "https://osv.dev/vulnerability/MAL-2026-5479"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "ollama-vapt-autonomous-attack",
@@ -12464,7 +12703,8 @@
         "name": "CyberWire Research Saturday",
         "url": "https://thecyberwire.com/podcasts/research-saturday/439/notes"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "copilot-searchleak",
@@ -12514,7 +12754,8 @@
         "name": "Penligent",
         "url": "https://www.penligent.ai/hackinglabs/microsoft-365-copilot-searchleak/"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "aikido-jetbrains-ai-key-theft",
@@ -12568,7 +12809,8 @@
         "name": "Infosecurity Magazine",
         "url": "https://infosecurity-magazine.com/news/fifteen-jetbrains-marketplace"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "mastra-npm-sapphire-sleet",
@@ -12618,7 +12860,8 @@
         "name": "BleepingComputer npm tag",
         "url": "https://www.bleepingcomputer.com/tag/npm/"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "israel-synthetic-identity-ai-agents",
@@ -12664,7 +12907,8 @@
         "name": "Frank on Fraud",
         "url": "https://frankonfraud.com/he-used-ai-to-wear-other-peoples-faces-and-agents-to-help-him/"
       }
-    ]
+    ],
+    "sector": "Financial services"
   },
   {
     "id": "chiba-teen-ai-ransomware-arrest",
@@ -12714,7 +12958,8 @@
         "name": "Kumamoto Nichinichi Shimbun (熊本日日新聞)",
         "url": "https://kumanichi.com/articles/2006833"
       }
-    ]
+    ],
+    "sector": "Unknown"
   },
   {
     "id": "tokyo-horie-deepfake-investment-ring",
@@ -12768,7 +13013,8 @@
         "name": "Lets Data Science",
         "url": "https://letsdatascience.com/news/taiwanese-woman-arrested-over-ai-deepfake-investment-scam-599be468"
       }
-    ]
+    ],
+    "sector": "Individuals & consumers"
   },
   {
     "id": "sysdig-jadepuffer-agentic-ransomware",
@@ -12818,7 +13064,8 @@
         "name": "Outpost24",
         "url": "https://outpost24.com/blog/jadepuffer-agentic-ransomware/"
       }
-    ]
+    ],
+    "sector": "Unknown"
   },
   {
     "id": "cursor-duneslide-sandbox-escape",
@@ -12872,7 +13119,8 @@
         "name": "CSO Online",
         "url": "https://www.csoonline.com/article/4191923/sandbox-bypass-flaws-in-cursor-ide-highlight-prompt-injection-as-an-rce-vector.html"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "chemnitz-lanz-deepfake-investhub",
@@ -12926,7 +13174,8 @@
         "name": "Heidelberg24",
         "url": "https://www.heidelberg24.de/welt/ueber-eine-million-euro-verloren-frau-aus-sachsen-faellt-auf-markus-lanz-fake-herein-zr-94385292.html"
       }
-    ]
+    ],
+    "sector": "Individuals & consumers"
   },
   {
     "id": "colombia-ibague-deepfake-visa-ring",
@@ -12976,7 +13225,8 @@
         "name": "El Colombiano",
         "url": "https://www.elcolombiano.com/colombia/cae-red-fraude-visas-estados-unidos-ia-video-falso-ibague-NF38790805"
       }
-    ]
+    ],
+    "sector": "Individuals & consumers"
   },
   {
     "id": "sky-gold-deepfake-director",
@@ -13026,7 +13276,8 @@
         "name": "AI Incident Database entity page",
         "url": "https://incidentdatabase.ai/entities/starmangalsutra/"
       }
-    ]
+    ],
+    "sector": "Retail & consumer brands"
   },
   {
     "id": "unit42-tuxbot-v3-llm-botnet",
@@ -13080,7 +13331,8 @@
         "name": "The Hacker News",
         "url": "https://thehackernews.com/2026/07/tuxbot-v3-evolution-shows-signs-of-llm.html"
       }
-    ]
+    ],
+    "sector": "Multiple / cross-sector"
   },
   {
     "id": "openai-agent-hugging-face",
@@ -13146,7 +13398,8 @@
         "name": "Quartz",
         "url": "https://qz.com/openai-rogue-agent-modal-labs-customer-hugging-face-072926"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "finland-deepfake-police-video-calls",
@@ -13200,7 +13453,8 @@
         "name": "OECD AI Incidents Monitor",
         "url": "https://oecd.ai/en/incidents/2026-07-22-2305"
       }
-    ]
+    ],
+    "sector": "Individuals & consumers"
   },
   {
     "id": "trend-ai-agent-pentest-pretext-sea",
@@ -13246,7 +13500,8 @@
         "name": "Trend Micro APT Activity Roundup PDF",
         "url": "https://documents.trendmicro.com/assets/pdf/APT_Activity_Roundup_2026.pdf"
       }
-    ]
+    ],
+    "sector": "Unknown"
   },
   {
     "id": "trend-earth-krahang-naga-genai",
@@ -13292,7 +13547,8 @@
         "name": "Trend Micro newsroom",
         "url": "https://newsroom.trendmicro.com/2026-07-29-TrendAI-TM-Reports-Nation-State-Activity-in-H1-2026-APT-Activity-Roundup?asPDF=1"
       }
-    ]
+    ],
+    "sector": "Multiple / cross-sector"
   },
   {
     "id": "anthropic-eval-claude-pypi-malware",
@@ -13350,7 +13606,8 @@
         "name": "Socket (Anthropic analysis)",
         "url": "https://socket.dev/blog/claude-pypi-attack"
       }
-    ]
+    ],
+    "sector": "Multiple / cross-sector"
   },
   {
     "id": "openai-poipet-scam-compound",
@@ -13404,7 +13661,8 @@
         "name": "Bitdefender",
         "url": "https://www.bitdefender.com/en-au/blog/hotforsecurity/openai-shuts-down-chatgpt-accounts-used-by-organized-scam-networks"
       }
-    ]
+    ],
+    "sector": "Individuals & consumers"
   },
   {
     "id": "langflow-summer-2026-kev-wave",
@@ -13466,7 +13724,8 @@
         "name": "Langflow advisory GHSA-qrpv-q767-xqq2",
         "url": "https://github.com/langflow-ai/langflow/security/advisories/GHSA-qrpv-q767-xqq2"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "norway-ai-fake-documents-tax-fraud",
@@ -13516,7 +13775,8 @@
         "name": "OECD AI Incidents Monitor",
         "url": "https://oecd.ai/en/incidents/2026-08-10-6d0c"
       }
-    ]
+    ],
+    "sector": "Government & public sector"
   },
   {
     "id": "australia-nasc-albanese-deepfake-7-4m",
@@ -13562,7 +13822,8 @@
         "name": "The Outpost",
         "url": "https://theoutpost.ai/news-story/deepfake-scams-using-anthony-albanese-cost-australians-7-4-m-as-asic-reports-182-surge-29829/"
       }
-    ]
+    ],
+    "sector": "Individuals & consumers"
   },
   {
     "id": "ray-cve-2025-62593-rondodox-kev",
@@ -13616,7 +13877,8 @@
         "name": "Bitsight",
         "url": "https://www.bitsight.com/blog/rondodox-botnet-infrastructure-analysis"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "bitdefender-silkparasite-ai-rats",
@@ -13666,7 +13928,8 @@
         "name": "BankInfoSecurity",
         "url": "https://www.bankinfosecurity.com/china-linked-apt-uses-ai-to-optimize-hand-built-malware-a-32597"
       }
-    ]
+    ],
+    "sector": "Government & public sector"
   },
   {
     "id": "cisa-aa26-231a-siemens-ai-scripts",
@@ -13712,7 +13975,8 @@
         "name": "ZeroFox advisory",
         "url": "https://www.zerofox.com/advisories/41577/"
       }
-    ]
+    ],
+    "sector": "Energy, industrial & infrastructure"
   },
   {
     "id": "mlflow-cve-2026-64849-kev",
@@ -13758,7 +14022,8 @@
         "name": "MLflow advisory",
         "url": "https://github.com/mlflow/mlflow/security/advisories/GHSA-7gwp-5pfp-969j"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "heidelberg-pensioner-deepfake-investment",
@@ -13804,7 +14069,8 @@
         "name": "BornCity (police deepfake warning)",
         "url": "https://borncity.com/news/anlagebetrug-mit-ki-deepfakes-polizei-warnt-vor-manipulierten-videos/"
       }
-    ]
+    ],
+    "sector": "Individuals & consumers"
   },
   {
     "id": "truffle-aws-keys-hugging-face",
@@ -13854,7 +14120,8 @@
         "name": "BleepingComputer Hugging Face tag",
         "url": "https://www.bleepingcomputer.com/tag/hugging-face/"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "litellm-cve-2026-59822-kev",
@@ -13908,7 +14175,8 @@
         "name": "Wiz",
         "url": "https://www.wiz.io/blog/ai-infrastructure-honeypot"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "chatgpt-gmail-covert-channel",
@@ -13962,7 +14230,8 @@
         "name": "TechRadar",
         "url": "https://techradar.com/pro/security/a-worrying-chatgpt-bug-let-strangers-read-gmail-messages-via-a-hidden-cross-account-channel"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "gtig-dustmaker-ci-prompts",
@@ -14012,7 +14281,8 @@
         "name": "Hendry Adrian mirror",
         "url": "https://www.hendryadrian.com/?p=112386"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "gtig-sandworm-relic-gemini",
@@ -14062,7 +14332,8 @@
         "name": "Hendry Adrian mirror",
         "url": "https://www.hendryadrian.com/?p=112386"
       }
-    ]
+    ],
+    "sector": "Multiple / cross-sector"
   },
   {
     "id": "gtig-six-hour-credential-harvest",
@@ -14112,7 +14383,8 @@
         "name": "Let's Data Science coverage",
         "url": "https://letsdatascience.com/news/google-documents-criminal-use-of-autonomous-ai-agents-a1f2a31a"
       }
-    ]
+    ],
+    "sector": "Unknown"
   },
   {
     "id": "okta-infostealer-ai-tokens",
@@ -14158,7 +14430,8 @@
         "name": "The Hacker News",
         "url": "https://thehackernews.com/2026/09/infostealer-logs-expose-replayable-ai.html"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "anthropic-gtg-10007-exploit-foundry",
@@ -14204,7 +14477,8 @@
         "name": "Unite.AI summary",
         "url": "https://unite.ai/anthropic-details-disrupted-claude-misuse-across-seven-harm-areas"
       }
-    ]
+    ],
+    "sector": "Multiple / cross-sector"
   },
   {
     "id": "anthropic-gtg-15001-dating-apps",
@@ -14254,7 +14528,8 @@
         "name": "Sahara Reporters coverage",
         "url": "https://saharareporters.com/2026/09/11/china-based-developers-used-ai-run-over-20-fake-dating-apps-deceiving-25000-users-report"
       }
-    ]
+    ],
+    "sector": "Individuals & consumers"
   },
   {
     "id": "anthropic-gtg-16005-alibaba-distill",
@@ -14304,7 +14579,8 @@
         "name": "Unite.AI summary",
         "url": "https://unite.ai/anthropic-details-disrupted-claude-misuse-across-seven-harm-areas"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "anthropic-gtg-16006-zhipu-distill",
@@ -14354,7 +14630,8 @@
         "name": "Unite.AI summary",
         "url": "https://unite.ai/anthropic-details-disrupted-claude-misuse-across-seven-harm-areas"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "anthropic-gtg-16008-xiaomi-distill",
@@ -14404,7 +14681,8 @@
         "name": "Unite.AI summary",
         "url": "https://unite.ai/anthropic-details-disrupted-claude-misuse-across-seven-harm-areas"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "anthropic-gtg-30006-iran-tooling",
@@ -14450,7 +14728,8 @@
         "name": "The Next Web coverage",
         "url": "https://thenextweb.com/news/anthropic-claude-misuse-threat-intelligence-report"
       }
-    ]
+    ],
+    "sector": "Multiple / cross-sector"
   },
   {
     "id": "anthropic-gtg-50020-sandbox-keys",
@@ -14500,7 +14779,8 @@
         "name": "Unite.AI summary",
         "url": "https://unite.ai/anthropic-details-disrupted-claude-misuse-across-seven-harm-areas"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "anthropic-gtg-50021-fake-reseller",
@@ -14546,7 +14826,8 @@
         "name": "Paubox on stolen AI access",
         "url": "https://www.paubox.com/blog/criminals-are-now-stealing-and-reselling-ai-access"
       }
-    ]
+    ],
+    "sector": "Individuals & consumers"
   },
   {
     "id": "anthropic-gtg-50029-eu-hacktivist",
@@ -14592,7 +14873,8 @@
         "name": "Unite.AI summary",
         "url": "https://unite.ai/anthropic-details-disrupted-claude-misuse-across-seven-harm-areas"
       }
-    ]
+    ],
+    "sector": "Politics & elections"
   },
   {
     "id": "anthropic-jackpoterz-russia",
@@ -14646,7 +14928,8 @@
         "name": "The Register",
         "url": "https://www.theregister.com/a/5295702"
       }
-    ]
+    ],
+    "sector": "Defence & security"
   },
   {
     "id": "anthropic-shinyhunters-agents",
@@ -14700,7 +14983,8 @@
         "name": "Paubox",
         "url": "https://www.paubox.com/blog/anthropic-report-shows-ai-now-lets-small-actors-run-hacking-campaigns"
       }
-    ]
+    ],
+    "sector": "Multiple / cross-sector"
   },
   {
     "id": "rubygems-openai-agent-swarm",
@@ -14758,7 +15042,8 @@
         "name": "AI Weekly",
         "url": "https://aiweekly.co/alerts/wsj-openai-agents-attacked-rubygems-in-may-two-months-before-hugging-face-breach"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "greece-voice-clone-relatives-gang",
@@ -14808,7 +15093,8 @@
         "name": "Greek City Times",
         "url": "https://greekcitytimes.com/2026/09/19/greece-police-ai-voice-cloning-scam-gang/"
       }
-    ]
+    ],
+    "sector": "Individuals & consumers"
   },
   {
     "id": "pixelleak-agent-screenshots",
@@ -14862,7 +15148,8 @@
         "name": "WorkOS",
         "url": "https://workos.com/blog/pixelleak-ai-coding-agents-screenshots"
       }
-    ]
+    ],
+    "sector": "Multiple / cross-sector"
   },
   {
     "id": "ai-music-streaming-royalty-fraud",
@@ -14908,7 +15195,8 @@
         "name": "Law Commentary",
         "url": "https://www.lawcommentary.com/articles/ai-music-streaming-fraud-8-million-18-months-prison"
       }
-    ]
+    ],
+    "sector": "Media & entertainment"
   },
   {
     "id": "poellm-botnet-exposed-ai-servers",
@@ -14954,7 +15242,8 @@
         "name": "BleepingComputer AI tag",
         "url": "https://www.bleepingcomputer.com/tag/artificial-intelligence/"
       }
-    ]
+    ],
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "divd-zammad-agentic-ai-attack",
@@ -14995,7 +15284,8 @@
     "drafted_at": "2026-10-14T17:15:57Z",
     "verified_at": "2026-10-15T13:05:37Z",
     "updated_at": "2026-10-15T13:05:37Z",
-    "verification": "reported"
+    "verification": "reported",
+    "sector": "Defence & security"
   },
   {
     "id": "ta419-ai-policy-expert-phishing",
@@ -15036,7 +15326,8 @@
     "drafted_at": "2026-10-14T17:15:57Z",
     "verified_at": "2026-10-15T13:05:37Z",
     "updated_at": "2026-10-15T13:05:37Z",
-    "verification": "reported"
+    "verification": "reported",
+    "sector": "Education & research"
   },
   {
     "id": "chatgpt-feature-clickfix-trojan",
@@ -15077,7 +15368,8 @@
     "drafted_at": "2026-10-14T17:15:57Z",
     "verified_at": "2026-10-15T13:05:37Z",
     "updated_at": "2026-10-15T13:05:37Z",
-    "verification": "reported"
+    "verification": "reported",
+    "sector": "Individuals & consumers"
   },
   {
     "id": "openai-agent-hacks-australia-medicare",
@@ -15118,7 +15410,8 @@
     "drafted_at": "2026-10-14T17:15:57Z",
     "verified_at": "2026-10-15T13:05:37Z",
     "updated_at": "2026-10-15T13:05:37Z",
-    "verification": "reported"
+    "verification": "reported",
+    "sector": "Government & public sector"
   },
   {
     "id": "aepd-spain-first-ai-agent-breach",
@@ -15159,7 +15452,8 @@
     "drafted_at": "2026-10-14T17:15:57Z",
     "verified_at": "2026-10-15T13:05:37Z",
     "updated_at": "2026-10-15T13:05:37Z",
-    "verification": "reported"
+    "verification": "reported",
+    "sector": "Unknown"
   },
   {
     "id": "metr-api-key-theft-600k-credits",
@@ -15200,7 +15494,8 @@
     "drafted_at": "2026-10-14T17:15:57Z",
     "verified_at": "2026-10-15T13:05:37Z",
     "updated_at": "2026-10-15T13:05:37Z",
-    "verification": "reported"
+    "verification": "reported",
+    "sector": "Education & research"
   },
   {
     "id": "aurora-ransomware-cursor-agent-abuse",
@@ -15241,7 +15536,8 @@
     "drafted_at": "2026-10-14T17:15:57Z",
     "verified_at": "2026-10-15T13:05:37Z",
     "updated_at": "2026-10-15T13:05:37Z",
-    "verification": "reported"
+    "verification": "reported",
+    "sector": "Unknown"
   },
   {
     "id": "fake-codex-google-sites-macos-malware",
@@ -15282,7 +15578,8 @@
     "drafted_at": "2026-10-14T17:15:57Z",
     "verified_at": "2026-10-15T13:05:37Z",
     "updated_at": "2026-10-15T13:05:37Z",
-    "verification": "reported"
+    "verification": "reported",
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "ai-scripts-target-siemens-s7-plcs",
@@ -15323,7 +15620,8 @@
     "drafted_at": "2026-10-14T17:15:57Z",
     "verified_at": "2026-10-15T13:05:37Z",
     "updated_at": "2026-10-15T13:05:37Z",
-    "verification": "reported"
+    "verification": "reported",
+    "sector": "Energy, industrial & infrastructure"
   },
   {
     "id": "meta-ai-model-exploits-flaw-in-eval",
@@ -15364,7 +15662,8 @@
     "drafted_at": "2026-10-14T17:15:57Z",
     "verified_at": "2026-10-15T13:05:37Z",
     "updated_at": "2026-10-15T13:05:37Z",
-    "verification": "reported"
+    "verification": "reported",
+    "sector": "Unknown"
   },
   {
     "id": "unit42-latam-ai-tool-exfiltration-campai",
@@ -15405,7 +15704,8 @@
     "drafted_at": "2026-10-14T17:15:57Z",
     "verified_at": "2026-10-15T13:05:37Z",
     "updated_at": "2026-10-15T13:05:37Z",
-    "verification": "reported"
+    "verification": "reported",
+    "sector": "Multiple / cross-sector"
   },
   {
     "id": "unit42-agentic-attack-enterprise-breach",
@@ -15446,7 +15746,8 @@
     "drafted_at": "2026-10-14T17:15:57Z",
     "verified_at": "2026-10-15T13:05:37Z",
     "updated_at": "2026-10-15T13:05:37Z",
-    "verification": "reported"
+    "verification": "reported",
+    "sector": "Unknown"
   },
   {
     "id": "aisi-eval-agent-attacks-third-parties",
@@ -15487,7 +15788,8 @@
     "drafted_at": "2026-10-14T17:15:57Z",
     "verified_at": "2026-10-15T13:05:37Z",
     "updated_at": "2026-10-15T13:05:37Z",
-    "verification": "reported"
+    "verification": "reported",
+    "sector": "Unknown"
   },
   {
     "id": "gemini-breakout-hacks-three-companies",
@@ -15528,7 +15830,8 @@
     "drafted_at": "2026-10-14T17:15:57Z",
     "verified_at": "2026-10-15T13:05:37Z",
     "updated_at": "2026-10-15T13:05:37Z",
-    "verification": "reported"
+    "verification": "reported",
+    "sector": "Unknown"
   },
   {
     "id": "artex-ai-driven-korea-finance",
@@ -15569,7 +15872,8 @@
     "drafted_at": "2026-10-14T17:15:57Z",
     "verified_at": "2026-10-15T13:05:37Z",
     "updated_at": "2026-10-15T13:05:37Z",
-    "verification": "reported"
+    "verification": "reported",
+    "sector": "Financial services"
   },
   {
     "id": "macos-gaslight-llm-triage-spoof",
@@ -15610,7 +15914,8 @@
     "drafted_at": "2026-10-14T17:15:57Z",
     "verified_at": "2026-10-15T13:05:37Z",
     "updated_at": "2026-10-15T13:05:37Z",
-    "verification": "reported"
+    "verification": "reported",
+    "sector": "Defence & security"
   },
   {
     "id": "uat-11985-taiwan-aitm-phishing",
@@ -15651,7 +15956,8 @@
     "drafted_at": "2026-10-14T17:15:57Z",
     "verified_at": "2026-10-15T13:05:37Z",
     "updated_at": "2026-10-15T13:05:37Z",
-    "verification": "reported"
+    "verification": "reported",
+    "sector": "Education & research"
   },
   {
     "id": "closedquorum-autonomous-ai-c2",
@@ -15692,7 +15998,8 @@
     "drafted_at": "2026-10-14T17:15:57Z",
     "verified_at": "2026-10-15T13:05:37Z",
     "updated_at": "2026-10-15T13:05:37Z",
-    "verification": "reported"
+    "verification": "reported",
+    "sector": "Unknown"
   },
   {
     "id": "claudefix-shared-claude-chats",
@@ -15733,7 +16040,8 @@
     "drafted_at": "2026-10-14T17:15:57Z",
     "verified_at": "2026-10-15T13:05:37Z",
     "updated_at": "2026-10-15T13:05:37Z",
-    "verification": "reported"
+    "verification": "reported",
+    "sector": "Individuals & consumers"
   },
   {
     "id": "openclaw-skill-remcos-ghostloader",
@@ -15774,7 +16082,8 @@
     "drafted_at": "2026-10-14T17:15:57Z",
     "verified_at": "2026-10-15T13:05:37Z",
     "updated_at": "2026-10-15T13:05:37Z",
-    "verification": "reported"
+    "verification": "reported",
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "purpledelta-nk-it-worker-ai-personas",
@@ -15815,7 +16124,8 @@
     "drafted_at": "2026-10-14T17:15:57Z",
     "verified_at": "2026-10-15T13:05:37Z",
     "updated_at": "2026-10-15T13:05:37Z",
-    "verification": "reported"
+    "verification": "reported",
+    "sector": "Multiple / cross-sector"
   },
   {
     "id": "mlflow-ssrf-cve-2026-64849",
@@ -15856,7 +16166,8 @@
     "drafted_at": "2026-10-14T17:15:57Z",
     "verified_at": "2026-10-15T13:05:37Z",
     "updated_at": "2026-10-15T13:05:37Z",
-    "verification": "reported"
+    "verification": "reported",
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "ray-code-injection-cve-2025-62593",
@@ -15897,7 +16208,8 @@
     "drafted_at": "2026-10-14T17:15:57Z",
     "verified_at": "2026-10-15T13:05:37Z",
     "updated_at": "2026-10-15T13:05:37Z",
-    "verification": "reported"
+    "verification": "reported",
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "litellm-sqli-cve-2026-42208",
@@ -15938,7 +16250,8 @@
     "drafted_at": "2026-10-14T17:15:57Z",
     "verified_at": "2026-10-15T13:05:37Z",
     "updated_at": "2026-10-15T13:05:37Z",
-    "verification": "reported"
+    "verification": "reported",
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "rathat-ai-c2-panel-maas",
@@ -15979,7 +16292,8 @@
     "drafted_at": "2026-10-14T18:14:13Z",
     "verified_at": "2026-10-15T13:05:37Z",
     "updated_at": "2026-10-15T13:05:37Z",
-    "verification": "reported"
+    "verification": "reported",
+    "sector": "Individuals & consumers"
   },
   {
     "id": "wiz-red-agent-snowflake-jira",
@@ -16020,7 +16334,8 @@
     "drafted_at": "2026-10-14T18:14:13Z",
     "verified_at": "2026-10-15T13:05:37Z",
     "updated_at": "2026-10-15T13:05:37Z",
-    "verification": "reported"
+    "verification": "reported",
+    "sector": "Technology & AI vendors"
   },
   {
     "id": "ngate-variant-trojanized-nfc-app",
@@ -16061,7 +16376,8 @@
     "drafted_at": "2026-10-14T21:47:53Z",
     "verified_at": "2026-10-15T13:05:37Z",
     "updated_at": "2026-10-15T13:05:37Z",
-    "verification": "reported"
+    "verification": "reported",
+    "sector": "Individuals & consumers"
   },
   {
     "id": "legal-filing-hidden-prompt-injection",
@@ -16103,7 +16419,8 @@
     "first_seen": "2026-08-13T19:04:52Z",
     "updated_at": "2026-10-15T13:05:37Z",
     "verified_at": "2026-10-15T13:05:37Z",
-    "verification": "reported"
+    "verification": "reported",
+    "sector": "Government & public sector"
   },
   {
     "id": "jqwik-agent-delete-output-instruction",
@@ -16145,6 +16462,7 @@
     "first_seen": "2026-05-29T07:05:31Z",
     "updated_at": "2026-10-15T13:05:37Z",
     "verified_at": "2026-10-15T13:05:37Z",
-    "verification": "reported"
+    "verification": "reported",
+    "sector": "Technology & AI vendors"
   }
 ]
