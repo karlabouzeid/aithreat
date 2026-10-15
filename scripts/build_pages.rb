@@ -527,7 +527,7 @@ def head(lang:, title:, desc:, url:, alternates:, og_type: "website", jsonld: []
     <link rel="alternate" type="application/rss+xml" title="AI Threat Watch wire" href="/feed.xml">
     #{ICON}
     #{FONTS}
-    <style>#{CSS}</style>
+    <style>#{CSS}#{SUBSCRIBE_CSS}</style>
     <script>try{var t=localStorage.getItem('atw-theme');if(t)document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
     #{UMAMI}
     #{jsonld.map { |j| %(<script type="application/ld+json">#{JSON.generate(j).gsub('</', '<\/')}</script>) }.join("\n")}
@@ -560,8 +560,19 @@ def para(label, v, lang)
   label ? %(<p><span class="lbl">#{h(label)}: </span>#{h(v)}</p>) : %(<p>#{h(v)}</p>)
 end
 
+# Email sign-up (Buttondown, double opt-in). Plain HTML form: Buttondown shows its
+# "check your inbox" page, then sends confirmed readers back to /cases/.
+SUBSCRIBE_CSS = ".sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}.sub{background:var(--surface);border:1px solid var(--line2);border-radius:12px;padding:16px 18px;margin:26px 0 0;display:grid;gap:8px}.sub .k{font:600 11px var(--f-mono);text-transform:uppercase;letter-spacing:.06em;color:var(--accent)}html[lang=\"ar\"] .sub .k,html[lang=\"zh\"] .sub .k{font-family:var(--f-body);text-transform:none;letter-spacing:0}.sub h2{margin:0;font-size:18px}.sub form{display:flex;flex-wrap:wrap;gap:8px}.sub input[type=email]{flex:1 1 220px;min-height:40px;border:1px solid var(--line2);border-radius:8px;background:var(--surface2);color:var(--ink);padding:0 12px;font:15px var(--f-body)}.sub button{min-height:40px;padding:0 16px;border:0;border-radius:8px;background:var(--accent);color:var(--accent-ink);font:600 14px var(--f-body);cursor:pointer}.sub small{color:var(--muted)}"
+def subscribe_box(lang)
+  <<~HTML
+    <aside class="sub" aria-labelledby="sub-h"><div class="k">#{h(t(lang, 'get_alerts'))}</div><h2 id="sub-h">#{h(t(lang, 'alerts_h'))}</h2>
+    <form method="post" action="https://buttondown.com/api/emails/embed-subscribe/aithreat"><label class="sr" for="sub-email">Email</label><input type="email" name="email" id="sub-email" required placeholder="#{h(t(lang, 'alerts_ph'))}" autocomplete="email"><input type="hidden" name="tag" value="lang-#{lang}"><button type="submit">#{h(t(lang, 'subscribe'))}</button></form>
+    <small>#{h(t(lang, 'alerts_note'))} <a href="#{pre(lang)}/cases/feed.xml">RSS</a></small></aside>
+  HTML
+end
+
 def shell(lang, current, headhtml, body, alternates)
-  html = headhtml + %(<body><div class="wrap">#{bar(lang, current)}<main>#{body}#{footer(lang)}</main></div></body></html>)
+  html = headhtml + %(<body><div class="wrap">#{bar(lang, current)}<main>#{body}#{subscribe_box(lang)}#{footer(lang)}</main></div></body></html>)
   html.sub('<div class="bar-right" id="langbar"></div>', %(<nav class="bar-right" aria-label="#{h(t(lang, 'lang'))}">#{lang_links(lang, alternates)}</nav>))
 end
 
