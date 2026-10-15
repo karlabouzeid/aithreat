@@ -155,5 +155,5 @@ Do these in week one. Each is a durable link from a place AI assistants and peop
 
 ### Measurement you can hand to Claude
 
-In Umami: Settings, Websites, aithreat.io, Share URL, turn it on and paste the link into this file. Claude
-can then read visits and referrers every Friday without your login.
+Read-only Umami dashboard (visits, pages, referrers; no login needed): https://cloud.umami.is/share/dGOwSfE4h8EObblZ
+Claude reads it every Friday; you can open it on your phone too.
