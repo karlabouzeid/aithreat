@@ -1,0 +1,48 @@
+name: Report an AI security incident or a correction
+description: Tell us about an attack on an AI system, an attack carried out with AI, or an error in an existing case file.
+title: "[Report] "
+labels: ["report"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you. We credit first reporters on the case file and honour embargoes: if the report is under embargo, say so and give the date.
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What is this?
+      options:
+        - New incident
+        - Correction to an existing case file
+        - New source for an existing case file
+    validations:
+      required: true
+  - type: input
+    id: case
+    attributes:
+      label: Existing case id (if a correction)
+      placeholder: e.g. salesloft-drift-oauth
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: Who was affected, when, how, and what the impact was. Facts only; we will research the rest.
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources
+      description: Links to primary sources (advisory, filing, statement, article). One per line.
+    validations:
+      required: true
+  - type: input
+    id: embargo
+    attributes:
+      label: Embargo (optional)
+      placeholder: "Under embargo until YYYY-MM-DD HH:MM UTC"
+  - type: input
+    id: credit
+    attributes:
+      label: How to credit you (optional)
+      placeholder: Name or handle, or "anonymous"
