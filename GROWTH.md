@@ -56,7 +56,7 @@ never creates noise commits.
 Do these after you push today's changes with GitHub Desktop and Netlify shows the deploy as published.
 Check first that https://aithreat.io/cases/ and https://aithreat.io/sitemap.xml open.
 
-### 1. Google Search Console (10 min)
+### 1. Google Search Console (10 min). DONE 15 Oct 2026: verified, sitemap submitted, indexing requested. Only step 8 remains.
 1. Go to https://search.google.com/search-console and sign in with a Google account.
 2. "Add property" → choose **Domain** → type `aithreat.io` → Continue.
 3. Google shows a TXT record (starts with `google-site-verification=`). Copy it.
@@ -66,7 +66,7 @@ Check first that https://aithreat.io/cases/ and https://aithreat.io/sitemap.xml 
 7. Left menu → **URL inspection** → paste `https://aithreat.io/cases/` → "Request indexing". Do the same for the homepage and two or three case pages. This speeds up the first crawl.
 8. Come back in a week: Pages report (what is indexed), Performance report (which queries bring people).
 
-### 2. Bing Webmaster Tools (10 min, and the AI-citation report)
+### 2. Bing Webmaster Tools (10 min, and the AI-citation report). DONE 15 Oct 2026: verified, sitemap submitted, IndexNow full run. Step 5 remains: check AI Performance in two to three weeks.
 1. Go to https://www.bing.com/webmasters and sign in (Microsoft, Google or Facebook account).
 2. Choose "Import from Google Search Console" if offered; it copies the verification and sitemap in one click. Otherwise add `https://aithreat.io` and verify with the DNS option (same TXT-record method as above).
 3. Sitemaps → submit `https://aithreat.io/sitemap.xml`.
@@ -77,7 +77,7 @@ Check first that https://aithreat.io/cases/ and https://aithreat.io/sitemap.xml 
 Nothing to do: the Dataset structured data on the homepage is picked up automatically once Google crawls it.
 Check in a month by searching "AI Threat Watch" at https://datasetsearch.research.google.com.
 
-### 4. Mirror the dataset where researchers and AI assistants already look (20 min)
+### 4. Mirror the dataset where researchers and AI assistants already look (20 min). Hugging Face DONE 15 Oct 2026 (karlabouzeid/ai-security-incidents). GitHub public repo and Zenodo still open.
 - **GitHub (public):** create a public repository `aithreat-data` with `incidents.en.json`, the four translation files, a README (what it is, fields, licence, how to cite) and a link to the site. Public GitHub repos are heavily cited by ChatGPT and Perplexity. The robot can be taught to push updates there later.
 - **Hugging Face Datasets:** https://huggingface.co/new-dataset → name `aithreat/ai-security-incidents` → upload the same files → licence `cc-by-4.0`. Researchers search there first.
 - **Zenodo** (later, quarterly): gives a DOI, which papers need to cite you.
