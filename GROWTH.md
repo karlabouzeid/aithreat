@@ -110,3 +110,50 @@ news-site link, and "Pages" for which case files pull search traffic. Add the Se
 | Bing → AI Performance | Pages cited by AI answers | First citations |
 | Umami → Referrers | New domains | First newsletter or news-site referrer |
 | Ask ChatGPT, Perplexity and Claude: "Which site tracks AI security incidents?" and "What happened in the DeepSeek database exposure?" | Whether aithreat.io is cited | Cited in at least one of them (repeat weekly; answers vary a lot run to run) |
+
+## Getting to 1,000 visits: the 30-day traffic plan (written 16 October 2026)
+
+**Targets, so we know when it worked.** Week of 4 November (Show HN week): 1,000+ visits in seven days.
+End of November: 1,000+ visits every week without a launch spike. 1,000 a day is a 90-day goal that search
+and newsletters reach together; nothing in month one gets there alone.
+
+**Where month-one visits come from.** Search takes two to three months to compound and is already set up.
+In the first month visits come from people sending people: Hacker News (a front-page Show HN brings 10,000 to
+30,000 in 48 hours; a modest showing 1,000 to 3,000), one newsletter mention (500 to 2,000), LinkedIn posts from
+your own account (50 to 300 each, more when a journalist reshares), Reddit (200 to 2,000 for a well-placed
+post), and the robot's own output (every verified case is a page someone can link to).
+
+**The dates are already fixed in LAUNCH.md:** pitch emails Mon 26 Oct, Show HN Wed 4 Nov, Product Hunt
+Tue 10 Nov. This plan fills the three weeks before and the two weeks after.
+
+### Weekly rhythm (about 90 minutes of your time a week)
+
+| Day | You | Claude |
+| --- | --- | --- |
+| Monday | Send the weekly digest from Buttondown (paste the draft, read it once, send). | Draft the digest from the week's verified cases into `newsletters/`. |
+| Monday, Wednesday, Friday | One LinkedIn post, text only, case link in the first comment. Reply to every comment the same day. | Keep five posts ahead in `social/`. |
+| Daily, 10 minutes | Review the draft queue (approve or reject). Empty queue = fresh pages every day. | Robot builds the pages and pings Bing. |
+| Friday | Write down four numbers: Umami visits, referrers, Buttondown subscribers, Search Console impressions. | Read them with you and adjust the next week. |
+
+### Seeding, before the launch (one-off, about two hours in total, all free)
+
+Do these in week one. Each is a durable link from a place AI assistants and people already look.
+
+1. **GitHub public repository** (if not done): Settings, Change visibility, Public. Add topics `ai-security`, `threat-intelligence`, `dataset`, `prompt-injection`.
+2. **Awesome lists on GitHub** (open an issue on each asking to be added; maintainers prefer that to a PR from a stranger): `awesome-ml-security`, `awesome-llm-security`, `awesome-threat-intelligence`, `awesome-ai-safety`. One line: name, URL, "open CC BY dataset of verified AI security incidents, updated every 30 minutes".
+3. **Dataset directories:** Kaggle (new dataset, upload the same six files as Hugging Face), data.world. Google Dataset Search picks the site up on its own.
+4. **Product Hunt "Coming soon" page** now, so followers accumulate before 10 Nov.
+5. **Reddit, lightly:** r/cybersecurity and r/artificial accept a map link with a plain description ("I built a map of verified AI security incidents; data is open"); post once each, answer comments, do not repost. r/netsec waits for the methodology write-up.
+6. **Bluesky and Mastodon (infosec.exchange):** create the accounts, post the same case cards as LinkedIn. The security research community lives there; journalists quote it.
+7. **Wikipedia:** do not add links yourself. Instead, when a case has a Wikipedia article, add the primary sources from the case file to the article; editors then find the site on their own.
+
+### After the launch (weeks of 9 and 16 November)
+
+- Turn every request in the HN and PH threads into a GitHub issue, and ship two of them within a week; post the "you asked, we built it" update in the same threads.
+- Send the quarterly-numbers LinkedIn post to the five editors as a one-line follow-up with a chart.
+- Pitch one mainstream desk (Reuters Technology, FT Alphaville, Bloomberg Cyber) with the "AI agents breaking out of evaluations" pattern: four cases, four vendors, one quarter. Mainstream press, not tech press, is what produced HIBP's biggest days.
+
+### Measurement you can hand to Claude
+
+In Umami: Settings, Websites, aithreat.io, Share URL, turn it on and paste the link into this file. Claude
+can then read visits and referrers every Friday without your login.
