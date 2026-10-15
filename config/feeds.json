@@ -285,16 +285,6 @@
     "json": "ghrepos"
   },
   {
-    "name": "Bluesky",
-    "urls": [
-      "https://public.api.bsky.app/xrpc/app.bsky.feed.searchPosts?q=%22prompt%20injection%22&sort=latest&limit=25",
-      "https://public.api.bsky.app/xrpc/app.bsky.feed.searchPosts?q=%22AI%20security%22%20breach&sort=latest&limit=25"
-    ],
-    "ai_only": true,
-    "lang": "en",
-    "json": "bsky"
-  },
-  {
     "name": "Reddit r/netsec",
     "url": "https://www.reddit.com/r/netsec/new.rss",
     "ai_only": false,
