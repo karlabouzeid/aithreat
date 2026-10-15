@@ -218,5 +218,49 @@
     "first_seen": "2026-10-15T13:35:40Z",
     "first_published": "2026-08-04T00:00:00Z",
     "updated_at": "2026-10-15T13:35:40Z"
+  },
+  {
+    "id": "prt-scan-pull-request-target-campaign",
+    "date": "2026-10-15",
+    "title": "prt-scan: AI-powered campaign exploits pull_request_target via six accounts",
+    "category": "AI supply chain",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "GitHub repositories using pull_request_target workflows",
+    "loss_usd": null,
+    "summary": "Wiz traced the prt-scan supply chain campaign, an AI-powered effort exploiting pull_request_target, to a single actor using six accounts, active about three weeks before it was noticed.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "attribution": "Wiz Research linked six accounts to one actor and traced activity to three weeks before detection; no named group.",
+    "motive": "Unknown",
+    "vector": "AI-powered abuse of GitHub pull_request_target workflows through six attacker accounts.",
+    "root_cause": "Exploitable pull_request_target workflow configurations in targeted repositories.",
+    "impact": "Unknown; the summary gives no victim count or loss figures.",
+    "response": "Wiz published its analysis of the campaign; no other response is stated.",
+    "status": "under investigation",
+    "cve": null,
+    "confidence": 0.55,
+    "source": "Wiz Research",
+    "url": "https://www.wiz.io/blog/six-accounts-one-actor-inside-the-prt-scan-supply-chain-campaign",
+    "sources": [
+      {
+        "name": "Wiz Research",
+        "url": "https://www.wiz.io/blog/six-accounts-one-actor-inside-the-prt-scan-supply-chain-campaign"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-15",
+        "event": "Reported by Wiz Research"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-15T14:05:39Z",
+    "wire_id": "60916b269459",
+    "first_seen": "2026-10-15T14:05:39Z",
+    "first_published": "2026-04-04T09:36:51Z",
+    "updated_at": "2026-10-15T14:05:39Z"
   }
 ]
