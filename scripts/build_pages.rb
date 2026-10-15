@@ -540,7 +540,7 @@ end
 
 def bar(lang, current)
   q = lang == "en" ? "" : "?lang=#{lang}"
-  links = [["#{'/' + q}#map", t(lang, "nav_map"), "map"], ["/#{q}#wire", t(lang, "nav_wire"), "wire"], ["/#{q}#markets", t(lang, "nav_markets"), "markets"], ["/#{q}#data", t(lang, "nav_data"), "data"], ["#{pre(lang)}/cases/", x(lang, :all_cases), "cases"]]
+  links = [["#{'/' + q}#map", t(lang, "nav_map"), "map"], ["/#{q}#wire", t(lang, "nav_wire"), "wire"], ["/#{q}#markets", t(lang, "nav_markets"), "markets"], ["/#{q}#data", t(lang, "nav_data"), "data"], ["#{pre(lang)}/why/", t(lang, "nav_why"), "why"], ["#{pre(lang)}/cases/", x(lang, :all_cases), "cases"]]
   nav = links.map { |href, label, key| %(<a href="#{h(href)}"#{key == current ? ' aria-current="page"' : ''}>#{h(label)}</a>) }.join
   %(<div class="bar"><a class="brand" href="/#{q}"><i></i>AI Threat Watch</a><nav class="views" aria-label="Sections">#{nav}</nav><div class="bar-right" id="langbar"></div></div>)
 end
