@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-15T07:22:56Z",
-  "wire_items": 527,
-  "new_items": 268,
-  "candidates": 50,
+  "updated_at": "2026-10-15T09:34:44Z",
+  "wire_items": 562,
+  "new_items": 321,
+  "candidates": 53,
   "incidents": 295,
   "feeds_ok": [
     "BleepingComputer",
@@ -47,10 +47,17 @@
     "Schneier on Security",
     "GBHackers",
     "404 Media",
-    "CISA KEV (AI products)"
+    "CISA KEV (AI products)",
+    "GitHub Advisory Database (AI packages)",
+    "Hacker News",
+    "US court filings (CourtListener)",
+    "GitHub new repositories",
+    "Reddit r/netsec",
+    "Europol",
+    "FBI IC3 alerts"
   ],
   "feeds_failed": [
-
+    "Bluesky"
   ],
-  "triage": "triaged 522 items with claude-sonnet-5-5 in 21 batches (0 failed); kept 268"
+  "triage": "triaged 665 items with claude-sonnet-5-5 in 26 batches (1 failed: no JSON (stop=refusal): [{\"i\":500,\"keep\":false,\"kind\":\"other\",\"tag\":\"Security program opinion\",\"one_line\":\"Blog post on the 'Homefield Advantage' concept for running a security program); kept 321"
 }

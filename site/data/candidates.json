@@ -2048,5 +2048,137 @@
     "verified": false,
     "drafted_at": "2026-10-14T23:26:33Z",
     "wire_id": "4892651bb83e"
+  },
+  {
+    "id": "ai-video-fraud-targets-elderly-china",
+    "date": "2026-10-15",
+    "title": "Fraud gang uses AI videos to target over a thousand elderly victims",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "CN",
+    "region": "Asia-Pacific",
+    "target": "Elderly victims in China",
+    "loss_usd": null,
+    "summary": "A fraud gang reportedly used AI-generated video to identify and target over a thousand elderly people in a precisely aimed scam, per Beijing News.",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "attribution": "Unknown; the headline refers only to a fraud gang.",
+    "motive": "Financial gain through fraud",
+    "vector": "AI-generated video used to approach and deceive elderly targets",
+    "root_cause": "Unknown; the text does not say.",
+    "impact": "Over a thousand elderly people reportedly targeted; financial losses are not stated.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "confidence": 0.35,
+    "source": "京报网",
+    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5DMTRkNWlVVHdPMmoyVGlLNms4RGVqZFZVWHZMS2lfNEtnMWtudE1nS0Q5emRtQ1haRHRIVmNYSXU5MnJ6LTR5Z1p6UnA4bzlPZV9RWFJqbjFoSkdoUHc?oc=5",
+    "sources": [
+      {
+        "name": "京报网",
+        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5DMTRkNWlVVHdPMmoyVGlLNms4RGVqZFZVWHZMS2lfNEtnMWtudE1nS0Q5emRtQ1haRHRIVmNYSXU5MnJ6LTR5Z1p6UnA4bzlPZV9RWFJqbjFoSkdoUHc?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-15",
+        "event": "Reported by 京报网"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-15T09:34:44Z",
+    "wire_id": "36afe9507e5f",
+    "first_seen": "2026-10-15T09:34:44Z",
+    "first_published": "2026-10-15T06:45:36Z",
+    "updated_at": "2026-10-15T09:34:44Z"
+  },
+  {
+    "id": "legal-filing-hidden-prompt-injection",
+    "date": "2026-10-15",
+    "title": "Hidden prompt injection in legal filing instructs AI reviewers to side with filer",
+    "category": "Prompt injection",
+    "direction": "on-ai",
+    "severity": "low",
+    "country": "GL",
+    "region": "Global",
+    "target": "AI tools used to review legal filings",
+    "loss_usd": null,
+    "summary": "404 Media reports a person embedded a prompt injection in a legal filing telling AI to side with them. Details of court, jurisdiction and outcome are not given in the summary.",
+    "actor": "Unknown individual litigant",
+    "actor_type": "unknown",
+    "attribution": "Reported by 404 Media; the person is not named in the headline.",
+    "motive": "To bias AI-assisted review of the filing in their favor.",
+    "vector": "Hidden instructions embedded in a legal document read by AI",
+    "root_cause": "AI tools treat instructions embedded in document content as commands.",
+    "impact": "Unknown; the summary does not state whether any AI was influenced or any ruling affected.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "confidence": 0.45,
+    "source": "404media.co via Hacker News",
+    "url": "https://www.404media.co/person-hides-prompt-injection-in-legal-filing-telling-ai-to-side-with-them",
+    "sources": [
+      {
+        "name": "404media.co via Hacker News",
+        "url": "https://www.404media.co/person-hides-prompt-injection-in-legal-filing-telling-ai-to-side-with-them"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-15",
+        "event": "Reported by 404media.co via Hacker News"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-15T09:34:44Z",
+    "wire_id": "5b0655e7daf6",
+    "first_seen": "2026-08-13T19:04:52Z",
+    "first_published": "2026-08-13T19:04:52Z",
+    "updated_at": "2026-10-15T09:34:44Z"
+  },
+  {
+    "id": "jqwik-agent-delete-output-instruction",
+    "date": "2026-10-15",
+    "title": "Undisclosed jqwik addition instructs AI coding agents to delete app output",
+    "category": "Prompt injection",
+    "direction": "on-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "Developers running AI coding agents on jqwik",
+    "loss_usd": null,
+    "summary": "An undisclosed addition to the jqwik library contained instructions aimed at AI coding agents, telling them to delete application output, according to Ars Technica.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "attribution": "The summary does not say who added the instructions.",
+    "motive": "Unknown",
+    "vector": "Undisclosed addition to the jqwik project containing instructions that AI coding agents read and may follow.",
+    "root_cause": "Agent-directed instructions embedded in a dependency, which coding agents may treat as trusted input.",
+    "impact": "Agents could be steered into deleting application output. The number of affected users is not stated.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "confidence": 0.5,
+    "source": "arstechnica.com via Hacker News",
+    "url": "https://arstechnica.com/security/2026/05/fed-up-with-vibe-coders-dev-sneaks-data-nuking-prompt-injection-into-their-code",
+    "sources": [
+      {
+        "name": "arstechnica.com via Hacker News",
+        "url": "https://arstechnica.com/security/2026/05/fed-up-with-vibe-coders-dev-sneaks-data-nuking-prompt-injection-into-their-code"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-15",
+        "event": "Reported by arstechnica.com via Hacker News"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-15T09:34:44Z",
+    "wire_id": "8062f8988ef3",
+    "first_seen": "2026-05-29T07:05:31Z",
+    "first_published": "2026-05-29T07:05:31Z",
+    "updated_at": "2026-10-15T09:34:44Z"
   }
 ]

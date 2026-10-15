@@ -1,0 +1,260 @@
+{
+  "generated_at": "2026-10-15T09:34:44Z",
+  "categories": [
+    {
+      "name": "AI phishing",
+      "slug": "ai-phishing",
+      "count": 12
+    },
+    {
+      "name": "AI supply chain",
+      "slug": "ai-supply-chain",
+      "count": 36
+    },
+    {
+      "name": "AI-assisted malware",
+      "slug": "ai-assisted-malware",
+      "count": 33
+    },
+    {
+      "name": "Agent hijack",
+      "slug": "agent-hijack",
+      "count": 21
+    },
+    {
+      "name": "Deepfake fraud",
+      "slug": "deepfake-fraud",
+      "count": 88
+    },
+    {
+      "name": "LLMjacking",
+      "slug": "llmjacking",
+      "count": 13
+    },
+    {
+      "name": "Model & data leak",
+      "slug": "model-data-leak",
+      "count": 40
+    },
+    {
+      "name": "Prompt injection",
+      "slug": "prompt-injection",
+      "count": 24
+    },
+    {
+      "name": "State actor AI ops",
+      "slug": "state-actor-ai-ops",
+      "count": 28
+    }
+  ],
+  "countries": [
+    {
+      "code": "AE",
+      "count": 2
+    },
+    {
+      "code": "AR",
+      "count": 2
+    },
+    {
+      "code": "AT",
+      "count": 1
+    },
+    {
+      "code": "AU",
+      "count": 1
+    },
+    {
+      "code": "BD",
+      "count": 1
+    },
+    {
+      "code": "BR",
+      "count": 4
+    },
+    {
+      "code": "CL",
+      "count": 1
+    },
+    {
+      "code": "CN",
+      "count": 7
+    },
+    {
+      "code": "CO",
+      "count": 2
+    },
+    {
+      "code": "DE",
+      "count": 3
+    },
+    {
+      "code": "EG",
+      "count": 1
+    },
+    {
+      "code": "ES",
+      "count": 1
+    },
+    {
+      "code": "FI",
+      "count": 2
+    },
+    {
+      "code": "FR",
+      "count": 4
+    },
+    {
+      "code": "GB",
+      "count": 3
+    },
+    {
+      "code": "GH",
+      "count": 1
+    },
+    {
+      "code": "GL",
+      "count": 120
+    },
+    {
+      "code": "GR",
+      "count": 2
+    },
+    {
+      "code": "HK",
+      "count": 2
+    },
+    {
+      "code": "ID",
+      "count": 2
+    },
+    {
+      "code": "IE",
+      "count": 1
+    },
+    {
+      "code": "IL",
+      "count": 7
+    },
+    {
+      "code": "IN",
+      "count": 4
+    },
+    {
+      "code": "IQ",
+      "count": 1
+    },
+    {
+      "code": "IT",
+      "count": 2
+    },
+    {
+      "code": "JO",
+      "count": 1
+    },
+    {
+      "code": "JP",
+      "count": 2
+    },
+    {
+      "code": "KE",
+      "count": 2
+    },
+    {
+      "code": "KR",
+      "count": 4
+    },
+    {
+      "code": "KW",
+      "count": 1
+    },
+    {
+      "code": "MX",
+      "count": 3
+    },
+    {
+      "code": "MY",
+      "count": 1
+    },
+    {
+      "code": "NG",
+      "count": 3
+    },
+    {
+      "code": "NL",
+      "count": 3
+    },
+    {
+      "code": "NO",
+      "count": 1
+    },
+    {
+      "code": "NZ",
+      "count": 1
+    },
+    {
+      "code": "PE",
+      "count": 1
+    },
+    {
+      "code": "PH",
+      "count": 1
+    },
+    {
+      "code": "PK",
+      "count": 1
+    },
+    {
+      "code": "QA",
+      "count": 2
+    },
+    {
+      "code": "RU",
+      "count": 1
+    },
+    {
+      "code": "SE",
+      "count": 5
+    },
+    {
+      "code": "SG",
+      "count": 2
+    },
+    {
+      "code": "TH",
+      "count": 2
+    },
+    {
+      "code": "TR",
+      "count": 2
+    },
+    {
+      "code": "TW",
+      "count": 3
+    },
+    {
+      "code": "UA",
+      "count": 3
+    },
+    {
+      "code": "US",
+      "count": 66
+    },
+    {
+      "code": "UY",
+      "count": 1
+    },
+    {
+      "code": "UZ",
+      "count": 1
+    },
+    {
+      "code": "VN",
+      "count": 1
+    },
+    {
+      "code": "ZA",
+      "count": 4
+    }
+  ]
+}
