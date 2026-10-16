@@ -227,6 +227,11 @@ unless FORCE
   end
 end
 
+if !DRY_RUN && (ENV["TELEGRAM_BOT_TOKEN"].to_s.strip.empty? || ENV["TELEGRAM_ALERT_CHAT_ID"].to_s.strip.empty?)
+  puts "reddit: skipped (TELEGRAM_BOT_TOKEN or TELEGRAM_ALERT_CHAT_ID not set)"
+  exit 0
+end
+
 idx = case_index
 sent = Set.new(state["sent"])
 statuses = {}
