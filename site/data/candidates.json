@@ -673,5 +673,95 @@
     "first_seen": "2026-10-16T15:35:41Z",
     "first_published": "2026-10-16T14:43:50Z",
     "updated_at": "2026-10-16T15:35:41Z"
+  },
+  {
+    "id": "ai-hacking-breach-16-financial-firms",
+    "date": "2026-10-16",
+    "title": "AI hacking breach hits 16 financial institutions, leaks 100,000 records",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "16 financial institutions",
+    "loss_usd": null,
+    "summary": "Security Magazine reports an AI-driven hacking breach affecting 16 financial institutions and leaking 100,000 records. Details are not in the headline.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Financial services",
+    "attribution": "Unknown",
+    "motive": "Unknown",
+    "vector": "Unknown; headline cites AI-enabled hacking",
+    "root_cause": "Unknown",
+    "impact": "16 financial institutions breached; 100,000 records leaked.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "confidence": 0.4,
+    "source": "Security Magazine",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNUGQ5XzRkWEFHc2xkck9oZ3FaZzZFTGd6b1ZRdlNZUHMxZVB0Z3JEN3lHTk4tdU0tdXBKakVabjc5QURDZGpaUmxocHRDRDZEbXo5LVNMOURFWWtUU3RmTDRZU1JVeFpQOFJCeXFreWkxcG9wUlk5QXhqbDZwVkc1dlhDX084WVRZX2xtUmEzbFlwM05Ic2h5MkpHOVFZaXdaTDI4UUFCbm9UeXZRbF9LblJxaXVyOTdXdWVJ?oc=5",
+    "sources": [
+      {
+        "name": "Security Magazine",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNUGQ5XzRkWEFHc2xkck9oZ3FaZzZFTGd6b1ZRdlNZUHMxZVB0Z3JEN3lHTk4tdU0tdXBKakVabjc5QURDZGpaUmxocHRDRDZEbXo5LVNMOURFWWtUU3RmTDRZU1JVeFpQOFJCeXFreWkxcG9wUlk5QXhqbDZwVkc1dlhDX084WVRZX2xtUmEzbFlwM05Ic2h5MkpHOVFZaXdaTDI4UUFCbm9UeXZRbF9LblJxaXVyOTdXdWVJ?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-16",
+        "event": "Reported by Security Magazine"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-16T16:35:37Z",
+    "wire_id": "66e6edf5704c",
+    "first_seen": "2026-10-16T16:35:37Z",
+    "first_published": "2026-10-16T16:00:00Z",
+    "updated_at": "2026-10-16T16:35:37Z"
+  },
+  {
+    "id": "n8n-cve-2025-68613-kev-exploited",
+    "date": "2026-10-16",
+    "title": "CISA lists n8n workflow expression RCE (CVE-2025-68613) as actively exploited",
+    "category": "AI supply chain",
+    "direction": "on-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "n8n workflow automation instances",
+    "loss_usd": null,
+    "summary": "CISA added n8n CVE-2025-68613, an improper control of dynamically managed code in workflow expression evaluation allowing remote code execution, to its KEV catalog as actively exploited.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Multiple / cross-sector",
+    "attribution": "Not stated in the CISA KEV entry.",
+    "motive": "Unknown",
+    "vector": "Remote code execution through the n8n workflow expression evaluation system.",
+    "root_cause": "Improper control of dynamically managed code resources in n8n's workflow expression evaluation system.",
+    "impact": "Unknown; CISA confirms active exploitation but gives no victim details.",
+    "response": "Listed in CISA's Known Exploited Vulnerabilities catalog.",
+    "status": "ongoing",
+    "cve": "CVE-2025-68613",
+    "confidence": 0.45,
+    "source": "CISA KEV",
+    "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2025-68613",
+    "sources": [
+      {
+        "name": "CISA KEV",
+        "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2025-68613"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-16",
+        "event": "Reported by CISA KEV"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-16T16:35:37Z",
+    "wire_id": "4ed362b305e0",
+    "first_seen": "2026-10-16T16:35:37Z",
+    "first_published": "2026-03-11T00:00:00Z",
+    "updated_at": "2026-10-16T16:35:37Z"
   }
 ]
