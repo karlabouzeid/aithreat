@@ -22,10 +22,10 @@ require "cgi"
 ROOT = File.expand_path("..", __dir__)
 SITE = File.join(ROOT, "site")
 BASE = "https://aithreat.io"
-LANGS = %w[en fr es ar zh].freeze
+LANGS = %w[en fr es ar zh ru].freeze
 RTL = %w[ar].freeze
-LOCALE = { "en" => "en_US", "fr" => "fr_FR", "es" => "es_ES", "ar" => "ar_AR", "zh" => "zh_CN" }.freeze
-LANG_NAME = { "en" => "English", "fr" => "Français", "es" => "Español", "ar" => "العربية", "zh" => "中文" }.freeze
+LOCALE = { "en" => "en_US", "fr" => "fr_FR", "es" => "es_ES", "ar" => "ar_AR", "zh" => "zh_CN", "ru" => "ru_RU" }.freeze
+LANG_NAME = { "en" => "English", "fr" => "Français", "es" => "Español", "ar" => "العربية", "zh" => "中文", "ru" => "Русский" }.freeze
 UMAMI = %(<script defer src="https://cloud.umami.is/script.js" data-website-id="aafe3de7-3e98-4efd-91e0-2d01c4a8994f"></script>)
 FONTS = %(<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Sans+Arabic:wght@400;500;600&family=Noto+Sans+SC:wght@400;500;600&display=swap">)
 ICON = %(<link rel="icon" href="/assets/brand/favicon.svg" type="image/svg+xml"><link rel="icon" href="/assets/brand/favicon-32.png" sizes="32x32" type="image/png"><link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png">)
@@ -163,7 +163,13 @@ EXTRA = {
             licence: "开放数据，采用 CC BY 4.0 许可：可自由再利用，请附本页链接。",
             index_intro: "{n} 份已核实的 AI 安全事件案例档案，按最新排序。每份都有永久链接、原始来源和现成的引用格式。",
             feed_title: "AI 威胁观察：已核实案例档案", cat_h: "{cat}：AI 安全事件", country_h: "{place}的 AI 安全事件",
-            home: "首页", cases_in: "案例档案", updated: "新闻每 30 分钟更新", data: "开放数据（JSON）", wire_feed: "新闻 RSS", cases_feed: "案例 RSS" }
+            home: "首页", cases_in: "案例档案", updated: "新闻每 30 分钟更新", data: "开放数据（JSON）", wire_feed: "新闻 RSS", cases_feed: "案例 RSS" },
+  "ru" => { open_map: "Открыть на интерактивной карте", permalink: "Постоянная ссылка", cite: "Цитировать это досье", prev: "Предыдущее досье", next: "Следующее досье",
+            all_cases: "Все досье", by_cat: "По типу", by_country: "По стране", other_langs: "Это досье на других языках", verified: "Проверенное досье",
+            licence: "Открытые данные по лицензии CC BY 4.0: свободно используйте со ссылкой на эту страницу.",
+            index_intro: "{n} проверенных досье инцидентов безопасности ИИ, сначала новые. У каждого есть постоянная ссылка, первичные источники и готовая ссылка для цитирования.",
+            feed_title: "AI Threat Watch: проверенные досье", cat_h: "{cat}: инциденты безопасности ИИ", country_h: "Инциденты безопасности ИИ: {place}",
+            home: "Главная", cases_in: "Досье", updated: "Лента обновляется каждые 30 минут", data: "Открытые данные (JSON)", wire_feed: "RSS живой ленты", cases_feed: "RSS досье" },
 }
 
 # Strings for the company hubs, the glossary and the about page (merged into EXTRA below).
@@ -176,7 +182,7 @@ MORE = {
             about_wire_h: "Verified case files and the live wire are different things",
             about_wire_p1: "The wire is a feed of AI security headlines from vetted sources, refreshed every 30 minutes and sorted by a machine. Nothing on the wire is verified: it shows what is being reported, not what has been confirmed.",
             about_wire_p2: "Case files are reviewed before publication. Each has a permanent link, names its primary sources and records attribution as the source stated it. When a file was first drafted by a machine from a news report, it is labelled as unverified and auto-drafted until an editor has checked it, and it gets no static page and no entry in the case files feed until then.",
-            about_langs: "Case files are published in English, French, Spanish, Arabic and Chinese. The English version is the reference; translations are machine-translated and reviewed for terminology.",
+            about_langs: "Case files are published in English, French, Spanish, Arabic, Chinese and Russian. The English version is the reference; translations are machine-translated and reviewed for terminology.",
             sev_critical: "Confirmed breaches with large-scale data theft, active exploitation in the wild, or state operations.", sev_high: "Confirmed compromise or fraud with material loss.", sev_medium: "Demonstrated flaws fixed before abuse, or limited exposures.", sev_low: "Proofs of concept.",
             about_lic_h: "Licence and citation",
             about_lic_p: "The dataset, the case files and the translations are published under the Creative Commons Attribution 4.0 licence (CC BY 4.0). You may copy, redistribute and build on them for any purpose, including commercially, as long as you credit AI Threat Watch and link to the page you used.",
@@ -191,7 +197,7 @@ MORE = {
             about_wire_h: "Les dossiers vérifiés et le fil en direct sont deux choses différentes",
             about_wire_p1: "Le fil est un flux de titres sur la sécurité de l’IA issus de sources sélectionnées, actualisé toutes les 30 minutes et trié par une machine. Rien sur le fil n’est vérifié : il montre ce qui est rapporté, pas ce qui est confirmé.",
             about_wire_p2: "Les dossiers sont relus avant publication. Chacun a un lien permanent, nomme ses sources primaires et rapporte l’attribution telle que la source l’a formulée. Lorsqu’un dossier a d’abord été rédigé par une machine à partir d’un article, il est signalé comme non vérifié et rédigé automatiquement jusqu’à ce qu’un éditeur l’ait contrôlé ; il n’a ni page statique ni entrée dans le flux des dossiers avant cela.",
-            about_langs: "Les dossiers sont publiés en anglais, français, espagnol, arabe et chinois. La version anglaise fait référence ; les traductions sont automatiques et relues pour la terminologie.",
+            about_langs: "Les dossiers sont publiés en anglais, français, espagnol, arabe, chinois et russe. La version anglaise fait référence ; les traductions sont automatiques et relues pour la terminologie.",
             sev_critical: "Intrusions confirmées avec vol massif de données, exploitation active ou opérations étatiques.", sev_high: "Compromission ou fraude confirmée avec perte matérielle.", sev_medium: "Failles démontrées, corrigées avant abus, ou expositions limitées.", sev_low: "Preuves de concept.",
             about_lic_h: "Licence et citation",
             about_lic_p: "Le jeu de données, les dossiers et les traductions sont publiés sous licence Creative Commons Attribution 4.0 (CC BY 4.0). Vous pouvez les copier, les redistribuer et les réutiliser à toute fin, y compris commerciale, à condition de créditer AI Threat Watch et de renvoyer vers la page utilisée.",
@@ -206,7 +212,7 @@ MORE = {
             about_wire_h: "Los expedientes verificados y las noticias en vivo son cosas distintas",
             about_wire_p1: "Las noticias son un flujo de titulares sobre seguridad de la IA de fuentes seleccionadas, actualizado cada 30 minutos y ordenado por una máquina. Nada en ese flujo está verificado: muestra lo que se reporta, no lo que se ha confirmado.",
             about_wire_p2: "Los expedientes se revisan antes de publicarse. Cada uno tiene un enlace permanente, nombra sus fuentes primarias y registra la atribución tal como la expresó la fuente. Cuando un expediente fue redactado primero por una máquina a partir de una noticia, se marca como no verificado y redactado automáticamente hasta que un editor lo comprueba, y hasta entonces no tiene página estática ni entrada en el RSS de expedientes.",
-            about_langs: "Los expedientes se publican en inglés, francés, español, árabe y chino. La versión inglesa es la de referencia; las traducciones son automáticas y revisadas en su terminología.",
+            about_langs: "Los expedientes se publican en inglés, francés, español, árabe, chino y ruso. La versión inglesa es la de referencia; las traducciones son automáticas y revisadas en su terminología.",
             sev_critical: "Intrusiones confirmadas con robo masivo de datos, explotación activa u operaciones estatales.", sev_high: "Compromiso o fraude confirmado con pérdida material.", sev_medium: "Fallos demostrados, corregidos antes de ser abusados, o exposiciones limitadas.", sev_low: "Pruebas de concepto.",
             about_lic_h: "Licencia y cita",
             about_lic_p: "El conjunto de datos, los expedientes y las traducciones se publican bajo la licencia Creative Commons Atribución 4.0 (CC BY 4.0). Puede copiarlos, redistribuirlos y reutilizarlos con cualquier fin, incluso comercial, siempre que acredite a AI Threat Watch y enlace a la página utilizada.",
@@ -221,7 +227,7 @@ MORE = {
             about_wire_h: "الملفات الموثّقة وشريط الأخبار شيئان مختلفان",
             about_wire_p1: "شريط الأخبار تدفق من عناوين أمن الذكاء الاصطناعي من مصادر مختارة، يُحدَّث كل 30 دقيقة وتصنّفه آلة. لا شيء في الشريط موثّق: فهو يعرض ما يُنشر، لا ما تأكّد.",
             about_wire_p2: "تُراجَع الملفات قبل نشرها. لكل ملف رابط دائم، ويذكر مصادره الأولية، ويسجّل الإسناد كما ذكره المصدر. وعندما تصوغ آلة الملف أولًا من خبر صحفي، يُوسم بأنه غير موثّق ومُعدّ آليًا حتى يتحقق منه محرر، ولا تُنشأ له صفحة ثابتة ولا يظهر في خلاصة الملفات قبل ذلك.",
-            about_langs: "تُنشر الملفات بالإنجليزية والفرنسية والإسبانية والعربية والصينية. النسخة الإنجليزية هي المرجع؛ والترجمات آلية ومُراجَعة من حيث المصطلحات.",
+            about_langs: "تُنشر الملفات بالإنجليزية والفرنسية والإسبانية والعربية والصينية والروسية. النسخة الإنجليزية هي المرجع؛ والترجمات آلية ومُراجَعة من حيث المصطلحات.",
             sev_critical: "اختراقات مؤكدة مع سرقة بيانات واسعة، أو استغلال نشط، أو عمليات دول.", sev_high: "اختراق أو احتيال مؤكد مع خسارة مادية.", sev_medium: "ثغرات مثبتة أُصلحت قبل استغلالها، أو تعرضات محدودة.", sev_low: "إثباتات مفهوم.",
             about_lic_h: "الترخيص والاستشهاد",
             about_lic_p: "تُنشر مجموعة البيانات والملفات والترجمات بترخيص المشاع الإبداعي نسب المصنف 4.0 (CC BY 4.0). يمكنك نسخها وإعادة توزيعها والبناء عليها لأي غرض، بما في ذلك التجاري، بشرط الإشارة إلى مرصد تهديدات الذكاء الاصطناعي ووضع رابط إلى الصفحة المستخدمة.",
@@ -236,19 +242,34 @@ MORE = {
             about_wire_h: "已核实案例档案与实时新闻是两回事",
             about_wire_p1: "新闻流汇集来自精选来源的 AI 安全头条，每 30 分钟更新一次，由机器分类。新闻流中的内容均未经核实：它显示的是正在被报道的内容，而不是已确认的事实。",
             about_wire_p2: "案例档案在发布前经过审核。每份都有永久链接、注明原始来源，并按来源的表述记录归因。若档案最初由机器根据新闻报道起草，在编辑核查之前会标记为“未核实 · 自动起草”，且在此之前不会生成静态页面，也不会进入案例 RSS。",
-            about_langs: "案例档案以英文、法文、西班牙文、阿拉伯文和中文发布。英文版为参考版本；译文由机器翻译并经过术语审校。",
+            about_langs: "案例档案以英文、法文、西班牙文、阿拉伯文、中文和俄文发布。英文版为参考版本；译文由机器翻译并经过术语审校。",
             sev_critical: "确认的入侵并伴有大规模数据窃取、在野利用或国家行动。", sev_high: "确认的入侵或欺诈并造成实质损失。", sev_medium: "已演示的漏洞、在被滥用前修复，或影响有限的暴露。", sev_low: "概念验证。",
             about_lic_h: "许可与引用",
             about_lic_p: "数据集、案例档案和译文均采用知识共享署名 4.0 许可（CC BY 4.0）发布。您可以出于任何目的（包括商业目的）复制、再分发和改编，只需注明 AI 威胁观察并链接到所使用的页面。",
             cite_fmt: "<标题>. AI Threat Watch, {case} <id>, <日期>. <永久链接>", cite_example: "示例",
             about_corr_h: "更正", about_corr_p: "案例档案公开编辑。每次修改都记录在公开的更改日志中，包含日期和内容；不会悄悄删除或改写任何内容。若某项事实被证明有误，档案会被更正，更正记录在日志中保持可见。", changelog: "公开更改日志",
-            about_contact_h: "联系", about_contact_p: "您也可以在项目的 GitHub 仓库中提交 issue。", github_issues: "在 GitHub 上报告" }
+            about_contact_h: "联系", about_contact_p: "您也可以在项目的 GitHub 仓库中提交 issue。", github_issues: "在 GitHub 上报告" },
+  "ru" => { by_company: "По компании", company_h: "Инциденты безопасности ИИ: {company}", company_intro: "{n} проверенных досье, в которых {company} была целью или платформой, которой злоупотребили, сначала новые. У каждого есть постоянная ссылка, первичные источники и готовая ссылка для цитирования.",
+            company_intro_1: "1 проверенное досье, в котором {company} была целью или платформой, которой злоупотребили. У него есть постоянная ссылка, первичные источники и готовая ссылка для цитирования.",
+            glossary: "Глоссарий", glossary_h: "Глоссарий типов инцидентов безопасности ИИ", glossary_intro: "Простые определения девяти типов, по которым классифицируется каждое досье на этом сайте, со ссылкой на досье каждого типа.", glossary_cases: "{n} досье", glossary_see: "Смотреть досье",
+            about: "О проекте и методика", about_h: "Об AI Threat Watch: методика, лицензия и исправления",
+            about_intro: "AI Threat Watch — справочный реестр публично зафиксированных инцидентов безопасности ИИ: атак на системы ИИ и атак, совершённых с помощью ИИ. На этой странице объясняется, что попадает в реестр, как оценивается критичность, что считается проверенным, как повторно использовать данные и как исправляются ошибки.",
+            about_wire_h: "Проверенные досье и живая лента — разные вещи",
+            about_wire_p1: "Лента — это поток заголовков о безопасности ИИ из проверенных источников, обновляемый каждые 30 минут и сортируемый машиной. Ничто в ленте не проверено: она показывает, о чём сообщают, а не что подтверждено.",
+            about_wire_p2: "Досье проверяются перед публикацией. У каждого есть постоянная ссылка, названы первичные источники и зафиксирована атрибуция в том виде, в каком её изложил источник. Если черновик досье был сначала составлен машиной по новостному сообщению, оно помечается как непроверенное и автоматически составленное, пока его не проверит редактор, и до тех пор не получает ни статической страницы, ни записи в ленте досье.",
+            about_langs: "Досье публикуются на английском, французском, испанском, арабском, китайском и русском языках. Эталоном является английская версия; переводы выполнены машинно и проверены на терминологию.",
+            sev_critical: "Подтверждённые взломы с масштабной кражей данных, активная эксплуатация в реальных условиях или государственные операции.", sev_high: "Подтверждённая компрометация или мошенничество с существенными потерями.", sev_medium: "Продемонстрированные уязвимости, исправленные до злоупотребления, или ограниченные утечки.", sev_low: "Демонстрации концепции.",
+            about_lic_h: "Лицензия и цитирование",
+            about_lic_p: "Набор данных, досье и переводы публикуются по лицензии Creative Commons Attribution 4.0 (CC BY 4.0). Вы можете копировать, распространять и использовать их как основу для любых целей, включая коммерческие, при условии указания AI Threat Watch и ссылки на использованную страницу.",
+            cite_fmt: "<title>. AI Threat Watch, {case} <id>, <date>. <permanent link>", cite_example: "Пример",
+            about_corr_h: "Исправления", about_corr_p: "Досье редактируются открыто. Каждое изменение досье фиксируется в публичном журнале изменений с датой и содержанием; ничто не удаляется и не переписывается незаметно. Если факт оказывается ошибочным, досье исправляется, а исправление остаётся видимым в журнале.", changelog: "Публичный журнал изменений",
+            about_contact_h: "Контакты", about_contact_p: "Вы также можете открыть issue в репозитории проекта на GitHub.", github_issues: "Сообщить на GitHub" },
 }
-LANGS.each { |l| EXTRA[l] = EXTRA[l].merge(MORE[l]) }
+LANGS.each { |l| EXTRA[l] = (EXTRA[l] || {}).merge(MORE[l] || {}) }
 require_relative "why_strings"
-LANGS.each { |l| EXTRA[l] = EXTRA[l].merge(WHY[l]) }
+LANGS.each { |l| EXTRA[l] = EXTRA[l].merge(WHY[l] || {}) }
 require_relative "patterns_strings"
-LANGS.each { |l| EXTRA[l] = EXTRA[l].merge(PATTERNS[l]) }
+LANGS.each { |l| EXTRA[l] = EXTRA[l].merge(PATTERNS[l] || {}) }
 EXTRA.freeze
 REPO = "https://github.com/karlabouzeid/aithreat"
 TELEGRAM_URL = "https://t.me/aithreat"
@@ -311,7 +332,18 @@ GLOSSARY = {
     "Agent hijack" => "代理劫持是控制一个 AI 代理（即配有浏览器、命令行、电子邮件或支付系统等工具的模型），使其对抗其所有者。入口通常是提示注入或被攻陷的工具，代理的权限随之变成攻击者的权限。损害包括文件被删除、数据泄露以及自动执行的未授权操作。",
     "AI phishing" => "AI 钓鱼利用语言模型大规模撰写、翻译和个性化欺诈信息，或搭建窃取凭据的虚假网站和聊天机器人。文本流畅且有针对性，拼写错误等传统警示信号随之消失。案例包括针对官员、企业和消费者的活动。",
     "State actor AI ops" => "国家行为者 AI 行动指与政府相关的团体将 AI 用于间谍活动、影响力行动或网络攻击。报告主要来自检测并封禁相关账户的 AI 提供商，以及政府机构。归因按来源的表述及其置信度如实记录。"
-  }
+  },
+  "ru" => {
+    "Prompt injection" => "Промпт-инъекция — атака, при которой текст, который читает модель ИИ (веб-страница, документ или письмо), содержит инструкции, и модель выполняет их так, будто они исходят от её пользователя или оператора. Так ассистента можно заставить раскрыть данные, совершить нежелательные действия или проигнорировать правила безопасности. Это самый распространённый класс атак на системы, построенные на больших языковых моделях.",
+    "Deepfake fraud" => "Мошенничество с дипфейками использует сгенерированные ИИ голос, видео или изображения, чтобы выдать себя за реального человека — обычно руководителя, родственника или публичную фигуру — и обмануть жертву. Типичные случаи: поддельные видеозвонки, по которым одобряются платежи, и клонированные голоса в мошеннических звонках. Об убытках чаще сообщают полиция или суды, а не сами жертвы.",
+    "AI-assisted malware" => "Вредоносное ПО с участием ИИ — это вредоносные программы, написанные, адаптированные или управляемые с помощью моделей ИИ. Сюда входят код, сгенерированный ассистентами, вредоносное ПО, обращающееся к модели во время выполнения для выбора следующего шага, и криминальные инструментарии на базе языковых моделей. ИИ снижает порог навыков и времени, необходимых для создания работающего атакующего кода.",
+    "AI supply chain" => "Инцидент в цепочке поставок ИИ компрометирует компонент, от которого зависят системы ИИ: файл модели, набор данных, инструмент разработчика, расширение, реестр пакетов или хостинговую платформу. Один вредоносный или уязвимый компонент может затронуть каждый проект, который его устанавливает. Примеры: отравленные пакеты, модели с бэкдорами и скомпрометированные ассистенты для написания кода.",
+    "Model & data leak" => "Утечка модели и данных раскрывает информацию, хранящуюся в системе ИИ: переписку пользователей, ключи API, обучающие данные, веса модели или внутреннюю конфигурацию. Причины варьируются от неправильно настроенных баз данных и хранилищ до уязвимостей в приложении вокруг модели. Ущерб измеряется тем, что было раскрыто и на какой срок.",
+    "LLMjacking" => "LLMjacking — это кража доступа к платным моделям ИИ, обычно через украденные облачные учётные данные или ключи API. Злоумышленники запускают собственные задачи или перепродают доступ, а счёт получает жертва. Это ИИ-аналог криптоджекинга.",
+    "Agent hijack" => "Захват агента — перехват управления агентом ИИ (моделью с доступом к инструментам: браузеру, командной оболочке, почте или платёжным системам), в результате которого он действует против своего владельца. Точкой входа часто служат промпт-инъекция или скомпрометированный инструмент, а права агента переходят к злоумышленнику. Ущерб включает удалённые файлы, утечки данных и несанкционированные действия, выполненные автоматически.",
+    "AI phishing" => "Фишинг с помощью ИИ использует языковые модели для массового написания, перевода и персонализации мошеннических сообщений или для создания поддельных сайтов и чат-ботов, собирающих учётные данные. Текст получается грамотным и адресным, поэтому привычные признаки вроде орфографических ошибок исчезают. Примеры включают кампании против чиновников, компаний и потребителей.",
+    "State actor AI ops" => "ИИ-операции госакторов — использование ИИ связанными с государством группами для шпионажа, кампаний влияния или кибератак. Сообщения поступают в основном от провайдеров ИИ, которые выявляют и блокируют задействованные аккаунты, а также от государственных ведомств. Атрибуция фиксируется так, как её изложил источник, с его уровнем уверенности."
+  },
 }.freeze
 
 def x(lang, key, vars = {})
@@ -321,61 +353,61 @@ def x(lang, key, vars = {})
 end
 
 COUNTRY = {
-  "US" => %w[United\ States États-Unis Estados\ Unidos الولايات\ المتحدة 美国],
-  "CN" => %w[China Chine China الصين 中国],
-  "IT" => %w[Italy Italie Italia إيطاليا 意大利],
-  "SG" => %w[Singapore Singapour Singapur سنغافورة 新加坡],
-  "UA" => %w[Ukraine Ukraine Ucrania أوكرانيا 乌克兰],
-  "KR" => %w[South\ Korea Corée\ du\ Sud Corea\ del\ Sur كوريا\ الجنوبية 韩国],
-  "BR" => %w[Brazil Brésil Brasil البرازيل 巴西],
-  "MX" => %w[Mexico Mexique México المكسيك 墨西哥],
-  "IN" => %w[India Inde India الهند 印度],
-  "GB" => %w[United\ Kingdom Royaume-Uni Reino\ Unido المملكة\ المتحدة 英国],
-  "FR" => %w[France France Francia فرنسا 法国],
-  "DE" => %w[Germany Allemagne Alemania ألمانيا 德国],
-  "ES" => %w[Spain Espagne España إسبانيا 西班牙],
-  "CA" => %w[Canada Canada Canadá كندا 加拿大],
-  "AU" => %w[Australia Australie Australia أستراليا 澳大利亚],
-  "JP" => %w[Japan Japon Japón اليابان 日本],
-  "RU" => %w[Russia Russie Rusia روسيا 俄罗斯],
-  "IL" => %w[Israel Israël Israel إسرائيل 以色列],
-  "IR" => %w[Iran Iran Irán إيران 伊朗],
-  "KP" => %w[North\ Korea Corée\ du\ Nord Corea\ del\ Norte كوريا\ الشمالية 朝鲜],
-  "TW" => %w[Taiwan Taïwan Taiwán تايوان 台湾],
-  "HK" => %w[Hong\ Kong Hong\ Kong Hong\ Kong هونغ\ كونغ 香港],
-  "AE" => %w[United\ Arab\ Emirates Émirats\ arabes\ unis Emiratos\ Árabes\ Unidos الإمارات 阿联酋],
-  "SA" => %w[Saudi\ Arabia Arabie\ saoudite Arabia\ Saudita السعودية 沙特阿拉伯],
-  "NL" => %w[Netherlands Pays-Bas Países\ Bajos هولندا 荷兰],
-  "SE" => %w[Sweden Suède Suecia السويد 瑞典],
-  "CH" => %w[Switzerland Suisse Suiza سويسرا 瑞士],
-  "PL" => %w[Poland Pologne Polonia بولندا 波兰],
-  "TR" => %w[Turkey Turquie Turquía تركيا 土耳其],
-  "PK" => %w[Pakistan Pakistan Pakistán باكستان 巴基斯坦],
-  "ID" => %w[Indonesia Indonésie Indonesia إندونيسيا 印度尼西亚],
-  "VN" => %w[Vietnam Viêt\ Nam Vietnam فيتنام 越南],
-  "TH" => %w[Thailand Thaïlande Tailandia تايلاند 泰国],
-  "PH" => %w[Philippines Philippines Filipinas الفلبين 菲律宾],
-  "NG" => %w[Nigeria Nigeria Nigeria نيجيريا 尼日利亚],
-  "ZA" => %w[South\ Africa Afrique\ du\ Sud Sudáfrica جنوب\ أفريقيا 南非],
-  "EG" => %w[Egypt Égypte Egipto مصر 埃及],
-  "LB" => %w[Lebanon Liban Líbano لبنان 黎巴嫩],
-  "JO" => %w[Jordan Jordanie Jordania الأردن 约旦],
-  "AR" => %w[Argentina Argentine Argentina الأرجنتين 阿根廷],
-  "CL" => %w[Chile Chili Chile تشيلي 智利],
-  "CO" => %w[Colombia Colombie Colombia كولومبيا 哥伦比亚],
-  "PT" => %w[Portugal Portugal Portugal البرتغال 葡萄牙],
-  "BE" => %w[Belgium Belgique Bélgica بلجيكا 比利时],
-  "IE" => %w[Ireland Irlande Irlanda أيرلندا 爱尔兰],
-  "AT" => %w[Austria Autriche Austria النمسا 奥地利],
-  "NO" => %w[Norway Norvège Noruega النرويج 挪威],
-  "DK" => %w[Denmark Danemark Dinamarca الدنمارك 丹麦],
-  "FI" => %w[Finland Finlande Finlandia فنلندا 芬兰],
-  "CZ" => %w[Czechia Tchéquie Chequia التشيك 捷克],
-  "NZ" => %w[New\ Zealand Nouvelle-Zélande Nueva\ Zelanda نيوزيلندا 新西兰],
-  "MY" => %w[Malaysia Malaisie Malasia ماليزيا 马来西亚],
-  "BD" => %w[Bangladesh Bangladesh Bangladés بنغلاديش 孟加拉国],
-  "KE" => %w[Kenya Kenya Kenia كينيا 肯尼亚],
-  "EU" => %w[European\ Union Union\ européenne Unión\ Europea الاتحاد\ الأوروبي 欧盟]
+  "US" => %w[United\ States États-Unis Estados\ Unidos الولايات\ المتحدة 美国 США],
+  "CN" => %w[China Chine China الصين 中国 Китай],
+  "IT" => %w[Italy Italie Italia إيطاليا 意大利 Италия],
+  "SG" => %w[Singapore Singapour Singapur سنغافورة 新加坡 Сингапур],
+  "UA" => %w[Ukraine Ukraine Ucrania أوكرانيا 乌克兰 Украина],
+  "KR" => %w[South\ Korea Corée\ du\ Sud Corea\ del\ Sur كوريا\ الجنوبية 韩国 Южная\ Корея],
+  "BR" => %w[Brazil Brésil Brasil البرازيل 巴西 Бразилия],
+  "MX" => %w[Mexico Mexique México المكسيك 墨西哥 Мексика],
+  "IN" => %w[India Inde India الهند 印度 Индия],
+  "GB" => %w[United\ Kingdom Royaume-Uni Reino\ Unido المملكة\ المتحدة 英国 Великобритания],
+  "FR" => %w[France France Francia فرنسا 法国 Франция],
+  "DE" => %w[Germany Allemagne Alemania ألمانيا 德国 Германия],
+  "ES" => %w[Spain Espagne España إسبانيا 西班牙 Испания],
+  "CA" => %w[Canada Canada Canadá كندا 加拿大 Канада],
+  "AU" => %w[Australia Australie Australia أستراليا 澳大利亚 Австралия],
+  "JP" => %w[Japan Japon Japón اليابان 日本 Япония],
+  "RU" => %w[Russia Russie Rusia روسيا 俄罗斯 Россия],
+  "IL" => %w[Israel Israël Israel إسرائيل 以色列 Израиль],
+  "IR" => %w[Iran Iran Irán إيران 伊朗 Иран],
+  "KP" => %w[North\ Korea Corée\ du\ Nord Corea\ del\ Norte كوريا\ الشمالية 朝鲜 Северная\ Корея],
+  "TW" => %w[Taiwan Taïwan Taiwán تايوان 台湾 Тайвань],
+  "HK" => %w[Hong\ Kong Hong\ Kong Hong\ Kong هونغ\ كونغ 香港 Гонконг],
+  "AE" => %w[United\ Arab\ Emirates Émirats\ arabes\ unis Emiratos\ Árabes\ Unidos الإمارات 阿联酋 ОАЭ],
+  "SA" => %w[Saudi\ Arabia Arabie\ saoudite Arabia\ Saudita السعودية 沙特阿拉伯 Саудовская\ Аравия],
+  "NL" => %w[Netherlands Pays-Bas Países\ Bajos هولندا 荷兰 Нидерланды],
+  "SE" => %w[Sweden Suède Suecia السويد 瑞典 Швеция],
+  "CH" => %w[Switzerland Suisse Suiza سويسرا 瑞士 Швейцария],
+  "PL" => %w[Poland Pologne Polonia بولندا 波兰 Польша],
+  "TR" => %w[Turkey Turquie Turquía تركيا 土耳其 Турция],
+  "PK" => %w[Pakistan Pakistan Pakistán باكستان 巴基斯坦 Пакистан],
+  "ID" => %w[Indonesia Indonésie Indonesia إندونيسيا 印度尼西亚 Индонезия],
+  "VN" => %w[Vietnam Viêt\ Nam Vietnam فيتنام 越南 Вьетнам],
+  "TH" => %w[Thailand Thaïlande Tailandia تايلاند 泰国 Таиланд],
+  "PH" => %w[Philippines Philippines Filipinas الفلبين 菲律宾 Филиппины],
+  "NG" => %w[Nigeria Nigeria Nigeria نيجيريا 尼日利亚 Нигерия],
+  "ZA" => %w[South\ Africa Afrique\ du\ Sud Sudáfrica جنوب\ أفريقيا 南非 ЮАР],
+  "EG" => %w[Egypt Égypte Egipto مصر 埃及 Египет],
+  "LB" => %w[Lebanon Liban Líbano لبنان 黎巴嫩 Ливан],
+  "JO" => %w[Jordan Jordanie Jordania الأردن 约旦 Иордания],
+  "AR" => %w[Argentina Argentine Argentina الأرجنتين 阿根廷 Аргентина],
+  "CL" => %w[Chile Chili Chile تشيلي 智利 Чили],
+  "CO" => %w[Colombia Colombie Colombia كولومبيا 哥伦比亚 Колумбия],
+  "PT" => %w[Portugal Portugal Portugal البرتغال 葡萄牙 Португалия],
+  "BE" => %w[Belgium Belgique Bélgica بلجيكا 比利时 Бельгия],
+  "IE" => %w[Ireland Irlande Irlanda أيرلندا 爱尔兰 Ирландия],
+  "AT" => %w[Austria Autriche Austria النمسا 奥地利 Австрия],
+  "NO" => %w[Norway Norvège Noruega النرويج 挪威 Норвегия],
+  "DK" => %w[Denmark Danemark Dinamarca الدنمارك 丹麦 Дания],
+  "FI" => %w[Finland Finlande Finlandia فنلندا 芬兰 Финляндия],
+  "CZ" => %w[Czechia Tchéquie Chequia التشيك 捷克 Чехия],
+  "NZ" => %w[New\ Zealand Nouvelle-Zélande Nueva\ Zelanda نيوزيلندا 新西兰 Новая\ Зеландия],
+  "MY" => %w[Malaysia Malaisie Malasia ماليزيا 马来西亚 Малайзия],
+  "BD" => %w[Bangladesh Bangladesh Bangladés بنغلاديش 孟加拉国 Бангладеш],
+  "KE" => %w[Kenya Kenya Kenia كينيا 肯尼亚 Кения],
+  "EU" => %w[European\ Union Union\ européenne Unión\ Europea الاتحاد\ الأوروبي 欧盟 Европейский\ союз]
 }.freeze
 
 def place_name(lang, cc)
@@ -389,6 +421,7 @@ MONTHS = {
   "en" => %w[Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec],
   "fr" => %w[janv. févr. mars avr. mai juin juil. août sept. oct. nov. déc.],
   "es" => %w[ene feb mar abr may jun jul ago sept oct nov dic],
+  "ru" => %w[янв. февр. мар. апр. мая июн. июл. авг. сен. окт. нояб. дек.],
   "ar" => %w[يناير فبراير مارس أبريل مايو يونيو يوليو أغسطس سبتمبر أكتوبر نوفمبر ديسمبر]
 }.freeze
 
@@ -437,7 +470,7 @@ end
 incidents = JSON.parse(File.read(File.join(SITE, "data", "incidents.en.json"), encoding: "UTF-8"))
 incidents = incidents.reject { |i| i["verified"] == false }.sort_by { |i| [i["date"].to_s, i["id"].to_s] }.reverse
 TR = {}
-%w[fr es ar zh].each do |l|
+(LANGS - ["en"]).each do |l|
   p = File.join(SITE, "i18n", "#{l}.json")
   next unless File.exist?(p)
   TR[l] = {}
@@ -466,6 +499,7 @@ CSS = <<~CSS
   :root[data-theme="light"]{--bg:#eef2f7;--surface:#fff;--surface2:#f6f8fb;--ink:#0f1a2b;--muted:#5b6b80;--line:#d9e0ea;--line2:#c5cfdd;--accent:#b7791f;--accent-ink:#fff;--crit:#c62828;--high:#d2691e;--med:#a08200;--low:#6a7683;color-scheme:light}
   html[lang="ar"]{--f-body:"IBM Plex Sans Arabic","IBM Plex Sans",system-ui,sans-serif;--f-display:"IBM Plex Sans Arabic",system-ui,sans-serif}
   html[lang="zh"]{--f-body:"Noto Sans SC","PingFang SC","Microsoft YaHei",system-ui,sans-serif;--f-display:"Noto Sans SC","PingFang SC",system-ui,sans-serif}
+  html[lang="ru"]{--f-display:"IBM Plex Sans",system-ui,sans-serif}
   *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.55 var(--f-body)}
   a{color:var(--accent)}img{max-width:100%}
   .wrap{max-width:1100px;margin:0 auto;padding:12px clamp(16px,2.5vw,32px) 48px}
@@ -768,7 +802,7 @@ end
 
 # ---------- about / method ----------
 HF_URL = "https://huggingface.co/datasets/karlabouzeid/ai-security-incidents"
-MIRRORS_H = {"en"=>"Downloads and mirrors", "fr"=>"Téléchargements et miroirs", "es"=>"Descargas y réplicas", "ar"=>"التنزيلات والنسخ", "zh"=>"下载与镜像"}.freeze
+MIRRORS_H = {"en"=>"Downloads and mirrors", "fr"=>"Téléchargements et miroirs", "es"=>"Descargas y réplicas", "ar"=>"التنزيلات والنسخ", "zh"=>"下载与镜像", "ru"=>"Загрузки и зеркала"}.freeze
 
 def about_page(lang, newest_en)
   path = "#{pre(lang)}/about/"
@@ -920,7 +954,7 @@ end
 
 # sitemap: group alternates per logical page
 incidents.each { |i| add_url.(case_url("en", i["id"]), Hash[langs_for(i).map { |l| [l, case_url(l, i["id"])] }]) }
-%w[fr es ar zh].each { |l| incidents.select { |i| langs_for(i).include?(l) }.each { |i| add_url.(case_url(l, i["id"]), Hash[langs_for(i).map { |m| [m, case_url(m, i["id"])] }]) } }
+(LANGS - ["en"]).each { |l| incidents.select { |i| langs_for(i).include?(l) }.each { |i| add_url.(case_url(l, i["id"]), Hash[langs_for(i).map { |m| [m, case_url(m, i["id"])] }]) } }
 list_paths = ["/cases/", "/cases/glossary/", "/about/", "/why/", "/patterns/"] + cats.map { |c| "/cases/category/#{slug(c)}/" } + countries.map { |c| "/cases/country/#{slug(c)}/" } + companies.map { |c| "/cases/company/#{slug(c)}/" }
 list_paths.each { |p| LANGS.each { |l| add_url.("#{BASE}#{pre(l)}#{p}", Hash[LANGS.map { |m| [m, "#{BASE}#{pre(m)}#{p}"] }]) } }
 File.write(File.join(SITE, "sitemap.xml"), %(<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n#{sitemap.join("\n")}\n</urlset>\n))
@@ -929,7 +963,7 @@ File.write(File.join(SITE, "sitemap.xml"), %(<?xml version="1.0" encoding="UTF-8
 llm = []
 llm << "# AI Threat Watch"
 llm << ""
-llm << "> A world map and verified case files of publicly reported AI security incidents: attacks on AI systems (prompt injection, model and data leaks, AI supply chain, agent hijacks) and attacks carried out with AI (deepfake fraud, AI-assisted malware, AI phishing, state operations). A live wire of AI security news from vetted sources is refreshed every 30 minutes; verified case files are researched separately and carry a permanent link, primary sources and a citation. Case files are available in English, French, Spanish, Arabic and Chinese. All data is open under CC BY 4.0."
+llm << "> A world map and verified case files of publicly reported AI security incidents: attacks on AI systems (prompt injection, model and data leaks, AI supply chain, agent hijacks) and attacks carried out with AI (deepfake fraud, AI-assisted malware, AI phishing, state operations). A live wire of AI security news from vetted sources is refreshed every 30 minutes; verified case files are researched separately and carry a permanent link, primary sources and a citation. Case files are available in English, French, Spanish, Arabic, Chinese and Russian. All data is open under CC BY 4.0."
 llm << ""
 llm << "Positioning: a reference registry of AI security incidents (attacks on AI systems, and attacks carried out with AI): structured, verified, fast, multilingual and openly licensed."
 llm << ""

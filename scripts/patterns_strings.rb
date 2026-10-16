@@ -156,8 +156,40 @@ PATTERNS = {
     l_json: "JSON 格式数据", l_embed: "图表为内联 SVG：可复制到文章中，并注明来源 AI Threat Watch（CC BY 4.0）。",
     wk_research: "研究", wk_vulnerability: "漏洞", wk_incident: "事件", wk_vendor_report: "厂商报告", wk_policy: "政策", wk_other: "其他", wk_untagged: "尚未分类",
     st_ongoing: "进行中", st_under_investigation: "调查中", st_contained: "已遏制", st_patched: "已修补", st_resolved: "已解决", st_unresolved: "未解决"
-  }
+  },
+  "ru" => {
+    patterns: "Тенденции", patterns_h: "Тенденции и статистика: что показывают досье",
+    patterns_lede: "Тренды, выведенные из всех проверенных досье на этом сайте и пересчитываемые при каждом обновлении реестра. Графики измеряют то, о чём сообщалось публично и что прошло наш критерий включения, а не общий объём преступлений с использованием ИИ.",
+    p_method: "По данным внутренней аналитики AI Threat Watch на основе {n} проверенных досье по состоянию на {date}. Тренды начинаются с 2025 года, когда началось систематическое отслеживание; три более ранних случая учтены только в итогах. Демонстрации исследователей включены и помечены. Критичность и категория следуют методике, описанной на странице «О проекте». Цифры: {stats}.",
+    k_total: "Проверенных досье", k_quarter: "В этом квартале", k_vs: "пока · предыдущий квартал: {p}", k_onai: "Нацелены на сам стек ИИ", k_losses: "Задокументированные убытки", k_unresolved: "Продолжаются или расследуются", k_auto: "Атаки автономных агентов ИИ",
+    s_trend_h: "Атаки на ИИ догоняют атаки с помощью ИИ",
+    s_trend_c: "Проверенные досье по кварталам с разбивкой по направлению. Атаки на системы ИИ (модели, агенты, инструментарий ИИ) составляли {first}% досье в первой половине 2025 года и {last}% в последнем полугодии. Стек ИИ стал классом целей примерно за год.",
+    s_heat_h: "Какие типы атак растут",
+    s_heat_c: "Каждая ячейка — число проверенных досье одного типа за один квартал. Сильнее всего за последние четыре квартала вырос тип «{rising}»; крупнейшей категорией в целом остаётся «{top}» — {topn} досье.",
+    s_auto_h: "Рост автономного атакующего",
+    s_auto_c: "Досье, в которых атакующим был агент ИИ, действовавший без указания человека атаковать: {prev} в {prev_year} году, {cur} в {cur_year} году. Большинство начались внутри собственных испытаний ИИ-лабораторий и вышли за их пределы. Вот эти досье:",
+    s_actors_h: "Кто стоит за атаками",
+    s_actors_c: "На преступников приходится {crim}% досье. Демонстрации исследователей ({res} досье) учитываются и помечаются отдельно, а не смешиваются с остальными; государственные акторы ({state}) — третья группа; в {unk} досье атакующий неизвестен, и эта доля растёт, поскольку сообщения опережают расследования.",
+    s_sev_h: "Становятся ли инциденты серьёзнее?",
+    s_sev_c: "Распределение критичности по кварталам. {chpct}% всех досье оценены как критические или высокие: подтверждённые вторжения, существенные потери от мошенничества, активная эксплуатация или государственные операции.",
+    s_money_h: "Куда уходят деньги",
+    s_money_c: "Задокументированные убытки составляют {total}, но сумму раскрывают лишь {n} из {m} досье, а {deep}% от общей суммы — мошенничество с дипфейками. Технические взломы систем ИИ почти никогда не сопровождаются опубликованной стоимостью, поэтому этот график их недооценивает.",
+    s_sector_h: "Кто страдает, по отраслям",
+    s_sector_c: "Отрасль жертвы, проставленная редакцией для каждого досье. Технологические компании и вендоры ИИ принимают на себя атаки на системы ИИ; физические лица и финансовый сектор — большую часть мошенничества, совершаемого с помощью ИИ.",
+    s_geo_h: "Где это происходит",
+    s_geo_c: "{gl}% досье — трансграничные кампании без единой страны. Среди остальных лидирует {top} с {topn} досье. Подсчёт по странам отражает, где об инцидентах сообщают, поэтому англоязычные источники перепредставлены.",
+    s_status_h: "Чем всё заканчивается и как быстро мы оформляем досье",
+    s_status_c: "{unres}% досье на момент последнего обновления всё ещё продолжаются или расследуются. Медианное время от первого появления материала в ленте до проверенного досье, для досье, начавшихся как черновики робота: {speed}.",
+    s_pulse_h: "О чём говорит отрасль",
+    s_pulse_c: "Материалов в ленте в день из более чем пятидесяти источников, по видам согласно сортировке робота. В обсуждении доминируют исследования и уязвимости; подтверждённые инциденты — малая доля публикуемого.",
+    l_onai: "Атаки на ИИ", l_withai: "Атаки с помощью ИИ", l_cases: "досье", l_quarter: "квартал", l_global: "Трансграничные / глобальные", l_other: "Другие страны", l_country: "Страна", l_count: "Досье", l_share: "Доля",
+    l_real_only: "Без демонстраций исследователей: {n}.", l_loss_n: "{n} досье раскрывают убытки", l_none: "не раскрыто", l_hours: "{h} ч", l_days: "{d} дн.", l_na: "данных пока недостаточно",
+    l_json: "Цифры в формате JSON", l_embed: "Графики — встроенный SVG: копируйте их в статью с указанием AI Threat Watch (CC BY 4.0).",
+    wk_research: "Исследование", wk_vulnerability: "Уязвимость", wk_incident: "Инцидент", wk_vendor_report: "Отчёт вендора", wk_policy: "Политика", wk_other: "Другое", wk_untagged: "Ещё не отсортировано",
+    st_ongoing: "Продолжается", st_under_investigation: "Расследуется", st_contained: "Локализован", st_patched: "Исправлен", st_resolved: "Устранён", st_unresolved: "Не устранён"
+  },
 }
+PATTERNS["ru"][:share] = "Поделиться"; PATTERNS["ru"][:l_sector] = "Сектор"
 PATTERNS["en"][:share] = "Share"; PATTERNS["fr"][:share] = "Partager"; PATTERNS["es"][:share] = "Compartir"; PATTERNS["ar"][:share] = "مشاركة"; PATTERNS["zh"][:share] = "分享"
 PATTERNS["en"][:l_sector] = "Sector"; PATTERNS["fr"][:l_sector] = "Secteur"; PATTERNS["es"][:l_sector] = "Sector"; PATTERNS["ar"][:l_sector] = "القطاع"; PATTERNS["zh"][:l_sector] = "行业"
 
@@ -167,7 +199,8 @@ SECTOR_NAMES = {
   "fr" => { "Financial services" => "Services financiers", "Government & public sector" => "État et secteur public", "Technology & AI vendors" => "Technologie et éditeurs d’IA", "Healthcare" => "Santé", "Media & entertainment" => "Médias et divertissement", "Retail & consumer brands" => "Commerce et marques grand public", "Education & research" => "Éducation et recherche", "Energy, industrial & infrastructure" => "Énergie, industrie et infrastructures", "Defence & security" => "Défense et sécurité", "Politics & elections" => "Politique et élections", "Individuals & consumers" => "Particuliers et consommateurs", "Multiple / cross-sector" => "Multisectoriel", "Unknown" => "Inconnu" },
   "es" => { "Financial services" => "Servicios financieros", "Government & public sector" => "Gobierno y sector público", "Technology & AI vendors" => "Tecnología y proveedores de IA", "Healthcare" => "Salud", "Media & entertainment" => "Medios y entretenimiento", "Retail & consumer brands" => "Comercio y marcas de consumo", "Education & research" => "Educación e investigación", "Energy, industrial & infrastructure" => "Energía, industria e infraestructuras", "Defence & security" => "Defensa y seguridad", "Politics & elections" => "Política y elecciones", "Individuals & consumers" => "Personas y consumidores", "Multiple / cross-sector" => "Multisectorial", "Unknown" => "Desconocido" },
   "ar" => { "Financial services" => "الخدمات المالية", "Government & public sector" => "الحكومة والقطاع العام", "Technology & AI vendors" => "التقنية ومزوّدو الذكاء الاصطناعي", "Healthcare" => "الرعاية الصحية", "Media & entertainment" => "الإعلام والترفيه", "Retail & consumer brands" => "التجزئة والعلامات الاستهلاكية", "Education & research" => "التعليم والبحث", "Energy, industrial & infrastructure" => "الطاقة والصناعة والبنية التحتية", "Defence & security" => "الدفاع والأمن", "Politics & elections" => "السياسة والانتخابات", "Individuals & consumers" => "الأفراد والمستهلكون", "Multiple / cross-sector" => "قطاعات متعددة", "Unknown" => "غير معروف" },
-  "zh" => { "Financial services" => "金融服务", "Government & public sector" => "政府与公共部门", "Technology & AI vendors" => "科技与 AI 厂商", "Healthcare" => "医疗健康", "Media & entertainment" => "媒体与娱乐", "Retail & consumer brands" => "零售与消费品牌", "Education & research" => "教育与科研", "Energy, industrial & infrastructure" => "能源、工业与基础设施", "Defence & security" => "国防与安全", "Politics & elections" => "政治与选举", "Individuals & consumers" => "个人与消费者", "Multiple / cross-sector" => "多行业", "Unknown" => "未知" }
+  "zh" => { "Financial services" => "金融服务", "Government & public sector" => "政府与公共部门", "Technology & AI vendors" => "科技与 AI 厂商", "Healthcare" => "医疗健康", "Media & entertainment" => "媒体与娱乐", "Retail & consumer brands" => "零售与消费品牌", "Education & research" => "教育与科研", "Energy, industrial & infrastructure" => "能源、工业与基础设施", "Defence & security" => "国防与安全", "Politics & elections" => "政治与选举", "Individuals & consumers" => "个人与消费者", "Multiple / cross-sector" => "多行业", "Unknown" => "未知" },
+  "ru" => { "Financial services" => "Финансовые услуги", "Government & public sector" => "Государство и госсектор", "Technology & AI vendors" => "Технологии и вендоры ИИ", "Healthcare" => "Здравоохранение", "Media & entertainment" => "СМИ и развлечения", "Retail & consumer brands" => "Розница и потребительские бренды", "Education & research" => "Образование и наука", "Energy, industrial & infrastructure" => "Энергетика, промышленность и инфраструктура", "Defence & security" => "Оборона и безопасность", "Politics & elections" => "Политика и выборы", "Individuals & consumers" => "Частные лица и потребители", "Multiple / cross-sector" => "Несколько отраслей", "Unknown" => "Неизвестно" },
 }
 def sector_name(lang, s)
   (SECTOR_NAMES[lang] || {})[s] || s.to_s
