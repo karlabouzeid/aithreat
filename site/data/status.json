@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-10-16T10:05:39Z",
-  "wire_items": 688,
-  "new_items": 291,
-  "candidates": 30,
-  "incidents": 318,
+  "updated_at": "2026-10-16T10:50:02Z",
+  "wire_items": 726,
+  "new_items": 347,
+  "candidates": 3,
+  "incidents": 329,
   "feeds_ok": [
     "BleepingComputer",
     "The Record",
@@ -29,6 +29,7 @@
     "Google News (Español)",
     "Google News (العربية)",
     "Google News (中文)",
+    "Google News (Русский)",
     "CrowdStrike",
     "SentinelOne Labs",
     "Check Point Research",
@@ -59,5 +60,5 @@
   "feeds_failed": [
 
   ],
-  "triage": "triaged 671 items with claude-sonnet-5-5 in 26 batches (1 failed: no JSON (stop=refusal): ); kept 291"
+  "triage": "triaged 757 items with claude-sonnet-5-5 in 31 batches (0 failed); kept 347"
 }

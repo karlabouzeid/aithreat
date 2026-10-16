@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-16T10:21:48Z",
-  "total": 321,
+  "generated_at": "2026-10-16T10:59:48Z",
+  "total": 329,
   "trend_from": "2025-01-01",
   "this_quarter": {
     "q": "2026-Q4",
-    "n": 31,
+    "n": 38,
     "prev_q": "2026-Q3",
-    "prev_n": 44
+    "prev_n": 45
   },
   "direction": {
-    "on-ai": 135,
-    "with-ai": 186
+    "on-ai": 138,
+    "with-ai": 191
   },
   "on_ai_share_first_half": 35,
   "on_ai_share_last_half": 52,
@@ -101,31 +101,31 @@
     },
     {
       "q": "2026-Q3",
-      "n": 44,
+      "n": 45,
       "on-ai": 16,
-      "with-ai": 28,
+      "with-ai": 29,
       "severity": {
         "critical": 8,
         "high": 27,
         "medium": 9,
-        "low": 0
+        "low": 1
       },
-      "autonomous": 3,
-      "real_world": 41
+      "autonomous": 4,
+      "real_world": 42
     },
     {
       "q": "2026-Q4",
-      "n": 31,
-      "on-ai": 9,
-      "with-ai": 22,
+      "n": 38,
+      "on-ai": 12,
+      "with-ai": 26,
       "severity": {
         "critical": 1,
-        "high": 10,
-        "medium": 19,
+        "high": 14,
+        "medium": 22,
         "low": 1
       },
-      "autonomous": 5,
-      "real_world": 30
+      "autonomous": 6,
+      "real_world": 37
     }
   ],
   "categories": [
@@ -145,6 +145,21 @@
       "growth_last4_vs_prev4": -16
     },
     {
+      "category": "AI-assisted malware",
+      "n": 47,
+      "by_quarter": [
+        1,
+        5,
+        6,
+        5,
+        5,
+        5,
+        6,
+        14
+      ],
+      "growth_last4_vs_prev4": 13
+    },
+    {
       "category": "AI supply chain",
       "n": 45,
       "by_quarter": [
@@ -160,23 +175,8 @@
       "growth_last4_vs_prev4": 17
     },
     {
-      "category": "AI-assisted malware",
-      "n": 44,
-      "by_quarter": [
-        1,
-        5,
-        6,
-        5,
-        5,
-        5,
-        6,
-        11
-      ],
-      "growth_last4_vs_prev4": 10
-    },
-    {
       "category": "Model & data leak",
-      "n": 37,
+      "n": 39,
       "by_quarter": [
         4,
         5,
@@ -185,9 +185,9 @@
         9,
         2,
         5,
-        0
+        2
       ],
-      "growth_last4_vs_prev4": -4
+      "growth_last4_vs_prev4": -2
     },
     {
       "category": "State actor AI ops",
@@ -221,7 +221,7 @@
     },
     {
       "category": "Agent hijack",
-      "n": 24,
+      "n": 26,
       "by_quarter": [
         0,
         0,
@@ -229,10 +229,10 @@
         1,
         3,
         5,
-        4,
-        4
+        5,
+        5
       ],
-      "growth_last4_vs_prev4": 8
+      "growth_last4_vs_prev4": 10
     },
     {
       "category": "AI phishing",
@@ -251,7 +251,7 @@
     },
     {
       "category": "LLMjacking",
-      "n": 14,
+      "n": 15,
       "by_quarter": [
         3,
         1,
@@ -260,9 +260,9 @@
         2,
         3,
         3,
-        1
+        2
       ],
-      "growth_last4_vs_prev4": 4
+      "growth_last4_vs_prev4": 5
     }
   ],
   "rising_category": "AI supply chain",
@@ -271,19 +271,21 @@
   "autonomous": {
     "by_year": {
       "2025": 2,
-      "2026": 8
+      "2026": 10
     },
     "ids": [
       "replit-agent-saastr-db-wipe",
       "antigravity-d-drive-wipe",
+      "anthropic-model-false-philly-murder-tip",
       "openai-agent-hugging-face",
       "anthropic-eval-claude-pypi-malware",
       "rubygems-openai-agent-swarm",
       "tencent-cloud-agents-amap-scraping",
-      "aisi-eval-agent-attacks-third-parties",
-      "gemini-breakout-hacks-three-companies",
+      "openai-agent-hacks-australia-medicare",
       "meta-ai-model-exploits-flaw-in-eval",
-      "openai-agent-hacks-australia-medicare"
+      "gemini-breakout-hacks-three-companies",
+      "aisi-eval-agent-attacks-third-parties",
+      "cert-in-ai-agents-indian-orgs-access"
     ]
   },
   "actors": [
@@ -315,17 +317,17 @@
       "actor_type": "unknown",
       "by_year": {
         "2025": 13,
-        "2026": 41
+        "2026": 47
       },
-      "n": 56
+      "n": 62
     },
     {
       "actor_type": "autonomous-ai",
       "by_year": {
         "2025": 2,
-        "2026": 8
+        "2026": 10
       },
-      "n": 10
+      "n": 12
     },
     {
       "actor_type": "accident",
@@ -358,9 +360,9 @@
   ],
   "severity": {
     "critical": 31,
-    "high": 149,
-    "medium": 126,
-    "low": 15
+    "high": 153,
+    "medium": 129,
+    "low": 16
   },
   "critical_high_pct": 56,
   "losses": {
@@ -373,14 +375,14 @@
         "disclosed": 30
       },
       {
-        "category": "AI supply chain",
-        "usd": 500000,
-        "disclosed": 1
-      },
-      {
         "category": "AI-assisted malware",
         "usd": 0,
         "disclosed": 0
+      },
+      {
+        "category": "AI supply chain",
+        "usd": 500000,
+        "disclosed": 1
       },
       {
         "category": "Model & data leak",
@@ -422,19 +424,19 @@
     },
     {
       "sector": "Individuals & consumers",
-      "n": 84
+      "n": 85
     },
     {
       "sector": "Multiple / cross-sector",
-      "n": 40
+      "n": 44
     },
     {
       "sector": "Unknown",
-      "n": 18
+      "n": 19
     },
     {
       "sector": "Government & public sector",
-      "n": 12
+      "n": 14
     },
     {
       "sector": "Financial services",
@@ -468,11 +470,11 @@
   "countries": [
     {
       "country": "GL",
-      "n": 141
+      "n": 147
     },
     {
       "country": "US",
-      "n": 67
+      "n": 68
     },
     {
       "country": "CN",
@@ -483,27 +485,19 @@
       "n": 7
     },
     {
-      "country": "KR",
+      "country": "IN",
       "n": 5
     },
     {
-      "country": "GB",
-      "n": 4
-    },
-    {
-      "country": "ZA",
-      "n": 4
-    },
-    {
-      "country": "FR",
-      "n": 4
+      "country": "KR",
+      "n": 5
     },
     {
       "country": "TW",
       "n": 4
     },
     {
-      "country": "IN",
+      "country": "GB",
       "n": 4
     },
     {
@@ -511,19 +505,27 @@
       "n": 4
     },
     {
-      "country": "SG",
+      "country": "FR",
+      "n": 4
+    },
+    {
+      "country": "ZA",
+      "n": 4
+    },
+    {
+      "country": "NG",
       "n": 3
     }
   ],
-  "global_pct": 44,
+  "global_pct": 45,
   "status": [
     {
       "status": "under investigation",
-      "n": 81
+      "n": 87
     },
     {
       "status": "ongoing",
-      "n": 75
+      "n": 77
     },
     {
       "status": "contained",
@@ -542,9 +544,9 @@
       "n": 17
     }
   ],
-  "unresolved_pct": 54,
+  "unresolved_pct": 55,
   "verify_median_hours": 19.8,
-  "verify_sample": 37,
+  "verify_sample": 45,
   "researcher_demos": 48,
   "pulse": [
     {
@@ -706,36 +708,36 @@
     {
       "day": "2026-10-14",
       "kinds": {
-        "incident": 10,
+        "incident": 11,
         "vulnerability": 2,
-        "research": 66,
+        "research": 71,
         "vendor-report": 3,
-        "policy": 1,
-        "other": 14,
+        "policy": 2,
+        "other": 15,
         "untagged": 110
       }
     },
     {
       "day": "2026-10-15",
       "kinds": {
-        "incident": 11,
+        "incident": 12,
         "vulnerability": 6,
-        "research": 29,
-        "vendor-report": 8,
-        "policy": 8,
-        "other": 25,
+        "research": 33,
+        "vendor-report": 13,
+        "policy": 9,
+        "other": 27,
         "untagged": 0
       }
     },
     {
       "day": "2026-10-16",
       "kinds": {
-        "incident": 9,
+        "incident": 11,
         "vulnerability": 0,
-        "research": 21,
-        "vendor-report": 4,
-        "policy": 6,
-        "other": 3,
+        "research": 24,
+        "vendor-report": 7,
+        "policy": 11,
+        "other": 7,
         "untagged": 0
       }
     }

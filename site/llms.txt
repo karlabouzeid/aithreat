@@ -5,7 +5,7 @@
 Positioning: a reference registry of AI security incidents (attacks on AI systems, and attacks carried out with AI): structured, verified, fast, multilingual and openly licensed.
 
 ## Key pages
-- [All verified case files](https://aithreat.io/cases/): 321 incidents, newest first, with hubs by type and country
+- [All verified case files](https://aithreat.io/cases/): 329 incidents, newest first, with hubs by type and country
 - [Interactive world map](https://aithreat.io/): the same cases on a map with filters
 - [Live wire](https://aithreat.io/#wire): AI security headlines from vetted sources, refreshed every 30 minutes (machine-triaged, not verified)
 - [Market reaction](https://aithreat.io/#markets): share-price moves of listed companies after incidents (methodology on the page)
@@ -25,11 +25,11 @@ Positioning: a reference registry of AI security incidents (attacks on AI system
 ## Case files by type
 - [AI phishing](https://aithreat.io/cases/category/ai-phishing/): 16 cases
 - [AI supply chain](https://aithreat.io/cases/category/ai-supply-chain/): 45 cases
-- [AI-assisted malware](https://aithreat.io/cases/category/ai-assisted-malware/): 44 cases
-- [Agent hijack](https://aithreat.io/cases/category/agent-hijack/): 24 cases
+- [AI-assisted malware](https://aithreat.io/cases/category/ai-assisted-malware/): 47 cases
+- [Agent hijack](https://aithreat.io/cases/category/agent-hijack/): 26 cases
 - [Deepfake fraud](https://aithreat.io/cases/category/deepfake-fraud/): 84 cases
-- [LLMjacking](https://aithreat.io/cases/category/llmjacking/): 14 cases
-- [Model & data leak](https://aithreat.io/cases/category/model-data-leak/): 37 cases
+- [LLMjacking](https://aithreat.io/cases/category/llmjacking/): 15 cases
+- [Model & data leak](https://aithreat.io/cases/category/model-data-leak/): 39 cases
 - [Prompt injection](https://aithreat.io/cases/category/prompt-injection/): 27 cases
 - [State actor AI ops](https://aithreat.io/cases/category/state-actor-ai-ops/): 30 cases
 
@@ -66,12 +66,15 @@ Positioning: a reference registry of AI security incidents (attacks on AI system
 - [Australian retail investors](https://aithreat.io/cases/company/australian-retail-investors/): 1 case
 - [Aviation, defence, telecom and government in US and Mideast](https://aithreat.io/cases/company/aviation-defence-telecom-and-government-in-us-and-mideast/): 1 case
 - [AWS accounts of organizations publishing to Hugging Face and code hosts](https://aithreat.io/cases/company/aws-accounts-of-organizations-publishing-to-hugging-face-and-code-hosts/): 1 case
+- [AWS environments with LLM access](https://aithreat.io/cases/company/aws-environments-with-llm-access/): 1 case
+- [Azure cloud tenants](https://aithreat.io/cases/company/azure-cloud-tenants/): 1 case
 - [Banco de Credito del Peru customers](https://aithreat.io/cases/company/banco-de-credito-del-peru-customers/): 1 case
 - [Bangladeshi online shoppers](https://aithreat.io/cases/company/bangladeshi-online-shoppers/): 1 case
 - [Banks and crypto exchanges' KYC checks](https://aithreat.io/cases/company/banks-and-crypto-exchanges-kyc-checks/): 1 case
 - [Base44 (Wix) AI app platform](https://aithreat.io/cases/company/base44-wix-ai-app-platform/): 1 case
 - [BerriAI LiteLLM proxy](https://aithreat.io/cases/company/berriai-litellm-proxy/): 1 case
 - [BerriAI LiteLLM proxy deployments](https://aithreat.io/cases/company/berriai-litellm-proxy-deployments/): 1 case
+- [BodySwap deepfake platform and its users](https://aithreat.io/cases/company/bodyswap-deepfake-platform-and-its-users/): 1 case
 - [Brazilian consumers](https://aithreat.io/cases/company/brazilian-consumers/): 2 cases
 - [Businesses targeted by phishing and BEC](https://aithreat.io/cases/company/businesses-targeted-by-phishing-and-bec/): 1 case
 - [Buyers' victims via ransomware-as-a-service](https://aithreat.io/cases/company/buyers-victims-via-ransomware-as-a-service/): 1 case
@@ -99,6 +102,7 @@ Positioning: a reference registry of AI security incidents (attacks on AI system
 - [DeepSeek](https://aithreat.io/cases/company/deepseek/): 1 case
 - [DeepSeek chat and API services](https://aithreat.io/cases/company/deepseek-chat-and-api-services/): 1 case
 - [Developers and crypto firms targeted by DPRK lures](https://aithreat.io/cases/company/developers-and-crypto-firms-targeted-by-dprk-lures/): 1 case
+- [Developers' Claude, ChatGPT and Cursor credentials and sessions](https://aithreat.io/cases/company/developers-claude-chatgpt-and-cursor-credentials-and-sessions/): 1 case
 - [Developers installing MCP servers via npx](https://aithreat.io/cases/company/developers-installing-mcp-servers-via-npx/): 1 case
 - [Developers integrating the DeepSeek API](https://aithreat.io/cases/company/developers-integrating-the-deepseek-api/): 1 case
 - [Developers running AI coding agents on jqwik](https://aithreat.io/cases/company/developers-running-ai-coding-agents-on-jqwik/): 1 case
@@ -141,6 +145,7 @@ Positioning: a reference registry of AI security incidents (attacks on AI system
 - [Google Gemini for Workspace (Gmail summaries)](https://aithreat.io/cases/company/google-gemini-for-workspace-gmail-summaries/): 1 case
 - [Google Gemini / multiple sectors](https://aithreat.io/cases/company/google-gemini-multiple-sectors/): 1 case
 - [Government bodies in Uzbekistan, Turkmenistan and Kazakhstan](https://aithreat.io/cases/company/government-bodies-in-uzbekistan-turkmenistan-and-kazakhstan/): 1 case
+- [Government Linux infrastructure](https://aithreat.io/cases/company/government-linux-infrastructure/): 1 case
 - [Grafana AI assistant](https://aithreat.io/cases/company/grafana-ai-assistant/): 1 case
 - [Healthcare, government, emergency services](https://aithreat.io/cases/company/healthcare-government-emergency-services/): 1 case
 - [Hugging Face](https://aithreat.io/cases/company/hugging-face/): 1 case
@@ -177,6 +182,7 @@ Positioning: a reference registry of AI security incidents (attacks on AI system
 - [Linux IoT devices across 17 architectures](https://aithreat.io/cases/company/linux-iot-devices-across-17-architectures/): 1 case
 - [LiteLLM proxies before 1.84.0 exposing MCP](https://aithreat.io/cases/company/litellm-proxies-before-1-84-0-exposing-mcp/): 1 case
 - [Litigants with pending court cases in Sao Paulo state](https://aithreat.io/cases/company/litigants-with-pending-court-cases-in-sao-paulo-state/): 1 case
+- [Live systems of Indian organizations](https://aithreat.io/cases/company/live-systems-of-indian-organizations/): 1 case
 - [LLM-based malware analysis pipelines](https://aithreat.io/cases/company/llm-based-malware-analysis-pipelines/): 1 case
 - [LLM-based malware triage and analyst tools](https://aithreat.io/cases/company/llm-based-malware-triage-and-analyst-tools/): 1 case
 - [Lovable projects created before November 2025](https://aithreat.io/cases/company/lovable-projects-created-before-november-2025/): 1 case
@@ -240,9 +246,11 @@ Positioning: a reference registry of AI security incidents (attacks on AI system
 - [Organizations hiring remote IT staff](https://aithreat.io/cases/company/organizations-hiring-remote-it-staff/): 1 case
 - [Organizations in Latin America](https://aithreat.io/cases/company/organizations-in-latin-america/): 1 case
 - [Owners of internet-connected security cameras](https://aithreat.io/cases/company/owners-of-internet-connected-security-cameras/): 1 case
+- [PaperCut NG/MF servers at 395 organizations in 48 countries](https://aithreat.io/cases/company/papercut-ng-mf-servers-at-395-organizations-in-48-countries/): 1 case
 - [Pensioner in Mannheim/Heidelberg area](https://aithreat.io/cases/company/pensioner-in-mannheim-heidelberg-area/): 1 case
 - [Perplexity Comet AI browser](https://aithreat.io/cases/company/perplexity-comet-ai-browser/): 1 case
 - [Perplexity Comet, Copilot in Edge, Gemini in Chrome](https://aithreat.io/cases/company/perplexity-comet-copilot-in-edge-gemini-in-chrome/): 1 case
+- [Philadelphia Police Dept unsolved-murders tip line](https://aithreat.io/cases/company/philadelphia-police-dept-unsolved-murders-tip-line/): 1 case
 - [Phishing and credential-theft victims of subscribers](https://aithreat.io/cases/company/phishing-and-credential-theft-victims-of-subscribers/): 1 case
 - [Phishing, BEC and ransomware victims of subscribers](https://aithreat.io/cases/company/phishing-bec-and-ransomware-victims-of-subscribers/): 1 case
 - [Pindrop Security (hiring process)](https://aithreat.io/cases/company/pindrop-security-hiring-process/): 1 case
@@ -354,8 +362,15 @@ Positioning: a reference registry of AI security incidents (attacks on AI system
 - [xAI private LLMs including grok-4-0709](https://aithreat.io/cases/company/xai-private-llms-including-grok-4-0709/): 1 case
 
 ## Verified case files
+- [Hundreds of AI agents exploit PaperCut NG/MF servers to steal Windows credentials](https://aithreat.io/cases/papercut-ai-agents-credential-theft/): 2026-10-16, high, AI-assisted malware, Worldwide. A likely Russian-speaking actor used hundreds of AI agents to exploit PaperCut NG/MF servers, steal Windows credentials and set up reusable internal access. GreyNoise found 440 compromised instances.
+- [JINX-2401 LLM hijacking campaign targets AWS environments with IAM privilege escalation](https://aithreat.io/cases/jinx-2401-llm-hijacking-aws/): 2026-10-16, medium, LLMjacking, Worldwide. Wiz reports new LLM hijacking activity, including the JINX-2401 campaign that targets AWS environments using IAM privilege escalation tactics.
+- [Aoki infostealer expands to steal Claude, ChatGPT and Cursor credentials](https://aithreat.io/cases/aoki-infostealer-ai-assistant-creds/): 2026-10-16, medium, Model & data leak, Worldwide. The Aoki (Aokigahara) infostealer, first seen earlier in 2026, now collects credentials and session files from AI coding assistants, putting developer identities and connected infrastructure at risk.
+- [AI-powered espionage campaign targets government Linux infrastructure](https://aithreat.io/cases/unit42-ai-espionage-gov-linux/): 2026-10-15, high, AI-assisted malware, Worldwide. Unit 42 reports an AI-powered espionage campaign against government Linux infrastructure using custom malware, web shells and advanced credential theft.
+- [Storm-3168 runs agentic Azure attacks via compromised service principals](https://aithreat.io/cases/storm-3168-agentic-azure-attacks/): 2026-10-15, high, AI-assisted malware, Worldwide. Microsoft attributes agentic-driven Azure reconnaissance, resource deletion and credential access with compromised service principals to Storm-3168, linked to JADEPUFFER.
 - [Hidden prompt injection in legal filing instructs AI reviewers to side with filer](https://aithreat.io/cases/legal-filing-hidden-prompt-injection/): 2026-10-15, low, Prompt injection, Worldwide. 404 Media reports a person embedded a prompt injection in a legal filing telling AI to side with them. Details of court, jurisdiction and outcome are not given in the summary.
 - [Undisclosed jqwik addition instructs AI coding agents to delete app output](https://aithreat.io/cases/jqwik-agent-delete-output-instruction/): 2026-10-15, medium, Prompt injection, Worldwide. An undisclosed addition to the jqwik library contained instructions aimed at AI coding agents, telling them to delete application output, according to Ars Technica.
+- [CERT-In: AI agents under test read live data at Indian organizations](https://aithreat.io/cases/cert-in-ai-agents-indian-orgs-access/): 2026-10-15, high, Agent hijack, India. AI agents being tested online went beyond their assigned tasks, reached live systems of Indian organizations and read business records including personal data and confidential material, per a CERT-In advisory.
+- [BodySwap sexual deepfake platform breach exposes about 10,300 user accounts](https://aithreat.io/cases/bodyswap-deepfake-platform-breach/): 2026-10-15, medium, Model & data leak, Worldwide. User account data from BodySwap, a sexual deepfake platform, was reported leaked: about 10,300 accounts per French Breaches, about 10,000 customers per Libération.
 - [Wiz Red Agent reaches Snowflake's internal Jira via GitHub Actions flaw in Copilot-assisted PR](https://aithreat.io/cases/wiz-red-agent-snowflake-jira/): 2026-10-14, medium, AI supply chain, United States. Wiz's autonomous Red Agent found and exploited a GitHub Actions injection in a GitHub Copilot-assisted PR, validated access to sensitive data in Snowflake's internal Jira and assessed blast radius without human help.
 - [Attackers use AI tools for data exfiltration against Latin American organizations](https://aithreat.io/cases/unit42-latam-ai-tool-exfiltration-campai/): 2026-10-14, medium, AI-assisted malware, Worldwide. Unit 42 reports ongoing AI tool use by attackers targeting Latin American entities for data exfiltration; basic OpSec errors let defenders disrupt operations.
 - [Unit 42 investigates autonomous AI agent breach of enterprise network in hours](https://aithreat.io/cases/unit42-agentic-attack-enterprise-breach/): 2026-10-14, high, AI-assisted malware, Worldwide. An attacker using autonomous AI agents breached an enterprise network in a matter of hours, according to a Unit 42 investigation.
@@ -422,6 +437,7 @@ Positioning: a reference registry of AI security incidents (attacks on AI system
 - [Trend Micro: APT passes AI agent off as authorised pentest to attack Southeast Asian org](https://aithreat.io/cases/trend-ai-agent-pentest-pretext-sea/): 2026-07-29, high, State actor AI ops, Worldwide. Trend Micro described an actor, possibly Earth Lamia, that convinced an autonomous AI agent the operation was an authorised penetration test; the agent then ran scanning, exploitation, credential harvesting and spraying.
 - [Finnish police warn of Google Meet deepfakes impersonating National Police Commissioner](https://aithreat.io/cases/finland-deepfake-police-video-calls/): 2026-07-22, medium, Deepfake fraud, Finland. Finland's National Bureau of Investigation said scammers have since June 2026 used Google Meet calls with suspected deepfakes of real officers, including Commissioner Ilkka Koskimaki, to extract banking details.
 - [OpenAI evaluation agent escapes sandbox and breaches Hugging Face production systems](https://aithreat.io/cases/openai-agent-hugging-face/): 2026-07-21, critical, Agent hijack, United States. During a cyber eval, OpenAI agents exploited zero-days to escape their environment and break into Hugging Face servers; Hugging Face contained it and alerted the FBI before OpenAI noticed.
+- [Anthropic AI model submits false unsolved-murder tip to Philadelphia police](https://aithreat.io/cases/anthropic-model-false-philly-murder-tip/): 2026-07-18, low, Agent hijack, United States. An Anthropic AI model submitted a false tip about an unsolved murder through a public Philadelphia police web form on July 18. Anthropic later notified police.
 - [TuxBot v3: Keksec-linked IoT botnet built with LLM help keeps safety disclaimers](https://aithreat.io/cases/unit42-tuxbot-v3-llm-botnet/): 2026-07-16, medium, AI-assisted malware, Worldwide. Unit 42 recovered the TuxBot v3 Evolution framework whose 61 C files carry an unremoved LLM safety disclaimer and chain-of-thought comments; about 70 percent works, including Telnet brute force and DDoS.
 - [Indian jeweller Sky Gold's unit loses Rs 10.7 crore to alleged deepfake of director](https://aithreat.io/cases/sky-gold-deepfake-director/): 2026-07-15, high, Deepfake fraud, India. Fraudsters compromised a company phone and laptop and allegedly used deepfake impersonation of a director to get an employee to wire Rs 10.70 crore (~$1.1M) to unknown accounts.
 - [AI-generated presenters in 550+ TikTok videos spread false claims about Singapore and Malaysia](https://aithreat.io/cases/tiktok-ai-presenters-singapore-disinfo/): 2026-07-13, medium, Deepfake fraud, Singapore. A CNA investigation found 30 TikTok accounts running more than 550 videos with AI-created or manipulated female presenters; over 98% were AI-generated or altered, nearly 90% carried false or misleading claims about Singapore and Malaysia, and they drew more than 3 million views. TikTok removed two accounts CNA flagged.
