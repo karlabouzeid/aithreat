@@ -580,6 +580,7 @@ def share_row(lang, url, title)
     ["X", "https://x.com/intent/post?text=#{tt_}&url=#{u}"],
     ["Facebook", "https://www.facebook.com/sharer/sharer.php?u=#{u}"],
     ["WhatsApp", "https://wa.me/?text=#{CGI.escape("#{title} #{url}")}"],
+    ["Telegram", "https://t.me/share/url?url=#{u}&text=#{tt_}"],
     ["Email", "mailto:?subject=#{tt_}&body=#{u}"]
   ]
   %(<p class="share"><span>#{h(x(lang, :share))}</span>#{links.map { |n, href| %(<a href="#{h(href)}" target="_blank" rel="noopener" data-umami-event="share" data-umami-event-net="#{n.downcase}">#{n}</a>) }.join}</p>)
