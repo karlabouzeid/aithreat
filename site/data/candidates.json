@@ -1206,5 +1206,140 @@
     "first_seen": "2026-10-16T07:35:38Z",
     "first_published": "2026-10-16T07:20:14Z",
     "updated_at": "2026-10-16T07:35:38Z"
+  },
+  {
+    "id": "jinx-2401-llm-hijacking-aws",
+    "date": "2026-10-16",
+    "title": "JINX-2401 LLM hijacking campaign targets AWS environments with IAM privilege escalation",
+    "category": "LLMjacking",
+    "direction": "on-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "AWS environments with LLM access",
+    "loss_usd": null,
+    "summary": "Wiz reports new LLM hijacking activity, including the JINX-2401 campaign that targets AWS environments using IAM privilege escalation tactics.",
+    "actor": "JINX-2401",
+    "actor_type": "unknown",
+    "sector": "Multiple / cross-sector",
+    "attribution": "Wiz tracks the campaign as JINX-2401; no further attribution given in the summary.",
+    "motive": "Unknown",
+    "vector": "IAM privilege escalation in AWS environments to hijack LLM access.",
+    "root_cause": "Unknown",
+    "impact": "Victim count and losses are not stated in the summary.",
+    "response": "Wiz published research on the activity; no further response is stated.",
+    "status": "under investigation",
+    "cve": null,
+    "confidence": 0.45,
+    "source": "Wiz Research",
+    "url": "https://www.wiz.io/blog/jinx-2401-llm-hijacking-aws",
+    "sources": [
+      {
+        "name": "Wiz Research",
+        "url": "https://www.wiz.io/blog/jinx-2401-llm-hijacking-aws"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-16",
+        "event": "Reported by Wiz Research"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-16T08:35:36Z",
+    "wire_id": "af49c5093993",
+    "first_seen": "2026-10-16T08:35:36Z",
+    "first_published": "2024-12-15T14:07:55Z",
+    "updated_at": "2026-10-16T08:35:36Z"
+  },
+  {
+    "id": "argentina-ai-romance-scam-trip",
+    "date": "2026-10-16",
+    "title": "Argentine victim travels 2,000 km for love, finds AI-enabled romance scam",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "low",
+    "country": "AR",
+    "region": "Latin America",
+    "target": "Individual romance scam victim in Argentina",
+    "loss_usd": null,
+    "summary": "A person travelled 2,000 km to meet an online partner and discovered the relationship was a scam involving AI. Local report; details are limited.",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "sector": "Individuals & consumers",
+    "attribution": "Unknown",
+    "motive": "Presumably financial fraud",
+    "vector": "Online romance scam using AI, specific tools not stated",
+    "root_cause": "Victim deceived by an AI-enabled fake online persona.",
+    "impact": "Victim made a 2,000 km trip before discovering the scam; any financial loss is not stated.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "confidence": 0.35,
+    "source": "Identidad Correntina",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWkZEV2RYT2lWR0RIU3l5TXVEMWpGSkY0WkNIRjlvbjg4S0ZhVUFMa2VraVlKNklVS09sM0czdlJqV09iTF9PNG5qbGF5eTM0SnVpSHhsYWxWRDh6ajZrcXpreGdOT3dlVmZZUzNQakxLX1Nsa1lYUmtvUnp5WHFTakhMTnFIYmlkeWxRYkd6dU9wR2ZXc2x6UlN2VEF0OW5OYlJZYnJSVFRJOFlRQXI5UUF6cXo?oc=5",
+    "sources": [
+      {
+        "name": "Identidad Correntina",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWkZEV2RYT2lWR0RIU3l5TXVEMWpGSkY0WkNIRjlvbjg4S0ZhVUFMa2VraVlKNklVS09sM0czdlJqV09iTF9PNG5qbGF5eTM0SnVpSHhsYWxWRDh6ajZrcXpreGdOT3dlVmZZUzNQakxLX1Nsa1lYUmtvUnp5WHFTakhMTnFIYmlkeWxRYkd6dU9wR2ZXc2x6UlN2VEF0OW5OYlJZYnJSVFRJOFlRQXI5UUF6cXo?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-16",
+        "event": "Reported by Identidad Correntina"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-16T09:05:39Z",
+    "wire_id": "edac2c4e07c8",
+    "first_seen": "2026-10-16T09:05:39Z",
+    "first_published": "2026-10-16T09:02:19Z",
+    "updated_at": "2026-10-16T09:05:39Z"
+  },
+  {
+    "id": "papercut-ai-agents-credential-theft",
+    "date": "2026-10-16",
+    "title": "Hundreds of AI agents exploit PaperCut NG/MF servers to steal Windows credentials",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "PaperCut NG/MF servers at 395 organizations in 48 countries",
+    "loss_usd": null,
+    "summary": "A likely Russian-speaking actor used hundreds of AI agents to exploit PaperCut NG/MF servers, steal Windows credentials and set up reusable internal access. GreyNoise found 440 compromised instances.",
+    "actor": "Likely Russian-speaking threat actor",
+    "actor_type": "unknown",
+    "sector": "Multiple / cross-sector",
+    "attribution": "GreyNoise assesses the actor as likely Russian-speaking; no named group given.",
+    "motive": "Unknown; credential theft and persistent access to internal networks",
+    "vector": "AI agents exploiting PaperCut NG/MF servers at scale, then harvesting Windows credentials.",
+    "root_cause": "Exposed, exploitable PaperCut NG/MF servers; the specific flaw is not stated in the summary.",
+    "impact": "At least 440 compromised instances across 395 organizations in 48 countries, with reusable access to internal networks.",
+    "response": "Unknown; GreyNoise identified and reported the compromised instances.",
+    "status": "under investigation",
+    "cve": null,
+    "confidence": 0.75,
+    "source": "GBHackers",
+    "url": "https://gbhackers.com/ai-agents-target-papercut",
+    "sources": [
+      {
+        "name": "GBHackers",
+        "url": "https://gbhackers.com/ai-agents-target-papercut"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-16",
+        "event": "Reported by GBHackers"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-16T09:17:18Z",
+    "wire_id": "ef48ebb64c73",
+    "first_seen": "2026-10-16T09:17:18Z",
+    "first_published": "2026-10-16T09:10:51Z",
+    "updated_at": "2026-10-16T09:17:18Z"
   }
 ]
