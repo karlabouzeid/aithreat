@@ -62,8 +62,10 @@ COMMON = Set.new(%w[ai llm llms openai chatgpt claude gemini google microsoft me
                     code coding open source server servers vulnerability flaw flaws credentials accounts account
                     january february march april june july august september october november december monday friday
                     reddit discord telegram whatsapp slack gmail youtube twitter facebook instagram tiktok linkedin
-                    qwen opus sonnet haiku llama mistral grok deepseek nvidia perplexity hugging face huggingface])
+                    ctrl cves edge chrome firefox safari qwen opus sonnet haiku llama mistral grok deepseek nvidia perplexity hugging face huggingface])
 # Descriptive compounds ("LLM-based", "AI-powered") are not names either.
+# What product and group names look like: PaperCut, GhostGPT, JINX-2401, METR, gpt-4o-mini.
+BRANDLIKE = /[a-z][A-Z]|[A-Za-z]\d|\d[A-Za-z]|\A[A-Z]{4,}\z/
 DESCRIPTIVE = /-(based|powered|driven|generated|assisted|enabled|style|like)\z/
 
 def http_get(url)
@@ -92,10 +94,15 @@ def case_index
   # Words our own case text uses in lower case are ordinary English ("small", "actions"), not names.
   english = Set.new
   cases.each { |c| %w[title summary impact vector root_cause response attribution motive].each { |k| c[k].to_s.scan(/\b[a-z][a-z\-]{3,}\b/) { |w| english << w } } }
+  strong = Set.new
   token_sets = cases.map do |c|
     # Proper names only: skip the title's first word ("Hundreds", "Attackers"), keep capitalised words after it.
-    words = (c["title"].to_s.split.drop(1).join(" ") + " " + c["target"].to_s).scan(/[A-Za-z][A-Za-z0-9.\-]{3,}/)
-    names = words.select { |w| w =~ /[A-Z0-9]/ && !COMMON.include?(w.downcase) && !english.include?(w.downcase) && w !~ DESCRIPTIVE }.map(&:downcase)
+    first, *rest = c["title"].to_s.split
+    head = first.to_s =~ BRANDLIKE ? [first] : [] # "GhostGPT ..." is a name, "Hundreds ..." is not
+    words = ((head + rest).join(" ") + " " + c["target"].to_s).scan(/[A-Za-z][A-Za-z0-9.\-]{3,}/)
+    kept = words.select { |w| w =~ /[A-Z0-9]/ && !COMMON.include?(w.downcase) && !english.include?(w.downcase) && w !~ DESCRIPTIVE }
+    kept.each { |w| strong << w.downcase if w =~ BRANDLIKE }
+    names = kept.map(&:downcase)
     # Multi-word names ("Hugging Face", "Red Agent") count as one identifier.
     phrases = (c["title"].to_s.split.drop(1).join(" ") + " " + c["target"].to_s)
               .scan(/\b[A-Z][\w.\-]+(?: [A-Z][\w.\-]+){1,2}\b/).map(&:downcase)
@@ -109,7 +116,8 @@ def case_index
     codes += c["cve"].to_s.scan(/CVE-\d{4}-\d{4,}/i)
     codes += "#{c['actor']} #{c['title']}".scan(/\b(?:(?!CVE-)[A-Z]{2,}[A-Z0-9]*-\d{2,}|Storm-\d{3,}|UNC\d{3,}|APT\d{1,3}|TA\d{3,})\b/)
     { id: c["id"], title: c["title"], summary: c["summary"], category: c["category"],
-      codes: codes.uniq, rare: token_sets[i].select { |t| df[t] <= 2 }, unique: token_sets[i].select { |t| df[t] == 1 } }
+      codes: codes.uniq, rare: token_sets[i].select { |t| df[t] <= 2 }, unique: token_sets[i].select { |t| df[t] <= 2 && strong.include?(t) },
+      strong: token_sets[i].select { |t| strong.include?(t) || t.include?(" ") } }
   end
 end
 
@@ -123,8 +131,8 @@ def match_case(text, idx)
     # A matched phrase and its own words are one identifier, not several.
     rare = rare.reject { |t| !t.include?(" ") && rare.any? { |o| o.include?(" ") && o.split.include?(t) } }
     # One rare name is enough next to a security word; two rare names are enough on their own.
-    score = (code ? 12 : 0) + (rare.size >= 2 || (rare.size == 1 && unique.include?(rare.first) && low =~ SEC_WORD) ? 10 : 0)
-    next if score < 10 || (!code && !(low =~ AI_WORD))
+    score = (code ? 12 : 0) + ((rare.size >= 2 && rare.any? { |t| c[:strong].include?(t) }) || (rare.size == 1 && unique.include?(rare.first) && low =~ SEC_WORD) ? 10 : 0)
+    next if score < 10 || (!code && !(low =~ AI_WORD) && rare.none? { |t| c[:strong].include?(t) })
     best = c.merge(score: score, why: code || rare.first(2).join(", ")) if best.nil? || score > best[:score]
   end
   best
