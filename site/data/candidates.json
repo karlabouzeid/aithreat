@@ -583,5 +583,50 @@
     "first_seen": "2026-10-16T14:05:39Z",
     "first_published": "2023-01-03T13:10:27Z",
     "updated_at": "2026-10-16T14:05:39Z"
+  },
+  {
+    "id": "prt-scan-ai-pull-request-target-campaign",
+    "date": "2026-10-16",
+    "title": "prt-scan: AI-powered campaign exploits pull_request_target across six accounts",
+    "category": "AI supply chain",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "GitHub repositories using pull_request_target workflows",
+    "loss_usd": null,
+    "summary": "Wiz traced the prt-scan supply chain campaign to one actor running six accounts. It was AI-powered, exploited pull_request_target, and ran about three weeks before anyone noticed. It follows hackerbot-claw.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Technology & AI vendors",
+    "attribution": "Wiz Research linked six accounts to a single actor; no further identity given.",
+    "motive": "Unknown",
+    "vector": "AI-driven abuse of GitHub Actions pull_request_target workflows.",
+    "root_cause": "Misconfigured pull_request_target workflows that run untrusted pull request code with elevated privileges.",
+    "impact": "Unknown; the summary gives no victim count or losses.",
+    "response": "Wiz Research published an analysis tracing the actor back about three weeks before detection.",
+    "status": "under investigation",
+    "cve": null,
+    "confidence": 0.5,
+    "source": "Wiz Research",
+    "url": "https://www.wiz.io/blog/six-accounts-one-actor-inside-the-prt-scan-supply-chain-campaign",
+    "sources": [
+      {
+        "name": "Wiz Research",
+        "url": "https://www.wiz.io/blog/six-accounts-one-actor-inside-the-prt-scan-supply-chain-campaign"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-16",
+        "event": "Reported by Wiz Research"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-16T14:16:23Z",
+    "wire_id": "60916b269459",
+    "first_seen": "2026-10-16T14:16:23Z",
+    "first_published": "2026-04-04T09:36:51Z",
+    "updated_at": "2026-10-16T14:16:23Z"
   }
 ]
