@@ -55,10 +55,19 @@ jobs:
             echo "No changes"
           else
             git commit -m "wire: $(date -u +'%Y-%m-%d %H:%M UTC')"
+            # If someone pushed while this run was working, replay the robot's commit on top
+            # of theirs. Conflicting hunks take the robot's side (its data is the newer read),
+            # then the generated pages are rebuilt from the merged data so they match.
+            pushed=0
             for i in 1 2 3; do
-              git push origin HEAD:main && break
-              git fetch origin main && git rebase origin/main
+              if git push origin HEAD:main; then pushed=1; break; fi
+              git fetch origin main
+              if ! git rebase -X theirs origin/main; then git rebase --abort; continue; fi
+              ruby scripts/build_pages.rb || true
+              git add -A site
+              git diff --cached --quiet || git commit -q --amend --no-edit
             done
+            [ "$pushed" = 1 ] || { echo "Could not push after 3 attempts"; exit 1; }
             echo "pushed=1" >> "$GITHUB_OUTPUT"
           fi
       # Bing, Yandex and friends learn about new or edited case pages within
