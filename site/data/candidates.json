@@ -1071,5 +1071,50 @@
     "first_seen": "2026-10-16T01:05:39Z",
     "first_published": "2025-05-05T00:00:00Z",
     "updated_at": "2026-10-16T01:05:39Z"
+  },
+  {
+    "id": "aoki-infostealer-ai-assistant-creds",
+    "date": "2026-10-16",
+    "title": "Aoki infostealer expands to steal Claude, ChatGPT and Cursor credentials",
+    "category": "Model & data leak",
+    "direction": "on-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "Developers' Claude, ChatGPT and Cursor credentials and sessions",
+    "loss_usd": null,
+    "summary": "The Aoki (Aokigahara) infostealer, first seen earlier in 2026, now collects credentials and session files from AI coding assistants, putting developer identities and connected infrastructure at risk.",
+    "actor": "Aoki (Aokigahara) infostealer operators",
+    "actor_type": "unknown",
+    "sector": "Multiple / cross-sector",
+    "attribution": "Unknown; the report names only the Aoki (Aokigahara) infostealer.",
+    "motive": "Unknown; likely credential theft and access to developer infrastructure.",
+    "vector": "Infostealer malware with new collection routines for AI coding assistant credentials and session files.",
+    "root_cause": "Credentials and session files for AI coding assistants are stored on developer machines, where infostealers can collect them.",
+    "impact": "Developer identities and connected infrastructure are at risk. The summary gives no victim counts or losses.",
+    "response": "Unknown",
+    "status": "ongoing",
+    "cve": null,
+    "confidence": 0.6,
+    "source": "GBHackers",
+    "url": "https://gbhackers.com/aoki-infostealer-targets-ai",
+    "sources": [
+      {
+        "name": "GBHackers",
+        "url": "https://gbhackers.com/aoki-infostealer-targets-ai"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-16",
+        "event": "Reported by GBHackers"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-16T06:47:51Z",
+    "wire_id": "b722ecd55f2a",
+    "first_seen": "2026-10-16T06:47:51Z",
+    "first_published": "2026-10-16T06:15:40Z",
+    "updated_at": "2026-10-16T06:47:51Z"
   }
 ]
