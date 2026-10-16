@@ -102,6 +102,22 @@ alerts card and the Organization `sameAs`. Clicks are counted in Umami as the `t
 5. [ ] **Swap mentions with similar channels (after 50 subscribers).** On tgstat, look in Technology for infosec or AI channels with 1,000 to 20,000 subscribers, and message the admin offering a mutual mention. One swap a week. Never buy subscribers: fake accounts never read, Telegram ranks the channel lower and catalogues flag it.
 6. **Measure:** subscriber count on Fridays in the weekly log, plus Umami's `telegram` clicks. Telegram's own channel statistics switch on later, once the channel has enough subscribers.
 
+### Reddit: daily reading list (nothing is posted automatically)
+
+Automated posting would get aithreat.io banned across Reddit, so the robot only finds threads. Every morning
+from 08:00 Beirut, `scripts/reddit_watch.rb` reads the newest posts in 12 subreddits (r/cybersecurity,
+r/netsec, r/artificial, r/LocalLLaMA, r/ChatGPT, r/OpenAI, r/ClaudeAI, r/MachineLearning, r/sysadmin,
+r/privacy, r/AskNetsec, r/cybersecurity_help). It keeps threads that name something one of our cases is about
+(a CVE, a threat-actor code, a product or campaign name) or a topic we have a hub for, then sends you up to five
+on Telegram, each with a draft reply that answers first, links once and says you maintain the tracker.
+
+1. [ ] **Switch it on (3 min).**
+   - In Telegram, open a chat with your bot (the one from @BotFather) and press **Start**. A bot can only message people who have started it.
+   - Message **@userinfobot**; it replies with your numeric id (for example `123456789`).
+   - GitHub, Settings, Secrets and variables, Actions, New repository secret: `TELEGRAM_ALERT_CHAT_ID` = that number.
+2. **Every morning (10 min):** open each thread, read it, edit the draft so it sounds like you, post it from your own account, and skip any that feel forced. Two good replies a day beat five weak ones.
+3. **Reddit's own rules to keep:** reply only where the link answers the question; keep links to under one in ten of your comments and posts (comment without links too); never post the same reply twice; answer follow-up questions.
+
 ### Launch (dates and material in `LAUNCH.md`)
 
 - Mon 26 Oct: send the five newsletter pitches (tl;dr sec, Risky Business News, Simon Willison, CyberDaily, AIAAIC Alert).

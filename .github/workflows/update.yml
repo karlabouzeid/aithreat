@@ -110,10 +110,22 @@ jobs:
           X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
           X_ACCESS_SECRET: ${{ secrets.X_ACCESS_SECRET }}
         run: ruby scripts/social.rb
+      # Once a day from 05:00 UTC: Reddit threads that a case file answers, with draft replies,
+      # sent privately to Karl on Telegram. Nothing is posted to Reddit; see scripts/reddit_watch.rb.
+      - name: Reddit reading list (once a day)
+        id: reddit
+        if: ${{ !cancelled() }}
+        continue-on-error: true
+        timeout-minutes: 12
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_ALERT_CHAT_ID: ${{ secrets.TELEGRAM_ALERT_CHAT_ID }}
+        run: ruby scripts/reddit_watch.rb
       - name: Save which cases were posted
-        if: always() && steps.social.outcome != 'skipped'
+        if: always() && (steps.social.outcome != 'skipped' || steps.reddit.outcome != 'skipped')
         run: |
-          git add config/social_posted.json 2>/dev/null || true
+          git add config/social_posted.json config/reddit_watch.json 2>/dev/null || true
           if ! git diff --cached --quiet; then
             git commit -m "social: posted state $(date -u +'%Y-%m-%d %H:%M UTC')"
             for i in 1 2 3; do
