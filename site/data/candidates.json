@@ -268,5 +268,95 @@
     "first_seen": "2026-10-16T11:35:36Z",
     "first_published": "2026-06-17T17:58:25Z",
     "updated_at": "2026-10-16T11:35:36Z"
+  },
+  {
+    "id": "context-ai-oauth-token-supply-chain",
+    "date": "2026-10-16",
+    "title": "Compromised Context.ai OAuth tokens enable SaaS supply chain attack",
+    "category": "AI supply chain",
+    "direction": "on-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "Context.ai OAuth integrations and downstream SaaS customers",
+    "loss_usd": null,
+    "summary": "Wiz Research reports compromised Context.ai OAuth tokens let attackers pivot through trusted SaaS integrations in a supply chain attack. Scope and victims are not stated.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Technology & AI vendors",
+    "attribution": "Unknown",
+    "motive": "Unknown",
+    "vector": "Compromised OAuth tokens abused through trusted SaaS integrations",
+    "root_cause": "Unknown",
+    "impact": "Downstream organisations connected via Context.ai OAuth integrations were exposed to a supply chain attack; scale not stated.",
+    "response": "Wiz published guidance on assessing exposure and preventing a repeat.",
+    "status": "under investigation",
+    "cve": null,
+    "confidence": 0.5,
+    "source": "Wiz Research",
+    "url": "https://www.wiz.io/blog/contextai-oauth-token-compromise",
+    "sources": [
+      {
+        "name": "Wiz Research",
+        "url": "https://www.wiz.io/blog/contextai-oauth-token-compromise"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-16",
+        "event": "Reported by Wiz Research"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-16T13:35:41Z",
+    "wire_id": "57f02021fc5e",
+    "first_seen": "2026-10-16T13:35:41Z",
+    "first_published": "2026-04-20T18:20:06Z",
+    "updated_at": "2026-10-16T13:35:41Z"
+  },
+  {
+    "id": "s1ngularity-nx-supply-chain-ai-malware",
+    "date": "2025-08-26",
+    "title": "s1ngularity: Nx supply chain attack uses AI-powered malware",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "Nx package users and developers",
+    "loss_usd": null,
+    "summary": "Wiz analyses the Nx supply chain attack (s1ngularity), covering the performance of its AI-powered malware, impact calculations and new TTPs.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Technology & AI vendors",
+    "attribution": "Unknown",
+    "motive": "Unknown",
+    "vector": "Compromised Nx package carrying malware that invokes AI tooling",
+    "root_cause": "Unknown",
+    "impact": "Wiz calculated the incident's impact; figures are not given in the summary.",
+    "response": "Wiz shared novel TTPs for further investigation.",
+    "status": "under investigation",
+    "cve": null,
+    "confidence": 0.55,
+    "source": "Wiz Research",
+    "url": "https://www.wiz.io/blog/s1ngularitys-aftermath",
+    "sources": [
+      {
+        "name": "Wiz Research",
+        "url": "https://www.wiz.io/blog/s1ngularitys-aftermath"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2025-08-26",
+        "event": "Reported by Wiz Research"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-16T13:35:41Z",
+    "wire_id": "82d293cbb6b0",
+    "first_seen": "2026-10-16T13:35:41Z",
+    "first_published": "2025-09-03T14:13:55Z",
+    "updated_at": "2026-10-16T13:35:41Z"
   }
 ]
