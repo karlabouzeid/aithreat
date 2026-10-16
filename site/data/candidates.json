@@ -936,5 +936,50 @@
     "first_seen": "2026-10-15T22:35:36Z",
     "first_published": "2026-02-02T15:00:03Z",
     "updated_at": "2026-10-15T22:35:36Z"
+  },
+  {
+    "id": "langflow-cve-2026-33017-kev",
+    "date": "2026-10-16",
+    "title": "Langflow code injection CVE-2026-33017 flagged as actively exploited by CISA",
+    "category": "AI supply chain",
+    "direction": "on-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "Langflow AI workflow platform instances",
+    "loss_usd": null,
+    "summary": "CISA's KEV catalog lists Langflow CVE-2026-33017, a code injection flaw allowing public flows to be built without authentication, as actively exploited.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Multiple / cross-sector",
+    "attribution": "Unknown",
+    "motive": "Unknown",
+    "vector": "Unauthenticated requests exploiting code injection when building public flows in Langflow",
+    "root_cause": "Code injection vulnerability that permits building public flows without requiring authentication.",
+    "impact": "Exploitation in the wild is confirmed by CISA's KEV listing; the number of victims and the damage are not stated.",
+    "response": "Added to the CISA Known Exploited Vulnerabilities catalog.",
+    "status": "ongoing",
+    "cve": "CVE-2026-33017",
+    "confidence": 0.5,
+    "source": "CISA KEV",
+    "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-33017",
+    "sources": [
+      {
+        "name": "CISA KEV",
+        "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-33017"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-16",
+        "event": "Reported by CISA KEV"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-16T00:05:39Z",
+    "wire_id": "6903183f69f4",
+    "first_seen": "2026-10-16T00:05:39Z",
+    "first_published": "2026-03-25T00:00:00Z",
+    "updated_at": "2026-10-16T00:05:39Z"
   }
 ]
