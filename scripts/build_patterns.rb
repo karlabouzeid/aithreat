@@ -255,6 +255,7 @@ def patterns_page(lang, st, incidents)
     #{crumbs_html(lang, [[x(lang, :patterns), nil]])}
     <h1>#{h(title)}</h1>
     <p class="lede">#{h(lede)}</p>
+    #{share_row(lang, url, title)}
     <div class="kpis">#{kpis}</div>
     <section class="sec"><h2>#{h(x(lang, :s_trend_h))}</h2>#{trend_svg}#{cap.call(:s_trend_c, first: st['on_ai_share_first_half'], last: st['on_ai_share_last_half'])}#{real_note}</section>
     <section class="sec"><h2>#{h(x(lang, :s_heat_h))}</h2>#{heat_svg}#{cap.call(:s_heat_c, rising: cat_name.call(st['rising_category'].to_s), top: cat_name.call(st['top_category'].to_s), topn: st['top_category_n'])}</section>

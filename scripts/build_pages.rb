@@ -532,7 +532,7 @@ def head(lang:, title:, desc:, url:, alternates:, og_type: "website", jsonld: []
     <link rel="alternate" type="application/rss+xml" title="AI Threat Watch wire" href="/feed.xml">
     #{ICON}
     #{FONTS}
-    <style>#{CSS}#{SUBSCRIBE_CSS}</style>
+    <style>#{CSS}#{SHARE_CSS}#{SUBSCRIBE_CSS}</style>
     <script>try{var t=localStorage.getItem('atw-theme');if(t)document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
     #{UMAMI}
     #{jsonld.map { |j| %(<script type="application/ld+json">#{JSON.generate(j).gsub('</', '<\/')}</script>) }.join("\n")}
@@ -570,6 +570,21 @@ end
 # homepage card in site/index.html.
 SUBSCRIBE_URL = "https://assets.mailerlite.com/jsonp/2715122/forms/201398923747657688/subscribe"
 SUBSCRIBE_CSS = ".sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}.sub{background:var(--surface);border:1px solid var(--line2);border-radius:12px;padding:16px 18px;margin:26px 0 0;display:grid;gap:8px}.sub .k{font:600 11px var(--f-mono);text-transform:uppercase;letter-spacing:.06em;color:var(--accent)}html[lang=\"ar\"] .sub .k,html[lang=\"zh\"] .sub .k{font-family:var(--f-body);text-transform:none;letter-spacing:0}.sub h2{margin:0;font-size:18px}.sub form{display:flex;flex-wrap:wrap;gap:8px}.sub input[type=email]{flex:1 1 220px;min-height:40px;border:1px solid var(--line2);border-radius:8px;background:var(--surface2);color:var(--ink);padding:0 12px;font:15px var(--f-body)}.sub button{min-height:40px;padding:0 16px;border:0;border-radius:8px;background:var(--accent);color:var(--accent-ink);font:600 14px var(--f-body);cursor:pointer}.sub small{color:var(--muted)}"
+# Share buttons. Every link carries the page's own aithreat.io address, so the social
+# network shows our Open Graph card and sends readers back here, not to the source.
+SHARE_CSS = ".share{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin:-12px 0 22px;font-size:13px}.share span{color:var(--muted);font:600 11px var(--f-mono);text-transform:uppercase;letter-spacing:.06em;margin-inline-end:4px}html[lang=\"ar\"] .share span,html[lang=\"zh\"] .share span{font-family:var(--f-body);text-transform:none}.share a{display:inline-flex;align-items:center;min-height:32px;padding:0 12px;border-radius:999px;background:var(--surface);border:1px solid var(--line2);color:var(--ink);text-decoration:none}.share a:hover{border-color:var(--accent);color:var(--accent)}"
+def share_row(lang, url, title)
+  u = CGI.escape(url); tt_ = CGI.escape(title.to_s)
+  links = [
+    ["LinkedIn", "https://www.linkedin.com/sharing/share-offsite/?url=#{u}"],
+    ["X", "https://x.com/intent/post?text=#{tt_}&url=#{u}"],
+    ["Facebook", "https://www.facebook.com/sharer/sharer.php?u=#{u}"],
+    ["WhatsApp", "https://wa.me/?text=#{CGI.escape("#{title} #{url}")}"],
+    ["Email", "mailto:?subject=#{tt_}&body=#{u}"]
+  ]
+  %(<p class="share"><span>#{h(x(lang, :share))}</span>#{links.map { |n, href| %(<a href="#{h(href)}" target="_blank" rel="noopener" data-umami-event="share" data-umami-event-net="#{n.downcase}">#{n}</a>) }.join}</p>)
+end
+
 def subscribe_box(lang)
   <<~HTML
     <aside class="sub" aria-labelledby="sub-h"><div class="k">#{h(t(lang, 'get_alerts'))}</div><h2 id="sub-h">#{h(t(lang, 'alerts_h'))}</h2>
@@ -639,6 +654,7 @@ def case_page(i_en, lang, prev_i, next_i)
     <p class="lede">#{h(i['summary'])}</p>
     <p class="pills"><span class="pill sev" data-sev="#{i['severity']}">#{h(sev)}</span><span class="pill">#{h(i['direction'] == 'on-ai' ? t(lang, 'attack_on') : t(lang, 'attack_using'))}</span>#{present(i['status']) ? %(<span class="pill">#{h(t(lang, 'status'))}: #{h(tt(lang, 'statuses', i['status']))}</span>) : ''}<span class="pill">#{h(x(lang, :verified))}</span></p>
     <p class="tools"><a class="btn" href="/#{q}##{h(i['id'])}">#{h(x(lang, :open_map))}</a><a class="btn ghost" href="#cite">#{h(x(lang, :cite))}</a></p>
+    #{share_row(lang, url, i['title'])}
     <dl class="facts">#{facts}</dl>
     <section class="sec"><h2>#{h(t(lang, 'what'))}</h2><p>#{h(i['summary'])}</p>#{para(t(lang, 'impact'), i['impact'], lang)}</section>
     <div class="two">

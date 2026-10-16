@@ -158,6 +158,7 @@ PATTERNS = {
     st_ongoing: "进行中", st_under_investigation: "调查中", st_contained: "已遏制", st_patched: "已修补", st_resolved: "已解决", st_unresolved: "未解决"
   }
 }
+PATTERNS["en"][:share] = "Share"; PATTERNS["fr"][:share] = "Partager"; PATTERNS["es"][:share] = "Compartir"; PATTERNS["ar"][:share] = "مشاركة"; PATTERNS["zh"][:share] = "分享"
 PATTERNS["en"][:l_sector] = "Sector"; PATTERNS["fr"][:l_sector] = "Secteur"; PATTERNS["es"][:l_sector] = "Sector"; PATTERNS["ar"][:l_sector] = "القطاع"; PATTERNS["zh"][:l_sector] = "行业"
 
 # Victim sector, a closed list tagged on every case file (field `sector`).
