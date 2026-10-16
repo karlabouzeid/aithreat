@@ -193,9 +193,13 @@ class Telegram
   end
 
   def post(c)
+    # The Share button sends the case with a credit to the channel, so every share is an invitation.
+    share = "https://t.me/share/url?url=#{CGI.escape(c[:url])}&text=#{CGI.escape("#{c[:title]} (via t.me/aithreat)")}"
     http_json(:post, "https://api.telegram.org/bot#{@token}/sendMessage",
               body: { chat_id: @chat, text: compose(c), parse_mode: "HTML",
-                      link_preview_options: { url: c[:url], prefer_large_media: true } })
+                      link_preview_options: { url: c[:url], prefer_large_media: true },
+                      reply_markup: { inline_keyboard: [[{ text: "Read the case file", url: c[:url] },
+                                                         { text: "Share", url: share }]] } })
   end
 end
 

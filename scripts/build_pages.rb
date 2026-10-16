@@ -251,6 +251,7 @@ require_relative "patterns_strings"
 LANGS.each { |l| EXTRA[l] = EXTRA[l].merge(PATTERNS[l]) }
 EXTRA.freeze
 REPO = "https://github.com/karlabouzeid/aithreat"
+TELEGRAM_URL = "https://t.me/aithreat"
 CHANGELOG_URL = "#{REPO}/commits/main/site/data/incidents.en.json"
 ISSUES_URL = "#{REPO}/issues"
 
@@ -556,7 +557,7 @@ def footer(lang)
   parts << %(<span>#{h(x(lang, :licence))}</span>)
   parts << %(<span>#{h(t(lang, 'translated'))}</span>) if lang != "en"
   parts << %(<span><a href="#{pre(lang)}/why/">#{h(x(lang, :why))}</a> · <a href="#{pre(lang)}/about/">#{h(x(lang, :about))}</a> · <a href="#{pre(lang)}/cases/glossary/">#{h(x(lang, :glossary))}</a> · <a href="#{pre(lang)}/cases/">#{h(x(lang, :all_cases))}</a></span>)
-  parts << %(<span><a href="/data/incidents.en.json">#{h(x(lang, :data))}</a> · <a href="#{pre(lang)}/cases/feed.xml">#{h(x(lang, :cases_feed))}</a> · <a href="/feed.xml">#{h(x(lang, :wire_feed))}</a> · <a href="/sitemap.xml">Sitemap</a></span>)
+  parts << %(<span><a href="/data/incidents.en.json">#{h(x(lang, :data))}</a> · <a href="#{pre(lang)}/cases/feed.xml">#{h(x(lang, :cases_feed))}</a> · <a href="/feed.xml">#{h(x(lang, :wire_feed))}</a> · <a href="/sitemap.xml">Sitemap</a> · <a href="#{TELEGRAM_URL}" data-umami-event="telegram">Telegram</a></span>)
   %(<footer>#{parts.join}</footer>)
 end
 
@@ -590,7 +591,7 @@ def subscribe_box(lang)
   <<~HTML
     <aside class="sub" aria-labelledby="sub-h"><div class="k">#{h(t(lang, 'get_alerts'))}</div><h2 id="sub-h">#{h(t(lang, 'alerts_h'))}</h2>
     <form method="post" action="#{SUBSCRIBE_URL}" target="_blank"><label class="sr" for="sub-email">Email</label><input type="email" name="fields[email]" id="sub-email" required placeholder="#{h(t(lang, 'alerts_ph'))}" autocomplete="email"><input type="hidden" name="ml-submit" value="1"><input type="hidden" name="anticsrf" value="true"><button type="submit">#{h(t(lang, 'subscribe'))}</button></form>
-    <small>#{h(t(lang, 'alerts_note'))} <a href="#{pre(lang)}/cases/feed.xml">RSS</a></small></aside>
+    <small>#{h(t(lang, 'alerts_note'))} <a href="#{pre(lang)}/cases/feed.xml">RSS</a> · <a href="#{TELEGRAM_URL}" target="_blank" rel="noopener" data-umami-event="telegram">Telegram @aithreat</a></small></aside>
   HTML
 end
 
@@ -778,7 +779,7 @@ def about_page(lang, newest_en)
   jsonld = [
     { "@context" => "https://schema.org", "@type" => "AboutPage", "@id" => url, "name" => title, "description" => intro, "url" => url, "inLanguage" => lang, "isAccessibleForFree" => true,
       "license" => "https://creativecommons.org/licenses/by/4.0/", "about" => { "@type" => "Organization", "name" => "AI Threat Watch", "url" => "#{BASE}/" },
-      "publisher" => { "@type" => "Organization", "name" => "AI Threat Watch", "url" => "#{BASE}/" }, "mainEntity" => { "@type" => "Organization", "name" => "AI Threat Watch", "url" => "#{BASE}/", "sameAs" => [REPO] } },
+      "publisher" => { "@type" => "Organization", "name" => "AI Threat Watch", "url" => "#{BASE}/" }, "mainEntity" => { "@type" => "Organization", "name" => "AI Threat Watch", "url" => "#{BASE}/", "sameAs" => [REPO, TELEGRAM_URL] } },
     crumbs_ld(lang, [[x(lang, :about), url]])
   ]
   headhtml = head(lang: lang, title: "#{title} · AI Threat Watch", desc: intro, url: url, alternates: alternates, jsonld: jsonld, feed: "#{pre(lang)}/cases/feed.xml")
