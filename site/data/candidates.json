@@ -628,5 +628,50 @@
     "first_seen": "2026-10-16T14:16:23Z",
     "first_published": "2026-04-04T09:36:51Z",
     "updated_at": "2026-10-16T14:16:23Z"
+  },
+  {
+    "id": "ai-romance-scam-2000km-coach-trip",
+    "date": "2026-10-16",
+    "title": "Man travels 2,000 km by coach to meet AI 'girlfriend' and is left penniless",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "low",
+    "country": "FR",
+    "region": "Europe",
+    "target": "Individual victim of an AI-driven romance scam",
+    "loss_usd": null,
+    "summary": "A man travelled 2,000 km by coach to join a woman he loved, who proved to be an AI persona; he lost his money and could not afford the trip home.",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "sector": "Individuals & consumers",
+    "attribution": "Unknown; the headline gives no attribution.",
+    "motive": "Financial gain (implied by the loss of the victim's money).",
+    "vector": "Online relationship with an AI-generated persona, per headline.",
+    "root_cause": "Victim deceived by an AI persona posing as a real romantic partner.",
+    "impact": "Victim lost his money and was stranded far from home. The amount is not stated.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "confidence": 0.45,
+    "source": "Le Dauphiné Libéré",
+    "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNdlpXZ3Vsc2YwQmZFaWo5cDRWTXhhNjQzM3VvMlFMZlJfNFlPTkh5ek5iVUlGeVpySnIzY1B2QWRQZzFsNmk1X0dIMS0xLVlTTVNvRjdWMlJuTFdzT2RSWVlWWmZoeWpiQnRqbzR2ZWw4VnRUVFRGbHNjV0xZQzN3cnltNGxJd08yWVpSTWltcXZkaWk0cFFSRGtLdnFtY0tDblUzWldidlJhUThoczgydFcyVlB3eGp6Z2lyUmdpWmtfRV9BdjFUQ0hpNklnVFprR1U0N0tBNjZRaXAtZWprQlV0RGNlN3JLYUZHeWExVUU?oc=5",
+    "sources": [
+      {
+        "name": "Le Dauphiné Libéré",
+        "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNdlpXZ3Vsc2YwQmZFaWo5cDRWTXhhNjQzM3VvMlFMZlJfNFlPTkh5ek5iVUlGeVpySnIzY1B2QWRQZzFsNmk1X0dIMS0xLVlTTVNvRjdWMlJuTFdzT2RSWVlWWmZoeWpiQnRqbzR2ZWw4VnRUVFRGbHNjV0xZQzN3cnltNGxJd08yWVpSTWltcXZkaWk0cFFSRGtLdnFtY0tDblUzWldidlJhUThoczgydFcyVlB3eGp6Z2lyUmdpWmtfRV9BdjFUQ0hpNklnVFprR1U0N0tBNjZRaXAtZWprQlV0RGNlN3JLYUZHeWExVUU?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-16",
+        "event": "Reported by Le Dauphiné Libéré"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-16T15:35:41Z",
+    "wire_id": "d3d464f85942",
+    "first_seen": "2026-10-16T15:35:41Z",
+    "first_published": "2026-10-16T14:43:50Z",
+    "updated_at": "2026-10-16T15:35:41Z"
   }
 ]
