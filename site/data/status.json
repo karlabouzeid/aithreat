@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-16T01:05:39Z",
-  "wire_items": 638,
-  "new_items": 292,
+  "updated_at": "2026-10-16T01:35:38Z",
+  "wire_items": 639,
+  "new_items": 293,
   "candidates": 24,
   "incidents": 318,
   "feeds_ok": [
@@ -59,5 +59,5 @@
   "feeds_failed": [
 
   ],
-  "triage": "triaged 654 items with claude-sonnet-5-5 in 26 batches (1 failed: no JSON (stop=refusal): [{\"i\":500,\"keep\":false,\"kind\":\"research\",\"tag\":\"Race conditions\",\"one_line\":\"Blog post on race conditions when applying file ACLs to sensitive content; generic ); kept 292"
+  "triage": "triaged 656 items with claude-sonnet-5-5 in 27 batches (0 failed); kept 293"
 }
