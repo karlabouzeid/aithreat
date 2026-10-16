@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 # frozen_string_literal: true
-# Posts each newly verified case file to Bluesky, Mastodon and Telegram.
+# Posts each newly verified case file to Bluesky, Mastodon, Telegram and X.
 #
 # Source: site/cases/feed.xml (English, newest first). State: config/social_posted.json,
 # one list of posted case URLs per platform. A platform runs only when its secrets are set.
@@ -12,6 +12,7 @@
 #   BLUESKY_HANDLE, BLUESKY_APP_PASSWORD           (Settings > Privacy and security > App passwords)
 #   MASTODON_INSTANCE, MASTODON_TOKEN              (e.g. https://infosec.exchange; token with write:statuses)
 #   TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID           (bot from @BotFather, admin of the channel; chat id like @aithreat)
+#   X_API_KEY, X_API_SECRET, X_ACCESS_TOKEN, X_ACCESS_SECRET  (developer.x.com app with Read and write; optional X_DAILY_CAP)
 #
 # Usage: ruby scripts/social.rb             # post up to MAX_PER_RUN new cases per platform
 #        ruby scripts/social.rb --dry-run   # print what would be posted, change nothing
@@ -203,11 +204,55 @@ class Telegram
   end
 end
 
+# ---- X: one post per case, link last so X builds the card from the page's Open Graph tags.
+# Signed with OAuth 1.0a (user context), which X requires for posting. X's API tiers cap
+# monthly posts, so this client also keeps a rolling 24-hour cap (X_DAILY_CAP).
+class XPost
+  API = "https://api.x.com/2/tweets"
+  DAILY_CAP = (ENV["X_DAILY_CAP"] || 12).to_i
+
+  def initialize
+    @key = ENV["X_API_KEY"].to_s.strip
+    @secret = ENV["X_API_SECRET"].to_s.strip
+    @token = ENV["X_ACCESS_TOKEN"].to_s.strip
+    @token_secret = ENV["X_ACCESS_SECRET"].to_s.strip
+  end
+
+  def enabled?
+    [@key, @secret, @token, @token_secret].none?(&:empty?)
+  end
+
+  # X counts every link as 23 characters and most emoji as 2.
+  def compose(c)
+    tags = hashtags(c).join(" ")
+    fixed = "#{headline(c)}\n\n\n\n#{tags}\n\n".length + 23 + 2
+    "#{headline(c)}\n\n#{truncate(c[:title], 280 - fixed)}\n\n#{tags}\n\n#{c[:url]}"
+  end
+
+  def post(c)
+    require "openssl"
+    require "base64"
+    require "securerandom"
+    enc = ->(s) { s.to_s.b.gsub(/[^A-Za-z0-9\-._~]/n) { |ch| format("%%%02X", ch.ord) } }
+    oauth = {
+      "oauth_consumer_key" => @key, "oauth_nonce" => SecureRandom.hex(16),
+      "oauth_signature_method" => "HMAC-SHA1", "oauth_timestamp" => Time.now.to_i.to_s,
+      "oauth_token" => @token, "oauth_version" => "1.0"
+    }
+    params = oauth.sort.map { |k, v| "#{enc.call(k)}=#{enc.call(v)}" }.join("&")
+    base = ["POST", enc.call(API), enc.call(params)].join("&")
+    signing_key = "#{enc.call(@secret)}&#{enc.call(@token_secret)}"
+    oauth["oauth_signature"] = Base64.strict_encode64(OpenSSL::HMAC.digest("sha1", signing_key, base))
+    header = "OAuth " + oauth.sort.map { |k, v| %(#{enc.call(k)}="#{enc.call(v)}") }.join(", ")
+    http_json(:post, API, headers: { "Authorization" => header }, body: { text: compose(c) })
+  end
+end
+
 # ---- Main
 state = File.exist?(STATE) ? JSON.parse(File.read(STATE)) : {}
 cases = cases_from_feed
 abort "social: no cases in #{FEED}" if cases.empty?
-platforms = { "bluesky" => Bluesky.new, "mastodon" => Mastodon.new, "telegram" => Telegram.new }
+platforms = { "bluesky" => Bluesky.new, "mastodon" => Mastodon.new, "telegram" => Telegram.new, "x" => XPost.new }
 
 platforms.each do |name, client|
   unless client.enabled? || DRY_RUN
@@ -225,6 +270,9 @@ platforms.each do |name, client|
   # Oldest first, so a backlog goes out in the order the cases were published.
   fresh = cases.reject { |c| posted.include?(c[:url]) }.reverse.first(MAX_PER_RUN)
   fresh = cases.first(1) if DRY_RUN && fresh.empty?
+  # X: rolling 24-hour cap, so a burst of new cases cannot exhaust the monthly API quota.
+  sent_log = (state["#{name}_sent_at"] || []).select { |t| Time.parse(t) > Time.now - 86_400 }
+  fresh = fresh.first([client.class::DAILY_CAP - sent_log.size, 0].max) if client.class.const_defined?(:DAILY_CAP)
   fresh.each do |c|
     if DRY_RUN
       puts "---- #{name} (#{c[:url]})\n#{client.compose(c)}\n\n"
@@ -233,6 +281,7 @@ platforms.each do |name, client|
     begin
       client.post(c)
       posted << c[:url]
+      sent_log << Time.now.utc.iso8601
       puts "social: #{name} posted #{c[:url]}"
       sleep 2
     rescue StandardError => e
@@ -242,6 +291,7 @@ platforms.each do |name, client|
   end
   # Keep the list bounded; the feed only carries the newest 50 cases.
   state[name] = posted.last(500)
+  state["#{name}_sent_at"] = sent_log if client.class.const_defined?(:DAILY_CAP)
 end
 
 File.write(STATE, JSON.pretty_generate(state) + "\n") unless DRY_RUN
