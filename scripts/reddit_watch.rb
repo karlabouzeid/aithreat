@@ -49,7 +49,7 @@ TOPICS = [
   [/(malicious|poisoned|backdoor(ed)?) (model|package|extension|mcp server)|model poisoning|supply[- ]chain.{0,30}(ai|llm|hugging ?face|pypi model|mcp)/i, "ai-supply-chain", "AI supply chain", false],
   [/(agent|agentic|mcp).{0,40}(hijack|exploit|attack|vulnerab|compromis|exfiltrat|breach|hack)|(hijack|exploit|compromis|breach|hack)\w*.{0,40}(ai agent|coding agent|agentic|openai agent|agent)/i, "agent-hijack", "Agent hijack", false],
   [/(model|training data|system prompt|chat (history|logs)).{0,30}(leak|exposed|breach)/i, "model-data-leak", "Model & data leak", false],
-  [/(state|nation)[- ]?(actor|sponsored|hackers?).{0,40}(ai|llm|gemini|chatgpt|claude)|(apt|lazarus|sandworm|apt28|apt29|kimsuky).{0,40}(ai|llm|gemini|chatgpt|claude)/i, "state-actor-ai-ops", "State actor AI ops", true]
+  [/(state|nation)[- ]?(actor|sponsored|hackers?).{0,40}(ai|llm|gemini|chatgpt|claude)|\b(apt\d*|lazarus|sandworm|kimsuky)\b.{0,40}(ai|llm|gemini|chatgpt|claude)/i, "state-actor-ai-ops", "State actor AI ops", true]
 ].freeze
 AI_WORD = /\b(ai|llm|llms|gpt|chatgpt|claude|gemini|copilot|openai|anthropic|agent|agents|agentic|mcp|model|cursor|api key|api keys)\b/i
 SEC_WORD = /\b(exploit\w*|attack\w*|breach\w*|hack\w*|leak\w*|stolen|stole|steal\w*|vulnerab\w*|malware|scam\w*|fraud|incident|compromis\w*|cve|zero-day|0day|ransomware|phish\w*)\b/i
@@ -62,7 +62,7 @@ COMMON = Set.new(%w[ai llm llms openai chatgpt claude gemini google microsoft me
                     code coding open source server servers vulnerability flaw flaws credentials accounts account
                     january february march april june july august september october november december monday friday
                     reddit discord telegram whatsapp slack gmail youtube twitter facebook instagram tiktok linkedin
-                    ctrl cves edge chrome firefox safari qwen opus sonnet haiku llama mistral grok deepseek nvidia perplexity hugging face huggingface])
+                    readme wordpress m365 office365 outlook sharepoint excel ctrl cves edge chrome firefox safari qwen opus sonnet haiku llama mistral grok deepseek nvidia perplexity hugging face huggingface])
 # Descriptive compounds ("LLM-based", "AI-powered") are not names either.
 # What product and group names look like: PaperCut, GhostGPT, JINX-2401, METR, gpt-4o-mini.
 BRANDLIKE = /[a-z][A-Z]|[A-Za-z]\d|\d[A-Za-z]|\A[A-Z]{4,}\z/
@@ -121,8 +121,10 @@ def case_index
   end
 end
 
-def match_case(text, idx)
+# A single name must be in the thread title; codes and two names may come from the body.
+def match_case(text, idx, title = text)
   low = text.downcase
+  low_title = title.downcase
   best = nil
   idx.each do |c|
     unique = c[:unique]
@@ -131,7 +133,7 @@ def match_case(text, idx)
     # A matched phrase and its own words are one identifier, not several.
     rare = rare.reject { |t| !t.include?(" ") && rare.any? { |o| o.include?(" ") && o.split.include?(t) } }
     # One rare name is enough next to a security word; two rare names are enough on their own.
-    score = (code ? 12 : 0) + ((rare.size >= 2 && rare.any? { |t| c[:strong].include?(t) }) || (rare.size == 1 && unique.include?(rare.first) && low =~ SEC_WORD) ? 10 : 0)
+    score = (code ? 12 : 0) + ((rare.size >= 2 && rare.any? { |t| c[:strong].include?(t) }) || (rare.size == 1 && unique.include?(rare.first) && low_title =~ /\b#{Regexp.escape(rare.first)}\b/ && low =~ SEC_WORD) ? 10 : 0)
     next if score < 10 || (!code && !(low =~ AI_WORD) && rare.none? { |t| c[:strong].include?(t) })
     best = c.merge(score: score, why: code || rare.first(2).join(", ")) if best.nil? || score > best[:score]
   end
@@ -258,8 +260,8 @@ picks = posts.uniq { |p| p[:id] }.map do |p|
   text = "#{p[:title]} #{p[:body]}"
   next if text.include?("aithreat")
 
-  c = match_case(text, idx)
-  t = c ? nil : match_topic(text)
+  c = match_case(text, idx, p[:title])
+  t = c ? nil : match_topic(p[:title])
   next unless c || t
 
   score = (c ? c[:score] : 5) + (p[:title] =~ QUESTION ? 4 : 0) + (p[:at] > Time.now.utc - 12 * 3600 ? 1 : 0)
