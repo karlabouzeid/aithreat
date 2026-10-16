@@ -79,6 +79,29 @@ Each is a durable link from a place people and AI assistants already look. Tick 
    - Your part afterwards is only replying to people; the robot does the posting. Follow 30 to 50 AI-security researchers from each account in week one so the feed gets seen.
 7. [ ] **Wikipedia.** Do not add links to the site. When a case has a Wikipedia article, add the primary sources from the case file to the article; editors find the site on their own.
 
+### Telegram channel (t.me/aithreat): getting subscribers
+
+Live since 16 Oct: the robot posts every verified case with "Read the case file" and "Share" buttons (Share
+credits the channel). The site links the channel in the sign-up box and footer of every page, the homepage
+alerts card and the Organization `sameAs`. Clicks are counted in Umami as the `telegram` event.
+
+1. [ ] **Polish the channel (5 min).** Channel, Edit:
+   - Name: `AI Threat Watch · AI security incidents`. Telegram's search matches words in the name, so the descriptive part is how people find it.
+   - Photo: `site/assets/brand/icon-512.png`.
+   - Description: `Verified AI security incidents as they are confirmed: prompt injection, deepfake fraud, LLMjacking, AI-built malware, state actors using AI. Every post links to a sourced case file. Open data: https://aithreat.io`
+   - Reactions on (all). Sign messages off.
+2. [ ] **Pinned welcome post.** Post this yourself, then long-press it and Pin:
+   > 👋 Welcome to AI Threat Watch.
+   > Every post here is a verified AI security incident: what happened, who was hit, how bad, with primary sources. No hype, no rumours: unverified reports stay off this channel.
+   > 🗺 Map of all 318+ cases: https://aithreat.io
+   > 📊 Open dataset (CC BY): https://aithreat.io/#data
+   > 📨 Weekly email digest: sign up on any page
+   > Forward a post to a colleague who works on AI or security, that's how this channel grows.
+3. [ ] **List the channel in the Telegram catalogues (10 min, free).** tgstat.com (search `@aithreat`; if it is not listed, use "Add channel"), then telemetr.io. Category: Technology. These are where people browse for channels, and they show subscriber growth for free.
+4. [ ] **Tell your existing audience.** Your visits today come from Instagram and Facebook: one Instagram story with a link sticker to t.me/aithreat, one Facebook post, and add it to your Instagram and LinkedIn bios. Add one line to the bottom of the Monday digest: "Instant alerts: t.me/aithreat".
+5. [ ] **Swap mentions with similar channels (after 50 subscribers).** On tgstat, look in Technology for infosec or AI channels with 1,000 to 20,000 subscribers, and message the admin offering a mutual mention. One swap a week. Never buy subscribers: fake accounts never read, Telegram ranks the channel lower and catalogues flag it.
+6. **Measure:** subscriber count on Fridays in the weekly log, plus Umami's `telegram` clicks. Telegram's own channel statistics switch on later, once the channel has enough subscribers.
+
 ### Launch (dates and material in `LAUNCH.md`)
 
 - Mon 26 Oct: send the five newsletter pitches (tl;dr sec, Risky Business News, Simon Willison, CyberDaily, AIAAIC Alert).
