@@ -1026,5 +1026,50 @@
     "first_seen": "2026-10-16T00:35:37Z",
     "first_published": "2026-10-15T02:16:38Z",
     "updated_at": "2026-10-16T00:35:37Z"
+  },
+  {
+    "id": "langflow-cve-2025-3248-kev",
+    "date": "2026-10-16",
+    "title": "Langflow unauthenticated RCE (CVE-2025-3248) listed as actively exploited by CISA",
+    "category": "Agent hijack",
+    "direction": "on-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "Langflow AI workflow platform deployments",
+    "loss_usd": null,
+    "summary": "CISA's KEV catalog lists Langflow CVE-2025-3248 as actively exploited. A missing-authentication flaw in /api/v1/validate/code lets remote unauthenticated attackers run arbitrary code via crafted HTTP requests.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Technology & AI vendors",
+    "attribution": "No attribution given in the CISA KEV entry.",
+    "motive": "Unknown",
+    "vector": "Crafted HTTP requests to the unauthenticated /api/v1/validate/code endpoint.",
+    "root_cause": "Missing authentication on the code validation endpoint, which allows arbitrary code execution.",
+    "impact": "Remote code execution on exposed Langflow servers. Victims and scale are not stated.",
+    "response": "CISA added the CVE to its Known Exploited Vulnerabilities catalog.",
+    "status": "ongoing",
+    "cve": "CVE-2025-3248",
+    "confidence": 0.55,
+    "source": "CISA KEV",
+    "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2025-3248",
+    "sources": [
+      {
+        "name": "CISA KEV",
+        "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2025-3248"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-16",
+        "event": "Reported by CISA KEV"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-16T01:05:39Z",
+    "wire_id": "0e289441d136",
+    "first_seen": "2026-10-16T01:05:39Z",
+    "first_published": "2025-05-05T00:00:00Z",
+    "updated_at": "2026-10-16T01:05:39Z"
   }
 ]
