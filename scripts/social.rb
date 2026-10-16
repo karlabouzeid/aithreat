@@ -248,11 +248,43 @@ class XPost
   end
 end
 
+# ---- X by hand: X's API charges per post, so instead the robot sends the owner, once a
+# day, a ready-to-paste X post for the most severe new case, on Telegram, with a button
+# that opens X with the text filled in. Posting through x.com/intent is free.
+# Needs TELEGRAM_BOT_TOKEN and TELEGRAM_OWNER_CHAT_ID (the owner's own numeric chat id;
+# the owner must have pressed Start on the bot once).
+class XDraft
+  DAILY_CAP = 1
+  HOURS_UTC = (6..19).freeze # drafts arrive during the day, not at night
+
+  def initialize
+    @token = ENV["TELEGRAM_BOT_TOKEN"].to_s.strip
+    @chat = ENV["TELEGRAM_OWNER_CHAT_ID"].to_s.strip
+  end
+
+  def enabled?
+    !@token.empty? && !@chat.empty? && HOURS_UTC.cover?(Time.now.utc.hour)
+  end
+
+  def compose(c)
+    XPost.new.compose(c)
+  end
+
+  def post(c)
+    text = compose(c)
+    intent = "https://x.com/intent/post?text=#{CGI.escape(text)}"
+    msg = "📣 <b>Today’s X post for @aithreat</b>\n\nTap the text to copy it, or press the button to open X with it filled in.\n\n<code>#{CGI.escapeHTML(text)}</code>"
+    http_json(:post, "https://api.telegram.org/bot#{@token}/sendMessage",
+              body: { chat_id: @chat, text: msg, parse_mode: "HTML", link_preview_options: { is_disabled: true },
+                      reply_markup: { inline_keyboard: [[{ text: "Post on X", url: intent }, { text: "Open the case", url: c[:url] }]] } })
+  end
+end
+
 # ---- Main
 state = File.exist?(STATE) ? JSON.parse(File.read(STATE)) : {}
 cases = cases_from_feed
 abort "social: no cases in #{FEED}" if cases.empty?
-platforms = { "bluesky" => Bluesky.new, "mastodon" => Mastodon.new, "telegram" => Telegram.new, "x" => XPost.new }
+platforms = { "bluesky" => Bluesky.new, "mastodon" => Mastodon.new, "telegram" => Telegram.new, "x" => (ENV["X_USE_API"] == "1" ? XPost.new : XDraft.new) }
 
 platforms.each do |name, client|
   unless client.enabled? || DRY_RUN
@@ -269,6 +301,11 @@ platforms.each do |name, client|
   posted = state[name] || []
   # Oldest first, so a backlog goes out in the order the cases were published.
   fresh = cases.reject { |c| posted.include?(c[:url]) }.reverse.first(MAX_PER_RUN)
+  # The daily X draft is the most severe case not yet drafted, newest first among equals.
+  if client.is_a?(XDraft)
+    fresh = cases.each_with_index.reject { |c, _| posted.include?(c[:url]) }
+                 .sort_by { |c, i| [SEVERITIES.index(c[:severity]) || 9, i] }.map(&:first).first(1)
+  end
   fresh = cases.first(1) if DRY_RUN && fresh.empty?
   # X: rolling 24-hour cap, so a burst of new cases cannot exhaust the monthly API quota.
   sent_log = (state["#{name}_sent_at"] || []).select { |t| Time.parse(t) > Time.now - 86_400 }
