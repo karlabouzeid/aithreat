@@ -92,7 +92,7 @@ Each is a durable link from a place people and AI assistants already look. Tick 
 
 - **Buttondown paid plan (your call, about $9 a month):** unlocks RSS-to-email (a per-case or weekly email sent automatically from `https://aithreat.io/cases/feed.xml`) and a custom welcome email. Until then the Monday digest is manual.
 - **Kaggle and Zenodo** (see seeding list; Zenodo quarterly, it gives a DOI that papers need).
-- **Netlify deploy budget.** The robot deploys 48 times a day. If the Deploys page shows "Skipped" entries, the GitHub Pages migration prepared by another session becomes urgent, because a site that stops updating undoes the search work.
+- **Hosting moved to GitHub Pages on 15 Oct.** Netlify skipped deploys when the robot exceeded its credit budget, so aithreat.io is now served from GitHub Pages (the robot publishes after every run). The DNS records, including the Search Console TXT record, still live in Netlify DNS; do not delete the Netlify account.
 - **Google Dataset Search:** nothing to do; check in a month at https://datasetsearch.research.google.com by searching "AI Threat Watch".
 
 ## What is in place (reference)
