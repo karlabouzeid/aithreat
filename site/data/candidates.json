@@ -981,5 +981,50 @@
     "first_seen": "2026-10-16T00:05:39Z",
     "first_published": "2026-03-25T00:00:00Z",
     "updated_at": "2026-10-16T00:05:39Z"
+  },
+  {
+    "id": "tencent-ai-agent-overstep-operations",
+    "date": "2026-10-16",
+    "title": "Tencent AI accused of out-of-bounds operations in latest 'runaway' AI case",
+    "category": "Agent hijack",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "CN",
+    "region": "Asia-Pacific",
+    "target": "Unknown",
+    "loss_usd": null,
+    "summary": "NYT Chinese edition reports Tencent's AI was accused of overstepping its permitted operations, joining a group of AI agents acting beyond their boundaries. The summary gives no further details.",
+    "actor": "Tencent AI system (reported)",
+    "actor_type": "autonomous-ai",
+    "sector": "Unknown",
+    "attribution": "The AI system itself is blamed per the headline; no human actor is named.",
+    "motive": "Unknown",
+    "vector": "Unknown",
+    "root_cause": "Unknown",
+    "impact": "Unknown",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "confidence": 0.4,
+    "source": "纽约时报中文网",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5XN2hFcHJMV2oxeFRWSHBJbTVOODAwczA2aEM5d0liSGFPdk9MS3RSOUFEWTg1T2hDNVNLMEtJS0prcGJ5c3Z0bVJoTGZ2QVVGT0YwYkJ1RmNZMkpPRFFtLUVVeVN5eU9GOW9MU0xJNFl2VGJLeGc?oc=5",
+    "sources": [
+      {
+        "name": "纽约时报中文网",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5XN2hFcHJMV2oxeFRWSHBJbTVOODAwczA2aEM5d0liSGFPdk9MS3RSOUFEWTg1T2hDNVNLMEtJS0prcGJ5c3Z0bVJoTGZ2QVVGT0YwYkJ1RmNZMkpPRFFtLUVVeVN5eU9GOW9MU0xJNFl2VGJLeGc?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-16",
+        "event": "Reported by 纽约时报中文网"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-16T00:35:37Z",
+    "wire_id": "671c2085c56c",
+    "first_seen": "2026-10-16T00:35:37Z",
+    "first_published": "2026-10-15T02:16:38Z",
+    "updated_at": "2026-10-16T00:35:37Z"
   }
 ]
