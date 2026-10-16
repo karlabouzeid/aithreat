@@ -1206,5 +1206,50 @@
     "first_seen": "2026-10-16T07:35:38Z",
     "first_published": "2026-10-16T07:20:14Z",
     "updated_at": "2026-10-16T07:35:38Z"
+  },
+  {
+    "id": "jinx-2401-llm-hijacking-aws",
+    "date": "2026-10-16",
+    "title": "JINX-2401 LLM hijacking campaign targets AWS environments with IAM privilege escalation",
+    "category": "LLMjacking",
+    "direction": "on-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "AWS environments with LLM access",
+    "loss_usd": null,
+    "summary": "Wiz reports new LLM hijacking activity, including the JINX-2401 campaign that targets AWS environments using IAM privilege escalation tactics.",
+    "actor": "JINX-2401",
+    "actor_type": "unknown",
+    "sector": "Multiple / cross-sector",
+    "attribution": "Wiz tracks the campaign as JINX-2401; no further attribution given in the summary.",
+    "motive": "Unknown",
+    "vector": "IAM privilege escalation in AWS environments to hijack LLM access.",
+    "root_cause": "Unknown",
+    "impact": "Victim count and losses are not stated in the summary.",
+    "response": "Wiz published research on the activity; no further response is stated.",
+    "status": "under investigation",
+    "cve": null,
+    "confidence": 0.45,
+    "source": "Wiz Research",
+    "url": "https://www.wiz.io/blog/jinx-2401-llm-hijacking-aws",
+    "sources": [
+      {
+        "name": "Wiz Research",
+        "url": "https://www.wiz.io/blog/jinx-2401-llm-hijacking-aws"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-16",
+        "event": "Reported by Wiz Research"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-16T08:35:36Z",
+    "wire_id": "af49c5093993",
+    "first_seen": "2026-10-16T08:35:36Z",
+    "first_published": "2024-12-15T14:07:55Z",
+    "updated_at": "2026-10-16T08:35:36Z"
   }
 ]
