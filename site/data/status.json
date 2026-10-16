@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-16T02:05:37Z",
-  "wire_items": 640,
+  "updated_at": "2026-10-16T02:35:39Z",
+  "wire_items": 641,
   "new_items": 291,
   "candidates": 24,
   "incidents": 318,
@@ -59,5 +59,5 @@
   "feeds_failed": [
 
   ],
-  "triage": "triaged 657 items with claude-sonnet-5-5 in 26 batches (1 failed: no JSON (stop=refusal): [{\"i\":425,\"keep\":true,\"kind\":\"research\",\"tag\":\"Prompt injection\",\"one_line\":\"Blog post demonstrates direct, indirect and context-pollution prompt injections aga); kept 291"
+  "triage": "triaged 654 items with claude-sonnet-5-5 in 27 batches (0 failed); kept 291"
 }
