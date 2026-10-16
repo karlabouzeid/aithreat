@@ -1251,5 +1251,50 @@
     "first_seen": "2026-10-16T08:35:36Z",
     "first_published": "2024-12-15T14:07:55Z",
     "updated_at": "2026-10-16T08:35:36Z"
+  },
+  {
+    "id": "argentina-ai-romance-scam-trip",
+    "date": "2026-10-16",
+    "title": "Argentine victim travels 2,000 km for love, finds AI-enabled romance scam",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "low",
+    "country": "AR",
+    "region": "Latin America",
+    "target": "Individual romance scam victim in Argentina",
+    "loss_usd": null,
+    "summary": "A person travelled 2,000 km to meet an online partner and discovered the relationship was a scam involving AI. Local report; details are limited.",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "sector": "Individuals & consumers",
+    "attribution": "Unknown",
+    "motive": "Presumably financial fraud",
+    "vector": "Online romance scam using AI, specific tools not stated",
+    "root_cause": "Victim deceived by an AI-enabled fake online persona.",
+    "impact": "Victim made a 2,000 km trip before discovering the scam; any financial loss is not stated.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "confidence": 0.35,
+    "source": "Identidad Correntina",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWkZEV2RYT2lWR0RIU3l5TXVEMWpGSkY0WkNIRjlvbjg4S0ZhVUFMa2VraVlKNklVS09sM0czdlJqV09iTF9PNG5qbGF5eTM0SnVpSHhsYWxWRDh6ajZrcXpreGdOT3dlVmZZUzNQakxLX1Nsa1lYUmtvUnp5WHFTakhMTnFIYmlkeWxRYkd6dU9wR2ZXc2x6UlN2VEF0OW5OYlJZYnJSVFRJOFlRQXI5UUF6cXo?oc=5",
+    "sources": [
+      {
+        "name": "Identidad Correntina",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWkZEV2RYT2lWR0RIU3l5TXVEMWpGSkY0WkNIRjlvbjg4S0ZhVUFMa2VraVlKNklVS09sM0czdlJqV09iTF9PNG5qbGF5eTM0SnVpSHhsYWxWRDh6ajZrcXpreGdOT3dlVmZZUzNQakxLX1Nsa1lYUmtvUnp5WHFTakhMTnFIYmlkeWxRYkd6dU9wR2ZXc2x6UlN2VEF0OW5OYlJZYnJSVFRJOFlRQXI5UUF6cXo?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-16",
+        "event": "Reported by Identidad Correntina"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-16T09:05:39Z",
+    "wire_id": "edac2c4e07c8",
+    "first_seen": "2026-10-16T09:05:39Z",
+    "first_published": "2026-10-16T09:02:19Z",
+    "updated_at": "2026-10-16T09:05:39Z"
   }
 ]
