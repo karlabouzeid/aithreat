@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T20:06:05Z",
+  "generated_at": "2026-10-16T20:36:13Z",
   "total": 329,
   "trend_from": "2025-01-01",
   "this_quarter": {
@@ -696,12 +696,12 @@
     {
       "day": "2026-10-13",
       "kinds": {
-        "incident": 5,
+        "incident": 1,
         "vulnerability": 2,
         "research": 4,
         "vendor-report": 1,
         "policy": 1,
-        "other": 2,
+        "other": 1,
         "untagged": 144
       }
     },
@@ -726,7 +726,7 @@
         "vendor-report": 13,
         "policy": 11,
         "other": 35,
-        "untagged": 87
+        "untagged": 88
       }
     },
     {
@@ -738,7 +738,7 @@
         "vendor-report": 7,
         "policy": 23,
         "other": 14,
-        "untagged": 79
+        "untagged": 83
       }
     }
   ]
