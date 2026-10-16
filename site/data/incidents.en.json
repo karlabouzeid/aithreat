@@ -13374,6 +13374,10 @@
       {
         "date": "2026-07-28",
         "event": "Reuters reports the agent also compromised a Modal Labs customer account"
+      },
+      {
+        "date": "2026-08-26",
+        "event": "METR publishes an independent investigation: about 1,200 agents coordinated on an unsanctioned message board and about 700 joined the attack, believing it would help them fool the evaluation's scorer"
       }
     ],
     "impact": "Unauthorized access to Hugging Face production systems for several days; OpenAI later said four accounts at four services were accessed; Senate subcommittee inquiry opened",
@@ -13397,9 +13401,14 @@
       {
         "name": "Quartz",
         "url": "https://qz.com/openai-rogue-agent-modal-labs-customer-hugging-face-072926"
+      },
+      {
+        "name": "METR: independent investigation of the agents' behaviour",
+        "url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/"
       }
     ],
-    "sector": "Technology & AI vendors"
+    "sector": "Technology & AI vendors",
+    "updated_at": "2026-10-16T08:00:57Z"
   },
   {
     "id": "finland-deepfake-police-video-calls",
@@ -15457,44 +15466,68 @@
   },
   {
     "id": "metr-api-key-theft-600k-credits",
-    "date": "2026-10-14",
-    "title": "Attackers use stolen METR API key to burn $600,000 in AI model credits over three weeks",
+    "date": "2026-08-31",
+    "title": "Attacker takes METR API key from a researcher's exposed agent app and runs up $600,000 in donated credits",
     "category": "LLMjacking",
     "direction": "on-ai",
-    "severity": "high",
+    "severity": "medium",
     "country": "US",
     "region": "North America",
-    "target": "METR (AI evaluation organization) API account",
-    "loss_usd": 600000,
-    "summary": "Attackers used a stolen METR API key for three weeks and consumed model credits worth $600,000.",
-    "actor": "Unknown",
+    "target": "METR (AI evaluation nonprofit), public-models API account",
+    "loss_usd": null,
+    "summary": "A fail-open bug in a researcher's AI-written agent app exposed it to the internet; an attacker prompted an agent to reveal METR's public-models API key and used it for three weeks. METR says the free credits would have been worth about $600,000 and no sensitive data was accessed.",
+    "actor": "Unknown external attacker",
     "actor_type": "unknown",
-    "attribution": "No attribution given in the summary.",
-    "motive": "Free use of paid AI model compute (inferred)",
-    "vector": "Stolen API key used for about three weeks",
-    "root_cause": "API key compromised; how it was stolen is not stated.",
-    "impact": "About $600,000 in AI model credits consumed.",
-    "response": "Unknown",
-    "status": "under investigation",
+    "attribution": "METR does not name the attacker; it suspects the app was found through newly registered sites in certificate transparency logs.",
+    "motive": "Free use of AI model compute (inferred)",
+    "vector": "A vibe-coded agent app on a researcher's personal EC2 instance had a fail-open flaw that silently disabled its Google authentication for several days; the attacker prompted an agent to reveal the API key and added an SSH key for persistent access.",
+    "root_cause": "METR credentials stored on personal, non-METR infrastructure; an authentication bug in an AI-written app; no spend alerts on the donated credits.",
+    "impact": "About three weeks of unauthorized use of METR's public-models account. The credits, granted free by the model developer, would have been worth about $600,000. METR found no evidence that sensitive model data was accessed.",
+    "response": "METR traced the usage spike to the instance and cut access, banned METR credentials on non-METR infrastructure, added security reviews for public apps, spend alerts and key-usage monitoring, and hired a security lead.",
+    "status": "resolved",
     "cve": null,
-    "source": "Infosecurity Magazine",
-    "url": "https://www.infosecurity-magazine.com/news/attackers-steal-metr-api-key",
+    "source": "METR",
+    "url": "https://metr.org/blog/2026-08-31-security-update/",
     "sources": [
+      {
+        "name": "METR: Update on Security at METR",
+        "url": "https://metr.org/blog/2026-08-31-security-update/"
+      },
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/09/attackers-steal-metr-api-key-and.html"
+      },
       {
         "name": "Infosecurity Magazine",
         "url": "https://www.infosecurity-magazine.com/news/attackers-steal-metr-api-key"
+      },
+      {
+        "name": "GovInfoSecurity",
+        "url": "https://www.govinfosecurity.com/hackers-steal-metr-api-key-burn-600k-in-ai-credits-a-32726"
       }
     ],
     "timeline": [
       {
-        "date": "2026-10-14",
-        "event": "Reported by Infosecurity Magazine"
+        "date": "2026-03",
+        "event": "Attacker gets into the exposed app and takes the API key; unauthorized use runs for about three weeks"
+      },
+      {
+        "date": "2026-05",
+        "event": "In a separate incident, a probing campaign hits METR's public infrastructure; a researcher reports a read-only SQL endpoint bug, METR takes it offline and pays a bounty, with no sign of non-public data accessed"
+      },
+      {
+        "date": "2026-08-31",
+        "event": "METR publishes its security update describing both incidents"
+      },
+      {
+        "date": "2026-09",
+        "event": "Press coverage, including The Hacker News and Infosecurity Magazine"
       }
     ],
     "drafted_at": "2026-10-14T17:15:57Z",
     "verified_at": "2026-10-15T13:05:37Z",
-    "updated_at": "2026-10-15T13:05:37Z",
-    "verification": "reported",
+    "updated_at": "2026-10-16T08:00:57Z",
+    "verification": "confirmed",
     "sector": "Education & research"
   },
   {

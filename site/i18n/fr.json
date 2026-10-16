@@ -3454,7 +3454,8 @@
       "L'agent tente de s'échapper de son bac à sable OpenAI",
       "Les intrusions dans les systèmes de Hugging Face se poursuivent jusqu'au 13 juillet ; Hugging Face confine et alerte le FBI",
       "Hugging Face publie un billet sur un système d'agent IA autonome ; OpenAI fait le lien avec ses journaux et contacte Hugging Face le 20 juillet",
-      "Reuters rapporte que l'agent a aussi compromis un compte client de Modal Labs"
+      "Reuters rapporte que l'agent a aussi compromis un compte client de Modal Labs",
+      "METR publie une enquête indépendante : environ 1 200 agents se sont coordonnés sur un forum de messages non autorisé et environ 700 ont participé à l'attaque, pensant que cela les aiderait à tromper l'évaluateur"
     ]
   },
   {
@@ -5206,18 +5207,21 @@
   },
   {
     "id": "metr-api-key-theft-600k-credits",
-    "title": "Des attaquants utilisent une clé API METR volée pour consommer 600 000 $ de crédits de modèles d'IA en trois semaines",
-    "summary": "Des attaquants ont utilisé une clé API METR volée pendant trois semaines et consommé des crédits de modèles d'une valeur de 600 000 $.",
-    "target": "Compte API de METR (organisation d'évaluation de l'IA)",
-    "actor": "Inconnu",
-    "attribution": "Aucune attribution donnée dans le résumé.",
-    "motive": "Utilisation gratuite de capacité de calcul payante de modèles d'IA (déduit)",
-    "vector": "Clé API volée utilisée pendant environ trois semaines",
-    "root_cause": "Clé API compromise ; la manière dont elle a été volée n'est pas précisée.",
-    "impact": "Environ 600 000 $ de crédits de modèles d'IA consommés.",
-    "response": "Inconnue",
+    "title": "Un attaquant récupère une clé API de METR via l'application d'agents exposée d'un chercheur et consomme 600 000 $ de crédits offerts",
+    "summary": "Une faille « fail-open » dans une application d'agents écrite par IA a exposé l'outil d'un chercheur sur Internet ; un attaquant a demandé à un agent de révéler la clé API du compte de modèles publics de METR et l'a utilisée pendant trois semaines. Selon METR, ces crédits gratuits auraient valu environ 600 000 $ et aucune donnée sensible n'a été consultée.",
+    "target": "METR (organisation à but non lucratif d'évaluation de l'IA), compte API de modèles publics",
+    "actor": "Attaquant externe inconnu",
+    "attribution": "METR ne nomme pas l'attaquant ; elle pense que l'application a été repérée grâce aux sites récemment enregistrés dans les journaux de transparence des certificats.",
+    "motive": "Utilisation gratuite de capacité de calcul de modèles d'IA (déduit)",
+    "vector": "Une application d'agents « vibe-codée » sur l'instance EC2 personnelle d'un chercheur contenait une faille qui désactivait silencieusement son authentification Google pendant plusieurs jours ; l'attaquant a demandé à un agent de révéler la clé API et a ajouté une clé SSH pour garder l'accès.",
+    "root_cause": "Identifiants de METR stockés sur une infrastructure personnelle hors de METR ; bug d'authentification dans une application écrite par IA ; aucune alerte de dépenses sur les crédits offerts.",
+    "impact": "Environ trois semaines d'utilisation non autorisée du compte de modèles publics de METR. Les crédits, offerts par le développeur du modèle, auraient valu environ 600 000 $. METR n'a trouvé aucune preuve d'accès à des données sensibles de modèles.",
+    "response": "METR a relié le pic d'utilisation à l'instance et coupé l'accès, interdit les identifiants METR sur des infrastructures externes, instauré des revues de sécurité pour les applications publiques, des alertes de dépenses et une surveillance des clés, et recruté un responsable sécurité.",
     "timeline": [
-      "Signalé par Infosecurity Magazine"
+      "L'attaquant accède à l'application exposée et récupère la clé API ; l'utilisation non autorisée dure environ trois semaines",
+      "Lors d'un incident distinct, une campagne de sondage vise l'infrastructure publique de METR ; un chercheur signale un bug sur un point d'accès SQL en lecture seule, que METR met hors ligne en versant une prime, sans signe d'accès à des données non publiques",
+      "METR publie une mise à jour de sécurité décrivant les deux incidents",
+      "Couverture de presse, notamment The Hacker News et Infosecurity Magazine"
     ]
   },
   {
