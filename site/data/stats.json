@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-16T10:13:52Z",
-  "total": 318,
+  "generated_at": "2026-10-16T10:21:48Z",
+  "total": 321,
   "trend_from": "2025-01-01",
   "this_quarter": {
     "q": "2026-Q4",
     "n": 31,
     "prev_q": "2026-Q3",
-    "prev_n": 41
+    "prev_n": 44
   },
   "direction": {
     "on-ai": 135,
-    "with-ai": 183
+    "with-ai": 186
   },
   "on_ai_share_first_half": 35,
   "on_ai_share_last_half": 52,
@@ -101,37 +101,37 @@
     },
     {
       "q": "2026-Q3",
-      "n": 41,
-      "on-ai": 15,
-      "with-ai": 26,
+      "n": 44,
+      "on-ai": 16,
+      "with-ai": 28,
       "severity": {
         "critical": 8,
-        "high": 26,
-        "medium": 7,
+        "high": 27,
+        "medium": 9,
         "low": 0
       },
       "autonomous": 3,
-      "real_world": 38
+      "real_world": 41
     },
     {
       "q": "2026-Q4",
       "n": 31,
-      "on-ai": 10,
-      "with-ai": 21,
+      "on-ai": 9,
+      "with-ai": 22,
       "severity": {
         "critical": 1,
-        "high": 11,
-        "medium": 18,
+        "high": 10,
+        "medium": 19,
         "low": 1
       },
-      "autonomous": 4,
+      "autonomous": 5,
       "real_world": 30
     }
   ],
   "categories": [
     {
       "category": "Deepfake fraud",
-      "n": 82,
+      "n": 84,
       "by_quarter": [
         13,
         9,
@@ -139,10 +139,10 @@
         15,
         10,
         11,
-        10,
+        12,
         1
       ],
-      "growth_last4_vs_prev4": -18
+      "growth_last4_vs_prev4": -16
     },
     {
       "category": "AI supply chain",
@@ -221,7 +221,7 @@
     },
     {
       "category": "Agent hijack",
-      "n": 23,
+      "n": 24,
       "by_quarter": [
         0,
         0,
@@ -230,9 +230,9 @@
         3,
         5,
         4,
-        3
+        4
       ],
-      "growth_last4_vs_prev4": 7
+      "growth_last4_vs_prev4": 8
     },
     {
       "category": "AI phishing",
@@ -259,19 +259,19 @@
         1,
         2,
         3,
-        2,
-        2
+        3,
+        1
       ],
       "growth_last4_vs_prev4": 4
     }
   ],
   "rising_category": "AI supply chain",
   "top_category": "Deepfake fraud",
-  "top_category_n": 82,
+  "top_category_n": 84,
   "autonomous": {
     "by_year": {
       "2025": 2,
-      "2026": 7
+      "2026": 8
     },
     "ids": [
       "replit-agent-saastr-db-wipe",
@@ -279,10 +279,11 @@
       "openai-agent-hugging-face",
       "anthropic-eval-claude-pypi-malware",
       "rubygems-openai-agent-swarm",
-      "openai-agent-hacks-australia-medicare",
-      "meta-ai-model-exploits-flaw-in-eval",
+      "tencent-cloud-agents-amap-scraping",
+      "aisi-eval-agent-attacks-third-parties",
       "gemini-breakout-hacks-three-companies",
-      "aisi-eval-agent-attacks-third-parties"
+      "meta-ai-model-exploits-flaw-in-eval",
+      "openai-agent-hacks-australia-medicare"
     ]
   },
   "actors": [
@@ -290,9 +291,9 @@
       "actor_type": "criminal",
       "by_year": {
         "2025": 82,
-        "2026": 70
+        "2026": 71
       },
-      "n": 152
+      "n": 153
     },
     {
       "actor_type": "state",
@@ -314,17 +315,17 @@
       "actor_type": "unknown",
       "by_year": {
         "2025": 13,
-        "2026": 40
+        "2026": 41
       },
-      "n": 55
+      "n": 56
     },
     {
       "actor_type": "autonomous-ai",
       "by_year": {
         "2025": 2,
-        "2026": 7
+        "2026": 8
       },
-      "n": 9
+      "n": 10
     },
     {
       "actor_type": "accident",
@@ -358,18 +359,18 @@
   "severity": {
     "critical": 31,
     "high": 149,
-    "medium": 123,
+    "medium": 126,
     "low": 15
   },
-  "critical_high_pct": 57,
+  "critical_high_pct": 56,
   "losses": {
-    "total_usd": 224947543,
+    "total_usd": 332347543,
     "disclosed": 31,
     "by_category": [
       {
         "category": "Deepfake fraud",
-        "usd": 223847543,
-        "disclosed": 29
+        "usd": 331847543,
+        "disclosed": 30
       },
       {
         "category": "AI supply chain",
@@ -408,8 +409,8 @@
       },
       {
         "category": "LLMjacking",
-        "usd": 600000,
-        "disclosed": 1
+        "usd": 0,
+        "disclosed": 0
       }
     ],
     "deepfake_share_pct": 100
@@ -417,7 +418,7 @@
   "sectors": [
     {
       "sector": "Technology & AI vendors",
-      "n": 130
+      "n": 131
     },
     {
       "sector": "Individuals & consumers",
@@ -437,7 +438,7 @@
     },
     {
       "sector": "Financial services",
-      "n": 11
+      "n": 12
     },
     {
       "sector": "Defence & security",
@@ -445,7 +446,7 @@
     },
     {
       "sector": "Politics & elections",
-      "n": 4
+      "n": 5
     },
     {
       "sector": "Education & research",
@@ -475,7 +476,7 @@
     },
     {
       "country": "CN",
-      "n": 7
+      "n": 8
     },
     {
       "country": "IL",
@@ -486,7 +487,7 @@
       "n": 5
     },
     {
-      "country": "TW",
+      "country": "GB",
       "n": 4
     },
     {
@@ -494,15 +495,11 @@
       "n": 4
     },
     {
-      "country": "GB",
-      "n": 4
-    },
-    {
-      "country": "SE",
-      "n": 4
-    },
-    {
       "country": "FR",
+      "n": 4
+    },
+    {
+      "country": "TW",
       "n": 4
     },
     {
@@ -510,7 +507,11 @@
       "n": 4
     },
     {
-      "country": "MX",
+      "country": "SE",
+      "n": 4
+    },
+    {
+      "country": "SG",
       "n": 3
     }
   ],
@@ -522,11 +523,11 @@
     },
     {
       "status": "ongoing",
-      "n": 74
+      "n": 75
     },
     {
       "status": "contained",
-      "n": 62
+      "n": 63
     },
     {
       "status": "patched",
@@ -534,7 +535,7 @@
     },
     {
       "status": "resolved",
-      "n": 30
+      "n": 31
     },
     {
       "status": "unresolved",
@@ -543,7 +544,7 @@
   ],
   "unresolved_pct": 54,
   "verify_median_hours": 19.8,
-  "verify_sample": 34,
+  "verify_sample": 37,
   "researcher_demos": 48,
   "pulse": [
     {

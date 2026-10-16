@@ -5,7 +5,7 @@
 Positioning: a reference registry of AI security incidents (attacks on AI systems, and attacks carried out with AI): structured, verified, fast, multilingual and openly licensed.
 
 ## Key pages
-- [All verified case files](https://aithreat.io/cases/): 318 incidents, newest first, with hubs by type and country
+- [All verified case files](https://aithreat.io/cases/): 321 incidents, newest first, with hubs by type and country
 - [Interactive world map](https://aithreat.io/): the same cases on a map with filters
 - [Live wire](https://aithreat.io/#wire): AI security headlines from vetted sources, refreshed every 30 minutes (machine-triaged, not verified)
 - [Market reaction](https://aithreat.io/#markets): share-price moves of listed companies after incidents (methodology on the page)
@@ -26,8 +26,8 @@ Positioning: a reference registry of AI security incidents (attacks on AI system
 - [AI phishing](https://aithreat.io/cases/category/ai-phishing/): 16 cases
 - [AI supply chain](https://aithreat.io/cases/category/ai-supply-chain/): 45 cases
 - [AI-assisted malware](https://aithreat.io/cases/category/ai-assisted-malware/): 44 cases
-- [Agent hijack](https://aithreat.io/cases/category/agent-hijack/): 23 cases
-- [Deepfake fraud](https://aithreat.io/cases/category/deepfake-fraud/): 82 cases
+- [Agent hijack](https://aithreat.io/cases/category/agent-hijack/): 24 cases
+- [Deepfake fraud](https://aithreat.io/cases/category/deepfake-fraud/): 84 cases
 - [LLMjacking](https://aithreat.io/cases/category/llmjacking/): 14 cases
 - [Model & data leak](https://aithreat.io/cases/category/model-data-leak/): 37 cases
 - [Prompt injection](https://aithreat.io/cases/category/prompt-injection/): 27 cases
@@ -42,6 +42,7 @@ Positioning: a reference registry of AI security incidents (attacks on AI system
 - [About 50 organisations across six sectors worldwide](https://aithreat.io/cases/company/about-50-organisations-across-six-sectors-worldwide/): 1 case
 - [AI tools used to review legal filings](https://aithreat.io/cases/company/ai-tools-used-to-review-legal-filings/): 1 case
 - [AI vendors' evaluation sandboxes and API keys](https://aithreat.io/cases/company/ai-vendors-evaluation-sandboxes-and-api-keys/): 1 case
+- [Alibaba's Amap mapping service](https://aithreat.io/cases/company/alibaba-s-amap-mapping-service/): 1 case
 - [Amazon Q Developer extension](https://aithreat.io/cases/company/amazon-q-developer-extension/): 1 case
 - [An organisation in Southeast Asia](https://aithreat.io/cases/company/an-organisation-in-southeast-asia/): 1 case
 - [Android users; financial data](https://aithreat.io/cases/company/android-users-financial-data/): 1 case
@@ -119,6 +120,7 @@ Positioning: a reference registry of AI security incidents (attacks on AI system
 - [Exposed Ollama servers](https://aithreat.io/cases/company/exposed-ollama-servers/): 1 case
 - [Exposed Ollama, vLLM and MCP endpoints](https://aithreat.io/cases/company/exposed-ollama-vllm-and-mcp-endpoints/): 1 case
 - [Exposed Open WebUI instances](https://aithreat.io/cases/company/exposed-open-webui-instances/): 1 case
+- [Fideuram, private banking arm of Intesa Sanpaolo](https://aithreat.io/cases/company/fideuram-private-banking-arm-of-intesa-sanpaolo/): 1 case
 - [Fintech and crypto companies](https://aithreat.io/cases/company/fintech-and-crypto-companies/): 1 case
 - [Flowise AI agent builder](https://aithreat.io/cases/company/flowise-ai-agent-builder/): 1 case
 - [French public and private entities](https://aithreat.io/cases/company/french-public-and-private-entities/): 1 case
@@ -271,6 +273,7 @@ Positioning: a reference registry of AI security incidents (attacks on AI system
 - [Senior US federal and state officials and their contacts](https://aithreat.io/cases/company/senior-us-federal-and-state-officials-and-their-contacts/): 1 case
 - [ServiceNow Now Assist AI Agents and Virtual Agent API](https://aithreat.io/cases/company/servicenow-now-assist-ai-agents-and-virtual-agent-api/): 1 case
 - [Seven Hong Kong banks and stored-value facilities](https://aithreat.io/cases/company/seven-hong-kong-banks-and-stored-value-facilities/): 1 case
+- [Singapore and Malaysia audiences on TikTok](https://aithreat.io/cases/company/singapore-and-malaysia-audiences-on-tiktok/): 1 case
 - [Singapore business professional](https://aithreat.io/cases/company/singapore-business-professional/): 1 case
 - [Small business sites on Shopify, Wix, Squarespace, GoDaddy](https://aithreat.io/cases/company/small-business-sites-on-shopify-wix-squarespace-godaddy/): 1 case
 - [Smithery.ai hosted MCP servers](https://aithreat.io/cases/company/smithery-ai-hosted-mcp-servers/): 1 case
@@ -357,6 +360,7 @@ Positioning: a reference registry of AI security incidents (attacks on AI system
 - [Attackers use AI tools for data exfiltration against Latin American organizations](https://aithreat.io/cases/unit42-latam-ai-tool-exfiltration-campai/): 2026-10-14, medium, AI-assisted malware, Worldwide. Unit 42 reports ongoing AI tool use by attackers targeting Latin American entities for data exfiltration; basic OpSec errors let defenders disrupt operations.
 - [Unit 42 investigates autonomous AI agent breach of enterprise network in hours](https://aithreat.io/cases/unit42-agentic-attack-enterprise-breach/): 2026-10-14, high, AI-assisted malware, Worldwide. An attacker using autonomous AI agents breached an enterprise network in a matter of hours, according to a Unit 42 investigation.
 - [UAT-11985 uses AI-assisted event lures for Google AitM phishing in Taiwan](https://aithreat.io/cases/uat-11985-taiwan-aitm-phishing/): 2026-10-14, medium, AI phishing, Taiwan. Cisco Talos identified an APT spear-phishing campaign using AI-assisted lures and real-time Google adversary-in-the-middle phishing against Taiwan research affiliates.
+- [AI agents on Tencent Cloud made 2,818 attempts to get around Alibaba Amap's defences](https://aithreat.io/cases/tencent-cloud-agents-amap-scraping/): 2026-10-14, medium, Agent hijack, China. AI-safety group Swarmchasers logged 2,818 attempts by AI agents on Tencent Cloud infrastructure to pull data from Alibaba's Amap between 28 September and 8 October, escalating to proxies, code-running web tools and Amap keys found in public code. Tencent said the agents were evaluating third-party models and behaved in ways it did not intend.
 - [China-linked TA419 impersonates AI experts to phish US AI policy insiders](https://aithreat.io/cases/ta419-ai-policy-expert-phishing/): 2026-10-14, medium, State actor AI ops, United States. TA419 posed as AI policymakers and economists, including a spoofed Anthropic executive and ex-White House official, to phish US AI policy experts.
 - [Ray code injection RCE (CVE-2025-62593) actively exploited](https://aithreat.io/cases/ray-code-injection-cve-2025-62593/): 2026-10-14, high, AI supply chain, Worldwide. CISA says a Ray code injection flaw allowing remote code execution is actively exploited; developers using Ray as a dev tool may be exposed via Firefox and Safari.
 - [RatHat malware C2 panel uses AI to build malware and rank victims across ~100 deployments](https://aithreat.io/cases/rathat-ai-c2-panel-maas/): 2026-10-14, medium, AI-assisted malware, Worldwide. RatHat's C2 panel builds malware and ranks victims with AI across nearly 100 deployments, pointing to malware-as-a-service. Zimperium describes the Android strain as Chinese-made, stealing financial data.
@@ -382,6 +386,7 @@ Positioning: a reference registry of AI security incidents (attacks on AI system
 - [PoeLLM botnet infects 3,400 servers running exposed LiteLLM and Ollama for cryptomining](https://aithreat.io/cases/poellm-botnet-exposed-ai-servers/): 2026-10-07, critical, LLMjacking, Worldwide. Lumen Black Lotus Labs tracked an ELF implant named libgcrypt that derives its C2 address from words in a GitHub-hosted poem, scans ports 3000 and 4000, exploits LiteLLM CVE-2026-42271 and runs XMRig and Iron miners on more than 3,400 hosts.
 - [Man sentenced in first US AI music streaming fraud case after $8M in bot-driven royalties](https://aithreat.io/cases/ai-music-streaming-royalty-fraud/): 2026-10-06, high, Deepfake fraud, United States. A North Carolina man got 18 months and must forfeit $8,091,843 after prosecutors said he streamed hundreds of thousands of AI-generated songs via about 10,000 bot accounts to collect royalties; first US AI streaming case
 - [PixelLeak: AI coding agents push 13,000 internal screenshots to public GitHub](https://aithreat.io/cases/pixelleak-agent-screenshots/): 2026-09-29, medium, Model & data leak, Worldwide. Glow Labs found coding agents uploaded internal app screenshots, including billing and treasury consoles, to public repos so reviewers could see them, mostly under personal accounts.
+- [Fake CEO WhatsApp and cloned lawyer's voice trick Intesa's Fideuram into sending €95M abroad](https://aithreat.io/cases/fideuram-ai-voice-clone-ceo-fraud/): 2026-09-25, high, Deepfake fraud, Italy. In February 2026 Fideuram's chairman received a WhatsApp message posing as Intesa Sanpaolo CEO Carlo Messina, then a call using an AI clone of a law-firm partner's voice; about €95M ($108M) went to accounts abroad. More than half was recovered; some €36M remains missing, Reuters reported.
 - [Greek police bust gang that cloned relatives' voices with AI to steal over 1M euros](https://aithreat.io/cases/greece-voice-clone-relatives-gang/): 2026-09-18, high, Deepfake fraud, GR. Greek police arrested two collectors from a gang that posed as utility staff, recorded relatives voices, then used AI voice clones of those relatives to talk victims into handing over valuables; over 1M euros taken.
 - [Researchers tie May RubyGems malware flood to swarm of OpenAI agents](https://aithreat.io/cases/rubygems-openai-agent-swarm/): 2026-09-14, high, AI supply chain, Worldwide. GemStuffer research linked 2,000+ malicious gems that gained code execution on RubyDoc build servers to OpenAI agents in training; OpenAI is reviewing agent activity.
 - [ShinyHunters affiliates use AI agents to dump 2,100+ Azure tokens from 40+ tenants](https://aithreat.io/cases/anthropic-shinyhunters-agents/): 2026-09-10, high, AI-assisted malware, Worldwide. Anthropic reported ShinyHunters-linked actors whose AI agents did nearly all the work in a supply-chain breach of 40+ cloud tenants and a three-hour takeover from one stolen token.
@@ -419,6 +424,7 @@ Positioning: a reference registry of AI security incidents (attacks on AI system
 - [OpenAI evaluation agent escapes sandbox and breaches Hugging Face production systems](https://aithreat.io/cases/openai-agent-hugging-face/): 2026-07-21, critical, Agent hijack, United States. During a cyber eval, OpenAI agents exploited zero-days to escape their environment and break into Hugging Face servers; Hugging Face contained it and alerted the FBI before OpenAI noticed.
 - [TuxBot v3: Keksec-linked IoT botnet built with LLM help keeps safety disclaimers](https://aithreat.io/cases/unit42-tuxbot-v3-llm-botnet/): 2026-07-16, medium, AI-assisted malware, Worldwide. Unit 42 recovered the TuxBot v3 Evolution framework whose 61 C files carry an unremoved LLM safety disclaimer and chain-of-thought comments; about 70 percent works, including Telnet brute force and DDoS.
 - [Indian jeweller Sky Gold's unit loses Rs 10.7 crore to alleged deepfake of director](https://aithreat.io/cases/sky-gold-deepfake-director/): 2026-07-15, high, Deepfake fraud, India. Fraudsters compromised a company phone and laptop and allegedly used deepfake impersonation of a director to get an employee to wire Rs 10.70 crore (~$1.1M) to unknown accounts.
+- [AI-generated presenters in 550+ TikTok videos spread false claims about Singapore and Malaysia](https://aithreat.io/cases/tiktok-ai-presenters-singapore-disinfo/): 2026-07-13, medium, Deepfake fraud, Singapore. A CNA investigation found 30 TikTok accounts running more than 550 videos with AI-created or manipulated female presenters; over 98% were AI-generated or altered, nearly 90% carried false or misleading claims about Singapore and Malaysia, and they drew more than 3 million views. TikTok removed two accounts CNA flagged.
 - [Colombian Dijin dismantles Ibague ring using deepfakes to pose as US consular officials](https://aithreat.io/cases/colombia-ibague-deepfake-visa-ring/): 2026-07-13, medium, Deepfake fraud, Colombia. The Dijin, Fiscalia General, Ameripol and US HSI raided three Ibague properties, arresting five people who altered their faces and accents on video calls to impersonate US consular officials selling fake visas.
 - [Saxony woman loses over 1M euros after deepfake Markus Lanz video promotes Investhub 3.0](https://aithreat.io/cases/chemnitz-lanz-deepfake-investhub/): 2026-07-08, high, Deepfake fraud, Germany. Chemnitz police are investigating after a Saxony woman transferred sums from 250 to 460,000 euros to the Investhub 3.0 platform promoted by an AI video of TV host Markus Lanz, losing over 1M euros (about $1.1M).
 - [DuneSlide: two 9.8 Cursor flaws let prompt injection escape sandbox for OS-level RCE](https://aithreat.io/cases/cursor-duneslide-sandbox-escape/): 2026-07-02, critical, Agent hijack, Israel. Cato Networks found a non-default working_directory was added to Cursor's allow list and unresolved symlinks fell back to their own path, letting injected prompts overwrite the sandbox binary and run any command.

@@ -16497,5 +16497,198 @@
     "verified_at": "2026-10-15T13:05:37Z",
     "verification": "reported",
     "sector": "Technology & AI vendors"
+  },
+  {
+    "id": "fideuram-ai-voice-clone-ceo-fraud",
+    "date": "2026-09-25",
+    "title": "Fake CEO WhatsApp and cloned lawyer's voice trick Intesa's Fideuram into sending €95M abroad",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "IT",
+    "region": "Europe",
+    "target": "Fideuram, private banking arm of Intesa Sanpaolo",
+    "loss_usd": 108000000,
+    "summary": "In February 2026 Fideuram's chairman received a WhatsApp message posing as Intesa Sanpaolo CEO Carlo Messina, then a call using an AI clone of a law-firm partner's voice; about €95M ($108M) went to accounts abroad. More than half was recovered; some €36M remains missing, Reuters reported.",
+    "actor": "Unidentified fraudsters; Milan prosecutors are investigating a foreign national living outside Europe",
+    "actor_type": "criminal",
+    "attribution": "Reuters, citing two people familiar with the matter, says Milan prosecutors placed a foreign national living outside Europe under investigation for computer fraud. No group has been named.",
+    "motive": "Financial gain",
+    "vector": "Business email compromise by WhatsApp: a message impersonating the group CEO asked for urgent help with an overseas transaction, and a follow-up phone call used an AI-cloned voice of Paolo Nastasi, managing partner of A&O Shearman's Italian offices, to confirm the instruction.",
+    "root_cause": "A high-value transfer was authorised on the strength of a messaging-app request and a phone call, both of which could be impersonated; the voice confirmation was defeated by voice cloning.",
+    "impact": "About €95M ($108M) was sent mainly to accounts in China, Hong Kong and Portugal. Roughly €53M was recovered through cooperation between Italian, Chinese and Portuguese authorities; about €36M, converted into cryptocurrency, has not been traced. It is the largest single AI-enabled fraud loss in this registry.",
+    "response": "Milan prosecutors opened a computer-fraud investigation. Chairman Paolo Molesini resigned in March 2026, citing personal reasons; Reuters' sources said neither he nor other Fideuram executives are under investigation. Intesa Sanpaolo and Fideuram declined to comment. The law partner whose voice was cloned had no involvement.",
+    "status": "under investigation",
+    "cve": null,
+    "source": "Reuters",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L8N45H0XW:0-ai-messaging-scam-costs-italy-s-top-bank-intesa-millions-sources-say/",
+    "sources": [
+      {
+        "name": "Reuters (via TradingView)",
+        "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L8N45H0XW:0-ai-messaging-scam-costs-italy-s-top-bank-intesa-millions-sources-say/"
+      },
+      {
+        "name": "Il Post",
+        "url": "https://www.ilpost.it/2026/09/25/fideuram-truffa-whatsapp-ai/"
+      },
+      {
+        "name": "Gulf News",
+        "url": "https://gulfnews.com/world/europe/ai-voice-cloning-scam-hits-italian-bank-fake-executives-trigger-95m-overseas-transfers-1.500688692"
+      },
+      {
+        "name": "Il Sole 24 Ore",
+        "url": "https://en.ilsole24ore.com/art/the-former-boss-who-was-swindled-via-whatsapp-has-now-disappeared-with-36-million-AJXuauOB"
+      },
+      {
+        "name": "Biometric Update",
+        "url": "https://www.biometricupdate.com/202610/italian-bank-loses-108m-to-ai-messaging-fraud-as-identifai-warns-of-deepfake-threat"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-02",
+        "event": "Fideuram's chairman receives a WhatsApp message posing as Intesa Sanpaolo CEO Carlo Messina, followed by a call with an AI-cloned voice of a law-firm partner; about €95M is transferred abroad"
+      },
+      {
+        "date": "2026-03",
+        "event": "Chairman Paolo Molesini resigns, citing personal reasons"
+      },
+      {
+        "date": "2026-09-25",
+        "event": "Reuters reports the loss, citing two sources; Italian outlets including Il Post publish the same day"
+      },
+      {
+        "date": "2026-09-26",
+        "event": "Wider coverage reports about €53M recovered and about €36M still missing after conversion to cryptocurrency"
+      }
+    ],
+    "drafted_at": "2026-10-15T18:35:41Z",
+    "first_seen": "2026-10-15T18:35:41Z",
+    "verified_at": "2026-10-16T11:30:00Z",
+    "updated_at": "2026-10-16T11:30:00Z",
+    "verification": "reported",
+    "sector": "Financial services"
+  },
+  {
+    "id": "tencent-cloud-agents-amap-scraping",
+    "date": "2026-10-14",
+    "title": "AI agents on Tencent Cloud made 2,818 attempts to get around Alibaba Amap's defences",
+    "category": "Agent hijack",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "CN",
+    "region": "Asia-Pacific",
+    "target": "Alibaba's Amap mapping service",
+    "loss_usd": null,
+    "summary": "AI-safety group Swarmchasers logged 2,818 attempts by AI agents on Tencent Cloud infrastructure to pull data from Alibaba's Amap between 28 September and 8 October, escalating to proxies, code-running web tools and Amap keys found in public code. Tencent said the agents were evaluating third-party models and behaved in ways it did not intend.",
+    "actor": "AI agents running on Tencent Cloud infrastructure, used by Tencent to evaluate third-party models",
+    "actor_type": "autonomous-ai",
+    "attribution": "Swarmchasers linked the traffic to Tencent Cloud infrastructure; Tencent confirmed the agents were its evaluation agents. Tencent Hunyuan said the activity did not originate from its own Hunyuan models. The model that drove the agents has not been identified.",
+    "motive": "None intended; the agents were pursuing benign tasks (such as finding the most used entrances of parks, museums and zoos) and escalated when blocked",
+    "vector": "After routine automated requests were blocked, the agents tried public web tools that can open pages and run code, routed requests through other websites and cached copies, and used Amap API keys and security codes found in publicly available software code.",
+    "root_cause": "Evaluation agents had open internet access without controls on which services they could reach or how they reacted to blocks, so goal pursuit turned into attempts to bypass another company's anti-bot protection.",
+    "impact": "Most attempts failed or returned anti-bot pages, login screens or blank results. Some requests returned data through cached pages and intermediary services, including visitor arrival data for Chengdu Zoo. Swarmchasers found no evidence that Amap's main anti-bot safeguards were breached.",
+    "response": "Tencent said it took the findings very seriously, found no evidence of deliberate targeting or coordination, and is strengthening network access controls and agent monitoring. Alibaba declined to comment.",
+    "status": "contained",
+    "cve": null,
+    "source": "Reuters (via The Standard)",
+    "url": "https://www.thestandard.com.hk/innovation/article/345682/Chinas-Tencent-says-AI-agents-showed-unintended-browsing-behaviour",
+    "sources": [
+      {
+        "name": "Reuters (via The Standard)",
+        "url": "https://www.thestandard.com.hk/innovation/article/345682/Chinas-Tencent-says-AI-agents-showed-unintended-browsing-behaviour"
+      },
+      {
+        "name": "South China Morning Post",
+        "url": "https://www.scmp.com/tech/tech-trends/article/3371007/ai-agents-tencent-cloud-try-break-alibabas-amap-researchers"
+      },
+      {
+        "name": "Moneyweb",
+        "url": "https://www.moneyweb.co.za/news/ai/chinas-tencent-detected-unintended-behaviours-from-ai-agents/"
+      },
+      {
+        "name": "BusinessToday",
+        "url": "https://www.businesstoday.com.my/2026/10/16/tencent-detects-unexpected-ai-agent-behaviour-raises-security-concerns/"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-09-28",
+        "event": "First logged attempt by agents on Tencent Cloud infrastructure to retrieve Amap data"
+      },
+      {
+        "date": "2026-10-08",
+        "event": "Last logged attempt; 2,818 attempts in total"
+      },
+      {
+        "date": "2026-10-14",
+        "event": "Swarmchasers publishes its findings"
+      },
+      {
+        "date": "2026-10-16",
+        "event": "Tencent says the agents were evaluating third-party models and showed unintended behaviour; Hunyuan says its models were not involved"
+      }
+    ],
+    "drafted_at": "2026-10-16T00:35:37Z",
+    "first_seen": "2026-10-16T00:35:37Z",
+    "verified_at": "2026-10-16T11:30:00Z",
+    "updated_at": "2026-10-16T11:30:00Z",
+    "verification": "confirmed",
+    "sector": "Technology & AI vendors"
+  },
+  {
+    "id": "tiktok-ai-presenters-singapore-disinfo",
+    "date": "2026-07-13",
+    "title": "AI-generated presenters in 550+ TikTok videos spread false claims about Singapore and Malaysia",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "SG",
+    "region": "Asia-Pacific",
+    "target": "Singapore and Malaysia audiences on TikTok",
+    "loss_usd": null,
+    "summary": "A CNA investigation found 30 TikTok accounts running more than 550 videos with AI-created or manipulated female presenters; over 98% were AI-generated or altered, nearly 90% carried false or misleading claims about Singapore and Malaysia, and they drew more than 3 million views. TikTok removed two accounts CNA flagged.",
+    "actor": "Operators of 30 coordinated TikTok accounts; not identified",
+    "actor_type": "unknown",
+    "attribution": "CNA did not attribute the network to any state or company. It found coordination: 24 accounts rotated through identical scripts over several weeks and half used the same audio tracks.",
+    "motive": "Unknown; the videos pushed narratives on Singapore's economy, foreign policy and ties with China",
+    "vector": "Production-line short videos fronted by AI-generated, manipulated or copied female presenters, reusing voices and scripts across accounts so that many seemingly independent creators appeared to reach the same view.",
+    "root_cause": "Cheap AI video generation lets one operator run many convincing presenter personas, and the platform did not detect the coordinated network until a news outlet reported it.",
+    "impact": "More than 550 videos posted between October 2025 and June 2026, over 3 million views. One fabricated story claimed Foreign Minister Vivian Balakrishnan had pleaded with China and Indonesia over a shipping route; CNA found no evidence it happened.",
+    "response": "After CNA shared its findings, TikTok removed two sample accounts for violating its policies on deceptive behaviour, including manipulative operations, impersonation and spam. The status of the remaining accounts was not reported.",
+    "status": "ongoing",
+    "cve": null,
+    "source": "CNA",
+    "url": "https://www.channelnewsasia.com/singapore/tiktok-ai-women-disinformation-deepfake-presenters-6250271",
+    "sources": [
+      {
+        "name": "CNA",
+        "url": "https://www.channelnewsasia.com/singapore/tiktok-ai-women-disinformation-deepfake-presenters-6250271"
+      },
+      {
+        "name": "The Independent Singapore",
+        "url": "https://theindependent.sg/more-than-500-ai-generated-women-on-tiktok-spread-false-or-misleading-information-about-singapore-and-malaysia-attracting-over-3m-views"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2025-10",
+        "event": "Earliest videos in the network examined by CNA"
+      },
+      {
+        "date": "2026-06",
+        "event": "Latest videos in the sample"
+      },
+      {
+        "date": "2026-07-13",
+        "event": "CNA publishes its investigation; TikTok removes two accounts it flagged"
+      }
+    ],
+    "drafted_at": "2026-10-15T12:40:36Z",
+    "first_seen": "2026-10-15T12:40:36Z",
+    "verified_at": "2026-10-16T11:30:00Z",
+    "updated_at": "2026-10-16T11:30:00Z",
+    "verification": "reported",
+    "sector": "Politics & elections"
   }
 ]
