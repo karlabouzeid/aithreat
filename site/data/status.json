@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-16T18:20:55Z",
-  "wire_items": 780,
-  "new_items": 249,
+  "updated_at": "2026-10-16T18:35:38Z",
+  "wire_items": 800,
+  "new_items": 704,
   "candidates": 17,
   "incidents": 329,
   "feeds_ok": [
@@ -60,5 +60,5 @@
   "feeds_failed": [
 
   ],
-  "triage": "triaged 706 items with claude-sonnet-5-5 in 23 batches (6 failed: API 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_i); kept 249"
+  "triage": "triage failed: all 29 batches failed: API 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance i"
 }
