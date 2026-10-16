@@ -1296,5 +1296,50 @@
     "first_seen": "2026-10-16T09:05:39Z",
     "first_published": "2026-10-16T09:02:19Z",
     "updated_at": "2026-10-16T09:05:39Z"
+  },
+  {
+    "id": "papercut-ai-agents-credential-theft",
+    "date": "2026-10-16",
+    "title": "Hundreds of AI agents exploit PaperCut NG/MF servers to steal Windows credentials",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "PaperCut NG/MF servers at 395 organizations in 48 countries",
+    "loss_usd": null,
+    "summary": "A likely Russian-speaking actor used hundreds of AI agents to exploit PaperCut NG/MF servers, steal Windows credentials and set up reusable internal access. GreyNoise found 440 compromised instances.",
+    "actor": "Likely Russian-speaking threat actor",
+    "actor_type": "unknown",
+    "sector": "Multiple / cross-sector",
+    "attribution": "GreyNoise assesses the actor as likely Russian-speaking; no named group given.",
+    "motive": "Unknown; credential theft and persistent access to internal networks",
+    "vector": "AI agents exploiting PaperCut NG/MF servers at scale, then harvesting Windows credentials.",
+    "root_cause": "Exposed, exploitable PaperCut NG/MF servers; the specific flaw is not stated in the summary.",
+    "impact": "At least 440 compromised instances across 395 organizations in 48 countries, with reusable access to internal networks.",
+    "response": "Unknown; GreyNoise identified and reported the compromised instances.",
+    "status": "under investigation",
+    "cve": null,
+    "confidence": 0.75,
+    "source": "GBHackers",
+    "url": "https://gbhackers.com/ai-agents-target-papercut",
+    "sources": [
+      {
+        "name": "GBHackers",
+        "url": "https://gbhackers.com/ai-agents-target-papercut"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-16",
+        "event": "Reported by GBHackers"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-16T09:17:18Z",
+    "wire_id": "ef48ebb64c73",
+    "first_seen": "2026-10-16T09:17:18Z",
+    "first_published": "2026-10-16T09:10:51Z",
+    "updated_at": "2026-10-16T09:17:18Z"
   }
 ]
