@@ -83,3 +83,28 @@ jobs:
       - id: deployment
         if: steps.commit.outputs.pushed == '1'
         uses: actions/deploy-pages@v4
+      # Each newly verified case goes to Bluesky, Mastodon and Telegram once the
+      # page is live. Platforms without secrets are skipped; see scripts/social.rb.
+      - name: Post new case files to social accounts
+        id: social
+        if: steps.commit.outputs.pushed != '1' || steps.deployment.outcome == 'success'
+        continue-on-error: true
+        env:
+          BLUESKY_HANDLE: ${{ secrets.BLUESKY_HANDLE }}
+          BLUESKY_APP_PASSWORD: ${{ secrets.BLUESKY_APP_PASSWORD }}
+          MASTODON_INSTANCE: ${{ secrets.MASTODON_INSTANCE }}
+          MASTODON_TOKEN: ${{ secrets.MASTODON_TOKEN }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: ruby scripts/social.rb
+      - name: Save which cases were posted
+        if: always() && steps.social.outcome != 'skipped'
+        run: |
+          git add config/social_posted.json 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -m "social: posted state $(date -u +'%Y-%m-%d %H:%M UTC')"
+            for i in 1 2 3; do
+              git push origin HEAD:main && break
+              git fetch origin main && git rebase origin/main
+            done
+          fi
