@@ -223,5 +223,50 @@
     "first_seen": "2026-10-16T11:05:36Z",
     "first_published": "2026-03-24T18:40:52Z",
     "updated_at": "2026-10-16T11:05:36Z"
+  },
+  {
+    "id": "ai-built-clickfix-smartrat-lures",
+    "date": "2026-03-01",
+    "title": "AI-built typosquat sites deliver SmartRAT via ClickFix campaign",
+    "category": "AI phishing",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "Users reaching typosquatted lookalike domains",
+    "loss_usd": null,
+    "summary": "In March 2026 Zscaler ThreatLabz saw multiple typosquatting domains whose malicious content was generated with AI website creation tools, used to deliver SmartRAT through ClickFix.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Unknown",
+    "attribution": "No attribution given in the summary.",
+    "motive": "Unknown; likely malware delivery via convincing lures made quickly and at scale.",
+    "vector": "Typosquatted domains with AI-generated content using ClickFix paste-and-run instructions to install SmartRAT.",
+    "root_cause": "Website builders let attackers create convincing lures quickly and at scale.",
+    "impact": "Victim count and losses not stated in the summary.",
+    "response": "Unknown; ThreatLabz published its analysis.",
+    "status": "unresolved",
+    "cve": null,
+    "confidence": 0.55,
+    "source": "Zscaler ThreatLabz",
+    "url": "https://www.zscaler.com/blogs/security-research/clickfix-campaign-generated-ai-delivers-smartrat",
+    "sources": [
+      {
+        "name": "Zscaler ThreatLabz",
+        "url": "https://www.zscaler.com/blogs/security-research/clickfix-campaign-generated-ai-delivers-smartrat"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-03-01",
+        "event": "Reported by Zscaler ThreatLabz"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-16T11:35:36Z",
+    "wire_id": "7be4bdd16bb8",
+    "first_seen": "2026-10-16T11:35:36Z",
+    "first_published": "2026-06-17T17:58:25Z",
+    "updated_at": "2026-10-16T11:35:36Z"
   }
 ]
