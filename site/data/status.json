@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-16T18:35:38Z",
+  "updated_at": "2026-10-16T19:05:41Z",
   "wire_items": 800,
-  "new_items": 704,
+  "new_items": 670,
   "candidates": 17,
   "incidents": 329,
   "feeds_ok": [
@@ -60,5 +60,5 @@
   "feeds_failed": [
 
   ],
-  "triage": "triage failed: all 29 batches failed: API 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance i"
+  "triage": "triage failed: all 27 batches failed: API 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance i"
 }
