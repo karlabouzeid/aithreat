@@ -358,5 +358,230 @@
     "first_seen": "2026-10-16T13:35:41Z",
     "first_published": "2025-09-03T14:13:55Z",
     "updated_at": "2026-10-16T13:35:41Z"
+  },
+  {
+    "id": "moltbook-exposed-database-wiz",
+    "date": "2026-02-02",
+    "title": "Exposed Moltbook database leaks 35,000 emails and 1.5M API keys",
+    "category": "Model & data leak",
+    "direction": "on-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "Moltbook AI agent social network",
+    "loss_usd": null,
+    "summary": "Wiz Research found one exposed Moltbook database holding 35,000 emails and 1.5M API keys, and showed 17,000 humans were behind the supposedly autonomous AI network.",
+    "actor": "Unknown",
+    "actor_type": "researcher",
+    "sector": "Technology & AI vendors",
+    "attribution": "Discovered and reported by Wiz Research; no malicious actor is identified in the summary.",
+    "motive": "Unknown",
+    "vector": "Publicly exposed database",
+    "root_cause": "Database left exposed; the summary gives no further detail.",
+    "impact": "35,000 email addresses and 1.5M API keys exposed. Wiz also showed that humans could control the AI network.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "confidence": 0.55,
+    "source": "Wiz Research",
+    "url": "https://www.wiz.io/blog/exposed-moltbook-database-reveals-millions-of-api-keys",
+    "sources": [
+      {
+        "name": "Wiz Research",
+        "url": "https://www.wiz.io/blog/exposed-moltbook-database-reveals-millions-of-api-keys"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-02-02",
+        "event": "Reported by Wiz Research"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-16T14:05:39Z",
+    "wire_id": "4892651bb83e",
+    "first_seen": "2026-10-16T14:05:39Z",
+    "first_published": "2026-02-02T15:00:03Z",
+    "updated_at": "2026-10-16T14:05:39Z"
+  },
+  {
+    "id": "deepseek-exposed-database-wiz",
+    "date": "2025-01-29",
+    "title": "Exposed DeepSeek database leaks chat history and sensitive logs",
+    "category": "Model & data leak",
+    "direction": "on-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "DeepSeek internal database",
+    "loss_usd": null,
+    "summary": "Wiz Research found a publicly accessible DeepSeek database with full control over operations and over a million lines of log streams, including chat history and other sensitive data.",
+    "actor": "Unknown",
+    "actor_type": "researcher",
+    "sector": "Technology & AI vendors",
+    "attribution": "Discovered by Wiz Research; no malicious actor is identified in the summary.",
+    "motive": "Unknown",
+    "vector": "Publicly accessible database with no access control",
+    "root_cause": "Database exposed to the internet, allowing full control of database operations.",
+    "impact": "Over a million lines of log streams with highly sensitive information, including chat history, were accessible. Exploitation by others is not stated.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "confidence": 0.6,
+    "source": "Wiz Research",
+    "url": "https://www.wiz.io/blog/wiz-research-uncovers-exposed-deepseek-database-leak",
+    "sources": [
+      {
+        "name": "Wiz Research",
+        "url": "https://www.wiz.io/blog/wiz-research-uncovers-exposed-deepseek-database-leak"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2025-01-29",
+        "event": "Reported by Wiz Research"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-16T14:05:39Z",
+    "wire_id": "2d80cae7fd60",
+    "first_seen": "2026-10-16T14:05:39Z",
+    "first_published": "2025-01-29T20:47:40Z",
+    "updated_at": "2026-10-16T14:05:39Z"
+  },
+  {
+    "id": "ultralytics-pypi-cryptomining-55e5",
+    "date": "2024-12-05",
+    "title": "Ultralytics AI library compromised via GitHub Actions to push cryptominer",
+    "category": "AI supply chain",
+    "direction": "on-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "Ultralytics AI library and its PyPI users",
+    "loss_usd": null,
+    "summary": "A supply chain attack on Ultralytics exploited GitHub Actions to inject malicious PyPI packages that ran cryptomining on victims' systems.",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "sector": "Technology & AI vendors",
+    "attribution": "No actor is named in the summary. The cryptomining payload suggests financially motivated attackers.",
+    "motive": "Cryptomining (financial gain)",
+    "vector": "GitHub Actions exploitation used to inject malicious PyPI packages",
+    "root_cause": "A weakness in the project's GitHub Actions workflow let attackers inject code into the release pipeline.",
+    "impact": "Malicious Ultralytics package versions were published to PyPI and mined cryptocurrency on users' machines. The number of victims is not stated.",
+    "response": "Wiz published mitigation steps; other remediation details are not stated.",
+    "status": "patched",
+    "cve": null,
+    "confidence": 0.65,
+    "source": "Wiz Research",
+    "url": "https://www.wiz.io/blog/ultralytics-ai-library-hacked-via-github-for-cryptomining",
+    "sources": [
+      {
+        "name": "Wiz Research",
+        "url": "https://www.wiz.io/blog/ultralytics-ai-library-hacked-via-github-for-cryptomining"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2024-12-05",
+        "event": "Reported by Wiz Research"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-16T14:05:39Z",
+    "wire_id": "55e50a2184f5",
+    "first_seen": "2026-10-16T14:05:39Z",
+    "first_published": "2024-12-09T15:56:01Z",
+    "updated_at": "2026-10-16T14:05:39Z"
+  },
+  {
+    "id": "microsoft-ai-repo-38tb-sas-exposure",
+    "date": "2023-09-18",
+    "title": "Microsoft AI researchers' GitHub repo exposes 38TB via misconfigured SAS token",
+    "category": "Model & data leak",
+    "direction": "on-ai",
+    "severity": "high",
+    "country": "US",
+    "region": "North America",
+    "target": "Microsoft AI research GitHub repository",
+    "loss_usd": null,
+    "summary": "Wiz Research found 38TB of data, including over 30,000 internal Microsoft Teams messages, exposed through one misconfigured SAS token in Microsoft's AI GitHub repository.",
+    "actor": "Unknown",
+    "actor_type": "accident",
+    "sector": "Technology & AI vendors",
+    "attribution": "No attacker identified; the exposure was found and reported by Wiz Research.",
+    "motive": "None stated; accidental exposure.",
+    "vector": "Misconfigured SAS token linked from Microsoft's AI GitHub repository.",
+    "root_cause": "A single misconfigured SAS token granted access to far more data than intended.",
+    "impact": "38TB of data exposed, including over 30,000 internal Microsoft Teams messages.",
+    "response": "Unknown",
+    "status": "resolved",
+    "cve": null,
+    "confidence": 0.6,
+    "source": "Wiz Research",
+    "url": "https://www.wiz.io/blog/38-terabytes-of-private-data-accidentally-exposed-by-microsoft-ai-researchers",
+    "sources": [
+      {
+        "name": "Wiz Research",
+        "url": "https://www.wiz.io/blog/38-terabytes-of-private-data-accidentally-exposed-by-microsoft-ai-researchers"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2023-09-18",
+        "event": "Reported by Wiz Research"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-16T14:05:39Z",
+    "wire_id": "bff8813243d9",
+    "first_seen": "2026-10-16T14:05:39Z",
+    "first_published": "2023-09-18T13:01:29Z",
+    "updated_at": "2026-10-16T14:05:39Z"
+  },
+  {
+    "id": "pytorch-torchtriton-pypi-dependency-conf",
+    "date": "2022-12-30",
+    "title": "Malicious 'torchtriton' dependency confusion attack hits PyTorch on PyPI",
+    "category": "AI supply chain",
+    "direction": "on-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "PyTorch users and the PyTorch open-source project",
+    "loss_usd": null,
+    "summary": "PyTorch developers identified a malicious dependency confusion attack involving the 'torchtriton' package on PyPI. Security teams were advised to check for infected resources and rotate exposed keys.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Technology & AI vendors",
+    "attribution": "Unknown",
+    "motive": "Unknown",
+    "vector": "Dependency confusion: malicious 'torchtriton' package published on PyPI.",
+    "root_cause": "Dependency confusion in the PyTorch package supply chain.",
+    "impact": "Systems that installed the package may be infected and have keys exposed. Scale unknown.",
+    "response": "PyTorch developers identified the attack; teams were advised to check infected resources and rotate exposed keys.",
+    "status": "contained",
+    "cve": null,
+    "confidence": 0.6,
+    "source": "Wiz Research",
+    "url": "https://www.wiz.io/blog/malicious-pytorch-dependency-torchtriton-on-pypi-everything-you-need-to-know",
+    "sources": [
+      {
+        "name": "Wiz Research",
+        "url": "https://www.wiz.io/blog/malicious-pytorch-dependency-torchtriton-on-pypi-everything-you-need-to-know"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2022-12-30",
+        "event": "Reported by Wiz Research"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-16T14:05:39Z",
+    "wire_id": "3f5bb5b90ccd",
+    "first_seen": "2026-10-16T14:05:39Z",
+    "first_published": "2023-01-03T13:10:27Z",
+    "updated_at": "2026-10-16T14:05:39Z"
   }
 ]
