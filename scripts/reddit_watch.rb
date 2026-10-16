@@ -62,10 +62,10 @@ COMMON = Set.new(%w[ai llm llms openai chatgpt claude gemini google microsoft me
                     code coding open source server servers vulnerability flaw flaws credentials accounts account
                     january february march april june july august september october november december monday friday
                     reddit discord telegram whatsapp slack gmail youtube twitter facebook instagram tiktok linkedin
-                    readme wordpress m365 office365 outlook sharepoint excel ctrl cves edge chrome firefox safari qwen opus sonnet haiku llama mistral grok deepseek nvidia perplexity hugging face huggingface])
+                    macos ios ipados readme wordpress m365 office365 outlook sharepoint excel ctrl cves edge chrome firefox safari qwen opus sonnet haiku llama mistral grok deepseek nvidia perplexity hugging face huggingface])
 # Descriptive compounds ("LLM-based", "AI-powered") are not names either.
 # What product and group names look like: PaperCut, GhostGPT, JINX-2401, METR, gpt-4o-mini.
-BRANDLIKE = /[a-z][A-Z]|[A-Za-z]\d|\d[A-Za-z]|\A[A-Z]{4,}\z/
+BRANDLIKE = /[a-z][A-Z]|[A-Za-z]\d|\d[A-Za-z]|\A[A-Z]{4,}\z|[A-Z]-[A-Z]/
 DESCRIPTIVE = /-(based|powered|driven|generated|assisted|enabled|style|like)\z/
 
 def http_get(url)
