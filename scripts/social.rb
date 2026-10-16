@@ -97,8 +97,8 @@ class Bluesky
   API = "https://bsky.social/xrpc"
 
   def initialize
-    @handle = ENV["BLUESKY_HANDLE"].to_s
-    @password = ENV["BLUESKY_APP_PASSWORD"].to_s
+    @handle = ENV["BLUESKY_HANDLE"].to_s.strip
+    @password = ENV["BLUESKY_APP_PASSWORD"].to_s.strip
   end
 
   def enabled?
@@ -152,8 +152,8 @@ end
 # ---- Mastodon: plain status; the server builds the link card from the page's Open Graph tags.
 class Mastodon
   def initialize
-    @instance = ENV["MASTODON_INSTANCE"].to_s.sub(%r{/+\z}, "")
-    @token = ENV["MASTODON_TOKEN"].to_s
+    @instance = ENV["MASTODON_INSTANCE"].to_s.strip.sub(%r{/+\z}, "")
+    @token = ENV["MASTODON_TOKEN"].to_s.strip
   end
 
   def enabled?
@@ -178,8 +178,8 @@ end
 # ---- Telegram: channel message with the link preview shown.
 class Telegram
   def initialize
-    @token = ENV["TELEGRAM_BOT_TOKEN"].to_s
-    @chat = ENV["TELEGRAM_CHAT_ID"].to_s
+    @token = ENV["TELEGRAM_BOT_TOKEN"].to_s.strip
+    @chat = ENV["TELEGRAM_CHAT_ID"].to_s.strip
   end
 
   def enabled?
