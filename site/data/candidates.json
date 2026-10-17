@@ -1573,5 +1573,50 @@
     "first_seen": "2026-10-14T14:39:51Z",
     "first_published": "2026-10-13T18:01:00Z",
     "updated_at": "2026-10-17T15:05:36Z"
+  },
+  {
+    "id": "puente-alto-school-sexual-deepfakes",
+    "date": "2026-10-15",
+    "title": "AI sexual deepfakes of female students at Colegio Alicante del Sol, Puente Alto",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "CL",
+    "region": "Latin America",
+    "target": "Female students at Colegio Alicante del Sol",
+    "loss_usd": null,
+    "summary": "Parents allege AI was used to create sexual material of female students in grades 9-12 at a Puente Alto school. It circulated, and a student protest ended in damage and clashes with Carabineros.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Education & research",
+    "attribution": "Creator(s) of the material not identified in the available text; the case is described as alleged.",
+    "motive": "Unknown",
+    "vector": "AI-generated sexualised images or videos of students, shared among people at the school.",
+    "root_cause": "Unknown; the text does not say which AI tools were used or how the source images were obtained.",
+    "impact": "Female students in grades 1-4 medio were affected by digital sexual abuse. Parents and students were angry, and a protest ended in damage and clashes with Carabineros.",
+    "response": "Parents filed complaints. Carabineros attended the school during the protest. No further official action is stated.",
+    "status": "under investigation",
+    "cve": null,
+    "confidence": 0.7,
+    "source": "AI Incident Database",
+    "url": "https://www.t13.cl/noticia/nacional/mama-paso-algo-grave-apoderados-denuncian-abuso-sexual-digital-contra-sus-hijas-3-10-2026",
+    "sources": [
+      {
+        "name": "AI Incident Database",
+        "url": "https://www.t13.cl/noticia/nacional/mama-paso-algo-grave-apoderados-denuncian-abuso-sexual-digital-contra-sus-hijas-3-10-2026"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-15",
+        "event": "Reported by AI Incident Database"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-17T20:35:37Z",
+    "wire_id": "b73f2b574988",
+    "first_seen": "2026-10-17T20:35:37Z",
+    "first_published": "2026-10-15T00:00:00Z",
+    "updated_at": "2026-10-17T20:35:37Z"
   }
 ]
