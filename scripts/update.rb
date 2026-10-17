@@ -215,6 +215,17 @@ triaged = {} unless triaged.is_a?(Hash)
 triaged.select! { |_, d| d >= (now - (KEEP_DAYS + 2) * 86400).strftime("%Y-%m-%d") }
 fresh = fresh.reject { |w| triaged.key?(w["id"]) }
 log "new items: #{fresh.size}"
+# Wire stories stored unsorted (triage was down when they arrived) go back through triage,
+# a slice per run; dropped ones leave the wire, kept ones come back with their tags.
+if !ENV["ANTHROPIC_API_KEY"].to_s.strip.empty?
+  backlog = existing.select { |w| w["kind"].nil? && !triaged.key?(w["id"]) }.first(250)
+  if backlog.any?
+    ids = backlog.map { |w| w["id"] }
+    existing = existing.reject { |w| ids.include?(w["id"]) }
+    fresh += backlog
+    log "unsorted wire stories sent back to triage: #{backlog.size}"
+  end
+end
 
 # ---------- 2. triage with Claude (optional) ----------
 incidents = File.exist?(INC_PATH) ? JSON.parse(File.read(INC_PATH)) : []
