@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-17T02:35:37Z",
+  "updated_at": "2026-10-17T03:05:36Z",
   "wire_items": 800,
-  "new_items": 690,
+  "new_items": 684,
   "candidates": 17,
   "incidents": 329,
   "feeds_ok": [
@@ -14,6 +14,7 @@
     "CyberScoop",
     "Krebs on Security",
     "WIRED Security",
+    "Help Net Security",
     "Infosecurity Magazine",
     "TechCrunch Security",
     "Unit 42",
@@ -57,7 +58,7 @@
     "FBI IC3 alerts"
   ],
   "feeds_failed": [
-    "Help Net Security"
+
   ],
   "triage": "triage failed: all 28 batches failed: API 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance i"
 }
