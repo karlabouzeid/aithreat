@@ -16,6 +16,7 @@ DATA = File.join(SITE, "data")
 FEEDS = JSON.parse(File.read(File.join(ROOT, "config", "feeds.json")))
 WIRE_PATH = File.join(DATA, "wire.json")
 CAND_PATH = File.join(DATA, "candidates.json")
+TRIAGED_PATH = File.join(DATA, "triaged.json") # story id => day it was sorted, so it is never sent to Claude twice
 STATUS_PATH = File.join(DATA, "status.json")
 INC_PATH = File.join(DATA, "incidents.en.json")
 APPROVED_PATH = File.join(ROOT, "config", "approved.txt")
@@ -207,6 +208,12 @@ fresh = fresh.reject do |w|
   key = title_key.(w["title"])
   dup = seen_titles.include?(key); seen_titles << key; dup
 end
+# Stories Claude already sorted and dropped are not in the wire, so the title check above
+# misses them; without this they were re-sorted (and paid for) on every run.
+triaged = (JSON.parse(File.read(TRIAGED_PATH)) rescue {})
+triaged = {} unless triaged.is_a?(Hash)
+triaged.select! { |_, d| d >= (now - (KEEP_DAYS + 2) * 86400).strftime("%Y-%m-%d") }
+fresh = fresh.reject { |w| triaged.key?(w["id"]) }
 log "new items: #{fresh.size}"
 
 # ---------- 2. triage with Claude (optional) ----------
@@ -263,6 +270,7 @@ if api_key && !fresh.empty?
       batches_failed += 1
       sample ||= e.message[0, 220]
       log "triage batch #{bi} failed: #{e.class} #{e.message[0, 160]}"
+      break if e.message.include?("credit balance") # every other batch would fail the same way
     end
   end
   begin
@@ -270,6 +278,7 @@ if api_key && !fresh.empty?
     kept = []
     fresh.each_with_index do |w, n|
       v = by_i[n]
+      triaged[w["id"]] = now.strftime("%Y-%m-%d") if v
       next unless v && v["keep"]
       w["kind"] = v["kind"]; w["tag"] = v["tag"]; w["one_line"] = v["one_line"]
       if v["new_incident"] && v["draft"].is_a?(Hash)
@@ -321,6 +330,7 @@ wire.each { |w| w["seen"] = w["published"] if Time.parse(w["seen"]) - Time.parse
 wire = wire.sort_by { |w| [w["seen"], w["published"]] }.reverse.first(MAX_WIRE)
 File.write(WIRE_PATH, JSON.pretty_generate(wire))
 File.write(CAND_PATH, JSON.pretty_generate(candidates))
+File.write(TRIAGED_PATH, JSON.generate(triaged))
 # Wire pulse: how many stories of each kind were published per day (by publication date, The wire itself only
 # not discovery date). The wire itself only keeps KEEP_DAYS, so the Patterns page reads
 # this growing history instead. Days still
