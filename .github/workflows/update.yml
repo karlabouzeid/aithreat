@@ -41,6 +41,13 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_OWNER_CHAT_ID: ${{ secrets.TELEGRAM_OWNER_CHAT_ID }}
         run: ruby scripts/update.rb
+      # Newly approved or edited case files get translated into every site language.
+      # Bounded per run; never allowed to block the wire update.
+      - name: Translate new case files
+        continue-on-error: true
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: ruby scripts/translate.rb
       # Static, crawlable case pages + sitemap + llms.txt. Deterministic, so it
       # only produces a diff when a case file or translation actually changed.
       # Never allowed to block the wire update.
