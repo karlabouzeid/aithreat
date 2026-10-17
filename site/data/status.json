@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-17T13:35:37Z",
+  "updated_at": "2026-10-17T13:52:15Z",
   "wire_items": 800,
-  "new_items": 691,
-  "candidates": 17,
+  "new_items": 376,
+  "candidates": 27,
   "incidents": 329,
   "feeds_ok": [
     "BleepingComputer",
@@ -60,5 +60,5 @@
   "feeds_failed": [
 
   ],
-  "triage": "triage failed: all 28 batches failed: API 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance i"
+  "triage": "triaged 690 items with claude-sonnet-5-5 in 28 batches (0 failed); kept 376"
 }
