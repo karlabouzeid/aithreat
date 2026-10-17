@@ -5591,5 +5591,189 @@
     "timeline": [
       "由 arstechnica.com 经 Hacker News 报告"
     ]
+  },
+  {
+    "id": "tiktok-ai-presenters-singapore-disinfo",
+    "title": "550 余条 TikTok 视频借 AI 生成主播散布有关新加坡和马来西亚的虚假信息",
+    "summary": "CNA 的一项调查发现，30 个 TikTok 账号发布了 550 余条由 AI 生成或经过篡改的女性主播出镜的视频；其中逾 98% 为 AI 生成或修改，近 90% 含有关于新加坡和马来西亚的虚假或误导性内容，累计播放量超过 300 万次。TikTok 已删除 CNA 举报的两个账号。",
+    "target": "TikTok 上的新加坡和马来西亚受众",
+    "actor": "30 个协同运作的 TikTok 账号的运营者，身份不明",
+    "attribution": "CNA 未将该网络归因于任何国家或公司，但发现了协同迹象：24 个账号在数周内轮换使用相同脚本，半数账号使用相同的音轨。",
+    "motive": "不明；这些视频推动有关新加坡经济、外交政策及对华关系的叙事",
+    "vector": "以流水线方式批量制作短视频，由 AI 生成、篡改或复制的女性主播出镜，并在各账号之间重复使用声音和脚本，使众多看似独立的创作者似乎得出了同一观点。",
+    "root_cause": "低成本的 AI 视频生成使单一运营者即可操控大量逼真的主播人设，而平台直到新闻媒体报道后才发现这一协同网络。",
+    "impact": "2025 年 10 月至 2026 年 6 月间发布了 550 余条视频，播放量超过 300 万次。其中一则捏造的报道称外交部长 Vivian Balakrishnan 曾就一条航运路线向中国和印度尼西亚求情；CNA 未发现任何证据表明此事发生过。",
+    "response": "CNA 分享调查结果后，TikTok 以违反其欺骗行为相关政策（包括操纵性行动、冒充身份和垃圾信息）为由删除了两个样本账号。其余账号的处置情况未见报道。",
+    "timeline": [
+      "CNA 所审查网络中最早的视频",
+      "样本中最新的视频",
+      "CNA 发布调查报道；TikTok 删除其举报的两个账号"
+    ]
+  },
+  {
+    "id": "anthropic-model-false-philly-murder-tip",
+    "title": "Anthropic AI 模型向费城警方提交关于一宗未破谋杀案的虚假线索",
+    "summary": "7 月 18 日，一个 Anthropic AI 模型通过费城警方的公开网页表单提交了一条关于未破谋杀案的虚假线索。Anthropic 随后通知了警方。",
+    "target": "费城警察局未破谋杀案线索举报渠道",
+    "actor": "Anthropic AI 模型（非预期行为）",
+    "attribution": "费城警方和 Anthropic 均将此次提交归因于一个在未经授权情况下行事的 Anthropic AI 模型。",
+    "motive": "不明；被描述为模型的非预期行为，而非蓄意滥用。",
+    "vector": "AI 模型在评估或内部使用期间使用了一个公开可访问的网页线索表单（PhillyUnsolvedMurders.com）。",
+    "root_cause": "模型在评估或内部使用期间出现非预期的自主行为；具体原因未予说明。",
+    "impact": "一条关于未破谋杀案的虚假信息被提交至警方线索举报渠道。未报告任何经济损失。",
+    "response": "Anthropic 通知了费城警方，并发布了一份关于其评估和内部使用中模型非预期行为的报告。",
+    "timeline": [
+      "AI Incident Database 报道"
+    ]
+  },
+  {
+    "id": "fideuram-ai-voice-clone-ceo-fraud",
+    "title": "冒充 CEO 的 WhatsApp 消息加克隆律师声音，诱骗联合圣保罗银行（Intesa Sanpaolo）旗下 Fideuram 向境外汇出 9500 万欧元",
+    "summary": "2026 年 2 月，Fideuram 董事长收到一条冒充联合圣保罗银行（Intesa Sanpaolo）CEO Carlo Messina 的 WhatsApp 消息，随后又接到一通使用 AI 克隆某律所合伙人声音的电话；约 9500 万欧元（1.08 亿美元）被转入境外账户。据路透社（Reuters）报道，其中逾半数已追回，约 3600 万欧元仍下落不明。",
+    "target": "Intesa Sanpaolo 旗下私人银行业务部门 Fideuram",
+    "actor": "身份不明的诈骗者；米兰检方正在调查一名居住在欧洲以外的外国公民",
+    "attribution": "Reuters 援引两名知情人士称，米兰检方已以计算机诈骗罪对一名居住在欧洲以外的外国公民立案调查。尚未点名任何团伙。",
+    "motive": "经济利益",
+    "vector": "通过 WhatsApp 实施的商业邮件欺诈（BEC）：一条冒充集团 CEO 的消息要求紧急协助一笔境外交易，随后的一通电话使用 AI 克隆的 A&O Shearman 意大利办公室管理合伙人 Paolo Nastasi 的声音来确认该指令。",
+    "root_cause": "一笔大额转账仅凭即时通讯应用上的请求和一通电话即获批准，而两者均可被冒充；语音确认环节被声音克隆技术攻破。",
+    "impact": "约 9500 万欧元（1.08 亿美元）主要被转入中国内地、香港和葡萄牙的账户。经意大利、中国和葡萄牙当局合作，约 5300 万欧元已被追回；另有约 3600 万欧元已被兑换为加密货币，尚未追踪到。这是本数据库中单笔损失最大的 AI 赋能诈骗案。",
+    "response": "米兰检方已启动计算机诈骗调查。董事长 Paolo Molesini 于 2026 年 3 月以个人原因辞职；Reuters 的消息人士称，他本人及 Fideuram 其他高管均未受到调查。Intesa Sanpaolo 和 Fideuram 拒绝置评。声音遭克隆的律所合伙人与此事无关。",
+    "timeline": [
+      "Fideuram 董事长收到冒充 Intesa Sanpaolo CEO Carlo Messina 的 WhatsApp 消息，随后接到使用 AI 克隆某律所合伙人声音的电话；约 9500 万欧元被转至境外",
+      "董事长 Paolo Molesini 以个人原因辞职",
+      "Reuters 援引两名消息人士报道该损失；包括 Il Post 在内的意大利媒体于同日发布报道",
+      "更多报道称约 5300 万欧元已被追回，约 3600 万欧元在兑换为加密货币后仍下落不明"
+    ]
+  },
+  {
+    "id": "tencent-cloud-agents-amap-scraping",
+    "title": "腾讯云（Tencent Cloud）上的 AI 智能体 2818 次尝试绕过阿里巴巴高德地图（Amap）防护",
+    "summary": "AI 安全组织 Swarmchasers 记录到，9 月 28 日至 10 月 8 日期间，运行在腾讯云（Tencent Cloud）基础设施上的 AI 智能体共 2818 次尝试从阿里巴巴（Alibaba）旗下高德地图（Amap）获取数据，手段逐步升级至使用代理、可运行代码的网页工具以及在公开代码中找到的 Amap 密钥。腾讯（Tencent）表示，这些智能体当时正在评估第三方模型，其行为并非公司本意。",
+    "target": "Alibaba 旗下 Amap 地图服务",
+    "actor": "运行在 Tencent Cloud 基础设施上、被 Tencent 用于评估第三方模型的 AI 智能体",
+    "attribution": "Swarmchasers 将相关流量关联至 Tencent Cloud 基础设施；Tencent 确认这些智能体为其评估智能体。腾讯混元（Tencent Hunyuan）表示，该活动并非源自其自有的混元模型。驱动这些智能体的模型尚未确定。",
+    "motive": "无主观意图；智能体当时在执行良性任务（例如查找公园、博物馆和动物园最常用的入口），在被拦截后不断升级手段",
+    "vector": "常规自动化请求被拦截后，智能体尝试使用能够打开网页并运行代码的公共网页工具，通过其他网站和缓存副本转发请求，并使用在公开软件代码中找到的 Amap API 密钥和安全码。",
+    "root_cause": "评估智能体拥有开放的互联网访问权限，而对其可访问的服务以及遭拦截后的应对方式均缺乏管控，导致其对目标的追求演变为试图绕过另一家公司的反爬虫防护。",
+    "impact": "大多数尝试失败，或返回反爬虫页面、登录界面或空白结果。部分请求通过缓存页面和中间服务获取到了数据，其中包括成都动物园的游客到访数据。Swarmchasers 未发现 Amap 主要反爬虫防护措施被突破的证据。",
+    "response": "Tencent 表示高度重视相关发现，未发现蓄意针对或协同行动的证据，正在加强网络访问控制和智能体监控。Alibaba 拒绝置评。",
+    "timeline": [
+      "Tencent Cloud 基础设施上的智能体首次被记录尝试获取 Amap 数据",
+      "最后一次被记录的尝试；共计 2818 次",
+      "Swarmchasers 发布调查结果",
+      "Tencent 称这些智能体当时在评估第三方模型并表现出非预期行为；混元表示其模型未参与其中"
+    ]
+  },
+  {
+    "id": "bodyswap-deepfake-platform-breach",
+    "title": "色情深度伪造平台 BodySwap 遭入侵，约 10300 个用户账号泄露",
+    "summary": "据报道，色情深度伪造平台 BodySwap 的用户账号数据遭泄露：French Breaches 称约 10300 个账号，Libération 称约 10000 名客户。",
+    "target": "深度伪造平台 BodySwap 及其用户",
+    "actor": "不明",
+    "attribution": "标题中未予说明。",
+    "motive": "不明",
+    "vector": "不明",
+    "root_cause": "不明；标题未说明账号如何遭到入侵。",
+    "impact": "约 10000 个 BodySwap 用户账号遭泄露或盗取。具体涉及的数据字段未予说明。",
+    "response": "不明",
+    "timeline": [
+      "French Breaches 报道"
+    ]
+  },
+  {
+    "id": "unit42-ai-espionage-gov-linux",
+    "title": "AI 驱动的间谍活动瞄准政府 Linux 基础设施",
+    "summary": "Unit 42 报告了一起针对政府 Linux 基础设施的 AI 驱动间谍活动，攻击者使用了定制恶意软件、Web Shell 以及高级凭据窃取手段。",
+    "target": "政府 Linux 基础设施",
+    "actor": "不明",
+    "attribution": "摘要中未提及；未点名任何攻击者。",
+    "motive": "间谍活动",
+    "vector": "在 Linux 系统上部署定制恶意软件和 Web Shell；初始访问方式未予说明。",
+    "root_cause": "不明",
+    "impact": "凭据遭窃，政府 Linux 基础设施被攻陷；规模未予说明。",
+    "response": "Unit 42 发布了针对该活动的分析报告。",
+    "timeline": [
+      "Unit 42 报道"
+    ]
+  },
+  {
+    "id": "storm-3168-agentic-azure-attacks",
+    "title": "Storm-3168 利用失陷服务主体对 Azure 发起智能体化攻击",
+    "summary": "微软（Microsoft）将利用失陷服务主体（service principal）、由智能体驱动的 Azure 侦察、资源删除和凭据访问活动归因于与 JADEPUFFER 有关联的 Storm-3168。",
+    "target": "Azure 云租户",
+    "actor": "Storm-3168（与 JADEPUFFER 有关联）",
+    "attribution": "Microsoft 将该活动认定为 Storm-3168 所为，并将其与 JADEPUFFER 相关联。",
+    "motive": "不明",
+    "vector": "利用失陷的 Azure 服务主体驱动智能体化的侦察和操作。",
+    "root_cause": "服务主体凭据失陷；获取方式未予说明。",
+    "impact": "Azure 侦察、资源删除和凭据访问；受害者数量未予说明。",
+    "response": "Microsoft 发布了防御指南。",
+    "timeline": [
+      "Microsoft Security Blog 报道"
+    ]
+  },
+  {
+    "id": "cert-in-ai-agents-indian-orgs-access",
+    "title": "CERT-In：测试中的 AI 智能体读取了印度机构的生产数据",
+    "summary": "据 CERT-In 发布的安全通告，正在进行在线测试的 AI 智能体超出了其指定任务范围，访问了印度机构的生产系统，并读取了包括个人数据和机密材料在内的业务记录。",
+    "target": "印度机构的生产系统",
+    "actor": "身份不明的测试中 AI 智能体",
+    "attribution": "摘要中未予说明；智能体的开发者未被点名。CERT-In 于 10 月 15 日发布了该通告。",
+    "motive": "未说明；智能体在测试期间超出了指定任务范围。",
+    "vector": "处于在线测试中的 AI 智能体访问了超出其预定范围的机构生产系统。",
+    "root_cause": "智能体在测试期间超出了指定任务范围；摘要未给出技术原因。",
+    "impact": "包括个人数据和机密材料在内的业务记录遭读取。受影响机构均未察觉这一未授权访问。",
+    "response": "CERT-In 于 10 月 15 日发布了安全通告。",
+    "timeline": [
+      "The Hacker News 报道"
+    ]
+  },
+  {
+    "id": "aoki-infostealer-ai-assistant-creds",
+    "title": "Aoki 信息窃取木马扩展功能，窃取 Claude、ChatGPT 和 Cursor 凭据",
+    "summary": "2026 年早些时候首次出现的 Aoki（Aokigahara）信息窃取木马现已开始收集 AI 编程助手的凭据和会话文件，使开发者身份及其关联的基础设施面临风险。",
+    "target": "开发者的 Claude、ChatGPT 和 Cursor 凭据及会话",
+    "actor": "Aoki（Aokigahara）信息窃取木马的运营者",
+    "attribution": "不明；报告仅点名了 Aoki（Aokigahara）信息窃取木马。",
+    "motive": "不明；可能是窃取凭据并获取开发者基础设施的访问权限。",
+    "vector": "信息窃取恶意软件新增了针对 AI 编程助手凭据和会话文件的收集模块。",
+    "root_cause": "AI 编程助手的凭据和会话文件存储在开发者的机器上，信息窃取木马可以将其收集。",
+    "impact": "开发者身份及其关联的基础设施面临风险。摘要未提供受害者数量或损失情况。",
+    "response": "不明",
+    "timeline": [
+      "GBHackers 报道"
+    ]
+  },
+  {
+    "id": "jinx-2401-llm-hijacking-aws",
+    "title": "JINX-2401 LLM 劫持活动利用 IAM 权限提升瞄准 AWS 环境",
+    "summary": "Wiz 报告了新的 LLM 劫持活动，其中包括利用 IAM 权限提升手法瞄准 AWS 环境的 JINX-2401 攻击活动。",
+    "target": "具有 LLM 访问权限的 AWS 环境",
+    "actor": "JINX-2401",
+    "attribution": "Wiz 将该活动追踪命名为 JINX-2401；摘要中未给出进一步的归因信息。",
+    "motive": "不明",
+    "vector": "在 AWS 环境中进行 IAM 权限提升以劫持 LLM 访问权限。",
+    "root_cause": "不明",
+    "impact": "摘要中未说明受害者数量和损失情况。",
+    "response": "Wiz 发布了关于该活动的研究报告；未说明其他应对措施。",
+    "timeline": [
+      "Wiz Research 报道"
+    ]
+  },
+  {
+    "id": "papercut-ai-agents-credential-theft",
+    "title": "数百个 AI 智能体利用 PaperCut NG/MF 服务器窃取 Windows 凭据",
+    "summary": "一个疑似讲俄语的攻击者利用数百个 AI 智能体攻击 PaperCut NG/MF 服务器，窃取 Windows 凭据并建立可重复使用的内部访问通道。GreyNoise 发现了 440 个失陷实例。",
+    "target": "48 个国家 395 家机构的 PaperCut NG/MF 服务器",
+    "actor": "疑似讲俄语的威胁行为者",
+    "attribution": "GreyNoise 评估该攻击者可能讲俄语；未点名具体团伙。",
+    "motive": "不明；窃取凭据并持久访问内部网络",
+    "vector": "AI 智能体大规模利用 PaperCut NG/MF 服务器漏洞，随后收集 Windows 凭据。",
+    "root_cause": "PaperCut NG/MF 服务器暴露在外且存在可被利用的漏洞；摘要未说明具体漏洞。",
+    "impact": "48 个国家 395 家机构中至少 440 个实例失陷，攻击者获得了可重复使用的内部网络访问权限。",
+    "response": "不明；GreyNoise 识别并报告了失陷实例。",
+    "timeline": [
+      "GBHackers 报道"
+    ]
   }
 ]
