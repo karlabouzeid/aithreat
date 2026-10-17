@@ -1348,5 +1348,230 @@
     "first_seen": "2026-10-17T02:05:33Z",
     "first_published": "2026-10-17T01:39:20Z",
     "updated_at": "2026-10-17T14:35:35Z"
+  },
+  {
+    "id": "vibetech-14m-record-exposure",
+    "date": "2026-10-17",
+    "title": "Vibetech AI developer exposes almost 14 million records compiled from past breaches",
+    "category": "Model & data leak",
+    "direction": "on-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "Vibetech (AI development company) data store",
+    "loss_usd": null,
+    "summary": "AI development company Vibetech collected data from different breaches and accidentally made almost 14 million records accessible online, per TechRadar.",
+    "actor": "Unknown",
+    "actor_type": "accident",
+    "sector": "Technology & AI vendors",
+    "attribution": "No attacker; the company itself exposed the data accidentally.",
+    "motive": "Not applicable; accidental exposure.",
+    "vector": "Publicly accessible data store holding records aggregated from other breaches.",
+    "root_cause": "Misconfiguration left the aggregated breach data accessible online; exact mechanism not stated.",
+    "impact": "Almost 14 million records were exposed online. Details of data types and any misuse are not given.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "confidence": 0.6,
+    "source": "TechRadar",
+    "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxOWUJ4UUVHc0VLeDBXb2Q2OG00SkNoWXZ4MnBWamlJSXpONlJKM1lBVklUR2FNdVJfU0tJSG1ZOG0wMEZ2U0NYUHFiTEVWaVU5aFNsczV5TnIzNXAyTlk4ZTRhcUtRRDh3QzlYVUpiU3IyZWZSZ1UxaGJrSEtOSkRyRlRuWkFsYlo4bXpFTmZXNFpiUUN0MHAwNWg3bmJkdk1fbHNQaXg4eG1VbnZCTl9BQWFObHVTR0JXeExPMHdKbVdPX2gyN3lCWDZmanloakRoX0JPbFk1S1N0SmtHZE02T1ZWY3VCc0FTd2FicGtRUGdhS1liOVJHNXdpdDU2cjdFRmMxX0h6b2dKWjA3SDhGbGdjWTdCaGlOaWpfNlU4S0tyWlZndHJzcVl6eVpPcXNuMzVveFNR?oc=5",
+    "sources": [
+      {
+        "name": "TechRadar",
+        "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxOWUJ4UUVHc0VLeDBXb2Q2OG00SkNoWXZ4MnBWamlJSXpONlJKM1lBVklUR2FNdVJfU0tJSG1ZOG0wMEZ2U0NYUHFiTEVWaVU5aFNsczV5TnIzNXAyTlk4ZTRhcUtRRDh3QzlYVUpiU3IyZWZSZ1UxaGJrSEtOSkRyRlRuWkFsYlo4bXpFTmZXNFpiUUN0MHAwNWg3bmJkdk1fbHNQaXg4eG1VbnZCTl9BQWFObHVTR0JXeExPMHdKbVdPX2gyN3lCWDZmanloakRoX0JPbFk1S1N0SmtHZE02T1ZWY3VCc0FTd2FicGtRUGdhS1liOVJHNXdpdDU2cjdFRmMxX0h6b2dKWjA3SDhGbGdjWTdCaGlOaWpfNlU4S0tyWlZndHJzcVl6eVpPcXNuMzVveFNR?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-17",
+        "event": "Reported by TechRadar"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-17T15:05:36Z",
+    "wire_id": "ec8a75828aab",
+    "first_seen": "2026-10-14T14:39:51Z",
+    "first_published": "2026-10-14T13:05:00Z",
+    "updated_at": "2026-10-17T15:05:36Z"
+  },
+  {
+    "id": "korea-id-exposure-ai-hack-china-link",
+    "date": "2026-10-17",
+    "title": "Millions of Korean IDs exposed in AI-linked hack tied to China",
+    "category": "State actor AI ops",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "KR",
+    "region": "Asia-Pacific",
+    "target": "South Korean ID records",
+    "loss_usd": null,
+    "summary": "Millions of Korean ID records were reportedly exposed in a hack described as AI-driven and linked to China; Beijing says it has no knowledge of it.",
+    "actor": "Unknown (reportedly linked to China)",
+    "actor_type": "unknown",
+    "sector": "Unknown",
+    "attribution": "Reportedly linked to China; Beijing pleads ignorance. No formal attribution in the headline.",
+    "motive": "Unknown",
+    "vector": "Unknown; described only as an AI hack.",
+    "root_cause": "Unknown",
+    "impact": "Millions of Korean ID records exposed.",
+    "response": "Unknown; China denies knowledge of the activity.",
+    "status": "under investigation",
+    "cve": null,
+    "confidence": 0.4,
+    "source": "IntelliNews",
+    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOdEJkSlpkXzhjSWdYTWc0c25qT3IzM0VqaXBIcUd6OXJLVVlVbWlXb3FMbXoyZWl3Y3J6OFZzMk96RnhHNFZsbXRHSlVULWJqN0xTekx6U2E4WnJWSldTR3ZNZW1qVXprQllqY1Z5ZjBxLVpCSXJtclpXLVlpVGdad21DX05wdk1ZWFo2SW9XSVBGbnMyUGxMY3YyZzJ2SVc0YXZ0UHk0a2JRV2loNzFnRGowOUo4SWhyaGJBdmNrb2NNaGVEcmtVZzZ2YklFR00?oc=5",
+    "sources": [
+      {
+        "name": "IntelliNews",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOdEJkSlpkXzhjSWdYTWc0c25qT3IzM0VqaXBIcUd6OXJLVVlVbWlXb3FMbXoyZWl3Y3J6OFZzMk96RnhHNFZsbXRHSlVULWJqN0xTekx6U2E4WnJWSldTR3ZNZW1qVXprQllqY1Z5ZjBxLVpCSXJtclpXLVlpVGdad21DX05wdk1ZWFo2SW9XSVBGbnMyUGxMY3YyZzJ2SVc0YXZ0UHk0a2JRV2loNzFnRGowOUo4SWhyaGJBdmNrb2NNaGVEcmtVZzZ2YklFR00?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-17",
+        "event": "Reported by IntelliNews"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-17T15:05:36Z",
+    "wire_id": "fe1439d158d8",
+    "first_seen": "2026-10-14T14:39:51Z",
+    "first_published": "2026-10-14T03:27:56Z",
+    "updated_at": "2026-10-17T15:05:36Z"
+  },
+  {
+    "id": "taiwan-gov-network-ai-breach",
+    "date": "2026-10-17",
+    "title": "Suspected China-linked hackers use AI to breach Taiwan government network",
+    "category": "State actor AI ops",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "TW",
+    "region": "Asia-Pacific",
+    "target": "Taiwan government network",
+    "loss_usd": null,
+    "summary": "Chosun Ilbo reports suspected China-linked hackers used AI to breach Taiwanese government networks. Few details are given.",
+    "actor": "Suspected China-linked hackers",
+    "actor_type": "unknown",
+    "sector": "Government & public sector",
+    "attribution": "Described as suspected China-linked; no formal attribution stated.",
+    "motive": "Unknown",
+    "vector": "Unknown; AI use reported but method not described.",
+    "root_cause": "Unknown",
+    "impact": "Taiwanese government network reportedly breached; scale unknown.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "confidence": 0.4,
+    "source": "朝鮮日報中文版",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPLUxERVdMY3EyTnpSMkxoRnYxTzU2N0tJak9KdFI0YkxLYVlaTlpvUEEyZmlhSWJlYndZUWs5VUd2dWRaWmozeVdQeHdRamZpbVlZV2lFbVNZcGhuelo5WTFQdW52Vl8xWGwyTGpGUm85czJEYzI1dEl3TzVVTVkyZGVjMnUxbVdoQklfVFo5emJSR2FKSGNfY1I3T0tCVDFD?oc=5",
+    "sources": [
+      {
+        "name": "朝鮮日報中文版",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPLUxERVdMY3EyTnpSMkxoRnYxTzU2N0tJak9KdFI0YkxLYVlaTlpvUEEyZmlhSWJlYndZUWs5VUd2dWRaWmozeVdQeHdRamZpbVlZV2lFbVNZcGhuelo5WTFQdW52Vl8xWGwyTGpGUm85czJEYzI1dEl3TzVVTVkyZGVjMnUxbVdoQklfVFo5emJSR2FKSGNfY1I3T0tCVDFD?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-17",
+        "event": "Reported by 朝鮮日報中文版"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-17T15:05:36Z",
+    "wire_id": "01ac4ab0c1ec",
+    "first_seen": "2026-10-14T14:39:51Z",
+    "first_published": "2026-10-14T02:43:19Z",
+    "updated_at": "2026-10-17T15:05:36Z"
+  },
+  {
+    "id": "fake-claude-install-page-clickfix",
+    "date": "2026-10-17",
+    "title": "Fake Claude installation page delivers malware via ClickFix",
+    "category": "AI supply chain",
+    "direction": "on-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "Users seeking to install Claude",
+    "loss_usd": null,
+    "summary": "A fake Claude installation page was reported to deliver malware using the ClickFix technique, per a Security Boulevard case write-up.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Individuals & consumers",
+    "attribution": "Unknown; the headline does not name an actor.",
+    "motive": "Unknown",
+    "vector": "Fake Claude installation page using ClickFix social engineering to get users to run malicious commands",
+    "root_cause": "Users are tricked into running attacker-supplied instructions from a page impersonating a legitimate AI tool installer.",
+    "impact": "Malware delivered to victims; number of victims and losses not stated.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "confidence": 0.45,
+    "source": "Security Boulevard",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPa0ItNXVjbjFJZzVUeF9odHlqZnlYdWFIT1JUN050Q3Z3RGdCNTdxSTZyamVheTlqaUV6WnhnZHdFQWdqdDZWcnpVYnBXeGNRSzNtQW9VSVhGTXBHdzJMVTZwUmVVMm1tb1doSWY0QXFqY1FtdEFTNU9Lb2FpYTE4d2Rkam5Ed3FONmk1T2cyRGtDNkhES0x4UkNpdHhoelJkYXdJV1ZnekpkaHRTX0w2UXVpeDBZQ3ZyQU0wZHZTb1lpYlE?oc=5",
+    "sources": [
+      {
+        "name": "Security Boulevard",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPa0ItNXVjbjFJZzVUeF9odHlqZnlYdWFIT1JUN050Q3Z3RGdCNTdxSTZyamVheTlqaUV6WnhnZHdFQWdqdDZWcnpVYnBXeGNRSzNtQW9VSVhGTXBHdzJMVTZwUmVVMm1tb1doSWY0QXFqY1FtdEFTNU9Lb2FpYTE4d2Rkam5Ed3FONmk1T2cyRGtDNkhES0x4UkNpdHhoelJkYXdJV1ZnekpkaHRTX0w2UXVpeDBZQ3ZyQU0wZHZTb1lpYlE?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-17",
+        "event": "Reported by Security Boulevard"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-17T15:05:36Z",
+    "wire_id": "59a1ad90b488",
+    "first_seen": "2026-10-14T14:39:51Z",
+    "first_published": "2026-10-13T21:14:14Z",
+    "updated_at": "2026-10-17T15:05:36Z"
+  },
+  {
+    "id": "uruguay-elderly-women-ai-scam-2026-10",
+    "date": "2026-10-17",
+    "title": "Two elderly Uruguayan women scammed, AI used in one case",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "low",
+    "country": "UY",
+    "region": "Latin America",
+    "target": "Two women aged 84 and 71",
+    "loss_usd": null,
+    "summary": "Two elderly women in Uruguay were victims of 'cuento del tío' fraud. In one case AI was used to carry out the scam. The AI technique and amounts are not given.",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "sector": "Individuals & consumers",
+    "attribution": "Not stated in the headline.",
+    "motive": "Financial gain",
+    "vector": "Confidence scam on elderly victims; AI used in one case, specific method not stated.",
+    "root_cause": "Social engineering of elderly victims, aided by AI in one case.",
+    "impact": "Two women aged 84 and 71 were defrauded; amounts not stated.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "confidence": 0.4,
+    "source": "subrayado.com.uy",
+    "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQZ0hyX01zVjlQQ1B0UThOeW1ZSUlOaWEzQl9Bem1ha3REb0RUUGMzTW5qUE5qdnNDRk1OZDJlZXZvZW9xd1JwOW9aQ1hYeDQ4c0VvVzkyRkZnVGFVZk9RLVdZbmtRNWM0cUIwMDZuMUtBdjF2Q0RBTzBudTdpNVYxaUdCa0I5NGFhTTZiVW9mVFpxcGNPUjlobEpHeGl1VEswS3oyWjJ1T3JOS2xpdXNwODRiMWxiWTVacU5QanhISWFpSklDbFNIS1BJQWZ3UzBCeEJ2dzdsRGtXdHJEeFHSAeMBQVVfeXFMUG1Wa3dPel83NDVneThmR0xxejY3RUJZYW5VQkNBRTBlNlZxQVI5SDU5TXkxb0hhUnZBSW9lTW1qX05DNzF2c0NwcW1zMmJHMHFvOG9FMUpCUnJMek1FTG9JYzRqV1lTTk04Qm55QmFKU0hXdE5DV2xfQTlmcnV0M0xySjlic0lqYVBWR3RQaGE3RGtFTjJ0Z21HaUJoNU5DUVVCR1Vwai1ENjdyOHlKZDdWaERVZXdXblAtaE1MbmpjbFByZ1FZRmJFZ2M1NGpXOEJpNWtDN0FyaENJSFZ4T1FzVm8?oc=5",
+    "sources": [
+      {
+        "name": "subrayado.com.uy",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQZ0hyX01zVjlQQ1B0UThOeW1ZSUlOaWEzQl9Bem1ha3REb0RUUGMzTW5qUE5qdnNDRk1OZDJlZXZvZW9xd1JwOW9aQ1hYeDQ4c0VvVzkyRkZnVGFVZk9RLVdZbmtRNWM0cUIwMDZuMUtBdjF2Q0RBTzBudTdpNVYxaUdCa0I5NGFhTTZiVW9mVFpxcGNPUjlobEpHeGl1VEswS3oyWjJ1T3JOS2xpdXNwODRiMWxiWTVacU5QanhISWFpSklDbFNIS1BJQWZ3UzBCeEJ2dzdsRGtXdHJEeFHSAeMBQVVfeXFMUG1Wa3dPel83NDVneThmR0xxejY3RUJZYW5VQkNBRTBlNlZxQVI5SDU5TXkxb0hhUnZBSW9lTW1qX05DNzF2c0NwcW1zMmJHMHFvOG9FMUpCUnJMek1FTG9JYzRqV1lTTk04Qm55QmFKU0hXdE5DV2xfQTlmcnV0M0xySjlic0lqYVBWR3RQaGE3RGtFTjJ0Z21HaUJoNU5DUVVCR1Vwai1ENjdyOHlKZDdWaERVZXdXblAtaE1MbmpjbFByZ1FZRmJFZ2M1NGpXOEJpNWtDN0FyaENJSFZ4T1FzVm8?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-17",
+        "event": "Reported by subrayado.com.uy"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-17T15:05:36Z",
+    "wire_id": "f65388210326",
+    "first_seen": "2026-10-14T14:39:51Z",
+    "first_published": "2026-10-13T18:01:00Z",
+    "updated_at": "2026-10-17T15:05:36Z"
   }
 ]
