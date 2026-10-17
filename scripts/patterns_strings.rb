@@ -193,6 +193,77 @@ PATTERNS["ru"][:share] = "Поделиться"; PATTERNS["ru"][:l_sector] = "С
 PATTERNS["en"][:share] = "Share"; PATTERNS["fr"][:share] = "Partager"; PATTERNS["es"][:share] = "Compartir"; PATTERNS["ar"][:share] = "مشاركة"; PATTERNS["zh"][:share] = "分享"
 PATTERNS["en"][:l_sector] = "Sector"; PATTERNS["fr"][:l_sector] = "Secteur"; PATTERNS["es"][:l_sector] = "Sector"; PATTERNS["ar"][:l_sector] = "القطاع"; PATTERNS["zh"][:l_sector] = "行业"
 
+# Captions for the "For finance and risk teams" section of the Patterns page.
+FIN_STRINGS = {
+  "en" => {
+    fin_h: "For finance and risk teams",
+    fin_lede: "What AI security incidents cost, whether your sector is being hit, and which AI products keep appearing in them. Computed from the case files and updated with every run.",
+    f_cost_h: "What it costs: the largest documented losses",
+    f_cost_c: "Only {n} of {m} case files disclose a loss figure. Almost all of the documented money is deepfake fraud: impersonated executives on video calls, cloned voices, fake investment videos. Breaches of AI systems rarely publish a cost.",
+    f_fin_h: "Financial services",
+    f_fin_c: "{n} case files hit banks, payment firms, insurers or crypto platforms directly, and {ind} hit individual customers, mostly through fraud. Most frequent attack types against the sector: {tops}. Latest cases:",
+    f_vendor_h: "Third-party risk: AI products named in case files",
+    f_vendor_c: "How often an AI product or platform appears in a case file, as the target, the tool abused, or the flaw exploited. A high count is not proof that a product is unsafe; it shows where attackers and researchers are looking, and which vendors to ask questions about.",
+    l_case: "Case", l_loss: "Loss", l_product: "Product", l_ch: "Critical or high", l_cve: "With a CVE", l_latest: "Latest case", home_fin: "Finance & risk", fin_page: "Finance & risk view →"
+  },
+  "fr" => {
+    fin_h: "Pour les équipes finance et risques",
+    fin_lede: "Ce que coûtent les incidents de sécurité de l’IA, si votre secteur est touché et quels produits d’IA y reviennent. Calculé à partir des dossiers et mis à jour à chaque passage.",
+    f_cost_h: "Ce que cela coûte : les plus fortes pertes documentées",
+    f_cost_c: "Seuls {n} dossiers sur {m} indiquent un montant. Presque tout l’argent documenté relève de la fraude par deepfake : dirigeants usurpés en visioconférence, voix clonées, fausses vidéos d’investissement. Les compromissions de systèmes d’IA publient rarement un coût.",
+    f_fin_h: "Services financiers",
+    f_fin_c: "{n} dossiers touchent directement des banques, sociétés de paiement, assureurs ou plateformes crypto, et {ind} touchent des clients particuliers, surtout par la fraude. Types d’attaque les plus fréquents contre le secteur : {tops}. Derniers dossiers :",
+    f_vendor_h: "Risque tiers : produits d’IA cités dans les dossiers",
+    f_vendor_c: "Fréquence à laquelle un produit ou une plateforme d’IA apparaît dans un dossier, comme cible, outil détourné ou faille exploitée. Un chiffre élevé ne prouve pas qu’un produit est dangereux ; il montre où regardent attaquants et chercheurs, et à quels fournisseurs poser des questions.",
+    l_case: "Dossier", l_loss: "Perte", l_product: "Produit", l_ch: "Critique ou élevée", l_cve: "Avec une CVE", l_latest: "Dernier dossier", home_fin: "Finance et risques", fin_page: "Vue finance et risques →"
+  },
+  "es" => {
+    fin_h: "Para equipos de finanzas y riesgos",
+    fin_lede: "Cuánto cuestan los incidentes de seguridad de la IA, si su sector está siendo afectado y qué productos de IA aparecen en ellos. Calculado a partir de los expedientes y actualizado en cada ejecución.",
+    f_cost_h: "Cuánto cuesta: las mayores pérdidas documentadas",
+    f_cost_c: "Solo {n} de {m} expedientes revelan una cifra de pérdida. Casi todo el dinero documentado es fraude con deepfakes: directivos suplantados en videollamadas, voces clonadas, vídeos de inversión falsos. Las brechas de sistemas de IA rara vez publican un coste.",
+    f_fin_h: "Servicios financieros",
+    f_fin_c: "{n} expedientes afectan directamente a bancos, empresas de pagos, aseguradoras o plataformas cripto, y {ind} afectan a clientes particulares, sobre todo mediante fraude. Tipos de ataque más frecuentes contra el sector: {tops}. Últimos casos:",
+    f_vendor_h: "Riesgo de terceros: productos de IA citados en los expedientes",
+    f_vendor_c: "Con qué frecuencia un producto o plataforma de IA aparece en un expediente, como objetivo, herramienta abusada o fallo explotado. Una cifra alta no prueba que un producto sea inseguro; muestra dónde miran atacantes e investigadores y a qué proveedores conviene preguntar.",
+    l_case: "Expediente", l_loss: "Pérdida", l_product: "Producto", l_ch: "Crítica o alta", l_cve: "Con CVE", l_latest: "Último caso", home_fin: "Finanzas y riesgos", fin_page: "Vista de finanzas y riesgos →"
+  },
+  "ar" => {
+    fin_h: "لفرق المالية وإدارة المخاطر",
+    fin_lede: "كم تكلّف حوادث أمن الذكاء الاصطناعي، وهل قطاعك مستهدف، وأي منتجات الذكاء الاصطناعي تتكرر فيها. محسوبة من الملفات ومحدّثة مع كل تشغيل.",
+    f_cost_h: "الكلفة: أكبر الخسائر الموثّقة",
+    f_cost_c: "{n} فقط من {m} ملفًا تفصح عن رقم للخسارة. تكاد كل الأموال الموثّقة تعود إلى الاحتيال بالتزييف العميق: انتحال صفة مديرين في مكالمات الفيديو، وأصوات مستنسخة، وفيديوهات استثمار مزيفة. نادرًا ما تُنشر كلفة اختراقات أنظمة الذكاء الاصطناعي.",
+    f_fin_h: "الخدمات المالية",
+    f_fin_c: "{n} ملفًا تستهدف مباشرة مصارف أو شركات دفع أو تأمين أو منصات عملات مشفّرة، و{ind} ملفًا تستهدف العملاء الأفراد، غالبًا عبر الاحتيال. أكثر أنواع الهجمات تكرارًا ضد القطاع: {tops}. أحدث الملفات:",
+    f_vendor_h: "مخاطر الأطراف الثالثة: منتجات الذكاء الاصطناعي المذكورة في الملفات",
+    f_vendor_c: "عدد مرات ظهور منتج أو منصة ذكاء اصطناعي في ملف، كهدف أو أداة مُساء استخدامها أو ثغرة مستغلة. الرقم المرتفع لا يثبت أن المنتج غير آمن؛ بل يبيّن أين ينظر المهاجمون والباحثون، وأي المزوّدين ينبغي سؤالهم.",
+    l_case: "الملف", l_loss: "الخسارة", l_product: "المنتج", l_ch: "حرجة أو عالية", l_cve: "مع CVE", l_latest: "أحدث ملف", home_fin: "المالية والمخاطر", fin_page: "عرض المالية والمخاطر ←"
+  },
+  "zh" => {
+    fin_h: "面向财务与风控团队",
+    fin_lede: "AI 安全事件的代价、您所在行业是否受到冲击，以及哪些 AI 产品反复出现。根据案例档案计算，每次运行时更新。",
+    f_cost_h: "代价：有记录的最大损失",
+    f_cost_c: "{m} 份档案中只有 {n} 份披露了损失金额。几乎所有有记录的损失都来自深度伪造欺诈：视频会议中冒充高管、克隆语音、虚假投资视频。针对 AI 系统的入侵很少公布成本。",
+    f_fin_h: "金融服务",
+    f_fin_c: "{n} 份档案直接针对银行、支付公司、保险公司或加密平台，另有 {ind} 份针对个人客户，主要通过欺诈。针对该行业最常见的攻击类型：{tops}。最新档案：",
+    f_vendor_h: "第三方风险：案例档案中提到的 AI 产品",
+    f_vendor_c: "某个 AI 产品或平台在案例档案中出现的次数，包括作为目标、被滥用的工具或被利用的漏洞。数量高并不证明产品不安全；它显示攻击者和研究人员的关注点，以及应向哪些供应商提问。",
+    l_case: "档案", l_loss: "损失", l_product: "产品", l_ch: "严重或高", l_cve: "含 CVE", l_latest: "最新档案", home_fin: "财务与风控", fin_page: "财务与风控视图 →"
+  },
+  "ru" => {
+    fin_h: "Для финансовых служб и риск-менеджмента",
+    fin_lede: "Во что обходятся инциденты безопасности ИИ, затронута ли ваша отрасль и какие ИИ-продукты в них повторяются. Рассчитано по досье и обновляется при каждом запуске.",
+    f_cost_h: "Во что это обходится: крупнейшие задокументированные потери",
+    f_cost_c: "Лишь {n} из {m} досье раскрывают сумму ущерба. Почти все задокументированные деньги приходятся на мошенничество с дипфейками: подмена руководителей в видеозвонках, клонированные голоса, фальшивые инвестиционные ролики. Взломы ИИ-систем редко сопровождаются публикацией стоимости.",
+    f_fin_h: "Финансовые услуги",
+    f_fin_c: "{n} досье напрямую касаются банков, платёжных компаний, страховщиков или криптоплатформ, ещё {ind} — частных клиентов, в основном через мошенничество. Самые частые типы атак на отрасль: {tops}. Последние досье:",
+    f_vendor_h: "Риски третьих сторон: ИИ-продукты, упомянутые в досье",
+    f_vendor_c: "Как часто ИИ-продукт или платформа появляется в досье — как цель, злоупотреблённый инструмент или эксплуатируемая уязвимость. Высокий показатель не доказывает, что продукт небезопасен; он показывает, куда смотрят злоумышленники и исследователи и каким поставщикам стоит задать вопросы.",
+    l_case: "Досье", l_loss: "Ущерб", l_product: "Продукт", l_ch: "Критичные или высокие", l_cve: "С CVE", l_latest: "Последнее досье", home_fin: "Финансы и риски", fin_page: "Раздел «Финансы и риски» →"
+  }
+}
+FIN_STRINGS.each { |l, h| PATTERNS[l] = (PATTERNS[l] || {}).merge(h) }
+
 # Victim sector, a closed list tagged on every case file (field `sector`).
 SECTOR_NAMES = {
   "en" => {},

@@ -577,7 +577,7 @@ end
 
 def bar(lang, current)
   q = lang == "en" ? "" : "?lang=#{lang}"
-  links = [["#{'/' + q}#map", t(lang, "nav_map"), "map"], ["/#{q}#wire", t(lang, "nav_wire"), "wire"], ["/#{q}#markets", t(lang, "nav_markets"), "markets"], ["#{pre(lang)}/patterns/", t(lang, "nav_patterns"), "patterns"], ["/#{q}#data", t(lang, "nav_data"), "data"], ["#{pre(lang)}/why/", t(lang, "nav_why"), "why"], ["#{pre(lang)}/cases/", x(lang, :all_cases), "cases"]]
+  links = [["#{'/' + q}#map", t(lang, "nav_map"), "map"], ["/#{q}#wire", t(lang, "nav_wire"), "wire"], ["#{pre(lang)}/patterns/", t(lang, "nav_patterns"), "patterns"], ["/#{q}#data", t(lang, "nav_data"), "data"], ["#{pre(lang)}/why/", t(lang, "nav_why"), "why"], ["#{pre(lang)}/cases/", x(lang, :all_cases), "cases"]]
   nav = links.map { |href, label, key| %(<a href="#{h(href)}"#{key == current ? ' aria-current="page"' : ''}>#{h(label)}</a>) }.join
   %(<div class="bar"><a class="brand" href="/#{q}"><i></i>AI Threat Watch</a><nav class="views" aria-label="Sections">#{nav}</nav><div class="bar-right" id="langbar"></div></div>)
 end
@@ -971,7 +971,6 @@ llm << "## Key pages"
 llm << "- [All verified case files](#{BASE}/cases/): #{incidents.size} incidents, newest first, with hubs by type and country"
 llm << "- [Interactive world map](#{BASE}/): the same cases on a map with filters"
 llm << "- [Live wire](#{BASE}/#wire): AI security headlines from vetted sources, refreshed every 30 minutes (machine-triaged, not verified)"
-llm << "- [Market reaction](#{BASE}/#markets): share-price moves of listed companies after incidents (methodology on the page)"
 llm << "- [Data and citing](#{BASE}/#data): download links, field list, inclusion rule, severity scale"
 llm << "- [Patterns and statistics](#{BASE}/patterns/): trends recomputed each update from the verified case files: cases per quarter by direction (on AI vs with AI), category heat map, attacks by autonomous AI agents, actor types by year, severity mix, documented losses by category, victim sectors, countries, status and verification speed, wire volume by kind; numbers as JSON at #{BASE}/data/stats.json"
 llm << "- [Why this exists](#{BASE}/why/): the founder's statement of purpose: AI's benefits are worth defending, the harm is documented and happening now, incidents were scattered so victims started from zero; who the registry serves; independent, nobody pays for content"

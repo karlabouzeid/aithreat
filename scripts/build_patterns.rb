@@ -26,6 +26,7 @@ PATTERNS_CSS = <<~CSS
   .bars{display:grid;gap:6px;margin:6px 0 10px}.bars div{display:grid;grid-template-columns:minmax(120px,38%) 1fr 44px;gap:10px;align-items:center;font-size:13px}.bars i{display:block;height:12px;border-radius:3px;background:var(--accent);min-width:2px}.bars em{font:12px var(--f-mono);color:var(--muted);font-style:normal;text-align:end}
   .method{font-size:12px;color:var(--muted);background:var(--surface);border:1px dashed var(--line2);border-radius:8px;padding:10px 12px;margin:18px 0}
   ul.cases.auto li{grid-template-columns:96px 1fr}
+  h2.fin-h{font-size:clamp(22px,3vw,28px);margin:28px 0 6px;scroll-margin-top:16px}
 CSS
 
 def quarter_of(d)
@@ -123,6 +124,18 @@ def hbars(rows, fmt: ->(v) { v.to_s })
   %(<div class="bars">#{rows.map { |name, v| %(<div><span>#{h(name)}</span><i style="width:#{(100.0 * v / max).round(1)}%"></i><em>#{h(fmt.call(v))}</em></div>) }.join}</div>)
 end
 
+# AI products and platforms counted in the third-party risk table: display name => pattern
+# matched against a case file's title, target, vector and summary.
+AI_PRODUCTS = {
+  "OpenAI / ChatGPT" => /\b(OpenAI|ChatGPT|Codex|GPT-[0-9o])/i, "Anthropic / Claude" => /\b(Anthropic|Claude)\b/i,
+  "Google Gemini" => /\b(Gemini|Antigravity)\b/i, "Microsoft Copilot" => /\bCopilot\b/i, "Meta AI / Llama" => /\b(Meta AI|Llama)\b/,
+  "xAI / Grok" => /\b(xAI|Grok)\b/, "DeepSeek" => /\bDeepSeek\b/i, "Cursor" => /\bCursor\b/, "Langflow" => /\bLangflow\b/i,
+  "LiteLLM" => /\bLiteLLM\b/i, "MLflow" => /\bMLflow\b/i, "Ray (Anyscale)" => /\b(Ray|Anyscale|ShadowRay)\b/, "n8n" => /\bn8n\b/i,
+  "Hugging Face" => /\bHugging ?Face\b/i, "MCP servers" => /\bMCP\b/, "OpenClaw" => /\bOpenClaw\b/i, "Ollama" => /\bOllama\b/i,
+  "Replit" => /\bReplit\b/i, "Lovable" => /\bLovable\b/i, "Salesforce Agentforce" => /\b(Agentforce|Salesforce)\b/,
+  "Amazon Q / Bedrock" => /\b(Amazon Q|Bedrock)\b/, "Slack AI" => /\bSlack AI\b/i
+}.freeze
+
 def patterns_stats(incidents, pulse)
   now = Time.now.utc
   today = now.strftime("%Y-%m-%d")
@@ -157,8 +170,20 @@ def patterns_stats(incidents, pulse)
   median_h = speeds.empty? ? nil : speeds[speeds.size / 2]
   pulse_days = pulse.keys.sort.last(28)
   kinds = %w[incident vulnerability research vendor-report policy other untagged]
-  {
-    "generated_at" => now.iso8601, "total" => all.size, "trend_from" => TREND_FROM,
+fin = all.select { |i| i["sector"] == "Financial services" }
+ind = all.select { |i| i["sector"] == "Individuals & consumers" }
+vendors = AI_PRODUCTS.map do |name, re|
+  hits = all.select { |i| [i["title"], i["target"], i["vector"], i["summary"]].join(" ") =~ re }
+  { "product" => name, "n" => hits.size, "critical_high" => hits.count { |i| %w[critical high].include?(i["severity"]) },
+    "with_cve" => hits.count { |i| i["cve"].to_s =~ /CVE-/ }, "latest" => hits.max_by { |i| i["date"].to_s }&.fetch("id") }
+end.select { |v| v["n"] > 0 }.sort_by { |v| [-v["n"], v["product"]] }
+{
+  "generated_at" => now.iso8601, "total" => all.size, "trend_from" => TREND_FROM,
+  "finance" => { "top_losses" => losses.sort_by { |i| -i["loss_usd"].to_f }.first(8).map { |i| i["id"] },
+    "financial_services" => fin.size, "individuals" => ind.size,
+    "fin_by_category" => fin.group_by { |i| i["category"] }.map { |k, v| [k, v.size] }.sort_by { |_, n| -n }.to_h,
+    "fin_by_quarter" => quarters.map { |q| fin.count { |i| i["date"].to_s >= TREND_FROM && quarter_of(i["date"]) == q } },
+    "fin_latest" => fin.sort_by { |i| i["date"].to_s }.reverse.first(5).map { |i| i["id"] }, "vendors" => vendors.first(15) },
     "this_quarter" => { "q" => cur_q, "n" => (by_q[cur_q] || []).size, "prev_q" => prev_q, "prev_n" => (by_q[prev_q] || []).size },
     "direction" => { "on-ai" => all.count { |i| i["direction"] == "on-ai" }, "with-ai" => all.count { |i| i["direction"] == "with-ai" } },
     "on_ai_share_first_half" => pct(first_half.count { |i| i["direction"] == "on-ai" }, first_half.size), "on_ai_share_last_half" => pct(last_half.count { |i| i["direction"] == "on-ai" }, last_half.size),
@@ -250,6 +275,21 @@ def patterns_page(lang, st, incidents)
   pulse_svg = pulse.empty? ? %(<p class="cap">#{h(x(lang, :l_na))}</p>) : legend(s_pulse) + stacked_bars(pulse.map { |p| p["day"][5, 5] }, s_pulse, x(lang, :s_pulse_h), hgt: 230)
 
   cap = ->(key, vars = {}) { %(<p class="cap">#{h(x(lang, key, vars))}</p>) }
+# For finance and risk teams: what incidents cost, the financial sector, third-party AI products.
+fi = st["finance"]
+byid = ->(id) { incidents.find { |i| i["id"] == id } }
+link = ->(i) { li = localized(i, lang) || i; %(<a href="#{case_url(lang, i['id'])}">#{h(li['title'])}</a>) }
+loss_rows = fi["top_losses"].map(&byid).compact.map { |i| %(<tr><td>#{h(fmt_date(i['date'], lang))}</td><td>#{link.call(i)}</td><td class="n">#{h(fmt_money_short(i['loss_usd'].to_f))}</td></tr>) }.join
+loss_tbl = %(<table class="pt"><thead><tr><th>#{h(t(lang, 'reported'))}</th><th>#{h(x(lang, :l_case))}</th><th>#{h(x(lang, :l_loss))}</th></tr></thead><tbody>#{loss_rows}</tbody></table>)
+fin_svg = stacked_bars(qlabels, [[x(lang, :f_fin_h), "#4fd1a1", fi["fin_by_quarter"]]], x(lang, :f_fin_h), hgt: 180)
+fin_list = %(<ul class="cases auto">#{fi['fin_latest'].map(&byid).compact.map { |i| %(<li><time>#{h(fmt_date(i['date'], lang))}</time><span>#{link.call(i)}</span></li>) }.join}</ul>)
+tops = fi["fin_by_category"].keys.first(3).map { |c| cat_name.call(c) }.join(", ")
+v_rows = fi["vendors"].map { |v| li = v["latest"] && byid.call(v["latest"]); %(<tr><td>#{h(v['product'])}</td><td class="n">#{v['n']}</td><td class="n">#{v['critical_high']}</td><td class="n">#{v['with_cve']}</td><td>#{li ? link.call(li) : ''}</td></tr>) }.join
+v_tbl = %(<table class="pt"><thead><tr><th>#{h(x(lang, :l_product))}</th><th>#{h(x(lang, :l_count))}</th><th>#{h(x(lang, :l_ch))}</th><th>#{h(x(lang, :l_cve))}</th><th>#{h(x(lang, :l_latest))}</th></tr></thead><tbody>#{v_rows}</tbody></table>)
+finance_html = %(<h2 id="finance" class="fin-h">#{h(x(lang, :fin_h))}</h2><p class="lede">#{h(x(lang, :fin_lede))}</p>) +
+  %(<div class="two"><section class="sec"><h2>#{h(x(lang, :f_cost_h))}</h2>#{loss_tbl}#{cap.call(:f_cost_c, n: st['losses']['disclosed'], m: st['total'])}</section>) +
+  %(<section class="sec"><h2>#{h(x(lang, :f_fin_h))}</h2>#{fin_svg}#{cap.call(:f_fin_c, n: fi['financial_services'], ind: fi['individuals'], tops: tops)}#{fin_list}</section></div>) +
+  %(<section class="sec"><h2>#{h(x(lang, :f_vendor_h))}</h2><div style="overflow-x:auto">#{v_tbl}</div>#{cap.call(:f_vendor_c)}</section>)
   real_note = %(<p class="cap">#{h(x(lang, :l_real_only, n: st['total'] - st['researcher_demos']))}</p>)
   body = <<~HTML
     #{crumbs_html(lang, [[x(lang, :patterns), nil]])}
@@ -268,6 +308,7 @@ def patterns_page(lang, st, incidents)
       <section class="sec"><h2>#{h(x(lang, :s_money_h))}</h2>#{money_html}#{cap.call(:s_money_c, total: fmt_money_short(st['losses']['total_usd']), n: st['losses']['disclosed'], m: st['total'], deep: st['losses']['deepfake_share_pct'])}</section>
       <section class="sec"><h2>#{h(x(lang, :s_sector_h))}</h2>#{sector_html}#{cap.call(:s_sector_c)}</section>
     </div>
+    #{finance_html}
     <div class="two">
       <section class="sec"><h2>#{h(x(lang, :s_geo_h))}</h2>#{geo_html}#{cap.call(:s_geo_c, gl: st['global_pct'], top: top_c ? place_name(lang, top_c['country']) : '—', topn: top_c ? top_c['n'] : 0)}</section>
       <section class="sec"><h2>#{h(x(lang, :s_status_h))}</h2>#{status_html}#{cap.call(:s_status_c, unres: st['unresolved_pct'], speed: speed)}</section>
