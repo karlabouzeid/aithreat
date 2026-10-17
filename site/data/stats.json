@@ -1,7 +1,151 @@
 {
-  "generated_at": "2026-10-17T14:06:03Z",
+  "generated_at": "2026-10-17T14:39:42Z",
   "total": 329,
   "trend_from": "2025-01-01",
+  "finance": {
+    "top_losses": [
+      "fideuram-ai-voice-clone-ceo-fraud",
+      "austria-albania-van-der-bellen-crypto",
+      "sweden-deepfake-pump-dump-500m-sek",
+      "tbilisi-deepfake-crypto-boiler-room-uk",
+      "spain-coinblack-deepfake-crypto",
+      "turkey-osmaniye-deepfake-410m-tl",
+      "ai-music-streaming-royalty-fraud",
+      "vietnam-deepfake-extortion-ring"
+    ],
+    "financial_services": 12,
+    "individuals": 85,
+    "fin_by_category": {
+      "Deepfake fraud": 8,
+      "State actor AI ops": 2,
+      "AI-assisted malware": 1,
+      "AI phishing": 1
+    },
+    "fin_by_quarter": [
+      1,
+      0,
+      0,
+      4,
+      3,
+      2,
+      1,
+      1
+    ],
+    "fin_latest": [
+      "artex-ai-driven-korea-finance",
+      "fideuram-ai-voice-clone-ceo-fraud",
+      "israel-synthetic-identity-ai-agents",
+      "ahmedabad-aadhaar-deepfake-racket",
+      "onlyfake-nazarenko-guilty-plea"
+    ],
+    "vendors": [
+      {
+        "product": "OpenAI / ChatGPT",
+        "n": 51,
+        "critical_high": 26,
+        "with_cve": 0,
+        "latest": "aoki-infostealer-ai-assistant-creds"
+      },
+      {
+        "product": "Anthropic / Claude",
+        "n": 37,
+        "critical_high": 27,
+        "with_cve": 3,
+        "latest": "aoki-infostealer-ai-assistant-creds"
+      },
+      {
+        "product": "Google Gemini",
+        "n": 20,
+        "critical_high": 8,
+        "with_cve": 0,
+        "latest": "gemini-breakout-hacks-three-companies"
+      },
+      {
+        "product": "MCP servers",
+        "n": 15,
+        "critical_high": 10,
+        "with_cve": 6,
+        "latest": "poellm-botnet-exposed-ai-servers"
+      },
+      {
+        "product": "Microsoft Copilot",
+        "n": 12,
+        "critical_high": 6,
+        "with_cve": 4,
+        "latest": "wiz-red-agent-snowflake-jira"
+      },
+      {
+        "product": "Cursor",
+        "n": 9,
+        "critical_high": 7,
+        "with_cve": 2,
+        "latest": "aoki-infostealer-ai-assistant-creds"
+      },
+      {
+        "product": "DeepSeek",
+        "n": 8,
+        "critical_high": 6,
+        "with_cve": 0,
+        "latest": "aikido-jetbrains-ai-key-theft"
+      },
+      {
+        "product": "Hugging Face",
+        "n": 8,
+        "critical_high": 6,
+        "with_cve": 1,
+        "latest": "truffle-aws-keys-hugging-face"
+      },
+      {
+        "product": "OpenClaw",
+        "n": 8,
+        "critical_high": 4,
+        "with_cve": 1,
+        "latest": "openclaw-skill-remcos-ghostloader"
+      },
+      {
+        "product": "Meta AI / Llama",
+        "n": 6,
+        "critical_high": 2,
+        "with_cve": 0,
+        "latest": "meta-ai-model-exploits-flaw-in-eval"
+      },
+      {
+        "product": "LiteLLM",
+        "n": 5,
+        "critical_high": 5,
+        "with_cve": 4,
+        "latest": "litellm-sqli-cve-2026-42208"
+      },
+      {
+        "product": "Ollama",
+        "n": 5,
+        "critical_high": 2,
+        "with_cve": 1,
+        "latest": "poellm-botnet-exposed-ai-servers"
+      },
+      {
+        "product": "Langflow",
+        "n": 4,
+        "critical_high": 4,
+        "with_cve": 4,
+        "latest": "langflow-summer-2026-kev-wave"
+      },
+      {
+        "product": "Lovable",
+        "n": 4,
+        "critical_high": 3,
+        "with_cve": 1,
+        "latest": "lovable-pre-nov-2025-projects"
+      },
+      {
+        "product": "xAI / Grok",
+        "n": 4,
+        "critical_high": 2,
+        "with_cve": 0,
+        "latest": "grok-chats-indexed"
+      }
+    ]
+  },
   "this_quarter": {
     "q": "2026-Q4",
     "n": 38,
@@ -688,7 +832,7 @@
         "vulnerability": 0,
         "research": 0,
         "vendor-report": 0,
-        "policy": 0,
+        "policy": 1,
         "other": 0,
         "untagged": 1
       }
@@ -714,43 +858,43 @@
         "vendor-report": 3,
         "policy": 2,
         "other": 19,
-        "untagged": 128
+        "untagged": 126
       }
     },
     {
       "day": "2026-10-15",
       "kinds": {
-        "incident": 14,
+        "incident": 15,
         "vulnerability": 6,
         "research": 33,
-        "vendor-report": 13,
-        "policy": 11,
-        "other": 35,
-        "untagged": 107
+        "vendor-report": 14,
+        "policy": 12,
+        "other": 36,
+        "untagged": 32
       }
     },
     {
       "day": "2026-10-16",
       "kinds": {
-        "incident": 23,
-        "vulnerability": 1,
-        "research": 28,
-        "vendor-report": 7,
-        "policy": 23,
-        "other": 14,
-        "untagged": 115
+        "incident": 31,
+        "vulnerability": 4,
+        "research": 29,
+        "vendor-report": 12,
+        "policy": 29,
+        "other": 19,
+        "untagged": 0
       }
     },
     {
       "day": "2026-10-17",
       "kinds": {
-        "incident": 0,
-        "vulnerability": 0,
-        "research": 0,
-        "vendor-report": 0,
-        "policy": 0,
-        "other": 0,
-        "untagged": 58
+        "incident": 10,
+        "vulnerability": 1,
+        "research": 2,
+        "vendor-report": 2,
+        "policy": 4,
+        "other": 10,
+        "untagged": 0
       }
     }
   ]

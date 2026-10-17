@@ -1213,5 +1213,140 @@
     "first_seen": "2026-10-17T13:52:15Z",
     "first_published": "2026-09-30T07:00:00Z",
     "updated_at": "2026-10-17T13:52:15Z"
+  },
+  {
+    "id": "haute-loire-ai-fake-benefit-docs",
+    "date": "2026-10-17",
+    "title": "Haute-Loire benefit fraud: 229 cases as AI-made fake documents surge",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "FR",
+    "region": "Europe",
+    "target": "Benefit payment agencies in Haute-Loire, France",
+    "loss_usd": null,
+    "summary": "Authorities in Haute-Loire detected 229 benefit fraud cases, with a sharp rise in forged documents attributed to AI tools.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Government & public sector",
+    "attribution": "Unknown",
+    "motive": "Fraudulently obtaining benefit payments",
+    "vector": "AI-generated or AI-altered fake supporting documents submitted with benefit claims",
+    "root_cause": "Unknown",
+    "impact": "229 fraud cases detected; the number of fake documents is reported to be exploding with AI.",
+    "response": "Authorities detected and flagged the 229 cases; further measures Unknown.",
+    "status": "under investigation",
+    "cve": null,
+    "confidence": 0.45,
+    "source": "L’Éveil de la Haute-Loire",
+    "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNQWk1eU9VejAwVVFRNnV4WUlsaFR0T2dab3RfckxjdEY5WUp3R0pkWU5raGJBRUVPZWVkakt3ZXhXRkJPTG9PaG50clVTcC1PZ2dLX0otR0YzRktNLU00WXV6MGNKdDJWREwyYzRRUVdhSWh5bGdocnpKenNPYV9MZjhsb1dVeFA0ZWhETDgyWTZRS3praXV6VWlCclFiU203dk5zRVZMS1NvMmZkYXNqMkgxdVdTS1Q5a1BfODN6MWE3MDAtM01KNGtaOEw0QUotamUzSlRWRVRuNWpUc3NLVVFFTmNlc2dremVIUmln?oc=5",
+    "sources": [
+      {
+        "name": "L’Éveil de la Haute-Loire",
+        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNQWk1eU9VejAwVVFRNnV4WUlsaFR0T2dab3RfckxjdEY5WUp3R0pkWU5raGJBRUVPZWVkakt3ZXhXRkJPTG9PaG50clVTcC1PZ2dLX0otR0YzRktNLU00WXV6MGNKdDJWREwyYzRRUVdhSWh5bGdocnpKenNPYV9MZjhsb1dVeFA0ZWhETDgyWTZRS3praXV6VWlCclFiU203dk5zRVZMS1NvMmZkYXNqMkgxdVdTS1Q5a1BfODN6MWE3MDAtM01KNGtaOEw0QUotamUzSlRWRVRuNWpUc3NLVVFFTmNlc2dremVIUmln?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-17",
+        "event": "Reported by L’Éveil de la Haute-Loire"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-17T14:35:35Z",
+    "wire_id": "5879ab6e1135",
+    "first_seen": "2026-10-17T07:35:35Z",
+    "first_published": "2026-10-17T07:00:00Z",
+    "updated_at": "2026-10-17T14:35:35Z"
+  },
+  {
+    "id": "japan-ai-attack-lawson-burger-king",
+    "date": "2026-10-17",
+    "title": "Large-scale AI hacking in Japan leaks Lawson, Burger King user data and disrupts hospitals",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "JP",
+    "region": "Asia-Pacific",
+    "target": "Lawson, Burger King Japan users and Japanese hospitals",
+    "loss_usd": null,
+    "summary": "A reported large-scale AI-driven hacking wave in Japan exposed user data of Lawson and Burger King and paralysed hospitals. Details come from a headline only.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Multiple / cross-sector",
+    "attribution": "Unknown",
+    "motive": "Unknown",
+    "vector": "Unknown; described as AI hacker attacks",
+    "root_cause": "Unknown",
+    "impact": "User data from Lawson and Burger King exposed; hospital systems reportedly paralysed.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "confidence": 0.4,
+    "source": "VanPeople",
+    "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE43Vl9LR2lfdmRFYlVaYWZsakg0OVJMcHYzLWVBcHpkT3NEWFhIQTBBUGZ6bU5CZnFUNG9zM2JxdjdXNW5la3dHczl5RnFWck8t?oc=5",
+    "sources": [
+      {
+        "name": "VanPeople",
+        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE43Vl9LR2lfdmRFYlVaYWZsakg0OVJMcHYzLWVBcHpkT3NEWFhIQTBBUGZ6bU5CZnFUNG9zM2JxdjdXNW5la3dHczl5RnFWck8t?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-17",
+        "event": "Reported by VanPeople"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-17T14:35:35Z",
+    "wire_id": "4db36a519c54",
+    "first_seen": "2026-10-17T02:35:37Z",
+    "first_published": "2026-10-17T02:23:52Z",
+    "updated_at": "2026-10-17T14:35:35Z"
+  },
+  {
+    "id": "japan-ai-hacking-lawson-burger-king",
+    "date": "2026-10-17",
+    "title": "Large-scale AI hacking in Japan leaks Lawson and Burger King data, disables hospital",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "JP",
+    "region": "Asia-Pacific",
+    "target": "Lawson, Burger King Japan users and a hospital",
+    "loss_usd": null,
+    "summary": "Hong Kong outlet reports a large-scale AI-assisted hacking wave in Japan that exposed Lawson and Burger King user data and paralysed a hospital. Details are not given in the headline.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Multiple / cross-sector",
+    "attribution": "Unknown",
+    "motive": "Unknown",
+    "vector": "Unknown; reported only as AI-powered hacking attacks.",
+    "root_cause": "Unknown",
+    "impact": "User data from Lawson and Burger King reportedly leaked and a hospital's systems were paralysed.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "confidence": 0.35,
+    "source": "星島頭條",
+    "url": "https://news.google.com/rss/articles/CBMimgNBVV95cUxPSTFPNDlrc1lXR0xTNXB3QkVfeFZDQmpDOXpPMlRLWUZET0lPY0E2Mk5rTEtycE1YZDcxcDRPbkFNWUQxT2hRZlVLaHdlc2Z1UW14bGVyV2JwLW5XellMM2hYWnhmNGRCRXVZYUNkZlphVC1rM1lPN3F6dnBHRmZrX0RYamFHNzBENjBSdnNEZ2lwZXJEdm56T01jTHcxX19uYTZtRURjTmFXN08tZlJhTm4tM3M3emZIbzZxbGJTeHVsc2tIY1piWm01MFZ2OHRNVWVRcjM0OEtnRUxDbWVxcFIwejJmcWlmWjd5NFQ2ejBhRGN6MDNJN3hCVVpGTGxEZWpMZjdCLWNDbUsySmxEbTZIWWZ5RjVHRzlzTnhFTTUxN3VLd2I4blVBUnZnTkQ0b2NpWDltLU1UWlMtRWJWZlY5QlFRMWhOU2xyWUZYRlJGYmdMV1E3NjA3TU9zMWVpYXRXZXRwWEhsY0luZzdJLVhJWlJvaFV3UktPQk1fcVpBOHo4cnhKbjVNRjR2RUVhU2hBVU40aDhlUQ?oc=5",
+    "sources": [
+      {
+        "name": "星島頭條",
+        "url": "https://news.google.com/rss/articles/CBMimgNBVV95cUxPSTFPNDlrc1lXR0xTNXB3QkVfeFZDQmpDOXpPMlRLWUZET0lPY0E2Mk5rTEtycE1YZDcxcDRPbkFNWUQxT2hRZlVLaHdlc2Z1UW14bGVyV2JwLW5XellMM2hYWnhmNGRCRXVZYUNkZlphVC1rM1lPN3F6dnBHRmZrX0RYamFHNzBENjBSdnNEZ2lwZXJEdm56T01jTHcxX19uYTZtRURjTmFXN08tZlJhTm4tM3M3emZIbzZxbGJTeHVsc2tIY1piWm01MFZ2OHRNVWVRcjM0OEtnRUxDbWVxcFIwejJmcWlmWjd5NFQ2ejBhRGN6MDNJN3hCVVpGTGxEZWpMZjdCLWNDbUsySmxEbTZIWWZ5RjVHRzlzTnhFTTUxN3VLd2I4blVBUnZnTkQ0b2NpWDltLU1UWlMtRWJWZlY5QlFRMWhOU2xyWUZYRlJGYmdMV1E3NjA3TU9zMWVpYXRXZXRwWEhsY0luZzdJLVhJWlJvaFV3UktPQk1fcVpBOHo4cnhKbjVNRjR2RUVhU2hBVU40aDhlUQ?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-17",
+        "event": "Reported by 星島頭條"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-17T14:35:35Z",
+    "wire_id": "62ebd14f86f7",
+    "first_seen": "2026-10-17T02:05:33Z",
+    "first_published": "2026-10-17T01:39:20Z",
+    "updated_at": "2026-10-17T14:35:35Z"
   }
 ]
