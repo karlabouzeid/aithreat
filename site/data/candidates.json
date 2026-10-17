@@ -1618,5 +1618,50 @@
     "first_seen": "2026-10-17T20:35:37Z",
     "first_published": "2026-10-15T00:00:00Z",
     "updated_at": "2026-10-17T20:35:37Z"
+  },
+  {
+    "id": "opencode-hacked-api-keys-revoke",
+    "date": "2026-10-17",
+    "title": "OpenCode AI coding tool hacked; users urged to revoke API keys",
+    "category": "Model & data leak",
+    "direction": "on-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "OpenCode AI coding agent and its users",
+    "loss_usd": null,
+    "summary": "OpenCode was reportedly hacked, and users are being told to revoke their API keys. The headline gives no details on scope, method or data taken.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Technology & AI vendors",
+    "attribution": "Unknown",
+    "motive": "Unknown",
+    "vector": "Unknown",
+    "root_cause": "Unknown",
+    "impact": "Users' API keys may be exposed, so they are advised to revoke them. The scale is Unknown.",
+    "response": "Users urged to revoke their API keys.",
+    "status": "under investigation",
+    "cve": null,
+    "confidence": 0.45,
+    "source": "Notebookcheck",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOeUNIdmpuVjVpU0lLbWV4Z21xTVdwVnRhdU82WUlXYzVuWExlcnZyVDloZXNCTUhNMXAzbWQyVGRhck9Lb1B1UFZTa3JUOFpUeFR5clFPVTZ0ZVI1b040UGx4RjVvUWJZS3VVS1pEMG5rWkR5WFRpMFRmUHQybWdTVlRlNHZ5aDlRNW8wQWdYcjc4QU5aSzBBZDlheDVRQQ?oc=5",
+    "sources": [
+      {
+        "name": "Notebookcheck",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOeUNIdmpuVjVpU0lLbWV4Z21xTVdwVnRhdU82WUlXYzVuWExlcnZyVDloZXNCTUhNMXAzbWQyVGRhck9Lb1B1UFZTa3JUOFpUeFR5clFPVTZ0ZVI1b040UGx4RjVvUWJZS3VVS1pEMG5rWkR5WFRpMFRmUHQybWdTVlRlNHZ5aDlRNW8wQWdYcjc4QU5aSzBBZDlheDVRQQ?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-17",
+        "event": "Reported by Notebookcheck"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-17T21:05:39Z",
+    "wire_id": "a613f8e4a767",
+    "first_seen": "2026-10-17T21:05:39Z",
+    "first_published": "2026-10-17T19:42:00Z",
+    "updated_at": "2026-10-17T21:05:39Z"
   }
 ]
