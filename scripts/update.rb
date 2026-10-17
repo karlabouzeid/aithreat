@@ -386,4 +386,26 @@ File.write(File.join(SITE, "feeds", "index.json"), JSON.pretty_generate({ "gener
 
 status = { "updated_at" => now.iso8601, "wire_items" => wire.size, "new_items" => fresh.size, "candidates" => candidates.size, "incidents" => incidents.size, "feeds_ok" => feeds_ok, "feeds_failed" => feeds_failed, "triage" => triage_note }
 File.write(STATUS_PATH, JSON.pretty_generate(status))
+
+# Health alarm: tell the owner on Telegram when the wire goes stale (triage down, or many
+# sources failing) and again when it recovers. Only on a change of state, never every run.
+begin
+  bot, owner = ENV["TELEGRAM_BOT_TOKEN"].to_s.strip, ENV["TELEGRAM_OWNER_CHAT_ID"].to_s.strip
+  unless bot.empty? || owner.empty?
+    problems = []
+    problems << "sorting is failing: #{triage_note.to_s[0, 160]}" if triage_note.to_s.start_with?("triage failed")
+    problems << "#{feeds_failed.size} of #{feeds_ok.size + feeds_failed.size} sources failed: #{feeds_failed.first(6).join(', ')}" if feeds_failed.size >= 8
+    alarm_path = File.join(DATA, "alarm.json")
+    was = (JSON.parse(File.read(alarm_path)) rescue {})["problems"] || []
+    if problems.any? != was.any?
+      text = problems.any? ? "⚠️ AI Threat Watch needs attention\n\n• #{problems.join("\n• ")}\n\nThe site keeps the last good data until this is fixed." : "✅ AI Threat Watch is back to normal: sorting works and sources answer."
+      uri = URI("https://api.telegram.org/bot#{bot}/sendMessage")
+      Net::HTTP.post(uri, { chat_id: owner, text: text }.to_json, "Content-Type" => "application/json")
+      log "alarm sent: #{problems.any? ? 'problem' : 'recovered'}"
+    end
+    File.write(alarm_path, JSON.generate({ "problems" => problems, "checked_at" => now.iso8601 }))
+  end
+rescue => e
+  log "alarm failed: #{e.message}"
+end
 log status.to_json
