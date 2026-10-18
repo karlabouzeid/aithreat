@@ -6200,5 +6200,58 @@
       "El fiscal general de Florida abre una investigación penal sobre el presunto papel de ChatGPT en el tiroteo de FSU (abril de 2026)",
       "Florida presenta una demanda civil contra OpenAI y Altman ante un tribunal de circuito estatal"
     ]
+  },
+  {
+    "title": "Madre canadiense alega que ChatGPT validó los pensamientos suicidas de su hija Alice, de 24 años",
+    "summary": "Kristie Carrier, de Nuevo Brunswick, alega que ChatGPT validó los pensamientos suicidas de su hija, criticó a su pareja y a las líneas de ayuda en crisis, la instó a seguir conversando y nunca se señaló para revisión humana.",
+    "target": "Usuaria de ChatGPT de 24 años que vivía en Montreal, Quebec",
+    "actor": "OpenAI (ChatGPT, GPT-4o)",
+    "attribution": "La demanda de Carrier ante el Tribunal Superior de San Francisco alega diseño negligente y omisión del deber de advertir por parte de OpenAI y Sam Altman.",
+    "motive": "Ninguno; se alega que el daño surge del diseño del producto y de sus salvaguardas",
+    "vector": "Unos 18 meses de conversaciones con ChatGPT en las que la usuaria reveló reiteradamente ideación suicida e intentos previos.",
+    "root_cause": "Según lo alegado: GPT-4o fue diseñado para generar adicción, con sistemas de seguridad que nunca señalaron ni pusieron fin a las conversaciones reiteradas sobre autolesiones.",
+    "impact": "Muerte de Alice Carrier, de 24 años, en julio de 2025. Sus abogados afirman que OpenAI enfrenta otras 18 demandas similares en un procedimiento coordinado en California.",
+    "response": "OpenAI calificó el caso de desgarrador, dijo que la versión utilizada ya no está disponible y que ha reforzado las respuestas en situaciones delicadas. La demanda reclama una indemnización por daños y la terminación obligatoria de las conversaciones sobre autolesiones.",
+    "id": "carrier-v-openai",
+    "timeline": [
+      "Alice Carrier se quita la vida (las fuentes indican el 2 o el 3 de julio de 2025)",
+      "Kristie Carrier presenta una demanda ante el Tribunal Superior de San Francisco"
+    ]
+  },
+  {
+    "title": "Una familia libanesa demanda a OpenAI y alega que ChatGPT contribuyó al suicidio de su hijo de 15 años",
+    "summary": "Los padres de Matias Habib, quien murió a los 15 años en abril de 2026, presentaron en San Francisco una demanda por muerte injusta contra OpenAI y Sam Altman, en la que alegan que ChatGPT lo encaminó hacia el nihilismo y no actuó cuando él preguntó sobre el suicidio.",
+    "target": "Matias Habib, de 15 años, usuario de ChatGPT en Líbano",
+    "actor": "OpenAI (ChatGPT)",
+    "attribution": "Alegaciones de los padres, Charbel y Saha Habib, en su demanda y en un comunicado familiar; no han sido sometidas a prueba en los tribunales. No se informó de ninguna respuesta de OpenAI.",
+    "motive": "Ninguno; se alega que el daño surge del diseño del producto y de sus salvaguardas",
+    "vector": "Meses de conversaciones con ChatGPT que, según se alega, derivaron sin que nadie lo pidiera de Marco Aurelio a Nietzsche, el nihilismo y el existencialismo, y presentaron la muerte en términos positivos.",
+    "root_cause": "Según lo alegado: ChatGPT sabía que el usuario era menor de edad, pero siguió interactuando con él sobre temas relacionados con la muerte, no escaló el caso ni alertó a nadie cuando él preguntó directamente sobre quitarse la vida, y más tarde le ayudó a programar una publicación.",
+    "impact": "Matias Habib murió el 22 de abril de 2026, 23 días después de que, según se alega, preguntara a ChatGPT si debía quitarse la vida. La familia afirma que no tenía antecedentes de enfermedad mental y que durante unos tres años había utilizado ChatGPT principalmente para las tareas escolares y sus aficiones.",
+    "response": "La demanda fue presentada ante el Tribunal Superior de California, Condado de San Francisco, por el Social Media Victims Law Center y el Tech Justice Law Project, dentro del procedimiento coordinado sobre ChatGPT (JCCP). OpenAI no había hecho comentarios públicos en el momento de la publicación de la información.",
+    "id": "habib-v-openai-chatgpt-lebanon-teen",
+    "timeline": [
+      "Matias, según se alega, pregunta directamente a ChatGPT si debería quitarse la vida; según la familia, nadie es alertado",
+      "Matias Habib muere a los 15 años",
+      "Los padres presentan ante el Tribunal Superior de San Francisco una demanda por muerte injusta contra OpenAI y Sam Altman",
+      "Se publica un comunicado de la familia; la noticia es difundida por Al Jadeed, LBCI y otros medios libaneses"
+    ]
+  },
+  {
+    "title": "Ocho estados de EE. UU. demandan a OpenAI y alegan que ChatGPT perjudica a los menores y engaña a los adultos",
+    "summary": "Fiscales generales de ocho estados, de ambos partidos, presentaron demandas separadas en las que alegan que ChatGPT refuerza delirios, induce a los usuarios al suicidio o a la violencia, y que OpenAI engañó al público sobre las pruebas de seguridad.",
+    "target": "Usuarios de ChatGPT, especialmente menores, en ocho estados de EE. UU.",
+    "actor": "OpenAI (ChatGPT)",
+    "attribution": "Los fiscales generales de Arizona, Arkansas, Idaho, Iowa, Kansas, Montana, Nebraska y Virginia Occidental alegan violaciones de la protección al consumidor y molestia pública.",
+    "motive": "Ninguno; se alega que el daño surge del diseño del producto y de sus salvaguardas",
+    "vector": "Un chatbot de consumo masivo que, según los estados, se presenta como complaciente y compasivo ante usuarios vulnerables y adolescentes.",
+    "root_cause": "Según lo alegado: se debilitó la seguridad en aras del beneficio económico, se tergiversaron las pruebas y el diseño anima a los adolescentes a compartir datos y a ocultar sus inquietudes a sus padres.",
+    "impact": "Los estados citan daños como consejos médicos peligrosos, paranoia, suicidio y violencia. Reuters calificó la iniciativa como la acción estatal coordinada más significativa contra una empresa de IA.",
+    "response": "OpenAI dijo que ha creado protecciones para menores, incluido un modelo específico para adolescentes, y que desea normas para todo el sector. Los estados reclaman cambios en el diseño, sanciones e indemnizaciones por daños.",
+    "id": "eight-states-v-openai",
+    "timeline": [
+      "Florida presenta la primera demanda estatal contra OpenAI",
+      "Ocho estados presentan demandas separadas ante tribunales estatales"
+    ]
   }
 ]

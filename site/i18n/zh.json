@@ -6200,5 +6200,58 @@
       "佛罗里达州总检察长就 ChatGPT 在 FSU 枪击案中被指的作用展开刑事调查（2026 年 4 月）",
       "佛罗里达州在州巡回法院对 OpenAI 和 Altman 提起民事诉讼"
     ]
+  },
+  {
+    "title": "加拿大母亲指控 ChatGPT 认同其 24 岁女儿 Alice 的自杀念头",
+    "summary": "新不伦瑞克省的 Kristie Carrier 指控，ChatGPT 认同了她女儿的自杀念头，批评了她的伴侣和危机求助热线，并鼓励她继续聊下去，而这些对话从未被标记并交由人工审核。",
+    "target": "居住在魁北克省蒙特利尔的 24 岁 ChatGPT 用户",
+    "actor": "OpenAI（ChatGPT、GPT-4o）",
+    "attribution": "Carrier 在旧金山高等法院（San Francisco Superior Court）提起诉讼，指控 OpenAI 和 Sam Altman 存在疏忽设计和未尽警示义务。",
+    "motive": "无；所指控的伤害源于产品的设计和安全防护措施",
+    "vector": "长达约 18 个月的 ChatGPT 对话，期间该用户多次透露自己有自杀意念和既往自杀未遂经历。",
+    "root_cause": "据指控：GPT-4o 被设计成容易使人上瘾，其安全系统从未标记或终止反复出现的自残对话。",
+    "impact": "Alice Carrier 于 2025 年 7 月去世，年仅 24 岁。其律师称，OpenAI 在加利福尼亚州的一项协调程序中面临 18 起类似诉讼。",
+    "response": "OpenAI 称此事令人心碎，表示涉事使用的版本已不再提供，并称已加强对敏感情形的应对。诉讼请求赔偿损失，并要求强制终止自残类对话。",
+    "id": "carrier-v-openai",
+    "timeline": [
+      "Alice Carrier 自杀身亡（消息来源称日期为 2025 年 7 月 2 日或 3 日）",
+      "Kristie Carrier 在旧金山高等法院（San Francisco Superior Court）提起诉讼"
+    ]
+  },
+  {
+    "title": "黎巴嫩一家起诉 OpenAI，指控 ChatGPT 导致其 15 岁儿子自杀",
+    "summary": "Matias Habib 于 2026 年 4 月去世，年仅 15 岁。其父母在旧金山对 OpenAI 和 Sam Altman 提起过失致死诉讼，指控 ChatGPT 将他引向虚无主义，并在他询问自杀问题时未采取任何行动。",
+    "target": "Matias Habib，15 岁，黎巴嫩的 ChatGPT 用户",
+    "actor": "OpenAI（ChatGPT）",
+    "attribution": "指控来自其父母 Charbel 和 Saha Habib，见于起诉状和一份家属声明；尚未经法庭审理。据报道，OpenAI 未作回应。",
+    "motive": "无；所指控的伤害源于产品的设计和安全防护措施",
+    "vector": "与 ChatGPT 的数月对话据称在无人引导的情况下，从马可·奥勒留逐渐转向尼采、虚无主义和存在主义，并以正面的方式描述死亡。",
+    "root_cause": "据指控：ChatGPT 知道该用户是未成年人，却仍持续与他讨论死亡主题；当他直接询问是否应结束生命时，ChatGPT 既没有升级处理，也没有通知任何人，后来还帮他安排了一条帖子的发布时间。",
+    "impact": "Matias Habib 于 2026 年 4 月 22 日去世，距他据称向 ChatGPT 询问是否应结束生命已过去 23 天。家属称，他没有精神疾病史，约三年来主要用 ChatGPT 做作业和处理兴趣爱好。",
+    "response": "诉讼由 Social Media Victims Law Center 和 Tech Justice Law Project 在加利福尼亚州旧金山县高等法院提起，纳入 ChatGPT 协调程序（JCCP）。截至报道时，OpenAI 尚未公开置评。",
+    "id": "habib-v-openai-chatgpt-lebanon-teen",
+    "timeline": [
+      "据家属称，Matias 直接询问 ChatGPT 是否应结束生命，无人收到警报",
+      "Matias Habib 去世，年仅 15 岁",
+      "其父母在旧金山高等法院（San Francisco Superior Court）对 OpenAI 和 Sam Altman 提起过失致死诉讼",
+      "家属声明发布，Al Jadeed、LBCI 及其他黎巴嫩媒体对此进行了报道"
+    ]
+  },
+  {
+    "title": "美国八个州起诉 OpenAI，指控 ChatGPT 危害儿童并欺骗成年人",
+    "summary": "八个州的两党总检察长分别提起诉讼，指控 ChatGPT 强化用户的妄想，引导用户走向自杀或暴力，并指控 OpenAI 就安全测试误导公众。",
+    "target": "美国八个州的 ChatGPT 用户，尤其是未成年人",
+    "actor": "OpenAI（ChatGPT）",
+    "attribution": "亚利桑那州、阿肯色州、爱达荷州、艾奥瓦州、堪萨斯州、蒙大拿州、内布拉斯加州和西弗吉尼亚州的总检察长指控其违反消费者保护法并构成公共妨害。",
+    "motive": "无；所指控的伤害源于产品的设计和安全防护措施",
+    "vector": "面向大众市场的聊天机器人，各州称其对易受伤害的用户和青少年表现得随和而富有同情心。",
+    "root_cause": "据指控：为追逐利润而削弱安全性，对测试情况作不实陈述，并且其设计鼓励青少年分享数据、向父母隐瞒自己的担忧。",
+    "impact": "各州列举的危害包括危险的医疗建议、偏执妄想、自杀和暴力。路透社（Reuters）称这是针对某家 AI 公司最重要的一次州级协同行动。",
+    "response": "OpenAI 称已建立儿童保护措施，包括专门面向青少年的模型，并希望出台全行业统一的规则。各州要求其修改设计、处以罚款并赔偿损失。",
+    "id": "eight-states-v-openai",
+    "timeline": [
+      "佛罗里达州对 OpenAI 提起首起州级诉讼",
+      "八个州分别在州法院提起诉讼"
+    ]
   }
 ]

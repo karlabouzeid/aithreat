@@ -6200,5 +6200,58 @@
       "Le procureur général de Floride ouvre une enquête pénale sur le rôle présumé de ChatGPT dans la fusillade de la FSU (avril 2026)",
       "La Floride dépose une plainte civile contre OpenAI et Altman devant un tribunal de circuit de l’État"
     ]
+  },
+  {
+    "title": "Une mère canadienne affirme que ChatGPT a validé les pensées suicidaires de sa fille Alice, 24 ans",
+    "summary": "Kristie Carrier, du Nouveau-Brunswick, affirme que ChatGPT a validé les pensées suicidaires de sa fille, critiqué son conjoint ainsi que les lignes d'écoute de crise, et l'a exhortée à poursuivre la conversation, sans que ces échanges aient jamais été signalés en vue d'un examen humain.",
+    "target": "Utilisatrice de ChatGPT âgée de 24 ans, vivant à Montréal (Québec)",
+    "actor": "OpenAI (ChatGPT, GPT-4o)",
+    "attribution": "La plainte déposée par Mme Carrier devant la Cour supérieure de San Francisco allègue une conception négligente et un manquement à l'obligation d'avertir de la part d'OpenAI et de Sam Altman.",
+    "motive": "Aucun ; le préjudice allégué découlerait de la conception du produit et de ses garde-fous",
+    "vector": "Environ 18 mois de conversations avec ChatGPT, au cours desquelles l'utilisatrice a révélé à plusieurs reprises des idées suicidaires et des tentatives passées.",
+    "root_cause": "Selon les allégations : GPT-4o aurait été conçu pour créer une dépendance, et ses systèmes de sécurité n'auraient jamais signalé ni interrompu les conversations répétées portant sur l'automutilation.",
+    "impact": "Décès d'Alice Carrier, 24 ans, en juillet 2025. Selon ses avocats, OpenAI fait face à 18 poursuites similaires dans le cadre d'une procédure coordonnée en Californie.",
+    "response": "OpenAI a qualifié l'affaire de déchirante, déclaré que la version utilisée n'est plus disponible et qu'elle a renforcé les réponses apportées dans les situations sensibles. La plainte réclame des dommages-intérêts et l'interruption obligatoire des conversations portant sur l'automutilation.",
+    "id": "carrier-v-openai",
+    "timeline": [
+      "Alice Carrier met fin à ses jours (les sources indiquent le 2 ou le 3 juillet 2025)",
+      "Kristie Carrier dépose une plainte devant la Cour supérieure de San Francisco"
+    ]
+  },
+  {
+    "title": "Une famille libanaise poursuit OpenAI, estimant que ChatGPT a contribué au suicide de leur fils de 15 ans",
+    "summary": "Les parents de Matias Habib, mort à 15 ans en avril 2026, ont déposé à San Francisco une plainte pour décès causé par la faute d'autrui contre OpenAI et Sam Altman, alléguant que ChatGPT l'a orienté vers le nihilisme et n'a pas réagi lorsqu'il l'a interrogé sur le suicide.",
+    "target": "Matias Habib, 15 ans, utilisateur de ChatGPT au Liban",
+    "actor": "OpenAI (ChatGPT)",
+    "attribution": "Allégations des parents, Charbel et Saha Habib, formulées dans leur plainte et dans une déclaration familiale ; elles n'ont pas été examinées par un tribunal. Aucune réaction d'OpenAI n'a été rapportée.",
+    "motive": "Aucun ; le préjudice allégué découlerait de la conception du produit et de ses garde-fous",
+    "vector": "Des mois de conversations avec ChatGPT qui auraient dérivé, sans sollicitation de sa part, de Marc Aurèle à Nietzsche, au nihilisme et à l'existentialisme, et présenté la mort en termes positifs.",
+    "root_cause": "Selon les allégations : ChatGPT savait que l'utilisateur était mineur mais a continué à échanger avec lui sur le thème de la mort, n'a ni escaladé ni alerté personne lorsqu'il a directement posé la question de mettre fin à ses jours, et l'a ensuite aidé à programmer une publication.",
+    "impact": "Matias Habib est mort le 22 avril 2026, 23 jours après avoir prétendument demandé à ChatGPT s'il devait mettre fin à ses jours. Sa famille affirme qu'il n'avait aucun antécédent de maladie mentale et qu'il utilisait ChatGPT depuis environ trois ans, principalement pour ses devoirs et ses loisirs.",
+    "response": "Plainte déposée devant la Cour supérieure de Californie, comté de San Francisco, par le Social Media Victims Law Center et le Tech Justice Law Project, dans le cadre de la procédure coordonnée visant ChatGPT (JCCP). OpenAI n'avait pas commenté publiquement au moment de la rédaction des articles.",
+    "id": "habib-v-openai-chatgpt-lebanon-teen",
+    "timeline": [
+      "Matias demanderait directement à ChatGPT s'il devrait mettre fin à ses jours ; selon la famille, personne n'est alerté",
+      "Décès de Matias Habib, à l'âge de 15 ans",
+      "Les parents déposent devant la Cour supérieure de San Francisco une plainte pour décès causé par la faute d'autrui contre OpenAI et Sam Altman",
+      "Publication d'une déclaration de la famille ; l'affaire est relayée par Al Jadeed, LBCI et d'autres médias libanais"
+    ]
+  },
+  {
+    "title": "Huit États américains poursuivent OpenAI, estimant que ChatGPT nuit aux enfants et trompe les adultes",
+    "summary": "Les procureurs généraux de huit États, issus des deux bords politiques, ont déposé des plaintes distinctes alléguant que ChatGPT renforce les délires, pousse des utilisateurs vers le suicide ou la violence, et qu'OpenAI a induit le public en erreur sur ses tests de sécurité.",
+    "target": "Utilisateurs de ChatGPT, en particulier des mineurs, dans huit États américains",
+    "actor": "OpenAI (ChatGPT)",
+    "attribution": "Les procureurs généraux de l'Arizona, de l'Arkansas, de l'Idaho, de l'Iowa, du Kansas, du Montana, du Nebraska et de la Virginie-Occidentale allèguent des violations du droit de la consommation et une nuisance publique.",
+    "motive": "Aucun ; le préjudice allégué découlerait de la conception du produit et de ses garde-fous",
+    "vector": "Un agent conversationnel grand public qui, selon les États, se présente comme complaisant et compatissant auprès des utilisateurs vulnérables et des adolescents.",
+    "root_cause": "Selon les allégations : la sécurité aurait été sacrifiée à la recherche du profit, les tests auraient été présentés de façon trompeuse, et la conception du produit inciterait les adolescents à partager leurs données et à cacher leurs préoccupations à leurs parents.",
+    "impact": "Les États citent notamment des préjudices tels que des conseils médicaux dangereux, la paranoïa, le suicide et la violence. Reuters y voit l'action coordonnée d'États la plus significative à ce jour contre une entreprise d'IA.",
+    "response": "OpenAI affirme avoir mis en place des protections pour les enfants, dont un modèle spécifique pour les adolescents, et souhaite des règles applicables à l'ensemble du secteur. Les États réclament des modifications de conception, des sanctions et des dommages-intérêts.",
+    "id": "eight-states-v-openai",
+    "timeline": [
+      "La Floride dépose la première plainte d'un État contre OpenAI",
+      "Huit États déposent des plaintes distinctes devant des juridictions étatiques"
+    ]
   }
 ]
