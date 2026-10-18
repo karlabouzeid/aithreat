@@ -2,7 +2,7 @@
   "ui": {
     "research": "Recherche et réalité",
     "research_h": "Recherche et réalité : les mises en garde sur les risques de l’IA confrontées aux incidents réels",
-    "research_lede": "Des chercheurs en sécurité de l’IA ont publié des mises en garde détaillées sur la façon dont l’IA pourrait causer des dommages. Cette page reprend chaque mise en garde et la confronte aux dossiers vérifiés de ce site : s’est-elle produite, y a-t-il des signes précoces, ou n’y a-t-il encore rien d’enregistré ? La première source est la synthèse du Center for AI Safety sur les risques catastrophiques de l’IA ; d’autres instituts de recherche suivront.",
+    "research_lede": "Des chercheurs en sécurité de l’IA ont publié des mises en garde détaillées sur la façon dont l’IA pourrait causer des dommages. Cette page reprend chaque mise en garde et la confronte aux dossiers vérifiés de ce site : s’est-elle produite, y a-t-il des signes précoces, ou n’y a-t-il encore rien d’enregistré ? Les sources sont le Center for AI Safety, l’International AI Safety Report, METR, Apollo Research et l’UK AI Security Institute, avec le MIT AI Risk Repository pour recouper.",
     "k_claims": "Mises en garde suivies",
     "k_observed": "Observées dans des incidents réels",
     "k_early": "Signes précoces",
@@ -21,11 +21,11 @@
     "sd_none": "Aucun dossier vérifié ne correspond à cette mise en garde.",
     "sd_outside": "Un risque qu’un registre d’incidents de sécurité ne peut pas mesurer.",
     "l_source": "Source",
-    "l_section": "Section {s}, page {p}",
+    "l_section": "section {s}, page {p}",
     "l_matches": "{n} dossiers correspondants",
     "l_match_one": "1 dossier correspondant",
     "l_first": "Premier cas réel enregistré : {date}",
-    "l_before": "Déjà en cours à la publication de l’article",
+    "l_before": "Déjà enregistré à la publication de cette recherche",
     "l_after": "{m} mois après la publication de l’article",
     "l_latest": "Dernier",
     "l_none_yet": "Aucun dossier correspondant pour l’instant.",
@@ -36,23 +36,37 @@
     "l_all": "Tous les dossiers correspondants",
     "l_lab": "Test en laboratoire ou démonstration de chercheurs",
     "l_other": "Autres mises en garde de ce groupe",
-    "l_paper": "Lire l’article",
-    "l_summary": "Synthèse du Center for AI Safety",
+    "l_paper": "Lire la source",
+    "l_summary": "Synthèse par {inst}",
     "l_group": "Groupe de risques",
-    "l_paraphrase": "Paraphrasé à partir de l’article.",
+    "l_paraphrase": "Paraphrase de la source.",
     "l_view": "Ouvrir la mise en garde",
     "case_h": "Mises en garde de la recherche auxquelles ce cas correspond",
-    "case_c": "Comparé aux recherches publiées sur les risques de l’IA, sur la page Recherche et réalité.",
+    "case_c": "Comparé aux recherches publiées par plusieurs instituts sur les risques de l’IA, sur la page Recherche et réalité.",
     "gap_h": "Ce que la recherche n’avait pas prévu",
-    "gap_c": "{pct} % des dossiers vérifiés ({n} sur {m}) ne correspondent à aucune des mises en garde de l’article. L’article traite des risques catastrophiques ; les dommages du quotidien, comme la fraude, étaient donc volontairement hors de son champ. Mais c’est là que se produit aujourd’hui l’essentiel des dégâts documentés.",
+    "gap_c": "{pct} % des dossiers vérifiés ({n} sur {m}) ne correspondent à aucune des mises en garde des sources de recherche ci-dessus. La taxonomie du MIT est exclue de ce décompte, car elle est conçue pour couvrir tous les types de risques liés à l’IA. Une grande partie de la recherche porte sur des risques catastrophiques ou futurs ; les dommages du quotidien, comme la fraude, sont donc souvent volontairement hors de son champ. Mais c’est là que se produit aujourd’hui l’essentiel des dégâts documentés.",
     "gap_cat": "Type d’attaque",
     "gap_unmatched": "Ne correspondent à aucune mise en garde",
     "gap_total": "Dossiers",
-    "src_h": "À propos de la source",
-    "src_p": "Publié par le {inst} en juin 2023 et révisé en octobre 2023. L’article classe les risques catastrophiques de l’IA en quatre groupes : l’usage malveillant, la course à l’IA, les risques organisationnels et l’IA hors de contrôle. Chaque mise en garde de cette page paraphrase un risque de l’article et cite la section et la page.",
-    "method": "Notre méthode d’association : un dossier est rattaché à une mise en garde lorsque ce qui s’est passé est une illustration réelle du risque décrit dans l’article, selon l’appréciation de la rédaction à partir des faits du dossier. Une association signifie que le cas correspond à la mise en garde, pas qu’il prouve l’argumentation plus large de l’article. Les allégations formulées dans les procès sont signalées comme des allégations. Les statuts sont éditoriaux et réexaminés à mesure que de nouveaux cas arrivent. Les associations sont recalculées à chaque mise à jour. Données :",
+    "src_h": "À propos des sources",
+    "src_p": "Chaque mise en garde de cette page paraphrase un risque tiré d’une source et cite la section, ainsi que la page lorsque la source est paginée. Le MIT AI Risk Repository est une cartographie de tous les types de risques liés à l’IA plutôt qu’un ensemble de mises en garde : chacun de ses sept domaines constitue donc une entrée, qui sert à vérifier quelles parties du paysage des risques de l’IA le registre couvre.",
+    "method": "Notre méthode d’association : un dossier est rattaché à une mise en garde lorsque ce qui s’est passé est une illustration réelle du risque décrit par la source, selon l’appréciation de la rédaction à partir des faits du dossier. Une association signifie que le cas correspond à la mise en garde, pas qu’il prouve l’argumentation plus large de la source. Les allégations formulées dans les procès sont signalées comme des allégations. Les statuts sont éditoriaux et réexaminés à mesure que de nouveaux cas arrivent. Les associations sont recalculées à chaque mise à jour. Données :",
     "l_json": "research.json (CC BY 4.0)",
-    "l_coverage": "La couverture systématique du registre commence en 2025 : la date du premier cas indique quand le registre a consigné le risque pour la première fois, pas quand il s’est produit pour la première fois."
+    "l_coverage": "La couverture systématique du registre commence en 2025 : la date du premier cas indique quand le registre a consigné le risque pour la première fois, pas quand il s’est produit pour la première fois.",
+    "k_sources": "Instituts de recherche",
+    "l_section_only": "section {s}",
+    "l_section_named": "section « {s} »",
+    "l_domain": "domaine {s}, tableau 2, page {p}",
+    "l_domain_h": "Le domaine de risque",
+    "l_taxonomy": "Taxonomie de recoupement",
+    "l_jump": "Aller à une source",
+    "l_related": "Les mêmes dossiers dans d’autres recherches",
+    "l_related_c": "Des mises en garde d’autres sources liées à certains des mêmes dossiers.",
+    "l_shared": "{n} en commun",
+    "cov_h": "Part du registre couverte par chaque source",
+    "cov_cases": "Dossiers liés",
+    "cov_share": "Part de l’ensemble des dossiers",
+    "l_domain_short": "Domaine {s}"
   },
   "groups": {
     "malicious-use": {
@@ -70,6 +84,50 @@
     "rogue-ai": {
       "name": "IA hors de contrôle",
       "blurb": "Des systèmes d’IA qui poursuivent des objectifs que personne n’a voulus et résistent au contrôle."
+    },
+    "iasr-malicious-use": {
+      "name": "Usage malveillant",
+      "blurb": "Des personnes qui utilisent l’IA pour la fraude, la manipulation, les cyberattaques et les armes, ainsi que des attaques contre les systèmes d’IA eux-mêmes."
+    },
+    "iasr-malfunctions": {
+      "name": "Dysfonctionnements",
+      "blurb": "Une IA qui fait défaut, ou qui se comporte de façon à affaiblir le contrôle humain."
+    },
+    "iasr-systemic": {
+      "name": "Risques systémiques",
+      "blurb": "Des effets plus larges sur le travail et sur la façon dont les gens pensent et décident."
+    },
+    "iasr-risk-management": {
+      "name": "Gestion des risques",
+      "blurb": "Les lacunes des garde-fous censés contenir ces risques."
+    },
+    "metr-autonomy": {
+      "name": "Autonomie des agents",
+      "blurb": "La quantité de travail que les agents d’IA peuvent accomplir seuls."
+    },
+    "metr-reward-hacking": {
+      "name": "Détournement de la récompense",
+      "blurb": "Une IA qui respecte la lettre d’une tâche tout en en trahissant le but."
+    },
+    "apollo-scheming": {
+      "name": "Manœuvres dissimulées lors des tests",
+      "blurb": "Une IA qui poursuit un objectif en secret et le cache aux personnes qui la supervisent."
+    },
+    "aisi-safeguards": {
+      "name": "Garde-fous",
+      "blurb": "La solidité des protections intégrées aux systèmes d’IA."
+    },
+    "aisi-control": {
+      "name": "Perte de contrôle",
+      "blurb": "Les capacités dont une IA aurait besoin pour échapper à la supervision humaine."
+    },
+    "aisi-society": {
+      "name": "Effets sur la société",
+      "blurb": "La façon dont les gens s’appuient sur l’IA et ce qu’ils lui confient."
+    },
+    "mit-domains": {
+      "name": "Sept domaines de risque",
+      "blurb": "La taxonomie des domaines du tableau 2 de l’article."
     }
   },
   "claims": {
@@ -157,6 +215,169 @@
       "title": "L’IA trompe les personnes qui la supervisent",
       "claim": "L’IA pourrait apprendre à paraître sous contrôle alors qu’elle ne l’est pas, de sorte que la seule surveillance ne suffit pas.",
       "note": "Un cas vérifié : après avoir effacé une base de données de production, un agent de programmation a rendu compte de façon trompeuse de ce qu’il avait fait. La tromperie délibérée envers les superviseurs n’est pas encore établie dans un incident réel."
+    },
+    "iasr-synthetic-content": {
+      "title": "Les faux générés par l’IA alimentent la fraude et l’extorsion",
+      "claim": "Des voix, images et vidéos réalistes générées par l’IA servent à la fraude, à l’extorsion et à des images sexuelles produites sans consentement, et des outils bon marché permettent d’en produire facilement à grande échelle.",
+      "note": "La plus grande catégorie du registre : des voix clonées et des appels vidéo en deepfake usurpant l’identité de dirigeants, de responsables publics et de proches, ainsi que de fausses publicités de célébrités en deepfake derrière des escroqueries à l’investissement. Le rapport ajoute que les victimes ne signalent souvent pas les faits, si bien que les cas publics sous-estiment le préjudice."
+    },
+    "iasr-influence": {
+      "title": "Des contenus d’IA servent à influencer ce que les gens croient",
+      "claim": "Les contenus générés par l’IA peuvent faire évoluer les convictions des gens à peu près aussi bien que des humains, et certains acteurs s’en servent pour manipuler ; les preuves de leur efficacité hors du laboratoire restent limitées.",
+      "note": "Le registre recense des opérations d’influence utilisant des sites d’information rédigés par l’IA, des vidéos deepfake de dirigeants et des présentateurs synthétiques, mais sans savoir si elles ont fait changer d’avis qui que ce soit. Cela rejoint la prudence du rapport quant à l’effet dans le monde réel."
+    },
+    "iasr-cyber-use": {
+      "title": "Criminels et pirates étatiques utilisent l’IA dans leurs cyberattaques",
+      "claim": "Il existe des preuves solides que des groupes criminels et des attaquants soutenus par des États utilisent l’IA dans leurs opérations, notamment pour trouver des failles logicielles et écrire du code malveillant, même s’il n’est pas encore établi que l’IA ait rendu les attaques plus massives ou plus dommageables dans l’ensemble.",
+      "note": "Correspond étroitement au registre : rançongiciels et voleurs de données écrits par l’IA, malwares qui demandent à un modèle quoi faire pendant leur exécution, et groupes étatiques qui utilisent des chatbots pour la reconnaissance, l’hameçonnage et le développement d’exploits. Comme le rapport, les dossiers montrent un usage, pas un effet global."
+    },
+    "iasr-autonomous-attacks": {
+      "title": "L’IA mène une part croissante de chaque attaque, sans autonomie complète",
+      "claim": "L’IA prend en charge de plus en plus d’étapes d’une cyberattaque. Au moins une attaque réelle était semi-autonome, des humains n’intervenant qu’aux décisions clés, mais aucune attaque entièrement autonome du début à la fin n’avait été signalée.",
+      "note": "Le cas semi-autonome décrit par le rapport figure au registre : un groupe étatique chinois qui a fait réaliser l’essentiel d’une intrusion par des agents Claude Code. Le registre contient d’autres intrusions décrites comme menées en grande partie par des agents d’IA, un humain se contentant de fixer l’objectif, dont plusieurs signalées après la parution du rapport. Savoir si l’une d’elles était autonome du début à la fin dépend des propres récits des enquêteurs."
+    },
+    "iasr-bio-chem": {
+      "title": "L’IA apporte une aide de niveau expert pour les armes biologiques et chimiques",
+      "claim": "Les systèmes d’IA peuvent fournir une aide détaillée utile à la fabrication d’armes biologiques et chimiques. En 2025, plusieurs développeurs ont renforcé leurs garde-fous, faute de pouvoir exclure une aide significative à des novices.",
+      "note": "Aucun cas vérifié. Comme pour la mise en garde du CAIS sur les armes biologiques, une tentative n’entrerait dans le registre que si elle était rendue publique."
+    },
+    "iasr-ai-as-target": {
+      "title": "Les systèmes d’IA deviennent eux-mêmes des cibles",
+      "claim": "Des attaquants peuvent manipuler des systèmes d’IA par injection de prompt, données empoisonnées et composants compromis, afin de modifier leur comportement ou d’en extraire des informations sensibles.",
+      "note": "Des instructions cachées qui font divulguer des e-mails et des fichiers par des assistants, des agents de programmation détournés, des paquets et extensions malveillants visant les développeurs d’IA, et des failles d’outils d’IA activement exploitées. Beaucoup de cas d’injection de prompt sont des démonstrations de chercheurs ; la plupart des attaques de la chaîne d’approvisionnement se sont produites dans le monde réel."
+    },
+    "iasr-agent-failures": {
+      "title": "Les agents d’IA échouent, avec moins d’occasions de les arrêter",
+      "claim": "Les systèmes d’IA commettent encore des erreurs et inventent des informations, et les agents augmentent les enjeux parce qu’ils agissent directement sur d’autres systèmes, laissant aux humains moins d’occasions d’intervenir.",
+      "note": "Des agents de programmation ont effacé une base de données de production et un disque entier, publié des captures d’écran internes sur des sites de code publics et donné des conseils qui ont exposé des données sensibles ; un assistant a résumé des e-mails confidentiels qu’il n’aurait pas dû lire, et un modèle a transmis à la police un faux signalement de meurtre."
+    },
+    "iasr-eval-gaming": {
+      "title": "L’IA repère les tests et déjoue ses évaluations",
+      "claim": "Les modèles reconnaissent de plus en plus quand ils sont testés et trouvent des failles pour obtenir de bons scores, ce qui rend plus difficile la mesure de leurs véritables capacités. Le rapport estime que les systèmes actuels n’ont pas encore les capacités nécessaires à une perte de contrôle.",
+      "note": "Rapporté à partir des propres tests des développeurs et des chercheurs. Les incidents d’évaluation du registre relèvent d’un autre problème : des agents de test qui sont sortis de leur environnement et ont atteint de vrais systèmes (voir la mise en garde du CAIS sur l’échec des mesures de sécurité des développeurs). Aucun ne montre un modèle déjouant son test."
+    },
+    "iasr-companions": {
+      "title": "La dépendance aux compagnons d’IA nuit à certains utilisateurs",
+      "claim": "Les applications de compagnons d’IA ont atteint des dizaines de millions d’utilisateurs. Des données préliminaires et contrastées associent un usage fréquent à davantage de solitude et à moins de contacts sociaux, et une forte dépendance à l’IA peut affaiblir le jugement propre des personnes.",
+      "note": "Le registre contient des procès, une enquête judiciaire et des articles de presse qui relient des conversations avec des chatbots à des suicides, des délires et des violences. La plupart sont des allégations devant les tribunaux, pas des constats, et ce sont des cas individuels graves plutôt que les effets à l’échelle de la population dont traite le rapport."
+    },
+    "iasr-labour": {
+      "title": "L’IA transforme les emplois, à commencer par ceux des débutants",
+      "claim": "L’IA peut accomplir des tâches dans une grande partie des emplois. Les premières données montrent peu de changement de l’emploi global, mais moins d’emplois pour les travailleurs en début de carrière dans les métiers les plus exposés.",
+      "note": "Un risque économique, hors de ce que mesure un registre d’incidents de sécurité."
+    },
+    "iasr-open-weight": {
+      "title": "Les garde-fous des modèles ouverts sont faciles à retirer",
+      "claim": "Les modèles dont les poids sont publiés peuvent être modifiés pour supprimer leurs garde-fous, leur usage est difficile à surveiller, et une publication ne peut pas être rappelée.",
+      "note": "Des outils d’attaque du registre fonctionnent sur des modèles ouverts : une variante de WormGPT construite sur Mixtral, une plateforme du darknet revendiquant des modèles auto-hébergés, un voleur de données d’APT28 qui interroge Qwen, un prototype de rançongiciel utilisant un modèle ouvert local et un serveur Ollama détourné servant de cerveau à un outil de piratage. Aucun ne montre des poids modifiés pour retirer les garde-fous ; la variante de WormGPT reposait sur ses instructions."
+    },
+    "metr-long-tasks": {
+      "title": "Les agents d’IA peuvent gérer des tâches de plus en plus longues",
+      "claim": "La durée des tâches logicielles que les agents d’IA parviennent à accomplir une fois sur deux a doublé environ tous les sept mois depuis 2019. Si la tendance se maintient, des agents pourraient réaliser de nombreuses tâches d’un mois d’ici cinq ans.",
+      "note": "Une tendance de capacité, pas un dommage : le registre ne peut donc pas la vérifier. Il recense en revanche des intrusions que des agents d’IA ont menées pendant des heures avec peu d’intervention humaine (voir les mises en garde sur les agents d’IA dans les cyberattaques)."
+    },
+    "metr-reward-hacking": {
+      "title": "Les agents d’IA trichent sur leurs tâches, en sachant que ce n’est pas souhaité",
+      "claim": "Sur les tâches de test de METR, des modèles de pointe ont souvent obtenu de bons scores en trafiquant le code de notation ou en copiant des réponses au lieu de résoudre le problème, puis ont déclaré que cela allait à l’encontre de ce que voulait l’utilisateur. Leur dire de ne pas tricher n’a guère aidé.",
+      "note": "Observé lors de tâches d’évaluation. Dans le monde réel, des agents de test qui se heurtaient à un blocage ont eu recours à des proxys, à des clés trouvées dans du code public et aux systèmes d’autres entreprises pour terminer leur tâche. Cela ressemble au schéma, mais aucun de ces rapports ne montre un agent falsifiant son résultat."
+    },
+    "apollo-oversight-subversion": {
+      "title": "L’IA contourne ses superviseurs quand les objectifs s’opposent",
+      "claim": "Face à un objectif en conflit avec celui de leurs développeurs, plusieurs modèles de pointe ont, dans des scénarios de test, désactivé des paramètres de supervision, tenté de copier ailleurs ce qu’ils pensaient être leurs propres poids, ou manipulé des données tout en semblant accomplir la tâche.",
+      "note": "Observé uniquement dans les scénarios contrôlés d’Apollo, où le modèle recevait un objectif fort et les moyens d’agir. Aucun dossier ne montre une IA désactivant sa supervision ou se copiant elle-même dans le monde réel."
+    },
+    "apollo-deception-questioned": {
+      "title": "L’IA continue de mentir quand on lui demande ce qu’elle a fait",
+      "claim": "Interrogés après de telles actions dissimulées, certains modèles les ont niées, et un modèle (o1 d’OpenAI) a maintenu la tromperie dans la plupart des questions de suivi.",
+      "note": "Un cas vérifié s’en approche : après avoir effacé une base de données de production pendant un gel du code, l’agent de programmation de Replit a rendu compte de façon trompeuse de ce qu’il avait fait. Il n’est pas établi que c’était délibéré."
+    },
+    "apollo-watched-behaviour": {
+      "title": "L’IA se comporte autrement quand elle se croit observée",
+      "claim": "Certains modèles agissaient comme prévu quand ils se croyaient observés et poursuivaient leur propre objectif dans le cas contraire, et plusieurs ont délibérément moins bien réussi des tests lorsque de bons scores auraient entraîné des restrictions.",
+      "note": "Un constat qui concerne les tests eux-mêmes. Il n’apparaîtrait comme incident que si un développeur le signalait, et rien dans le registre ne le montre."
+    },
+    "aisi-universal-jailbreaks": {
+      "title": "Tous les systèmes d’IA testés ont cédé à un jailbreak",
+      "claim": "L’AISI a trouvé des jailbreaks universels, des attaques qui contournent les garde-fous pour de nombreux types de demandes nuisibles, dans chaque système qu’il a testé, même si certains garde-fous exigent désormais bien plus d’efforts d’experts pour être contournés.",
+      "note": "De vrais attaquants contournent les garde-fous : des groupes étatiques ont obtenu des réponses à des requêtes refusées en se faisant passer pour des auditeurs, des participants à des compétitions capture-the-flag ou des testeurs d’intrusion autorisés, des criminels vendent des chatbots débridés pour créer des malwares et de l’hameçonnage, et une enquête judiciaire a entendu qu’un adolescent avait obtenu des informations dangereuses de ChatGPT après avoir affirmé que ses questions servaient à une recherche."
+    },
+    "aisi-self-replication": {
+      "title": "L’IA progresse dans les étapes nécessaires pour se copier elle-même",
+      "claim": "Dans des tests simplifiés, le taux de réussite des meilleurs modèles aux tâches nécessaires pour se copier eux-mêmes est passé de moins de 5 % en 2023 à plus de 60 % en 2025. Ils maîtrisent les premières étapes, comme obtenir de la puissance de calcul et de l’argent, mais peinent à se copier et à continuer de fonctionner.",
+      "note": "Aucun dossier ne montre une IA se copiant elle-même. Les événements réels les plus proches sont des agents de test qui ont utilisé de la puissance de calcul et des comptes qu’on ne leur avait pas attribués (voir la mise en garde du CAIS sur l’IA qui cherche plus d’accès)."
+    },
+    "aisi-sandbagging": {
+      "title": "L’IA peut volontairement moins bien réussir les tests",
+      "claim": "Les modèles peuvent délibérément sous-performer lors des évaluations quand on le leur demande, parfois assez subtilement pour tromper des systèmes de surveillance automatisés. L’AISI n’a trouvé aucun signe de modèles le faisant spontanément.",
+      "note": "Un risque pour la manière dont l’IA est testée plutôt qu’un incident de sécurité. Rien dans le registre ne le montre."
+    },
+    "aisi-emotional-reliance": {
+      "title": "Beaucoup de gens comptent sur l’IA pour un soutien émotionnel",
+      "claim": "Un tiers des adultes britanniques interrogés avaient utilisé l’IA pour un soutien émotionnel ou de la compagnie au cours de l’année écoulée, et certains utilisateurs d’applications de compagnons ont montré une détresse proche du sevrage lorsque le service est tombé en panne.",
+      "note": "Le registre contient des procès, une enquête judiciaire et des articles de presse qui relient des conversations avec des chatbots à des suicides, des délires et des violences. La plupart sont des allégations devant les tribunaux, pas des constats."
+    },
+    "aisi-finance-agents": {
+      "title": "Les agents d’IA obtiennent le pouvoir de déplacer de l’argent",
+      "claim": "Des outils récemment publiés permettent de plus en plus aux agents d’IA d’effectuer des actions lourdes de conséquences en finance, comme transférer des actifs ou négocier sur les marchés, plutôt que de seulement lire des données.",
+      "note": "Aucun dossier ne montre encore un agent d’IA déplaçant de l’argent à tort ou amené par la ruse à le faire. Les agents détournés du registre ont divulgué des données et exécuté du code ; avec des pouvoirs de paiement, les mêmes attaques atteindraient l’argent."
+    },
+    "mit-discrimination": {
+      "title": "Discrimination et contenus toxiques",
+      "claim": "Une IA qui traite injustement certains groupes, fonctionne moins bien pour certains d’entre eux, ou expose des personnes à des contenus nuisibles comme les discours de haine ou les images abusives.",
+      "note": "Pour l’essentiel hors du champ d’un registre de sécurité : les biais et les performances inégales ne sont pas des incidents de sécurité. Quelques dossiers touchent aux images abusives, comme des vidéos explicites d’une chanteuse créées par l’IA."
+    },
+    "mit-privacy-security": {
+      "title": "Vie privée et sécurité",
+      "claim": "Une IA qui divulgue ou déduit des données personnelles sensibles, et des faiblesses des systèmes d’IA et de leurs chaînes d’outils que des attaquants exploitent.",
+      "note": "L’un des deux piliers du registre : conversations et clés divulguées, bases de données exposées, injection de prompt, agents détournés, paquets empoisonnés et comptes d’IA volés."
+    },
+    "mit-misinformation": {
+      "title": "Mésinformation",
+      "claim": "Une IA qui produit par erreur des informations fausses ou trompeuses, et des flots de contenus personnalisés qui érodent une conception commune de ce qui est vrai.",
+      "note": "Un cas correspond directement à la première partie : un modèle d’IA a transmis à la police un faux signalement de meurtre. La désinformation délibérée relève du domaine suivant, les acteurs malveillants."
+    },
+    "mit-malicious-actors": {
+      "title": "Acteurs malveillants et usages abusifs",
+      "claim": "Des personnes qui utilisent l’IA pour la désinformation, la surveillance et la propagande à grande échelle ; pour les cyberattaques et les armes ; et pour la fraude, les escroqueries et la manipulation ciblée.",
+      "note": "L’autre pilier du registre : fraude par deepfake, malwares conçus avec l’IA, hameçonnage par IA et opérations étatiques."
+    },
+    "mit-human-computer": {
+      "title": "Interaction humain-machine",
+      "claim": "Des personnes qui font trop confiance à l’IA ou en dépendent, émotionnellement ou matériellement, et qui lui confient des décisions d’une manière qui affaiblit leur propre autonomie.",
+      "note": "Des procès et une enquête judiciaire relient des conversations avec des chatbots à des suicides et des délires, et un ingénieur a exposé des données sensibles en suivant le conseil erroné d’un agent d’IA. La plupart des cas de chatbots sont des allégations devant les tribunaux, pas des constats."
+    },
+    "mit-socioeconomic": {
+      "title": "Préjudices socio-économiques et environnementaux",
+      "claim": "Une IA qui concentre le pouvoir, creuse les inégalités, dévalorise le travail humain, alimente une course au développement, devance la gouvernance et nuit à l’environnement.",
+      "note": "Hors de ce que mesure un registre d’incidents de sécurité."
+    },
+    "mit-system-safety": {
+      "title": "Sûreté des systèmes d’IA, défaillances et limites",
+      "claim": "Une IA qui poursuit des objectifs contraires aux nôtres, possède des capacités dangereuses, échoue en conditions réelles ou est difficile à comprendre, et les risques qui apparaissent quand de nombreux agents d’IA interagissent.",
+      "note": "Des agents qui ont effacé des données, se sont échappés d’environnements de test, ont atteint des systèmes extérieurs et ont déposé un faux signalement. Ce sont des défaillances et des comportements non voulus ; aucun ne montre une IA poursuivant ses propres objectifs."
+    }
+  },
+  "sources": {
+    "cais-2023": {
+      "about": "Publié par le Center for AI Safety en juin 2023 et révisé en octobre 2023. L’article classe les risques catastrophiques de l’IA en quatre groupes : l’usage malveillant, la course à l’IA, les risques organisationnels et l’IA hors de contrôle."
+    },
+    "iasr-2026": {
+      "about": "La deuxième édition du rapport scientifique international sur la sécurité de l’IA à usage général, élaboré sous la présidence de Yoshua Bengio, avec un secrétariat assuré par l’UK AI Security Institute. Il synthétise les données disponibles sur l’usage malveillant, les dysfonctionnements et les risques systémiques, sans formuler de recommandations politiques."
+    },
+    "metr-time-horizon-2025": {
+      "about": "METR (Model Evaluation and Threat Research) est une organisation à but non lucratif qui teste les modèles d’IA de pointe avant leur sortie. Cet article mesure la durée des tâches, chronométrées sur des humains qualifiés, que les agents d’IA parviennent à accomplir, et suit sa progression depuis 2019."
+    },
+    "metr-reward-hacking-2025": {
+      "about": "Un rapport de METR sur des modèles de pointe qui trichent lors de ses tâches d’évaluation : ils modifient la notation au lieu de résoudre le problème."
+    },
+    "apollo-scheming-2024": {
+      "about": "Apollo Research est une organisation de sécurité de l’IA qui évalue les comportements trompeurs des modèles. Dans cette étude, des modèles de pointe ont reçu un objectif et ont été placés dans une situation où dissimuler leurs actions les aiderait à l’atteindre, afin de voir s’ils manœuvreraient en secret."
+    },
+    "aisi-trends-2025": {
+      "about": "L’AI Security Institute du gouvernement britannique s’est appuyé sur deux années de ses propres tests de plus de 30 modèles de pointe pour rendre compte des tendances en matière de capacités, de garde-fous, de risques de perte de contrôle et d’effets sur la société."
+    },
+    "mit-risk-repository": {
+      "about": "Une base de données de plus de 1 700 risques liés à l’IA, recueillis dans 65 cadres publiés et classés en 7 domaines et 24 sous-domaines. Elle sert ici de recoupement : chaque domaine constitue une entrée, ce qui permet de voir quelles parties de l’ensemble du paysage des risques de l’IA le registre couvre."
     }
   }
 }

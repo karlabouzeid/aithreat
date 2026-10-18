@@ -1,7 +1,9 @@
 # Research vs reality: published AI risk warnings (config/research_claims.json) checked against
 # the verified case files. Writes the hub at site/research/, one page per warning at
 # site/research/<claim-id>/ (per language), and site/data/research.json. Translations of the
-# warnings and of the page's own strings live in config/research_i18n/<lang>.json.
+# warnings, groups, source blurbs and the page's own strings live in config/research_i18n/<lang>.json.
+# Several sources: the hub has one section per source; a source of kind "taxonomy" (a map of all
+# AI risk, not a set of warnings) is left out of "what the research did not foresee".
 # Loaded by build_pages.rb after build_patterns.rb; expects its helpers (head, shell, h, pre,
 # fmt_date, case_url, localized, crumbs_*, share_row, lang_links, stacked_bars, quarter_of,
 # quarters_between, pct, BASE, LANGS, ROOT, SITE, TREND_FROM).
@@ -23,6 +25,8 @@ RESEARCH_CSS = <<~CSS
   .rkey{display:grid;gap:6px;margin:0 0 6px;font-size:13px;color:var(--muted)}.rkey div{display:flex;gap:10px;align-items:baseline;flex-wrap:wrap}
   blockquote.warn{margin:0 0 6px;padding:12px 16px;border-inline-start:3px solid var(--accent);background:var(--surface);border-radius:0 10px 10px 0;font-size:17px}
   html[dir="rtl"] blockquote.warn{border-radius:10px 0 0 10px}
+  .rsrc{margin:34px 0 8px;padding-top:18px;border-top:1px solid var(--line);scroll-margin-top:72px}.rsrc>h2{margin:4px 0 6px}.rsrc>.cap{max-width:70ch}
+  .rgroup h3{margin:0 0 2px;font-size:18px}.rsrcs{list-style:none;padding:0;margin:0;display:grid;gap:16px}.rsrcs p{margin:0 0 6px}
 CSS
 
 def rx(lang, key, vars = {})
@@ -39,8 +43,31 @@ def group_text(lang, src, gid, field)
   ((RESEARCH_I18N[lang]["groups"] || {})[gid] || {})[field] || src["groups"].find { |g| g["id"] == gid }[field]
 end
 
+def source_text(lang, src, field)
+  ((RESEARCH_I18N[lang]["sources"] || {})[src["id"]] || {})[field] || src[field]
+end
+
 def research_url(lang, claim_id = nil)
   "#{BASE}#{pre(lang)}/research/#{claim_id ? "#{claim_id}/" : ''}"
+end
+
+def taxonomy?(src)
+  src["kind"] == "taxonomy"
+end
+
+# Where in the source a claim comes from: a numbered section with an optional page, a taxonomy
+# domain, or a named section of a web report without pages.
+def section_label(lang, c, src)
+  s, p = c["section"].to_s, c["page"]
+  return rx(lang, :l_domain, s: s, p: p) if taxonomy?(src)
+  return rx(lang, :l_section_named, s: s) unless s =~ /\A[\d.]/
+  p ? rx(lang, :l_section, s: s, p: p) : rx(lang, :l_section_only, s: s)
+end
+
+def section_short(lang, c, src)
+  s = c["section"].to_s
+  return rx(lang, :l_domain_short, s: s) if taxonomy?(src)
+  s =~ /\A[\d.]/ ? "§#{s}" : ""
 end
 
 # claim id => matching verified cases (newest first), from each claim's match rule.
@@ -49,6 +76,7 @@ def research_links(incidents)
     m = c["match"] || {}
     hits = incidents.select do |i|
       next false if (m["exclude"] || []).include?(i["id"])
+      next false if (m["exclude_actor_types"] || []).include?(i["actor_type"]) && !(m["ids"] || []).include?(i["id"])
       (m["ids"] || []).include?(i["id"]) || (m["categories"] || []).include?(i["category"]) || (m["actor_types"] || []).include?(i["actor_type"])
     end
     [c["id"], hits.sort_by { |i| i["date"].to_s }.reverse]
@@ -66,21 +94,31 @@ def months_between(a, b)
 end
 
 def research_stats(incidents, links)
-  src = RESEARCH["sources"].first
+  sources = Hash[RESEARCH["sources"].map { |s| [s["id"], s] }]
   claims = RESEARCH["claims"].map do |c|
+    src = sources.fetch(c["source"])
     hits = links[c["id"]]
     real = hits.reject { |i| lab_case?(i) }
     first = real.map { |i| i["date"] }.min
     { "id" => c["id"], "source" => c["source"], "group" => c["group"], "section" => c["section"], "page" => c["page"], "title" => c["title"], "claim" => c["claim"],
       "status" => c["status"], "note" => c["note"], "n" => hits.size, "real_world" => real.size, "first_real_world" => first,
-      "months_after_publication" => first && months_between(src["published"], first), "url" => research_url("en", c["id"]), "cases" => hits.map { |i| i["id"] } }
+      "months_after_publication" => first && !taxonomy?(src) ? months_between(src["published"], first) : nil, "url" => research_url("en", c["id"]), "cases" => hits.map { |i| i["id"] } }
   end
-  matched = links.values.flatten.map { |i| i["id"] }.uniq
+  per_source = RESEARCH["sources"].map do |s|
+    cl = claims.select { |c| c["source"] == s["id"] }
+    ids = cl.flat_map { |c| c["cases"] }.uniq
+    { "source" => s["id"], "claims" => cl.size, "matched_cases" => ids.size, "matched_pct" => pct(ids.size, incidents.size),
+      "status_counts" => Hash[STATUS_ORDER.map { |st| [st, cl.count { |c| c["status"] == st }] }] }
+  end
+  # "Not foreseen" is measured against the warnings only: a taxonomy is built to cover everything.
+  warn_ids = claims.reject { |c| taxonomy?(sources[c["source"]]) }.flat_map { |c| c["cases"] }.uniq
+  matched = claims.flat_map { |c| c["cases"] }.uniq
   cats = incidents.map { |i| i["category"] }.uniq
-  gaps = cats.map { |cat| all = incidents.select { |i| i["category"] == cat }; [cat, all.count { |i| !matched.include?(i["id"]) }, all.size] }.sort_by { |_, u, n| [-u, -n] }
-  { "generated_at" => Time.now.utc.iso8601, "licence" => "CC BY 4.0", "sources" => RESEARCH["sources"], "claims" => claims,
+  gaps = cats.map { |cat| all = incidents.select { |i| i["category"] == cat }; [cat, all.count { |i| !warn_ids.include?(i["id"]) }, all.size] }.sort_by { |_, u, n| [-u, -n] }
+  { "generated_at" => Time.now.utc.iso8601, "licence" => "CC BY 4.0", "sources" => RESEARCH["sources"], "claims" => claims, "by_source" => per_source,
     "status_counts" => Hash[STATUS_ORDER.map { |s| [s, claims.count { |c| c["status"] == s }] }],
-    "matched_cases" => matched.size, "total_cases" => incidents.size, "unmatched_pct" => pct(incidents.size - matched.size, incidents.size),
+    "matched_cases" => matched.size, "total_cases" => incidents.size, "warning_matched_cases" => warn_ids.size,
+    "unmatched_pct" => pct(incidents.size - warn_ids.size, incidents.size),
     "unmatched_by_category" => gaps.map { |cat, u, n| { "category" => cat, "unmatched" => u, "total" => n } } }
 end
 
@@ -89,9 +127,9 @@ def status_pill(lang, s)
 end
 
 def first_line(lang, c, src)
-  return nil unless c["first_real_world"]
+  return nil unless c["first_real_world"] && c["months_after_publication"]
   # Coverage starts in 2025, so a gap after publication says more about the registry than the risk;
-  # only a case that predates the paper is worth calling out.
+  # only a case that predates the source is worth calling out.
   s = rx(lang, :l_first, date: fmt_date(c["first_real_world"], lang))
   c["months_after_publication"] <= 0 ? "#{s} · #{rx(lang, :l_before)}" : s
 end
@@ -106,8 +144,28 @@ def research_head(lang, title, desc, url, alternates, extra_ld)
   html.sub("</style>", PATTERNS_CSS + RESEARCH_CSS + "</style>")
 end
 
+def source_ld(src)
+  { "@type" => taxonomy?(src) ? "Dataset" : (src["kind"] == "paper" ? "ScholarlyArticle" : "Report"), "name" => src["title"], "url" => src["url"], "author" => src["authors"],
+    "datePublished" => src["published"], "publisher" => { "@type" => "Organization", "name" => src["institute"], "url" => src["institute_url"] } }
+end
+
+def source_cite(lang, src)
+  %(<b>#{h(src['title'])}</b>. #{h(src['authors'])}. #{h(src['institute'])}, #{h(src['version'])}.)
+end
+
+def source_links(lang, src)
+  %(<a class="btn" href="#{h(src['url'])}" rel="noopener" target="_blank">#{h(rx(lang, :l_paper))}</a>) +
+    (src["summary_url"] ? %( <a class="btn ghost" href="#{h(src['summary_url'])}" rel="noopener" target="_blank">#{h(rx(lang, :l_summary, inst: src['institute']))}</a>) : "")
+end
+
+def claim_card(lang, c, src)
+  fl = first_line(lang, c, src)
+  ss = section_short(lang, c, src)
+  %(<a class="claim" href="#{h(research_url(lang, c['id']))}">#{status_pill(lang, c['status'])}<h3>#{h(claim_text(lang, c, 'title'))}</h3>) +
+    %(#{fl ? %(<small>#{h(fl)}</small>) : ''}<div class="ft"><span class="n">#{h(c['n'].zero? ? rx(lang, :l_none_yet) : matches_label(lang, c['n']))}</span>#{ss.empty? ? '' : %(<small><bdi>#{h(ss)}</bdi></small>)}</div></a>)
+end
+
 def research_page(lang, st, incidents)
-  src = st["sources"].first
   url = research_url(lang)
   alternates = Hash[LANGS.map { |l| [l, research_url(l)] }]
   title = rx(lang, :research_h)
@@ -115,12 +173,13 @@ def research_page(lang, st, incidents)
   ld = [
     { "@context" => "https://schema.org", "@type" => "Dataset", "@id" => url, "name" => title, "description" => lede, "url" => url, "inLanguage" => lang, "isAccessibleForFree" => true,
       "license" => "https://creativecommons.org/licenses/by/4.0/", "creator" => { "@type" => "Organization", "name" => "AI Threat Watch", "url" => "#{BASE}/" },
-      "isBasedOn" => { "@type" => "ScholarlyArticle", "name" => src["title"], "url" => src["url"], "author" => src["authors"], "publisher" => { "@type" => "Organization", "name" => src["institute"], "url" => src["institute_url"] } },
+      "isBasedOn" => st["sources"].map { |s| source_ld(s) },
       "distribution" => [{ "@type" => "DataDownload", "encodingFormat" => "application/json", "contentUrl" => "#{BASE}/data/research.json" }], "dateModified" => st["generated_at"][0, 10] },
     crumbs_ld(lang, [[rx(lang, :research), url]])
   ]
   sc = st["status_counts"]
   kpis = [
+    [st["sources"].map { |s| s["institute"] }.uniq.size, rx(lang, :k_sources), nil],
     [st["claims"].size, rx(lang, :k_claims), nil],
     [sc["observed"], rx(lang, :k_observed), nil],
     [sc["early"] + sc["lab"], rx(lang, :k_early), nil],
@@ -129,19 +188,24 @@ def research_page(lang, st, incidents)
     [st["matched_cases"], rx(lang, :k_linked), rx(lang, :k_of, n: st["total_cases"])]
   ].map { |v, l, s| %(<div><b>#{h(v)}</b><span>#{h(l)}</span>#{s ? %(<small>#{h(s)}</small>) : ''}</div>) }.join
   key = %(<div class="rkey">#{STATUS_ORDER.select { |s| sc[s] > 0 }.map { |s| %(<div>#{status_pill(lang, s)}<span>#{h(rx(lang, "sd_#{s}"))}</span></div>) }.join}</div>)
-  groups = src["groups"].map do |g|
-    cards = st["claims"].select { |c| c["group"] == g["id"] }.sort_by { |c| [STATUS_ORDER.index(c["status"]), -c["n"]] }.map do |c|
-      fl = first_line(lang, c, src)
-      %(<a class="claim" href="#{h(research_url(lang, c['id']))}">#{status_pill(lang, c['status'])}<h3>#{h(claim_text(lang, c, 'title'))}</h3>) +
-        %(#{fl ? %(<small>#{h(fl)}</small>) : ''}<div class="ft"><span class="n">#{h(c['n'].zero? ? rx(lang, :l_none_yet) : matches_label(lang, c['n']))}</span><small>§#{h(c['section'])}</small></div></a>)
+  nav = %(<h3 class="sub">#{h(rx(lang, :l_jump))}</h3><div class="chips">#{st['sources'].map { |s| %(<a href="#src-#{h(s['id'])}">#{h(s['short'])}#{st['sources'].count { |o| o['short'] == s['short'] } > 1 ? " · #{h(group_text(lang, s, s['groups'].first['id'], 'name'))}" : ''}</a>) }.join}</div>)
+  sections = st["sources"].map do |src|
+    mine = st["claims"].select { |c| c["source"] == src["id"] }
+    groups = src["groups"].map do |g|
+      cards = mine.select { |c| c["group"] == g["id"] }.sort_by { |c| taxonomy?(src) ? [c["section"].to_i, 0] : [STATUS_ORDER.index(c["status"]), -c["n"]] }.map { |c| claim_card(lang, c, src) }.join
+      %(<div class="rgroup"><h3>#{h(group_text(lang, src, g['id'], 'name'))}</h3><p>#{h(group_text(lang, src, g['id'], 'blurb'))}</p><div class="claims">#{cards}</div></div>)
     end.join
-    %(<section class="rgroup"><h2>#{h(group_text(lang, src, g['id'], 'name'))}</h2><p>#{h(group_text(lang, src, g['id'], 'blurb'))}</p><div class="claims">#{cards}</div></section>)
+    %(<section class="rsrc" id="src-#{h(src['id'])}"><p class="eyebrow"><span>#{h(src['institute'])}</span><span>#{h(fmt_date(src['published'], lang))}</span>#{taxonomy?(src) ? %(<span>#{h(rx(lang, :l_taxonomy))}</span>) : ''}</p>) +
+      %(<h2>#{h(src['title'])}</h2><p class="cap">#{h(source_text(lang, src, 'about'))}</p>#{groups}</section>)
   end.join
+  by_src = Hash[st["by_source"].map { |r| [r["source"], r] }]
+  src_rows = st["sources"].map { |s| r = by_src[s["id"]]; %(<tr><td><a href="#src-#{h(s['id'])}">#{h(s['short'])}</a> <small>#{h(s['title'])}</small></td><td class="n">#{r['claims']}</td><td class="n">#{r['matched_cases']}</td><td class="n">#{r['matched_pct']}%</td></tr>) }.join
+  src_table = %(<h3 class="sub">#{h(rx(lang, :cov_h))}</h3><table class="pt"><thead><tr><th>#{h(rx(lang, :l_source))}</th><th>#{h(rx(lang, :k_claims))}</th><th>#{h(rx(lang, :cov_cases))}</th><th>#{h(rx(lang, :cov_share))}</th></tr></thead><tbody>#{src_rows}</tbody></table>)
   gap_rows = st["unmatched_by_category"].map { |r| %(<tr><td><a href="#{pre(lang)}/cases/category/#{slug(r['category'])}/">#{h(tt(lang, 'cats', r['category']))}</a></td><td class="n">#{r['unmatched']}</td><td class="n">#{r['total']}</td></tr>) }.join
-  gap = %(<section class="sec"><h2>#{h(rx(lang, :gap_h))}</h2><p class="cap">#{h(rx(lang, :gap_c, pct: st['unmatched_pct'], n: st['total_cases'] - st['matched_cases'], m: st['total_cases']))}</p>) +
-    %(<table class="pt"><thead><tr><th>#{h(rx(lang, :gap_cat))}</th><th>#{h(rx(lang, :gap_unmatched))}</th><th>#{h(rx(lang, :gap_total))}</th></tr></thead><tbody>#{gap_rows}</tbody></table></section>)
-  source = %(<section class="sec"><h2>#{h(rx(lang, :src_h))}</h2><p><b>#{h(src['title'])}</b>. #{h(src['authors'])}. #{h(src['institute'])}, #{h(src['version'])}.</p><p>#{h(rx(lang, :src_p, inst: src['institute']))}</p>) +
-    %(<p><a class="btn" href="#{h(src['url'])}" rel="noopener" target="_blank">#{h(rx(lang, :l_paper))}</a> <a class="btn ghost" href="#{h(src['summary_url'])}" rel="noopener" target="_blank">#{h(rx(lang, :l_summary))}</a></p></section>)
+  unmatched = st["total_cases"] - st["warning_matched_cases"]
+  gap = %(<section class="sec"><h2>#{h(rx(lang, :gap_h))}</h2><p class="cap">#{h(rx(lang, :gap_c, pct: st['unmatched_pct'], n: unmatched, m: st['total_cases']))}</p>) +
+    %(<table class="pt"><thead><tr><th>#{h(rx(lang, :gap_cat))}</th><th>#{h(rx(lang, :gap_unmatched))}</th><th>#{h(rx(lang, :gap_total))}</th></tr></thead><tbody>#{gap_rows}</tbody></table>#{src_table}</section>)
+  source = %(<section class="sec"><h2>#{h(rx(lang, :src_h))}</h2><p>#{h(rx(lang, :src_p))}</p><ul class="rsrcs">#{st['sources'].map { |s| %(<li><p>#{source_cite(lang, s)}</p><p>#{source_links(lang, s)}</p></li>) }.join}</ul></section>)
   body = <<~HTML
     #{crumbs_html(lang, [[rx(lang, :research), nil]])}
     <h1>#{h(title)}</h1>
@@ -149,7 +213,8 @@ def research_page(lang, st, incidents)
     #{share_row(lang, url, title)}
     <div class="kpis">#{kpis}</div>
     #{key}
-    #{groups}
+    #{nav}
+    #{sections}
     #{gap}
     #{source}
     <p class="method">#{h(rx(lang, :method))} #{h(rx(lang, :l_coverage))} <a href="/data/research.json">#{h(rx(lang, :l_json))}</a></p>
@@ -171,7 +236,7 @@ def claim_page(lang, c, st, incidents)
     { "@context" => "https://schema.org", "@type" => "Article", "@id" => url, "mainEntityOfPage" => url, "headline" => title, "description" => "#{warning} #{note}", "inLanguage" => lang,
       "isAccessibleForFree" => true, "license" => "https://creativecommons.org/licenses/by/4.0/", "dateModified" => st["generated_at"][0, 10],
       "publisher" => { "@type" => "Organization", "name" => "AI Threat Watch", "url" => "#{BASE}/" },
-      "citation" => { "@type" => "ScholarlyArticle", "name" => src["title"], "url" => src["url"], "author" => src["authors"] } },
+      "citation" => source_ld(src) },
     crumbs_ld(lang, [[rx(lang, :research), research_url(lang)], [title, url]])
   ]
   fl = first_line(lang, c, src)
@@ -186,21 +251,26 @@ def claim_page(lang, c, st, incidents)
     timeline = %(<section class="sec"><h2>#{h(rx(lang, :l_timeline))}</h2>#{series.size > 1 ? legend(series) : ''}#{stacked_bars(qs.map { |q| q.sub('-', ' ').sub(/^20/, "'") }, series, rx(lang, :l_timeline), hgt: 200)}</section>)
   end
   list = hits.empty? ? %(<p>#{h(rx(lang, :l_none_yet))}</p>) : %(<ul class="cases auto">#{hits.map { |i| li = localized(i, lang) || i; %(<li><time>#{h(fmt_date(i['date'], lang))}</time><span><a href="#{case_url(lang, i['id'])}">#{h(li['title'])}</a>#{lab_case?(i) ? %( <small>· #{h(rx(lang, :l_lab))}</small>) : ''}</span></li>) }.join}</ul>)
-  others = st["claims"].select { |o| o["group"] == c["group"] && o["id"] != c["id"] }.map { |o| %(<li>#{status_pill(lang, o['status'])} <a href="#{h(research_url(lang, o['id']))}">#{h(claim_text(lang, o, 'title'))}</a></li>) }.join
+  others = st["claims"].select { |o| o["source"] == c["source"] && o["group"] == c["group"] && o["id"] != c["id"] }.map { |o| %(<li>#{status_pill(lang, o['status'])} <a href="#{h(research_url(lang, o['id']))}">#{h(claim_text(lang, o, 'title'))}</a></li>) }.join
+  others_sec = others.empty? ? "" : %(<section class="sec"><h2>#{h(rx(lang, :l_other))}</h2><ul class="srcs">#{others}</ul></section>)
+  # Warnings from other sources that the same case files support, most shared cases first.
+  related = c["cases"].empty? ? [] : st["claims"].select { |o| o["source"] != c["source"] }.map { |o| [o, (o["cases"] & c["cases"]).size] }.select { |_, n| n > 0 }.sort_by { |o, n| [-n, o["id"]] }.first(6)
+  related_sec = related.empty? ? "" : %(<section class="sec"><h2>#{h(rx(lang, :l_related))}</h2><ul class="srcs">#{related.map { |o, n| os = st['sources'].find { |s| s['id'] == o['source'] }; %(<li>#{status_pill(lang, o['status'])} <a href="#{h(research_url(lang, o['id']))}">#{h(claim_text(lang, o, 'title'))}</a> <small>· #{h(os['short'])} · #{h(rx(lang, :l_shared, n: n))}</small></li>) }.join}</ul><p class="cap">#{h(rx(lang, :l_related_c))}</p></section>)
   body = <<~HTML
     #{crumbs_html(lang, [[rx(lang, :research), research_url(lang)], [title, nil]])}
     <article>
-    <p class="eyebrow"><span>#{h(group_text(lang, src, c['group'], 'name'))}</span><span>#{h(src['institute'])}</span><span>§#{h(c['section'])}</span></p>
+    <p class="eyebrow"><span>#{h(src['institute'])}</span><span>#{h(group_text(lang, src, c['group'], 'name'))}</span>#{section_short(lang, c, src).empty? ? '' : %(<span><bdi>#{h(section_short(lang, c, src))}</bdi></span>)}</p>
     <h1>#{h(title)}</h1>
     <p class="pills">#{status_pill(lang, c['status'])}<span class="pill">#{h(c['n'].zero? ? rx(lang, :l_none_yet) : matches_label(lang, c['n']))}</span></p>
     #{share_row(lang, url, title)}
-    <section class="sec"><h2>#{h(rx(lang, :l_warning))}</h2><blockquote class="warn">#{h(warning)}</blockquote>
-    <p class="cap">#{h(rx(lang, :l_paraphrase))} #{h(rx(lang, :l_source))}: <a href="#{h(src['url'])}" rel="noopener" target="_blank">#{h(src['title'])}</a>, #{h(src['institute'])}, #{h(rx(lang, :l_section, s: c['section'], p: c['page']))}.</p></section>
+    <section class="sec"><h2>#{h(rx(lang, taxonomy?(src) ? :l_domain_h : :l_warning))}</h2><blockquote class="warn">#{h(warning)}</blockquote>
+    <p class="cap">#{h(rx(lang, :l_paraphrase))} #{h(rx(lang, :l_source))}: <a href="#{h(src['url'])}" rel="noopener" target="_blank">#{h(src['title'])}</a>, #{src['title'].start_with?(src['institute']) ? '' : "#{h(src['institute'])}, "}#{h(fmt_date(src['published'], lang))}, #{h(section_label(lang, c, src))}.</p></section>
     <section class="sec"><h2>#{h(rx(lang, :l_shows))}</h2><p>#{h(note)}</p><p class="cap">#{h(rx(lang, "sd_#{c['status']}"))}#{fl ? " #{h(fl)}." : ''}</p></section>
     #{timeline}
-    #{research_history_html(lang, c)}
     <section class="sec"><h2>#{h(rx(lang, :l_all))}</h2>#{list}</section>
-    <section class="sec"><h2>#{h(rx(lang, :l_other))}</h2><ul class="srcs">#{others}</ul><p><a href="#{h(research_url(lang))}">#{h(rx(lang, :research))} →</a></p></section>
+    #{related_sec}
+    #{others_sec}
+    <p><a href="#{h(research_url(lang))}#src-#{h(src['id'])}">#{h(rx(lang, :research))} · #{h(src['short'])} →</a></p>
     </article>
     <p class="method">#{h(rx(lang, :method))} #{h(rx(lang, :l_coverage))} <a href="/data/research.json">#{h(rx(lang, :l_json))}</a></p>
     <p class="langs">#{h(t(lang, 'lang'))}: #{lang_links(lang, alternates)}</p>
@@ -208,11 +278,12 @@ def claim_page(lang, c, st, incidents)
   shell(lang, "research", research_head(lang, title, warning, url, alternates, ld), body, alternates)
 end
 
-# Block for a case page: the warnings this case matches. Empty string when none.
+# Block for a case page: the warnings this case matches, with their source. Empty string when none.
 def case_research_html(lang, case_id)
   return "" unless defined?($research_by_case) && $research_by_case
   claims = $research_by_case[case_id] || []
   return "" if claims.empty?
-  items = claims.map { |c| %(<li>#{status_pill(lang, c['status'])} <a href="#{h(research_url(lang, c['id']))}">#{h(claim_text(lang, c, 'title'))}</a></li>) }.join
+  shorts = Hash[RESEARCH["sources"].map { |s| [s["id"], s["short"]] }]
+  items = claims.map { |c| %(<li>#{status_pill(lang, c['status'])} <a href="#{h(research_url(lang, c['id']))}">#{h(claim_text(lang, c, 'title'))}</a> <small>· #{h(shorts[c['source']])}</small></li>) }.join
   %(<section class="sec"><h2>#{h(rx(lang, :case_h))}</h2><ul class="srcs">#{items}</ul><p class="cap">#{h(rx(lang, :case_c))}</p></section>)
 end

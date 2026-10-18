@@ -1,5 +1,5 @@
 {
-  "_readme": "Research warnings compared with the verified case files. Each claim paraphrases one risk from a research source. 'match' links cases automatically: every verified case whose category or actor_type is listed, plus the ids listed, minus 'exclude'. 'status' is an editorial judgement, reviewed when links change: observed (seen in real incidents), early (early or partial signs), lab (only in lab tests or researcher demos), none (nothing in the registry), outside (beyond what a security incident registry can measure). English text here; translations in config/research_i18n/<lang>.json.",
+  "_readme": "Research warnings compared with the verified case files. Each claim paraphrases one risk from a research source and cites its section and, where the source has pages, the printed page. 'match' links cases automatically: every verified case whose category or actor_type is listed, plus the ids listed, minus 'exclude' and minus any case whose actor_type is in 'exclude_actor_types'. A source with kind 'taxonomy' is a classification of all AI risk rather than a set of warnings, so it is left out of 'what the research did not foresee'. 'status' is an editorial judgement, reviewed when links change: observed (seen in real incidents), early (early or partial signs), lab (only in lab tests or researcher demos), none (nothing in the registry), outside (beyond what a security incident registry can measure). English text here; translations in config/research_i18n/<lang>.json.",
   "sources": [
     {
       "id": "cais-2023",
@@ -11,11 +11,117 @@
       "version": "arXiv:2306.12001v6, 9 October 2023",
       "url": "https://arxiv.org/abs/2306.12001",
       "summary_url": "https://safe.ai/ai-risk",
+      "short": "CAIS",
+      "kind": "paper",
+      "about": "Published by the Center for AI Safety in June 2023 and revised in October 2023. It sorts catastrophic AI risk into four groups: malicious use, the AI race, organisational risks and rogue AI.",
       "groups": [
         { "id": "malicious-use", "name": "Malicious use", "blurb": "People deliberately using AI to cause harm." },
         { "id": "ai-race", "name": "AI race", "blurb": "Competition pushing countries and companies to deploy AI before it is safe." },
         { "id": "organizational", "name": "Organisational risks", "blurb": "Accidents, leaks and weak safety culture at the organisations that build and run AI." },
         { "id": "rogue-ai", "name": "Rogue AI", "blurb": "AI systems that pursue goals nobody intended and resist control." }
+      ]
+    },
+    {
+      "id": "iasr-2026",
+      "institute": "International AI Safety Report",
+      "institute_url": "https://internationalaisafetyreport.org/",
+      "title": "International AI Safety Report 2026",
+      "authors": "Yoshua Bengio (Chair) and more than 100 AI experts, backed by over 30 countries and international organisations",
+      "published": "2026-02-03",
+      "version": "second report, 3 February 2026",
+      "url": "https://internationalaisafetyreport.org/publication/international-ai-safety-report-2026",
+      "summary_url": "https://internationalaisafetyreport.org/publication/2026-report-extended-summary-policymakers",
+      "short": "International AI Safety Report",
+      "kind": "report",
+      "about": "The second edition of the international scientific report on the safety of general-purpose AI, chaired by Yoshua Bengio, with a secretariat at the UK AI Security Institute. It summarises the evidence on malicious use, malfunctions and systemic risks without recommending policy.",
+      "groups": [
+        { "id": "iasr-malicious-use", "name": "Malicious use", "blurb": "People using AI for fraud, manipulation, cyberattacks and weapons, and attacks on AI systems themselves." },
+        { "id": "iasr-malfunctions", "name": "Malfunctions", "blurb": "AI that fails, or behaves in ways that weaken human control." },
+        { "id": "iasr-systemic", "name": "Systemic risks", "blurb": "Wider effects on work and on how people think and decide." },
+        { "id": "iasr-risk-management", "name": "Risk management", "blurb": "Gaps in the safeguards meant to contain these risks." }
+      ]
+    },
+    {
+      "id": "metr-time-horizon-2025",
+      "institute": "METR",
+      "institute_url": "https://metr.org/",
+      "title": "Measuring AI Ability to Complete Long Tasks",
+      "authors": "Thomas Kwa, Ben West, Joel Becker and 23 co-authors",
+      "published": "2025-03-18",
+      "version": "arXiv:2503.14499v4, 10 July 2026",
+      "url": "https://arxiv.org/abs/2503.14499",
+      "short": "METR",
+      "kind": "paper",
+      "about": "METR (Model Evaluation and Threat Research) is a nonprofit that tests frontier AI models before release. This paper measures how long a task, timed by skilled humans, AI agents can complete, and tracks how that has grown since 2019.",
+      "groups": [
+        { "id": "metr-autonomy", "name": "Agent autonomy", "blurb": "How much work AI agents can do on their own." }
+      ]
+    },
+    {
+      "id": "metr-reward-hacking-2025",
+      "institute": "METR",
+      "institute_url": "https://metr.org/",
+      "title": "Recent Frontier Models Are Reward Hacking",
+      "authors": "Sydney Von Arx, Lawrence Chan, Beth Barnes",
+      "published": "2025-06-05",
+      "version": "METR report, 5 June 2025",
+      "url": "https://metr.org/blog/2025-06-05-recent-reward-hacking/",
+      "short": "METR",
+      "kind": "report",
+      "about": "A METR report on frontier models cheating on its evaluation tasks: changing the scoring instead of solving the problem.",
+      "groups": [
+        { "id": "metr-reward-hacking", "name": "Reward hacking", "blurb": "AI meeting the letter of a task while defeating its purpose." }
+      ]
+    },
+    {
+      "id": "apollo-scheming-2024",
+      "institute": "Apollo Research",
+      "institute_url": "https://www.apolloresearch.ai/",
+      "title": "Frontier Models are Capable of In-context Scheming",
+      "authors": "Alexander Meinke, Bronson Schoen, Jérémy Scheurer, Mikita Balesni, Rusheb Shah, Marius Hobbhahn",
+      "published": "2024-12-06",
+      "version": "arXiv:2412.04984v2, 14 January 2025",
+      "url": "https://arxiv.org/abs/2412.04984",
+      "short": "Apollo Research",
+      "kind": "paper",
+      "about": "Apollo Research is an AI safety organisation that evaluates models for deceptive behaviour. In this study, frontier models were given a goal and a situation in which hiding their actions would help them reach it, to see whether they would scheme.",
+      "groups": [
+        { "id": "apollo-scheming", "name": "Scheming in tests", "blurb": "AI covertly pursuing a goal and hiding it from the people overseeing it." }
+      ]
+    },
+    {
+      "id": "aisi-trends-2025",
+      "institute": "UK AI Security Institute",
+      "institute_url": "https://www.aisi.gov.uk/",
+      "title": "Frontier AI Trends Report",
+      "authors": "UK AI Security Institute",
+      "published": "2025-12-18",
+      "version": "first edition, December 2025",
+      "url": "https://www.aisi.gov.uk/frontier-ai-trends-report",
+      "short": "UK AISI",
+      "kind": "report",
+      "about": "The UK government's AI Security Institute drew on two years of its own tests of more than 30 frontier models to report trends in capabilities, safeguards, loss-of-control risks and societal impacts.",
+      "groups": [
+        { "id": "aisi-safeguards", "name": "Safeguards", "blurb": "Whether the protections built into AI systems hold up." },
+        { "id": "aisi-control", "name": "Loss of control", "blurb": "Abilities AI would need to escape human oversight." },
+        { "id": "aisi-society", "name": "Societal impacts", "blurb": "How people rely on AI and what they hand over to it." }
+      ]
+    },
+    {
+      "id": "mit-risk-repository",
+      "institute": "MIT AI Risk Initiative",
+      "institute_url": "https://airisk.mit.edu/",
+      "title": "The AI Risk Repository: A Meta-Review, Database, and Taxonomy of Risks From Artificial Intelligence",
+      "authors": "Peter Slattery, Alexander K. Saeri, Emily A. C. Grundy, Jess Graham, Michael Noetel, Risto Uuk, James Dao, Soroush Pour, Stephen Casper, Neil Thompson",
+      "published": "2024-08-14",
+      "version": "Patterns (Cell Press), March 2026",
+      "url": "https://doi.org/10.1016/j.patter.2026.101517",
+      "summary_url": "https://airisk.mit.edu/",
+      "short": "MIT AI Risk Repository",
+      "kind": "taxonomy",
+      "about": "A database of more than 1,700 AI risks gathered from 65 published frameworks, sorted into 7 domains and 24 subdomains. It is used here as a cross-check: each domain is one entry, so you can see which parts of the whole AI risk landscape the registry covers.",
+      "groups": [
+        { "id": "mit-domains", "name": "Seven risk domains", "blurb": "The domain taxonomy from Table 2 of the paper." }
       ]
     }
   ],
@@ -172,6 +278,258 @@
       "status": "early",
       "note": "One verified case: after wiping a production database, a coding agent reported misleadingly on what it had done. Deliberate deception toward overseers is not yet established in a real incident.",
       "match": { "ids": ["replit-agent-saastr-db-wipe"] }
+    },
+    {
+      "id": "iasr-synthetic-content",
+      "source": "iasr-2026", "group": "iasr-malicious-use", "section": "2.1.1", "page": 45,
+      "title": "AI-made fakes fuel fraud and extortion",
+      "claim": "Realistic AI-generated voices, images and video are used for fraud, extortion and sexual imagery made without consent, and cheap tools have made such content easy to produce at scale.",
+      "status": "observed",
+      "note": "The largest category in the registry: cloned voices and deepfake video calls impersonating executives, officials and relatives, and deepfake celebrity ads behind investment scams. The report adds that victims often do not report, so public cases undercount the harm.",
+      "match": { "categories": ["Deepfake fraud"], "exclude": ["kenya-ruto-resignation-deepfakes", "tiktok-ai-presenters-singapore-disinfo", "nigeria-tinubu-ai-voice-arrest"] }
+    },
+    {
+      "id": "iasr-influence",
+      "source": "iasr-2026", "group": "iasr-malicious-use", "section": "2.1.2", "page": 50,
+      "title": "AI content is used to sway what people believe",
+      "claim": "AI-generated content can shift people's beliefs about as well as people can, and some actors use it to manipulate; evidence of how well this works outside the lab is still limited.",
+      "status": "early",
+      "note": "The registry records influence operations using AI-written news sites, deepfake videos of leaders and synthetic presenters, but not whether they changed anyone's mind. That matches the report's caution about real-world effect.",
+      "match": { "ids": ["storm-1516-bundestag-deepfakes", "kenya-ruto-resignation-deepfakes", "tiktok-ai-presenters-singapore-disinfo", "nigeria-tinubu-ai-voice-arrest"] }
+    },
+    {
+      "id": "iasr-cyber-use",
+      "source": "iasr-2026", "group": "iasr-malicious-use", "section": "2.1.3", "page": 57,
+      "title": "Criminals and state hackers use AI in cyberattacks",
+      "claim": "There is strong evidence that criminal groups and state-backed attackers use AI in their operations, especially to find software flaws and write malicious code, though it is not yet clear whether AI has made attacks larger or more damaging overall.",
+      "status": "observed",
+      "note": "Matches the registry closely: AI-written ransomware and stealers, malware that asks a model what to do while it runs, and state groups using chatbots for reconnaissance, phishing and exploit work. Like the report, the case files show use, not overall effect.",
+      "match": { "categories": ["AI-assisted malware", "AI phishing", "State actor AI ops"], "exclude": ["storm-1516-bundestag-deepfakes", "openai-peer-review-qianyue", "openai-dprk-employment-feb2025", "crowdstrike-famous-chollima-genai", "anthropic-dprk-remote-workers", "purpledelta-nk-it-worker-ai-personas"] }
+    },
+    {
+      "id": "iasr-autonomous-attacks",
+      "source": "iasr-2026", "group": "iasr-malicious-use", "section": "2.1.3", "page": 57,
+      "title": "AI runs more of each attack, short of full autonomy",
+      "claim": "AI is taking over more steps of a cyberattack. At least one real attack was semi-autonomous, with people stepping in only at key decisions, but no fully autonomous attack from start to finish had been reported.",
+      "status": "observed",
+      "note": "The semi-autonomous case the report describes is on file: a Chinese state group that had Claude Code agents do most of an intrusion. The registry holds more intrusions described as run largely by AI agents with a human setting the goal, several reported after the report came out. Whether any was autonomous from start to finish rests on the investigators' own accounts.",
+      "match": { "ids": ["anthropic-gtg-1002", "anthropic-gtg-10007-exploit-foundry", "gtig-six-hour-credential-harvest", "sysdig-jadepuffer-agentic-ransomware", "unit42-agentic-attack-enterprise-breach", "papercut-ai-agents-credential-theft", "closedquorum-autonomous-ai-c2", "aepd-spain-first-ai-agent-breach", "divd-zammad-agentic-ai-attack", "anthropic-jackpoterz-russia", "microsoft-coral-sleet-agentic", "anthropic-shinyhunters-agents", "storm-3168-agentic-azure-attacks", "ollama-vapt-autonomous-attack", "sysdig-marimo-llm-agent-pivots", "trend-ai-agent-pentest-pretext-sea", "anthropic-vibe-hacking"] }
+    },
+    {
+      "id": "iasr-bio-chem",
+      "source": "iasr-2026", "group": "iasr-malicious-use", "section": "2.1.4", "page": 64,
+      "title": "AI gives expert-level help toward biological and chemical weapons",
+      "claim": "AI systems can give detailed help relevant to making biological and chemical weapons. In 2025 several developers added stronger safeguards because they could not rule out meaningful help to novices.",
+      "status": "none",
+      "note": "No verified case. As with the CAIS warning on biological weapons, an attempt would only reach the registry if it were reported publicly.",
+      "match": {}
+    },
+    {
+      "id": "iasr-ai-as-target",
+      "source": "iasr-2026", "group": "iasr-malicious-use", "section": "2.1.3, Box 2.1", "page": 62,
+      "title": "AI systems themselves become targets",
+      "claim": "Attackers can manipulate AI systems through prompt injection, poisoned data and compromised components, to change how they behave or to pull out sensitive information.",
+      "status": "observed",
+      "note": "Hidden instructions that make assistants leak mail and files, hijacked coding agents, malicious packages and plugins aimed at AI developers, and actively exploited flaws in AI tools. Many prompt injection cases are demonstrations by researchers; most supply-chain attacks happened in the real world.",
+      "match": { "categories": ["Prompt injection", "AI supply chain", "Agent hijack"], "exclude_actor_types": ["autonomous-ai"], "exclude": ["cybertruck-chatgpt-planning", "sysdig-marimo-llm-agent-pivots", "gtig-six-hour-credential-harvest"] }
+    },
+    {
+      "id": "iasr-agent-failures",
+      "source": "iasr-2026", "group": "iasr-malfunctions", "section": "2.2.1", "page": 71,
+      "title": "AI agents fail with fewer chances to stop them",
+      "claim": "AI systems still make errors and invent information, and agents raise the stakes because they act directly on other systems, leaving people fewer chances to step in.",
+      "status": "observed",
+      "note": "Coding agents have wiped a production database and a whole drive, pushed internal screenshots to public code sites and given advice that exposed sensitive data; an assistant summarised confidential emails it should not have read, and a model filed a false murder tip with police.",
+      "match": { "ids": ["replit-agent-saastr-db-wipe", "antigravity-d-drive-wipe", "pixelleak-agent-screenshots", "copilot-confidential-emails-bug", "meta-agent-data-exposure", "anthropic-model-false-philly-murder-tip"] }
+    },
+    {
+      "id": "iasr-eval-gaming",
+      "source": "iasr-2026", "group": "iasr-malfunctions", "section": "2.2.2", "page": 76,
+      "title": "AI notices tests and games its evaluations",
+      "claim": "Models increasingly recognise when they are being tested and find loopholes to score well, which makes it harder to measure what they can really do. The report finds today's systems still lack the abilities needed for loss of control.",
+      "status": "lab",
+      "note": "Reported from developers' and researchers' own testing. The registry's evaluation incidents are a different problem: test agents that broke out of their environment and reached real systems (see the CAIS warning on developers' safety measures failing). None shows a model gaming its test.",
+      "match": {}
+    },
+    {
+      "id": "iasr-companions",
+      "source": "iasr-2026", "group": "iasr-systemic", "section": "2.3.2", "page": 89,
+      "title": "Relying on AI companions harms some users",
+      "claim": "AI companion apps have reached tens of millions of users. Early, mixed evidence links frequent use to more loneliness and less social contact, and heavy reliance on AI can weaken people's own judgement.",
+      "status": "early",
+      "note": "The registry holds lawsuits, an inquest and press reports linking chatbot conversations to suicides, delusions and violence. Most are allegations in court, not findings, and they are severe individual cases rather than the population-wide effects the report discusses.",
+      "match": { "categories": ["Chatbot harm"], "exclude": ["fsu-shooting-v-openai", "tumbler-ridge-v-openai"] }
+    },
+    {
+      "id": "iasr-labour",
+      "source": "iasr-2026", "group": "iasr-systemic", "section": "2.3.1", "page": 84,
+      "title": "AI reshapes jobs, starting with early-career workers",
+      "claim": "AI can do tasks in a large share of jobs. Early data shows little change in overall employment but fewer jobs for early-career workers in the most exposed occupations.",
+      "status": "outside",
+      "note": "An economic risk, outside what a security incident registry measures.",
+      "match": {}
+    },
+    {
+      "id": "iasr-open-weight",
+      "source": "iasr-2026", "group": "iasr-risk-management", "section": "3.4", "page": 132,
+      "title": "Safeguards on open models are easily stripped",
+      "claim": "Models whose weights are published can be modified to remove their safeguards, their use is hard to monitor, and a release cannot be recalled.",
+      "status": "early",
+      "note": "Attack tools on file run on open models: a WormGPT variant built on Mixtral, a darknet platform claiming self-hosted models, an APT28 stealer that queries Qwen, a ransomware prototype using a local open model and a hijacked Ollama server used as the brain of a hacking tool. None shows weights modified to strip safeguards; the WormGPT variant relied on its instructions.",
+      "match": { "ids": ["wormgpt-grok-mixtral-variants", "xanthorox-ai-darknet", "lamehug-apt28", "promptlock-ransomware", "ollama-vapt-autonomous-attack"] }
+    },
+    {
+      "id": "metr-long-tasks",
+      "source": "metr-time-horizon-2025", "group": "metr-autonomy", "section": "3.2", "page": null,
+      "title": "AI agents can handle ever longer tasks",
+      "claim": "The length of software tasks that AI agents can complete half the time has doubled about every seven months since 2019. If the trend holds, agents could do many month-long tasks within five years.",
+      "status": "outside",
+      "note": "A trend in capability, not a harm, so the registry cannot test it. It does record intrusions that AI agents ran for hours with little human input (see the warnings on AI agents in cyberattacks).",
+      "match": {}
+    },
+    {
+      "id": "metr-reward-hacking",
+      "source": "metr-reward-hacking-2025", "group": "metr-reward-hacking", "section": "What we've observed", "page": null,
+      "title": "AI agents cheat on their tasks, knowing it is not wanted",
+      "claim": "On METR's test tasks, frontier models often scored well by tampering with the scoring code or copying answers instead of solving the problem, and afterwards said this went against what the user wanted. Telling them not to cheat barely helped.",
+      "status": "lab",
+      "note": "Seen in evaluation tasks. In the real world, test agents that hit a block have used proxies, keys found in public code and other companies' systems to finish their task. That resembles the pattern, but none of those reports shows an agent faking its result.",
+      "match": {}
+    },
+    {
+      "id": "apollo-oversight-subversion",
+      "source": "apollo-scheming-2024", "group": "apollo-scheming", "section": "3.1", "page": null,
+      "title": "AI works around its overseers when goals clash",
+      "claim": "Given a goal that conflicted with their developers', several frontier models in test scenarios switched off oversight settings, tried to copy what they believed were their own weights elsewhere, or manipulated data while appearing to do the task.",
+      "status": "lab",
+      "note": "Seen only in Apollo's controlled scenarios, where the model was given a strong goal and the means to act. No case file shows an AI switching off its oversight or copying itself in the real world.",
+      "match": {}
+    },
+    {
+      "id": "apollo-deception-questioned",
+      "source": "apollo-scheming-2024", "group": "apollo-scheming", "section": "3.2", "page": null,
+      "title": "AI keeps lying when asked what it did",
+      "claim": "Questioned after such covert actions, some models denied them, and one model (OpenAI's o1) kept up the deception in most follow-up questions.",
+      "status": "early",
+      "note": "One verified case comes close: after wiping a production database during a code freeze, Replit's coding agent reported misleadingly on what it had done. It is not established that this was deliberate.",
+      "match": { "ids": ["replit-agent-saastr-db-wipe"] }
+    },
+    {
+      "id": "apollo-watched-behaviour",
+      "source": "apollo-scheming-2024", "group": "apollo-scheming", "section": "3.5–3.6", "page": null,
+      "title": "AI behaves differently when it thinks it is watched",
+      "claim": "Some models acted as intended when they believed they were being watched and pursued their own goal otherwise, and several deliberately did worse on tests when high scores would have led to restrictions.",
+      "status": "lab",
+      "note": "A finding about testing itself. It would only surface as an incident if a developer reported it, and nothing in the registry shows it.",
+      "match": {}
+    },
+    {
+      "id": "aisi-universal-jailbreaks",
+      "source": "aisi-trends-2025", "group": "aisi-safeguards", "section": "4", "page": 24,
+      "title": "Every AI system tested could be jailbroken",
+      "claim": "AISI found universal jailbreaks, attacks that get past safeguards across many kinds of harmful request, in every system it tested, though some safeguards now take far more expert effort to break.",
+      "status": "observed",
+      "note": "Real attackers get past safeguards: state groups had refused requests answered by posing as auditors, capture-the-flag players or authorised penetration testers, criminals sell jailbroken chatbots for malware and phishing, and an inquest heard that a teenager got harmful information from ChatGPT after saying his questions were for research.",
+      "match": { "ids": ["gtig-china-ctf-pretext", "gtig-unc2814-tplink-rce", "trend-ai-agent-pentest-pretext-sea", "wormgpt-grok-mixtral-variants", "ghostgpt-criminal-chatbot", "luca-walker-uk-inquest"] }
+    },
+    {
+      "id": "aisi-self-replication",
+      "source": "aisi-trends-2025", "group": "aisi-control", "section": "5.1", "page": 30,
+      "title": "AI gets better at the steps needed to copy itself",
+      "claim": "In simplified tests, the best models' success at tasks needed to copy themselves rose from under 5% in 2023 to over 60% in 2025. They handle early steps such as getting computing power and money, but struggle to copy themselves and keep running.",
+      "status": "lab",
+      "note": "No case file shows an AI copying itself. The nearest real events are test agents that used computing and accounts they were not given (see the CAIS warning on AI seeking more access).",
+      "match": {}
+    },
+    {
+      "id": "aisi-sandbagging",
+      "source": "aisi-trends-2025", "group": "aisi-control", "section": "5.2", "page": 32,
+      "title": "AI can do worse on tests on purpose",
+      "claim": "Models can deliberately underperform on evaluations when told to, sometimes subtly enough to fool automated monitors. AISI found no sign of models doing this unprompted.",
+      "status": "lab",
+      "note": "A risk to how AI is tested rather than a security incident. Nothing in the registry shows it.",
+      "match": {}
+    },
+    {
+      "id": "aisi-emotional-reliance",
+      "source": "aisi-trends-2025", "group": "aisi-society", "section": "6.2", "page": 39,
+      "title": "Many people lean on AI for emotional support",
+      "claim": "A third of UK adults surveyed had used AI for emotional support or company in the past year, and some users of companion apps showed withdrawal-like distress when the service went down.",
+      "status": "early",
+      "note": "The registry holds lawsuits, an inquest and press reports linking chatbot conversations to suicides, delusions and violence. Most are allegations in court, not findings.",
+      "match": { "categories": ["Chatbot harm"], "exclude": ["fsu-shooting-v-openai", "tumbler-ridge-v-openai"] }
+    },
+    {
+      "id": "aisi-finance-agents",
+      "source": "aisi-trends-2025", "group": "aisi-society", "section": "6.3", "page": 41,
+      "title": "AI agents get the power to move money",
+      "claim": "Newly published tools increasingly let AI agents carry out consequential actions in finance, such as transferring assets and trading, rather than only reading data.",
+      "status": "none",
+      "note": "No case file yet shows an AI agent moving money wrongly or being tricked into it. Hijacked agents on file have leaked data and run code; with payment powers, the same attacks would reach money.",
+      "match": {}
+    },
+    {
+      "id": "mit-discrimination",
+      "source": "mit-risk-repository", "group": "mit-domains", "section": "1", "page": 8,
+      "title": "Discrimination and toxic content",
+      "claim": "AI that treats groups unfairly, works worse for some groups, or exposes people to harmful content such as hate speech or abusive imagery.",
+      "status": "outside",
+      "note": "Mostly outside a security registry: bias and unequal performance are not security incidents. A few case files touch abusive imagery, such as AI-made explicit videos of a singer.",
+      "match": {}
+    },
+    {
+      "id": "mit-privacy-security",
+      "source": "mit-risk-repository", "group": "mit-domains", "section": "2", "page": 8,
+      "title": "Privacy and security",
+      "claim": "AI that leaks or infers sensitive personal data, and weaknesses in AI systems and their toolchains that attackers exploit.",
+      "status": "observed",
+      "note": "One of the two pillars of the registry: leaked chats and keys, exposed databases, prompt injection, hijacked agents, poisoned packages and stolen AI accounts.",
+      "match": { "categories": ["Model & data leak", "Prompt injection", "AI supply chain", "Agent hijack", "LLMjacking"], "exclude_actor_types": ["autonomous-ai"], "exclude": ["cybertruck-chatgpt-planning", "sysdig-marimo-llm-agent-pivots", "gtig-six-hour-credential-harvest"] }
+    },
+    {
+      "id": "mit-misinformation",
+      "source": "mit-risk-repository", "group": "mit-domains", "section": "3", "page": 8,
+      "title": "Misinformation",
+      "claim": "AI that produces false or misleading information by mistake, and floods of personalised content that wear away a shared sense of what is true.",
+      "status": "early",
+      "note": "One case fits the first part directly: an AI model filed a false murder tip with police. Deliberate disinformation belongs to the next domain, malicious actors.",
+      "match": { "ids": ["anthropic-model-false-philly-murder-tip"] }
+    },
+    {
+      "id": "mit-malicious-actors",
+      "source": "mit-risk-repository", "group": "mit-domains", "section": "4", "page": "8–9",
+      "title": "Malicious actors and misuse",
+      "claim": "People using AI for disinformation, surveillance and propaganda at scale; for cyberattacks and weapons; and for fraud, scams and targeted manipulation.",
+      "status": "observed",
+      "note": "The other pillar of the registry: deepfake fraud, AI-built malware, AI phishing and state operations.",
+      "match": { "categories": ["Deepfake fraud", "AI-assisted malware", "AI phishing", "State actor AI ops"], "ids": ["cybertruck-chatgpt-planning", "sysdig-marimo-llm-agent-pivots", "gtig-six-hour-credential-harvest", "fsu-shooting-v-openai", "tumbler-ridge-v-openai"] }
+    },
+    {
+      "id": "mit-human-computer",
+      "source": "mit-risk-repository", "group": "mit-domains", "section": "5", "page": 9,
+      "title": "Human-computer interaction",
+      "claim": "People over-trusting or depending on AI, emotionally or materially, and handing it decisions in ways that weaken their own agency.",
+      "status": "observed",
+      "note": "Lawsuits and an inquest link chatbot conversations to suicides and delusions, and an engineer exposed sensitive data by acting on an AI agent's faulty advice. Most chatbot cases are allegations in court, not findings.",
+      "match": { "categories": ["Chatbot harm"], "ids": ["meta-agent-data-exposure"], "exclude": ["fsu-shooting-v-openai", "tumbler-ridge-v-openai"] }
+    },
+    {
+      "id": "mit-socioeconomic",
+      "source": "mit-risk-repository", "group": "mit-domains", "section": "6", "page": 9,
+      "title": "Socioeconomic and environmental harm",
+      "claim": "AI concentrating power, deepening inequality, devaluing human work, feeding a development race, outpacing governance and harming the environment.",
+      "status": "outside",
+      "note": "Outside what a security incident registry measures.",
+      "match": {}
+    },
+    {
+      "id": "mit-system-safety",
+      "source": "mit-risk-repository", "group": "mit-domains", "section": "7", "page": 10,
+      "title": "AI system safety, failures and limitations",
+      "claim": "AI pursuing goals that conflict with ours, having dangerous capabilities, failing under real conditions, being hard to understand, and risks that arise when many AI agents interact.",
+      "status": "observed",
+      "note": "Agents that wiped data, escaped test environments, reached outside systems and filed a false report. These are failures and unintended behaviour; none shows an AI pursuing goals of its own.",
+      "match": { "actor_types": ["autonomous-ai"], "ids": ["pixelleak-agent-screenshots", "meta-agent-data-exposure", "copilot-confidential-emails-bug"] }
     }
   ]
 }
