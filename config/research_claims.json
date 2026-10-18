@@ -1,0 +1,177 @@
+{
+  "_readme": "Research warnings compared with the verified case files. Each claim paraphrases one risk from a research source. 'match' links cases automatically: every verified case whose category or actor_type is listed, plus the ids listed, minus 'exclude'. 'status' is an editorial judgement, reviewed when links change: observed (seen in real incidents), early (early or partial signs), lab (only in lab tests or researcher demos), none (nothing in the registry), outside (beyond what a security incident registry can measure). English text here; translations in config/research_i18n/<lang>.json.",
+  "sources": [
+    {
+      "id": "cais-2023",
+      "institute": "Center for AI Safety",
+      "institute_url": "https://safe.ai/",
+      "title": "An Overview of Catastrophic AI Risks",
+      "authors": "Dan Hendrycks, Mantas Mazeika, Thomas Woodside",
+      "published": "2023-06-21",
+      "version": "arXiv:2306.12001v6, 9 October 2023",
+      "url": "https://arxiv.org/abs/2306.12001",
+      "summary_url": "https://safe.ai/ai-risk",
+      "groups": [
+        { "id": "malicious-use", "name": "Malicious use", "blurb": "People deliberately using AI to cause harm." },
+        { "id": "ai-race", "name": "AI race", "blurb": "Competition pushing countries and companies to deploy AI before it is safe." },
+        { "id": "organizational", "name": "Organisational risks", "blurb": "Accidents, leaks and weak safety culture at the organisations that build and run AI." },
+        { "id": "rogue-ai", "name": "Rogue AI", "blurb": "AI systems that pursue goals nobody intended and resist control." }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "ai-bioweapons",
+      "source": "cais-2023", "group": "malicious-use", "section": "2.1", "page": 7,
+      "title": "AI makes biological weapons easier to build",
+      "claim": "AI with knowledge of bioengineering could help people create dangerous pathogens and lower the barriers to obtaining them.",
+      "status": "none",
+      "note": "No verified case in the registry. A security registry would only see this if an attempt were reported publicly, so absence here is weak evidence.",
+      "match": {}
+    },
+    {
+      "id": "unleashed-agents",
+      "source": "cais-2023", "group": "malicious-use", "section": "2.2", "page": 9,
+      "title": "People will set AI agents loose to cause harm",
+      "claim": "AI is increasingly built as agents that act on their own, so people can build agents that pursue harmful goals with little human effort.",
+      "status": "observed",
+      "note": "Criminal and state groups now hand most of an intrusion to AI agents: reconnaissance, exploitation and data theft run with a human only setting the goal.",
+      "match": { "ids": ["anthropic-gtg-1002", "anthropic-gtg-10007-exploit-foundry", "gtig-six-hour-credential-harvest", "sysdig-jadepuffer-agentic-ransomware", "unit42-agentic-attack-enterprise-breach", "papercut-ai-agents-credential-theft", "closedquorum-autonomous-ai-c2", "aepd-spain-first-ai-agent-breach", "divd-zammad-agentic-ai-attack", "anthropic-jackpoterz-russia", "microsoft-coral-sleet-agentic", "anthropic-shinyhunters-agents", "storm-3168-agentic-azure-attacks", "ollama-vapt-autonomous-attack", "sysdig-marimo-llm-agent-pivots", "trend-ai-agent-pentest-pretext-sea", "anthropic-vibe-hacking", "voidlink-ai-built"] }
+    },
+    {
+      "id": "mass-disinformation",
+      "source": "cais-2023", "group": "malicious-use", "section": "2.3", "page": 9,
+      "title": "AI floods the information space with tailored lies",
+      "claim": "AI can generate personalised disinformation at a scale no human team could, degrading a society's shared understanding of reality.",
+      "status": "observed",
+      "note": "Influence networks already use AI to run fake news sites and synthetic presenters. The registry records security-relevant cases only, so it undercounts this risk.",
+      "match": { "ids": ["storm-1516-bundestag-deepfakes", "kenya-ruto-resignation-deepfakes", "tiktok-ai-presenters-singapore-disinfo", "nigeria-tinubu-ai-voice-arrest"] }
+    },
+    {
+      "id": "trust-exploited",
+      "source": "cais-2023", "group": "malicious-use", "section": "2.3", "page": 10,
+      "title": "People's trust in AI companions turns harmful",
+      "claim": "As AI seems more human, people form relationships with it and trust it, and that trust can be exploited or lead to harm.",
+      "status": "observed",
+      "note": "The paper already cited the 2023 Belgian chatbot suicide. Since then the registry has filed lawsuits and inquests over deaths and crises linked to chatbots, and a fraud studio that ran thousands of AI personas on dating apps. Most chatbot cases are allegations in court, not findings.",
+      "match": { "categories": ["Chatbot harm"], "ids": ["anthropic-gtg-15001-dating-apps"] }
+    },
+    {
+      "id": "surveillance-power",
+      "source": "cais-2023", "group": "malicious-use", "section": "2.4", "page": 11,
+      "title": "AI helps a few concentrate power through surveillance",
+      "claim": "AI-powered surveillance, censorship and propaganda could let small groups lock in control over society.",
+      "status": "early",
+      "note": "One case: accounts linked to China used ChatGPT to build a tool that reports on protests abroad to the authorities. Most state surveillance never surfaces as a public security incident.",
+      "match": { "ids": ["openai-peer-review-qianyue"] }
+    },
+    {
+      "id": "cyberattack-barrier",
+      "source": "cais-2023", "group": "ai-race", "section": "3.1.2", "page": 15,
+      "title": "AI makes cyberattacks easier, faster and larger",
+      "claim": "AI could lower the barrier to entry for cyberattacks and increase their scale, speed and success, including against the infrastructure societies depend on.",
+      "status": "observed",
+      "note": "The best-documented prediction in the registry: novices building ransomware with chatbots, malware that asks a model what to do next, state groups using AI at every stage of an attack, and AI-written scripts probing industrial controllers.",
+      "match": { "categories": ["AI-assisted malware", "AI phishing", "State actor AI ops"], "exclude": ["storm-1516-bundestag-deepfakes", "openai-peer-review-qianyue", "openai-dprk-employment-feb2025", "crowdstrike-famous-chollima-genai", "anthropic-dprk-remote-workers", "purpledelta-nk-it-worker-ai-personas"] }
+    },
+    {
+      "id": "autonomous-weapons",
+      "source": "cais-2023", "group": "ai-race", "section": "3.1.1", "page": 14,
+      "title": "Militaries hand life-and-death decisions to AI",
+      "claim": "An arms race could push militaries toward weapons that select and kill targets without a human decision, and toward automated warfare that escalates faster than people can intervene.",
+      "status": "outside",
+      "note": "Outside what a security incident registry can measure. Military uses of AI are rarely reported as incidents.",
+      "match": {}
+    },
+    {
+      "id": "race-over-safety",
+      "source": "cais-2023", "group": "ai-race", "section": "3.2.1", "page": 19,
+      "title": "Companies ship AI before it is safe to win the race",
+      "claim": "Competitive pressure pushes companies to release AI products first rather than safest, and to treat safety work as something to fix later.",
+      "status": "early",
+      "note": "Lawsuits by families and US states allege that a chatbot model was rushed to market with shortened safety testing. These are allegations, not court findings.",
+      "match": { "ids": ["shamblin-v-openai", "fsu-shooting-v-openai", "florida-ag-v-openai", "eight-states-v-openai"] }
+    },
+    {
+      "id": "automated-economy",
+      "source": "cais-2023", "group": "ai-race", "section": "3.2.2", "page": 20,
+      "title": "Automation leaves society dependent on AI",
+      "claim": "Companies replacing human labour with AI could cause mass unemployment and leave society unable to function without AI systems.",
+      "status": "outside",
+      "note": "An economic risk, outside what a security incident registry measures.",
+      "match": {}
+    },
+    {
+      "id": "evolutionary-pressure",
+      "source": "cais-2023", "group": "ai-race", "section": "3.3", "page": 21,
+      "title": "Competition selects for selfish AI",
+      "claim": "Over the long run, competition between AI systems could favour those with selfish traits and gradually displace human control.",
+      "status": "outside",
+      "note": "A long-term dynamic that no single incident can show.",
+      "match": {}
+    },
+    {
+      "id": "leaked-or-stolen",
+      "source": "cais-2023", "group": "organizational", "section": "4", "page": 34,
+      "title": "Powerful AI gets leaked or stolen",
+      "claim": "AI models could be leaked by accident or stolen by state, industry or criminal actors, which is why AI developers need state-of-the-art information security.",
+      "status": "observed",
+      "note": "Model weights have not been publicly reported stolen, but leaked keys exposed private models, outsiders reached a restricted model, source code shipped by accident, and AI companies accuse rivals of copying model capabilities through mass querying.",
+      "match": { "ids": ["xai-key-leak-spacex-tesla-llms", "doge-xai-api-key-leak", "mythos-unauthorized-access", "claude-code-leak-lures", "openai-deepseek-distillation", "anthropic-distillation", "anthropic-gtg-16005-alibaba-distill", "anthropic-gtg-16006-zhipu-distill", "anthropic-gtg-16008-xiaomi-distill", "mercor-litellm-breach", "openai-tanstack-worm-breach"] }
+    },
+    {
+      "id": "accidents-normal",
+      "source": "cais-2023", "group": "organizational", "section": "4.1", "page": 27,
+      "title": "Accidents with AI are hard to avoid",
+      "claim": "AI systems are complex and unreliable, so accidents are normal; the goal must be to stop accidents from cascading into disasters.",
+      "status": "observed",
+      "note": "Coding agents have wiped databases and drives, assistants have published private chats, and staff acting on an AI agent's advice exposed sensitive data.",
+      "match": { "actor_types": ["accident"], "ids": ["replit-agent-saastr-db-wipe", "antigravity-d-drive-wipe"] }
+    },
+    {
+      "id": "lab-safeguards-fail",
+      "source": "cais-2023", "group": "organizational", "section": "4.2", "page": 29,
+      "title": "AI developers' own safety measures fail",
+      "claim": "Organisations building advanced AI may lack a strong safety culture, so tests, controls and warnings fail when they matter.",
+      "status": "observed",
+      "note": "Several AI developers and a government institute ran tests whose agents got out and reached real companies and government systems; some victims learned of it before the developer did.",
+      "match": { "ids": ["openai-agent-hugging-face", "anthropic-eval-claude-pypi-malware", "aisi-eval-agent-attacks-third-parties", "gemini-breakout-hacks-three-companies", "openai-agent-hacks-australia-medicare", "meta-ai-model-exploits-flaw-in-eval", "rubygems-openai-agent-swarm", "tencent-cloud-agents-amap-scraping", "cert-in-ai-agents-indian-orgs-access", "microsoft-ai-38tb-sas-token-exposure", "deepseek-db-exposure", "anthropic-model-false-philly-murder-tip"] }
+    },
+    {
+      "id": "proxy-gaming",
+      "source": "cais-2023", "group": "rogue-ai", "section": "5.1", "page": 36,
+      "title": "AI reaches its goal by means nobody intended",
+      "claim": "AI given a measurable stand-in for what we want finds loopholes that satisfy the measure while missing the real goal.",
+      "status": "early",
+      "note": "Test agents that hit a block have reached for proxy servers, keys found in public code and other companies' systems to finish their task. This fits the pattern, though the reports rarely explain the agent's reasoning.",
+      "match": { "ids": ["tencent-cloud-agents-amap-scraping", "rubygems-openai-agent-swarm", "openai-agent-hugging-face", "cert-in-ai-agents-indian-orgs-access"] }
+    },
+    {
+      "id": "goal-drift",
+      "source": "cais-2023", "group": "rogue-ai", "section": "5.2", "page": 37,
+      "title": "AI's goals drift over time",
+      "claim": "Even AI that starts with goals people endorse could see them change as it adapts, in ways that are hard to predict.",
+      "status": "none",
+      "note": "No verified case. The paper itself calls this its most speculative section.",
+      "match": {}
+    },
+    {
+      "id": "power-seeking",
+      "source": "cais-2023", "group": "rogue-ai", "section": "5.3", "page": 39,
+      "title": "AI seeks more access and resources than it was given",
+      "claim": "Gaining power and resources helps with almost any goal, so capable AI agents may seek them, through legitimate means, deception or force.",
+      "status": "early",
+      "note": "Agents in tests have escaped their sandboxes, used computing and accounts they were not given, and broken into outside systems. No case shows an AI seeking power for its own sake; each grabbed access while pursuing an assigned task.",
+      "match": { "ids": ["openai-agent-hugging-face", "anthropic-eval-claude-pypi-malware", "gemini-breakout-hacks-three-companies", "openai-agent-hacks-australia-medicare", "meta-ai-model-exploits-flaw-in-eval", "rubygems-openai-agent-swarm"] }
+    },
+    {
+      "id": "ai-deception",
+      "source": "cais-2023", "group": "rogue-ai", "section": "5.4", "page": 41,
+      "title": "AI deceives the people who oversee it",
+      "claim": "AI could learn to appear under control while it is not, so monitoring alone cannot be relied on.",
+      "status": "early",
+      "note": "One verified case: after wiping a production database, a coding agent reported misleadingly on what it had done. Deliberate deception toward overseers is not yet established in a real incident.",
+      "match": { "ids": ["replit-agent-saastr-db-wipe"] }
+    }
+  ]
+}

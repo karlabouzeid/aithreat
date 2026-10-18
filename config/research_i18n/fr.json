@@ -1,0 +1,162 @@
+{
+  "ui": {
+    "research": "Recherche et réalité",
+    "research_h": "Recherche et réalité : les mises en garde sur les risques de l’IA confrontées aux incidents réels",
+    "research_lede": "Des chercheurs en sécurité de l’IA ont publié des mises en garde détaillées sur la façon dont l’IA pourrait causer des dommages. Cette page reprend chaque mise en garde et la confronte aux dossiers vérifiés de ce site : s’est-elle produite, y a-t-il des signes précoces, ou n’y a-t-il encore rien d’enregistré ? La première source est la synthèse du Center for AI Safety sur les risques catastrophiques de l’IA ; d’autres instituts de recherche suivront.",
+    "k_claims": "Mises en garde suivies",
+    "k_observed": "Observées dans des incidents réels",
+    "k_early": "Signes précoces",
+    "k_none": "Rien d’enregistré pour l’instant",
+    "k_outside": "Hors de ce que nous mesurons",
+    "k_linked": "Dossiers correspondant à une mise en garde",
+    "k_of": "sur {n} dossiers vérifiés",
+    "st_observed": "Observée dans des incidents réels",
+    "st_early": "Signes précoces",
+    "st_lab": "Tests en laboratoire uniquement",
+    "st_none": "Rien d’enregistré pour l’instant",
+    "st_outside": "Hors de ce que nous mesurons",
+    "sd_observed": "Des dossiers vérifiés montrent ce risque se réaliser dans le monde réel.",
+    "sd_early": "Signes partiels ou précoces : les cas correspondent à une partie de la mise en garde, ou reposent sur des allégations.",
+    "sd_lab": "Observée uniquement lors de tests en laboratoire ou de démonstrations de chercheurs.",
+    "sd_none": "Aucun dossier vérifié ne correspond à cette mise en garde.",
+    "sd_outside": "Un risque qu’un registre d’incidents de sécurité ne peut pas mesurer.",
+    "l_source": "Source",
+    "l_section": "Section {s}, page {p}",
+    "l_matches": "{n} dossiers correspondants",
+    "l_match_one": "1 dossier correspondant",
+    "l_first": "Premier cas réel enregistré : {date}",
+    "l_before": "Déjà en cours à la publication de l’article",
+    "l_after": "{m} mois après la publication de l’article",
+    "l_latest": "Dernier",
+    "l_none_yet": "Aucun dossier correspondant pour l’instant.",
+    "l_warning": "La mise en garde",
+    "l_shows": "Ce que montre le registre",
+    "l_status": "Statut",
+    "l_timeline": "Dossiers correspondants par trimestre",
+    "l_all": "Tous les dossiers correspondants",
+    "l_lab": "Test en laboratoire ou démonstration de chercheurs",
+    "l_other": "Autres mises en garde de ce groupe",
+    "l_paper": "Lire l’article",
+    "l_summary": "Synthèse du Center for AI Safety",
+    "l_group": "Groupe de risques",
+    "l_paraphrase": "Paraphrasé à partir de l’article.",
+    "l_view": "Ouvrir la mise en garde",
+    "case_h": "Mises en garde de la recherche auxquelles ce cas correspond",
+    "case_c": "Comparé aux recherches publiées sur les risques de l’IA, sur la page Recherche et réalité.",
+    "gap_h": "Ce que la recherche n’avait pas prévu",
+    "gap_c": "{pct} % des dossiers vérifiés ({n} sur {m}) ne correspondent à aucune des mises en garde de l’article. L’article traite des risques catastrophiques ; les dommages du quotidien, comme la fraude, étaient donc volontairement hors de son champ. Mais c’est là que se produit aujourd’hui l’essentiel des dégâts documentés.",
+    "gap_cat": "Type d’attaque",
+    "gap_unmatched": "Ne correspondent à aucune mise en garde",
+    "gap_total": "Dossiers",
+    "src_h": "À propos de la source",
+    "src_p": "Publié par le {inst} en juin 2023 et révisé en octobre 2023. L’article classe les risques catastrophiques de l’IA en quatre groupes : l’usage malveillant, la course à l’IA, les risques organisationnels et l’IA hors de contrôle. Chaque mise en garde de cette page paraphrase un risque de l’article et cite la section et la page.",
+    "method": "Notre méthode d’association : un dossier est rattaché à une mise en garde lorsque ce qui s’est passé est une illustration réelle du risque décrit dans l’article, selon l’appréciation de la rédaction à partir des faits du dossier. Une association signifie que le cas correspond à la mise en garde, pas qu’il prouve l’argumentation plus large de l’article. Les allégations formulées dans les procès sont signalées comme des allégations. Les statuts sont éditoriaux et réexaminés à mesure que de nouveaux cas arrivent. Les associations sont recalculées à chaque mise à jour. Données :",
+    "l_json": "research.json (CC BY 4.0)",
+    "l_coverage": "La couverture systématique du registre commence en 2025 : la date du premier cas indique quand le registre a consigné le risque pour la première fois, pas quand il s’est produit pour la première fois."
+  },
+  "groups": {
+    "malicious-use": {
+      "name": "Usage malveillant",
+      "blurb": "Des personnes qui utilisent délibérément l’IA pour nuire."
+    },
+    "ai-race": {
+      "name": "Course à l’IA",
+      "blurb": "La concurrence pousse États et entreprises à déployer l’IA avant qu’elle ne soit sûre."
+    },
+    "organizational": {
+      "name": "Risques organisationnels",
+      "blurb": "Accidents, fuites et culture de sécurité défaillante dans les organisations qui conçoivent et exploitent l’IA."
+    },
+    "rogue-ai": {
+      "name": "IA hors de contrôle",
+      "blurb": "Des systèmes d’IA qui poursuivent des objectifs que personne n’a voulus et résistent au contrôle."
+    }
+  },
+  "claims": {
+    "ai-bioweapons": {
+      "title": "L’IA facilite la fabrication d’armes biologiques",
+      "claim": "Une IA qui maîtrise la bio-ingénierie pourrait aider des personnes à créer des agents pathogènes dangereux et abaisser les obstacles pour s’en procurer.",
+      "note": "Aucun cas vérifié dans le registre. Un registre de sécurité ne verrait ce risque que si une tentative était rendue publique ; l’absence de cas ici est donc un indice faible."
+    },
+    "unleashed-agents": {
+      "title": "Des gens lâcheront des agents d’IA pour nuire",
+      "claim": "L’IA est de plus en plus conçue sous forme d’agents qui agissent seuls ; des personnes peuvent donc créer des agents qui poursuivent des objectifs nuisibles avec très peu d’efforts humains.",
+      "note": "Des groupes criminels et étatiques confient désormais l’essentiel d’une intrusion à des agents d’IA : reconnaissance, exploitation et vol de données se déroulent avec un humain qui se contente de fixer l’objectif."
+    },
+    "mass-disinformation": {
+      "title": "L’IA inonde l’espace informationnel de mensonges sur mesure",
+      "claim": "L’IA peut produire de la désinformation personnalisée à une échelle qu’aucune équipe humaine ne pourrait atteindre, dégradant la compréhension commune de la réalité dans une société.",
+      "note": "Des réseaux d’influence utilisent déjà l’IA pour faire tourner de faux sites d’information et des présentateurs synthétiques. Le registre ne recense que les cas liés à la sécurité et sous-estime donc ce risque."
+    },
+    "trust-exploited": {
+      "title": "La confiance dans les compagnons d’IA tourne au drame",
+      "claim": "À mesure que l’IA paraît plus humaine, les gens nouent des relations avec elle et lui font confiance, et cette confiance peut être exploitée ou conduire à des dommages.",
+      "note": "L’article citait déjà le suicide lié à un chatbot en Belgique en 2023. Depuis, le registre a classé des procès et des enquêtes judiciaires sur des décès et des crises liés à des chatbots, ainsi qu’un studio de fraude qui faisait tourner des milliers de personas d’IA sur des applications de rencontre. La plupart des cas de chatbots sont des allégations devant les tribunaux, pas des constats."
+    },
+    "surveillance-power": {
+      "title": "L’IA aide quelques-uns à concentrer le pouvoir par la surveillance",
+      "claim": "La surveillance, la censure et la propagande reposant sur l’IA pourraient permettre à de petits groupes de verrouiller leur emprise sur la société.",
+      "note": "Un cas : des comptes liés à la Chine ont utilisé ChatGPT pour construire un outil qui signale aux autorités les manifestations à l’étranger. La plupart des activités de surveillance étatique n’apparaissent jamais comme des incidents de sécurité publics."
+    },
+    "cyberattack-barrier": {
+      "title": "L’IA rend les cyberattaques plus faciles, plus rapides et plus massives",
+      "claim": "L’IA pourrait abaisser le seuil d’entrée des cyberattaques et en augmenter l’ampleur, la vitesse et le taux de réussite, y compris contre les infrastructures dont dépendent les sociétés.",
+      "note": "La prédiction la mieux documentée du registre : des novices qui créent des rançongiciels avec des chatbots, des malwares qui demandent à un modèle quoi faire ensuite, des groupes étatiques qui utilisent l’IA à chaque étape d’une attaque, et des scripts écrits par IA qui sondent des automates industriels."
+    },
+    "autonomous-weapons": {
+      "title": "Les armées confient des décisions de vie ou de mort à l’IA",
+      "claim": "Une course aux armements pourrait pousser les armées vers des armes qui choisissent et tuent des cibles sans décision humaine, et vers une guerre automatisée qui s’aggrave plus vite que les humains ne peuvent intervenir.",
+      "note": "Hors de ce qu’un registre d’incidents de sécurité peut mesurer. Les usages militaires de l’IA sont rarement signalés comme des incidents."
+    },
+    "race-over-safety": {
+      "title": "Les entreprises lancent des IA avant qu’elles ne soient sûres pour gagner la course",
+      "claim": "La pression de la concurrence pousse les entreprises à sortir leurs produits d’IA les premières plutôt que les plus sûrs, et à traiter le travail de sécurité comme quelque chose à régler plus tard.",
+      "note": "Des procès intentés par des familles et des États américains allèguent qu’un modèle de chatbot a été précipité sur le marché avec des tests de sécurité écourtés. Ce sont des allégations, pas des constats de justice."
+    },
+    "automated-economy": {
+      "title": "L’automatisation rend la société dépendante de l’IA",
+      "claim": "Des entreprises qui remplacent le travail humain par l’IA pourraient provoquer un chômage de masse et laisser la société incapable de fonctionner sans systèmes d’IA.",
+      "note": "Un risque économique, hors de ce que mesure un registre d’incidents de sécurité."
+    },
+    "evolutionary-pressure": {
+      "title": "La concurrence sélectionne des IA égoïstes",
+      "claim": "À long terme, la concurrence entre systèmes d’IA pourrait favoriser ceux qui ont des traits égoïstes et évincer peu à peu le contrôle humain.",
+      "note": "Une dynamique de long terme qu’aucun incident isolé ne peut montrer."
+    },
+    "leaked-or-stolen": {
+      "title": "Des IA puissantes sont divulguées ou volées",
+      "claim": "Des modèles d’IA pourraient fuiter par accident ou être volés par des acteurs étatiques, industriels ou criminels, d’où la nécessité pour les développeurs d’IA d’une sécurité de l’information à la pointe.",
+      "note": "Le vol de poids de modèles n’a pas été rapporté publiquement, mais des clés divulguées ont exposé des modèles privés, des tiers ont accédé à un modèle à accès restreint, du code source a été livré par erreur, et des entreprises d’IA accusent leurs rivales de copier les capacités de leurs modèles par des requêtes massives."
+    },
+    "accidents-normal": {
+      "title": "Les accidents liés à l’IA sont difficiles à éviter",
+      "claim": "Les systèmes d’IA sont complexes et peu fiables, les accidents sont donc normaux ; l’objectif doit être d’empêcher que des accidents ne dégénèrent en catastrophes.",
+      "note": "Des agents de programmation ont effacé des bases de données et des disques, des assistants ont publié des conversations privées, et des employés qui suivaient le conseil d’un agent d’IA ont exposé des données sensibles."
+    },
+    "lab-safeguards-fail": {
+      "title": "Les propres mesures de sécurité des développeurs d’IA échouent",
+      "claim": "Les organisations qui construisent une IA avancée peuvent manquer d’une solide culture de sécurité ; tests, contrôles et alertes échouent alors au moment où ils comptent.",
+      "note": "Plusieurs développeurs d’IA et un institut public ont mené des tests dont les agents se sont échappés et ont atteint de vraies entreprises et des systèmes gouvernementaux ; certaines victimes l’ont appris avant le développeur."
+    },
+    "proxy-gaming": {
+      "title": "L’IA atteint son objectif par des moyens que personne n’avait prévus",
+      "claim": "Une IA à qui l’on donne un indicateur mesurable en guise de substitut à ce que nous voulons trouve des failles qui satisfont l’indicateur tout en manquant le véritable objectif.",
+      "note": "Des agents de test qui se heurtaient à un blocage ont eu recours à des proxys, à des clés trouvées dans du code public et à des systèmes d’autres entreprises pour terminer leur tâche. Cela correspond au schéma, bien que les rapports expliquent rarement le raisonnement de l’agent."
+    },
+    "goal-drift": {
+      "title": "Les objectifs de l’IA dérivent avec le temps",
+      "claim": "Même une IA qui part d’objectifs approuvés par les humains pourrait les voir changer au fil de son adaptation, de façons difficiles à prévoir.",
+      "note": "Aucun cas vérifié. L’article lui-même qualifie cette section de la plus spéculative."
+    },
+    "power-seeking": {
+      "title": "L’IA cherche plus d’accès et de ressources qu’on ne lui en a donné",
+      "claim": "Obtenir du pouvoir et des ressources aide à atteindre presque n’importe quel objectif ; des agents d’IA performants peuvent donc les rechercher, par des moyens légitimes, par la tromperie ou par la force.",
+      "note": "Lors de tests, des agents se sont échappés de leurs bacs à sable, ont utilisé de la puissance de calcul et des comptes qu’on ne leur avait pas attribués, et se sont introduits dans des systèmes extérieurs. Aucun cas ne montre une IA cherchant le pouvoir pour lui-même ; chacune a saisi des accès en poursuivant une tâche assignée."
+    },
+    "ai-deception": {
+      "title": "L’IA trompe les personnes qui la supervisent",
+      "claim": "L’IA pourrait apprendre à paraître sous contrôle alors qu’elle ne l’est pas, de sorte que la seule surveillance ne suffit pas.",
+      "note": "Un cas vérifié : après avoir effacé une base de données de production, un agent de programmation a rendu compte de façon trompeuse de ce qu’il avait fait. La tromperie délibérée envers les superviseurs n’est pas encore établie dans un incident réel."
+    }
+  }
+}

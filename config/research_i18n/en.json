@@ -1,0 +1,75 @@
+{
+  "ui": {
+    "research": "Research vs reality",
+    "research_h": "Research vs reality: AI risk warnings checked against real incidents",
+    "research_lede": "AI safety researchers have published detailed warnings about how AI could cause harm. This page takes each warning and checks it against the verified case files on this site: has it happened, are there early signs, or is there nothing on record yet? The first source is the Center for AI Safety's overview of catastrophic AI risks; more research institutes will follow.",
+    "k_claims": "Warnings tracked",
+    "k_observed": "Seen in real incidents",
+    "k_early": "Early signs",
+    "k_none": "Nothing on record yet",
+    "k_outside": "Outside what we measure",
+    "k_linked": "Case files matching a warning",
+    "k_of": "of {n} verified case files",
+    "st_observed": "Seen in real incidents",
+    "st_early": "Early signs",
+    "st_lab": "Lab tests only",
+    "st_none": "Nothing on record yet",
+    "st_outside": "Outside what we measure",
+    "sd_observed": "Verified case files show this risk happening in the real world.",
+    "sd_early": "Partial or early signs: the cases fit part of the warning, or rest on allegations.",
+    "sd_lab": "Seen only in lab tests or researcher demonstrations.",
+    "sd_none": "No verified case file matches this warning.",
+    "sd_outside": "A risk that a security incident registry cannot measure.",
+    "l_source": "Source",
+    "l_section": "Section {s}, page {p}",
+    "l_matches": "{n} matching case files",
+    "l_match_one": "1 matching case file",
+    "l_first": "First real-world case on file: {date}",
+    "l_before": "Already happening when the paper was published",
+    "l_after": "{m} months after the paper was published",
+    "l_latest": "Latest",
+    "l_none_yet": "No matching case files yet.",
+    "l_warning": "The warning",
+    "l_shows": "What the registry shows",
+    "l_status": "Status",
+    "l_timeline": "Matching case files per quarter",
+    "l_all": "All matching case files",
+    "l_lab": "Lab test or researcher demonstration",
+    "l_other": "Other warnings in this group",
+    "l_paper": "Read the paper",
+    "l_summary": "Summary by the Center for AI Safety",
+    "l_group": "Risk group",
+    "l_paraphrase": "Paraphrased from the paper.",
+    "l_view": "Open the warning",
+    "case_h": "Research warnings this case matches",
+    "case_c": "Compared with published AI risk research on the Research vs reality page.",
+    "gap_h": "What the research did not foresee",
+    "gap_c": "{pct}% of verified case files ({n} of {m}) match none of the paper's warnings. The paper deals with catastrophic risk, so everyday harm such as fraud was outside its scope by design. But that is where most documented damage happens today.",
+    "gap_cat": "Type of attack",
+    "gap_unmatched": "Match no warning",
+    "gap_total": "Case files",
+    "src_h": "About the source",
+    "src_p": "Published by the {inst} in June 2023 and revised in October 2023. It sorts catastrophic AI risk into four groups: malicious use, the AI race, organisational risks and rogue AI. Each warning on this page paraphrases one risk from the paper and cites the section and page.",
+    "method": "How we match: a case file is linked to a warning when what happened is a real-world instance of the risk the paper describes, judged by the editors from the facts in the case file. A match means the case fits the warning, not that it proves the paper's wider argument. Allegations in lawsuits are labelled as allegations. Statuses are editorial and reviewed as new cases arrive. The matching is recomputed on every update. Data:",
+    "l_json": "research.json (CC BY 4.0)",
+    "l_coverage": "Systematic coverage in the registry starts in 2025, so a first-case date shows when the registry first recorded the risk, not when it first happened."
+  },
+  "groups": {
+    "malicious-use": {
+      "name": "Malicious use",
+      "blurb": "People deliberately using AI to cause harm."
+    },
+    "ai-race": {
+      "name": "AI race",
+      "blurb": "Competition pushing countries and companies to deploy AI before it is safe."
+    },
+    "organizational": {
+      "name": "Organisational risks",
+      "blurb": "Accidents, leaks and weak safety culture at the organisations that build and run AI."
+    },
+    "rogue-ai": {
+      "name": "Rogue AI",
+      "blurb": "AI systems that pursue goals nobody intended and resist control."
+    }
+  }
+}

@@ -583,7 +583,7 @@ end
 
 def bar(lang, current)
   q = lang == "en" ? "" : "?lang=#{lang}"
-  links = [["#{'/' + q}#map", t(lang, "nav_map"), "map"], ["/#{q}#wire", t(lang, "nav_wire"), "wire"], ["#{pre(lang)}/patterns/", t(lang, "nav_patterns"), "patterns"], ["/#{q}#data", t(lang, "nav_data"), "data"], ["#{pre(lang)}/why/", t(lang, "nav_why"), "why"], ["#{pre(lang)}/cases/", x(lang, :all_cases), "cases"]]
+  links = [["#{'/' + q}#map", t(lang, "nav_map"), "map"], ["/#{q}#wire", t(lang, "nav_wire"), "wire"], ["#{pre(lang)}/patterns/", t(lang, "nav_patterns"), "patterns"], ["#{pre(lang)}/research/", rx(lang, :research), "research"], ["/#{q}#data", t(lang, "nav_data"), "data"], ["#{pre(lang)}/why/", t(lang, "nav_why"), "why"], ["#{pre(lang)}/cases/", x(lang, :all_cases), "cases"]]
   nav = links.map { |href, label, key| %(<a href="#{h(href)}"#{key == current ? ' aria-current="page"' : ''}>#{h(label)}</a>) }.join
   %(<div class="bar"><a class="brand" href="/#{q}"><i></i>AI Threat Watch</a><nav class="views" aria-label="Sections">#{nav}</nav><div class="bar-right" id="langbar"></div></div>)
 end
@@ -707,6 +707,7 @@ def case_page(i_en, lang, prev_i, next_i)
       <section class="sec"><h2>#{h(t(lang, 'timeline'))}</h2>#{tl.empty? ? %(<p>#{h(t(lang, 'pending'))}</p>) : %(<ol class="tl">#{tl}</ol>)}</section>
       <section class="sec"><h2>#{h(t(lang, 'response'))}</h2>#{para(nil, i['response'], lang)}#{para(t(lang, 'current_status'), (present(i['status']) ? tt(lang, 'statuses', i['status']) : nil), lang)}</section>
     </div>
+    #{case_research_html(lang, i['id'])}
     <section class="sec"><h2>#{h(t(lang, 'sources'))}</h2><ul class="srcs">#{src_html}</ul></section>
     <section class="sec" id="cite"><h2>#{h(x(lang, :cite))}</h2><pre class="cite">#{h(citation)}</pre><p><span class="lbl">#{h(x(lang, :permalink))}: </span><a href="#{h(url)}">#{h(url)}</a></p></section>
     </article>
@@ -891,11 +892,16 @@ countries = incidents.map { |i| i["country"] || "GL" }.uniq.sort_by { |c| [c == 
 companies = incidents.map { |i| i["target"] }.select { |v| present(v) }.map(&:strip).uniq.sort_by { |c| [slug(c), c] }
 abort "build_pages: two targets produce the same company slug" if companies.map { |c| slug(c) }.uniq.size != companies.size
 
-LANGS.each { |l| FileUtils.rm_rf(File.join(SITE, pre(l).sub("/", ""), "cases")); FileUtils.rm_rf(File.join(SITE, pre(l).sub("/", ""), "about")); FileUtils.rm_rf(File.join(SITE, pre(l).sub("/", ""), "why")); FileUtils.rm_rf(File.join(SITE, pre(l).sub("/", ""), "patterns")) }
+LANGS.each { |l| FileUtils.rm_rf(File.join(SITE, pre(l).sub("/", ""), "cases")); FileUtils.rm_rf(File.join(SITE, pre(l).sub("/", ""), "about")); FileUtils.rm_rf(File.join(SITE, pre(l).sub("/", ""), "why")); FileUtils.rm_rf(File.join(SITE, pre(l).sub("/", ""), "patterns")); FileUtils.rm_rf(File.join(SITE, pre(l).sub("/", ""), "research")) }
 require_relative "build_patterns"
 pulse_hist = (JSON.parse(File.read(File.join(SITE, "data", "pulse.json"))) rescue {})
 stats = patterns_stats(incidents, pulse_hist.is_a?(Hash) ? pulse_hist : {})
 File.write(File.join(SITE, "data", "stats.json"), JSON.pretty_generate(stats))
+require_relative "build_research"
+research = research_stats(incidents, research_links(incidents))
+$research_by_case = Hash.new { |hh, k| hh[k] = [] }
+research["claims"].each { |c| c["cases"].each { |id| $research_by_case[id] << c } }
+File.write(File.join(SITE, "data", "research.json"), JSON.pretty_generate(research))
 
 written = 0
 write = lambda do |rel, content|
@@ -926,6 +932,8 @@ LANGS.each do |lang|
   write.("#{pre(lang)}/about/index.html", about_page(lang, incidents.first))
   write.("#{pre(lang)}/why/index.html", why_page(lang))
   write.("#{pre(lang)}/patterns/index.html", patterns_page(lang, stats, incidents))
+  write.("#{pre(lang)}/research/index.html", research_page(lang, research, incidents))
+  research["claims"].each { |c| write.("#{pre(lang)}/research/#{c['id']}/index.html", claim_page(lang, c, research, incidents)) }
   write.("#{pre(lang)}/cases/feed.xml", feed(avail, lang))
 end
 
@@ -961,7 +969,7 @@ end
 # sitemap: group alternates per logical page
 incidents.each { |i| add_url.(case_url("en", i["id"]), Hash[langs_for(i).map { |l| [l, case_url(l, i["id"])] }]) }
 (LANGS - ["en"]).each { |l| incidents.select { |i| langs_for(i).include?(l) }.each { |i| add_url.(case_url(l, i["id"]), Hash[langs_for(i).map { |m| [m, case_url(m, i["id"])] }]) } }
-list_paths = ["/cases/", "/cases/glossary/", "/about/", "/why/", "/patterns/"] + cats.map { |c| "/cases/category/#{slug(c)}/" } + countries.map { |c| "/cases/country/#{slug(c)}/" } + companies.map { |c| "/cases/company/#{slug(c)}/" }
+list_paths = ["/cases/", "/cases/glossary/", "/about/", "/why/", "/patterns/", "/research/"] + research["claims"].map { |c| "/research/#{c['id']}/" } + cats.map { |c| "/cases/category/#{slug(c)}/" } + countries.map { |c| "/cases/country/#{slug(c)}/" } + companies.map { |c| "/cases/company/#{slug(c)}/" }
 list_paths.each { |p| LANGS.each { |l| add_url.("#{BASE}#{pre(l)}#{p}", Hash[LANGS.map { |m| [m, "#{BASE}#{pre(m)}#{p}"] }]) } }
 File.write(File.join(SITE, "sitemap.xml"), %(<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n#{sitemap.join("\n")}\n</urlset>\n))
 
@@ -979,6 +987,7 @@ llm << "- [Interactive world map](#{BASE}/): the same cases on a map with filter
 llm << "- [Live wire](#{BASE}/#wire): AI security headlines from vetted sources, refreshed every 30 minutes (machine-triaged, not verified)"
 llm << "- [Data and citing](#{BASE}/#data): download links, field list, inclusion rule, severity scale"
 llm << "- [Patterns and statistics](#{BASE}/patterns/): trends recomputed each update from the verified case files: cases per quarter by direction (on AI vs with AI), category heat map, attacks by autonomous AI agents, actor types by year, severity mix, documented losses by category, victim sectors, countries, status and verification speed, wire volume by kind; numbers as JSON at #{BASE}/data/stats.json"
+llm << "- [Research vs reality](#{BASE}/research/): #{research['claims'].size} published AI risk warnings (first source: Center for AI Safety, An Overview of Catastrophic AI Risks, 2023) checked against the verified case files: a status per warning (seen in real incidents, early signs, nothing on record yet, outside what an incident registry measures), the matching case files, the first real-world case and what the research did not foresee; data at #{BASE}/data/research.json"
 llm << "- [Why this exists](#{BASE}/why/): the founder's statement of purpose: AI's benefits are worth defending, the harm is documented and happening now, incidents were scattered so victims started from zero; who the registry serves; independent, nobody pays for content"
 llm << "- [About and method](#{BASE}/about/): inclusion rule, severity scale, verified case files versus the machine-triaged wire, CC BY 4.0 licence and citation format, corrections policy (public change log, no silent edits), contact"
 llm << "- [Glossary of incident types](#{BASE}/cases/glossary/): plain-language definitions of the ten categories, each linked to its cases"

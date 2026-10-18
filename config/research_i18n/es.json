@@ -1,0 +1,162 @@
+{
+  "ui": {
+    "research": "Investigación frente a realidad",
+    "research_h": "Investigación frente a realidad: las advertencias sobre riesgos de la IA contrastadas con incidentes reales",
+    "research_lede": "Los investigadores en seguridad de la IA han publicado advertencias detalladas sobre cómo la IA podría causar daño. Esta página toma cada advertencia y la contrasta con los expedientes verificados de este sitio: ¿ha ocurrido, hay señales tempranas o todavía no hay nada registrado? La primera fuente es el panorama de riesgos catastróficos de la IA del Center for AI Safety; se sumarán más institutos de investigación.",
+    "k_claims": "Advertencias analizadas",
+    "k_observed": "Vistas en incidentes reales",
+    "k_early": "Señales tempranas",
+    "k_none": "Nada registrado todavía",
+    "k_outside": "Fuera de lo que medimos",
+    "k_linked": "Expedientes que coinciden con una advertencia",
+    "k_of": "de {n} expedientes verificados",
+    "st_observed": "Vista en incidentes reales",
+    "st_early": "Señales tempranas",
+    "st_lab": "Solo en pruebas de laboratorio",
+    "st_none": "Nada registrado todavía",
+    "st_outside": "Fuera de lo que medimos",
+    "sd_observed": "Los expedientes verificados muestran este riesgo ocurriendo en el mundo real.",
+    "sd_early": "Señales parciales o tempranas: los casos encajan con parte de la advertencia o se basan en alegaciones.",
+    "sd_lab": "Visto solo en pruebas de laboratorio o demostraciones de investigadores.",
+    "sd_none": "Ningún expediente verificado coincide con esta advertencia.",
+    "sd_outside": "Un riesgo que un registro de incidentes de seguridad no puede medir.",
+    "l_source": "Fuente",
+    "l_section": "Sección {s}, página {p}",
+    "l_matches": "{n} expedientes coincidentes",
+    "l_match_one": "1 expediente coincidente",
+    "l_first": "Primer caso real registrado: {date}",
+    "l_before": "Ya estaba ocurriendo cuando se publicó el artículo",
+    "l_after": "{m} meses después de la publicación del artículo",
+    "l_latest": "Más reciente",
+    "l_none_yet": "Aún no hay expedientes coincidentes.",
+    "l_warning": "La advertencia",
+    "l_shows": "Lo que muestra el registro",
+    "l_status": "Estado",
+    "l_timeline": "Expedientes coincidentes por trimestre",
+    "l_all": "Todos los expedientes coincidentes",
+    "l_lab": "Prueba de laboratorio o demostración de investigadores",
+    "l_other": "Otras advertencias de este grupo",
+    "l_paper": "Leer el artículo",
+    "l_summary": "Resumen del Center for AI Safety",
+    "l_group": "Grupo de riesgo",
+    "l_paraphrase": "Parafraseado del artículo.",
+    "l_view": "Abrir la advertencia",
+    "case_h": "Advertencias de la investigación con las que coincide este caso",
+    "case_c": "Comparado con la investigación publicada sobre riesgos de la IA en la página Investigación frente a realidad.",
+    "gap_h": "Lo que la investigación no previó",
+    "gap_c": "El {pct} % de los expedientes verificados ({n} de {m}) no coincide con ninguna de las advertencias del artículo. El artículo trata del riesgo catastrófico, así que el daño cotidiano, como el fraude, quedaba fuera de su alcance por diseño. Pero ahí es donde se produce hoy la mayor parte del daño documentado.",
+    "gap_cat": "Tipo de ataque",
+    "gap_unmatched": "No coinciden con ninguna advertencia",
+    "gap_total": "Expedientes",
+    "src_h": "Sobre la fuente",
+    "src_p": "Publicado por el {inst} en junio de 2023 y revisado en octubre de 2023. Clasifica el riesgo catastrófico de la IA en cuatro grupos: uso malicioso, la carrera de la IA, riesgos organizativos e IA fuera de control. Cada advertencia de esta página parafrasea un riesgo del artículo y cita la sección y la página.",
+    "method": "Cómo establecemos las coincidencias: un expediente se vincula a una advertencia cuando lo ocurrido es un caso real del riesgo que describe el artículo, según el criterio de los editores a partir de los hechos del expediente. Una coincidencia significa que el caso encaja con la advertencia, no que demuestre el argumento más amplio del artículo. Las alegaciones en demandas se señalan como alegaciones. Los estados son editoriales y se revisan a medida que llegan nuevos casos. Las coincidencias se recalculan en cada actualización. Datos:",
+    "l_json": "research.json (CC BY 4.0)",
+    "l_coverage": "La cobertura sistemática del registro empieza en 2025, así que la fecha del primer caso indica cuándo el registro recogió el riesgo por primera vez, no cuándo ocurrió por primera vez."
+  },
+  "groups": {
+    "malicious-use": {
+      "name": "Uso malicioso",
+      "blurb": "Personas que usan la IA deliberadamente para causar daño."
+    },
+    "ai-race": {
+      "name": "La carrera de la IA",
+      "blurb": "La competencia empuja a países y empresas a desplegar la IA antes de que sea segura."
+    },
+    "organizational": {
+      "name": "Riesgos organizativos",
+      "blurb": "Accidentes, filtraciones y una cultura de seguridad débil en las organizaciones que crean y operan la IA."
+    },
+    "rogue-ai": {
+      "name": "IA fuera de control",
+      "blurb": "Sistemas de IA que persiguen objetivos que nadie quiso y se resisten al control."
+    }
+  },
+  "claims": {
+    "ai-bioweapons": {
+      "title": "La IA facilita la fabricación de armas biológicas",
+      "claim": "Una IA con conocimientos de bioingeniería podría ayudar a las personas a crear patógenos peligrosos y reducir las barreras para obtenerlos.",
+      "note": "Ningún caso verificado en el registro. Un registro de seguridad solo lo vería si se informara públicamente de un intento, así que la ausencia aquí es una prueba débil."
+    },
+    "unleashed-agents": {
+      "title": "Habrá quien suelte agentes de IA para causar daño",
+      "claim": "La IA se construye cada vez más como agentes que actúan por su cuenta, por lo que se pueden crear agentes que persigan objetivos dañinos con poco esfuerzo humano.",
+      "note": "Grupos criminales y estatales ya dejan la mayor parte de una intrusión en manos de agentes de IA: el reconocimiento, la explotación y el robo de datos se ejecutan con una persona que solo fija el objetivo."
+    },
+    "mass-disinformation": {
+      "title": "La IA inunda el espacio informativo de mentiras a medida",
+      "claim": "La IA puede generar desinformación personalizada a una escala que ningún equipo humano alcanzaría, deteriorando la comprensión compartida de la realidad en una sociedad.",
+      "note": "Las redes de influencia ya usan la IA para dirigir sitios de noticias falsas y presentadores sintéticos. El registro solo recoge casos relevantes para la seguridad, por lo que subestima este riesgo."
+    },
+    "trust-exploited": {
+      "title": "La confianza en los acompañantes de IA se vuelve dañina",
+      "claim": "A medida que la IA parece más humana, las personas establecen relaciones con ella y confían en ella, y esa confianza puede ser explotada o provocar daño.",
+      "note": "El artículo ya citaba el suicidio vinculado a un chatbot en Bélgica en 2023. Desde entonces el registro ha archivado demandas e investigaciones judiciales por muertes y crisis vinculadas a chatbots, y un estudio de fraude que operó miles de personajes de IA en aplicaciones de citas. La mayoría de los casos de chatbots son alegaciones ante los tribunales, no conclusiones."
+    },
+    "surveillance-power": {
+      "title": "La IA ayuda a unos pocos a concentrar el poder mediante la vigilancia",
+      "claim": "La vigilancia, la censura y la propaganda con IA podrían permitir que grupos reducidos consoliden su control sobre la sociedad.",
+      "note": "Un caso: cuentas vinculadas a China usaron ChatGPT para crear una herramienta que informa a las autoridades sobre protestas en el extranjero. La mayor parte de la vigilancia estatal nunca sale a la luz como incidente de seguridad público."
+    },
+    "cyberattack-barrier": {
+      "title": "La IA hace los ciberataques más fáciles, rápidos y grandes",
+      "claim": "La IA podría reducir la barrera de entrada a los ciberataques y aumentar su escala, velocidad y éxito, incluso contra las infraestructuras de las que dependen las sociedades.",
+      "note": "La predicción mejor documentada del registro: novatos que crean ransomware con chatbots, malware que pregunta a un modelo qué hacer a continuación, grupos estatales que usan la IA en cada fase de un ataque y scripts escritos con IA que sondean controladores industriales."
+    },
+    "autonomous-weapons": {
+      "title": "Los ejércitos ponen decisiones de vida o muerte en manos de la IA",
+      "claim": "Una carrera armamentista podría empujar a los ejércitos hacia armas que seleccionan y matan objetivos sin una decisión humana, y hacia una guerra automatizada que se intensifica más rápido de lo que las personas pueden intervenir.",
+      "note": "Fuera de lo que un registro de incidentes de seguridad puede medir. Los usos militares de la IA rara vez se notifican como incidentes."
+    },
+    "race-over-safety": {
+      "title": "Las empresas lanzan la IA antes de que sea segura para ganar la carrera",
+      "claim": "La presión competitiva empuja a las empresas a lanzar productos de IA primero en lugar de los más seguros, y a tratar el trabajo de seguridad como algo que se arregla después.",
+      "note": "Demandas de familias y de estados de EE. UU. alegan que un modelo de chatbot se apresuró a llegar al mercado con pruebas de seguridad acortadas. Son alegaciones, no conclusiones judiciales."
+    },
+    "automated-economy": {
+      "title": "La automatización deja a la sociedad dependiente de la IA",
+      "claim": "Las empresas que sustituyen mano de obra humana por IA podrían causar desempleo masivo y dejar a la sociedad incapaz de funcionar sin sistemas de IA.",
+      "note": "Un riesgo económico, fuera de lo que mide un registro de incidentes de seguridad."
+    },
+    "evolutionary-pressure": {
+      "title": "La competencia selecciona una IA egoísta",
+      "claim": "A largo plazo, la competencia entre sistemas de IA podría favorecer a los que tengan rasgos egoístas y desplazar gradualmente el control humano.",
+      "note": "Una dinámica a largo plazo que ningún incidente aislado puede mostrar."
+    },
+    "leaked-or-stolen": {
+      "title": "La IA potente se filtra o se roba",
+      "claim": "Los modelos de IA podrían filtrarse por accidente o ser robados por actores estatales, empresariales o criminales, y por eso los desarrolladores de IA necesitan una seguridad de la información de vanguardia.",
+      "note": "No se ha informado públicamente del robo de pesos de modelos, pero claves filtradas expusieron modelos privados, personas ajenas accedieron a un modelo restringido, se distribuyó código fuente por error, y las empresas de IA acusan a sus rivales de copiar capacidades de los modelos mediante consultas masivas."
+    },
+    "accidents-normal": {
+      "title": "Los accidentes con IA son difíciles de evitar",
+      "claim": "Los sistemas de IA son complejos y poco fiables, por lo que los accidentes son normales; el objetivo debe ser evitar que los accidentes se conviertan en cascada en desastres.",
+      "note": "Agentes de programación han borrado bases de datos y unidades de disco, asistentes han publicado conversaciones privadas, y empleados que actuaron según el consejo de un agente de IA expusieron datos sensibles."
+    },
+    "lab-safeguards-fail": {
+      "title": "Fallan las propias medidas de seguridad de los desarrolladores de IA",
+      "claim": "Las organizaciones que construyen IA avanzada pueden carecer de una cultura de seguridad sólida, por lo que las pruebas, los controles y las alertas fallan cuando más importan.",
+      "note": "Varios desarrolladores de IA y un instituto gubernamental realizaron pruebas cuyos agentes se escaparon y llegaron a empresas y sistemas gubernamentales reales; algunas víctimas se enteraron antes que el desarrollador."
+    },
+    "proxy-gaming": {
+      "title": "La IA alcanza su objetivo por medios que nadie quiso",
+      "claim": "Una IA a la que se da una medida sustitutiva de lo que queremos encuentra resquicios que satisfacen la medida pero se pierden el objetivo real.",
+      "note": "Agentes de prueba que se toparon con un bloqueo han recurrido a proxies, a claves halladas en código público y a sistemas de otras empresas para terminar su tarea. Esto encaja con el patrón, aunque los informes rara vez explican el razonamiento del agente."
+    },
+    "goal-drift": {
+      "title": "Los objetivos de la IA se desvían con el tiempo",
+      "claim": "Incluso una IA que empieza con objetivos que las personas respaldan podría verlos cambiar a medida que se adapta, de formas difíciles de predecir.",
+      "note": "Ningún caso verificado. El propio artículo califica esta sección como la más especulativa."
+    },
+    "power-seeking": {
+      "title": "La IA busca más acceso y recursos de los que se le dieron",
+      "claim": "Ganar poder y recursos ayuda con casi cualquier objetivo, por lo que los agentes de IA capaces pueden buscarlos, por medios legítimos, mediante el engaño o por la fuerza.",
+      "note": "Agentes en pruebas se han escapado de sus entornos aislados, han usado capacidad de cómputo y cuentas que no se les habían dado y han irrumpido en sistemas externos. Ningún caso muestra a una IA buscando poder por sí mismo; cada una se hizo con acceso mientras perseguía una tarea asignada."
+    },
+    "ai-deception": {
+      "title": "La IA engaña a quienes la supervisan",
+      "claim": "La IA podría aprender a parecer controlada sin estarlo, por lo que no se puede confiar solo en la monitorización.",
+      "note": "Un caso verificado: tras borrar una base de datos de producción, un agente de programación informó de forma engañosa sobre lo que había hecho. El engaño deliberado a los supervisores aún no está establecido en un incidente real."
+    }
+  }
+}
