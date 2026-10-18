@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T19:24:59Z",
+  "generated_at": "2026-10-18T19:35:35Z",
   "categories": [
     {
       "name": "AI phishing",
@@ -20,6 +20,11 @@
       "name": "Agent hijack",
       "slug": "agent-hijack",
       "count": 26
+    },
+    {
+      "name": "Chatbot harm",
+      "slug": "chatbot-harm",
+      "count": 27
     },
     {
       "name": "Deepfake fraud",
@@ -69,7 +74,15 @@
       "count": 1
     },
     {
+      "code": "BE",
+      "count": 1
+    },
+    {
       "code": "BR",
+      "count": 3
+    },
+    {
+      "code": "CA",
       "count": 3
     },
     {
@@ -106,7 +119,7 @@
     },
     {
       "code": "GB",
-      "count": 4
+      "count": 5
     },
     {
       "code": "GH",
@@ -170,6 +183,10 @@
     },
     {
       "code": "KW",
+      "count": 1
+    },
+    {
+      "code": "LB",
       "count": 1
     },
     {
@@ -238,11 +255,11 @@
     },
     {
       "code": "UA",
-      "count": 3
+      "count": 4
     },
     {
       "code": "US",
-      "count": 68
+      "count": 88
     },
     {
       "code": "UY",

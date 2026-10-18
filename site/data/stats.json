@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-18T19:25:26Z",
-  "total": 329,
+  "generated_at": "2026-10-18T19:44:14Z",
+  "total": 356,
   "trend_from": "2025-01-01",
   "finance": {
     "top_losses": [
@@ -14,7 +14,7 @@
       "vietnam-deepfake-extortion-ring"
     ],
     "financial_services": 12,
-    "individuals": 85,
+    "individuals": 112,
     "fin_by_category": {
       "Deepfake fraud": 8,
       "State actor AI ops": 2,
@@ -41,8 +41,8 @@
     "vendors": [
       {
         "product": "OpenAI / ChatGPT",
-        "n": 51,
-        "critical_high": 26,
+        "n": 71,
+        "critical_high": 46,
         "with_cve": 0,
         "latest": "aoki-infostealer-ai-assistant-creds"
       },
@@ -55,8 +55,8 @@
       },
       {
         "product": "Google Gemini",
-        "n": 20,
-        "critical_high": 8,
+        "n": 21,
+        "critical_high": 9,
         "with_cve": 0,
         "latest": "gemini-breakout-hacks-three-companies"
       },
@@ -104,8 +104,8 @@
       },
       {
         "product": "Meta AI / Llama",
-        "n": 6,
-        "critical_high": 2,
+        "n": 7,
+        "critical_high": 3,
         "with_cve": 0,
         "latest": "meta-ai-model-exploits-flaw-in-eval"
       },
@@ -148,7 +148,7 @@
   },
   "this_quarter": {
     "q": "2026-Q4",
-    "n": 38,
+    "n": 40,
     "prev_q": "2026-Q3",
     "prev_n": 45
   },
@@ -156,8 +156,8 @@
     "on-ai": 138,
     "with-ai": 191
   },
-  "on_ai_share_first_half": 35,
-  "on_ai_share_last_half": 52,
+  "on_ai_share_first_half": 34,
+  "on_ai_share_last_half": 47,
   "quarters": [
     {
       "q": "2025-Q1",
@@ -175,73 +175,73 @@
     },
     {
       "q": "2025-Q2",
-      "n": 33,
+      "n": 34,
       "on-ai": 13,
       "with-ai": 20,
       "severity": {
-        "critical": 2,
+        "critical": 3,
         "high": 13,
         "medium": 16,
         "low": 2
       },
       "autonomous": 0,
-      "real_world": 30
+      "real_world": 31
     },
     {
       "q": "2025-Q3",
-      "n": 56,
+      "n": 59,
       "on-ai": 31,
       "with-ai": 25,
       "severity": {
-        "critical": 3,
+        "critical": 6,
         "high": 28,
         "medium": 20,
         "low": 5
       },
       "autonomous": 1,
-      "real_world": 35
+      "real_world": 38
     },
     {
       "q": "2025-Q4",
-      "n": 35,
+      "n": 44,
       "on-ai": 8,
       "with-ai": 27,
       "severity": {
-        "critical": 5,
-        "high": 13,
+        "critical": 10,
+        "high": 17,
         "medium": 15,
         "low": 2
       },
       "autonomous": 1,
-      "real_world": 30
+      "real_world": 39
     },
     {
       "q": "2026-Q1",
-      "n": 45,
+      "n": 50,
       "on-ai": 24,
       "with-ai": 21,
       "severity": {
-        "critical": 4,
-        "high": 21,
+        "critical": 8,
+        "high": 22,
         "medium": 18,
         "low": 2
       },
       "autonomous": 0,
-      "real_world": 36
+      "real_world": 41
     },
     {
       "q": "2026-Q2",
-      "n": 44,
+      "n": 48,
       "on-ai": 22,
       "with-ai": 22,
       "severity": {
-        "critical": 7,
+        "critical": 11,
         "high": 20,
         "medium": 16,
         "low": 1
       },
       "autonomous": 0,
-      "real_world": 39
+      "real_world": 43
     },
     {
       "q": "2026-Q3",
@@ -259,17 +259,17 @@
     },
     {
       "q": "2026-Q4",
-      "n": 38,
+      "n": 40,
       "on-ai": 12,
       "with-ai": 26,
       "severity": {
-        "critical": 1,
-        "high": 14,
+        "critical": 2,
+        "high": 15,
         "medium": 22,
         "low": 1
       },
       "autonomous": 6,
-      "real_world": 37
+      "real_world": 39
     }
   ],
   "categories": [
@@ -362,6 +362,21 @@
         3
       ],
       "growth_last4_vs_prev4": -5
+    },
+    {
+      "category": "Chatbot harm",
+      "n": 27,
+      "by_quarter": [
+        0,
+        1,
+        3,
+        9,
+        5,
+        4,
+        0,
+        2
+      ],
+      "growth_last4_vs_prev4": -2
     },
     {
       "category": "Agent hijack",
@@ -503,12 +518,12 @@
     "2026"
   ],
   "severity": {
-    "critical": 31,
-    "high": 153,
+    "critical": 51,
+    "high": 160,
     "medium": 129,
     "low": 16
   },
-  "critical_high_pct": 56,
+  "critical_high_pct": 59,
   "losses": {
     "total_usd": 332347543,
     "disclosed": 31,
@@ -544,6 +559,11 @@
         "disclosed": 0
       },
       {
+        "category": "Chatbot harm",
+        "usd": 0,
+        "disclosed": 0
+      },
+      {
         "category": "Agent hijack",
         "usd": 0,
         "disclosed": 0
@@ -568,7 +588,7 @@
     },
     {
       "sector": "Individuals & consumers",
-      "n": 85
+      "n": 112
     },
     {
       "sector": "Multiple / cross-sector",
@@ -618,7 +638,7 @@
     },
     {
       "country": "US",
-      "n": 68
+      "n": 88
     },
     {
       "country": "CN",
@@ -637,15 +657,15 @@
       "n": 5
     },
     {
+      "country": "GB",
+      "n": 5
+    },
+    {
       "country": "TW",
       "n": 4
     },
     {
-      "country": "GB",
-      "n": 4
-    },
-    {
-      "country": "SE",
+      "country": "UA",
       "n": 4
     },
     {
@@ -657,19 +677,19 @@
       "n": 4
     },
     {
-      "country": "NG",
-      "n": 3
+      "country": "SE",
+      "n": 4
     }
   ],
-  "global_pct": 45,
+  "global_pct": 41,
   "status": [
+    {
+      "status": "ongoing",
+      "n": 95
+    },
     {
       "status": "under investigation",
       "n": 87
-    },
-    {
-      "status": "ongoing",
-      "n": 77
     },
     {
       "status": "contained",
@@ -681,14 +701,14 @@
     },
     {
       "status": "resolved",
-      "n": 31
+      "n": 35
     },
     {
       "status": "unresolved",
-      "n": 17
+      "n": 22
     }
   ],
-  "unresolved_pct": 55,
+  "unresolved_pct": 57,
   "verify_median_hours": 19.8,
   "verify_sample": 45,
   "researcher_demos": 48,
@@ -876,11 +896,11 @@
     {
       "day": "2026-10-16",
       "kinds": {
-        "incident": 40,
+        "incident": 42,
         "vulnerability": 5,
         "research": 30,
         "vendor-report": 12,
-        "policy": 32,
+        "policy": 37,
         "other": 25,
         "untagged": 0
       }
@@ -888,24 +908,24 @@
     {
       "day": "2026-10-17",
       "kinds": {
-        "incident": 18,
+        "incident": 28,
         "vulnerability": 1,
         "research": 6,
         "vendor-report": 3,
-        "policy": 8,
-        "other": 22,
+        "policy": 13,
+        "other": 23,
         "untagged": 0
       }
     },
     {
       "day": "2026-10-18",
       "kinds": {
-        "incident": 17,
+        "incident": 34,
         "vulnerability": 0,
         "research": 8,
         "vendor-report": 1,
-        "policy": 3,
-        "other": 13,
+        "policy": 5,
+        "other": 14,
         "untagged": 0
       }
     }

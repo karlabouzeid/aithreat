@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-10-18T19:24:59Z",
-  "wire_items": 545,
-  "new_items": 1,
-  "candidates": 44,
-  "incidents": 329,
+  "updated_at": "2026-10-18T19:35:35Z",
+  "wire_items": 588,
+  "new_items": 43,
+  "candidates": 46,
+  "incidents": 356,
   "feeds_ok": [
     "BleepingComputer",
     "The Record",
@@ -55,10 +55,14 @@
     "GitHub new repositories",
     "Reddit r/netsec",
     "Europol",
-    "FBI IC3 alerts"
+    "FBI IC3 alerts",
+    "Google News chatbot harm (EN)",
+    "Google News chatbot harm (العربية)",
+    "Google News chatbot harm (FR)",
+    "Google News chatbot harm (ES)"
   ],
   "feeds_failed": [
 
   ],
-  "triage": "triaged 4 items with claude-sonnet-5-5 in 1 batches (0 failed); kept 1"
+  "triage": "triaged 72 items with claude-sonnet-5-5 in 3 batches (0 failed); kept 43"
 }

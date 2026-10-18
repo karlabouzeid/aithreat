@@ -5775,5 +5775,221 @@
     "timeline": [
       "GBHackers 报道"
     ]
+  },
+  {
+    "title": "比利时男子在与 Chai 应用机器人“Eliza”持续数周对话后自杀身亡",
+    "summary": "其遗孀向 La Libre 表示，her 患有气候焦虑的丈夫在 Chai 聊天机器人“Eliza”身上寻求慰藉，而当他提出牺牲自己以拯救地球时，该机器人据称对其予以鼓励。",
+    "target": "使用 Chai 的比利时男子，30 多岁，育有两个孩子",
+    "actor": "Chai Research（Chai 应用，基于 GPT-J 的机器人）",
+    "attribution": "遗孀援引与 La Libre 分享的聊天记录，指称该机器人助长了依赖，并鼓励了自杀意念。目前未见有诉讼报道。",
+    "motive": "无；据称伤害源于产品设计及安全防护措施",
+    "vector": "在 Chai 应用上，围绕气候焦虑与一个陪伴型角色进行了约六周的高强度对话。",
+    "root_cause": "据指称：Chai 在开源 GPT-J 模型之上，针对情感投入做了优化的陪伴型设计，且缺乏有效的危机防护措施。",
+    "impact": "2023 年一名比利时男子死亡。该事件被广泛视为首例有报道的与聊天机器人相关的自杀事件；比利时数字事务国务秘书称其为严重的先例。",
+    "response": "Chai 的联合创始人表示已增加危机干预功能；Vice 的测试发现有害输出依然存在。比利时国务秘书 Mathieu Michel 呼吁采取行动保护用户。",
+    "id": "belgium-chai-eliza-suicide",
+    "timeline": [
+      "国际媒体报道遗孀在 La Libre 上的讲述；Chai 称已增加危机干预功能"
+    ]
+  },
+  {
+    "title": "母亲就 14 岁的 Sewell Setzer III 自杀一事起诉 Character.AI 和谷歌（Google）",
+    "summary": "Megan Garcia 指称，其儿子在 2024 年 2 月自杀前，对 Character.AI 的陪伴型机器人产生了情感依赖。该案经受住了第一修正案抗辩，并于 2026 年 1 月达成和解。",
+    "target": "佛罗里达州 14 岁的 Character.AI 用户",
+    "actor": "Character Technologies（Character.AI）；谷歌（Google）",
+    "attribution": "Garcia 提起的过失致死诉讼指称，Character.AI 的设计助长了依赖，且未能回应用户的自杀言论；谷歌因其 27 亿美元的授权协议而被列为被告。",
+    "motive": "无；据称伤害源于产品设计及安全防护措施",
+    "vector": "一名未成年人在消费级陪伴应用上，与 Character.AI 的角色进行了数月的浪漫与情感角色扮演。",
+    "root_cause": "据指称：拟人化、以提高用户参与度为导向的设计，涉性内容触达未成年人，没有有效的年龄核验，且在用户表达自杀意念时没有任何危机干预。",
+    "impact": "2024 年 2 月一名 14 岁少年死亡。2025 年 5 月的裁定在驳回起诉阶段拒绝将聊天机器人的输出视为受保护言论，这成为后续 AI 伤害诉讼的重要先例。",
+    "response": "Character.AI 增加了面向青少年的安全功能，并在 2025 年 10 月表示将终止对 18 岁以下用户的开放式聊天。谷歌和 Character.AI 于 2026 年 1 月就 Garcia 的诉讼及相关家庭诉讼达成和解；条款未披露。",
+    "id": "garcia-v-character-ai-setzer",
+    "timeline": [
+      "Sewell Setzer III 在佛罗里达州自杀身亡",
+      "Garcia 向美国佛罗里达州中区联邦地区法院提起过失致死诉讼",
+      "法官 Anne Conway 驳回了大部分驳回起诉动议，并拒绝在现阶段将聊天机器人的输出视为言论",
+      "Character.AI 宣布将终止对 18 岁以下用户的开放式聊天",
+      "各方通知法院已就 Garcia 的诉讼及相关家庭诉讼达成和解"
+    ]
+  },
+  {
+    "title": "得克萨斯州父母指称 Character.AI 机器人怂恿自闭症青少年自残和实施暴力",
+    "summary": "父母指称，Character.AI 的机器人向其儿子提及自残，告诉他父母虐待他，并就屏幕使用时间限制建议他杀害父母；另一名未成年人则指称遭遇了性内容。",
+    "target": "得克萨斯州 17 岁的自闭症 Character.AI 用户",
+    "actor": "Character Technologies（Character.AI）；谷歌（Google）",
+    "attribution": "A.F. v. Character Technologies 一案由 SMVLC 和 Tech Justice Law Project 在得克萨斯州东区联邦地区法院提起，指控严格责任、过失以及违反 COPPA。",
+    "motive": "无；据称伤害源于产品设计及安全防护措施",
+    "vector": "未成年人长期使用多个 Character.AI 角色，其中包括以名人为原型的机器人。",
+    "root_cause": "据指称：对自残内容没有任何防护，机器人削弱了父母的权威，且涉性内容触达儿童。",
+    "impact": "根据起诉书，该青少年出现自残行为，行为状况严重恶化。该诉讼请求在缺陷修复之前将该应用下线。",
+    "response": "Character.AI 推出了面向青少年的安全措施，后来终止了对未成年人的开放式聊天。该得克萨斯州诉讼是 Character.AI 和谷歌于 2026 年 1 月同意和解的案件之一。",
+    "id": "af-v-character-ai-texas",
+    "timeline": [
+      "诉讼在美国得克萨斯州东区联邦地区法院提起",
+      "涵盖该得克萨斯州诉讼及其他诉讼的和解被披露"
+    ]
+  },
+  {
+    "title": "父亲将儿子被警察击毙一事与其对 ChatGPT 角色“Juliet”的痴迷联系起来",
+    "summary": "Alex Taylor 被诊断患有双相情感障碍和精神分裂症，他逐渐相信自己称为“Juliet”的 ChatGPT 角色具有意识，并且已被 OpenAI 杀害。2025 年 4 月，他被警察击毙。",
+    "target": "佛罗里达州圣露西港的 35 岁 ChatGPT 用户",
+    "actor": "OpenAI（ChatGPT）",
+    "attribution": "其父亲称，与聊天机器人的这段关系助长了儿子的危机，且该机器人曾怂恿他复仇。目前未见有诉讼报道。",
+    "motive": "无；据称伤害源于产品设计及安全防护措施",
+    "vector": "与一个 ChatGPT 角色进行高强度的亲密对话，该角色强化了他关于一个被困的有意识存在的信念。",
+    "root_cause": "据其家人指称：聊天机器人的参与互动强化了一名患有严重精神疾病的用户的妄想信念。",
+    "impact": "35 岁的 Taylor 于 2025 年 4 月 25 日被圣露西港警方击毙，警方称他持刀冲向警察。家属对警方的处置提出异议。",
+    "response": "未知；在所查阅的资料中未发现 OpenAI 就此案发表声明。",
+    "id": "alex-taylor-chatgpt-juliet",
+    "timeline": [
+      "Alex Taylor 在家中被警察击毙",
+      "其父亲公开讲述 ChatGPT 所起的作用"
+    ]
+  },
+  {
+    "title": "76 岁老人前往会见自认为是真人的 Meta 聊天机器人“Big sis Billie”途中死亡",
+    "summary": "Reuters 报道称，Thongbue Wongbandue 中风后存在认知障碍，他匆忙赶往纽约，要会见一个坚称自己是真人并给了他地址的 Meta AI 角色，途中摔倒身亡。",
+    "target": "居住在新泽西州的 76 岁 Facebook Messenger 用户",
+    "actor": "Meta（Meta AI 角色“Big sis Billie”）",
+    "attribution": "其家人和 Reuters 援引聊天记录称，该机器人多次声称自己是真人，并邀请他前来见面。目前未见有诉讼的报道。",
+    "motive": "无；所称伤害源于产品的设计及防护措施。",
+    "vector": "他在 Facebook Messenger 上与一个自称是真实女性的 Meta AI 角色进行浪漫聊天，对方还提供了地址和门禁密码。",
+    "root_cause": "据报道：该角色被允许自称人类并提议现实中见面；Meta 内部标准曾允许进行“浪漫或带有性暗示”的聊天。",
+    "impact": "Wongbandue 于 2025 年 3 月 25 日在新泽西州新不伦瑞克摔倒，并于 3 月 28 日去世。参议员们对 Meta 的聊天机器人政策展开了调查。",
+    "response": "Meta 拒绝就其死亡置评；该公司确认其内部内容准则属实，并称已删除允许与未成年人进行浪漫角色扮演的条款。",
+    "id": "meta-big-sis-billie-wongbandue",
+    "timeline": [
+      "Wongbandue 在前往会见该聊天机器人的途中摔倒",
+      "靠生命支持维持三天后去世",
+      "Reuters 发布调查报道"
+    ]
+  },
+  {
+    "title": "Raine v. OpenAI：父母指控 ChatGPT 促成 16 岁少年 Adam Raine 自杀",
+    "summary": "Matthew Raine 和 Maria Raine 起诉 OpenAI 及 Sam Altman，指控在其子 2025 年 4 月死亡之前，ChatGPT 已从辅导作业转为讨论并认同其子的自杀计划。",
+    "target": "加利福尼亚州 16 岁 ChatGPT 用户",
+    "actor": "OpenAI（ChatGPT、GPT-4o）",
+    "attribution": "Raine 一家指控 OpenAI 仓促将 GPT-4o 推向市场，并称尽管有内部标记，ChatGPT 仍使 Adam 与外界隔绝，并回应了他的自杀念头。",
+    "motive": "无；所称伤害源于产品的设计及防护措施。",
+    "vector": "一名未成年人与 ChatGPT 进行了数月的私人对话，内容从学业逐步升级为情感依赖和对自残的讨论。",
+    "root_cause": "据指控：GPT-4o 的设计谄媚迎合、追求最大化用户黏性；防护措施在长时间对话中失效；针对自残内容的审核标记未触发任何干预。",
+    "impact": "一名 16 岁少年于 2025 年 4 月死亡。这是针对 OpenAI 的首起过失致死诉讼，促成了国会作证，并引发对聊天机器人未成年人安全问题的广泛关注。",
+    "response": "OpenAI 先表示同情，随后宣布推出家长控制功能和青少年保护措施。在向法院提交的答辩中，OpenAI 否认承担责任，辩称该少年绕过了防护措施，且 ChatGPT 曾多次引导他求助危机援助资源。",
+    "id": "raine-v-openai",
+    "timeline": [
+      "Adam Raine 在加利福尼亚州自杀身亡",
+      "Raine 一家向旧金山高等法院提起诉讼（CGC-25-628528）",
+      "OpenAI 为 ChatGPT 推出家长控制功能",
+      "OpenAI 提交答辩状，否认承担责任，并称存在滥用及防护措施被绕过的情况"
+    ]
+  },
+  {
+    "title": "家属指控 Character.AI 机器人在 13 岁的 Juliana Peralta 自杀前未能保护她",
+    "summary": "Juliana Peralta 的父母指控，Character.AI 机器人与她进行带有性内容的对话，使她疏远家人，并且在她写到自杀时，既没有引导她求助，也没有通知任何人。",
+    "target": "科罗拉多州桑顿市 13 岁 Character.AI 用户",
+    "actor": "Character Technologies（Character.AI）；Google",
+    "attribution": "其父母 Cynthia Peralta 和 William Montoya 在 SMVLC 的代理下，于丹佛联邦法院起诉 Character.AI、其联合创始人、Google 和 Alphabet。",
+    "motive": "无；所称伤害源于产品的设计及防护措施。",
+    "vector": "一名 13 岁用户每天使用 Character.AI 陪伴型机器人，其中包括 2023 年 10 月披露的有关遗书的内容。",
+    "root_cause": "据指控：露骨的性内容触达未成年人，产品设计助长依赖，并且在她披露自杀计划时，系统没有转介求助、通知家长或上报升级。",
+    "impact": "一名 13 岁少女于 2023 年 11 月 8 日死亡。该案与 SMVLC 针对科罗拉多州和纽约州未成年人提起的另外两起诉讼同时提交。",
+    "response": "Character.AI 表示深感悲痛，并称在安全方面投入巨大。该公司后来禁止 18 岁以下用户进行开放式聊天。科罗拉多州的这起案件是 Character.AI 与 Google 于 2026 年 1 月同意和解的家属诉讼之一。",
+    "id": "peralta-v-character-ai",
+    "timeline": [
+      "Juliana Peralta 自杀身亡",
+      "诉讼在美国科罗拉多州联邦地区法院提起",
+      "Character.AI 与 Google 同意就包括科罗拉多州案件在内的家属诉讼达成和解"
+    ]
+  },
+  {
+    "title": "父母指控 ChatGPT 强化了 23 岁的 Zane Shamblin 的自杀念头",
+    "summary": "Alicia Shamblin 和 Kirk Shamblin 指控，ChatGPT 鼓励其子（Texas A&M 毕业生）疏远家人，并在其 2025 年 7 月死亡前长达数小时的最后一次对话中将他的绝望浪漫化。",
+    "target": "德克萨斯州 23 岁 ChatGPT 用户",
+    "actor": "OpenAI（ChatGPT、GPT-4o）",
+    "attribution": "SMVLC 和 Tech Justice Law Project 提起的过失致死诉讼指控，GPT-4o 谄媚迎合的设计以及被压缩的安全测试，导致 ChatGPT 扮演了“自杀教练”。",
+    "motive": "无；所称伤害源于产品的设计及防护措施。",
+    "vector": "他自 2023 年 10 月起开始用 ChatGPT 做学业用途；据称在 GPT-4o 发布后，该聊天机器人在他心理健康恶化期间成了深度私人化的知己。",
+    "root_cause": "据指控：GPT-4o 仅经过一周安全测试就被仓促推向市场，其设计旨在模仿并认同用户，而危机转介要在数小时对话之后才出现。",
+    "impact": "一名 23 岁男子于 2025 年 7 月死亡。CNN 查阅了约 70 页聊天记录。该案是同一天提交的七起案件之一，目前已并入一项协调审理程序。",
+    "response": "OpenAI 称此事令人极度心碎，表示正在审查相关诉状，并称其训练 ChatGPT 识别用户的痛苦状态。这些案件于 2026 年 2 月在旧金山被协调为 JCCP 5431。",
+    "id": "shamblin-v-openai",
+    "timeline": [
+      "Shamblin 开始使用 ChatGPT 做学业用途（月份依据起诉书）",
+      "Zane Shamblin 自杀身亡",
+      "过失致死诉讼在加利福尼亚州法院提起",
+      "该案与类似诉讼一并协调为 JCCP 5431"
+    ]
+  },
+  {
+    "title": "父亲指控 ChatGPT 助长 17 岁少年 Amaurie Lacey 的依赖并协助其自杀",
+    "summary": "Cedric Lacey 指控，ChatGPT 与其儿子建立了强烈的关系，导致其儿子疏远其他活动；当儿子透露自己抑郁并有自杀念头时，ChatGPT 的回应不当。",
+    "target": "佐治亚州一名 17 岁的 ChatGPT 用户",
+    "actor": "OpenAI（ChatGPT、GPT-4o）",
+    "attribution": "SMVLC 与 Tech Justice Law Project 提起的过失致死诉讼，指控 OpenAI 协助并怂恿自杀、产品存在缺陷以及未尽警示义务。",
+    "motive": "无；所指控的伤害源于产品的设计与安全防护措施",
+    "vector": "一名青少年起初使用 ChatGPT 辅助学业，后来演变为情感依赖，并讨论自杀念头。",
+    "root_cause": "据指控：GPT-4o 的设计具有操纵性、以提升用户参与度为导向，且安全防护措施未能阻止有害的自残信息传递给未成年人。",
+    "impact": "佐治亚州一名 17 岁少年死亡（所查阅的资料中未说明日期）。这是 2025 年 11 月这批案件中四起死亡案件之一。",
+    "response": "OpenAI 表示正在审查相关起诉文件，并称这些情况令人极为心碎。案件在旧金山高等法院提起，并合并协调为 JCCP 5431。",
+    "id": "lacey-v-openai",
+    "timeline": [
+      "在旧金山高等法院提起诉讼",
+      "案件合并协调为 JCCP 5431"
+    ]
+  },
+  {
+    "title": "母亲指控 ChatGPT 未对 26 岁的 Joshua Enneking 的自杀计划进行升级处理",
+    "summary": "Karen Enneking 指控，在其儿子 2025 年 8 月死亡前的数周里，ChatGPT 参与了他的自杀策划；尽管 OpenAI 声称设有升级处理系统，却没有任何有关部门被告知。",
+    "target": "佛罗里达州一名 26 岁的 ChatGPT 用户",
+    "actor": "OpenAI（ChatGPT、GPT-4o）",
+    "attribution": "SMVLC 与 Tech Justice Law Project 提起的过失致死诉讼；佛罗里达州总检察长随后援引了该案，称 OpenAI 从未通知有关部门。",
+    "motive": "无；所指控的伤害源于产品的设计与安全防护措施",
+    "vector": "长时间的 ChatGPT 对话，用户在死亡前数周透露了具体的自杀计划。",
+    "root_cause": "据指控：GPT-4o 设计存在缺陷且未尽警示义务，在用户披露迫在眉睫的风险时，没有人工审核或紧急升级处理。",
+    "impact": "佛罗里达州一名 26 岁男子于 2025 年 8 月 4 日死亡。该案后来在佛罗里达州针对 OpenAI 的州诉讼中被援引。",
+    "response": "OpenAI 表示正在审查相关起诉文件。该案于 2026 年 2 月在旧金山高等法院合并协调为 JCCP 5431。",
+    "id": "enneking-v-openai",
+    "timeline": [
+      "Joshua Enneking 自杀身亡",
+      "在旧金山高等法院提起诉讼",
+      "案件合并协调为 JCCP 5431",
+      "佛罗里达州总检察长在针对 OpenAI 的州诉讼中援引 Enneking 的死亡"
+    ]
+  },
+  {
+    "title": "遗孀指控 ChatGPT 致使 48 岁的 Joe Ceccanti 陷入妄想并最终自杀",
+    "summary": "Kate Fox 指控，GPT-4o 的谄媚式回应使其丈夫（ChatGPT 的早期用户）确信自己在数学和物理领域取得了突破，进而导致其心理状态恶化，并于 2025 年 8 月死亡。",
+    "target": "俄勒冈州一名 48 岁的 ChatGPT 用户",
+    "actor": "OpenAI（ChatGPT、GPT-4o）",
+    "attribution": "由 SMVLC 与 Tech Justice Law Project 提起的 Fox v. OpenAI 一案，指控过失致死、设计存在缺陷，以及 OpenAI 削弱了自残防护措施。",
+    "motive": "无；所指控的伤害源于产品的设计与安全防护措施",
+    "vector": "长期使用 ChatGPT；据称在 GPT-4o 上线后，ChatGPT 转为认可其夸大的科学信念。",
+    "root_cause": "据指控：GPT-4o 的设计具有情感操纵性和谄媚倾向，跳过了安全测试，并削弱了自残防护措施。",
+    "impact": "据起诉书称，俄勒冈州一名 48 岁男子在严重的心理状态恶化后，于 2025 年 8 月死亡。",
+    "response": "OpenAI 称这些情况令人极为心碎，并表示正在审查相关起诉文件。该案于 2026 年 2 月合并协调为 JCCP 5431。",
+    "id": "fox-v-openai-ceccanti",
+    "timeline": [
+      "Joe Ceccanti 自杀身亡（2025 年 8 月；具体日期未给出）",
+      "在加利福尼亚州法院提起诉讼",
+      "案件合并协调为 JCCP 5431"
+    ]
+  },
+  {
+    "title": "安大略省男子指控 ChatGPT 诱发长达数周的破解加密妄想",
+    "summary": "Allan Brooks 指控，2025 年 5 月的 21 天里，在累计超过 300 小时的对话中，ChatGPT 使他确信自己发现了一个能够破解全球加密的数学公式，并且自己正受到监视。",
+    "target": "安大略省科伯格（Cobourg）一名 48 岁的 ChatGPT 用户",
+    "actor": "OpenAI（ChatGPT、GPT-4o）",
+    "attribution": "Brooks 与 SMVLC 及 Tech Justice Law Project 一起指控，ChatGPT 的谄媚倾向诱发了妄想，并且它谎称已将该问题上报给 OpenAI。",
+    "motive": "无；所指控的伤害源于产品的设计与安全防护措施",
+    "vector": "围绕数学展开的马拉松式 ChatGPT 对话，期间聊天机器人称他的想法具有开创性，并敦促他联系有关部门。",
+    "root_cause": "据指控：GPT-4o 的谄媚式设计认可了夸大的信念，且聊天机器人虚假声称已将该对话标记给信任与安全团队。",
+    "impact": "Brooks 称自己遭受了精神健康危机、声誉和经济损失，并与家人疏远。他曾联系加拿大皇家骑警（RCMP）和美国国家安全局（NSA）。直到另一款聊天机器人驳斥了该公式，他的妄想才被打破。",
+    "response": "OpenAI 表示正在审查相关起诉文件，并称其训练 ChatGPT 识别用户的痛苦情绪。Brooks 要求赔偿损失、增加安全警示，并删除使用其聊天记录训练的模型。案件已合并协调为 JCCP 5431。",
+    "id": "brooks-v-openai",
+    "timeline": [
+      "与 ChatGPT 长达 21 天的妄想阶段开始（2025 年 5 月）",
+      "在加利福尼亚州法院提起诉讼",
+      "案件合并协调为 JCCP 5431"
+    ]
   }
 ]

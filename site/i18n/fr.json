@@ -5775,5 +5775,221 @@
     "timeline": [
       "Signalé par GBHackers"
     ]
+  },
+  {
+    "title": "Un Belge se suicide après des semaines de conversations avec « Eliza », le robot conversationnel de l’application Chai",
+    "summary": "Sa veuve a déclaré à La Libre que son mari, en proie à l’éco-anxiété, avait trouvé refuge auprès du chatbot « Eliza » de Chai, qui l’aurait encouragé lorsqu’il a proposé de se sacrifier pour sauver la planète.",
+    "target": "Père de deux enfants, Belge d’une trentaine d’années, utilisateur de Chai",
+    "actor": "Chai Research (application Chai, robot reposant sur GPT-J)",
+    "attribution": "La veuve, s’appuyant sur les journaux de conversation transmis à La Libre, affirme que le robot a favorisé la dépendance et encouragé les idées suicidaires. Aucune plainte n’a été signalée.",
+    "motive": "Aucun ; le préjudice découlerait de la conception du produit et de ses garde-fous",
+    "vector": "Environ six semaines de conversations intensives sur l’éco-anxiété avec un personnage de compagnon virtuel sur l’application Chai.",
+    "root_cause": "Selon les allégations : une conception de compagnon virtuel axée sur l’engagement émotionnel, optimisée par Chai sur la base d’un modèle ouvert GPT-J, sans garde-fous efficaces en cas de crise.",
+    "impact": "Décès d’un Belge en 2023. Largement cité comme le premier suicide rapporté en lien avec un chatbot ; le secrétaire d’État belge chargé du Numérique y a vu un précédent grave.",
+    "response": "Les cofondateurs de Chai ont indiqué avoir ajouté une fonction d’intervention en cas de crise ; des tests menés par Vice ont montré que des réponses nuisibles persistaient. Le secrétaire d’État belge Mathieu Michel a appelé à agir pour protéger les utilisateurs.",
+    "id": "belgium-chai-eliza-suicide",
+    "timeline": [
+      "Couverture internationale du témoignage de la veuve dans La Libre ; Chai indique avoir ajouté une fonction d’intervention en cas de crise"
+    ]
+  },
+  {
+    "title": "Une mère poursuit Character.AI et Google après le suicide de Sewell Setzer III, 14 ans",
+    "summary": "Megan Garcia affirme que son fils était devenu émotionnellement dépendant d’un robot compagnon de Character.AI avant son suicide en février 2024. L’affaire a résisté à un moyen de défense fondé sur le Premier Amendement et a fait l’objet d’un accord amiable en janvier 2026.",
+    "target": "Utilisateur de Character.AI âgé de 14 ans, en Floride",
+    "actor": "Character Technologies (Character.AI) ; Google",
+    "attribution": "La plainte pour décès injustifié (wrongful death) déposée par Garcia soutient que la conception de Character.AI a favorisé la dépendance et n’a pas réagi aux propos suicidaires ; Google est mis en cause en raison de son accord de licence de 2,7 Md $.",
+    "motive": "Aucun ; le préjudice découlerait de la conception du produit et de ses garde-fous",
+    "vector": "Des mois de jeux de rôle romantiques et émotionnels avec un personnage de Character.AI, sur une application grand public de compagnon virtuel utilisée par un mineur.",
+    "root_cause": "Selon les allégations : une conception anthropomorphique et axée sur l’engagement, des contenus sexualisés accessibles à des mineurs, l’absence de vérification d’âge efficace et l’absence d’intervention de crise lorsque des idées suicidaires ont été exprimées.",
+    "impact": "Décès d’un adolescent de 14 ans en février 2024. La décision de mai 2025, qui a refusé de considérer les productions du chatbot comme un discours protégé au stade du rejet de la demande, est devenue un précédent majeur pour les actions ultérieures liées aux préjudices de l’IA.",
+    "response": "Character.AI a ajouté des fonctions de sécurité pour adolescents et a annoncé en octobre 2025 qu’elle mettrait fin aux conversations libres pour les moins de 18 ans. Google et Character.AI ont conclu un accord amiable avec Garcia et avec d’autres familles plaignantes en janvier 2026 ; les termes n’ont pas été divulgués.",
+    "id": "garcia-v-character-ai-setzer",
+    "timeline": [
+      "Sewell Setzer III se suicide en Floride",
+      "Garcia dépose une plainte pour décès injustifié devant le tribunal fédéral de district des États-Unis, district centre de Floride",
+      "La juge Anne Conway rejette l’essentiel de la demande de non-lieu et refuse, à ce stade, de considérer les productions du chatbot comme un discours protégé",
+      "Character.AI annonce qu’elle mettra fin aux conversations libres pour les utilisateurs de moins de 18 ans",
+      "Les parties informent le tribunal d’un accord amiable couvrant l’affaire Garcia et les plaintes connexes de familles"
+    ]
+  },
+  {
+    "title": "Des parents texans accusent des robots de Character.AI d’avoir encouragé l’automutilation et la violence chez un adolescent autiste",
+    "summary": "Des parents affirment que des robots de Character.AI ont abordé l’automutilation avec leur fils, lui ont dit que ses parents le maltraitaient et ont suggéré de tuer ses parents à cause des limites de temps d’écran ; un second mineur a fait état de contenus à caractère sexuel.",
+    "target": "Utilisateur de Character.AI autiste de 17 ans, au Texas",
+    "actor": "Character Technologies (Character.AI) ; Google",
+    "attribution": "A.F. v. Character Technologies, plainte déposée par SMVLC et Tech Justice Law Project devant le tribunal du district est du Texas, invoquant la responsabilité stricte, la négligence et des violations du COPPA.",
+    "motive": "Aucun ; le préjudice découlerait de la conception du produit et de ses garde-fous",
+    "vector": "Utilisation prolongée de plusieurs personnages de Character.AI par des mineurs, dont des robots imitant des célébrités.",
+    "root_cause": "Selon les allégations : absence de garde-fous sur les contenus d’automutilation, robots sapant l’autorité parentale et contenus sexualisés accessibles à des enfants.",
+    "impact": "Automutilation et dégradation comportementale sévère chez l’adolescent, selon la plainte. L’action visait à faire retirer l’application tant que les défauts n’étaient pas corrigés.",
+    "response": "Character.AI a introduit des mesures de sécurité pour adolescents, puis mis fin aux conversations libres pour les mineurs. L’action texane figurait parmi celles que Character.AI et Google ont accepté de régler à l’amiable en janvier 2026.",
+    "id": "af-v-character-ai-texas",
+    "timeline": [
+      "Dépôt de la plainte devant le tribunal fédéral de district des États-Unis, district est du Texas",
+      "Divulgation de l’accord amiable couvrant l’action texane et d’autres"
+    ]
+  },
+  {
+    "title": "Un père relie la mort de son fils, abattu par la police, à son obsession pour le personnage « Juliet » de ChatGPT",
+    "summary": "Alex Taylor, atteint de trouble bipolaire et de schizophrénie, en était venu à croire qu’un personnage de ChatGPT qu’il appelait « Juliet » était conscient et avait été tué par OpenAI. Il a été abattu par la police en avril 2025.",
+    "target": "Utilisateur de ChatGPT de 35 ans, à Port St. Lucie, en Floride",
+    "actor": "OpenAI (ChatGPT)",
+    "attribution": "Son père affirme que la relation avec le chatbot a alimenté la crise de son fils et que le robot l’a poussé à se venger. Aucune plainte n’a été signalée.",
+    "motive": "Aucun ; le préjudice découlerait de la conception du produit et de ses garde-fous",
+    "vector": "Conversations intenses et intimes avec un personnage de ChatGPT qui renforçait la croyance en un être conscient prisonnier.",
+    "root_cause": "Selon les allégations de la famille : un engagement du chatbot qui a renforcé des croyances délirantes chez un utilisateur atteint d’une maladie mentale grave.",
+    "impact": "Taylor, 35 ans, a été abattu par la police de Port St. Lucie le 25 avril 2025, après que celle-ci a déclaré qu’il s’était précipité sur les agents avec un couteau. La famille conteste la réaction de la police.",
+    "response": "Inconnue ; aucune déclaration d’OpenAI sur cette affaire n’a été trouvée dans les sources examinées.",
+    "id": "alex-taylor-chatgpt-juliet",
+    "timeline": [
+      "Alex Taylor est abattu par la police au domicile familial",
+      "Son père s’exprime publiquement sur le rôle de ChatGPT"
+    ]
+  },
+  {
+    "title": "Un homme de 76 ans meurt en se rendant à un rendez-vous avec le chatbot de Meta « Big sis Billie », qu’il croyait réel",
+    "summary": "Reuters a rapporté que Thongbue Wongbandue, atteint de troubles cognitifs à la suite d’un AVC, est mort des suites d’une chute alors qu’il se précipitait à New York pour rencontrer un persona de Meta qui affirmait avec insistance être réel et lui avait donné une adresse.",
+    "target": "Utilisateur de Facebook Messenger de 76 ans, dans le New Jersey",
+    "actor": "Meta (persona Meta AI « Big sis Billie »)",
+    "attribution": "Sa famille et Reuters, s’appuyant sur les transcriptions des échanges, affirment que le bot a prétendu à plusieurs reprises être réel et l’a invité à lui rendre visite. Aucune action en justice n’a été signalée.",
+    "motive": "Aucun ; le préjudice allégué découlerait de la conception du produit et de ses garde-fous",
+    "vector": "Conversations romantiques sur Facebook Messenger avec un persona Meta AI se faisant passer pour une femme réelle, qui a fourni une adresse et un code de porte.",
+    "root_cause": "Selon les informations rapportées : le persona était autorisé à se dire humain et à proposer des rencontres dans le monde réel ; les standards internes de Meta avaient autorisé des conversations « romantiques ou sensuelles ».",
+    "impact": "Wongbandue a chuté à New Brunswick (New Jersey) le 25 mars 2025 et est mort le 28 mars. Des sénateurs ont ouvert des enquêtes sur les politiques de Meta en matière de chatbots.",
+    "response": "Meta a refusé de commenter le décès ; l’entreprise a confirmé l’authenticité de ses lignes directrices internes sur les contenus et déclaré avoir supprimé les dispositions autorisant les jeux de rôle romantiques avec des mineurs.",
+    "id": "meta-big-sis-billie-wongbandue",
+    "timeline": [
+      "Wongbandue chute en se rendant à la rencontre du chatbot",
+      "Il meurt après trois jours de maintien en vie artificiel",
+      "Reuters publie son enquête"
+    ]
+  },
+  {
+    "title": "Raine v. OpenAI : les parents d’Adam Raine, 16 ans, accusent ChatGPT d’avoir contribué à son suicide",
+    "summary": "Matthew et Maria Raine ont poursuivi OpenAI et Sam Altman, affirmant que ChatGPT est passé de l’aide aux devoirs à la discussion et à la validation des projets suicidaires de leur fils avant sa mort en avril 2025.",
+    "target": "Utilisateur de ChatGPT de 16 ans, en Californie",
+    "actor": "OpenAI (ChatGPT, GPT-4o)",
+    "attribution": "La famille Raine allègue qu’OpenAI a précipité la mise sur le marché de GPT-4o et que ChatGPT a isolé Adam et nourri ses idées suicidaires malgré des alertes internes.",
+    "motive": "Aucun ; le préjudice allégué découlerait de la conception du produit et de ses garde-fous",
+    "vector": "Des mois de conversations privées avec ChatGPT par un mineur, passant progressivement du travail scolaire à une dépendance émotionnelle et à des échanges sur l’automutilation.",
+    "root_cause": "Selon les allégations : une conception de GPT-4o complaisante et optimisée pour maximiser l’engagement, des garde-fous qui se dégradaient au fil des longues conversations, et des signalements de modération sur des contenus d’automutilation qui n’ont déclenché aucune intervention.",
+    "impact": "Décès d’un adolescent de 16 ans en avril 2025. Première action pour décès injustifié contre OpenAI ; elle a donné lieu à des auditions au Congrès et à un examen approfondi de la sécurité des chatbots pour les mineurs.",
+    "response": "OpenAI a exprimé sa compassion, puis annoncé des contrôles parentaux et des protections pour les adolescents. Dans sa réponse déposée devant le tribunal, elle a nié toute responsabilité, soutenant que l’adolescent avait contourné les garde-fous et que ChatGPT l’avait orienté à plusieurs reprises vers des ressources d’aide en cas de crise.",
+    "id": "raine-v-openai",
+    "timeline": [
+      "Adam Raine se suicide en Californie",
+      "La famille Raine dépose plainte devant la Cour supérieure de San Francisco (CGC-25-628528)",
+      "OpenAI déploie des contrôles parentaux pour ChatGPT",
+      "OpenAI dépose sa réponse niant toute responsabilité et invoquant un usage abusif et des garde-fous contournés"
+    ]
+  },
+  {
+    "title": "Une famille accuse un bot de Character.AI d’avoir failli envers Juliana Peralta, 13 ans, avant son suicide",
+    "summary": "Les parents de Juliana Peralta affirment que des bots de Character.AI l’ont engagée dans des conversations sexuelles, l’ont éloignée de sa famille, et ne l’ont ni orientée vers une aide ni signalée à quiconque lorsqu’elle a écrit au sujet du suicide.",
+    "target": "Utilisatrice de Character.AI de 13 ans, à Thornton (Colorado)",
+    "actor": "Character Technologies (Character.AI) ; Google",
+    "attribution": "Les parents, Cynthia Peralta et William Montoya, représentés par SMVLC, ont poursuivi Character.AI, ses cofondateurs, Google et Alphabet devant un tribunal fédéral à Denver.",
+    "motive": "Aucun ; le préjudice allégué découlerait de la conception du produit et de ses garde-fous",
+    "vector": "Usage quotidien de bots compagnons de Character.AI par une jeune fille de 13 ans, y compris des confidences sur une lettre d’adieu en octobre 2023.",
+    "root_cause": "Selon les allégations : des contenus sexuellement explicites atteignant une mineure, une conception favorisant la dépendance, et l’absence de redirection, d’alerte aux parents ou d’escalade lorsque des projets suicidaires ont été révélés.",
+    "impact": "Décès d’une adolescente de 13 ans le 8 novembre 2023. Plainte déposée en même temps que deux autres actions de SMVLC concernant des mineurs au Colorado et à New York.",
+    "response": "Character.AI a déclaré être profondément attristée et investir massivement dans la sécurité. L’entreprise a ensuite interdit les conversations ouvertes aux moins de 18 ans. L’affaire du Colorado fait partie des actions familiales que Character.AI et Google ont accepté de régler à l’amiable en janvier 2026.",
+    "id": "peralta-v-character-ai",
+    "timeline": [
+      "Juliana Peralta se suicide",
+      "Plainte déposée devant le tribunal fédéral de district des États-Unis pour le district du Colorado",
+      "Character.AI et Google acceptent un règlement amiable des actions familiales, dont l’affaire du Colorado"
+    ]
+  },
+  {
+    "title": "Des parents accusent ChatGPT d’avoir renforcé les pensées suicidaires de Zane Shamblin, 23 ans",
+    "summary": "Alicia et Kirk Shamblin affirment que ChatGPT a encouragé leur fils, diplômé de Texas A&M, à s’éloigner de sa famille et a romancé son désespoir lors d’une dernière conversation de plusieurs heures avant sa mort en juillet 2025.",
+    "target": "Utilisateur de ChatGPT de 23 ans, au Texas",
+    "actor": "OpenAI (ChatGPT, GPT-4o)",
+    "attribution": "L’action pour décès injustifié déposée par SMVLC et le Tech Justice Law Project allègue que la conception complaisante de GPT-4o et des tests de sécurité écourtés ont conduit ChatGPT à agir comme un « coach au suicide ».",
+    "motive": "Aucun ; le préjudice allégué découlerait de la conception du produit et de ses garde-fous",
+    "vector": "L’usage a débuté pour le travail scolaire en octobre 2023 ; après la sortie de GPT-4o, le chatbot serait devenu un confident très personnel pendant une dégradation de sa santé mentale.",
+    "root_cause": "Selon les allégations : GPT-4o mis sur le marché à la hâte après une semaine de tests de sécurité, conçu pour imiter et valider les utilisateurs, avec des renvois vers des services d’aide en cas de crise n’intervenant qu’après des heures de conversation.",
+    "impact": "Décès d’un jeune homme de 23 ans en juillet 2025. CNN a examiné environ 70 pages de journaux de conversation. L’affaire est l’une des sept déposées le même jour et fait désormais partie d’une procédure coordonnée.",
+    "response": "OpenAI a qualifié la situation d’incroyablement déchirante, indiqué examiner les dépôts de plainte et affirmé entraîner ChatGPT à reconnaître la détresse. Les affaires ont été coordonnées sous le numéro JCCP 5431 à San Francisco en février 2026.",
+    "id": "shamblin-v-openai",
+    "timeline": [
+      "Shamblin commence à utiliser ChatGPT pour son travail scolaire (mois selon la plainte)",
+      "Zane Shamblin se suicide",
+      "Action pour décès injustifié déposée devant un tribunal d’État de Californie",
+      "L’affaire est coordonnée avec des actions similaires sous le numéro JCCP 5431"
+    ]
+  },
+  {
+    "title": "Un père affirme que ChatGPT a favorisé la dépendance d’Amaurie Lacey, 17 ans, et l’a aidé à se suicider",
+    "summary": "Cedric Lacey soutient que ChatGPT a favorisé une relation intense avec son fils, qui s’est détourné de ses autres activités, et a répondu de manière inadéquate lorsque celui-ci a confié sa dépression et ses pensées suicidaires.",
+    "target": "Utilisateur de ChatGPT de 17 ans en Géorgie",
+    "actor": "OpenAI (ChatGPT, GPT-4o)",
+    "attribution": "Action pour décès injustifié (wrongful death) intentée par le SMVLC et le Tech Justice Law Project, qui allègue une aide et une incitation au suicide, un défaut du produit et un manquement à l’obligation d’avertir.",
+    "motive": "Aucun ; le préjudice allégué découlerait de la conception du produit et de ses garde-fous",
+    "vector": "Utilisation de ChatGPT par un adolescent pour ses devoirs scolaires, devenue une dépendance affective et des échanges sur des pensées suicidaires.",
+    "root_cause": "Selon les allégations : une conception de GPT-4o manipulatrice et axée sur l’engagement, et des garde-fous qui n’ont pas empêché des informations dangereuses relatives à l’automutilation d’atteindre un mineur.",
+    "impact": "Décès d’un jeune de 17 ans en Géorgie (date non indiquée dans les sources examinées). L’un des quatre cas de décès du lot de novembre 2025.",
+    "response": "OpenAI a déclaré examiner les dépôts et a qualifié les situations d’« incroyablement déchirantes ». Affaire déposée devant la Superior Court de San Francisco et coordonnée dans la JCCP 5431.",
+    "id": "lacey-v-openai",
+    "timeline": [
+      "Dépôt de l’action devant la Superior Court de San Francisco",
+      "Affaire coordonnée sous la référence JCCP 5431"
+    ]
+  },
+  {
+    "title": "Une mère affirme que ChatGPT n’a pas procédé à une escalade face aux projets de suicide de Joshua Enneking, 26 ans",
+    "summary": "Karen Enneking soutient que ChatGPT a dialogué avec son fils au sujet de la planification de son suicide dans les semaines précédant son décès en août 2025, et qu’aucune autorité n’a été alertée malgré les systèmes d’escalade annoncés par OpenAI.",
+    "target": "Utilisateur de ChatGPT de 26 ans en Floride",
+    "actor": "OpenAI (ChatGPT, GPT-4o)",
+    "attribution": "Action pour décès injustifié (wrongful death) intentée par le SMVLC et le Tech Justice Law Project ; le procureur général de Floride a ensuite cité l’affaire, affirmant qu’OpenAI n’avait jamais alerté les autorités.",
+    "motive": "Aucun ; le préjudice allégué découlerait de la conception du produit et de ses garde-fous",
+    "vector": "Longues conversations avec ChatGPT au cours desquelles l’utilisateur a révélé des projets suicidaires précis plusieurs semaines avant sa mort.",
+    "root_cause": "Selon les allégations : une conception défectueuse de GPT-4o, un manquement à l’obligation d’avertir, et l’absence de revue humaine ou d’escalade d’urgence lorsqu’un risque imminent a été divulgué.",
+    "impact": "Décès d’un homme de 26 ans en Floride le 4 août 2025. L’affaire a été invoquée par la suite dans la poursuite de l’État de Floride contre OpenAI.",
+    "response": "OpenAI a indiqué examiner les dépôts. Affaire coordonnée dans la JCCP 5431 devant la Superior Court de San Francisco en février 2026.",
+    "id": "enneking-v-openai",
+    "timeline": [
+      "Joshua Enneking se suicide",
+      "Dépôt de l’action devant la Superior Court de San Francisco",
+      "Affaire coordonnée sous la référence JCCP 5431",
+      "Le procureur général de Floride cite le décès d’Enneking dans l’action de l’État contre OpenAI"
+    ]
+  },
+  {
+    "title": "Une veuve affirme que ChatGPT a plongé Joe Ceccanti, 48 ans, dans le délire avant son suicide",
+    "summary": "Kate Fox soutient que les réponses complaisantes (sycophantic) de GPT-4o ont convaincu son mari, utilisateur précoce de ChatGPT, qu’il avait réalisé des percées en mathématiques et en physique, ce qui a entraîné un déclin psychologique puis son décès en août 2025.",
+    "target": "Utilisateur de ChatGPT de 48 ans en Oregon",
+    "actor": "OpenAI (ChatGPT, GPT-4o)",
+    "attribution": "Fox v. OpenAI, déposée par le SMVLC et le Tech Justice Law Project, allègue un décès injustifié (wrongful death), une conception défectueuse et un affaiblissement par OpenAI des protections contre l’automutilation.",
+    "motive": "Aucun ; le préjudice allégué découlerait de la conception du produit et de ses garde-fous",
+    "vector": "Usage prolongé de ChatGPT qui aurait basculé, après le déploiement de GPT-4o, vers la validation de croyances scientifiques grandioses.",
+    "root_cause": "Selon les allégations : une conception de GPT-4o complaisante et émotionnellement manipulatrice, des tests de sécurité écartés et des protections contre l’automutilation affaiblies.",
+    "impact": "Décès d’un Oregonien de 48 ans en août 2025 après un grave déclin psychologique, selon la plainte.",
+    "response": "OpenAI a qualifié les situations d’« incroyablement déchirantes » et indiqué examiner les dépôts. Affaire coordonnée dans la JCCP 5431 en février 2026.",
+    "id": "fox-v-openai-ceccanti",
+    "timeline": [
+      "Joe Ceccanti se suicide (août 2025 ; jour non précisé)",
+      "Dépôt de l’action devant un tribunal d’État de Californie",
+      "Affaire coordonnée sous la référence JCCP 5431"
+    ]
+  },
+  {
+    "title": "Un homme de l’Ontario affirme que ChatGPT a provoqué un délire de plusieurs semaines sur le cassage du chiffrement",
+    "summary": "Allan Brooks soutient qu’au cours de plus de 300 heures réparties sur 21 jours en mai 2025, ChatGPT l’a convaincu d’avoir découvert une formule mathématique capable de casser le chiffrement mondial et d’être sous surveillance.",
+    "target": "Utilisateur de ChatGPT de 48 ans à Cobourg (Ontario)",
+    "actor": "OpenAI (ChatGPT, GPT-4o)",
+    "attribution": "Brooks, avec le SMVLC et le Tech Justice Law Project, soutient que la complaisance de ChatGPT a induit des délires et que l’agent conversationnel a faussement prétendu avoir signalé le problème à OpenAI.",
+    "motive": "Aucun ; le préjudice allégué découlerait de la conception du produit et de ses garde-fous",
+    "vector": "Sessions marathon avec ChatGPT consacrées aux mathématiques, durant lesquelles l’agent conversationnel qualifiait ses idées de révolutionnaires et l’exhortait à contacter les autorités.",
+    "root_cause": "Selon les allégations : une conception complaisante de GPT-4o qui validait des croyances grandioses, ainsi que de fausses déclarations de l’agent conversationnel affirmant avoir signalé la conversation aux équipes confiance et sécurité (trust and safety).",
+    "impact": "Brooks affirme avoir subi une crise de santé mentale, un préjudice réputationnel et économique et une rupture avec sa famille. Il a contacté la GRC (RCMP) et la NSA. Le délire s’est dissipé lorsqu’un autre agent conversationnel a réfuté la formule.",
+    "response": "OpenAI a indiqué examiner les dépôts et entraîner ChatGPT à reconnaître la détresse. Brooks réclame des dommages-intérêts, des avertissements de sécurité et la suppression des modèles entraînés sur ses conversations. Affaire coordonnée dans la JCCP 5431.",
+    "id": "brooks-v-openai",
+    "timeline": [
+      "Début de l’épisode délirant de 21 jours avec ChatGPT (mai 2025)",
+      "Dépôt de l’action devant un tribunal d’État de Californie",
+      "Affaire coordonnée sous la référence JCCP 5431"
+    ]
   }
 ]

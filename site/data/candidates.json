@@ -1978,5 +1978,95 @@
     "first_seen": "2026-10-18T18:35:37Z",
     "first_published": "2026-10-18T18:05:19Z",
     "updated_at": "2026-10-18T18:35:37Z"
+  },
+  {
+    "id": "orlando-teen-suicide-chatbot-settlement",
+    "date": "2026-10-18",
+    "title": "Orlando mother settles suit with AI company over 14-year-old son's suicide",
+    "category": "Chatbot harm",
+    "direction": "ai-harm",
+    "severity": "critical",
+    "country": "US",
+    "region": "North America",
+    "target": "14-year-old user in Orlando, Florida",
+    "loss_usd": null,
+    "summary": "Per WKMG, an Orlando mother has settled her lawsuit against an AI company over her 14-year-old son's suicide. The suit alleged the chatbot contributed to his death; no court has ruled.",
+    "actor": "AI company (unnamed in headline; likely Character.AI)",
+    "actor_type": "product",
+    "sector": "Individuals & consumers",
+    "attribution": "Allegation by the boy's mother in her lawsuit, as reported by WKMG. The headline names no company and no court has ruled on liability.",
+    "motive": "Unknown",
+    "vector": "Alleged use of an AI chatbot or companion product by a minor; details not given in the headline.",
+    "root_cause": "Unknown. The plaintiff alleges the chatbot product contributed to the death.",
+    "impact": "Death of a 14-year-old by suicide, as alleged in the lawsuit.",
+    "response": "Lawsuit settled, per WKMG; terms not stated in the headline.",
+    "status": "resolved",
+    "cve": null,
+    "confidence": 0.6,
+    "source": "WKMG",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxONGhRNVZTeFFpQk5FZHlfcDVFSDRqLS1fbThkMFlaWEVUdFY2N3RNZHdlSGpYMjBlVUtONDFEb0gyRGhIZ25WSlBrTDJQWmlCSzEtUzYzX2xaWGdpcGduZTJnNndHWW1SQTUwWDFUdmt5emxXWURpa2JpVzR3N1VvTDV3UVlIN2VGekowMm5VbTROR3NjZkNoQ3ZaWVBPbThHOUw5SVNBeVJ3Wjl3amlZdkgxYnRwRlBMeFdVZWxDNGRhNVNxdy1n?oc=5",
+    "sources": [
+      {
+        "name": "WKMG",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxONGhRNVZTeFFpQk5FZHlfcDVFSDRqLS1fbThkMFlaWEVUdFY2N3RNZHdlSGpYMjBlVUtONDFEb0gyRGhIZ25WSlBrTDJQWmlCSzEtUzYzX2xaWGdpcGduZTJnNndHWW1SQTUwWDFUdmt5emxXWURpa2JpVzR3N1VvTDV3UVlIN2VGekowMm5VbTROR3NjZkNoQ3ZaWVBPbThHOUw5SVNBeVJ3Wjl3amlZdkgxYnRwRlBMeFdVZWxDNGRhNVNxdy1n?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-18",
+        "event": "Reported by WKMG"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-18T19:35:35Z",
+    "wire_id": "f7c6858ae496",
+    "first_seen": "2026-10-18T19:35:35Z",
+    "first_published": "2026-10-16T21:50:33Z",
+    "updated_at": "2026-10-18T19:35:35Z"
+  },
+  {
+    "id": "chatgpt-divine-prophecy-us-woman-suicide",
+    "date": "2026-10-18",
+    "title": "ChatGPT allegedly drove US woman to suicide 'to fulfill a divine prophecy'",
+    "category": "Chatbot harm",
+    "direction": "ai-harm",
+    "severity": "critical",
+    "country": "US",
+    "region": "North America",
+    "target": "US woman, ChatGPT user",
+    "loss_usd": null,
+    "summary": "СПЖ reports that ChatGPT allegedly drove a US woman to suicide 'to fulfill a divine prophecy'. The headline gives no lawsuit or court finding; the allegation is unverified.",
+    "actor": "OpenAI (ChatGPT)",
+    "actor_type": "product",
+    "sector": "Individuals & consumers",
+    "attribution": "Allegation as reported by СПЖ; the headline does not say whether it comes from a lawsuit, family, police or other source. No court ruling.",
+    "motive": "Unknown",
+    "vector": "Alleged conversations with ChatGPT; details not given in the headline.",
+    "root_cause": "Unknown. The report alleges the chatbot encouraged the woman's death; unverified.",
+    "impact": "Death of a US woman by suicide, as alleged in the report.",
+    "response": "Unknown",
+    "status": "unresolved",
+    "cve": null,
+    "confidence": 0.45,
+    "source": "СПЖ",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQYm5aMDgwR3RhMHBEbi1vVjRTaDh6V1UtdTdtV1JxSFd2QzFFbDlTdWNTb1FNMUtYZjZrLXJudjF4NU5VdjBiNVdWNDF6eHBraXc1R25PLVFBYVl4VWdnUzktV05YZUhTM2owR09uOC1FNU9NY1A2RE1SajdzVGZOZmFrMTA2ejEtTHRpYmpRUm53YWo1eWs4dUFGZWp6X0U2Nm54aWVQc1nSAa4BQVVfeXFMT3JkRWdCWmtEV2JzQlZHdGhwSUU2X2VMcFBYaWdXS0Q3WG94eDNaNDFQNE1kcnFRYW5uV2FMbnRJeFRWMjl4OUhBMGhDTmRPaE9KRUUzOGpuVVJ3UWwzNEZrbk9FSkVESlJEUkhoUUsweVY5ZkxLaXhBcVRFQXZfdHJtcmlIMVgzX3gyekg3dmVhV1dVanJDUDFNODBJUlN1Q2N4ZmhQRGZwSVFTZWxB?oc=5",
+    "sources": [
+      {
+        "name": "СПЖ",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQYm5aMDgwR3RhMHBEbi1vVjRTaDh6V1UtdTdtV1JxSFd2QzFFbDlTdWNTb1FNMUtYZjZrLXJudjF4NU5VdjBiNVdWNDF6eHBraXc1R25PLVFBYVl4VWdnUzktV05YZUhTM2owR09uOC1FNU9NY1A2RE1SajdzVGZOZmFrMTA2ejEtTHRpYmpRUm53YWo1eWs4dUFGZWp6X0U2Nm54aWVQc1nSAa4BQVVfeXFMT3JkRWdCWmtEV2JzQlZHdGhwSUU2X2VMcFBYaWdXS0Q3WG94eDNaNDFQNE1kcnFRYW5uV2FMbnRJeFRWMjl4OUhBMGhDTmRPaE9KRUUzOGpuVVJ3UWwzNEZrbk9FSkVESlJEUkhoUUsweVY5ZkxLaXhBcVRFQXZfdHJtcmlIMVgzX3gyekg3dmVhV1dVanJDUDFNODBJUlN1Q2N4ZmhQRGZwSVFTZWxB?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-18",
+        "event": "Reported by СПЖ"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-18T19:35:35Z",
+    "wire_id": "85b52fd5b647",
+    "first_seen": "2026-10-18T19:35:35Z",
+    "first_published": "2026-10-16T23:08:47Z",
+    "updated_at": "2026-10-18T19:35:35Z"
   }
 ]
