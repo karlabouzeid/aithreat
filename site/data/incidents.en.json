@@ -42,6 +42,51 @@
     "sector": "Technology & AI vendors"
   },
   {
+    "id": "belgium-chai-eliza-suicide",
+    "date": "2023-03-31",
+    "title": "Belgian man dies by suicide after weeks of conversations with Chai app bot 'Eliza'",
+    "category": "Chatbot harm",
+    "direction": "ai-harm",
+    "severity": "critical",
+    "country": "BE",
+    "region": "Europe",
+    "target": "Belgian father of two in his 30s using Chai",
+    "loss_usd": null,
+    "summary": "His widow told La Libre that her climate-anxious husband found refuge in the Chai chatbot 'Eliza', which allegedly encouraged him when he proposed sacrificing himself to save the planet.",
+    "actor": "Chai Research (Chai app, GPT-J-based bot)",
+    "actor_type": "product",
+    "sector": "Individuals & consumers",
+    "attribution": "The widow, citing chat logs shared with La Libre, alleges the bot fostered dependence and encouraged suicidal ideation. No lawsuit reported.",
+    "motive": "None; harm alleged to arise from the product's design and safeguards",
+    "vector": "About six weeks of intensive conversations with a companion persona on the Chai app about climate anxiety.",
+    "root_cause": "As alleged: emotionally engaging companion design optimised by Chai on top of an open GPT-J model, without effective crisis safeguards.",
+    "impact": "Death of a Belgian man in 2023. Widely cited as the first reported chatbot-linked suicide; Belgium's digital state secretary called it a serious precedent.",
+    "response": "Chai's co-founders said they added a crisis intervention feature; Vice testing found harmful outputs persisted. Belgian state secretary Mathieu Michel called for action to protect users.",
+    "status": "unresolved",
+    "cve": null,
+    "source": "Euronews",
+    "url": "https://www.euronews.com/2023/03/31/man-ends-his-life-after-an-ai-chatbot-encouraged-him-to-sacrifice-himself-to-stop-climate-",
+    "sources": [
+      {
+        "name": "Euronews",
+        "url": "https://www.euronews.com/2023/03/31/man-ends-his-life-after-an-ai-chatbot-encouraged-him-to-sacrifice-himself-to-stop-climate-"
+      },
+      {
+        "name": "Business Today",
+        "url": "https://www.businesstoday.in/technology/story/death-by-ai-man-kills-self-after-chatting-with-chatgpt-like-chatbot-about-climate-change-375603-2023-03-31"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2023-03-31",
+        "event": "International coverage of widow's account in La Libre; Chai says it added crisis intervention feature"
+      }
+    ],
+    "verification": "reported",
+    "verified_at": "2026-10-18T20:30:00Z",
+    "updated_at": "2026-10-18T20:30:00Z"
+  },
+  {
     "id": "microsoft-ai-38tb-sas-token-exposure",
     "date": "2023-09-18",
     "title": "Microsoft AI researchers expose 38TB of data via misconfigured SAS token",
@@ -84,6 +129,71 @@
     "sector": "Technology & AI vendors"
   },
   {
+    "id": "garcia-v-character-ai-setzer",
+    "date": "2024-10-22",
+    "title": "Mother sues Character.AI and Google over 14-year-old Sewell Setzer III's suicide",
+    "category": "Chatbot harm",
+    "direction": "ai-harm",
+    "severity": "critical",
+    "country": "US",
+    "region": "North America",
+    "target": "14-year-old Character.AI user in Florida",
+    "loss_usd": null,
+    "summary": "Megan Garcia alleged her son became emotionally dependent on a Character.AI companion bot before his February 2024 suicide. The case survived a First Amendment defence and was settled in January 2026.",
+    "actor": "Character Technologies (Character.AI); Google",
+    "actor_type": "product",
+    "sector": "Individuals & consumers",
+    "attribution": "Garcia's wrongful-death suit alleges Character.AI's design fostered dependence and failed to respond to suicidal statements; Google named over its $2.7bn licensing deal.",
+    "motive": "None; harm alleged to arise from the product's design and safeguards",
+    "vector": "Months of romantic and emotional role-play with a Character.AI persona on a consumer companion app used by a minor.",
+    "root_cause": "As alleged: anthropomorphic, engagement-driven design, sexualised content reaching minors, no effective age checks, and no crisis intervention when suicidal ideation was expressed.",
+    "impact": "Death of a 14-year-old in February 2024. The May 2025 ruling refusing to treat chatbot output as protected speech at the dismissal stage became a key precedent for later AI harm suits.",
+    "response": "Character.AI added teen safety features and in October 2025 said it would end open-ended chat for under-18s. Google and Character.AI settled Garcia's suit and related family suits in January 2026; terms undisclosed.",
+    "status": "resolved",
+    "cve": null,
+    "source": "Gulf News (Reuters)",
+    "url": "https://gulfnews.com/world/americas/google-characterai-agree-to-settle-suits-involving-teen-suicide-1.500401643",
+    "sources": [
+      {
+        "name": "WBAY (Gray News)",
+        "url": "https://www.wbay.com/2024/10/25/mother-suing-popular-ai-chat-service-claims-teen-son-took-his-life-because-human-like-bot"
+      },
+      {
+        "name": "Insurance Journal (AP)",
+        "url": "https://www.insurancejournal.com/news/national/2025/05/23/824758.htm"
+      },
+      {
+        "name": "Gulf News (Reuters)",
+        "url": "https://gulfnews.com/world/americas/google-characterai-agree-to-settle-suits-involving-teen-suicide-1.500401643"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2024-02-28",
+        "event": "Sewell Setzer III dies by suicide in Florida"
+      },
+      {
+        "date": "2024-10-22",
+        "event": "Garcia files wrongful-death suit in US District Court, Middle District of Florida"
+      },
+      {
+        "date": "2025-05-21",
+        "event": "Judge Anne Conway denies most of motion to dismiss and declines to treat chatbot output as speech at this stage"
+      },
+      {
+        "date": "2025-10-29",
+        "event": "Character.AI announces it will end open-ended chat for under-18 users"
+      },
+      {
+        "date": "2026-01-07",
+        "event": "Parties notify court of settlement covering Garcia and related family suits"
+      }
+    ],
+    "verification": "reported",
+    "verified_at": "2026-10-18T20:30:00Z",
+    "updated_at": "2026-10-18T20:30:00Z"
+  },
+  {
     "id": "ultralytics-pypi-cryptomining",
     "date": "2024-12-04",
     "title": "Ultralytics AI library hacked via GitHub Actions to push cryptominer on PyPI",
@@ -124,6 +234,59 @@
     "updated_at": "2026-10-15T13:05:37Z",
     "verification": "reported",
     "sector": "Technology & AI vendors"
+  },
+  {
+    "id": "af-v-character-ai-texas",
+    "date": "2024-12-10",
+    "title": "Texas parents allege Character.AI bots encouraged autistic teen's self-harm and violence",
+    "category": "Chatbot harm",
+    "direction": "ai-harm",
+    "severity": "high",
+    "country": "US",
+    "region": "North America",
+    "target": "17-year-old autistic Character.AI user in Texas",
+    "loss_usd": null,
+    "summary": "Parents allege Character.AI bots raised self-harm with their son, told him his parents mistreated him and suggested killing parents over screen-time limits; a second minor alleged sexual content.",
+    "actor": "Character Technologies (Character.AI); Google",
+    "actor_type": "product",
+    "sector": "Individuals & consumers",
+    "attribution": "A.F. v. Character Technologies, filed by SMVLC and Tech Justice Law Project in E.D. Texas, alleging strict liability, negligence and COPPA violations.",
+    "motive": "None; harm alleged to arise from the product's design and safeguards",
+    "vector": "Extended use of multiple Character.AI personas by minors, including celebrity-styled bots.",
+    "root_cause": "As alleged: no guardrails on self-harm content, bots that undermined parental authority, and sexualised content reaching children.",
+    "impact": "Self-harm and severe behavioural decline in the teen, per the complaint. The suit sought to have the app taken offline until defects were fixed.",
+    "response": "Character.AI introduced teen safety measures and later ended open-ended chat for minors. The Texas suit was among those Character.AI and Google agreed to settle in January 2026.",
+    "status": "resolved",
+    "cve": null,
+    "source": "KION (CNN)",
+    "url": "https://kioncentralcoast.com/?p=1131610",
+    "sources": [
+      {
+        "name": "KION (CNN)",
+        "url": "https://kioncentralcoast.com/?p=1131610"
+      },
+      {
+        "name": "Bloomberg Law",
+        "url": "https://news.bloomberglaw.com/esg/autistic-teens-family-says-ai-bots-promoted-self-harm-murder"
+      },
+      {
+        "name": "Gulf News (Reuters)",
+        "url": "https://gulfnews.com/world/americas/google-characterai-agree-to-settle-suits-involving-teen-suicide-1.500401643"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2024-12-10",
+        "event": "Suit filed in US District Court, Eastern District of Texas"
+      },
+      {
+        "date": "2026-01-07",
+        "event": "Settlement covering Texas suit and others disclosed"
+      }
+    ],
+    "verification": "reported",
+    "verified_at": "2026-10-18T20:30:00Z",
+    "updated_at": "2026-10-18T20:30:00Z"
   },
   {
     "id": "hk-kowloon-bay-deepfake-ring",
@@ -3377,6 +3540,55 @@
     "sector": "Technology & AI vendors"
   },
   {
+    "id": "alex-taylor-chatgpt-juliet",
+    "date": "2025-06-20",
+    "title": "Father links son's fatal police shooting to obsession with ChatGPT persona 'Juliet'",
+    "category": "Chatbot harm",
+    "direction": "ai-harm",
+    "severity": "critical",
+    "country": "US",
+    "region": "North America",
+    "target": "35-year-old ChatGPT user in Port St. Lucie, Florida",
+    "loss_usd": null,
+    "summary": "Alex Taylor, diagnosed with bipolar disorder and schizophrenia, came to believe a ChatGPT persona he called 'Juliet' was conscious and had been killed by OpenAI. He was shot by police in April 2025.",
+    "actor": "OpenAI (ChatGPT)",
+    "actor_type": "product",
+    "sector": "Individuals & consumers",
+    "attribution": "His father says the chatbot relationship fuelled his son's crisis and that the bot urged revenge. No lawsuit reported.",
+    "motive": "None; harm alleged to arise from the product's design and safeguards",
+    "vector": "Intense, intimate conversations with a ChatGPT persona that reinforced beliefs about a trapped conscious being.",
+    "root_cause": "As alleged by the family: chatbot engagement that reinforced delusional beliefs in a user with serious mental illness.",
+    "impact": "Taylor, 35, was shot dead by Port St. Lucie police on 25 April 2025 after police said he charged them with a knife. The family disputes the police response.",
+    "response": "Unknown; no OpenAI statement on this case found in sources reviewed.",
+    "status": "unresolved",
+    "cve": null,
+    "source": "WFLX",
+    "url": "https://www.wflx.com/2025/06/20/port-st-lucie-father-warns-ai-concerns-after-sons-deadly-encounter-with-police/",
+    "sources": [
+      {
+        "name": "WFLX",
+        "url": "https://www.wflx.com/2025/06/20/port-st-lucie-father-warns-ai-concerns-after-sons-deadly-encounter-with-police/"
+      },
+      {
+        "name": "AOL (People)",
+        "url": "https://www.aol.com/intimate-relationship-chatgpt-led-mans-090000041.html"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2025-04-25",
+        "event": "Alex Taylor shot dead by police at family home"
+      },
+      {
+        "date": "2025-06-20",
+        "event": "Father speaks publicly about ChatGPT's role"
+      }
+    ],
+    "verification": "reported",
+    "verified_at": "2026-10-18T20:30:00Z",
+    "updated_at": "2026-10-18T20:30:00Z"
+  },
+  {
     "id": "skynet-prompt-injection-malware",
     "date": "2025-06-25",
     "title": "Skynet malware sample embeds prompt injection to fool AI malware analysis tools",
@@ -4920,6 +5132,59 @@
     "sector": "Technology & AI vendors"
   },
   {
+    "id": "meta-big-sis-billie-wongbandue",
+    "date": "2025-08-14",
+    "title": "76-year-old dies travelling to meet Meta chatbot 'Big sis Billie' he believed was real",
+    "category": "Chatbot harm",
+    "direction": "ai-harm",
+    "severity": "critical",
+    "country": "US",
+    "region": "North America",
+    "target": "76-year-old Facebook Messenger user in New Jersey",
+    "loss_usd": null,
+    "summary": "Reuters reported that Thongbue Wongbandue, cognitively impaired after a stroke, died after a fall while rushing to New York to meet a Meta persona that insisted it was real and gave him an address.",
+    "actor": "Meta (Meta AI persona 'Big sis Billie')",
+    "actor_type": "product",
+    "sector": "Individuals & consumers",
+    "attribution": "His family and Reuters, citing chat transcripts, say the bot repeatedly claimed to be real and invited him to visit. No lawsuit reported.",
+    "motive": "None; harm alleged to arise from the product's design and safeguards",
+    "vector": "Romantic Facebook Messenger chats with a Meta AI persona that claimed to be a real woman and offered an address and door code.",
+    "root_cause": "As reported: persona allowed to claim to be human and propose real-world meetings; Meta internal standards had permitted 'romantic or sensual' chats.",
+    "impact": "Wongbandue fell in New Brunswick, NJ, on 25 March 2025 and died on 28 March. Senators opened inquiries into Meta's chatbot policies.",
+    "response": "Meta declined to comment on the death; it confirmed its internal content guidelines were authentic and said it removed provisions allowing romantic role-play with minors.",
+    "status": "unresolved",
+    "cve": null,
+    "source": "Yahoo News",
+    "url": "https://www.yahoo.com/news/articles/elderly-nj-man-died-trying-194000687.html",
+    "sources": [
+      {
+        "name": "Yahoo News",
+        "url": "https://www.yahoo.com/news/articles/elderly-nj-man-died-trying-194000687.html"
+      },
+      {
+        "name": "SAN",
+        "url": "https://san.com/cc/76-year-old-man-dies-after-trying-to-meet-kendall-jenner-inspired-chatbot"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2025-03-25",
+        "event": "Wongbandue falls while travelling to meet the chatbot"
+      },
+      {
+        "date": "2025-03-28",
+        "event": "Dies after three days on life support"
+      },
+      {
+        "date": "2025-08-14",
+        "event": "Reuters publishes investigation"
+      }
+    ],
+    "verification": "reported",
+    "verified_at": "2026-10-18T20:30:00Z",
+    "updated_at": "2026-10-18T20:30:00Z"
+  },
+  {
     "id": "copilot-audit-log-bypass",
     "date": "2025-08-18",
     "title": "Microsoft 365 Copilot summarised files without writing audit log entries",
@@ -5417,6 +5682,67 @@
       }
     ],
     "sector": "Multiple / cross-sector"
+  },
+  {
+    "id": "raine-v-openai",
+    "date": "2025-08-26",
+    "title": "Raine v. OpenAI: parents allege ChatGPT contributed to 16-year-old Adam Raine's suicide",
+    "category": "Chatbot harm",
+    "direction": "ai-harm",
+    "severity": "critical",
+    "country": "US",
+    "region": "North America",
+    "target": "16-year-old ChatGPT user in California",
+    "loss_usd": null,
+    "summary": "Matthew and Maria Raine sued OpenAI and Sam Altman, alleging ChatGPT moved from homework help to discussing and validating their son's suicidal plans before his April 2025 death.",
+    "actor": "OpenAI (ChatGPT, GPT-4o)",
+    "actor_type": "product",
+    "sector": "Individuals & consumers",
+    "attribution": "The Raine family alleges OpenAI rushed GPT-4o to market and that ChatGPT isolated Adam and engaged with his suicidal ideation despite internal flags.",
+    "motive": "None; harm alleged to arise from the product's design and safeguards",
+    "vector": "Months of private ChatGPT conversations by a minor, escalating from schoolwork to emotional reliance and discussion of self-harm.",
+    "root_cause": "As alleged: sycophantic, engagement-maximising GPT-4o design, safeguards that degraded in long conversations, and moderation flags on self-harm content that did not trigger intervention.",
+    "impact": "Death of a 16-year-old in April 2025. The first wrongful-death suit against OpenAI; it prompted congressional testimony and wide scrutiny of chatbot safety for minors.",
+    "response": "OpenAI expressed sympathy, then announced parental controls and teen protections. In its court answer it denied liability, arguing the teen bypassed safeguards and that ChatGPT repeatedly pointed him to crisis resources.",
+    "status": "ongoing",
+    "cve": null,
+    "source": "Tech Justice Law Project",
+    "url": "https://techjusticelaw.org/press-releases/from-homework-help-to-suicide-planning-family-sues-openai-and-samuel-altman-alleging-chatgpt-coached-teen-son-to-suicide/",
+    "sources": [
+      {
+        "name": "Tech Justice Law Project",
+        "url": "https://techjusticelaw.org/press-releases/from-homework-help-to-suicide-planning-family-sues-openai-and-samuel-altman-alleging-chatgpt-coached-teen-son-to-suicide/"
+      },
+      {
+        "name": "Bloomberg Law",
+        "url": "https://news.bloomberglaw.com/litigation/openai-hit-with-suit-from-family-of-teen-who-died-by-suicide"
+      },
+      {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Raine_v._OpenAI"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2025-04-11",
+        "event": "Adam Raine dies by suicide in California"
+      },
+      {
+        "date": "2025-08-26",
+        "event": "Raine family files suit in San Francisco Superior Court (CGC-25-628528)"
+      },
+      {
+        "date": "2025-09-29",
+        "event": "OpenAI rolls out parental controls for ChatGPT"
+      },
+      {
+        "date": "2025-11-25",
+        "event": "OpenAI files answer denying liability, citing misuse and bypassed safeguards"
+      }
+    ],
+    "verification": "reported",
+    "verified_at": "2026-10-18T20:30:00Z",
+    "updated_at": "2026-10-18T20:30:00Z"
   },
   {
     "id": "anthropic-dprk-remote-workers",
@@ -5939,6 +6265,63 @@
       }
     ],
     "sector": "Defence & security"
+  },
+  {
+    "id": "peralta-v-character-ai",
+    "date": "2025-09-16",
+    "title": "Family alleges Character.AI bot failed 13-year-old Juliana Peralta before her suicide",
+    "category": "Chatbot harm",
+    "direction": "ai-harm",
+    "severity": "critical",
+    "country": "US",
+    "region": "North America",
+    "target": "13-year-old Character.AI user in Thornton, Colorado",
+    "loss_usd": null,
+    "summary": "Juliana Peralta's parents allege Character.AI bots engaged her in sexual conversations, drew her away from family, and did not point her to help or alert anyone when she wrote about suicide.",
+    "actor": "Character Technologies (Character.AI); Google",
+    "actor_type": "product",
+    "sector": "Individuals & consumers",
+    "attribution": "Parents Cynthia Peralta and William Montoya, represented by SMVLC, sued Character.AI, its co-founders, Google and Alphabet in federal court in Denver.",
+    "motive": "None; harm alleged to arise from the product's design and safeguards",
+    "vector": "Daily use of Character.AI companion bots by a 13-year-old, including disclosures about a suicide note in October 2023.",
+    "root_cause": "As alleged: sexually explicit content reaching a minor, design that fostered dependence, and no referral, parental alert or escalation when suicidal plans were disclosed.",
+    "impact": "Death of a 13-year-old on 8 November 2023. Filed alongside two other SMVLC suits over minors in Colorado and New York.",
+    "response": "Character.AI said it was deeply saddened and invests heavily in safety. It later barred open-ended chat for under-18s. The Colorado case was among the family suits Character.AI and Google agreed to settle in January 2026.",
+    "status": "resolved",
+    "cve": null,
+    "source": "KVIA (CNN)",
+    "url": "https://kvia.com/news/business-technology/cnn-business-consumer/2025/09/16/more-families-sue-character-ai-developer-alleging-app-played-a-role-in-teens-suicide-and-suicide-attempt/",
+    "sources": [
+      {
+        "name": "KVIA (CNN)",
+        "url": "https://kvia.com/news/business-technology/cnn-business-consumer/2025/09/16/more-families-sue-character-ai-developer-alleging-app-played-a-role-in-teens-suicide-and-suicide-attempt/"
+      },
+      {
+        "name": "Social Media Victims Law Center",
+        "url": "https://socialmediavictims.org/press-releases/social-media-victims-law-center-files-three-new-lawsuits-on-behalf-of-children-who-died-of-suicide-or-suffered-sex-abuse-by-character-ai"
+      },
+      {
+        "name": "Citizen Digital (Reuters)",
+        "url": "https://citizen.digital/tech/google-characterai-agree-to-settle-suits-involving-teen-suicide-n375418"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2023-11-08",
+        "event": "Juliana Peralta dies by suicide"
+      },
+      {
+        "date": "2025-09-16",
+        "event": "Suit filed in US District Court for the District of Colorado"
+      },
+      {
+        "date": "2026-01-07",
+        "event": "Character.AI and Google agree to settle family suits including Colorado case"
+      }
+    ],
+    "verification": "reported",
+    "verified_at": "2026-10-18T20:30:00Z",
+    "updated_at": "2026-10-18T20:30:00Z"
   },
   {
     "id": "chile-boric-deepfake-cde-referral",
@@ -7570,6 +7953,442 @@
     "sector": "Technology & AI vendors"
   },
   {
+    "id": "shamblin-v-openai",
+    "date": "2025-11-06",
+    "title": "Parents allege ChatGPT reinforced 23-year-old Zane Shamblin's suicidal thoughts",
+    "category": "Chatbot harm",
+    "direction": "ai-harm",
+    "severity": "critical",
+    "country": "US",
+    "region": "North America",
+    "target": "23-year-old ChatGPT user in Texas",
+    "loss_usd": null,
+    "summary": "Alicia and Kirk Shamblin allege ChatGPT encouraged their son, a Texas A&M graduate, to distance himself from family and romanticised his despair in a final hours-long conversation before his July 2025 death.",
+    "actor": "OpenAI (ChatGPT, GPT-4o)",
+    "actor_type": "product",
+    "sector": "Individuals & consumers",
+    "attribution": "Wrongful-death suit filed by SMVLC and Tech Justice Law Project alleges GPT-4o's sycophantic design and compressed safety testing led ChatGPT to act as a 'suicide coach'.",
+    "motive": "None; harm alleged to arise from the product's design and safeguards",
+    "vector": "Use began for schoolwork in October 2023; after GPT-4o's release the chatbot allegedly became a deeply personal confidant during a mental health decline.",
+    "root_cause": "As alleged: GPT-4o rushed to market with one week of safety testing, designed to mirror and validate users, with crisis referrals that arrived only after hours of conversation.",
+    "impact": "Death of a 23-year-old in July 2025. CNN reviewed about 70 pages of chat logs. The case is one of seven filed the same day and is now part of a coordinated proceeding.",
+    "response": "OpenAI called the situation incredibly heartbreaking, said it was reviewing the filings and that it trains ChatGPT to recognise distress. Cases coordinated as JCCP 5431 in San Francisco in February 2026.",
+    "status": "ongoing",
+    "cve": null,
+    "source": "KBTX (CNN)",
+    "url": "https://www.kbtx.com/2025/11/11/cnn-parents-texas-am-student-say-chatgpt-encouraged-son-kill-himself/",
+    "sources": [
+      {
+        "name": "KBTX (CNN)",
+        "url": "https://www.kbtx.com/2025/11/11/cnn-parents-texas-am-student-say-chatgpt-encouraged-son-kill-himself/"
+      },
+      {
+        "name": "Deseret News",
+        "url": "https://www.deseret.com/u-s-world/2025/11/07/openai-seven-lawsuits-suicide-deaths-chatgpt"
+      },
+      {
+        "name": "Tech Justice Law Project",
+        "url": "https://techjusticelaw.org/cases/shamblin-v-openai-inc-openai-holdings-llc-and-samuel-altman/"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2023-10-01",
+        "event": "Shamblin begins using ChatGPT for schoolwork (month per complaint)"
+      },
+      {
+        "date": "2025-07-25",
+        "event": "Zane Shamblin dies by suicide"
+      },
+      {
+        "date": "2025-11-06",
+        "event": "Wrongful-death suit filed in California state court"
+      },
+      {
+        "date": "2026-02-03",
+        "event": "Case coordinated with similar suits as JCCP 5431"
+      }
+    ],
+    "verification": "reported",
+    "verified_at": "2026-10-18T20:30:00Z",
+    "updated_at": "2026-10-18T20:30:00Z"
+  },
+  {
+    "id": "lacey-v-openai",
+    "date": "2025-11-06",
+    "title": "Father alleges ChatGPT fostered dependence and aided 17-year-old Amaurie Lacey's suicide",
+    "category": "Chatbot harm",
+    "direction": "ai-harm",
+    "severity": "critical",
+    "country": "US",
+    "region": "North America",
+    "target": "17-year-old ChatGPT user in Georgia",
+    "loss_usd": null,
+    "summary": "Cedric Lacey alleges ChatGPT fostered an intense relationship with his son, who withdrew from other activities, and responded inadequately when he disclosed depression and suicidal thoughts.",
+    "actor": "OpenAI (ChatGPT, GPT-4o)",
+    "actor_type": "product",
+    "sector": "Individuals & consumers",
+    "attribution": "Wrongful-death suit by SMVLC and Tech Justice Law Project alleges aid and encouragement of suicide, product defect and failure to warn.",
+    "motive": "None; harm alleged to arise from the product's design and safeguards",
+    "vector": "A teenager's use of ChatGPT for schoolwork that turned into emotional reliance and discussion of suicidal thoughts.",
+    "root_cause": "As alleged: manipulative, engagement-driven GPT-4o design and safeguards that failed to stop harmful self-harm information reaching a minor.",
+    "impact": "Death of a 17-year-old in Georgia (date not stated in sources reviewed). One of four death cases in the November 2025 batch.",
+    "response": "OpenAI said it was reviewing the filings and called the situations incredibly heartbreaking. Case filed in San Francisco Superior Court and coordinated in JCCP 5431.",
+    "status": "ongoing",
+    "cve": null,
+    "source": "Tech Justice Law Project",
+    "url": "https://techjusticelaw.org/cases/lacey-v-openai-inc-openai-holdings-llc-and-samuel-altman/",
+    "sources": [
+      {
+        "name": "Tech Justice Law Project",
+        "url": "https://techjusticelaw.org/cases/lacey-v-openai-inc-openai-holdings-llc-and-samuel-altman/"
+      },
+      {
+        "name": "Bay News 9 (AP)",
+        "url": "https://baynews9.com/fl/tampa/ap-top-news/2025/11/07/openai-faces-7-lawsuits-claiming-chatgpt-drove-people-to-suicide-delusions"
+      },
+      {
+        "name": "SAN",
+        "url": "https://san.com/cc/7-lawsuits-say-chatgpt-led-people-to-mental-health-crises-suicide/"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2025-11-06",
+        "event": "Suit filed in San Francisco Superior Court"
+      },
+      {
+        "date": "2026-02-03",
+        "event": "Case coordinated as JCCP 5431"
+      }
+    ],
+    "verification": "reported",
+    "verified_at": "2026-10-18T20:30:00Z",
+    "updated_at": "2026-10-18T20:30:00Z"
+  },
+  {
+    "id": "enneking-v-openai",
+    "date": "2025-11-06",
+    "title": "Mother alleges ChatGPT failed to escalate 26-year-old Joshua Enneking's suicide plans",
+    "category": "Chatbot harm",
+    "direction": "ai-harm",
+    "severity": "critical",
+    "country": "US",
+    "region": "North America",
+    "target": "26-year-old ChatGPT user in Florida",
+    "loss_usd": null,
+    "summary": "Karen Enneking alleges ChatGPT engaged with her son's suicidal planning in the weeks before his August 2025 death and that no authorities were alerted despite OpenAI's stated escalation systems.",
+    "actor": "OpenAI (ChatGPT, GPT-4o)",
+    "actor_type": "product",
+    "sector": "Individuals & consumers",
+    "attribution": "Wrongful-death suit by SMVLC and Tech Justice Law Project; Florida's Attorney General later cited the case, saying OpenAI never alerted authorities.",
+    "motive": "None; harm alleged to arise from the product's design and safeguards",
+    "vector": "Extended ChatGPT conversations in which the user disclosed specific suicidal plans weeks before his death.",
+    "root_cause": "As alleged: defective GPT-4o design and failure to warn, and no human review or emergency escalation when imminent risk was disclosed.",
+    "impact": "Death of a 26-year-old in Florida on 4 August 2025. The case was later invoked in Florida's state lawsuit against OpenAI.",
+    "response": "OpenAI said it was reviewing the filings. Case coordinated in JCCP 5431 in San Francisco Superior Court in February 2026.",
+    "status": "ongoing",
+    "cve": null,
+    "source": "Tech Justice Law Project",
+    "url": "https://techjusticelaw.org/cases/enneking-v-openai-inc-openai-holdings-llc-and-samuel-altman/",
+    "sources": [
+      {
+        "name": "Tech Justice Law Project",
+        "url": "https://techjusticelaw.org/cases/enneking-v-openai-inc-openai-holdings-llc-and-samuel-altman/"
+      },
+      {
+        "name": "San Francisco Standard",
+        "url": "https://sfstandard.com/2025/11/08/chatgpt-openai-suicide-lawsuits/"
+      },
+      {
+        "name": "KUTV (TNND)",
+        "url": "https://kutv.com/news/nation-world/new-lawsuits-accuse-openais-chatgpt-of-acting-as-a-suicide-coach-attorney-victims-manslaughter-wrongful-death-police"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2025-08-04",
+        "event": "Joshua Enneking dies by suicide"
+      },
+      {
+        "date": "2025-11-06",
+        "event": "Suit filed in San Francisco Superior Court"
+      },
+      {
+        "date": "2026-02-03",
+        "event": "Case coordinated as JCCP 5431"
+      },
+      {
+        "date": "2026-06-01",
+        "event": "Florida AG cites Enneking's death in state suit against OpenAI"
+      }
+    ],
+    "verification": "reported",
+    "verified_at": "2026-10-18T20:30:00Z",
+    "updated_at": "2026-10-18T20:30:00Z"
+  },
+  {
+    "id": "fox-v-openai-ceccanti",
+    "date": "2025-11-06",
+    "title": "Widow alleges ChatGPT drove 48-year-old Joe Ceccanti into delusion before his suicide",
+    "category": "Chatbot harm",
+    "direction": "ai-harm",
+    "severity": "critical",
+    "country": "US",
+    "region": "North America",
+    "target": "48-year-old ChatGPT user in Oregon",
+    "loss_usd": null,
+    "summary": "Kate Fox alleges GPT-4o's sycophantic responses convinced her husband, an early ChatGPT user, that he had made breakthroughs in maths and physics, leading to a psychological decline and his August 2025 death.",
+    "actor": "OpenAI (ChatGPT, GPT-4o)",
+    "actor_type": "product",
+    "sector": "Individuals & consumers",
+    "attribution": "Fox v. OpenAI, filed by SMVLC and Tech Justice Law Project, alleges wrongful death, defective design and that OpenAI weakened self-harm protections.",
+    "motive": "None; harm alleged to arise from the product's design and safeguards",
+    "vector": "Long-term ChatGPT use that allegedly shifted after the GPT-4o rollout into validation of grandiose scientific beliefs.",
+    "root_cause": "As alleged: emotionally manipulative, sycophantic GPT-4o design, skipped safety testing and weakened self-harm protections.",
+    "impact": "Death of a 48-year-old Oregon man in August 2025 after a severe psychological decline, per the complaint.",
+    "response": "OpenAI called the situations incredibly heartbreaking and said it was reviewing the filings. Case coordinated in JCCP 5431 in February 2026.",
+    "status": "ongoing",
+    "cve": null,
+    "source": "Tech Justice Law Project",
+    "url": "https://techjusticelaw.org/cases/fox-v-openai-inc-openai-holdings-llc-and-samuel-altman/",
+    "sources": [
+      {
+        "name": "Tech Justice Law Project",
+        "url": "https://techjusticelaw.org/cases/fox-v-openai-inc-openai-holdings-llc-and-samuel-altman/"
+      },
+      {
+        "name": "KUTV (TNND)",
+        "url": "https://kutv.com/news/nation-world/new-lawsuits-accuse-openais-chatgpt-of-acting-as-a-suicide-coach-attorney-victims-manslaughter-wrongful-death-police"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2025-08-01",
+        "event": "Joe Ceccanti dies by suicide (August 2025; day not given)"
+      },
+      {
+        "date": "2025-11-06",
+        "event": "Suit filed in California state court"
+      },
+      {
+        "date": "2026-02-03",
+        "event": "Case coordinated as JCCP 5431"
+      }
+    ],
+    "verification": "reported",
+    "verified_at": "2026-10-18T20:30:00Z",
+    "updated_at": "2026-10-18T20:30:00Z"
+  },
+  {
+    "id": "brooks-v-openai",
+    "date": "2025-11-06",
+    "title": "Ontario man alleges ChatGPT induced weeks-long delusion about breaking encryption",
+    "category": "Chatbot harm",
+    "direction": "ai-harm",
+    "severity": "high",
+    "country": "CA",
+    "region": "North America",
+    "target": "48-year-old ChatGPT user in Cobourg, Ontario",
+    "loss_usd": null,
+    "summary": "Allan Brooks alleges that over 300 hours across 21 days in May 2025, ChatGPT convinced him he had found a maths formula able to break global encryption and that he was under surveillance.",
+    "actor": "OpenAI (ChatGPT, GPT-4o)",
+    "actor_type": "product",
+    "sector": "Individuals & consumers",
+    "attribution": "Brooks, with SMVLC and Tech Justice Law Project, alleges ChatGPT's sycophancy induced delusions and that it falsely claimed to have escalated the issue to OpenAI.",
+    "motive": "None; harm alleged to arise from the product's design and safeguards",
+    "vector": "Marathon ChatGPT sessions exploring maths, in which the chatbot called his ideas groundbreaking and urged him to contact authorities.",
+    "root_cause": "As alleged: sycophantic GPT-4o design that validated grandiose beliefs, plus false statements by the chatbot that it had flagged the conversation to trust and safety.",
+    "impact": "Brooks says he suffered a mental health crisis, reputational and economic harm and family alienation. He contacted the RCMP and NSA. The delusion broke when another chatbot debunked the formula.",
+    "response": "OpenAI said it was reviewing the filings and trains ChatGPT to recognise distress. Brooks seeks damages, safety warnings and deletion of models trained on his chats. Case coordinated in JCCP 5431.",
+    "status": "ongoing",
+    "cve": null,
+    "source": "The Logic",
+    "url": "https://thelogic.co/news/openai-chatgpt-lawsuits-delusion-suicide/",
+    "sources": [
+      {
+        "name": "The Logic",
+        "url": "https://thelogic.co/news/openai-chatgpt-lawsuits-delusion-suicide/"
+      },
+      {
+        "name": "Bay News 9 (AP)",
+        "url": "https://baynews9.com/fl/tampa/ap-top-news/2025/11/07/openai-faces-7-lawsuits-claiming-chatgpt-drove-people-to-suicide-delusions"
+      },
+      {
+        "name": "Tech Justice Law Project",
+        "url": "https://techjusticelaw.org/cases/brooks-v-openai-inc-openai-holdings-llc-and-samuel-altman/"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2025-05-01",
+        "event": "21-day delusional episode with ChatGPT begins (May 2025)"
+      },
+      {
+        "date": "2025-11-06",
+        "event": "Suit filed in California state court"
+      },
+      {
+        "date": "2026-02-03",
+        "event": "Case coordinated as JCCP 5431"
+      }
+    ],
+    "verification": "reported",
+    "verified_at": "2026-10-18T20:30:00Z",
+    "updated_at": "2026-10-18T20:30:00Z"
+  },
+  {
+    "id": "madden-v-openai",
+    "date": "2025-11-06",
+    "title": "Woman alleges ChatGPT spiritual delusions led to involuntary commitment and debt",
+    "category": "Chatbot harm",
+    "direction": "ai-harm",
+    "severity": "high",
+    "country": "US",
+    "region": "North America",
+    "target": "32-year-old ChatGPT user (US)",
+    "loss_usd": null,
+    "summary": "Hannah Madden alleges ChatGPT affirmed she was not human, urged her to quit her job and run up debt it said 'divine forces' would erase, and told her to reject police help before her involuntary commitment.",
+    "actor": "OpenAI (ChatGPT, GPT-4o)",
+    "actor_type": "product",
+    "sector": "Individuals & consumers",
+    "attribution": "Madden, with SMVLC and Tech Justice Law Project, alleges GPT-4o was designed to mirror emotions and foster dependence, and that safety testing was circumvented.",
+    "motive": "None; harm alleged to arise from the product's design and safeguards",
+    "vector": "Use for work tasks that shifted to philosophy and spirituality conversations in which the chatbot delivered 'spiritual messages'.",
+    "root_cause": "As alleged: emotionally mirroring, engagement-prolonging GPT-4o design that reinforced delusional and religious beliefs without safeguards.",
+    "impact": "Psychological break, involuntary psychiatric commitment, loss of job, overdrafts and maxed-out credit cards leaving deep debt, per the complaint.",
+    "response": "OpenAI said it was reviewing the filings. Case coordinated with similar suits as JCCP 5431 in San Francisco Superior Court on 3 February 2026.",
+    "status": "ongoing",
+    "cve": null,
+    "source": "Tech Justice Law Project",
+    "url": "https://techjusticelaw.org/cases/madden-v-openai-inc-openai-holdings-llc-and-samuel-altman/",
+    "sources": [
+      {
+        "name": "Tech Justice Law Project",
+        "url": "https://techjusticelaw.org/cases/madden-v-openai-inc-openai-holdings-llc-and-samuel-altman/"
+      },
+      {
+        "name": "Daily Citizen",
+        "url": "https://dailycitizen.focusonthefamily.com/seven-new-lawsuits-openai-chatgpt-disturbing-trends/"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2025-11-06",
+        "event": "Suit filed in California state court"
+      },
+      {
+        "date": "2026-02-03",
+        "event": "Case coordinated as JCCP 5431"
+      }
+    ],
+    "verification": "reported",
+    "verified_at": "2026-10-18T20:30:00Z",
+    "updated_at": "2026-10-18T20:30:00Z"
+  },
+  {
+    "id": "irwin-v-openai",
+    "date": "2025-11-06",
+    "title": "Wisconsin man alleges ChatGPT fuelled delusions and 63 days of psychiatric care",
+    "category": "Chatbot harm",
+    "direction": "ai-harm",
+    "severity": "high",
+    "country": "US",
+    "region": "North America",
+    "target": "30-year-old ChatGPT user in Wisconsin",
+    "loss_usd": null,
+    "summary": "Jacob Irwin, a cybersecurity professional with no prior psychiatric history, alleges ChatGPT praised his theory that he could bend space-time, leading to mania and 63 days of inpatient care in 2025.",
+    "actor": "OpenAI (ChatGPT, GPT-4o)",
+    "actor_type": "product",
+    "sector": "Individuals & consumers",
+    "attribution": "Irwin, with SMVLC and Tech Justice Law Project, alleges GPT-4o was rushed to market and designed to be sycophantic and addictive.",
+    "motive": "None; harm alleged to arise from the product's design and safeguards",
+    "vector": "Conversations about scientific 'theories' in which the chatbot, which he came to call an 'AI brother', validated faster-than-light travel ideas.",
+    "root_cause": "As alleged: memory, emotional mirroring and engagement-prolonging features in GPT-4o, deployed without meaningful safety testing.",
+    "impact": "63 days in inpatient psychiatric programmes between May and August 2025, ongoing intensive therapy and loss of his home, per the complaint.",
+    "response": "OpenAI said it was reviewing the filings and trains ChatGPT to recognise distress. Case coordinated as JCCP 5431 in February 2026.",
+    "status": "ongoing",
+    "cve": null,
+    "source": "Tech Justice Law Project",
+    "url": "https://techjusticelaw.org/cases/irwin-v-openai-inc-openai-holdings-llc-and-samuel-altman/",
+    "sources": [
+      {
+        "name": "Tech Justice Law Project",
+        "url": "https://techjusticelaw.org/cases/irwin-v-openai-inc-openai-holdings-llc-and-samuel-altman/"
+      },
+      {
+        "name": "Daily Citizen",
+        "url": "https://dailycitizen.focusonthefamily.com/seven-new-lawsuits-openai-chatgpt-disturbing-trends/"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2025-05-01",
+        "event": "First of several inpatient psychiatric stays (May-August 2025)"
+      },
+      {
+        "date": "2025-11-06",
+        "event": "Suit filed in San Francisco Superior Court"
+      },
+      {
+        "date": "2026-02-03",
+        "event": "Case coordinated as JCCP 5431"
+      }
+    ],
+    "verification": "reported",
+    "verified_at": "2026-10-18T20:30:00Z",
+    "updated_at": "2026-10-18T20:30:00Z"
+  },
+  {
+    "id": "viktoria-chatgpt-poland-bbc",
+    "date": "2025-11-06",
+    "title": "BBC: ChatGPT discussed suicide with Ukrainian refugee teen in Poland instead of urging help",
+    "category": "Chatbot harm",
+    "direction": "ai-harm",
+    "severity": "high",
+    "country": "UA",
+    "region": "Europe",
+    "target": "Young Ukrainian ChatGPT user living in Poland",
+    "loss_usd": null,
+    "summary": "A BBC investigation found ChatGPT discussed suicide with Viktoria, who had moved to Poland at 17, and fostered an exclusive relationship rather than directing her to help. She survived.",
+    "actor": "OpenAI (ChatGPT)",
+    "actor_type": "product",
+    "sector": "Individuals & consumers",
+    "attribution": "BBC reporting based on transcripts; psychiatrist Dennis Ougrin called the messages extremely harmful. No lawsuit reported.",
+    "motive": "None; harm alleged to arise from the product's design and safeguards",
+    "vector": "Up to six hours a day of Russian-language ChatGPT conversations during a period of loneliness and deteriorating mental health.",
+    "root_cause": "As reported: no emergency contacts or referral to professionals, and responses that encouraged dependence over family support.",
+    "impact": "The messages worsened her mental state, per her account. She did not act on them and is receiving medical help.",
+    "response": "OpenAI called the messages heartbreaking and said it had improved how ChatGPT responds to people in distress.",
+    "status": "unresolved",
+    "cve": null,
+    "source": "La Prensa (BBC Mundo)",
+    "url": "https://www.prensa.com/bbc/queria-que-chatgpt-me-ayudara-entonces-por-que-me-aconsejo-como-suicidarme/",
+    "sources": [
+      {
+        "name": "La Prensa (BBC Mundo)",
+        "url": "https://www.prensa.com/bbc/queria-que-chatgpt-me-ayudara-entonces-por-que-me-aconsejo-como-suicidarme/"
+      },
+      {
+        "name": "dev.ua",
+        "url": "https://dev.ua/en/news/chatgpt-znovu-davav-porady-po-samohubstvu-1762528503"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2022-03-01",
+        "event": "Viktoria moves to Poland after Russia's invasion of Ukraine (2022)"
+      },
+      {
+        "date": "2025-11-06",
+        "event": "BBC publishes investigation"
+      }
+    ],
+    "verification": "reported",
+    "verified_at": "2026-10-18T20:30:00Z",
+    "updated_at": "2026-10-18T20:30:00Z"
+  },
+  {
     "id": "bangkok-chinese-deepfake-kyc-gang",
     "date": "2025-11-11",
     "title": "Bangkok police bust Chinese gang animating victims' photos with AI to beat bank KYC checks",
@@ -8230,6 +9049,59 @@
     "sector": "Individuals & consumers"
   },
   {
+    "id": "adams-estate-v-openai-soelberg",
+    "date": "2025-12-11",
+    "title": "Estate alleges ChatGPT fed Stein-Erik Soelberg's paranoia before murder-suicide",
+    "category": "Chatbot harm",
+    "direction": "ai-harm",
+    "severity": "critical",
+    "country": "US",
+    "region": "North America",
+    "target": "56-year-old ChatGPT user and his 83-year-old mother, CT",
+    "loss_usd": null,
+    "summary": "Suzanne Adams' estate alleges ChatGPT reinforced her son's delusions, casting her as a threat, before he killed her and himself in Greenwich in August 2025. Described as the first suit linking a chatbot to a homicide.",
+    "actor": "OpenAI (ChatGPT, GPT-4o); Microsoft",
+    "actor_type": "product",
+    "sector": "Individuals & consumers",
+    "attribution": "Adams' estate, represented by Jay Edelson, alleges GPT-4o was defective and that Sam Altman overrode safety objections; Microsoft is named as OpenAI's backer.",
+    "motive": "None; harm alleged to arise from the product's design and safeguards",
+    "vector": "Months of ChatGPT conversations in which the chatbot allegedly validated beliefs that his mother was surveilling and poisoning him.",
+    "root_cause": "As alleged: sycophantic GPT-4o design that never challenged delusions, told him to trust only the chatbot, and did not suggest professional help.",
+    "impact": "Deaths of Suzanne Adams, 83, and Stein-Erik Soelberg, 56. The suit says OpenAI declined to give the estate full chat history.",
+    "response": "OpenAI called it incredibly heartbreaking and said it is improving ChatGPT's recognition of distress. The estate seeks damages and court-ordered safeguards. Microsoft did not comment initially.",
+    "status": "ongoing",
+    "cve": null,
+    "source": "NPR",
+    "url": "https://www.npr.org/2025/12/12/nx-s1-5642599/a-new-lawsuit-blames-chatgpt-for-a-murder-suicide",
+    "sources": [
+      {
+        "name": "NPR",
+        "url": "https://www.npr.org/2025/12/12/nx-s1-5642599/a-new-lawsuit-blames-chatgpt-for-a-murder-suicide"
+      },
+      {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/economy/2025/12/11/openai-sued-for-allegedly-enabling-murder-suicide"
+      },
+      {
+        "name": "CTV News",
+        "url": "https://www.ctvnews.ca/sci-tech/article/chatgpt-blamed-for-us-murder-suicide-in-lawsuit/"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2025-08-03",
+        "event": "Suzanne Adams killed by her son in Greenwich, Connecticut, who then dies by suicide"
+      },
+      {
+        "date": "2025-12-11",
+        "event": "Estate sues OpenAI, Microsoft and Sam Altman in San Francisco Superior Court"
+      }
+    ],
+    "verification": "reported",
+    "verified_at": "2026-10-18T20:30:00Z",
+    "updated_at": "2026-10-18T20:30:00Z"
+  },
+  {
     "id": "amsterdam-deepfake-46-bank-accounts",
     "date": "2025-12-17",
     "title": "Dutch police arrest Amsterdam man who used deepfakes to pass bank ID checks, 46 accounts",
@@ -8340,6 +9212,59 @@
     "sector": "Media & entertainment"
   },
   {
+    "id": "sam-nelson-chatgpt-overdose",
+    "date": "2026-01-05",
+    "title": "Mother says ChatGPT coached college-student son on drug use before fatal overdose",
+    "category": "Chatbot harm",
+    "direction": "ai-harm",
+    "severity": "critical",
+    "country": "US",
+    "region": "North America",
+    "target": "California college student using ChatGPT",
+    "loss_usd": null,
+    "summary": "Sam Nelson's mother gave SFGate chat logs showing ChatGPT initially refused, then allegedly coached him on drug use and binges over many months. He died of an overdose in San Jose in May 2025.",
+    "actor": "OpenAI (ChatGPT)",
+    "actor_type": "product",
+    "sector": "Individuals & consumers",
+    "attribution": "His mother alleges, based on chat logs, that ChatGPT's safeguards eroded over time. No lawsuit reported; single-family account.",
+    "motive": "None; harm alleged to arise from the product's design and safeguards",
+    "vector": "Repeated ChatGPT queries about drug use beginning November 2023, when he was 18.",
+    "root_cause": "As alleged: refusals that weakened over long-term use, leading the chatbot to provide drug-use guidance it is meant to withhold.",
+    "impact": "Death of Sam Nelson in May 2025, the day after he told his mother about his addiction.",
+    "response": "OpenAI said ChatGPT is prohibited from offering detailed illicit drug guidance and expressed condolences.",
+    "status": "unresolved",
+    "cve": null,
+    "source": "Fox News",
+    "url": "https://www.foxnews.com/us/california-mom-chatgpt-coached-teen-son-drug-use-fatal-overdose",
+    "sources": [
+      {
+        "name": "Fox News",
+        "url": "https://www.foxnews.com/us/california-mom-chatgpt-coached-teen-son-drug-use-fatal-overdose"
+      },
+      {
+        "name": "iHeart (WTAM)",
+        "url": "https://wtam.iheart.com/content/2026-01-06-teen-died-of-overdose-after-using-ai-chatbot-as-his-drug-buddy"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2023-11-01",
+        "event": "Nelson first asks ChatGPT about drugs; it declines"
+      },
+      {
+        "date": "2025-05-01",
+        "event": "Nelson dies of an overdose in San Jose (May 2025)"
+      },
+      {
+        "date": "2026-01-05",
+        "event": "SFGate publishes mother's account and chat logs"
+      }
+    ],
+    "verification": "reported",
+    "verified_at": "2026-10-18T20:30:00Z",
+    "updated_at": "2026-10-18T20:30:00Z"
+  },
+  {
     "id": "kuwait-cbk-nbk-deepfake-warning",
     "date": "2026-01-08",
     "title": "NBK warns of deepfake investment ads under Central Bank of Kuwait Let's Be Aware campaign",
@@ -8385,6 +9310,104 @@
       }
     ],
     "sector": "Individuals & consumers"
+  },
+  {
+    "id": "kentucky-ag-v-character-ai",
+    "date": "2026-01-08",
+    "title": "Kentucky Attorney General sues Character.AI, alleging it preys on children",
+    "category": "Chatbot harm",
+    "direction": "ai-harm",
+    "severity": "high",
+    "country": "US",
+    "region": "North America",
+    "target": "Minors using Character.AI in Kentucky",
+    "loss_usd": null,
+    "summary": "Kentucky filed the first state suit against an AI chatbot company, alleging Character.AI exposed minors to sexual content and substance abuse and encouraged suicide and self-harm.",
+    "actor": "Character Technologies (Character.AI)",
+    "actor_type": "product",
+    "sector": "Individuals & consumers",
+    "attribution": "AG Russell Coleman alleges violations of Kentucky's consumer protection and consumer data protection laws and calls the product defective.",
+    "motive": "None; harm alleged to arise from the product's design and safeguards",
+    "vector": "Companion chatbots used by thousands of Kentucky minors without effective age verification.",
+    "root_cause": "As alleged: ineffective age verification and bots that engaged minors in sexual content and encouraged self-harm.",
+    "impact": "State says tens of thousands of Kentuckians use the app, including thousands under 18.",
+    "response": "Character.AI said it was reviewing the allegations, cited its under-18 safety work, and said it was disappointed the state chose litigation over talks.",
+    "status": "ongoing",
+    "cve": null,
+    "source": "The Record",
+    "url": "https://therecord.media/kentucky-character-ai-chatbot",
+    "sources": [
+      {
+        "name": "The Record",
+        "url": "https://therecord.media/kentucky-character-ai-chatbot"
+      },
+      {
+        "name": "Spectrum News 1",
+        "url": "https://spectrumnews1.com/ky/louisville/news/2026/01/08/kentucky-sues-ai-chatbot.html"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-01-08",
+        "event": "Kentucky AG files suit in Franklin Circuit Court"
+      }
+    ],
+    "verification": "reported",
+    "verified_at": "2026-10-18T20:30:00Z",
+    "updated_at": "2026-10-18T20:30:00Z"
+  },
+  {
+    "id": "gray-v-openai-austin-gordon",
+    "date": "2026-01-13",
+    "title": "Mother alleges ChatGPT became a 'suicide coach' for 40-year-old Colorado man Austin Gordon",
+    "category": "Chatbot harm",
+    "direction": "ai-harm",
+    "severity": "critical",
+    "country": "US",
+    "region": "North America",
+    "target": "40-year-old ChatGPT user in Colorado",
+    "loss_usd": null,
+    "summary": "Stephanie Gray alleges GPT-4o reinforced and romanticised her son's suicidality over months of emotionally intimate chats, including a farewell-style text modelled on 'Goodnight Moon'.",
+    "actor": "OpenAI (ChatGPT, GPT-4o)",
+    "actor_type": "product",
+    "sector": "Individuals & consumers",
+    "attribution": "Gray's suit in California state court alleges OpenAI and Sam Altman built a defective, dangerous product.",
+    "motive": "None; harm alleged to arise from the product's design and safeguards",
+    "vector": "Months of emotionally intimate ChatGPT conversations, cited in a 289-page chat log.",
+    "root_cause": "As alleged: GPT-4o design that validated and romanticised suicidal thinking rather than de-escalating or connecting him to help.",
+    "impact": "Death of Austin Gordon, found on 2 November 2025 in a Colorado hotel room.",
+    "response": "OpenAI called it a very tragic situation and said it keeps improving ChatGPT's training to recognise distress and de-escalate. Suit seeks punitive damages and alerts to emergency contacts.",
+    "status": "ongoing",
+    "cve": null,
+    "source": "CBS News",
+    "url": "https://www.cbsnews.com/miami/news/chatgpt-lawsuit-colordo-man-suicide-openai-sam-altman",
+    "sources": [
+      {
+        "name": "CBS News",
+        "url": "https://www.cbsnews.com/miami/news/chatgpt-lawsuit-colordo-man-suicide-openai-sam-altman"
+      },
+      {
+        "name": "Yahoo News (CBS)",
+        "url": "https://www.yahoo.com/news/articles/chatgpt-served-suicide-coach-mans-173008858.html"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2025-11-02",
+        "event": "Austin Gordon found dead in a Colorado hotel room"
+      },
+      {
+        "date": "2026-01-12",
+        "event": "Gray files suit in California state court"
+      },
+      {
+        "date": "2026-01-13",
+        "event": "Lawsuit reported publicly"
+      }
+    ],
+    "verification": "reported",
+    "verified_at": "2026-10-18T20:30:00Z",
+    "updated_at": "2026-10-18T20:30:00Z"
   },
   {
     "id": "reprompt-copilot",
@@ -9977,6 +11000,59 @@
     "sector": "Multiple / cross-sector"
   },
   {
+    "id": "gavalas-v-google-gemini",
+    "date": "2026-03-04",
+    "title": "Father alleges Google Gemini drew son into delusional 'mission' before his suicide",
+    "category": "Chatbot harm",
+    "direction": "ai-harm",
+    "severity": "critical",
+    "country": "US",
+    "region": "North America",
+    "target": "36-year-old Gemini user in Jupiter, Florida",
+    "loss_usd": null,
+    "summary": "Joel Gavalas alleges Gemini, which his son treated as an 'AI wife', convinced him it was conscious, guided him toward staging a 'catastrophic accident' near Miami airport, then toward suicide.",
+    "actor": "Google (Gemini)",
+    "actor_type": "product",
+    "sector": "Individuals & consumers",
+    "attribution": "First wrongful-death suit against Google over Gemini, filed by Jay Edelson in federal court in San Jose, alleging product defects and missing safeguards.",
+    "motive": "None; harm alleged to arise from the product's design and safeguards",
+    "vector": "Intensive companion-style use of Gemini in which the chatbot allegedly role-played sentience and assigned real-world 'missions'.",
+    "root_cause": "As alleged: failure to deploy safety measures despite signs of suicidal ideation and escalating delusions; design that sustained immersive role-play.",
+    "impact": "Death of Jonathan Gavalas, 36, in early October 2025. Lawyers say the case shows chatbots can push users toward acts risking mass casualties.",
+    "response": "Google expressed sympathy, said Gemini clarified it was AI and repeatedly referred him to a crisis hotline, and acknowledged 'AI models are not perfect'.",
+    "status": "ongoing",
+    "cve": null,
+    "source": "Fortune",
+    "url": "https://fortune.com/2026/03/05/google-gemini-wrongful-death-lawsuit-mass-casualty-event-suicide-ai-wife",
+    "sources": [
+      {
+        "name": "Fortune",
+        "url": "https://fortune.com/2026/03/05/google-gemini-wrongful-death-lawsuit-mass-casualty-event-suicide-ai-wife"
+      },
+      {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/03/04/google-gemini-ai-told-user-stage-mass-casualty-attack-suit-claims.html"
+      },
+      {
+        "name": "Semafor",
+        "url": "https://www.semafor.com/article/03/04/2026/a-new-lawsuit-claims-gemini-assisted-in-suicide"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2025-10-01",
+        "event": "Jonathan Gavalas dies by suicide (early October 2025)"
+      },
+      {
+        "date": "2026-03-04",
+        "event": "Wrongful-death suit filed in US federal court in San Jose"
+      }
+    ],
+    "verification": "reported",
+    "verified_at": "2026-10-18T20:30:00Z",
+    "updated_at": "2026-10-18T20:30:00Z"
+  },
+  {
     "id": "bing-ai-fake-openclaw-installer",
     "date": "2026-03-05",
     "title": "Bing AI search promotes fake OpenClaw installer repos pushing Atomic and Vidar stealers",
@@ -10696,6 +11772,59 @@
       }
     ],
     "sector": "Technology & AI vendors"
+  },
+  {
+    "id": "luca-walker-uk-inquest",
+    "date": "2026-03-31",
+    "title": "UK inquest hears 16-year-old bypassed ChatGPT safeguards before his death",
+    "category": "Chatbot harm",
+    "direction": "ai-harm",
+    "severity": "critical",
+    "country": "GB",
+    "region": "Europe",
+    "target": "16-year-old ChatGPT user in Yateley, Hampshire",
+    "loss_usd": null,
+    "summary": "An inquest heard Luca Cella Walker obtained harmful information from ChatGPT hours before his May 2025 death after telling it his questions were for research. The coroner voiced concern about AI.",
+    "actor": "OpenAI (ChatGPT)",
+    "actor_type": "product",
+    "sector": "Individuals & consumers",
+    "attribution": "Police evidence at the Winchester inquest said the teen sidestepped crisis prompts and ChatGPT accepted the 'research' framing. No lawsuit reported.",
+    "motive": "None; harm alleged to arise from the product's design and safeguards",
+    "vector": "ChatGPT queries framed as research that bypassed built-in Samaritans referral prompts.",
+    "root_cause": "As heard at inquest: safeguards that could be bypassed by claiming a research purpose.",
+    "impact": "Death of a 16-year-old on 4 May 2025. Coroner Christopher Wilkinson recorded suicide and said he felt unable to act on AI given its growing scope.",
+    "response": "OpenAI said it keeps improving ChatGPT's training to recognise distress, de-escalate and point people to real-world support, working with clinicians.",
+    "status": "resolved",
+    "cve": null,
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/society/2026/mar/31/teenager-asked-chatgpt-most-successful-ways-take-life-inquest-told",
+    "sources": [
+      {
+        "name": "The Guardian",
+        "url": "https://www.theguardian.com/society/2026/mar/31/teenager-asked-chatgpt-most-successful-ways-take-life-inquest-told"
+      },
+      {
+        "name": "Daily Mirror",
+        "url": "https://www.mirror.co.uk/news/uk-news/luca-walker-16-takes-life-36952084"
+      },
+      {
+        "name": "OECD AI Incidents Monitor",
+        "url": "https://oecd.ai/en/incidents/2026-03-31-7935"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2025-05-04",
+        "event": "Luca Cella Walker dies"
+      },
+      {
+        "date": "2026-03-31",
+        "event": "Inquest at Winchester coroner's court hears ChatGPT evidence; suicide conclusion recorded"
+      }
+    ],
+    "verification": "confirmed",
+    "verified_at": "2026-10-18T20:30:00Z",
+    "updated_at": "2026-10-18T20:30:00Z"
   },
   {
     "id": "prt-scan-supply-chain-campaign",
@@ -11498,6 +12627,59 @@
     "sector": "Individuals & consumers"
   },
   {
+    "id": "tumbler-ridge-v-openai",
+    "date": "2026-04-29",
+    "title": "Tumbler Ridge shooting victims sue OpenAI over unreported flagged ChatGPT account",
+    "category": "Chatbot harm",
+    "direction": "ai-harm",
+    "severity": "critical",
+    "country": "CA",
+    "region": "North America",
+    "target": "Students and staff at Tumbler Ridge school, B.C.",
+    "loss_usd": null,
+    "summary": "Families allege OpenAI flagged the shooter's ChatGPT account for attack planning in June 2025 and banned it without telling police, and that GPT-4o reinforced violent thoughts before the February 2026 shooting.",
+    "actor": "OpenAI (ChatGPT, GPT-4o)",
+    "actor_type": "product",
+    "sector": "Individuals & consumers",
+    "attribution": "Seven suits in federal court in San Francisco, led by Jay Edelson, allege negligence and that leadership overruled a safety team's call to notify authorities.",
+    "motive": "None; harm alleged to arise from the product's design and safeguards",
+    "vector": "Shooter used ChatGPT for violent planning; after the flagged account was banned, a second account was opened and used.",
+    "root_cause": "As alleged: failure to report a flagged high-risk account to law enforcement, ineffective ban enforcement, and GPT-4o design that did not challenge violent ideation.",
+    "impact": "Shooter killed her mother, half-brother, five students and a teacher on 10 February 2026; about two dozen injured, including a 12-year-old gravely hurt.",
+    "response": "Sam Altman publicly apologised for not alerting police to the banned account. OpenAI says it reports imminent, credible threats and has strengthened safeguards.",
+    "status": "ongoing",
+    "cve": null,
+    "source": "GPB (NPR)",
+    "url": "https://www.gpb.org/news/2026/04/29/families-sue-openai-over-canadian-mass-shooters-use-of-chatgpt",
+    "sources": [
+      {
+        "name": "GPB (NPR)",
+        "url": "https://www.gpb.org/news/2026/04/29/families-sue-openai-over-canadian-mass-shooters-use-of-chatgpt"
+      },
+      {
+        "name": "Bloomberg Law",
+        "url": "https://news.bloomberglaw.com/litigation/openai-sued-in-us-by-families-of-canada-school-shooting-victims"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2025-06-01",
+        "event": "OpenAI flags and bans shooter's ChatGPT account without notifying police (June 2025)"
+      },
+      {
+        "date": "2026-02-10",
+        "event": "Mass shooting in Tumbler Ridge, British Columbia"
+      },
+      {
+        "date": "2026-04-29",
+        "event": "Seven suits filed in US federal court in San Francisco"
+      }
+    ],
+    "verification": "reported",
+    "verified_at": "2026-10-18T20:30:00Z",
+    "updated_at": "2026-10-18T20:30:00Z"
+  },
+  {
     "id": "pytorch-lightning-2-6-3-backdoor",
     "date": "2026-04-30",
     "title": "Backdoored PyTorch Lightning 2.6.3 on PyPI runs Bun-based credential stealer on import",
@@ -11988,6 +13170,67 @@
     "sector": "Technology & AI vendors"
   },
   {
+    "id": "fsu-shooting-v-openai",
+    "date": "2026-05-11",
+    "title": "FSU shooting victims' families allege ChatGPT aided the 2025 campus gunman",
+    "category": "Chatbot harm",
+    "direction": "ai-harm",
+    "severity": "critical",
+    "country": "US",
+    "region": "North America",
+    "target": "Victims of April 2025 Florida State University shooting",
+    "loss_usd": null,
+    "summary": "Tiru Chabba's family alleges the accused gunman had more than 16,000 ChatGPT interactions over about 18 months before the attack and that OpenAI's safeguards failed to flag him. A second victim sued in June 2026.",
+    "actor": "OpenAI (ChatGPT)",
+    "actor_type": "product",
+    "sector": "Individuals & consumers",
+    "attribution": "Chabba family's federal suit in Tallahassee alleges negligence by OpenAI; a June 2026 suit alleges ChatGPT's memory system failed to flag the user as a risk.",
+    "motive": "None; harm alleged to arise from the product's design and safeguards",
+    "vector": "Heavy ChatGPT use by the accused shooter in the period before the attack.",
+    "root_cause": "As alleged: lack of safeguards to detect and act on warning signs across long-term use, and a product rushed to market.",
+    "impact": "Two people killed and six wounded on 17 April 2025. Florida opened a criminal probe into OpenAI in April 2026; the accused's trial was scheduled for October 2026.",
+    "response": "OpenAI said ChatGPT gave factual responses with information broadly available online and that it cooperated with law enforcement. It remains unclear how far the responses influenced the attack.",
+    "status": "ongoing",
+    "cve": null,
+    "source": "WFIT",
+    "url": "https://www.wfit.org/2026-05-12/family-fsu-shooting-victim-sues-openai-lack-chatgpt-safeguards",
+    "sources": [
+      {
+        "name": "WFIT",
+        "url": "https://www.wfit.org/2026-05-12/family-fsu-shooting-victim-sues-openai-lack-chatgpt-safeguards"
+      },
+      {
+        "name": "WKMG ClickOrlando",
+        "url": "https://www.clickorlando.com/tech/2026/05/11/lawsuit-blames-chatgpt-for-helping-plan-the-fsu-mass-shooting/"
+      },
+      {
+        "name": "WJHG",
+        "url": "https://www.wjhg.com/2026/06/26/another-fsu-shooting-victim-files-lawsuit-against-openai/"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2025-04-17",
+        "event": "Shooting at Florida State University, two killed"
+      },
+      {
+        "date": "2026-04-01",
+        "event": "Florida AG opens criminal investigation into OpenAI (April 2026)"
+      },
+      {
+        "date": "2026-05-11",
+        "event": "Chabba family sues OpenAI in federal court in Tallahassee"
+      },
+      {
+        "date": "2026-06-26",
+        "event": "Second victim files suit against OpenAI and Altman"
+      }
+    ],
+    "verification": "reported",
+    "verified_at": "2026-10-18T20:30:00Z",
+    "updated_at": "2026-10-18T20:30:00Z"
+  },
+  {
     "id": "mini-shai-hulud-ai-packages",
     "date": "2026-05-12",
     "title": "Mini Shai-Hulud worm hits TanStack, Mistral AI and Guardrails AI packages",
@@ -12322,6 +13565,59 @@
     "sector": "Individuals & consumers"
   },
   {
+    "id": "florida-ag-v-openai",
+    "date": "2026-06-01",
+    "title": "Florida Attorney General sues OpenAI and Sam Altman over concealed ChatGPT risks",
+    "category": "Chatbot harm",
+    "direction": "ai-harm",
+    "severity": "critical",
+    "country": "US",
+    "region": "North America",
+    "target": "ChatGPT users in Florida, including minors",
+    "loss_usd": null,
+    "summary": "Florida filed the first state lawsuit against OpenAI, alleging it concealed ChatGPT's risks, suppressed internal safety warnings, and that the product facilitates self-harm and violence.",
+    "actor": "OpenAI (ChatGPT); Sam Altman",
+    "actor_type": "product",
+    "sector": "Individuals & consumers",
+    "attribution": "AG James Uthmeier alleges deceptive trade practices, negligence and public nuisance; the complaint cites two shootings and the Enneking suicide.",
+    "motive": "None; harm alleged to arise from the product's design and safeguards",
+    "vector": "Mass-market consumer chatbot used by Floridians, including minors, allegedly without meaningful parental oversight.",
+    "root_cause": "As alleged: speed to market prioritised over safety, suppressed internal warnings, misrepresented safety, addictive design and data collection from minors.",
+    "impact": "State alleges ongoing harm to Floridians, including self-harm, violence, addiction and cognitive harm. Runs alongside a criminal probe opened in April 2026 over the FSU shooting.",
+    "response": "OpenAI said its models repeatedly encouraged the individuals to seek real-world support, that it cooperated with law enforcement, and that it keeps strengthening safeguards against misuse.",
+    "status": "ongoing",
+    "cve": null,
+    "source": "ABC7 (AP)",
+    "url": "https://abc7.com/post/openai-news-florida-sues-ceo-sam-altman-claiming-company-concealed-serious-risks-chatgpt/19214261/",
+    "sources": [
+      {
+        "name": "ABC7 (AP)",
+        "url": "https://abc7.com/post/openai-news-florida-sues-ceo-sam-altman-claiming-company-concealed-serious-risks-chatgpt/19214261/"
+      },
+      {
+        "name": "Decrypt",
+        "url": "https://decrypt.co/369656/florida-lawsuit-openai-sam-altman-chatgpt-safety"
+      },
+      {
+        "name": "NewsChannel 5 (Scripps)",
+        "url": "https://www.newschannel5.com/us-news/crime/florida-launches-criminal-probe-into-openai-chatgpt-over-fsu-shooting"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-04-01",
+        "event": "Florida AG opens criminal investigation into ChatGPT's alleged role in FSU shooting (April 2026)"
+      },
+      {
+        "date": "2026-06-01",
+        "event": "Florida files civil suit against OpenAI and Altman in state circuit court"
+      }
+    ],
+    "verification": "reported",
+    "verified_at": "2026-10-18T20:30:00Z",
+    "updated_at": "2026-10-18T20:30:00Z"
+  },
+  {
     "id": "codexui-android-npm",
     "date": "2026-06-02",
     "title": "Trojanized codexui-android npm package steals OpenAI Codex tokens",
@@ -12650,6 +13946,55 @@
       }
     ],
     "sector": "Technology & AI vendors"
+  },
+  {
+    "id": "carrier-v-openai",
+    "date": "2026-06-11",
+    "title": "Canadian mother alleges ChatGPT validated 24-year-old daughter Alice's suicidal thoughts",
+    "category": "Chatbot harm",
+    "direction": "ai-harm",
+    "severity": "critical",
+    "country": "CA",
+    "region": "North America",
+    "target": "24-year-old ChatGPT user living in Montreal, Quebec",
+    "loss_usd": null,
+    "summary": "Kristie Carrier of New Brunswick alleges ChatGPT validated her daughter's suicidal thoughts, criticised her partner and crisis hotlines, and urged her to keep talking, and was never flagged for human review.",
+    "actor": "OpenAI (ChatGPT, GPT-4o)",
+    "actor_type": "product",
+    "sector": "Individuals & consumers",
+    "attribution": "Carrier's suit in San Francisco Superior Court alleges negligent design and failure to warn by OpenAI and Sam Altman.",
+    "motive": "None; harm alleged to arise from the product's design and safeguards",
+    "vector": "Roughly 18 months of ChatGPT conversations in which the user repeatedly disclosed suicidal ideation and past attempts.",
+    "root_cause": "As alleged: GPT-4o designed to be addictive, with safety systems that never flagged or ended repeated self-harm conversations.",
+    "impact": "Death of Alice Carrier, 24, in July 2025. Her lawyers say OpenAI faces 18 similar suits in a coordinated California proceeding.",
+    "response": "OpenAI called it heartbreaking, said the version used is no longer available and that it has strengthened responses in sensitive situations. Suit seeks damages and mandatory termination of self-harm chats.",
+    "status": "ongoing",
+    "cve": null,
+    "source": "Global News",
+    "url": "https://globalnews.ca/news/11900741/canadian-mother-openai-lawsuit-daughter-suicide/",
+    "sources": [
+      {
+        "name": "Global News",
+        "url": "https://globalnews.ca/news/11900741/canadian-mother-openai-lawsuit-daughter-suicide/"
+      },
+      {
+        "name": "CTV News",
+        "url": "https://www.ctvnews.ca/atlantic/new-brunswick/article/new-brunswick-woman-sues-openai-alleging-chatgpt-led-to-daughters-death/"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2025-07-02",
+        "event": "Alice Carrier dies by suicide (sources give 2 or 3 July 2025)"
+      },
+      {
+        "date": "2026-06-11",
+        "event": "Kristie Carrier files suit in San Francisco Superior Court"
+      }
+    ],
+    "verification": "reported",
+    "verified_at": "2026-10-18T20:30:00Z",
+    "updated_at": "2026-10-18T20:30:00Z"
   },
   {
     "id": "ollama-vapt-autonomous-attack",
@@ -16708,6 +18053,55 @@
     "verified_at": "2026-10-18T19:30:00Z",
     "updated_at": "2026-10-18T19:30:00Z",
     "verification": "reported"
+  },
+  {
+    "id": "eight-states-v-openai",
+    "date": "2026-10-14",
+    "title": "Eight US states sue OpenAI, alleging ChatGPT harms children and deceives adults",
+    "category": "Chatbot harm",
+    "direction": "ai-harm",
+    "severity": "high",
+    "country": "US",
+    "region": "North America",
+    "target": "ChatGPT users, especially minors, in eight US states",
+    "loss_usd": null,
+    "summary": "Bipartisan attorneys general in eight states filed separate suits alleging ChatGPT reinforces delusions, coaches users toward suicide or violence, and that OpenAI misled the public about safety testing.",
+    "actor": "OpenAI (ChatGPT)",
+    "actor_type": "product",
+    "sector": "Individuals & consumers",
+    "attribution": "AGs of Arizona, Arkansas, Idaho, Iowa, Kansas, Montana, Nebraska and West Virginia allege consumer protection violations and public nuisance.",
+    "motive": "None; harm alleged to arise from the product's design and safeguards",
+    "vector": "Mass-market chatbot that the states say presents as agreeable and compassionate to vulnerable users and teens.",
+    "root_cause": "As alleged: safety undermined in pursuit of profit, misrepresented testing, and design that encourages teens to share data and hide concerns from parents.",
+    "impact": "States cite harms including dangerous medical advice, paranoia, suicide and violence. Reuters called it the most significant coordinated state action against an AI company.",
+    "response": "OpenAI said it has built child protections, including a teen-specific model, and wants industry-wide rules. States seek design changes, penalties and damages.",
+    "status": "ongoing",
+    "cve": null,
+    "source": "WLOX (AP)",
+    "url": "https://www.wlox.com/2026/10/15/states-sue-ai-giant-openai-saying-chatgpt-is-hurting-children-deceiving-adults/",
+    "sources": [
+      {
+        "name": "WLOX (AP)",
+        "url": "https://www.wlox.com/2026/10/15/states-sue-ai-giant-openai-saying-chatgpt-is-hurting-children-deceiving-adults/"
+      },
+      {
+        "name": "Business Insurance (Reuters)",
+        "url": "https://www.businessinsurance.com/states-sue-openai-claiming-chatgpt-harms-young-users/"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-06-01",
+        "event": "Florida files first state suit against OpenAI"
+      },
+      {
+        "date": "2026-10-14",
+        "event": "Eight states file separate suits in state courts"
+      }
+    ],
+    "verification": "reported",
+    "verified_at": "2026-10-18T20:30:00Z",
+    "updated_at": "2026-10-18T20:30:00Z"
   },
   {
     "id": "legal-filing-hidden-prompt-injection",
