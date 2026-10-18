@@ -1933,5 +1933,50 @@
     "first_seen": "2026-10-18T16:35:34Z",
     "first_published": "2026-10-18T16:00:00Z",
     "updated_at": "2026-10-18T16:35:34Z"
+  },
+  {
+    "id": "ai-built-website-hacked-south-africa",
+    "date": "2026-10-18",
+    "title": "AI-built website in South Africa hacked six days after launch",
+    "category": "Prompt injection",
+    "direction": "on-ai",
+    "severity": "low",
+    "country": "ZA",
+    "region": "Middle East & Africa",
+    "target": "AI-built ('vibe-coded') website, South Africa",
+    "loss_usd": null,
+    "summary": "An AI-built website in South Africa was reportedly hacked six days after launch, cited as an example of 'vibe coding' risks. The summary gives no further details.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Unknown",
+    "attribution": "Unknown",
+    "motive": "Unknown",
+    "vector": "Unknown; the site was built with AI-generated code ('vibe coding').",
+    "root_cause": "Unknown; the report attributes the weakness to vibe-coding practices but gives no specifics.",
+    "impact": "Website compromised within six days of launch. Scale and data affected are unknown.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "confidence": 0.3,
+    "source": "iAfrica.com",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSk8tMGtjdlNNc1c4ZjhFLWY1UnRDajlmQVotT0hpaDdCR3dlYTdBcXpNYlg2R0xGS1V1bUVLbDRKQVM3N05nVjVWTkpnM2ZJTU9qQ3dpQWRJQmNhOEdseFN6ZThGX2c3OXVWT295YWJ5RmFIUTl1Y3IzdHYwcXl5a29mWjRwOVhlek10NHpwdWFRRGNqZC1vbmVhT0M2U1lheTJkTjlkTzRpZjlFa0ZlWEpFOA?oc=5",
+    "sources": [
+      {
+        "name": "iAfrica.com",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSk8tMGtjdlNNc1c4ZjhFLWY1UnRDajlmQVotT0hpaDdCR3dlYTdBcXpNYlg2R0xGS1V1bUVLbDRKQVM3N05nVjVWTkpnM2ZJTU9qQ3dpQWRJQmNhOEdseFN6ZThGX2c3OXVWT295YWJ5RmFIUTl1Y3IzdHYwcXl5a29mWjRwOVhlek10NHpwdWFRRGNqZC1vbmVhT0M2U1lheTJkTjlkTzRpZjlFa0ZlWEpFOA?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-18",
+        "event": "Reported by iAfrica.com"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-18T18:35:37Z",
+    "wire_id": "22cefd0f61b7",
+    "first_seen": "2026-10-18T18:35:37Z",
+    "first_published": "2026-10-18T18:05:19Z",
+    "updated_at": "2026-10-18T18:35:37Z"
   }
 ]
