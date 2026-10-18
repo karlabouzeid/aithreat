@@ -1843,5 +1843,50 @@
     "first_seen": "2026-10-18T10:05:37Z",
     "first_published": "2026-10-18T03:55:00Z",
     "updated_at": "2026-10-18T10:05:37Z"
+  },
+  {
+    "id": "liege-fake-bank-app-iphone-scam",
+    "date": "2026-10-18",
+    "title": "Liège iPhone seller targeted with AI-made fake banking app as proof of payment",
+    "category": "AI phishing",
+    "direction": "with-ai",
+    "severity": "low",
+    "country": "BE",
+    "region": "Europe",
+    "target": "Individual selling an iPhone in Liège",
+    "loss_usd": null,
+    "summary": "A seller in Liège was shown a fake proof of bank transfer from a banking app created with AI while selling his iPhone. The money never arrived; he reportedly nearly fell for the scam.",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "sector": "Individuals & consumers",
+    "attribution": "Unknown buyers; no attribution in the report.",
+    "motive": "Financial gain by obtaining the phone without payment",
+    "vector": "Fake AI-created banking app showing a bogus transfer confirmation during a private sale",
+    "root_cause": "Seller could be deceived by a convincing fake payment confirmation before funds cleared.",
+    "impact": "Seller reportedly nearly got scammed; no confirmed loss stated in the summary.",
+    "response": "Victim spotted that the money had not arrived and shared his story publicly.",
+    "status": "resolved",
+    "cve": null,
+    "confidence": 0.5,
+    "source": "Sudinfo",
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNdm13bHkxMkRva25HVXdtNjROcWh5cm9KWE9nemZJVWVEY1RwNGZ2Zjhfc002eGJRVnRXLXFYREYzckdYajAyX1R1MDQ4blZZOTd2Q3FKYWdQYTdmM3IzNDlHTlNIMGhuc0xkYVdiUTB1TEdCYjltNE9uNGYzNDMxbEpSRXVFUHIyRUhiMnNoeXdYd2FKVmlmTU1PMXV1aXV4RE9Id05teXRpN2IyLVlMQ19TZDY1bEVCY0o1WFY2Vm1vUC1reGc?oc=5",
+    "sources": [
+      {
+        "name": "Sudinfo",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNdm13bHkxMkRva25HVXdtNjROcWh5cm9KWE9nemZJVWVEY1RwNGZ2Zjhfc002eGJRVnRXLXFYREYzckdYajAyX1R1MDQ4blZZOTd2Q3FKYWdQYTdmM3IzNDlHTlNIMGhuc0xkYVdiUTB1TEdCYjltNE9uNGYzNDMxbEpSRXVFUHIyRUhiMnNoeXdYd2FKVmlmTU1PMXV1aXV4RE9Id05teXRpN2IyLVlMQ19TZDY1bEVCY0o1WFY2Vm1vUC1reGc?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-18",
+        "event": "Reported by Sudinfo"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-18T11:05:37Z",
+    "wire_id": "9d9c9bd45c75",
+    "first_seen": "2026-10-18T11:05:37Z",
+    "first_published": "2026-10-17T03:55:00Z",
+    "updated_at": "2026-10-18T11:05:37Z"
   }
 ]
