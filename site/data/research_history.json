@@ -1,0 +1,159 @@
+{
+  "started": "2026-10-18",
+  "note": "One line per warning when its status changes, when its first real-world case is linked, and once a month. CC BY 4.0, AI Threat Watch.",
+  "claims": {
+    "ai-bioweapons": [
+      {
+        "date": "2026-10-18",
+        "event": "start",
+        "status": "none",
+        "n": 0,
+        "real_world": 0
+      }
+    ],
+    "unleashed-agents": [
+      {
+        "date": "2026-10-18",
+        "event": "start",
+        "status": "observed",
+        "n": 18,
+        "real_world": 18
+      }
+    ],
+    "mass-disinformation": [
+      {
+        "date": "2026-10-18",
+        "event": "start",
+        "status": "observed",
+        "n": 4,
+        "real_world": 4
+      }
+    ],
+    "trust-exploited": [
+      {
+        "date": "2026-10-18",
+        "event": "start",
+        "status": "observed",
+        "n": 28,
+        "real_world": 28
+      }
+    ],
+    "surveillance-power": [
+      {
+        "date": "2026-10-18",
+        "event": "start",
+        "status": "early",
+        "n": 1,
+        "real_world": 1
+      }
+    ],
+    "cyberattack-barrier": [
+      {
+        "date": "2026-10-18",
+        "event": "start",
+        "status": "observed",
+        "n": 87,
+        "real_world": 86
+      }
+    ],
+    "autonomous-weapons": [
+      {
+        "date": "2026-10-18",
+        "event": "start",
+        "status": "outside",
+        "n": 0,
+        "real_world": 0
+      }
+    ],
+    "race-over-safety": [
+      {
+        "date": "2026-10-18",
+        "event": "start",
+        "status": "early",
+        "n": 4,
+        "real_world": 4
+      }
+    ],
+    "automated-economy": [
+      {
+        "date": "2026-10-18",
+        "event": "start",
+        "status": "outside",
+        "n": 0,
+        "real_world": 0
+      }
+    ],
+    "evolutionary-pressure": [
+      {
+        "date": "2026-10-18",
+        "event": "start",
+        "status": "outside",
+        "n": 0,
+        "real_world": 0
+      }
+    ],
+    "leaked-or-stolen": [
+      {
+        "date": "2026-10-18",
+        "event": "start",
+        "status": "observed",
+        "n": 11,
+        "real_world": 11
+      }
+    ],
+    "accidents-normal": [
+      {
+        "date": "2026-10-18",
+        "event": "start",
+        "status": "observed",
+        "n": 15,
+        "real_world": 15
+      }
+    ],
+    "lab-safeguards-fail": [
+      {
+        "date": "2026-10-18",
+        "event": "start",
+        "status": "observed",
+        "n": 12,
+        "real_world": 12
+      }
+    ],
+    "proxy-gaming": [
+      {
+        "date": "2026-10-18",
+        "event": "start",
+        "status": "early",
+        "n": 4,
+        "real_world": 4
+      }
+    ],
+    "goal-drift": [
+      {
+        "date": "2026-10-18",
+        "event": "start",
+        "status": "none",
+        "n": 0,
+        "real_world": 0
+      }
+    ],
+    "power-seeking": [
+      {
+        "date": "2026-10-18",
+        "event": "start",
+        "status": "early",
+        "n": 6,
+        "real_world": 6
+      }
+    ],
+    "ai-deception": [
+      {
+        "date": "2026-10-18",
+        "event": "start",
+        "status": "early",
+        "n": 1,
+        "real_world": 1
+      }
+    ]
+  }
+}

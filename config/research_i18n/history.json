@@ -1,0 +1,38 @@
+{
+  "en": {
+    "h": "Status history",
+    "date": "Date", "status": "Status", "n": "Matching case files", "event": "Change",
+    "ev_start": "Tracking starts", "ev_status": "Status changed", "ev_first_case": "First real-world case linked", "ev_month": "Monthly check",
+    "c": "Tracked since {date}. A line is added when the status changes, when the first real-world case is linked, and once a month, so the record shows when a warning moved from research to reality."
+  },
+  "fr": {
+    "h": "Historique du statut",
+    "date": "Date", "status": "Statut", "n": "Dossiers correspondants", "event": "Changement",
+    "ev_start": "Début du suivi", "ev_status": "Statut modifié", "ev_first_case": "Premier cas réel rattaché", "ev_month": "Relevé mensuel",
+    "c": "Suivi depuis le {date}. Une ligne est ajoutée quand le statut change, quand le premier cas réel est rattaché, et une fois par mois : l’historique montre ainsi quand un avertissement est passé de la recherche à la réalité."
+  },
+  "es": {
+    "h": "Historial del estado",
+    "date": "Fecha", "status": "Estado", "n": "Expedientes coincidentes", "event": "Cambio",
+    "ev_start": "Inicio del seguimiento", "ev_status": "Cambio de estado", "ev_first_case": "Primer caso real vinculado", "ev_month": "Revisión mensual",
+    "c": "Seguimiento desde el {date}. Se añade una línea cuando cambia el estado, cuando se vincula el primer caso real y una vez al mes, de modo que el registro muestra cuándo una advertencia pasó de la investigación a la realidad."
+  },
+  "ar": {
+    "h": "سجل الحالة",
+    "date": "التاريخ", "status": "الحالة", "n": "الملفات المطابقة", "event": "التغيير",
+    "ev_start": "بدء المتابعة", "ev_status": "تغيّرت الحالة", "ev_first_case": "رُبطت أول حالة فعلية", "ev_month": "مراجعة شهرية",
+    "c": "تجري المتابعة منذ {date}. يُضاف سطر عند تغيّر الحالة، وعند ربط أول حالة فعلية، ومرة كل شهر، ليُظهر السجل متى انتقل التحذير من البحث إلى الواقع."
+  },
+  "zh": {
+    "h": "状态历史",
+    "date": "日期", "status": "状态", "n": "匹配的案例档案", "event": "变化",
+    "ev_start": "开始跟踪", "ev_status": "状态变更", "ev_first_case": "关联首个真实案例", "ev_month": "月度记录",
+    "c": "自{date}起跟踪。状态变更、关联首个真实案例时以及每月一次都会新增一行，从而记录一项警告何时从研究变为现实。"
+  },
+  "ru": {
+    "h": "История статуса",
+    "date": "Дата", "status": "Статус", "n": "Подходящие досье", "event": "Изменение",
+    "ev_start": "Начало отслеживания", "ev_status": "Статус изменён", "ev_first_case": "Привязан первый реальный случай", "ev_month": "Ежемесячная запись",
+    "c": "Отслеживается с {date}. Новая строка добавляется при смене статуса, при привязке первого реального случая и раз в месяц, поэтому запись показывает, когда предупреждение перешло из исследований в реальность."
+  }
+}

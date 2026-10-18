@@ -899,6 +899,8 @@ stats = patterns_stats(incidents, pulse_hist.is_a?(Hash) ? pulse_hist : {})
 File.write(File.join(SITE, "data", "stats.json"), JSON.pretty_generate(stats))
 require_relative "build_research"
 research = research_stats(incidents, research_links(incidents))
+require_relative "research_history"
+research = record_research_history(research)
 $research_by_case = Hash.new { |hh, k| hh[k] = [] }
 research["claims"].each { |c| c["cases"].each { |id| $research_by_case[id] << c } }
 File.write(File.join(SITE, "data", "research.json"), JSON.pretty_generate(research))
