@@ -267,6 +267,7 @@ def claim_page(lang, c, st, incidents)
     <p class="cap">#{h(rx(lang, :l_paraphrase))} #{h(rx(lang, :l_source))}: <a href="#{h(src['url'])}" rel="noopener" target="_blank">#{h(src['title'])}</a>, #{src['title'].start_with?(src['institute']) ? '' : "#{h(src['institute'])}, "}#{h(fmt_date(src['published'], lang))}, #{h(section_label(lang, c, src))}.</p></section>
     <section class="sec"><h2>#{h(rx(lang, :l_shows))}</h2><p>#{h(note)}</p><p class="cap">#{h(rx(lang, "sd_#{c['status']}"))}#{fl ? " #{h(fl)}." : ''}</p></section>
     #{timeline}
+    #{research_history_html(lang, c)}
     <section class="sec"><h2>#{h(rx(lang, :l_all))}</h2>#{list}</section>
     #{related_sec}
     #{others_sec}
