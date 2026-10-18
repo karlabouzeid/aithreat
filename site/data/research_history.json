@@ -154,6 +154,258 @@
         "n": 1,
         "real_world": 1
       }
+    ],
+    "iasr-synthetic-content": [
+      {
+        "date": "2026-10-18",
+        "event": "start",
+        "status": "observed",
+        "n": 81,
+        "real_world": 81
+      }
+    ],
+    "iasr-influence": [
+      {
+        "date": "2026-10-18",
+        "event": "start",
+        "status": "early",
+        "n": 4,
+        "real_world": 4
+      }
+    ],
+    "iasr-cyber-use": [
+      {
+        "date": "2026-10-18",
+        "event": "start",
+        "status": "observed",
+        "n": 87,
+        "real_world": 86
+      }
+    ],
+    "iasr-autonomous-attacks": [
+      {
+        "date": "2026-10-18",
+        "event": "start",
+        "status": "observed",
+        "n": 17,
+        "real_world": 17
+      }
+    ],
+    "iasr-bio-chem": [
+      {
+        "date": "2026-10-18",
+        "event": "start",
+        "status": "none",
+        "n": 0,
+        "real_world": 0
+      }
+    ],
+    "iasr-ai-as-target": [
+      {
+        "date": "2026-10-18",
+        "event": "start",
+        "status": "observed",
+        "n": 84,
+        "real_world": 50
+      }
+    ],
+    "iasr-agent-failures": [
+      {
+        "date": "2026-10-18",
+        "event": "start",
+        "status": "observed",
+        "n": 6,
+        "real_world": 6
+      }
+    ],
+    "iasr-eval-gaming": [
+      {
+        "date": "2026-10-18",
+        "event": "start",
+        "status": "lab",
+        "n": 0,
+        "real_world": 0
+      }
+    ],
+    "iasr-companions": [
+      {
+        "date": "2026-10-18",
+        "event": "start",
+        "status": "early",
+        "n": 25,
+        "real_world": 25
+      }
+    ],
+    "iasr-labour": [
+      {
+        "date": "2026-10-18",
+        "event": "start",
+        "status": "outside",
+        "n": 0,
+        "real_world": 0
+      }
+    ],
+    "iasr-open-weight": [
+      {
+        "date": "2026-10-18",
+        "event": "start",
+        "status": "early",
+        "n": 5,
+        "real_world": 4
+      }
+    ],
+    "metr-long-tasks": [
+      {
+        "date": "2026-10-18",
+        "event": "start",
+        "status": "outside",
+        "n": 0,
+        "real_world": 0
+      }
+    ],
+    "metr-reward-hacking": [
+      {
+        "date": "2026-10-18",
+        "event": "start",
+        "status": "lab",
+        "n": 0,
+        "real_world": 0
+      }
+    ],
+    "apollo-oversight-subversion": [
+      {
+        "date": "2026-10-18",
+        "event": "start",
+        "status": "lab",
+        "n": 0,
+        "real_world": 0
+      }
+    ],
+    "apollo-deception-questioned": [
+      {
+        "date": "2026-10-18",
+        "event": "start",
+        "status": "early",
+        "n": 1,
+        "real_world": 1
+      }
+    ],
+    "apollo-watched-behaviour": [
+      {
+        "date": "2026-10-18",
+        "event": "start",
+        "status": "lab",
+        "n": 0,
+        "real_world": 0
+      }
+    ],
+    "aisi-universal-jailbreaks": [
+      {
+        "date": "2026-10-18",
+        "event": "start",
+        "status": "observed",
+        "n": 6,
+        "real_world": 6
+      }
+    ],
+    "aisi-self-replication": [
+      {
+        "date": "2026-10-18",
+        "event": "start",
+        "status": "lab",
+        "n": 0,
+        "real_world": 0
+      }
+    ],
+    "aisi-sandbagging": [
+      {
+        "date": "2026-10-18",
+        "event": "start",
+        "status": "lab",
+        "n": 0,
+        "real_world": 0
+      }
+    ],
+    "aisi-emotional-reliance": [
+      {
+        "date": "2026-10-18",
+        "event": "start",
+        "status": "early",
+        "n": 25,
+        "real_world": 25
+      }
+    ],
+    "aisi-finance-agents": [
+      {
+        "date": "2026-10-18",
+        "event": "start",
+        "status": "none",
+        "n": 0,
+        "real_world": 0
+      }
+    ],
+    "mit-discrimination": [
+      {
+        "date": "2026-10-18",
+        "event": "start",
+        "status": "outside",
+        "n": 0,
+        "real_world": 0
+      }
+    ],
+    "mit-privacy-security": [
+      {
+        "date": "2026-10-18",
+        "event": "start",
+        "status": "observed",
+        "n": 138,
+        "real_world": 91
+      }
+    ],
+    "mit-misinformation": [
+      {
+        "date": "2026-10-18",
+        "event": "start",
+        "status": "early",
+        "n": 1,
+        "real_world": 1
+      }
+    ],
+    "mit-malicious-actors": [
+      {
+        "date": "2026-10-18",
+        "event": "start",
+        "status": "observed",
+        "n": 180,
+        "real_world": 179
+      }
+    ],
+    "mit-human-computer": [
+      {
+        "date": "2026-10-18",
+        "event": "start",
+        "status": "observed",
+        "n": 26,
+        "real_world": 26
+      }
+    ],
+    "mit-socioeconomic": [
+      {
+        "date": "2026-10-18",
+        "event": "start",
+        "status": "outside",
+        "n": 0,
+        "real_world": 0
+      }
+    ],
+    "mit-system-safety": [
+      {
+        "date": "2026-10-18",
+        "event": "start",
+        "status": "observed",
+        "n": 15,
+        "real_world": 15
+      }
     ]
   }
 }
