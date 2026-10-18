@@ -282,7 +282,19 @@ end
 
 # ---- Main
 state = File.exist?(STATE) ? JSON.parse(File.read(STATE)) : {}
-cases = cases_from_feed
+# Newest by verification, not by incident date: a case approved today about an incident
+# from July is news for the channel, but it sits too far down the feed (which is ordered
+# by incident date) to be seen there.
+def cases_by_verification
+  inc = JSON.parse(File.read(File.join(ROOT, "site", "data", "incidents.en.json")))
+  inc.select { |i| i["verified"] != false && i["verified_at"] }
+     .sort_by { |i| i["verified_at"] }.reverse.first(50)
+     .map { |i| { url: "https://aithreat.io/cases/#{i['id']}/", title: i["title"].to_s, summary: i["summary"].to_s, type: i["category"], severity: i["severity"] } }
+rescue StandardError
+  []
+end
+cases = cases_by_verification
+cases = cases_from_feed if cases.empty?
 abort "social: no cases in #{FEED}" if cases.empty?
 platforms = { "bluesky" => Bluesky.new, "mastodon" => Mastodon.new, "telegram" => Telegram.new, "x" => (ENV["X_USE_API"] == "1" ? XPost.new : XDraft.new) }
 
