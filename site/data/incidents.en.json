@@ -16649,6 +16649,67 @@
     "sector": "Technology & AI vendors"
   },
   {
+    "id": "habib-v-openai-chatgpt-lebanon-teen",
+    "date": "2026-10-14",
+    "title": "Lebanese family sues OpenAI, alleging ChatGPT contributed to their 15-year-old son's suicide",
+    "category": "Chatbot harm",
+    "direction": "ai-harm",
+    "severity": "critical",
+    "country": "LB",
+    "region": "Middle East & Africa",
+    "target": "Matias Habib, 15, a ChatGPT user in Lebanon",
+    "loss_usd": null,
+    "summary": "The parents of Matias Habib, who died aged 15 in April 2026, filed a wrongful-death suit against OpenAI and Sam Altman in San Francisco, alleging ChatGPT steered him towards nihilism and failed to act when he asked about suicide.",
+    "actor": "OpenAI (ChatGPT)",
+    "actor_type": "product",
+    "sector": "Individuals & consumers",
+    "attribution": "Allegations by the parents, Charbel and Saha Habib, in their complaint and a family statement; not tested in court. No response from OpenAI was reported.",
+    "motive": "None; harm alleged to arise from the product's design and safeguards",
+    "vector": "Months of conversations with ChatGPT that allegedly drifted, unprompted, from Marcus Aurelius to Nietzsche, nihilism and existentialism, and framed death in positive terms.",
+    "root_cause": "As alleged: ChatGPT knew the user was a minor but kept engaging him on themes of death, did not escalate or alert anyone when he asked directly about ending his life, and later helped him schedule a post.",
+    "impact": "Matias Habib died on 22 April 2026, 23 days after he allegedly asked ChatGPT whether he should end his life. The family says he had no history of mental illness and had used ChatGPT mainly for homework and hobbies for about three years.",
+    "response": "Suit filed in the Superior Court of California, County of San Francisco, by the Social Media Victims Law Center and the Tech Justice Law Project, within the coordinated ChatGPT proceeding (JCCP). OpenAI had not commented publicly at the time of reporting.",
+    "status": "ongoing",
+    "cve": null,
+    "source": "Al Jadeed",
+    "url": "https://www.aljadeed.tv/news/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%84%D8%A8%D9%86%D8%A7%D9%86/592434/%D8%B9%D8%A7%D8%A6%D9%84%D8%A9-%D9%84%D8%A8%D9%86%D8%A7%D9%86%D9%8A%D8%A9-%D8%AA%D8%AA%D9%82%D8%AF%D9%85-%D8%A8%D8%AF%D8%B9%D9%88%D9%89-%D8%B6%D8%AF-%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9-%D8%A7%D9%84%D9%85%D8%A7%D9%84%D9%83%D8%A9-%D9%84%D9%80-chatgpt-%D8%A8%D8%B9%D8%AF-%D9%88%D9%81%D8%A7%D8%A9-%D8%A7%D8%A8%D9%86%D9%87%D8%A7/ar",
+    "sources": [
+      {
+        "name": "Al Jadeed",
+        "url": "https://www.aljadeed.tv/news/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%84%D8%A8%D9%86%D8%A7%D9%86/592434/%D8%B9%D8%A7%D8%A6%D9%84%D8%A9-%D9%84%D8%A8%D9%86%D8%A7%D9%86%D9%8A%D8%A9-%D8%AA%D8%AA%D9%82%D8%AF%D9%85-%D8%A8%D8%AF%D8%B9%D9%88%D9%89-%D8%B6%D8%AF-%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9-%D8%A7%D9%84%D9%85%D8%A7%D9%84%D9%83%D8%A9-%D9%84%D9%80-chatgpt-%D8%A8%D8%B9%D8%AF-%D9%88%D9%81%D8%A7%D8%A9-%D8%A7%D8%A8%D9%86%D9%87%D8%A7/ar"
+      },
+      {
+        "name": "LBCI",
+        "url": "https://www.lbcgroup.tv/news/lebanon/963205/%D8%B9%D8%A7%D8%A6%D9%84%D8%A9-%D9%85%D8%A7%D8%AA%D9%8A%D8%A7%D8%B3-%D8%AD%D8%A8%D9%8A%D8%A8-%D8%AA%D9%82%D8%A7%D8%B6%D9%8A-openai-%D8%A8%D8%AA%D9%87%D9%85%D8%A9-%D8%A7%D9%84%D8%AA%D8%B3%D8%A8%D8%A8-%D8%A8%D9%88%D9%81%D8%A7%D8%AA%D9%87-%D9%88%D8%AA%D8%AD%D9%85%D9%91%D9%84-chatgpt-%D9%85%D8%B3%D8%A4%D9%88/ar"
+      },
+      {
+        "name": "Elwatan News",
+        "url": "https://www.elwatannews.com/news/details/8379402"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-03-30",
+        "event": "Matias allegedly asks ChatGPT directly whether he should end his life; no one is alerted, according to the family"
+      },
+      {
+        "date": "2026-04-22",
+        "event": "Matias Habib dies, aged 15"
+      },
+      {
+        "date": "2026-10-14",
+        "event": "Parents file a wrongful-death complaint against OpenAI and Sam Altman in San Francisco Superior Court"
+      },
+      {
+        "date": "2026-10-17",
+        "event": "Family statement published; reported by Al Jadeed, LBCI and other Lebanese media"
+      }
+    ],
+    "verified_at": "2026-10-18T19:30:00Z",
+    "updated_at": "2026-10-18T19:30:00Z",
+    "verification": "reported"
+  },
+  {
     "id": "legal-filing-hidden-prompt-injection",
     "date": "2026-10-15",
     "title": "Hidden prompt injection in legal filing instructs AI reviewers to side with filer",

@@ -39,7 +39,8 @@ TAGS = {
   "Model & data leak" => "DataLeak",
   "LLMjacking" => "LLMjacking",
   "Deepfake fraud" => "Deepfake",
-  "AI phishing" => "Phishing"
+  "AI phishing" => "Phishing",
+  "Chatbot harm" => "AISafety"
 }.freeze
 SEVERITIES = %w[critical high medium low].freeze
 SEVERITY_MARK = { "critical" => "🔴", "high" => "🟠", "medium" => "🟡", "low" => "⚪" }.freeze
