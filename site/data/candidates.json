@@ -1798,5 +1798,50 @@
     "first_seen": "2026-10-18T06:05:37Z",
     "first_published": "2026-09-22T07:00:00Z",
     "updated_at": "2026-10-18T06:05:37Z"
+  },
+  {
+    "id": "texas-ai-fake-receipt-purse-refund",
+    "date": "2026-10-18",
+    "title": "Texas store spots AI-generated receipt after $600 designer purse refund scam",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "low",
+    "country": "US",
+    "region": "North America",
+    "target": "Texas retail store",
+    "loss_usd": 600,
+    "summary": "A scammer got a $600 refund on a designer purse from a Texas store. The store later spotted that the receipt used for the refund was AI-generated.",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "sector": "Retail & consumer brands",
+    "attribution": "Unknown; an individual scammer is implied but not identified in the headline.",
+    "motive": "Financial gain through a fraudulent refund.",
+    "vector": "AI-generated fake receipt presented to obtain a merchandise refund.",
+    "root_cause": "Unknown; the store accepted a receipt that was later found to be AI-generated.",
+    "impact": "The store paid out a $600 refund on a designer purse. The headline gives no further detail.",
+    "response": "The store spotted the AI-generated receipt after the refund. No other response is stated.",
+    "status": "under investigation",
+    "cve": null,
+    "confidence": 0.55,
+    "source": "The Cool Down",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVUYyRkNBVHhNeHpkRmZSeGRZSmNmNFZ6OGNRQ3NVWUJOaUZxTlMtdFlRVEFyZlNDSlN1cTRibWg0NlRfd3RhNkhnWWNnWFFxeEpOUUFWNTBZTlZCRnFhNjluR3I2cjRWTzNucEhNaWc5WTVucEF5QlJUVldKMzRyMkl1YXpGSkdX?oc=5",
+    "sources": [
+      {
+        "name": "The Cool Down",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVUYyRkNBVHhNeHpkRmZSeGRZSmNmNFZ6OGNRQ3NVWUJOaUZxTlMtdFlRVEFyZlNDSlN1cTRibWg0NlRfd3RhNkhnWWNnWFFxeEpOUUFWNTBZTlZCRnFhNjluR3I2cjRWTzNucEhNaWc5WTVucEF5QlJUVldKMzRyMkl1YXpGSkdX?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-18",
+        "event": "Reported by The Cool Down"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-18T10:05:37Z",
+    "wire_id": "e37ada358583",
+    "first_seen": "2026-10-18T10:05:37Z",
+    "first_published": "2026-10-18T03:55:00Z",
+    "updated_at": "2026-10-18T10:05:37Z"
   }
 ]
