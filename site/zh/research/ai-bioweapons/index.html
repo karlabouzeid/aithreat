@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>AI 让生物武器更容易制造 · AI Threat Watch</title>
+<meta name="description" content="掌握生物工程知识的 AI 可能帮助人们制造危险病原体，并降低获取这些病原体的门槛。">
+<link rel="canonical" href="https://aithreat.io/zh/research/ai-bioweapons/">
+<link rel="alternate" hreflang="en" href="https://aithreat.io/research/ai-bioweapons/">
+<link rel="alternate" hreflang="fr" href="https://aithreat.io/fr/research/ai-bioweapons/">
+<link rel="alternate" hreflang="es" href="https://aithreat.io/es/research/ai-bioweapons/">
+<link rel="alternate" hreflang="ar" href="https://aithreat.io/ar/research/ai-bioweapons/">
+<link rel="alternate" hreflang="zh" href="https://aithreat.io/zh/research/ai-bioweapons/">
+<link rel="alternate" hreflang="ru" href="https://aithreat.io/ru/research/ai-bioweapons/">
+<link rel="alternate" hreflang="x-default" href="https://aithreat.io/research/ai-bioweapons/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="AI Threat Watch">
+<meta property="og:title" content="AI 让生物武器更容易制造 · AI Threat Watch">
+<meta property="og:description" content="掌握生物工程知识的 AI 可能帮助人们制造危险病原体，并降低获取这些病原体的门槛。">
+<meta property="og:url" content="https://aithreat.io/zh/research/ai-bioweapons/">
+<meta property="og:image" content="https://aithreat.io/assets/brand/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="zh_CN">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="AI 让生物武器更容易制造 · AI Threat Watch">
+<meta name="twitter:description" content="掌握生物工程知识的 AI 可能帮助人们制造危险病原体，并降低获取这些病原体的门槛。">
+<meta name="twitter:image" content="https://aithreat.io/assets/brand/og-image.png">
+<link rel="alternate" type="application/rss+xml" title="AI 威胁观察：已核实案例档案" href="/zh/cases/feed.xml">
+<link rel="alternate" type="application/rss+xml" title="AI Threat Watch wire" href="/feed.xml">
+<link rel="icon" href="/assets/brand/favicon.svg" type="image/svg+xml"><link rel="icon" href="/assets/brand/favicon-32.png" sizes="32x32" type="image/png"><link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Sans+Arabic:wght@400;500;600&family=Noto+Sans+SC:wght@400;500;600&display=swap">
+<style>:root{--bg:#0b1220;--surface:#121a2b;--surface2:#0e1627;--ink:#e6edf5;--muted:#8b9bb1;--line:#1c2740;--line2:#263450;--accent:#f5b942;--accent-ink:#0b1220;--crit:#ff5d62;--high:#ff9a4c;--med:#e0bf47;--low:#8e9aa7;--f-display:"Archivo","Arial Narrow",system-ui,sans-serif;--f-body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;--f-mono:"IBM Plex Mono",ui-monospace,"SF Mono",Menlo,monospace;color-scheme:dark}
+:root[data-theme="light"]{--bg:#eef2f7;--surface:#fff;--surface2:#f6f8fb;--ink:#0f1a2b;--muted:#5b6b80;--line:#d9e0ea;--line2:#c5cfdd;--accent:#b7791f;--accent-ink:#fff;--crit:#c62828;--high:#d2691e;--med:#a08200;--low:#6a7683;color-scheme:light}
+html[lang="ar"]{--f-body:"IBM Plex Sans Arabic","IBM Plex Sans",system-ui,sans-serif;--f-display:"IBM Plex Sans Arabic",system-ui,sans-serif}
+html[lang="zh"]{--f-body:"Noto Sans SC","PingFang SC","Microsoft YaHei",system-ui,sans-serif;--f-display:"Noto Sans SC","PingFang SC",system-ui,sans-serif}
+html[lang="ru"]{--f-display:"IBM Plex Sans",system-ui,sans-serif}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.55 var(--f-body)}
+a{color:var(--accent)}img{max-width:100%}
+.wrap{max-width:1100px;margin:0 auto;padding:12px clamp(16px,2.5vw,32px) 48px}
+.bar{display:flex;align-items:center;gap:10px 22px;border-bottom:1px solid var(--line);padding-bottom:12px;flex-wrap:wrap}
+.brand{font-family:var(--f-display);font-weight:800;font-size:19px;letter-spacing:-.01em;text-transform:uppercase;display:inline-flex;align-items:center;gap:10px;color:var(--ink);text-decoration:none;white-space:nowrap}
+html[lang="ar"] .brand,html[lang="zh"] .brand{text-transform:none}
+.brand i{width:10px;height:10px;border-radius:50%;background:var(--crit);box-shadow:0 0 0 4px color-mix(in srgb,var(--crit) 25%,transparent)}
+nav.views{display:flex;gap:4px;flex-wrap:wrap}nav.views a{font:500 14px var(--f-body);color:var(--muted);text-decoration:none;padding:8px 14px;border-radius:999px;min-height:36px;display:inline-flex;align-items:center}
+nav.views a:hover{color:var(--ink);background:var(--surface)}nav.views a[aria-current="page"]{color:var(--accent-ink);background:var(--accent);font-weight:600}
+.bar-right{margin-inline-start:auto;display:flex;gap:6px;flex-wrap:wrap;font-size:13px}.bar-right a{color:var(--muted);text-decoration:none;padding:6px 8px;border-radius:6px}.bar-right a[aria-current]{color:var(--ink);background:var(--surface)}
+.crumbs{font:12px var(--f-mono);color:var(--muted);margin:18px 0 10px;display:flex;flex-wrap:wrap;gap:6px}.crumbs a{color:var(--muted)}
+.eyebrow{font:12px var(--f-mono);color:var(--muted);text-transform:uppercase;letter-spacing:.06em;display:flex;flex-wrap:wrap;gap:6px 14px;margin:0 0 8px}html[lang="ar"] .eyebrow,html[lang="zh"] .eyebrow{font-family:var(--f-body);text-transform:none;letter-spacing:0}
+h1{font-family:var(--f-display);font-weight:700;font-size:clamp(26px,4vw,40px);line-height:1.1;margin:0 0 12px;letter-spacing:-.01em;text-wrap:balance}
+h2{font-family:var(--f-display);font-weight:700;font-size:19px;margin:0 0 10px}
+.lede{font-size:17px;color:var(--muted);max-width:72ch;margin:0 0 14px}
+.pills{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 16px}.pill{font:500 12px var(--f-mono);border:1px solid var(--line2);border-radius:999px;padding:3px 10px;color:var(--muted)}html[lang="ar"] .pill,html[lang="zh"] .pill{font-family:var(--f-body)}
+[data-sev="critical"]{--c:var(--crit)}[data-sev="high"]{--c:var(--high)}[data-sev="medium"]{--c:var(--med)}[data-sev="low"]{--c:var(--low)}
+.pill.sev{color:var(--c);border-color:var(--c)}
+.tools{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 22px}.btn{display:inline-flex;align-items:center;min-height:38px;padding:0 16px;border-radius:8px;background:var(--accent);color:var(--accent-ink);font-weight:600;text-decoration:none}.btn.ghost{background:var(--surface);color:var(--ink);border:1px solid var(--line2)}
+.facts{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px;margin:0 0 22px}.facts div{min-width:0}.facts dt{font:11px var(--f-mono);text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}html[lang="ar"] .facts dt,html[lang="zh"] .facts dt{font-family:var(--f-body);text-transform:none;letter-spacing:0}.facts dd{margin:3px 0 0;font-weight:500;overflow-wrap:anywhere}.facts dd.sev{color:var(--c)}
+section.sec{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin:0 0 16px}section.sec p{margin:0 0 8px;max-width:80ch}section.sec p:last-child{margin-bottom:0}.lbl{color:var(--muted)}
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px;margin:0 0 16px}.two section.sec{margin:0}
+ol.tl{list-style:none;margin:0;padding:0;display:grid;gap:8px}ol.tl li{display:grid;grid-template-columns:110px 1fr;gap:10px}ol.tl time{font:12px var(--f-mono);color:var(--muted);padding-top:3px}
+ul.srcs{margin:0;padding:0;list-style:none;display:grid;gap:6px}ul.srcs small{color:var(--muted);font-family:var(--f-mono);font-size:11px}
+pre.cite{white-space:pre-wrap;font:13px var(--f-mono);background:var(--surface2);border:1px solid var(--line);border-radius:8px;padding:12px;margin:0 0 8px;overflow-wrap:anywhere}
+nav.pn{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;margin:22px 0;font-size:14px}nav.pn a{max-width:48%;text-decoration:none;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px 14px}nav.pn a span{display:block;font:11px var(--f-mono);color:var(--muted);text-transform:uppercase;letter-spacing:.06em;margin-bottom:3px}
+.langs{font-size:13px;color:var(--muted);margin:0 0 16px}.langs a{margin-inline-end:10px}
+footer{border-top:1px solid var(--line);margin-top:28px;padding-top:14px;font-size:13px;color:var(--muted);display:grid;gap:6px}footer a{color:var(--muted)}
+.notice{font-size:12px;color:var(--muted);background:var(--surface);border:1px dashed var(--line2);border-radius:6px;padding:6px 10px;margin:12px 0 0}
+ul.cases{list-style:none;margin:0;padding:0;display:grid;gap:8px}ul.cases li{display:grid;grid-template-columns:96px 1fr;gap:12px;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px 14px}ul.cases time{font:12px var(--f-mono);color:var(--muted);padding-top:3px}ul.cases a{color:var(--ink);text-decoration:none;font-weight:600}ul.cases a:hover{color:var(--accent)}ul.cases .meta{font-size:13px;color:var(--muted);margin-top:3px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 18px}.chips a{font-size:13px;color:var(--ink);background:var(--surface);border:1px solid var(--line2);border-radius:999px;padding:5px 12px;text-decoration:none}.chips a[aria-current]{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+h3.sub{font:600 12px var(--f-mono);text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin:18px 0 8px}html[lang="ar"] h3.sub,html[lang="zh"] h3.sub{font-family:var(--f-body);text-transform:none;letter-spacing:0}
+@media (max-width:600px){ol.tl li,ul.cases li{grid-template-columns:1fr}nav.pn a{max-width:100%;flex:1}}
+.share{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin:-12px 0 22px;font-size:13px}.share span{color:var(--muted);font:600 11px var(--f-mono);text-transform:uppercase;letter-spacing:.06em;margin-inline-end:4px}html[lang="ar"] .share span,html[lang="zh"] .share span{font-family:var(--f-body);text-transform:none}.share a{display:inline-flex;align-items:center;min-height:32px;padding:0 12px;border-radius:999px;background:var(--surface);border:1px solid var(--line2);color:var(--ink);text-decoration:none}.share a:hover{border-color:var(--accent);color:var(--accent)}.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}.sub{background:var(--surface);border:1px solid var(--line2);border-radius:12px;padding:16px 18px;margin:26px 0 0;display:grid;gap:8px}.sub .k{font:600 11px var(--f-mono);text-transform:uppercase;letter-spacing:.06em;color:var(--accent)}html[lang="ar"] .sub .k,html[lang="zh"] .sub .k{font-family:var(--f-body);text-transform:none;letter-spacing:0}.sub h2{margin:0;font-size:18px}.sub form{display:flex;flex-wrap:wrap;gap:8px}.sub input[type=email]{flex:1 1 220px;min-height:40px;border:1px solid var(--line2);border-radius:8px;background:var(--surface2);color:var(--ink);padding:0 12px;font:15px var(--f-body)}.sub button{min-height:40px;padding:0 16px;border:0;border-radius:8px;background:var(--accent);color:var(--accent-ink);font:600 14px var(--f-body);cursor:pointer}.sub small{color:var(--muted)}.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin:0 0 20px}
+.kpis div{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+.kpis b{display:block;font:700 30px/1 var(--f-display);letter-spacing:-.01em;margin:0 0 6px}.kpis span{font:12px var(--f-mono);color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
+html[lang="ar"] .kpis span,html[lang="zh"] .kpis span{font-family:var(--f-body);text-transform:none;letter-spacing:0}
+.kpis small{display:block;color:var(--muted);font-size:12px;margin-top:4px}
+.chart{width:100%;height:auto;display:block;margin:6px 0 10px;font:11px var(--f-mono);fill:var(--muted)}
+.chart .ax{stroke:var(--line2);stroke-width:1}.chart .grid{stroke:var(--line);stroke-width:1}.chart .lbl{fill:var(--muted)}.chart .val{fill:var(--ink);font-weight:600}
+.legend{display:flex;flex-wrap:wrap;gap:6px 16px;font:12px var(--f-mono);color:var(--muted);margin:0 0 6px}.legend i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-inline-end:6px;vertical-align:-1px}
+.cap{color:var(--muted);max-width:80ch;margin:0}
+table.pt{width:100%;border-collapse:collapse;font-size:14px;margin:6px 0 10px}table.pt th,table.pt td{text-align:start;padding:6px 8px;border-bottom:1px solid var(--line)}table.pt th{font:600 11px var(--f-mono);text-transform:uppercase;letter-spacing:.05em;color:var(--muted)}table.pt td.n{font-family:var(--f-mono);text-align:end}
+html[lang="ar"] table.pt th,html[lang="zh"] table.pt th{font-family:var(--f-body);text-transform:none}
+.bars{display:grid;gap:6px;margin:6px 0 10px}.bars div{display:grid;grid-template-columns:minmax(120px,38%) 1fr 44px;gap:10px;align-items:center;font-size:13px}.bars i{display:block;height:12px;border-radius:3px;background:var(--accent);min-width:2px}.bars em{font:12px var(--f-mono);color:var(--muted);font-style:normal;text-align:end}
+.method{font-size:12px;color:var(--muted);background:var(--surface);border:1px dashed var(--line2);border-radius:8px;padding:10px 12px;margin:18px 0}
+ul.cases.auto li{grid-template-columns:96px 1fr}
+h2.fin-h{font-size:clamp(22px,3vw,28px);margin:28px 0 6px;scroll-margin-top:16px}
+.rgroup{margin:26px 0 8px}.rgroup h2{margin:0 0 2px}.rgroup>p{color:var(--muted);margin:0 0 10px}
+.claims{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px}
+.claim{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;display:flex;flex-direction:column;gap:8px;text-decoration:none;color:var(--ink)}
+a.claim:hover{border-color:var(--accent)}.claim h3{margin:0;font-size:16px;line-height:1.3}.claim small{color:var(--muted);font-size:12px}
+.claim .n{font:600 13px var(--f-mono)}.claim .ft{margin-top:auto;display:flex;justify-content:space-between;gap:8px;align-items:center;flex-wrap:wrap}
+.rst{display:inline-flex;align-items:center;gap:6px;font:600 11px var(--f-mono);text-transform:uppercase;letter-spacing:.05em;color:var(--ink)}
+.rst i{width:10px;height:10px;border-radius:50%;display:inline-block;flex:none}
+html[lang="ar"] .rst,html[lang="zh"] .rst{font-family:var(--f-body);text-transform:none;letter-spacing:0}
+.rkey{display:grid;gap:6px;margin:0 0 6px;font-size:13px;color:var(--muted)}.rkey div{display:flex;gap:10px;align-items:baseline;flex-wrap:wrap}
+blockquote.warn{margin:0 0 6px;padding:12px 16px;border-inline-start:3px solid var(--accent);background:var(--surface);border-radius:0 10px 10px 0;font-size:17px}
+html[dir="rtl"] blockquote.warn{border-radius:10px 0 0 10px}
+</style>
+<script>try{var t=localStorage.getItem('atw-theme');if(t)document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+<script defer src="https://cloud.umami.is/script.js" data-website-id="aafe3de7-3e98-4efd-91e0-2d01c4a8994f"></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","@id":"https://aithreat.io/zh/research/ai-bioweapons/","mainEntityOfPage":"https://aithreat.io/zh/research/ai-bioweapons/","headline":"AI 让生物武器更容易制造","description":"掌握生物工程知识的 AI 可能帮助人们制造危险病原体，并降低获取这些病原体的门槛。 登记库中没有已核实的案例。只有当某次尝试被公开报道时，安全登记库才会看到，因此这里没有记录只是薄弱的证据。","inLanguage":"zh","isAccessibleForFree":true,"license":"https://creativecommons.org/licenses/by/4.0/","dateModified":"2026-10-18","publisher":{"@type":"Organization","name":"AI Threat Watch","url":"https://aithreat.io/"},"citation":{"@type":"ScholarlyArticle","name":"An Overview of Catastrophic AI Risks","url":"https://arxiv.org/abs/2306.12001","author":"Dan Hendrycks, Mantas Mazeika, Thomas Woodside"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"AI Threat Watch","item":"https://aithreat.io/"},{"@type":"ListItem","position":2,"name":"研究 vs 现实","item":"https://aithreat.io/zh/research/"},{"@type":"ListItem","position":3,"name":"AI 让生物武器更容易制造","item":"https://aithreat.io/zh/research/ai-bioweapons/"}]}</script>
+</head>
+<body><div class="wrap"><div class="bar"><a class="brand" href="/?lang=zh"><i></i>AI Threat Watch</a><nav class="views" aria-label="Sections"><a href="/?lang=zh#map">地图</a><a href="/?lang=zh#wire">新闻</a><a href="/zh/patterns/">趋势</a><a href="/zh/research/" aria-current="page">研究 vs 现实</a><a href="/?lang=zh#data">数据与引用</a><a href="/zh/why/">为什么</a><a href="/zh/cases/">全部案例档案</a></nav><nav class="bar-right" aria-label="语言"><a href="https://aithreat.io/research/ai-bioweapons/" hreflang="en" lang="en">English</a><a href="https://aithreat.io/fr/research/ai-bioweapons/" hreflang="fr" lang="fr">Français</a><a href="https://aithreat.io/es/research/ai-bioweapons/" hreflang="es" lang="es">Español</a><a href="https://aithreat.io/ar/research/ai-bioweapons/" hreflang="ar" lang="ar">العربية</a><a href="https://aithreat.io/zh/research/ai-bioweapons/" hreflang="zh" lang="zh" aria-current="page">中文</a><a href="https://aithreat.io/ru/research/ai-bioweapons/" hreflang="ru" lang="ru">Русский</a></nav></div><main><nav class="crumbs" aria-label="Breadcrumb"><a href="/?lang=zh">AI Threat Watch</a> › <a href="https://aithreat.io/zh/research/">研究 vs 现实</a> › AI 让生物武器更容易制造</nav>
+<article>
+<p class="eyebrow"><span>恶意使用</span><span>Center for AI Safety</span><span>§2.1</span></p>
+<h1>AI 让生物武器更容易制造</h1>
+<p class="pills"><span class="rst"><i style="background:var(--line2)"></i>尚无记录</span><span class="pill">暂无相符的案例档案。</span></p>
+<p class="share"><span>分享</span><a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Faithreat.io%2Fzh%2Fresearch%2Fai-bioweapons%2F" target="_blank" rel="noopener" data-umami-event="share" data-umami-event-net="linkedin">LinkedIn</a><a href="https://x.com/intent/post?text=AI+%E8%AE%A9%E7%94%9F%E7%89%A9%E6%AD%A6%E5%99%A8%E6%9B%B4%E5%AE%B9%E6%98%93%E5%88%B6%E9%80%A0&amp;url=https%3A%2F%2Faithreat.io%2Fzh%2Fresearch%2Fai-bioweapons%2F" target="_blank" rel="noopener" data-umami-event="share" data-umami-event-net="x">X</a><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Faithreat.io%2Fzh%2Fresearch%2Fai-bioweapons%2F" target="_blank" rel="noopener" data-umami-event="share" data-umami-event-net="facebook">Facebook</a><a href="https://wa.me/?text=AI+%E8%AE%A9%E7%94%9F%E7%89%A9%E6%AD%A6%E5%99%A8%E6%9B%B4%E5%AE%B9%E6%98%93%E5%88%B6%E9%80%A0+https%3A%2F%2Faithreat.io%2Fzh%2Fresearch%2Fai-bioweapons%2F" target="_blank" rel="noopener" data-umami-event="share" data-umami-event-net="whatsapp">WhatsApp</a><a href="https://t.me/share/url?url=https%3A%2F%2Faithreat.io%2Fzh%2Fresearch%2Fai-bioweapons%2F&amp;text=AI+%E8%AE%A9%E7%94%9F%E7%89%A9%E6%AD%A6%E5%99%A8%E6%9B%B4%E5%AE%B9%E6%98%93%E5%88%B6%E9%80%A0" target="_blank" rel="noopener" data-umami-event="share" data-umami-event-net="telegram">Telegram</a><a href="mailto:?subject=AI+%E8%AE%A9%E7%94%9F%E7%89%A9%E6%AD%A6%E5%99%A8%E6%9B%B4%E5%AE%B9%E6%98%93%E5%88%B6%E9%80%A0&amp;body=https%3A%2F%2Faithreat.io%2Fzh%2Fresearch%2Fai-bioweapons%2F" target="_blank" rel="noopener" data-umami-event="share" data-umami-event-net="email">Email</a></p>
+<section class="sec"><h2>警告内容</h2><blockquote class="warn">掌握生物工程知识的 AI 可能帮助人们制造危险病原体，并降低获取这些病原体的门槛。</blockquote>
+<p class="cap">改写自论文。 来源: <a href="https://arxiv.org/abs/2306.12001" rel="noopener" target="_blank">An Overview of Catastrophic AI Risks</a>, Center for AI Safety, 第 2.1 节，第 7 页.</p></section>
+<section class="sec"><h2>登记库显示的情况</h2><p>登记库中没有已核实的案例。只有当某次尝试被公开报道时，安全登记库才会看到，因此这里没有记录只是薄弱的证据。</p><p class="cap">没有已核实的案例档案与这一警告相符。</p></section>
+
+<section class="sec"><h2>所有相符的案例档案</h2><p>暂无相符的案例档案。</p></section>
+<section class="sec"><h2>该组中的其他警告</h2><ul class="srcs"><li><span class="rst"><i style="background:var(--crit)"></i>已在真实事件中出现</span> <a href="https://aithreat.io/zh/research/unleashed-agents/">有人会放出 AI 智能体去造成危害</a></li><li><span class="rst"><i style="background:var(--crit)"></i>已在真实事件中出现</span> <a href="https://aithreat.io/zh/research/mass-disinformation/">AI 用量身定制的谎言淹没信息空间</a></li><li><span class="rst"><i style="background:var(--crit)"></i>已在真实事件中出现</span> <a href="https://aithreat.io/zh/research/trust-exploited/">人们对 AI 陪伴者的信任变成了危害</a></li><li><span class="rst"><i style="background:var(--high)"></i>早期迹象</span> <a href="https://aithreat.io/zh/research/surveillance-power/">AI 帮助少数人通过监控集中权力</a></li></ul><p><a href="https://aithreat.io/zh/research/">研究 vs 现实 →</a></p></section>
+</article>
+<p class="method">匹配方式：当某份案例档案中发生的事情是论文所述风险在现实世界中的实例时，编辑会根据档案中的事实判断，将其与相应警告关联。匹配意味着案例符合该警告，而不是证明了论文的更广泛论点。诉讼中的指控一律标明为指控。状态由编辑判定，并随新案例出现而复核。每次更新时都会重新计算匹配结果。数据： 本登记库的系统性收录始于2025年，因此首个案例的日期表示登记库首次记录该风险的时间，而非该风险首次发生的时间。 <a href="/data/research.json">research.json（CC BY 4.0）</a></p>
+<p class="langs">语言: <a href="https://aithreat.io/research/ai-bioweapons/" hreflang="en" lang="en">English</a><a href="https://aithreat.io/fr/research/ai-bioweapons/" hreflang="fr" lang="fr">Français</a><a href="https://aithreat.io/es/research/ai-bioweapons/" hreflang="es" lang="es">Español</a><a href="https://aithreat.io/ar/research/ai-bioweapons/" hreflang="ar" lang="ar">العربية</a><a href="https://aithreat.io/zh/research/ai-bioweapons/" hreflang="zh" lang="zh" aria-current="page">中文</a><a href="https://aithreat.io/ru/research/ai-bioweapons/" hreflang="ru" lang="ru">Русский</a></p>
+<aside class="sub" aria-labelledby="sub-h"><div class="k">订阅提醒</div><h2 id="sub-h">严重事件 30 分钟内送达您的邮箱</h2>
+<form method="post" action="https://assets.mailerlite.com/jsonp/2715122/forms/201398923747657688/subscribe" target="_blank"><label class="sr" for="sub-email">Email</label><input type="email" name="fields[email]" id="sub-email" required placeholder="you@company.com" autocomplete="email"><input type="hidden" name="ml-submit" value="1"><input type="hidden" name="anticsrf" value="true"><button type="submit">订阅</button></form>
+<small>免费，也提供 RSS。 <a href="/zh/cases/feed.xml">RSS</a> · <a href="https://t.me/aithreat" target="_blank" rel="noopener" data-umami-event="telegram">Telegram @aithreat</a></small></aside>
+<footer><span>开放数据，采用 CC BY 4.0 许可：可自由再利用，请附本页链接。</span><span>本语言的案例档案为机器翻译并经术语校对；以英文版本为准。</span><span><a href="/zh/why/">我们为什么做这个</a> · <a href="/zh/about/">关于与方法</a> · <a href="/zh/cases/glossary/">术语表</a> · <a href="/zh/cases/">全部案例档案</a></span><span><a href="/data/incidents.en.json">开放数据（JSON）</a> · <a href="/zh/cases/feed.xml">案例 RSS</a> · <a href="/feed.xml">新闻 RSS</a> · <a href="/sitemap.xml">Sitemap</a> · <a href="https://t.me/aithreat" data-umami-event="telegram">Telegram</a></span></footer></main></div></body></html>
