@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-18T15:05:33Z",
-  "wire_items": 533,
-  "new_items": 3,
+  "updated_at": "2026-10-18T15:35:35Z",
+  "wire_items": 534,
+  "new_items": 1,
   "candidates": 42,
   "incidents": 329,
   "feeds_ok": [
@@ -60,5 +60,5 @@
   "feeds_failed": [
 
   ],
-  "triage": "triaged 13 items with claude-sonnet-5-5 in 1 batches (0 failed); kept 3"
+  "triage": "triaged 9 items with claude-sonnet-5-5 in 1 batches (0 failed); kept 1"
 }
