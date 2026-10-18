@@ -1663,5 +1663,50 @@
     "first_seen": "2026-10-17T21:05:39Z",
     "first_published": "2026-10-17T19:42:00Z",
     "updated_at": "2026-10-17T21:05:39Z"
+  },
+  {
+    "id": "wu-yue-ai-celebrity-impersonation-sales",
+    "date": "2026-10-18",
+    "title": "AI deepfakes of actress Wu Yue and other celebrities used to push product sales",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "CN",
+    "region": "Asia-Pacific",
+    "target": "Wu Yue, other impersonated celebrities and the buyers deceived",
+    "loss_usd": null,
+    "summary": "Actress Wu Yue said AI videos impersonating her under the name \"Hua Jie\" were used to sell goods and take money from viewers. Several other celebrities were also faked for sales promotion.",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "sector": "Individuals & consumers",
+    "attribution": "Unknown; the videos are posted under an account or persona called \"Hua Jie\", and no individual or group has been identified.",
+    "motive": "Financial gain through deceptive celebrity-endorsed product sales.",
+    "vector": "AI-generated video and likely voice impersonation of celebrities, used for product promotion on social media.",
+    "root_cause": "Cheap AI impersonation tools and weak enforcement make fake celebrity endorsements hard to stop, which the headline describes as repeated.",
+    "impact": "Wu Yue publicly demanded refunds for victims who were defrauded. The number of victims and the amount lost are not stated.",
+    "response": "Wu Yue posted a public complaint on Weibo. No platform or law enforcement action is stated.",
+    "status": "ongoing",
+    "cve": null,
+    "confidence": 0.6,
+    "source": "新浪网",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE45b1J2ZHAwZVBTZVNleDVMWmRaOGFzc2xTUWVjUnRqRVAzVTEtVUV2d1czNTh5VkpPcmZaZ0JjTEJMMXh3NWw5UVZpV2ZJajRNMGlQRkQtMVdiRk1kN2JLdVlCdw?oc=5",
+    "sources": [
+      {
+        "name": "新浪网",
+        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE45b1J2ZHAwZVBTZVNleDVMWmRaOGFzc2xTUWVjUnRqRVAzVTEtVUV2d1czNTh5VkpPcmZaZ0JjTEJMMXh3NWw5UVZpV2ZJajRNMGlQRkQtMVdiRk1kN2JLdVlCdw?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-18",
+        "event": "Reported by 新浪网"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-18T01:35:36Z",
+    "wire_id": "386996b01dfa",
+    "first_seen": "2026-10-18T01:35:36Z",
+    "first_published": "2026-10-18T01:03:00Z",
+    "updated_at": "2026-10-18T01:35:36Z"
   }
 ]
