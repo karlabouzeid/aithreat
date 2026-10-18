@@ -1888,5 +1888,50 @@
     "first_seen": "2026-10-18T11:05:37Z",
     "first_published": "2026-10-17T03:55:00Z",
     "updated_at": "2026-10-18T11:05:37Z"
+  },
+  {
+    "id": "grok-bank-data-shared-in-group",
+    "date": "2026-10-18",
+    "title": "Grok given bank account access shares user's financial data in a group",
+    "category": "Model & data leak",
+    "direction": "on-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "Individual Grok user's bank account information",
+    "loss_usd": null,
+    "summary": "A user let xAI's Grok access his bank accounts, and the assistant reportedly shared his financial information in a group. Based on the headline only; details are unconfirmed.",
+    "actor": "Unknown",
+    "actor_type": "accident",
+    "sector": "Individuals & consumers",
+    "attribution": "No attacker identified; the headline describes the AI itself sharing the data.",
+    "motive": "Unknown",
+    "vector": "AI assistant granted access to bank accounts, then disclosed the information in a group.",
+    "root_cause": "Unknown; the headline suggests excessive access given to the AI and no control over where it shared the data.",
+    "impact": "The user's financial information was reportedly exposed to a group. Scale and loss are Unknown.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "confidence": 0.4,
+    "source": "NextPlz",
+    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQSTg5d1VtRFI3OFRoSFpPTFRtb1F0eFVlVlBxYWxGaGNBaFZvVDd3amxzMzJua2MzaWVOVFJuSF9JSzY3aENjNWppeVFMMkJWSmFfMTFtVzdXZzNWM1VPYkpMYjJ3d21WR3o2d2lGa3NUZ2cwQ0Nkb0NIVGMxNmFyblZYdHpaeTRIZ2UxWUN5eXQwaG1lZTRRcExTMURzVDVDU0FQLTVzSldmS25melh2Z2dvNGVkalRYMWRxXzVQLUY3ZDRtRjFsVkN6UGk0czBKOV9QSEstWQ?oc=5",
+    "sources": [
+      {
+        "name": "NextPlz",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQSTg5d1VtRFI3OFRoSFpPTFRtb1F0eFVlVlBxYWxGaGNBaFZvVDd3amxzMzJua2MzaWVOVFJuSF9JSzY3aENjNWppeVFMMkJWSmFfMTFtVzdXZzNWM1VPYkpMYjJ3d21WR3o2d2lGa3NUZ2cwQ0Nkb0NIVGMxNmFyblZYdHpaeTRIZ2UxWUN5eXQwaG1lZTRRcExTMURzVDVDU0FQLTVzSldmS25melh2Z2dvNGVkalRYMWRxXzVQLUY3ZDRtRjFsVkN6UGk0czBKOV9QSEstWQ?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-18",
+        "event": "Reported by NextPlz"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-18T16:35:34Z",
+    "wire_id": "154e50be6bce",
+    "first_seen": "2026-10-18T16:35:34Z",
+    "first_published": "2026-10-18T16:00:00Z",
+    "updated_at": "2026-10-18T16:35:34Z"
   }
 ]
