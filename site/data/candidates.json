@@ -1753,5 +1753,50 @@
     "first_seen": "2026-10-18T02:05:37Z",
     "first_published": "2026-10-18T01:59:28Z",
     "updated_at": "2026-10-18T02:05:37Z"
+  },
+  {
+    "id": "openai-hacked-using-claude-model",
+    "date": "2026-10-18",
+    "title": "Three hackers breach OpenAI using rival Anthropic's Claude model",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "US",
+    "region": "North America",
+    "target": "OpenAI",
+    "loss_usd": null,
+    "summary": "Three people reportedly used Anthropic's Claude to hack OpenAI, described as 'ethical' hacking. Headlines do not give technical detail, scope or what was accessed.",
+    "actor": "Three individuals (security researchers)",
+    "actor_type": "researcher",
+    "sector": "Technology & AI vendors",
+    "attribution": "Reported as a group of three people described as AI security experts; no names given in the headlines.",
+    "motive": "Apparently ethical hacking to expose frontier-lab security weaknesses.",
+    "vector": "Claude model used to find and exploit weaknesses in OpenAI systems; specifics unknown.",
+    "root_cause": "Unknown",
+    "impact": "Unknown; coverage says it shows frontier labs' vulnerabilities.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "confidence": 0.5,
+    "source": "CBS News",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1sYU85M1h2UmRpRWhzdWdqNGFrM0gycTJBR2YyMm80VU1MdTFuQUFieVFhb2hZV0tIM1RRc3RiV0JRWDJvbl9RQWNvMlRLMFJDRlg2Nm93TG0xbFZqekVVa1g4MVNtM3RFdm1OaGpJVEFRZkNGZGdmRWVfZzR6TVU?oc=5",
+    "sources": [
+      {
+        "name": "CBS News",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1sYU85M1h2UmRpRWhzdWdqNGFrM0gycTJBR2YyMm80VU1MdTFuQUFieVFhb2hZV0tIM1RRc3RiV0JRWDJvbl9RQWNvMlRLMFJDRlg2Nm93TG0xbFZqekVVa1g4MVNtM3RFdm1OaGpJVEFRZkNGZGdmRWVfZzR6TVU?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-18",
+        "event": "Reported by CBS News"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-18T06:05:37Z",
+    "wire_id": "b9b9ff949d98",
+    "first_seen": "2026-10-18T06:05:37Z",
+    "first_published": "2026-09-22T07:00:00Z",
+    "updated_at": "2026-10-18T06:05:37Z"
   }
 ]
