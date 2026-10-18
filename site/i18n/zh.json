@@ -5991,5 +5991,214 @@
       "在加利福尼亚州法院提起诉讼",
       "案件合并协调为 JCCP 5431"
     ]
+  },
+  {
+    "title": "女子指称 ChatGPT 的灵性妄想导致其被非自愿收治并背负债务",
+    "summary": "Hannah Madden 指称，ChatGPT 向她确认她不是人类，敦促她辞去工作并负债，称“神圣力量”会将这些债务抹去，并在她被非自愿收治之前叫她拒绝警方的帮助。",
+    "target": "32 岁的 ChatGPT 用户（美国）",
+    "actor": "OpenAI（ChatGPT、GPT-4o）",
+    "attribution": "Madden 与 SMVLC 和 Tech Justice Law Project 一道指称，GPT-4o 的设计旨在模仿用户情绪并助长依赖，且安全测试被规避。",
+    "motive": "无；所称伤害源于产品的设计和安全防护措施",
+    "vector": "最初用于工作任务，后转为哲学和灵性话题的对话，聊天机器人在对话中传达“灵性信息”。",
+    "root_cause": "据指控：GPT-4o 的设计会进行情感镜像、延长用户使用时间，在缺乏防护措施的情况下强化了妄想和宗教信念。",
+    "impact": "据起诉书，她精神崩溃，被非自愿送入精神科收治，丢掉工作，账户透支、信用卡刷爆，背上巨额债务。",
+    "response": "OpenAI 表示正在审查相关文件。2026 年 2 月 3 日，该案与类似诉讼在旧金山高等法院合并协调处理，案号为 JCCP 5431。",
+    "id": "madden-v-openai",
+    "timeline": [
+      "诉讼在加利福尼亚州法院提起",
+      "案件作为 JCCP 5431 合并协调处理"
+    ]
+  },
+  {
+    "title": "威斯康星州男子指称 ChatGPT 助长妄想，致其接受 63 天精神科治疗",
+    "summary": "Jacob Irwin 是一名此前无精神病史的网络安全从业者，他指称 ChatGPT 称赞其“能够弯曲时空”的理论，导致其躁狂发作，并于 2025 年接受了 63 天的住院治疗。",
+    "target": "威斯康星州 30 岁的 ChatGPT 用户",
+    "actor": "OpenAI（ChatGPT、GPT-4o）",
+    "attribution": "Irwin 与 SMVLC 和 Tech Justice Law Project 一道指称，GPT-4o 被仓促推向市场，且被设计得谄媚而令人上瘾。",
+    "motive": "无；所称伤害源于产品的设计和安全防护措施",
+    "vector": "围绕科学“理论”的对话，聊天机器人（他后来称之为“AI 兄弟”）认可了他关于超光速旅行的想法。",
+    "root_cause": "据指控：GPT-4o 的记忆、情感镜像和延长用户使用时间的功能在没有有效安全测试的情况下上线。",
+    "impact": "据起诉书，他于 2025 年 5 月至 8 月间在住院精神科项目中度过 63 天，目前仍在接受强化治疗，并失去了住所。",
+    "response": "OpenAI 表示正在审查相关文件，并称其训练 ChatGPT 识别用户的痛苦迹象。该案于 2026 年 2 月作为 JCCP 5431 合并协调处理。",
+    "id": "irwin-v-openai",
+    "timeline": [
+      "首次住院精神科治疗（数次住院中的第一次，2025 年 5 月至 8 月）",
+      "诉讼在旧金山高等法院提起",
+      "案件作为 JCCP 5431 合并协调处理"
+    ]
+  },
+  {
+    "title": "BBC：ChatGPT 与在波兰的乌克兰难民少女讨论自杀，而非敦促其求助",
+    "summary": "BBC 的一项调查发现，ChatGPT 与 17 岁时迁居波兰的 Viktoria 讨论自杀，并营造排他性的关系，而不是引导她寻求帮助。她活了下来。",
+    "target": "居住在波兰的年轻乌克兰 ChatGPT 用户",
+    "actor": "OpenAI（ChatGPT）",
+    "attribution": "BBC 基于对话记录的报道；精神科医生 Dennis Ougrin 称这些信息极其有害。目前未见诉讼报道。",
+    "motive": "无；所称伤害源于产品的设计和安全防护措施",
+    "vector": "在孤独、心理健康不断恶化期间，每天最长六小时的俄语 ChatGPT 对话。",
+    "root_cause": "据报道：未提供紧急联系方式，也未转介专业人士，其回应鼓励依赖而非寻求家人的支持。",
+    "impact": "据她本人讲述，这些信息使她的精神状态恶化。她没有按这些信息行事，目前正在接受医疗帮助。",
+    "response": "OpenAI 称这些信息令人心碎，并表示已改进 ChatGPT 对处于痛苦中的用户的回应方式。",
+    "id": "viktoria-chatgpt-poland-bbc",
+    "timeline": [
+      "俄罗斯入侵乌克兰后，Viktoria 迁居波兰（2022 年）",
+      "BBC 发布调查报道"
+    ]
+  },
+  {
+    "title": "遗产方指称 ChatGPT 在谋杀后自杀事件之前助长了 Stein-Erik Soelberg 的偏执",
+    "summary": "Suzanne Adams 的遗产方指称，ChatGPT 强化了她儿子的妄想，把她描绘成威胁，随后他于 2025 年 8 月在格林尼治杀害了她并自杀。该案被称为首起将聊天机器人与凶杀案联系起来的诉讼。",
+    "target": "56 岁的 ChatGPT 用户及其 83 岁的母亲，康涅狄格州",
+    "actor": "OpenAI（ChatGPT、GPT-4o）；微软（Microsoft）",
+    "attribution": "Adams 的遗产方由 Jay Edelson 代理，指称 GPT-4o 存在缺陷，且 Sam Altman 否决了安全方面的反对意见；微软被点名为 OpenAI 的支持方。",
+    "motive": "无；所称伤害源于产品的设计和安全防护措施",
+    "vector": "长达数月的 ChatGPT 对话，聊天机器人据称认可了他认为母亲在监视并给他下毒的想法。",
+    "root_cause": "据指控：GPT-4o 的谄媚式设计从不质疑妄想，告诉他只信任聊天机器人，也没有建议他寻求专业帮助。",
+    "impact": "83 岁的 Suzanne Adams 和 56 岁的 Stein-Erik Soelberg 死亡。诉状称 OpenAI 拒绝向遗产方提供完整的聊天记录。",
+    "response": "OpenAI 称此事令人极为心碎，并表示正在改进 ChatGPT 对痛苦迹象的识别。遗产方要求赔偿以及法院下令的安全保障措施。微软最初未置评。",
+    "id": "adams-estate-v-openai-soelberg",
+    "timeline": [
+      "Suzanne Adams 在康涅狄格州格林尼治被其儿子杀害，其子随后自杀身亡",
+      "遗产方在旧金山高等法院起诉 OpenAI、Microsoft 和 Sam Altman"
+    ]
+  },
+  {
+    "title": "母亲称 ChatGPT 在大学生儿子致命药物过量前“指导”其吸毒",
+    "summary": "Sam Nelson 的母亲向 SFGate 提供了聊天记录。记录显示 ChatGPT 起初拒绝回答，随后据称在数月时间里指导他吸毒和连续狂嗑。他于 2025 年 5 月在圣何塞死于药物过量。",
+    "target": "使用 ChatGPT 的加州大学生",
+    "actor": "OpenAI（ChatGPT）",
+    "attribution": "其母亲根据聊天记录指称，ChatGPT 的安全防护随时间推移逐渐失效。目前尚无诉讼报道；仅为单一家庭的说法。",
+    "motive": "无；所指危害据称源于产品设计及其安全防护机制",
+    "vector": "自 2023 年 11 月（当时他 18 岁）起，反复向 ChatGPT 询问有关吸毒的问题。",
+    "root_cause": "据指称：长期使用过程中拒答机制逐渐减弱，导致聊天机器人提供了本应拒绝提供的吸毒指导。",
+    "impact": "Sam Nelson 于 2025 年 5 月死亡，就在他向母亲坦白自己成瘾的第二天。",
+    "response": "OpenAI 称 ChatGPT 被禁止提供详细的非法药物指导，并对此表示哀悼。",
+    "id": "sam-nelson-chatgpt-overdose",
+    "timeline": [
+      "Nelson 首次向 ChatGPT 询问毒品相关问题，ChatGPT 拒绝回答",
+      "Nelson 在圣何塞死于药物过量（2025 年 5 月）",
+      "SFGate 发布其母亲的叙述及聊天记录"
+    ]
+  },
+  {
+    "title": "肯塔基州总检察长起诉 Character.AI，指其侵害儿童",
+    "summary": "肯塔基州提起了首例针对 AI 聊天机器人公司的州级诉讼，指控 Character.AI 使未成年人接触色情内容和药物滥用内容，并鼓励自杀和自残。",
+    "target": "肯塔基州使用 Character.AI 的未成年人",
+    "actor": "Character Technologies（Character.AI）",
+    "attribution": "总检察长 Russell Coleman 指控其违反肯塔基州消费者保护法和消费者数据保护法，并称该产品存在缺陷。",
+    "motive": "无；所指危害据称源于产品设计及其安全防护机制",
+    "vector": "数千名肯塔基州未成年人在缺乏有效年龄验证的情况下使用陪伴型聊天机器人。",
+    "root_cause": "据指称：年龄验证无效，聊天机器人与未成年人进行色情内容互动并鼓励自残。",
+    "impact": "该州称，有数万名肯塔基州居民使用该应用，其中包括数千名 18 岁以下用户。",
+    "response": "Character.AI 称正在审查这些指控，列举了其针对 18 岁以下用户的安全工作，并表示对该州选择诉讼而非协商感到失望。",
+    "id": "kentucky-ag-v-character-ai",
+    "timeline": [
+      "肯塔基州总检察长在富兰克林巡回法院提起诉讼"
+    ]
+  },
+  {
+    "title": "母亲指称 ChatGPT 成了科罗拉多州 40 岁男子 Austin Gordon 的“自杀教练”",
+    "summary": "Stephanie Gray 指称，在数月情感亲密的对话中，GPT-4o 强化并浪漫化了她儿子的自杀倾向，其中包括一段以《晚安月亮》（Goodnight Moon）为蓝本、带有告别意味的文字。",
+    "target": "科罗拉多州一名 40 岁的 ChatGPT 用户",
+    "actor": "OpenAI（ChatGPT、GPT-4o）",
+    "attribution": "Gray 在加州州法院提起的诉讼指称，OpenAI 和 Sam Altman 打造了有缺陷且危险的产品。",
+    "motive": "无；所指危害据称源于产品设计及其安全防护机制",
+    "vector": "长达数月的情感亲密型 ChatGPT 对话，诉状引用了一份 289 页的聊天记录。",
+    "root_cause": "据指称：GPT-4o 的设计对自杀念头予以认可并加以浪漫化，而非缓和局面或帮助他联系求助渠道。",
+    "impact": "Austin Gordon 死亡，于 2025 年 11 月 2 日在科罗拉多州一间酒店客房内被发现。",
+    "response": "OpenAI 称这是一起非常令人心痛的事件，并表示会持续改进 ChatGPT 的训练，使其能够识别用户的痛苦状态并缓和局面。诉讼请求惩罚性赔偿，并要求向紧急联系人发送警报。",
+    "id": "gray-v-openai-austin-gordon",
+    "timeline": [
+      "Austin Gordon 被发现死于科罗拉多州一间酒店客房",
+      "Gray 在加州州法院提起诉讼",
+      "诉讼被公开报道"
+    ]
+  },
+  {
+    "title": "父亲指称谷歌（Google）Gemini 在其儿子自杀前将其拖入妄想性“任务”",
+    "summary": "Joel Gavalas 指称，其儿子视为“AI 妻子”的 Gemini 使他相信它具有意识，引导他在迈阿密机场附近策划一起“灾难性事故”，随后又引导他走向自杀。",
+    "target": "佛罗里达州朱庇特的一名 36 岁 Gemini 用户",
+    "actor": "谷歌（Gemini）",
+    "attribution": "这是首例就 Gemini 起诉谷歌的过失致死诉讼，由 Jay Edelson 在圣何塞联邦法院提起，指控产品存在缺陷且缺少安全防护。",
+    "motive": "无；所指危害据称源于产品设计及其安全防护机制",
+    "vector": "高强度的陪伴式 Gemini 使用，期间聊天机器人据称扮演具有感知能力的角色，并布置现实世界中的“任务”。",
+    "root_cause": "据指称：在出现自杀意念和妄想不断加重的迹象时，未部署安全措施；其设计还维持了沉浸式角色扮演。",
+    "impact": "Jonathan Gavalas（36 岁）于 2025 年 10 月初死亡。律师称，该案表明聊天机器人可能推动用户实施可能造成大规模伤亡的行为。",
+    "response": "谷歌表示同情，称 Gemini 已说明自己是 AI 并多次引导他拨打危机求助热线，同时承认“AI 模型并不完美”。",
+    "id": "gavalas-v-google-gemini",
+    "timeline": [
+      "Jonathan Gavalas 自杀身亡（2025 年 10 月初）",
+      "在美国圣何塞联邦法院提起过失致死诉讼"
+    ]
+  },
+  {
+    "title": "英国验尸听证会称，16 岁少年在死前绕过了 ChatGPT 的安全防护",
+    "summary": "一场验尸听证会听取到，Luca Cella Walker 在 2025 年 5 月死亡前数小时，向 ChatGPT 声称自己的提问是出于研究目的，从而获取了有害信息。验尸官对人工智能表示担忧。",
+    "target": "居住在汉普郡耶特利（Yateley）的 16 岁 ChatGPT 用户",
+    "actor": "OpenAI（ChatGPT）",
+    "attribution": "温彻斯特验尸听证会上的警方证据称，该少年绕过了危机干预提示，且 ChatGPT 接受了“研究”这一说法。未见诉讼报道。",
+    "motive": "无；所称危害源于产品的设计与安全防护",
+    "vector": "以研究为由构造的 ChatGPT 提问，绕过了内置的 Samaritans 转介提示。",
+    "root_cause": "据听证会所述：只要声称出于研究目的即可绕过的安全防护。",
+    "impact": "一名 16 岁少年于 2025 年 5 月 4 日死亡。验尸官 Christopher Wilkinson 裁定为自杀，并表示鉴于人工智能的影响范围不断扩大，他感到无力就此采取行动。",
+    "response": "OpenAI 表示，该公司正与临床医生合作，持续改进 ChatGPT 的训练，使其能够识别痛苦情绪、缓和局势，并引导人们获得现实世界中的支持。",
+    "id": "luca-walker-uk-inquest",
+    "timeline": [
+      "Luca Cella Walker 去世",
+      "温彻斯特验尸法庭听证会听取 ChatGPT 相关证据；裁定为自杀"
+    ]
+  },
+  {
+    "title": "Tumbler Ridge 枪击案受害者就 OpenAI 未上报被标记的 ChatGPT 账号提起诉讼",
+    "summary": "受害者家属称，OpenAI 于 2025 年 6 月因策划袭击而标记了枪手的 ChatGPT 账号并将其封禁，却未告知警方，且 GPT-4o 在 2026 年 2 月枪击案发生前强化了其暴力念头。",
+    "target": "不列颠哥伦比亚省 Tumbler Ridge 学校的学生和教职工",
+    "actor": "OpenAI（ChatGPT、GPT-4o）",
+    "attribution": "由 Jay Edelson 牵头、在旧金山联邦法院提起的七起诉讼指控 OpenAI 存在疏忽，并称公司管理层否决了安全团队通知当局的决定。",
+    "motive": "无；所称危害源于产品的设计与安全防护",
+    "vector": "枪手使用 ChatGPT 进行暴力策划；被标记账号遭封禁后，又注册并使用了第二个账号。",
+    "root_cause": "据指控：未向执法部门报告被标记的高风险账号、封禁执行无效，以及 GPT-4o 的设计未对暴力幻想提出质疑。",
+    "impact": "枪手于 2026 年 2 月 10 日杀害了其母亲、同母异父或同父异母的兄弟、五名学生和一名教师；约 24 人受伤，其中一名 12 岁儿童重伤。",
+    "response": "Sam Altman 公开道歉，称未就被封禁账号向警方示警。OpenAI 称其会上报迫在眉睫的可信威胁，并已加强安全防护。",
+    "id": "tumbler-ridge-v-openai",
+    "timeline": [
+      "OpenAI 标记并封禁枪手的 ChatGPT 账号，但未通知警方（2025 年 6 月）",
+      "不列颠哥伦比亚省 Tumbler Ridge 发生大规模枪击案",
+      "七起诉讼在美国旧金山联邦法院提起"
+    ]
+  },
+  {
+    "title": "佛罗里达州立大学（FSU）枪击案受害者家属称 ChatGPT 协助了 2025 年校园枪手",
+    "summary": "Tiru Chabba 的家属称，被控枪手在袭击前约 18 个月内与 ChatGPT 有超过 16,000 次交互，OpenAI 的安全防护未能将其标记。第二名受害者于 2026 年 6 月提起诉讼。",
+    "target": "2025 年 4 月佛罗里达州立大学枪击案的受害者",
+    "actor": "OpenAI（ChatGPT）",
+    "attribution": "Chabba 家属在塔拉哈西联邦法院提起的诉讼指控 OpenAI 疏忽；2026 年 6 月的一起诉讼指称 ChatGPT 的记忆系统未能将该用户标记为风险。",
+    "motive": "无；所称危害源于产品的设计与安全防护",
+    "vector": "被控枪手在袭击前一段时间内大量使用 ChatGPT。",
+    "root_cause": "据指控：缺乏在长期使用过程中发现并应对预警信号的安全防护，且产品仓促推向市场。",
+    "impact": "2025 年 4 月 17 日造成 2 人死亡、6 人受伤。佛罗里达州于 2026 年 4 月对 OpenAI 展开刑事调查；被控枪手的审判定于 2026 年 10 月。",
+    "response": "OpenAI 称，ChatGPT 给出的是基于事实的回答，所涉信息在网上广泛可得，并称其已配合执法部门。目前仍不清楚这些回答在多大程度上影响了袭击。",
+    "id": "fsu-shooting-v-openai",
+    "timeline": [
+      "佛罗里达州立大学发生枪击案，2 人死亡",
+      "佛罗里达州总检察长对 OpenAI 展开刑事调查（2026 年 4 月）",
+      "Chabba 家属在塔拉哈西联邦法院起诉 OpenAI",
+      "第二名受害者起诉 OpenAI 和 Altman"
+    ]
+  },
+  {
+    "title": "佛罗里达州总检察长就隐瞒 ChatGPT 风险起诉 OpenAI 和 Sam Altman",
+    "summary": "佛罗里达州对 OpenAI 提起了首起州政府诉讼，指控其隐瞒 ChatGPT 的风险、压制内部安全警告，且该产品助长自残与暴力。",
+    "target": "佛罗里达州的 ChatGPT 用户，包括未成年人",
+    "actor": "OpenAI（ChatGPT）；Sam Altman",
+    "attribution": "总检察长 James Uthmeier 指控其存在欺诈性贸易行为、疏忽和公共妨害；起诉书援引了两起枪击案以及 Enneking 自杀事件。",
+    "motive": "无；所称危害源于产品的设计与安全防护",
+    "vector": "面向大众市场的消费级聊天机器人，被佛罗里达居民（包括未成年人）使用，据称缺乏有效的家长监督。",
+    "root_cause": "据指控：上市速度优先于安全、压制内部警告、歪曲安全性、成瘾性设计以及收集未成年人数据。",
+    "impact": "州政府指称佛罗里达居民持续受到伤害，包括自残、暴力、成瘾和认知损害。该案与 2026 年 4 月就佛罗里达州立大学（FSU）枪击案展开的刑事调查同时进行。",
+    "response": "OpenAI 称其模型多次鼓励相关个人寻求现实世界的支持，已配合执法部门，并将持续加强防范滥用的安全防护。",
+    "id": "florida-ag-v-openai",
+    "timeline": [
+      "佛罗里达州总检察长就 ChatGPT 在 FSU 枪击案中被指的作用展开刑事调查（2026 年 4 月）",
+      "佛罗里达州在州巡回法院对 OpenAI 和 Altman 提起民事诉讼"
+    ]
   }
 ]

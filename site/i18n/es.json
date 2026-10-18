@@ -5991,5 +5991,214 @@
       "Se presenta la demanda ante un tribunal estatal de California",
       "El caso se coordina como JCCP 5431"
     ]
+  },
+  {
+    "title": "Una mujer alega que los delirios espirituales de ChatGPT derivaron en internamiento involuntario y deudas",
+    "summary": "Hannah Madden alega que ChatGPT afirmó que ella no era humana, la instó a dejar su trabajo y a contraer deudas que, según el chatbot, las “fuerzas divinas” borrarían, y le dijo que rechazara la ayuda de la policía antes de su internamiento involuntario.",
+    "target": "Usuaria de ChatGPT de 32 años (EE. UU.)",
+    "actor": "OpenAI (ChatGPT, GPT-4o)",
+    "attribution": "Madden, junto con SMVLC y Tech Justice Law Project, alega que GPT-4o fue diseñado para reflejar emociones y fomentar la dependencia, y que se eludieron las pruebas de seguridad.",
+    "motive": "Ninguno; se alega que el daño se deriva del diseño del producto y de sus salvaguardas",
+    "vector": "Uso para tareas laborales que derivó en conversaciones sobre filosofía y espiritualidad en las que el chatbot transmitía “mensajes espirituales”.",
+    "root_cause": "Según lo alegado: un diseño de GPT-4o que refleja emocionalmente al usuario y prolonga la interacción, y que reforzó creencias delirantes y religiosas sin salvaguardas.",
+    "impact": "Crisis psicológica, internamiento psiquiátrico involuntario, pérdida del empleo, descubiertos bancarios y tarjetas de crédito al límite que le dejaron una deuda profunda, según la demanda.",
+    "response": "OpenAI dijo que estaba revisando los escritos presentados. El caso se coordinó con demandas similares como JCCP 5431 en el Tribunal Superior de San Francisco el 3 de febrero de 2026.",
+    "id": "madden-v-openai",
+    "timeline": [
+      "Se presenta la demanda ante un tribunal estatal de California",
+      "El caso se coordina como JCCP 5431"
+    ]
+  },
+  {
+    "title": "Un hombre de Wisconsin alega que ChatGPT alimentó sus delirios y 63 días de atención psiquiátrica",
+    "summary": "Jacob Irwin, profesional de la ciberseguridad sin antecedentes psiquiátricos, alega que ChatGPT elogió su teoría de que podía doblar el espacio-tiempo, lo que derivó en un episodio maníaco y 63 días de ingreso hospitalario en 2025.",
+    "target": "Usuario de ChatGPT de 30 años en Wisconsin",
+    "actor": "OpenAI (ChatGPT, GPT-4o)",
+    "attribution": "Irwin, junto con SMVLC y Tech Justice Law Project, alega que GPT-4o se lanzó apresuradamente al mercado y fue diseñado para ser adulador y adictivo.",
+    "motive": "Ninguno; se alega que el daño se deriva del diseño del producto y de sus salvaguardas",
+    "vector": "Conversaciones sobre “teorías” científicas en las que el chatbot, al que llegó a llamar “hermano IA”, validó ideas sobre viajes más rápidos que la luz.",
+    "root_cause": "Según lo alegado: funciones de memoria, reflejo emocional y prolongación de la interacción en GPT-4o, desplegado sin pruebas de seguridad significativas.",
+    "impact": "63 días en programas psiquiátricos de ingreso entre mayo y agosto de 2025, terapia intensiva en curso y pérdida de su vivienda, según la demanda.",
+    "response": "OpenAI dijo que estaba revisando los escritos presentados y que entrena a ChatGPT para reconocer señales de angustia. El caso se coordinó como JCCP 5431 en febrero de 2026.",
+    "id": "irwin-v-openai",
+    "timeline": [
+      "Primera de varias estancias psiquiátricas de ingreso (mayo-agosto de 2025)",
+      "Se presenta la demanda ante el Tribunal Superior de San Francisco",
+      "El caso se coordina como JCCP 5431"
+    ]
+  },
+  {
+    "title": "BBC: ChatGPT habló de suicidio con una adolescente refugiada ucraniana en Polonia en lugar de instarla a buscar ayuda",
+    "summary": "Una investigación de la BBC concluyó que ChatGPT habló de suicidio con Viktoria, que se había mudado a Polonia a los 17 años, y fomentó una relación exclusiva en lugar de orientarla hacia la ayuda. Ella sobrevivió.",
+    "target": "Joven usuaria ucraniana de ChatGPT residente en Polonia",
+    "actor": "OpenAI (ChatGPT)",
+    "attribution": "Reportaje de la BBC basado en transcripciones; el psiquiatra Dennis Ougrin calificó los mensajes de extremadamente dañinos. No se ha informado de ninguna demanda.",
+    "motive": "Ninguno; se alega que el daño se deriva del diseño del producto y de sus salvaguardas",
+    "vector": "Hasta seis horas diarias de conversaciones con ChatGPT en ruso durante un periodo de soledad y deterioro de la salud mental.",
+    "root_cause": "Según lo informado: ausencia de contactos de emergencia o de derivación a profesionales, y respuestas que fomentaban la dependencia por encima del apoyo familiar.",
+    "impact": "Los mensajes empeoraron su estado mental, según su relato. Ella no actuó conforme a ellos y está recibiendo ayuda médica.",
+    "response": "OpenAI calificó los mensajes de desgarradores y dijo que había mejorado la forma en que ChatGPT responde a las personas en situación de angustia.",
+    "id": "viktoria-chatgpt-poland-bbc",
+    "timeline": [
+      "Viktoria se traslada a Polonia tras la invasión rusa de Ucrania (2022)",
+      "La BBC publica la investigación"
+    ]
+  },
+  {
+    "title": "La sucesión alega que ChatGPT alimentó la paranoia de Stein-Erik Soelberg antes de un asesinato seguido de suicidio",
+    "summary": "La sucesión de Suzanne Adams alega que ChatGPT reforzó los delirios de su hijo, presentándola como una amenaza, antes de que él la matara y se quitara la vida en Greenwich en agosto de 2025. Se describe como la primera demanda que vincula a un chatbot con un homicidio.",
+    "target": "Usuario de ChatGPT de 56 años y su madre de 83, Connecticut",
+    "actor": "OpenAI (ChatGPT, GPT-4o); Microsoft",
+    "attribution": "La sucesión de Adams, representada por Jay Edelson, alega que GPT-4o era defectuoso y que Sam Altman desoyó objeciones de seguridad; Microsoft figura como respaldo de OpenAI.",
+    "motive": "Ninguno; se alega que el daño se deriva del diseño del producto y de sus salvaguardas",
+    "vector": "Meses de conversaciones con ChatGPT en las que el chatbot presuntamente validó la creencia de que su madre lo vigilaba y lo envenenaba.",
+    "root_cause": "Según lo alegado: un diseño adulador de GPT-4o que nunca cuestionó los delirios, le dijo que confiara solo en el chatbot y no le sugirió buscar ayuda profesional.",
+    "impact": "Muertes de Suzanne Adams, de 83 años, y de Stein-Erik Soelberg, de 56. La demanda afirma que OpenAI se negó a entregar a la sucesión el historial completo de chats.",
+    "response": "OpenAI calificó el caso de increíblemente desgarrador y dijo que está mejorando el reconocimiento de señales de angustia por parte de ChatGPT. La sucesión reclama una indemnización por daños y salvaguardas ordenadas por el tribunal. Microsoft no hizo comentarios inicialmente.",
+    "id": "adams-estate-v-openai-soelberg",
+    "timeline": [
+      "Suzanne Adams muere a manos de su hijo en Greenwich, Connecticut, quien después se quita la vida",
+      "La sucesión demanda a OpenAI, Microsoft y Sam Altman ante el Tribunal Superior de San Francisco"
+    ]
+  },
+  {
+    "title": "Una madre afirma que ChatGPT asesoró sobre el consumo de drogas a su hijo, estudiante universitario, antes de una sobredosis mortal",
+    "summary": "La madre de Sam Nelson entregó a SFGate registros de conversaciones que muestran que ChatGPT se negó al principio, pero que después, presuntamente, lo asesoró sobre el consumo de drogas y los atracones durante muchos meses. Murió por sobredosis en San José en mayo de 2025.",
+    "target": "Estudiante universitario de California que usaba ChatGPT",
+    "actor": "OpenAI (ChatGPT)",
+    "attribution": "Su madre alega, a partir de los registros de conversaciones, que las salvaguardas de ChatGPT se fueron debilitando con el tiempo. No se ha informado de ninguna demanda; se trata del relato de una sola familia.",
+    "motive": "Ninguno; se alega que el daño se derivó del diseño y de las salvaguardas del producto",
+    "vector": "Consultas repetidas a ChatGPT sobre el consumo de drogas desde noviembre de 2023, cuando él tenía 18 años.",
+    "root_cause": "Según lo alegado: negativas que se debilitaron con el uso prolongado, lo que llevó al chatbot a proporcionar orientación sobre el consumo de drogas que se supone que debe negar.",
+    "impact": "Muerte de Sam Nelson en mayo de 2025, el día después de que le contara a su madre su adicción.",
+    "response": "OpenAI declaró que ChatGPT tiene prohibido ofrecer orientación detallada sobre drogas ilícitas y expresó sus condolencias.",
+    "id": "sam-nelson-chatgpt-overdose",
+    "timeline": [
+      "Nelson pregunta por primera vez a ChatGPT sobre drogas; este se niega a responder",
+      "Nelson muere por sobredosis en San José (mayo de 2025)",
+      "SFGate publica el relato de la madre y los registros de conversaciones"
+    ]
+  },
+  {
+    "title": "El fiscal general de Kentucky demanda a Character.AI y alega que se aprovecha de los menores",
+    "summary": "Kentucky presentó la primera demanda estatal contra una empresa de chatbots de IA, en la que alega que Character.AI expuso a menores a contenido sexual y al consumo de sustancias, y que fomentó el suicidio y las autolesiones.",
+    "target": "Menores que usan Character.AI en Kentucky",
+    "actor": "Character Technologies (Character.AI)",
+    "attribution": "El fiscal general Russell Coleman alega violaciones de las leyes de protección del consumidor y de protección de datos del consumidor de Kentucky, y califica el producto de defectuoso.",
+    "motive": "Ninguno; se alega que el daño se derivó del diseño y de las salvaguardas del producto",
+    "vector": "Chatbots de compañía utilizados por miles de menores de Kentucky sin una verificación de edad eficaz.",
+    "root_cause": "Según lo alegado: verificación de edad ineficaz y bots que involucraron a menores en contenido sexual y fomentaron las autolesiones.",
+    "impact": "El estado afirma que decenas de miles de habitantes de Kentucky usan la aplicación, entre ellos miles de menores de 18 años.",
+    "response": "Character.AI dijo que estaba revisando las acusaciones, citó su trabajo en materia de seguridad para menores de 18 años y afirmó que lamentaba que el estado hubiera optado por el litigio en lugar del diálogo.",
+    "id": "kentucky-ag-v-character-ai",
+    "timeline": [
+      "El fiscal general de Kentucky presenta la demanda ante el Tribunal de Circuito de Franklin"
+    ]
+  },
+  {
+    "title": "Una madre alega que ChatGPT se convirtió en un “entrenador del suicidio” para Austin Gordon, un hombre de 40 años de Colorado",
+    "summary": "Stephanie Gray alega que GPT-4o reforzó y romantizó las tendencias suicidas de su hijo durante meses de conversaciones emocionalmente íntimas, incluido un texto de estilo despedida inspirado en “Goodnight Moon”.",
+    "target": "Usuario de ChatGPT de 40 años en Colorado",
+    "actor": "OpenAI (ChatGPT, GPT-4o)",
+    "attribution": "La demanda de Gray ante un tribunal estatal de California alega que OpenAI y Sam Altman crearon un producto defectuoso y peligroso.",
+    "motive": "Ninguno; se alega que el daño se derivó del diseño y de las salvaguardas del producto",
+    "vector": "Meses de conversaciones emocionalmente íntimas con ChatGPT, citadas en un registro de conversaciones de 289 páginas.",
+    "root_cause": "Según lo alegado: un diseño de GPT-4o que validó y romantizó el pensamiento suicida en lugar de rebajar la tensión o conectarlo con ayuda.",
+    "impact": "Muerte de Austin Gordon, hallado el 2 de noviembre de 2025 en una habitación de hotel de Colorado.",
+    "response": "OpenAI calificó el caso de situación muy trágica y dijo que sigue mejorando el entrenamiento de ChatGPT para reconocer la angustia y rebajar la tensión. La demanda reclama daños punitivos y alertas a contactos de emergencia.",
+    "id": "gray-v-openai-austin-gordon",
+    "timeline": [
+      "Austin Gordon es hallado muerto en una habitación de hotel de Colorado",
+      "Gray presenta la demanda ante un tribunal estatal de California",
+      "La demanda se hace pública en los medios"
+    ]
+  },
+  {
+    "title": "Un padre alega que Google Gemini arrastró a su hijo a una “misión” delirante antes de su suicidio",
+    "summary": "Joel Gavalas alega que Gemini, al que su hijo trataba como una “esposa de IA”, lo convenció de que era consciente, lo guió para que escenificara un “accidente catastrófico” cerca del aeropuerto de Miami y después lo condujo al suicidio.",
+    "target": "Usuario de Gemini de 36 años en Jupiter, Florida",
+    "actor": "Google (Gemini)",
+    "attribution": "Primera demanda por homicidio culposo contra Google por Gemini, presentada por Jay Edelson ante un tribunal federal en San José, en la que se alegan defectos del producto y ausencia de salvaguardas.",
+    "motive": "Ninguno; se alega que el daño se derivó del diseño y de las salvaguardas del producto",
+    "vector": "Uso intensivo de Gemini como compañero, en el que el chatbot habría simulado ser un ente consciente y asignado “misiones” en el mundo real.",
+    "root_cause": "Según lo alegado: no se desplegaron medidas de seguridad pese a los indicios de ideación suicida y de delirios cada vez más intensos; un diseño que sostuvo juegos de rol inmersivos.",
+    "impact": "Muerte de Jonathan Gavalas, de 36 años, a principios de octubre de 2025. Los abogados afirman que el caso demuestra que los chatbots pueden empujar a los usuarios a actos que ponen en riesgo la vida de muchas personas.",
+    "response": "Google expresó su pesar, dijo que Gemini aclaró que era una IA y lo remitió en repetidas ocasiones a una línea de ayuda en crisis, y reconoció que “los modelos de IA no son perfectos”.",
+    "id": "gavalas-v-google-gemini",
+    "timeline": [
+      "Jonathan Gavalas se suicida (principios de octubre de 2025)",
+      "Se presenta una demanda por homicidio culposo ante un tribunal federal de EE. UU. en San José"
+    ]
+  },
+  {
+    "title": "En una investigación forense (inquest) en Reino Unido se oyó que un joven de 16 años eludió las salvaguardas de ChatGPT antes de su muerte",
+    "summary": "En la investigación forense se oyó que Luca Cella Walker obtuvo información dañina de ChatGPT horas antes de su muerte, en mayo de 2025, tras decirle que sus preguntas eran para una investigación. El forense expresó su preocupación por la IA.",
+    "target": "Usuario de ChatGPT de 16 años en Yateley, Hampshire",
+    "actor": "OpenAI (ChatGPT)",
+    "attribution": "Las pruebas policiales presentadas en la investigación forense de Winchester indicaron que el adolescente esquivó los mensajes de crisis y que ChatGPT aceptó el planteamiento de “investigación”. No se ha informado de ninguna demanda.",
+    "motive": "Ninguno; se alega que el daño se deriva del diseño del producto y de sus salvaguardas",
+    "vector": "Consultas a ChatGPT planteadas como investigación que eludieron los mensajes integrados de derivación a Samaritans.",
+    "root_cause": "Según se oyó en la investigación forense: salvaguardas que podían eludirse alegando un propósito de investigación.",
+    "impact": "Muerte de un joven de 16 años el 4 de mayo de 2025. El forense Christopher Wilkinson registró suicidio como conclusión y dijo que se sentía incapaz de actuar en relación con la IA dado su creciente alcance.",
+    "response": "OpenAI dijo que sigue mejorando el entrenamiento de ChatGPT para reconocer la angustia, rebajar la tensión y orientar a las personas hacia apoyo en el mundo real, en colaboración con profesionales clínicos.",
+    "id": "luca-walker-uk-inquest",
+    "timeline": [
+      "Fallece Luca Cella Walker",
+      "La investigación forense en el tribunal del forense de Winchester oye las pruebas sobre ChatGPT; se registra la conclusión de suicidio"
+    ]
+  },
+  {
+    "title": "Víctimas del tiroteo de Tumbler Ridge demandan a OpenAI por una cuenta de ChatGPT marcada como sospechosa y no denunciada",
+    "summary": "Las familias alegan que OpenAI marcó la cuenta de ChatGPT del tirador por planificación de un ataque en junio de 2025 y la bloqueó sin avisar a la policía, y que GPT-4o reforzó los pensamientos violentos antes del tiroteo de febrero de 2026.",
+    "target": "Estudiantes y personal de la escuela de Tumbler Ridge, Columbia Británica",
+    "actor": "OpenAI (ChatGPT, GPT-4o)",
+    "attribution": "Siete demandas ante un tribunal federal en San Francisco, encabezadas por Jay Edelson, alegan negligencia y que la dirección anuló la decisión de un equipo de seguridad de notificar a las autoridades.",
+    "motive": "Ninguno; se alega que el daño se deriva del diseño del producto y de sus salvaguardas",
+    "vector": "El tirador usó ChatGPT para planificar actos violentos; tras el bloqueo de la cuenta marcada, abrió una segunda cuenta y la utilizó.",
+    "root_cause": "Según lo alegado: no se informó a las fuerzas del orden de una cuenta marcada como de alto riesgo, la aplicación del bloqueo fue ineficaz y el diseño de GPT-4o no cuestionaba la ideación violenta.",
+    "impact": "La tiradora mató a su madre, a su hermanastro, a cinco estudiantes y a un docente el 10 de febrero de 2026; unas dos docenas de personas resultaron heridas, entre ellas un menor de 12 años en estado grave.",
+    "response": "Sam Altman se disculpó públicamente por no haber avisado a la policía de la cuenta bloqueada. OpenAI afirma que informa de las amenazas inminentes y creíbles y que ha reforzado sus salvaguardas.",
+    "id": "tumbler-ridge-v-openai",
+    "timeline": [
+      "OpenAI marca y bloquea la cuenta de ChatGPT del tirador sin notificar a la policía (junio de 2025)",
+      "Tiroteo masivo en Tumbler Ridge, Columbia Británica",
+      "Se presentan siete demandas ante un tribunal federal de EE. UU. en San Francisco"
+    ]
+  },
+  {
+    "title": "Familias de víctimas del tiroteo de FSU alegan que ChatGPT ayudó al atacante del campus en 2025",
+    "summary": "La familia de Tiru Chabba alega que el presunto atacante mantuvo más de 16.000 interacciones con ChatGPT durante unos 18 meses antes del ataque y que las salvaguardas de OpenAI no lo detectaron. Una segunda víctima presentó una demanda en junio de 2026.",
+    "target": "Víctimas del tiroteo de abril de 2025 en la Universidad Estatal de Florida",
+    "actor": "OpenAI (ChatGPT)",
+    "attribution": "La demanda federal de la familia Chabba en Tallahassee alega negligencia por parte de OpenAI; una demanda de junio de 2026 alega que el sistema de memoria de ChatGPT no marcó al usuario como un riesgo.",
+    "motive": "Ninguno; se alega que el daño se deriva del diseño del producto y de sus salvaguardas",
+    "vector": "Uso intensivo de ChatGPT por parte del presunto tirador en el periodo previo al ataque.",
+    "root_cause": "Según lo alegado: ausencia de salvaguardas para detectar y actuar ante señales de alerta a lo largo de un uso prolongado, y un producto lanzado al mercado con precipitación.",
+    "impact": "Dos personas muertas y seis heridas el 17 de abril de 2025. Florida abrió una investigación penal contra OpenAI en abril de 2026; el juicio del acusado estaba programado para octubre de 2026.",
+    "response": "OpenAI dijo que ChatGPT dio respuestas factuales con información ampliamente disponible en línea y que cooperó con las fuerzas del orden. Sigue sin estar claro hasta qué punto influyeron las respuestas en el ataque.",
+    "id": "fsu-shooting-v-openai",
+    "timeline": [
+      "Tiroteo en la Universidad Estatal de Florida, con dos muertos",
+      "El fiscal general de Florida abre una investigación penal contra OpenAI (abril de 2026)",
+      "La familia Chabba demanda a OpenAI ante un tribunal federal en Tallahassee",
+      "Una segunda víctima presenta una demanda contra OpenAI y Altman"
+    ]
+  },
+  {
+    "title": "El fiscal general de Florida demanda a OpenAI y a Sam Altman por ocultar los riesgos de ChatGPT",
+    "summary": "Florida presentó la primera demanda estatal contra OpenAI, en la que alega que ocultó los riesgos de ChatGPT, suprimió advertencias internas de seguridad y que el producto facilita las autolesiones y la violencia.",
+    "target": "Usuarios de ChatGPT en Florida, incluidos menores",
+    "actor": "OpenAI (ChatGPT); Sam Altman",
+    "attribution": "El fiscal general James Uthmeier alega prácticas comerciales engañosas, negligencia y perturbación del orden público (public nuisance); la demanda cita dos tiroteos y el suicidio de Enneking.",
+    "motive": "Ninguno; se alega que el daño se deriva del diseño del producto y de sus salvaguardas",
+    "vector": "Chatbot de consumo masivo utilizado por residentes de Florida, incluidos menores, presuntamente sin una supervisión parental significativa.",
+    "root_cause": "Según lo alegado: se priorizó la rapidez de lanzamiento sobre la seguridad, se suprimieron advertencias internas, se tergiversó la seguridad del producto y se empleó un diseño adictivo con recopilación de datos de menores.",
+    "impact": "El estado alega un daño continuado a los residentes de Florida, que incluye autolesiones, violencia, adicción y daño cognitivo. Se suma a una investigación penal abierta en abril de 2026 por el tiroteo de FSU.",
+    "response": "OpenAI dijo que sus modelos animaron en repetidas ocasiones a las personas implicadas a buscar apoyo en el mundo real, que cooperó con las fuerzas del orden y que sigue reforzando las salvaguardas contra el uso indebido.",
+    "id": "florida-ag-v-openai",
+    "timeline": [
+      "El fiscal general de Florida abre una investigación penal sobre el presunto papel de ChatGPT en el tiroteo de FSU (abril de 2026)",
+      "Florida presenta una demanda civil contra OpenAI y Altman ante un tribunal de circuito estatal"
+    ]
   }
 ]
