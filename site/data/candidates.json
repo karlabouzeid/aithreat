@@ -2428,5 +2428,101 @@
     "first_seen": "2026-10-19T11:05:36Z",
     "first_published": "2026-10-19T10:43:48Z",
     "updated_at": "2026-10-19T11:05:36Z"
+  },
+  {
+    "id": "whatsapp-help-pages-meta-ai-prompt-leak",
+    "date": "2026-10-19",
+    "title": "WhatsApp help pages leak hidden Meta chatbot instructions",
+    "category": "Model & data leak",
+    "direction": "on-ai",
+    "severity": "low",
+    "country": "US",
+    "region": "North America",
+    "target": "Meta chatbot on WhatsApp",
+    "loss_usd": null,
+    "summary": "About 80 pages on WhatsApp's website exposed instructions written for its chatbot, including a 'WHAT NOT TO SAY' section. Meta says a bug caused the exposure.",
+    "actor": "Unknown",
+    "actor_type": "accident",
+    "sector": "Technology & AI vendors",
+    "attribution": "No attacker identified. Meta attributes the exposure to a bug, per WIRED.",
+    "motive": "Unknown",
+    "vector": "Chatbot instruction text published on public WhatsApp help pages.",
+    "root_cause": "Meta says a bug caused the chatbot's hidden instructions to appear on public help pages.",
+    "impact": "Roughly 80 pages exposed the internal chatbot instructions. No user data loss is reported.",
+    "response": "Meta says it was a bug. The summary does not say how or when it was fixed.",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.6,
+    "source": "WIRED Security",
+    "url": "https://www.wired.com/story/whatsapp-help-pages-leaked-hidden-instructions-for-a-meta-chatbot",
+    "sources": [
+      {
+        "name": "WIRED Security",
+        "url": "https://www.wired.com/story/whatsapp-help-pages-leaked-hidden-instructions-for-a-meta-chatbot"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-19",
+        "event": "Reported by WIRED Security"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-19T16:31:03Z",
+    "wire_id": "2a02b51e9ea4",
+    "first_seen": "2026-10-19T16:31:03Z",
+    "first_published": "2026-10-19T16:00:00Z",
+    "updated_at": "2026-10-19T16:31:03Z"
+  },
+  {
+    "id": "scammers-clone-sheriff-voice",
+    "date": "2026-10-19",
+    "title": "Scammers use AI-cloned voice of a sheriff to impersonate him",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "low",
+    "country": "US",
+    "region": "North America",
+    "target": "Sheriff impersonated; scam targets unspecified",
+    "loss_usd": null,
+    "summary": "Police say scammers used AI to clone a specific sheriff's voice and impersonate him. The summary gives no victim count or losses.",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "sector": "Individuals & consumers",
+    "attribution": "Unidentified scammers. Police are quoted by 404 Media.",
+    "motive": "Fraud",
+    "vector": "AI voice cloning of a sheriff's voice used to impersonate him.",
+    "root_cause": "Public voice samples can be cloned with AI to convincingly impersonate officials.",
+    "impact": "The sheriff's identity was abused. Losses and number of victims are not stated.",
+    "response": "Police have publicised the scam. No arrests are reported.",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.6,
+    "source": "404 Media",
+    "url": "https://www.404media.co/police-say-scammers-used-ai-to-clone-a-sheriffs-voice",
+    "sources": [
+      {
+        "name": "404 Media",
+        "url": "https://www.404media.co/police-say-scammers-used-ai-to-clone-a-sheriffs-voice"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-19",
+        "event": "Reported by 404 Media"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-19T16:31:03Z",
+    "wire_id": "3f65c4bbd1e8",
+    "first_seen": "2026-10-19T16:31:03Z",
+    "first_published": "2026-10-19T16:16:17Z",
+    "updated_at": "2026-10-19T16:31:03Z"
   }
 ]

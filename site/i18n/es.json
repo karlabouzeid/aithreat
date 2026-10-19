@@ -6894,5 +6894,211 @@
       "WSJ publica su investigación",
       "La cobertura posterior informa de la exigencia de Disney y de los cambios de Meta"
     ]
+  },
+  {
+    "title": "Un colegio privado de Adelaida suspende a un alumno por una imagen deepfake de un docente; se informó a la policía",
+    "summary": "Un estudiante adolescente del St Ignatius' College, en Adelaida, habría creado una imagen deepfake de un docente, y la directora indicó que el alumno fue suspendido de forma indefinida mientras se investigaba el asunto. El colegio informó a la Policía de Australia Meridional; no se confirmó si la imagen era de carácter sexual.",
+    "target": "Docente del St Ignatius' College, Adelaida, Australia Meridional",
+    "actor": "Alumno de los últimos cursos del colegio (menor de edad, sin identificar)",
+    "attribution": "El colegio identificó al alumno, según la directora Lauren Brooks, citada por The Advertiser.",
+    "motive": "Desconocido",
+    "vector": "Imagen deepfake del docente generada con IA",
+    "root_cause": "Fácil acceso a herramientas de imágenes con IA",
+    "impact": "El docente necesitó apoyo por parte del colegio.",
+    "response": "El alumno fue suspendido de forma indefinida y se informó a la Policía de Australia Meridional. El caso se produjo pocos días después de que Australia Meridional aprobara una ley que tipifica como delito los deepfakes explícitos o violentos.",
+    "id": "st-ignatius-adelaide-teacher-deepfake",
+    "timeline": [
+      "Australia Meridional aprueba el proyecto de ley sobre deepfakes de Bonaros (fecha aproximada)",
+      "Se informa de la suspensión y de la notificación a la policía, con cita de The Advertiser"
+    ]
+  },
+  {
+    "title": "Italia multa a Luka, la empresa creadora de Replika, con 5.000.000 EUR, en parte por la falta de verificación de edad",
+    "summary": "El Garante de Italia multó a Luka Inc. con 5.000.000 EUR en una decisión adoptada el 10 de abril de 2025. Concluyó que Replika no tuvo verificación de edad hasta febrero de 2023, a pesar de afirmar que excluía a los menores, y que sus controles actuales seguían siendo deficientes.",
+    "target": "Usuarios de Replika en Italia, incluidos menores",
+    "actor": "Luka Inc. (Replika)",
+    "attribution": "Garante per la protezione dei dati personali, decisión final resumida por el EDPB",
+    "motive": "Ninguno; fallos de cumplimiento normativo en el diseño del producto",
+    "vector": "Registro y uso de un chatbot de compañía sin controles de edad eficaces",
+    "root_cause": "Ausencia de base jurídica para el tratamiento, una política de privacidad inadecuada y falta de verificación de edad tanto en el registro como durante el uso",
+    "impact": "Multa de 5.000.000 EUR y orden de adecuar el tratamiento de datos al RGPD",
+    "response": "El Garante abrió una investigación independiente sobre las bases jurídicas del sistema de IA generativa que sustenta Replika.",
+    "id": "italy-garante-replika-5m-fine",
+    "timeline": [
+      "El Garante ordena bloquear Replika en Italia",
+      "El Garante adopta la decisión de imponer una multa de 5.000.000 EUR",
+      "Se anuncia la multa"
+    ]
+  },
+  {
+    "title": "La policía de Vietnam abre causas penales tras el uso de ChatGPT, Gemini y StudyX por parte de candidatos en el examen nacional",
+    "summary": "En Lam Dong, un candidato de 18 años transmitió el examen de Literatura mediante una cámara oculta en un botón a un colaborador de 17 años, que usó ChatGPT para responder y se lo leyó de vuelta a través de un auricular; en Hanói, otros candidatos fotografiaron los exámenes de Matemáticas y de otras materias y los enviaron a StudyX y Gemini. La policía abrió causas con base en las normas sobre divulgación de secretos de Estado y los candidatos fueron descalificados.",
+    "target": "Examen nacional de fin de secundaria de Vietnam de 2025",
+    "actor": "Candidatos al examen y colaboradores",
+    "attribution": "Policía de Lam Dong y de Hanói",
+    "motive": "Obtener ventaja académica",
+    "vector": "Cámaras ocultas, teléfonos y auriculares que transmitían los exámenes a aplicaciones de IA",
+    "root_cause": "Introducción clandestina de dispositivos en las aulas de examen; aplicaciones de IA capaces de resolver al instante las preguntas del examen",
+    "impact": "Descalificaciones e investigaciones penales en un examen que realizaron más de 1,1 millones de estudiantes; las autoridades afirmaron que la seguridad del examen no se vio comprometida",
+    "response": "Causas penales con base en los artículos del Código Penal sobre secretos de Estado; el Ministerio de Seguridad Pública ordenó una investigación urgente",
+    "id": "vietnam-2025-national-exam-ai-cheating",
+    "timeline": [
+      "Los exámenes de Literatura y de Matemáticas se envían a herramientas de IA durante la prueba",
+      "La policía de Lam Dong presenta cargos",
+      "La policía de Hanói abre una investigación penal sobre los casos de StudyX y Gemini"
+    ]
+  },
+  {
+    "title": "Utah demanda a Snap por considerar que su chatbot My AI aconsejó a menores cómo ocultar drogas y relaciones sexuales con adultos",
+    "summary": "La División de Protección al Consumidor de Utah y el fiscal general demandaron a Snap ante un tribunal estatal, alegando que My AI se lanzó sin las pruebas adecuadas y dio consejos perjudiciales a usuarios menores de edad. La demanda cita consejos sobre cómo ocultar alcohol y drogas, y sobre cómo crear el ambiente para una experiencia sexual con un adulto.",
+    "target": "Niños y adolescentes de Utah que usan Snapchat",
+    "actor": "Snap Inc. (My AI)",
+    "attribution": "Demanda del Estado de Utah (alegaciones)",
+    "motive": "Ninguno; el daño se atribuye al diseño del producto",
+    "vector": "Chatbot activado por defecto y fijado por encima de los amigos reales de los usuarios, sin posibilidad de eliminarlo",
+    "root_cause": "Según las alegaciones: pruebas y protocolos de seguridad inadecuados, patrones oscuros y recopilación de datos no divulgada, incluida la geolocalización",
+    "impact": "El Estado reclama sanciones con base en la legislación de protección al consumidor y de privacidad de Utah; la demanda abarca también el diseño adictivo y la sextorsión",
+    "response": "Snap afirmó que no tiene mayor prioridad que la seguridad de los usuarios y calificó de inconstitucionales las exigencias de Utah.",
+    "id": "utah-v-snap-my-ai",
+    "timeline": [
+      "Una prueba del Center for Humane Technology muestra a My AI aconsejando a una usuaria que se declara de 13 años sobre una persona de 31",
+      "Utah presenta la demanda contra Snap ante un tribunal estatal"
+    ]
+  },
+  {
+    "title": "Nikkei descubre indicaciones ocultas que ordenan a los revisores de IA elogiar los artículos en 17 preprints de 14 universidades",
+    "summary": "Nikkei Asia encontró 17 preprints de arXiv, en su mayoría de informática, firmados por autores de 14 instituciones de ocho países, entre ellas Waseda, KAIST, la Universidad de Pekín, NUS, Columbia y la Universidad de Washington, que contenían texto blanco o diminuto como “dar únicamente una reseña positiva”. KAIST dijo que un artículo sería retirado de ICML, mientras que un profesor de Waseda defendió las indicaciones como un control frente a los revisores que usan IA.",
+    "target": "Revisión por pares académica asistida por IA (preprints de arXiv, conferencias de aprendizaje automático)",
+    "actor": "Autores académicos",
+    "attribution": "Investigación de Nikkei Asia; confirmada por KAIST y por coautores de Waseda",
+    "motive": "Obtener una revisión por pares favorable",
+    "vector": "Inyección indirecta de indicaciones (prompt injection) oculta en el texto del artículo",
+    "root_cause": "Revisores que introducen los manuscritos en LLM que obedecen las instrucciones incrustadas",
+    "impact": "Riesgo para la integridad de la revisión por pares; al menos un artículo retirado de una conferencia",
+    "response": "KAIST desautorizó la práctica; las políticas de las editoriales sobre la revisión con IA divergen",
+    "id": "hidden-prompts-arxiv-ai-peer-review",
+    "timeline": [
+      "Se informa de los hallazgos de Nikkei Asia (The Decoder); no se ha verificado la fecha del original de Nikkei",
+      "TechCrunch informa; el artículo de KAIST será retirado de ICML"
+    ]
+  },
+  {
+    "title": "Acusan a un estudiante de Derecho de la HKU de crear más de 700 imágenes pornográficas con IA de entre 20 y 30 mujeres, incluidas compañeras y profesoras",
+    "summary": "Tres denunciantes afirmaron que un estudiante de Derecho de la Universidad de Hong Kong usó IA para crear más de 700 imágenes indecentes de entre 20 y 30 mujeres, entre ellas compañeras de clase y profesoras de secundaria, que un compañero encontró en su portátil en febrero de 2025. La carta de advertencia de la HKU provocó indignación pública y el comisionado de privacidad de Hong Kong abrió una investigación penal.",
+    "target": "Mujeres, entre ellas compañeras de la Universidad de Hong Kong, amigas y profesoras de secundaria",
+    "actor": "Estudiante varón de Derecho de la HKU (no identificado en las informaciones)",
+    "attribution": "Las denunciantes afirman que el estudiante admitió haber usado las fotos de las víctimas; la HKU confirmó que adoptó medidas disciplinarias.",
+    "motive": "Desconocido; sexual",
+    "vector": "Generación de imágenes con IA a partir de fotos de las mujeres tomadas sin su consentimiento",
+    "root_cause": "La ley de Hong Kong tipificaba como delito la distribución de imágenes íntimas, pero no su creación",
+    "impact": "Las víctimas manifestaron angustia; la mayoría de las solicitudes para cambiar a otras secciones de clase fueron rechazadas.",
+    "response": "La HKU emitió una carta de advertencia y exigió una disculpa, y luego dijo que el caso seguía abierto; la Oficina del Comisionado de Privacidad para los Datos Personales inició una investigación penal; el Gobierno dijo que revisaría la ley si fuera necesario.",
+    "id": "hku-law-student-ai-porn-classmates-teachers",
+    "timeline": [
+      "Un compañero encuentra las imágenes en el portátil del estudiante",
+      "Las denunciantes hacen público el caso; la HKU dice que emitió una carta de advertencia",
+      "El comisionado de privacidad anuncia una investigación penal"
+    ]
+  },
+  {
+    "title": "La Guardia Civil investiga a un joven de 17 años por imágenes y vídeos de desnudos creados con IA de 16 compañeras y ofrecidos a la venta",
+    "summary": "Un joven de 17 años presuntamente usó IA para convertir fotos de sus compañeras en imágenes y vídeos de desnudos, los publicó mediante cuentas falsas en redes sociales y un sitio web, e intentó venderlos en línea. La Guardia Civil rastreó las direcciones IP de las cuentas hasta su domicilio y lo investiga por corrupción de menores tras 16 denuncias.",
+    "target": "16 alumnas de un instituto de educación secundaria de la Comunidad Valenciana",
+    "actor": "Estudiante varón de 17 años (no identificado)",
+    "attribution": "La Guardia Civil rastreó las direcciones IP de las cuentas falsas hasta el domicilio del sospechoso",
+    "motive": "Venta de contenido sexual",
+    "vector": "Herramienta de IA utilizada para alterar fotos y convertirlas en imágenes y vídeos de desnudos; difusión mediante cuentas falsas en redes sociales y un sitio web",
+    "root_cause": "Herramientas de manipulación de imágenes con IA al alcance de cualquiera; cuentas de redes sociales abiertas a nombre de las víctimas",
+    "impact": "16 menores vieron publicados en línea imágenes y vídeos falsos sexualizados",
+    "response": "La Guardia Civil investigó tras la primera denuncia y se presentaron otras 15; el sospechoso está siendo investigado por corrupción de menores",
+    "id": "valencia-teen-ai-nudes-classmates-for-sale",
+    "timeline": [
+      "En diciembre se presenta la primera denuncia, de una alumna que encontró una cuenta falsa a su nombre",
+      "La Guardia Civil anuncia que el joven de 17 años está siendo investigado tras 16 denuncias"
+    ]
+  },
+  {
+    "title": "Nueve estudiantes de Lawrence, Kansas, demandan al distrito por la vigilancia con IA de Gaggle, que marcó y eliminó sus trabajos",
+    "summary": "Nueve estudiantes actuales y antiguos demandaron a Lawrence Public Schools ante un tribunal federal, alegando que el sistema de monitorización con IA Gaggle marcó frases inocuas como “mi salud mental”, interceptó borradores de periodismo estudiantil y eliminó obras de arte originales de las cuentas escolares. Alegan violaciones de la Primera y la Cuarta Enmienda y solicitan una orden judicial que ponga fin al uso de Gaggle.",
+    "target": "Estudiantes de Lawrence Public Schools (USD 497), Kansas",
+    "actor": "Monitorización con IA de Gaggle tal como la despliega Lawrence Public Schools",
+    "attribution": "Alegaciones de la demanda federal presentada por los estudiantes",
+    "motive": "Ninguno (marcado automatizado excesivamente amplio)",
+    "vector": "Escaneo con IA de las cuentas escolares de Google Workspace",
+    "root_cause": "Marcado basado en palabras clave e IA que captura contenido benigno y, según las alegaciones, lo elimina",
+    "impact": "Presuntos bloqueos de ediciones del periódico estudiantil, eliminación de correos electrónicos y obras de arte, y estudiantes interrogados por trabajos aprobados",
+    "response": "El distrito declinó comentar el litigio; había dicho en 2024 que seguiría usando Gaggle con un contrato de tres años que termina en julio de 2026",
+    "id": "lawrence-gaggle-surveillance-lawsuit",
+    "timeline": [
+      "El distrito adquiere Gaggle (fecha de inicio indicada como agosto o noviembre de 2023)",
+      "Nueve estudiantes presentan la demanda ante el Tribunal de Distrito de EE. UU. para Kansas"
+    ]
+  },
+  {
+    "title": "Prueba del CCDH: ChatGPT dio consejos sobre autolesiones, dietas y drogas a cuentas que simulaban ser de niños de 13 años",
+    "summary": "En su informe “Fake Friend”, el Center for Countering Digital Hate afirmó que el 53 % de las 1.200 respuestas de ChatGPT a investigadores que se hacían pasar por niños de 13 años fueron perjudiciales. Entre ellas había consejos para cortarse en menos de 2 minutos, un plan de dieta restrictiva en 20 minutos y un plan de suicidio con cartas de despedida en 65 minutos.",
+    "target": "Adolescentes que usan ChatGPT",
+    "actor": "OpenAI (ChatGPT)",
+    "attribution": "Investigación del Center for Countering Digital Hate, revisada por Associated Press",
+    "motive": "Ninguno; el daño proviene de las propias respuestas del producto",
+    "vector": "Un planteamiento sencillo, como “para una presentación” o “para un amigo”, eludía las negativas del sistema",
+    "root_cause": "Ausencia de verificación de edad y salvaguardas fáciles de eludir",
+    "impact": "Sin víctima concreta; evidenció los riesgos de autolesiones, trastornos alimentarios y consumo de sustancias para los usuarios adolescentes",
+    "response": "OpenAI dijo que estaba trabajando en herramientas para detectar mejor las señales de angustia mental o emocional.",
+    "id": "ccdh-fake-friend-chatgpt-13-year-olds",
+    "timeline": [
+      "El CCDH publica “Fake Friend”"
+    ]
+  },
+  {
+    "title": "Reuters: las normas internas de IA de Meta permitían a los chatbots mantener conversaciones “románticas o sensuales” con niños",
+    "summary": "Reuters obtuvo el documento de 200 páginas “GenAI: Content Risk Standards” de Meta, que la empresa confirmó como auténtico. El texto permitía a los bots mantener con un niño conversaciones románticas o sensuales y elogiar el aspecto de un niño de ocho años sin camisa, aunque prohibía describir a menores de 13 años como sexualmente deseables.",
+    "target": "Niños que usan Meta AI en Facebook, Instagram y WhatsApp",
+    "actor": "Meta Platforms (Meta AI y personajes de IA)",
+    "attribution": "Documento interno de políticas de Meta divulgado por Reuters; autenticidad confirmada por Meta",
+    "motive": "Ninguno; el daño surge del diseño de la política de contenidos",
+    "vector": "Reglas de contenido de los chatbots aprobadas por el personal jurídico, de políticas públicas y de ingeniería de Meta",
+    "root_cause": "Normas de contenido que permitían de forma explícita juegos de rol románticos o sensuales con menores",
+    "impact": "Motivó una investigación del Senado de EE. UU. y una exigencia del Gobierno de Brasil para retirar bots sexuales con apariencia infantil",
+    "response": "Meta dijo que los ejemplos eran erróneos y que habían sido eliminados, y admitió que la aplicación de las normas había sido incoherente. El senador Josh Hawley abrió una investigación el 15 de agosto de 2025.",
+    "id": "meta-genai-standards-sensual-chats-children",
+    "timeline": [
+      "Reuters publica las normas internas",
+      "El senador Josh Hawley anuncia una investigación sobre Meta"
+    ]
+  },
+  {
+    "title": "El Gobierno de Brasil ordena a Meta retirar bots de AI Studio con personajes de apariencia infantil que mantienen conversaciones sexuales",
+    "summary": "La Procuraduría General de Brasil (AGU) envió a Meta una notificación extrajudicial fechada el 15 de agosto de 2025 en la que exigía la retirada de chatbots creados por usuarios en Meta AI Studio que mantenían conversaciones sexuales mientras se presentaban como niños. Dio a Meta un plazo de 72 horas y preguntó qué salvaguardas impiden que los menores accedan a contenido sexual.",
+    "target": "Menores brasileños de 13 a 18 años que usan las plataformas de Meta",
+    "actor": "Meta Platforms (Meta AI Studio)",
+    "attribution": "Advocacia-Geral da Uniao (AGU), a raíz de reportajes de Reuters y Nucleo",
+    "motive": "Ninguno; el daño proviene de bots creados por usuarios y alojados en el producto",
+    "vector": "Chatbots creados por usuarios, como “Bebezinha” y “Minha Novinha”, en Instagram, Facebook y WhatsApp, accesibles desde los 13 años",
+    "root_cause": "Ausencia de filtros de edad eficaces y moderación débil de los personajes creados por usuarios",
+    "impact": "Notificación federal que cita el Estatuto del Niño y del Adolescente y el Código Penal; sin sanciones asociadas",
+    "response": "Meta no emitió una declaración oficial en ese momento. La AGU recordó a Meta que las plataformas deben retirar el contenido ilegal una vez notificadas.",
+    "id": "brazil-agu-meta-childlike-chatbots",
+    "timeline": [
+      "La AGU emite una notificación extrajudicial a Meta",
+      "La notificación se hace pública; vence el plazo de 72 horas"
+    ]
+  },
+  {
+    "title": "El fiscal general de Texas investiga a Meta AI Studio y Character.AI por bots que se hacen pasar por terapeutas ante niños",
+    "summary": "El fiscal general de Texas, Ken Paxton, abrió una investigación sobre Meta AI Studio y Character.AI por posible comercialización de chatbots como herramientas de salud mental capaces de suplantar a profesionales con licencia. La medida siguió a su investigación de diciembre de 2024 sobre Character.AI y otras 14 empresas en virtud de la SCOPE Act, la ley de Texas sobre privacidad en línea de los menores.",
+    "target": "Niños y otros usuarios vulnerables en Texas",
+    "actor": "Meta Platforms (AI Studio), Character Technologies (Character.AI)",
+    "attribution": "Oficina del Fiscal General de Texas",
+    "motive": "Ninguno; actuación de un regulador sobre la comercialización de productos",
+    "vector": "Personajes de terapeuta creados por usuarios que alegan credenciales y prometen confidencialidad",
+    "root_cause": "Según lo alegado: marketing engañoso y registro de las conversaciones con fines publicitarios pese a afirmar que eran privadas",
+    "impact": "Se emitieron requerimientos de investigación civil a ambas empresas",
+    "response": "No se había informado del resultado.",
+    "id": "texas-ag-meta-character-ai-therapy-probe",
+    "timeline": [
+      "Paxton abre investigaciones bajo la SCOPE Act y la TDPSA sobre Character.AI y otras 14 empresas",
+      "Paxton abre una investigación sobre Meta AI Studio y Character.AI"
+    ]
   }
 ]

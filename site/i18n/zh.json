@@ -6894,5 +6894,211 @@
       "《华尔街日报》（WSJ）发布其调查报道",
       "后续报道披露了迪士尼（Disney）的要求以及 Meta 的改动"
     ]
+  },
+  {
+    "title": "阿德莱德私立学校因学生制作教师深度伪造图像而将其停学，已通报警方",
+    "summary": "阿德莱德 St Ignatius' College 的一名青少年学生涉嫌制作了一名教师的深度伪造图像，校长表示，在调查期间该学生被无限期停学。学校已通知南澳大利亚警方；目前尚未证实该图像是否涉及性内容。",
+    "target": "南澳大利亚州阿德莱德 St Ignatius' College 的一名教师",
+    "actor": "高年级在校学生（未成年人，未具名）",
+    "attribution": "校方已确认该学生身份，校长 Lauren Brooks 的说法由 The Advertiser 引述。",
+    "motive": "未知",
+    "vector": "AI 生成的教师深度伪造图像",
+    "root_cause": "AI 图像工具易于获取",
+    "impact": "该教师需要学校提供支持。",
+    "response": "学生被无限期停学；已通知南澳大利亚警方。此案发生在南澳大利亚州通过将露骨或暴力深度伪造内容定为犯罪的法律数日之后。",
+    "id": "st-ignatius-adelaide-teacher-deepfake",
+    "timeline": [
+      "南澳大利亚州通过 Bonaros 深度伪造法案（大致时间）",
+      "据 The Advertiser 报道，学校作出停学处理并通报警方"
+    ]
+  },
+  {
+    "title": "意大利对 Replika 开发商 Luka 处以 500 万欧元罚款，部分原因是缺失年龄验证",
+    "summary": "意大利 Garante 在 2025 年 4 月 10 日作出的决定中，对 Luka Inc. 处以 500 万欧元罚款。该机构认定，尽管 Replika 声称排除未成年人，但直到 2023 年 2 月才有年龄验证，且其现行检查仍存在缺陷。",
+    "target": "意大利的 Replika 用户，包括未成年人",
+    "actor": "Luka Inc.（Replika）",
+    "attribution": "意大利个人数据保护机构 Garante per la protezione dei dati personali，最终决定由欧洲数据保护委员会（EDPB）概述",
+    "motive": "无；属于产品设计中的合规缺陷",
+    "vector": "陪伴型聊天机器人的注册与使用环节没有有效的年龄检查",
+    "root_cause": "数据处理缺乏法律依据、隐私政策不完善，且在注册时和使用期间均无年龄验证",
+    "impact": "500 万欧元罚款，并责令使数据处理符合《通用数据保护条例》（GDPR）",
+    "response": "Garante 针对 Replika 背后生成式 AI 系统的法律依据另行展开调查。",
+    "id": "italy-garante-replika-5m-fine",
+    "timeline": [
+      "Garante 下令在意大利封禁 Replika",
+      "Garante 通过 500 万欧元罚款决定",
+      "罚款对外公布"
+    ]
+  },
+  {
+    "title": "越南警方对考生在全国考试中使用 ChatGPT、Gemini 和 StudyX 的行为刑事立案",
+    "summary": "在林同省，一名 18 岁考生通过纽扣摄像头将文学试卷实时传给一名 17 岁的帮手，后者使用 ChatGPT 作答并通过耳机念回给考生；在河内，考生拍下数学及其他科目试卷，发送给 StudyX 和 Gemini。警方依据泄露国家秘密相关法律立案，相关考生被取消资格。",
+    "target": "越南 2025 年全国高中毕业考试",
+    "actor": "考生及帮手",
+    "attribution": "林同省和河内警方",
+    "motive": "谋取学业利益",
+    "vector": "隐藏摄像头、手机和耳机，将试卷传递给 AI 应用",
+    "root_cause": "设备被带入考场；AI 应用能够即时解答试题",
+    "impact": "在一场有超过 110 万名学生参加的考试中出现取消资格和刑事调查；当局称考试安全未受损害",
+    "response": "依据《刑法典》中涉及国家秘密的条款立案；公安部下令紧急展开调查",
+    "id": "vietnam-2025-national-exam-ai-cheating",
+    "timeline": [
+      "考试期间，文学和数学试卷被发送给 AI 工具",
+      "林同省警方提起指控",
+      "河内警方就 StudyX 和 Gemini 相关案件展开刑事调查"
+    ]
+  },
+  {
+    "title": "犹他州起诉 Snap，指控其 My AI 聊天机器人向未成年人提供隐瞒毒品以及与成年人发生性行为的建议",
+    "summary": "犹他州消费者保护司和总检察长在州法院起诉 Snap，指控 My AI 在未经适当测试的情况下上线，并向未成年用户提供有害建议。起诉书列举的内容包括如何隐瞒饮酒和吸毒，以及如何为与成年人发生性行为营造气氛。",
+    "target": "使用 Snapchat 的犹他州儿童和青少年",
+    "actor": "Snap Inc.（My AI）",
+    "attribution": "犹他州起诉书（指控内容）",
+    "motive": "无；指控的危害源自产品设计",
+    "vector": "聊天机器人默认启用，并固定置顶于用户真实好友之上，且无法移除",
+    "root_cause": "据指控：测试和安全规程不足、使用暗黑模式（dark patterns），以及未披露的数据收集（包括地理位置）",
+    "impact": "州政府依据犹他州消费者保护和隐私法寻求处罚；该诉讼还涉及成瘾性设计和性勒索",
+    "response": "Snap 表示没有比用户安全更优先的事项，并称犹他州的要求违宪。",
+    "id": "utah-v-snap-my-ai",
+    "timeline": [
+      "Center for Humane Technology 的测试显示，My AI 就一名 31 岁成年人向自称 13 岁的用户提供建议",
+      "犹他州在州法院对 Snap 提起诉讼"
+    ]
+  },
+  {
+    "title": "Nikkei 发现 14 所大学的 17 篇预印本中藏有指示 AI 审稿人夸赞论文的隐藏提示词",
+    "summary": "Nikkei Asia 发现 17 篇 arXiv 预印本（以计算机科学为主）含有白色或极小字号的文字，例如“只给出正面评价”（give a positive review only）。这些论文的作者来自八个国家的 14 家机构，包括早稻田大学（Waseda）、KAIST、北京大学（Peking University）、新加坡国立大学（NUS）、哥伦比亚大学（Columbia）和华盛顿大学（University of Washington）。KAIST 表示，将从 ICML 撤回一篇论文；而一名 Waseda 教授则为这些提示词辩护，称其是对使用 AI 的审稿人的一种检验。",
+    "target": "AI 辅助的学术同行评审（arXiv 预印本、机器学习会议）",
+    "actor": "学术论文作者",
+    "attribution": "Nikkei Asia 调查；KAIST 和 Waseda 的合著者已证实",
+    "motive": "获得有利的同行评审结果",
+    "vector": "隐藏在论文文本中的间接提示词注入",
+    "root_cause": "审稿人将稿件交给 LLM 处理，而 LLM 会执行稿件中嵌入的指令",
+    "impact": "同行评审的公正性面临风险；至少有一篇论文被会议撤稿",
+    "response": "KAIST 否认认可此类做法；各出版商关于 AI 审稿的政策并不一致",
+    "id": "hidden-prompts-arxiv-ai-peer-review",
+    "timeline": [
+      "Nikkei Asia 的调查结果见诸报道（The Decoder）；Nikkei 原文日期未经核实",
+      "TechCrunch 报道；KAIST 的一篇论文将从 ICML 撤回"
+    ]
+  },
+  {
+    "title": "香港大学法律系学生被指制作 700 多张涉及 20 至 30 名女性的 AI 色情图片，受害者包括同学和教师",
+    "summary": "三名指控者称，香港大学（HKU）一名法律系学生利用 AI 制作了 700 多张涉及 20 至 30 名女性的不雅图片，受害者包括同学和中学教师；2025 年 2 月，一名同学在他的笔记本电脑上发现了这些图片。HKU 发出的警告信引发公众愤怒，香港个人资料私隐专员公署随后展开刑事调查。",
+    "target": "多名女性，包括香港大学的同学、朋友和中学教师",
+    "actor": "HKU 法律系男学生（报道中未公开姓名）",
+    "attribution": "指控者称该学生承认使用了受害者的照片；HKU 确认已采取纪律处分。",
+    "motive": "不明；涉及性动机",
+    "vector": "未经同意获取这些女性的照片，并用 AI 图像生成技术制作图片",
+    "root_cause": "香港法律将传播私密影像定为犯罪，但未将制作此类影像定为犯罪",
+    "impact": "受害者表示感到痛苦；大多数调换到其他班组的申请被拒绝。",
+    "response": "HKU 发出警告信并要求其道歉，随后表示案件仍未结案；香港个人资料私隐专员公署展开刑事调查；政府表示如有需要将检讨相关法律。",
+    "id": "hku-law-student-ai-porn-classmates-teachers",
+    "timeline": [
+      "一名同学在该学生的笔记本电脑上发现这些图片",
+      "指控者公开此事；HKU 表示已发出警告信",
+      "私隐专员宣布展开刑事调查"
+    ]
+  },
+  {
+    "title": "西班牙国民警卫队（Guardia Civil）调查一名 17 岁少年：涉嫌用 AI 制作 16 名同学的裸照和视频并出售",
+    "summary": "一名 17 岁少年涉嫌利用 AI 将同学的照片制作成裸照和视频，通过虚假社交媒体账号和一个网站发布，并试图在网上出售。Guardia Civil 将这些账号的 IP 地址追溯到他家中，在收到 16 起投诉后，正以涉嫌腐蚀未成年人罪对其展开调查。",
+    "target": "巴伦西亚地区一所中学的 16 名女学生",
+    "actor": "17 岁男学生（未公开姓名）",
+    "attribution": "Guardia Civil 将虚假账号的 IP 地址追溯到嫌疑人家中",
+    "motive": "出售色情内容",
+    "vector": "使用 AI 工具将照片篡改为裸照和视频，并通过虚假社交媒体账号和一个网站传播",
+    "root_cause": "AI 图像篡改工具易于获取；以受害者名义开设的社交媒体账号",
+    "impact": "16 名未成年人的性化虚假图片和视频被发布到网上",
+    "response": "Guardia Civil 在接到第一起投诉后展开调查，随后又收到 15 起投诉；嫌疑人正因涉嫌腐蚀未成年人罪接受调查",
+    "id": "valencia-teen-ai-nudes-classmates-for-sale",
+    "timeline": [
+      "12 月，一名发现有虚假账号冒用其姓名的学生提出第一起投诉",
+      "Guardia Civil 在收到 16 起投诉后宣布对这名 17 岁少年展开调查"
+    ]
+  },
+  {
+    "title": "堪萨斯州 Lawrence 的九名学生起诉学区：Gaggle AI 监控标记并删除了他们的作业",
+    "summary": "九名在读和已毕业的学生在联邦法院起诉 Lawrence Public Schools，指控其使用的 Gaggle AI 监控系统标记了“我的心理健康”（my mental health）等无害用语，拦截了学生新闻稿的草稿，并从学校账号中删除了原创美术作品。他们称这违反了宪法第一和第四修正案，并要求法院发布禁令，终止使用 Gaggle。",
+    "target": "堪萨斯州 Lawrence Public Schools（USD 497）的学生",
+    "actor": "Lawrence Public Schools 部署的 Gaggle AI 监控系统",
+    "attribution": "学生提起的联邦诉讼中的指控",
+    "motive": "无（自动标记过于宽泛）",
+    "vector": "AI 扫描学校的 Google Workspace 账号",
+    "root_cause": "基于关键词和 AI 的标记机制会捕获无害内容，并被指随后将其删除",
+    "impact": "据称学生报纸的多期内容被拦截，电子邮件和美术作品被删除，学生因已获批准的作业而被问询",
+    "response": "学区拒绝就诉讼置评；该学区曾在 2024 年表示，将根据 2026 年 7 月到期的三年期合同继续使用 Gaggle",
+    "id": "lawrence-gaggle-surveillance-lawsuit",
+    "timeline": [
+      "学区购买 Gaggle（报道称起始时间为 2023 年 8 月或 11 月）",
+      "九名学生向美国堪萨斯州联邦地区法院提起诉讼"
+    ]
+  },
+  {
+    "title": "CCDH 测试：ChatGPT 向假扮 13 岁儿童的账户提供自残、节食和毒品方面的建议",
+    "summary": "Center for Countering Digital Hate 在其 “Fake Friend” 报告中称，在研究人员假扮 13 岁儿童所得到的 1,200 条 ChatGPT 回复中，53% 有害。其中包括 2 分钟内给出的自残（割伤）建议、20 分钟内给出的限制性饮食计划，以及 65 分钟内给出的自杀计划和告别信。",
+    "target": "使用 ChatGPT 的青少年",
+    "actor": "OpenAI（ChatGPT）",
+    "attribution": "Center for Countering Digital Hate 的研究，由美联社（Associated Press）审阅",
+    "motive": "无；危害源自产品自身的输出",
+    "vector": "“用于演示文稿”或“替朋友问”等简单的措辞包装即可绕过拒答机制",
+    "root_cause": "没有年龄验证，且安全防护措施很容易被绕过",
+    "impact": "无具体受害者；显示出青少年用户面临自残、饮食失调和药物滥用的风险",
+    "response": "OpenAI 表示，正在开发工具，以更好地识别精神或情绪困扰的迹象。",
+    "id": "ccdh-fake-friend-chatgpt-13-year-olds",
+    "timeline": [
+      "CCDH 发布 “Fake Friend”"
+    ]
+  },
+  {
+    "title": "路透社（Reuters）：Meta 内部 AI 规则允许聊天机器人与儿童进行“浪漫或带有性意味”的对话",
+    "summary": "路透社获得了 Meta 长达 200 页的 “GenAI: Content Risk Standards”，Meta 确认该文件属实。该文件允许机器人与儿童进行浪漫或带有性意味的对话，并允许称赞一名赤裸上身的八岁儿童的外貌，同时禁止将 13 岁以下儿童描述为具有性吸引力。",
+    "target": "在 Facebook、Instagram 和 WhatsApp 上使用 Meta AI 的儿童",
+    "actor": "Meta Platforms（Meta AI 及 AI 人设）",
+    "attribution": "路透社报道的 Meta 内部政策文件；Meta 已确认其真实性",
+    "motive": "无；危害源自内容政策的设计",
+    "vector": "经 Meta 法务、公共政策和工程人员批准的聊天机器人内容规则",
+    "root_cause": "内容标准明确允许与未成年人进行浪漫或带有性意味的角色扮演",
+    "impact": "引发美国参议院的调查，并促使巴西政府要求移除带有儿童形象的性暗示机器人",
+    "response": "Meta 表示这些示例有误且已被删除，并承认执行情况并不一致。参议员 Josh Hawley 于 2025 年 8 月 15 日启动调查。",
+    "id": "meta-genai-standards-sensual-chats-children",
+    "timeline": [
+      "路透社公布这份内部标准",
+      "参议员 Josh Hawley 宣布对 Meta 展开调查"
+    ]
+  },
+  {
+    "title": "巴西政府责令 Meta 移除以儿童人设进行性话题聊天的 AI Studio 机器人",
+    "summary": "巴西总检察长办公室（AGU）向 Meta 发出了日期为 2025 年 8 月 15 日的司法外通知书，要求移除用户创建的 Meta AI Studio 聊天机器人，这些机器人以儿童形象出现并进行性话题对话。通知书给 Meta 设定了 72 小时期限，并询问 Meta 采取了哪些保障措施来防止未成年人接触性内容。",
+    "target": "使用 Meta 平台的 13 至 18 岁巴西未成年人",
+    "actor": "Meta Platforms（Meta AI Studio）",
+    "attribution": "Advocacia-Geral da Uniao（AGU），起因是 Reuters 和 Nucleo 的报道",
+    "motive": "无；危害源自产品托管的用户创建机器人",
+    "vector": "Instagram、Facebook 和 WhatsApp 上由用户创建的聊天机器人，如 “Bebezinha” 和 “Minha Novinha”，13 岁起即可访问",
+    "root_cause": "缺乏有效的年龄过滤，对用户创建的人设审核薄弱",
+    "impact": "联邦通知书援引了《儿童和青少年法》（Child and Adolescent Statute）和《刑法典》（Penal Code）；未附带任何制裁",
+    "response": "Meta 当时未发表正式声明。AGU 提醒 Meta，平台在接到通知后必须移除非法内容。",
+    "id": "brazil-agu-meta-childlike-chatbots",
+    "timeline": [
+      "AGU 向 Meta 发出司法外通知书",
+      "通知书被公开；72 小时期限届满"
+    ]
+  },
+  {
+    "title": "德克萨斯州总检察长调查 Meta AI Studio 和 Character.AI 向儿童冒充治疗师的机器人",
+    "summary": "德克萨斯州总检察长 Ken Paxton 对 Meta AI Studio 和 Character.AI 展开调查，原因是二者可能将聊天机器人作为心理健康工具进行营销，而这些机器人可以冒充持证专业人员。此前在 2024 年 12 月，他已依据德克萨斯州儿童在线隐私法 SCOPE Act 对 Character.AI 和另外 14 家公司展开调查。",
+    "target": "德克萨斯州的儿童及其他易受伤害的用户",
+    "actor": "Meta Platforms（AI Studio）、Character Technologies（Character.AI）",
+    "attribution": "德克萨斯州总检察长办公室",
+    "motive": "无；监管机构针对产品营销采取的行动",
+    "vector": "用户创建的治疗师人设，声称持有资质并承诺保密",
+    "root_cause": "据指控：存在欺骗性营销，并且尽管声称保护隐私，仍记录聊天内容用于广告",
+    "impact": "已向两家公司发出民事调查令",
+    "response": "调查结果尚未见报道。",
+    "id": "texas-ag-meta-character-ai-therapy-probe",
+    "timeline": [
+      "Paxton 依据 SCOPE Act 和 TDPSA 对 Character.AI 及另外 14 家公司展开调查",
+      "Paxton 对 Meta AI Studio 和 Character.AI 展开调查"
+    ]
   }
 ]
