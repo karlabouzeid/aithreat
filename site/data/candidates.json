@@ -2248,5 +2248,50 @@
     "first_seen": "2026-10-19T07:35:37Z",
     "first_published": "2026-10-19T06:02:58Z",
     "updated_at": "2026-10-19T07:35:37Z"
+  },
+  {
+    "id": "fake-chatgpt-locks-russian-iphones",
+    "date": "2026-10-19",
+    "title": "Scammers lock Russians' iPhones under guise of installing ChatGPT",
+    "category": "AI phishing",
+    "direction": "on-ai",
+    "severity": "medium",
+    "country": "RU",
+    "region": "Europe",
+    "target": "iPhone users in Russia seeking ChatGPT",
+    "loss_usd": null,
+    "summary": "Per Amic.ru, fraudsters use a ChatGPT installation pretext to block the iPhones of Russian users. The headline gives no figures or technical detail.",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "sector": "Individuals & consumers",
+    "attribution": "Unknown; the headline names only 'fraudsters' (Amic.ru).",
+    "motive": "Unknown; likely extortion or fraud.",
+    "vector": "Lure posing as a ChatGPT installation on iPhones.",
+    "root_cause": "Unknown; users are apparently tricked by a fake ChatGPT install pretext.",
+    "impact": "Victims' iPhones are reportedly locked. Number of victims and any ransom amounts are not stated.",
+    "response": "Unknown",
+    "status": "ongoing",
+    "cve": null,
+    "confidence": 0.45,
+    "source": "Amic.ru",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMmRkNEp2WDA3bXhOQW5ocW52OGNjOE92R0ZuOEswVTlSa1BPVkg3WGFBN1hmQXVhb1FtUktrN3FvY3NWTTRMY1FweHNjQ0t2dVlCSzRtYkFCeF9vVl8zb3Q4V1VhLVZjRWg3T1VPUl9JdUFMTWtDZGYxbUZsQXMweWJ0eWJrSEZMSEZjeXZ3QTVWSFlnZ0lEV3U3dk51d9IBS0FVX3lxTE9DSW4wZWN0X2NwM2NQRjRCQmQ0MGZMQV9NYTFPdnZxcTJSZ3cyU3pJNFhMQVlkUS1NNzVJZFlKWUliZElfbzE3U2hNbw?oc=5",
+    "sources": [
+      {
+        "name": "Amic.ru",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMmRkNEp2WDA3bXhOQW5ocW52OGNjOE92R0ZuOEswVTlSa1BPVkg3WGFBN1hmQXVhb1FtUktrN3FvY3NWTTRMY1FweHNjQ0t2dVlCSzRtYkFCeF9vVl8zb3Q4V1VhLVZjRWg3T1VPUl9JdUFMTWtDZGYxbUZsQXMweWJ0eWJrSEZMSEZjeXZ3QTVWSFlnZ0lEV3U3dk51d9IBS0FVX3lxTE9DSW4wZWN0X2NwM2NQRjRCQmQ0MGZMQV9NYTFPdnZxcTJSZ3cyU3pJNFhMQVlkUS1NNzVJZFlKWUliZElfbzE3U2hNbw?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-19",
+        "event": "Reported by Amic.ru"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-19T08:35:36Z",
+    "wire_id": "80b2f351d99b",
+    "first_seen": "2026-10-19T08:35:36Z",
+    "first_published": "2026-10-19T07:31:00Z",
+    "updated_at": "2026-10-19T08:35:36Z"
   }
 ]
