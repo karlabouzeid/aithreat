@@ -2668,5 +2668,53 @@
     "first_seen": "2026-10-19T21:05:43Z",
     "first_published": "2026-10-19T12:48:00Z",
     "updated_at": "2026-10-19T21:05:43Z"
+  },
+  {
+    "id": "openai-school-shooting-lawsuit-failure-w",
+    "date": "2026-10-19",
+    "title": "Lawsuit alleges OpenAI failed to alert police despite internal warning before school shooting",
+    "category": "Chatbot harm",
+    "direction": "ai-harm",
+    "severity": "critical",
+    "country": "GL",
+    "region": "Global",
+    "target": "School shooting victims and families (per lawsuit)",
+    "loss_usd": null,
+    "summary": "A new lawsuit alleges OpenAI did not alert police despite an internal warning before a school shooting, per Digit's report. The claims are allegations and no court has ruled.",
+    "actor": "OpenAI (ChatGPT)",
+    "actor_type": "product",
+    "sector": "Individuals & consumers",
+    "attribution": "Alleged by plaintiffs in a lawsuit as reported by Digit; no court finding. Details of the shooting and the warning are not given in the summary.",
+    "motive": "Unknown",
+    "vector": "Alleged failure to escalate an internal warning about a user to police before a school shooting, per the lawsuit.",
+    "root_cause": "Alleged failure of OpenAI's safety and escalation processes to act on an internal warning. This is the plaintiffs' claim and is unproven.",
+    "impact": "A school shooting, with alleged harm to victims. The number of victims and their identities are not stated in the available text.",
+    "response": "Lawsuit filed against OpenAI. OpenAI's response is not stated in the available text.",
+    "status": "unresolved",
+    "cve": null,
+    "young_people": true,
+    "setting": "school",
+    "age_group": null,
+    "confidence": 0.6,
+    "source": "Digit",
+    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPcXhqWTFXNV9hR09uZjdFVkhyOEExUm9PZHBmRWZEdkxoR3ltMDJoLXdRWmVvSEpPVW1mdUlfODFYZFlyai0yVmIyQ01PdzBtUUVKUEVvUTd4Vy1NdUNfaXVUbHlyUFBXRTdoNnBZQXk5djRzZ2NOZTBHYU1qU2pzTzNoS1FOakhodWN2VkpWOW10ZHVKTU9XblJ6Z2FwOVJMZVZ0VWFXWm5SSHpHdnJYNFFxWk90N1lLWlFsRnZISnJaXzdaTVlJNWxkN3NPVEloX3U2SGl6R01ULU1vemw1UkRFd9IB6gFBVV95cUxPUllSTVk5TGhkV213cGdNX09hMkkzQ0hJVmRUVXREQWpmbmxxcUh3VWlYUDVWWTdjU3c0RjUxbVNFd1FnaUNoamhzeldyTURNYkpTR1cwdWlPLXpnSnYzSlVvaTFneEg0aGJsVUlaX29meTRIUGM2VUxwdzZTbG5DRmRBcjluY1YxQjRNQWNueVNPUDdjZVEyUml1TG9RVlRtREJ4bm5SbVItaVFBd3Z3dUZoSktQN2d2ZEthVU5leHNkWWc1T0dsNXNfaktaY3pBOWVqaFVrT2RURU05d2U3T3hCV3VUaDlPSEE?oc=5",
+    "sources": [
+      {
+        "name": "Digit",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPcXhqWTFXNV9hR09uZjdFVkhyOEExUm9PZHBmRWZEdkxoR3ltMDJoLXdRWmVvSEpPVW1mdUlfODFYZFlyai0yVmIyQ01PdzBtUUVKUEVvUTd4Vy1NdUNfaXVUbHlyUFBXRTdoNnBZQXk5djRzZ2NOZTBHYU1qU2pzTzNoS1FOakhodWN2VkpWOW10ZHVKTU9XblJ6Z2FwOVJMZVZ0VWFXWm5SSHpHdnJYNFFxWk90N1lLWlFsRnZISnJaXzdaTVlJNWxkN3NPVEloX3U2SGl6R01ULU1vemw1UkRFd9IB6gFBVV95cUxPUllSTVk5TGhkV213cGdNX09hMkkzQ0hJVmRUVXREQWpmbmxxcUh3VWlYUDVWWTdjU3c0RjUxbVNFd1FnaUNoamhzeldyTURNYkpTR1cwdWlPLXpnSnYzSlVvaTFneEg0aGJsVUlaX29meTRIUGM2VUxwdzZTbG5DRmRBcjluY1YxQjRNQWNueVNPUDdjZVEyUml1TG9RVlRtREJ4bm5SbVItaVFBd3Z3dUZoSktQN2d2ZEthVU5leHNkWWc1T0dsNXNfaktaY3pBOWVqaFVrT2RURU05d2U3T3hCV3VUaDlPSEE?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-19",
+        "event": "Reported by Digit"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-19T22:35:40Z",
+    "wire_id": "31c5390cdaab",
+    "first_seen": "2026-10-19T22:35:40Z",
+    "first_published": "2026-10-19T00:00:00Z",
+    "updated_at": "2026-10-19T22:35:40Z"
   }
 ]
