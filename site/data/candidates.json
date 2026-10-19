@@ -2524,5 +2524,101 @@
     "first_seen": "2026-10-19T16:31:03Z",
     "first_published": "2026-10-19T16:16:17Z",
     "updated_at": "2026-10-19T16:31:03Z"
+  },
+  {
+    "id": "touba-ai-cyber-extortion-arrest",
+    "date": "2026-10-19",
+    "title": "Touba police arrest suspect for cyber-fraud, blackmail and fraudulent AI use",
+    "category": "Deepfake abuse",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "SN",
+    "region": "Middle East & Africa",
+    "target": "Individuals blackmailed online in Touba area",
+    "loss_usd": null,
+    "summary": "Ndamatou/Touba police dismantled a digital criminal operation that collected and spread illicit pornographic content, blackmailed victims and misused AI, and arrested one person.",
+    "actor": "Unnamed suspect arrested by Ndamatou/Touba police",
+    "actor_type": "criminal",
+    "sector": "Individuals & consumers",
+    "attribution": "Arrest by the Ndamatou/Touba district police station, as reported by local news; no further attribution given.",
+    "motive": "Apparently financial gain through extortion and fraud; the text does not state it explicitly.",
+    "vector": "Online collection and distribution of pornographic content, blackmail and fraudulent use of AI; exact AI technique not stated.",
+    "root_cause": "Unknown; the summary does not describe how victims were targeted or what AI tool was used.",
+    "impact": "Victims were subject to cyber-scams and blackmail; the number of victims and any losses are not stated in the summary.",
+    "response": "Police dismantled the operation and arrested one individual.",
+    "status": "contained",
+    "cve": null,
+    "young_people": false,
+    "setting": "online",
+    "age_group": null,
+    "confidence": 0.5,
+    "source": "AI Incident Database",
+    "url": "https://www.rts.sn/actualite/detail/a-la-une/touba-un-individu-arrete-pour-cyber-escroquerie-chantage-et-usage-frauduleux-de-lia",
+    "sources": [
+      {
+        "name": "AI Incident Database",
+        "url": "https://www.rts.sn/actualite/detail/a-la-une/touba-un-individu-arrete-pour-cyber-escroquerie-chantage-et-usage-frauduleux-de-lia"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-19",
+        "event": "Reported by AI Incident Database"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-19T20:05:42Z",
+    "wire_id": "b9847c421b94",
+    "first_seen": "2026-10-19T20:05:42Z",
+    "first_published": "2026-10-18T00:00:00Z",
+    "updated_at": "2026-10-19T20:05:42Z"
+  },
+  {
+    "id": "brazil-oab-exam-ai-fraud-arrest",
+    "date": "2026-10-19",
+    "title": "Brazilian Federal Police arrest OAB bar exam candidate for AI-assisted fraud",
+    "category": "AI exam fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "BR",
+    "region": "Latin America",
+    "target": "OAB (Brazilian Bar Association) exam",
+    "loss_usd": null,
+    "summary": "Brazil's Federal Police arrested a candidate accused of fraud using artificial intelligence during the OAB bar exam, per Jurinews.",
+    "actor": "Unnamed OAB exam candidate",
+    "actor_type": "criminal",
+    "sector": "Education & research",
+    "attribution": "Federal Police arrest reported by Jurinews; the candidate is not named in the headline.",
+    "motive": "Unknown",
+    "vector": "Use of AI to cheat in the exam; exact tools and method are not stated in the headline.",
+    "root_cause": "Unknown; the headline gives no details on how the cheating got past exam controls.",
+    "impact": "Exam integrity was compromised in at least one case; the scale and whether others were involved are unknown.",
+    "response": "The Federal Police arrested the candidate.",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.6,
+    "source": "Jurinews",
+    "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOdEtSWGtVVFNUbzIyTUVKX3F0WHZtRDAyZ0VuXzV1ekZtNF82eFhDN2VjMVpETHhkMGZLLUdXTkx6NV9iRU5lZXlXR3ZKeENIcks2ZWVwbDJDb0h5WXdTdG0xSWhpdWREOHBBNG80LThtbmFhODFvTzB1cHFONXZLRU9rc2twME8xVVZDa1JhbGYwYXFKUF9JMmFvY2oxMTNFQTFEb3NySEdlYlBYQWFsZTJrWVFUdVJrbHZGeWNrRTBqSGVrZDN4RHNFb01sZkRHSkVHdXRFaWZEaU9aV3RZ?oc=5",
+    "sources": [
+      {
+        "name": "Jurinews",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOdEtSWGtVVFNUbzIyTUVKX3F0WHZtRDAyZ0VuXzV1ekZtNF82eFhDN2VjMVpETHhkMGZLLUdXTkx6NV9iRU5lZXlXR3ZKeENIcks2ZWVwbDJDb0h5WXdTdG0xSWhpdWREOHBBNG80LThtbmFhODFvTzB1cHFONXZLRU9rc2twME8xVVZDa1JhbGYwYXFKUF9JMmFvY2oxMTNFQTFEb3NySEdlYlBYQWFsZTJrWVFUdVJrbHZGeWNrRTBqSGVrZDN4RHNFb01sZkRHSkVHdXRFaWZEaU9aV3RZ?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-19",
+        "event": "Reported by Jurinews"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-19T20:05:42Z",
+    "wire_id": "e47407a218ba",
+    "first_seen": "2026-10-19T20:05:42Z",
+    "first_published": "2026-10-19T19:35:00Z",
+    "updated_at": "2026-10-19T20:05:42Z"
   }
 ]
