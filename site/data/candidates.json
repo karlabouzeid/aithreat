@@ -2203,5 +2203,50 @@
     "first_seen": "2026-10-19T07:05:39Z",
     "first_published": "2026-10-19T06:57:51Z",
     "updated_at": "2026-10-19T07:05:39Z"
+  },
+  {
+    "id": "belgian-royals-deepnudes",
+    "date": "2026-10-19",
+    "title": "Queen Mathilde and Princess Elisabeth of Belgium targeted by AI deepnudes",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "BE",
+    "region": "Europe",
+    "target": "Queen Mathilde and Princess Elisabeth of Belgium",
+    "loss_usd": null,
+    "summary": "Belgian press reports that Queen Mathilde and Princess Elisabeth were victims of AI-generated deepnude images. The headline gives no further detail.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Individuals & consumers",
+    "attribution": "Unknown; the headline does not name who made or spread the images.",
+    "motive": "Unknown",
+    "vector": "AI-generated nude deepfakes (deepnudes) of the two royals",
+    "root_cause": "Unknown; the headline gives no detail on the tools or distribution channel.",
+    "impact": "Sexualised fake images of the Queen and the Princess reportedly circulated. Extent of spread unknown.",
+    "response": "Unknown",
+    "status": "unresolved",
+    "cve": null,
+    "confidence": 0.5,
+    "source": "Soirmag",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPV3B1Y05VWkRlN3h0bXkyRV90emVEUHFZNUl0anpUaHVPMGRKRHJVeHQ3blZGN3BNTzZXSktaVjl6YXU4TGkwalZBR3RaZUw4aXg5LVFHc09tM19Sd2VKV2E0UDI2cXl5eUhRQUNDTVpRaF8tcENZNXc2Wlp3OE9tM045bFhsU2FrQnNjMk5FX2JYNE9YLWFZZUxHRk1FSTJoQk1FTUFWbmQ4MzRZOUJqekZTaFNSX2M?oc=5",
+    "sources": [
+      {
+        "name": "Soirmag",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPV3B1Y05VWkRlN3h0bXkyRV90emVEUHFZNUl0anpUaHVPMGRKRHJVeHQ3blZGN3BNTzZXSktaVjl6YXU4TGkwalZBR3RaZUw4aXg5LVFHc09tM19Sd2VKV2E0UDI2cXl5eUhRQUNDTVpRaF8tcENZNXc2Wlp3OE9tM045bFhsU2FrQnNjMk5FX2JYNE9YLWFZZUxHRk1FSTJoQk1FTUFWbmQ4MzRZOUJqekZTaFNSX2M?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-19",
+        "event": "Reported by Soirmag"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-19T07:35:37Z",
+    "wire_id": "9d67008d4eb1",
+    "first_seen": "2026-10-19T07:35:37Z",
+    "first_published": "2026-10-19T06:02:58Z",
+    "updated_at": "2026-10-19T07:35:37Z"
   }
 ]
