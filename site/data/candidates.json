@@ -2716,5 +2716,53 @@
     "first_seen": "2026-10-19T22:35:40Z",
     "first_published": "2026-10-19T00:00:00Z",
     "updated_at": "2026-10-19T22:35:40Z"
+  },
+  {
+    "id": "fake-captain-ai-face-scam",
+    "date": "2026-10-19",
+    "title": "AI scam clones a real captain's face to defraud people",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "low",
+    "country": "US",
+    "region": "North America",
+    "target": "Public targeted by scam using a captain's likeness",
+    "loss_usd": null,
+    "summary": "FOX 35 Orlando reports a fake AI scam that used a real captain's face, cloned with AI. The headline gives no detail on victims, losses or method.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Individuals & consumers",
+    "attribution": "Unknown",
+    "motive": "Apparent fraud, per the headline",
+    "vector": "AI-cloned face of a real captain used in a scam",
+    "root_cause": "Unknown",
+    "impact": "Unknown. The captain's likeness was misused, and the scam's victims are not described in the headline.",
+    "response": "Unknown",
+    "status": "unresolved",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.35,
+    "source": "FOX 35 Orlando",
+    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5rUENaUEI3OENfbmZvWVBGamE2MlpWaDRyNnpJdzhmZzBBUzZRbjRiVGhiMlpNSDd5SVptZGRHWGo1dW1HVENDanpmT3JNaUZqVkcwczJwUXRFZ2hzX1B4SDBtOVFDd9IBa0FVX3lxTE5Oa1JGUnRuNXVTMEYzSWVLR1MxeEZJRDZwN2NmdERveFc2d1JWeVUzem5YdVFxalRJSWlqTlAwX1Z3RVZWNmRQYzBCbEpIOTRIOFI2b2JPc25NVTFlYlZKWTR4Wmd6UW1FeVRZ?oc=5",
+    "sources": [
+      {
+        "name": "FOX 35 Orlando",
+        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5rUENaUEI3OENfbmZvWVBGamE2MlpWaDRyNnpJdzhmZzBBUzZRbjRiVGhiMlpNSDd5SVptZGRHWGo1dW1HVENDanpmT3JNaUZqVkcwczJwUXRFZ2hzX1B4SDBtOVFDd9IBa0FVX3lxTE5Oa1JGUnRuNXVTMEYzSWVLR1MxeEZJRDZwN2NmdERveFc2d1JWeVUzem5YdVFxalRJSWlqTlAwX1Z3RVZWNmRQYzBCbEpIOTRIOFI2b2JPc25NVTFlYlZKWTR4Wmd6UW1FeVRZ?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-19",
+        "event": "Reported by FOX 35 Orlando"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-19T23:35:40Z",
+    "wire_id": "84d2b16c4462",
+    "first_seen": "2026-10-19T23:35:40Z",
+    "first_published": "2026-10-19T22:32:58Z",
+    "updated_at": "2026-10-19T23:35:40Z"
   }
 ]
