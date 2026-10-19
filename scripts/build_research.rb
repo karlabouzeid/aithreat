@@ -224,14 +224,14 @@ def research_page(lang, st, incidents)
   ]
   sc = st["status_counts"]
   kpis = [
-    [st["sources"].map { |s| s["institute"] }.uniq.size, rx(lang, :k_sources), nil],
-    [st["claims"].size, rx(lang, :k_claims), nil],
-    [sc["observed"], rx(lang, :k_observed), nil],
-    [sc["early"] + sc["lab"], rx(lang, :k_early), nil],
-    [sc["none"], rx(lang, :k_none), nil],
-    [sc["outside"], rx(lang, :k_outside), nil],
-    [st["warning_matched_cases"], rx(lang, :k_linked), thx(lang, :k_linked_note, n: st["total_cases"])]
-  ].map { |v, l, s| %(<div><b>#{h(v)}</b><span>#{h(l)}</span>#{s ? %(<small>#{h(s)}</small>) : ''}</div>) }.join
+    [st["sources"].map { |s| s["institute"] }.uniq.size, rx(lang, :k_sources), nil, :r_sources],
+    [st["claims"].size, rx(lang, :k_claims), nil, :r_claims],
+    [sc["observed"], rx(lang, :k_observed), nil, :r_observed],
+    [sc["early"] + sc["lab"], rx(lang, :k_early), nil, :r_early],
+    [sc["none"], rx(lang, :k_none), nil, :r_none],
+    [sc["outside"], rx(lang, :k_outside), nil, :r_outside],
+    [st["warning_matched_cases"], rx(lang, :k_linked), thx(lang, :k_linked_note, n: st["total_cases"]), :r_linked]
+  ].map { |v, l, s, tip| %(<div><b>#{h(v)}</b><span>#{h(l)}#{info_tip(lang, tip)}</span>#{s ? %(<small>#{h(s)}</small>) : ''}</div>) }.join
   key = %(<div class="rkey">#{STATUS_ORDER.select { |s| sc[s] > 0 }.map { |s| %(<div>#{status_pill(lang, s)}<span>#{h(rx(lang, "sd_#{s}"))}</span></div>) }.join}</div>)
   srcs = Hash[st["sources"].map { |s| [s["id"], s] }]
   insts = research_institutes(st)

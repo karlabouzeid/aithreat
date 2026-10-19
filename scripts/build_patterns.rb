@@ -227,13 +227,13 @@ def patterns_page(lang, st, incidents)
   real_q = qs.last["real_world"]
 
   kpis = [
-    [st["total"], x(lang, :k_total), nil],
-    [st["this_quarter"]["n"], x(lang, :k_quarter) + " · " + st["this_quarter"]["q"], x(lang, :k_vs, p: st["this_quarter"]["prev_n"])],
-    ["#{pct(st['direction']['on-ai'], st['total'])}%", x(lang, :k_onai), "#{st['direction']['on-ai']} #{x(lang, :l_cases)}"],
-    [fmt_money_short(st["losses"]["total_usd"]), x(lang, :k_losses), x(lang, :l_loss_n, n: st["losses"]["disclosed"])],
-    ["#{st['unresolved_pct']}%", x(lang, :k_unresolved), nil],
-    [st["autonomous"]["ids"].size, x(lang, :k_auto), nil]
-  ].map { |v, l, s| %(<div><b>#{h(v)}</b><span>#{h(l)}</span>#{s ? %(<small>#{h(s)}</small>) : ''}</div>) }.join
+    [st["total"], x(lang, :k_total), nil, :p_total],
+    [st["this_quarter"]["n"], x(lang, :k_quarter) + " · " + st["this_quarter"]["q"], x(lang, :k_vs, p: st["this_quarter"]["prev_n"]), :p_quarter],
+    ["#{pct(st['direction']['on-ai'], st['total'])}%", x(lang, :k_onai), "#{st['direction']['on-ai']} #{x(lang, :l_cases)}", :p_onai],
+    [fmt_money_short(st["losses"]["total_usd"]), x(lang, :k_losses), x(lang, :l_loss_n, n: st["losses"]["disclosed"]), :p_losses],
+    ["#{st['unresolved_pct']}%", x(lang, :k_unresolved), nil, :p_unresolved],
+    [st["autonomous"]["ids"].size, x(lang, :k_auto), nil, :p_auto]
+  ].map { |v, l, s, tip| %(<div><b>#{h(v)}</b><span>#{h(l)}#{info_tip(lang, tip)}</span>#{s ? %(<small>#{h(s)}</small>) : ''}</div>) }.join
 
   # B. direction per quarter
   s_trend = [[x(lang, :l_onai), "#f5b942", qs.map { |r| r["on-ai"] }], [x(lang, :l_withai), "#5b9cff", qs.map { |r| r["with-ai"] }]]

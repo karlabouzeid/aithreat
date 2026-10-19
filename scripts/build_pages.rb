@@ -269,6 +269,7 @@ LANGS.each { |l| EXTRA[l] = (EXTRA[l] || {}).merge(MORE[l] || {}) }
 require_relative "why_strings"
 LANGS.each { |l| EXTRA[l] = EXTRA[l].merge(WHY[l] || {}) }
 require_relative "patterns_strings"
+require_relative "info_strings"
 LANGS.each { |l| EXTRA[l] = EXTRA[l].merge(PATTERNS[l] || {}) }
 EXTRA.freeze
 REPO = "https://github.com/karlabouzeid/aithreat"
@@ -475,6 +476,7 @@ end
 # ---------- data ----------
 incidents = JSON.parse(File.read(File.join(SITE, "data", "incidents.en.json"), encoding: "UTF-8"))
 incidents = incidents.reject { |i| i["verified"] == false }.sort_by { |i| [i["date"].to_s, i["id"].to_s] }.reverse
+ALL_CASES = incidents
 TR = {}
 (LANGS - ["en"]).each do |l|
   p = File.join(SITE, "i18n", "#{l}.json")
@@ -535,7 +537,7 @@ CSS = <<~CSS
   .langs{font-size:13px;color:var(--muted);margin:0 0 16px}.langs a{margin-inline-end:10px}
   footer{border-top:1px solid var(--line);margin-top:28px;padding-top:14px;font-size:13px;color:var(--muted);display:grid;gap:6px}footer a{color:var(--muted)}
   .notice{font-size:12px;color:var(--muted);background:var(--surface);border:1px dashed var(--line2);border-radius:6px;padding:6px 10px;margin:12px 0 0}
-  ul.cases{list-style:none;margin:0;padding:0;display:grid;gap:8px}ul.cases li{display:grid;grid-template-columns:96px 1fr;gap:12px;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px 14px}ul.cases time{font:12px var(--f-mono);color:var(--muted);padding-top:3px}ul.cases a{color:var(--ink);text-decoration:none;font-weight:600}ul.cases a:hover{color:var(--accent)}ul.cases .meta{font-size:13px;color:var(--muted);margin-top:3px}
+  .rowshare{margin-top:8px}ul.cases{list-style:none;margin:0;padding:0;display:grid;gap:8px}ul.cases li{display:grid;grid-template-columns:96px 1fr;gap:12px;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px 14px}ul.cases time{font:12px var(--f-mono);color:var(--muted);padding-top:3px}ul.cases a{color:var(--ink);text-decoration:none;font-weight:600}ul.cases a:hover{color:var(--accent)}ul.cases .meta{font-size:13px;color:var(--muted);margin-top:3px}
   .chips{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 18px}.chips a{font-size:13px;color:var(--ink);background:var(--surface);border:1px solid var(--line2);border-radius:999px;padding:5px 12px;text-decoration:none}.chips a[aria-current]{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
   h3.sub{font:600 12px var(--f-mono);text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin:18px 0 8px}html[lang="ar"] h3.sub,html[lang="zh"] h3.sub{font-family:var(--f-body);text-transform:none;letter-spacing:0}
   @media (max-width:600px){ol.tl li,ul.cases li{grid-template-columns:1fr}nav.pn a{max-width:100%;flex:1}}
@@ -613,18 +615,72 @@ SUBSCRIBE_URL = "https://assets.mailerlite.com/jsonp/2715122/forms/2013989237476
 SUBSCRIBE_CSS = ".sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}.sub{background:var(--surface);border:1px solid var(--line2);border-radius:12px;padding:16px 18px;margin:26px 0 0;display:grid;gap:8px}.sub .k{font:600 11px var(--f-mono);text-transform:uppercase;letter-spacing:.06em;color:var(--accent)}html[lang=\"ar\"] .sub .k,html[lang=\"zh\"] .sub .k{font-family:var(--f-body);text-transform:none;letter-spacing:0}.sub h2{margin:0;font-size:18px}.sub form{display:flex;flex-wrap:wrap;gap:8px}.sub input[type=email]{flex:1 1 220px;min-height:40px;border:1px solid var(--line2);border-radius:8px;background:var(--surface2);color:var(--ink);padding:0 12px;font:15px var(--f-body)}.sub button{min-height:40px;padding:0 16px;border:0;border-radius:8px;background:var(--accent);color:var(--accent-ink);font:600 14px var(--f-body);cursor:pointer}.sub small{color:var(--muted)}"
 # Share buttons. Every link carries the page's own aithreat.io address, so the social
 # network shows our Open Graph card and sends readers back here, not to the source.
-SHARE_CSS = ".share{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin:-12px 0 22px;font-size:13px}.share span{color:var(--muted);font:600 11px var(--f-mono);text-transform:uppercase;letter-spacing:.06em;margin-inline-end:4px}html[lang=\"ar\"] .share span,html[lang=\"zh\"] .share span{font-family:var(--f-body);text-transform:none}.share a{display:inline-flex;align-items:center;min-height:32px;padding:0 12px;border-radius:999px;background:var(--surface);border:1px solid var(--line2);color:var(--ink);text-decoration:none}.share a:hover{border-color:var(--accent);color:var(--accent)}"
+SHARE_ICON = %(<svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M12 3v12M7 8l5-5 5 5M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6"/></svg>)
+SHARE_CSS = ".share{margin:0 0 22px}.shw{position:relative;display:inline-block}" \
+  ".shb{display:inline-flex;align-items:center;gap:6px;min-height:30px;padding:0 12px;border-radius:999px;background:var(--surface);border:1px solid var(--line2);color:var(--ink);font:600 12px var(--f-body);cursor:pointer}" \
+  ".shb:hover,.shb[aria-expanded=\"true\"]{border-color:var(--accent);color:var(--accent)}" \
+  ".shm{position:absolute;inset-inline-end:0;top:calc(100% + 6px);z-index:30;min-width:170px;background:var(--surface);border:1px solid var(--line2);border-radius:10px;padding:6px;box-shadow:0 10px 30px rgba(0,0,0,.35);display:grid}" \
+  ".shm a,.shm button{display:block;padding:7px 10px;border-radius:6px;font:13px var(--f-body);color:var(--ink);text-decoration:none;background:none;border:0;text-align:start;cursor:pointer}" \
+  ".shm a:hover,.shm button:hover{background:var(--surface2)}.shm button{border-top:1px solid var(--line);border-radius:0 0 6px 6px;margin-top:4px}" \
+  ".i{display:inline-grid;place-items:center;width:16px;height:16px;padding:0;border-radius:50%;border:1px solid var(--muted);background:none;color:var(--muted);font:600 10px/1 var(--f-mono);cursor:help;position:relative;vertical-align:middle;text-transform:none;letter-spacing:0;flex:none;margin-inline-start:4px}" \
+  ".i:hover,.i:focus-visible,.i.on{border-color:var(--accent);color:var(--accent)}" \
+  ".i::after{content:attr(data-tip);position:absolute;left:50%;bottom:calc(100% + 8px);transform:translateX(-50%);width:min(270px,80vw);background:var(--ink);color:var(--bg);border:0;border-radius:8px;padding:10px 12px;font:400 13px/1.45 var(--f-body);text-align:start;text-transform:none;letter-spacing:0;opacity:0;visibility:hidden;transition:opacity .12s;z-index:40;box-shadow:0 10px 30px rgba(0,0,0,.35);white-space:normal}" \
+  ".i.to-start::after{left:0;transform:none}.i.to-end::after{left:auto;right:0;transform:none}" \
+  ".i:hover::after,.i:focus-visible::after,.i.on::after{opacity:1;visibility:visible}"
+
+# Info icon: hover or tap shows what the number next to it means.
+def info_tip(lang, key)
+  %(<button class="i" type="button" aria-label="#{h(info(lang, :u_info))}" data-tip="#{h(info(lang, key))}">i</button>)
+end
+
+# One Share button per item. The menu is built on click from data-url/data-text, so long lists stay small.
+# Every link carries our own aithreat.io address, so shares unfurl with our card and lead back here.
+def share_button(lang, url, text, label = nil)
+  %(<span class="shw"><button class="shb" type="button" data-url="#{h(url)}" data-text="#{h(text)}" aria-haspopup="true" aria-expanded="false" data-umami-event="share-open">#{SHARE_ICON}<span>#{h(label || info(lang, :u_share))}</span></button></span>)
+end
+
 def share_row(lang, url, title)
-  u = CGI.escape(url); tt_ = CGI.escape(title.to_s)
-  links = [
-    ["LinkedIn", "https://www.linkedin.com/sharing/share-offsite/?url=#{u}"],
-    ["X", "https://x.com/intent/post?text=#{tt_}&url=#{u}"],
-    ["Facebook", "https://www.facebook.com/sharer/sharer.php?u=#{u}"],
-    ["WhatsApp", "https://wa.me/?text=#{CGI.escape("#{title} #{url}")}"],
-    ["Telegram", "https://t.me/share/url?url=#{u}&text=#{tt_}"],
-    ["Email", "mailto:?subject=#{tt_}&body=#{u}"]
-  ]
-  %(<p class="share"><span>#{h(x(lang, :share))}</span>#{links.map { |n, href| %(<a href="#{h(href)}" target="_blank" rel="noopener" data-umami-event="share" data-umami-event-net="#{n.downcase}">#{n}</a>) }.join}</p>)
+  %(<p class="share">#{share_button(lang, url, title)}</p>)
+end
+
+def share_js(lang)
+  labels = JSON.generate(copy: info(lang, :u_copy), copied: info(lang, :u_copied), email: info(lang, :u_email))
+  <<~JS
+    <script>
+    (() => {
+      const L = #{labels};
+      const nets = (u, t) => [
+        ['WhatsApp', 'https://wa.me/?text=' + encodeURIComponent(t + '\\n\\n' + u)],
+        ['Telegram', 'https://t.me/share/url?url=' + encodeURIComponent(u) + '&text=' + encodeURIComponent(t)],
+        ['LinkedIn', 'https://www.linkedin.com/sharing/share-offsite/?url=' + encodeURIComponent(u)],
+        ['X', 'https://x.com/intent/post?text=' + encodeURIComponent(t) + '&url=' + encodeURIComponent(u)],
+        ['Facebook', 'https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(u)],
+        [L.email, 'mailto:?subject=' + encodeURIComponent(t) + '&body=' + encodeURIComponent(t + '\\n\\n' + u)]
+      ];
+      const close = (except) => document.querySelectorAll('.shm').forEach((m) => { if (m !== except) { m.previousElementSibling.setAttribute('aria-expanded', 'false'); m.remove(); } });
+      document.addEventListener('click', async (e) => {
+        const tip = e.target.closest('.i');
+        document.querySelectorAll('.i.on').forEach((x) => { if (x !== tip) x.classList.remove('on'); });
+        if (tip) { tip.classList.toggle('on'); return; }
+        const b = e.target.closest('.shb');
+        const menu = e.target.closest('.shm');
+        if (menu) { const c = e.target.closest('button'); if (c) { const u = menu.previousElementSibling.dataset.url; try { await navigator.clipboard.writeText(u); c.textContent = L.copied; } catch (_) { prompt(L.copy, u); } } return; }
+        close(null);
+        if (!b) return;
+        const u = b.dataset.url, t = b.dataset.text;
+        if (matchMedia('(pointer: coarse)').matches && navigator.share) { try { await navigator.share({ title: t, text: t, url: u }); } catch (_) {} return; }
+        const m = document.createElement('span'); m.className = 'shm'; m.setAttribute('role', 'menu');
+        nets(u, t).forEach(([n, href]) => { const a = document.createElement('a'); a.href = href; a.target = '_blank'; a.rel = 'noopener'; a.textContent = n; a.setAttribute('data-umami-event', 'share'); a.setAttribute('data-umami-event-net', n.toLowerCase()); m.append(a); });
+        const c = document.createElement('button'); c.type = 'button'; c.textContent = L.copy; m.append(c);
+        b.after(m); b.setAttribute('aria-expanded', 'true');
+      });
+      document.addEventListener('keydown', (e) => { if (e.key === 'Escape') { close(null); document.querySelectorAll('.i.on').forEach((x) => x.classList.remove('on')); } });
+      // Keep tooltips inside the screen.
+      const place = (e) => { const i = e.target.closest && e.target.closest('.i'); if (!i) return; const r = i.getBoundingClientRect(); i.classList.toggle('to-start', r.left < 150); i.classList.toggle('to-end', innerWidth - r.right < 150 && r.left >= 150); };
+      document.addEventListener('mouseover', place); document.addEventListener('focusin', place); document.addEventListener('touchstart', place, { passive: true });
+    })();
+    </script>
+  JS
 end
 
 def subscribe_box(lang)
@@ -636,11 +692,24 @@ def subscribe_box(lang)
 end
 
 def shell(lang, current, headhtml, body, alternates)
-  html = headhtml + %(<body><div class="wrap">#{bar(lang, current)}<main>#{body}#{subscribe_box(lang)}#{footer(lang)}</main></div></body></html>)
+  html = headhtml + %(<body><div class="wrap">#{bar(lang, current)}<main>#{body}#{subscribe_box(lang)}#{footer(lang)}</main></div>#{share_js(lang)}</body></html>)
   html.sub('<div class="bar-right" id="langbar"></div>', %(<nav class="bar-right" aria-label="#{h(t(lang, 'lang'))}">#{lang_links(lang, alternates)}</nav>))
 end
 
 # ---------- case page ----------
+# The three most recent cases of the same type that exist in this language.
+def related_html(lang, i_en)
+  rel = ALL_CASES.select { |r| r["category"] == i_en["category"] && r["id"] != i_en["id"] && langs_for(r).include?(lang) }.first(3)
+  return "" if rel.empty?
+  %(<section class="sec"><h2>#{h(info(lang, :u_related))}</h2><p class="lbl">#{h(info(lang, :u_related_sub))}</p><ul class="cases">#{rel.map { |r| case_row(lang, r) }.join}</ul></section>)
+end
+
+def case_row(lang, i_en)
+  i = localized(i_en, lang) || i_en
+  u = case_url(lang, i["id"])
+  %(<li><time datetime="#{h(i['date'])}">#{h(fmt_date(i['date'], lang))}</time><div><a href="#{h(u)}">#{h(i['title'])}</a><div class="meta"><span class="pill sev" data-sev="#{i['severity']}">#{h(tt(lang, 'sev', i['severity']))}</span> · #{h(tt(lang, 'cats', i['category']))} · #{h(i['target'])} · #{h(place_name(lang, i['country']))}</div><div class="rowshare">#{share_button(lang, u, i['title'])}</div></div></li>)
+end
+
 def case_page(i_en, lang, prev_i, next_i)
   i = localized(i_en, lang)
   url = case_url(lang, i["id"])
@@ -672,11 +741,12 @@ def case_page(i_en, lang, prev_i, next_i)
   headhtml = head(lang: lang, title: "#{i['title']} · AI Threat Watch", desc: i["summary"], url: url, alternates: alternates, og_type: "article", jsonld: jsonld, feed: "#{pre(lang)}/cases/feed.xml")
 
   facts = [
-    [t(lang, "reported"), date_h, nil], [t(lang, "location"), place, nil], [t(lang, "target"), i["target"], nil], [t(lang, "severity"), sev, "sev"],
-    [t(lang, "triggered_by"), i["actor"], nil], [t(lang, "actor_type"), (i["actor_type"] ? tt(lang, "actor_types", i["actor_type"]) : nil), nil],
-    [x(lang, :l_sector), (present(i["sector"]) ? sector_name(lang, i["sector"]) : nil), nil],
-    [t(lang, "reported_loss"), (i["loss_usd"] ? fmt_usd(i["loss_usd"]) : t(lang, "none_reported")), nil], [t(lang, "cve"), (present(i["cve"]) ? i["cve"] : t(lang, "none")), nil]
-  ].map { |label, v, cls| %(<div><dt>#{h(label)}</dt><dd#{cls ? %( class="#{cls}" data-sev="#{i['severity']}") : ''}>#{h(present(v) ? v : t(lang, 'pending'))}</dd></div>) }.join
+    [t(lang, "reported"), date_h, nil, :f_reported], [t(lang, "location"), place, nil, :f_location], [t(lang, "target"), i["target"], nil, :f_target], [t(lang, "severity"), sev, "sev", :f_severity],
+    [t(lang, "verification"), (present(i["verification"]) ? tt(lang, "ver_labels", i["verification"]) : nil), nil, :f_verification],
+    [t(lang, "triggered_by"), i["actor"], nil, :f_triggered_by], [t(lang, "actor_type"), (i["actor_type"] ? tt(lang, "actor_types", i["actor_type"]) : nil), nil, :f_actor_type],
+    [x(lang, :l_sector), (present(i["sector"]) ? sector_name(lang, i["sector"]) : nil), nil, :f_sector],
+    [t(lang, "reported_loss"), (i["loss_usd"] ? fmt_usd(i["loss_usd"]) : t(lang, "none_reported")), nil, :f_reported_loss], [t(lang, "cve"), (present(i["cve"]) ? i["cve"] : t(lang, "none")), nil, :f_cve]
+  ].map { |label, v, cls, tip| %(<div><dt>#{h(label)}#{info_tip(lang, tip)}</dt><dd#{cls ? %( class="#{cls}" data-sev="#{i['severity']}") : ''}>#{h(present(v) ? v : t(lang, 'pending'))}</dd></div>) }.join
 
   tl = (i["timeline"] || []).map { |e| %(<li><time datetime="#{h(e['date'])}">#{h(fmt_date(e['date'], lang))}</time><span>#{h(e['event'])}</span></li>) }.join
   src_html = srcs.map do |s|
@@ -695,8 +765,7 @@ def case_page(i_en, lang, prev_i, next_i)
     <h1>#{h(i['title'])}</h1>
     <p class="lede">#{h(i['summary'])}</p>
     <p class="pills"><span class="pill sev" data-sev="#{i['severity']}">#{h(sev)}</span><span class="pill">#{h(i['direction'] == 'on-ai' ? t(lang, 'attack_on') : i['direction'] == 'ai-harm' ? t(lang, 'attack_harm') : t(lang, 'attack_using'))}</span>#{present(i['status']) ? %(<span class="pill">#{h(t(lang, 'status'))}: #{h(tt(lang, 'statuses', i['status']))}</span>) : ''}<span class="pill">#{h(x(lang, :verified))}</span></p>
-    <p class="tools"><a class="btn" href="/#{q}##{h(i['id'])}">#{h(x(lang, :open_map))}</a><a class="btn ghost" href="#cite">#{h(x(lang, :cite))}</a></p>
-    #{share_row(lang, url, i['title'])}
+    <p class="tools"><a class="btn" href="/#{q}##{h(i['id'])}">#{h(x(lang, :open_map))}</a><a class="btn ghost" href="#cite">#{h(x(lang, :cite))}</a>#{share_button(lang, url, i['title'])}</p>
     <dl class="facts">#{facts}</dl>
     <section class="sec"><h2>#{h(t(lang, 'what'))}</h2><p>#{h(i['summary'])}</p>#{para(t(lang, 'impact'), i['impact'], lang)}</section>
     <div class="two">
@@ -709,7 +778,8 @@ def case_page(i_en, lang, prev_i, next_i)
     </div>
     #{case_research_html(lang, i['id'])}
     <section class="sec"><h2>#{h(t(lang, 'sources'))}</h2><ul class="srcs">#{src_html}</ul></section>
-    <section class="sec" id="cite"><h2>#{h(x(lang, :cite))}</h2><pre class="cite">#{h(citation)}</pre><p><span class="lbl">#{h(x(lang, :permalink))}: </span><a href="#{h(url)}">#{h(url)}</a></p></section>
+    <section class="sec" id="cite"><h2>#{h(x(lang, :cite))}</h2><pre class="cite">#{h(citation)}</pre><p><span class="lbl">#{h(x(lang, :permalink))}: </span><a href="#{h(url)}">#{h(url)}</a></p>#{share_row(lang, url, i['title'])}</section>
+    #{related_html(lang, i_en)}
     </article>
     <nav class="pn">#{pn.join}</nav>
     <p class="langs">#{h(x(lang, :other_langs))}: #{lang_links(lang, alternates)}</p>
@@ -744,10 +814,7 @@ def list_page(items_en, lang, kind:, key: nil, all_cats: [], all_countries: [], 
   chips_cat = all_cats.map { |c| %(<a href="#{pre(lang)}/cases/category/#{slug(c)}/"#{kind == :cat && c == key ? ' aria-current="page"' : ''}>#{h(tt(lang, 'cats', c))}</a>) }.join
   chips_cc = all_countries.map { |c| %(<a href="#{pre(lang)}/cases/country/#{slug(c)}/"#{kind == :country && c == key ? ' aria-current="page"' : ''}>#{h(place_name(lang, c))}</a>) }.join
   chips_co = all_companies.map { |c| %(<a href="#{pre(lang)}/cases/company/#{slug(c)}/"#{kind == :company && c == key ? ' aria-current="page"' : ''}>#{h(c)}</a>) }.join
-  rows = items_en.map do |i_en|
-    i = localized(i_en, lang) || i_en
-    %(<li><time datetime="#{h(i['date'])}">#{h(fmt_date(i['date'], lang))}</time><div><a href="#{h(case_url(lang, i['id']))}">#{h(i['title'])}</a><div class="meta"><span class="pill sev" data-sev="#{i['severity']}">#{h(tt(lang, 'sev', i['severity']))}</span> · #{h(tt(lang, 'cats', i['category']))} · #{h(i['target'])} · #{h(place_name(lang, i['country']))}</div></div></li>)
-  end.join
+  rows = items_en.map { |i_en| case_row(lang, i_en) }.join
   crumbs = kind == :index ? "" : %(<nav class="crumbs" aria-label="Breadcrumb"><a href="/#{lang == 'en' ? '' : '?lang=' + lang}">AI Threat Watch</a> › <a href="#{pre(lang)}/cases/">#{h(x(lang, :all_cases))}</a></nav>)
   body = <<~HTML
     #{crumbs}
