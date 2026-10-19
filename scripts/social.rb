@@ -40,7 +40,10 @@ TAGS = {
   "LLMjacking" => "LLMjacking",
   "Deepfake fraud" => "Deepfake",
   "AI phishing" => "Phishing",
-  "Chatbot harm" => "AISafety"
+  "Chatbot harm" => "AISafety",
+  "Deepfake abuse" => "Deepfakes",
+  "AI misfire" => "AISafety",
+  "AI exam fraud" => "EdTech"
 }.freeze
 SEVERITIES = %w[critical high medium low].freeze
 SEVERITY_MARK = { "critical" => "🔴", "high" => "🟠", "medium" => "🟡", "low" => "⚪" }.freeze
