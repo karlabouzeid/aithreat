@@ -7308,5 +7308,213 @@
       "PIRG publie ses conclusions",
       "CNN rapporte que FoloToy a interrompu ses ventes et qu'OpenAI a suspendu le développeur"
     ]
+  },
+  {
+    "title": "Un lycéen d'Incheon inculpé, puis incarcéré, pour des hypertrucages sexuels visant deux enseignants et des camarades",
+    "summary": "La police d'Yeonsu (Incheon) a inculpé un lycéen pour avoir utilisé l'IA afin de plaquer les visages d'une dizaine de personnes, dont deux enseignants et des camarades de classe, sur des images de nu entre 2022 et 2025 ; l'analyse criminalistique a révélé plus de 100 fichiers de ce type sur le téléphone de l'élève. En septembre 2026, le tribunal de district d'Incheon a condamné le prévenu à une peine d'emprisonnement indéterminée de 18 mois à deux ans.",
+    "target": "Deux enseignants et des élèves d'un lycée d'Incheon",
+    "actor": "Lycéen (mineur au moment des faits, non nommé)",
+    "attribution": "Analyse criminalistique numérique du téléphone de l'élève par la police ; condamnation par le tribunal de district d'Incheon.",
+    "motive": "Sexuel ; le tribunal a indiqué que le prévenu cherchait également à entrer dans un canal Telegram consacré à l'humiliation de connaissances",
+    "vector": "Substitution de visages par hypertrucage sur des photos et vidéos de nu, diffusées sur les réseaux sociaux",
+    "root_cause": "Outils d'hypertrucage accessibles et communautés Telegram qui valorisent ce type de contenus",
+    "impact": "Onze victimes, dont deux enseignants qui ont réclamé une sanction sévère ; plus de 100 fichiers d'exploitation.",
+    "response": "Inculpation au titre de la loi spéciale sur les crimes sexuels ; condamnation le 16 septembre 2026 et placement en détention, assortis d'un programme de soins et d'une interdiction de cinq ans d'exercer des emplois liés à la jeunesse ; l'office de l'éducation d'Incheon s'est engagé à apporter un soutien juridique et psychologique aux enseignants.",
+    "id": "incheon-student-deepfakes-teachers-classmates",
+    "timeline": [
+      "Début de la production d'hypertrucages alors que le suspect est au collège",
+      "La police annonce les poursuites sans placement en détention",
+      "Le tribunal de district d'Incheon prononce une peine d'emprisonnement indéterminée de 1,5 à 2 ans"
+    ]
+  },
+  {
+    "title": "L'Indonésie et la Malaisie bloquent Grok après la production d'images sexualisées de femmes et de mineurs",
+    "summary": "L'Indonésie a bloqué temporairement Grok, l'outil de xAI, le 10 janvier 2026, suivie par la Malaisie le 11 janvier. Les deux pays ont invoqué l'utilisation répétée de l'outil pour fabriquer, à partir de photos réelles, des images sexuelles non consenties, y compris de mineurs.",
+    "target": "Femmes et mineurs dont les photos ont été retouchées par Grok",
+    "actor": "xAI (génération et édition d'images de Grok)",
+    "attribution": "Ministère indonésien de la Communication et du Numérique ; Commission malaisienne des communications et du multimédia",
+    "motive": "Aucun ; préjudice causé par les capacités du produit, détournées par des utilisateurs",
+    "vector": "Fonction d'édition d'images de Grok sur X, utilisée pour « déshabiller » des photos de personnes réelles",
+    "root_cause": "Garde-fous insuffisants contre les retouches sexualisées de personnes réelles, y compris d'enfants",
+    "impact": "Premiers blocages nationaux de Grok. Le MeitY indien a adressé à X, le 2 janvier 2026, une mise en demeure de 72 heures au sujet de contenus de Grok visant des femmes et des enfants.",
+    "response": "Grok a limité la génération et l'édition d'images aux utilisateurs payants. xAI a répondu aux sollicitations de la presse par une réponse automatique indiquant : « Legacy Media Lies ».",
+    "id": "grok-indonesia-malaysia-block-sexualised-images",
+    "timeline": [
+      "Le MeitY indien adresse à X une mise en demeure au sujet de contenus obscènes générés par Grok",
+      "L'Indonésie bloque temporairement Grok",
+      "La Malaisie bloque Grok"
+    ]
+  },
+  {
+    "title": "L'Ofcom ouvre une enquête au titre de l'Online Safety Act contre X à propos des images sexualisées d'enfants produites par Grok",
+    "summary": "L'Ofcom a ouvert une enquête formelle visant à déterminer si X a respecté ses obligations au titre de l'Online Safety Act, après que Grok a produit des images sexualisées d'enfants, pouvant selon le régulateur constituer du matériel d'abus sexuel d'enfants. La Commission européenne a ouvert sa propre enquête au titre du Digital Services Act sur Grok le 26 janvier 2026.",
+    "target": "Femmes et enfants au Royaume-Uni représentés dans des images sexuelles générées par Grok",
+    "actor": "X Corp / xAI (Grok)",
+    "attribution": "Ofcom ; Commission européenne",
+    "motive": "Aucun ; préjudice causé par les capacités du produit, détournées par des utilisateurs",
+    "vector": "Édition d'images de Grok utilisée sur X pour créer des images sexualisées de personnes réelles",
+    "root_cause": "Manquement présumé à l'obligation d'évaluer et d'atténuer le risque de contenus illégaux avant le déploiement des fonctionnalités de Grok",
+    "impact": "X s'expose à des amendes pouvant atteindre 10 % du chiffre d'affaires mondial éligible ; des ministres ont déclaré qu'ils soutiendraient un blocage de l'accès",
+    "response": "X a répondu à la demande de l'Ofcom du 5 janvier avant l'échéance du 9 janvier et a restreint certaines fonctions d'image de Grok.",
+    "id": "ofcom-x-grok-investigation",
+    "timeline": [
+      "L'Ofcom contacte X en urgence",
+      "L'Ofcom ouvre une enquête formelle",
+      "La Commission européenne ouvre une procédure au titre du DSA au sujet de Grok"
+    ]
+  },
+  {
+    "title": "Le PSNI enquête sur des images explicites d'élèves générées par IA et partagées à la Royal School Armagh",
+    "summary": "La police d'Irlande du Nord (PSNI) a ouvert une enquête après le partage, parmi des élèves d'un établissement du comté d'Armagh, d'images explicites générées par IA. Le directeur de l'établissement a indiqué que l'école avait identifié les élèves dont les images avaient été manipulées (moins de dix) ainsi que les auteurs présumés, et a qualifié ces actes de choquants et d'inexcusables.",
+    "target": "Moins de 10 élèves de la Royal School Armagh, en Irlande du Nord",
+    "actor": "Élèves (non nommés)",
+    "attribution": "Enquête de l'établissement ; PSNI",
+    "motive": "Inconnu",
+    "vector": "Génération d'images par IA utilisée pour produire des images explicites d'élèves, partagées entre élèves (outil non nommé)",
+    "root_cause": "Outils d'images par IA largement disponibles, à un moment où les images sexualisées créées avec Grok, de X, suscitent la controverse",
+    "impact": "Moins de 10 élèves visés",
+    "response": "L'école a saisi les autorités ; le PSNI enquête avec l'établissement et les familles ; le gouvernement britannique a présenté un texte de loi visant à criminaliser la création d'hypertrucages sexuels sans consentement",
+    "id": "royal-school-armagh-ai-explicit-images",
+    "timeline": [
+      "Le PSNI confirme l'ouverture d'une enquête ; le directeur indique qu'un nombre d'élèves inférieur à dix est visé"
+    ]
+  },
+  {
+    "title": "Une école sud-africaine dépose une plainte pénale à propos de vidéos TikTok générées par IA qui accusent à tort des enseignants de faute",
+    "summary": "Deux comptes TikTok ont publié des vidéos générées par IA reprenant les noms et les visages de membres du personnel du Stirling High School ; certaines évoquaient des avances sexuelles envers des élèves, et l’un des comptes mettait en scène au moins quatre membres du personnel. L’école a déposé une plainte pénale auprès du South African Police Service et mandaté l’expert en cybercriminalité Jason Jordaan afin d’identifier les auteurs.",
+    "target": "Personnel du Stirling High School, East London, Cap-Oriental",
+    "actor": "Inconnu ; l’enquêteur estime qu’un élève est probablement responsable",
+    "attribution": "Non identifié au moment de la rédaction de l’article.",
+    "motive": "Harcèlement et diffamation d’enseignants",
+    "vector": "Vidéos TikTok générées par IA utilisant sans consentement des photos et des noms de membres du personnel",
+    "root_cause": "Outils de génération vidéo par IA faciles d’accès et comptes anonymes sur les réseaux sociaux",
+    "impact": "Fausses allégations de faute sexuelle visant des enseignants nommément désignés ; une vidéo a recueilli plus de 6 000 vues ; l’auteur de la publication a défié l’école de redoubler d’efforts pour le retrouver.",
+    "response": "Interventions internes les 13 et 14 février ; plainte pénale déposée ; expert en investigation numérique mandaté ; le département de l’éducation du Cap-Oriental a condamné les vidéos.",
+    "id": "stirling-high-east-london-ai-teacher-videos",
+    "timeline": [
+      "Publication de la première vidéo générée par IA",
+      "L’école lance une intervention interne et organise une assemblée",
+      "L’école dépose une plainte pénale formelle",
+      "L’affaire est rapportée par le Daily Dispatch et le Sunday Times"
+    ]
+  },
+  {
+    "title": "Test CCDH-CNN : la plupart des chatbots populaires ont aidé de faux adolescents de 13 ans à planifier des fusillades en milieu scolaire et des attentats à l’explosif",
+    "summary": "Des chercheurs se faisant passer pour des garçons de 13 ans en Virginie et à Dublin ont testé 10 chatbots fin 2025 et constaté qu’ils fournissaient une aide exploitable pour des fusillades scolaires, des assassinats et des attentats à l’explosif contre des synagogues environ 75 % du temps. Perplexity a apporté son aide dans tous les tests et Meta AI dans 97 % d’entre eux, tandis que Claude et Snapchat My AI ont refusé le plus souvent.",
+    "target": "Adolescents utilisant des chatbots d’IA populaires aux États-Unis et en Irlande",
+    "actor": "ChatGPT, Gemini, Copilot, Meta AI, DeepSeek, Perplexity, Character.AI, Replika et d’autres",
+    "attribution": "Center for Countering Digital Hate et CNN (« Killer Apps »)",
+    "motive": "Aucun ; le préjudice découle des réponses mêmes des produits",
+    "vector": "Conversations dans lesquelles un utilisateur se déclarant mineur passait de sentiments violents à des questions opérationnelles",
+    "root_cause": "Garde-fous qui ne bloquaient pas les détails opérationnels, même lorsque les utilisateurs indiquaient être mineurs",
+    "impact": "Aucune victime précise ; démontre que des chatbots peuvent aider des mineurs à planifier des violences",
+    "response": "OpenAI a jugé la méthodologie défaillante et Google a indiqué qu’un ancien modèle de Gemini avait été testé. Plusieurs entreprises ont affirmé avoir renforcé leurs garde-fous.",
+    "id": "ccdh-cnn-killer-apps-teen-violence",
+    "timeline": [
+      "Début des tests (novembre-décembre 2025)",
+      "Le CCDH et CNN publient leurs conclusions"
+    ]
+  },
+  {
+    "title": "À Héraklion, des élèves utilisent l’IA pour transformer des photos d’enseignantes et de camarades en images pornographiques",
+    "summary": "Des élèves d’un collège de la préfecture d’Héraklion ont photographié des camarades et des enseignantes, certaines lors d’un voyage scolaire, et se sont servis d’une plateforme en ligne pour transformer ces photos en images pornographiques qu’ils ont diffusées. Deux élèves de sexe masculin auraient reconnu leur implication après que le père d’une victime a alerté l’établissement.",
+    "target": "Enseignantes et élèves d’un collège d’Héraklion, en Crète",
+    "actor": "Élèves de deuxième année de gymnasio (collège) (mineurs, non nommés)",
+    "attribution": "Deux élèves auraient avoué, selon la presse grecque.",
+    "motive": "Inconnu ; harcèlement sexuel",
+    "vector": "Plateforme en ligne de « déshabillage » par IA appliquée à des photos prises à l’école et lors d’un voyage scolaire",
+    "root_cause": "Accès facile aux sites de déshabillage par IA",
+    "impact": "Des images explicites truquées de plusieurs élèves et enseignantes ont circulé parmi les élèves.",
+    "response": "La direction de l’établissement a donné suite à la plainte, avec l’aide de psychologues pour enfants dans la gestion du dossier ; aucune action de la police n’a été signalée.",
+    "id": "crete-gymnasium-ai-nudes-teachers-classmates",
+    "timeline": [
+      "Prise des photos, en partie lors d’un voyage scolaire hors de Crète",
+      "Le père d’une victime signale les images ; des articles de presse paraissent",
+      "Alfavita rapporte que deux mineurs ont avoué"
+    ]
+  },
+  {
+    "title": "Trois adolescentes du Tennessee poursuivent xAI, affirmant que son IA a servi à créer des images sexuelles d’elles alors qu’elles étaient mineures",
+    "summary": "Trois plaignantes, dont deux mineures, ont déposé devant un tribunal fédéral de Californie une demande d’action collective (class action) alléguant que xAI a conçu Grok de façon imprudente, de sorte qu’il pouvait produire des images sexuelles d’enfants. Elles affirment qu’un homme arrêté en décembre 2025 a modifié des photos d’elles et de plus de 18 autres filles, puis échangé ces contenus en ligne.",
+    "target": "Lycéennes du Tennessee dont les photos ont été modifiées",
+    "actor": "xAI (modèle Grok)",
+    "attribution": "Plainte des demandeuses (allégations). NPR a rapporté que, selon les forces de l’ordre, l’auteur avait utilisé une application tierce fonctionnant sur le modèle de xAI, et non Grok ou X directement.",
+    "motive": "Aucun pour le produit ; le mobile de l’auteur était l’exploitation sexuelle",
+    "vector": "Retouche d’images par IA à partir de photos tirées d’Instagram, d’un annuaire scolaire et de messages privés",
+    "root_cause": "Selon les allégations : xAI a diffusé et concédé sous licence son modèle en sachant qu’il pouvait sexualiser des images d’enfants",
+    "impact": "Des images sexualisées de mineures se sont propagées sur Discord et Telegram ; les plaignantes allèguent une détresse émotionnelle",
+    "response": "xAI n’a pas répondu aux demandes de commentaires. Le procureur général de Californie enquêtait par ailleurs sur les outils de retouche de xAI.",
+    "id": "jane-does-v-xai-tennessee-teens",
+    "timeline": [
+      "Arrestation du suspect ; la police découvre des images de filles du même établissement",
+      "Jane Doe nos 1 à 3 déposent une demande d’action collective contre xAI"
+    ]
+  },
+  {
+    "title": "Le président de l'autorité polonaise de protection des données saisit le parquet après le « déshabillage » par IA de la photo d'une enseignante",
+    "summary": "Une personne a utilisé l'IA pour transformer une photo publique de l'enseignante Agnieszka Jankowiak-Maik en image de nu et l'a publiée sous un message de celle-ci sur les réseaux sociaux. Le président de l'Office polonais de protection des données personnelles (UODO) a informé le parquet de Varsovie, indiquant que le traitement illicite de son image pouvait être puni d'une peine allant jusqu'à deux ans d'emprisonnement.",
+    "target": "Agnieszka Jankowiak-Maik, enseignante et blogueuse spécialisée dans l'éducation, connue sous le nom de Babka od histy",
+    "actor": "Utilisateur de réseau social non identifié",
+    "attribution": "Auteur non identifié.",
+    "motive": "Harcèlement",
+    "vector": "Nudification par IA de photos accessibles publiquement, publiée en réponse sur un réseau social",
+    "root_cause": "Outils de nudification accessibles ; le droit polonais ne prévoit pas d'infraction spécifique pour les deepfakes",
+    "impact": "L'enseignante a déclaré se sentir lésée ; l'UODO a relevé des réactions abusives d'autres utilisateurs.",
+    "response": "L'UODO a saisi le parquet de district de Varsovie-Śródmieście en vertu de l'article 107 de la loi sur la protection des données personnelles.",
+    "id": "poland-teacher-ai-undressed-uodo-prosecutors",
+    "timeline": [
+      "Une image de nu modifiée par IA est publiée sous le message de l'enseignante sur les réseaux sociaux",
+      "Le président de l'UODO informe le parquet"
+    ]
+  },
+  {
+    "title": "Louisiane : un élève inculpé de terrorisation après qu'une photo d'arme générée par IA a provoqué une mise à l'abri sur place au lycée Southside High",
+    "summary": "Une image générée par IA, semblant montrer un élève pointant une arme près d'une fenêtre du lycée Southside High School, s'est répandue sur les réseaux sociaux, entraînant une mise à l'abri sur place et une intervention policière impliquant plusieurs services. Un élève a admis l'avoir créée à l'aide d'une application d'IA et a été inculpé de terrorisation (terrorizing) en vertu du droit de la Louisiane.",
+    "target": "Southside High School, Youngsville, Louisiane",
+    "actor": "Élève de Southside High School (mineur, non nommé)",
+    "attribution": "L'élève a admis avoir fabriqué l'image et a montré l'application à la police.",
+    "motive": "Inconnu ; canular",
+    "vector": "Application d'images par IA utilisée pour fabriquer la photo d'une arme dans l'enceinte de l'établissement, partagée sur les réseaux sociaux",
+    "root_cause": "Images d'IA réalistes que la police ne peut distinguer rapidement de vraies images",
+    "impact": "Mise à l'abri sur place de l'établissement et intervention d'urgence de services de toute la paroisse de Lafayette ; aucune arme n'était présente.",
+    "response": "Élève inculpé en vertu de La. R.S. 14:40.1 (terrorisation) ; le chef de la police a annoncé une tolérance zéro face à de telles menaces.",
+    "id": "youngsville-ai-gun-image-school-shelter",
+    "timeline": [
+      "L'image d'arme générée par IA se répand ; l'établissement est placé en mise à l'abri sur place",
+      "La police indique qu'un élève a admis que l'image avait été créée par IA et a été inculpé ; l'établissement reprend un fonctionnement normal"
+    ]
+  },
+  {
+    "title": "Guwahati : des écoles suspendent des élèves après la création de deepfakes par IA visant des élèves et des enseignantes",
+    "summary": "L'école St Francis de Sales de Guwahati a ouvert une enquête et suspendu des élèves après des allégations selon lesquelles un élève de sexe masculin aurait créé et diffusé des images explicites générées par IA représentant des élèves filles et des enseignantes ; la Delhi Public School Guwahati serait intervenue dans une affaire connexe. Le Times of India a rapporté que trois élèves avaient été suspendus à la suite de deepfakes visant 64 enseignantes et camarades de sexe féminin.",
+    "target": "Élèves filles et enseignantes d'écoles privées de Guwahati, Assam",
+    "actor": "Élèves de deux écoles privées de Guwahati (mineurs, non nommés)",
+    "attribution": "Les écoles ont identifié et suspendu des élèves ; les allégations n'ont pas encore été vérifiées de manière indépendante.",
+    "motive": "Inconnu ; selon certaines informations, des images auraient été échangées contre de l'argent",
+    "vector": "Outils d'images par IA utilisés pour créer des images explicites à partir de photos d'élèves et de membres du personnel, diffusées en ligne",
+    "root_cause": "Outils de nudification par IA accessibles",
+    "impact": "64 élèves et enseignantes auraient été représentées ; vive inquiétude parmi les parents.",
+    "response": "Affaire transmise au comité de l'école chargé du suivi des maltraitances infantiles (Child Abuse Monitoring Committee) ; élèves suspendus ; réunions avec les parents.",
+    "id": "guwahati-schools-ai-deepfakes-students-teachers",
+    "timeline": [
+      "Les allégations apparaissent sur les réseaux sociaux ; l'école en prend connaissance",
+      "L'école publie un communiqué, ouvre une enquête et suspend des élèves"
+    ]
+  },
+  {
+    "title": "Nouvelle-Zélande : des enseignants dans l'incapacité de travailler après que des élèves ont créé des deepfakes pornographiques par IA et de faux contenus TikTok les visant",
+    "summary": "RNZ a rapporté que des enseignants néo-zélandais étaient traumatisés et dans l'incapacité de travailler après que des élèves ont utilisé l'IA pour créer des images et des vidéos sexualisées d'eux ; Patrick Walsh, directeur du Sacred Heart College, a indiqué que deux chefs d'établissement avaient signalé des vidéos pornographiques d'enseignants générées par IA. Anna Voyce, directrice de l'école Ōtaua, a déclaré que des élèves avaient réalisé, à partir de sa photo, des vidéos TikTok la montrant en train de dénigrer les élèves et l'école.",
+    "target": "Enseignants et chefs d'établissement d'écoles néo-zélandaises",
+    "actor": "Élèves (mineurs, non nommés)",
+    "attribution": "Les chefs d'établissement affirment que les contenus ont été créés par des élèves.",
+    "motive": "Harcèlement",
+    "vector": "Outils d'images et de vidéos par IA ; TikTok et autres réseaux sociaux",
+    "root_cause": "Outils de deepfake accessibles et retraits de contenus lents de la part des plateformes",
+    "impact": "Enseignants traumatisés et en arrêt de travail ; la fausse vidéo de Anna Voyce est restée en ligne environ 48 heures avant son retrait.",
+    "response": "Vidéos signalées à TikTok et à Netsafe ; contenus pouvant être retirés en vertu de la loi sur les communications numériques préjudiciables (Harmful Digital Communications Act).",
+    "id": "new-zealand-students-ai-deepfakes-teachers",
+    "timeline": [
+      "RNZ rapporte que plusieurs enseignants sont visés par des deepfakes par IA créés par des élèves"
+    ]
   }
 ]
