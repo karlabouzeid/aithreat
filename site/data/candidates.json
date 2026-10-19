@@ -2158,5 +2158,50 @@
     "first_seen": "2026-10-19T04:35:39Z",
     "first_published": "2026-10-18T10:42:00Z",
     "updated_at": "2026-10-19T04:35:39Z"
+  },
+  {
+    "id": "barnaul-pizzeria-ai-data-theft",
+    "date": "2026-10-19",
+    "title": "Barnaul hacker detained for AI-assisted theft of pizzeria customer data",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "RU",
+    "region": "Europe",
+    "target": "Pizzeria chain customer databases",
+    "loss_usd": null,
+    "summary": "Per a Techora.ru headline, police in Barnaul detained a hacker who stole pizzeria customers' data with the help of AI. Further details were not provided.",
+    "actor": "Unnamed hacker detained in Barnaul",
+    "actor_type": "criminal",
+    "sector": "Retail & consumer brands",
+    "attribution": "Police detained one suspect in Barnaul, per Techora.ru; the suspect's identity is Unknown.",
+    "motive": "Unknown",
+    "vector": "Unknown; the headline says only that AI was used to steal the data.",
+    "root_cause": "Unknown",
+    "impact": "Customer data of pizzerias was stolen; the number of records and businesses is Unknown.",
+    "response": "Police detained the suspect; the charges and any further action are Unknown.",
+    "status": "under investigation",
+    "cve": null,
+    "confidence": 0.45,
+    "source": "Techora.ru",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOeDRwUDE2TGQtNEZNd19mNW5JUTBiN0RFOFNkMjJIZ3ZHQUpNSUFqcU5iVmNGX29abGhsbzZ1d1FlUmpoLV9icnEwR3p2WFI1eWs5alh3VlJCYUJjeHU4Y2F1WkxYcXdkdlU3bzlJQ2VkT1pUMVVXOUlSV1JGZDBTbF94elFmQWdnYVE?oc=5",
+    "sources": [
+      {
+        "name": "Techora.ru",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOeDRwUDE2TGQtNEZNd19mNW5JUTBiN0RFOFNkMjJIZ3ZHQUpNSUFqcU5iVmNGX29abGhsbzZ1d1FlUmpoLV9icnEwR3p2WFI1eWs5alh3VlJCYUJjeHU4Y2F1WkxYcXdkdlU3bzlJQ2VkT1pUMVVXOUlSV1JGZDBTbF94elFmQWdnYVE?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-19",
+        "event": "Reported by Techora.ru"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-19T07:05:39Z",
+    "wire_id": "2d2e7f7ed696",
+    "first_seen": "2026-10-19T07:05:39Z",
+    "first_published": "2026-10-19T06:57:51Z",
+    "updated_at": "2026-10-19T07:05:39Z"
   }
 ]
