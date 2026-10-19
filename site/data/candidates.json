@@ -2383,5 +2383,50 @@
     "first_seen": "2026-10-19T10:35:37Z",
     "first_published": "2026-10-19T10:33:20Z",
     "updated_at": "2026-10-19T10:35:37Z"
+  },
+  {
+    "id": "chinese-speaking-hacker-ai-1200-sites",
+    "date": "2026-10-19",
+    "title": "Chinese-speaking hacker uses AI to attack 1,200+ websites for about $5,000",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "More than 1,200 websites",
+    "loss_usd": null,
+    "summary": "A Russian-language report says a Chinese-speaking hacker used AI to attack over 1,200 websites at a cost of about $5,000. The headline gives no further detail.",
+    "actor": "Chinese-speaking hacker (unnamed)",
+    "actor_type": "unknown",
+    "sector": "Multiple / cross-sector",
+    "attribution": "Headline describes the actor only as Chinese-speaking; no group or name is given.",
+    "motive": "Unknown",
+    "vector": "AI tools used to attack websites; specific techniques not stated in the headline.",
+    "root_cause": "Unknown",
+    "impact": "More than 1,200 websites reportedly attacked; extent of compromise unknown.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "confidence": 0.4,
+    "source": "Techora.ru",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOXzZnbDdPbTdBT1RTV1N1LUdFYnNpWjU2eWV2cDVkcGs1eURVTWJnTTJCUkhTRGNfSHN1VTBrZW84UXRwSnROQk9neGljam04WVVGUlJVeWZVRnU5Q3dyTGh4eXJ5STJhVVhqTVUtMkotV2Z0bmZPcXR2djlXWmgyajQ1RGJYWDBUNjBneg?oc=5",
+    "sources": [
+      {
+        "name": "Techora.ru",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOXzZnbDdPbTdBT1RTV1N1LUdFYnNpWjU2eWV2cDVkcGs1eURVTWJnTTJCUkhTRGNfSHN1VTBrZW84UXRwSnROQk9neGljam04WVVGUlJVeWZVRnU5Q3dyTGh4eXJ5STJhVVhqTVUtMkotV2Z0bmZPcXR2djlXWmgyajQ1RGJYWDBUNjBneg?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-19",
+        "event": "Reported by Techora.ru"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-19T11:05:36Z",
+    "wire_id": "7aae36b7a23d",
+    "first_seen": "2026-10-19T11:05:36Z",
+    "first_published": "2026-10-19T10:43:48Z",
+    "updated_at": "2026-10-19T11:05:36Z"
   }
 ]
