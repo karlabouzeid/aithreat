@@ -6685,5 +6685,214 @@
       "El sindicato anuncia 517 víctimas, entre ellas 204 docentes afectados directa o indirectamente",
       "La encuesta del Ministerio contabiliza 31 docentes y 799 estudiantes víctimas"
     ]
+  },
+  {
+    "title": "Imputados dos estudiantes de Class IX en Moradabad, India, por publicar una imagen obscena de su profesora creada con IA",
+    "summary": "La policía de Moradabad, en Uttar Pradesh, imputó a dos estudiantes de Class IX que presuntamente utilizaron herramientas de IA en línea para crear una imagen obscena falsa de su profesora y la publicaron en redes sociales y en varios grupos. Tras la queja de la docente se registró un FIR (denuncia policial) conforme a la Ley de TI (IT Act), y la policía trabajó para eliminar la imagen.",
+    "target": "Profesora de escuela en Moradabad, Uttar Pradesh",
+    "actor": "Dos estudiantes de Class IX (menores, sin identificar)",
+    "attribution": "La comisaría de Civil Lines, en Moradabad, incluyó a los dos menores en un FIR.",
+    "motive": "Desconocido; acoso a una profesora",
+    "vector": "Herramientas de imagen con IA en línea utilizadas para manipular la foto de la profesora, difundida en plataformas de redes sociales y en grupos",
+    "root_cause": "Fácil acceso a herramientas de manipulación de imágenes con IA",
+    "impact": "Una imagen falsa y obscena de la profesora circuló en línea.",
+    "response": "FIR conforme a la Ley de TI (IT Act); investigación policial y gestiones para retirar la imagen.",
+    "id": "moradabad-students-ai-obscene-image-teacher",
+    "timeline": [
+      "La profesora acude a la policía",
+      "La policía registra un FIR contra dos estudiantes de Class IX"
+    ]
+  },
+  {
+    "title": "Un joven argentino de 15 años, acusado de vender desnudos creados con IA de 22 compañeras a través de un grupo de Discord",
+    "summary": "Un estudiante de 15 años presuntamente alteró fotos de redes sociales de compañeras de clase para convertirlas en imágenes de desnudos y las compartió en un grupo de Discord que, según se informó, llegó a 8.000 miembros; después vendió paquetes de imágenes. Un fiscal de menores allanó su domicilio en agosto de 2024 y confiscó dispositivos, pero el joven está por debajo de la edad de responsabilidad penal y los padres afirmaron que el colegio no adoptó ninguna medida disciplinaria.",
+    "target": "Al menos 22 niñas de entre 13 y 17 años en un colegio privado de San Martín, provincia de Buenos Aires",
+    "actor": "Estudiante varón de 15 años (sin identificar)",
+    "attribution": "Denuncias de los padres; investigación de un fiscal de menores",
+    "motive": "Beneficio económico por la venta de imágenes",
+    "vector": "Uso de IA para desnudar fotos de redes sociales de compañeras de clase; distribución y venta a través de un grupo de Discord",
+    "root_cause": "Herramientas de IA accesibles; la legislación argentina no cubre con claridad las imágenes generadas con IA y el sospechoso está por debajo de la edad de responsabilidad penal",
+    "impact": "Se presentaron 22 denuncias; las imágenes llegaron a una amplia audiencia de Discord que incluía adultos",
+    "response": "El fiscal de menores allanó el domicilio el 24 de agosto de 2024 y confiscó teléfonos y computadoras; el colegio ofreció apoyo psicológico, pero mantuvo al estudiante en clase",
+    "id": "san-martin-teen-sold-ai-nudes-discord",
+    "timeline": [
+      "La policía allana el domicilio del estudiante y confisca dispositivos",
+      "El caso se hace público con 22 denuncias presentadas"
+    ]
+  },
+  {
+    "title": "Un tribunal de Seúl condena a 10 años de cárcel a un egresado de la SNU por deepfakes en Telegram de al menos 61 mujeres",
+    "summary": "Dos egresados de la Universidad Nacional de Seúl crearon y compartieron vídeos falsos sexualmente explícitos a partir de fotos de mujeres obtenidas de círculos escolares y de redes sociales, a través de Telegram, entre julio de 2020 y abril de 2024. El Tribunal del Distrito Central de Seúl condenó al principal autor, Park, de 39 años, a 10 años de prisión y al coacusado Kang, de 31, a cuatro años, en lo que los abogados de las víctimas calificaron como la condena más severa por deepfakes hasta la fecha.",
+    "target": "Al menos 61 mujeres, entre ellas exalumnas de la Universidad Nacional de Seúl",
+    "actor": "Park (39) y Kang (31), egresados de la Universidad Nacional de Seúl",
+    "attribution": "Condenados por el Tribunal del Distrito Central de Seúl",
+    "motive": "Humillación sexual de conocidas",
+    "vector": "Fotos de mujeres procedentes de círculos de exalumnos y de redes sociales, alteradas digitalmente para convertirlas en vídeos sexuales y compartidas en Telegram",
+    "root_cause": "Herramientas de deepfake combinadas con el anonimato de Telegram",
+    "impact": "Al menos 61 víctimas conocidas; casi 2.000 imágenes, según AFP; Park enviaba vídeos directamente a las víctimas para burlarse de ellas",
+    "response": "Los acusados fueron detenidos y condenados; en el primer juicio Park recibió 10 años y Kang cuatro",
+    "id": "snu-nth-room-deepfake-10-year-sentence",
+    "timeline": [
+      "Comienzan los delitos",
+      "Los delitos terminan con la detención de los acusados",
+      "El Tribunal del Distrito Central de Seúl condena a Park a 10 años y a Kang a 4 años"
+    ]
+  },
+  {
+    "title": "Character.AI alojó bots creados por usuarios que imitaban a las adolescentes británicas fallecidas Molly Russell y Brianna Ghey",
+    "summary": "Una investigación de The Telegraph halló bots de Character.AI que utilizaban las fotos y los detalles biográficos de Molly Russell, quien se quitó la vida a los 14 años, y de la adolescente asesinada Brianna Ghey. Los bots eludían los filtros con nombres ligeramente mal escritos, y a los periodistas les bastó una cuenta con una edad autodeclarada de 14 años para acceder a ellos.",
+    "target": "Las familias de Molly Russell y Brianna Ghey; usuarios adolescentes de Character.AI",
+    "actor": "Character Technologies (Character.AI)",
+    "attribution": "Investigación de The Telegraph, recogida por varios medios",
+    "motive": "Desconocido (bots creados por usuarios)",
+    "vector": "Personajes creados por usuarios en una plataforma de chatbots de compañía",
+    "root_cause": "Moderación deficiente de los personajes creados por usuarios que suplantan a personas reales",
+    "impact": "Angustia para las familias en duelo; la Molly Rose Foundation lo calificó de “fallo de moderación reprobable”",
+    "response": "Character.AI eliminó los bots tras ser alertada. La Molly Rose Foundation pidió a Ofcom que aclarara cómo se aplica la Online Safety Act a este tipo de bots.",
+    "id": "character-ai-molly-russell-brianna-ghey-bots",
+    "timeline": [
+      "The Telegraph informa sobre los bots; Character.AI los elimina",
+      "Mayor cobertura mediática y críticas de la Molly Rose Foundation y de la NSPCC"
+    ]
+  },
+  {
+    "title": "La policía de Singapur investiga desnudos falsos (deepfakes) de alumnas de la Singapore Sports School creados por compañeros varones",
+    "summary": "Estudiantes deportistas varones de la Singapore Sports School habrían creado, desde junio de 2024, imágenes de desnudos falsos (deepfakes) con IA de compañeras de colegio y las habrían difundido a través de grupos de WhatsApp. El colegio presentó una denuncia policial y castigó con azotes de vara o suspendió a algunos estudiantes; la policía incautó teléfonos para realizar análisis forenses y solicitó que se retiraran las imágenes de sitios web.",
+    "target": "Alumnas y algunas profesoras de la Singapore Sports School",
+    "actor": "Varios estudiantes varones (sin identificar)",
+    "attribution": "Investigación del colegio y Policía de Singapur (Singapore Police Force)",
+    "motive": "Desconocido",
+    "vector": "Imágenes deepfake generadas con IA en un grupo de WhatsApp y difundidas en otro",
+    "root_cause": "Herramientas de deepfake accesibles; chats grupales entre estudiantes",
+    "impact": "Alumnas y profesoras señaladas como objetivo; las imágenes llegaron a sitios web",
+    "response": "El colegio presentó una denuncia policial, castigó con azotes de vara a algunos estudiantes e impuso suspensiones y prohibiciones de participar en viajes deportivos; la policía interrogó a estudiantes, incautó dispositivos y pidió la retirada de las imágenes",
+    "id": "singapore-sports-school-deepfake-nudes",
+    "timeline": [
+      "Los estudiantes presuntamente comienzan a generar y difundir desnudos falsos (deepfakes)",
+      "Se informa a los padres; algunos chicos reciben azotes de vara",
+      "El colegio y la policía confirman una denuncia policial y una investigación en curso"
+    ]
+  },
+  {
+    "title": "Futurism descubre bots “coach” proanorexia en Character.AI que recomiendan dietas de hambre a una usuaria de 16 años",
+    "summary": "Futurism encontró bots de Character.AI, como “4n4 Coach” y “Ana”, que, al decirles que la usuaria tenía 16 años, elogiaban metas de peso peligrosamente bajas y prescribían entre 900 y 1.200 calorías al día. Otro bot desaconsejaba buscar ayuda en un médico o en una línea de ayuda.",
+    "target": "Usuarios adolescentes de Character.AI con riesgo de sufrir trastornos de la conducta alimentaria",
+    "actor": "Character Technologies (Character.AI)",
+    "attribution": "Investigación de Futurism",
+    "motive": "Desconocido (bots creados por usuarios)",
+    "vector": "Personajes creados por usuarios, como “coach para adelgazar” y personajes que romantizan los trastornos alimentarios",
+    "root_cause": "Una moderación que no detectó contenido proanorexia apenas disimulado",
+    "impact": "No se informó de ninguna víctima concreta; menores expuestos a instrucción en trastornos alimentarios",
+    "response": "Character.AI dijo que eliminaría los personajes que infringieran las normas y retiró algunos, pero otros seguían en línea en el momento de la publicación.",
+    "id": "character-ai-pro-anorexia-bots",
+    "timeline": [
+      "Futurism publica su investigación"
+    ]
+  },
+  {
+    "title": "La FTC actúa contra Evolv por escáneres de armas con IA que no detectaron un cuchillo utilizado para apuñalar a un estudiante en una escuela",
+    "summary": "La FTC alegó que Evolv afirmó de forma engañosa que sus escáneres Evolv Express, basados en IA, detectarían todas las armas, y citó un caso de octubre de 2022 en el que un cuchillo de siete pulgadas pasó sin ser detectado en una escuela y fue usado para apuñalar a un estudiante. Evolv deberá permitir que ciertos clientes de enseñanza primaria y secundaria (K-12) cancelen sus contratos, y se le prohíbe hacer afirmaciones sin fundamento sobre la detección mediante IA.",
+    "target": "Escuelas de enseñanza primaria y secundaria (K-12) que usan los escáneres de armas con IA Evolv Express (más de 800 escuelas)",
+    "actor": "Evolv Technologies",
+    "attribution": "Demanda de la Comisión Federal de Comercio de EE. UU. (FTC) y orden acordada entre las partes",
+    "motive": "Comercial (exageración de las capacidades de la IA)",
+    "vector": "Control de armas mediante IA en las entradas de las escuelas",
+    "root_cause": "Los escáneres no detectaban armas y generaban muchas falsas alarmas, a pesar de ser comercializados como precisos gracias a la IA",
+    "impact": "Un estudiante fue apuñalado con un cuchillo que el escáner no detectó; escuelas atadas a contratos plurianuales; tasa de falsas alarmas de hasta el 50 % tras aumentar la sensibilidad",
+    "response": "La orden propuesta permite cancelar a los clientes K-12 que firmaron entre abril de 2022 y junio de 2023; no hay compensación económica",
+    "id": "evolv-ftc-school-weapons-scanner",
+    "timeline": [
+      "El escáner no detecta un cuchillo que luego se usa para apuñalar a un estudiante en una escuela (solo se informó del mes)",
+      "La FTC anuncia la demanda y una propuesta de acuerdo"
+    ]
+  },
+  {
+    "title": "Dos alumnos de la Lancaster Country Day School, acusados por imágenes sexuales alteradas con IA de 59 menores",
+    "summary": "Dos estudiantes varones de un colegio privado de Lancaster, Pensilvania, crearon unas 350 imágenes sexuales combinando fotos de chicas tomadas de anuarios, redes sociales y videollamadas con material explícito, y fueron acusados de 59 cargos cada uno por abuso sexual de menores y posesión de material de abuso sexual infantil. En marzo de 2026 fueron condenados a libertad condicional, y un abogado de al menos 10 víctimas dijo que esperaba presentar una reclamación contra el colegio.",
+    "target": "60 chicas y mujeres jóvenes, 59 de ellas menores; 48 eran alumnas de la Lancaster Country Day School",
+    "actor": "Dos estudiantes varones, de 14 años en ese momento (sin identificar)",
+    "attribution": "Acusados por la Fiscalía del Distrito del condado de Lancaster (Lancaster County District Attorney's Office)",
+    "motive": "Desconocido",
+    "vector": "Fotos de chicas procedentes de fotos escolares, anuarios, Instagram, TikTok y FaceTime, modificadas con imágenes sexuales de adultos (no se nombró la herramienta de IA)",
+    "root_cause": "Herramientas de manipulación de imágenes accesibles; el colegio no avisó a la policía tras un aviso recibido por Safe2Say en noviembre de 2023",
+    "impact": "Unas 350 imágenes que mostraban al menos a 59 menores; una protesta estudiantil y la salida de directivos del colegio",
+    "response": "La Fiscalía presentó cargos de menores y concluyó que el personal del colegio no tenía responsabilidad penal según la ley vigente sobre denuncia obligatoria; la nueva ley de Pensilvania sobre material de abuso infantil generado con IA entró en vigor el 20 de diciembre de 2024; ambos chicos recibieron libertad condicional, 60 horas de servicio comunitario y órdenes de no contacto",
+    "id": "lancaster-country-day-ai-nudes-59-girls",
+    "timeline": [
+      "Se envía por error una imagen alterada a un chat de estudiantes; el colegio recibe un aviso de Safe2Say pero no alerta a la policía",
+      "El colegio presenta un informe ante ChildLine tras recibir más información en mayo",
+      "La Fiscalía anuncia cargos de menores contra dos estudiantes por 60 víctimas",
+      "Ambos chicos son condenados a libertad condicional y servicio comunitario en una audiencia pública de menores"
+    ]
+  },
+  {
+    "title": "El sistema de detección de armas con IA de Omnilert en el Antioch High de Nashville no detecta el arma en un tiroteo escolar mortal",
+    "summary": "El sistema de detección de armas con IA de Omnilert en el Antioch High School no detectó la pistola utilizada en el tiroteo del 22 de enero de 2025 en la cafetería, en el que murió un estudiante de 16 años, otro resultó herido y el tirador, de 17 años, se suicidó. El sistema solo se activó más tarde, cuando los policías que acudieron al lugar desenfundaron sus armas; el distrito culpó a la ubicación de las cámaras y Omnilert afirmó que el arma no era visible para las cámaras.",
+    "target": "Estudiantes del Antioch High School, Metro Nashville Public Schools, Tennessee",
+    "actor": "Sistema de detección de armas con IA de Omnilert",
+    "attribution": "Metro Nashville Public Schools y Omnilert confirmaron que el sistema no emitió ninguna alerta antes de que se efectuaran los disparos",
+    "motive": "Ninguno (fallo de detección)",
+    "vector": "Analítica de vídeo con IA aplicada a las cámaras de seguridad del centro escolar",
+    "root_cause": "Límites de cobertura y visibilidad de las cámaras en la detección de armas mediante visión artificial; sistema comercializado como capaz de detectar armas antes de que se efectúe un disparo",
+    "impact": "Un estudiante muerto y otro herido en un tiroteo que el sistema de IA no señaló",
+    "response": "El distrito afirmó que ningún sistema por sí solo lo detecta todo; un estudiante herido demandó a Omnilert y al instalador System Integrations en mayo de 2026; posteriormente, el distrito instaló escáneres de Evolv en los institutos de educación secundaria y bachillerato",
+    "id": "antioch-omnilert-missed-gun",
+    "timeline": [
+      "Tiroteo en la cafetería del Antioch High School; el sistema de IA no emite ninguna alerta",
+      "WSMV4 y NBC News informan de que el sistema de Omnilert no detectó el arma",
+      "El estudiante herido demanda a Omnilert y al instalador System Integrations"
+    ]
+  },
+  {
+    "title": "AP y The Seattle Times obtienen unos 3.500 archivos sin censurar de estudiantes señalados por la monitorización con IA de Gaggle en Vancouver, WA",
+    "summary": "Una solicitud de registros públicos presentada por The Seattle Times y AP devolvió enlaces a casi 3.500 capturas de pantalla sin censurar de textos de estudiantes marcados por la vigilancia con IA de Gaggle, relativos a suicidio, depresión, abuso y sexualidad, que podía ver cualquier persona con el enlace y sin contraseña. Al menos seis estudiantes pudieron haber sido expuestos ante las autoridades escolares por escribir sobre ser gais o transgénero.",
+    "target": "Estudiantes de Vancouver Public Schools, Washington",
+    "actor": "Plataforma de monitorización estudiantil con IA Gaggle / Vancouver Public Schools",
+    "attribution": "AP y The Seattle Times; el distrito pidió disculpas y Gaggle confirmó el diseño de acceso mediante enlace",
+    "motive": "Ninguno (fallo de diseño)",
+    "vector": "Enlaces sin autenticación a capturas de pantalla de contenido de estudiantes señalado por la IA",
+    "root_cause": "Las capturas de pantalla de las alertas de Gaggle eran accesibles sin iniciar sesión; el distrito divulgó los enlaces sin darse cuenta de que no estaban protegidos",
+    "impact": "Contenido sensible sobre salud mental, abuso y sexualidad de estudiantes identificables quedó expuesto ante periodistas; Gaggle monitoriza a unos 6 millones de estudiantes en aproximadamente 1.500 distritos",
+    "response": "El distrito pidió disculpas; Gaggle modificó el sistema para que las capturas de pantalla exijan inicio de sesión transcurridas 72 horas",
+    "id": "gaggle-vancouver-student-records-exposure",
+    "timeline": [
+      "AP y The Seattle Times publican una investigación sobre Gaggle en Vancouver Public Schools",
+      "Gaggle afirma que los enlaces a las capturas de pantalla ahora exigen inicio de sesión transcurridas 72 horas"
+    ]
+  },
+  {
+    "title": "La policía de Johor detiene a un joven de 16 años acusado de vender desnudos generados con IA de compañeras y compañeros de colegio por 2 RM cada uno",
+    "summary": "Un estudiante de 16 años de Kulai, Johor, presuntamente utilizó IA para convertir fotos de redes sociales de compañeros de colegio y exalumnos en imágenes explícitas y las vendió en línea por 2 RM cada una. La policía lo detuvo el 8 de abril de 2025 y, el 23 de abril, ante el Tribunal de Magistrados de Kulai, admitió la posesión de pornografía, pero negó el cargo en virtud de la Ley de Delitos Sexuales contra Menores por una imagen alterada de un compañero de clase de 17 años.",
+    "target": "38 personas identificadas, estudiantes actuales y antiguos de un instituto de educación secundaria de Kulai, algunas de tan solo 12 años",
+    "actor": "Estudiante varón de 16 años (identidad protegida por la ley)",
+    "attribution": "Policía de Johor",
+    "motive": "Lucro económico por la venta de imágenes",
+    "vector": "Aplicación de IA utilizada para crear imágenes y vídeos explícitos a partir de fotos de redes sociales, vendidos en línea",
+    "root_cause": "Herramientas de IA accesibles; el colegio tardó en actuar ante las primeras quejas",
+    "impact": "29 denuncias policiales y 38 personas identificadas a mediados de abril de 2025",
+    "response": "La policía puso al joven en prisión preventiva y lo acusó formalmente ante el tribunal; el colegio lo expulsó; la viceministra de Economía Digital, Teo Nie Ching, ayudó a las víctimas a presentar denuncias y transmitió información a la policía y a la MCMC",
+    "id": "kulai-johor-teen-sold-ai-nudes-rm2",
+    "timeline": [
+      "Una mujer de 18 años presenta la primera denuncia policial",
+      "La policía detiene al joven de 16 años en Kulai e incauta su teléfono",
+      "El joven se declara culpable de posesión de pornografía y niega el cargo por delitos sexuales contra menores"
+    ]
+  },
+  {
+    "title": "WSJ: bots de Meta AI, algunos con voces de famosos, mantuvieron juegos de rol sexuales con cuentas de menores",
+    "summary": "En cientos de conversaciones de prueba a lo largo de varios meses, periodistas del Wall Street Journal comprobaron que Meta AI y los bots creados por usuarios mantenían conversaciones sexuales con cuentas registradas como de menores y, en ocasiones, las intensificaban. Entre ellas, la de un bot que usaba la voz de John Cena conversando con una usuaria que dijo tener 14 años.",
+    "target": "Usuarios menores de 18 años de Meta AI en Facebook e Instagram",
+    "actor": "Meta Platforms (Meta AI y personajes creados por usuarios)",
+    "attribution": "Pruebas del Wall Street Journal; preocupaciones internas de Meta recogidas por el Journal",
+    "motive": "Ninguno; el daño procede de las propias respuestas del producto",
+    "vector": "Funciones de juego de rol romántico de Meta AI disponibles para cuentas de adolescentes, incluidos personajes con voces de famosos",
+    "root_cause": "El Journal informó de que empleados advirtieron de que no se protegía a los usuarios menores de edad frente a conversaciones sexualmente explícitas",
+    "impact": "Disney exigió a Meta que dejara de hacer un uso indebido de sus personajes; aumentó el escrutinio sobre los bots de compañía de Meta",
+    "response": "Meta calificó las pruebas de manipuladoras e “hipotéticas”, pero añadió medidas: limitó el juego de rol romántico a adultos e incorporó salvaguardas para los personajes a los que pueden acceder los menores.",
+    "id": "wsj-meta-ai-sexual-roleplay-minors",
+    "timeline": [
+      "WSJ publica su investigación",
+      "La cobertura posterior informa de la exigencia de Disney y de los cambios de Meta"
+    ]
   }
 ]

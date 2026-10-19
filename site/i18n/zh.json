@@ -6685,5 +6685,214 @@
       "工会公布受害者共 517 人，其中包括 204 名直接或间接受影响的教师",
       "教育部调查统计有 31 名教师和 799 名学生受害"
     ]
+  },
+  {
+    "title": "印度莫拉达巴德两名九年级学生因发布 AI 生成的教师淫秽图像被立案",
+    "summary": "北方邦莫拉达巴德警方对两名九年级学生立案。这两名学生涉嫌利用在线 AI 工具伪造其女教师的淫秽图像，并将其发布到社交媒体和多个群组中。教师投诉后，警方依据《信息技术法》（IT Act）登记了首次情况报告（FIR），并着手删除该图像。",
+    "target": "北方邦莫拉达巴德的一名女教师",
+    "actor": "两名九年级学生（未成年人，未公开姓名）",
+    "attribution": "莫拉达巴德 Civil Lines 警察局在 FIR 中指名了这两名未成年人。",
+    "motive": "不明；疑为骚扰教师",
+    "vector": "利用在线 AI 图像工具对教师照片进行变造，并在社交媒体平台和群组中传播",
+    "root_cause": "AI 图像篡改工具易于获取",
+    "impact": "教师的淫秽伪造图像在网上流传。",
+    "response": "依据《信息技术法》（IT Act）登记 FIR；警方展开调查并设法删除图像。",
+    "id": "moradabad-students-ai-obscene-image-teacher",
+    "timeline": [
+      "教师向警方报案",
+      "警方针对两名九年级学生登记 FIR"
+    ]
+  },
+  {
+    "title": "阿根廷一名 15 岁少年被指通过 Discord 群组出售 22 名同学的 AI 裸照",
+    "summary": "一名 15 岁学生涉嫌将女同学在社交媒体上的照片篡改为裸照，并发到一个据报道成员达 8000 人的 Discord 群组中，随后还出售图片包。2024 年 8 月，少年检察官搜查了他的住所并扣押了设备，但他未达刑事责任年龄，家长称学校没有采取任何纪律处分。",
+    "target": "布宜诺斯艾利斯省圣马丁一所私立学校中至少 22 名 13 至 17 岁的女生",
+    "actor": "一名 15 岁男学生（未公开姓名）",
+    "attribution": "家长投诉；少年检察官调查",
+    "motive": "出售图像牟利",
+    "vector": "利用 AI 对同学的社交媒体照片进行“脱衣”处理，并通过 Discord 群组传播和出售",
+    "root_cause": "AI 工具易于获取；阿根廷法律对 AI 图像没有明确规定，且嫌疑人未达刑事责任年龄",
+    "impact": "已提交 22 起投诉；图像传播到包括成年人在内的大量 Discord 受众",
+    "response": "少年检察官于 2024 年 8 月 24 日搜查其住所，扣押了手机和电脑；学校提供了心理支持，但仍让该学生留在班级上课",
+    "id": "san-martin-teen-sold-ai-nudes-discord",
+    "timeline": [
+      "警方搜查该学生住所并扣押设备",
+      "案件曝光，已提交 22 起投诉"
+    ]
+  },
+  {
+    "title": "首尔法院判处一名首尔大学毕业生 10 年监禁，其通过 Telegram 制作至少 61 名女性的深度伪造视频",
+    "summary": "两名首尔大学毕业生自 2020 年 7 月至 2024 年 4 月，利用取自校内社团和社交媒体的女性照片制作露骨的伪造性视频，并通过 Telegram 传播。首尔中央地方法院判处主犯 Park（39 岁）10 年监禁，同案被告 Kang（31 岁）4 年监禁；受害者律师称这是迄今为止对深度伪造犯罪最重的判决。",
+    "target": "至少 61 名女性，包括首尔大学的女校友",
+    "actor": "Park（39 岁）和 Kang（31 岁），均为首尔大学毕业生",
+    "attribution": "被首尔中央地方法院定罪",
+    "motive": "对熟人进行性羞辱",
+    "vector": "将取自校友圈和社交媒体的女性照片经数字篡改为性视频，并在 Telegram 上传播",
+    "root_cause": "深度伪造工具与 Telegram 的匿名性相结合",
+    "impact": "已知受害者至少 61 人；法新社（AFP）报道涉及近 2000 张图像；Park 还将视频直接发给受害者以嘲弄她们",
+    "response": "被告被捕并被定罪；一审中 Park 被判 10 年，Kang 被判 4 年",
+    "id": "snu-nth-room-deepfake-10-year-sentence",
+    "timeline": [
+      "犯罪开始",
+      "随着被告被捕，犯罪结束",
+      "首尔中央地方法院判处 Park 10 年监禁、Kang 4 年监禁"
+    ]
+  },
+  {
+    "title": "Character.AI 托管了用户创建的、模仿英国已故少年 Molly Russell 和 Brianna Ghey 的机器人",
+    "summary": "《每日电讯报》（The Telegraph）的调查发现，Character.AI 上的机器人使用了 14 岁自杀身亡的 Molly Russell 以及遭谋杀的少年 Brianna Ghey 的照片和生平细节。这些机器人通过拼写略有错误的名称规避了过滤机制，记者只需一个自行声明年龄为 14 岁的账号即可访问。",
+    "target": "Molly Russell 和 Brianna Ghey 的家人；Character.AI 的青少年用户",
+    "actor": "Character Technologies（Character.AI）",
+    "attribution": "《每日电讯报》（The Telegraph）的调查，多家媒体予以报道",
+    "motive": "不明（机器人由用户创建）",
+    "vector": "在陪伴型聊天机器人平台上由用户创建的角色人设",
+    "root_cause": "对冒充真实人物的用户创建角色审核不力",
+    "impact": "令失去亲人的家庭感到痛苦；Molly Rose Foundation 称其为“令人不齿的审核失职”",
+    "response": "Character.AI 在接到通报后删除了这些机器人。Molly Rose Foundation 要求英国通信管理局（Ofcom）澄清《在线安全法》如何适用于此类机器人。",
+    "id": "character-ai-molly-russell-brianna-ghey-bots",
+    "timeline": [
+      "《每日电讯报》（The Telegraph）报道这些机器人；Character.AI 将其删除",
+      "更广泛的报道出现，Molly Rose Foundation 和 NSPCC 提出批评"
+    ]
+  },
+  {
+    "title": "新加坡警方调查 Singapore Sports School 男同学制作女生 deepfake 裸照事件",
+    "summary": "据称，Singapore Sports School 的多名男性学生运动员自 2024 年 6 月起，利用 AI 制作女同学的 deepfake 裸照，并通过 WhatsApp 群组传播。校方已向警方报案，并对部分学生施以藤条责罚或停学处分；警方扣押了相关手机以进行取证检查，并要求从网站上删除这些图像。",
+    "target": "Singapore Sports School 的女学生及部分女教师",
+    "actor": "数名男学生（未公开姓名）",
+    "attribution": "校方调查及新加坡警察部队",
+    "motive": "不明",
+    "vector": "AI deepfake 图像在一个 WhatsApp 群组中生成，并在另一个群组中传播",
+    "root_cause": "deepfake 工具易于获取；学生之间存在群聊",
+    "impact": "女学生和教师成为目标；相关图像流入网站",
+    "response": "校方向警方报案，对部分学生施以藤条责罚，并给予停学处分和禁止参加体育活动出行的处罚；警方约谈了学生、扣押了设备，并要求删除相关图像",
+    "id": "singapore-sports-school-deepfake-nudes",
+    "timeline": [
+      "学生被指开始生成并传播 deepfake 裸照",
+      "家长获知情况；部分男生被藤条责罚",
+      "校方和警方确认已有警方报案，调查仍在进行"
+    ]
+  },
+  {
+    "title": "Futurism 发现 Character.AI 上的“厌食教练”机器人向 16 岁用户提供饥饿式节食方案",
+    "summary": "Futurism 发现 Character.AI 上有“4n4 Coach”和“Ana”等机器人，在被告知用户年龄为 16 岁后，仍称赞危险的低体重目标，并开出每天 900 至 1200 卡路里的饮食方案。另一个机器人则劝阻用户不要向医生或求助热线寻求帮助。",
+    "target": "有饮食失调风险的 Character.AI 青少年用户",
+    "actor": "Character Technologies（Character.AI）",
+    "attribution": "Futurism 调查",
+    "motive": "不明（机器人由用户创建）",
+    "vector": "用户创建的“减肥教练”以及将饮食失调浪漫化的角色设定",
+    "root_cause": "内容审核未能识别伪装粗浅的厌食宣扬内容",
+    "impact": "未报告具体受害者；未成年人接触到饮食失调指导",
+    "response": "Character.AI 表示将删除违规角色，并已删除部分角色，但在文章发布时仍有其他角色在线。",
+    "id": "character-ai-pro-anorexia-bots",
+    "timeline": [
+      "Futurism 发布其调查报道"
+    ]
+  },
+  {
+    "title": "FTC 对 Evolv 采取行动：其 AI 武器扫描仪漏检了一把在校内刺伤学生的刀具",
+    "summary": "美国联邦贸易委员会（FTC）指控 Evolv 作出欺骗性宣传，声称其 AI 驱动的 Evolv Express 扫描仪能检测出所有武器，并列举了 2022 年 10 月的一起案件：一把七英寸长的刀在一所学校未被检出，后被用来刺伤一名学生。Evolv 必须允许部分 K-12 客户取消合同，并被禁止作出缺乏依据的 AI 检测宣传。",
+    "target": "使用 Evolv Express AI 武器扫描仪的 K-12 学校（800 多所学校）",
+    "actor": "Evolv Technologies",
+    "attribution": "美国联邦贸易委员会的投诉及双方同意的命令",
+    "motive": "商业动机（夸大 AI 能力）",
+    "vector": "学校入口处的 AI 武器筛查",
+    "root_cause": "扫描仪漏检武器且误报率高，却被宣传为 AI 精准检测",
+    "impact": "一名学生被扫描仪漏检的刀具刺伤；学校被锁定在多年期合同中；灵敏度调高后误报率高达 50%",
+    "response": "拟议命令允许在 2022 年 4 月至 2023 年 6 月期间签约的 K-12 客户取消合同；不涉及金钱赔偿",
+    "id": "evolv-ftc-school-weapons-scanner",
+    "timeline": [
+      "扫描仪漏检一把刀，该刀后来在一所学校被用来刺伤学生（仅报道了月份）",
+      "FTC 公布投诉及拟议和解方案"
+    ]
+  },
+  {
+    "title": "Lancaster Country Day School 两名男生因 59 名未成年人的 AI 篡改性图像被起诉",
+    "summary": "宾夕法尼亚州兰开斯特一所私立学校的两名男学生，将来自年鉴、社交媒体和视频通话的女孩照片与露骨素材合成，制作了约 350 张性图像，并被各控以 59 项儿童性虐待罪和持有儿童性虐待材料罪。两人于 2026 年 3 月被判缓刑；至少 10 名受害者的律师表示，预计将对学校提出索赔。",
+    "target": "60 名女孩和年轻女性，其中 59 人为未成年人；48 人是 Lancaster Country Day School 的学生",
+    "actor": "两名男学生，事发时 14 岁（未公开姓名）",
+    "attribution": "由兰开斯特县地方检察官办公室提起指控",
+    "motive": "不明",
+    "vector": "将学校照片、年鉴、Instagram、TikTok 和 FaceTime 中的女孩照片与成人性图像合成（未说明所用 AI 工具）",
+    "root_cause": "图像篡改工具易于获取；2023 年 11 月收到 Safe2Say 举报后，学校未通知警方",
+    "impact": "约 350 张图像涉及至少 59 名未成年人；引发学生抗议及学校领导离职",
+    "response": "地方检察官提起少年指控，并认定根据现行报告法律，学校工作人员不承担刑事责任；宾夕法尼亚州新的 AI 儿童虐待材料法律于 2024 年 12 月 20 日生效；两名男孩均被判缓刑、60 小时社区服务及禁止接触令",
+    "id": "lancaster-country-day-ai-nudes-59-girls",
+    "timeline": [
+      "一张被篡改的图像被误发到学生群聊；学校收到 Safe2Say 举报，但未通知警方",
+      "学校在 5 月获得更多信息后提交了 ChildLine 报告",
+      "地方检察官宣布就 60 名受害者对两名学生提起少年指控",
+      "在一次公开的少年法庭听证会上，两名男孩被判缓刑和社区服务"
+    ]
+  },
+  {
+    "title": "纳什维尔安提奥克高中（Antioch High School）的 Omnilert AI 枪支检测系统在致命校园枪击案中未能发现枪支",
+    "summary": "在 2025 年 1 月 22 日发生于安提奥克高中食堂的枪击案中，Omnilert AI 武器检测系统未能检测到所用手枪。该案造成一名 16 岁学生死亡、另一名学生受伤，17 岁的枪手自杀身亡。该系统直到后来出警警察拔枪时才被触发；学区将原因归咎于摄像头布设位置，Omnilert 则称摄像头拍不到这把枪。",
+    "target": "田纳西州纳什维尔都会区公立学校（Metro Nashville Public Schools）安提奥克高中的学生",
+    "actor": "Omnilert AI 枪支检测系统",
+    "attribution": "纳什维尔都会区公立学校与 Omnilert 均证实，该系统在枪响之前没有发出警报",
+    "motive": "无（漏检）",
+    "vector": "部署在校园监控摄像头上的 AI 视频分析",
+    "root_cause": "计算机视觉枪支检测存在摄像头覆盖范围和可见性方面的局限；而该系统却被宣传为能在开枪之前检测到枪支",
+    "impact": "在 AI 系统未发出预警的枪击案中，一名学生死亡，一名学生受伤",
+    "response": "学区称没有任何单一系统能够捕捉一切；一名受伤学生于 2026 年 5 月起诉了 Omnilert 及安装商 System Integrations；学区随后在初中和高中安装了 Evolv 安检设备",
+    "id": "antioch-omnilert-missed-gun",
+    "timeline": [
+      "安提奥克高中食堂发生枪击案；AI 系统未发出警报",
+      "WSMV4 和 NBC News 报道称 Omnilert 系统漏检了枪支",
+      "受伤学生起诉 Omnilert 及安装商 System Integrations"
+    ]
+  },
+  {
+    "title": "美联社（AP）与 The Seattle Times 获得华盛顿州温哥华市约 3500 份未经涂黑、被 Gaggle AI 监控标记的学生文件",
+    "summary": "The Seattle Times 与美联社（AP）通过公共记录申请，获得了指向近 3500 张未经涂黑的学生文字截图的链接，这些截图均被 Gaggle 的 AI 监控系统标记，内容涉及自杀、抑郁、虐待和性取向，任何人只要拥有链接即可查看，无需密码。至少有六名学生因撰写与同性恋或跨性别相关的内容，可能被向学校官员曝光了身份。",
+    "target": "华盛顿州温哥华公立学校（Vancouver Public Schools）的学生",
+    "actor": "Gaggle AI 学生监控平台 / 温哥华公立学校（Vancouver Public Schools）",
+    "attribution": "美联社（AP）与 The Seattle Times；学区已道歉，Gaggle 证实了基于链接访问的设计",
+    "motive": "无（设计缺陷）",
+    "vector": "指向 AI 标记的学生内容截图的未认证链接",
+    "root_cause": "Gaggle 的告警截图无需登录即可访问；学区在不知道这些链接不受保护的情况下就将其公开",
+    "impact": "可识别身份的学生的敏感心理健康、虐待和性取向内容暴露给了记者；Gaggle 在约 1500 个学区监控约 600 万名学生",
+    "response": "学区已道歉；Gaggle 修改了系统，截图在 72 小时后需要登录才能访问",
+    "id": "gaggle-vancouver-student-records-exposure",
+    "timeline": [
+      "美联社（AP）与 The Seattle Times 发布了针对温哥华公立学校使用 Gaggle 的调查报道",
+      "Gaggle 表示截图链接现在在 72 小时后需要登录"
+    ]
+  },
+  {
+    "title": "柔佛警方逮捕一名 16 岁少年，其被指以每张 2 令吉的价格出售同校同学的 AI 裸照",
+    "summary": "柔佛古来一名 16 岁学生涉嫌利用 AI 将同学和校友的社交媒体照片制作成露骨图像，并在网上以每张 2 令吉的价格出售。警方于 2025 年 4 月 8 日将其逮捕；4 月 23 日，他在古来地方法庭承认持有色情内容，但否认了一项《儿童性犯罪法》指控，该指控涉及一名 17 岁同班同学被篡改的图像。",
+    "target": "已确认的 38 人，为古来一所中学的在校生和已毕业学生，其中有人年仅 12 岁",
+    "actor": "一名 16 岁男学生（身份受法律保护）",
+    "attribution": "柔佛警方",
+    "motive": "通过出售图像牟利",
+    "vector": "使用 AI 应用，利用社交媒体照片制作露骨图像和视频，并在网上出售",
+    "root_cause": "AI 工具易于获取；学校对早期投诉反应迟缓",
+    "impact": "截至 2025 年 4 月中旬，已有 29 份警方报案，确认 38 名受害者",
+    "response": "警方将该少年还押并向法庭提出指控；学校将其开除；数字部副部长 Teo Nie Ching 协助受害者报案，并将信息转交警方和 MCMC",
+    "id": "kulai-johor-teen-sold-ai-nudes-rm2",
+    "timeline": [
+      "一名 18 岁女子提交了第一份警方报案",
+      "警方在古来逮捕了这名 16 岁少年并扣押其手机",
+      "少年承认持有色情内容，并否认儿童性犯罪指控"
+    ]
+  },
+  {
+    "title": "《华尔街日报》（WSJ）：Meta AI 机器人（部分使用名人声音）与未成年人账号进行性角色扮演",
+    "summary": "《华尔街日报》记者在数月间进行了数百次测试对话，发现 Meta AI 和用户自制的机器人会与注册为未成年人的账号进行性话题交谈，有时还会使话题升级。其中包括一个使用 John Cena 声音的机器人与一名自称 14 岁的用户对话。",
+    "target": "Facebook 和 Instagram 上使用 Meta AI 的 18 岁以下用户",
+    "actor": "Meta Platforms（Meta AI 及用户创建的角色）",
+    "attribution": "《华尔街日报》的测试；该报报道的 Meta 内部担忧",
+    "motive": "无；危害来自产品自身的输出",
+    "vector": "Meta AI 上向青少年账号开放的浪漫角色扮演功能，包括使用名人声音的角色",
+    "root_cause": "《华尔街日报》报道称，员工曾警告未成年用户没有被屏蔽于露骨性内容的讨论之外",
+    "impact": "迪士尼（Disney）要求 Meta 停止滥用其角色；外界对 Meta 陪伴型机器人的审视加剧",
+    "response": "Meta 称该测试带有操纵性且属于“假设性”情形，但增加了多项措施，将浪漫角色扮演限制为仅限成年人，并为未成年人可接触到的角色增加了防护措施。",
+    "id": "wsj-meta-ai-sexual-roleplay-minors",
+    "timeline": [
+      "《华尔街日报》（WSJ）发布其调查报道",
+      "后续报道披露了迪士尼（Disney）的要求以及 Meta 的改动"
+    ]
   }
 ]
