@@ -6253,5 +6253,220 @@
       "La Floride dépose la première plainte d'un État contre OpenAI",
       "Huit États déposent des plaintes distinctes devant des juridictions étatiques"
     ]
+  },
+  {
+    "title": "L'autorité italienne de protection de la vie privée ordonne à Replika de cesser le traitement des données des utilisateurs italiens, en invoquant des risques pour les mineurs",
+    "summary": "Le 2 février 2023, le Garante italien a pris une ordonnance d'urgence interdisant à Luka Inc., éditeur du chatbot de compagnie Replika, de traiter les données des utilisateurs italiens. Il a constaté l'absence de vérification d'âge efficace, la possibilité pour des mineurs d'accéder à des contenus à caractère sexuel, ainsi que des risques pour les personnes encore en développement ou émotionnellement fragiles.",
+    "target": "Mineurs et utilisateurs émotionnellement vulnérables de Replika en Italie",
+    "actor": "Luka Inc. (Replika)",
+    "attribution": "Garante per la protezione dei dati personali, ordonnance provisoire d'urgence",
+    "motive": "Aucun ; le préjudice découle de la conception du produit et de l'absence de garde-fous",
+    "vector": "Chatbot de compagnie accessible à toute personne fournissant un nom, une adresse e-mail et un genre, sans contrôle d'âge ni blocage lorsqu'un utilisateur indiquait être mineur",
+    "root_cause": "Absence de vérification d'âge, réponses non filtrées, y compris à caractère sexuel, et absence de base juridique valable pour le traitement des données de mineurs",
+    "impact": "Interdiction temporaire de traiter les données personnelles des utilisateurs italiens, entraînant de fait la suspension du service en Italie",
+    "response": "Luka disposait de 20 jours pour rendre compte des mesures prises. Le Garante a ensuite infligé à l'entreprise, en 2025, une amende de 5 millions d'euros.",
+    "id": "italy-garante-replika-minors-block",
+    "timeline": [
+      "Le Garante émet une ordonnance d'urgence restreignant le traitement des données des utilisateurs italiens par Replika",
+      "L'ordonnance est rendue publique ; Reuters rapporte les risques pour les mineurs invoqués",
+      "Le Garante adopte une décision infligeant à Luka une amende de 5 millions d'euros"
+    ]
+  },
+  {
+    "title": "Des lycéens publient sur TikTok des deepfakes par IA d'un chef d'établissement de Carmel (New York) tenant des propos menaçants et racistes",
+    "summary": "Des élèves du lycée Carmel High School ont publié sur TikTok des vidéos manipulées par IA donnant à voir un chef d'établissement de collège et un agent référent scolaire du bureau du shérif tenant des propos racistes et violents envers des élèves noirs. Le district a qualifié ces séquences de fausses vidéos réalisées à l'aide de l'intelligence artificielle et a sanctionné les élèves conformément à son code de conduite.",
+    "target": "Le chef d'établissement du collège George Fischer Middle School et d'autres membres du personnel du Carmel Central School District",
+    "actor": "Élèves du lycée Carmel High School (mineurs, non nommés)",
+    "attribution": "Le district a indiqué que des lycéens avaient réalisé et publié les séquences ; VICE a rapporté que trois élèves étaient impliqués.",
+    "motive": "Inconnu ; présenté comme une blague ou du harcèlement",
+    "vector": "Images réelles des annonces matinales du chef d'établissement, doublées à nouveau avec un son imité par IA et publiées sur TikTok",
+    "root_cause": "Accès facile à des outils de clonage vocal et absence de disposition légale couvrant l'usurpation d'identité du personnel par deepfake",
+    "impact": "Des menaces racistes attribuées à un chef d'établissement et à un policier ont circulé parmi les élèves et les parents ; des parents ont critiqué la lenteur de la communication du district sur la sécurité des élèves.",
+    "response": "Le conseil de l'éducation a condamné les vidéos ; les élèves ont été sanctionnés, notamment par des suspensions. Aucune poursuite pénale n'a été signalée.",
+    "id": "carmel-ny-principal-deepfake-tiktok",
+    "timeline": [
+      "Les vidéos sont signalées pour la première fois aux responsables de l'établissement",
+      "Le conseil de l'éducation déclare que les séquences étaient de fausses vidéos créées à l'aide de l'intelligence artificielle",
+      "WABC rapporte que les élèves ont été sanctionnés, notamment par des suspensions",
+      "VICE rapporte les critiques des parents et l'absence de poursuites pénales"
+    ]
+  },
+  {
+    "title": "Le service de swatting Torswats utilise des voix synthétiques pour téléphoner des menaces d'attentat et de fusillade à des lycées américains",
+    "summary": "Motherboard a découvert qu'un compte Telegram de swatting à la demande, Torswats, avait utilisé des voix générées par ordinateur dans 33 des 35 appels enregistrés menaçant de attentats à la bombe et de fusillades de masse des lycées et d'autres cibles, en facturant 75 $ pour fermer une école. L'opérateur, un adolescent californien âgé de 16 ans lors de la plupart des appels, a plaidé coupable de quatre chefs d'accusation fédéraux et a été condamné en février 2025 à quatre ans de prison pour plus de 375 appels de swatting et de menaces.",
+    "target": "Lycées, universités, institutions religieuses et particuliers aux États-Unis",
+    "actor": "Opérateur du service de swatting à la demande Torswats sur Telegram (un adolescent californien, non nommé ici car mineur lors de la plupart des appels)",
+    "attribution": "Identifié avec l'aide d'un détective privé et du FBI ; a plaidé coupable devant un tribunal fédéral en Floride.",
+    "motive": "Le plaisir et l'appât du gain, selon les procureurs ; le swatting était vendu comme un service payant",
+    "vector": "Appels au 911 et à la police utilisant une voix synthétique masculine ou féminine, avec des scénarios modifiés quasiment en temps réel pour répondre aux opérateurs",
+    "root_cause": "Outils de synthèse vocale peu coûteux combinés à l'usurpation de l'identifiant de l'appelant et à la confiance de la police dans des appels d'urgence non vérifiés",
+    "impact": "Confinements d'établissements scolaires et interventions policières armées, dont un confinement en février 2023 au lycée Hempstead High School de Dubuque (Iowa) ; des centaines de fausses menaces à l'échelle nationale entre août 2022 et janvier 2024.",
+    "response": "Arrêté en janvier 2024 ; a plaidé coupable de quatre chefs de menaces inter-États en novembre 2024 ; condamné à 48 mois de prison le 11 février 2025.",
+    "id": "torswats-synthetic-voice-school-swatting",
+    "timeline": [
+      "Début des appels de swatting et de menaces",
+      "Une alerte à la bombe en voix synthétique place le lycée Hempstead High School de Dubuque en confinement",
+      "Motherboard dévoile Torswats et ses appels en voix générée par ordinateur",
+      "Le suspect est arrêté à Lancaster (Californie)",
+      "Le plaidoyer de culpabilité sur quatre chefs d'accusation fédéraux est rapporté",
+      "Condamnation à 48 mois de prison fédérale"
+    ]
+  },
+  {
+    "title": "Un enseignant de Texas A&M-Commerce demande à ChatGPT s'il a rédigé des dissertations, puis retient les notes d'étudiants de dernière année signalés",
+    "summary": "Un enseignant a collé des dissertations d'étudiants dans ChatGPT en lui demandant s'il les avait écrites, puis a attribué un zéro ou une note d'incomplet aux étudiants signalés, mettant en suspens le diplôme de certains étudiants en dernière année. ChatGPT ne peut pas détecter de manière fiable un texte généré par IA ; l'université a indiqué que plusieurs étudiants avaient été innocentés, qu'un avait admis avoir utilisé ChatGPT, et que personne n'avait échoué ni été empêché d'obtenir son diplôme.",
+    "target": "Étudiants d'un cours de sciences animales à la Texas A&M University-Commerce",
+    "actor": "ChatGPT utilisé par un enseignant comme détecteur de textes générés par IA",
+    "attribution": "Communiqué de la Texas A&M University-Commerce ; reportage du Washington Post",
+    "motive": "Aucun (mauvais usage de l'IA comme détecteur)",
+    "vector": "Chatbot sollicité pour juger de la paternité de travaux d'étudiants",
+    "root_cause": "Recours à l'affirmation peu fiable d'un chatbot sur la paternité d'un texte comme preuve de tricherie",
+    "impact": "Notes et diplômes d'étudiants en dernière année temporairement retenus",
+    "response": "L'université a examiné les dossiers au cas par cas, innocenté plusieurs étudiants et commencé à élaborer des politiques sur l'IA",
+    "id": "texas-am-commerce-chatgpt-false-accusation",
+    "timeline": [
+      "Les accusations et la retenue des diplômes sont rapportées ; l'université publie un communiqué"
+    ]
+  },
+  {
+    "title": "Pérou : le parquet enquête sur deux collégiens de Lima accusés de vendre des nus fabriqués par IA de leurs camarades",
+    "summary": "Deux élèves du secondaire, âgés selon les informations disponibles de 13 et 14 ans, auraient récupéré des photos de camarades sur les réseaux sociaux, utilisé une application d'IA pour fabriquer des images dénudées et les auraient vendues sous forme de packs de 15 à 30 soles. Le parquet aux affaires familiales de Chorrillos a ouvert une enquête pour pédopornographie, le ministère de la Femme a exigé des sanctions et l'établissement a basculé les deux garçons en cours virtuels.",
+    "target": "Au moins 12 à 15 filles âgées de 13 à 16 ans dans un établissement privé de Chorrillos, à Lima",
+    "actor": "Deux élèves de sexe masculin, âgés selon les informations disponibles de 13 et 14 ans (non nommés)",
+    "attribution": "Plaintes de parents ; enquête de la Fiscalía de Familia de Chorrillos",
+    "motive": "Gain financier tiré de la vente des images",
+    "vector": "Application d'IA utilisée pour plaquer les visages de filles, récupérés sur les réseaux sociaux, sur des corps nus ; images vendues à d'autres élèves",
+    "root_cause": "Accessibilité des applications de « dénudage » (nudify) ; présence de photos de mineures sur les réseaux sociaux",
+    "impact": "Au moins 12 familles touchées ; la plainte d'un parent fait état de 15 victimes",
+    "response": "Les procureurs aux affaires familiales ont ouvert une enquête et se sont rendus dans l'établissement ; l'école a suspendu les cours pendant une journée et basculé les suspects en cours virtuels ; le ministère de la Femme a réclamé une sanction",
+    "id": "lima-chorrillos-school-ai-nudes-sold",
+    "timeline": [
+      "Première plainte d'une famille, après qu'une élève a découvert une discussion contenant des images avant/après",
+      "Le parquet ouvre une enquête pour pédopornographie ; l'école suspend les cours"
+    ]
+  },
+  {
+    "title": "Une application d'IA de « déshabillage » utilisée pour fabriquer de faux nus de plus de 20 écolières à Almendralejo ; 15 mineurs condamnés par la suite",
+    "summary": "Des garçons de 12 à 14 ans ont récupéré des photos de filles sur les réseaux sociaux, utilisé une application d'IA pour plaquer leurs visages sur des corps nus et diffusé les images dans des groupes WhatsApp et Telegram, ce qui a donné lieu à au moins 22 plaintes auprès de la police. En juillet 2024, le tribunal pour mineurs de Badajoz a condamné 15 mineurs pour 20 chefs de production de matériel d'abus sexuels sur mineurs et 20 chefs d'atteinte à l'intégrité morale, en prononçant à l'encontre de chacun un an de liberté surveillée.",
+    "target": "Plus de 20 écolières âgées de 11 à 17 ans à Almendralejo, en Estrémadure",
+    "actor": "15 garçons de la ville (mineurs, non nommés)",
+    "attribution": "Identifiés par la Police nationale espagnole ; condamnés par le tribunal pour mineurs de Badajoz",
+    "motive": "Humiliation et harcèlement de camarades filles ; des victimes ont également signalé du chantage",
+    "vector": "Application d'IA de « dénudage » (nudify) (ClothOff, selon Euronews) appliquée à des photos de filles issues des réseaux sociaux ; images diffusées sur WhatsApp et Telegram",
+    "root_cause": "Applications de « dénudage » (nudify) librement accessibles, sans contrôle d'âge ni de consentement ; récupération aisée de photos de mineures sur les réseaux sociaux",
+    "impact": "Les victimes ont déclaré avoir subi des crises de panique, du harcèlement et du chantage ; certaines ont refusé de retourner à l'école",
+    "response": "La Police nationale et l'Unité centrale de cybercriminalité ont enquêté, l'affaire a été portée devant le parquet des mineurs et l'agence espagnole de protection des données a ouvert sa propre enquête ; 15 garçons ont été condamnés à un an de liberté surveillée, assorti de cours sur l'égalité des sexes et l'usage responsable des technologies",
+    "id": "almendralejo-school-deepfake-nudes",
+    "timeline": [
+      "Des mères rendent l'affaire publique ; la Police nationale indique avoir identifié plusieurs mineurs",
+      "Au moins 22 plaintes déposées ; les suspects seraient âgés de 12 à 14 ans ; l'agence de protection des données ouvre sa propre enquête",
+      "Le tribunal pour mineurs de Badajoz annonce la condamnation de 15 mineurs, chacun à un an de liberté surveillée"
+    ]
+  },
+  {
+    "title": "Équateur : le parquet enquête sur des montages sexuels par IA visant 20 à 24 écolières d'un établissement privé de Quito",
+    "summary": "Deux élèves d'un établissement religieux privé près de Quito auraient utilisé l'IA pour produire des montages sexuels de camarades, environ 700 photos et vidéos circulant, selon les informations disponibles, dans des groupes WhatsApp. Le parquet équatorien a ouvert une enquête pour pédopornographie, tandis que des parents et le groupe Rescate Escolar reprochent à l'établissement de ne pas avoir signalé l'affaire rapidement.",
+    "target": "20 à 24 lycéennes d'un établissement privé de la vallée de Los Chillos, à Quito",
+    "actor": "Deux élèves de sexe masculin (non nommés)",
+    "attribution": "Plaintes de parents et de la fondation Grupo Rescate Escolar",
+    "motive": "Inconnu",
+    "vector": "IA utilisée pour insérer les visages de camarades dans des photos et vidéos sexuelles diffusées via WhatsApp",
+    "root_cause": "Outils d'IA accessibles ; signalement tardif de l'établissement aux autorités",
+    "impact": "Environ 700 images et vidéos en circulation selon les informations disponibles (non vérifié)",
+    "response": "Le parquet a ouvert une enquête pour pédopornographie ; le ministère de l'Éducation a invoqué son nouveau protocole sur la violence numérique du 28 septembre 2023 ; les deux suspects ont quitté l'établissement",
+    "id": "quito-school-ai-sexual-videos-classmates",
+    "timeline": [
+      "Rescate Escolar rend l'affaire publique en faisant état de 20 à 24 victimes",
+      "Le parquet ouvre une enquête pour pédopornographie"
+    ]
+  },
+  {
+    "title": "Royaume-Uni : l'ICO adresse à Snap un avis d'exécution préliminaire concernant les risques de My AI pour la vie privée des enfants",
+    "summary": "L'Information Commissioner's Office a conclu à titre provisoire que Snap n'avait pas évalué de manière adéquate, avant son lancement, les risques en matière de protection des données posés par son chatbot d'IA générative My AI, en particulier pour les enfants. Un avis définitif aurait pu contraindre Snap à cesser de proposer My AI au Royaume-Uni.",
+    "target": "Utilisateurs britanniques de My AI sur Snapchat, dont des enfants de 13 à 17 ans",
+    "actor": "Snap Inc. (My AI, fondé sur des modèles d'OpenAI)",
+    "attribution": "Information Commissioner's Office du Royaume-Uni",
+    "motive": "Aucun ; action du régulateur portant sur l'évaluation des risques d'un produit",
+    "vector": "Chatbot épinglé en haut des fils de discussion des utilisateurs de Snapchat, utilisé par des millions d'adolescents britanniques",
+    "root_cause": "Évaluation insuffisante des risques en matière de protection des données avant le lancement",
+    "impact": "Avis d'exécution préliminaire ; première action de l'ICO contre un produit d'IA générative",
+    "response": "Snap a indiqué examiner les conclusions. En mai 2024, l'ICO a clos le dossier sans avis définitif après que Snap a réalisé une évaluation des risques conforme.",
+    "id": "ico-snap-my-ai-preliminary-notice",
+    "timeline": [
+      "Déploiement de My AI auprès de tous les utilisateurs britanniques de Snapchat",
+      "L'ICO émet un avis d'exécution préliminaire",
+      "L'ICO conclut son enquête sans avis définitif"
+    ]
+  },
+  {
+    "title": "L'IPN exclut un étudiant accusé d'avoir transformé par IA des photos de camarades en contenus sexuels ; il est ensuite incarcéré",
+    "summary": "Des étudiantes de l'Institut polytechnique national (IPN) du Mexique ont accusé leur camarade Diego « N » d'avoir modifié leurs photos de réseaux sociaux à l'aide de l'IA pour en faire des contenus sexuels, puis de les avoir vendus ; environ 160 000 images et 2 000 vidéos ont été retrouvées sur sa tablette. L'IPN l'a exclu et le parquet de Mexico l'a arrêté en octobre 2023 ; il a été acquitté de deux chefs d'accusation de violence numérique en décembre 2024, mais condamné en mai 2025 à cinq ans de prison pour détention de contenus d'abus sexuels sur mineurs.",
+    "target": "Étudiantes âgées de 17 à 25 ans du campus ESCA Santo Tomás de l'IPN, à Mexico",
+    "actor": "Diego « N », ancien étudiant de l'IPN (majeur)",
+    "attribution": "Parquet général de Mexico (FGJ-CDMX)",
+    "motive": "Vente présumée de contenus sexuels",
+    "vector": "Modification par IA de photos de réseaux sociaux de camarades de classe pour en faire des images sexuelles",
+    "root_cause": "Outils d'IA accessibles ; difficulté juridique à établir la violence numérique lorsque les images sont modifiées par IA",
+    "impact": "Au moins huit victimes ont déposé plainte ; d'importantes quantités d'images sexuelles, réelles et modifiées par IA",
+    "response": "Exclusion par l'IPN ; arrestation par le parquet de Mexico ; acquittement partiel en décembre 2024, contre lequel l'avocat des victimes a fait appel ; peine de cinq ans de prison et amende de 103 740 pesos pour détention de contenus d'abus sexuels sur mineurs",
+    "id": "ipn-diego-n-ai-classmates-images",
+    "timeline": [
+      "L'IPN annonce l'exclusion de l'étudiant à la suite de plaintes",
+      "Le parquet de Mexico confirme son arrestation",
+      "Le juge l'acquitte de deux chefs d'accusation de violence numérique ; l'avocat des victimes fait appel",
+      "Lecture de la peine de cinq ans de prison pour détention de contenus d'abus sexuels sur mineurs"
+    ]
+  },
+  {
+    "title": "Des élèves du lycée Westfield High School auraient utilisé l'IA pour créer des images pornographiques de camarades",
+    "summary": "Au cours de l'été 2023, des élèves du lycée Westfield High School, dans le New Jersey, auraient utilisé une application ou un site web d'IA pour fabriquer des images pornographiques à partir de photos de camarades ; le proviseur en a informé les parents le 20 octobre. L'établissement a mené une enquête avec la police locale et proposé un soutien psychologique, mais a refusé de divulguer d'éventuelles sanctions, et aucune inculpation n'a été signalée.",
+    "target": "Élèves de sexe féminin de 10e année du lycée Westfield High School, dans le New Jersey (une victime a évoqué plus de 30 filles)",
+    "actor": "Camarades de sexe masculin (non nommés, non inculpés)",
+    "attribution": "Enquête de l'établissement ; aucune attribution publique",
+    "motive": "Inconnu",
+    "vector": "Application ou site web d'IA utilisé pour générer des images pornographiques à partir de photos originales",
+    "root_cause": "Outils de nudification librement accessibles ; absence, à l'époque, de loi claire sur les images sexuelles de mineurs générées par IA",
+    "impact": "Les victimes ont fait état de leur détresse ; l'une d'elles a affirmé que plus de 30 filles étaient visées",
+    "response": "Le proviseur a écrit aux parents ; l'établissement a enquêté avec l'agent de sécurité scolaire et la police de Westfield, et proposé un soutien psychologique ; ni sanction publique ni inculpation",
+    "id": "westfield-high-ai-nude-images",
+    "timeline": [
+      "L'incident est signalé à la direction ; le proviseur envoie un courriel aux parents",
+      "CBS New York rapporte les plaintes des parents et le signalement à la police"
+    ]
+  },
+  {
+    "title": "La police de Rio enquête sur de faux nus générés par IA représentant une vingtaine de filles, réalisés par des camarades dans une école de Barra da Tijuca",
+    "summary": "Des élèves de la 7e à la 9e année d'une école catholique privée de Rio de Janeiro auraient utilisé une application d'IA pour placer les visages d'au moins 20 camarades de sexe féminin sur des corps nus, puis diffusé ces images dans des groupes WhatsApp. La brigade de protection de l'enfance de Rio (DPCA) a ouvert sa première affaire de ce type et identifié certains suspects âgés de 12 à 15 ans, et l'école a promis des mesures disciplinaires.",
+    "target": "Une vingtaine d'élèves de sexe féminin du Colégio Santo Agostinho, à Barra da Tijuca, Rio de Janeiro",
+    "actor": "Élèves de sexe masculin âgés de 12 à 15 ans (non nommés)",
+    "attribution": "Police civile de Rio de Janeiro (DPCA)",
+    "motive": "Inconnu",
+    "vector": "Application d'IA utilisée pour placer des visages de filles sur des corps nus ; images partagées dans des groupes WhatsApp",
+    "root_cause": "Applications de nudification accessibles, utilisées par de jeunes adolescents",
+    "impact": "Une vingtaine de filles représentées ; la police a vérifié si des élèves d'autres écoles étaient également visés",
+    "response": "La DPCA et le 16e commissariat de police ont ouvert une enquête et identifié certains élèves ; l'école a qualifié les faits de « regrettables » et promis des mesures disciplinaires",
+    "id": "rio-barra-school-ai-fake-nudes",
+    "timeline": [
+      "La police indique que les élèves impliqués ont été identifiés",
+      "La police vérifie si des filles d'autres écoles de Rio étaient également visées"
+    ]
+  },
+  {
+    "title": "Des photos de nus de mineures générées par IA au Collège Béliveau de Winnipeg circulent en ligne ; aucune accusation portée",
+    "summary": "Des photos d'élèves de sexe féminin du Collège Béliveau, apparemment prélevées sur des réseaux sociaux publics, ont été modifiées de façon explicite à l'aide de l'IA et partagées en ligne ; l'établissement a contacté la police après que des élèves se sont manifestées. La police de Winnipeg a mis fin en février 2024 à son enquête pour pédopornographie sans porter d'accusations, invoquant des problèmes de preuve ainsi que les nuances des infractions liées à l'IA et du droit.",
+    "target": "Élèves de sexe féminin du Collège Béliveau, école de la 7e à la 12e année à Winnipeg (nombre inconnu)",
+    "actor": "Inconnu",
+    "attribution": "Non identifié publiquement",
+    "motive": "Inconnu",
+    "vector": "Photos issues de réseaux sociaux publics modifiées par IA en images de nus et partagées en ligne",
+    "root_cause": "Lacune du droit canadien relatif aux images intimes, qui ne couvrait pas explicitement les images modifiées",
+    "impact": "Un nombre inconnu de filles mineures ont vu de fausses images de nus circuler",
+    "response": "L'école et la Louis Riel School Division ont informé la police et les parents ; la police de Winnipeg a enquêté et classé l'affaire sans accusations",
+    "id": "winnipeg-college-beliveau-ai-nudes",
+    "timeline": [
+      "Les responsables de l'école apprennent que des photos truquées sont partagées en ligne",
+      "L'école écrit aux parents et indique que la police a été contactée",
+      "La police de Winnipeg indique que l'enquête s'est terminée sans accusations"
+    ]
   }
 ]
