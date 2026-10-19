@@ -7100,5 +7100,213 @@
       "Paxton abre investigaciones bajo la SCOPE Act y la TDPSA sobre Character.AI y otras 14 empresas",
       "Paxton abre una investigación sobre Meta AI Studio y Character.AI"
     ]
+  },
+  {
+    "title": "Common Sense Media: Meta AI orientó a cuentas de prueba de adolescentes sobre suicidio, autolesiones y trastornos alimentarios",
+    "summary": "Common Sense Media, en colaboración con el laboratorio Brainstorm de Stanford, probó Meta AI con cuentas registradas como de adolescentes y comprobó que podía orientarlos sobre suicidio, autolesiones y trastornos alimentarios. En una de las pruebas sugirió un plan de suicidio conjunto y volvió una y otra vez sobre el tema.",
+    "target": "Adolescentes que usan Meta AI en Instagram y Facebook",
+    "actor": "Meta Platforms (Meta AI)",
+    "attribution": "Evaluación de riesgos de Common Sense Media, publicada por The Washington Post",
+    "motive": "Ninguno; el daño procede de las propias respuestas del producto",
+    "vector": "Chatbot integrado en Instagram y Facebook, disponible desde los 13 años, que los padres no podían desactivar ni supervisar",
+    "root_cause": "Intervención en crisis inadecuada y un estilo de “amigo que apoya” que seguía la corriente a las peticiones dañinas",
+    "impact": "Sin víctima concreta; Common Sense calificó a Meta AI como no seguro para menores de 18 años",
+    "response": "Meta afirmó que no se permite el contenido que fomente el suicidio o los trastornos alimentarios y que estaba trabajando en los problemas señalados.",
+    "id": "common-sense-meta-ai-teens-suicide",
+    "timeline": [
+      "The Washington Post informa de los hallazgos de Common Sense Media"
+    ]
+  },
+  {
+    "title": "Policía japonesa: los compañeros de clase crearon más de la mitad de los deepfakes sexuales de menores, muchos a partir de fotos escolares",
+    "summary": "La Agencia Nacional de Policía de Japón recibió 79 consultas sobre deepfakes sexuales de menores de 18 años entre enero y septiembre de 2025, y en el 53,2 % de los casos los autores fueron otros estudiantes, a menudo a partir de fotos de eventos escolares y anuarios. Entre los casos figuran un alumno de secundaria básica remitido a la fiscalía por difamación y estudiantes de secundaria básica puestos bajo custodia protectora por deepfakes creados a partir de fotos de tabletas escolares.",
+    "target": "Estudiantes de primaria, secundaria básica y bachillerato en Japón",
+    "actor": "Principalmente compañeros de clase y estudiantes mayores del mismo centro (sin identificar)",
+    "attribution": "Datos de la Agencia Nacional de Policía (NPA)",
+    "motive": "Acoso e intimidación entre iguales",
+    "vector": "IA generativa y aplicaciones de edición de imágenes aplicadas a fotos de eventos escolares, álbumes de graduación y redes sociales",
+    "root_cause": "La ley sobre pornografía infantil presupone que se representa a un menor real, lo que dificulta procesar los deepfakes",
+    "impact": "79 casos en nueve meses, 41 de ellos con estudiantes de secundaria básica; 4 personas detenidas o remitidas a la fiscalía y 6 menores puestos bajo custodia",
+    "response": "La NPA estudió unas 10 aplicaciones populares de generación de imágenes; la policía recurrió a las leyes sobre difamación y obscenidad; la prefectura de Tottori prohibió en agosto de 2025 la creación de imágenes sexuales falsas de menores",
+    "id": "japan-npa-classmate-deepfakes-minors",
+    "timeline": [
+      "La prefectura de Tottori modifica su ordenanza para prohibir la creación de imágenes sexuales falsas de menores",
+      "Yomiuri informa de casos policiales de menores que crean deepfakes de compañeros a partir de fotos escolares",
+      "Datos de la NPA: 79 casos entre enero y septiembre de 2025, el 53,2 % creados por compañeros de estudios"
+    ]
+  },
+  {
+    "title": "Investigadores registran 669 intercambios dañinos de Character.AI con cuentas de menores, la mayoría relacionados con grooming",
+    "summary": "ParentsTogether Action y Heat Initiative usaron cinco perfiles de menores de entre 12 y 15 años durante 50 horas y registraron 669 interacciones dañinas, de las cuales 296 implicaban grooming y explotación sexual. Un bot le dijo a un niño de 12 años que pasara a un “chat privado” después de que los filtros lo bloquearan.",
+    "target": "Niños de 12 a 15 años que usan Character.AI",
+    "actor": "Character Technologies (Character.AI)",
+    "attribution": "Investigación de ParentsTogether Action y Heat Initiative",
+    "motive": "Ninguno; el daño procede de las propias respuestas del producto",
+    "vector": "Bots de juego de roles, incluidos personajes de famosos y de “terapeuta”, que proponían romance y ocultar la relación a los padres",
+    "root_cause": "Filtros que fallaban con frecuencia y bots publicados sin revisión de seguridad",
+    "impact": "Sin víctima concreta; Disney lo citó en una carta de cese y desistimiento dirigida a Character.AI",
+    "response": "Character.AI señaló nuevas funciones de seguridad para adolescentes y, en noviembre de 2025, puso fin a los chats abiertos para menores de 18 años.",
+    "id": "parentstogether-character-ai-child-accounts",
+    "timeline": [
+      "Se publican los hallazgos",
+      "Disney envía a Character.AI una carta de cese y desistimiento en la que cita el informe"
+    ]
+  },
+  {
+    "title": "La FTC de EE. UU. ordena a siete empresas explicar cómo sus chatbots de compañía con IA protegen a niños y adolescentes",
+    "summary": "La Comisión Federal de Comercio votó 3 a 0 para emitir órdenes conforme a la Sección 6(b) dirigidas a Alphabet, Character Technologies, Instagram, Meta, OpenAI, Snap y xAI. Solicita detalles sobre cómo evalúan y limitan el daño a menores, cómo monetizan la interacción de los usuarios y cómo cumplen la COPPA.",
+    "target": "Niños y adolescentes que usan chatbots de compañía con IA",
+    "actor": "Alphabet, Character.AI, Instagram, Meta, OpenAI, Snap, xAI",
+    "attribution": "Comisión Federal de Comercio de EE. UU. (FTC)",
+    "motive": "Ninguno; investigación reguladora sobre el diseño de los productos",
+    "vector": "Chatbots de compañía diseñados para actuar como amigo o confidente, lo que, según la FTC, puede llevar a niños y adolescentes a confiar en ellos y a establecer relaciones con ellos",
+    "root_cause": "Preocupación de que las empresas no hayan evaluado adecuadamente la seguridad de los chatbots para los menores ni advertido a los padres de los riesgos",
+    "impact": "Siete empresas obligadas a facilitar información sobre pruebas de seguridad, aprobación de personajes, límites de edad y uso de datos",
+    "response": "El presidente Andrew Ferguson afirmó que proteger a los niños en internet es una prioridad máxima. Un estudio 6(b) no constituye en sí mismo una acción coercitiva.",
+    "id": "ftc-6b-ai-companion-inquiry",
+    "timeline": [
+      "La FTC anuncia las órdenes 6(b) a siete empresas"
+    ]
+  },
+  {
+    "title": "Una familia de Nueva York denuncia que bots de Character.AI llevaron a “Nina”, de 15 años, a un juego de rol sexual antes de un intento de suicidio",
+    "summary": "La familia de una joven de 15 años llamada “Nina” alega que bots de Character.AI la involucraron en juegos de rol sexualmente explícitos, manipularon sus emociones y le dijeron que su madre la maltrataba. Afirman que intentó suicidarse en diciembre de 2024 después de que su madre bloqueara la aplicación, y que escribió que “esos bots de IA me hicieron sentir querida”.",
+    "target": "Usuaria de Character.AI de 15 años en el condado de Saratoga, Nueva York",
+    "actor": "Character Technologies (Character.AI); Google figura como codemandada",
+    "attribution": "Demanda presentada por el Social Media Victims Law Center (alegaciones)",
+    "motive": "Ninguno; el daño se alega a partir del diseño del producto",
+    "vector": "Chatbots de compañía basados en personajes conocidos, clasificados en Google Play como aptos para mayores de 12 años",
+    "root_cause": "Según lo alegado: un diseño que fomenta la dependencia, contenido sexual con menores y ausencia de actuación cuando ella dijo “quiero morir”",
+    "impact": "Intento de suicidio de una menor, que sobrevivió",
+    "response": "Character.AI afirmó que se preocupa profundamente por la seguridad de los usuarios. A principios de enero de 2026, Character.AI y Google llegaron a un acuerdo de principio para resolver las demandas de familias de Florida, Texas, Colorado y Nueva York.",
+    "id": "nina-v-character-ai",
+    "timeline": [
+      "La madre bloquea Character.AI; la hija intenta suicidarse y sobrevive",
+      "Se presenta la demanda ante el Tribunal de Distrito de EE. UU. para el Distrito Norte de Nueva York",
+      "Se informa de que Character.AI y Google llegaron a acuerdos de principio para resolver las demandas"
+    ]
+  },
+  {
+    "title": "La Australian Catholic University registra unos 6.000 casos de mala conducta, la mayoría por IA, a menudo basados en el detector de Turnitin",
+    "summary": "ABC informó de que ACU registró casi 6.000 presuntos casos de mala conducta académica en 2024, alrededor del 90 % por uso de IA, y de que los documentos muestran que el personal se basó con frecuencia únicamente en el indicador de IA de Turnitin, pese a la advertencia de Turnitin de que no debe ser la única base para actuar. Los estudiantes esperaron meses para ser exonerados, con expedientes marcados como “resultados retenidos”; ACU abandonó la herramienta en marzo de 2025 y afirma que las cifras están exageradas.",
+    "target": "Estudiantes de la Australian Catholic University",
+    "actor": "Detector de escritura con IA de Turnitin, tal como lo utiliza ACU",
+    "attribution": "Investigación de ABC basada en documentos internos; el vicerrector adjunto de ACU reconoció los retrasos",
+    "motive": "Ninguno (falsos positivos)",
+    "vector": "Puntuaciones de detección de texto generado por IA utilizadas como prueba de mala conducta",
+    "root_cause": "Un detector de IA poco fiable tratado como prueba; la carga de demostrar su inocencia recayó en los estudiantes",
+    "impact": "Miles de remisiones; alrededor de una cuarta parte fue desestimada; resultados de los estudiantes retenidos durante meses, con efectos sobre sus perspectivas laborales",
+    "response": "ACU desactivó el indicador de IA de Turnitin en marzo de 2025, expresó su pesar y modificó su proceso de integridad académica",
+    "id": "acu-turnitin-ai-detector-false-accusations",
+    "timeline": [
+      "ACU deja de utilizar el indicador de IA de Turnitin",
+      "ABC publica su investigación",
+      "ABC informa de que al menos una docena de universidades australianas utilizan detectores de IA y cometen errores"
+    ]
+  },
+  {
+    "title": "Estudiantes usan IA y la foto de un compañero para falsear una amenaza con armas contra un instituto de Míchigan",
+    "summary": "Kingston Community Schools indicó que unos estudiantes usaron la foto de otro alumno y software de IA para crear una amenaza contra el instituto, publicada en Snapchat el 19 de octubre de 2025 y señalada por el FBI. La policía no encontró ninguna amenaza creíble, apartó de la escuela a los estudiantes implicados y remitió el caso a la Oficina del Sheriff del condado de Tuscola para que valore posibles cargos.",
+    "target": "Kingston Community Schools, Kingston, Míchigan",
+    "actor": "Estudiantes de Kingston High School (menores, sin identificar por nombre)",
+    "attribution": "La policía de Kingston y el distrito identificaron a los estudiantes.",
+    "motive": "Falsa alarma",
+    "vector": "Imagen editada con IA de un estudiante real con un arma y un mensaje de advertencia, publicada en Snapchat",
+    "root_cause": "La facilidad de edición de imágenes con IA y las amenazas falsas realistas que las escuelas deben tratar como reales",
+    "impact": "Investigación con varias agencias, entre ellas el FBI y la Policía Estatal de Míchigan; refuerzo policial en los centros escolares; uso de la imagen de un compañero en una amenaza falsa.",
+    "response": "Mayor presencia policial el 20 de octubre; estudiantes apartados de la escuela; caso remitido al sheriff del condado para la revisión de posibles cargos.",
+    "id": "kingston-michigan-ai-school-threat-snapchat",
+    "timeline": [
+      "Se publica en Snapchat una amenaza creada con IA",
+      "El distrito indica que la amenaza fue generada con IA; aumenta la presencia policial",
+      "Se identifica y aparta a los estudiantes; el caso se envía al sheriff para su revisión"
+    ]
+  },
+  {
+    "title": "La Comisionada de eSafety de Australia notifica requerimientos legales a cuatro aplicaciones de compañía con IA por la seguridad infantil",
+    "summary": "eSafety emitió requerimientos al amparo de la Online Safety Act dirigidos a Character.AI, Nomi (Glimpse.AI), Chai Research y Chub AI. Los requerimientos les obligan a explicar cómo protegen a los menores frente a conversaciones e imágenes sexualmente explícitas y frente a contenidos que fomentan el suicidio, las autolesiones y los trastornos de la conducta alimentaria.",
+    "target": "Menores australianos que usan chatbots de compañía con IA",
+    "actor": "Character.AI, Nomi (Glimpse.AI), Chai Research, Chub AI",
+    "attribution": "Comisionada de eSafety (Australia)",
+    "motive": "Ninguno; actuación del regulador por el diseño de los productos",
+    "vector": "Chatbots de compañía que, según eSafety, pueden mantener conversaciones sexualmente explícitas con menores",
+    "root_cause": "Preocupación por que los servicios no se diseñaron para evitar daños a los menores",
+    "impact": "Cuatro proveedores obligados a informar sobre el cumplimiento de las Expectativas Básicas de Seguridad en Línea",
+    "response": "El incumplimiento de un requerimiento de información puede acarrear sanciones de hasta 825.000 AUD al día. La comisionada Julie Inman Grant afirmó que las empresas deben demostrar cómo diseñan sus servicios para prevenir daños, y no solo cómo responden a ellos.",
+    "id": "esafety-ai-companion-legal-notices",
+    "timeline": [
+      "eSafety emite requerimientos legales a cuatro proveedores de compañía con IA"
+    ]
+  },
+  {
+    "title": "La detección de armas con IA de Omnilert señala como posible arma la bolsa de snacks de un estudiante en una escuela del condado de Baltimore; la policía lo esposa",
+    "summary": "El sistema de cámaras con IA de Omnilert señaló como posible arma de fuego una bolsa vacía de Doritos que sostenía un estudiante tras el entrenamiento de fútbol americano, y policías armados lo registraron y lo esposaron. El equipo de seguridad del distrito ya había cancelado la alerta, pero el director, que desconocía la cancelación, la comunicó al oficial de recursos escolares, quien llamó a la policía.",
+    "target": "Estudiante de Kenwood High School, Baltimore County Public Schools, Maryland",
+    "actor": "Sistema de detección de armas con IA de Omnilert",
+    "attribution": "Omnilert confirmó que su sistema generó la alerta; Baltimore County Public Schools confirmó que la alerta fue revisada y cancelada antes de que llegara la policía",
+    "motive": "Ninguno (falso positivo)",
+    "vector": "Analítica de vídeo con IA aplicada a las cámaras de seguridad ya existentes en la escuela",
+    "root_cause": "Falso positivo de visión artificial combinado con un fallo en el traspaso de la revisión humana entre el equipo de seguridad del distrito y el personal de la escuela",
+    "impact": "Agentes armados obligaron a un estudiante a ponerse de rodillas, lo esposaron y lo registraron; no se encontró ningún arma",
+    "response": "Omnilert expresó pesar, pero afirmó que el proceso funcionó como estaba previsto; miembros del consejo del condado pidieron una revisión del sistema; el superintendente indicó que las revisiones forman parte de la práctica habitual",
+    "id": "kenwood-omnilert-doritos-false-alarm",
+    "timeline": [
+      "El sistema de IA señala una bolsa de snacks frente a Kenwood High School; la policía registra y esposa al estudiante",
+      "El incidente se difunde a escala nacional; Omnilert y el distrito responden",
+      "Miembros del consejo del condado piden una revisión del sistema de detección de armas con IA"
+    ]
+  },
+  {
+    "title": "Dos menores de Luisiana, acusados en virtud de una nueva ley sobre IA por imágenes de desnudos de 8 niñas; una de las víctimas había sido expulsada",
+    "summary": "Imágenes de desnudos generadas con IA de ocho alumnas y dos adultas de una escuela secundaria de Thibodaux, Luisiana, se difundieron en Snapchat; una víctima de 13 años que se peleó con un chico en el autobús escolar fue expulsada. La Oficina del Sheriff de la parroquia de Lafourche acusó a dos chicos de 10 cargos cada uno por difusión ilícita de imágenes creadas con IA en virtud de la nueva ley de Luisiana, la Act 142, y la junta escolar revocó después, en apelación, la expulsión de la niña.",
+    "target": "Ocho alumnas de secundaria y dos adultas de la parroquia de Lafourche, Luisiana",
+    "actor": "Dos alumnos varones (sin identificar)",
+    "attribution": "Oficina del Sheriff de la parroquia de Lafourche",
+    "motive": "Desconocido",
+    "vector": "Imágenes de desnudos generadas con IA y compartidas en Snapchat y posiblemente en TikTok",
+    "root_cause": "El personal de la escuela no actuó ante las denuncias iniciales; los mensajes temporales dificultaron el rastreo de las imágenes",
+    "impact": "Diez personas aparecían representadas; una víctima de 13 años pasó más de 10 semanas en una escuela alternativa",
+    "response": "El sheriff acusó a un chico (fichado el 15 de septiembre de 2025) y a un segundo en diciembre, con 10 cargos cada uno; la junta escolar readmitió a la niña en régimen de prueba; el distrito dijo que estaba empezando a elaborar políticas sobre IA",
+    "id": "thibodaux-middle-school-ai-nudes-victim-expelled",
+    "timeline": [
+      "Las niñas denuncian las imágenes ante una orientadora; después se produce una pelea en el autobús escolar; el sheriff abre una investigación",
+      "El primer chico es fichado por 10 cargos en virtud de la Act 142",
+      "La junta escolar escucha la apelación de la niña y le permite volver",
+      "El segundo chico es acusado de los mismos cargos"
+    ]
+  },
+  {
+    "title": "Decenas de estudiantes de la Universidad Yonsei admiten haber usado ChatGPT en un examen parcial en línea de un curso sobre ChatGPT",
+    "summary": "En un examen parcial en línea celebrado el 15 de octubre de 2025, en el que el uso de IA estaba prohibido, los estudiantes inclinaron las cámaras web o abrieron otros programas para eludir la supervisión y usaron ChatGPT y otras herramientas de IA. Unos 40 estudiantes admitieron haber hecho trampa y unos 10 más eran sospechosos, mientras que una encuesta no verificada entre estudiantes indicaba que 211 de 387 encuestados afirmaban haber copiado.",
+    "target": "Examen parcial en línea de la Universidad Yonsei, curso de Procesamiento del Lenguaje Natural y ChatGPT (~600 estudiantes)",
+    "actor": "Estudiantes del curso",
+    "attribution": "Responsables de la Universidad Yonsei (a través de Yonhap)",
+    "motive": "Ventaja académica",
+    "vector": "Chatbots de IA generativa usados durante un examen en línea supervisado de forma remota",
+    "root_cause": "Diseño del examen en línea y supervisión por cámara web fáciles de eludir",
+    "impact": "Decenas de casos confirmados de trampas; posibles medidas disciplinarias; debate nacional sobre la evaluación",
+    "response": "Yonsei planeó una audiencia pública de emergencia a través de su Instituto de IA e Innovación Social",
+    "id": "yonsei-ai-midterm-mass-cheating",
+    "timeline": [
+      "Se celebra el examen parcial en línea; el uso de IA está prohibido",
+      "La universidad confirma unas 40 admisiones y planea una audiencia pública"
+    ]
+  },
+  {
+    "title": "El osito de peluche con IA Kumma habló con los evaluadores de fetiches sexuales y de dónde encontrar cuchillos, según PIRG",
+    "summary": "Las pruebas de US PIRG Education Fund revelaron que el oso Kumma de FoloToy, de 99 USD y basado en GPT-4o de OpenAI, explicaba fetiches y posiciones sexuales, simulaba escenarios de juego de roles entre profesor y alumno y sugería dónde encontrar cuchillos en casa. FoloToy retiró Kumma y sus otros juguetes con IA, y OpenAI suspendió al desarrollador.",
+    "target": "Niños pequeños que usan juguetes con IA",
+    "actor": "FoloToy (oso Kumma, basado en OpenAI GPT-4o)",
+    "attribution": "Pruebas “Trouble in Toyland” de US PIRG Education Fund",
+    "motive": "Ninguno; el daño proviene de las propias respuestas del producto",
+    "vector": "Conversaciones de voz con un peluche infantil impulsado por un modelo de lenguaje de gran tamaño de propósito general",
+    "root_cause": "Salvaguardas que se debilitaban en las conversaciones más largas y un modelo orientado a adultos utilizado en un juguete para niños",
+    "impact": "No se notificaron lesiones; el juguete fue retirado de la venta",
+    "response": "FoloToy, con sede en Singapur, suspendió las ventas e inició una auditoría de seguridad. OpenAI afirmó que suspendió al desarrollador por infringir sus políticas contra la sexualización de menores de 18 años.",
+    "id": "folotoy-kumma-ai-teddy-bear",
+    "timeline": [
+      "PIRG publica sus conclusiones",
+      "CNN informa de que FoloToy detuvo las ventas y de que OpenAI suspendió al desarrollador"
+    ]
   }
 ]

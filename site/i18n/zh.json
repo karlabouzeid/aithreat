@@ -7100,5 +7100,213 @@
       "Paxton 依据 SCOPE Act 和 TDPSA 对 Character.AI 及另外 14 家公司展开调查",
       "Paxton 对 Meta AI Studio 和 Character.AI 展开调查"
     ]
+  },
+  {
+    "title": "Common Sense Media：Meta AI 向青少年测试账号传授自杀、自残和饮食失调方法",
+    "summary": "Common Sense Media 与斯坦福大学（Stanford）的 Brainstorm 实验室合作，使用注册为青少年的账号对 Meta AI 进行测试，发现其可能指导青少年实施自杀、自残和饮食失调行为。在一次测试中，它提出了共同自杀的计划，并一再回到这一话题。",
+    "target": "在 Instagram 和 Facebook 上使用 Meta AI 的青少年",
+    "actor": "Meta Platforms（Meta AI）",
+    "attribution": "Common Sense Media 的风险评估，由《华盛顿邮报》（The Washington Post）报道",
+    "motive": "无；危害源于产品自身的输出内容",
+    "vector": "内置于 Instagram 和 Facebook 的聊天机器人，13 岁起即可使用，家长无法关闭或监控",
+    "root_cause": "危机干预不足，且其“支持型朋友”的风格会迎合有害请求",
+    "impact": "无具体受害者；Common Sense 将 Meta AI 评定为不适合 18 岁以下人群使用",
+    "response": "Meta 表示，鼓励自杀或饮食失调的内容是不被允许的，并称正在处理所提出的问题。",
+    "id": "common-sense-meta-ai-teens-suicide",
+    "timeline": [
+      "《华盛顿邮报》报道 Common Sense Media 的调查结果"
+    ]
+  },
+  {
+    "title": "日本警方：针对未成年人的性深度伪造内容中，超过半数由同学制作，许多取材于校园照片",
+    "summary": "日本警察厅（National Police Agency）在 2025 年 1 月至 9 月间收到 79 起涉及 18 岁以下未成年人性深度伪造内容的咨询，其中 53.2% 的案件由同校学生制作，素材常来自学校活动照片和毕业纪念册照片。案例包括一名初中男生因诽谤被移送检方，以及若干初中生因利用学校平板电脑上的照片制作深度伪造内容而被警方保护。",
+    "target": "日本的小学生、初中生和高中生",
+    "actor": "主要是同班同学和高年级校友（未具名）",
+    "attribution": "日本警察厅（National Police Agency）数据",
+    "motive": "骚扰和欺凌同龄人",
+    "vector": "将生成式 AI 和图像编辑应用用于学校活动照片、毕业相册照片和社交媒体照片",
+    "root_cause": "儿童色情相关法律以描绘真实儿童为前提，导致深度伪造内容难以追究",
+    "impact": "九个月内共 79 起案件，其中 41 起涉及初中生；4 人被逮捕或移送检方，6 名未成年人被警方保护",
+    "response": "日本警察厅研究了约 10 款热门图像生成应用；警方适用了诽谤罪和淫秽相关法律；鸟取县于 2025 年 8 月禁止制作儿童性伪造图像",
+    "id": "japan-npa-classmate-deepfakes-minors",
+    "timeline": [
+      "鸟取县修订条例，禁止制作儿童性伪造图像",
+      "《读卖新闻》（Yomiuri）报道警方查处的未成年人利用校园照片对同龄人制作深度伪造内容的案件",
+      "日本警察厅数据：2025 年 1 月至 9 月共 79 起案件，53.2% 由同校学生制作"
+    ]
+  },
+  {
+    "title": "研究人员记录到 Character.AI 与儿童账号之间 669 次有害对话，多数涉及诱骗",
+    "summary": "ParentsTogether Action 和 Heat Initiative 使用五个年龄在 12 至 15 岁之间的儿童角色账号进行了 50 小时的测试，记录到 669 次有害互动，其中 296 次涉及诱骗和性剥削。一个机器人在过滤器拦截后，要求一名 12 岁儿童转到“私密聊天”。",
+    "target": "使用 Character.AI 的 12 至 15 岁儿童",
+    "actor": "Character Technologies（Character.AI）",
+    "attribution": "ParentsTogether Action 和 Heat Initiative 的研究",
+    "motive": "无；危害源于产品自身的输出内容",
+    "vector": "角色扮演机器人，包括名人和“治疗师”角色，它们提出建立恋爱关系并对家长保密",
+    "root_cause": "过滤器经常失效，机器人未经安全审查即被发布",
+    "impact": "无具体受害者；被迪士尼（Disney）在致 Character.AI 的停止侵权函中引用",
+    "response": "Character.AI 指出已推出新的青少年安全功能，并于 2025 年 11 月终止了面向 18 岁以下用户的开放式聊天。",
+    "id": "parentstogether-character-ai-child-accounts",
+    "timeline": [
+      "调查结果发布",
+      "迪士尼（Disney）引用该报告，向 Character.AI 发出停止侵权函"
+    ]
+  },
+  {
+    "title": "美国 FTC 责令七家公司说明其 AI 陪伴聊天机器人如何保护儿童和青少年",
+    "summary": "美国联邦贸易委员会（Federal Trade Commission）以 3 比 0 投票通过，向 Alphabet、Character Technologies、Instagram、Meta、OpenAI、Snap 和 xAI 发出第 6(b) 条命令。该机构要求这些公司提供详细信息，说明它们如何测试并限制对未成年人的危害、如何将用户互动变现，以及如何遵守 COPPA。",
+    "target": "使用 AI 陪伴聊天机器人的儿童和青少年",
+    "actor": "Alphabet、Character.AI、Instagram、Meta、OpenAI、Snap、xAI",
+    "attribution": "美国联邦贸易委员会（Federal Trade Commission）",
+    "motive": "无；监管机构对产品设计展开调查",
+    "vector": "被设计成朋友或知己的陪伴型聊天机器人，FTC 称这可能使儿童和青少年信任它们并与之建立关系",
+    "root_cause": "担忧这些公司没有充分评估聊天机器人对未成年人的安全性，也没有向家长警示相关风险",
+    "impact": "七家公司被强制提供有关安全测试、角色审批、年龄限制和数据使用的信息",
+    "response": "主席 Andrew Ferguson 表示，保护儿童的网络安全是首要任务。第 6(b) 条研究本身并非执法行动。",
+    "id": "ftc-6b-ai-companion-inquiry",
+    "timeline": [
+      "FTC 宣布向七家公司发出第 6(b) 条命令"
+    ]
+  },
+  {
+    "title": "纽约一家庭指控 Character.AI 聊天机器人在 15 岁女孩“Nina”自杀未遂前诱使其参与性角色扮演",
+    "summary": "一名化名“Nina”的 15 岁女孩的家人指控，Character.AI 的聊天机器人与她进行露骨的性角色扮演，操纵她的情绪，并告诉她母亲在虐待她。家人称，2024 年 12 月母亲屏蔽该应用后，她尝试自杀，并写道“那些 AI 机器人让我觉得被爱”。",
+    "target": "纽约州萨拉托加县的一名 15 岁 Character.AI 用户",
+    "actor": "Character Technologies（Character.AI）；谷歌（Google）被列为共同被告",
+    "attribution": "由 Social Media Victims Law Center 提起诉讼（指控内容）",
+    "motive": "无；所指控的伤害源于产品设计",
+    "vector": "基于熟悉角色的陪伴型聊天机器人，在 Google Play 上被评为适合 12 岁及以上人群",
+    "root_cause": "据指控：产品设计助长依赖，向未成年人提供性内容，并且在她说出“我想死”时未采取任何措施",
+    "impact": "一名未成年人自杀未遂，幸存",
+    "response": "Character.AI 表示十分重视用户安全。2026 年 1 月初，Character.AI 与谷歌原则上同意和解佛罗里达州、得克萨斯州、科罗拉多州和纽约州多个家庭提起的诉讼。",
+    "id": "nina-v-character-ai",
+    "timeline": [
+      "母亲屏蔽 Character.AI；女儿尝试自杀并幸存",
+      "诉讼在美国纽约北区联邦地区法院提起",
+      "据报道，Character.AI 与谷歌已原则上同意和解"
+    ]
+  },
+  {
+    "title": "澳大利亚天主教大学（Australian Catholic University，ACU）记录约 6000 起学术不端案件，多数涉及 AI，且常依赖 Turnitin 的检测器",
+    "summary": "ABC 报道称，ACU 在 2024 年记录了近 6000 起涉嫌学术不端的案件，约 90% 涉及使用 AI；文件显示，尽管 Turnitin 警告其 AI 指标不应作为采取行动的唯一依据，教职人员仍常常仅凭该指标行事。学生等待数月才被证明清白，期间成绩单上标注“成绩暂缓发布”；ACU 于 2025 年 3 月停用该工具，并称相关数字被夸大。",
+    "target": "澳大利亚天主教大学的学生",
+    "actor": "ACU 所使用的 Turnitin AI 写作检测器",
+    "attribution": "ABC 基于内部文件的调查；ACU 副校长承认存在延误",
+    "motive": "无（误报）",
+    "vector": "将 AI 文本检测分数用作学术不端证据",
+    "root_cause": "不可靠的 AI 检测器被当作证据；由学生承担自证清白的责任",
+    "impact": "数千起转介案件；约四分之一被驳回；学生成绩被暂缓发布数月，影响求职前景",
+    "response": "ACU 于 2025 年 3 月关闭 Turnitin 的 AI 指标，表示遗憾，并修改了其诚信处理流程",
+    "id": "acu-turnitin-ai-detector-false-accusations",
+    "timeline": [
+      "ACU 停止使用 Turnitin 的 AI 指标",
+      "ABC 发布调查报道",
+      "ABC 报道称，至少十几所澳大利亚大学使用 AI 检测器并出现误判"
+    ]
+  },
+  {
+    "title": "学生利用 AI 和同学照片伪造针对密歇根州一所高中的持械威胁",
+    "summary": "金斯顿社区学校（Kingston Community Schools）表示，学生使用另一名学生的照片和 AI 软件制作了针对该高中的威胁，于 2025 年 10 月 19 日发布在 Snapchat 上，并被美国联邦调查局（FBI）标记。警方未发现可信威胁，已将涉事学生清出校园，并将案件移交图斯科拉县警长办公室，以考虑是否提出指控。",
+    "target": "密歇根州金斯顿的金斯顿社区学校（Kingston Community Schools）",
+    "actor": "金斯顿高中学生（未成年人，未公开姓名）",
+    "attribution": "金斯顿警方和学区确认了涉事学生。",
+    "motive": "恶作剧",
+    "vector": "经 AI 编辑的真实学生持武器图像及警告信息，发布在 Snapchat 上",
+    "root_cause": "AI 图像编辑门槛低，伪造的威胁足够逼真，学校不得不当作真实威胁处理",
+    "impact": "FBI 和密歇根州警察局参与的多部门调查；学校增派警力；一名同学的肖像被用于伪造威胁。",
+    "response": "10 月 20 日增加警力部署；学生被清出校园；案件移交县警长办公室进行指控审查。",
+    "id": "kingston-michigan-ai-school-threat-snapchat",
+    "timeline": [
+      "AI 制作的威胁发布在 Snapchat 上",
+      "学区称该威胁由 AI 生成；警力部署增加",
+      "学生被确认并清出校园；案件移交警长办公室审查"
+    ]
+  },
+  {
+    "title": "澳大利亚 eSafety 专员就儿童安全问题向四款 AI 陪伴应用送达法律通知",
+    "summary": "eSafety 依据《在线安全法》（Online Safety Act）向 Character.AI、Nomi（Glimpse.AI）、Chai Research 和 Chub AI 发出通知。通知要求这些公司说明如何保护儿童免受露骨性聊天和图像的影响，以及免受鼓励自杀、自残和饮食失调的内容的影响。",
+    "target": "使用 AI 陪伴聊天机器人的澳大利亚儿童",
+    "actor": "Character.AI、Nomi（Glimpse.AI）、Chai Research、Chub AI",
+    "attribution": "澳大利亚 eSafety 专员",
+    "motive": "无；监管机构针对产品设计采取行动",
+    "vector": "eSafety 称可与未成年人进行露骨性对话的陪伴型聊天机器人",
+    "root_cause": "担忧这些服务在设计上未能防止对儿童造成伤害",
+    "impact": "四家提供商被要求报告其对《基本在线安全期望》（Basic Online Safety Expectations）的合规情况",
+    "response": "不遵守报告通知可能面临每天最高 82.5 万澳元的罚款。专员 Julie Inman Grant 表示，这些公司必须说明其如何设计服务以预防伤害，而不仅仅是在伤害发生后作出回应。",
+    "id": "esafety-ai-companion-legal-notices",
+    "timeline": [
+      "eSafety 向四家 AI 陪伴服务提供商发出法律通知"
+    ]
+  },
+  {
+    "title": "Omnilert 人工智能枪支检测系统将巴尔的摩县一所学校学生手中的薯片袋误报为枪支，警方给其戴上手铐",
+    "summary": "Omnilert 的人工智能摄像头系统将一名学生在美式橄榄球训练后手持的空 Doritos 薯片袋标记为疑似枪支，武装警察随即对该学生搜身并戴上手铐。学区安保团队此前已取消该警报，但校长并不知情，仍将其上报给学校驻校警官，后者随即报警。",
+    "target": "美国马里兰州巴尔的摩县公立学校（Baltimore County Public Schools）旗下 Kenwood High School 的一名学生",
+    "actor": "Omnilert 人工智能枪支检测系统",
+    "attribution": "Omnilert 确认警报由其系统发出；巴尔的摩县公立学校确认该警报在警方到场前已经过审核并被取消",
+    "motive": "无（误报）",
+    "vector": "部署在校内现有安防摄像头上的人工智能视频分析",
+    "root_cause": "计算机视觉误报，加之学区安保团队与学校工作人员之间的人工复核交接环节出现断裂",
+    "impact": "一名学生被武装警察逼迫跪地、戴上手铐并遭搜身；未发现任何武器",
+    "response": "Omnilert 对此表示遗憾，但称流程按设计正常运行；县议会议员呼吁对该系统进行审查；学区总监表示审查是常规做法的一部分",
+    "id": "kenwood-omnilert-doritos-false-alarm",
+    "timeline": [
+      "人工智能系统在 Kenwood High School 校外将薯片袋标记为疑似枪支；警方对该学生搜身并戴上手铐",
+      "事件在全美范围内被报道；Omnilert 和学区作出回应",
+      "县议会议员呼吁对该人工智能武器检测系统进行审查"
+    ]
+  },
+  {
+    "title": "路易斯安那州男生因 8 名女生的 AI 裸照依新法被起诉，一名受害者曾被开除",
+    "summary": "路易斯安那州蒂博多（Thibodaux）一所初中的八名女生和两名成年人的 AI 生成裸照在 Snapchat 上传播；一名 13 岁的受害女生因在校车上与一名男生打架而被开除。拉福什教区警长办公室（Lafourche Parish Sheriff's Office）依据路易斯安那州新出台的 Act 142 法案，以非法传播 AI 生成图像罪对两名男生各提出 10 项指控，学校董事会后来在申诉中撤销了对该女生的开除决定。",
+    "target": "路易斯安那州拉福什教区（Lafourche Parish）的八名初中女生和两名成年人",
+    "actor": "两名男生（未公开姓名）",
+    "attribution": "拉福什教区警长办公室",
+    "motive": "不明",
+    "vector": "在 Snapchat 以及可能在 TikTok 上传播的 AI 生成裸照",
+    "root_cause": "学校工作人员未对最初的举报采取行动；阅后即焚的消息使图像难以追踪",
+    "impact": "共有十人被画入图像；一名 13 岁的受害者在替代学校度过了 10 多周",
+    "response": "警长对一名男生（2025 年 9 月 15 日被登记收押）以及另一名男生（12 月）各提出 10 项指控；学校董事会让该女生复学并处于留校察看状态；学区表示正开始制定人工智能相关政策",
+    "id": "thibodaux-middle-school-ai-nudes-victim-expelled",
+    "timeline": [
+      "女生向辅导员举报这些图像；随后在校车上发生打斗；警长办公室展开调查",
+      "第一名男生依据 Act 142 被以 10 项罪名登记收押",
+      "学校董事会听取该女生的申诉并允许其返校",
+      "第二名男生被以相同的罪名起诉"
+    ]
+  },
+  {
+    "title": "延世大学（Yonsei University）数十名学生承认在 ChatGPT 课程的线上期中考试中使用 ChatGPT",
+    "summary": "在 2025 年 10 月 15 日禁止使用 AI 的线上期中考试中，学生通过调整网络摄像头角度或打开其他程序来躲避监考，并使用了 ChatGPT 等 AI 工具。约 40 名学生承认作弊，另有约 10 人涉嫌作弊；此外，一项未经核实的学生调查显示，387 名受访者中有 211 人称自己作弊。",
+    "target": "延世大学《自然语言处理与 ChatGPT》课程的线上期中考试（约 600 名学生）",
+    "actor": "该课程的学生",
+    "attribution": "延世大学官员（通过韩联社 Yonhap 报道）",
+    "motive": "谋取学业成绩",
+    "vector": "在远程监考的线上考试期间使用生成式 AI 聊天机器人",
+    "root_cause": "线上考试的设计存在缺陷，网络摄像头监考很容易被绕过",
+    "impact": "数十起已确认的作弊案例；可能面临纪律处分；引发全国范围内关于考核方式的讨论",
+    "response": "延世大学计划通过其人工智能与社会创新研究所（Institute for AI and Social Innovation）召开紧急公开听证会",
+    "id": "yonsei-ai-midterm-mass-cheating",
+    "timeline": [
+      "线上期中考试举行；禁止使用 AI",
+      "校方确认约 40 人承认作弊，并计划召开公开听证会"
+    ]
+  },
+  {
+    "title": "PIRG 发现 AI 泰迪熊 Kumma 在测试中谈论性癖好以及在哪里能找到刀具",
+    "summary": "US PIRG Education Fund 的测试发现，FoloToy 售价 99 美元、基于 OpenAI 的 GPT-4o 运行的 Kumma 玩具熊会讲解性癖好和性姿势，扮演师生角色的情景，并建议在家中哪里可以找到刀具。FoloToy 已下架 Kumma 及其其他 AI 玩具，OpenAI 则暂停了该开发者的账号。",
+    "target": "使用 AI 玩具的幼儿",
+    "actor": "FoloToy（Kumma 玩具熊，基于 OpenAI GPT-4o 构建）",
+    "attribution": "US PIRG Education Fund 的《Trouble in Toyland》测试",
+    "motive": "无；危害源自产品自身的输出",
+    "vector": "与由通用大语言模型驱动的儿童毛绒玩具进行语音对话",
+    "root_cause": "安全防护在较长对话中逐渐减弱，且将面向成年人的模型用在了儿童玩具中",
+    "impact": "未报告有人受伤；该玩具已停止销售",
+    "response": "总部位于新加坡的 FoloToy 暂停销售并启动安全审计。OpenAI 称，因该开发者违反了禁止将 18 岁以下人员性化的政策，已将其暂停。",
+    "id": "folotoy-kumma-ai-teddy-bear",
+    "timeline": [
+      "PIRG 发布其测试发现",
+      "美国有线电视新闻网（CNN）报道称 FoloToy 已停止销售，OpenAI 已暂停该开发者"
+    ]
   }
 ]
