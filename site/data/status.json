@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-19T00:12:03Z",
-  "wire_items": 600,
-  "new_items": 0,
+  "updated_at": "2026-10-19T00:35:39Z",
+  "wire_items": 602,
+  "new_items": 2,
   "candidates": 47,
   "incidents": 356,
   "feeds_ok": [
@@ -43,6 +43,7 @@
     "Embrace The Red",
     "Trail of Bits",
     "UK NCSC",
+    "CERT-FR",
     "arXiv cs.CR",
     "Schneier on Security",
     "GBHackers",
@@ -50,7 +51,6 @@
     "CISA KEV (AI products)",
     "GitHub Advisory Database (AI packages)",
     "Hacker News",
-    "US court filings (CourtListener)",
     "GitHub new repositories",
     "Reddit r/netsec",
     "Europol",
@@ -61,7 +61,7 @@
     "Google News chatbot harm (ES)"
   ],
   "feeds_failed": [
-    "CERT-FR"
+    "US court filings (CourtListener)"
   ],
-  "triage": "triaged 10 items with claude-sonnet-5-5 in 1 batches (0 failed); kept 0"
+  "triage": "triaged 4 items with claude-sonnet-5-5 in 1 batches (0 failed); kept 2"
 }
