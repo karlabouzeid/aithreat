@@ -1025,7 +1025,6 @@ LANGS.each do |lang|
   write.("#{pre(lang)}/patterns/index.html", patterns_page(lang, stats, incidents))
   write.("#{pre(lang)}/research/index.html", research_page(lang, research, incidents))
   write.("#{pre(lang)}/education/index.html", education_page(lang, education, incidents))
-  write.("#{pre(lang)}/education/briefing/index.html", briefing_page(lang, education, incidents))
   research["claims"].each { |c| write.("#{pre(lang)}/research/#{c['id']}/index.html", claim_page(lang, c, research, incidents)) }
   write.("#{pre(lang)}/cases/feed.xml", feed(avail, lang))
 end
@@ -1062,7 +1061,7 @@ end
 # sitemap: group alternates per logical page
 incidents.each { |i| add_url.(case_url("en", i["id"]), Hash[langs_for(i).map { |l| [l, case_url(l, i["id"])] }]) }
 (LANGS - ["en"]).each { |l| incidents.select { |i| langs_for(i).include?(l) }.each { |i| add_url.(case_url(l, i["id"]), Hash[langs_for(i).map { |m| [m, case_url(m, i["id"])] }]) } }
-list_paths = ["/cases/", "/cases/glossary/", "/about/", "/why/", "/patterns/", "/research/", "/education/", "/education/briefing/"] + research["claims"].map { |c| "/research/#{c['id']}/" } + cats.map { |c| "/cases/category/#{slug(c)}/" } + countries.map { |c| "/cases/country/#{slug(c)}/" } + companies.map { |c| "/cases/company/#{slug(c)}/" }
+list_paths = ["/cases/", "/cases/glossary/", "/about/", "/why/", "/patterns/", "/research/", "/education/"] + research["claims"].map { |c| "/research/#{c['id']}/" } + cats.map { |c| "/cases/category/#{slug(c)}/" } + countries.map { |c| "/cases/country/#{slug(c)}/" } + companies.map { |c| "/cases/company/#{slug(c)}/" }
 list_paths.each { |p| LANGS.each { |l| add_url.("#{BASE}#{pre(l)}#{p}", Hash[LANGS.map { |m| [m, "#{BASE}#{pre(m)}#{p}"] }]) } }
 File.write(File.join(SITE, "sitemap.xml"), %(<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n#{sitemap.join("\n")}\n</urlset>\n))
 
@@ -1081,7 +1080,7 @@ llm << "- [Live wire](#{BASE}/#wire): AI security headlines from vetted sources,
 llm << "- [Data and citing](#{BASE}/#data): download links, field list, inclusion rule, severity scale"
 llm << "- [Patterns and statistics](#{BASE}/patterns/): trends recomputed each update from the verified case files: cases per quarter by direction (on AI vs with AI), category heat map, attacks by autonomous AI agents, actor types by year, severity mix, documented losses by category, victim sectors, countries, status and verification speed, wire volume by kind; numbers as JSON at #{BASE}/data/stats.json"
 llm << "- [Research vs reality](#{BASE}/research/): #{research['claims'].size} published AI risk warnings from six institutes given equal weight (Apollo Research, Center for AI Safety, International AI Safety Report 2026, METR, MIT AI Risk Repository, UK AI Security Institute), grouped by risk theme and compared with the verified case files: a status per warning (seen in real incidents, early signs, nothing on record yet, outside what an incident registry measures), the matching case files, the first real-world case on file, related warnings across sources and what the research did not foresee; data at #{BASE}/data/research.json"
-llm << "- [AI incidents in education and among young people](#{BASE}/education/): #{education['total']} verified case files in which AI harmed students, children, teenagers or schools and universities (deepfake abuse of pupils and teachers, chatbot harm to young people, AI safety tools that misfired, exam fraud with AI, data leaks), with statistics by type, setting, age group and country, case studies, #{education['measures'].size} prevention measures from education authorities and child-safety regulators, and laws; data at #{BASE}/data/education.json"
+llm << "- [AI incidents in education and among young people](#{BASE}/education/): #{education['total']} verified case files in which AI harmed students, children, teenagers or schools and universities (deepfake abuse of pupils and teachers, chatbot harm to young people, AI safety tools that misfired, exam fraud with AI, data leaks), with statistics by type, setting, age group and country, case studies with how schools and authorities responded, #{education['measures_in_place'].size} prevention measures adopted or published by governments, regulators, exam bodies and international organisations, and laws in force; data at #{BASE}/data/education.json"
 llm << "- [Why this exists](#{BASE}/why/): the founder's statement of purpose: AI's benefits are worth defending, the harm is documented and happening now, incidents were scattered so victims started from zero; who the registry serves; independent, nobody pays for content"
 llm << "- [About and method](#{BASE}/about/): inclusion rule, severity scale, verified case files versus the machine-triaged wire, CC BY 4.0 licence and citation format, corrections policy (public change log, no silent edits), contact"
 llm << "- [Glossary of incident types](#{BASE}/cases/glossary/): plain-language definitions of the thirteen categories, each linked to its cases"

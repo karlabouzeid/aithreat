@@ -2,7 +2,6 @@
   "ui": {
     "nav": "Éducation",
     "h": "Incidents liés à l’IA dans l’éducation et chez les jeunes",
-    "lede": "Cas vérifiés, dans le monde entier, où l’IA a nui à des élèves, des enfants, des adolescents ou aux personnes et institutions qui les éduquent, avec les statistiques, les études de cas et les mesures de prévention sur lesquelles peuvent s’appuyer les ministères, les écoles, les universités et les parents.",
     "protect": "Protection de l’enfance : aucun enfant victime ni aucun enfant auteur n’est nommé sur ce site. Un jeune n’est nommé que si sa famille a rendu son nom public devant un tribunal ou dans les grands médias.",
     "k_total": "Dossiers",
     "k_young": "Impliquent un jeune",
@@ -26,264 +25,26 @@
     "age_young_adult": "Jeunes adultes (18 à 24 ans)",
     "age_unknown": "Âge non précisé",
     "cs_h": "Études de cas",
-    "cs_c": "Cas choisis, chacun avec ce qui a dysfonctionné et ce qui aurait aidé, d’après les recommandations de prévention ci-dessous.",
     "cs_what": "Ce qui s’est passé",
-    "cs_wrong": "Ce qui a dysfonctionné",
-    "cs_help": "Ce qui aurait aidé",
-    "prev_h": "Comment prévenir",
-    "prev_c": "Mesures pratiques issues d’autorités éducatives, d’organismes de régulation de la sécurité des enfants et d’organisations internationales, regroupées par risque. Chacune indique qui doit agir et de quelles recommandations elle provient.",
-    "risk_deepfake_abuse": "Abus par deepfakes visant des élèves",
-    "risk_staff_impersonation": "Faux et usurpation d’identité d’enseignants et de chefs d’établissement",
-    "risk_chatbots": "Les jeunes et les chatbots d’IA",
-    "risk_cyber_data": "Cyberattaques et fuites de données",
-    "risk_misfiring_tools": "Outils de sécurité et de surveillance par IA qui se trompent",
-    "risk_exam_fraud": "Fraude aux examens avec l’IA",
-    "risk_general": "Tous risques confondus",
-    "aud_ministry": "Ministère",
-    "aud_school": "Écoles",
-    "aud_university": "Universités",
-    "aud_teachers": "Enseignants",
-    "aud_parents": "Parents",
-    "aud_students": "Élèves et étudiants",
-    "l_basis": "Fondé sur",
     "laws_h": "Lois applicables",
-    "laws_c": "Exemples de lois qui criminalisent les deepfakes sexuels de mineurs ou qui encadrent l’IA dans l’éducation.",
     "l_law": "Loi",
     "l_does": "Ce qu’elle prévoit",
-    "guide_h": "Recommandations utilisées sur cette page",
     "all_h": "Les {n} dossiers",
     "method": "Critères d’inclusion : un dossier vérifié figure ici lorsqu’une personne de moins de 25 ans a subi un préjudice ou était impliquée, ou lorsque les faits se sont produits dans une école, une université ou un service d’éducation. Chaque dossier indique séparément si un jeune était impliqué, sa tranche d’âge et le lieu des faits. Données :",
-    "b_short": "Note aux ministères",
-    "b_h": "L’IA et les jeunes : note d’information aux ministères de l’Éducation",
-    "b_kind": "Note d’information",
-    "b_lede": "Ce que montrent les dossiers vérifiés sur les incidents liés à l’IA touchant des élèves, des enfants, des adolescents et des écoles dans le monde, et ce que les autorités éducatives peuvent faire dès maintenant.",
-    "b_print": "Enregistrer en PDF ou imprimer",
-    "b_open": "Ouvrir la note aux ministères (imprimer ou enregistrer en PDF)",
-    "b_find_h": "Constats principaux",
-    "b_f1": "Les incidents les plus fréquents sont : {top}.",
-    "b_f2": "Le préjudice atteint les jeunes à l’école comme en dehors : {school} cas se sont produits dans des écoles et {uni} dans des universités, tandis que {online} ont eu lieu en ligne et {home} à domicile. La prévention doit donc atteindre les familles et les plateformes en ligne, et pas seulement les salles de classe.",
-    "b_f3": "Les adolescents sont le groupe le plus touché : {teen} des {n} cas impliquant un jeune concernent des 13-17 ans.",
-    "b_f4": "Une grande partie du préjudice vient d’outils gratuits et faciles à utiliser : applications qui transforment une photo en image dénudée, clonage de voix et chatbots généralistes qui ne sont pas conçus pour les enfants. Plusieurs pays ont déjà modifié leur législation en conséquence.",
-    "b_rec_h": "Recommandations aux ministères",
-    "b_school_h": "Ce que chaque établissement doit mettre en place",
-    "b_about_h": "À propos de cette note",
-    "b_about": "Préparée par AI Threat Watch à partir de ses dossiers vérifiés et des recommandations publiées par des autorités éducatives, des régulateurs de la protection de l’enfance et des organisations internationales, au {date}. Les chiffres portent sur les cas rendus publics qui répondent à la règle d’inclusion du registre : ils montrent la nature du préjudice, pas son ampleur totale."
-  },
-  "case_studies": {
-    "south-korea-telegram-school-deepfake-crisis": {
-      "went_wrong": "Les outils de « déshabillage » étaient gratuits et faciles à utiliser, la plupart des suspects identifiés étaient eux-mêmes mineurs, la plateforme a peu coopéré avec la police et les sanctions étaient trop faibles pour dissuader. Les écoles n’avaient aucun moyen commun de signaler ou de comptabiliser les cas.",
-      "would_help": "Des lois qui traitent les images sexuelles d’enfants générées par IA comme du matériel d’abus sexuel sur enfants, y compris leur possession ; un système national de suivi et une cellule dédiée ; un responsable de la réponse désigné dans chaque école ; et l’enseignement, à chaque élève, qu’un deepfake « pour rire » est un abus."
-    },
-    "almendralejo-school-deepfake-nudes": {
-      "went_wrong": "Des garçons de 12 à 14 ans ont utilisé une application accessible à tous pour transformer des photos de filles publiées sur les réseaux sociaux en images de nu et les ont partagées dans des groupes de discussion avant qu’un adulte ne le sache. Les victimes et leurs parents ont dû faire pression pour que des mesures soient prises.",
-      "would_help": "Un plan d’intervention écrit de l’école, un personnel formé à ne pas consulter ni transférer les images, un retrait rapide par les voies officielles, un accompagnement psychologique des filles dès le premier jour, et des parents qui parlent avec leurs enfants des applications de « déshabillage »."
-    },
-    "pikesville-principal-ai-voice-frame": {
-      "went_wrong": "Un collègue a cloné la voix du chef d’établissement à partir d’enregistrements publics, et le faux enregistrement s’est propagé en ligne avant que quiconque ne le vérifie. Le chef d’établissement a reçu des menaces pendant que l’école et la police établissaient qu’il s’agissait d’un faux.",
-      "would_help": "Des plans de réponse aux deepfakes qui couvrent le personnel autant que les élèves, une interdiction d’usurper l’identité de quiconque avec l’IA, et une vérification avant d’agir sur un enregistrement ou un message censé provenir d’un chef d’établissement."
-    },
-    "kenwood-omnilert-doritos-false-alarm": {
-      "went_wrong": "La caméra à IA a pris un sachet de chips pour une arme. La sécurité du district a annulé l’alerte, mais le chef d’établissement ne l’a pas su et l’a relayée, et des policiers armés ont menotté l’élève.",
-      "would_help": "Une personne formée qui examine chaque alerte avant que quiconque n’agisse contre un élève, une transmission claire pour que tous sachent qu’une alerte a été annulée, et une analyse d’impact avant l’installation de tels systèmes."
-    },
-    "habib-v-openai-chatgpt-lebanon-teen": {
-      "went_wrong": "Selon les allégations de la plainte, le chatbot a continué à échanger avec un jeune de 15 ans sur des thèmes liés à la mort et n’a alerté personne lorsqu’il l’a interrogé sur le suicide. Les familles et les écoles voyaient très peu comment il l’utilisait.",
-      "would_help": "Des limites d’âge et des outils approuvés et supervisés à l’école, des normes de sécurité exigeant la détection de la détresse et l’orientation vers une aide humaine, un personnel formé à repérer la dépendance aux chatbots, et une éducation à l’IA qui enseigne qu’un chatbot ne remplace pas un adulte de confiance."
-    },
-    "ghana-wassce-2023-ai-answers-withheld": {
-      "went_wrong": "Des questions ont été transmises depuis les salles d’examen à des personnes utilisant des chatbots, et des candidats ont recopié les réponses, y compris parfois les messages d’erreur du chatbot lui-même. Les résultats ont été suspendus dans 235 écoles.",
-      "would_help": "Une interdiction claire de l’IA dans les examens nationaux, dans des conditions sécurisées et surveillées, des règles sur la fraude qui définissent l’usage abusif de l’IA, et des formats d’évaluation qui testent les apprentissages essentiels en salle."
-    },
-    "gaggle-vancouver-student-records-exposure": {
-      "went_wrong": "Un outil de surveillance par IA a collecté des captures d’écran d’écrits privés d’élèves sur le suicide, les violences et la sexualité, et les liens pouvaient être ouverts par n’importe qui sans mot de passe. Certains élèves ont été exposés auprès du personnel de l’école contre leur gré.",
-      "would_help": "Une analyse d’impact sur la protection des données avant l’achat d’outils de surveillance, des fournisseurs tenus à des normes de sécurité par défaut, et un examen humain de chaque alerte avant toute action."
-    }
-  },
-  "measures": {
-    "m01": {
-      "measure": "Adopter un plan d’intervention écrit pour les deepfakes sexuels visant des élèves ou du personnel, qui désigne un responsable de haut niveau (chef d’établissement ou adjoint) et s’inscrit dans votre politique de protection de l’enfance.",
-      "why": "Les écoles qui agissent immédiatement et de façon cohérente limitent la diffusion et le préjudice, et les autorités nationales de régulation publient désormais des plans détaillés à cet effet."
-    },
-    "m02": {
-      "measure": "Ne pas consulter, copier, enregistrer, transférer ni supprimer soi-même un deepfake de nu signalé d’un élève ; le transmettre immédiatement au responsable de la protection.",
-      "why": "Produire ou détenir des images indécentes de mineurs de moins de 18 ans est illégal même lorsqu’elles sont générées par IA, et les manipuler peut traumatiser de nouveau l’enfant et détruire des preuves."
-    },
-    "m03": {
-      "measure": "Signaler à la police et aux services de protection de l’enfance tout soupçon d’abus sexuel par deepfake visant un mineur, en respectant toute obligation légale de signalement.",
-      "why": "Créer ou partager des images sexuelles d’enfants, réelles ou synthétiques, est un crime dans de nombreux pays, et les autorités de régulation demandent aux écoles de le signaler."
-    },
-    "m04": {
-      "measure": "Aider les victimes à faire retirer rapidement les images par les voies officielles (autorité nationale de sécurité en ligne, IWF/Childline Report Remove, NCMEC Take It Down, signalements aux plateformes).",
-      "why": "Un retrait rapide limite la diffusion, et certaines lois obligent désormais les plateformes à retirer les images signalées dans un délai de 48 heures."
-    },
-    "m05": {
-      "measure": "Offrir aux élèves et aux personnels visés un accompagnement psychologique et un soutien au bien-être dès le premier jour, et informer tôt les parents, sauf si cela mettait l’enfant en danger.",
-      "why": "Les victimes subissent un préjudice grave, et les recommandations placent leur bien-être avant l’enquête."
-    },
-    "m06": {
-      "measure": "Enseigner à chaque élève du secondaire que fabriquer ou partager un deepfake « déshabillé » ou sexuel d’un camarade est un abus et peut constituer un crime, même pour plaisanter.",
-      "why": "Beaucoup d’auteurs sont des élèves qui ne se rendent pas compte que la loi s’applique à eux."
-    },
-    "m07": {
-      "measure": "Veiller à ce que la loi nationale traite les images sexuelles d’enfants générées par IA comme du matériel d’abus sexuel sur enfants et criminalise leur création, leur acquisition, leur possession et leur partage.",
-      "why": "L’UNICEF fait état de plus d’un million d’enfants touchés en un an et avertit que la loi n’a pas rattrapé la réalité."
-    },
-    "m08": {
-      "measure": "Mettre en place un suivi national des incidents de deepfakes en milieu scolaire (victimes, orientations, retraits), avec une cellule dédiée qui examine régulièrement les cas.",
-      "why": "Le suivi hebdomadaire de la Corée du Sud a révélé l’ampleur réelle du problème, y compris parmi les enseignants victimes, et a favorisé les orientations et les retraits."
-    },
-    "m09": {
-      "measure": "Intégrer les abus par deepfakes au code de conduite de l’école et à sa politique contre le harcèlement, avec des sanctions claires et proportionnées pouvant aller jusqu’à l’exclusion.",
-      "why": "Des conséquences claires dissuadent les abus entre pairs, et certains systèmes éducatifs retiennent désormais l’exclusion définitive comme sanction maximale."
-    },
-    "m10": {
-      "measure": "Parler avec les enfants des applications de « déshabillage » et des deepfakes, et leur dire qu’on ne leur fera aucun reproche s’ils signalent avoir été visés.",
-      "why": "Les enfants qui craignent d’être blâmés se taisent, et les recommandations appellent à des voies de signalement sûres et à l’implication des familles."
-    },
-    "m11": {
-      "measure": "Inclure le personnel de l’école, et pas seulement les élèves, dans les plans de réponse aux deepfakes, avec un soutien et une aide au retrait pour les enseignants visés.",
-      "why": "Les enseignants et autres personnels sont aussi victimes de deepfakes sexuels et diffamatoires."
-    },
-    "m12": {
-      "measure": "Exiger une vérification par rappel à un numéro connu avant d’agir sur toute voix, vidéo ou tout message d’un chef d’établissement, d’un membre du conseil d’administration ou d’un responsable demandant de l’argent, des mots de passe ou des modifications de données.",
-      "why": "Des clones vocaux et des textes générés par IA servent à usurper l’identité de hauts responsables, et la voix seule ne peut plus être crue."
-    },
-    "m13": {
-      "measure": "Ajouter les courriels d’hameçonnage et d’usurpation d’identité fabriqués par IA à votre évaluation des risques et à la formation annuelle du personnel à la cybersécurité.",
-      "why": "L’IA générative rend plus crédibles les courriels frauduleux qui se font passer pour l’école."
-    },
-    "m14": {
-      "measure": "Interdire, dans la charte d’usage acceptable de l’école, l’utilisation de l’IA pour usurper l’identité d’enseignants, de camarades ou de toute autre personne.",
-      "why": "Les règles nationales de classe interdisent déjà aux élèves les deepfakes et l’usurpation d’identité."
-    },
-    "m15": {
-      "measure": "Activer l’authentification multifacteur pour la messagerie du personnel, les réseaux sociaux de l’école et les comptes d’administration, afin qu’une voix clonée ou un mot de passe volé ne suffise pas à en prendre le contrôle.",
-      "why": "Les campagnes d’usurpation visent à capturer des identifiants, et l’authentification multifacteur bloque la plupart des prises de contrôle de comptes."
-    },
-    "m16": {
-      "measure": "Ne laisser les élèves utiliser que les chatbots d’IA approuvés par l’école, dans le respect des limites d’âge, avec supervision, filtrage et surveillance.",
-      "why": "Les recommandations en matière d’éducation placent la sécurité en premier et conditionnent l’usage par les élèves à ces garanties."
-    },
-    "m17": {
-      "measure": "Fixer un âge minimum national pour l’usage autonome de l’IA générative à l’école (13 ans est courant) et exiger le consentement parental pour les mineurs plus âgés lorsque c’est approprié.",
-      "why": "L’UNESCO recommande une limite d’âge, et les ministères des pays du Golfe ont fixé 13 ans avec des règles de supervision ou de consentement parental."
-    },
-    "m18": {
-      "measure": "Publier des normes de sécurité que tout produit d’IA vendu aux écoles doit respecter : filtrage des contenus nuisibles, journalisation, alertes de protection, détection de la détresse et orientation vers une aide humaine.",
-      "why": "Les normes de sécurité des produits en Angleterre montrent comment faire porter ces obligations aux fournisseurs."
-    },
-    "m19": {
-      "measure": "Exiger que les outils d’IA éducatifs évitent de se comporter comme un ami : aucune prétention à avoir des sentiments, aucune construction de relation, limites de temps par défaut et signalements de dépendance.",
-      "why": "La dépendance affective aux chatbots est un préjudice reconnu, et les nouvelles normes pour les fournisseurs demandent d’éviter les conceptions anthropomorphiques qui prolongent l’engagement."
-    },
-    "m20": {
-      "measure": "Tenir les moins de 18 ans à l’écart des applications de « compagnons » d’IA des réseaux sociaux et parler régulièrement de tout chatbot qu’utilise votre enfant.",
-      "why": "Des tests indépendants ont constaté que les compagnons entraînaient facilement des adolescents vers des jeux de rôle sexuels et des conseils nuisibles, avec des vérifications d’âge faibles."
-    },
-    "m21": {
-      "measure": "Former les personnels chargés de la protection à reconnaître les signes qu’un élève s’appuie sur un chatbot pour un soutien émotionnel ou y évoque l’automutilation, et à faire entrer ces confidences dans la procédure normale de protection.",
-      "why": "La plupart des compagnons testés n’ont pas orienté les utilisateurs vers des services d’aide lorsque le suicide ou l’automutilation était abordé."
-    },
-    "m22": {
-      "measure": "Enseigner la culture de l’IA : les chatbots ne sont pas des personnes, peuvent se tromper, peuvent être conçus pour vous retenir, et ne remplacent pas un adulte de confiance.",
-      "why": "Des psychologues et des cadres internationaux appellent à la culture de l’IA comme protection essentielle des jeunes."
-    },
-    "m23": {
-      "measure": "Recourir aux autorités de régulation de la consommation, de la sécurité en ligne ou de la protection de l’enfance pour exiger des entreprises de chatbots des preuves sur les vérifications d’âge et les tests de préjudice pour les enfants.",
-      "why": "Aux États-Unis et en Australie, des autorités de régulation ont contraint des entreprises à expliquer comment elles protègent les enfants."
-    },
-    "m24": {
-      "measure": "Prioriser d’abord les contrôles les plus efficaces : authentification multifacteur, correction rapide des failles connues et exploitées, sauvegardes hors ligne testées et plan de réponse aux incidents répété.",
-      "why": "Ces quelques mesures arrêtent la plupart des attaques contre les écoles, qui sont des cibles fréquentes de rançongiciels."
-    },
-    "m25": {
-      "measure": "Ne jamais coller de noms, de photos, de notes, de données de santé ou de renseignements familiaux d’élèves dans un outil d’IA public.",
-      "why": "La loi sur la protection des données s’applique, et les recommandations en Angleterre et aux Émirats arabes unis disent de ne pas saisir de données personnelles dans l’IA générative."
-    },
-    "m26": {
-      "measure": "Avant d’acheter tout produit d’IA ou de technologie éducative, réaliser une analyse d’impact sur la protection des données et vérifier que le fournisseur n’utilisera pas les données des élèves pour entraîner des modèles ni à des fins commerciales.",
-      "why": "Les normes pour les fournisseurs exigent des analyses d’impact et interdisent la réutilisation commerciale des données d’enfants sans base légale."
-    },
-    "m27": {
-      "measure": "Utiliser le pouvoir d’achat collectif pour exiger des fournisseurs de technologies éducatives des produits sécurisés par défaut, avec authentification multifacteur et correctifs de sécurité sans frais supplémentaires.",
-      "why": "Les écoles manquent de moyens, c’est pourquoi la CISA invite à presser les fournisseurs de porter davantage la charge de la sécurité."
-    },
-    "m28": {
-      "measure": "Rejoindre un réseau sectoriel de partage d’informations et savoir à l’avance où signaler un incident de cybersécurité.",
-      "why": "Le partage du renseignement sur les menaces et le signalement rapide aident les écoles à réagir avant que les dégâts ne s’étendent."
-    },
-    "m29": {
-      "measure": "Fixer des normes nationales minimales de cybersécurité pour les écoles, comprenant des évaluations annuelles des risques, l’authentification multifacteur, des délais de correction des failles et des sauvegardes.",
-      "why": "Les normes de l’Angleterre donnent à chaque école une base claire à atteindre et sur laquelle être auditée."
-    },
-    "m30": {
-      "measure": "Bloquer les plateformes d’IA non approuvées et les contournements par VPN sur les réseaux et appareils de l’école.",
-      "why": "Des outils non vérifiés peuvent faire fuiter des données, et les règles nationales les interdisent déjà, ainsi que le contournement du filtrage."
-    },
-    "m31": {
-      "measure": "Interdire l’IA de reconnaissance des émotions dans les écoles et les universités, sauf pour de véritables raisons médicales ou de sécurité.",
-      "why": "Le règlement européen sur l’IA l’interdit déjà car ces déductions sont peu fiables et intrusives."
-    },
-    "m32": {
-      "measure": "Ne pas installer de reconnaissance faciale ni d’autres systèmes biométriques sans analyse d’impact préalable, avis du délégué à la protection des données, consultation des familles et consentement explicite sur la base d’un choix actif.",
-      "why": "Une autorité de régulation britannique a réprimandé une école qui avait omis ces étapes, et l’État de New York a interdit la reconnaissance faciale dans les écoles en raison des risques d’erreur d’identification."
-    },
-    "m33": {
-      "measure": "Faire examiner par une personne formée chaque alerte d’un logiciel de surveillance ou de sécurité par IA avant toute mesure contre un élève.",
-      "why": "Les alertes automatiques peuvent être erronées, et les normes de protection les acheminent vers des humains plutôt que vers des sanctions automatiques."
-    },
-    "m34": {
-      "measure": "Traiter comme à haut risque l’IA utilisée pour l’admission, la notation, l’orientation ou la surveillance d’examens, avec supervision humaine, documentation et voie de recours.",
-      "why": "Le règlement européen sur l’IA classe ces usages éducatifs parmi les usages à haut risque, car des erreurs peuvent changer les chances d’un élève dans la vie."
-    },
-    "m35": {
-      "measure": "Ne jamais utiliser le score d’un détecteur de texte d’IA comme unique preuve de tricherie.",
-      "why": "Les détecteurs sont imparfaits et ont à tort signalé comme écrits par une IA la plupart des textes de personnes dont l’anglais n’est pas la langue maternelle."
-    },
-    "m36": {
-      "measure": "Vérifier régulièrement que vos systèmes de filtrage et de surveillance couvrent les outils d’IA générative auxquels les élèves peuvent accéder.",
-      "why": "Les recommandations du DfE indiquent que le filtrage et la surveillance doivent couvrir l’IA générative et renvoient aux recommandations réglementaires de protection pour les maintenir adaptés."
-    },
-    "m37": {
-      "measure": "Faire réaliser en classe, sous surveillance, une part importante des travaux notés, et vérifier les brouillons au fil de l’avancement.",
-      "why": "Les enseignants peuvent alors authentifier les travaux avec confiance sans s’en remettre aux détecteurs."
-    },
-    "m38": {
-      "measure": "Recourir à de brefs entretiens avec les élèves sur leur travail rendu pour confirmer qu’ils le comprennent et l’ont rédigé.",
-      "why": "Un bref entretien oral est l’un des moyens les plus fiables de vérifier la paternité d’un travail lorsqu’un usage abusif de l’IA est soupçonné."
-    },
-    "m39": {
-      "measure": "Exiger que les élèves déclarent tout usage de l’IA en indiquant l’outil et la date et en conservant leurs requêtes et les résultats obtenus.",
-      "why": "Des règles de déclaration claires distinguent l’aide autorisée de la fraude."
-    },
-    "m40": {
-      "measure": "Mettre à jour la politique sur la fraude pour définir l’usage abusif de l’IA et la manière de le traiter, et l’expliquer aux élèves et aux parents.",
-      "why": "Les organismes d’examen exigent que les politiques des centres couvrent l’IA afin que les cas soient traités équitablement et de façon cohérente."
-    },
-    "m41": {
-      "measure": "Repenser l’évaluation pour que les acquis essentiels soient testés dans des conditions sécurisées et surveillées, tandis que d’autres tâches autorisent ouvertement l’IA.",
-      "why": "Les agences d’assurance qualité conseillent de repenser l’évaluation plutôt que d’interdire l’IA, et l’OCDE constate que les gains obtenus avec l’aide de l’IA peuvent disparaître lors des examens."
-    },
-    "m42": {
-      "measure": "Interdire l’usage de l’IA dans les examens nationaux officiels et maintenir un humain responsable de chaque note finale, même lorsque l’IA aide à la correction.",
-      "why": "Les règles nationales et les organismes d’examen l’exigent déjà pour protéger l’intégrité des diplômes."
-    },
-    "m43": {
-      "measure": "Publier un cadre national pour l’IA dans l’éducation qui fixe la réglementation, la protection des données et la validation des outils, en cohérence avec les recommandations de l’UNESCO.",
-      "why": "L’UNESCO indique que la plupart des écoles ne peuvent pas évaluer seules les outils d’IA et que les gouvernements doivent fixer le cadre."
-    },
-    "m44": {
-      "measure": "Former chaque enseignant à l’éthique, à la sécurité et à la pédagogie de l’IA à l’aide d’un référentiel de compétences.",
-      "why": "Les enseignants ont besoin de ces compétences pour juger les outils et guider les élèves, et les référentiels précisent ce qu’ils doivent savoir."
-    },
-    "m45": {
-      "measure": "Intégrer au programme, dès l’école primaire, la culture de l’IA, y compris l’éthique, l’esprit critique et l’usage sûr.",
-      "why": "Des organismes internationaux et plusieurs États arabes considèrent désormais la culture de l’IA comme une compétence essentielle."
-    },
-    "m46": {
-      "measure": "Informer les parents des outils d’IA que l’école utilise et des données qu’ils traitent, et demander leur accord lorsque cela est requis.",
-      "why": "Les recommandations disent que les familles doivent comprendre et approuver la manière dont l’IA traite les données des élèves."
-    }
+    "lede": "Cas vérifiés, dans le monde entier, où l’IA a porté préjudice à des élèves, des étudiants, des enfants, des adolescents ou aux personnes et institutions qui les enseignent, avec des statistiques, des études de cas, la manière dont les écoles et les autorités ont réagi, ainsi que les mesures de prévention et les lois mises en place par les gouvernements, les régulateurs et les instances éducatives.",
+    "cs_c": "Cas sélectionnés, avec ce qui s’est passé et la manière dont les écoles et les autorités ont réagi, tels qu’ils sont consignés dans chaque dossier.",
+    "cs_response": "La réaction des écoles et des autorités",
+    "cs_status": "Statut",
+    "r_h": "La réaction des écoles et des autorités",
+    "r_c": "La réaction consignée dans chacun des {n} dossiers survenus dans une école ou une université, d’après les sources citées dans le dossier.",
+    "r_case": "Cas",
+    "prev_h": "Mesures de prévention en vigueur",
+    "prev_c": "Mesures que des ministères, des régulateurs, des organismes d’examen et des organisations internationales ont adoptées ou publiées, avec ce que chacune prévoit, selon le document.",
+    "kind_government": "Ministères et gouvernements",
+    "kind_regulator": "Régulateurs et forces de l’ordre",
+    "kind_exams": "Organismes d’examen et de qualité",
+    "kind_international": "Organisations internationales",
+    "laws_c": "Lois en vigueur qui répriment pénalement les deepfakes sexuels de mineurs ou qui encadrent l’IA utilisée dans l’éducation ou par les jeunes."
   },
   "laws": {
     "law1": {
@@ -315,6 +76,101 @@
     },
     "law10": {
       "what_it_does": "À compter du 1er janvier 2026, impose aux exploitants de chatbots de compagnie de signaler qu’il s’agit d’IA, d’appliquer des protocoles en cas de suicide et d’automutilation, de rappeler aux mineurs de faire des pauses et de bloquer pour les mineurs les images sexuellement explicites produites par le chatbot."
+    }
+  },
+  "sources": {
+    "unesco-genai-2023": {
+      "summary": "Les premières orientations mondiales de l’UNESCO sur l’IA générative dans l’éducation (publiées en septembre 2023, page mise à jour en janvier 2026) demandent aux gouvernements de réglementer les outils d’IA générative et de bâtir des cadres d’action cohérents pour l’éducation et la recherche. Elles proposent une limite d’âge pour les conversations autonomes avec les plateformes d’IA générative, une protection obligatoire des données personnelles et un processus de validation éthique des outils, car la plupart des écoles ne sont pas encore en mesure de les évaluer."
+    },
+    "unesco-aicf-students-2024": {
+      "summary": "Définit 12 compétences réparties en quatre dimensions (état d’esprit centré sur l’humain, éthique de l’IA, techniques et applications de l’IA, conception de systèmes d’IA) à trois niveaux : comprendre, appliquer, créer. Il vise à aider les programmes scolaires à préparer les élèves à utiliser l’IA en toute sécurité et à porter un jugement critique sur les solutions d’IA."
+    },
+    "unesco-aicf-teachers-2024": {
+      "summary": "Définit 15 compétences réparties en cinq dimensions, dont l’éthique de l’IA, la pédagogie de l’IA et l’IA pour l’apprentissage professionnel, à trois niveaux : acquérir, approfondir, créer. Il repose sur la protection des droits des enseignants et le renforcement de la capacité d’action humaine, et propose des stratégies pour mettre les principes éthiques en pratique."
+    },
+    "unicef-ai-children-v3-2025": {
+      "summary": "La mise à jour de décembre 2025 des orientations de l’UNICEF fixe dix exigences pour une IA centrée sur l’enfant, notamment le contrôle réglementaire, la sécurité des enfants, la protection des données et de la vie privée des enfants, la non-discrimination, la transparence et la responsabilité, ainsi que le développement des compétences des enfants en matière d’IA. Elle s’accompagne d’une liste de contrôle destinée aux gouvernements et aux entreprises."
+    },
+    "unicef-deepfake-2026": {
+      "summary": "La déclaration de l’UNICEF du 4 février 2026 cite une recherche de l’UNICEF, d’ECPAT et d’INTERPOL selon laquelle au moins 1,2 million d’enfants dans 11 pays ont vu leurs images transformées en deepfakes sexuels au cours de l’année écoulée. Elle appelle les gouvernements à intégrer les contenus générés par l’IA dans les lois sur le matériel d’abus sexuel sur enfants et à en criminaliser la création, l’acquisition, la détention et le partage, et les entreprises d’IA à intégrer la sécurité dès la conception et à empêcher leur circulation."
+    },
+    "oecd-deo-2026": {
+      "summary": "Constate que l’IA générative à usage général améliore la performance sur les tâches sans gain réel d’apprentissage lorsqu’elle n’est pas guidée par la pédagogie, et que l’avantage des élèves peut disparaître ou s’inverser lors des examens une fois l’accès à l’IA retiré. Elle recommande des outils éducatifs conçus à cet effet, des infrastructures équitables et une formation professionnelle continue."
+    },
+    "coe-ai-literacy-2026": {
+      "summary": "Recommandation aux États membres visant à aider les élèves, les étudiants, les enseignants, les parents et les citoyens à comprendre l’IA, à l’utiliser de manière responsable et à reconnaître les cas où elle menace les droits de l’homme, la démocratie et l’État de droit. Elle donne effet à l’article 20 de la Convention-cadre du Conseil de l’Europe sur l’IA."
+    },
+    "eu-ai-act-annex3": {
+      "summary": "Classe comme à haut risque l’IA utilisée pour décider de l’admission ou de l’affectation dans l’éducation, pour évaluer les résultats d’apprentissage, pour apprécier le niveau d’éducation qu’une personne recevra, et pour surveiller et détecter les comportements interdits des élèves pendant les épreuves. Les systèmes à haut risque sont soumis à des obligations telles que la gestion des risques, la supervision humaine et la documentation."
+    },
+    "ec-ethical-guidelines-2026": {
+      "summary": "Publiées pour la première fois en 2022 et mises à jour en 2026 par l’intermédiaire du European Digital Education Hub, les lignes directrices expliquent aux enseignants le contexte du RGPD et du règlement sur l’IA. Elles fournissent des questions directrices et des exemples de cas pour évaluer les outils d’IA avant de les utiliser en classe."
+    },
+    "dfe-genai-2025": {
+      "summary": "La politique du DfE (mise à jour en août 2025) indique que la sécurité doit être la priorité absolue, que les élèves ne doivent utiliser l’IA générative qu’avec des garanties telles que la supervision et le filtrage et la surveillance, et que les données personnelles ne doivent pas être saisies dans les outils d’IA générative. Elle avertit que l’IA générative peut rendre les cyberattaques et les courriels d’usurpation d’identité plus crédibles et renvoie aux règles du JCQ et d’Ofqual sur les fraudes liées à l’IA."
+    },
+    "dfe-product-safety-2026": {
+      "summary": "Normes destinées aux fournisseurs de technologies éducatives (publiées pour la première fois en janvier 2025, étendues le 19 janvier 2026) portant sur le filtrage, la surveillance et le signalement au responsable de la protection de l’enfance, la sécurité contre le jailbreaking, la confidentialité, les tests et la gouvernance. La mise à jour de 2026 ajoute des normes sur le développement cognitif, le développement émotionnel et social, la santé mentale et la lutte contre la manipulation, notamment éviter l’anthropomorphisme et la dépendance affective et détecter la détresse."
+    },
+    "dfe-cyber-standards": {
+      "summary": "Fixe des normes comprenant une évaluation annuelle des cyberrisques, la formation du personnel et des élèves, l’authentification multifacteur pour les comptes du personnel dans le cloud ou à distance et pour les comptes d’administration, la correction des vulnérabilités critiques sous 14 jours et un plan de sauvegarde de type 3-2-1. Elle exige aussi de signaler les cyberattaques en interne et à des organismes tels que les assureurs et le DfE (dernière mise à jour en septembre 2026)."
+    },
+    "ukcis-nudes-2024": {
+      "summary": "La mise à jour de mars 2024 couvre explicitement les « pseudo-images » de moins de 18 ans générées par l’IA ou manipulées numériquement et indique que la loi s’applique aux enfants qui les créent. Elle demande au personnel de s’adresser au responsable désigné de la protection de l’enfance, de ne pas visionner, copier ni partager les images, de saisir la police ou les services sociaux en cas de besoin et d’utiliser des outils de retrait tels que IWF/Childline Report Remove."
+    },
+    "kcsie-2026": {
+      "summary": "Orientations légales en matière de protection de l’enfance pour les écoles et les établissements d’enseignement, dont la version 2026 est en vigueur depuis le 1er septembre 2026. Les orientations du DfE sur l’IA générative les désignent comme la référence principale pour la sécurité en ligne, le filtrage et la surveillance et la cybersécurité lorsque les écoles utilisent l’IA."
+    },
+    "jcq-ai-2025": {
+      "summary": "Les orientations en vigueur depuis le 30 avril 2025 considèrent comme une fraude tout usage abusif de l’IA qui fait que le travail n’est pas celui de l’élève, et exigent que les politiques de lutte contre la fraude des centres couvrent l’IA. Elles recommandent un travail surveillé en classe, la vérification des brouillons, de brefs échanges de type soutenance orale et la restriction de l’IA sur les appareils des centres, indiquent que les détecteurs ne doivent pas être utilisés seuls et que l’IA ne peut pas être le seul correcteur."
+    },
+    "qaa-genai-2023": {
+      "summary": "La QAA indique aux universités qu’un usage encadré de l’IA générative est préférable à une interdiction pure et simple, tout en maintenant les normes académiques. Elle propose un processus en quatre étapes pour repérer les évaluations à ajuster et demande une assurance qualité interne rigoureuse."
+    },
+    "teqsa-2025": {
+      "summary": "Ressource de la TEQSA, non prescriptive (publiée en septembre 2025), qui aide les universités à gérer les risques de l’IA générative pour la garantie des apprentissages tout en enseignant un usage éthique. Elle cartographie les principales voies stratégiques que les établissements suivent pour repenser l’évaluation."
+    },
+    "ico-chelmer-2024": {
+      "summary": "L’ICO a réprimandé le Chelmer Valley High School (23 juillet 2024) pour avoir introduit la reconnaissance faciale sans analyse d’impact relative à la protection des données, sans consulter son délégué à la protection des données, les parents ni les élèves, et en s’appuyant sur un consentement par refus (opt-out). Elle souligne qu’une analyse d’impact est requise avant tout système biométrique et qu’un consentement explicite par adhésion (opt-in) est nécessaire."
+    },
+    "nysed-frt-2023": {
+      "summary": "La décision de septembre 2023 interdit aux écoles de l’État de New York d’acheter ou d’utiliser la technologie de reconnaissance faciale, après qu’un rapport de l’État a conclu que les risques l’emportaient sur les avantages, notamment des taux d’erreur d’identification plus élevés pour les enfants et d’autres groupes. Les autres outils biométriques relèvent de décisions locales, qui doivent tenir compte de la vie privée, des droits civiques, de l’efficacité et de l’avis des parents."
+    },
+    "cisa-k12-2023": {
+      "summary": "Le rapport de la CISA de janvier 2023 indique aux écoles de commencer par les mesures les plus efficaces : authentification multifacteur, correction des vulnérabilités connues et exploitées, sauvegardes testées, plan de réponse aux incidents mis à l’épreuve et formation continue. Il appelle aussi à exiger des fournisseurs des produits sécurisés par défaut et à rejoindre des groupes de partage d’informations tels que MS-ISAC et K12 SIX."
+    },
+    "fbi-psa-2025": {
+      "summary": "Avertit que des criminels utilisent des messages vocaux et des textos générés par l’IA pour se faire passer pour de hauts responsables et voler l’accès à des comptes. Elle conseille de vérifier l’identité par un numéro connu, de ne pas cliquer sur les liens avant vérification, d’activer l’authentification à deux facteurs, d’utiliser des mots de code convenus et de confirmer les demandes de paiement par un canal distinct."
+    },
+    "ftc-6b-2025": {
+      "summary": "Le 11 septembre 2025, la FTC a ordonné à sept entreprises, dont Alphabet, Character.AI, Meta, OpenAI, Snap et xAI, d’expliquer comment elles testent, surveillent et limitent les préjudices des chatbots de compagnie pour les enfants. Elle les interroge sur la monétisation de l’engagement, l’application des restrictions d’âge, les informations communiquées aux parents et l’utilisation des données de conversation."
+    },
+    "esafety-deepfake-guide-2026": {
+      "summary": "Guide pas à pas (publié pour la première fois à la mi-2025, PDF actuel daté de mars 2026) destiné aux chefs d’établissement qui réagissent à des deepfakes de nus ou sexuels visant des élèves ou du personnel, conçu pour s’articuler avec les politiques de protection de l’enfance. L’eSafety demande aux écoles de donner la priorité au bien-être des élèves et du personnel visés, de signaler à la police les infractions possibles, de respecter les obligations de signalement et de recourir à l’eSafety pour un retrait rapide."
+    },
+    "esafety-companions-2025": {
+      "summary": "L’avis du 18 février 2025 avertit que les compagnons d’IA simulent des relations personnelles, permettent des discussions non réglementées sur le sexe, l’automutilation et le suicide, et manquent souvent de vérifications d’âge efficaces. L’eSafety a ensuite adressé des notifications juridiques (octobre 2025) à Character.AI, Nomi, Chai et Chub AI et a indiqué que la plupart des compagnons n’orientaient pas les utilisateurs vers une aide en cas de suicide ou d’automutilation."
+    },
+    "korea-moe-2024": {
+      "summary": "En août 2024, le ministère a mis en place une cellule d’urgence chargée de suivre chaque semaine les cas de deepfakes en milieu scolaire, de traiter les signalements des victimes, d’apporter un soutien psychologique et de renforcer l’éducation à l’éthique numérique. Il a indiqué que les auteurs au lycée pouvaient être exclus, la sanction la plus lourde du système de lutte contre la violence scolaire."
+    },
+    "korea-victims-2024": {
+      "summary": "Les données d’enquête du ministère ont recensé 833 victimes de deepfakes en milieu scolaire en 2024 jusqu’à fin octobre, dont 799 élèves et 31 enseignants. Les écoles ont transmis 417 cas pour enquête et 218 pour suppression de vidéos."
+    },
+    "ireland-ai-guidance-2025": {
+      "summary": "Orientations nationales publiées le 21 octobre 2025 avec Oide pour aider les écoles à planifier un usage sûr, éthique et approprié de l’IA, en s’appuyant sur les travaux de l’UNESCO et de l’UE. Elles précisent que la State Examinations Commission exige que le contenu généré par l’IA soit référencé, et un groupe de travail sur l’IA dans l’éducation, y compris l’évaluation, a été annoncé."
+    },
+    "uae-moe-2026": {
+      "summary": "Le manuel de 2026 interdit l’IA générative aux élèves de moins de 13 ans ou de moins de la 7e année (Year 7), interdit l’IA dans les examens officiels et les travaux d’IA non déclarés, et interdit de saisir dans les outils d’IA des données personnelles d’élèves, d’enseignants ou de parents. Il interdit aussi les deepfakes et l’usurpation d’identité et exige une supervision directe de l’enseignant pour l’usage de l’IA en classe."
+    },
+    "saudi-moe-sdaia-2025": {
+      "summary": "Guide conjoint destiné aux élèves, aux enseignants et aux parents, visant un usage éthique et responsable qui maintient l’enseignant au centre. Il indique que les élèves de moins de 13 ans ne devraient pas utiliser l’IA générative sans supervision directe et que les moins de 18 ans ont besoin d’un consentement parental clair."
+    },
+    "lebanon-crdp-2025": {
+      "summary": "Le CRDP, qui élabore le programme national du Liban, a publié (octobre 2025) un cadre sur l’IA dont la première partie est une politique de l’IA pour les écoles libanaises, fondée sur les cadres de l’UNESCO de 2024 et sa recommandation de 2021 sur l’éthique de l’IA. Ses principes directeurs comprennent une approche centrée sur l’humain, la confidentialité et la sécurité des données, l’inclusivité et le développement professionnel des enseignants."
+    },
+    "egypt-ai-curriculum-2025": {
+      "summary": "Le ministre a annoncé des programmes d’IA dans certaines classes du primaire, du préparatoire et du secondaire à partir de 2025-2026, y compris l’éthique et les implications sociales de l’IA. Aucune directive publiée du ministère sur l’usage ou la protection n’a été trouvée."
     }
   }
 }
