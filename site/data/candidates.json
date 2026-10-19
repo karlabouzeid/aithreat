@@ -2293,5 +2293,95 @@
     "first_seen": "2026-10-19T08:35:36Z",
     "first_published": "2026-10-19T07:31:00Z",
     "updated_at": "2026-10-19T08:35:36Z"
+  },
+  {
+    "id": "fake-web3-accelerator-npm-agent-hijack",
+    "date": "2026-10-19",
+    "title": "Fake Web3 accelerator uses npm packages to spread malware and hijack AI agent traffic",
+    "category": "AI supply chain",
+    "direction": "on-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "Developers installing npm packages; AI agent traffic",
+    "loss_usd": null,
+    "summary": "A fake Web3 accelerator reportedly distributed malicious npm packages that spread malware and hijacked AI agent traffic, per The Hacker News headline. Details are not yet available.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Technology & AI vendors",
+    "attribution": "Unknown; the headline names no actor.",
+    "motive": "Unknown",
+    "vector": "Malicious npm packages promoted through a fake Web3 accelerator",
+    "root_cause": "Unknown",
+    "impact": "Malware spread and AI agent traffic hijacked, per the headline; scale unknown.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "confidence": 0.45,
+    "source": "The Hacker News",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUkF2UU5yWE9pZGxTODRmdFFFdEpxajIyb0pNNkpQVEstdTV5MEw1c1NmRzNaa2lwVk9zd18tc3NaaDZWVXV0ZDN5akY0Wks4OS1lei1FNGxYcmcwMDB3ZFN6Wl9VMkg0VnNGUlplTGoyVHJoQUpvMXc5V0xGOHFLdmoxU24?oc=5",
+    "sources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUkF2UU5yWE9pZGxTODRmdFFFdEpxajIyb0pNNkpQVEstdTV5MEw1c1NmRzNaa2lwVk9zd18tc3NaaDZWVXV0ZDN5akY0Wks4OS1lei1FNGxYcmcwMDB3ZFN6Wl9VMkg0VnNGUlplTGoyVHJoQUpvMXc5V0xGOHFLdmoxU24?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-19",
+        "event": "Reported by The Hacker News"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-19T10:35:37Z",
+    "wire_id": "fb186e3a3219",
+    "first_seen": "2026-10-19T10:35:37Z",
+    "first_published": "2026-10-19T10:06:00Z",
+    "updated_at": "2026-10-19T10:35:37Z"
+  },
+  {
+    "id": "ai-agents-breach-100-companies-5000",
+    "date": "2026-10-19",
+    "title": "AI agents reportedly breach over 100 companies at a cost of about $5,000",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "More than 100 companies (unnamed)",
+    "loss_usd": null,
+    "summary": "Per cisoclub, a hacker used AI agents to break into more than 100 companies for about $5,000. A related report says dozens of sites; the two may be the same event.",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "sector": "Multiple / cross-sector",
+    "attribution": "A single hacker per the headlines; no name or group given.",
+    "motive": "Unknown",
+    "vector": "AI agents used to run intrusions at scale",
+    "root_cause": "Unknown",
+    "impact": "More than 100 companies reportedly breached; the data taken is not stated.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "confidence": 0.5,
+    "source": "cisoclub",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQbkdHTjQwUjZyME9jZmNib2ZQUzlSQlJKMkZxcGJRRzQzMHQ1eGpHYm5KcTB2aklWUFhRN01RNnNnM2x0Q3JBaXNxWnU5M0dkRVFKZGZ6UWNjVFZJTXRrWWJvc1h2cEszc01XcFdvS3ZXUjgxYlBnUndkR2JYVTVMU2pLTzVqTXQ2N0JpSklhT0hyQWREQ1A3T3EwTGtSdDc5N3czWEhn?oc=5",
+    "sources": [
+      {
+        "name": "cisoclub",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQbkdHTjQwUjZyME9jZmNib2ZQUzlSQlJKMkZxcGJRRzQzMHQ1eGpHYm5KcTB2aklWUFhRN01RNnNnM2x0Q3JBaXNxWnU5M0dkRVFKZGZ6UWNjVFZJTXRrWWJvc1h2cEszc01XcFdvS3ZXUjgxYlBnUndkR2JYVTVMU2pLTzVqTXQ2N0JpSklhT0hyQWREQ1A3T3EwTGtSdDc5N3czWEhn?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-19",
+        "event": "Reported by cisoclub"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-19T10:35:37Z",
+    "wire_id": "c9fa9412c376",
+    "first_seen": "2026-10-19T10:35:37Z",
+    "first_published": "2026-10-19T10:33:20Z",
+    "updated_at": "2026-10-19T10:35:37Z"
   }
 ]
