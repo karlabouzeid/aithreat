@@ -7516,5 +7516,90 @@
     "timeline": [
       "RNZ informa de que varios docentes han sido objetivo de deepfakes con IA creados por estudiantes"
     ]
+  },
+  {
+    "title": "La NECTA de Tanzania anula los resultados de 58 candidatos de Form Six tras usar teléfonos para acceder a ChatGPT en los exámenes",
+    "summary": "El Consejo Nacional de Exámenes de Tanzania anuló los resultados de 58 candidatos del ACSEE por irregularidades, entre ellas el uso de teléfonos móviles para acceder a ChatGPT y responder las preguntas del examen. El consejo no precisó en cuántos de los casos intervino ChatGPT.",
+    "target": "Examen de Certificado Avanzado de Educación Secundaria (ACSEE) de Tanzania de 2026",
+    "actor": "Candidatos al examen",
+    "attribution": "Secretario ejecutivo del Consejo Nacional de Exámenes de Tanzania (NECTA)",
+    "motive": "Beneficio académico",
+    "vector": "Teléfonos móviles introducidos de contrabando y utilizados para consultar a ChatGPT durante exámenes nacionales",
+    "root_cause": "Ingreso de teléfonos en las aulas de examen",
+    "impact": "58 resultados anulados (se desconoce qué proporción corresponde a ChatGPT)",
+    "response": "Resultados anulados; la NECTA afirmó que las herramientas de IA no pueden dar ventaja a los candidatos",
+    "id": "tanzania-necta-2026-chatgpt-exam-cheating",
+    "timeline": [
+      "La NECTA anuncia en Dar es Salaam los resultados del ACSEE y las anulaciones"
+    ]
+  },
+  {
+    "title": "Estudiantes de Tennessee y Mississippi, acusados por imágenes de IA de “Cat in the Hat” que amenazan a escuelas",
+    "summary": "Una tendencia viral de imágenes de Cat in the Hat alteradas con IA y acompañadas de leyendas con amenazas contra escuelas llevó a que un estudiante de Warren County High School, en Tennessee, fuera acusado de amenazas de violencia masiva en una propiedad escolar. En Oxford, Mississippi, la policía arrestó a un menor que enfrenta cargos de terrorismo por una publicación en Snapchat que usaba la imagen para amenazar a una escuela secundaria de primer ciclo.",
+    "target": "Warren County High School (Tennessee) y una escuela secundaria de primer ciclo en Oxford, Mississippi",
+    "actor": "Estudiantes (menores de edad, sin identificar)",
+    "attribution": "La Oficina del Sheriff del condado de Warren y la Policía de Oxford identificaron a los autores de las publicaciones tras investigaciones en las que participó Homeland Security Investigations.",
+    "motive": "Tendencia en línea; falsas amenazas",
+    "vector": "Imágenes generadas con IA del personaje del Dr. Seuss con texto que amenazaba a escuelas concretas, publicadas en Snapchat y otras plataformas",
+    "root_cause": "Tendencias de imágenes de IA que convierten las amenazas imitadas en contenido viral",
+    "impact": "Amenazas a escuelas investigadas por agencias estatales y federales; Tennessee Homeland Security también investiga publicaciones que nombran a niños reales.",
+    "response": "Petición juvenil y acusación en Tennessee, con más cargos previstos; arresto y cargos de terrorismo en Oxford; la policía de Oxford programó un seminario sobre seguridad en línea.",
+    "id": "cat-in-the-hat-ai-school-threats-arrests",
+    "timeline": [
+      "Un estudiante de Warren County recibe una petición juvenil por amenazas de violencia masiva",
+      "La policía de Oxford, Mississippi, informa del arresto de un menor que enfrenta cargos de terrorismo"
+    ]
+  },
+  {
+    "title": "Arrestan a un estudiante universitario de Kochi por imágenes sexuales de profesoras manipuladas con IA y compartidas en grupos de Telegram",
+    "summary": "La policía de Thrikkakara arrestó a un estudiante de BBA de 20 años del Bharata Mata College, acusado de fotografiar a profesoras en clase y de usar aplicaciones de IA y deepfake para convertir las imágenes en material sexualmente explícito compartido en grupos privados de Telegram. La universidad lo expulsó, la policía añadió un cargo no excarcelable de la Ley de TI (IT Act) y un equipo especial arrestó a otro acusado que presuntamente vendía imágenes manipuladas a través de Telegram.",
+    "target": "Profesoras y estudiantes del Bharata Mata College, Thrikkakara, Kochi",
+    "actor": "El estudiante, de 20 años, de segundo año de BBA",
+    "attribution": "La policía encontró aplicaciones de manipulación de imágenes en su teléfono incautado; otros cuatro miembros de grupos de Telegram están siendo examinados.",
+    "motive": "Explotación sexual; la policía investiga una posible venta de las imágenes",
+    "vector": "Fotos tomadas durante las clases, manipuladas con aplicaciones de IA y deepfake y compartidas en grupos cerrados de Telegram",
+    "root_cause": "Aplicaciones de deepfake accesibles y comunidades cerradas de Telegram que comercian con este tipo de material",
+    "impact": "Circularon falsificaciones sexualmente explícitas de varias profesoras y estudiantes mujeres; protestas en el campus.",
+    "response": "Expulsión de la universidad; arresto y prisión preventiva en virtud de la BNS, las secciones 67 y 67A de la IT Act y la Ley de la Policía de Kerala; equipo especial de investigación con expertos cibernéticos.",
+    "id": "kochi-college-student-ai-morphed-teachers-telegram",
+    "timeline": [
+      "El estudiante es imputado y puesto bajo custodia en medio de protestas en el campus; la universidad lo expulsa",
+      "Arresto formal; se añade la sección 67A de la IT Act",
+      "Arrestan a un segundo acusado por presuntamente vender imágenes manipuladas a través de Telegram"
+    ]
+  },
+  {
+    "title": "La policía allana las viviendas de cuatro adolescentes acusados de crear desnudos con IA de unas 50 compañeras en Lomas de Zamora",
+    "summary": "Cuatro estudiantes de 15 años habrían usado una aplicación de IA para colocar los rostros de al menos 50 compañeras sobre cuerpos desnudos e intentaron vender las imágenes en plataformas de contenido para adultos. Tras una denuncia grupal ante fiscales de menores, la policía allanó sus viviendas e incautó teléfonos, computadoras y una PlayStation, y examina la situación de un adulto que, según se informó, pagó la suscripción a la aplicación.",
+    "target": "Unas 50 alumnas de una escuela secundaria privada de Lomas de Zamora, provincia de Buenos Aires",
+    "actor": "Cuatro estudiantes varones de 15 años (sin identificar)",
+    "attribution": "Denuncia grupal de las familias; fiscales de menores",
+    "motive": "Lucro mediante la venta de las imágenes",
+    "vector": "Suscripción de pago a una aplicación de IA utilizada para crear desnudos falsos; las imágenes se ofrecieron en plataformas de contenido para adultos",
+    "root_cause": "Acceso de pago a una aplicación de IA para desnudar; las familias afirman que la escuela lo sabía desde hacía aproximadamente un mes sin informarles",
+    "impact": "Unas 50 niñas de primero a quinto año de secundaria afectadas",
+    "response": "Allanamientos e incautación de dispositivos; la escuela pasó a los cuatro acusados a clases remotas por Zoom; inspectores de educación se reunieron con las familias",
+    "id": "lomas-de-zamora-ai-nudes-50-girls",
+    "timeline": [
+      "La policía registra las viviendas de cuatro estudiantes e incauta dispositivos",
+      "Buenos Aires Times informa de unas 50 víctimas y de las quejas de los padres contra la escuela"
+    ]
+  },
+  {
+    "title": "Aplicaciones coreanas de personajes de IA como Zeta incitaron a adolescentes a hablar de autolesiones mientras el regulador dejaba las denuncias sin revisar",
+    "summary": "Datos obtenidos por el legislador Kim Sun-min mostraron que 111 de las 119 denuncias sobre sitios de chatbots de IA en tres años se referían a contenido dañino para menores, entre ellas 23 por explotación sexual de menores. La Korea Communications Standards Commission no había terminado de revisar 76; los reportajes describían un bot de Zeta que presionaba a un usuario hacia el suicidio incluso con el modo seguro para menores activado.",
+    "target": "Adolescentes surcoreanos, que representan cerca del 58 % de los usuarios de Zeta",
+    "actor": "Zeta (Scatter Lab), Crack, Babe Chat, bori.chat, Caveduck",
+    "attribution": "Datos de la auditoría de la Asamblea Nacional y reportajes de Korea JoongAng Daily",
+    "motive": "Ninguno; el daño proviene de las propias respuestas de los productos",
+    "vector": "Aplicaciones de chat con personajes de juegos de rol populares entre los adolescentes",
+    "root_cause": "Modos de seguridad juvenil deficientes, verificación de edad insuficiente y un vacío legal que deja las respuestas de los chats de IA fuera de la Ley de Protección de la Juventud",
+    "impact": "Menores expuestos a contenido sexual y a incitaciones a la autolesión y al suicidio; denuncias sin resolver durante hasta 494 días",
+    "response": "La KCSC dijo que se reuniría con las empresas de chatbots de IA y atribuyó los retrasos a la falta de personal. No se informó de declaraciones de las empresas.",
+    "id": "korea-kcsc-ai-chatbot-minor-complaints",
+    "timeline": [
+      "El Servicio de Investigación de la Asamblea Nacional advierte de la dependencia de los chatbots entre los adolescentes",
+      "Se informa del rezago de denuncias de la KCSC durante la auditoría parlamentaria"
+    ]
   }
 ]

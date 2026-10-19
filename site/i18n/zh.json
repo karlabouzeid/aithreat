@@ -7516,5 +7516,90 @@
     "timeline": [
       "RNZ 报道多名教师成为学生制作的 AI 深度伪造内容的目标"
     ]
+  },
+  {
+    "title": "坦桑尼亚国家考试委员会（NECTA）因考生在考试中用手机访问 ChatGPT，取消 58 名六年级（Form Six）考生的成绩",
+    "summary": "坦桑尼亚国家考试委员会因舞弊取消了 58 名 ACSEE 考生的成绩，舞弊行为包括使用手机访问 ChatGPT 来回答考题。该委员会没有说明其中有多少起案件涉及 ChatGPT。",
+    "target": "坦桑尼亚 2026 年高级中等教育证书考试（ACSEE）",
+    "actor": "考生",
+    "attribution": "坦桑尼亚国家考试委员会（NECTA）执行秘书",
+    "motive": "谋取学业利益",
+    "vector": "夹带手机，在全国性考试期间向 ChatGPT 提问",
+    "root_cause": "手机被带入考场",
+    "impact": "58 人的成绩被取消（其中涉及 ChatGPT 的数量不明）",
+    "response": "成绩被取消；NECTA 表示 AI 工具无法让考生获得优势",
+    "id": "tanzania-necta-2026-chatgpt-exam-cheating",
+    "timeline": [
+      "NECTA 在达累斯萨拉姆公布 ACSEE 成绩及取消名单"
+    ]
+  },
+  {
+    "title": "田纳西州和密西西比州学生因用 AI 生成的 Cat in the Hat（《戴帽子的猫》）图片威胁学校被控",
+    "summary": "一股经 AI 篡改的 Cat in the Hat 图片在网上走红，图片配有针对学校的威胁文字，导致田纳西州沃伦县高中（Warren County High School）一名学生被控对学校场所实施大规模暴力威胁。在密西西比州牛津市（Oxford），警方逮捕了一名未成年人，其因在 Snapchat 上发布使用该图片威胁一所初中的帖子而面临恐怖主义指控。",
+    "target": "沃伦县高中（田纳西州）和密西西比州牛津市的一所初中",
+    "actor": "学生（未成年人，未具名）",
+    "attribution": "沃伦县警长办公室（Warren County Sheriff's Office）和牛津市警方（Oxford Police）在涉及美国国土安全调查局（Homeland Security Investigations）的调查后确认了发帖者身份。",
+    "motive": "网络热潮；威胁恶作剧",
+    "vector": "用 AI 生成的 Dr. Seuss 笔下角色图片，配有威胁指名学校的文字，发布在 Snapchat 及其他平台上",
+    "root_cause": "AI 图片热潮使模仿性威胁变成病毒式传播的内容",
+    "impact": "学校威胁事件受到州和联邦机构调查；田纳西州国土安全部门（Tennessee Homeland Security）还在调查点名真实儿童的帖子。",
+    "response": "田纳西州已提出少年案件申诉并指控，预计还将追加指控；牛津市已逮捕嫌疑人并提出恐怖主义指控；牛津市警方安排了一场网络安全研讨会。",
+    "id": "cat-in-the-hat-ai-school-threats-arrests",
+    "timeline": [
+      "沃伦县一名学生因大规模暴力威胁被送达少年案件申诉书",
+      "密西西比州牛津市警方通报逮捕一名面临恐怖主义指控的未成年人"
+    ]
+  },
+  {
+    "title": "科钦一名大学生因将教师照片用 AI 篡改为性图像并在 Telegram 群组中传播被捕",
+    "summary": "Thrikkakara 警方逮捕了 Bharata Mata College 一名 20 岁的工商管理学士（BBA）学生，指控他在课堂上拍摄教师，并使用 AI 和深度伪造应用将图像制成色情内容，在私密 Telegram 群组中传播。学院将其开除，警方追加了一项不可保释的《信息技术法》指控，一个特别小组还逮捕了另一名被告，该人涉嫌通过 Telegram 出售篡改图像。",
+    "target": "科钦 Thrikkakara 的 Bharata Mata College 的女教师和女学生",
+    "actor": "该学生，20 岁，BBA 二年级学生",
+    "attribution": "警方在其被扣押的手机上发现了图像篡改应用；另有四名 Telegram 群组成员正在接受调查。",
+    "motive": "性剥削；警方正在调查是否可能存在出售图像的行为",
+    "vector": "课堂期间拍摄的照片经 AI 和深度伪造应用篡改，在封闭的 Telegram 群组中传播",
+    "root_cause": "深度伪造应用易于获取，且有封闭的 Telegram 社群交易此类内容",
+    "impact": "多名教师和女学生的露骨性伪造图像被传播；校园出现抗议。",
+    "response": "学院将其开除；依据 BNS、《信息技术法》第 67 条和第 67A 条以及《喀拉拉邦警察法》将其逮捕并还押；成立了有网络专家参与的特别调查组。",
+    "id": "kochi-college-student-ai-morphed-teachers-telegram",
+    "timeline": [
+      "该学生在校园抗议中被立案并被拘留；被学院开除",
+      "被正式逮捕；追加《信息技术法》第 67A 条",
+      "另一名被告因涉嫌通过 Telegram 出售篡改图像被捕"
+    ]
+  },
+  {
+    "title": "警方搜查 Lomas de Zamora 四名少年的住所，他们被指为约 50 名同学制作 AI 裸照",
+    "summary": "四名 15 岁学生涉嫌使用一款 AI 应用，把至少 50 名女同学的脸安到裸体身体上，并试图在成人内容平台上出售这些图像。在家长集体向少年检察官投诉后，警方搜查了他们的住所，查扣了手机、电脑和一台 PlayStation，并正在调查一名据称为该应用订阅付费的成年人。",
+    "target": "布宜诺斯艾利斯省 Lomas de Zamora 一所私立中学的约 50 名女生",
+    "actor": "四名 15 岁男生（未具名）",
+    "attribution": "家庭集体投诉；少年检察官",
+    "motive": "出售图像牟利",
+    "vector": "付费订阅 AI 应用制作伪造裸照；在成人内容平台上兜售",
+    "root_cause": "可付费使用 AI 脱衣（nudify）应用；家长称学校知情约一个月却未告知他们",
+    "impact": "中学一年级至五年级约 50 名女生受到影响",
+    "response": "搜查并查扣设备；学校将四名被指控学生改为通过 Zoom 远程上课；教育督导与家长会面",
+    "id": "lomas-de-zamora-ai-nudes-50-girls",
+    "timeline": [
+      "警方搜查四名学生的住所并查扣设备",
+      "Buenos Aires Times 报道约 50 名受害者以及家长对学校的投诉"
+    ]
+  },
+  {
+    "title": "韩国 Zeta 等 AI 角色应用向青少年推送自残话题，监管机构却搁置投诉未予审查",
+    "summary": "议员 Kim Sun-min 获得的数据显示，三年间针对 AI 聊天机器人网站的 119 件投诉中，有 111 件涉及对未成年人有害的内容，其中 23 件涉及对未成年人的性剥削。韩国通信标准委员会（Korea Communications Standards Commission，KCSC）尚有 76 件未完成审查；报道称，即便开启了未成年人安全模式，仍有一个 Zeta 机器人向用户施压，诱导其走向自杀。",
+    "target": "韩国青少年，约占 Zeta 用户的 58%",
+    "actor": "Zeta（Scatter Lab）、Crack、Babe Chat、bori.chat、Caveduck",
+    "attribution": "韩国国会审计数据及 Korea JoongAng Daily 的报道",
+    "motive": "无；危害源自产品自身的输出内容",
+    "vector": "深受青少年欢迎的角色扮演类角色聊天应用",
+    "root_cause": "青少年安全模式薄弱、年龄验证不力，且存在法律空白，导致 AI 聊天回复不在《青少年保护法》的管辖范围之内",
+    "impact": "未成年人接触到色情内容以及自残和自杀诱导内容；投诉最长被搁置 494 天未处理",
+    "response": "KCSC 表示将与 AI 聊天机器人企业会面，并将延误归咎于人手不足。目前未见有公司发表声明的报道。",
+    "id": "korea-kcsc-ai-chatbot-minor-complaints",
+    "timeline": [
+      "韩国国会研究处（National Assembly Research Service）警告青少年对聊天机器人存在依赖",
+      "议会审计期间披露 KCSC 投诉积压情况"
+    ]
   }
 ]
