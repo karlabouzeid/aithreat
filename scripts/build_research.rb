@@ -71,6 +71,19 @@ def taxonomy?(src)
   src["kind"] == "taxonomy"
 end
 
+# Homepage summary (site/data/research_home.json, read by site/index.html): status counts and, per
+# language, the best-matched specific warning for each of observed, early signs and lab only.
+def research_home(st)
+  srcs = st["sources"].to_h { |s| [s["id"], s] }
+  specific = st["claims"].reject { |c| srcs[c["source"]].nil? || taxonomy?(srcs[c["source"]]) }.sort_by { |c| -c["n"].to_i }
+  picks = %w[observed early lab].map { |s| specific.find { |c| c["status"] == s } }.compact
+  langs = RESEARCH_I18N.keys.to_h do |lang|
+    [lang, { "labels" => STATUS_ORDER.to_h { |s| [s, rx(lang, "st_#{s}")] },
+             "picks" => picks.map { |c| { "title" => claim_text(lang, c, "title"), "status" => c["status"], "n" => c["n"], "url" => research_url(lang, c["id"]) } } }]
+  end
+  { "total" => st["claims"].size, "counts" => st["status_counts"], "langs" => langs }
+end
+
 # Where in the source a claim comes from: a numbered section with an optional page, a taxonomy
 # domain, or a named section of a web report without pages.
 def section_label(lang, c, src)

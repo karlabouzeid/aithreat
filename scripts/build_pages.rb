@@ -971,6 +971,7 @@ research = record_research_history(research)
 $research_by_case = Hash.new { |hh, k| hh[k] = [] }
 research["claims"].each { |c| c["cases"].each { |id| $research_by_case[id] << c } }
 File.write(File.join(SITE, "data", "research.json"), JSON.pretty_generate(research))
+File.write(File.join(SITE, "data", "research_home.json"), JSON.generate(research_home(research)))
 
 written = 0
 write = lambda do |rel, content|
