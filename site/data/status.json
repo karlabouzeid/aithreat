@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19T00:05:38Z",
+  "updated_at": "2026-10-19T00:12:03Z",
   "wire_items": 600,
   "new_items": 0,
   "candidates": 47,
@@ -43,7 +43,6 @@
     "Embrace The Red",
     "Trail of Bits",
     "UK NCSC",
-    "CERT-FR",
     "arXiv cs.CR",
     "Schneier on Security",
     "GBHackers",
@@ -62,7 +61,7 @@
     "Google News chatbot harm (ES)"
   ],
   "feeds_failed": [
-
+    "CERT-FR"
   ],
-  "triage": "triaged 2 items with claude-sonnet-5-5 in 1 batches (0 failed); kept 0"
+  "triage": "triaged 10 items with claude-sonnet-5-5 in 1 batches (0 failed); kept 0"
 }
