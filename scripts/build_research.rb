@@ -10,6 +10,10 @@
 
 RESEARCH = JSON.parse(File.read(File.join(ROOT, "config", "research_claims.json"), encoding: "UTF-8"))
 RESEARCH_I18N = Hash[LANGS.map { |l| p = File.join(ROOT, "config", "research_i18n", "#{l}.json"); [l, File.exist?(p) ? JSON.parse(File.read(p, encoding: "UTF-8")) : {}] }]
+# Risk themes put every institute's warnings on the same risk side by side (config/research_themes.json).
+RESEARCH_THEMES = JSON.parse(File.read(File.join(ROOT, "config", "research_themes.json"), encoding: "UTF-8"))["themes"]
+RESEARCH_THEMES_I18N = JSON.parse(File.read(File.join(ROOT, "config", "research_i18n", "themes.json"), encoding: "UTF-8"))
+(RESEARCH["claims"].map { |c| c["id"] } - RESEARCH_THEMES.flat_map { |t| t["claims"] }).each { |id| abort "build_research: claim #{id} is in no theme (config/research_themes.json)" }
 STATUS_ORDER = %w[observed early lab none outside].freeze
 STATUS_COLORS = { "observed" => "var(--crit)", "early" => "var(--high)", "lab" => "var(--med)", "none" => "var(--line2)", "outside" => "var(--line)" }.freeze
 
@@ -26,6 +30,17 @@ RESEARCH_CSS = <<~CSS
   blockquote.warn{margin:0 0 6px;padding:12px 16px;border-inline-start:3px solid var(--accent);background:var(--surface);border-radius:0 10px 10px 0;font-size:17px}
   html[dir="rtl"] blockquote.warn{border-radius:10px 0 0 10px}
   .rsrc{margin:34px 0 8px;padding-top:18px;border-top:1px solid var(--line);scroll-margin-top:72px}.rsrc>h2{margin:4px 0 6px}.rsrc>.cap{max-width:70ch}
+  .insts{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px;margin:8px 0 6px}
+  .inst{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;display:flex;flex-direction:column;gap:8px}
+  .inst h3{margin:0;font-size:18px}.inst small{color:var(--muted);font-size:12px;line-height:1.4}.inst .n{font:600 13px var(--f-mono)}.inst a.more{margin-top:auto;font-size:14px}
+  .sbar{display:flex;height:8px;border-radius:4px;overflow:hidden;background:var(--line)}.sbar i{display:block;height:100%}
+  .scount{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:12px;color:var(--muted)}.scount span{display:inline-flex;align-items:center;gap:5px}.scount i{width:8px;height:8px;border-radius:50%;display:inline-block}
+  .claim .who{font:600 11px var(--f-mono);text-transform:uppercase;letter-spacing:.05em;color:var(--accent)}
+  html[lang="ar"] .claim .who,html[lang="zh"] .claim .who{font-family:var(--f-body);text-transform:none;letter-spacing:0}
+  .rtheme{margin:26px 0 8px;scroll-margin-top:72px}.rtheme h3{margin:0 0 2px;font-size:20px}.rtheme>p{color:var(--muted);margin:0 0 4px}.rtheme>p.tl{font:600 13px var(--f-mono);color:var(--ink);margin:0 0 10px}
+  details.rinst{border:1px solid var(--line);border-radius:12px;background:var(--surface);margin:10px 0;scroll-margin-top:72px}
+  details.rinst>summary{cursor:pointer;padding:14px 16px;font:600 17px var(--f-body);list-style-position:inside}details.rinst>summary small{font:13px var(--f-body);color:var(--muted);margin-inline-start:8px}
+  details.rinst>.in{padding:0 16px 16px}details.rinst .rsrc{margin:10px 0 8px;border-top:1px solid var(--line)}
   .rgroup h3{margin:0 0 2px;font-size:18px}.rsrcs{list-style:none;padding:0;margin:0;display:grid;gap:16px}.rsrcs p{margin:0 0 6px}
 CSS
 
@@ -158,10 +173,32 @@ def source_links(lang, src)
     (src["summary_url"] ? %( <a class="btn ghost" href="#{h(src['summary_url'])}" rel="noopener" target="_blank">#{h(rx(lang, :l_summary, inst: src['institute']))}</a>) : "")
 end
 
-def claim_card(lang, c, src)
+def thx(lang, key, vars = {})
+  s = ((RESEARCH_THEMES_I18N[lang] || {})["ui"] || {})[key.to_s] || RESEARCH_THEMES_I18N["en"]["ui"][key.to_s]
+  vars.each { |k, v| s = s.gsub("{#{k}}", v.to_s) }
+  s
+end
+
+def theme_text(lang, tid, field)
+  (((RESEARCH_THEMES_I18N[lang] || {})["themes"] || {})[tid] || {})[field] || RESEARCH_THEMES_I18N["en"]["themes"][tid][field]
+end
+
+# Institutes in alphabetical order, each with its sources (METR has two), so no institute leads.
+def research_institutes(st)
+  st["sources"].group_by { |s| s["institute"] }.map { |name, srcs| { "name" => name, "slug" => slug(name), "sources" => srcs, "short" => srcs.first["short"] } }.sort_by { |i| i["name"].downcase }
+end
+
+def status_counts_html(lang, counts)
+  total = [counts.values.sum, 1].max
+  bar = STATUS_ORDER.select { |s| counts[s].to_i > 0 }.map { |s| %(<i style="width:#{(100.0 * counts[s] / total).round(2)}%;background:#{STATUS_COLORS[s]}" title="#{h(rx(lang, "st_#{s}"))}: #{counts[s]}"></i>) }.join
+  list = STATUS_ORDER.select { |s| counts[s].to_i > 0 }.map { |s| %(<span><i style="background:#{STATUS_COLORS[s]}"></i>#{h(rx(lang, "st_#{s}"))} #{counts[s]}</span>) }.join
+  %(<div class="sbar">#{bar}</div><div class="scount">#{list}</div>)
+end
+
+def claim_card(lang, c, src, who: false)
   fl = first_line(lang, c, src)
   ss = section_short(lang, c, src)
-  %(<a class="claim" href="#{h(research_url(lang, c['id']))}">#{status_pill(lang, c['status'])}<h3>#{h(claim_text(lang, c, 'title'))}</h3>) +
+  %(<a class="claim" href="#{h(research_url(lang, c['id']))}">#{who ? %(<span class="who">#{h(src['institute'])}</span>) : ''}#{status_pill(lang, c['status'])}<h3>#{h(claim_text(lang, c, 'title'))}</h3>) +
     %(#{fl ? %(<small>#{h(fl)}</small>) : ''}<div class="ft"><span class="n">#{h(c['n'].zero? ? rx(lang, :l_none_yet) : matches_label(lang, c['n']))}</span>#{ss.empty? ? '' : %(<small><bdi>#{h(ss)}</bdi></small>)}</div></a>)
 end
 
@@ -185,11 +222,35 @@ def research_page(lang, st, incidents)
     [sc["early"] + sc["lab"], rx(lang, :k_early), nil],
     [sc["none"], rx(lang, :k_none), nil],
     [sc["outside"], rx(lang, :k_outside), nil],
-    [st["matched_cases"], rx(lang, :k_linked), rx(lang, :k_of, n: st["total_cases"])]
+    [st["warning_matched_cases"], rx(lang, :k_linked), thx(lang, :k_linked_note, n: st["total_cases"])]
   ].map { |v, l, s| %(<div><b>#{h(v)}</b><span>#{h(l)}</span>#{s ? %(<small>#{h(s)}</small>) : ''}</div>) }.join
   key = %(<div class="rkey">#{STATUS_ORDER.select { |s| sc[s] > 0 }.map { |s| %(<div>#{status_pill(lang, s)}<span>#{h(rx(lang, "sd_#{s}"))}</span></div>) }.join}</div>)
-  nav = %(<h3 class="sub">#{h(rx(lang, :l_jump))}</h3><div class="chips">#{st['sources'].map { |s| %(<a href="#src-#{h(s['id'])}">#{h(s['short'])}#{st['sources'].count { |o| o['short'] == s['short'] } > 1 ? " · #{h(group_text(lang, s, s['groups'].first['id'], 'name'))}" : ''}</a>) }.join}</div>)
-  sections = st["sources"].map do |src|
+  srcs = Hash[st["sources"].map { |s| [s["id"], s] }]
+  insts = research_institutes(st)
+  # 1. One card per institute, same size and alphabetical, so no institute leads the page.
+  inst_cards = insts.map do |inst|
+    ids = inst["sources"].map { |s| s["id"] }
+    mine = st["claims"].select { |c| ids.include?(c["source"]) }
+    counts = Hash[STATUS_ORDER.map { |s| [s, mine.count { |c| c["status"] == s }] }]
+    cases = mine.flat_map { |c| c["cases"] }.uniq.size
+    papers = inst["sources"].map { |s| %(#{h(s['title'])} · #{h(fmt_date(s['published'], lang))}) }.join("<br>")
+    %(<div class="inst"><h3>#{h(inst['name'])}</h3><small>#{papers}</small><span class="n">#{h(thx(lang, :inst_warnings, n: mine.size))} · #{h(thx(lang, :inst_cases, n: cases))}</span>#{status_counts_html(lang, counts)}<a class="more" href="#inst-#{h(inst['slug'])}">#{h(thx(lang, :inst_see))} →</a></div>)
+  end.join
+  institutes = %(<section class="sec"><h2>#{h(thx(lang, :inst_h))}</h2><p class="cap">#{h(thx(lang, :inst_c))}</p><div class="insts">#{inst_cards}</div></section>)
+  # 2. Risk themes: every institute's warning on the same risk side by side, institutes alphabetical.
+  inst_order = Hash[insts.each_with_index.map { |i, k| [i["name"], k] }]
+  themes = RESEARCH_THEMES.map do |th|
+    # Round robin: each institute shows one warning before any shows a second.
+    by_inst = st["claims"].select { |c| th["claims"].include?(c["id"]) }.group_by { |c| srcs[c["source"]]["institute"] }.sort_by { |name, _| inst_order[name] }.map { |_, cs| cs.sort_by { |c| th["claims"].index(c["id"]) } }
+    mine = (0...(by_inst.map(&:size).max || 0)).flat_map { |r| by_inst.map { |cs| cs[r] }.compact }
+    k = mine.map { |c| srcs[c["source"]]["institute"] }.uniq.size
+    n = mine.flat_map { |c| c["cases"] }.uniq.size
+    %(<div class="rtheme" id="theme-#{h(th['id'])}"><h3>#{h(theme_text(lang, th['id'], 'name'))}</h3><p>#{h(theme_text(lang, th['id'], 'blurb'))}</p>) +
+      %(<p class="tl">#{h(thx(lang, :theme_line, k: k, t: insts.size, n: n))}</p><div class="claims">#{mine.map { |c| claim_card(lang, c, srcs[c['source']], who: true) }.join}</div></div>)
+  end.join
+  themes_html = %(<section class="sec"><h2>#{h(thx(lang, :theme_h))}</h2><p class="cap">#{h(thx(lang, :theme_c))}</p>#{themes}</section>)
+  # 3. Each institute's own list, all collapsed the same way.
+  per_source = st["sources"].map do |src|
     mine = st["claims"].select { |c| c["source"] == src["id"] }
     groups = src["groups"].map do |g|
       cards = mine.select { |c| c["group"] == g["id"] }.sort_by { |c| taxonomy?(src) ? [c["section"].to_i, 0] : [STATUS_ORDER.index(c["status"]), -c["n"]] }.map { |c| claim_card(lang, c, src) }.join
@@ -197,9 +258,14 @@ def research_page(lang, st, incidents)
     end.join
     %(<section class="rsrc" id="src-#{h(src['id'])}"><p class="eyebrow"><span>#{h(src['institute'])}</span><span>#{h(fmt_date(src['published'], lang))}</span>#{taxonomy?(src) ? %(<span>#{h(rx(lang, :l_taxonomy))}</span>) : ''}</p>) +
       %(<h2>#{h(src['title'])}</h2><p class="cap">#{h(source_text(lang, src, 'about'))}</p>#{groups}</section>)
+  end
+  per_inst = insts.map do |inst|
+    n = st["claims"].count { |c| inst["sources"].any? { |x| x["id"] == c["source"] } }
+    %(<details class="rinst" id="inst-#{h(inst['slug'])}"><summary>#{h(inst['name'])}<small>#{h(thx(lang, :inst_warnings, n: n))}</small></summary><div class="in">#{inst['sources'].map { |x| per_source[st['sources'].index(x)] }.join}</div></details>)
   end.join
+  by_inst_html = %(<section class="sec"><h2>#{h(thx(lang, :by_inst_h))}</h2><p class="cap">#{h(thx(lang, :by_inst_c))}</p>#{per_inst}</section>)
   by_src = Hash[st["by_source"].map { |r| [r["source"], r] }]
-  src_rows = st["sources"].map { |s| r = by_src[s["id"]]; %(<tr><td><a href="#src-#{h(s['id'])}">#{h(s['short'])}</a> <small>#{h(s['title'])}</small></td><td class="n">#{r['claims']}</td><td class="n">#{r['matched_cases']}</td><td class="n">#{r['matched_pct']}%</td></tr>) }.join
+  src_rows = insts.flat_map { |i| i["sources"] }.map { |s| r = by_src[s["id"]]; %(<tr><td><a href="#inst-#{h(slug(s["institute"]))}">#{h(s['short'])}</a> <small>#{h(s['title'])}</small></td><td class="n">#{r['claims']}</td><td class="n">#{r['matched_cases']}</td><td class="n">#{r['matched_pct']}%</td></tr>) }.join
   src_table = %(<h3 class="sub">#{h(rx(lang, :cov_h))}</h3><table class="pt"><thead><tr><th>#{h(rx(lang, :l_source))}</th><th>#{h(rx(lang, :k_claims))}</th><th>#{h(rx(lang, :cov_cases))}</th><th>#{h(rx(lang, :cov_share))}</th></tr></thead><tbody>#{src_rows}</tbody></table>)
   gap_rows = st["unmatched_by_category"].map { |r| %(<tr><td><a href="#{pre(lang)}/cases/category/#{slug(r['category'])}/">#{h(tt(lang, 'cats', r['category']))}</a></td><td class="n">#{r['unmatched']}</td><td class="n">#{r['total']}</td></tr>) }.join
   unmatched = st["total_cases"] - st["warning_matched_cases"]
@@ -213,8 +279,10 @@ def research_page(lang, st, incidents)
     #{share_row(lang, url, title)}
     <div class="kpis">#{kpis}</div>
     #{key}
-    #{nav}
-    #{sections}
+    #{institutes}
+    #{themes_html}
+    #{by_inst_html}
+    <script>function o(){var d=location.hash&&document.getElementById(location.hash.slice(1));if(d&&d.tagName==="DETAILS"){d.open=true;d.scrollIntoView()}}addEventListener("hashchange",o);o()</script>
     #{gap}
     #{source}
     <p class="method">#{h(rx(lang, :method))} #{h(rx(lang, :l_coverage))} <a href="/data/research.json">#{h(rx(lang, :l_json))}</a></p>

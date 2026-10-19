@@ -1,0 +1,158 @@
+{
+  "en": {
+    "ui": {
+      "inst_h": "The institutes",
+      "inst_c": "Every institute gets the same space, in alphabetical order. Each card counts its warnings by status.",
+      "inst_warnings": "{n} warnings",
+      "inst_cases": "{n} matching case files",
+      "inst_see": "See its warnings",
+      "theme_h": "Warnings by risk theme",
+      "theme_c": "The same risk, as each institute describes it, side by side with what the registry shows.",
+      "theme_line": "Warned by {k} of {t} institutes · {n} matching case files",
+      "by_inst_h": "Warnings by institute",
+      "by_inst_c": "Each institute's warnings in the order of its own report.",
+      "k_linked_note": "of {n} verified case files; the MIT map is left out because it covers every kind of AI risk"
+    },
+    "themes": {
+      "cyberattacks": { "name": "AI-powered cyberattacks", "blurb": "Attackers using AI to hack faster, at larger scale, with less skill." },
+      "fakes": { "name": "Fakes, fraud and disinformation", "blurb": "AI-made voices, videos and texts used to deceive people." },
+      "attacks-on-ai": { "name": "Attacks on AI, leaks and theft", "blurb": "AI systems, models and their data as the target." },
+      "harm-to-people": { "name": "Harm to people who rely on AI", "blurb": "Companions and assistants that hurt the people who trust them." },
+      "agents": { "name": "AI agents and accidents", "blurb": "Systems that act on their own and fail in ways nobody planned." },
+      "control": { "name": "Deception and loss of control", "blurb": "AI that games its goals, hides what it does or slips oversight." },
+      "safeguards": { "name": "Safety measures that fail", "blurb": "Protections, tests and safety practices that do not hold." },
+      "weapons": { "name": "Weapons and warfare", "blurb": "AI helping to build weapons or to fight wars." },
+      "society": { "name": "Power, work and society", "blurb": "Wider effects on jobs, fairness and who holds power." }
+    }
+  },
+  "fr": {
+    "ui": {
+      "inst_h": "Les instituts",
+      "inst_c": "Chaque institut dispose du même espace, par ordre alphabétique. Chaque carte compte ses avertissements par statut.",
+      "inst_warnings": "Avertissements : {n}",
+      "inst_cases": "Dossiers correspondants : {n}",
+      "inst_see": "Voir ses avertissements",
+      "theme_h": "Avertissements par thème de risque",
+      "theme_c": "Le même risque, tel que chaque institut le décrit, face à ce que montre le registre.",
+      "theme_line": "Signalé par {k} instituts sur {t} · dossiers correspondants : {n}",
+      "by_inst_h": "Avertissements par institut",
+      "by_inst_c": "Les avertissements de chaque institut, dans l’ordre de son propre rapport.",
+      "k_linked_note": "sur {n} dossiers vérifiés ; la cartographie du MIT est exclue car elle couvre tous les types de risques liés à l’IA"
+    },
+    "themes": {
+      "cyberattacks": { "name": "Cyberattaques dopées à l’IA", "blurb": "Des attaquants qui utilisent l’IA pour pirater plus vite, à plus grande échelle et avec moins de compétences." },
+      "fakes": { "name": "Contrefaçons, fraude et désinformation", "blurb": "Voix, vidéos et textes générés par l’IA pour tromper." },
+      "attacks-on-ai": { "name": "Attaques contre l’IA, fuites et vols", "blurb": "Les systèmes d’IA, les modèles et leurs données pris pour cible." },
+      "harm-to-people": { "name": "Préjudices pour les personnes qui s’en remettent à l’IA", "blurb": "Compagnons et assistants qui nuisent à ceux qui leur font confiance." },
+      "agents": { "name": "Agents d’IA et accidents", "blurb": "Des systèmes qui agissent seuls et échouent d’une manière que personne n’avait prévue." },
+      "control": { "name": "Tromperie et perte de contrôle", "blurb": "Une IA qui détourne ses objectifs, cache ce qu’elle fait ou échappe à la supervision." },
+      "safeguards": { "name": "Mesures de sécurité défaillantes", "blurb": "Protections, tests et pratiques de sécurité qui ne tiennent pas." },
+      "weapons": { "name": "Armes et guerre", "blurb": "L’IA qui aide à fabriquer des armes ou à faire la guerre." },
+      "society": { "name": "Pouvoir, travail et société", "blurb": "Effets plus larges sur l’emploi, l’équité et la répartition du pouvoir." }
+    }
+  },
+  "es": {
+    "ui": {
+      "inst_h": "Los institutos",
+      "inst_c": "Cada instituto tiene el mismo espacio, en orden alfabético. Cada tarjeta cuenta sus advertencias por estado.",
+      "inst_warnings": "Advertencias: {n}",
+      "inst_cases": "Expedientes coincidentes: {n}",
+      "inst_see": "Ver sus advertencias",
+      "theme_h": "Advertencias por tema de riesgo",
+      "theme_c": "El mismo riesgo, tal como lo describe cada instituto, junto a lo que muestra el registro.",
+      "theme_line": "Advertido por {k} de {t} institutos · expedientes coincidentes: {n}",
+      "by_inst_h": "Advertencias por instituto",
+      "by_inst_c": "Las advertencias de cada instituto, en el orden de su propio informe.",
+      "k_linked_note": "de {n} expedientes verificados; el mapa del MIT queda fuera porque abarca todo tipo de riesgos de la IA"
+    },
+    "themes": {
+      "cyberattacks": { "name": "Ciberataques impulsados por IA", "blurb": "Atacantes que usan la IA para atacar más rápido, a mayor escala y con menos conocimientos." },
+      "fakes": { "name": "Falsificaciones, fraude y desinformación", "blurb": "Voces, vídeos y textos creados con IA para engañar." },
+      "attacks-on-ai": { "name": "Ataques contra la IA, filtraciones y robos", "blurb": "Los sistemas de IA, los modelos y sus datos como objetivo." },
+      "harm-to-people": { "name": "Daños a quienes confían en la IA", "blurb": "Compañeros y asistentes que perjudican a quienes confían en ellos." },
+      "agents": { "name": "Agentes de IA y accidentes", "blurb": "Sistemas que actúan por su cuenta y fallan de formas que nadie previó." },
+      "control": { "name": "Engaño y pérdida de control", "blurb": "IA que trampea sus objetivos, oculta lo que hace o escapa a la supervisión." },
+      "safeguards": { "name": "Medidas de seguridad que fallan", "blurb": "Protecciones, pruebas y prácticas de seguridad que no resisten." },
+      "weapons": { "name": "Armas y guerra", "blurb": "La IA ayudando a fabricar armas o a hacer la guerra." },
+      "society": { "name": "Poder, trabajo y sociedad", "blurb": "Efectos más amplios sobre el empleo, la equidad y quién ostenta el poder." }
+    }
+  },
+  "ar": {
+    "ui": {
+      "inst_h": "المعاهد",
+      "inst_c": "يحصل كل معهد على المساحة نفسها، بترتيب أبجدي. تعدّ كل بطاقة تحذيرات المعهد بحسب الحالة.",
+      "inst_warnings": "التحذيرات: {n}",
+      "inst_cases": "الملفات المطابقة: {n}",
+      "inst_see": "عرض تحذيراته",
+      "theme_h": "التحذيرات بحسب موضوع الخطر",
+      "theme_c": "الخطر نفسه كما يصفه كل معهد، إلى جانب ما يُظهره السجل.",
+      "theme_line": "حذّر منه {k} من أصل {t} معاهد · الملفات المطابقة: {n}",
+      "by_inst_h": "التحذيرات بحسب المعهد",
+      "by_inst_c": "تحذيرات كل معهد بترتيب تقريره.",
+      "k_linked_note": "من أصل {n} ملفًا موثّقًا؛ استُبعدت خريطة MIT لأنها تغطي كل أنواع مخاطر الذكاء الاصطناعي"
+    },
+    "themes": {
+      "cyberattacks": { "name": "هجمات سيبرانية مدعومة بالذكاء الاصطناعي", "blurb": "مهاجمون يستخدمون الذكاء الاصطناعي للاختراق بسرعة أكبر وعلى نطاق أوسع وبمهارة أقل." },
+      "fakes": { "name": "التزييف والاحتيال والتضليل", "blurb": "أصوات ومقاطع فيديو ونصوص مولّدة بالذكاء الاصطناعي لخداع الناس." },
+      "attacks-on-ai": { "name": "الهجمات على الذكاء الاصطناعي والتسريبات والسرقة", "blurb": "أنظمة الذكاء الاصطناعي ونماذجه وبياناته هدفًا للهجوم." },
+      "harm-to-people": { "name": "الضرر بمن يعتمدون على الذكاء الاصطناعي", "blurb": "رفقاء ومساعدون يؤذون من يثقون بهم." },
+      "agents": { "name": "وكلاء الذكاء الاصطناعي والحوادث", "blurb": "أنظمة تتصرف من تلقاء نفسها وتفشل بطرق لم يخطط لها أحد." },
+      "control": { "name": "الخداع وفقدان السيطرة", "blurb": "ذكاء اصطناعي يتحايل على أهدافه أو يخفي ما يفعله أو يفلت من الرقابة." },
+      "safeguards": { "name": "تدابير السلامة التي تفشل", "blurb": "حمايات واختبارات وممارسات سلامة لا تصمد." },
+      "weapons": { "name": "الأسلحة والحرب", "blurb": "الذكاء الاصطناعي يساعد في صنع الأسلحة أو خوض الحروب." },
+      "society": { "name": "السلطة والعمل والمجتمع", "blurb": "آثار أوسع على الوظائف والإنصاف وعلى من يملك السلطة." }
+    }
+  },
+  "zh": {
+    "ui": {
+      "inst_h": "研究机构",
+      "inst_c": "每个机构占用相同的版面，按字母顺序排列。每张卡片按状态统计该机构的警告。",
+      "inst_warnings": "警告：{n} 项",
+      "inst_cases": "匹配的案例档案：{n} 份",
+      "inst_see": "查看其警告",
+      "theme_h": "按风险主题分类的警告",
+      "theme_c": "同一种风险，各机构的描述并列呈现，并与登记库的记录对照。",
+      "theme_line": "{t} 家机构中有 {k} 家发出警告 · 匹配的案例档案：{n} 份",
+      "by_inst_h": "按机构分类的警告",
+      "by_inst_c": "各机构的警告，按其报告中的顺序排列。",
+      "k_linked_note": "共 {n} 份已核实案例档案；MIT 风险图谱涵盖所有类型的 AI 风险，因此未计入"
+    },
+    "themes": {
+      "cyberattacks": { "name": "AI 驱动的网络攻击", "blurb": "攻击者利用 AI 更快、更大规模、以更低门槛发动攻击。" },
+      "fakes": { "name": "伪造、欺诈与虚假信息", "blurb": "利用 AI 生成的声音、视频和文字欺骗他人。" },
+      "attacks-on-ai": { "name": "针对 AI 的攻击、泄露与窃取", "blurb": "AI 系统、模型及其数据成为攻击目标。" },
+      "harm-to-people": { "name": "对依赖 AI 的人造成的伤害", "blurb": "陪伴型应用和助手伤害信任它们的人。" },
+      "agents": { "name": "AI 智能体与事故", "blurb": "自主行动的系统以无人预料的方式出错。" },
+      "control": { "name": "欺骗与失控", "blurb": "AI 钻目标的空子、隐瞒自身行为或逃避监督。" },
+      "safeguards": { "name": "失效的安全措施", "blurb": "防护、测试和安全做法未能奏效。" },
+      "weapons": { "name": "武器与战争", "blurb": "AI 协助制造武器或用于作战。" },
+      "society": { "name": "权力、工作与社会", "blurb": "对就业、公平以及权力归属的更广泛影响。" }
+    }
+  },
+  "ru": {
+    "ui": {
+      "inst_h": "Институты",
+      "inst_c": "Каждому институту отведено одинаковое место, в алфавитном порядке. Каждая карточка считает его предупреждения по статусам.",
+      "inst_warnings": "Предупреждений: {n}",
+      "inst_cases": "Подходящих досье: {n}",
+      "inst_see": "Смотреть его предупреждения",
+      "theme_h": "Предупреждения по темам риска",
+      "theme_c": "Один и тот же риск в описании каждого института рядом с тем, что показывает реестр.",
+      "theme_line": "Предупредили институтов: {k} из {t} · подходящих досье: {n}",
+      "by_inst_h": "Предупреждения по институтам",
+      "by_inst_c": "Предупреждения каждого института в порядке его собственного отчёта.",
+      "k_linked_note": "из {n} проверенных досье; карта MIT не учитывается, так как охватывает все виды рисков ИИ"
+    },
+    "themes": {
+      "cyberattacks": { "name": "Кибератаки с помощью ИИ", "blurb": "Злоумышленники используют ИИ, чтобы атаковать быстрее, масштабнее и с меньшими навыками." },
+      "fakes": { "name": "Подделки, мошенничество и дезинформация", "blurb": "Голоса, видео и тексты, созданные ИИ, чтобы обманывать людей." },
+      "attacks-on-ai": { "name": "Атаки на ИИ, утечки и кражи", "blurb": "Системы ИИ, модели и их данные как цель." },
+      "harm-to-people": { "name": "Вред людям, полагающимся на ИИ", "blurb": "Компаньоны и ассистенты, вредящие тем, кто им доверяет." },
+      "agents": { "name": "ИИ-агенты и аварии", "blurb": "Системы, действующие самостоятельно и дающие сбои, которых никто не предвидел." },
+      "control": { "name": "Обман и потеря контроля", "blurb": "ИИ, который обходит свои цели, скрывает свои действия или ускользает от надзора." },
+      "safeguards": { "name": "Меры безопасности, которые не срабатывают", "blurb": "Защиты, тесты и практики безопасности, которые не выдерживают." },
+      "weapons": { "name": "Оружие и война", "blurb": "ИИ помогает создавать оружие или вести войну." },
+      "society": { "name": "Власть, труд и общество", "blurb": "Более широкие последствия для занятости, справедливости и распределения власти." }
+    }
+  }
+}

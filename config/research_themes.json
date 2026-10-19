@@ -1,0 +1,14 @@
+{
+  "_readme": "Risk themes for the Research vs reality hub: each theme puts the warnings of every institute on the same risk side by side. Every claim id in research_claims.json must appear in exactly one theme. Names and blurbs per language in config/research_i18n/themes.json.",
+  "themes": [
+    { "id": "cyberattacks", "claims": ["cyberattack-barrier", "iasr-cyber-use", "iasr-autonomous-attacks", "unleashed-agents", "mit-malicious-actors"] },
+    { "id": "fakes", "claims": ["mass-disinformation", "iasr-synthetic-content", "iasr-influence", "mit-misinformation"] },
+    { "id": "attacks-on-ai", "claims": ["iasr-ai-as-target", "leaked-or-stolen", "mit-privacy-security"] },
+    { "id": "harm-to-people", "claims": ["trust-exploited", "iasr-companions", "aisi-emotional-reliance", "mit-human-computer"] },
+    { "id": "agents", "claims": ["accidents-normal", "iasr-agent-failures", "metr-long-tasks", "aisi-finance-agents", "mit-system-safety"] },
+    { "id": "control", "claims": ["ai-deception", "proxy-gaming", "power-seeking", "goal-drift", "metr-reward-hacking", "apollo-oversight-subversion", "apollo-deception-questioned", "apollo-watched-behaviour", "iasr-eval-gaming", "aisi-sandbagging", "aisi-self-replication"] },
+    { "id": "safeguards", "claims": ["lab-safeguards-fail", "race-over-safety", "iasr-open-weight", "aisi-universal-jailbreaks"] },
+    { "id": "weapons", "claims": ["ai-bioweapons", "iasr-bio-chem", "autonomous-weapons"] },
+    { "id": "society", "claims": ["surveillance-power", "automated-economy", "evolutionary-pressure", "iasr-labour", "mit-socioeconomic", "mit-discrimination"] }
+  ]
+}

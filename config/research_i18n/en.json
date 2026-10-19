@@ -2,7 +2,7 @@
   "ui": {
     "research": "Research vs reality",
     "research_h": "Research vs reality: AI risk warnings checked against real incidents",
-    "research_lede": "AI safety researchers have published detailed warnings about how AI could cause harm. This page takes each warning and checks it against the verified case files on this site: has it happened, are there early signs, or is there nothing on record yet? The sources are the Center for AI Safety, the International AI Safety Report, METR, Apollo Research and the UK AI Security Institute, with the MIT AI Risk Repository as a cross-check.",
+    "research_lede": "AI safety researchers have published detailed warnings about how AI could cause harm. This page takes each warning and checks it against the verified case files on this site: has it happened, are there early signs, or is there nothing on record yet? It compares six institutes, listed alphabetically and given equal space: Apollo Research, the Center for AI Safety, the International AI Safety Report, METR, the MIT AI Risk Repository and the UK AI Security Institute.",
     "k_claims": "Warnings tracked",
     "k_observed": "Seen in real incidents",
     "k_early": "Early signs",
