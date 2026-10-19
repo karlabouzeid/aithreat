@@ -41,6 +41,7 @@ RESEARCH_CSS = <<~CSS
   details.rinst{border:1px solid var(--line);border-radius:12px;background:var(--surface);margin:10px 0;scroll-margin-top:72px}
   details.rinst>summary{cursor:pointer;padding:14px 16px;font:600 17px var(--f-body);list-style-position:inside}details.rinst>summary small{font:13px var(--f-body);color:var(--muted);margin-inline-start:8px}
   details.rinst>.in{padding:0 16px 16px}details.rinst .rsrc{margin:10px 0 8px;border-top:1px solid var(--line)}
+  a.btn small{font-weight:400;opacity:.8;margin-inline-start:8px;padding-inline-start:8px;border-inline-start:1px solid currentColor}
   .rgroup h3{margin:0 0 2px;font-size:18px}.rsrcs{list-style:none;padding:0;margin:0;display:grid;gap:16px}.rsrcs p{margin:0 0 6px}
 CSS
 
@@ -168,9 +169,16 @@ def source_cite(lang, src)
   %(<b>#{h(src['title'])}</b>. #{h(src['authors'])}. #{h(src['institute'])}, #{h(src['version'])}.)
 end
 
+# A link's destination as readers see it in the address bar: safe.ai/ai-risk, arxiv.org/abs/2306.12001.
+def url_label(u)
+  host, path = u.to_s.sub(%r{\Ahttps?://(www\.)?}, "").sub(%r{/\z}, "").split("/", 2)
+  path && path.size <= 12 ? "#{host}/#{path}" : host
+end
+
+# Each button names the site it opens, so two buttons going to two sites is not a surprise.
 def source_links(lang, src)
-  %(<a class="btn" href="#{h(src['url'])}" rel="noopener" target="_blank">#{h(rx(lang, :l_paper))}</a>) +
-    (src["summary_url"] ? %( <a class="btn ghost" href="#{h(src['summary_url'])}" rel="noopener" target="_blank">#{h(rx(lang, :l_summary, inst: src['institute']))}</a>) : "")
+  %(<a class="btn" href="#{h(src['url'])}" rel="noopener" target="_blank">#{h(rx(lang, :l_paper))} <small dir="ltr">#{h(url_label(src['url']))}</small></a>) +
+    (src["summary_url"] ? %( <a class="btn ghost" href="#{h(src['summary_url'])}" rel="noopener" target="_blank">#{h(rx(lang, :l_summary, inst: src['institute']))} <small dir="ltr">#{h(url_label(src['summary_url']))}</small></a>) : "")
 end
 
 def thx(lang, key, vars = {})
@@ -233,7 +241,8 @@ def research_page(lang, st, incidents)
     mine = st["claims"].select { |c| ids.include?(c["source"]) }
     counts = Hash[STATUS_ORDER.map { |s| [s, mine.count { |c| c["status"] == s }] }]
     cases = mine.flat_map { |c| c["cases"] }.uniq.size
-    papers = inst["sources"].map { |s| %(#{h(s['title'])} · #{h(fmt_date(s['published'], lang))}) }.join("<br>")
+    papers = inst["sources"].map { |s| %(<a href="#{h(s['url'])}" rel="noopener" target="_blank">#{h(s['title'])}</a> · #{h(fmt_date(s['published'], lang))}) }.join("<br>")
+    papers += inst["sources"].map { |s| s["summary_url"] }.compact.uniq.map { |u| %(<br><a href="#{h(u)}" rel="noopener" target="_blank" dir="ltr">#{h(url_label(u))}</a>) }.join
     %(<div class="inst"><h3>#{h(inst['name'])}</h3><small>#{papers}</small><span class="n">#{h(thx(lang, :inst_warnings, n: mine.size))} · #{h(thx(lang, :inst_cases, n: cases))}</span>#{status_counts_html(lang, counts)}<a class="more" href="#inst-#{h(inst['slug'])}">#{h(thx(lang, :inst_see))} →</a></div>)
   end.join
   institutes = %(<section class="sec"><h2>#{h(thx(lang, :inst_h))}</h2><p class="cap">#{h(thx(lang, :inst_c))}</p><div class="insts">#{inst_cards}</div></section>)
@@ -332,7 +341,7 @@ def claim_page(lang, c, st, incidents)
     <p class="pills">#{status_pill(lang, c['status'])}<span class="pill">#{h(c['n'].zero? ? rx(lang, :l_none_yet) : matches_label(lang, c['n']))}</span></p>
     #{share_row(lang, url, title)}
     <section class="sec"><h2>#{h(rx(lang, taxonomy?(src) ? :l_domain_h : :l_warning))}</h2><blockquote class="warn">#{h(warning)}</blockquote>
-    <p class="cap">#{h(rx(lang, :l_paraphrase))} #{h(rx(lang, :l_source))}: <a href="#{h(src['url'])}" rel="noopener" target="_blank">#{h(src['title'])}</a>, #{src['title'].start_with?(src['institute']) ? '' : "#{h(src['institute'])}, "}#{h(fmt_date(src['published'], lang))}, #{h(section_label(lang, c, src))}.</p></section>
+    <p class="cap">#{h(rx(lang, :l_paraphrase))} #{h(rx(lang, :l_source))}: <a href="#{h(src['url'])}" rel="noopener" target="_blank">#{h(src['title'])}</a>, #{src['title'].start_with?(src['institute']) ? '' : "#{h(src['institute'])}, "}#{h(fmt_date(src['published'], lang))}, #{h(section_label(lang, c, src))}.#{src['summary_url'] ? %( #{h(rx(lang, :l_summary, inst: src['institute']))}: <a href="#{h(src['summary_url'])}" rel="noopener" target="_blank" dir="ltr">#{h(url_label(src['summary_url']))}</a>.) : ''}</p></section>
     <section class="sec"><h2>#{h(rx(lang, :l_shows))}</h2><p>#{h(note)}</p><p class="cap">#{h(rx(lang, "sd_#{c['status']}"))}#{fl ? " #{h(fl)}." : ''}</p></section>
     #{timeline}
     #{research_history_html(lang, c)}
