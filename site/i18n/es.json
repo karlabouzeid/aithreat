@@ -6468,5 +6468,222 @@
       "El centro envía un correo a los padres y dice que se contactó con la policía",
       "La policía de Winnipeg afirma que la investigación concluyó sin cargos"
     ]
+  },
+  {
+    "title": "Dos estudiantes de secundaria de Miami, de 13 y 14 años, acusados de delitos graves por imágenes de desnudos de compañeros creadas con IA",
+    "summary": "Dos estudiantes de una escuela chárter de Miami tomaron los rostros de compañeros de las redes sociales del centro y utilizaron una aplicación de IA para colocarlos sobre cuerpos desnudos generados artificialmente. La escuela los suspendió y llamó a la policía, y la policía de Miami-Dade imputó a los chicos, de 13 y 14 años, delitos graves de tercer grado en virtud de la ley de Florida de 2022 sobre representaciones sexuales alteradas, en lo que WIRED calificó como los primeros arrestos conocidos de este tipo.",
+    "target": "Unas dos docenas de niños y niñas de entre 12 y 13 años de Pinecrest Cove Preparatory Academy, en Miami",
+    "actor": "Dos estudiantes varones de 13 y 14 años (sin identificar)",
+    "attribution": "Departamento de Policía de Miami-Dade",
+    "motive": "Desconocido",
+    "vector": "Aplicación de IA utilizada para colocar los rostros de compañeros, tomados de las redes sociales de la escuela, sobre cuerpos desnudos generados artificialmente",
+    "root_cause": "Aplicaciones para desnudar con IA (nudify) de fácil acceso; fotos de las redes sociales públicas de la escuela utilizadas como material de origen",
+    "impact": "Unos dos docenas de niños y niñas de entre 12 y 13 años aparecen representados en imágenes de desnudos falsas",
+    "response": "La escuela suspendió a ambos chicos durante 10 días y los denunció a la policía; la policía de Miami-Dade los imputó por delitos graves de tercer grado en virtud de la ley de Florida de 2022 sobre representaciones sexuales alteradas",
+    "id": "miami-pinecrest-cove-ai-nudes-arrests",
+    "timeline": [
+      "Las imágenes se denuncian por primera vez a la policía",
+      "Según los informes, los dos chicos son suspendidos durante 10 días",
+      "La policía de Miami-Dade afirma que los estudiantes se enfrentan a cargos",
+      "Informes basados en fuentes de WIRED confirman los cargos por delitos graves de tercer grado"
+    ]
+  },
+  {
+    "title": "WAEC retiene los resultados del WASSCE de candidatos de 235 escuelas de Ghana por respuestas generadas con IA",
+    "summary": "El Consejo de Exámenes de África Occidental (West African Examinations Council) retuvo los resultados de las asignaturas de los candidatos de 235 escuelas de Ghana por connivencia y uso de respuestas generadas con IA en el WASSCE de 2023. WAEC indicó que algunos candidatos copiaron en sus cuadernillos de respuestas mensajes de error de chatbots, como “No estoy familiarizado con el término que ha utilizado”.",
+    "target": "Examen del Certificado de Educación Secundaria Superior de África Occidental (WASSCE) de 2023 en Ghana",
+    "actor": "Candidatos al examen (posiblemente con ayuda externa)",
+    "attribution": "Consejo de Exámenes de África Occidental (oficina nacional de Ghana)",
+    "motive": "Beneficio académico",
+    "vector": "Respuestas de chatbots de IA transmitidas a un examen nacional en papel",
+    "root_cause": "Preguntas del examen filtradas o transmitidas durante la prueba a personas que usaban chatbots de IA",
+    "impact": "Resultados retenidos en 235 escuelas a la espera de una investigación; el sindicato de docentes cuestionó las pruebas",
+    "response": "Resultados retenidos a la espera de una investigación; WAEC afirmó que no podía descartarse la complicidad de personal escolar y de padres",
+    "id": "ghana-wassce-2023-ai-answers-withheld",
+    "timeline": [
+      "El Comité de Exámenes de Ghana aprueba sanciones",
+      "WAEC anuncia la retención de resultados",
+      "WAEC explica cómo se detectaron las respuestas de IA"
+    ]
+  },
+  {
+    "title": "El director deportivo incrimina al director de Pikesville High con un audio racista y antisemita generado con IA",
+    "summary": "Un clip de audio en el que supuestamente se oía al director de Pikesville High, Eric Eiswert, hacer comentarios racistas y antisemitas se difundió en redes sociales en enero de 2024; la policía y un analista contratado por el FBI concluyeron que había sido generado con IA y editado manualmente. El exdirector deportivo Dazhon Darien fue arrestado en abril de 2024 y, en abril de 2025, se acogió a una declaración de culpabilidad tipo Alford por perturbar las operaciones escolares, por lo que fue condenado a cuatro meses de cárcel.",
+    "target": "Eric Eiswert, director de Pikesville High School, en el condado de Baltimore",
+    "actor": "Dazhon Darien, entonces director deportivo de Pikesville High School",
+    "attribution": "La Policía del Condado de Baltimore vinculó el correo electrónico de envío con una cuenta asociada a Darien y halló que este utilizó el acceso de la red escolar a herramientas de OpenAI y Bing Chat poco antes de que se enviara el clip.",
+    "motive": "Represalia: según la policía, el director investigaba una posible gestión indebida de fondos escolares por parte de Darien",
+    "vector": "Grabación con voz clonada mediante IA enviada por correo electrónico a docentes y difundida en redes sociales",
+    "root_cause": "Herramientas de clonación de voz de libre acceso y grabaciones públicas de la voz del director",
+    "impact": "El director fue puesto en licencia administrativa remunerada, personas designadas por el distrito dirigieron la escuela y él acabó dimitiendo; un representante sindical dijo que el daño para él, su familia y la escuela sería duradero.",
+    "response": "Arresto el 25 de abril de 2024 por cargos que incluían acoso, robo, represalias contra un testigo y perturbación de las operaciones escolares; declaración de culpabilidad tipo Alford en abril de 2025 con el resto de los cargos retirados; Eiswert demandó al distrito escolar y a Darien en enero de 2025.",
+    "id": "pikesville-principal-ai-voice-frame",
+    "timeline": [
+      "La grabación se envía por correo electrónico a Darien y a dos docentes, y después se difunde en redes sociales",
+      "Darien es arrestado en el aeropuerto BWI; la policía afirma que el audio fue generado con IA",
+      "Eiswert demanda a Baltimore County Public Schools y a Darien",
+      "Declaración de culpabilidad tipo Alford por perturbar las operaciones escolares; condena de cuatro meses de cárcel"
+    ]
+  },
+  {
+    "title": "El distrito de Beverly Hills expulsa a cinco alumnos de octavo grado por imágenes de desnudos con IA de 16 compañeros",
+    "summary": "Alumnos de octavo grado de Beverly Vista Middle School colocaron los rostros de compañeros sobre cuerpos desnudos generados con IA y compartieron las imágenes con otros estudiantes. El Distrito Escolar Unificado de Beverly Hills expulsó a cinco estudiantes a los que calificó de “implicados de forma flagrante”, mientras que una investigación policial permaneció abierta sin arrestos.",
+    "target": "16 alumnos de octavo grado de Beverly Vista Middle School, en California",
+    "actor": "Cinco alumnos de octavo grado (sin identificar y sin cargos)",
+    "attribution": "Investigación del distrito escolar",
+    "motive": "Desconocido",
+    "vector": "Rostros de estudiantes superpuestos sobre cuerpos desnudos generados con IA y compartidos entre alumnos",
+    "root_cause": "Herramientas de IA accesibles para generar desnudos, utilizadas por adolescentes jóvenes",
+    "impact": "Imágenes de desnudos falsas de 16 niños de unos 13 años circularon entre sus compañeros",
+    "response": "El distrito investigó desde febrero de 2024 y su junta expulsó a cinco estudiantes; la policía de Beverly Hills abrió una investigación penal sin que se hayan notificado arrestos",
+    "id": "beverly-vista-deepfake-nudes-expulsions",
+    "timeline": [
+      "Los responsables escolares comienzan a investigar imágenes de desnudos de estudiantes creadas con IA",
+      "La junta vota la expulsión de cinco estudiantes",
+      "NBC News informa de 16 víctimas y de una investigación policial abierta"
+    ]
+  },
+  {
+    "title": "La fiscalía chilena abre una investigación tras la difusión por parte de seis estudiantes de imágenes de desnudos creadas con IA de siete compañeras",
+    "summary": "Seis estudiantes varones de un colegio privado de Vitacura habrían usado IA para crear imágenes de desnudos de siete compañeras, y las imágenes se difundieron ampliamente, lo que derivó en burlas y acoso. La Fiscalía Oriente abrió una investigación de oficio por trato degradante a menores y distribución de pornografía infantil, mientras que los padres acudieron a la Corte de Apelaciones de Santiago por la respuesta del colegio.",
+    "target": "Siete alumnas, desde octavo grado hasta el nivel secundario, de un colegio privado de Vitacura, Santiago",
+    "actor": "Seis estudiantes varones (sin identificar)",
+    "attribution": "Denuncia de los padres; investigación de la Fiscalía Oriente",
+    "motive": "Acoso",
+    "vector": "Herramienta de deepfake con IA utilizada para colocar los rostros de las compañeras sobre cuerpos desnudos; las imágenes se difundieron en redes sociales",
+    "root_cause": "Herramientas de IA para desnudar imágenes de fácil acceso; los padres afirman que el colegio no aplicó su protocolo de sexualidad",
+    "impact": "Siete niñas fueron objeto de burlas y acoso en redes sociales",
+    "response": "La fiscalía abrió una investigación de oficio; el colegio aplicó matrícula condicional y otras sanciones, pero no expulsó a los alumnos; los padres solicitaron órdenes de protección ante la Corte de Apelaciones",
+    "id": "vitacura-school-ai-nudes-seven-girls",
+    "timeline": [
+      "Se crean y comparten las imágenes",
+      "El colegio afirma que fue informado y activó los protocolos",
+      "La Fiscalía Oriente abre una investigación de oficio"
+    ]
+  },
+  {
+    "title": "La policía turca encarcela a un candidato del examen de ingreso a la universidad que usó una cámara en un botón e IA para obtener las respuestas",
+    "summary": "Durante el examen nacional de ingreso a la universidad de Turquía en Isparta, un candidato utilizó una cámara disimulada como botón de camisa, un router oculto en la suela del zapato y un auricular; la cámara captaba las preguntas y un software de IA generaba las respuestas, que le eran leídas. Fue detenido por comportamiento sospechoso, arrestado formalmente y encarcelado en espera de juicio, y también se detuvo a un cómplice.",
+    "target": "Examen nacional de ingreso a la universidad de Turquía (provincia de Isparta)",
+    "actor": "Candidato del examen y un cómplice",
+    "attribution": "Policía turca (a través de AFP y Reuters)",
+    "motive": "Beneficio académico",
+    "vector": "Cámara, router y auricular ocultos conectados a un software de IA de respuesta a preguntas",
+    "root_cause": "Dispositivos portátiles que transmitían el contenido del examen a una IA en tiempo real",
+    "impact": "Candidato encarcelado en espera de juicio; vulneración de la integridad del examen detectada por los supervisores",
+    "response": "Detenciones; la policía difundió un video que demuestra el funcionamiento del dispositivo de IA",
+    "id": "turkey-isparta-ai-exam-cheating-device",
+    "timeline": [
+      "Fin de semana del examen; el candidato es detenido (no se informó el día exacto)",
+      "La policía anuncia el arresto y publica un video de demostración"
+    ]
+  },
+  {
+    "title": "Arrestan a un adolescente tras la circulación de imágenes explícitas creadas con IA de unas 50 alumnas de Bacchus Marsh Grammar",
+    "summary": "Fotografías de unas 50 alumnas de Bacchus Marsh Grammar, cerca de Melbourne, fueron tomadas de redes sociales y manipuladas con IA para convertirlas en imágenes obscenas que circularon en línea. La Policía de Victoria arrestó a un adolescente y lo dejó en libertad a la espera de nuevas diligencias, y la primera ministra Jacinta Allan calificó la conducta de “vergonzosa y misógina”.",
+    "target": "Unas 50 alumnas de los cursos 9.º a 12.º de Bacchus Marsh Grammar, Victoria",
+    "actor": "Adolescente varón (sin identificar; no se ha confirmado que haya sido imputado)",
+    "attribution": "Policía de Victoria",
+    "motive": "Desconocido",
+    "vector": "Fotografías de redes sociales manipuladas con IA para convertirlas en imágenes explícitas",
+    "root_cause": "Herramientas de IA para desnudar imágenes de fácil acceso; fotografías públicas de las alumnas en redes sociales",
+    "impact": "Unas 50 niñas y jóvenes de entre 14 y 18 años aproximadamente fueron representadas en imágenes falsas explícitas",
+    "response": "La policía arrestó a un adolescente y lo dejó en libertad a la espera de nuevas diligencias; el colegio ofreció asesoramiento psicológico y colaboró con la policía; el fiscal general federal señaló un proyecto de ley que penaliza la difusión de deepfakes sexuales sin consentimiento",
+    "id": "bacchus-marsh-grammar-deepfake-50-girls",
+    "timeline": [
+      "La Policía de Victoria confirma que un adolescente fue arrestado y puesto en libertad a la espera de nuevas diligencias",
+      "La primera ministra Jacinta Allan condena la conducta"
+    ]
+  },
+  {
+    "title": "Expulsan a un estudiante de Melbourne por crear con IA imágenes sexualmente explícitas de una profesora de Salesian College",
+    "summary": "Un estudiante de Salesian College, un colegio católico para varones en el sudeste de Melbourne, habría usado IA en mayo de 2024 para crear imágenes sexualmente explícitas de una profesora y las habría difundido. El colegio expulsó al estudiante y el director afirmó que los docentes afectados recibirían apoyo y acompañamiento pastoral.",
+    "target": "Profesora de Salesian College, Chadstone, Victoria",
+    "actor": "Estudiante del colegio (menor de edad, sin identificar)",
+    "attribution": "El colegio identificó al estudiante; la información fue publicada por Women's Agenda y TechTimes, que citan a ABC News.",
+    "motive": "Desconocido; acoso sexual a un miembro del personal",
+    "vector": "Generación de imágenes con IA a partir de fotografías de la profesora, compartidas entre estudiantes",
+    "root_cause": "Fácil acceso a herramientas de IA para desnudar imágenes",
+    "impact": "Angustia para la profesora afectada; ocurrió la misma semana que otro caso de deepfakes en Bacchus Marsh Grammar.",
+    "response": "Estudiante expulsado; el colegio afirma que introdujo programas de ciberseguridad y de relaciones respetuosas.",
+    "id": "salesian-college-teacher-ai-explicit-images",
+    "timeline": [
+      "Se crean y comparten imágenes explícitas de la profesora generadas con IA",
+      "La expulsión se informa en la cobertura nacional junto con el caso de Bacchus Marsh Grammar"
+    ]
+  },
+  {
+    "title": "Un denunciante afirma que el chatbot de IA “Ed” de LAUSD, valorado en 6.000.000 USD, envió datos de estudiantes al extranjero antes del colapso del proveedor AllHere",
+    "summary": "Un exdirector de ingeniería de AllHere alegó que el chatbot “Ed”, creado para el Distrito Escolar Unificado de Los Ángeles, incluía datos personales de los estudiantes en cada consulta a la IA, los compartía con terceros y procesaba la mayoría de las solicitudes en servidores en el extranjero. LAUSD desactivó el chatbot después de que AllHere pusiera en suspensión temporal a la mayor parte de su personal en junio de 2024, y afirmó que los datos de los estudiantes seguían protegidos.",
+    "target": "Estudiantes del Distrito Escolar Unificado de Los Ángeles (LAUSD)",
+    "actor": "AllHere Education (proveedor)",
+    "attribution": "Alegaciones de un denunciante publicadas por The 74; LAUSD no las ha confirmado",
+    "motive": "Ninguno (presunta mala gestión de los datos)",
+    "vector": "Chatbot de IA de un tercero integrado con los registros de estudiantes del distrito",
+    "root_cause": "Presunta falta de minimización de datos en las consultas y procesamiento en el extranjero; colapso financiero del proveedor",
+    "impact": "Chatbot desactivado pocos meses después de su lanzamiento; se pagó cerca de la mitad de un contrato de unos 6.000.000 USD; riesgo de exposición de datos de estudiantes",
+    "response": "LAUSD rescindió su relación con AllHere y afirmó que los datos de Ed siguen siendo propiedad del distrito y están protegidos; el inspector general entrevistó al denunciante",
+    "id": "lausd-allhere-ed-chatbot-data",
+    "timeline": [
+      "LAUSD lanza el chatbot “Ed” (solo se indica el mes)",
+      "AllHere afirma que la mayoría de sus empleados fueron puestos en suspensión temporal; el chatbot se desactiva",
+      "The 74 publica las alegaciones del denunciante sobre el tratamiento de datos"
+    ]
+  },
+  {
+    "title": "La Fiscalía de Guatemala allana viviendas por imágenes sexuales de escolares alteradas con IA por estudiantes",
+    "summary": "Estudiantes de un colegio privado de la Ciudad de Guatemala habrían usado IA para alterar fotos de compañeras y convertirlas en imágenes pornográficas, con informes de una posible venta. Los fiscales de adolescentes del Ministerio Público llevaron a cabo allanamientos autorizados por un juez y se incautaron de dispositivos; la vicepresidenta Karin Herrera ordenó presentar una denuncia formal y el Ministerio de Educación aplicó un protocolo especial.",
+    "target": "Alumnas de un colegio privado de la zona 17 de la Ciudad de Guatemala (número desconocido)",
+    "actor": "Estudiantes varones, todos menores de edad (sin nombre)",
+    "attribution": "Ministerio Público de Guatemala (Fiscalía de Adolescentes en Conflicto con la Ley Penal)",
+    "motive": "Presunta venta de las imágenes",
+    "vector": "Uso de IA para alterar fotos de estudiantes y convertirlas en material pornográfico",
+    "root_cause": "Herramientas de IA accesibles utilizadas por menores",
+    "impact": "Número desconocido de niñas menores de edad representadas",
+    "response": "Denuncia presentada el 10 de agosto de 2024; allanamientos e incautación de dispositivos; la SVET presentó una denuncia por orden de la vicepresidenta; Mineduc aplicó un protocolo y el colegio separó a los sospechosos y lo notificó a la Policía Nacional Civil",
+    "id": "guatemala-city-school-ai-altered-images",
+    "timeline": [
+      "La unidad de justicia juvenil recibe la denuncia",
+      "El Ministerio Público abre el caso; la vicepresidenta ordena a la SVET presentar una denuncia",
+      "Los fiscales realizan allanamientos e incautan dispositivos electrónicos"
+    ]
+  },
+  {
+    "title": "Crisis de deepfakes escolares en Corea del Sur: salas de Telegram apuntan a estudiantes y el presidente Yoon ordena una ofensiva",
+    "summary": "En agosto de 2024 se descubrió que salas de chat de Telegram vinculadas a colegios y universidades compartían deepfakes sexuales creados con IA de estudiantes mujeres, entre ellas una con unos 1.200 miembros que tenía como objetivo a más de 30 estudiantes de la Universidad de Inha; la policía indicó que el 73,6 % de los sospechosos identificados a principios de 2024 eran menores de edad. El presidente Yoon ordenó una ofensiva, la policía inició una operación especial de siete meses y el 26 de septiembre el Parlamento tipificó como delito poseer o ver deepfakes sexuales.",
+    "target": "Estudiantes mujeres de secundaria, bachillerato y universidad, y docentes de toda Corea del Sur",
+    "actor": "Mayoritariamente adolescentes y estudiantes varones que usaban salas de chat de Telegram",
+    "attribution": "Agencia Nacional de Policía de Corea",
+    "motive": "Humillación de compañeras y docentes; difusión en grupo",
+    "vector": "Herramientas de deepfake con IA aplicadas a selfis tomados de Instagram; imágenes compartidas en salas de chat de Telegram organizadas por colegio o universidad",
+    "root_cause": "Herramientas de deepfake fáciles de usar, escasa cooperación de Telegram con la policía y sanciones débiles",
+    "impact": "297 casos de deepfakes denunciados entre enero y julio de 2024; más de 800 casos de delitos sexuales con deepfakes a finales de septiembre",
+    "response": "Ofensiva de siete meses de la KNPA con software de detección; la Asamblea Nacional tipificó como delito comprar, guardar o ver deepfakes sexuales (hasta 3 años) y elevó a 7 años la pena máxima por crearlos",
+    "id": "south-korea-telegram-school-deepfake-crisis",
+    "timeline": [
+      "El presidente Yoon ordena a las autoridades investigar los delitos sexuales con deepfakes",
+      "La KNPA anuncia una ofensiva especial de siete meses; los datos muestran que 131 de 178 sospechosos eran menores",
+      "AFP informa de siete detenciones en la ofensiva, seis de ellas de adolescentes",
+      "La Asamblea Nacional aprueba el proyecto de ley que tipifica como delito la posesión y visualización de deepfakes sexuales"
+    ]
+  },
+  {
+    "title": "El sindicato docente surcoreano cifra en 204 los docentes afectados por delitos sexuales con deepfakes en colegios en el escándalo de Telegram",
+    "summary": "Durante la crisis de deepfakes en Telegram de Corea del Sur en 2024, el Sindicato de Docentes y Trabajadores de la Educación de Corea indicó que una encuesta de dos días identificó a 16 docentes cuyas fotos se convirtieron en deepfakes sexuales ilegales y a otros 188 amenazados de forma indirecta. Una encuesta posterior del Ministerio de Educación contabilizó 31 docentes víctimas y 799 estudiantes víctimas en 2024.",
+    "target": "Docentes y estudiantes de colegios surcoreanos",
+    "actor": "Estudiantes y otros usuarios de salas de chat de deepfakes en Telegram (sin identificar)",
+    "attribution": "Encuestas del sindicato y del Ministerio de Educación; los informes no identifican a los autores individuales.",
+    "motive": "Humillación y acoso sexual",
+    "vector": "Fotos de docentes y compañeros subidas a bots y salas de chat de Telegram que generan deepfakes sexualmente explícitos",
+    "root_cause": "Amplia disponibilidad de bots de deepfakes en Telegram y, en ese momento, ausencia de sanción por poseer o ver ese material",
+    "impact": "Un deepfake de desnudo de una docente se compartió en línea con sus datos personales, seguido de llamadas y mensajes de acoso; colegios de todo el país informaron de casos.",
+    "response": "El Ministerio de Educación creó un grupo de trabajo de emergencia sobre deepfakes; los ministerios acordaron desarrollar una detección automática de contenido sexual deepfake; la policía abrió una investigación sobre Telegram.",
+    "id": "south-korea-teachers-deepfake-survey-2024",
+    "timeline": [
+      "El sindicato comienza a recopilar denuncias de colegios de todo el país",
+      "El Ministerio de Educación informa de 186 estudiantes y 10 docentes víctimas desde enero",
+      "El sindicato anuncia 517 víctimas, entre ellas 204 docentes afectados directa o indirectamente",
+      "La encuesta del Ministerio contabiliza 31 docentes y 799 estudiantes víctimas"
+    ]
   }
 ]

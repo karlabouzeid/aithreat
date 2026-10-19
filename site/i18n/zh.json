@@ -6468,5 +6468,222 @@
       "学校向家长发送电子邮件，称已联系警方",
       "温尼伯警方称调查已结束，未提起指控"
     ]
+  },
+  {
+    "title": "迈阿密两名 13 岁和 14 岁初中生因制作同学 AI 裸照被控重罪",
+    "summary": "迈阿密一所特许学校的两名学生从学校的社交媒体上获取同学的面部照片，并使用 AI 应用将其合成到生成的裸体图像上。学校对二人予以停学并报警，迈阿密-戴德县警方依据佛罗里达州 2022 年关于篡改性影像的法律，以三级重罪起诉这两名分别 13 岁和 14 岁的男孩。WIRED 称，这是已知的此类案件中的首批逮捕。",
+    "target": "迈阿密 Pinecrest Cove Preparatory Academy 约两打 12 至 13 岁的男生和女生",
+    "actor": "两名男学生，年龄分别为 13 岁和 14 岁（未公开姓名）",
+    "attribution": "迈阿密-戴德县警察局",
+    "motive": "不详",
+    "vector": "使用 AI 应用，将取自学校社交媒体的同学面部照片合成到生成的裸体图像上",
+    "root_cause": "“脱衣”类应用易于获取；学校社交媒体上的公开照片被用作素材",
+    "impact": "约两打 12 至 13 岁的儿童被做成虚假裸照",
+    "response": "学校对两名男孩停学 10 天并向警方报案；迈阿密-戴德县警方依据佛罗里达州 2022 年关于篡改性影像的法律，以三级重罪对二人提出指控",
+    "id": "miami-pinecrest-cove-ai-nudes-arrests",
+    "timeline": [
+      "相关图像首次向警方报告",
+      "报道称两名男孩被停学 10 天",
+      "迈阿密-戴德县警方表示，这两名学生将面临指控",
+      "WIRED 援引消息来源的报道证实二人被控三级重罪"
+    ]
+  },
+  {
+    "title": "WAEC 因 AI 生成答案扣留加纳 235 所学校考生的 WASSCE 成绩",
+    "summary": "西非考试委员会（WAEC）以串通作弊和在 2023 年 WASSCE 中使用 AI 生成答案为由，扣留了加纳 235 所学校考生的科目成绩。WAEC 表示，部分考生把聊天机器人的出错回复，例如“I'm not familiar with the term you have used”，原样抄进了答题册。",
+    "target": "加纳 2023 年西非高级中学证书考试（WASSCE）",
+    "actor": "考生（可能有场外人员协助）",
+    "attribution": "西非考试委员会（WAEC）加纳国家办公室",
+    "motive": "谋取学业利益",
+    "vector": "AI 聊天机器人生成的答案被传入全国性纸质考试",
+    "root_cause": "考试题目在考试期间被泄露或传递给使用 AI 聊天机器人的人",
+    "impact": "235 所学校的成绩在调查期间被扣留；教师工会对相关证据提出异议",
+    "response": "成绩在调查期间被扣留；WAEC 表示不能排除学校工作人员和家长参与其中",
+    "id": "ghana-wassce-2023-ai-answers-withheld",
+    "timeline": [
+      "加纳考试委员会批准处罚措施",
+      "WAEC 宣布扣留成绩",
+      "WAEC 说明如何发现 AI 生成的答案"
+    ]
+  },
+  {
+    "title": "体育主任用 AI 生成的种族主义和反犹音频陷害 Pikesville High 校长",
+    "summary": "2024 年 1 月，一段似乎是 Pikesville High 校长 Eric Eiswert 发表种族主义和反犹言论的音频在社交媒体上传播；警方和一名受 FBI 聘用的分析人员发现，该音频由 AI 生成并经过人工剪辑。前体育主任 Dazhon Darien 于 2024 年 4 月被捕，并于 2025 年 4 月就扰乱学校运作一项作出 Alford 答辩，被判处四个月监禁。",
+    "target": "巴尔的摩县 Pikesville High School 校长 Eric Eiswert",
+    "actor": "Dazhon Darien，时任 Pikesville High School 体育主任",
+    "attribution": "巴尔的摩县警方将发送该音频的电子邮件与 Darien 名下的账户关联起来，并发现他在音频发出前不久通过学校网络访问了 OpenAI 和 Bing Chat 工具。",
+    "motive": "报复：警方称校长当时正在调查 Darien 可能挪用学校资金的问题",
+    "vector": "AI 语音克隆录音通过电子邮件发给教师，并在社交媒体上传播",
+    "root_cause": "语音克隆工具可免费获取，且校长的声音有公开录音",
+    "impact": "校长被安排带薪行政休假，学区委派人员管理学校，他后来辞职；一名工会代表表示，这对他本人、他的家人和学校造成的伤害将是长期的。",
+    "response": "2024 年 4 月 25 日被捕，罪名包括跟踪骚扰、盗窃、报复证人和扰乱学校运作；2025 年 4 月作出 Alford 答辩，其他指控被撤销；Eiswert 于 2025 年 1 月起诉学区和 Darien。",
+    "id": "pikesville-principal-ai-voice-frame",
+    "timeline": [
+      "录音通过电子邮件发给 Darien 和两名教师，随后在社交媒体上传播",
+      "Darien 在 BWI 机场被捕；警方称该音频由 AI 生成",
+      "Eiswert 起诉 Baltimore County Public Schools 和 Darien",
+      "就扰乱学校运作一项作出 Alford 答辩；被判处四个月监禁"
+    ]
+  },
+  {
+    "title": "比佛利山学区因 16 名同学的 AI 裸照开除五名八年级学生",
+    "summary": "Beverly Vista Middle School 的八年级学生将同学的面部合成到 AI 生成的裸体图像上，并与其他学生分享。比佛利山联合学区（Beverly Hills Unified School District）开除了五名被其称为“严重参与其中”的学生，而警方的调查仍在进行，尚无人被捕。",
+    "target": "加利福尼亚州 Beverly Vista Middle School 的 16 名八年级学生",
+    "actor": "五名八年级学生（未公开姓名，未被起诉）",
+    "attribution": "学区调查",
+    "motive": "不详",
+    "vector": "学生面部被叠加到 AI 生成的裸体图像上，并在学生之间传播",
+    "root_cause": "低龄青少年可以使用易于获取的 AI 裸照生成工具",
+    "impact": "16 名约 13 岁的儿童的虚假裸照在同学之间流传",
+    "response": "学区自 2024 年 2 月起展开调查，校董会开除了五名学生；比佛利山警方展开刑事调查，目前未见有人被捕的报道",
+    "id": "beverly-vista-deepfake-nudes-expulsions",
+    "timeline": [
+      "学校官员开始调查学生的 AI 裸照",
+      "校董会投票开除五名学生",
+      "NBC News 报道有 16 名受害者，警方调查仍在进行"
+    ]
+  },
+  {
+    "title": "6 名学生传播 7 名同班女生的 AI 裸照，智利检方立案调查",
+    "summary": "Vitacura 一所私立学校的 6 名男生涉嫌利用 AI 制作 7 名女同学的裸照，图片广泛传播，导致她们遭到嘲笑和骚扰。Fiscalía Oriente 依职权就虐待侮辱未成年人及传播儿童色情内容展开调查，同时家长就校方的处理方式向圣地亚哥上诉法院提起诉讼。",
+    "target": "圣地亚哥 Vitacura 一所私立学校的 7 名女生，年级从八年级到中学阶段不等",
+    "actor": "6 名男生（姓名未公开）",
+    "attribution": "家长投诉；Fiscalía Oriente 调查",
+    "motive": "骚扰",
+    "vector": "使用 AI 深度伪造工具将同学的面部换到裸体上；图片在社交媒体上扩散",
+    "root_cause": "AI 脱衣工具易于获取；家长称校方未执行其性教育相关protocol（性事件处理规程）",
+    "impact": "7 名女生在社交媒体上遭到嘲笑和骚扰",
+    "response": "检方依职权立案调查；校方对涉事男生采取了附条件在读及其他处分，但未将其开除；家长向上诉法院申请保护令",
+    "id": "vitacura-school-ai-nudes-seven-girls",
+    "timeline": [
+      "图片被制作并分享",
+      "校方称已获悉此事并启动了相关规程",
+      "Fiscalía Oriente 依职权展开调查"
+    ]
+  },
+  {
+    "title": "土耳其一名高考考生利用纽扣摄像头和 AI 获取答案，被警方羁押",
+    "summary": "在土耳其伊斯帕尔塔（Isparta）举行的大学入学考试中，一名考生使用伪装成衬衫纽扣的摄像头、藏在鞋底的路由器和一副耳机；摄像头拍下试题，AI 软件生成答案后读给他听。他因行为可疑被拘留，随后被正式逮捕并羁押候审，一名同伙也被拘留。",
+    "target": "土耳其全国大学入学考试（伊斯帕尔塔省）",
+    "actor": "一名考生及一名同伙",
+    "attribution": "土耳其警方（经法新社（AFP）和路透社（Reuters）报道）",
+    "motive": "谋取学业利益",
+    "vector": "与 AI 答题软件相连的隐藏式摄像头、路由器和耳机",
+    "root_cause": "可穿戴设备将考试内容实时传送给 AI",
+    "impact": "考生被羁押候审；监考人员发现考试诚信遭到破坏",
+    "response": "逮捕相关人员；警方公布了演示该 AI 设备的视频",
+    "id": "turkey-isparta-ai-exam-cheating-device",
+    "timeline": [
+      "考试周末，考生被拘留（具体日期未公布）",
+      "警方宣布逮捕并公布演示视频"
+    ]
+  },
+  {
+    "title": "约 50 名 Bacchus Marsh Grammar 女生的 AI 伪造露骨图片流传，一名少年被捕",
+    "summary": "墨尔本附近 Bacchus Marsh Grammar 约 50 名女生的照片从社交媒体上被获取，并经 AI 处理成淫秽图片在网上流传。Victoria Police 逮捕了一名少年，随后将其释放以待进一步调查，维多利亚州州长 Jacinta Allan 称该行为“可耻且厌女”。",
+    "target": "维多利亚州 Bacchus Marsh Grammar 9 至 12 年级的约 50 名女生",
+    "actor": "一名少年男孩（姓名未公开；未确认是否已被起诉）",
+    "attribution": "Victoria Police",
+    "motive": "不明",
+    "vector": "社交媒体照片被 AI 处理成露骨图片",
+    "root_cause": "AI 脱衣工具易于获取；学生的照片在社交媒体上公开可见",
+    "impact": "约 50 名年龄大约在 14 至 18 岁的女生被置入露骨的伪造图片",
+    "response": "警方逮捕了一名少年并将其释放以待进一步调查；校方提供心理辅导并协助警方；联邦司法部长提到一项将分享未经同意的性爱深度伪造内容定为犯罪的法案",
+    "id": "bacchus-marsh-grammar-deepfake-50-girls",
+    "timeline": [
+      "Victoria Police 确认一名青少年被捕，并已释放以待进一步调查",
+      "州长 Jacinta Allan 谴责该行为"
+    ]
+  },
+  {
+    "title": "墨尔本一名学生用 AI 制作女教师性露骨图片，被 Salesian College 开除",
+    "summary": "据报道，墨尔本东南部天主教男校 Salesian College 的一名学生于 2024 年 5 月利用 AI 制作了一名女教师的性露骨图片并加以传播。校方开除了该学生，校长表示将为受影响的教师提供支持和关怀辅导。",
+    "target": "维多利亚州 Chadstone 的 Salesian College 的一名女教师",
+    "actor": "该校一名学生（未成年人，姓名未公开）",
+    "attribution": "校方确认了涉事学生；Women's Agenda 和 TechTimes 援引 ABC News 报道。",
+    "motive": "不明；对一名教职员工的性骚扰",
+    "vector": "利用教师照片通过 AI 生成图像，并在学生之间分享",
+    "root_cause": "AI 脱衣工具易于获取",
+    "impact": "目标教师遭受精神困扰；事件发生的同一周，Bacchus Marsh Grammar 也出现了另一起深度伪造案件。",
+    "response": "学生被开除；校方称已推出网络安全和尊重他人关系的课程。",
+    "id": "salesian-college-teacher-ai-explicit-images",
+    "timeline": [
+      "该教师的露骨 AI 图片被制作并分享",
+      "全国性报道在报道 Bacchus Marsh Grammar 案件的同时提到了开除一事"
+    ]
+  },
+  {
+    "title": "举报人称：在供应商 AllHere 崩溃之前，LAUSD 耗资 600 万美元的“Ed”AI 聊天机器人已将学生数据传往海外",
+    "summary": "AllHere 一名前工程总监指控，为洛杉矶联合学区（LAUSD）打造的“Ed”聊天机器人在每条 AI 提示词中都带入学生个人数据，并将其共享给第三方，且大部分请求在海外服务器上处理。2024 年 6 月 AllHere 让大部分员工休无薪假后，LAUSD 关停了该聊天机器人，并称学生数据仍受到保护。",
+    "target": "洛杉矶联合学区（Los Angeles Unified School District）的学生",
+    "actor": "AllHere Education（供应商）",
+    "attribution": "The 74 报道了举报人的指控；LAUSD 未予证实",
+    "motive": "无（据称是数据处理不当）",
+    "vector": "与学区学生档案集成的第三方 AI 聊天机器人",
+    "root_cause": "据称提示词中缺乏数据最小化措施并存在境外处理；供应商财务崩溃",
+    "impact": "聊天机器人上线数月后即被关停；约 600 万美元合同中大约一半已支付；学生数据存在暴露风险",
+    "response": "LAUSD 终止与 AllHere 的合作，并称 Ed 的数据仍归学区所有并受到保护；监察长约谈了举报人",
+    "id": "lausd-allhere-ed-chatbot-data",
+    "timeline": [
+      "LAUSD 推出“Ed”聊天机器人（仅有月份信息）",
+      "AllHere 称大部分员工被休无薪假；聊天机器人被关闭",
+      "The 74 发布举报人关于数据处理的指控"
+    ]
+  },
+  {
+    "title": "危地马拉检方突击搜查多处住所，涉案学生用 AI 篡改女同学性爱图像",
+    "summary": "危地马拉城一所私立学校的学生涉嫌利用 AI 将女同学的照片篡改为色情图像，并有报道称可能进行了售卖。检察院（Public Ministry）的青少年检察官在法院授权下展开突击搜查并扣押了设备，副总统 Karin Herrera 下令提出正式控告，教育部则启动了专门协议。",
+    "target": "危地马拉城 17 区一所私立学校的女学生（人数不详）",
+    "actor": "男学生，均为未成年人（未公开姓名）",
+    "attribution": "危地马拉检察院（Public Ministry，Fiscalía de Adolescentes en Conflicto con la Ley Penal）",
+    "motive": "涉嫌出售图像",
+    "vector": "利用 AI 将学生照片篡改为色情内容",
+    "root_cause": "未成年人可轻易获得 AI 工具",
+    "impact": "被描绘的未成年女孩人数不详",
+    "response": "2024 年 8 月 10 日提出控告；展开突击搜查并扣押设备；SVET 按副总统的指示提出控告；Mineduc 启动了协议，学校将嫌疑学生隔离并向国家民事警察报案",
+    "id": "guatemala-city-school-ai-altered-images",
+    "timeline": [
+      "青少年司法部门收到控告",
+      "检察院立案；副总统下令 SVET 提出控告",
+      "检察官展开突击搜查并扣押电子设备"
+    ]
+  },
+  {
+    "title": "韩国校园深度伪造危机：Telegram 聊天室针对学生，总统尹锡悦下令严打",
+    "summary": "2024 年 8 月，人们发现与学校和大学相关的 Telegram 聊天室在传播女学生的 AI 性深度伪造内容，其中一个约有 1200 名成员的聊天室针对 30 多名仁荷大学（Inha University）学生；警方称 2024 年初查明的嫌疑人中 73.6% 为未成年人。总统尹锡悦下令严打，警方启动为期七个月的专项行动，9 月 26 日国会将持有或观看性深度伪造内容定为犯罪。",
+    "target": "韩国各地的初中、高中和大学女学生及教师",
+    "actor": "主要是使用 Telegram 聊天室的十几岁男孩和男学生",
+    "attribution": "韩国警察厅（KNPA）",
+    "motive": "羞辱女同学和女教师；群内分享",
+    "vector": "对取自 Instagram 的自拍照使用 AI 深度伪造工具；图像在按学校或大学组织的 Telegram 聊天室中传播",
+    "root_cause": "深度伪造工具易得，Telegram 与警方的合作有限，且处罚力度薄弱",
+    "impact": "2024 年 1 月至 7 月共报告 297 起深度伪造案件；截至 9 月下旬，深度伪造性犯罪案件超过 800 起",
+    "response": "KNPA 借助检测软件开展为期七个月的严打；国民议会将购买、保存或观看性深度伪造内容定为犯罪（最高 3 年），并将制作此类内容的最高刑期提高到 7 年",
+    "id": "south-korea-telegram-school-deepfake-crisis",
+    "timeline": [
+      "总统尹锡悦下令有关部门调查深度伪造性犯罪",
+      "KNPA 宣布开展为期七个月的专项严打；数据显示 178 名嫌疑人中有 131 人为未成年人",
+      "AFP 报道严打行动中有 7 人被捕，其中 6 人为青少年",
+      "国民议会通过法案，将持有和观看性深度伪造内容定为犯罪"
+    ]
+  },
+  {
+    "title": "韩国教师工会发现，在 Telegram 丑闻中有 204 名教师遭校园深度伪造性犯罪侵害",
+    "summary": "在韩国 2024 年 Telegram 深度伪造危机期间，韩国教师和教育工作者工会称，一项为期两天的调查发现，有 16 名教师的照片被制成非法性深度伪造内容，另有 188 人受到间接威胁。教育部随后的调查统计，2024 年有 31 名教师受害者和 799 名学生受害者。",
+    "target": "韩国学校的教师和学生",
+    "actor": "Telegram 深度伪造聊天室的学生及其他用户（身份未查明）",
+    "attribution": "工会和教育部的调查；报道中未查明具体施害者。",
+    "motive": "性羞辱和骚扰",
+    "vector": "将教师和同学的照片上传至可生成露骨性深度伪造内容的 Telegram 机器人和聊天室",
+    "root_cause": "Telegram 上深度伪造机器人泛滥，且当时持有或观看此类内容不受处罚",
+    "impact": "一名教师的裸体深度伪造图像连同个人信息在网上被传播，随后她遭到骚扰电话和短信；全国各地学校均报告了案例。",
+    "response": "教育部成立了深度伪造紧急工作组；各部门同意建设深度伪造性内容的自动检测；警方对 Telegram 展开调查。",
+    "id": "south-korea-teachers-deepfake-survey-2024",
+    "timeline": [
+      "工会开始收集全国各地学校的报告",
+      "教育部报告自 1 月以来有 186 名学生和 10 名教师受害",
+      "工会公布受害者共 517 人，其中包括 204 名直接或间接受影响的教师",
+      "教育部调查统计有 31 名教师和 799 名学生受害"
+    ]
   }
 ]
