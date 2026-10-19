@@ -2620,5 +2620,53 @@
     "first_seen": "2026-10-19T20:05:42Z",
     "first_published": "2026-10-19T19:35:00Z",
     "updated_at": "2026-10-19T20:05:42Z"
+  },
+  {
+    "id": "nador-ai-scam-network-arrest",
+    "date": "2026-10-19",
+    "title": "Nador police arrest alleged mastermind of AI-using scam network",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "MA",
+    "region": "Middle East & Africa",
+    "target": "Scam victims in Morocco (details unknown)",
+    "loss_usd": null,
+    "summary": "Le360 reports the arrest in Nador of the alleged leader of a fraud network that used AI. The headline gives no detail on victims, losses or which AI tools were used.",
+    "actor": "Unnamed scam network leader",
+    "actor_type": "criminal",
+    "sector": "Individuals & consumers",
+    "attribution": "Arrest reported by Le360; suspect and network not named in the headline.",
+    "motive": "Financial gain (fraud)",
+    "vector": "Unknown; the headline says only that the network used AI.",
+    "root_cause": "Unknown",
+    "impact": "Unknown; the headline gives no victim count or loss figure.",
+    "response": "Police arrested the alleged mastermind of the network, per Le360.",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.4,
+    "source": "Le360",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPWkRYQng3S2RXSks1TmJFR3cwMnlkNE9mLWRRZ2RwRlZTSC1vRHpGSlJubFBHZXAtV0h3NmRGYTIyS1c5UHlpN2U3ejNSeS02UEFkcEpLWjVPSHZleEotTExabUZQSkMyMG5ObXhXaklKdXBRUkhzZWFmRDloU1BKVGlxNjFWRWx3UW8wYjZfSzFjRnItMUVzMDdUS0VOWjlQYzdDTHM1YVZITXV1QUt1a0xwa2hZRlJEOTlGVHMyVQ?oc=5",
+    "sources": [
+      {
+        "name": "Le360",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPWkRYQng3S2RXSks1TmJFR3cwMnlkNE9mLWRRZ2RwRlZTSC1vRHpGSlJubFBHZXAtV0h3NmRGYTIyS1c5UHlpN2U3ejNSeS02UEFkcEpLWjVPSHZleEotTExabUZQSkMyMG5ObXhXaklKdXBRUkhzZWFmRDloU1BKVGlxNjFWRWx3UW8wYjZfSzFjRnItMUVzMDdUS0VOWjlQYzdDTHM1YVZITXV1QUt1a0xwa2hZRlJEOTlGVHMyVQ?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-19",
+        "event": "Reported by Le360"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-19T21:05:43Z",
+    "wire_id": "7862c051296c",
+    "first_seen": "2026-10-19T21:05:43Z",
+    "first_published": "2026-10-19T12:48:00Z",
+    "updated_at": "2026-10-19T21:05:43Z"
   }
 ]
