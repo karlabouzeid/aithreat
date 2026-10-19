@@ -2113,5 +2113,50 @@
     "first_seen": "2026-10-18T20:35:36Z",
     "first_published": "2026-10-18T10:04:48Z",
     "updated_at": "2026-10-18T20:35:36Z"
+  },
+  {
+    "id": "eiliko-ai-chat-logs-exposed",
+    "date": "2026-10-19",
+    "title": "Researcher accesses millions of conversations with Eiliko AI chatbots",
+    "category": "Model & data leak",
+    "direction": "on-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "Eiliko AI chatbot platform and its users",
+    "loss_usd": null,
+    "summary": "A researcher reportedly gained access to millions of user conversations with Eiliko AI chatbots, according to El.kz. The headline gives no details on how access was gained.",
+    "actor": "Unknown",
+    "actor_type": "researcher",
+    "sector": "Individuals & consumers",
+    "attribution": "Access attributed to an unnamed researcher in the El.kz headline; no further attribution given.",
+    "motive": "Unknown",
+    "vector": "Unknown",
+    "root_cause": "Unknown; the headline does not say how the conversations were accessible.",
+    "impact": "Millions of user conversations with AI chatbots were reportedly accessible to the researcher. Further impact is unknown.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "confidence": 0.45,
+    "source": "El.kz",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOdXJQMWZibjBWUkhBVFkyQmtUTWprYVRGNlpzZXRoY0p5ckk5Q1hoeVNtbXZRNW0zVEpFdzJzZTFlRzFRcUUtbktBdlNNeWJIQm1QelBacEtscWJ5M3JvZ19ncE1Pc0U1MXBCVFktM2FlcUthSjY5NkhEaUM1VkpxaUdGYlljZkVqZUpzOWt2MGd4ZkFnYUNYc2ZZZXc5NEJ0VWfSAacBQVVfeXFMTkF0X0VfRDhRR3VqRmhseUhQTmRESWJ5bDFZU19DUEhtSnJzdHh3VDVwOGl1azhVOE4zcWplenczcVNuMkg3bGF6LVRMb3FKNmYxYjJ3bmJkVnF4b200ZkNOT2h0UGg1dkhTUW5USE9KeThiLVRFNEtlRFotS1o2RjhDM1RuMEN5QnFWOGg3aHA5Q1ZuTWp3OXlodmk3TTNOU0dZOGFnZFU?oc=5",
+    "sources": [
+      {
+        "name": "El.kz",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOdXJQMWZibjBWUkhBVFkyQmtUTWprYVRGNlpzZXRoY0p5ckk5Q1hoeVNtbXZRNW0zVEpFdzJzZTFlRzFRcUUtbktBdlNNeWJIQm1QelBacEtscWJ5M3JvZ19ncE1Pc0U1MXBCVFktM2FlcUthSjY5NkhEaUM1VkpxaUdGYlljZkVqZUpzOWt2MGd4ZkFnYUNYc2ZZZXc5NEJ0VWfSAacBQVVfeXFMTkF0X0VfRDhRR3VqRmhseUhQTmRESWJ5bDFZU19DUEhtSnJzdHh3VDVwOGl1azhVOE4zcWplenczcVNuMkg3bGF6LVRMb3FKNmYxYjJ3bmJkVnF4b200ZkNOT2h0UGg1dkhTUW5USE9KeThiLVRFNEtlRFotS1o2RjhDM1RuMEN5QnFWOGg3aHA5Q1ZuTWp3OXlodmk3TTNOU0dZOGFnZFU?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-19",
+        "event": "Reported by El.kz"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-19T04:35:39Z",
+    "wire_id": "770cf0eac3eb",
+    "first_seen": "2026-10-19T04:35:39Z",
+    "first_published": "2026-10-18T10:42:00Z",
+    "updated_at": "2026-10-19T04:35:39Z"
   }
 ]
