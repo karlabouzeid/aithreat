@@ -3004,5 +3004,53 @@
     "first_seen": "2026-10-20T18:35:44Z",
     "first_published": "2026-10-20T15:19:39Z",
     "updated_at": "2026-10-20T18:35:44Z"
+  },
+  {
+    "id": "wiz-llmjacking-cloud-billing-ads",
+    "date": "2026-10-20",
+    "title": "Search-ad phishing hijacks cloud billing accounts for unauthorized LLM API usage",
+    "category": "LLMjacking",
+    "direction": "on-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "Cloud billing account holders",
+    "loss_usd": null,
+    "summary": "Wiz Research reports that a Google Search ad click leads to credential theft and hijacking of cloud billing accounts, incurring hundreds of thousands of dollars in unauthorized AI API usage.",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "sector": "Multiple / cross-sector",
+    "attribution": "Wiz Research describes the threat actors but the summary does not name them.",
+    "motive": "Financial gain through free use of LLM APIs billed to victims.",
+    "vector": "Malicious Google Search ad leading to phishing, credential theft, then hijack of the cloud billing account.",
+    "root_cause": "Victims' credentials were phished through a malicious search ad, giving attackers control of billing accounts.",
+    "impact": "Hundreds of thousands of dollars in unauthorized AI API usage were incurred, according to Wiz Research.",
+    "response": "Wiz Research published its findings. Other responses are not stated in the summary.",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.6,
+    "source": "Wiz Research",
+    "url": "https://www.wiz.io/blog/from-phishing-to-llmjacking",
+    "sources": [
+      {
+        "name": "Wiz Research",
+        "url": "https://www.wiz.io/blog/from-phishing-to-llmjacking"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-20",
+        "event": "Reported by Wiz Research"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-20T20:52:30Z",
+    "wire_id": "6daf94111bf8",
+    "first_seen": "2026-10-20T20:52:30Z",
+    "first_published": "2026-10-20T20:03:10Z",
+    "updated_at": "2026-10-20T20:52:30Z"
   }
 ]
