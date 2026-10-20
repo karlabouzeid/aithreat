@@ -2860,5 +2860,53 @@
     "first_seen": "2026-10-20T03:05:44Z",
     "first_published": "2026-10-20T02:00:20Z",
     "updated_at": "2026-10-20T03:05:44Z"
+  },
+  {
+    "id": "cairn-ai-platform-abused-100-orgs",
+    "date": "2026-10-20",
+    "title": "AI platform Cairn abused by three threat actors to hack over 100 organizations",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "Over 100 organizations (unnamed)",
+    "loss_usd": null,
+    "summary": "SecurityWeek reports at least three threat actors abused the Cairn AI platform to gain persistent access and commit financial theft at more than 100 organizations.",
+    "actor": "At least three unnamed threat actors",
+    "actor_type": "criminal",
+    "sector": "Multiple / cross-sector",
+    "attribution": "SecurityWeek reports at least three threat actors; no names or nation-state links given in the summary.",
+    "motive": "Financial theft and persistent access",
+    "vector": "Abuse of the Cairn AI platform for persistent access",
+    "root_cause": "Unknown",
+    "impact": "Over 100 organizations hacked, with persistent access and financial theft reported.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.6,
+    "source": "SecurityWeek",
+    "url": "https://www.securityweek.com/ai-platform-cairn-abused-to-hack-over-100-organizations",
+    "sources": [
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/ai-platform-cairn-abused-to-hack-over-100-organizations"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-20",
+        "event": "Reported by SecurityWeek"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-20T13:05:40Z",
+    "wire_id": "14b9ba09cbd0",
+    "first_seen": "2026-10-20T13:05:40Z",
+    "first_published": "2026-10-20T12:47:22Z",
+    "updated_at": "2026-10-20T13:05:40Z"
   }
 ]
