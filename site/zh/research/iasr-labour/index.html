@@ -83,31 +83,35 @@ html[lang="ar"] table.pt th,html[lang="zh"] table.pt th{font-family:var(--f-body
 .method{font-size:12px;color:var(--muted);background:var(--surface);border:1px dashed var(--line2);border-radius:8px;padding:10px 12px;margin:18px 0}
 ul.cases.auto li{grid-template-columns:96px 1fr}
 h2.fin-h{font-size:clamp(22px,3vw,28px);margin:28px 0 6px;scroll-margin-top:16px}
-.rgroup{margin:26px 0 8px}.rgroup h2{margin:0 0 2px}.rgroup>p{color:var(--muted);margin:0 0 10px}
-.claims{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px}
-.claim{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;display:flex;flex-direction:column;gap:8px;text-decoration:none;color:var(--ink)}
-a.claim:hover{border-color:var(--accent)}.claim h3{margin:0;font-size:16px;line-height:1.3}.claim small{color:var(--muted);font-size:12px}
-.claim .n{font:600 13px var(--f-mono)}.claim .ft{margin-top:auto;display:flex;justify-content:space-between;gap:8px;align-items:center;flex-wrap:wrap}
-.rst{display:inline-flex;align-items:center;gap:6px;font:600 11px var(--f-mono);text-transform:uppercase;letter-spacing:.05em;color:var(--ink)}
-.rst i{width:10px;height:10px;border-radius:50%;display:inline-block;flex:none}
-html[lang="ar"] .rst,html[lang="zh"] .rst{font-family:var(--f-body);text-transform:none;letter-spacing:0}
-.rkey{display:grid;gap:6px;margin:0 0 6px;font-size:13px;color:var(--muted)}.rkey div{display:flex;gap:10px;align-items:baseline;flex-wrap:wrap}
-blockquote.warn{margin:0 0 6px;padding:12px 16px;border-inline-start:3px solid var(--accent);background:var(--surface);border-radius:0 10px 10px 0;font-size:17px}
-html[dir="rtl"] blockquote.warn{border-radius:10px 0 0 10px}
-.rsrc{margin:34px 0 8px;padding-top:18px;border-top:1px solid var(--line);scroll-margin-top:72px}.rsrc>h2{margin:4px 0 6px}.rsrc>.cap{max-width:70ch}
-.insts{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px;margin:8px 0 6px}
-.inst{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;display:flex;flex-direction:column;gap:8px}
-.inst h3{margin:0;font-size:18px}.inst small{color:var(--muted);font-size:12px;line-height:1.4}.inst .n{font:600 13px var(--f-mono)}.inst a.more{margin-top:auto;font-size:14px}
-.sbar{display:flex;height:8px;border-radius:4px;overflow:hidden;background:var(--line)}.sbar i{display:block;height:100%}
-.scount{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:12px;color:var(--muted)}.scount span{display:inline-flex;align-items:center;gap:5px}.scount i{width:8px;height:8px;border-radius:50%;display:inline-block}
-.claim .who{font:600 11px var(--f-mono);text-transform:uppercase;letter-spacing:.05em;color:var(--accent)}
-html[lang="ar"] .claim .who,html[lang="zh"] .claim .who{font-family:var(--f-body);text-transform:none;letter-spacing:0}
-.rtheme{margin:26px 0 8px;scroll-margin-top:72px}.rtheme h3{margin:0 0 2px;font-size:20px}.rtheme>p{color:var(--muted);margin:0 0 4px}.rtheme>p.tl{font:600 13px var(--f-mono);color:var(--ink);margin:0 0 10px}
-details.rinst{border:1px solid var(--line);border-radius:12px;background:var(--surface);margin:10px 0;scroll-margin-top:72px}
-details.rinst>summary{cursor:pointer;padding:14px 16px;font:600 17px var(--f-body);list-style-position:inside}details.rinst>summary small{font:13px var(--f-body);color:var(--muted);margin-inline-start:8px}
-details.rinst>.in{padding:0 16px 16px}details.rinst .rsrc{margin:10px 0 8px;border-top:1px solid var(--line)}
-a.btn small{font-weight:400;opacity:.8;margin-inline-start:8px;padding-inline-start:8px;border-inline-start:1px solid currentColor}
-.rgroup h3{margin:0 0 2px;font-size:18px}.rsrcs{list-style:none;padding:0;margin:0;display:grid;gap:16px}.rsrcs p{margin:0 0 6px}
+  .rgroup{margin:26px 0 8px}.rgroup h2{margin:0 0 2px}.rgroup>p{color:var(--muted);margin:0 0 10px}
+  .claims{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px}
+  .claim{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;display:flex;flex-direction:column;gap:8px;text-decoration:none;color:var(--ink)}
+  a.claim:hover{border-color:var(--accent)}.claim h3{margin:0;font-size:16px;line-height:1.3}.claim small{color:var(--muted);font-size:12px}
+  .claim .n{font:600 13px var(--f-mono)}.claim .ft{margin-top:auto;display:flex;justify-content:space-between;gap:8px;align-items:center;flex-wrap:wrap}
+  .rst{display:inline-flex;align-items:center;gap:6px;font:600 11px var(--f-mono);text-transform:uppercase;letter-spacing:.05em;color:var(--ink)}
+  .rst i{width:10px;height:10px;border-radius:50%;display:inline-block;flex:none}
+  html[lang="ar"] .rst,html[lang="zh"] .rst{font-family:var(--f-body);text-transform:none;letter-spacing:0}
+  .kpis.rkpis{grid-template-columns:repeat(auto-fit,minmax(200px,1fr))}.kpis.rkpis small{max-width:36ch}
+.rstatus .sbar.big{height:14px;border-radius:7px;margin:4px 0 16px}
+.rs-rows{display:grid;gap:12px;max-width:820px}
+.rs-row{display:grid;grid-template-columns:3.2em 1fr;gap:12px;align-items:start;padding:10px 0;border-top:1px solid var(--line)}.rs-row:first-child{border-top:0;padding-top:0}.rs-row>b{font:700 28px/1 var(--f-display);min-width:1.6em}
+.rs-row p{margin:4px 0 0;font-size:13px;color:var(--muted);line-height:1.45}.rs-row .i{vertical-align:middle;margin-inline-start:4px}
+  blockquote.warn{margin:0 0 6px;padding:12px 16px;border-inline-start:3px solid var(--accent);background:var(--surface);border-radius:0 10px 10px 0;font-size:17px}
+  html[dir="rtl"] blockquote.warn{border-radius:10px 0 0 10px}
+  .rsrc{margin:34px 0 8px;padding-top:18px;border-top:1px solid var(--line);scroll-margin-top:72px}.rsrc>h2{margin:4px 0 6px}.rsrc>.cap{max-width:70ch}
+  .insts{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px;margin:8px 0 6px}
+  .inst{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;display:flex;flex-direction:column;gap:8px}
+  .inst h3{margin:0;font-size:18px}.inst small{color:var(--muted);font-size:12px;line-height:1.4}.inst .n{font:600 13px var(--f-mono)}.inst a.more{margin-top:auto;font-size:14px}
+  .sbar{display:flex;height:8px;border-radius:4px;overflow:hidden;background:var(--line)}.sbar i{display:block;height:100%}
+  .scount{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:12px;color:var(--muted)}.scount span{display:inline-flex;align-items:center;gap:5px}.scount i{width:8px;height:8px;border-radius:50%;display:inline-block}
+  .claim .who{font:600 11px var(--f-mono);text-transform:uppercase;letter-spacing:.05em;color:var(--accent)}
+  html[lang="ar"] .claim .who,html[lang="zh"] .claim .who{font-family:var(--f-body);text-transform:none;letter-spacing:0}
+  .rtheme{margin:26px 0 8px;scroll-margin-top:72px}.rtheme h3{margin:0 0 2px;font-size:20px}.rtheme>p{color:var(--muted);margin:0 0 4px}.rtheme>p.tl{font:600 13px var(--f-mono);color:var(--ink);margin:0 0 10px}
+  details.rinst{border:1px solid var(--line);border-radius:12px;background:var(--surface);margin:10px 0;scroll-margin-top:72px}
+  details.rinst>summary{cursor:pointer;padding:14px 16px;font:600 17px var(--f-body);list-style-position:inside}details.rinst>summary small{font:13px var(--f-body);color:var(--muted);margin-inline-start:8px}
+  details.rinst>.in{padding:0 16px 16px}details.rinst .rsrc{margin:10px 0 8px;border-top:1px solid var(--line)}
+  a.btn small{font-weight:400;opacity:.8;margin-inline-start:8px;padding-inline-start:8px;border-inline-start:1px solid currentColor}
+  .rgroup h3{margin:0 0 2px;font-size:18px}.rsrcs{list-style:none;padding:0;margin:0;display:grid;gap:16px}.rsrcs p{margin:0 0 6px}
 </style>
 <script>try{var t=localStorage.getItem('atw-theme');if(t)document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
 <script defer src="https://cloud.umami.is/script.js" data-website-id="aafe3de7-3e98-4efd-91e0-2d01c4a8994f"></script>
@@ -118,13 +122,13 @@ a.btn small{font-weight:400;opacity:.8;margin-inline-start:8px;padding-inline-st
 <article>
 <p class="eyebrow"><span>International AI Safety Report</span><span>系统性风险</span><span><bdi>§2.3.1</bdi></span></p>
 <h1>AI 重塑就业，首当其冲的是职场新人</h1>
-<p class="pills"><span class="rst"><i style="background:var(--line)"></i>超出我们的衡量范围</span><span class="pill">暂无相符的案例档案。</span></p>
+<p class="pills"><span class="rst"><i style="background:color-mix(in srgb,var(--muted) 40%,transparent)"></i>超出我们的衡量范围</span><span class="pill">暂无相符的案例档案。</span></p>
 <p class="share"><span class="shw"><button class="shb" type="button" data-url="https://aithreat.io/zh/research/iasr-labour/" data-text="AI 重塑就业，首当其冲的是职场新人" aria-haspopup="true" aria-expanded="false" data-umami-event="share-open"><svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M12 3v12M7 8l5-5 5 5M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6"/></svg><span>分享</span></button></span></p>
 <section class="sec"><h2>警告内容</h2><blockquote class="warn">AI 能够完成很大一部分工作岗位中的任务。早期数据显示总体就业变化不大，但在受影响最大的职业中，面向职场新人的岗位减少了。</blockquote>
 <p class="cap">根据来源转述。 来源: <a href="https://internationalaisafetyreport.org/publication/international-ai-safety-report-2026" rel="noopener" target="_blank">International AI Safety Report 2026</a>, 2026年2月3日, 第 2.3.1 节，第 84 页. International AI Safety Report 的摘要: <a href="https://internationalaisafetyreport.org/publication/2026-report-extended-summary-policymakers" rel="noopener" target="_blank" dir="ltr">internationalaisafetyreport.org</a>.</p></section>
 <section class="sec"><h2>登记库显示的情况</h2><p>这是一种经济风险，超出安全事件登记库的衡量范围。</p><p class="cap">安全事件登记库无法衡量的风险。</p></section>
 
-<section class="sec"><h2>状态历史</h2><div style="overflow-x:auto"><table class="pt"><thead><tr><th>日期</th><th>状态</th><th>匹配的案例档案</th><th>变化</th></tr></thead><tbody><tr><td>2026年10月18日</td><td><span class="rst"><i style="background:var(--line)"></i>超出我们的衡量范围</span></td><td class="n">0</td><td>开始跟踪</td></tr></tbody></table></div><p class="cap">自2026年10月18日起跟踪。状态变更、关联首个真实案例时以及每月一次都会新增一行，从而记录一项警告何时从研究变为现实。 <a href="/data/research_history.json">research_history.json</a></p></section>
+<section class="sec"><h2>状态历史</h2><div style="overflow-x:auto"><table class="pt"><thead><tr><th>日期</th><th>状态</th><th>匹配的案例档案</th><th>变化</th></tr></thead><tbody><tr><td>2026年10月18日</td><td><span class="rst"><i style="background:color-mix(in srgb,var(--muted) 40%,transparent)"></i>超出我们的衡量范围</span></td><td class="n">0</td><td>开始跟踪</td></tr></tbody></table></div><p class="cap">自2026年10月18日起跟踪。状态变更、关联首个真实案例时以及每月一次都会新增一行，从而记录一项警告何时从研究变为现实。 <a href="/data/research_history.json">research_history.json</a></p></section>
 <section class="sec"><h2>所有相符的案例档案</h2><p>暂无相符的案例档案。</p></section>
 
 <section class="sec"><h2>该组中的其他警告</h2><ul class="srcs"><li><span class="rst"><i style="background:var(--high)"></i>早期迹象</span> <a href="https://aithreat.io/zh/research/iasr-companions/">依赖 AI 陪伴者伤害了部分用户</a></li></ul></section>

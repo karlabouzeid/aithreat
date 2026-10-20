@@ -2,6 +2,7 @@
   "en": {
     "ui": {
       "inst_h": "The institutes",
+      "status_panel_h": "How the {n} warnings hold up against the case files",
       "inst_c": "Every institute gets the same space, in alphabetical order. Each card counts its warnings by status.",
       "inst_warnings": "{n} warnings",
       "inst_cases": "{n} matching case files",
@@ -28,6 +29,7 @@
   "fr": {
     "ui": {
       "inst_h": "Les instituts",
+      "status_panel_h": "Ce que deviennent les {n} avertissements face aux dossiers",
       "inst_c": "Chaque institut dispose du même espace, par ordre alphabétique. Chaque carte compte ses avertissements par statut.",
       "inst_warnings": "Avertissements : {n}",
       "inst_cases": "Dossiers correspondants : {n}",
@@ -54,6 +56,7 @@
   "es": {
     "ui": {
       "inst_h": "Los institutos",
+      "status_panel_h": "Cómo resisten las {n} advertencias frente a los expedientes",
       "inst_c": "Cada instituto tiene el mismo espacio, en orden alfabético. Cada tarjeta cuenta sus advertencias por estado.",
       "inst_warnings": "Advertencias: {n}",
       "inst_cases": "Expedientes coincidentes: {n}",
@@ -80,6 +83,7 @@
   "ar": {
     "ui": {
       "inst_h": "المعاهد",
+      "status_panel_h": "كيف تصمد التحذيرات الـ{n} أمام الملفات الموثّقة",
       "inst_c": "يحصل كل معهد على المساحة نفسها، بترتيب أبجدي. تعدّ كل بطاقة تحذيرات المعهد بحسب الحالة.",
       "inst_warnings": "التحذيرات: {n}",
       "inst_cases": "الملفات المطابقة: {n}",
@@ -106,6 +110,7 @@
   "zh": {
     "ui": {
       "inst_h": "研究机构",
+      "status_panel_h": "{n} 条警告与案例档案的对照结果",
       "inst_c": "每个机构占用相同的版面，按字母顺序排列。每张卡片按状态统计该机构的警告。",
       "inst_warnings": "警告：{n} 项",
       "inst_cases": "匹配的案例档案：{n} 份",
@@ -132,6 +137,7 @@
   "ru": {
     "ui": {
       "inst_h": "Институты",
+      "status_panel_h": "Как {n} предупреждений соотносятся с досье",
       "inst_c": "Каждому институту отведено одинаковое место, в алфавитном порядке. Каждая карточка считает его предупреждения по статусам.",
       "inst_warnings": "Предупреждений: {n}",
       "inst_cases": "Подходящих досье: {n}",

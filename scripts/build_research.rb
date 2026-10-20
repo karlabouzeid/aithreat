@@ -15,7 +15,7 @@ RESEARCH_THEMES = JSON.parse(File.read(File.join(ROOT, "config", "research_theme
 RESEARCH_THEMES_I18N = JSON.parse(File.read(File.join(ROOT, "config", "research_i18n", "themes.json"), encoding: "UTF-8"))
 (RESEARCH["claims"].map { |c| c["id"] } - RESEARCH_THEMES.flat_map { |t| t["claims"] }).each { |id| abort "build_research: claim #{id} is in no theme (config/research_themes.json)" }
 STATUS_ORDER = %w[observed early lab none outside].freeze
-STATUS_COLORS = { "observed" => "var(--crit)", "early" => "var(--high)", "lab" => "var(--med)", "none" => "var(--line2)", "outside" => "var(--line)" }.freeze
+STATUS_COLORS = { "observed" => "var(--crit)", "early" => "var(--high)", "lab" => "var(--med)", "none" => "var(--line2)", "outside" => "color-mix(in srgb,var(--muted) 40%,transparent)" }.freeze
 
 RESEARCH_CSS = <<~CSS
   .rgroup{margin:26px 0 8px}.rgroup h2{margin:0 0 2px}.rgroup>p{color:var(--muted);margin:0 0 10px}
@@ -26,7 +26,11 @@ RESEARCH_CSS = <<~CSS
   .rst{display:inline-flex;align-items:center;gap:6px;font:600 11px var(--f-mono);text-transform:uppercase;letter-spacing:.05em;color:var(--ink)}
   .rst i{width:10px;height:10px;border-radius:50%;display:inline-block;flex:none}
   html[lang="ar"] .rst,html[lang="zh"] .rst{font-family:var(--f-body);text-transform:none;letter-spacing:0}
-  .rkey{display:grid;gap:6px;margin:0 0 6px;font-size:13px;color:var(--muted)}.rkey div{display:flex;gap:10px;align-items:baseline;flex-wrap:wrap}
+  .kpis.rkpis{grid-template-columns:repeat(auto-fit,minmax(200px,1fr))}.kpis.rkpis small{max-width:36ch}
+.rstatus .sbar.big{height:14px;border-radius:7px;margin:4px 0 16px}
+.rs-rows{display:grid;gap:12px;max-width:820px}
+.rs-row{display:grid;grid-template-columns:3.2em 1fr;gap:12px;align-items:start;padding:10px 0;border-top:1px solid var(--line)}.rs-row:first-child{border-top:0;padding-top:0}.rs-row>b{font:700 28px/1 var(--f-display);min-width:1.6em}
+.rs-row p{margin:4px 0 0;font-size:13px;color:var(--muted);line-height:1.45}.rs-row .i{vertical-align:middle;margin-inline-start:4px}
   blockquote.warn{margin:0 0 6px;padding:12px 16px;border-inline-start:3px solid var(--accent);background:var(--surface);border-radius:0 10px 10px 0;font-size:17px}
   html[dir="rtl"] blockquote.warn{border-radius:10px 0 0 10px}
   .rsrc{margin:34px 0 8px;padding-top:18px;border-top:1px solid var(--line);scroll-margin-top:72px}.rsrc>h2{margin:4px 0 6px}.rsrc>.cap{max-width:70ch}
@@ -236,16 +240,20 @@ def research_page(lang, st, incidents)
     crumbs_ld(lang, [[rx(lang, :research), url]])
   ]
   sc = st["status_counts"]
-  kpis = [
-    [st["sources"].map { |s| s["institute"] }.uniq.size, rx(lang, :k_sources), nil, :r_sources],
-    [st["claims"].size, rx(lang, :k_claims), nil, :r_claims],
-    [sc["observed"], rx(lang, :k_observed), nil, :r_observed],
-    [sc["early"] + sc["lab"], rx(lang, :k_early), nil, :r_early],
-    [sc["none"], rx(lang, :k_none), nil, :r_none],
-    [sc["outside"], rx(lang, :k_outside), nil, :r_outside],
-    [st["warning_matched_cases"], rx(lang, :k_linked), thx(lang, :k_linked_note, n: st["total_cases"]), :r_linked]
-  ].map { |v, l, s, tip| %(<div><b>#{h(v)}</b><span>#{h(l)}#{info_tip(lang, tip)}</span>#{s ? %(<small>#{h(s)}</small>) : ''}</div>) }.join
-  key = %(<div class="rkey">#{STATUS_ORDER.select { |s| sc[s] > 0 }.map { |s| %(<div>#{status_pill(lang, s)}<span>#{h(rx(lang, "sd_#{s}"))}</span></div>) }.join}</div>)
+kpis = [
+  [st["sources"].map { |s| s["institute"] }.uniq.size, rx(lang, :k_sources), nil, :r_sources],
+  [st["claims"].size, rx(lang, :k_claims), nil, :r_claims],
+  [st["warning_matched_cases"], rx(lang, :k_linked), thx(lang, :k_linked_note, n: st["total_cases"]), :r_linked]
+].map { |v, l, s, tip| %(<div><b>#{h(v)}</b><span>#{h(l)}#{info_tip(lang, tip)}</span>#{s ? %(<small>#{h(s)}</small>) : ''}</div>) }.join
+# One panel for how the warnings hold up: a single bar, then each status with its count and meaning.
+shown = STATUS_ORDER.select { |x| sc[x].to_i > 0 }
+total_claims = [shown.sum { |x| sc[x] }, 1].max
+bar = shown.map { |x| %(<i style="width:#{(100.0 * sc[x] / total_claims).round(2)}%;background:#{STATUS_COLORS[x]}" title="#{h(rx(lang, "st_#{x}"))}: #{sc[x]}"></i>) }.join
+tips = { "observed" => :r_observed, "early" => :r_early, "lab" => :r_early, "none" => :r_none, "outside" => :r_outside }
+rows = shown.map do |x|
+  %(<div class="rs-row"><b>#{sc[x]}</b><div><span class="rst"><i style="background:#{STATUS_COLORS[x]}"></i>#{h(rx(lang, "st_#{x}"))}</span>#{info_tip(lang, tips[x])}<p>#{h(rx(lang, "sd_#{x}"))}</p></div></div>)
+end.join
+key = %(<section class="sec rstatus"><h2>#{h(thx(lang, :status_panel_h, n: st['claims'].size))}</h2><div class="sbar big">#{bar}</div><div class="rs-rows">#{rows}</div></section>)
   srcs = Hash[st["sources"].map { |s| [s["id"], s] }]
   insts = research_institutes(st)
   # 1. One card per institute, same size and alphabetical, so no institute leads the page.
@@ -299,7 +307,7 @@ def research_page(lang, st, incidents)
     <h1>#{h(title)}</h1>
     <p class="lede">#{h(lede)}</p>
     #{share_row(lang, url, title)}
-    <div class="kpis">#{kpis}</div>
+    <div class="kpis rkpis">#{kpis}</div>
     #{key}
     #{institutes}
     #{themes_html}
