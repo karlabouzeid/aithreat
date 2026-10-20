@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T19:26:03Z",
+  "generated_at": "2026-10-20T19:36:35Z",
   "licence": "CC BY 4.0",
   "total": 95,
   "young_people": 93,
@@ -24,43 +24,43 @@
     "Chatbot harm": 35,
     "AI misfire": 6,
     "AI exam fraud": 5,
-    "Model & data leak": 2,
     "AI-assisted malware": 2,
-    "Prompt injection": 1,
-    "Deepfake fraud": 1
+    "Model & data leak": 2,
+    "Deepfake fraud": 1,
+    "Prompt injection": 1
   },
   "by_country": {
     "US": 42,
     "KR": 6,
-    "GB": 5,
     "AU": 5,
+    "GB": 5,
+    "CA": 3,
     "JP": 3,
     "IN": 3,
-    "CA": 3,
     "AR": 2,
     "BR": 2,
     "ES": 2,
     "IT": 2,
-    "MY": 1,
-    "SG": 1,
-    "GT": 1,
-    "TR": 1,
-    "CL": 1,
-    "GH": 1,
     "MX": 1,
+    "GH": 1,
+    "CL": 1,
     "EC": 1,
-    "LB": 1,
+    "TR": 1,
+    "GT": 1,
+    "SG": 1,
+    "MY": 1,
     "PE": 1,
-    "GL": 1,
-    "TZ": 1,
+    "VN": 1,
+    "HK": 1,
+    "UA": 1,
+    "ID": 1,
+    "ZA": 1,
+    "GR": 1,
     "NZ": 1,
     "IL": 1,
-    "GR": 1,
-    "ZA": 1,
-    "ID": 1,
-    "UA": 1,
-    "HK": 1,
-    "VN": 1
+    "TZ": 1,
+    "GL": 1,
+    "LB": 1
   },
   "years": [
     "2023",
@@ -100,19 +100,6 @@
   },
   "cases": [
     {
-      "id": "habib-v-openai-chatgpt-lebanon-teen",
-      "date": "2026-10-14",
-      "title": "Lebanese family sues OpenAI, alleging ChatGPT contributed to their 15-year-old son's suicide",
-      "category": "Chatbot harm",
-      "severity": "critical",
-      "country": "LB",
-      "setting": "home",
-      "age_group": "teen",
-      "young_people": true,
-      "response": "Suit filed in the Superior Court of California, County of San Francisco, by the Social Media Victims Law Center and the Tech Justice Law Project, within the coordinated ChatGPT proceeding (JCCP). OpenAI had not commented publicly at the time of reporting.",
-      "url": "https://aithreat.io/cases/habib-v-openai-chatgpt-lebanon-teen/"
-    },
-    {
       "id": "eight-states-v-openai",
       "date": "2026-10-14",
       "title": "Eight US states sue OpenAI, alleging ChatGPT harms children and deceives adults",
@@ -124,6 +111,19 @@
       "young_people": true,
       "response": "OpenAI said it has built child protections, including a teen-specific model, and wants industry-wide rules. States seek design changes, penalties and damages.",
       "url": "https://aithreat.io/cases/eight-states-v-openai/"
+    },
+    {
+      "id": "habib-v-openai-chatgpt-lebanon-teen",
+      "date": "2026-10-14",
+      "title": "Lebanese family sues OpenAI, alleging ChatGPT contributed to their 15-year-old son's suicide",
+      "category": "Chatbot harm",
+      "severity": "critical",
+      "country": "LB",
+      "setting": "home",
+      "age_group": "teen",
+      "young_people": true,
+      "response": "Suit filed in the Superior Court of California, County of San Francisco, by the Social Media Victims Law Center and the Tech Justice Law Project, within the coordinated ChatGPT proceeding (JCCP). OpenAI had not commented publicly at the time of reporting.",
+      "url": "https://aithreat.io/cases/habib-v-openai-chatgpt-lebanon-teen/"
     },
     {
       "id": "korea-kcsc-ai-chatbot-minor-complaints",
@@ -217,19 +217,6 @@
       "url": "https://aithreat.io/cases/chiba-teen-ai-ransomware-arrest/"
     },
     {
-      "id": "new-zealand-students-ai-deepfakes-teachers",
-      "date": "2026-06-21",
-      "title": "New Zealand teachers left unable to work after students make AI deepfake porn and TikTok fakes of them",
-      "category": "Deepfake abuse",
-      "severity": "medium",
-      "country": "NZ",
-      "setting": "school",
-      "age_group": "teen",
-      "young_people": true,
-      "response": "Videos reported to TikTok and Netsafe; content removable under the Harmful Digital Communications Act.",
-      "url": "https://aithreat.io/cases/new-zealand-students-ai-deepfakes-teachers/"
-    },
-    {
       "id": "israel-synthetic-identity-ai-agents",
       "date": "2026-06-21",
       "title": "Lahav 433 arrests 20-year-old who animated stolen ID photos with AI to open bank accounts",
@@ -241,6 +228,19 @@
       "young_people": true,
       "response": "Arrest, detention extension and ongoing Lahav 433 investigation.",
       "url": "https://aithreat.io/cases/israel-synthetic-identity-ai-agents/"
+    },
+    {
+      "id": "new-zealand-students-ai-deepfakes-teachers",
+      "date": "2026-06-21",
+      "title": "New Zealand teachers left unable to work after students make AI deepfake porn and TikTok fakes of them",
+      "category": "Deepfake abuse",
+      "severity": "medium",
+      "country": "NZ",
+      "setting": "school",
+      "age_group": "teen",
+      "young_people": true,
+      "response": "Videos reported to TikTok and Netsafe; content removable under the Harmful Digital Communications Act.",
+      "url": "https://aithreat.io/cases/new-zealand-students-ai-deepfakes-teachers/"
     },
     {
       "id": "guwahati-schools-ai-deepfakes-students-teachers",
@@ -334,19 +334,6 @@
       "url": "https://aithreat.io/cases/luca-walker-uk-inquest/"
     },
     {
-      "id": "jane-does-v-xai-tennessee-teens",
-      "date": "2026-03-16",
-      "title": "Three Tennessee teens sue xAI, alleging its AI was used to make sexual images of them as minors",
-      "category": "Deepfake abuse",
-      "severity": "critical",
-      "country": "US",
-      "setting": "online",
-      "age_group": "teen",
-      "young_people": true,
-      "response": "xAI did not respond to requests for comment. California's attorney general was separately investigating xAI's editing tools.",
-      "url": "https://aithreat.io/cases/jane-does-v-xai-tennessee-teens/"
-    },
-    {
       "id": "crete-gymnasium-ai-nudes-teachers-classmates",
       "date": "2026-03-16",
       "title": "Heraklion pupils use AI to turn photos of female teachers and classmates into pornographic images",
@@ -358,6 +345,19 @@
       "young_people": true,
       "response": "School administration acted on the complaint, with child psychologists helping manage the case; no police action was reported.",
       "url": "https://aithreat.io/cases/crete-gymnasium-ai-nudes-teachers-classmates/"
+    },
+    {
+      "id": "jane-does-v-xai-tennessee-teens",
+      "date": "2026-03-16",
+      "title": "Three Tennessee teens sue xAI, alleging its AI was used to make sexual images of them as minors",
+      "category": "Deepfake abuse",
+      "severity": "critical",
+      "country": "US",
+      "setting": "online",
+      "age_group": "teen",
+      "young_people": true,
+      "response": "xAI did not respond to requests for comment. California's attorney general was separately investigating xAI's editing tools.",
+      "url": "https://aithreat.io/cases/jane-does-v-xai-tennessee-teens/"
     },
     {
       "id": "ccdh-cnn-killer-apps-teen-violence",
@@ -503,17 +503,17 @@
       "url": "https://aithreat.io/cases/yonsei-ai-midterm-mass-cheating/"
     },
     {
-      "id": "viktoria-chatgpt-poland-bbc",
+      "id": "lacey-v-openai",
       "date": "2025-11-06",
-      "title": "BBC: ChatGPT discussed suicide with Ukrainian refugee teen in Poland instead of urging help",
+      "title": "Father alleges ChatGPT fostered dependence and aided 17-year-old Amaurie Lacey's suicide",
       "category": "Chatbot harm",
-      "severity": "high",
-      "country": "UA",
+      "severity": "critical",
+      "country": "US",
       "setting": "home",
       "age_group": "teen",
       "young_people": true,
-      "response": "OpenAI called the messages heartbreaking and said it had improved how ChatGPT responds to people in distress.",
-      "url": "https://aithreat.io/cases/viktoria-chatgpt-poland-bbc/"
+      "response": "OpenAI said it was reviewing the filings and called the situations incredibly heartbreaking. Case filed in San Francisco Superior Court and coordinated in JCCP 5431.",
+      "url": "https://aithreat.io/cases/lacey-v-openai/"
     },
     {
       "id": "shamblin-v-openai",
@@ -529,17 +529,17 @@
       "url": "https://aithreat.io/cases/shamblin-v-openai/"
     },
     {
-      "id": "lacey-v-openai",
+      "id": "viktoria-chatgpt-poland-bbc",
       "date": "2025-11-06",
-      "title": "Father alleges ChatGPT fostered dependence and aided 17-year-old Amaurie Lacey's suicide",
+      "title": "BBC: ChatGPT discussed suicide with Ukrainian refugee teen in Poland instead of urging help",
       "category": "Chatbot harm",
-      "severity": "critical",
-      "country": "US",
+      "severity": "high",
+      "country": "UA",
       "setting": "home",
       "age_group": "teen",
       "young_people": true,
-      "response": "OpenAI said it was reviewing the filings and called the situations incredibly heartbreaking. Case filed in San Francisco Superior Court and coordinated in JCCP 5431.",
-      "url": "https://aithreat.io/cases/lacey-v-openai/"
+      "response": "OpenAI called the messages heartbreaking and said it had improved how ChatGPT responds to people in distress.",
+      "url": "https://aithreat.io/cases/viktoria-chatgpt-poland-bbc/"
     },
     {
       "id": "kenwood-omnilert-doritos-false-alarm",
@@ -594,19 +594,6 @@
       "url": "https://aithreat.io/cases/acu-turnitin-ai-detector-false-accusations/"
     },
     {
-      "id": "peralta-v-character-ai",
-      "date": "2025-09-16",
-      "title": "Family alleges Character.AI bot failed 13-year-old Juliana Peralta before her suicide",
-      "category": "Chatbot harm",
-      "severity": "critical",
-      "country": "US",
-      "setting": "home",
-      "age_group": "teen",
-      "young_people": true,
-      "response": "Character.AI said it was deeply saddened and invests heavily in safety. It later barred open-ended chat for under-18s. The Colorado case was among the family suits Character.AI and Google agreed to settle in January 2026.",
-      "url": "https://aithreat.io/cases/peralta-v-character-ai/"
-    },
-    {
       "id": "nina-v-character-ai",
       "date": "2025-09-16",
       "title": "New York family alleges Character.AI bots drew 15-year-old 'Nina' into sexual role-play before suicide attempt",
@@ -618,6 +605,19 @@
       "young_people": true,
       "response": "Character.AI said it cares deeply about user safety. In early January 2026 Character.AI and Google agreed in principle to settle suits from families in Florida, Texas, Colorado and New York.",
       "url": "https://aithreat.io/cases/nina-v-character-ai/"
+    },
+    {
+      "id": "peralta-v-character-ai",
+      "date": "2025-09-16",
+      "title": "Family alleges Character.AI bot failed 13-year-old Juliana Peralta before her suicide",
+      "category": "Chatbot harm",
+      "severity": "critical",
+      "country": "US",
+      "setting": "home",
+      "age_group": "teen",
+      "young_people": true,
+      "response": "Character.AI said it was deeply saddened and invests heavily in safety. It later barred open-ended chat for under-18s. The Colorado case was among the family suits Character.AI and Google agreed to settle in January 2026.",
+      "url": "https://aithreat.io/cases/peralta-v-character-ai/"
     },
     {
       "id": "ftc-6b-ai-companion-inquiry",
@@ -685,19 +685,6 @@
       "url": "https://aithreat.io/cases/raine-v-openai/"
     },
     {
-      "id": "texas-ag-meta-character-ai-therapy-probe",
-      "date": "2025-08-18",
-      "title": "Texas AG investigates Meta AI Studio and Character.AI over bots posing as therapists to children",
-      "category": "Chatbot harm",
-      "severity": "high",
-      "country": "US",
-      "setting": "online",
-      "age_group": "teen",
-      "young_people": true,
-      "response": "The outcome had not been reported.",
-      "url": "https://aithreat.io/cases/texas-ag-meta-character-ai-therapy-probe/"
-    },
-    {
       "id": "brazil-agu-meta-childlike-chatbots",
       "date": "2025-08-18",
       "title": "Brazil's government orders Meta to remove AI Studio bots with child-like personas that engage in sexual chat",
@@ -709,6 +696,19 @@
       "young_people": true,
       "response": "Meta did not issue an official statement at the time. The AGU reminded Meta that platforms must remove illegal content once notified.",
       "url": "https://aithreat.io/cases/brazil-agu-meta-childlike-chatbots/"
+    },
+    {
+      "id": "texas-ag-meta-character-ai-therapy-probe",
+      "date": "2025-08-18",
+      "title": "Texas AG investigates Meta AI Studio and Character.AI over bots posing as therapists to children",
+      "category": "Chatbot harm",
+      "severity": "high",
+      "country": "US",
+      "setting": "online",
+      "age_group": "teen",
+      "young_people": true,
+      "response": "The outcome had not been reported.",
+      "url": "https://aithreat.io/cases/texas-ag-meta-character-ai-therapy-probe/"
     },
     {
       "id": "meta-genai-standards-sensual-chats-children",
@@ -1075,19 +1075,6 @@
       "url": "https://aithreat.io/cases/lausd-allhere-ed-chatbot-data/"
     },
     {
-      "id": "salesian-college-teacher-ai-explicit-images",
-      "date": "2024-06-12",
-      "title": "Melbourne student expelled for making sexually explicit AI images of a female teacher at Salesian College",
-      "category": "Deepfake abuse",
-      "severity": "medium",
-      "country": "AU",
-      "setting": "school",
-      "age_group": "teen",
-      "young_people": true,
-      "response": "Student expelled; school says it introduced cyber safety and respectful relationships programs.",
-      "url": "https://aithreat.io/cases/salesian-college-teacher-ai-explicit-images/"
-    },
-    {
       "id": "bacchus-marsh-grammar-deepfake-50-girls",
       "date": "2024-06-12",
       "title": "Teen arrested after AI-made explicit images of about 50 Bacchus Marsh Grammar girls circulate",
@@ -1099,6 +1086,19 @@
       "young_people": true,
       "response": "Police arrested and released a teen pending inquiries; the school offered counselling and helped police; the federal Attorney-General pointed to a bill criminalising sharing of non-consensual sexual deepfakes",
       "url": "https://aithreat.io/cases/bacchus-marsh-grammar-deepfake-50-girls/"
+    },
+    {
+      "id": "salesian-college-teacher-ai-explicit-images",
+      "date": "2024-06-12",
+      "title": "Melbourne student expelled for making sexually explicit AI images of a female teacher at Salesian College",
+      "category": "Deepfake abuse",
+      "severity": "medium",
+      "country": "AU",
+      "setting": "school",
+      "age_group": "teen",
+      "young_people": true,
+      "response": "Student expelled; school says it introduced cyber safety and respectful relationships programs.",
+      "url": "https://aithreat.io/cases/salesian-college-teacher-ai-explicit-images/"
     },
     {
       "id": "turkey-isparta-ai-exam-cheating-device",
