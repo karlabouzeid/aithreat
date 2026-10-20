@@ -94,11 +94,14 @@
     "vendor-report": 1
   },
   "2026-10-19": {
-    "incident": 88,
+    "incident": 90,
     "other": 17,
     "policy": 10,
     "research": 19,
     "vendor-report": 4,
     "vulnerability": 2
+  },
+  "2026-10-20": {
+    "incident": 1
   }
 }

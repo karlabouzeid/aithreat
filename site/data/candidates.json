@@ -2764,5 +2764,53 @@
     "first_seen": "2026-10-19T23:35:40Z",
     "first_published": "2026-10-19T22:32:58Z",
     "updated_at": "2026-10-19T23:35:40Z"
+  },
+  {
+    "id": "bullhorn-recruitment-platform-breach",
+    "date": "2026-10-20",
+    "title": "AI recruitment platform Bullhorn responds to cyber incident",
+    "category": "AI supply chain",
+    "direction": "on-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "Bullhorn recruitment platform",
+    "loss_usd": null,
+    "summary": "Cyber Daily reports that Bullhorn, an AI recruitment platform, is responding to a cyber incident. Scope, data affected and method are not stated in the available text.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Technology & AI vendors",
+    "attribution": "Unknown; no attribution in the headline.",
+    "motive": "Unknown",
+    "vector": "Unknown",
+    "root_cause": "Unknown",
+    "impact": "Unknown; the vendor says it is responding to the incident.",
+    "response": "Bullhorn is reported to be responding to the incident.",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.35,
+    "source": "Cyber Daily",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPS29TbnpMUTAxaWVEbkdpVGFPclVOa3I1MUZraHFFai11OEkzVDMtRmhxVUprQTQ5ckt5VGcxMWR5djlYeWFBeER1M3c2cnBXX1NfQk5HR0FqQzg1XzVCNU5BLXNwNEozVVpVTzJuTXZZRXVfaEJEUGlleUtiM25icHZnOXBNN2RMVEtORE5tUG9NSjFyZmt2TUZrS2tVdVJlelFTZXpSREhyQzJzTFE?oc=5",
+    "sources": [
+      {
+        "name": "Cyber Daily",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPS29TbnpMUTAxaWVEbkdpVGFPclVOa3I1MUZraHFFai11OEkzVDMtRmhxVUprQTQ5ckt5VGcxMWR5djlYeWFBeER1M3c2cnBXX1NfQk5HR0FqQzg1XzVCNU5BLXNwNEozVVpVTzJuTXZZRXVfaEJEUGlleUtiM25icHZnOXBNN2RMVEtORE5tUG9NSjFyZmt2TUZrS2tVdVJlelFTZXpSREhyQzJzTFE?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-20",
+        "event": "Reported by Cyber Daily"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-20T00:35:41Z",
+    "wire_id": "4a270495061e",
+    "first_seen": "2026-10-20T00:35:41Z",
+    "first_published": "2026-10-19T23:22:27Z",
+    "updated_at": "2026-10-20T00:35:41Z"
   }
 ]
