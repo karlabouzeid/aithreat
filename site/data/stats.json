@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T23:36:12Z",
+  "generated_at": "2026-10-20T23:51:34Z",
   "total": 433,
   "trend_from": "2025-01-01",
   "finance": {
@@ -934,7 +934,7 @@
       "kinds": {
         "incident": 12,
         "vulnerability": 2,
-        "research": 19,
+        "research": 17,
         "vendor-report": 2,
         "policy": 2,
         "other": 19,
@@ -1004,10 +1004,10 @@
     {
       "day": "2026-10-20",
       "kinds": {
-        "incident": 74,
+        "incident": 75,
         "vulnerability": 6,
         "research": 39,
-        "vendor-report": 7,
+        "vendor-report": 8,
         "policy": 11,
         "other": 8,
         "untagged": 0
