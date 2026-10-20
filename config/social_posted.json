@@ -322,5 +322,13 @@
   ],
   "x_sent_at": [
 
-  ]
+  ],
+  "mastodon_status": {
+    "at": "2026-10-20T08:07:00Z",
+    "skipped": "no secrets"
+  },
+  "x_status": {
+    "at": "2026-10-20T08:07:00Z",
+    "skipped": "TELEGRAM_OWNER_CHAT_ID not set"
+  }
 }
