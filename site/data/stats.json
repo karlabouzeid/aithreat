@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T05:06:56Z",
+  "generated_at": "2026-10-20T05:36:41Z",
   "total": 433,
   "trend_from": "2025-01-01",
   "finance": {
@@ -920,10 +920,10 @@
     {
       "day": "2026-10-13",
       "kinds": {
-        "incident": 6,
+        "incident": 3,
         "vulnerability": 2,
         "research": 6,
-        "vendor-report": 6,
+        "vendor-report": 4,
         "policy": 2,
         "other": 4,
         "untagged": 0
@@ -1004,10 +1004,10 @@
     {
       "day": "2026-10-20",
       "kinds": {
-        "incident": 11,
+        "incident": 15,
         "vulnerability": 0,
         "research": 32,
-        "vendor-report": 0,
+        "vendor-report": 1,
         "policy": 2,
         "other": 0,
         "untagged": 0
