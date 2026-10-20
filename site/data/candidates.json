@@ -2812,5 +2812,53 @@
     "first_seen": "2026-10-20T00:35:41Z",
     "first_published": "2026-10-19T23:22:27Z",
     "updated_at": "2026-10-20T00:35:41Z"
+  },
+  {
+    "id": "ai-forged-flight-ticket-business-class",
+    "date": "2026-10-20",
+    "title": "Tourist uses AI to forge airline ticket to get business-class seat",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "low",
+    "country": "GL",
+    "region": "Global",
+    "target": "Airline",
+    "loss_usd": null,
+    "summary": "A tourist reportedly used AI to forge a flight ticket to move to business class; the outlet reports the outcome. Airline, location and date are not stated in the headline.",
+    "actor": "Unknown tourist",
+    "actor_type": "criminal",
+    "sector": "Unknown",
+    "attribution": "Tourprom reports an individual tourist; no further identification given.",
+    "motive": "Obtain a business-class seat without paying",
+    "vector": "AI-generated forged airline ticket",
+    "root_cause": "Unknown",
+    "impact": "Unknown; outcome only referenced in the headline.",
+    "response": "Unknown",
+    "status": "unresolved",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.35,
+    "source": "Tourprom",
+    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE11bW9pUURPZmlmTnIxMUdQcVZPLWM1cEtGaElIbUFhVUM4LXlXd2VaSWhBZkpySmxaR1U2NEphYzU0b19xZW1lVlhhSQ?oc=5",
+    "sources": [
+      {
+        "name": "Tourprom",
+        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE11bW9pUURPZmlmTnIxMUdQcVZPLWM1cEtGaElIbUFhVUM4LXlXd2VaSWhBZkpySmxaR1U2NEphYzU0b19xZW1lVlhhSQ?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-20",
+        "event": "Reported by Tourprom"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-20T03:05:44Z",
+    "wire_id": "c1bd5f26a8ed",
+    "first_seen": "2026-10-20T03:05:44Z",
+    "first_published": "2026-10-20T02:00:20Z",
+    "updated_at": "2026-10-20T03:05:44Z"
   }
 ]
