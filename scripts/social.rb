@@ -270,6 +270,12 @@ class XDraft
     !@token.empty? && !@chat.empty? && HOURS_UTC.cover?(Time.now.utc.hour)
   end
 
+  def skip_reason
+    return "TELEGRAM_BOT_TOKEN not set" if @token.empty?
+    return "TELEGRAM_OWNER_CHAT_ID not set" if @chat.empty?
+    "outside posting hours (#{HOURS_UTC.first}:00-#{HOURS_UTC.last}:59 UTC)"
+  end
+
   def compose(c)
     XPost.new.compose(c)
   end
@@ -304,7 +310,13 @@ platforms = { "bluesky" => Bluesky.new, "mastodon" => Mastodon.new, "telegram" =
 
 platforms.each do |name, client|
   unless client.enabled? || DRY_RUN
-    puts "social: #{name} skipped (no secrets)"
+    why = client.respond_to?(:skip_reason) ? client.skip_reason : "no secrets"
+    puts "social: #{name} skipped (#{why})"
+    # Outside posting hours is normal; a missing setting is worth recording.
+    # Written only when the reason changes, so a platform left switched off causes no commits.
+    if !why.start_with?("outside") && (state["#{name}_status"] || {})["skipped"] != why
+      state["#{name}_status"] = { "at" => Time.now.utc.iso8601, "skipped" => why }
+    end
     next
   end
 
@@ -339,8 +351,11 @@ platforms.each do |name, client|
       sleep 2
     rescue StandardError => e
       warn "social: #{name} failed on #{c[:url]}: #{e.message}"
+      # Messages carry only the API host and its JSON reply, never the token.
+      state["#{name}_status"] = { "at" => Time.now.utc.iso8601, "failed" => e.message[0, 300] }
       break
     end
+    state["#{name}_status"] = { "at" => Time.now.utc.iso8601, "ok" => c[:url] }
   end
   # Keep the list bounded; the feed only carries the newest 50 cases.
   state[name] = posted.last(500)
