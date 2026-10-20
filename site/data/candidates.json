@@ -2908,5 +2908,53 @@
     "first_seen": "2026-10-20T13:05:40Z",
     "first_published": "2026-10-20T12:47:22Z",
     "updated_at": "2026-10-20T13:05:40Z"
+  },
+  {
+    "id": "thai-ai-forged-docs-romance-scam",
+    "date": "2026-10-20",
+    "title": "Thai police arrest man over AI-forged-document romance scam worth 21M+ baht",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "TH",
+    "region": "Asia-Pacific",
+    "target": "Romance scam victims in Thailand",
+    "loss_usd": null,
+    "summary": "Thai police arrested a man accused of running a romance scam that used AI-forged documents; reported losses exceed 21 million baht (QQ News).",
+    "actor": "Unnamed man arrested by Thai police",
+    "actor_type": "criminal",
+    "sector": "Individuals & consumers",
+    "attribution": "Thai police arrest reported by QQ News; the suspect is not named in the summary.",
+    "motive": "Financial gain through romance fraud",
+    "vector": "AI-forged documents used to build trust and defraud victims in a romance scam",
+    "root_cause": "Unknown",
+    "impact": "Reported losses of more than 21 million baht across the victims involved.",
+    "response": "Thai police arrested the suspect.",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.55,
+    "source": "QQ News",
+    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9FMXEwLUhfUEgxQTRQSzdLckN0NlpRNGZGeG5ZbUYyTm5mUkFVSy12S2xPVkxkNno4SEt3ZHJLbjc2d3YxUXdPMkVzRFBWQXF5LUNlR0JB?oc=5",
+    "sources": [
+      {
+        "name": "QQ News",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9FMXEwLUhfUEgxQTRQSzdLckN0NlpRNGZGeG5ZbUYyTm5mUkFVSy12S2xPVkxkNno4SEt3ZHJLbjc2d3YxUXdPMkVzRFBWQXF5LUNlR0JB?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-20",
+        "event": "Reported by QQ News"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-20T18:05:40Z",
+    "wire_id": "61c55b99d67e",
+    "first_seen": "2026-10-20T18:05:40Z",
+    "first_published": "2026-10-19T19:34:00Z",
+    "updated_at": "2026-10-20T18:05:40Z"
   }
 ]
