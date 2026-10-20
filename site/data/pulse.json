@@ -55,7 +55,7 @@
     "vulnerability": 2
   },
   "2026-10-14": {
-    "incident": 25,
+    "incident": 24,
     "other": 26,
     "policy": 5,
     "research": 79,
@@ -103,6 +103,7 @@
   },
   "2026-10-20": {
     "incident": 22,
+    "other": 1,
     "policy": 2,
     "research": 33,
     "vendor-report": 4
