@@ -2956,5 +2956,53 @@
     "first_seen": "2026-10-20T18:05:40Z",
     "first_published": "2026-10-19T19:34:00Z",
     "updated_at": "2026-10-20T18:05:40Z"
+  },
+  {
+    "id": "meta-muse-conversations-dns-leak",
+    "date": "2026-10-20",
+    "title": "About 6,800 Meta Muse conversations reportedly exposed publicly via a DNS request",
+    "category": "Model & data leak",
+    "direction": "on-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "Meta Muse chatbot users",
+    "loss_usd": null,
+    "summary": "About 6,800 conversations with Meta Muse reportedly became publicly accessible. A single DNS request was reportedly enough to reach them, per lefilia.fr.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Individuals & consumers",
+    "attribution": "No actor named in the report; the exposure appears to be a flaw rather than a deliberate attack.",
+    "motive": "Unknown",
+    "vector": "Publicly reachable conversation data, retrievable with a single DNS request, per the headline.",
+    "root_cause": "Unknown; the headline implies conversation data was exposed through a DNS-based access path.",
+    "impact": "About 6,800 user conversations with Meta Muse reportedly became public.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.5,
+    "source": "lefilia.fr",
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNeDQzcHc0d19xdVlwU0ZwRmU0TGtXQ0NyTGlmM21QSkdzN3laUVVKVldxQ0lsTUVQSU9mNnp5cjBaLXROWHNlUzRmSDgwem96ZFJpSllCdXhndkpSRlpudVBqSHA5V0h2LXhXYzE1TFl4TmRyRW0xVDhKZHN0ODlETG94SDJRWGk4SjhLNUt3c1RHRHhTVnE4c0FVVWhOZTN4Ym54OUlJUGZ4RUlnYThMamFTM2NUb1dGLTJiZE5aa0hUdTBnbnc?oc=5",
+    "sources": [
+      {
+        "name": "lefilia.fr",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNeDQzcHc0d19xdVlwU0ZwRmU0TGtXQ0NyTGlmM21QSkdzN3laUVVKVldxQ0lsTUVQSU9mNnp5cjBaLXROWHNlUzRmSDgwem96ZFJpSllCdXhndkpSRlpudVBqSHA5V0h2LXhXYzE1TFl4TmRyRW0xVDhKZHN0ODlETG94SDJRWGk4SjhLNUt3c1RHRHhTVnE4c0FVVWhOZTN4Ym54OUlJUGZ4RUlnYThMamFTM2NUb1dGLTJiZE5aa0hUdTBnbnc?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-20",
+        "event": "Reported by lefilia.fr"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-20T18:35:44Z",
+    "wire_id": "12cfb4ea5f75",
+    "first_seen": "2026-10-20T18:35:44Z",
+    "first_published": "2026-10-20T15:19:39Z",
+    "updated_at": "2026-10-20T18:35:44Z"
   }
 ]
