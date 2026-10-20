@@ -3052,5 +3052,53 @@
     "first_seen": "2026-10-20T20:52:30Z",
     "first_published": "2026-10-20T20:03:10Z",
     "updated_at": "2026-10-20T20:52:30Z"
+  },
+  {
+    "id": "oregon-washington-county-candidate-deepf",
+    "date": "2026-10-20",
+    "title": "Deepfake of Washington County, Oregon, candidate goes viral nationwide",
+    "category": "Deepfake abuse",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "US",
+    "region": "North America",
+    "target": "Washington County, Oregon, political candidate",
+    "loss_usd": null,
+    "summary": "A deepfake of a Washington County, Oregon, candidate reportedly went viral across the US, according to the Oregon Journalism Project. Details of the content, creator and spread are not given.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Politics & elections",
+    "attribution": "Unknown. The headline does not name the creator or distributor of the deepfake.",
+    "motive": "Unknown; likely to deceive or discredit a candidate, but the source does not say.",
+    "vector": "Viral spread of a deepfake, presumably on social media. The platforms are not named.",
+    "root_cause": "Easy access to deepfake tools and viral social sharing. The source gives no specifics.",
+    "impact": "The deepfake reportedly spread nationwide, targeting a local election candidate. Specific harm to the candidate or the election is not stated.",
+    "response": "Unknown; the headline and summary do not describe any platform, candidate or official response.",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.5,
+    "source": "oregonjournalismproject.org via Hacker News",
+    "url": "https://www.oregonjournalismproject.org/deepfake-of-washington-county-oregon-candidate-goes-viral-nationwide",
+    "sources": [
+      {
+        "name": "oregonjournalismproject.org via Hacker News",
+        "url": "https://www.oregonjournalismproject.org/deepfake-of-washington-county-oregon-candidate-goes-viral-nationwide"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-20",
+        "event": "Reported by oregonjournalismproject.org via Hacker News"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-20T21:05:38Z",
+    "wire_id": "30acb96ce969",
+    "first_seen": "2026-10-20T21:05:38Z",
+    "first_published": "2026-10-20T20:46:55Z",
+    "updated_at": "2026-10-20T21:05:38Z"
   }
 ]
