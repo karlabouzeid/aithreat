@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20T13:05:40Z",
+  "updated_at": "2026-10-20T13:35:43Z",
   "wire_items": 800,
   "new_items": 3,
   "candidates": 64,
@@ -14,6 +14,7 @@
     "CyberScoop",
     "Krebs on Security",
     "WIRED Security",
+    "Help Net Security",
     "Infosecurity Magazine",
     "TechCrunch Security",
     "Unit 42",
@@ -61,7 +62,7 @@
     "Google News chatbot harm (ES)"
   ],
   "feeds_failed": [
-    "Help Net Security"
+
   ],
-  "triage": "triaged 4 items with claude-sonnet-5-5 in 1 batches (0 failed); kept 3"
+  "triage": "triaged 10 items with claude-sonnet-5-5 in 1 batches (0 failed); kept 3"
 }
