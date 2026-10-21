@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-21T14:36:04Z",
+  "updated_at": "2026-10-21T15:07:29Z",
   "wire_items": 800,
-  "new_items": 8,
+  "new_items": 9,
   "candidates": 78,
   "incidents": 433,
   "feeds_ok": [
@@ -45,6 +45,7 @@
     "UK NCSC",
     "CERT-FR",
     "arXiv cs.CR",
+    "Schneier on Security",
     "GBHackers",
     "404 Media",
     "CISA KEV (AI products)",
@@ -61,7 +62,7 @@
     "Google News chatbot harm (ES)"
   ],
   "feeds_failed": [
-    "Schneier on Security"
+
   ],
-  "triage": "triaged 21 items with claude-sonnet-5-5 in 1 batches (0 failed); kept 8"
+  "triage": "triaged 17 items with claude-sonnet-5-5 in 1 batches (0 failed); kept 9"
 }
