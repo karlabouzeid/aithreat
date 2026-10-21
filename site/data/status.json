@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-21T06:05:43Z",
+  "updated_at": "2026-10-21T06:35:39Z",
   "wire_items": 800,
-  "new_items": 1,
+  "new_items": 0,
   "candidates": 69,
   "incidents": 433,
   "feeds_ok": [
@@ -36,7 +36,6 @@
     "Kaspersky Securelist",
     "ESET WeLiveSecurity",
     "Cisco Talos",
-    "Zscaler ThreatLabz",
     "Proofpoint",
     "Recorded Future",
     "Wiz Research",
@@ -62,7 +61,7 @@
     "Google News chatbot harm (ES)"
   ],
   "feeds_failed": [
-
+    "Zscaler ThreatLabz"
   ],
-  "triage": "triaged 3 items with claude-sonnet-5-5 in 1 batches (0 failed); kept 1"
+  "triage": "triaged 4 items with claude-sonnet-5-5 in 1 batches (0 failed); kept 0"
 }
