@@ -3724,5 +3724,101 @@
     "first_seen": "2026-10-21T17:35:40Z",
     "first_published": "2026-10-14T00:00:00Z",
     "updated_at": "2026-10-21T17:35:40Z"
+  },
+  {
+    "id": "storm-0940-artex-connectwise",
+    "date": "2026-10-21",
+    "title": "Storm-0940 uses ARTEX agentic AI in ConnectWise supply chain compromise",
+    "category": "State actor AI ops",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "ConnectWise customers and Microsoft 365 environments",
+    "loss_usd": null,
+    "summary": "Microsoft reports a large-scale nation-state campaign in which Storm-0940 used ARTEX agentic AI to accelerate a ConnectWise supply chain compromise and abuse application credentials in Microsoft 365.",
+    "actor": "Storm-0940",
+    "actor_type": "state",
+    "sector": "Multiple / cross-sector",
+    "attribution": "Microsoft Security Blog attributes the campaign to Storm-0940 and describes it as nation-state activity.",
+    "motive": "Unknown",
+    "vector": "ConnectWise supply chain compromise accelerated by ARTEX agentic AI, then application credential abuse across Microsoft 365.",
+    "root_cause": "Unknown",
+    "impact": "Described as large-scale; application credentials were abused across Microsoft 365 environments. Number of victims not stated.",
+    "response": "Microsoft published its analysis of the campaign. Further response details are not given.",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.7,
+    "source": "Microsoft Security Blog",
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise",
+    "sources": [
+      {
+        "name": "Microsoft Security Blog",
+        "url": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-21",
+        "event": "Reported by Microsoft Security Blog"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-21T18:35:44Z",
+    "wire_id": "307b575beaf0",
+    "first_seen": "2026-10-21T18:35:44Z",
+    "first_published": "2026-10-21T18:23:55Z",
+    "updated_at": "2026-10-21T18:35:44Z"
+  },
+  {
+    "id": "kyrgyz-woman-sexual-deepfake-kaktus",
+    "date": "2026-10-21",
+    "title": "Kyrgyz woman, 23, says AI-undressed photo was sent to acquaintances",
+    "category": "Deepfake abuse",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "KG",
+    "region": "Asia-Pacific",
+    "target": "23-year-old woman (private individual)",
+    "loss_usd": null,
+    "summary": "A 23-year-old woman told Kaktus.media she was the victim of a sexualized deepfake made with AI and sent to acquaintances. She fears the case is stalling and the culprit may escape punishment.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Individuals & consumers",
+    "attribution": "Unknown; the victim told Kaktus.media she fears the culprit will use connections to avoid punishment.",
+    "motive": "Unknown",
+    "vector": "AI tool used to create a sexualized image from her photo, then distributed to acquaintances.",
+    "root_cause": "Unknown",
+    "impact": "Sexualized deepfake of the victim circulated among people she knows; she says she may be unable to protect her rights.",
+    "response": "The victim contacted the media and complains of delays in the case. Official action is not described.",
+    "status": "unresolved",
+    "cve": null,
+    "young_people": true,
+    "setting": "online",
+    "age_group": "young-adult",
+    "confidence": 0.7,
+    "source": "AI Incident Database",
+    "url": "https://kaktus.media/doc/554280_razdeli_fotografiu_cherez_ii_i_razoslali_znakomym._devyshka_jalyetsia_na_zatiagivanie_dela.html",
+    "sources": [
+      {
+        "name": "AI Incident Database",
+        "url": "https://kaktus.media/doc/554280_razdeli_fotografiu_cherez_ii_i_razoslali_znakomym._devyshka_jalyetsia_na_zatiagivanie_dela.html"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-21",
+        "event": "Reported by AI Incident Database"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-21T18:35:44Z",
+    "wire_id": "c565ebbfc301",
+    "first_seen": "2026-10-21T18:35:44Z",
+    "first_published": "2026-10-15T00:00:00Z",
+    "updated_at": "2026-10-21T18:35:44Z"
   }
 ]
