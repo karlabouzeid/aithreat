@@ -3820,5 +3820,53 @@
     "first_seen": "2026-10-21T18:35:44Z",
     "first_published": "2026-10-15T00:00:00Z",
     "updated_at": "2026-10-21T18:35:44Z"
+  },
+  {
+    "id": "nl-ai-bank-fraud-380k-arrests",
+    "date": "2026-10-21",
+    "title": "Two arrested in AI-powered bank fraud that cost victims €380,000",
+    "category": "AI phishing",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "NL",
+    "region": "Europe",
+    "target": "Bank customers",
+    "loss_usd": null,
+    "summary": "Police arrested two suspects over bank fraud described as AI-powered. Victims lost a total of €380,000, per NL Times. The exact AI technique is not stated in the headline.",
+    "actor": "Two arrested suspects (names not given)",
+    "actor_type": "criminal",
+    "sector": "Individuals & consumers",
+    "attribution": "Police arrested two suspects, per NL Times; the wider network is Unknown.",
+    "motive": "Financial gain",
+    "vector": "Unknown; described only as AI-powered bank fraud",
+    "root_cause": "Unknown",
+    "impact": "Victims lost €380,000 in total, per NL Times.",
+    "response": "Police arrested two suspects.",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.5,
+    "source": "NL Times",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPalg3V0owWXRBV0NfT2ZUOWZPYmhqRUhqdVRETnduMGNIU3lXTVZ5TmtiU1RQb3BId0k2d0N3Z096emRCVWRyOHdBd2RidzFvZ1VyOG43bURuMkZ5d0pJSnNMalVPTFhyRmRhZm9FbFVkWWpYQjR1VEtRdHM3SVlDcGxQamhRMzkwaUdIUmo0SC11TUg2Z1p4MFdicmlvZVo2ZVE?oc=5",
+    "sources": [
+      {
+        "name": "NL Times",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPalg3V0owWXRBV0NfT2ZUOWZPYmhqRUhqdVRETnduMGNIU3lXTVZ5TmtiU1RQb3BId0k2d0N3Z096emRCVWRyOHdBd2RidzFvZ1VyOG43bURuMkZ5d0pJSnNMalVPTFhyRmRhZm9FbFVkWWpYQjR1VEtRdHM3SVlDcGxQamhRMzkwaUdIUmo0SC11TUg2Z1p4MFdicmlvZVo2ZVE?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-21",
+        "event": "Reported by NL Times"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-21T19:35:41Z",
+    "wire_id": "9197ec47512a",
+    "first_seen": "2026-10-21T19:35:41Z",
+    "first_published": "2026-10-21T19:10:00Z",
+    "updated_at": "2026-10-21T19:35:41Z"
   }
 ]
