@@ -3196,5 +3196,101 @@
     "first_seen": "2026-10-21T07:35:45Z",
     "first_published": "2026-07-31T07:00:00Z",
     "updated_at": "2026-10-21T07:35:45Z"
+  },
+  {
+    "id": "iwai-cosmo-securities-ai-attack",
+    "date": "2026-10-21",
+    "title": "Iwai Cosmo Securities says third party used AI to attack its systems",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "JP",
+    "region": "Asia-Pacific",
+    "target": "Iwai Cosmo Securities trading systems",
+    "loss_usd": null,
+    "summary": "Japanese brokerage Iwai Cosmo Securities said a third party used AI to attack its systems, according to a brief news flash. Scope, data affected and method were not given.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Financial services",
+    "attribution": "Unknown; the company only refers to an unnamed third party.",
+    "motive": "Unknown",
+    "vector": "Unknown; the company says AI was used in the attack on its systems.",
+    "root_cause": "Unknown",
+    "impact": "Unknown; the flash report gives no details on data exposure or service disruption.",
+    "response": "The company publicly disclosed the attack; no further response details were given.",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.55,
+    "source": "共同网",
+    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5Ma0NBa3B2dVlMR3BoLWdhbWM2UFJ4Uy01ODlJSGY5QkRPVTlXVjZfTVhoWV9YeVo4VzJFd1dTd0lxNW5MSXMzN1VkTXhJMVExbG5VRmxuZw?oc=5",
+    "sources": [
+      {
+        "name": "共同网",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5Ma0NBa3B2dVlMR3BoLWdhbWM2UFJ4Uy01ODlJSGY5QkRPVTlXVjZfTVhoWV9YeVo4VzJFd1dTd0lxNW5MSXMzN1VkTXhJMVExbG5VRmxuZw?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-21",
+        "event": "Reported by 共同网"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-21T08:05:41Z",
+    "wire_id": "368e6d9252ba",
+    "first_seen": "2026-10-21T08:05:41Z",
+    "first_published": "2026-10-21T07:48:27Z",
+    "updated_at": "2026-10-21T08:05:41Z"
+  },
+  {
+    "id": "almaty-deepfake-account-opening",
+    "date": "2026-10-21",
+    "title": "Accounts opened in Almaty woman's name via deepfake; court orders her to pay 3.2M",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "low",
+    "country": "KZ",
+    "region": "Asia-Pacific",
+    "target": "Almaty woman and the financial institution",
+    "loss_usd": null,
+    "summary": "Accounts were reportedly opened in an Almaty woman's name using a deepfake, and a court then ordered her to pay 3.2 million (currency not stated in the headline).",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "sector": "Individuals & consumers",
+    "attribution": "Unknown; the fraudsters were not identified in the headline.",
+    "motive": "Financial gain",
+    "vector": "Deepfake used to pass identity checks and open accounts in the victim's name.",
+    "root_cause": "Identity verification apparently accepted a deepfake; details are not given.",
+    "impact": "A court ordered the woman to repay 3.2 million, which was apparently incurred through the fraudulent accounts.",
+    "response": "A court ruling recovered the sum from the woman; no other response is stated.",
+    "status": "unresolved",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.55,
+    "source": "Kursiv Media",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZ3BZWjRGZ0kyVGlQSnZLSVJfNXlsQndBcmJZeFZLSTJETmlaZUpUdndBR2ZRMzRBejJhNHBYVDhyTTJka3BNQ2taQWFsZUpvLV9SZ0xDZk10ZFpLZUJXZExpVS1vak5Id1lXVWVrbUxoajJQWEx3TThVWmlpRVpoS081U1RpYzJpWWRpSFlzdzNUWncxcURNZUZSOHlNenNXTm1nbFh5TUhBR1RhYWc?oc=5",
+    "sources": [
+      {
+        "name": "Kursiv Media",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZ3BZWjRGZ0kyVGlQSnZLSVJfNXlsQndBcmJZeFZLSTJETmlaZUpUdndBR2ZRMzRBejJhNHBYVDhyTTJka3BNQ2taQWFsZUpvLV9SZ0xDZk10ZFpLZUJXZExpVS1vak5Id1lXVWVrbUxoajJQWEx3TThVWmlpRVpoS081U1RpYzJpWWRpSFlzdzNUWncxcURNZUZSOHlNenNXTm1nbFh5TUhBR1RhYWc?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-21",
+        "event": "Reported by Kursiv Media"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-21T08:05:41Z",
+    "wire_id": "30aa6dc8ec94",
+    "first_seen": "2026-10-21T08:05:41Z",
+    "first_published": "2026-10-21T07:35:39Z",
+    "updated_at": "2026-10-21T08:05:41Z"
   }
 ]
