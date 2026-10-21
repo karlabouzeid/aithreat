@@ -3532,5 +3532,53 @@
     "first_seen": "2026-10-21T14:05:43Z",
     "first_published": "2026-10-21T13:44:12Z",
     "updated_at": "2026-10-21T14:05:43Z"
+  },
+  {
+    "id": "primorsky-deepfake-scam-foiled",
+    "date": "2026-10-21",
+    "title": "Primorsky Krai police stop online scam using deepfake technology",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "RU",
+    "region": "Asia-Pacific",
+    "target": "Online scam victims in Primorsky Krai",
+    "loss_usd": null,
+    "summary": "Police in Russia's Primorsky Krai say they stopped an online fraud in which scammers used deepfake technology. Victim numbers and losses are not given in the headline.",
+    "actor": "Unknown scammers",
+    "actor_type": "criminal",
+    "sector": "Individuals & consumers",
+    "attribution": "Unknown; police report only says fraudsters used deepfake technology.",
+    "motive": "Financial fraud",
+    "vector": "Online scam using deepfake technology",
+    "root_cause": "Unknown; details not stated in the headline.",
+    "impact": "Unknown; victims and losses not stated.",
+    "response": "Police stopped the online scam, per the Interior Ministry media outlet.",
+    "status": "contained",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.45,
+    "source": "МВД Медиа",
+    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNZnVBcFNzeS13bkNMVHRpVTdEUUNrWGtVZWdoekdzQzE4MWlIN2Z1TFZpaDJnQm1PU0t3cmplV2RJaWJLMnBCOUFmMVdub0tPWE9oUmxNbkdQM1ZpTkxyS2JXS3pkeThSU0FQSy1GQjBRSGVqSzNrcGNIOVc0QmY5MlR0NV93Nm9Za29mV052YzNOTHF1cEpBMEo2bHNNM3RiRU5hYVpYRzUyZzlxTHByMWtQVlVOTDFxdkVzNW4zT1lOTHpTc094bFdjWTN4MDJOR2hrSTRqMUZaTlRj?oc=5",
+    "sources": [
+      {
+        "name": "МВД Медиа",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNZnVBcFNzeS13bkNMVHRpVTdEUUNrWGtVZWdoekdzQzE4MWlIN2Z1TFZpaDJnQm1PU0t3cmplV2RJaWJLMnBCOUFmMVdub0tPWE9oUmxNbkdQM1ZpTkxyS2JXS3pkeThSU0FQSy1GQjBRSGVqSzNrcGNIOVc0QmY5MlR0NV93Nm9Za29mV052YzNOTHF1cEpBMEo2bHNNM3RiRU5hYVpYRzUyZzlxTHByMWtQVlVOTDFxdkVzNW4zT1lOTHpTc094bFdjWTN4MDJOR2hrSTRqMUZaTlRj?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-21",
+        "event": "Reported by МВД Медиа"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-21T14:36:04Z",
+    "wire_id": "08b1bae80c57",
+    "first_seen": "2026-10-21T14:36:04Z",
+    "first_published": "2026-10-21T08:29:55Z",
+    "updated_at": "2026-10-21T14:36:04Z"
   }
 ]
