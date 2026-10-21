@@ -3340,5 +3340,53 @@
     "first_seen": "2026-10-21T08:35:39Z",
     "first_published": "2026-10-20T00:51:49Z",
     "updated_at": "2026-10-21T08:35:39Z"
+  },
+  {
+    "id": "ai-aggregator-18m-files-leak",
+    "date": "2026-10-21",
+    "title": "AI aggregator leaks nearly 18 million files, including sex doll makers' support chats",
+    "category": "Model & data leak",
+    "direction": "on-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "AI aggregator platform and its business customers",
+    "loss_usd": null,
+    "summary": "Cybernews reports an AI aggregator exposed nearly 18 million files, including customer support chats from sex doll makers. The summary gives no further details.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Technology & AI vendors",
+    "attribution": "No attacker identified; exposure reported by Cybernews.",
+    "motive": "Unknown",
+    "vector": "Unknown; the headline says files were leaked or exposed.",
+    "root_cause": "Unknown; the summary does not say how the files became exposed.",
+    "impact": "Nearly 18 million files reportedly exposed, including customer support chats of sex doll makers.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.55,
+    "source": "Cybernews",
+    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBJeFRoTW1vT3A3a1UzUWRpLWFYcjdSbFRMT0RrX3djaGFxem9jMDdmTFJGNE52VGVMXzRvdndrODZTUWNIYkdEYlVrR0JST3h0T0dYdzdiN05oRmU3eC16dnVteFBSZGxTMGdvNXV5OTJ1UFpPemdWTVdMSQ?oc=5",
+    "sources": [
+      {
+        "name": "Cybernews",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBJeFRoTW1vT3A3a1UzUWRpLWFYcjdSbFRMT0RrX3djaGFxem9jMDdmTFJGNE52VGVMXzRvdndrODZTUWNIYkdEYlVrR0JST3h0T0dYdzdiN05oRmU3eC16dnVteFBSZGxTMGdvNXV5OTJ1UFpPemdWTVdMSQ?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-21",
+        "event": "Reported by Cybernews"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-21T11:35:45Z",
+    "wire_id": "a2a749d1e45b",
+    "first_seen": "2026-10-21T11:35:45Z",
+    "first_published": "2026-10-21T10:05:04Z",
+    "updated_at": "2026-10-21T11:35:45Z"
   }
 ]
