@@ -3100,5 +3100,53 @@
     "first_seen": "2026-10-20T21:05:38Z",
     "first_published": "2026-10-20T20:46:55Z",
     "updated_at": "2026-10-20T21:05:38Z"
+  },
+  {
+    "id": "inc-gentlemen-claude-exposed-servers",
+    "date": "2026-10-21",
+    "title": "INC and The Gentlemen ransomware affiliates expose Claude chats and 46 malware builds",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "Unknown victims of INC and The Gentlemen affiliates",
+    "loss_usd": null,
+    "summary": "Ransomware affiliates tied to INC and The Gentlemen left servers publicly accessible, exposing 8,257 messages with Claude and 46 malware builds. Researchers began investigating in late September 2026.",
+    "actor": "INC and The Gentlemen ransomware affiliates",
+    "actor_type": "criminal",
+    "sector": "Unknown",
+    "attribution": "Researchers link the exposed servers (open directories on 45.227.254[.]43 and six more found via configuration files and credentials) to INC and The Gentlemen affiliates.",
+    "motive": "Unknown; ransomware operations, apparently using AI to support intrusions and malware development.",
+    "vector": "AI (Claude) used in the intrusion workflow; discovered via publicly accessible open directories on operational servers.",
+    "root_cause": "Operators left their own infrastructure publicly accessible, exposing configuration files, credentials, AI chat logs and malware builds.",
+    "impact": "8,257 messages and 46 malware builds exposed, giving researchers insight into the actors' AI-assisted tooling. Victim count and losses are not stated.",
+    "response": "Researchers investigated and published findings. No takedown or arrests are mentioned.",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.6,
+    "source": "GBHackers",
+    "url": "https://gbhackers.com/inc-ransomware-attack-2",
+    "sources": [
+      {
+        "name": "GBHackers",
+        "url": "https://gbhackers.com/inc-ransomware-attack-2"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-21",
+        "event": "Reported by GBHackers"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-21T06:05:43Z",
+    "wire_id": "0491c4754899",
+    "first_seen": "2026-10-21T06:05:43Z",
+    "first_published": "2026-10-21T05:57:08Z",
+    "updated_at": "2026-10-21T06:05:43Z"
   }
 ]
