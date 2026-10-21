@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T04:39:56Z",
+  "updated_at": "2026-10-21T05:05:40Z",
   "wire_items": 800,
   "new_items": 0,
   "candidates": 68,
@@ -64,5 +64,5 @@
   "feeds_failed": [
 
   ],
-  "triage": null
+  "triage": "triaged 2 items with claude-sonnet-5-5 in 1 batches (0 failed); kept 0"
 }
