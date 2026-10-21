@@ -51,21 +51,21 @@
   },
   "2026-10-14": {
     "incident": 2,
-    "other": 6,
+    "other": 5,
     "policy": 1,
     "research": 6
   },
   "2026-10-15": {
     "incident": 5,
-    "other": 12,
+    "other": 11,
     "policy": 4,
     "research": 6,
     "vendor-report": 6
   },
   "2026-10-16": {
-    "incident": 37,
+    "incident": 35,
     "other": 22,
-    "policy": 32,
+    "policy": 31,
     "research": 9,
     "vendor-report": 8,
     "vulnerability": 5
@@ -94,19 +94,19 @@
     "vulnerability": 2
   },
   "2026-10-20": {
-    "incident": 80,
+    "incident": 81,
     "other": 9,
     "policy": 13,
     "research": 39,
     "vendor-report": 10,
-    "vulnerability": 6
+    "vulnerability": 7
   },
   "2026-10-21": {
-    "incident": 46,
+    "incident": 47,
     "other": 14,
     "policy": 4,
     "research": 36,
     "vendor-report": 14,
-    "vulnerability": 42
+    "vulnerability": 44
   }
 }
