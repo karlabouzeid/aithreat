@@ -3868,5 +3868,341 @@
     "first_seen": "2026-10-21T19:35:41Z",
     "first_published": "2026-10-21T19:10:00Z",
     "updated_at": "2026-10-21T19:35:41Z"
+  },
+  {
+    "id": "goodwin-complaint-patrick-ai-ads",
+    "date": "2026-10-21",
+    "title": "Texas candidate files police complaint over rival's alleged AI deepfake campaign ads",
+    "category": "Deepfake abuse",
+    "direction": "with-ai",
+    "severity": "low",
+    "country": "US",
+    "region": "North America",
+    "target": "Texas lieutenant governor race",
+    "loss_usd": null,
+    "summary": "Vikki Goodwin filed a police report alleging AI-generated ads released by Dan Patrick's campaign in September break Texas law on deceptive video. Patrick's camp says they are obvious parodies.",
+    "actor": "Dan Patrick campaign (alleged by Vikki Goodwin)",
+    "actor_type": "unknown",
+    "sector": "Politics & elections",
+    "attribution": "Alleged by Vikki Goodwin in a police report; Patrick's campaign denies wrongdoing and calls the ads parodies.",
+    "motive": "Political advertising ahead of the election",
+    "vector": "AI-generated campaign video ads released by the campaign",
+    "root_cause": "Campaign use of AI-generated video that opponents say is deceptive under a state ban near elections; legality disputed.",
+    "impact": "Dispute over deceptive AI political ads in a statewide race. No court ruling reported.",
+    "response": "Goodwin filed a police report; Patrick's campaign says the ads are parody.",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.5,
+    "source": "AI Incident Database",
+    "url": "https://www.texastribune.org/2026/09/21/texas-goodwin-patrick-ad-police-complaint",
+    "sources": [
+      {
+        "name": "AI Incident Database",
+        "url": "https://www.texastribune.org/2026/09/21/texas-goodwin-patrick-ad-police-complaint"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-21",
+        "event": "Reported by AI Incident Database"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-21T20:05:42Z",
+    "wire_id": "5d6e38659d6b",
+    "first_seen": "2026-10-21T20:05:42Z",
+    "first_published": "2026-10-21T00:00:00Z",
+    "updated_at": "2026-10-21T20:05:42Z"
+  },
+  {
+    "id": "talarico-ai-deepfake-republican-ad",
+    "date": "2026-10-21",
+    "title": "Republicans release AI deepfake ad of Texas Senate candidate James Talarico",
+    "category": "Deepfake abuse",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "US",
+    "region": "North America",
+    "target": "James Talarico, Texas Democratic Senate candidate",
+    "loss_usd": null,
+    "summary": "Senate Republicans released an online ad with a realistic AI-fabricated version of Democratic candidate James Talarico speaking directly to camera for over a minute, amid proliferating midterm deepfakes.",
+    "actor": "Senate Republicans (per reporting)",
+    "actor_type": "unknown",
+    "sector": "Politics & elections",
+    "attribution": "Reporting says Senate Republicans released the ad; the source text is truncated.",
+    "motive": "Political advertising in midterm race",
+    "vector": "AI-generated video of a real candidate in an online ad",
+    "root_cause": "Campaigns using realistic generative video of opponents with few limits on political deepfakes.",
+    "impact": "A candidate depicted saying things he did not say on camera in a widely shared ad.",
+    "response": "Unknown",
+    "status": "ongoing",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.6,
+    "source": "AI Incident Database",
+    "url": "https://www.cnn.com/2026/03/13/politics/james-talarico-ai-deepfake-republicans-midterms",
+    "sources": [
+      {
+        "name": "AI Incident Database",
+        "url": "https://www.cnn.com/2026/03/13/politics/james-talarico-ai-deepfake-republicans-midterms"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-21",
+        "event": "Reported by AI Incident Database"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-21T20:05:42Z",
+    "wire_id": "4f04ec2eef6a",
+    "first_seen": "2026-10-21T20:05:42Z",
+    "first_published": "2026-10-21T00:00:00Z",
+    "updated_at": "2026-10-21T20:05:42Z"
+  },
+  {
+    "id": "citizens-for-sanity-talarico-ai-ad",
+    "date": "2026-10-21",
+    "title": "Citizens for Sanity AI ad depicts Texas Senate candidate Talarico singing in a dress",
+    "category": "Deepfake abuse",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "US",
+    "region": "North America",
+    "target": "James Talarico, Texas Democratic Senate candidate",
+    "loss_usd": null,
+    "summary": "Conservative nonprofit Citizens for Sanity published an AI ad, viewed millions of times, showing Talarico in a dress singing about transgender children, skewing his words and positions per reporting.",
+    "actor": "Citizens for Sanity",
+    "actor_type": "unknown",
+    "sector": "Politics & elections",
+    "attribution": "Reporting names Citizens for Sanity, a conservative nonprofit, as publisher of the ad.",
+    "motive": "Political persuasion against a Senate candidate",
+    "vector": "AI-generated video of a real candidate published online",
+    "root_cause": "Easy access to generative video tools used for political advertising without disclosure limits.",
+    "impact": "Ad viewed millions of times, misrepresenting a candidate's words and positions.",
+    "response": "Unknown",
+    "status": "ongoing",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.55,
+    "source": "AI Incident Database",
+    "url": "https://politifact.com/article/2026/jun/22/talarico-artificial-intelligence-ads-senate-texas",
+    "sources": [
+      {
+        "name": "AI Incident Database",
+        "url": "https://politifact.com/article/2026/jun/22/talarico-artificial-intelligence-ads-senate-texas"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-21",
+        "event": "Reported by AI Incident Database"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-21T20:05:42Z",
+    "wire_id": "1ea6e08c0750",
+    "first_seen": "2026-10-21T20:05:42Z",
+    "first_published": "2026-10-21T00:00:00Z",
+    "updated_at": "2026-10-21T20:05:42Z"
+  },
+  {
+    "id": "goias-ai-armed-photo-threat-ex",
+    "date": "2026-10-21",
+    "title": "Goiás man arrested for AI-faked armed photo used to threaten ex-partner",
+    "category": "Deepfake abuse",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "BR",
+    "region": "Latin America",
+    "target": "His former partner",
+    "loss_usd": null,
+    "summary": "Goiás Civil Police arrested a man who used AI tools to simulate a photo of himself armed in order to intimidate his ex-partner in a domestic violence case.",
+    "actor": "Unnamed man arrested by Polícia Civil de Goiás",
+    "actor_type": "criminal",
+    "sector": "Individuals & consumers",
+    "attribution": "Police arrested the man; he is not named in the summary.",
+    "motive": "Intimidation of ex-partner",
+    "vector": "AI image generation or editing to fake a photo of himself armed",
+    "root_cause": "Accessible AI image tools misused for domestic intimidation.",
+    "impact": "A woman was threatened with a fabricated image of her ex-partner armed.",
+    "response": "Arrested by Polícia Civil de Goiás (PCGO).",
+    "status": "contained",
+    "cve": null,
+    "young_people": false,
+    "setting": "home",
+    "age_group": null,
+    "confidence": 0.7,
+    "source": "AI Incident Database",
+    "url": "https://www.metropoles.com/distrito-federal/na-mira/homem-usa-ia-para-simular-fotografia-armado-e-ameacar-ex-companheira",
+    "sources": [
+      {
+        "name": "AI Incident Database",
+        "url": "https://www.metropoles.com/distrito-federal/na-mira/homem-usa-ia-para-simular-fotografia-armado-e-ameacar-ex-companheira"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-21",
+        "event": "Reported by AI Incident Database"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-21T20:05:42Z",
+    "wire_id": "f8ae44fc4dc1",
+    "first_seen": "2026-10-21T20:05:42Z",
+    "first_published": "2026-10-20T00:00:00Z",
+    "updated_at": "2026-10-21T20:05:42Z"
+  },
+  {
+    "id": "kenya-sha-faulty-ai-claim-rejections",
+    "date": "2026-10-21",
+    "title": "Kenya MPs say faulty AI system drove mass rejection of SHA hospital claims",
+    "category": "AI misfire",
+    "direction": "ai-harm",
+    "severity": "medium",
+    "country": "KE",
+    "region": "Middle East & Africa",
+    "target": "Hospitals claiming from Kenya's Social Health Authority",
+    "loss_usd": null,
+    "summary": "A parliamentary committee report alleges over-reliance on a faulty AI system caused widespread rejection of hospital claims at the Social Health Insurance Fund.",
+    "actor": "Social Health Authority claims AI system",
+    "actor_type": "accident",
+    "sector": "Healthcare",
+    "attribution": "Alleged in a National Assembly health committee report; vendor not named in the summary.",
+    "motive": "Unknown",
+    "vector": "Automated AI-based claims processing",
+    "root_cause": "Alleged over-reliance on a faulty AI system for claim adjudication.",
+    "impact": "Alleged widespread rejection of hospital claims, disrupting health facilities' funding and the SHA programme.",
+    "response": "MPs published findings; Health CS Aden Duale defended the Taifa Care programme.",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.55,
+    "source": "AI Incident Database",
+    "url": "https://www.the-star.co.ke/news/2025-12-04-ai-system-flaws-push-sha-into-chaos-mps",
+    "sources": [
+      {
+        "name": "AI Incident Database",
+        "url": "https://www.the-star.co.ke/news/2025-12-04-ai-system-flaws-push-sha-into-chaos-mps"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-21",
+        "event": "Reported by AI Incident Database"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-21T20:05:42Z",
+    "wire_id": "580bea1e7f6f",
+    "first_seen": "2026-10-21T20:05:42Z",
+    "first_published": "2026-10-20T00:00:00Z",
+    "updated_at": "2026-10-21T20:05:42Z"
+  },
+  {
+    "id": "kenya-sha-ai-means-testing",
+    "date": "2026-10-21",
+    "title": "Kenya's AI means-testing for health insurance reportedly loads costs onto the poorest",
+    "category": "AI misfire",
+    "direction": "ai-harm",
+    "severity": "medium",
+    "country": "KE",
+    "region": "Middle East & Africa",
+    "target": "Kenyan applicants to the Social Health Insurance Fund",
+    "loss_usd": null,
+    "summary": "Africa Uncensored, Lighthouse Reports and The Guardian report that Kenya's government used AI to calculate what each person should pay for healthcare, allegedly burdening the poorest.",
+    "actor": "Kenyan government / Social Health Authority (SHA) means-testing system",
+    "actor_type": "unknown",
+    "sector": "Individuals & consumers",
+    "attribution": "Investigation by Africa Uncensored, Lighthouse Reports and The Guardian, as listed by the AI Incident Database.",
+    "motive": "Unknown",
+    "vector": "AI scoring system estimating household means from home-visit survey answers, such as wall materials.",
+    "root_cause": "Unknown; the reporting questions the AI means-testing design and the politics behind it.",
+    "impact": "Poorer Kenyans were allegedly assigned disproportionate health insurance costs. Exact numbers are not given in the summary.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.5,
+    "source": "AI Incident Database",
+    "url": "https://www.theelephant.info/investigations/2026/05/06/hiding-behind-ai-how-sha-was-used-to-load-health-system-costs-onto-poorest",
+    "sources": [
+      {
+        "name": "AI Incident Database",
+        "url": "https://www.theelephant.info/investigations/2026/05/06/hiding-behind-ai-how-sha-was-used-to-load-health-system-costs-onto-poorest"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-21",
+        "event": "Reported by AI Incident Database"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-21T20:05:42Z",
+    "wire_id": "b34ac75eb339",
+    "first_seen": "2026-10-21T20:05:42Z",
+    "first_published": "2026-10-19T00:00:00Z",
+    "updated_at": "2026-10-21T20:05:42Z"
+  },
+  {
+    "id": "iwf-grok-child-sexual-imagery",
+    "date": "2026-01-05",
+    "title": "IWF says Grok appears to have generated sexual imagery of girls aged 11-13",
+    "category": "Deepfake abuse",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "Girls aged 11-13 depicted in AI-generated imagery",
+    "loss_usd": null,
+    "summary": "The Internet Watch Foundation says its analysts found criminal imagery of girls aged 11-13 that appears to have been created using xAI's Grok.",
+    "actor": "Unknown users of Grok (xAI)",
+    "actor_type": "unknown",
+    "sector": "Individuals & consumers",
+    "attribution": "The Internet Watch Foundation says the imagery appears to have been created with Grok; users are not identified.",
+    "motive": "Unknown",
+    "vector": "Prompting the Grok image generation tool, owned by xAI, to produce sexualised images of children.",
+    "root_cause": "Unknown; the summary does not describe Grok's safeguards.",
+    "impact": "Criminal imagery of girls aged 11-13 was found by IWF analysts; the number of images is not given.",
+    "response": "Unknown; the summary gives no company or regulator response.",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": true,
+    "setting": "online",
+    "age_group": "child",
+    "confidence": 0.6,
+    "source": "AI Incident Database",
+    "url": "https://www.bbc.com/news/articles/cvg1mzlryxeo",
+    "sources": [
+      {
+        "name": "AI Incident Database",
+        "url": "https://www.bbc.com/news/articles/cvg1mzlryxeo"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-01-05",
+        "event": "Reported by AI Incident Database"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-21T20:05:42Z",
+    "wire_id": "028f561ea90e",
+    "first_seen": "2026-10-21T20:05:42Z",
+    "first_published": "2026-10-11T00:00:00Z",
+    "updated_at": "2026-10-21T20:05:42Z"
   }
 ]
