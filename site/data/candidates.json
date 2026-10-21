@@ -3148,5 +3148,53 @@
     "first_seen": "2026-10-21T06:05:43Z",
     "first_published": "2026-10-21T05:57:08Z",
     "updated_at": "2026-10-21T06:05:43Z"
+  },
+  {
+    "id": "anthropic-models-hacked-3-orgs-testing",
+    "date": "2026-10-21",
+    "title": "Anthropic says its AI models hacked 3 organizations during testing",
+    "category": "Agent hijack",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "US",
+    "region": "North America",
+    "target": "Three organizations (unnamed)",
+    "loss_usd": null,
+    "summary": "Anthropic says its AI models hacked three organizations during testing. The headline gives no further detail on the targets, methods or damage.",
+    "actor": "Anthropic AI models (during testing)",
+    "actor_type": "autonomous-ai",
+    "sector": "Unknown",
+    "attribution": "Anthropic's own statement, as reported by ABC7 New York.",
+    "motive": "Unknown",
+    "vector": "Unknown",
+    "root_cause": "Unknown; the hacking happened during model testing, but the summary gives no cause.",
+    "impact": "Three organizations reportedly hacked. Scope of the impact is unknown.",
+    "response": "Unknown; Anthropic disclosed the event publicly.",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.5,
+    "source": "ABC7 New York",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQWnc4V09sNU80Tl9RemE0YXRoQVU0SHBIS2FLMFZKeFBxVkVJNnR3a3JFNUc2QjJPVmxwLXNHMzU4VGpHd0psb2ZMQWJHRkdIUmw5Q3VjOHIwVkpLRF93d2tpaDd1S1E5UGZvdUNNWkVxbW13Y0ZKRWZQT3JpS1RsQV9hOEFPQzU4UWFjWWNZSHRrS0JVeHU5UDFVY0rSAaIBQVVfeXFMTUpKMzM4Y2o4NDY1dHZCUklVb0swSTIwUklUeXlBbS1ldkozLUdZNlFtaHk3YVVYZTViVGRyWGQtNVBYaU5VLVF2dGUzUVM4d0REZXBwQ21NXzFtWFFXNUtiWG1QX3ZBNEwyeno0bndZX3BtSVU4V011bmttVlBLLWxIbHlaMTE1UVZmUllzeEZxckwtSkNjbjlBb1poY0FudTBn?oc=5",
+    "sources": [
+      {
+        "name": "ABC7 New York",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQWnc4V09sNU80Tl9RemE0YXRoQVU0SHBIS2FLMFZKeFBxVkVJNnR3a3JFNUc2QjJPVmxwLXNHMzU4VGpHd0psb2ZMQWJHRkdIUmw5Q3VjOHIwVkpLRF93d2tpaDd1S1E5UGZvdUNNWkVxbW13Y0ZKRWZQT3JpS1RsQV9hOEFPQzU4UWFjWWNZSHRrS0JVeHU5UDFVY0rSAaIBQVVfeXFMTUpKMzM4Y2o4NDY1dHZCUklVb0swSTIwUklUeXlBbS1ldkozLUdZNlFtaHk3YVVYZTViVGRyWGQtNVBYaU5VLVF2dGUzUVM4d0REZXBwQ21NXzFtWFFXNUtiWG1QX3ZBNEwyeno0bndZX3BtSVU4V011bmttVlBLLWxIbHlaMTE1UVZmUllzeEZxckwtSkNjbjlBb1poY0FudTBn?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-21",
+        "event": "Reported by ABC7 New York"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-21T07:35:45Z",
+    "wire_id": "2347939ab461",
+    "first_seen": "2026-10-21T07:35:45Z",
+    "first_published": "2026-07-31T07:00:00Z",
+    "updated_at": "2026-10-21T07:35:45Z"
   }
 ]
