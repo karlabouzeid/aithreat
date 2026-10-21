@@ -3388,5 +3388,53 @@
     "first_seen": "2026-10-21T11:35:45Z",
     "first_published": "2026-10-21T10:05:04Z",
     "updated_at": "2026-10-21T11:35:45Z"
+  },
+  {
+    "id": "790-github-repos-hijacked-ai-api-keys",
+    "date": "2026-10-21",
+    "title": "Hackers hijack 790 GitHub repositories to steal cloud credentials and AI API keys",
+    "category": "AI supply chain",
+    "direction": "on-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "790 GitHub repositories and their cloud and AI API keys",
+    "loss_usd": null,
+    "summary": "Per CyberSecurityNews, attackers hijacked 790 GitHub repositories to steal cloud credentials and AI API keys. The headline gives no further detail.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Technology & AI vendors",
+    "attribution": "Unknown; the headline and summary name no actor.",
+    "motive": "Theft of cloud credentials and AI API keys",
+    "vector": "Hijacked GitHub repositories; the exact method is not stated in the headline.",
+    "root_cause": "Unknown",
+    "impact": "790 repositories reportedly hijacked; cloud credentials and AI API keys targeted for theft. Number of victims and any losses are unknown.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.5,
+    "source": "CyberSecurityNews",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE91dXhvaFNaNlFTSllHU3A4U1NjaVBDeUVzempwMy1KbThpYTEtZ2JZYzNwY29XRkNrM3Zpa1ZzY3lpTXI4VG9VdmZTTm9kcE1sUE5jM0NRWGZ3b3pjWE1tMnpWbTNsV2Vla2VXaUdFSmYzNllyRFVtMNIBfkFVX3lxTE5kTXpFenphVUduSnZIbmVjcmhOUXhiMC0teWhyNXg4VHU3YnlXa0JvaXNoV2RlTVF0a2V1MDhqTEY1eC1icjJGN2hWMzg2bEh6WEU4Y1JqNGlhRGhYY3I4REJqOHVQNkJRWGprcTJxcUVLYjJmb0tyWS05UW1KUQ?oc=5",
+    "sources": [
+      {
+        "name": "CyberSecurityNews",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE91dXhvaFNaNlFTSllHU3A4U1NjaVBDeUVzempwMy1KbThpYTEtZ2JZYzNwY29XRkNrM3Zpa1ZzY3lpTXI4VG9VdmZTTm9kcE1sUE5jM0NRWGZ3b3pjWE1tMnpWbTNsV2Vla2VXaUdFSmYzNllyRFVtMNIBfkFVX3lxTE5kTXpFenphVUduSnZIbmVjcmhOUXhiMC0teWhyNXg4VHU3YnlXa0JvaXNoV2RlTVF0a2V1MDhqTEY1eC1icjJGN2hWMzg2bEh6WEU4Y1JqNGlhRGhYY3I4REJqOHVQNkJRWGprcTJxcUVLYjJmb0tyWS05UW1KUQ?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-21",
+        "event": "Reported by CyberSecurityNews"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-21T12:05:45Z",
+    "wire_id": "bf03e09cdae0",
+    "first_seen": "2026-10-21T12:05:45Z",
+    "first_published": "2026-10-20T14:29:46Z",
+    "updated_at": "2026-10-21T12:05:45Z"
   }
 ]
