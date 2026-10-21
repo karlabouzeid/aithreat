@@ -3436,5 +3436,101 @@
     "first_seen": "2026-10-21T12:05:45Z",
     "first_published": "2026-10-20T14:29:46Z",
     "updated_at": "2026-10-21T12:05:45Z"
+  },
+  {
+    "id": "unit42-ai-assisted-cybercrime-actor",
+    "date": "2026-10-21",
+    "title": "Threat actor bypasses AI safety controls to plan credential theft, VoIP fraud, data theft",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "Unknown",
+    "loss_usd": null,
+    "summary": "Unit 42 investigated an actor who bypassed AI safety controls to help plan and run credential theft, VoIP fraud planning and database exfiltration.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Unknown",
+    "attribution": "Unit 42 investigation; the summary does not name the actor.",
+    "motive": "Unknown; the activity points to financial cybercrime, but the summary does not say.",
+    "vector": "AI assistance with safety controls bypassed, used to plan and execute credential theft, VoIP fraud and database exfiltration.",
+    "root_cause": "The AI safety controls were bypassed by the actor.",
+    "impact": "Unknown; the summary lists credential theft, VoIP fraud planning and database exfiltration, with no victims or figures given.",
+    "response": "Unit 42 published its investigation of the activity.",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.5,
+    "source": "Unit 42",
+    "url": "https://unit42.paloaltonetworks.com/ai-assisted-cybercrime-analysis",
+    "sources": [
+      {
+        "name": "Unit 42",
+        "url": "https://unit42.paloaltonetworks.com/ai-assisted-cybercrime-analysis"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-21",
+        "event": "Reported by Unit 42"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-21T14:05:43Z",
+    "wire_id": "1204de495376",
+    "first_seen": "2026-10-21T14:05:43Z",
+    "first_published": "2026-10-21T14:00:24Z",
+    "updated_at": "2026-10-21T14:05:43Z"
+  },
+  {
+    "id": "litellm-1-107-0-trojanized-release",
+    "date": "2026-10-21",
+    "title": "Malicious LiteLLM 1.107.0 on PyPI and Docker steals browser, cloud and AI secrets",
+    "category": "AI supply chain",
+    "direction": "on-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "LiteLLM users on PyPI and Docker",
+    "loss_usd": null,
+    "summary": "Wiz reports a malicious LiteLLM 1.107.0 uploaded to PyPI and Docker on October 21, with a stealer for browser, cloud and AI secrets and a dormant C2.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Technology & AI vendors",
+    "attribution": "Wiz Research reported the incident; the summary names no actor and does not link it to the earlier LiteLLM compromise.",
+    "motive": "Credential theft, judging by the stealer; not stated.",
+    "vector": "Trojanized package version published to PyPI and Docker, containing a credential stealer and a dormant C2 capability.",
+    "root_cause": "Unknown; the summary does not say how the malicious version was published.",
+    "impact": "Credentials for browsers, cloud and AI services are exposed to anyone who installed the version; the number of victims is unknown.",
+    "response": "Wiz Research published an advisory; the summary gives no remediation details.",
+    "status": "ongoing",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.85,
+    "source": "Wiz Research",
+    "url": "https://www.wiz.io/blog/litellm-compromised-steals-credentials",
+    "sources": [
+      {
+        "name": "Wiz Research",
+        "url": "https://www.wiz.io/blog/litellm-compromised-steals-credentials"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-21",
+        "event": "Reported by Wiz Research"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-21T14:05:43Z",
+    "wire_id": "c7046f8aa8cc",
+    "first_seen": "2026-10-21T14:05:43Z",
+    "first_published": "2026-10-21T13:44:12Z",
+    "updated_at": "2026-10-21T14:05:43Z"
   }
 ]
