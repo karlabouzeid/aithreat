@@ -3292,5 +3292,53 @@
     "first_seen": "2026-10-21T08:05:41Z",
     "first_published": "2026-10-21T07:35:39Z",
     "updated_at": "2026-10-21T08:05:41Z"
+  },
+  {
+    "id": "china-ai-security-tool-japan-80-firms",
+    "date": "2026-10-21",
+    "title": "Hackers use Chinese-origin open-source AI security tool against ~80 Japanese firms",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "JP",
+    "region": "Asia-Pacific",
+    "target": "About 80 Japanese companies",
+    "loss_usd": null,
+    "summary": "Hackers reportedly used an open-source AI security tool originating in China, and about 80 Japanese companies were listed as targets. Further details are not given.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Multiple / cross-sector",
+    "attribution": "Unknown; the tool is of Chinese origin but the headline does not attribute the attack to a specific actor.",
+    "motive": "Unknown",
+    "vector": "Open-source AI security tool of Chinese origin repurposed for attacks on listed targets.",
+    "root_cause": "Dual-use open-source AI security tooling abused by attackers.",
+    "impact": "About 80 Japanese companies were listed as targets; the extent of compromise is not stated.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.5,
+    "source": "茉莉花新闻网",
+    "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9mb08yX1pJeUhLZVNNR2pBMW9ZSjUtYm8ybjYyMnBfWS1QanJfUk85RUw4RW5UalF2ODBTSUw0eldNNEpBa3c?oc=5",
+    "sources": [
+      {
+        "name": "茉莉花新闻网",
+        "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9mb08yX1pJeUhLZVNNR2pBMW9ZSjUtYm8ybjYyMnBfWS1QanJfUk85RUw4RW5UalF2ODBTSUw0eldNNEpBa3c?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-21",
+        "event": "Reported by 茉莉花新闻网"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-21T08:35:39Z",
+    "wire_id": "fd961626e930",
+    "first_seen": "2026-10-21T08:35:39Z",
+    "first_published": "2026-10-20T00:51:49Z",
+    "updated_at": "2026-10-21T08:35:39Z"
   }
 ]
