@@ -4348,5 +4348,101 @@
     "first_seen": "2026-10-22T02:35:43Z",
     "first_published": "2026-10-22T02:15:23Z",
     "updated_at": "2026-10-22T02:35:43Z"
+  },
+  {
+    "id": "grok-claude-latam-bank-attacks",
+    "date": "2026-10-22",
+    "title": "Hackers use Grok and Claude to attack Latin American banks",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Latin America",
+    "target": "Banks in Latin America",
+    "loss_usd": null,
+    "summary": "A report says hackers used the Grok and Claude AI models to attack banks in Latin America. The headline gives no further detail on methods, victims or losses.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Financial services",
+    "attribution": "Unknown; the headline names no actor.",
+    "motive": "Unknown",
+    "vector": "Use of Grok and Claude AI models to support attacks on banks; specific technique not stated.",
+    "root_cause": "Unknown",
+    "impact": "Unknown; banks in Latin America were reportedly targeted.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.45,
+    "source": "PYMNTS.com",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNMUV3TTZhOXBPQWxWbDM4ZUJpVXdmbHZDenJkRm1Udm9rZGZZdm1XTXg0WXV0MEloakhMMURqS1Zpalo1THNEczl1N3A1bTJPbzhFX1VKOEVTSjBoTzVpd2dGM0hyeERFa0hrYmNPTnFhVkdGMldEek1wSlg0SU9FOWV2dEpoc2dwejZTS1RUOExQVVJQWjg0MHpTMA?oc=5",
+    "sources": [
+      {
+        "name": "PYMNTS.com",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNMUV3TTZhOXBPQWxWbDM4ZUJpVXdmbHZDenJkRm1Udm9rZGZZdm1XTXg0WXV0MEloakhMMURqS1Zpalo1THNEczl1N3A1bTJPbzhFX1VKOEVTSjBoTzVpd2dGM0hyeERFa0hrYmNPTnFhVkdGMldEek1wSlg0SU9FOWV2dEpoc2dwejZTS1RUOExQVVJQWjg0MHpTMA?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-22",
+        "event": "Reported by PYMNTS.com"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-22T03:35:41Z",
+    "wire_id": "6243402f5b79",
+    "first_seen": "2026-10-22T03:35:41Z",
+    "first_published": "2026-10-21T20:15:11Z",
+    "updated_at": "2026-10-22T03:35:41Z"
+  },
+  {
+    "id": "deepfake-pm-scam-88-year-old-td-bank",
+    "date": "2026-10-22",
+    "title": "88-year-old loses $450,000 to Prime Minister deepfake video; TD Bank declines refund",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "CA",
+    "region": "North America",
+    "target": "88-year-old individual",
+    "loss_usd": 450000,
+    "summary": "An 88-year-old reportedly lost $450,000 after a deepfake video of a Prime Minister. TD Bank reportedly will not repay the money.",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "sector": "Individuals & consumers",
+    "attribution": "Unknown scammers; no attribution given.",
+    "motive": "Financial gain",
+    "vector": "Deepfake video of a Prime Minister used to persuade the victim to send money.",
+    "root_cause": "Victim deceived by a convincing deepfake; the bank declined to cover the loss.",
+    "impact": "Loss of $450,000 by an elderly victim; currency and country are inferred from the headline.",
+    "response": "TD Bank reportedly will not reimburse the victim.",
+    "status": "unresolved",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.6,
+    "source": "The Cool Down",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNS3pTelBObVJaUE1teGVWYTBnMXZUaW1QUDJ6eEVvZGJsNkc2aWtHSHVBemxrdTh5VmxOT1c4NWYwSm9DeFJrM19MdnhCajc2SlhBeWZzTnRuYms4RE8wb2V1MkNfT3RGYkFwcXZyWlZROXJqVHAyX1QwTXZFb3hici05X2pBQlRZZUtFZVYwV1I?oc=5",
+    "sources": [
+      {
+        "name": "The Cool Down",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNS3pTelBObVJaUE1teGVWYTBnMXZUaW1QUDJ6eEVvZGJsNkc2aWtHSHVBemxrdTh5VmxOT1c4NWYwSm9DeFJrM19MdnhCajc2SlhBeWZzTnRuYms4RE8wb2V1MkNfT3RGYkFwcXZyWlZROXJqVHAyX1QwTXZFb3hici05X2pBQlRZZUtFZVYwV1I?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-22",
+        "event": "Reported by The Cool Down"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-22T03:35:41Z",
+    "wire_id": "e79a4febf119",
+    "first_seen": "2026-10-22T03:35:41Z",
+    "first_published": "2026-10-22T03:27:00Z",
+    "updated_at": "2026-10-22T03:35:41Z"
   }
 ]
