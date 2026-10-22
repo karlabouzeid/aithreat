@@ -4300,5 +4300,53 @@
     "first_seen": "2026-10-22T01:05:44Z",
     "first_published": "2026-10-22T01:03:29Z",
     "updated_at": "2026-10-22T01:05:44Z"
+  },
+  {
+    "id": "ai-assisted-microsoft-365-attacks",
+    "date": "2026-10-22",
+    "title": "Hackers use AI to compromise Microsoft 365 instances within three hours",
+    "category": "AI phishing",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "Microsoft 365 customer instances",
+    "loss_usd": null,
+    "summary": "A report says hackers used AI to attack Microsoft 365, and some instances were compromised in about three hours. The headline gives no victim count or technique.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Multiple / cross-sector",
+    "attribution": "Unknown; the headline names no actor.",
+    "motive": "Unknown",
+    "vector": "Unknown; the headline says only that AI was used to attack Microsoft 365.",
+    "root_cause": "Unknown; the headline gives no root cause.",
+    "impact": "Some Microsoft 365 instances were reportedly compromised in about three hours. The number of victims and the data affected are unknown.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.45,
+    "source": "Vietnam.vn",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOUmJhcG9yUE9jNkR6R2NfaGJoOFBYVWg3ZXhVVzlKamNjcV9xYnFDazFIZnFXSkx5cnNfOFhzc3ktLXdzNExQa2V1SjdUdlZlSnJmX3N4R2d3bmQyWWtOZ05aR1V3azZsMnB4TkQyWE9NWUdOUkQ0ejRudU9zdUYwWGhmUWprendiN2VJNWM4UXk2c080MWgyTkJ2VW5FSFRSTmc?oc=5",
+    "sources": [
+      {
+        "name": "Vietnam.vn",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOUmJhcG9yUE9jNkR6R2NfaGJoOFBYVWg3ZXhVVzlKamNjcV9xYnFDazFIZnFXSkx5cnNfOFhzc3ktLXdzNExQa2V1SjdUdlZlSnJmX3N4R2d3bmQyWWtOZ05aR1V3azZsMnB4TkQyWE9NWUdOUkQ0ejRudU9zdUYwWGhmUWprendiN2VJNWM4UXk2c080MWgyTkJ2VW5FSFRSTmc?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-22",
+        "event": "Reported by Vietnam.vn"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-22T02:35:43Z",
+    "wire_id": "926c0e889e54",
+    "first_seen": "2026-10-22T02:35:43Z",
+    "first_published": "2026-10-22T02:15:23Z",
+    "updated_at": "2026-10-22T02:35:43Z"
   }
 ]
