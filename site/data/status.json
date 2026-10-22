@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-22T18:35:38Z",
+  "updated_at": "2026-10-22T19:05:54Z",
   "wire_items": 800,
-  "new_items": 5,
-  "candidates": 98,
+  "new_items": 8,
+  "candidates": 99,
   "incidents": 433,
   "feeds_ok": [
     "BleepingComputer",
@@ -64,5 +64,5 @@
   "feeds_failed": [
 
   ],
-  "triage": "triaged 9 items with claude-sonnet-5-5 in 1 batches (0 failed); kept 5"
+  "triage": "triaged 16 items with claude-sonnet-5-5 in 1 batches (0 failed); kept 8"
 }

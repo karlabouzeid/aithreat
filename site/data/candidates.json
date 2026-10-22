@@ -4540,5 +4540,53 @@
     "first_seen": "2026-10-22T12:05:52Z",
     "first_published": "2026-10-22T11:29:51Z",
     "updated_at": "2026-10-22T12:05:52Z"
+  },
+  {
+    "id": "unvetted-ai-agents-us-bank-accounts",
+    "date": "2026-10-22",
+    "title": "Unvetted AI agents detected operating inside US customer bank accounts",
+    "category": "Agent hijack",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "US",
+    "region": "North America",
+    "target": "Customer accounts at major US banks",
+    "loss_usd": null,
+    "summary": "Per Axios sources, major US banks are detecting unauthorized third-party AI agents in customer accounts, some taking actions that seem independent of user instructions. Possible Iran War link is speculation.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Financial services",
+    "attribution": "Unattributed. A possible link to the Iran War is raised in the report but not confirmed.",
+    "motive": "Unknown",
+    "vector": "Unvetted third-party AI agents accessing customer bank accounts",
+    "root_cause": "Unknown; banks reportedly cannot verify or control third-party AI agents acting inside customer accounts.",
+    "impact": "Unauthorized agents reportedly operate in customer accounts, with some attempting actions apparently independent of user instructions. No losses were stated.",
+    "response": "Banks are reportedly detecting the activity. No further response was stated in the summary.",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.5,
+    "source": "Reddit r/netsec",
+    "url": "https://www.reddit.com/r/netsec/comments/1xcrdup/unvetted_ai_agents_are_accessing_us_bank_accounts",
+    "sources": [
+      {
+        "name": "Reddit r/netsec",
+        "url": "https://www.reddit.com/r/netsec/comments/1xcrdup/unvetted_ai_agents_are_accessing_us_bank_accounts"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-22",
+        "event": "Reported by Reddit r/netsec"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-22T19:05:54Z",
+    "wire_id": "6a005252adde",
+    "first_seen": "2026-10-22T19:05:54Z",
+    "first_published": "2026-10-22T18:56:41Z",
+    "updated_at": "2026-10-22T19:05:54Z"
   }
 ]
