@@ -424,7 +424,6 @@
     <p class="sr" id="t-h1"></p>
     <p class="sr" id="t-lede"></p>
     <section class="intro" id="intro"></section>
-    <section class="blk" id="latest"></section>
     <section class="blk" id="newsbox"></section>
     <div class="blkhead"><h2 id="t-maph"></h2><p id="t-mapsub"></p></div>
     <div class="hero">
@@ -1264,29 +1263,17 @@ const a2 = el('a', 'link', t('fin_page')); a2.href = (lang === 'en' ? '' : '/' +
     const wl = el('p', 'winlbl', t('w12_since', { date: fmtDate(WIN_FROM) }) + ' · ' + t('all_time_n', { n: fmtN(all.length) }));
     box.replaceChildren(el('h1', null, t('hm_h1')), el('p', 'lede', t('hm_lede')), wl, k);
   }
-  function renderLatest() {
-    const box = document.getElementById('latest'); if (!box) return;
-    const ver = verified().slice().sort((a, b) => String(b.date).localeCompare(String(a.date)) || String(b.verified_at || "").localeCompare(String(a.verified_at || "")));
-    const grid = el('div', 'lcards');
-    ver.slice(0, 5).forEach((raw) => {
-      const i = L(raw); const c = el('article', 'lcard'); c.dataset.sev = i.severity;
-      const m = el('div', 'm'); m.append(el('b', null, tt('sev', i.severity)), document.createTextNode(' · ' + tt('cats', i.category) + ' · ' + fmtDate(i.date)));
-      const h = el('h3'); const a = el('a', null, i.title); a.href = caseUrl(i.id); h.append(a);
-      const acts = el('div', 'acts'); const r = el('a', null, t('read_case')); r.href = caseUrl(i.id); acts.append(r, shareBtn(caseUrl(i.id), i.title));
-      c.append(m, h, acts); grid.append(c);
-    });
-    box.replaceChildren(el('h2', null, t('latest_h')), el('p', null, t('latest_sub')), grid);
-  }
   function renderNewsBox() {
     const box = document.getElementById('newsbox'); if (!box) return;
-    const items = state.wire.slice().sort((a, b) => String(b.published || b.seen).localeCompare(String(a.published || a.seen))).slice(0, 5);
+    const mine = state.wire.filter((w) => w.kind && (!w.lang || w.lang === 'en' || w.lang === state.lang));
+    const items = mine.slice().sort((a, b) => String(b.seen || b.published).localeCompare(String(a.seen || a.published))).slice(0, 5);
     if (!items.length) { box.hidden = true; return; }
     box.hidden = false;
     const n = state.live && state.live.feeds_ok ? state.live.feeds_ok.length + (state.live.feeds_failed || []).length : 17;
     const list = el('div', 'nbox');
     items.forEach((w) => {
       const r = el('div', 'nrow');
-      r.append(el('time', null, new Date(w.published || w.seen).toLocaleTimeString(loc(), { hour: '2-digit', minute: '2-digit' })));
+      r.append(el('time', null, new Date(w.seen || w.published).toLocaleTimeString(loc(), { hour: '2-digit', minute: '2-digit' })));
       const body = el('div'); const a = el('a', null, w.one_line || w.title); a.href = '#wire'; body.append(a, el('small', null, [w.source, w.tag].filter(Boolean).join(' · ')));
       r.append(body, shareBtn(storyUrl(w), (w.one_line || w.title) + ' (' + w.source + ')')); list.append(r);
     });
@@ -1321,7 +1308,7 @@ const a2 = el('a', 'link', t('fin_page')); a2.href = (lang === 'en' ? '' : '/' +
     box.hidden = false; box.replaceChildren(el('h2', null, t('rsch_h')), el('p', null, t('rsch_sub')), el('p', 'winlbl', t('research_all_time')), p, more);
   }
   function renderSections() {
-    renderIntro(); renderLatest(); renderNewsBox(); renderTrends(); renderRsch();
+    renderIntro(); renderNewsBox(); renderTrends(); renderRsch();
     const mh = document.getElementById('t-maph'); if (mh) mh.textContent = t('map_h');
     const ms = document.getElementById('t-mapsub'); if (ms) ms.textContent = t('map_sub');
   }
