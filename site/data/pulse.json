@@ -60,14 +60,12 @@
     "incident": 1
   },
   "2026-10-17": {
-    "incident": 3,
-    "other": 1,
+    "incident": 1,
     "research": 1
   },
   "2026-10-18": {
-    "incident": 19,
-    "other": 1,
-    "policy": 3
+    "incident": 13,
+    "policy": 1
   },
   "2026-10-19": {
     "incident": 103,
@@ -94,11 +92,11 @@
     "vulnerability": 67
   },
   "2026-10-22": {
-    "incident": 103,
-    "other": 31,
+    "incident": 110,
+    "other": 33,
     "policy": 2,
     "research": 32,
-    "vendor-report": 10,
-    "vulnerability": 56
+    "vendor-report": 11,
+    "vulnerability": 59
   }
 }
