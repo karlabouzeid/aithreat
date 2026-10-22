@@ -4204,5 +4204,53 @@
     "first_seen": "2026-10-21T20:05:42Z",
     "first_published": "2026-10-11T00:00:00Z",
     "updated_at": "2026-10-21T20:05:42Z"
+  },
+  {
+    "id": "ai-assisted-php-flaw-gov-sites-offline",
+    "date": "2026-10-22",
+    "title": "Hackers using AI mass-exploit severe PHP flaw, taking government sites offline",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "Government websites running vulnerable PHP",
+    "loss_usd": null,
+    "summary": "Chinese-language reporting says hackers using AI attacked websites in bulk through a serious PHP vulnerability, and government sites in several countries were taken offline. Details are limited.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Government & public sector",
+    "attribution": "Unknown; the headline and related reports name no actor.",
+    "motive": "Unknown",
+    "vector": "Exploitation of a serious PHP vulnerability, reportedly found with AI and attacked in bulk with AI tooling.",
+    "root_cause": "A severe flaw in PHP, reportedly discovered with AI, left web servers exposed to mass exploitation.",
+    "impact": "Government websites in multiple countries were reportedly taken offline urgently. Reports say large shares of websites worldwide may be at risk.",
+    "response": "Government sites were reportedly taken offline as an emergency measure; no further response is stated.",
+    "status": "ongoing",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.5,
+    "source": "新浪财经",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE82UXI0NDQ0OEdlOE91R2tOY3VwZDlIelFmaEdtMWpUa1BXOG1idHVaMFlzQTd4WW1aZ3BoSkViWW1VOEZKQ2FKYkZ6X1lkQ3YtaXU5QmFKT2kyS3RyYURwWnpmV3M1a0RfWlQ1UzU1ZHpUdTRvVEtYQg?oc=5",
+    "sources": [
+      {
+        "name": "新浪财经",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE82UXI0NDQ0OEdlOE91R2tOY3VwZDlIelFmaEdtMWpUa1BXOG1idHVaMFlzQTd4WW1aZ3BoSkViWW1VOEZKQ2FKYkZ6X1lkQ3YtaXU5QmFKT2kyS3RyYURwWnpmV3M1a0RfWlQ1UzU1ZHpUdTRvVEtYQg?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-22",
+        "event": "Reported by 新浪财经"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-22T00:35:41Z",
+    "wire_id": "b7144b8dc477",
+    "first_seen": "2026-10-22T00:35:41Z",
+    "first_published": "2026-10-22T00:16:54Z",
+    "updated_at": "2026-10-22T00:35:41Z"
   }
 ]
