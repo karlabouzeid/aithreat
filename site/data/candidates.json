@@ -4252,5 +4252,53 @@
     "first_seen": "2026-10-22T00:35:41Z",
     "first_published": "2026-10-22T00:16:54Z",
     "updated_at": "2026-10-22T00:35:41Z"
+  },
+  {
+    "id": "eao-voice-clone-scam-2026-10",
+    "date": "2026-10-22",
+    "title": "Scammers clone residents' voices with AI to extract money in Jewish Autonomous Oblast",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "RU",
+    "region": "Asia-Pacific",
+    "target": "Residents of the Jewish Autonomous Oblast and their contacts",
+    "loss_usd": null,
+    "summary": "Per a local news report, scammers use a neural network to clone residents' voices and trick acquaintances into sending money. The number of victims and the amounts are not given.",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "sector": "Individuals & consumers",
+    "attribution": "Unattributed; local news report (RIA Birobidzhan) describes unnamed scammers.",
+    "motive": "Financial gain",
+    "vector": "AI voice cloning of residents' voices, used to contact acquaintances and request money.",
+    "root_cause": "Easy access to voice-cloning tools combined with trust between acquaintances, who rely on voice for identity.",
+    "impact": "Victims are reported to have been persuaded to send money; the number of victims and the losses are not stated.",
+    "response": "Unknown; the headline suggests a public warning to residents.",
+    "status": "ongoing",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.5,
+    "source": "РИА Биробиджан",
+    "url": "https://news.google.com/rss/articles/CBMiPkFVX3lxTE40Y3ZVdWJRelNRemU1WHA0YW1vcGFHU1lxelRrYk45Qjc2b1MtYzNSTDlJZllGQ1dCMVZzUGpB?oc=5",
+    "sources": [
+      {
+        "name": "РИА Биробиджан",
+        "url": "https://news.google.com/rss/articles/CBMiPkFVX3lxTE40Y3ZVdWJRelNRemU1WHA0YW1vcGFHU1lxelRrYk45Qjc2b1MtYzNSTDlJZllGQ1dCMVZzUGpB?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-22",
+        "event": "Reported by РИА Биробиджан"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-22T01:05:44Z",
+    "wire_id": "ebdb15fcd3ad",
+    "first_seen": "2026-10-22T01:05:44Z",
+    "first_published": "2026-10-22T01:03:29Z",
+    "updated_at": "2026-10-22T01:05:44Z"
   }
 ]
