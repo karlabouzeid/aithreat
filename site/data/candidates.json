@@ -4492,5 +4492,53 @@
     "first_seen": "2026-10-22T04:35:41Z",
     "first_published": "2026-10-16T00:00:00Z",
     "updated_at": "2026-10-22T04:35:41Z"
+  },
+  {
+    "id": "china-linked-ai-breach-2250-firms",
+    "date": "2026-10-22",
+    "title": "China-linked hackers reportedly use AI system to breach over 2,250 companies, per Microsoft",
+    "category": "State actor AI ops",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "More than 2,250 companies (per Microsoft, via Infobae)",
+    "loss_usd": null,
+    "summary": "Infobae reports that Microsoft says China-linked hackers used an AI system to breach more than 2,250 companies. The headline gives no further detail.",
+    "actor": "China-linked hackers (per Microsoft)",
+    "actor_type": "state",
+    "sector": "Multiple / cross-sector",
+    "attribution": "Microsoft, as reported by Infobae, links the activity to hackers tied to China. No group name given in the headline.",
+    "motive": "Unknown",
+    "vector": "An AI system used to breach targets; technique not specified in the headline.",
+    "root_cause": "Unknown",
+    "impact": "More than 2,250 companies reportedly breached.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.45,
+    "source": "Infobae",
+    "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQYi1jc3ZhSktHRWpmRHZwRTV3Q19iRzFSLWdFQVd6akZTaGl1OTJGU3IwOHJiYzR3blIwWHVUMnVvV3d4dGxpaERFN3FSZ245WnQ2aUFuUDBKQkhTZldLdDVyUTVOdXpUdmdvMjliUGRMemtVZ1JidW96Rk1XaGxMU0Zfc3Z4Szd1U3ZySVMza1c1dVhTbE5yMXhxQkRkLTdBMWxQYk1DMkhwMkRVYWw3N1c0TEdnZ2hyZmY0YXJXaE5MN0NteERGRkNlM2FVVWJLeWE2NlpBSFpNMmczSWRqZWIxV19DRnhsamc2TUVqSEs2c0xyUEtQcNIB-AFBVV95cUxQYi1jc3ZhSktHRWpmRHZwRTV3Q19iRzFSLWdFQVd6akZTaGl1OTJGU3IwOHJiYzR3blIwWHVUMnVvV3d4dGxpaERFN3FSZ245WnQ2aUFuUDBKQkhTZldLdDVyUTVOdXpUdmdvMjliUGRMemtVZ1JidW96Rk1XaGxMU0Zfc3Z4Szd1U3ZySVMza1c1dVhTbE5yMXhxQkRkLTdBMWxQYk1DMkhwMkRVYWw3N1c0TEdnZ2hyZmY0YXJXaE5MN0NteERGRkNlM2FVVWJLeWE2NlpBSFpNMmczSWRqZWIxV19DRnhsamc2TUVqSEs2c0xyUEtQcA?oc=5",
+    "sources": [
+      {
+        "name": "Infobae",
+        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQYi1jc3ZhSktHRWpmRHZwRTV3Q19iRzFSLWdFQVd6akZTaGl1OTJGU3IwOHJiYzR3blIwWHVUMnVvV3d4dGxpaERFN3FSZ245WnQ2aUFuUDBKQkhTZldLdDVyUTVOdXpUdmdvMjliUGRMemtVZ1JidW96Rk1XaGxMU0Zfc3Z4Szd1U3ZySVMza1c1dVhTbE5yMXhxQkRkLTdBMWxQYk1DMkhwMkRVYWw3N1c0TEdnZ2hyZmY0YXJXaE5MN0NteERGRkNlM2FVVWJLeWE2NlpBSFpNMmczSWRqZWIxV19DRnhsamc2TUVqSEs2c0xyUEtQcNIB-AFBVV95cUxQYi1jc3ZhSktHRWpmRHZwRTV3Q19iRzFSLWdFQVd6akZTaGl1OTJGU3IwOHJiYzR3blIwWHVUMnVvV3d4dGxpaERFN3FSZ245WnQ2aUFuUDBKQkhTZldLdDVyUTVOdXpUdmdvMjliUGRMemtVZ1JidW96Rk1XaGxMU0Zfc3Z4Szd1U3ZySVMza1c1dVhTbE5yMXhxQkRkLTdBMWxQYk1DMkhwMkRVYWw3N1c0TEdnZ2hyZmY0YXJXaE5MN0NteERGRkNlM2FVVWJLeWE2NlpBSFpNMmczSWRqZWIxV19DRnhsamc2TUVqSEs2c0xyUEtQcA?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-22",
+        "event": "Reported by Infobae"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-22T12:05:52Z",
+    "wire_id": "9f601b4914b4",
+    "first_seen": "2026-10-22T12:05:52Z",
+    "first_published": "2026-10-22T11:29:51Z",
+    "updated_at": "2026-10-22T12:05:52Z"
   }
 ]
