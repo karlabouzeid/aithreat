@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T09:36:29Z",
+  "generated_at": "2026-10-22T10:06:32Z",
   "total": 433,
   "trend_from": "2025-01-01",
   "finance": {
@@ -956,7 +956,7 @@
     {
       "day": "2026-10-16",
       "kinds": {
-        "incident": 10,
+        "incident": 7,
         "vulnerability": 0,
         "research": 0,
         "vendor-report": 0,
@@ -968,12 +968,12 @@
     {
       "day": "2026-10-17",
       "kinds": {
-        "incident": 19,
+        "incident": 18,
         "vulnerability": 0,
         "research": 3,
         "vendor-report": 0,
         "policy": 6,
-        "other": 8,
+        "other": 6,
         "untagged": 0
       }
     },
@@ -985,7 +985,7 @@
         "research": 8,
         "vendor-report": 1,
         "policy": 7,
-        "other": 15,
+        "other": 14,
         "untagged": 0
       }
     },
@@ -1006,7 +1006,7 @@
       "kinds": {
         "incident": 81,
         "vulnerability": 7,
-        "research": 39,
+        "research": 40,
         "vendor-report": 11,
         "policy": 13,
         "other": 10,
@@ -1028,9 +1028,9 @@
     {
       "day": "2026-10-22",
       "kinds": {
-        "incident": 48,
-        "vulnerability": 33,
-        "research": 20,
+        "incident": 50,
+        "vulnerability": 35,
+        "research": 22,
         "vendor-report": 6,
         "policy": 1,
         "other": 21,
