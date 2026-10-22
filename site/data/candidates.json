@@ -4444,5 +4444,53 @@
     "first_seen": "2026-10-22T03:35:41Z",
     "first_published": "2026-10-22T03:27:00Z",
     "updated_at": "2026-10-22T03:35:41Z"
+  },
+  {
+    "id": "tag-217-artex-south-korea-finance",
+    "date": "2026-10-22",
+    "title": "TAG-217 uses AI-driven ARTEX framework against South Korean financial services",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "KR",
+    "region": "Asia-Pacific",
+    "target": "South Korean financial institutions",
+    "loss_usd": null,
+    "summary": "Recorded Future reports threat actor TAG-217 used the AI-driven ARTEX framework in recent cyberattacks on South Korean financial institutions.",
+    "actor": "TAG-217",
+    "actor_type": "unknown",
+    "sector": "Financial services",
+    "attribution": "Recorded Future tracks the activity as TAG-217; further attribution is not stated in the summary.",
+    "motive": "Unknown",
+    "vector": "AI-driven ARTEX attack framework; specific initial access method not stated.",
+    "root_cause": "Unknown",
+    "impact": "Targeting of South Korean financial institutions reported; scale and losses are not stated.",
+    "response": "Recorded Future published analysis of the activity; no other response is stated.",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.6,
+    "source": "Recorded Future",
+    "url": "https://www.recordedfuture.com/blog/tag-217-artex-south-korean-banks",
+    "sources": [
+      {
+        "name": "Recorded Future",
+        "url": "https://www.recordedfuture.com/blog/tag-217-artex-south-korean-banks"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-22",
+        "event": "Reported by Recorded Future"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-22T04:35:41Z",
+    "wire_id": "20108473e88e",
+    "first_seen": "2026-10-22T04:35:41Z",
+    "first_published": "2026-10-16T00:00:00Z",
+    "updated_at": "2026-10-22T04:35:41Z"
   }
 ]
