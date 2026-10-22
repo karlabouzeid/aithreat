@@ -4588,5 +4588,53 @@
     "first_seen": "2026-10-22T19:05:54Z",
     "first_published": "2026-10-22T18:56:41Z",
     "updated_at": "2026-10-22T19:05:54Z"
+  },
+  {
+    "id": "spb-choreographer-beglov-ai-avatar-scam",
+    "date": "2026-10-22",
+    "title": "St Petersburg choreographer scammed by AI avatar of Governor Beglov",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "RU",
+    "region": "Europe",
+    "target": "Choreographer Komleva, St Petersburg",
+    "loss_usd": null,
+    "summary": "Scammers reportedly used an AI avatar of St Petersburg governor Alexander Beglov to deceive choreographer Komleva. Loss amount and method are not stated.",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "sector": "Individuals & consumers",
+    "attribution": "Unknown scammers; no attribution given in the report.",
+    "motive": "Financial fraud (presumed)",
+    "vector": "AI-generated avatar of a public official used to impersonate him to the victim",
+    "root_cause": "Realistic AI avatars of officials can be used to impersonate them and win victims' trust.",
+    "impact": "A St Petersburg choreographer was deceived by the scammers. The amount lost is not stated in the headline.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.6,
+    "source": "Рамблер",
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNOFotek5IZmJFX1Y4LWJSTHJBWUlfTm0yZ1dYajd0QjI2Z1ZCWGJhc0NVZ0p1NDl6YmtRVWlxSl9ZeWNQWU5KZVR1NzkzbWtqdnA2RTFHNFNZY3cyX2ZvUTdCaE9mWmVmdDRoMEFwQTJqV1FEaGZMMnpSXzUtZWxkVlR2NkE4Q3Zxblp5MmVGUkEzZzUtaDg0RjJTZjVySW1HSDg3czlxTlRSeWFnM2RRZ1pXN2d6UVBUaFpyTzF1WDdod9IBwgFBVV95cUxNOFotek5IZmJFX1Y4LWJSTHJBWUlfTm0yZ1dYajd0QjI2Z1ZCWGJhc0NVZ0p1NDl6YmtRVWlxSl9ZeWNQWU5KZVR1NzkzbWtqdnA2RTFHNFNZY3cyX2ZvUTdCaE9mWmVmdDRoMEFwQTJqV1FEaGZMMnpSXzUtZWxkVlR2NkE4Q3Zxblp5MmVGUkEzZzUtaDg0RjJTZjVySW1HSDg3czlxTlRSeWFnM2RRZ1pXN2d6UVBUaFpyTzF1WDdodw?oc=5",
+    "sources": [
+      {
+        "name": "Рамблер",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNOFotek5IZmJFX1Y4LWJSTHJBWUlfTm0yZ1dYajd0QjI2Z1ZCWGJhc0NVZ0p1NDl6YmtRVWlxSl9ZeWNQWU5KZVR1NzkzbWtqdnA2RTFHNFNZY3cyX2ZvUTdCaE9mWmVmdDRoMEFwQTJqV1FEaGZMMnpSXzUtZWxkVlR2NkE4Q3Zxblp5MmVGUkEzZzUtaDg0RjJTZjVySW1HSDg3czlxTlRSeWFnM2RRZ1pXN2d6UVBUaFpyTzF1WDdod9IBwgFBVV95cUxNOFotek5IZmJFX1Y4LWJSTHJBWUlfTm0yZ1dYajd0QjI2Z1ZCWGJhc0NVZ0p1NDl6YmtRVWlxSl9ZeWNQWU5KZVR1NzkzbWtqdnA2RTFHNFNZY3cyX2ZvUTdCaE9mWmVmdDRoMEFwQTJqV1FEaGZMMnpSXzUtZWxkVlR2NkE4Q3Zxblp5MmVGUkEzZzUtaDg0RjJTZjVySW1HSDg3czlxTlRSeWFnM2RRZ1pXN2d6UVBUaFpyTzF1WDdodw?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-22",
+        "event": "Reported by Рамблер"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-22T20:05:56Z",
+    "wire_id": "e153dc8d1686",
+    "first_seen": "2026-10-22T20:05:56Z",
+    "first_published": "2026-10-22T13:33:26Z",
+    "updated_at": "2026-10-22T20:05:56Z"
   }
 ]
