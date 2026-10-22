@@ -306,6 +306,7 @@ key = %(<section class="sec rstatus"><h2>#{h(thx(lang, :status_panel_h, n: st['c
     #{crumbs_html(lang, [[rx(lang, :research), nil]])}
     <h1>#{h(title)}</h1>
     <p class="lede">#{h(lede)}</p>
+    <p class="winlbl">#{h(x(lang, :research_all_time))}</p>
     #{share_row(lang, url, title)}
     <div class="kpis rkpis">#{kpis}</div>
     #{key}

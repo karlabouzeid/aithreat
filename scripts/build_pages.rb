@@ -269,6 +269,10 @@ LANGS.each { |l| EXTRA[l] = (EXTRA[l] || {}).merge(MORE[l] || {}) }
 require_relative "why_strings"
 LANGS.each { |l| EXTRA[l] = EXTRA[l].merge(WHY[l] || {}) }
 require_relative "patterns_strings"
+require_relative "window_strings"
+LANGS.each { |l| EXTRA[l] = EXTRA[l].merge(WINDOW[l] || {}) }
+# Reporting window: lists show the last 12 months first, older case files as an archive below.
+WIN_FROM = (Time.now.utc - WINDOW_DAYS * 86_400).strftime("%Y-%m-%d")
 require_relative "info_strings"
 LANGS.each { |l| EXTRA[l] = EXTRA[l].merge(PATTERNS[l] || {}) }
 EXTRA.freeze
@@ -781,6 +785,7 @@ def case_page(i_en, lang, prev_i, next_i)
     <article>
     <p class="eyebrow"><span>#{h(t(lang, 'case'))} #{h(i['id'])}</span><span>#{h(cat)}</span><time datetime="#{h(i['date'])}">#{h(date_h)}</time><span><a href="#{pre(lang)}/cases/country/#{slug(i['country'] || 'gl')}/" style="color:inherit">#{h(place)}</a></span></p>
     <h1>#{h(i['title'])}</h1>
+    #{i_en["date"].to_s < WIN_FROM ? %(<p class="notice">#{h(x(lang, :archive_badge))}</p>) : ""}
     <p class="lede">#{h(i['summary'])}</p>
     <p class="pills"><span class="pill sev" data-sev="#{i['severity']}">#{h(sev)}</span><span class="pill">#{h(i['direction'] == 'on-ai' ? t(lang, 'attack_on') : i['direction'] == 'ai-harm' ? t(lang, 'attack_harm') : t(lang, 'attack_using'))}</span>#{present(i['status']) ? %(<span class="pill">#{h(t(lang, 'status'))}: #{h(tt(lang, 'statuses', i['status']))}</span>) : ''}<span class="pill">#{h(x(lang, :verified))}</span></p>
     <p class="tools"><a class="btn" href="/#{q}##{h(i['id'])}">#{h(x(lang, :open_map))}</a><a class="btn ghost" href="#cite">#{h(x(lang, :cite))}</a>#{share_button(lang, url, i['title'])}</p>
@@ -832,7 +837,9 @@ def list_page(items_en, lang, kind:, key: nil, all_cats: [], all_countries: [], 
   chips_cat = all_cats.map { |c| %(<a href="#{pre(lang)}/cases/category/#{slug(c)}/"#{kind == :cat && c == key ? ' aria-current="page"' : ''}>#{h(tt(lang, 'cats', c))}</a>) }.join
   chips_cc = all_countries.map { |c| %(<a href="#{pre(lang)}/cases/country/#{slug(c)}/"#{kind == :country && c == key ? ' aria-current="page"' : ''}>#{h(place_name(lang, c))}</a>) }.join
   chips_co = all_companies.map { |c| %(<a href="#{pre(lang)}/cases/company/#{slug(c)}/"#{kind == :company && c == key ? ' aria-current="page"' : ''}>#{h(c)}</a>) }.join
-  rows = items_en.map { |i_en| case_row(lang, i_en) }.join
+  recent, older = items_en.partition { |i| i["date"].to_s >= WIN_FROM }
+  rows = recent.map { |i_en| case_row(lang, i_en) }.join
+  older_rows = older.map { |i_en| case_row(lang, i_en) }.join
   crumbs = kind == :index ? "" : %(<nav class="crumbs" aria-label="Breadcrumb"><a href="/#{lang == 'en' ? '' : '?lang=' + lang}">AI Threat Watch</a> › <a href="#{pre(lang)}/cases/">#{h(x(lang, :all_cases))}</a></nav>)
   body = <<~HTML
     #{crumbs}
@@ -841,7 +848,9 @@ def list_page(items_en, lang, kind:, key: nil, all_cats: [], all_countries: [], 
     <h3 class="sub">#{h(x(lang, :by_cat))} · <a href="#{pre(lang)}/cases/glossary/">#{h(x(lang, :glossary))}</a></h3><div class="chips"><a href="#{pre(lang)}/cases/"#{kind == :index ? ' aria-current="page"' : ''}>#{h(t(lang, 'ver_all'))}</a>#{chips_cat}</div>
     <h3 class="sub">#{h(x(lang, :by_country))}</h3><div class="chips">#{chips_cc}</div>
     <h3 class="sub">#{h(x(lang, :by_company))}</h3><div class="chips">#{chips_co}</div>
-    <ul class="cases">#{rows}</ul>
+    <p class="notice">#{h(x(lang, :w12_since, date: fmt_date(WIN_FROM, lang)))} · #{h(x(lang, :all_time_n, n: n))}</p>
+    #{rows.empty? ? "" : %(<ul class="cases">#{rows}</ul>)}
+    #{older_rows.empty? ? "" : %(<h3 class="sub">#{h(x(lang, :older_h))}</h3><ul class="cases">#{older_rows}</ul>)}
   HTML
   shell(lang, "cases", headhtml, body, alternates)
 end

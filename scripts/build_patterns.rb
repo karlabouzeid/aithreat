@@ -26,6 +26,8 @@ PATTERNS_CSS = <<~CSS
   .bars{display:grid;gap:6px;margin:6px 0 10px}.bars div{display:grid;grid-template-columns:minmax(120px,38%) 1fr 44px;gap:10px;align-items:center;font-size:13px}.bars i{display:block;height:12px;border-radius:3px;background:var(--accent);min-width:2px}.bars em{font:12px var(--f-mono);color:var(--muted);font-style:normal;text-align:end}
   .method{font-size:12px;color:var(--muted);background:var(--surface);border:1px dashed var(--line2);border-radius:8px;padding:10px 12px;margin:18px 0}
   ul.cases.auto li{grid-template-columns:96px 1fr}
+  p.winlbl{display:inline-block;font:600 12px var(--f-mono);letter-spacing:.04em;color:var(--ink);background:var(--surface);border:1px solid var(--line2);border-radius:999px;padding:4px 12px;margin:0 0 14px}
+  html[lang="ar"] p.winlbl,html[lang="zh"] p.winlbl{font-family:var(--f-body)}
   h2.fin-h{font-size:clamp(22px,3vw,28px);margin:28px 0 6px;scroll-margin-top:16px}
 CSS
 
@@ -139,9 +141,14 @@ AI_PRODUCTS = {
 def patterns_stats(incidents, pulse)
   now = Time.now.utc
   today = now.strftime("%Y-%m-%d")
-  all = incidents
-  trend = all.select { |i| i["date"].to_s >= TREND_FROM }
-  quarters = quarters_between(quarter_of(TREND_FROM), quarter_of(today))
+  # Default window: the last 12 months. Quarterly charts: the last 8 quarters. All-time totals kept alongside.
+  everything = incidents
+  win_from = (now - WINDOW_DAYS * 86_400).strftime("%Y-%m-%d")
+  all = incidents.select { |i| i["date"].to_s >= win_from }
+  quarters = quarters_between(quarter_of(today), quarter_of(today))
+  7.times { y, q = quarters.first.split("-Q").map(&:to_i); q -= 1; (y -= 1; q = 4) if q.zero?; quarters.unshift("#{y}-Q#{q}") }
+  trend_from = "#{quarters.first[0, 4]}-#{format('%02d', (quarters.first[-1].to_i - 1) * 3 + 1)}-01"
+  trend = everything.select { |i| i["date"].to_s >= trend_from }
   by_q = trend.group_by { |i| quarter_of(i["date"]) }
   cur_q = quarters.last; prev_q = quarters[-2]
   halves = trend.map { |i| half_of(i["date"]) }.uniq.sort
@@ -178,11 +185,13 @@ vendors = AI_PRODUCTS.map do |name, re|
     "with_cve" => hits.count { |i| i["cve"].to_s =~ /CVE-/ }, "latest" => hits.max_by { |i| i["date"].to_s }&.fetch("id") }
 end.select { |v| v["n"] > 0 }.sort_by { |v| [-v["n"], v["product"]] }
 {
-  "generated_at" => now.iso8601, "total" => all.size, "trend_from" => TREND_FROM,
+  "generated_at" => now.iso8601, "total" => all.size, "all_time_total" => everything.size, "window_from" => win_from, "window_to" => today, "trend_from" => trend_from,
+    "first_half_from" => (halves.first ? "#{halves.first[0, 4]}-#{halves.first.end_with?('H1') ? '01' : '07'}" : nil), "first_half_to" => (halves.first ? "#{halves.first[0, 4]}-#{halves.first.end_with?('H1') ? '06' : '12'}" : nil),
+    "all_time_losses_usd" => everything.sum { |i| i["loss_usd"].to_f }.round,
   "finance" => { "top_losses" => losses.sort_by { |i| -i["loss_usd"].to_f }.first(8).map { |i| i["id"] },
     "financial_services" => fin.size, "individuals" => ind.size,
     "fin_by_category" => fin.group_by { |i| i["category"] }.map { |k, v| [k, v.size] }.sort_by { |_, n| -n }.to_h,
-    "fin_by_quarter" => quarters.map { |q| fin.count { |i| i["date"].to_s >= TREND_FROM && quarter_of(i["date"]) == q } },
+    "fin_by_quarter" => quarters.map { |q| everything.count { |i| i["sector"] == "Financial services" && quarter_of(i["date"]) == q } },
     "fin_latest" => fin.sort_by { |i| i["date"].to_s }.reverse.first(5).map { |i| i["id"] }, "vendors" => vendors.first(15) },
     "this_quarter" => { "q" => cur_q, "n" => (by_q[cur_q] || []).size, "prev_q" => prev_q, "prev_n" => (by_q[prev_q] || []).size },
     "direction" => { "on-ai" => all.count { |i| i["direction"] == "on-ai" }, "with-ai" => all.count { |i| i["direction"] == "with-ai" } },
@@ -227,10 +236,10 @@ def patterns_page(lang, st, incidents)
   real_q = qs.last["real_world"]
 
   kpis = [
-    [st["total"], x(lang, :k_total), nil, :p_total],
+    [st["total"], x(lang, :k_total), x(lang, :all_time_n, n: st["all_time_total"]), :p_total],
     [st["this_quarter"]["n"], x(lang, :k_quarter) + " · " + st["this_quarter"]["q"], x(lang, :k_vs, p: st["this_quarter"]["prev_n"]), :p_quarter],
     ["#{pct(st['direction']['on-ai'], st['total'])}%", x(lang, :k_onai), "#{st['direction']['on-ai']} #{x(lang, :l_cases)}", :p_onai],
-    [fmt_money_short(st["losses"]["total_usd"]), x(lang, :k_losses), x(lang, :l_loss_n, n: st["losses"]["disclosed"]), :p_losses],
+    [fmt_money_short(st["losses"]["total_usd"]), x(lang, :k_losses), x(lang, :l_loss_n, n: st["losses"]["disclosed"]) + " · " + x(lang, :all_time_n, n: fmt_money_short(st["all_time_losses_usd"])), :p_losses],
     ["#{st['unresolved_pct']}%", x(lang, :k_unresolved), nil, :p_unresolved],
     [st["autonomous"]["ids"].size, x(lang, :k_auto), nil, :p_auto]
   ].map { |v, l, s, tip| %(<div><b>#{h(v)}</b><span>#{h(l)}#{info_tip(lang, tip)}</span>#{s ? %(<small>#{h(s)}</small>) : ''}</div>) }.join
@@ -295,9 +304,10 @@ finance_html = %(<h2 id="finance" class="fin-h">#{h(x(lang, :fin_h))}</h2><p cla
     #{crumbs_html(lang, [[x(lang, :patterns), nil]])}
     <h1>#{h(title)}</h1>
     <p class="lede">#{h(lede)}</p>
+    <p class="winlbl">#{h(x(lang, :w12_since, date: fmt_date(st['window_from'], lang)))} · #{h(x(lang, :all_time_n, n: st['all_time_total']))}</p>
     #{share_row(lang, url, title)}
     <div class="kpis">#{kpis}</div>
-    <section class="sec"><h2>#{h(x(lang, :s_trend_h))}</h2>#{trend_svg}#{cap.call(:s_trend_c, first: st['on_ai_share_first_half'], last: st['on_ai_share_last_half'])}#{real_note}</section>
+    <section class="sec"><h2>#{h(x(lang, :s_trend_h))}</h2>#{trend_svg}#{cap.call(:s_trend_c, first: st['on_ai_share_first_half'], last: st['on_ai_share_last_half'], first_period: "#{fmt_date(st['first_half_from'].to_s, lang)} – #{fmt_date(st['first_half_to'].to_s, lang)}")}#{real_note}</section>
     <section class="sec"><h2>#{h(x(lang, :s_heat_h))}</h2>#{heat_svg}#{cap.call(:s_heat_c, rising: cat_name.call(st['rising_category'].to_s), top: cat_name.call(st['top_category'].to_s), topn: st['top_category_n'])}</section>
     <section class="sec"><h2>#{h(x(lang, :s_auto_h))}</h2>#{auto_svg}#{cap.call(:s_auto_c, prev: ay[years[-2]] || 0, prev_year: years[-2], cur: ay[years[-1]] || 0, cur_year: years[-1])}#{auto_list}</section>
     <div class="two">
@@ -314,7 +324,7 @@ finance_html = %(<h2 id="finance" class="fin-h">#{h(x(lang, :fin_h))}</h2><p cla
       <section class="sec"><h2>#{h(x(lang, :s_status_h))}</h2>#{status_html}#{cap.call(:s_status_c, unres: st['unresolved_pct'], speed: speed)}</section>
     </div>
     <section class="sec"><h2>#{h(x(lang, :s_pulse_h))}</h2>#{pulse_svg}#{cap.call(:s_pulse_c)}</section>
-    <p class="method">#{h(x(lang, :p_method, n: st['total'], date: fmt_date(st['generated_at'][0, 10], lang), stats: ''))}<a href="/data/stats.json">#{h(x(lang, :l_json))}</a>. #{h(x(lang, :l_embed))}</p>
+    <p class="method">#{h(x(lang, :p_method, n: st['total'], all: st['all_time_total'], from: fmt_date(st['window_from'], lang), to: fmt_date(st['window_to'], lang), date: fmt_date(st['generated_at'][0, 10], lang)))}<a href="/data/stats.json">#{h(x(lang, :l_json))}</a>. #{h(x(lang, :l_embed))}</p>
     <p class="langs">#{h(t(lang, 'lang'))}: #{lang_links(lang, alternates)}</p>
   HTML
   shell(lang, "patterns", headhtml, body, alternates)

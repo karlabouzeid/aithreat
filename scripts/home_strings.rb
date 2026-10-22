@@ -71,3 +71,7 @@ HOME = {
     alerts_h2: "Получать оповещения", alerts_sub: "Каждый проверенный случай — сразу после публикации.", tg_p: "Мгновенный пост о каждом проверенном случае.", bs_p: "Подпишитесь на @aithreat.io, чтобы видеть каждый проверенный случай.", follow: "Подписаться", rss_h: "RSS и данные", rss_p: "Ленты по критичности, типу и стране, а также полный набор данных в JSON.", all_feeds: "Все ленты"
   }
 }.freeze
+
+# The site-wide reporting window labels (last 12 months / all time), shared with the static pages.
+require_relative "window_strings"
+HOME.each { |l, h| h.merge!(WINDOW[l] || {}) }
