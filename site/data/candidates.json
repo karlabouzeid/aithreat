@@ -4684,5 +4684,53 @@
     "first_seen": "2026-10-23T05:35:39Z",
     "first_published": "2026-10-23T05:16:13Z",
     "updated_at": "2026-10-23T05:35:39Z"
+  },
+  {
+    "id": "japan-digital-agency-ai-site-breach",
+    "date": "2026-10-23",
+    "title": "Japan Digital Agency site partly built with AI hacked, 13,000+ private records leaked",
+    "category": "Model & data leak",
+    "direction": "on-ai",
+    "severity": "high",
+    "country": "JP",
+    "region": "Asia-Pacific",
+    "target": "Japan Digital Agency website partly built with AI",
+    "loss_usd": null,
+    "summary": "A website of Japan's Digital Agency, partly built using AI, was breached by hackers, exposing over 13,000 pieces of private information, per Sina report.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Government & public sector",
+    "attribution": "Unknown; the headline does not name an attacker.",
+    "motive": "Unknown",
+    "vector": "Unknown; the headline says the site was hacked and was partly built with AI.",
+    "root_cause": "Unknown; the report links the breach to a site built partly with AI but gives no confirmed cause.",
+    "impact": "More than 13,000 pieces of private information were reportedly leaked.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.5,
+    "source": "新浪网",
+    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBuSzljYURmbHRJSFVtSkNONXNyYVBxQnpaLWJmU3BBQ21vZDR3Mm5FWWp0TVJKbU9Bc1hpb1EwMVFyTzNTMGpzYTFwZXotdEpMdXpDWHh1Y2pieV9XMGc3ZnlhejhHUk9iUXZSUHE3VTRCQVlUVDRKY1ktcU1Pdw?oc=5",
+    "sources": [
+      {
+        "name": "新浪网",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBuSzljYURmbHRJSFVtSkNONXNyYVBxQnpaLWJmU3BBQ21vZDR3Mm5FWWp0TVJKbU9Bc1hpb1EwMVFyTzNTMGpzYTFwZXotdEpMdXpDWHh1Y2pieV9XMGc3ZnlhejhHUk9iUXZSUHE3VTRCQVlUVDRKY1ktcU1Pdw?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-23",
+        "event": "Reported by 新浪网"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-23T09:05:39Z",
+    "wire_id": "92b337104909",
+    "first_seen": "2026-10-23T09:05:39Z",
+    "first_published": "2026-10-23T08:39:20Z",
+    "updated_at": "2026-10-23T09:05:39Z"
   }
 ]
