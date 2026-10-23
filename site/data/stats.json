@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-22T23:59:01Z",
-  "total": 237,
+  "generated_at": "2026-10-23T00:06:23Z",
+  "total": 236,
   "all_time_total": 433,
-  "window_from": "2025-10-22",
-  "window_to": "2026-10-22",
+  "window_from": "2025-10-23",
+  "window_to": "2026-10-23",
   "trend_from": "2025-01-01",
   "first_half_from": "2025-01",
   "first_half_to": "2025-06",
@@ -20,7 +20,7 @@
       "singapore-pm-wong-deepfake-zoom"
     ],
     "financial_services": 10,
-    "individuals": 68,
+    "individuals": 67,
     "fin_by_category": {
       "Deepfake fraud": 7,
       "AI-assisted malware": 1,
@@ -160,7 +160,7 @@
   },
   "direction": {
     "on-ai": 80,
-    "with-ai": 126
+    "with-ai": 125
   },
   "on_ai_share_first_half": 31,
   "on_ai_share_last_half": 42,
@@ -281,7 +281,7 @@
   "categories": [
     {
       "category": "Deepfake fraud",
-      "n": 43,
+      "n": 42,
       "by_quarter": [
         13,
         9,
@@ -477,7 +477,7 @@
   ],
   "rising_category": "AI supply chain",
   "top_category": "Deepfake fraud",
-  "top_category_n": 43,
+  "top_category_n": 42,
   "autonomous": {
     "by_year": {
       "2025": 1,
@@ -501,10 +501,10 @@
     {
       "actor_type": "criminal",
       "by_year": {
-        "2025": 15,
+        "2025": 14,
         "2026": 73
       },
-      "n": 88
+      "n": 87
     },
     {
       "actor_type": "state",
@@ -569,19 +569,19 @@
   ],
   "severity": {
     "critical": 39,
-    "high": 108,
+    "high": 107,
     "medium": 84,
     "low": 6
   },
   "critical_high_pct": 62,
   "losses": {
-    "total_usd": 257966843,
-    "disclosed": 18,
+    "total_usd": 256366843,
+    "disclosed": 17,
     "by_category": [
       {
         "category": "Deepfake fraud",
-        "usd": 257966843,
-        "disclosed": 18
+        "usd": 256366843,
+        "disclosed": 17
       },
       {
         "category": "AI-assisted malware",
@@ -653,7 +653,7 @@
     },
     {
       "sector": "Individuals & consumers",
-      "n": 68
+      "n": 67
     },
     {
       "sector": "Multiple / cross-sector",
@@ -750,7 +750,7 @@
   "status": [
     {
       "status": "under investigation",
-      "n": 79
+      "n": 78
     },
     {
       "status": "ongoing",
@@ -997,7 +997,7 @@
     {
       "day": "2026-10-19",
       "kinds": {
-        "incident": 75,
+        "incident": 74,
         "vulnerability": 2,
         "research": 4,
         "vendor-report": 7,
@@ -1034,7 +1034,7 @@
       "day": "2026-10-22",
       "kinds": {
         "incident": 137,
-        "vulnerability": 79,
+        "vulnerability": 80,
         "research": 40,
         "vendor-report": 12,
         "policy": 3,
