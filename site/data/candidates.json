@@ -4732,5 +4732,53 @@
     "first_seen": "2026-10-23T09:05:39Z",
     "first_published": "2026-10-23T08:39:20Z",
     "updated_at": "2026-10-23T09:05:39Z"
+  },
+  {
+    "id": "mendoza-retiree-messi-ai-scam",
+    "date": "2026-10-23",
+    "title": "Mendoza retiree defrauded with AI-generated Messi image",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "AR",
+    "region": "Latin America",
+    "target": "Retired individual in Mendoza, Argentina",
+    "loss_usd": null,
+    "summary": "Local media report a retiree in Mendoza was deceived by an AI-generated image of Messi, apparently presented as a business offer, and lost about 24 million pesos.",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "sector": "Individuals & consumers",
+    "attribution": "Unknown scammers; the reports do not name a perpetrator.",
+    "motive": "Financial gain",
+    "vector": "AI-generated image of Lionel Messi (and reportedly coach Scaloni) used to promote a fake lucrative investment or business offer.",
+    "root_cause": "Victim trusted a convincing AI-generated celebrity endorsement of a fraudulent offer.",
+    "impact": "The retiree reportedly lost about 24 million Argentine pesos (La Gaceta report).",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.7,
+    "source": "Diario Mendoza Today",
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxONzFvM3V4bExWNmdwTHZ3LUt2MzAxTnZWMjRzcDFLLWh6bl9WLU14anJmeGtWMHlZZ1ZkalBUeXl4TUh2dkhDZGY4eEprRlBueno4enNWZXVjYjVpdERBaEgxOGpZcEdaWXQwVmVnOGtjVUxyc19vT3BnajNqVDZDMFl6bllWVUI1eUJVOW9GZGlRNDEtRjVraWFMaFMxRmZYU0h3dXB6ZlpYazI4WWlCdDZmdGJYeW5XOEc0MWNEenRmTllY0gHEAUFVX3lxTE43MW8zdXhsTFY2Z3BMdnctS3YzMDFOdlYyNHNwMUstaHpuX1YtTXhqcmZ4a1YweVlnVmRqUFR5eXhNSHZ2SENkZjh4SmtGUG56ejh6c1ZldWNiNWl0REFoSDE4allwR1pZdDBWZWc4a2NVTHJzX29PcGdqM2pUNkMwWXpuWVZVQjV5QlU5b0ZkaVE0MS1GNWtpYUxoUzFGZlhTSHd1cHpmWlhrMjhZaUJ0NmZ0Ylh5blc4RzQxY0R6dGZOWVg?oc=5",
+    "sources": [
+      {
+        "name": "Diario Mendoza Today",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxONzFvM3V4bExWNmdwTHZ3LUt2MzAxTnZWMjRzcDFLLWh6bl9WLU14anJmeGtWMHlZZ1ZkalBUeXl4TUh2dkhDZGY4eEprRlBueno4enNWZXVjYjVpdERBaEgxOGpZcEdaWXQwVmVnOGtjVUxyc19vT3BnajNqVDZDMFl6bllWVUI1eUJVOW9GZGlRNDEtRjVraWFMaFMxRmZYU0h3dXB6ZlpYazI4WWlCdDZmdGJYeW5XOEc0MWNEenRmTllY0gHEAUFVX3lxTE43MW8zdXhsTFY2Z3BMdnctS3YzMDFOdlYyNHNwMUstaHpuX1YtTXhqcmZ4a1YweVlnVmRqUFR5eXhNSHZ2SENkZjh4SmtGUG56ejh6c1ZldWNiNWl0REFoSDE4allwR1pZdDBWZWc4a2NVTHJzX29PcGdqM2pUNkMwWXpuWVZVQjV5QlU5b0ZkaVE0MS1GNWtpYUxoUzFGZlhTSHd1cHpmWlhrMjhZaUJ0NmZ0Ylh5blc4RzQxY0R6dGZOWVg?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-23",
+        "event": "Reported by Diario Mendoza Today"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-23T15:35:49Z",
+    "wire_id": "e464d36509ef",
+    "first_seen": "2026-10-23T15:35:49Z",
+    "first_published": "2026-10-23T13:54:47Z",
+    "updated_at": "2026-10-23T15:35:49Z"
   }
 ]
