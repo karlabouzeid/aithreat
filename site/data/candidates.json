@@ -4780,5 +4780,101 @@
     "first_seen": "2026-10-23T15:35:49Z",
     "first_published": "2026-10-23T13:54:47Z",
     "updated_at": "2026-10-23T15:35:49Z"
+  },
+  {
+    "id": "novosibirsk-ai-fake-video-scam",
+    "date": "2026-10-23",
+    "title": "Novosibirsk scammers use AI fake video to extract about 35,000 from victim",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "low",
+    "country": "RU",
+    "region": "Europe",
+    "target": "Individual victim in Novosibirsk",
+    "loss_usd": null,
+    "summary": "Per a Russian news headline, AI-using scammers in Novosibirsk created fake videos to extract about 35,000 (currency not stated) from a victim. Details are limited.",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "sector": "Individuals & consumers",
+    "attribution": "Unknown; headline refers only to AI-using scammers in Novosibirsk.",
+    "motive": "Financial gain",
+    "vector": "AI-generated fake video used to deceive the victim into handing over money.",
+    "root_cause": "Unknown; the text does not say how the victim was convinced beyond the fake video.",
+    "impact": "Victim reportedly lost about 35,000 (currency not stated in the headline).",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.45,
+    "source": "Techora.ru",
+    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNX0NLLXppcGcyay1naXhWbXRNenN5dzFGUnlKTnFYYjhSb0tqdWE1b3plTHI0c2oxXzNkWUczb1Q3djhGTnAtVnVpT0hubmJZb0daUFV1bEY0WGljTTRfMUpQOEhIanV0M3lCQ0JwNGlJekJ6VkNwdTlHUFNNYW5MZUR1NA?oc=5",
+    "sources": [
+      {
+        "name": "Techora.ru",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNX0NLLXppcGcyay1naXhWbXRNenN5dzFGUnlKTnFYYjhSb0tqdWE1b3plTHI0c2oxXzNkWUczb1Q3djhGTnAtVnVpT0hubmJZb0daUFV1bEY0WGljTTRfMUpQOEhIanV0M3lCQ0JwNGlJekJ6VkNwdTlHUFNNYW5MZUR1NA?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-23",
+        "event": "Reported by Techora.ru"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-23T16:05:42Z",
+    "wire_id": "36d84471d848",
+    "first_seen": "2026-10-23T16:05:42Z",
+    "first_published": "2026-10-23T14:56:28Z",
+    "updated_at": "2026-10-23T16:05:42Z"
+  },
+  {
+    "id": "ai-automated-attacks-400-financial-orgs",
+    "date": "2026-10-23",
+    "title": "Hackers use AI to automate attacks on 400+ financial organizations",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "400+ financial organizations",
+    "loss_usd": null,
+    "summary": "A Russian-language report says hackers automated attacks on more than 400 financial organizations using AI. Location, tools and outcomes are not stated in the headline.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Financial services",
+    "attribution": "Unknown; headline names only 'hackers'.",
+    "motive": "Unknown; likely financial",
+    "vector": "AI used to automate attacks against financial organizations.",
+    "root_cause": "Unknown",
+    "impact": "More than 400 financial organizations reportedly targeted; actual breaches and losses are unknown.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.35,
+    "source": "itzine.ru",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQMEhHcURHeHlaNzFjdlE0dFlzUHliSk5vc0VuNGRJU1pIdk0yZFU2MVFTdkxFUEVPcnFHQl9mV1dwSm1yUzBReU1DR3NURURyc29DZnRYbW52WFFKeDBoR2VTeGRVd2lSRnJVQVk4Zm51aVEydjhsUDIyUERkZVFvRDFXR1BuZmptekpwQnZlaXY1YU1yc3djQUxrblfSAZwBQVVfeXFMUDBIR3FER3h5WjcxY3ZRNHRZc1B5YkpOb3NFbjRkSVNaSHZNMmRVNjFRU3ZMRVBFT3JxR0JfZldXcEptclMwUXlNQ0dzVEVEcnNvQ2Z0WG1udlhRSngwaEdlU3hkVXdpUkZyVUFZOGZudWlRMnY4bFAyMlBEZGVRb0QxV0dQbmZqbXpKcEJ2ZWl2NWFNcnN3Y0FMa25X?oc=5",
+    "sources": [
+      {
+        "name": "itzine.ru",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQMEhHcURHeHlaNzFjdlE0dFlzUHliSk5vc0VuNGRJU1pIdk0yZFU2MVFTdkxFUEVPcnFHQl9mV1dwSm1yUzBReU1DR3NURURyc29DZnRYbW52WFFKeDBoR2VTeGRVd2lSRnJVQVk4Zm51aVEydjhsUDIyUERkZVFvRDFXR1BuZmptekpwQnZlaXY1YU1yc3djQUxrblfSAZwBQVVfeXFMUDBIR3FER3h5WjcxY3ZRNHRZc1B5YkpOb3NFbjRkSVNaSHZNMmRVNjFRU3ZMRVBFT3JxR0JfZldXcEptclMwUXlNQ0dzVEVEcnNvQ2Z0WG1udlhRSngwaEdlU3hkVXdpUkZyVUFZOGZudWlRMnY4bFAyMlBEZGVRb0QxV0dQbmZqbXpKcEJ2ZWl2NWFNcnN3Y0FMa25X?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-23",
+        "event": "Reported by itzine.ru"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-23T16:05:42Z",
+    "wire_id": "9a0e5b5dfcd5",
+    "first_seen": "2026-10-23T16:05:42Z",
+    "first_published": "2026-10-23T11:07:44Z",
+    "updated_at": "2026-10-23T16:05:42Z"
   }
 ]
