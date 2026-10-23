@@ -4636,5 +4636,53 @@
     "first_seen": "2026-10-22T20:05:56Z",
     "first_published": "2026-10-22T13:33:26Z",
     "updated_at": "2026-10-22T20:05:56Z"
+  },
+  {
+    "id": "bugster-deepseek-v4-india-universities",
+    "date": "2026-10-23",
+    "title": "BUGSTER uses DeepSeek V4 as AI cybercrime assistant against Indian universities",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "IN",
+    "region": "Asia-Pacific",
+    "target": "Indian organizations, including universities",
+    "loss_usd": null,
+    "summary": "Per Unit 42, threat actor BUGSTER configured DeepSeek V4 as the reasoning engine for AI-assisted reconnaissance and scripting against organizations in India, including universities, to steal data.",
+    "actor": "BUGSTER",
+    "actor_type": "criminal",
+    "sector": "Education & research",
+    "attribution": "Unit 42 (Palo Alto Networks) tracks the actor under the handle BUGSTER; no further attribution is given in the summary.",
+    "motive": "Data theft",
+    "vector": "AI-generated reconnaissance and scripts driven by DeepSeek V4 configured as the reasoning engine of the operation.",
+    "root_cause": "Unknown",
+    "impact": "Organizations in India, including universities, were targeted and data was stolen; scale is not stated.",
+    "response": "Unit 42 published its findings; no other response is stated.",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.75,
+    "source": "GBHackers",
+    "url": "https://gbhackers.com/deepseek-ai-exploited",
+    "sources": [
+      {
+        "name": "GBHackers",
+        "url": "https://gbhackers.com/deepseek-ai-exploited"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-23",
+        "event": "Reported by GBHackers"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-23T05:35:39Z",
+    "wire_id": "68d3db5cd759",
+    "first_seen": "2026-10-23T05:35:39Z",
+    "first_published": "2026-10-23T05:16:13Z",
+    "updated_at": "2026-10-23T05:35:39Z"
   }
 ]
