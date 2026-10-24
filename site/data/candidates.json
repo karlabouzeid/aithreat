@@ -5068,5 +5068,53 @@
     "first_seen": "2026-10-24T11:35:37Z",
     "first_published": "2026-10-24T11:30:07Z",
     "updated_at": "2026-10-24T11:35:37Z"
+  },
+  {
+    "id": "california-daughter-voice-clone-scam",
+    "date": "2026-10-24",
+    "title": "Scammers clone daughter's voice with AI to extract $5,400 in California",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "US",
+    "region": "North America",
+    "target": "Family member of the cloned daughter, California",
+    "loss_usd": 5400,
+    "summary": "Per a Techora.ru report, scammers used AI to clone a daughter's voice and tricked a relative in California into paying $5,400. Further details were not provided.",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "sector": "Individuals & consumers",
+    "attribution": "Unknown; the report refers only to scammers.",
+    "motive": "Financial gain",
+    "vector": "AI voice cloning of the victim's daughter, used to extract money from the victim.",
+    "root_cause": "Unknown; the report does not say how the voice sample was obtained.",
+    "impact": "The victim lost $5,400 to the scammers.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.6,
+    "source": "Techora.ru",
+    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxORnk5bk1STWpvVFZiNHVETzRRWEhPOU8tNWJXQkZfMUt0eXJPQV9JRFZwN2ozVzZXdWQwVlJCM25SMWpWMGxEcVVIUm00bzllcGpUd0Z0eWpxOFREdUxGazB3dklyTEJEWjJtdWw5NUpKQ0s2U1ZTUXN1dWlVazFyc2VwNGpTUQ?oc=5",
+    "sources": [
+      {
+        "name": "Techora.ru",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxORnk5bk1STWpvVFZiNHVETzRRWEhPOU8tNWJXQkZfMUt0eXJPQV9JRFZwN2ozVzZXdWQwVlJCM25SMWpWMGxEcVVIUm00bzllcGpUd0Z0eWpxOFREdUxGazB3dklyTEJEWjJtdWw5NUpKQ0s2U1ZTUXN1dWlVazFyc2VwNGpTUQ?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-24",
+        "event": "Reported by Techora.ru"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-24T12:35:37Z",
+    "wire_id": "2cffd3741ec7",
+    "first_seen": "2026-10-24T12:35:37Z",
+    "first_published": "2026-10-24T11:25:19Z",
+    "updated_at": "2026-10-24T12:35:37Z"
   }
 ]
