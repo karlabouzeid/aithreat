@@ -5500,5 +5500,53 @@
     "first_seen": "2026-10-24T22:05:45Z",
     "first_published": "2026-10-24T19:46:57Z",
     "updated_at": "2026-10-24T22:05:45Z"
+  },
+  {
+    "id": "sps-ai-fake-payment-receipts-phones",
+    "date": "2026-10-24",
+    "title": "Honduran woman arrested for using AI-made fake payment receipts to buy cellphones",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "low",
+    "country": "HN",
+    "region": "Latin America",
+    "target": "Cellphone sellers in San Pedro Sula",
+    "loss_usd": null,
+    "summary": "A young woman was reportedly captured in San Pedro Sula after using fake payment receipts created with AI to obtain cellphones from sellers. Number of victims and value are not stated.",
+    "actor": "Young woman (name not given)",
+    "actor_type": "criminal",
+    "sector": "Retail & consumer brands",
+    "attribution": "Arrest reported by ElHeraldo.hn; the suspect is not named in the available text.",
+    "motive": "Financial gain by obtaining phones without paying.",
+    "vector": "AI-generated fake proofs of payment shown to sellers as evidence of transfer.",
+    "root_cause": "Sellers accepted visual payment receipts as proof of payment, and AI tools can produce convincing fakes.",
+    "impact": "Sellers allegedly handed over cellphones without being paid. Number of victims and total loss are Unknown.",
+    "response": "The suspect was captured in San Pedro Sula (SPS).",
+    "status": "contained",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.6,
+    "source": "ElHeraldo.hn",
+    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNbVdYQVliMHJMM2JfTkdoVFFERW90OTJNeUdwci0xSzJXLTJ2QjVYYzRmYnNYQmk3YUR2clpxNkJCZDYycWJyaDgxcFVjTWFoUXhTcVRvRXZUSllCRUN1YnBlZ0U2eWxLdDltbGE1TG1ha2FXRUhIUkR2eHotQUs4VmJOOXVvNDl4QkdqZXBFck55UEx0LURadi00b1dNbTluZXVrQlg3OVpGQVMyeHd1RVV0alhXazhhVXV1TmptYzFkTmswU2wtSnhLNGNRdEtDamlsQmNUaw?oc=5",
+    "sources": [
+      {
+        "name": "ElHeraldo.hn",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNbVdYQVliMHJMM2JfTkdoVFFERW90OTJNeUdwci0xSzJXLTJ2QjVYYzRmYnNYQmk3YUR2clpxNkJCZDYycWJyaDgxcFVjTWFoUXhTcVRvRXZUSllCRUN1YnBlZ0U2eWxLdDltbGE1TG1ha2FXRUhIUkR2eHotQUs4VmJOOXVvNDl4QkdqZXBFck55UEx0LURadi00b1dNbTluZXVrQlg3OVpGQVMyeHd1RVV0alhXazhhVXV1TmptYzFkTmswU2wtSnhLNGNRdEtDamlsQmNUaw?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-24",
+        "event": "Reported by ElHeraldo.hn"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-24T23:35:38Z",
+    "wire_id": "4248e954c18e",
+    "first_seen": "2026-10-24T23:35:38Z",
+    "first_published": "2026-10-24T22:24:33Z",
+    "updated_at": "2026-10-24T23:35:38Z"
   }
 ]
