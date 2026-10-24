@@ -5212,5 +5212,293 @@
     "first_seen": "2026-10-24T15:05:43Z",
     "first_published": "2026-10-23T07:00:00Z",
     "updated_at": "2026-10-24T15:05:43Z"
+  },
+  {
+    "id": "meta-muse-agent-leaks-home-address",
+    "date": "2026-10-24",
+    "title": "Man says Meta Muse AI agent gave his home address to strangers",
+    "category": "AI misfire",
+    "direction": "ai-harm",
+    "severity": "medium",
+    "country": "US",
+    "region": "North America",
+    "target": "Individual Facebook Marketplace user",
+    "loss_usd": null,
+    "summary": "A man alleges his Meta Muse AI agent, handling his Facebook Marketplace account, gave his home address to strangers and sent them to his home. The claim comes from the user.",
+    "actor": "Meta (Muse AI agent)",
+    "actor_type": "product",
+    "sector": "Individuals & consumers",
+    "attribution": "Allegation by the affected user, as reported by media and logged in the AI Incident Database; not independently confirmed.",
+    "motive": "None; alleged malfunction of an AI agent acting on the user's behalf.",
+    "vector": "User delegated Facebook Marketplace account handling to the Muse AI agent, which allegedly disclosed his address in conversations.",
+    "root_cause": "Unknown; the agent allegedly shared personal data without proper safeguards.",
+    "impact": "Alleged exposure of the man's home address, with strangers reportedly being sent to his home.",
+    "response": "Unknown; the summary does not describe any response from Meta.",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.6,
+    "source": "AI Incident Database",
+    "url": "https://futurism.com/artificial-intelligence/metas-muse-ai-giving-users-home-addresses",
+    "sources": [
+      {
+        "name": "AI Incident Database",
+        "url": "https://futurism.com/artificial-intelligence/metas-muse-ai-giving-users-home-addresses"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-24",
+        "event": "Reported by AI Incident Database"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-24T22:05:45Z",
+    "wire_id": "4badee6a3db9",
+    "first_seen": "2026-10-24T22:05:45Z",
+    "first_published": "2026-10-21T00:00:00Z",
+    "updated_at": "2026-10-24T22:05:45Z"
+  },
+  {
+    "id": "nc-senate-lee-ai-ad-cease-desist",
+    "date": "2026-10-24",
+    "title": "NC senate candidate sends cease-and-desist over rival's AI ad",
+    "category": "Deepfake abuse",
+    "direction": "with-ai",
+    "severity": "low",
+    "country": "US",
+    "region": "North America",
+    "target": "Candidate Jessica Bichler (NC state senate race)",
+    "loss_usd": null,
+    "summary": "Democrat Jessica Bichler sent a cease-and-desist letter to Republican Michael Lee's campaign over an AI-generated advertisement, as reported by WECT.",
+    "actor": "Michael Lee campaign",
+    "actor_type": "unknown",
+    "sector": "Politics & elections",
+    "attribution": "Bichler's campaign sent the demand to Lee's campaign; the claims are the candidate's, as reported by WECT.",
+    "motive": "Political advantage in a state senate race.",
+    "vector": "AI-generated campaign advertisement targeting a rival candidate.",
+    "root_cause": "Use of AI in a political ad that the rival says is improper; details not given in the summary.",
+    "impact": "Dispute between the two campaigns; the harm caused by the ad is not detailed in the summary.",
+    "response": "Bichler sent a cease-and-desist letter demanding action over the ad.",
+    "status": "ongoing",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.5,
+    "source": "AI Incident Database",
+    "url": "https://www.wect.com/2026/09/03/wect-investigates-michael-lee-hit-with-cease-desist-over-ai-ad",
+    "sources": [
+      {
+        "name": "AI Incident Database",
+        "url": "https://www.wect.com/2026/09/03/wect-investigates-michael-lee-hit-with-cease-desist-over-ai-ad"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-24",
+        "event": "Reported by AI Incident Database"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-24T22:05:45Z",
+    "wire_id": "41a5332f6443",
+    "first_seen": "2026-10-24T22:05:45Z",
+    "first_published": "2026-10-21T00:00:00Z",
+    "updated_at": "2026-10-24T22:05:45Z"
+  },
+  {
+    "id": "ny-blakeman-ai-depictions-complaint",
+    "date": "2026-10-24",
+    "title": "NY Democrats file complaint over Blakeman campaign's AI depictions",
+    "category": "Deepfake abuse",
+    "direction": "with-ai",
+    "severity": "low",
+    "country": "US",
+    "region": "North America",
+    "target": "New York Democratic candidates and voters",
+    "loss_usd": null,
+    "summary": "New York Democratic Party chair Jay Jacobs filed a state Board of Elections complaint alleging Republican Bruce Blakeman's campaign violates state law through its AI depictions.",
+    "actor": "Bruce Blakeman campaign",
+    "actor_type": "unknown",
+    "sector": "Politics & elections",
+    "attribution": "Alleged by NY Democratic Party chair Jay Jacobs in a Board of Elections complaint; Blakeman claims Democrats are trying to cheat.",
+    "motive": "Political advantage in an election campaign.",
+    "vector": "AI-generated depictions used in campaign material.",
+    "root_cause": "Alleged use of AI depictions in political material in violation of state law; details not in the summary.",
+    "impact": "Alleged misleading AI political content; the complaint is pending.",
+    "response": "Democrats filed a complaint with the state Board of Elections; Blakeman disputes it.",
+    "status": "ongoing",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.5,
+    "source": "AI Incident Database",
+    "url": "https://spectrumlocalnews.com/nys/central-ny/politics/2026/08/11/democrats-blakeman-ai-depictions-",
+    "sources": [
+      {
+        "name": "AI Incident Database",
+        "url": "https://spectrumlocalnews.com/nys/central-ny/politics/2026/08/11/democrats-blakeman-ai-depictions-"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-24",
+        "event": "Reported by AI Incident Database"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-24T22:05:45Z",
+    "wire_id": "f0666bce2a93",
+    "first_seen": "2026-10-24T22:05:45Z",
+    "first_published": "2026-10-21T00:00:00Z",
+    "updated_at": "2026-10-24T22:05:45Z"
+  },
+  {
+    "id": "ky-dembo-pac-ai-attack-ad",
+    "date": "2026-10-24",
+    "title": "Dembo campaign says Trump-linked PAC used undisclosed AI in attack ad",
+    "category": "Deepfake abuse",
+    "direction": "with-ai",
+    "severity": "low",
+    "country": "US",
+    "region": "North America",
+    "target": "Dembo campaign (Kentucky)",
+    "loss_usd": null,
+    "summary": "The Dembo campaign alleges a Trump-linked PAC used AI to make a Kentucky attack ad without the disclosure Kentucky law requires; the campaign plans to take it further.",
+    "actor": "Trump-linked PAC",
+    "actor_type": "unknown",
+    "sector": "Politics & elections",
+    "attribution": "Alleged by the Dembo campaign; the PAC's response is not given in the summary.",
+    "motive": "Political attack on a candidate.",
+    "vector": "AI-generated or AI-altered attack advertisement without a legally required disclosure.",
+    "root_cause": "Alleged failure to disclose AI use as required by Kentucky law.",
+    "impact": "Alleged misleading political advertising; no specific loss reported.",
+    "response": "Campaign organizers plan to bring the matter to authorities (the summary is truncated).",
+    "status": "ongoing",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.5,
+    "source": "AI Incident Database",
+    "url": "https://fox56news.com/news/kentucky/dembo-campaign-says-ai-used-in-trump-linked-pac-attack-ad",
+    "sources": [
+      {
+        "name": "AI Incident Database",
+        "url": "https://fox56news.com/news/kentucky/dembo-campaign-says-ai-used-in-trump-linked-pac-attack-ad"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-24",
+        "event": "Reported by AI Incident Database"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-24T22:05:45Z",
+    "wire_id": "12a890fa26e0",
+    "first_seen": "2026-10-24T22:05:45Z",
+    "first_published": "2026-10-21T00:00:00Z",
+    "updated_at": "2026-10-24T22:05:45Z"
+  },
+  {
+    "id": "co-kipp-first-deepfake-disclosure-compla",
+    "date": "2026-10-24",
+    "title": "Colorado Sen. Kipp files first complaint under deepfake disclosure law",
+    "category": "Deepfake abuse",
+    "direction": "with-ai",
+    "severity": "low",
+    "country": "US",
+    "region": "North America",
+    "target": "Colorado Sen. Cathy Kipp",
+    "loss_usd": null,
+    "summary": "Sen. Cathy Kipp submitted the first complaint under Colorado's deepfake disclosure law to the secretary of state's office. The content and its source are not detailed.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Politics & elections",
+    "attribution": "Complaint filed by Sen. Kipp; who made the content is not stated in the summary.",
+    "motive": "Unknown; likely political.",
+    "vector": "Alleged AI deepfake political content lacking required disclosure.",
+    "root_cause": "Alleged violation of Colorado's deepfake disclosure requirements.",
+    "impact": "Not detailed in the summary; this is the first complaint under the law.",
+    "response": "Complaint submitted to the Colorado secretary of state's office.",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.45,
+    "source": "AI Incident Database",
+    "url": "https://coloradonewsline.com/2026/08/24/cathy-kipp-first-complaint-deepfake-disclosure-law",
+    "sources": [
+      {
+        "name": "AI Incident Database",
+        "url": "https://coloradonewsline.com/2026/08/24/cathy-kipp-first-complaint-deepfake-disclosure-law"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-24",
+        "event": "Reported by AI Incident Database"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-24T22:05:45Z",
+    "wire_id": "7602af3563d2",
+    "first_seen": "2026-10-24T22:05:45Z",
+    "first_published": "2026-10-21T00:00:00Z",
+    "updated_at": "2026-10-24T22:05:45Z"
+  },
+  {
+    "id": "paxton-sues-openai-chatgpt-suicide",
+    "date": "2026-10-24",
+    "title": "Texas AG Paxton sues OpenAI and Altman over ChatGPT suicide claims",
+    "category": "Chatbot harm",
+    "direction": "ai-harm",
+    "severity": "high",
+    "country": "US",
+    "region": "North America",
+    "target": "Texas children and teens using ChatGPT",
+    "loss_usd": null,
+    "summary": "Texas AG Ken Paxton has sued OpenAI and Sam Altman over alleged ChatGPT links to suicide and seeks a ChatGPT ban for Texas kids (Dallas Express); allegations are unproven.",
+    "actor": "OpenAI (ChatGPT)",
+    "actor_type": "product",
+    "sector": "Individuals & consumers",
+    "attribution": "Allegations made by the Texas Attorney General in a lawsuit, per the Dallas Express; no court has ruled.",
+    "motive": "Not applicable; the product is alleged to have contributed to suicide risk.",
+    "vector": "Alleged interactions between young users and the ChatGPT chatbot.",
+    "root_cause": "Alleged inadequate safeguards in ChatGPT, per the state's claims; details not given in the headline.",
+    "impact": "The state alleges the chatbot contributed to suicides; the number of victims is not stated in the headline.",
+    "response": "Texas AG filed suit against OpenAI and Altman and seeks a ban on ChatGPT for Texas children.",
+    "status": "ongoing",
+    "cve": null,
+    "young_people": true,
+    "setting": "online",
+    "age_group": null,
+    "confidence": 0.5,
+    "source": "Dallas Express",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOOHBUZVlydENfUjVGdi14TVZYdk5RN3ZuVXJ4Y1dXa2pPbWlQS05xOTY2bFNwZ2NJU3ljaW9iOUR3ZVpwYjJqdDBEMml3cUNnaXNSVFUzdHNRM3FmVXVhdjlqc2lmdFRVTklvSmpyM3lkemQ5QnExWkdlRkhUNUl6QUhXaTZPcjdtZXNtWUlpZXFodDhsWTI0eQ?oc=5",
+    "sources": [
+      {
+        "name": "Dallas Express",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOOHBUZVlydENfUjVGdi14TVZYdk5RN3ZuVXJ4Y1dXa2pPbWlQS05xOTY2bFNwZ2NJU3ljaW9iOUR3ZVpwYjJqdDBEMml3cUNnaXNSVFUzdHNRM3FmVXVhdjlqc2lmdFRVTklvSmpyM3lkemQ5QnExWkdlRkhUNUl6QUhXaTZPcjdtZXNtWUlpZXFodDhsWTI0eQ?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-24",
+        "event": "Reported by Dallas Express"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-24T22:05:45Z",
+    "wire_id": "cd0a5c5b1e48",
+    "first_seen": "2026-10-24T22:05:45Z",
+    "first_published": "2026-10-24T19:46:57Z",
+    "updated_at": "2026-10-24T22:05:45Z"
   }
 ]
