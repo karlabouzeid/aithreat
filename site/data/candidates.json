@@ -4876,5 +4876,53 @@
     "first_seen": "2026-10-23T16:05:42Z",
     "first_published": "2026-10-23T11:07:44Z",
     "updated_at": "2026-10-23T16:05:42Z"
+  },
+  {
+    "id": "dolina-ai-fake-ad-scammers",
+    "date": "2026-10-24",
+    "title": "Singer Dolina's director says ad promoting scammers was AI-generated",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "low",
+    "country": "RU",
+    "region": "Europe",
+    "target": "Singer Larisa Dolina and viewers of the ad",
+    "loss_usd": null,
+    "summary": "Dolina's director says material appearing to show her advertising scammers was created by a neural network and that she does not endorse them. Details of the ad and any victims are not given.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Individuals & consumers",
+    "attribution": "Unknown; the claim of AI generation comes from the singer's director, as reported by prospect.com.ru.",
+    "motive": "Likely fraud using a celebrity's name and likeness; not stated in the source.",
+    "vector": "AI-generated (neural network) content imitating the singer, apparently in an advertisement.",
+    "root_cause": "Unknown; the headline does not explain how the content was produced or distributed.",
+    "impact": "Reputational risk to the singer and possible exposure of viewers to scammers; no losses are stated.",
+    "response": "The singer's director publicly denied that she advertises scammers.",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.4,
+    "source": "prospect.com.ru",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOU1VlYnpuOTdmNThaLWR6Tk4yNXpPWEc0MmU5RXJ2enQ5bkVZd2FQVFp3Z0hHY3hFR1FHRGNwdTJhUVRjSEU5bnR1VjBrVG03QTlMSndWdlRVaVpxMElLUW9JT01XaXlUc1BrelB4N2dxbTNkZ21ta3ZIWm45YUxxdmNHQUNfMmE2a0dMeEtHSWFEQ1BuNGFDS0FpbmxPSWZWWlBGT3VJM1JLY1VzQjNMOVA0WDFaanFvYWFEYUtB?oc=5",
+    "sources": [
+      {
+        "name": "prospect.com.ru",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOU1VlYnpuOTdmNThaLWR6Tk4yNXpPWEc0MmU5RXJ2enQ5bkVZd2FQVFp3Z0hHY3hFR1FHRGNwdTJhUVRjSEU5bnR1VjBrVG03QTlMSndWdlRVaVpxMElLUW9JT01XaXlUc1BrelB4N2dxbTNkZ21ta3ZIWm45YUxxdmNHQUNfMmE2a0dMeEtHSWFEQ1BuNGFDS0FpbmxPSWZWWlBGT3VJM1JLY1VzQjNMOVA0WDFaanFvYWFEYUtB?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-24",
+        "event": "Reported by prospect.com.ru"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-24T09:35:37Z",
+    "wire_id": "f0d57b3cccf6",
+    "first_seen": "2026-10-24T09:35:37Z",
+    "first_published": "2026-10-23T14:52:33Z",
+    "updated_at": "2026-10-24T09:35:37Z"
   }
 ]
