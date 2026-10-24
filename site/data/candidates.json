@@ -5164,5 +5164,53 @@
     "first_seen": "2026-10-24T13:05:39Z",
     "first_published": "2026-10-24T12:39:12Z",
     "updated_at": "2026-10-24T13:05:39Z"
+  },
+  {
+    "id": "lebanese-family-sues-openai-son-death",
+    "date": "2026-10-24",
+    "title": "Lebanese family sues ChatGPT owner over son's death",
+    "category": "Chatbot harm",
+    "direction": "ai-harm",
+    "severity": "critical",
+    "country": "LB",
+    "region": "Middle East & Africa",
+    "target": "Individual user of ChatGPT (family's son)",
+    "loss_usd": null,
+    "summary": "Per Al Jadeed, a Lebanese family has filed a lawsuit against the company that owns ChatGPT after their son died. The allegations are the family's and no court has ruled.",
+    "actor": "OpenAI (ChatGPT)",
+    "actor_type": "product",
+    "sector": "Individuals & consumers",
+    "attribution": "Alleged by the family in a lawsuit, as reported by Al Jadeed; no court finding.",
+    "motive": "Not applicable",
+    "vector": "Alleged interaction with the ChatGPT chatbot; details not given in the headline.",
+    "root_cause": "Unknown; the family alleges ChatGPT's owner is responsible. This is unproven.",
+    "impact": "Death of the family's son, as alleged in the lawsuit. Further details are not available.",
+    "response": "Family has filed a lawsuit against the ChatGPT owner. No company response is reported in the text.",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.6,
+    "source": "aljadeed",
+    "url": "https://news.google.com/rss/articles/CBMi0wRBVV95cUxQWm9DcG1GZjVNam91SGVaWm9Ibk1zQnZTcXZlb3RJVm9kSU1rTzE4c2MtN2E2bHlxYmF5eEdqYlJHZlBrOTBTek42U05IdjRIN3NCTS14Y3dXbVgtMjRzc0tFUG55OWhuOWZlTFdzeE1SUGpUTDhkNW5jMmJyQjhkTEEzdzNTRFhrUzAwbGZwak9oSmR6Z3RybUdPZ0RaaHgzWkx1V2ZWbk1LTFVuR3pRemNxTVQ5ZVhwOTZETXUtdF8zQU1wTkpZSzFKNDhRaFMzSWRhQXpueXlLcmpjU2pCd3U1ams2Z0xlSy00bDBva090QzZueHpYejZ3VEVDVGVIRmFhLVJRMkxxMTF2ZlZIeERCSnRyekJSbzIwNGdhTXkxN0VKT2FZNWR4TEdMRWd3aUxUOFM0RE1MTlYtRzVlazRua0Uyd0VlMHc1bnVnUGFBZy0zOUFzaDFELVE1TTUxNnZmdmhNd25aNGxaSXVNb004eEVnTDNrTkV1cnpsaWk5SzhvazJIN3RvYjE5ZFJ0ZFdTQnVIT3B2Z3E3VHR1NEp6QWdrNEstckNXOUYwX1MtVk1ncDc3NGR6WjlTWmJadUZLRVZvWmsyMmFELWEtb2RoVW9QWnVOaDZyVDBpM19Ob0tKb3A3SlZydWRaUlpnQXVqRC1Uc2RGM3FzS1dxY3pyZHNqNXRsal9aam9QSTEwY3JHVTVnMk9scHpDbjY3RURHRFpTVHJWcF9Fa25sY3RjcnV2a0ttbWliTFBDanhkSWI0c25oZUtESXVlSk5fbXkw?oc=5",
+    "sources": [
+      {
+        "name": "aljadeed",
+        "url": "https://news.google.com/rss/articles/CBMi0wRBVV95cUxQWm9DcG1GZjVNam91SGVaWm9Ibk1zQnZTcXZlb3RJVm9kSU1rTzE4c2MtN2E2bHlxYmF5eEdqYlJHZlBrOTBTek42U05IdjRIN3NCTS14Y3dXbVgtMjRzc0tFUG55OWhuOWZlTFdzeE1SUGpUTDhkNW5jMmJyQjhkTEEzdzNTRFhrUzAwbGZwak9oSmR6Z3RybUdPZ0RaaHgzWkx1V2ZWbk1LTFVuR3pRemNxTVQ5ZVhwOTZETXUtdF8zQU1wTkpZSzFKNDhRaFMzSWRhQXpueXlLcmpjU2pCd3U1ams2Z0xlSy00bDBva090QzZueHpYejZ3VEVDVGVIRmFhLVJRMkxxMTF2ZlZIeERCSnRyekJSbzIwNGdhTXkxN0VKT2FZNWR4TEdMRWd3aUxUOFM0RE1MTlYtRzVlazRua0Uyd0VlMHc1bnVnUGFBZy0zOUFzaDFELVE1TTUxNnZmdmhNd25aNGxaSXVNb004eEVnTDNrTkV1cnpsaWk5SzhvazJIN3RvYjE5ZFJ0ZFdTQnVIT3B2Z3E3VHR1NEp6QWdrNEstckNXOUYwX1MtVk1ncDc3NGR6WjlTWmJadUZLRVZvWmsyMmFELWEtb2RoVW9QWnVOaDZyVDBpM19Ob0tKb3A3SlZydWRaUlpnQXVqRC1Uc2RGM3FzS1dxY3pyZHNqNXRsal9aam9QSTEwY3JHVTVnMk9scHpDbjY3RURHRFpTVHJWcF9Fa25sY3RjcnV2a0ttbWliTFBDanhkSWI0c25oZUtESXVlSk5fbXkw?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-24",
+        "event": "Reported by aljadeed"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-24T15:05:43Z",
+    "wire_id": "2262704c7c17",
+    "first_seen": "2026-10-24T15:05:43Z",
+    "first_published": "2026-10-23T07:00:00Z",
+    "updated_at": "2026-10-24T15:05:43Z"
   }
 ]
