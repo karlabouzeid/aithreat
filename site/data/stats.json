@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-23T23:36:08Z",
-  "total": 236,
+  "generated_at": "2026-10-24T00:06:15Z",
+  "total": 235,
   "all_time_total": 433,
-  "window_from": "2025-10-23",
-  "window_to": "2026-10-23",
+  "window_from": "2025-10-24",
+  "window_to": "2026-10-24",
   "trend_from": "2025-01-01",
   "first_half_from": "2025-01",
   "first_half_to": "2025-06",
@@ -20,7 +20,7 @@
       "singapore-pm-wong-deepfake-zoom"
     ],
     "financial_services": 10,
-    "individuals": 67,
+    "individuals": 66,
     "fin_by_category": {
       "Deepfake fraud": 7,
       "AI-assisted malware": 1,
@@ -326,7 +326,7 @@
     },
     {
       "category": "Chatbot harm",
-      "n": 24,
+      "n": 23,
       "by_quarter": [
         0,
         4,
@@ -569,7 +569,7 @@
   ],
   "severity": {
     "critical": 39,
-    "high": 107,
+    "high": 106,
     "medium": 84,
     "low": 6
   },
@@ -653,7 +653,7 @@
     },
     {
       "sector": "Individuals & consumers",
-      "n": 67
+      "n": 66
     },
     {
       "sector": "Multiple / cross-sector",
@@ -746,7 +746,7 @@
       "n": 3
     }
   ],
-  "global_pct": 45,
+  "global_pct": 46,
   "status": [
     {
       "status": "under investigation",
@@ -754,7 +754,7 @@
     },
     {
       "status": "ongoing",
-      "n": 72
+      "n": 71
     },
     {
       "status": "contained",
@@ -773,7 +773,7 @@
       "n": 7
     }
   ],
-  "unresolved_pct": 67,
+  "unresolved_pct": 66,
   "verify_median_hours": 19.8,
   "verify_sample": 42,
   "researcher_demos": 21,
@@ -1009,7 +1009,7 @@
     {
       "day": "2026-10-20",
       "kinds": {
-        "incident": 58,
+        "incident": 56,
         "vulnerability": 7,
         "research": 7,
         "vendor-report": 7,
@@ -1046,10 +1046,10 @@
       "day": "2026-10-23",
       "kinds": {
         "incident": 37,
-        "vulnerability": 19,
+        "vulnerability": 20,
         "research": 31,
         "vendor-report": 5,
-        "policy": 26,
+        "policy": 27,
         "other": 13,
         "untagged": 0
       }
