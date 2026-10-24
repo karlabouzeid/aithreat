@@ -4972,5 +4972,53 @@
     "first_seen": "2026-10-24T10:05:38Z",
     "first_published": "2026-10-24T09:21:59Z",
     "updated_at": "2026-10-24T10:05:38Z"
+  },
+  {
+    "id": "ru-mvd-ai-teacher-voice-fraud",
+    "date": "2026-10-24",
+    "title": "Russian police record 18 AI voice-cloning frauds impersonating teachers",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "RU",
+    "region": "Europe",
+    "target": "Teachers' voices and the people they contact",
+    "loss_usd": null,
+    "summary": "Russia's Interior Ministry reportedly recorded 18 cases of fraud in which AI was used to imitate teachers' voices. Victims, losses and method details are not given in the headline.",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "sector": "Education & research",
+    "attribution": "Unknown; the headline cites Russian Interior Ministry (MVD) figures and names no perpetrators.",
+    "motive": "Presumably financial fraud; the headline does not state the motive.",
+    "vector": "AI-generated voice clones of teachers; delivery channel not stated in the headline.",
+    "root_cause": "Unknown; the headline does not say. Voice-cloning tools make impersonation of real people easy.",
+    "impact": "18 fraud cases recorded by the MVD, per the headline. Loss amounts and victims are not stated.",
+    "response": "The MVD has recorded the cases; no further response is stated.",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.5,
+    "source": "Techora.ru",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNY01DLU5waDRnQmVXclNUR3JHVUUyeFN4TFMzSlFuR2VhWTZyZ1MyeTJKSGlnXzRoeGdTY1UwY2Rqc1JhSzl6MThKNDMwNFlPRk5TdzBCX2hpa19JamNyc1RVQ3JoQWZNb0xLNGgzQ2ZEaHVvaGNsaVgwV2dQRzNUZ05hT09seE0zYTg4?oc=5",
+    "sources": [
+      {
+        "name": "Techora.ru",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNY01DLU5waDRnQmVXclNUR3JHVUUyeFN4TFMzSlFuR2VhWTZyZ1MyeTJKSGlnXzRoeGdTY1UwY2Rqc1JhSzl6MThKNDMwNFlPRk5TdzBCX2hpa19JamNyc1RVQ3JoQWZNb0xLNGgzQ2ZEaHVvaGNsaVgwV2dQRzNUZ05hT09seE0zYTg4?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-24",
+        "event": "Reported by Techora.ru"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-24T11:05:38Z",
+    "wire_id": "52ce49fcff1d",
+    "first_seen": "2026-10-24T11:05:38Z",
+    "first_published": "2026-10-24T10:57:34Z",
+    "updated_at": "2026-10-24T11:05:38Z"
   }
 ]
