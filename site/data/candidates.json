@@ -5548,5 +5548,101 @@
     "first_seen": "2026-10-24T23:35:38Z",
     "first_published": "2026-10-24T22:24:33Z",
     "updated_at": "2026-10-24T23:35:38Z"
+  },
+  {
+    "id": "pp-deepfake-ad-begona-gomez-spain",
+    "date": "2026-10-21",
+    "title": "Spanish opposition PP ad uses deepfakes of PM's wife and other political figures",
+    "category": "Deepfake abuse",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "ES",
+    "region": "Europe",
+    "target": "Begoña Gómez and other Spanish political figures",
+    "loss_usd": null,
+    "summary": "Spain's main opposition party published an AI-made deepfake video of the prime minister's wife, with other figures also depicted, weeks before general elections. It caused outrage and a debate on AI.",
+    "actor": "Partido Popular (Spain's main opposition party), per media reports",
+    "actor_type": "unknown",
+    "sector": "Politics & elections",
+    "attribution": "Media reports attribute the ad to the Partido Popular's campaign; the party's own account is not given in the text.",
+    "motive": "Political campaigning ahead of the general election (as reported).",
+    "vector": "AI-generated video impersonating real people, published as a political ad on social media.",
+    "root_cause": "A political party used generative AI to impersonate real individuals in campaign material, apparently without their consent.",
+    "impact": "Public outrage and a wider debate on AI in politics ahead of the election. Leire Díez, depicted in a related AI video, says it falsely accuses her of hiring 'thugs'.",
+    "response": "Leire Díez filed a criminal complaint (querella) against the PP over the AI video. Further responses are not stated.",
+    "status": "ongoing",
+    "cve": null,
+    "young_people": false,
+    "setting": "online",
+    "age_group": null,
+    "confidence": 0.7,
+    "source": "AI Incident Database",
+    "url": "https://www.theguardian.com/world/2026/oct/23/opposition-deepfake-video-spain-election",
+    "sources": [
+      {
+        "name": "AI Incident Database",
+        "url": "https://www.theguardian.com/world/2026/oct/23/opposition-deepfake-video-spain-election"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-21",
+        "event": "Reported by AI Incident Database"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-25T04:35:41Z",
+    "wire_id": "810c1d05b838",
+    "first_seen": "2026-10-25T04:35:41Z",
+    "first_published": "2026-10-24T00:00:00Z",
+    "updated_at": "2026-10-25T04:35:41Z"
+  },
+  {
+    "id": "ai-generated-boy-china-sales-scam",
+    "date": "2026-10-25",
+    "title": "AI-generated boy draws 600 million views in China product sales scam",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "CN",
+    "region": "Asia-Pacific",
+    "target": "Chinese online shoppers",
+    "loss_usd": null,
+    "summary": "Seoul Economic Daily reports an AI-generated boy persona drew about 600 million views in China and was used to drive a product sales scam. Details are limited to the headline.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Individuals & consumers",
+    "attribution": "Unknown; the operators of the AI-generated account are not identified in the available text.",
+    "motive": "Financial gain through deceptive product sales (as headlined).",
+    "vector": "AI-generated video persona used to promote products to a mass audience.",
+    "root_cause": "Unknown; generative AI content was apparently used to attract viewers and lend credibility to sales claims.",
+    "impact": "Reported reach of about 600 million views; the number of victims and losses are not stated.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": "online",
+    "age_group": null,
+    "confidence": 0.45,
+    "source": "Seoul Economic Daily",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPeDd6bFozUVdsaHZUMGFJU3Y0c3JSSXFsMU43S01OR0RGd2lra0VCWTVYNkNpODJ1djNsNWMxcXNOY3pzVGJaYzJlckNLc01TN2I5QW1BYlg1UjhrVTBOM2JNMmFaWDhRU0ZnM2VUOXhhMWItOW11cVZDQnhYRTJJX3lDbUM3U0ZoV3B6anBZd3h6RGxaOTV1cllNM3B0NUxyVHlRTUlHeGw?oc=5",
+    "sources": [
+      {
+        "name": "Seoul Economic Daily",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPeDd6bFozUVdsaHZUMGFJU3Y0c3JSSXFsMU43S01OR0RGd2lra0VCWTVYNkNpODJ1djNsNWMxcXNOY3pzVGJaYzJlckNLc01TN2I5QW1BYlg1UjhrVTBOM2JNMmFaWDhRU0ZnM2VUOXhhMWItOW11cVZDQnhYRTJJX3lDbUM3U0ZoV3B6anBZd3h6RGxaOTV1cllNM3B0NUxyVHlRTUlHeGw?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-25",
+        "event": "Reported by Seoul Economic Daily"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-25T04:35:41Z",
+    "wire_id": "ccbac1877ddc",
+    "first_seen": "2026-10-25T04:35:41Z",
+    "first_published": "2026-10-25T04:12:26Z",
+    "updated_at": "2026-10-25T04:35:41Z"
   }
 ]
