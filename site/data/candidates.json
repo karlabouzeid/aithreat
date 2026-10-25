@@ -5644,5 +5644,53 @@
     "first_seen": "2026-10-25T04:35:41Z",
     "first_published": "2026-10-25T04:12:26Z",
     "updated_at": "2026-10-25T04:35:41Z"
+  },
+  {
+    "id": "argentina-ai-agent-health-breaches",
+    "date": "2026-10-25",
+    "title": "AI-agent cyberattacks breach at least 15 Argentine health entities, medical records stolen",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "AR",
+    "region": "Latin America",
+    "target": "At least 15 Argentine health entities",
+    "loss_usd": null,
+    "summary": "Clarín reports a rise in cyberattacks using AI agents in Argentina, which breached at least 15 health entities and stole clinical records (medical histories).",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Healthcare",
+    "attribution": "Unknown; the headline does not name the attackers.",
+    "motive": "Unknown; theft of clinical records suggests data theft.",
+    "vector": "Attacks carried out with AI agents; the specific technique is not given in the headline.",
+    "root_cause": "Unknown; not stated in the headline or summary.",
+    "impact": "At least 15 health entities were breached and clinical histories were stolen, exposing sensitive patient data.",
+    "response": "Unknown; no response is described in the available text.",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.6,
+    "source": "Clarin.com",
+    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPNkRGbEJUNGNmMUtxX243SzBxT3hSRUl4T2RzUGVjY2JZbWM4YkhfM1VlYTJjbmVqQW9MRlU3STJhejhzUFc0YnVpVXJVMnBoZzh6bGNTblhnRmtyeUEzUlNBREN2T3Y2LW5vaW5mQnAybUlzV2NGUUdSQVlneHM0d3lrTjZxd29PN0FkX3YyUVpPZWotOFhyeThlcWlKaGp5bzU2QjRqUDVxY2RUY3FZTlhDQWJCcnJpeUJzZkZta1ZORnNGOGlERU9Wak4yZHhKMm9tVDZzLWh5X3QwaHd3SnFzOHNvRFXSAecBQVVfeXFMTzZERmxCVDRjZjFLcV9uN0swcU94UkVJeE9kc1BlY2NiWW1jOGJIXzNVZWEyY25lakFvTEZVN0kyYXo4c1BXNGJ1aVVyVTJwaGc4emxjU25YZ0ZrcnlBM1JTQURDdk92Ni1ub2luZkJwMm1Jc1djRlFHUkFZZ3hzNHd5a042cXdvTzdBZF92MlFaT2VqLThYcnk4ZXFpSmhqeW81NkI0alA1cWNkVGNxWU5YQ0FiQnJyaXlCc2ZGbWtWTkZzRjhpREVPVmpOMmR4SjJvbVQ2cy1oeV90MGh3d0pxczhzb0RV?oc=5",
+    "sources": [
+      {
+        "name": "Clarin.com",
+        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPNkRGbEJUNGNmMUtxX243SzBxT3hSRUl4T2RzUGVjY2JZbWM4YkhfM1VlYTJjbmVqQW9MRlU3STJhejhzUFc0YnVpVXJVMnBoZzh6bGNTblhnRmtyeUEzUlNBREN2T3Y2LW5vaW5mQnAybUlzV2NGUUdSQVlneHM0d3lrTjZxd29PN0FkX3YyUVpPZWotOFhyeThlcWlKaGp5bzU2QjRqUDVxY2RUY3FZTlhDQWJCcnJpeUJzZkZta1ZORnNGOGlERU9Wak4yZHhKMm9tVDZzLWh5X3QwaHd3SnFzOHNvRFXSAecBQVVfeXFMTzZERmxCVDRjZjFLcV9uN0swcU94UkVJeE9kc1BlY2NiWW1jOGJIXzNVZWEyY25lakFvTEZVN0kyYXo4c1BXNGJ1aVVyVTJwaGc4emxjU25YZ0ZrcnlBM1JTQURDdk92Ni1ub2luZkJwMm1Jc1djRlFHUkFZZ3hzNHd5a042cXdvTzdBZF92MlFaT2VqLThYcnk4ZXFpSmhqeW81NkI0alA1cWNkVGNxWU5YQ0FiQnJyaXlCc2ZGbWtWTkZzRjhpREVPVmpOMmR4SjJvbVQ2cy1oeV90MGh3d0pxczhzb0RV?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-25",
+        "event": "Reported by Clarin.com"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-25T10:08:00Z",
+    "wire_id": "b11bfdd887f7",
+    "first_seen": "2026-10-25T10:08:00Z",
+    "first_published": "2026-10-25T09:07:43Z",
+    "updated_at": "2026-10-25T10:08:00Z"
   }
 ]
