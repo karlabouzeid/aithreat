@@ -5884,5 +5884,53 @@
     "first_seen": "2026-10-25T21:35:36Z",
     "first_published": "2026-10-25T19:30:00Z",
     "updated_at": "2026-10-25T21:35:36Z"
+  },
+  {
+    "id": "fake-jagmeet-singh-arrest-ads-x-scam",
+    "date": "2026-10-25",
+    "title": "Fake Jagmeet Singh 'arrest' ads on X lead to trading scam targeting Canadians",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "CA",
+    "region": "North America",
+    "target": "Canadian investors and savers",
+    "loss_usd": null,
+    "summary": "Fake ads about an 'arrest' of Jagmeet Singh are reportedly flooding X, with clicks leading to a trading scam aimed at Canadians' savings.",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "sector": "Individuals & consumers",
+    "attribution": "Unknown; the headline does not name the operators of the ads.",
+    "motive": "Financial gain through a trading scam.",
+    "vector": "Paid social media ads on X impersonating news about a public figure, leading to a fraudulent trading site.",
+    "root_cause": "Unknown; the summary does not describe how the ads passed X's ad review.",
+    "impact": "Canadians' savings are targeted; the number of victims and the amount lost are Unknown.",
+    "response": "Unknown",
+    "status": "ongoing",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.5,
+    "source": "Yahoo! Finance Canada",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOck4yV2F1aW81NnBkYTlWdFdKS25fYjVpRGlaRTlpSmdLc3dLQXFEREFoMXFFaHB1Y2lGcVhzRWw1QWI3YzhLSGwzLXNPYnZRbVBuazZ2X2VMNTJld0RpVUM0VGFmeElYYWIwLVZ6RUd1bVNUQzN6emFTVzhINi1ONEhzcVM?oc=5",
+    "sources": [
+      {
+        "name": "Yahoo! Finance Canada",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOck4yV2F1aW81NnBkYTlWdFdKS25fYjVpRGlaRTlpSmdLc3dLQXFEREFoMXFFaHB1Y2lGcVhzRWw1QWI3YzhLSGwzLXNPYnZRbVBuazZ2X2VMNTJld0RpVUM0VGFmeElYYWIwLVZ6RUd1bVNUQzN6emFTVzhINi1ONEhzcVM?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-25",
+        "event": "Reported by Yahoo! Finance Canada"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-25T22:35:35Z",
+    "wire_id": "0e8e294f500b",
+    "first_seen": "2026-10-25T22:35:35Z",
+    "first_published": "2026-10-23T12:30:00Z",
+    "updated_at": "2026-10-25T22:35:35Z"
   }
 ]
