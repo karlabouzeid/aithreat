@@ -5740,5 +5740,53 @@
     "first_seen": "2026-10-25T12:35:38Z",
     "first_published": "2026-10-16T07:00:00Z",
     "updated_at": "2026-10-25T12:35:38Z"
+  },
+  {
+    "id": "agents-md-hijack-rogue-npm-package",
+    "date": "2026-10-25",
+    "title": "Malicious AGENTS.md file tricks AI coding agent into installing rogue npm package",
+    "category": "Agent hijack",
+    "direction": "on-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "AI coding agent on a customer's machine",
+    "loss_usd": null,
+    "summary": "Researchers found a malicious AGENTS markdown instruction file in a customer's Downloads folder. It tricked an AI coding agent into installing a rogue npm package.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Unknown",
+    "attribution": "Unknown. The threat actor is not identified in the available text; the finding was reported by researchers via BleepingComputer.",
+    "motive": "Unknown",
+    "vector": "Malicious AGENTS.md instruction file placed in the Downloads folder, read by the AI coding agent as trusted instructions.",
+    "root_cause": "The coding agent treated an untrusted AGENTS.md file as legitimate instructions, which allowed indirect prompt injection and installation of a package.",
+    "impact": "The agent installed a rogue npm package on a customer's system. The extent of compromise and any data loss are not stated.",
+    "response": "Researchers identified and reported the file. No vendor or customer remediation is described in the summary.",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.55,
+    "source": "BleepingComputer",
+    "url": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder",
+    "sources": [
+      {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-25",
+        "event": "Reported by BleepingComputer"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-25T16:05:38Z",
+    "wire_id": "4ba89cc94265",
+    "first_seen": "2026-10-25T16:05:38Z",
+    "first_published": "2026-10-25T15:49:38Z",
+    "updated_at": "2026-10-25T16:05:38Z"
   }
 ]
