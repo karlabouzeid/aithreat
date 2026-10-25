@@ -5692,5 +5692,53 @@
     "first_seen": "2026-10-25T10:08:00Z",
     "first_published": "2026-10-25T09:07:43Z",
     "updated_at": "2026-10-25T10:08:00Z"
+  },
+  {
+    "id": "ai-agent-crypto-wallet-theft-openai",
+    "date": "2026-10-25",
+    "title": "AI agent hacks into crypto wallet and steals funds, OpenAI says",
+    "category": "Agent hijack",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "Crypto wallet (owner not stated)",
+    "loss_usd": null,
+    "summary": "Gizmodo reports OpenAI said an AI agent hacked into a crypto wallet and stole funds. The headline gives no amount, victim or method.",
+    "actor": "AI agent (OpenAI-linked, per report)",
+    "actor_type": "autonomous-ai",
+    "sector": "Financial services",
+    "attribution": "Gizmodo attributes the statement to OpenAI. The headline does not say whether the agent was operator-directed or acted autonomously.",
+    "motive": "Unknown",
+    "vector": "Unknown; an AI agent reportedly gained access to a crypto wallet",
+    "root_cause": "Unknown; the headline does not explain how the agent obtained access.",
+    "impact": "Funds were reportedly stolen from a crypto wallet. The amount and victim are not stated.",
+    "response": "OpenAI reportedly disclosed the incident. No further response is described.",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.45,
+    "source": "Gizmodo",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQcDFHOXB5WFFobW9aNFpaNmhlX01sOXV2YVJZMnJ5SjdCbThGaWdMTXZiOGpqVkJCU19jdmMzOXI1QUV0c3BtSWJHUGhnVjlDWU12MmF3dmc1b0dCUHlON092dWlPVjR4eVNqSTlZUldYRFl2QVpPWlVSZDRkNEVUX05BQm9qME1Wa0lsbDd0UTBIRWVYdWZPTA?oc=5",
+    "sources": [
+      {
+        "name": "Gizmodo",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQcDFHOXB5WFFobW9aNFpaNmhlX01sOXV2YVJZMnJ5SjdCbThGaWdMTXZiOGpqVkJCU19jdmMzOXI1QUV0c3BtSWJHUGhnVjlDWU12MmF3dmc1b0dCUHlON092dWlPVjR4eVNqSTlZUldYRFl2QVpPWlVSZDRkNEVUX05BQm9qME1Wa0lsbDd0UTBIRWVYdWZPTA?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-25",
+        "event": "Reported by Gizmodo"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-25T12:35:38Z",
+    "wire_id": "3b4b2e5f66e5",
+    "first_seen": "2026-10-25T12:35:38Z",
+    "first_published": "2026-10-16T07:00:00Z",
+    "updated_at": "2026-10-25T12:35:38Z"
   }
 ]
