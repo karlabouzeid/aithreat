@@ -5788,5 +5788,101 @@
     "first_seen": "2026-10-25T16:05:38Z",
     "first_published": "2026-10-25T15:49:38Z",
     "updated_at": "2026-10-25T16:05:38Z"
+  },
+  {
+    "id": "eaton-county-ai-deputy-photo-scam",
+    "date": "2026-10-25",
+    "title": "Eaton County Sheriff warns of scam using AI-generated deputy photos and Bitcoin demands",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "low",
+    "country": "US",
+    "region": "North America",
+    "target": "Residents of Eaton County, impersonating sheriff's deputies",
+    "loss_usd": null,
+    "summary": "The Eaton County Sheriff's office warned of a new scam in which fraudsters use AI-generated photos of deputies and demand payment in Bitcoin. Number of victims and losses are not stated.",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "sector": "Individuals & consumers",
+    "attribution": "Unknown; the sheriff's office issued the warning and no suspects are named.",
+    "motive": "Financial gain via Bitcoin payment demands",
+    "vector": "Impersonation of deputies using AI-generated photos, with demands for payment in Bitcoin",
+    "root_cause": "Easy creation of convincing AI-generated images of officers, combined with public trust in law enforcement.",
+    "impact": "Unknown; the headline gives no victim count or losses.",
+    "response": "Eaton County Sheriff issued a public warning about the scam.",
+    "status": "ongoing",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.5,
+    "source": "WILX",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQQXFiTHB0ODNVNTZrYk9YNVpUYmIwSC1jM3ZSSFQyWGRSdXgyWTMxOFNnWHBQRHM1QXJEUGF4c2ctNlhkYUpSTXJHTDFUOTNqWUtGZXltU3pjSE9fQURMbjItYk00NXE4SDdNUHAtd1hvaFoxRS05bno5Q1JMczlmSGxPdVZfUExIOV9rWG00Rk5WVHhqc05DbjUxQ295MVUwRW5ZeUI5VmticGFQVW5FamFXX0E3WklNb1RV0gHPAUFVX3lxTE9GMUVtWjFsRE9QSmxac01MUEdlRHBBNmktcFJzRDZyWmdBZ0tqYnFUQWdHclZYczdTRmN0Qk83MGxEanVjNnk1WFEwUVRteFcteWtPQXVqVGtmZ2NDMzQwZ09EdlBodnJoYjREemg3U3JBZkNVVjZsT0ZrUU9mT0JlNm1ja08zQnJmek5PRi1ESzQxcm93T0w4M1Q5SUhZTnRnNWJsTTQtY280V3BIUEE5b0x0RDN0YjVQRVJOTkJsby1jN3lvekZ5ekhUd0Frdw?oc=5",
+    "sources": [
+      {
+        "name": "WILX",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQQXFiTHB0ODNVNTZrYk9YNVpUYmIwSC1jM3ZSSFQyWGRSdXgyWTMxOFNnWHBQRHM1QXJEUGF4c2ctNlhkYUpSTXJHTDFUOTNqWUtGZXltU3pjSE9fQURMbjItYk00NXE4SDdNUHAtd1hvaFoxRS05bno5Q1JMczlmSGxPdVZfUExIOV9rWG00Rk5WVHhqc05DbjUxQ295MVUwRW5ZeUI5VmticGFQVW5FamFXX0E3WklNb1RV0gHPAUFVX3lxTE9GMUVtWjFsRE9QSmxac01MUEdlRHBBNmktcFJzRDZyWmdBZ0tqYnFUQWdHclZYczdTRmN0Qk83MGxEanVjNnk1WFEwUVRteFcteWtPQXVqVGtmZ2NDMzQwZ09EdlBodnJoYjREemg3U3JBZkNVVjZsT0ZrUU9mT0JlNm1ja08zQnJmek5PRi1ESzQxcm93T0w4M1Q5SUhZTnRnNWJsTTQtY280V3BIUEE5b0x0RDN0YjVQRVJOTkJsby1jN3lvekZ5ekhUd0Frdw?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-25",
+        "event": "Reported by WILX"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-25T21:35:36Z",
+    "wire_id": "6df298403c65",
+    "first_seen": "2026-10-25T21:35:36Z",
+    "first_published": "2026-10-24T23:48:00Z",
+    "updated_at": "2026-10-25T21:35:36Z"
+  },
+  {
+    "id": "ai-music-platform-fraud-conviction",
+    "date": "2026-10-25",
+    "title": "Man convicted of fraud using AI on music streaming platforms",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "low",
+    "country": "GL",
+    "region": "Global",
+    "target": "Music streaming platforms",
+    "loss_usd": null,
+    "summary": "A man was convicted of fraud involving AI on music platforms, per Televen. The headline gives no details on method, amounts, jurisdiction or sentence.",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "sector": "Media & entertainment",
+    "attribution": "Unknown; the headline reports a conviction but does not name the defendant or court.",
+    "motive": "Financial gain",
+    "vector": "Use of AI on music platforms, details not stated",
+    "root_cause": "Unknown",
+    "impact": "Unknown; the headline gives no amounts.",
+    "response": "The man was convicted, per Televen.",
+    "status": "resolved",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.35,
+    "source": "televen.com",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQRWgydDVaZkhDSW90VEU2VjR4VTFqemw2MW9qTy0zWUV6LTRHWmxmS3JNMVd5Njg2R1djS21GYmZ5QWdjTlNtSTZGRjZsWVF1TldCNTBlQlI2ckVFY2h2SHNRWVR1SEpzcmpxWnZsWWEteUtDOTRuUjZfOXM5ZU00RWdkSWZTWGs5V0FDY1d4TEVDT3hPYnVORWtTU1ZhVHNoQXo3VGgtdG8?oc=5",
+    "sources": [
+      {
+        "name": "televen.com",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQRWgydDVaZkhDSW90VEU2VjR4VTFqemw2MW9qTy0zWUV6LTRHWmxmS3JNMVd5Njg2R1djS21GYmZ5QWdjTlNtSTZGRjZsWVF1TldCNTBlQlI2ckVFY2h2SHNRWVR1SEpzcmpxWnZsWWEteUtDOTRuUjZfOXM5ZU00RWdkSWZTWGs5V0FDY1d4TEVDT3hPYnVORWtTU1ZhVHNoQXo3VGgtdG8?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-25",
+        "event": "Reported by televen.com"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-25T21:35:36Z",
+    "wire_id": "b04901cf6dba",
+    "first_seen": "2026-10-25T21:35:36Z",
+    "first_published": "2026-10-25T19:30:00Z",
+    "updated_at": "2026-10-25T21:35:36Z"
   }
 ]
