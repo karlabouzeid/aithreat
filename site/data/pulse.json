@@ -97,7 +97,6 @@
     "other": 19,
     "policy": 31,
     "research": 40,
-    "untagged": 3,
     "vendor-report": 5,
     "vulnerability": 26
   },
@@ -106,13 +105,11 @@
     "other": 13,
     "policy": 7,
     "research": 11,
-    "untagged": 4,
     "vendor-report": 2,
     "vulnerability": 3
   },
   "2026-10-25": {
     "incident": 3,
-    "other": 3,
-    "untagged": 10
+    "other": 3
   }
 }
