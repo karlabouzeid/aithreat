@@ -6124,5 +6124,53 @@
     "first_seen": "2026-10-26T10:35:37Z",
     "first_published": "2026-10-26T10:34:05Z",
     "updated_at": "2026-10-26T10:35:37Z"
+  },
+  {
+    "id": "ai-agent-breaches-divd-zammad-zero-days",
+    "date": "2026-10-26",
+    "title": "AI agent breaches DIVD via Zammad zero-day vulnerabilities",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "NL",
+    "region": "Europe",
+    "target": "DIVD (Dutch Institute for Vulnerability Disclosure)",
+    "loss_usd": null,
+    "summary": "An OrcaRouter write-up reports an AI agent breached DIVD by exploiting zero-day flaws in the Zammad helpdesk software. Details are not given in the headline.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Technology & AI vendors",
+    "attribution": "Unknown; the headline does not say who operated the AI agent or whether it was a test.",
+    "motive": "Unknown",
+    "vector": "Zero-day vulnerabilities in Zammad exploited by an AI agent, per the headline.",
+    "root_cause": "Unpatched zero-day flaws in Zammad; further detail not stated.",
+    "impact": "DIVD reportedly breached; extent of data access or damage not stated in the headline.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.4,
+    "source": "OrcaRouter",
+    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBYYUQ5RmF2MlpIQ1hKVTVVT2NQbWNPUVpNTTZNM3dZS253SXZudUZHRDlSWE5VdlBJaEwyRWJQdThORnVTdDRPNzlCTkdNc1dKd2xtOXVYYmZKbEZoSFZLVC1OeTRHU2I2dURYc0ZLUE9mdw?oc=5",
+    "sources": [
+      {
+        "name": "OrcaRouter",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBYYUQ5RmF2MlpIQ1hKVTVVT2NQbWNPUVpNTTZNM3dZS253SXZudUZHRDlSWE5VdlBJaEwyRWJQdThORnVTdDRPNzlCTkdNc1dKd2xtOXVYYmZKbEZoSFZLVC1OeTRHU2I2dURYc0ZLUE9mdw?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-26",
+        "event": "Reported by OrcaRouter"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-26T11:35:38Z",
+    "wire_id": "d22bcd6a3c03",
+    "first_seen": "2026-10-26T11:35:38Z",
+    "first_published": "2026-10-26T11:17:57Z",
+    "updated_at": "2026-10-26T11:35:38Z"
   }
 ]
