@@ -5980,5 +5980,53 @@
     "first_seen": "2026-10-26T03:35:38Z",
     "first_published": "2026-10-26T03:01:00Z",
     "updated_at": "2026-10-26T03:35:38Z"
+  },
+  {
+    "id": "china-ai-video-fake-death-fraud",
+    "date": "2026-10-26",
+    "title": "Man uses AI video and fake 'father's death' story to defraud friends of 1.7M yuan",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "CN",
+    "region": "Asia-Pacific",
+    "target": "Friends of the fraudster",
+    "loss_usd": null,
+    "summary": "A man reportedly claimed his father died of cancer and made an AI video to back the story, defrauding friends of 1.7 million yuan. The headline suggests the money was then lost.",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "sector": "Individuals & consumers",
+    "attribution": "Chinese media report (Sina mobile) describes a single man; no formal attribution is given.",
+    "motive": "Financial gain",
+    "vector": "False bereavement story supported by an AI-generated video, aimed at personal acquaintances.",
+    "root_cause": "Victims trusted a personal contact and AI-made video content; no verification step was in place.",
+    "impact": "Friends were reportedly defrauded of 1.7 million yuan in total. The headline says the money was lost.",
+    "response": "Unknown; the headline gives no police or court action.",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.5,
+    "source": "手机新浪网",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBRWDVybHI0bUFhRTMwdmpVcVFYYXV4NklzbUpMVEVIcndsZHhwZTB3M1pQS1Y2TjlGcF9paEZzUDhOWVJNZTkwT1RVUUJ2cUtDRVFSVlBOYVVGOHo0UUZEbXhKbHNhbW5LZkJzLTVLY3NFLUp2U1RSeUtrLUdRamc?oc=5",
+    "sources": [
+      {
+        "name": "手机新浪网",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBRWDVybHI0bUFhRTMwdmpVcVFYYXV4NklzbUpMVEVIcndsZHhwZTB3M1pQS1Y2TjlGcF9paEZzUDhOWVJNZTkwT1RVUUJ2cUtDRVFSVlBOYVVGOHo0UUZEbXhKbHNhbW5LZkJzLTVLY3NFLUp2U1RSeUtrLUdRamc?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-26",
+        "event": "Reported by 手机新浪网"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-26T05:05:39Z",
+    "wire_id": "ec72ae721ecd",
+    "first_seen": "2026-10-26T05:05:39Z",
+    "first_published": "2026-10-26T04:45:17Z",
+    "updated_at": "2026-10-26T05:05:39Z"
   }
 ]
