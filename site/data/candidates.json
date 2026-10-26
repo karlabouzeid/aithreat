@@ -6412,5 +6412,53 @@
     "first_seen": "2026-10-26T17:35:38Z",
     "first_published": "2026-10-26T12:00:16Z",
     "updated_at": "2026-10-26T17:35:38Z"
+  },
+  {
+    "id": "dubai-cafe-ai-photo-refund-claim",
+    "date": "2026-10-26",
+    "title": "Dubai café says customer used AI-generated photo to claim delivery refund",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "low",
+    "country": "AE",
+    "region": "Middle East & Africa",
+    "target": "Dubai café (food delivery refund process)",
+    "loss_usd": null,
+    "summary": "A Dubai café says a customer submitted an AI-generated photo to claim a refund on a food delivery order, according to Gulf News.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Retail & consumer brands",
+    "attribution": "Unattributed; the café says a customer submitted the image. No individual is named in the headline.",
+    "motive": "Obtain a refund for a food delivery order.",
+    "vector": "AI-generated image submitted as evidence for a refund claim.",
+    "root_cause": "Refund claims rely on customer-supplied photos, which AI image generators can now fabricate convincingly.",
+    "impact": "A refund claim was based on a fabricated image. The amount lost is not stated.",
+    "response": "The café publicised the case. No further response is stated.",
+    "status": "unresolved",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.6,
+    "source": "Gulf News",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOUkFIcWZvcURKMWJZdHotRW5UbU91dzdjb0xaOUhLWGNlYlpicWdqLVJKdjhyTWxRaVRiZ0gyOXJVc0thWERzX0UwUy1YU204eDEtWkVRYk9oQ3diWEp2M3FQTXpNZE9qdTdlN0lJbmJfSnpGMnZaWWg0WWI3Tnk5SDFUUUNHN2JQWFpSZ2hXYWNHdEViRGxLZtIBqAFBVV95cUxQbmpPcUtIbkptYmRDdmZtZGwwSTRjcW9lS18wd1JoVnpPN0t1eEY1TzhWc3hHdEprUTBQaHpiS3lYQm02OWpyb0pBeDNwb1Z0bjYySWRIdkNyRUp1UjkyODZXVjZsd2VRVk5veHFZOXRWRnk4VFBxeTA4T1g0NENJTDJCMTJYSnVwVzV1M0h0NHR2SHFwTDN1ZTdFcUVwVGpZYmJhS0drNHI?oc=5",
+    "sources": [
+      {
+        "name": "Gulf News",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOUkFIcWZvcURKMWJZdHotRW5UbU91dzdjb0xaOUhLWGNlYlpicWdqLVJKdjhyTWxRaVRiZ0gyOXJVc0thWERzX0UwUy1YU204eDEtWkVRYk9oQ3diWEp2M3FQTXpNZE9qdTdlN0lJbmJfSnpGMnZaWWg0WWI3Tnk5SDFUUUNHN2JQWFpSZ2hXYWNHdEViRGxLZtIBqAFBVV95cUxQbmpPcUtIbkptYmRDdmZtZGwwSTRjcW9lS18wd1JoVnpPN0t1eEY1TzhWc3hHdEprUTBQaHpiS3lYQm02OWpyb0pBeDNwb1Z0bjYySWRIdkNyRUp1UjkyODZXVjZsd2VRVk5veHFZOXRWRnk4VFBxeTA4T1g0NENJTDJCMTJYSnVwVzV1M0h0NHR2SHFwTDN1ZTdFcUVwVGpZYmJhS0drNHI?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-26",
+        "event": "Reported by Gulf News"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-26T23:35:34Z",
+    "wire_id": "4deade5f17c0",
+    "first_seen": "2026-10-26T23:35:34Z",
+    "first_published": "2026-10-26T12:51:43Z",
+    "updated_at": "2026-10-26T23:35:34Z"
   }
 ]
