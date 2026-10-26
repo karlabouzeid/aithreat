@@ -6364,5 +6364,53 @@
     "first_seen": "2026-10-26T15:05:40Z",
     "first_published": "2026-10-26T13:42:04Z",
     "updated_at": "2026-10-26T15:05:40Z"
+  },
+  {
+    "id": "doge-alumni-ai-startup-breaks-into-anthr",
+    "date": "2026-10-26",
+    "title": "AI start-up founded by ex-DOGE staffers reportedly broke into Anthropic",
+    "category": "Model & data leak",
+    "direction": "on-ai",
+    "severity": "medium",
+    "country": "US",
+    "region": "North America",
+    "target": "Anthropic",
+    "loss_usd": null,
+    "summary": "The Washington Post reports that an AI start-up founded by former DOGE staffers broke into Anthropic. The method, scope and any data accessed are not stated in the headline.",
+    "actor": "AI start-up founded by ex-DOGE staffers (name unknown)",
+    "actor_type": "unknown",
+    "sector": "Technology & AI vendors",
+    "attribution": "Washington Post reporting attributes the intrusion to an AI start-up founded by former DOGE staffers.",
+    "motive": "Unknown",
+    "vector": "Unknown",
+    "root_cause": "Unknown",
+    "impact": "Unknown; the headline does not say what was accessed.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.4,
+    "source": "The Washington Post",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNWGRfa29NR1l4a19INEZWSXZWakhia2ZKTnRpQTVYeFNTUXRhdURvSTltbV9RRVJkbzVndVhsMUg0Y3N1MkZVNm11QVB5ZWtFVlhGY2NSSkp1MU84Qm0taWMtcURQcm9EbjZFTjV4Sk9NMTFwLV9Xc1BqM3RqWFhlLWpQZl8tOHJwdktBT2kxTUV6d2ZnWXg1cWwyVWtNSVl2UVA2LU1mWkNlcFZKd1BhNlpRbXZMeGZ0SEdR?oc=5",
+    "sources": [
+      {
+        "name": "The Washington Post",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNWGRfa29NR1l4a19INEZWSXZWakhia2ZKTnRpQTVYeFNTUXRhdURvSTltbV9RRVJkbzVndVhsMUg0Y3N1MkZVNm11QVB5ZWtFVlhGY2NSSkp1MU84Qm0taWMtcURQcm9EbjZFTjV4Sk9NMTFwLV9Xc1BqM3RqWFhlLWpQZl8tOHJwdktBT2kxTUV6d2ZnWXg1cWwyVWtNSVl2UVA2LU1mWkNlcFZKd1BhNlpRbXZMeGZ0SEdR?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-26",
+        "event": "Reported by The Washington Post"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-26T17:35:38Z",
+    "wire_id": "f2239162bd7c",
+    "first_seen": "2026-10-26T17:35:38Z",
+    "first_published": "2026-10-26T12:00:16Z",
+    "updated_at": "2026-10-26T17:35:38Z"
   }
 ]
