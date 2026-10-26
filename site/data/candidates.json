@@ -6076,5 +6076,53 @@
     "first_seen": "2026-10-26T07:05:38Z",
     "first_published": "2026-10-25T20:34:00Z",
     "updated_at": "2026-10-26T07:05:38Z"
+  },
+  {
+    "id": "vn-ai-fake-labels-khau-nhuc-pork",
+    "date": "2026-10-26",
+    "title": "AI-designed fake labels used to deceive buyers of 'Khau Nhuc' pork knuckle boxes in Vietnam",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "low",
+    "country": "VN",
+    "region": "Asia-Pacific",
+    "target": "Consumers buying 'Khau Nhuc' specialty pork boxes",
+    "loss_usd": null,
+    "summary": "A Vietnam.vn report describes a scam over 'Khau Nhuc' pork knuckle boxes in which fake labels created with AI were used to mislead consumers. Further details are not given.",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "sector": "Individuals & consumers",
+    "attribution": "Unknown; the report does not name the seller or those responsible.",
+    "motive": "Financial gain by deceiving consumers about the product.",
+    "vector": "AI-generated fake product labels on specialty food boxes.",
+    "root_cause": "Generative AI makes convincing fake product labels cheap to produce, which can mislead buyers who rely on packaging to judge authenticity.",
+    "impact": "Consumers were reportedly misled by fake labels. The number of victims and the amount lost are not stated.",
+    "response": "Unknown; the summary does not describe any police or regulator action.",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.4,
+    "source": "Vietnam.vn",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPcWliNG1EMVdRUXlQUEgxYldZYl9EbVFUM0g5dFMwSDF6aG5zNnY2T0h2NUNpYjdFRVRDWG5tOFg5VEpSeFdYU0dQcTIyV3lNblB2V3RsR1MwSVNnVEJDSGxrcGc4Wl9tRXpTTmdVUDUxT2VmenFhSnowQ2FvN0x5RkRyUW02MENZSC1iOFhWbXdxM3phdDUweUIzWHJqT0NkQTJ1V0Vrb1JFOHcyMWF1UDVUa1ZXeHBxcndDZg?oc=5",
+    "sources": [
+      {
+        "name": "Vietnam.vn",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPcWliNG1EMVdRUXlQUEgxYldZYl9EbVFUM0g5dFMwSDF6aG5zNnY2T0h2NUNpYjdFRVRDWG5tOFg5VEpSeFdYU0dQcTIyV3lNblB2V3RsR1MwSVNnVEJDSGxrcGc4Wl9tRXpTTmdVUDUxT2VmenFhSnowQ2FvN0x5RkRyUW02MENZSC1iOFhWbXdxM3phdDUweUIzWHJqT0NkQTJ1V0Vrb1JFOHcyMWF1UDVUa1ZXeHBxcndDZg?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-26",
+        "event": "Reported by Vietnam.vn"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-26T10:35:37Z",
+    "wire_id": "0b42bd432c02",
+    "first_seen": "2026-10-26T10:35:37Z",
+    "first_published": "2026-10-26T10:34:05Z",
+    "updated_at": "2026-10-26T10:35:37Z"
   }
 ]
