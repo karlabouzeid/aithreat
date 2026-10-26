@@ -75,3 +75,7 @@ HOME = {
 # The site-wide reporting window labels (last 12 months / all time), shared with the static pages.
 require_relative "window_strings"
 HOME.each { |l, h| h.merge!(WINDOW[l] || {}) }
+
+# Navigation label for the Industries at risk section.
+require_relative "sector_strings"
+HOME.each { |l, h| h[:nav_sectors] = (SECTOR_UI[l] || SECTOR_UI["en"])[:industries] }

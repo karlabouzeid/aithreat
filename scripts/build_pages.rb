@@ -607,7 +607,7 @@ end
 
 def bar(lang, current)
   q = lang == "en" ? "" : "?lang=#{lang}"
-  links = [["#{'/' + q}#map", t(lang, "nav_map"), "map"], ["/#{q}#wire", t(lang, "nav_wire"), "wire"], ["#{pre(lang)}/patterns/", t(lang, "nav_patterns"), "patterns"], ["#{pre(lang)}/research/", rx(lang, :research), "research"], ["#{pre(lang)}/education/", ex(lang, :nav), "education"], ["/#{q}#data", t(lang, "nav_data"), "data"], ["#{pre(lang)}/why/", t(lang, "nav_why"), "why"], ["#{pre(lang)}/cases/", x(lang, :all_cases), "cases"]]
+  links = [["#{'/' + q}#map", t(lang, "nav_map"), "map"], ["/#{q}#wire", t(lang, "nav_wire"), "wire"], ["#{pre(lang)}/patterns/", t(lang, "nav_patterns"), "patterns"], ["#{pre(lang)}/sectors/", sx(lang, :industries), "sectors"], ["#{pre(lang)}/research/", rx(lang, :research), "research"], ["#{pre(lang)}/education/", ex(lang, :nav), "education"], ["/#{q}#data", t(lang, "nav_data"), "data"], ["#{pre(lang)}/why/", t(lang, "nav_why"), "why"], ["#{pre(lang)}/cases/", x(lang, :all_cases), "cases"]]
   nav = links.map { |href, label, key| %(<a href="#{h(href)}"#{key == current ? ' aria-current="page"' : ''}>#{h(label)}</a>) }.join
   %(<div class="bar"><a class="brand" href="/#{q}"><i></i>AI Threat Watch</a><nav class="views" aria-label="Sections">#{nav}</nav><div class="bar-right" id="langbar"></div></div>)
 end
@@ -986,8 +986,12 @@ countries = incidents.map { |i| i["country"] || "GL" }.uniq.sort_by { |c| [c == 
 companies = incidents.map { |i| i["target"] }.select { |v| present(v) }.map(&:strip).uniq.sort_by { |c| [slug(c), c] }
 abort "build_pages: two targets produce the same company slug" if companies.map { |c| slug(c) }.uniq.size != companies.size
 
-LANGS.each { |l| FileUtils.rm_rf(File.join(SITE, pre(l).sub("/", ""), "cases")); FileUtils.rm_rf(File.join(SITE, pre(l).sub("/", ""), "about")); FileUtils.rm_rf(File.join(SITE, pre(l).sub("/", ""), "why")); FileUtils.rm_rf(File.join(SITE, pre(l).sub("/", ""), "patterns")); FileUtils.rm_rf(File.join(SITE, pre(l).sub("/", ""), "research")); FileUtils.rm_rf(File.join(SITE, pre(l).sub("/", ""), "education")) }
+LANGS.each { |l| FileUtils.rm_rf(File.join(SITE, pre(l).sub("/", ""), "cases")); FileUtils.rm_rf(File.join(SITE, pre(l).sub("/", ""), "about")); FileUtils.rm_rf(File.join(SITE, pre(l).sub("/", ""), "why")); FileUtils.rm_rf(File.join(SITE, pre(l).sub("/", ""), "patterns")); FileUtils.rm_rf(File.join(SITE, pre(l).sub("/", ""), "sectors")); FileUtils.rm_rf(File.join(SITE, pre(l).sub("/", ""), "research")); FileUtils.rm_rf(File.join(SITE, pre(l).sub("/", ""), "education")) }
 require_relative "build_patterns"
+require "date"
+require_relative "build_sectors"
+WARNINGS = (JSON.parse(File.read(File.join(SITE, "data", "warnings.json"), encoding: "UTF-8")) rescue [])
+WIRE_NOW = (JSON.parse(File.read(File.join(SITE, "data", "wire.json"), encoding: "UTF-8")) rescue [])
 pulse_hist = (JSON.parse(File.read(File.join(SITE, "data", "pulse.json"))) rescue {})
 stats = patterns_stats(incidents, pulse_hist.is_a?(Hash) ? pulse_hist : {})
 File.write(File.join(SITE, "data", "stats.json"), JSON.pretty_generate(stats))
@@ -1032,6 +1036,8 @@ LANGS.each do |lang|
   write.("#{pre(lang)}/about/index.html", about_page(lang, incidents.first))
   write.("#{pre(lang)}/why/index.html", why_page(lang))
   write.("#{pre(lang)}/patterns/index.html", patterns_page(lang, stats, incidents))
+  write.("#{pre(lang)}/sectors/index.html", sectors_hub(lang, incidents, WARNINGS))
+  SECTORS.each { |slug, sector| write.("#{pre(lang)}/sectors/#{slug}/index.html", sector_page(lang, slug, sector, incidents, WARNINGS, WIRE_NOW)) }
   write.("#{pre(lang)}/research/index.html", research_page(lang, research, incidents))
   write.("#{pre(lang)}/education/index.html", education_page(lang, education, incidents))
   research["claims"].each { |c| write.("#{pre(lang)}/research/#{c['id']}/index.html", claim_page(lang, c, research, incidents)) }
@@ -1070,7 +1076,7 @@ end
 # sitemap: group alternates per logical page
 incidents.each { |i| add_url.(case_url("en", i["id"]), Hash[langs_for(i).map { |l| [l, case_url(l, i["id"])] }]) }
 (LANGS - ["en"]).each { |l| incidents.select { |i| langs_for(i).include?(l) }.each { |i| add_url.(case_url(l, i["id"]), Hash[langs_for(i).map { |m| [m, case_url(m, i["id"])] }]) } }
-list_paths = ["/cases/", "/cases/glossary/", "/about/", "/why/", "/patterns/", "/research/", "/education/"] + research["claims"].map { |c| "/research/#{c['id']}/" } + cats.map { |c| "/cases/category/#{slug(c)}/" } + countries.map { |c| "/cases/country/#{slug(c)}/" } + companies.map { |c| "/cases/company/#{slug(c)}/" }
+list_paths = ["/cases/", "/cases/glossary/", "/about/", "/why/", "/patterns/", "/sectors/"] + SECTORS.keys.map { |k| "/sectors/#{k}/" } + ["/research/", "/education/"] + research["claims"].map { |c| "/research/#{c['id']}/" } + cats.map { |c| "/cases/category/#{slug(c)}/" } + countries.map { |c| "/cases/country/#{slug(c)}/" } + companies.map { |c| "/cases/company/#{slug(c)}/" }
 list_paths.each { |p| LANGS.each { |l| add_url.("#{BASE}#{pre(l)}#{p}", Hash[LANGS.map { |m| [m, "#{BASE}#{pre(m)}#{p}"] }]) } }
 File.write(File.join(SITE, "sitemap.xml"), %(<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n#{sitemap.join("\n")}\n</urlset>\n))
 
@@ -1087,6 +1093,7 @@ llm << "- [All verified case files](#{BASE}/cases/): #{incidents.size} incidents
 llm << "- [Interactive world map](#{BASE}/): the same cases on a map with filters"
 llm << "- [Live wire](#{BASE}/#wire): AI security headlines from vetted sources, refreshed every 30 minutes (machine-triaged, not verified)"
 llm << "- [Data and citing](#{BASE}/#data): download links, field list, inclusion rule, severity scale"
+llm << "- [Industries at risk](#{BASE}/sectors/): one page per sector (finance, government, technology and AI vendors, healthcare, energy and infrastructure, defence, elections, media, retail, education): verified incidents in the last 12 months, official warnings, exercises, advisories and rules from governments, regulators and central banks, attack types and AI products involved, latest wire stories"
 llm << "- [Patterns and statistics](#{BASE}/patterns/): trends recomputed each update from the verified case files: cases per quarter by direction (on AI vs with AI), category heat map, attacks by autonomous AI agents, actor types by year, severity mix, documented losses by category, victim sectors, countries, status and verification speed, wire volume by kind; numbers as JSON at #{BASE}/data/stats.json"
 llm << "- [Research vs reality](#{BASE}/research/): #{research['claims'].size} published AI risk warnings from six institutes given equal weight (Apollo Research, Center for AI Safety, International AI Safety Report 2026, METR, MIT AI Risk Repository, UK AI Security Institute), grouped by risk theme and compared with the verified case files: a status per warning (seen in real incidents, early signs, nothing on record yet, outside what an incident registry measures), the matching case files, the first real-world case on file, related warnings across sources and what the research did not foresee; data at #{BASE}/data/research.json"
 llm << "- [AI incidents in education and among young people](#{BASE}/education/): #{education['total']} verified case files in which AI harmed students, children, teenagers or schools and universities (deepfake abuse of pupils and teachers, chatbot harm to young people, AI safety tools that misfired, exam fraud with AI, data leaks), with statistics by type, setting, age group and country, case studies with how schools and authorities responded, #{education['measures_in_place'].size} prevention measures adopted or published by governments, regulators, exam bodies and international organisations, and laws in force; data at #{BASE}/data/education.json"

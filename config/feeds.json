@@ -336,5 +336,150 @@
     "ai_only": true,
     "lang": "es",
     "google": true
+  },
+  {
+    "name": "BIS press releases",
+    "url": "https://www.bis.org/doclist/all_pressrels.rss",
+    "ai_only": false,
+    "official": true
+  },
+  {
+    "name": "BIS central bankers speeches",
+    "url": "https://www.bis.org/doclist/cbspeeches.rss",
+    "ai_only": false,
+    "official": true
+  },
+  {
+    "name": "Financial Stability Board",
+    "url": "https://www.fsb.org/feed/",
+    "ai_only": false,
+    "official": true
+  },
+  {
+    "name": "ECB press",
+    "url": "https://www.ecb.europa.eu/rss/press.html",
+    "ai_only": false,
+    "official": true
+  },
+  {
+    "name": "ECB banking supervision",
+    "url": "https://www.bankingsupervision.europa.eu/rss/press.html",
+    "ai_only": false,
+    "official": true
+  },
+  {
+    "name": "Federal Reserve press",
+    "url": "https://www.federalreserve.gov/feeds/press_all.xml",
+    "ai_only": false,
+    "official": true
+  },
+  {
+    "name": "Federal Reserve speeches",
+    "url": "https://www.federalreserve.gov/feeds/speeches.xml",
+    "ai_only": false,
+    "official": true
+  },
+  {
+    "name": "Bank of England",
+    "url": "https://www.bankofengland.co.uk/rss/news",
+    "ai_only": false,
+    "official": true
+  },
+  {
+    "name": "UK FCA",
+    "url": "https://www.fca.org.uk/news/rss.xml",
+    "ai_only": false,
+    "official": true
+  },
+  {
+    "name": "US SEC",
+    "url": "https://www.sec.gov/news/pressreleases.rss",
+    "ai_only": false,
+    "official": true
+  },
+  {
+    "name": "European Commission",
+    "url": "https://ec.europa.eu/commission/presscorner/api/rss?language=en",
+    "ai_only": false,
+    "official": true
+  },
+  {
+    "name": "Council of the EU",
+    "url": "https://www.consilium.europa.eu/en/rss/pressreleases.ashx",
+    "ai_only": false,
+    "official": true
+  },
+  {
+    "name": "European Parliament",
+    "url": "https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
+    "ai_only": false,
+    "official": true
+  },
+  {
+    "name": "EDPB",
+    "url": "https://www.edpb.europa.eu/feed/news_en",
+    "ai_only": false,
+    "official": true
+  },
+  {
+    "name": "UK NCSC news",
+    "url": "https://www.ncsc.gov.uk/api/1/services/v1/news-rss-feed.xml",
+    "ai_only": false,
+    "official": true
+  },
+  {
+    "name": "CISA news",
+    "url": "https://www.cisa.gov/news.xml",
+    "ai_only": false,
+    "official": true
+  },
+  {
+    "name": "UK government news",
+    "url": "https://www.gov.uk/search/news-and-communications.atom",
+    "ai_only": false,
+    "official": true
+  },
+  {
+    "name": "UK DSIT",
+    "url": "https://www.gov.uk/government/organisations/department-for-science-innovation-and-technology.atom",
+    "ai_only": false,
+    "official": true
+  },
+  {
+    "name": "US FTC",
+    "url": "https://www.ftc.gov/feeds/press-release.xml",
+    "ai_only": false,
+    "official": true
+  },
+  {
+    "name": "US FDA",
+    "url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/press-releases/rss.xml",
+    "ai_only": false,
+    "official": true
+  },
+  {
+    "name": "US Election Assistance Commission",
+    "url": "https://www.eac.gov/rss.xml",
+    "ai_only": false,
+    "official": true
+  },
+  {
+    "name": "UN News",
+    "url": "https://news.un.org/feed/subscribe/en/news/topic/economic-development/feed/rss.xml",
+    "ai_only": false,
+    "official": true
+  },
+  {
+    "name": "Elysee (France)",
+    "url": "https://www.elysee.fr/en/feed",
+    "ai_only": false,
+    "official": true
+  },
+  {
+    "name": "Google News (official warnings)",
+    "url": "https://news.google.com/rss/search?q=%28%22prime%20minister%22%20OR%20president%20OR%20minister%20OR%20%22central%20bank%22%20OR%20regulator%20OR%20G7%20OR%20G20%20OR%20%22European%20Commission%22%29%20%28AI%20OR%20%22artificial%20intelligence%22%20OR%20deepfake%29%20%28warns%20OR%20warning%20OR%20cyberattack%20OR%20simulation%20OR%20exercise%29%20when%3A2d&hl=en-US&gl=US&ceid=US:en",
+    "ai_only": false,
+    "official": true,
+    "google": true
   }
 ]

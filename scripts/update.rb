@@ -150,10 +150,14 @@ rescue => e
   []
 end
 
-def relevant?(item, ai_only_source)
+# Official sources (governments, regulators, central banks) speak of risk, resilience and
+# exercises more than of attacks, so their items also pass on those words.
+OFFICIAL_RE = /\b(cyber\w*|threats?|risks?|resilien\w*|misuse|safety|security|warn(s|ed|ing)?|simulat\w*|stress[- ]test\w*|exercises?)\b/i
+
+def relevant?(item, ai_only_source, official = false)
   text = "#{item[:title]} #{item[:summary]}"
   ai = ai_only_source || text =~ AI_RE
-  sec = text =~ SEC_RE
+  sec = text =~ SEC_RE || (official && text =~ OFFICIAL_RE)
   ai && (sec || ai_only_source)
 end
 
@@ -180,7 +184,7 @@ FEEDS.each do |f|
       else parse_feed(f["name"], body)
       end
     end
-    kept = items.select { |i| i[:url] && !i[:url].empty? && relevant?(i, f["ai_only"]) }
+    kept = items.select { |i| i[:url] && !i[:url].empty? && relevant?(i, f["ai_only"], f["official"]) }
     kept.each do |i|
       url = norm_url(i[:url])
       id = Digest::SHA1.hexdigest(url)[0, 12]
@@ -218,7 +222,7 @@ log "new items: #{fresh.size}"
 # Wire stories stored unsorted (triage was down when they arrived) go back through triage,
 # a slice per run; dropped ones leave the wire, kept ones come back with their tags.
 if !ENV["ANTHROPIC_API_KEY"].to_s.strip.empty?
-  backlog = existing.select { |w| w["kind"].nil? && !triaged.key?(w["id"]) }.first(250)
+  backlog = existing.select { |w| (w["kind"].nil? && !triaged.key?(w["id"])) || (!w["kind"].nil? && !w.key?("sector")) }.first(250)
   if backlog.any?
     ids = backlog.map { |w| w["id"] }
     existing = existing.reject { |w| ids.include?(w["id"]) }
@@ -233,6 +237,7 @@ candidates = File.exist?(CAND_PATH) ? JSON.parse(File.read(CAND_PATH)) : []
 api_key = ENV["ANTHROPIC_API_KEY"].to_s.strip
 api_key = nil if api_key.empty?
 triage_note = nil
+warnings_new = []
 if api_key && !fresh.empty?
   recent_titles = (incidents.map { |i| "#{i['date']} #{i['title']}" } + candidates.map { |c| "#{c['date']} #{c['title']}" }).last(120)
   known_cats = ["Prompt injection", "Deepfake fraud", "AI-assisted malware", "AI supply chain", "Model & data leak", "LLMjacking", "Agent hijack", "AI phishing", "State actor AI ops", "Chatbot harm", "Deepfake abuse", "AI misfire", "AI exam fraud"]
@@ -244,7 +249,9 @@ if api_key && !fresh.empty?
     For EACH item return an object:
     - "i": the index
     - "keep": true if it is about AI security (an AI system attacked, abused, leaking, or AI used to attack); also true for a specific case of serious harm to a person attributed to an AI chatbot or companion (lawsuit, inquest, police or regulator action); also true for a specific case of AI deepfakes used to sexually abuse, harass or defame a real person (for example pupils or teachers), an AI safety or monitoring tool that wrongly flagged, missed or exposed people, or organised exam cheating with AI (category "AI exam fraud"); false for generic security news, product marketing, opinion with no event, general debate about AI and mental health, or unrelated AI news
-    - "kind": one of "incident" (a specific real-world event with a victim), "vulnerability" (a flaw disclosed, no confirmed abuse), "research", "policy", "vendor-report", "other"
+    - "kind": one of "incident" (a specific real-world event with a victim), "vulnerability" (a flaw disclosed, no confirmed abuse), "warning" (a public warning, exercise or simulation, formal advisory or binding rule about AI-related security risk, issued by a head of state or government, a minister, a central bank, a regulator, an election authority, an intergovernmental body such as the G7, G20, UN, EU, NATO or FSB, a national cyber or security agency, or a legislature; reporting about such a statement counts, commentary by companies, analysts or influencers does not), "research", "policy" (other policy news), "vendor-report", "other"
+    - "sector": the sector most concerned, one of "Financial services"|"Government & public sector"|"Technology & AI vendors"|"Healthcare"|"Media & entertainment"|"Retail & consumer brands"|"Education & research"|"Energy, industrial & infrastructure"|"Defence & security"|"Politics & elections"|"Individuals & consumers"|"Multiple / cross-sector"|"Unknown"
+    - if kind is "warning", also "warning": {"who": issuer as named in the text (<=80 chars), "who_type": "head_of_government"|"minister"|"central_bank"|"regulator"|"intergovernmental"|"security_agency"|"legislature", "country": ISO 3166 alpha-2, "EU" or "INT", "type": "warning"|"exercise"|"advisory"|"rule", "sectors": array of the sectors concerned (same list), "title": neutral headline <=120 chars, "summary": what was said or decided, facts only, <=280 chars}. Never present speculation or a forecast as a fact; attribute it to the issuer.
     - "tag": 2-4 word label for the wire, e.g. "Prompt injection", "Deepfake fraud", "LLM data leak"
     - "one_line": one neutral sentence (<=140 chars) saying what happened, for the wire
     - "new_incident": true ONLY if kind is "incident" or an actively exploited "vulnerability", the event is specific and credible, and it is NOT already in the known list below
@@ -291,7 +298,12 @@ if api_key && !fresh.empty?
       v = by_i[n]
       triaged[w["id"]] = now.strftime("%Y-%m-%d") if v
       next unless v && v["keep"]
-      w["kind"] = v["kind"]; w["tag"] = v["tag"]; w["one_line"] = v["one_line"]
+      w["kind"] = v["kind"]; w["tag"] = v["tag"]; w["one_line"] = v["one_line"]; w["sector"] = v["sector"] if v["sector"]
+      if v["kind"] == "warning" && v["warning"].is_a?(Hash)
+        wd = v["warning"]
+        warnings_new << { "id" => w["id"], "date" => w["published"].to_s[0, 10], "sectors" => Array(wd["sectors"]).first(4), "who" => wd["who"].to_s[0, 80], "who_type" => wd["who_type"], "country" => wd["country"], "kind" => wd["type"],
+                          "title" => wd["title"].to_s[0, 120], "summary" => wd["summary"].to_s[0, 280], "url" => w["url"], "source" => w["source"], "lang" => w["lang"], "added_at" => now.iso8601, "origin" => "robot" }
+      end
       if v["new_incident"] && v["draft"].is_a?(Hash)
         d = v["draft"]
         d["id"] = d["id"].to_s.downcase.gsub(/[^a-z0-9-]+/, "-").gsub(/^-|-$/, "")[0, 40]
@@ -342,6 +354,17 @@ wire = wire.sort_by { |w| [w["seen"], w["published"]] }.reverse.first(MAX_WIRE)
 File.write(WIRE_PATH, JSON.pretty_generate(wire))
 File.write(CAND_PATH, JSON.pretty_generate(candidates))
 File.write(TRIAGED_PATH, JSON.generate(triaged))
+warn_path = File.join(DATA, "warnings.json")
+warnings = (JSON.parse(File.read(warn_path)) rescue [])
+warnings = [] unless warnings.is_a?(Array)
+seed_path = File.join(ROOT, "config", "warnings_seed.json")
+seed = (JSON.parse(File.read(seed_path)) rescue [])
+seen_urls = warnings.map { |x| x["url"] }
+(seed + warnings_new).each { |x| next if x["url"].to_s.empty? || seen_urls.include?(x["url"]); warnings << x; seen_urls << x["url"] }
+cutoff_w = (now - 400 * 86_400).strftime("%Y-%m-%d")
+warnings = warnings.select { |x| x["date"].to_s >= cutoff_w }.sort_by { |x| [x["date"].to_s, x["title"].to_s] }.reverse
+File.write(warn_path, JSON.pretty_generate(warnings))
+log "warnings: #{warnings.size} in archive, #{warnings_new.size} new this run"
 # Wire pulse: how many stories of each kind were published per day (by publication date, The wire itself only
 # not discovery date). The wire itself only keeps KEEP_DAYS, so the Patterns page reads
 # this growing history instead. Days still

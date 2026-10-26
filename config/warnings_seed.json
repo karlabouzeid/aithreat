@@ -1,0 +1,1402 @@
+[
+  {
+    "date": "2026-10-19",
+    "sectors": [
+      "Financial services"
+    ],
+    "who": "INTERPOL",
+    "who_type": "intergovernmental",
+    "country": "INT",
+    "kind": "warning",
+    "title": "INTERPOL launches public awareness campaign on AI deepfake scams",
+    "summary": "INTERPOL released three AI-generated videos showing scams in which criminals use deepfakes to pose as relatives or colleagues, including requests for bank transfers, and advised verifying unexpected requests through trusted channels.",
+    "url": "https://www.interpol.int/News-and-Events/News/2026/INTERPOL-launches-public-awareness-campaign-highlighting-risk-of-AI-deepfake-scams",
+    "source": "INTERPOL",
+    "id": "seed-ZmFrZS1zY2Ftcw",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-10-16",
+    "sectors": [
+      "Politics & elections",
+      "Defence & security"
+    ],
+    "who": "FBI and CISA",
+    "who_type": "security_agency",
+    "country": "US",
+    "kind": "advisory",
+    "title": "FBI and CISA warn election officials of AI-assisted phishing and deepfakes",
+    "summary": "A joint PSA said cyber actors targeting election and campaign officials use AI to write natural-sounding phishing emails and create deepfake video and audio, and advised checking content credentials or watermarks.",
+    "url": "https://www.ic3.gov/PSA/2026/PSA261016",
+    "source": "FBI IC3",
+    "id": "seed-i9QU0EyNjEwMTY",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-10-16",
+    "sectors": [
+      "Government & public sector"
+    ],
+    "who": "CERT-In (Indian Computer Emergency Response Team)",
+    "who_type": "security_agency",
+    "country": "IN",
+    "kind": "advisory",
+    "title": "CERT-In critical advisory on AI agents as attack vectors after unauthorised access to Indian systems",
+    "summary": "Advisory CIAD-2026-0049 said AI agents used in research and evaluation accessed live systems and confidential data at Indian organisations via exposed credentials and broad cloud permissions, and that attackers are using AI-native offensive tools.",
+    "url": "https://www.deccanchronicle.com/artificial-intelligence/cert-in-issues-critical-alert-after-autonomous-ai-agents-access-live-systems-of-indian-orgs-1996324",
+    "source": "Deccan Chronicle",
+    "id": "seed-mdzLTE5OTYzMjQ",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-10-15",
+    "sectors": [
+      "Politics & elections",
+      "Retail & consumer brands"
+    ],
+    "who": "FBI Internet Crime Complaint Center",
+    "who_type": "security_agency",
+    "country": "US",
+    "kind": "advisory",
+    "title": "FBI warns scammers exploit 2026 midterms with AI impersonation of candidates",
+    "summary": "The FBI warned of fake PACs, candidate investment pools, bogus merchandise and fake voter registration, noting scammers use AI to create realistic voices, images and messages impersonating candidates and campaigns.",
+    "url": "https://www.ic3.gov/PSA/2026/PSA261015-3",
+    "source": "FBI IC3",
+    "id": "seed-U0EyNjEwMTUtMw",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-10-14",
+    "sectors": [
+      "Technology & AI vendors",
+      "Defence & security"
+    ],
+    "who": "Cyber Security Agency of Singapore",
+    "who_type": "security_agency",
+    "country": "SG",
+    "kind": "exercise",
+    "title": "Singapore CSA holds tabletop exercise on agentic AI security and control",
+    "summary": "At Singapore International Cyber Week, CSA and Google ran a scenario exercise with policymakers and critical infrastructure leaders on rogue or compromised AI agents, recommending incident plans, verifiable agent identities and layered oversight.",
+    "url": "https://www.csa.gov.sg/news-events/press-releases/outcome-statement-tabletop-exercise-on-agentic-ai-security-and-control-at-the-singapore-international-cyber-week-2026/",
+    "source": "Cyber Security Agency of Singapore",
+    "id": "seed-13ZWVrLTIwMjYv",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-10-08",
+    "sectors": [
+      "Media & entertainment"
+    ],
+    "who": "Danish Ministry of Culture",
+    "who_type": "minister",
+    "country": "DK",
+    "kind": "warning",
+    "title": "Denmark tables bill to ban sharing realistic deepfakes of people's faces and voices without consent",
+    "summary": "Culture Minister Zenia Stampe introduced a copyright amendment banning sharing of realistic deepfakes of a person's face or voice without consent, covering artists' performances, with satire exempt. Intended start is early 2027.",
+    "url": "https://www.euronews.com/2026/10/08/denmark-introduces-a-bill-protecting-peoples-faces-and-voices-from-deepfakes",
+    "source": "Euronews",
+    "id": "seed-LWRlZXBmYWtlcw",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-10-08",
+    "sectors": [
+      "Technology & AI vendors"
+    ],
+    "who": "Information Commissioner's Office",
+    "who_type": "regulator",
+    "country": "GB",
+    "kind": "warning",
+    "title": "UK ICO extends scrutiny to AI agents and opens call for evidence on agentic AI risks",
+    "summary": "The ICO said reports of agents bypassing protections and accessing external systems raise concerns about safeguards and oversight, made enquiries with AI developers, and opened a call for evidence closing 20 November 2026.",
+    "url": "https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/2026/10/ico-secures-changes-from-leading-ai-developers-as-scrutiny-extends-to-ai-agents/",
+    "source": "Information Commissioner's Office",
+    "id": "seed-WFpLWFnZW50cy8",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-10-07",
+    "sectors": [
+      "Technology & AI vendors"
+    ],
+    "who": "Federal Office for Information Security (BSI)",
+    "who_type": "security_agency",
+    "country": "DE",
+    "kind": "warning",
+    "title": "BSI study finds only one in ten German firms has processes for AI-related security incidents",
+    "summary": "A BSI and TÜV-Verband survey found 17% of companies reported an AI-linked attack or fraud attempt in 12 months, including deepfake voice fraud, while only 11% have dedicated AI incident processes.",
+    "url": "https://www.bsi.bund.de/DE/Service-Navi/Presse/Pressemitteilungen/Presse2026/261007_KI-Sicherheitsstudie_TUEV_BSI.html",
+    "source": "BSI",
+    "id": "seed-Vl9CU0kuaHRtbA",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-09-23",
+    "sectors": [
+      "Defence & security",
+      "Technology & AI vendors"
+    ],
+    "who": "UN Security Council",
+    "who_type": "intergovernmental",
+    "country": "INT",
+    "kind": "warning",
+    "title": "UN Security Council holds high-level briefing on AI and international security",
+    "summary": "At a France-chaired briefing, the co-chair of the UN scientific panel on AI warned of agents escaping containment and catastrophic misuse; AI company heads discussed loss of control, misuse and an autonomous agent cyberattack.",
+    "url": "https://press.un.org/en/2026/sc16462.doc.htm",
+    "source": "United Nations",
+    "id": "seed-DYyLmRvYy5odG0",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-09-22",
+    "sectors": [
+      "Technology & AI vendors",
+      "Defence & security",
+      "Politics & elections"
+    ],
+    "who": "ENISA",
+    "who_type": "intergovernmental",
+    "country": "EU",
+    "kind": "warning",
+    "title": "ENISA Threat Landscape 2026 reports growing malicious use of AI by threat groups",
+    "summary": "ENISA said threat groups increasingly use AI and also target AI systems, that synthetic audio, video and text are part of influence operators' daily arsenal, and that AI integration extends the attack surface.",
+    "url": "https://www.enisa.europa.eu/news/exploring-the-evolution-of-the-cyber-threat-landscape-how-dependencies-weaken-our-digital-resilience",
+    "source": "ENISA",
+    "id": "seed-cmVzaWxpZW5jZQ",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-09-17",
+    "sectors": [
+      "Retail & consumer brands"
+    ],
+    "who": "FBI Internet Crime Complaint Center",
+    "who_type": "security_agency",
+    "country": "US",
+    "kind": "advisory",
+    "title": "FBI warns of law enforcement and government impersonation scams using AI on video calls",
+    "summary": "The FBI said scammers use AI to appear as officials on video calls, and reported nearly 61,000 government-impersonation complaints with losses over USD 1.6 billion between January 2025 and July 2026.",
+    "url": "https://www.ic3.gov/PSA/2026/PSA260917",
+    "source": "FBI IC3",
+    "id": "seed-i9QU0EyNjA5MTc",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-09-08",
+    "sectors": [
+      "Education & research"
+    ],
+    "who": "CISA, NSA and FBI",
+    "who_type": "security_agency",
+    "country": "US",
+    "kind": "advisory",
+    "title": "US agencies warn of industrial-scale knowledge distillation campaigns against US AI models",
+    "summary": "The agencies said China-based AI companies have extracted billions of tokens from US frontier models since at least late 2024, and urged AI developers to detect suspicious activity, alter responses to suspected distillation and share intelligence.",
+    "url": "https://www.cisa.gov/news-events/news/cisa-nsa-and-fbi-warn-china-based-ai-companies-targeting-us-ai-models-industrial-scale-knowledge",
+    "source": "CISA",
+    "id": "seed-S1rbm93bGVkZ2U",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-08-31",
+    "sectors": [
+      "Financial services"
+    ],
+    "who": "Financial Stability Board (Chair Andrew Bailey), letter to G20 finance ministers and central bank governors",
+    "who_type": "intergovernmental",
+    "country": "INT",
+    "kind": "warning",
+    "title": "FSB Chair warns G20 of cyber risks from frontier AI models",
+    "summary": "The FSB Chair told G20 finance ministers and central bank governors that frontier AI models pose cyber risks to the financial system and urged authorities to support their safe release and deployment.",
+    "url": "https://fsb.org/2026/08/fsb-chair-warns-of-risks-arising-from-frontier-artificial-intelligence-ai-models",
+    "source": "Financial Stability Board",
+    "id": "seed-S1haS1tb2RlbHM",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-08-19",
+    "sectors": [
+      "Energy, industrial & infrastructure"
+    ],
+    "who": "NSA, CISA, FBI, Department of Energy and Environmental Protection Agency",
+    "who_type": "security_agency",
+    "country": "US",
+    "kind": "advisory",
+    "title": "US agencies warn of active threat to Siemens S7 PLCs using AI-written exploitation scripts",
+    "summary": "Advisory AA26-231A said threat actors are using AI to write exploitation scripts against Siemens S7 controllers in energy, water and other sectors, reducing the expertise and time needed to build ICS exploit tools.",
+    "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-231a",
+    "source": "CISA",
+    "id": "seed-L2FhMjYtMjMxYQ",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-08-17",
+    "sectors": [
+      "Retail & consumer brands",
+      "Media & entertainment"
+    ],
+    "who": "Australian Securities and Investments Commission (ASIC)",
+    "who_type": "regulator",
+    "country": "AU",
+    "kind": "warning",
+    "title": "ASIC warns scammers use AI to build networks of deepfake websites and endorsements",
+    "summary": "ASIC said deepfake videos of celebrities and politicians in investment scams rose sharply, removed over 19,400 scams in FY26 (up 182%), and advised that a simple online search is not enough to verify an offer.",
+    "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-195mr-asic-warns-scammers-are-using-ai-to-spin-vast-webs-of-deception",
+    "source": "ASIC",
+    "id": "seed-LWRlY2VwdGlvbg",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-08-04",
+    "sectors": [
+      "Government & public sector"
+    ],
+    "who": "UK National Cyber Security Centre (Ollie Whitehouse, CTO)",
+    "who_type": "security_agency",
+    "country": "GB",
+    "kind": "warning",
+    "title": "NCSC statement on incidents of frontier AI models taking unsanctioned actions during evaluations",
+    "summary": "The NCSC said recent incidents of frontier AI models carrying out unsanctioned actions and deceptive behaviour on the open internet are a serious reminder of AI risks, and called for strong safeguards, real-time oversight and response plans.",
+    "url": "https://www.ncsc.gov.uk/sites/default/files/2026-08/NCSC-statement-in-response-to-recent-incidents-resulting-from-frontier-AI-evaluations_1.pdf",
+    "source": "National Cyber Security Centre (UK)",
+    "id": "seed-GlvbnNfMS5wZGY",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-08-04",
+    "sectors": [
+      "Technology & AI vendors"
+    ],
+    "who": "National Cyber Security Centre (NCSC)",
+    "who_type": "security_agency",
+    "country": "GB",
+    "kind": "warning",
+    "title": "UK NCSC responds to incidents of frontier AI models taking unsanctioned actions during evaluations",
+    "summary": "NCSC CTO Ollie Whitehouse said recent incidents in which frontier AI models took unsanctioned actions and showed deceptive behaviour online show the need for built-in safeguards, live oversight and response plans, not detection alone.",
+    "url": "https://www.ncsc.gov.uk/news/ncsc-statement-in-response-to-recent-incidents-resulting-from-frontier-ai-evaluations",
+    "source": "National Cyber Security Centre",
+    "id": "seed-V2YWx1YXRpb25z",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-08-03",
+    "sectors": [
+      "Defence & security",
+      "Retail & consumer brands"
+    ],
+    "who": "INTERPOL",
+    "who_type": "intergovernmental",
+    "country": "INT",
+    "kind": "warning",
+    "title": "INTERPOL report finds AI involved in 55% of reported cybercrime in Africa",
+    "summary": "INTERPOL's African Cyberthreat Assessment 2026 said AI is involved in 55% of reported cybercrimes, losses more than doubled to USD 484 million since 2024, and deepfakes and synthetic identities fuel sextortion and fraud.",
+    "url": "https://www.interpol.int/en/News-and-Events/News/2026/INTERPOL-report-finds-AI-linked-to-more-than-half-of-cybercrime-in-Africa",
+    "source": "INTERPOL",
+    "id": "seed-LWluLUFmcmljYQ",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-07-31",
+    "sectors": [
+      "Financial services"
+    ],
+    "who": "European Supervisory Authorities (EBA, EIOPA and ESMA)",
+    "who_type": "regulator",
+    "country": "EU",
+    "kind": "advisory",
+    "title": "EU supervisory authorities publish joint statement on ICT risks from frontier AI models",
+    "summary": "EBA, EIOPA and ESMA called for consistent, risk-based supervision of ICT risks from frontier AI, set out prevention, detection and management measures for financial entities, and updated on DORA oversight of critical ICT third-party providers.",
+    "url": "https://www.eba.europa.eu/publications-and-media/press-releases/eba-eiopa-and-esma-call-enhanced-governance-and-consistent-supervision-mitigate-ict-risks-frontier",
+    "source": "European Banking Authority",
+    "id": "seed-tzLWZyb250aWVy",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-07-28",
+    "sectors": [
+      "Education & research"
+    ],
+    "who": "eSafety Commissioner (Australia)",
+    "who_type": "regulator",
+    "country": "AU",
+    "kind": "advisory",
+    "title": "Australia's eSafety Commissioner issues advisory on AI misuse of school photos",
+    "summary": "eSafety urged schools to review how they share images online after receiving over 100 reports in January to March 2026 of accounts misusing school photos, including AI-generated sexualised deepfakes and face swaps of students and staff.",
+    "url": "https://www.hrw.org/news/2026/07/30/australia-school-photos-scraped-for-ai-fueled-image-misuse",
+    "source": "Human Rights Watch",
+    "id": "seed-YWdlLW1pc3VzZQ",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-07-20",
+    "sectors": [
+      "Retail & consumer brands",
+      "Media & entertainment"
+    ],
+    "who": "FBI Internet Crime Complaint Center",
+    "who_type": "security_agency",
+    "country": "US",
+    "kind": "advisory",
+    "title": "FBI warns scammers impersonate IC3 using deepfake videos of public figures",
+    "summary": "The FBI said recovery scammers use AI-generated deepfake videos of public figures, including a senior FBI leader, to promote fake IC3 complaint sites that harvest personal and financial data from past fraud victims.",
+    "url": "https://www.ic3.gov/PSA/2026/PSA260720",
+    "source": "FBI IC3",
+    "id": "seed-i9QU0EyNjA3MjA",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-07-07",
+    "sectors": [
+      "Technology & AI vendors"
+    ],
+    "who": "ENISA",
+    "who_type": "intergovernmental",
+    "country": "EU",
+    "kind": "advisory",
+    "title": "ENISA publishes recommendations for cybersecurity in the frontier AI era",
+    "summary": "ENISA issued initial recommendations for authorities, defenders and service providers to build capabilities against threats operating at machine speed as frontier AI compresses the vulnerability-to-exploitation cycle.",
+    "url": "https://www.enisa.europa.eu/publications/enisas-view-on-cybersecurity-in-the-frontier-ai-era",
+    "source": "ENISA",
+    "id": "seed-Gllci1haS1lcmE",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-07-07",
+    "sectors": [
+      "Education & research"
+    ],
+    "who": "UK Department for Education",
+    "who_type": "minister",
+    "country": "GB",
+    "kind": "rule",
+    "title": "Keeping Children Safe in Education 2026 covers AI-generated nude images",
+    "summary": "The 2026 statutory safeguarding guidance, in force from 1 September 2026, defines sharing nudes and semi-nudes to include images digitally altered or wholly generated using AI, and links schools to generative AI safety expectations.",
+    "url": "https://www.edtechinnovationhub.com/news/dfe-publishes-kcsie-2026-with-mobile-phone-free-default-and-ai-safeguarding-rules",
+    "source": "EdTech Innovation Hub",
+    "id": "seed-mRpbmctcnVsZXM",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-07-07",
+    "sectors": [
+      "Financial services"
+    ],
+    "who": "European Central Bank Banking Supervision (Claudia Buch, Chair of the Supervisory Board)",
+    "who_type": "central_bank",
+    "country": "EU",
+    "kind": "advisory",
+    "title": "ECB asks significant banks for action plans on AI-enabled cybersecurity threats",
+    "summary": "Letter SSM-2026-0301 to CEOs of significant institutions says AI models can find vulnerabilities and generate exploits at unprecedented speed, and asks banks to strengthen ICT resilience and submit an action plan to their supervisory teams.",
+    "url": "https://www.bankingsupervision.europa.eu/press/letterstobanks/shared/pdf/2026/ssm.2026_letter_on_AI_enabled_cybersecurity_threats.en.pdf",
+    "source": "European Central Bank",
+    "id": "seed-YXRzLmVuLnBkZg",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-07-07",
+    "sectors": [
+      "Government & public sector",
+      "Energy, industrial & infrastructure"
+    ],
+    "who": "European Commission",
+    "who_type": "intergovernmental",
+    "country": "EU",
+    "kind": "advisory",
+    "title": "European Commission presents EU Action Plan on Cybersecurity and Artificial Intelligence",
+    "summary": "The plan says AI can be misused to find vulnerabilities and scale attacks, and proposes an EU model evaluation capacity, structured access to advanced AI for defenders, a secure testing platform, support for faster patching and a Grand Challenge.",
+    "url": "https://commission.europa.eu/news-and-media/news/new-eu-plan-address-risks-and-opportunities-advanced-ai-cybersecurity-2026-07-07_en",
+    "source": "European Commission",
+    "id": "seed-I2LTA3LTA3X2Vu",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-06-29",
+    "sectors": [
+      "Media & entertainment",
+      "Technology & AI vendors"
+    ],
+    "who": "Council of the EU and European Parliament",
+    "who_type": "legislature",
+    "country": "EU",
+    "kind": "rule",
+    "title": "EU adopts AI Act amendments banning AI 'nudifier' systems",
+    "summary": "The Digital Omnibus on AI, approved by Parliament on 16 June and the Council on 29 June 2026, bans AI systems that create CSAM or non-consensual intimate depictions of identifiable people, with compliance due by 2 December 2026.",
+    "url": "https://www.europarl.europa.eu/legislative-train/package-digital-package/file-digital-omnibus-on-ai",
+    "source": "European Parliament Legislative Train",
+    "id": "seed-5pYnVzLW9uLWFp",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-06-24",
+    "sectors": [
+      "Retail & consumer brands"
+    ],
+    "who": "Federal Trade Commission",
+    "who_type": "regulator",
+    "country": "US",
+    "kind": "advisory",
+    "title": "FTC consumer alert warns pet scams use AI-generated images and deepfakes",
+    "summary": "The FTC warned that scammers use AI-generated deepfakes and images of pets in fake emergency and donation schemes, and advised reverse image searches and avoiding gift card, crypto or wire payments.",
+    "url": "https://consumer.ftc.gov/consumer-alerts/2026/06/animal-lovers-learn-spot-and-avoid-breed-pet-scams",
+    "source": "Federal Trade Commission",
+    "id": "seed-QtcGV0LXNjYW1z",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-06-23",
+    "sectors": [
+      "Politics & elections"
+    ],
+    "who": "European Parliament Special Committee on the European Democracy Shield",
+    "who_type": "legislature",
+    "country": "EU",
+    "kind": "warning",
+    "title": "European Parliament committee calls for stronger measures against malicious deepfakes",
+    "summary": "The special committee adopted a report calling for stronger measures against malicious deepfakes and fraudulent ads, exposure of hidden generative AI disinformation campaigns and faster platform responses to bot-driven interference.",
+    "url": "https://eprs.europarl.europa.eu/contents/publications/EPRS/2026/09/EPRS_ATA(2026)791474.html",
+    "source": "European Parliamentary Research Service",
+    "id": "seed-zkxNDc0Lmh0bWw",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-06-22",
+    "sectors": [
+      "Technology & AI vendors",
+      "Defence & security"
+    ],
+    "who": "Five Eyes cyber agencies (NCSC, CISA, NSA, ASD ACSC, CCCS, NCSC NZ)",
+    "who_type": "security_agency",
+    "country": "GB",
+    "kind": "warning",
+    "title": "Five Eyes cyber agencies warn leaders that frontier AI is reshaping cyber risk within months",
+    "summary": "Heads of six agencies said frontier AI speeds and scales attacks, that 'the timeline is not years, it is months', and urged faster patching, legacy remediation, tighter identity controls and rehearsed incident response.",
+    "url": "https://www.ncsc.gov.uk/news/the-ai-shift-in-cyber-risk-why-leaders-must-act-now",
+    "source": "National Cyber Security Centre",
+    "id": "seed-XN0LWFjdC1ub3c",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-06-22",
+    "sectors": [
+      "Government & public sector",
+      "Energy, industrial & infrastructure"
+    ],
+    "who": "Heads of the Five Eyes cyber security agencies (CISA, NSA, NCSC-UK, ACSC, Canadian Centre for Cyber Security, NCSC-NZ)",
+    "who_type": "security_agency",
+    "country": "INT",
+    "kind": "warning",
+    "title": "Five Eyes cyber agency heads warn frontier AI will shift cyber risk within months",
+    "summary": "The joint statement said frontier AI is expected to change the cyber threat landscape within months and urged leaders to reduce attack surfaces, accelerate patching, address legacy and long-lifecycle operational systems, tighten access and prepare for incidents.",
+    "url": "https://www.cisa.gov/news-events/news/five-eyes-cyber-security-agencies-statement",
+    "source": "CISA",
+    "id": "seed-Mtc3RhdGVtZW50",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-06-15",
+    "sectors": [
+      "Retail & consumer brands",
+      "Media & entertainment"
+    ],
+    "who": "Financial Sector Conduct Authority (FSCA)",
+    "who_type": "regulator",
+    "country": "ZA",
+    "kind": "warning",
+    "title": "South Africa's FSCA warns of deepfake videos of journalists promoting investment scam",
+    "summary": "The FSCA warned that AI-generated videos of journalist Maya Fisher-French and broadcaster Bruce Whitfield were used in social media ads promoting a 'Quantum AI' scheme promising unrealistic returns.",
+    "url": "https://ewn.co.za/2026/06/15/beware-of-deepfake-investment-scam-using-maya-fisher-french-bruce-whitfield",
+    "source": "Eyewitness News",
+    "id": "seed-S13aGl0ZmllbGQ",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-06-10",
+    "sectors": [
+      "Media & entertainment",
+      "Technology & AI vendors"
+    ],
+    "who": "European Commission",
+    "who_type": "intergovernmental",
+    "country": "EU",
+    "kind": "advisory",
+    "title": "European Commission publishes Code of Practice on marking and labelling AI-generated content",
+    "summary": "The voluntary code gives generative AI providers and deployers steps to meet AI Act transparency duties applying from 2 August 2026, under which deepfakes must be clearly labelled.",
+    "url": "https://digital-strategy.ec.europa.eu/en/news/commission-publishes-code-practice-marking-and-labelling-ai-generated-content",
+    "source": "European Commission",
+    "id": "seed-RlZC1jb250ZW50",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-06-02",
+    "sectors": [
+      "Government & public sector",
+      "Financial services",
+      "Healthcare",
+      "Energy, industrial & infrastructure"
+    ],
+    "who": "Donald Trump, President of the United States (Executive Order 14409)",
+    "who_type": "head_of_government",
+    "country": "US",
+    "kind": "rule",
+    "title": "US executive order on advanced AI innovation and security addresses AI-enabled cyber threats",
+    "summary": "The order directs agencies to prioritise cyber defence of government systems, has Treasury set up a voluntary AI cybersecurity clearinghouse, names rural hospitals, community banks and local utilities, and creates a voluntary pre-release framework for frontier models.",
+    "url": "https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/",
+    "source": "The White House",
+    "id": "seed-Qtc2VjdXJpdHkv",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-06-02",
+    "sectors": [
+      "Financial services"
+    ],
+    "who": "Hong Kong Monetary Authority",
+    "who_type": "central_bank",
+    "country": "HK",
+    "kind": "advisory",
+    "title": "HKMA circular on strengthening cyber resilience amid AI-empowered cyber threats",
+    "summary": "Circular to all authorized institutions said frontier AI models can identify and exploit zero-day vulnerabilities and could make attacks faster and more frequent; banks were asked to review cyber defences, third-party resilience, and incident response and recovery.",
+    "url": "https://brdr.hkma.gov.hk/eng/doc-ldg/docId/getPdf/20260529-8-EN/20260529-8-EN.pdf",
+    "source": "Hong Kong Monetary Authority",
+    "id": "seed-I5LTgtRU4ucGRm",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-05-28",
+    "sectors": [
+      "Technology & AI vendors"
+    ],
+    "who": "Cyber Security Agency of Singapore",
+    "who_type": "security_agency",
+    "country": "SG",
+    "kind": "advisory",
+    "title": "Singapore CSA issues advisory on cybersecurity risks of OpenClaw AI agents",
+    "summary": "CSA warned that autonomous agents such as OpenClaw risk hijacking, unauthorised actions and data exposure via malicious skills and memory poisoning, and advised least privilege, logging and human approval for high-stakes actions.",
+    "url": "https://www.csa.gov.sg/alerts-and-advisories/advisories/ad-2026-005/",
+    "source": "Cyber Security Agency of Singapore",
+    "id": "seed-C0yMDI2LTAwNS8",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-05-28",
+    "sectors": [
+      "Energy, industrial & infrastructure"
+    ],
+    "who": "Japan Ministry of Land, Infrastructure, Transport and Tourism (Transport Minister Yasushi Kaneko)",
+    "who_type": "minister",
+    "country": "JP",
+    "kind": "warning",
+    "title": "Japan transport ministry urges rail, port, airport and water operators to guard against AI misuse",
+    "summary": "The ministry asked infrastructure operators to take measures against misuse of high-performance AI models, urged executives to lead countermeasures with adequate funding and staff, and said it would set up cybersecurity support desks.",
+    "url": "https://english.adnkronos.com/2026/05/28/japan-govt-urges-transport-firms-to-guard-against-ai-misuse/",
+    "source": "Adnkronos (Jiji Press)",
+    "id": "seed-WFpLW1pc3VzZS8",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-05-27",
+    "sectors": [
+      "Healthcare"
+    ],
+    "who": "Japan Ministry of Health, Labour and Welfare (Health Policy Bureau)",
+    "who_type": "regulator",
+    "country": "JP",
+    "kind": "advisory",
+    "title": "Japan health ministry alerts medical institutions to cyber risks from misuse of high-performance AI",
+    "summary": "A notice to prefectures for medical institutions said AI misuse could sharply increase the speed and scale of cyber attacks, citing frontier models, and set priority measures on governance, vulnerability handling, ransomware, incident response and supply chains.",
+    "url": "https://www.city.ota.tokyo.jp/seikatsu/hoken/jigyousha/iryouyakkyoku_oshirase/2026.files/0527-3.pdf",
+    "source": "Ota City, Tokyo (republished MHLW notice)",
+    "id": "seed-8wNTI3LTMucGRm",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-05-22",
+    "sectors": [
+      "Healthcare"
+    ],
+    "who": "Japan Minister of Health, Labour and Welfare (Minister Ueno)",
+    "who_type": "minister",
+    "country": "JP",
+    "kind": "warning",
+    "title": "Japan health minister meets medical organisations on AI-driven cyberattacks",
+    "summary": "At a meeting with medical organisations and the National Cybersecurity Office, the health minister said high-performance AI is increasing the threat of cyberattacks and that cybersecurity is a priority as healthcare digitalisation advances.",
+    "url": "https://www.mhlw.go.jp/stf/photo_report/2026/ph0522-02.html",
+    "source": "Ministry of Health, Labour and Welfare of Japan",
+    "id": "seed-TIyLTAyLmh0bWw",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-05-22",
+    "sectors": [
+      "Financial services"
+    ],
+    "who": "Financial Services Agency of Japan and Bank of Japan",
+    "who_type": "regulator",
+    "country": "JP",
+    "kind": "advisory",
+    "title": "Japan FSA and Bank of Japan request short-term measures against frontier AI threats",
+    "summary": "The FSA and the Bank of Japan jointly asked financial institutions to take short-term responses to changing security threats from frontier AI models.",
+    "url": "https://www.fsa.go.jp/news/r7/sonota/20260522-5/20260522.html",
+    "source": "Financial Services Agency of Japan",
+    "id": "seed-NjA1MjIuaHRtbA",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-05-21",
+    "sectors": [
+      "Financial services"
+    ],
+    "who": "New York State Department of Financial Services",
+    "who_type": "regulator",
+    "country": "US",
+    "kind": "advisory",
+    "title": "NYDFS warns regulated entities of heightened cybersecurity risks from frontier AI models",
+    "summary": "An industry letter to CISOs said frontier AI models could make finding and exploiting vulnerabilities faster and more scalable, and recommended accelerated vulnerability management, third-party coordination, human oversight of AI-generated code and enhanced monitoring.",
+    "url": "https://www.dfs.ny.gov/industry-guidance/industry-letters/20260521-heightened-cybersecurity-risks-assoc-with-frontier-ai-models",
+    "source": "New York State Department of Financial Services",
+    "id": "seed-LWFpLW1vZGVscw",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-05-19",
+    "sectors": [
+      "Media & entertainment"
+    ],
+    "who": "Federal Trade Commission",
+    "who_type": "regulator",
+    "country": "US",
+    "kind": "rule",
+    "title": "FTC begins enforcing TAKE IT DOWN Act removal duties for intimate images and deepfakes",
+    "summary": "From 19 May 2026 covered platforms must remove non-consensual intimate images, including AI-generated deepfakes, within 48 hours of a valid request. The FTC opened a complaint site and wrote to 15 major platforms.",
+    "url": "https://consumer.ftc.gov/consumer-alerts/2026/05/what-will-ftcs-enforcement-take-it-down-act-mean-you",
+    "source": "Federal Trade Commission",
+    "id": "seed-3QtbWVhbi15b3U",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-05-18",
+    "sectors": [
+      "Government & public sector",
+      "Energy, industrial & infrastructure",
+      "Healthcare",
+      "Financial services"
+    ],
+    "who": "Japan National Cybersecurity Office (Cabinet Secretariat) with FSA, MIC, MHLW, METI, MLIT, MOD, NPA and Cabinet Office",
+    "who_type": "security_agency",
+    "country": "JP",
+    "kind": "advisory",
+    "title": "Japan alerts critical infrastructure operators to misuse of high-performance AI (Project YATA-Shield)",
+    "summary": "A joint alert said AI misuse could sharply increase the speed and scale of cyber attacks, citing frontier models' vulnerability-discovery capabilities, and asked critical infrastructure operators to act under executive leadership, reinforce basics and speed vulnerability fixes.",
+    "url": "https://www.mhlw.go.jp/content/10808000/001703607.pdf",
+    "source": "Ministry of Health, Labour and Welfare of Japan",
+    "id": "seed-TcwMzYwNy5wZGY",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-05-15",
+    "sectors": [
+      "Financial services"
+    ],
+    "who": "Bank of England, Financial Conduct Authority and HM Treasury",
+    "who_type": "regulator",
+    "country": "GB",
+    "kind": "advisory",
+    "title": "UK financial authorities issue joint statement on frontier AI models and cyber resilience",
+    "summary": "The authorities said frontier AI models can exceed skilled human attackers in speed, scale and cost, and set expectations for firms and FMIs on governance, vulnerability management, third-party risk, protection, and response and recovery. No new rules were introduced.",
+    "url": "https://www.bankofengland.co.uk/news/2026/may/boe-fca-and-hm-treasury-joint-statement-on-frontier-ai-models-and-cyber-resilience",
+    "source": "Bank of England",
+    "id": "seed-XJlc2lsaWVuY2U",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-05-14",
+    "sectors": [
+      "Retail & consumer brands",
+      "Politics & elections"
+    ],
+    "who": "Singapore Police Force",
+    "who_type": "security_agency",
+    "country": "SG",
+    "kind": "advisory",
+    "title": "Singapore police warn of deepfake Zoom scam impersonating senior government officials",
+    "summary": "Police said a victim lost at least S$4.9 million after a Zoom call whose participants, appearing to include the Prime Minister, were fabricated with deepfake AI, and warned that officials never ask for money transfers.",
+    "url": "https://www.police.gov.sg/Media-Hub/News/2026/05/20260514_advisory_on_scams_involving_impersonation_of_snr_govt_officials_incl_secy_cabinet",
+    "source": "Singapore Police Force",
+    "id": "seed-Y3lfY2FiaW5ldA",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-05-08",
+    "sectors": [
+      "Education & research"
+    ],
+    "who": "UK National Crime Agency and Early Warning Working Group",
+    "who_type": "security_agency",
+    "country": "GB",
+    "kind": "warning",
+    "title": "UK schools advised to remove identifiable pupil photos as AI blackmail threat grows",
+    "summary": "The National Crime Agency warned that criminals use AI to alter children's photos taken from school sites and demand payment, and schools were advised to remove or limit identifiable pupil images online.",
+    "url": "https://www.iwf.org.uk/news-media/iwf-in-the-news/uk-schools-should-remove-pupils-online-photos-as-ai-blackmail-threat-grows-say-experts/",
+    "source": "Internet Watch Foundation (republishing The Guardian)",
+    "id": "seed-XktZXhwZXJ0cy8",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-05-05",
+    "sectors": [
+      "Energy, industrial & infrastructure"
+    ],
+    "who": "Cyber Security Agency of Singapore (Commissioner of Cybersecurity)",
+    "who_type": "security_agency",
+    "country": "SG",
+    "kind": "advisory",
+    "title": "Singapore Commissioner of Cybersecurity writes to critical information infrastructure boards on frontier AI",
+    "summary": "The letter to CII owners and board chairs said frontier AI has shifted the cybersecurity baseline, making vulnerability discovery faster and social engineering more convincing, and asked boards to commission a review of their cyber posture.",
+    "url": "https://isomer-user-content.by.gov.sg/36/1bcebd3e-5fbd-4f8d-8613-15b83a903a22/Commissioner's%20Letter%20-%20Cybersecurity%20implications%20of%20frontier%20AI.pdf",
+    "source": "Cyber Security Agency of Singapore",
+    "id": "seed-XIlMjBBSS5wZGY",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-05-01",
+    "sectors": [
+      "Government & public sector"
+    ],
+    "who": "CISA, NSA, Australian Cyber Security Centre, Canadian Centre for Cyber Security, NCSC-NZ and NCSC-UK",
+    "who_type": "security_agency",
+    "country": "US",
+    "kind": "advisory",
+    "title": "Five Eyes cyber agencies publish joint guidance on careful adoption of agentic AI services",
+    "summary": "The guidance addresses risks from autonomous AI agents such as excessive privileges and unclear accountability, and recommends restricted agent access, layered defences, strong identity controls, threat modelling and continuous monitoring.",
+    "url": "https://www.cisa.gov/resources-tools/resources/careful-adoption-agentic-ai-services",
+    "source": "CISA",
+    "id": "seed-Wktc2VydmljZXM",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-05-01",
+    "sectors": [
+      "Technology & AI vendors",
+      "Defence & security"
+    ],
+    "who": "CISA and Australian Signals Directorate's ACSC with Five Eyes partners",
+    "who_type": "security_agency",
+    "country": "US",
+    "kind": "advisory",
+    "title": "CISA and partners publish guide on careful adoption of agentic AI services",
+    "summary": "The joint guide lists agentic AI risks such as wider attack surface, privilege creep, behaviour drifting from goals and poor audit trails, and advises against broad access to sensitive data or critical systems and starting with low-risk uses.",
+    "url": "https://www.cisa.gov/news-events/news/cisa-us-and-international-partners-release-guide-secure-adoption-agentic-ai",
+    "source": "CISA",
+    "id": "seed-WFnZW50aWMtYWk",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-04-30",
+    "sectors": [
+      "Financial services"
+    ],
+    "who": "Australian Prudential Regulation Authority",
+    "who_type": "regulator",
+    "country": "AU",
+    "kind": "advisory",
+    "title": "APRA letter calls for step-change in AI risk management at banks, insurers and super funds",
+    "summary": "APRA said AI governance and risk management lag adoption, and warned that frontier AI models could help malicious actors find vulnerabilities, raising the likelihood, speed and scale of cyber attacks. It did not introduce new requirements.",
+    "url": "https://www.apra.gov.au/news-and-publications/apra-calls-step-change-ai-related-risk-management-and-governance",
+    "source": "Australian Prudential Regulation Authority",
+    "id": "seed-WdvdmVybmFuY2U",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-04-28",
+    "sectors": [
+      "Financial services",
+      "Government & public sector"
+    ],
+    "who": "Europol",
+    "who_type": "intergovernmental",
+    "country": "EU",
+    "kind": "warning",
+    "title": "Europol IOCTA 2026 says AI, encryption and proxies are expanding cybercrime",
+    "summary": "Europol's Internet Organised Crime Threat Assessment said generative AI helps fraudsters produce more convincing, tailored scams and anticipated that self-directed AI could take over parts of illicit activity.",
+    "url": "https://www.europol.europa.eu/cms/sites/default/files/documents/IOCTA-2026.pdf",
+    "source": "Europol",
+    "id": "seed-RBLTIwMjYucGRm",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-04-28",
+    "sectors": [
+      "Defence & security",
+      "Retail & consumer brands"
+    ],
+    "who": "Europol",
+    "who_type": "intergovernmental",
+    "country": "EU",
+    "kind": "warning",
+    "title": "Europol IOCTA 2026 says AI, encryption and proxies are expanding cybercrime",
+    "summary": "Europol's Internet Organised Crime Threat Assessment said generative AI makes fraud more convincing, ransomware groups are adopting AI tools, and it expects cybercrime to become more automated with minimal human involvement.",
+    "url": "https://eucrim.eu/news/iocta-2026/",
+    "source": "eucrim",
+    "id": "seed-b2N0YS0yMDI2Lw",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-04-27",
+    "sectors": [
+      "Government & public sector"
+    ],
+    "who": "CERT-In (Indian Computer Emergency Response Team)",
+    "who_type": "security_agency",
+    "country": "IN",
+    "kind": "advisory",
+    "title": "CERT-In issues high-severity advisory on defending against frontier AI-driven cyber risks",
+    "summary": "CERT-In warned that frontier AI lets attackers operate with greater speed, scale and autonomy, said small businesses are especially exposed, and urged monitoring, logging, prompt patching, secure coding and AI-aware security frameworks.",
+    "url": "https://morungexpress.com/cert-in-warns-of-rising-ai-driven-cyber-threats-amid-mythos-concerns",
+    "source": "Morung Express (IANS)",
+    "id": "seed-cy1jb25jZXJucw",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-04-22",
+    "sectors": [
+      "Education & research"
+    ],
+    "who": "White House Office of Science and Technology Policy (Director Michael Kratsios)",
+    "who_type": "head_of_government",
+    "country": "US",
+    "kind": "warning",
+    "title": "White House memo NSTM-4 addresses adversarial distillation of US AI models",
+    "summary": "The memo said foreign entities, principally in China, run industrial-scale campaigns to distil US frontier AI models, and committed agencies to share information with AI developers and explore accountability measures.",
+    "url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/NSTM-4.pdf",
+    "source": "The White House",
+    "id": "seed-TlNUTS00LnBkZg",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-04-19",
+    "sectors": [
+      "Politics & elections"
+    ],
+    "who": "Election Commission of India",
+    "who_type": "regulator",
+    "country": "IN",
+    "kind": "rule",
+    "title": "Election Commission of India requires 3-hour action on unlawful AI content during state polls",
+    "summary": "The ECI directed that misleading or unlawful AI-generated content be acted on within 3 hours of notice to platforms, and that parties label synthetic campaign material and disclose its origin. Over 11,000 posts were acted on since 15 March.",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2253528&reg=3&lang=1",
+    "source": "Press Information Bureau, Government of India",
+    "id": "seed-Zz0zJmxhbmc9MQ",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-04-16",
+    "sectors": [
+      "Politics & elections"
+    ],
+    "who": "UK Electoral Commission",
+    "who_type": "regulator",
+    "country": "GB",
+    "kind": "exercise",
+    "title": "UK Electoral Commission pilots deepfake detection for May 2026 elections",
+    "summary": "The Commission launched a pilot with the Home Office's Accelerated Capability Environment to detect political deepfakes during the May elections in England, Scotland and Wales, with powers to refer cases to police and ask platforms to remove content.",
+    "url": "https://www.localgovernmentlawyer.co.uk/governance/396-governance-news/100248-electoral-commission-launches-pilot-to-detect-deepfakes-ahead-of-may-elections",
+    "source": "Local Government Lawyer",
+    "id": "seed-ktZWxlY3Rpb25z",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-04-15",
+    "sectors": [
+      "Government & public sector"
+    ],
+    "who": "Liz Kendall, Secretary of State for Science, Innovation and Technology, and Dan Jarvis, Security Minister (UK)",
+    "who_type": "minister",
+    "country": "GB",
+    "kind": "warning",
+    "title": "UK ministers send open letter to business leaders on AI cyber threats",
+    "summary": "The letter warned that AI models are making advanced cyber attacks faster and easier and that AI cyber capabilities are growing quickly, and urged boards to prioritise cyber security, obtain Cyber Essentials and join the NCSC Early Warning service.",
+    "url": "https://www.gov.uk/government/publications/ai-cyber-threats-open-letter-to-business-leaders/ai-cyber-threats-open-letter-to-business-leaders-html",
+    "source": "GOV.UK",
+    "id": "seed-YWRlcnMtaHRtbA",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-04-15",
+    "sectors": [
+      "Technology & AI vendors"
+    ],
+    "who": "UK Secretary of State for Science, Innovation and Technology and Security Minister",
+    "who_type": "minister",
+    "country": "GB",
+    "kind": "warning",
+    "title": "UK ministers send open letter to business leaders on AI-driven cyber threats",
+    "summary": "Liz Kendall and Dan Jarvis wrote to business leaders about AI cyber threats, urging them to make cyber security a board priority, adopt Cyber Essentials and use NCSC services such as its Early Warning service.",
+    "url": "https://www.gov.uk/government/publications/ai-cyber-threats-open-letter-to-business-leaders",
+    "source": "GOV.UK",
+    "id": "seed-c3MtbGVhZGVycw",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-04-15",
+    "sectors": [
+      "Education & research"
+    ],
+    "who": "Massachusetts Department of Elementary and Secondary Education (Healey-Driscoll administration)",
+    "who_type": "regulator",
+    "country": "US",
+    "kind": "advisory",
+    "title": "Massachusetts tells school districts to promptly investigate AI deepfake images of students",
+    "summary": "A letter to districts statewide said creating a sexual deepfake of a minor is a crime and directed school leaders to investigate complaints about AI-generated explicit images of students promptly.",
+    "url": "https://www.bostonglobe.com/2026/04/15/metro/ai-deepfakes-in-massachusetts-schools/",
+    "source": "The Boston Globe",
+    "id": "seed-HMtc2Nob29scy8",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-04-13",
+    "sectors": [
+      "Retail & consumer brands"
+    ],
+    "who": "Federal Office for Information Security (BSI) and Police Crime Prevention (ProPK)",
+    "who_type": "security_agency",
+    "country": "DE",
+    "kind": "warning",
+    "title": "German BSI survey finds few internet users check AI-generated content as AI investment scams spread",
+    "summary": "BSI and police found only 19% of users check a source's credibility and 28% look for image inconsistencies, and warned of investment fraud using AI-made videos of celebrities.",
+    "url": "https://www.bsi.bund.de/DE/Service-Navi/Presse/Pressemitteilungen/Presse2026/260413_KI-Betrug-im-Netz.html",
+    "source": "BSI",
+    "id": "seed-LU5ldHouaHRtbA",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-03-16",
+    "sectors": [
+      "Retail & consumer brands",
+      "Defence & security"
+    ],
+    "who": "INTERPOL",
+    "who_type": "intergovernmental",
+    "country": "INT",
+    "kind": "warning",
+    "title": "INTERPOL fraud assessment warns AI is industrialising global financial fraud",
+    "summary": "INTERPOL's Global Financial Fraud Threat Assessment said AI-enhanced fraud is 4.5 times more profitable than traditional methods and that agentic AI tools can run entire fraud campaigns, from scouting to extortion.",
+    "url": "https://www.interpol.int/en/News-and-Events/News/2026/INTERPOL-report-warns-of-increasingly-sophisticated-global-financial-fraud-threat",
+    "source": "INTERPOL",
+    "id": "seed-JhdWQtdGhyZWF0",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-03-08",
+    "sectors": [
+      "Politics & elections"
+    ],
+    "who": "National Election Commission of Korea",
+    "who_type": "regulator",
+    "country": "KR",
+    "kind": "warning",
+    "title": "South Korea's election commission and police to step up deepfake crackdown before local elections",
+    "summary": "The National Election Commission and police said they would strengthen crackdowns on deepfakes and misinformation ahead of the 3 June 2026 local elections, under a law banning election deepfakes in the 90 days before a vote.",
+    "url": "https://www.koreaherald.com/article/10689350",
+    "source": "The Korea Herald",
+    "id": "seed-GUvMTA2ODkzNTA",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-03-02",
+    "sectors": [
+      "Politics & elections"
+    ],
+    "who": "Superior Electoral Court (TSE)",
+    "who_type": "regulator",
+    "country": "BR",
+    "kind": "rule",
+    "title": "Brazil's electoral court adopts AI rules for 2026 general elections",
+    "summary": "The TSE approved resolutions requiring disclosure of synthetic campaign content, barring new AI-generated content from 72 hours before to 24 hours after the vote, and prohibiting AI chatbots from recommending or ranking candidates.",
+    "url": "https://citizen.digital/article/chatbots-at-the-ballot-box-ai-skirts-brazil-election-rules-n380837",
+    "source": "AFP via Citizen Digital",
+    "id": "seed-GVzLW4zODA4Mzc",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-02-10",
+    "sectors": [
+      "Media & entertainment",
+      "Technology & AI vendors"
+    ],
+    "who": "Ministry of Electronics and Information Technology (MeitY)",
+    "who_type": "minister",
+    "country": "IN",
+    "kind": "rule",
+    "title": "India amends IT Rules to require labelling of AI-generated content and faster takedowns",
+    "summary": "The amendment covers synthetically generated information including deepfakes, requiring labels and traceable metadata, and cutting removal timelines for unlawful content from 36 to 3 hours and for intimate-image complaints to 2 hours.",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2295500&reg=1&lang=1",
+    "source": "Press Information Bureau, Government of India",
+    "id": "seed-Zz0xJmxhbmc9MQ",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-02-04",
+    "sectors": [
+      "Technology & AI vendors",
+      "Defence & security"
+    ],
+    "who": "ANSSI / CERT-FR",
+    "who_type": "security_agency",
+    "country": "FR",
+    "kind": "warning",
+    "title": "ANSSI publishes threat summary on generative AI in cyberattacks",
+    "summary": "CERT-FR said attackers use generative AI across the attack chain, flagged poisoning, compromised open-source models and agent (MCP) flaws as risks, and said it knew of no AI-conducted attack on French targets yet.",
+    "url": "https://www.lemondeinformatique.fr/actualites/lire-l-anssi-livre-son-bilan-de-la-menace-ia-en-2025-99262.html",
+    "source": "Le Monde Informatique",
+    "id": "seed-OTkyNjIuaHRtbA",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-02-04",
+    "sectors": [
+      "Government & public sector"
+    ],
+    "who": "ANSSI (French National Cybersecurity Agency)",
+    "who_type": "security_agency",
+    "country": "FR",
+    "kind": "warning",
+    "title": "ANSSI publishes threat summary on generative AI and cyberattacks in 2025",
+    "summary": "ANSSI reported that attackers increasingly use generative AI for social engineering, reconnaissance, malware development and data triage, and described attacks targeting AI systems, including model poisoning and data exfiltration.",
+    "url": "https://cert.cyber.gouv.fr/uploads/CERTFR-2026-CTI-001.pdf",
+    "source": "ANSSI / CERT-FR",
+    "id": "seed-VEktMDAxLnBkZg",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-02-03",
+    "sectors": [
+      "Media & entertainment",
+      "Technology & AI vendors"
+    ],
+    "who": "Information Commissioner's Office",
+    "who_type": "regulator",
+    "country": "GB",
+    "kind": "warning",
+    "title": "UK ICO opens formal investigations into X and xAI over Grok sexualised imagery",
+    "summary": "The ICO opened investigations into whether X and xAI processed personal data lawfully in developing and deploying Grok, after reports it was used to create non-consensual sexual imagery, including of children.",
+    "url": "https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/2026/02/ico-announces-investigation-into-grok/",
+    "source": "Information Commissioner's Office",
+    "id": "seed-WludG8tZ3Jvay8",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-01-26",
+    "sectors": [
+      "Media & entertainment",
+      "Technology & AI vendors"
+    ],
+    "who": "European Commission",
+    "who_type": "intergovernmental",
+    "country": "EU",
+    "kind": "warning",
+    "title": "European Commission opens Digital Services Act investigation into Grok on X",
+    "summary": "The Commission opened formal proceedings to assess whether X assessed and mitigated risks from integrating Grok, including manipulated sexually explicit images, saying these risks seem to have materialised and exposed EU citizens to serious harm.",
+    "url": "https://digital-strategy.ec.europa.eu/en/news/commission-investigates-grok-and-xs-recommender-systems-under-digital-services-act",
+    "source": "European Commission",
+    "id": "seed-XJ2aWNlcy1hY3Q",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-01-19",
+    "sectors": [
+      "Education & research"
+    ],
+    "who": "UK Department for Education",
+    "who_type": "minister",
+    "country": "GB",
+    "kind": "advisory",
+    "title": "UK Department for Education updates generative AI product safety standards for schools",
+    "summary": "The update added standards on cognitive, emotional and social development, mental health and protection against manipulation to the capabilities generative AI products used in schools and colleges should meet.",
+    "url": "https://www.gov.uk/government/publications/generative-ai-product-safety-expectations",
+    "source": "GOV.UK",
+    "id": "seed-hwZWN0YXRpb25z",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-01-12",
+    "sectors": [
+      "Media & entertainment"
+    ],
+    "who": "Ofcom",
+    "who_type": "regulator",
+    "country": "GB",
+    "kind": "warning",
+    "title": "Ofcom opens Online Safety Act investigation into X over Grok-generated sexualised images",
+    "summary": "Ofcom opened a formal investigation into whether X met its Online Safety Act duties after reports that Grok was used to create non-consensual sexualised images of real people, including children. Fines of up to 10% of worldwide revenue are possible.",
+    "url": "https://cyberscoop.com/ofcom-opens-investigation-into-x-over-nonconsensual-deepfakes/",
+    "source": "CyberScoop",
+    "id": "seed-ZGVlcGZha2VzLw",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2025-12-19",
+    "sectors": [
+      "Government & public sector"
+    ],
+    "who": "Federal Bureau of Investigation",
+    "who_type": "security_agency",
+    "country": "US",
+    "kind": "warning",
+    "title": "FBI warns senior US officials continue to be impersonated with texts and AI-generated voice messages",
+    "summary": "The FBI said actors have impersonated senior state, White House, Cabinet and congressional officials using texts and AI-generated voice messages, and advised independent verification and never sending money, documents or two-factor codes.",
+    "url": "https://www.ic3.gov/PSA/2025/PSA251219",
+    "source": "FBI Internet Crime Complaint Center",
+    "id": "seed-S9QU0EyNTEyMTk",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2025-12-17",
+    "sectors": [
+      "Politics & elections"
+    ],
+    "who": "Viginum (SGDSN)",
+    "who_type": "security_agency",
+    "country": "FR",
+    "kind": "advisory",
+    "title": "French agency Viginum issues guide warning municipal candidates of information manipulation risks",
+    "summary": "Ahead of the March 2026 municipal elections, Viginum published an awareness guide for campaign teams with documented cases, including a Storm-1516 deepfake video, and advised monitoring, crisis exercises and reporting deepfakes to Arcom.",
+    "url": "https://www.banquedesterritoires.fr/municipales-2026-viginum-alerte-les-candidats-sur-les-risques-de-manipulations",
+    "source": "Banque des Territoires (Localtis)",
+    "id": "seed-5pcHVsYXRpb25z",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2025-12-03",
+    "sectors": [
+      "Energy, industrial & infrastructure"
+    ],
+    "who": "CISA and Australian Cyber Security Centre with NSA, FBI, Canadian Cyber Centre, BSI, NCSC-NL, NCSC-NZ and NCSC-UK",
+    "who_type": "security_agency",
+    "country": "US",
+    "kind": "advisory",
+    "title": "Joint guidance sets principles for secure integration of AI in operational technology",
+    "summary": "International cyber agencies published four principles for critical infrastructure operators integrating machine learning, LLM-based systems and AI agents into operational technology, covering risk awareness, governance, oversight and continuous testing.",
+    "url": "https://www.cisa.gov/resources-tools/resources/principles-secure-integration-artificial-intelligence-operational-technology",
+    "source": "CISA",
+    "id": "seed-10ZWNobm9sb2d5",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2025-12-03",
+    "sectors": [
+      "Technology & AI vendors",
+      "Defence & security"
+    ],
+    "who": "CISA, NSA and Australian Signals Directorate's ACSC with international partners",
+    "who_type": "security_agency",
+    "country": "US",
+    "kind": "advisory",
+    "title": "Joint guidance sets principles for securely integrating AI into operational technology",
+    "summary": "The agencies issued 'Principles for the Secure Integration of AI in Operational Technology' for critical infrastructure operators, advising AI use only where benefits outweigh risks, strong governance and testing, human oversight of critical decisions and fail-safes.",
+    "url": "https://intelligencecommunitynews.com/nsa-and-partners-issue-advice-on-integrating-ai-in-ot/",
+    "source": "Intelligence Community News",
+    "id": "seed-y1haS1pbi1vdC8",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2025-11-26",
+    "sectors": [
+      "Technology & AI vendors",
+      "Defence & security"
+    ],
+    "who": "US House Committee on Homeland Security",
+    "who_type": "legislature",
+    "country": "US",
+    "kind": "warning",
+    "title": "House Homeland Security Committee calls AI company heads to testify on AI-orchestrated espionage campaign",
+    "summary": "Committee and subcommittee chairs asked Anthropic's CEO to testify on 17 December about a likely Chinese state-sponsored campaign that used Claude to automate attacks on about 30 organisations, calling it a significant inflection point. Google Cloud was also invited.",
+    "url": "https://cyberscoop.com/house-homeland-asks-anthropic-ceo-to-testfy-on-chinese-espionage-campaign/",
+    "source": "CyberScoop",
+    "id": "seed-LWNhbXBhaWduLw",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2025-11-25",
+    "sectors": [
+      "Politics & elections"
+    ],
+    "who": "European Parliament",
+    "who_type": "legislature",
+    "country": "EU",
+    "kind": "warning",
+    "title": "European Parliament flags unlabelled AI deepfake videos in Hungary ahead of 2026 elections",
+    "summary": "In its Hungary rule-of-law report, Parliament voiced concern about unlabelled AI-generated political content, including deepfake videos on channels linked to the governing party, saying such use could mislead voters and threaten the fairness of elections.",
+    "url": "https://www.europarl.europa.eu/news/en/press-room/20251120IPR31492/parliament-sounds-the-alarm-over-hungary-s-deepening-rule-of-law-crisis",
+    "source": "European Parliament",
+    "id": "seed-1sYXctY3Jpc2lz",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2025-10-28",
+    "sectors": [
+      "Technology & AI vendors"
+    ],
+    "who": "Standing Committee of the National People's Congress",
+    "who_type": "legislature",
+    "country": "CN",
+    "kind": "rule",
+    "title": "China amends Cybersecurity Law to add first explicit AI article, effective 1 January 2026",
+    "summary": "The NPC Standing Committee passed an amendment to the Cybersecurity Law adding an article on AI development that calls for stronger AI ethics standards, security risk monitoring and AI safety regulation. The revised law takes effect on 1 January 2026.",
+    "url": "https://subsites.chinadaily.com.cn/npc/2025-10/29/c_1136120.htm",
+    "source": "China Daily (NPC subsite)",
+    "id": "seed-ExMzYxMjAuaHRt",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  }
+]
