@@ -6028,5 +6028,53 @@
     "first_seen": "2026-10-26T05:05:39Z",
     "first_published": "2026-10-26T04:45:17Z",
     "updated_at": "2026-10-26T05:05:39Z"
+  },
+  {
+    "id": "ai-generated-son-photo-scam-pesos",
+    "date": "2026-10-26",
+    "title": "Woman scammed of nearly a million pesos with AI-generated photo of her son",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "Individual woman (mother)",
+    "loss_usd": null,
+    "summary": "Scammers used an AI-generated photo of a woman's son to defraud her of almost a million pesos, according to Diario TAG.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Individuals & consumers",
+    "attribution": "Unknown; the headline does not name the scammers.",
+    "motive": "Financial gain",
+    "vector": "AI-generated photo of the victim's son used to deceive her into paying money",
+    "root_cause": "Unknown",
+    "impact": "Victim lost almost one million pesos (currency and country not specified in the source text).",
+    "response": "Unknown",
+    "status": "unresolved",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.5,
+    "source": "Diario TAG",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPY01pdXI4bTkzVXJMZzJSemNQSm1ENVBUZ0JLNU44N3N5WVlSZlNnSEQ0c3ZxT2U1VjFZdktaY2wwTldNelFlT0NlRTZBdUFNbjhqNW9DcEdZMHlSXzV0S05WeEYzN1NxN25GNHhHV181TFcxSnJ6ZkZyajFTbDdqQU1XTU9zWkFkTlZWZS01MHN1c01BU080RjBlaHFfaEhhWl91QnFfNnZQczItc2RqUEYteERvTHUwX0E?oc=5",
+    "sources": [
+      {
+        "name": "Diario TAG",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPY01pdXI4bTkzVXJMZzJSemNQSm1ENVBUZ0JLNU44N3N5WVlSZlNnSEQ0c3ZxT2U1VjFZdktaY2wwTldNelFlT0NlRTZBdUFNbjhqNW9DcEdZMHlSXzV0S05WeEYzN1NxN25GNHhHV181TFcxSnJ6ZkZyajFTbDdqQU1XTU9zWkFkTlZWZS01MHN1c01BU080RjBlaHFfaEhhWl91QnFfNnZQczItc2RqUEYteERvTHUwX0E?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-26",
+        "event": "Reported by Diario TAG"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-26T07:05:38Z",
+    "wire_id": "0f41854faec0",
+    "first_seen": "2026-10-26T07:05:38Z",
+    "first_published": "2026-10-25T20:34:00Z",
+    "updated_at": "2026-10-26T07:05:38Z"
   }
 ]
