@@ -5932,5 +5932,53 @@
     "first_seen": "2026-10-25T22:35:35Z",
     "first_published": "2026-10-23T12:30:00Z",
     "updated_at": "2026-10-25T22:35:35Z"
+  },
+  {
+    "id": "korea-genai-hacking-8m-records-arrest",
+    "date": "2026-10-26",
+    "title": "Korean police arrest group that used generative AI to hack and steal 8M+ personal records",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "KR",
+    "region": "Asia-Pacific",
+    "target": "Unspecified organisations holding personal data in South Korea",
+    "loss_usd": null,
+    "summary": "Police arrested a group, reportedly not IT specialists, who learned AI hacking methods via blogs and stole over 8 million personal records. Police call it the first domestic large-scale generative-AI hacking case.",
+    "actor": "Group of suspects arrested by Korean police (not named)",
+    "actor_type": "criminal",
+    "sector": "Individuals & consumers",
+    "attribution": "Korean police arrested the suspects, as reported by Maeil Business; names are not given in the summary.",
+    "motive": "Unknown; the theft of personal information suggests financial gain.",
+    "vector": "Generative AI tools used to carry out hacking, with methods learned from blogs.",
+    "root_cause": "Unknown; generative AI lowered the skill barrier for large-scale hacking by non-specialists.",
+    "impact": "More than 8 million items of personal information were stolen. The victim organisations are not identified in the summary.",
+    "response": "Police arrested the suspects and referred the case for prosecution, according to the report.",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.6,
+    "source": "매일경제",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE94YWY4Z3BWVlkwXzBvQnV3RkNMbVZjdmdZVmRCTnlTd2g2S3V0NzI3SkVDQkJ2OS1ueWI4Rl9rcjdkeTVVdmdKSlVwVzU3VXRwMkE?oc=5",
+    "sources": [
+      {
+        "name": "매일경제",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE94YWY4Z3BWVlkwXzBvQnV3RkNMbVZjdmdZVmRCTnlTd2g2S3V0NzI3SkVDQkJ2OS1ueWI4Rl9rcjdkeTVVdmdKSlVwVzU3VXRwMkE?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-26",
+        "event": "Reported by 매일경제"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-26T03:35:38Z",
+    "wire_id": "c57f7f1ab23d",
+    "first_seen": "2026-10-26T03:35:38Z",
+    "first_published": "2026-10-26T03:01:00Z",
+    "updated_at": "2026-10-26T03:35:38Z"
   }
 ]
