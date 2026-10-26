@@ -6316,5 +6316,53 @@
     "first_seen": "2026-10-26T13:05:39Z",
     "first_published": "2026-10-25T19:35:00Z",
     "updated_at": "2026-10-26T13:05:39Z"
+  },
+  {
+    "id": "spotify-ai-tracks-on-real-artist-profile",
+    "date": "2026-10-26",
+    "title": "Fraudsters publish AI-generated tracks on real artists' Spotify profiles",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "low",
+    "country": "GL",
+    "region": "Global",
+    "target": "Real artists' Spotify profiles",
+    "loss_usd": null,
+    "summary": "Per Panda Security, fraudsters are uploading AI-generated songs to the Spotify profiles of real artists. The headline gives no further detail.",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "sector": "Media & entertainment",
+    "attribution": "Unknown; the headline names only 'fraudsters'.",
+    "motive": "Unknown; presumably fraud or royalty gain.",
+    "vector": "AI-generated tracks published under real artists' profiles on Spotify.",
+    "root_cause": "Unknown; the text does not say how the uploads reach the artists' profiles.",
+    "impact": "Real artists' profiles carry fake AI-generated music. The number of artists affected and any losses are Unknown.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.45,
+    "source": "pandasecurity.com",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVmd6UzRhUEpfWmZTdnRKcm56bF9qSWVSVU13bTNfekhSWkxoT2oyMTVRaHdxLXpKTUxWN0pkSEpTeEpzOVdwaTB6SU11YnhCaVJLTmN1eHQ3VWhqUm1xUW51RGF3alJqb1lBQXlYRDFsdjVUZ19KLTRlQ19nRlZGTkZYY1k2N2YyLU40Y3gyZnV2NlZ6aHBZdVhrUkZhejJDS0ZGTTNHS0ExVWlWaTNFd1pXSE1KQQ?oc=5",
+    "sources": [
+      {
+        "name": "pandasecurity.com",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVmd6UzRhUEpfWmZTdnRKcm56bF9qSWVSVU13bTNfekhSWkxoT2oyMTVRaHdxLXpKTUxWN0pkSEpTeEpzOVdwaTB6SU11YnhCaVJLTmN1eHQ3VWhqUm1xUW51RGF3alJqb1lBQXlYRDFsdjVUZ19KLTRlQ19nRlZGTkZYY1k2N2YyLU40Y3gyZnV2NlZ6aHBZdVhrUkZhejJDS0ZGTTNHS0ExVWlWaTNFd1pXSE1KQQ?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-26",
+        "event": "Reported by pandasecurity.com"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-26T15:05:40Z",
+    "wire_id": "4f7ba4e9021a",
+    "first_seen": "2026-10-26T15:05:40Z",
+    "first_published": "2026-10-26T13:42:04Z",
+    "updated_at": "2026-10-26T15:05:40Z"
   }
 ]
