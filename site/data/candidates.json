@@ -6220,5 +6220,53 @@
     "first_seen": "2026-10-26T12:05:40Z",
     "first_published": "2026-10-26T11:03:33Z",
     "updated_at": "2026-10-26T12:05:40Z"
+  },
+  {
+    "id": "langflow-cve-2026-0768-key-theft",
+    "date": "2026-10-26",
+    "title": "Langflow CVE-2026-0768 exploited to harvest AI API keys",
+    "category": "AI supply chain",
+    "direction": "on-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "Langflow AI workflow deployments",
+    "loss_usd": null,
+    "summary": "A reported flaw in Langflow, CVE-2026-0768, is being exploited to harvest AI API keys from exposed deployments. Scale and victims are not stated in the headline.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Technology & AI vendors",
+    "attribution": "Not stated in the headline; the actor is unknown.",
+    "motive": "Apparently theft of AI API keys for resale or abuse.",
+    "vector": "Exploitation of vulnerability CVE-2026-0768 in Langflow.",
+    "root_cause": "Software flaw in Langflow, tracked as CVE-2026-0768. Specific technical details are not given.",
+    "impact": "AI API keys harvested from affected Langflow instances. Number of victims and losses are unknown.",
+    "response": "Unknown; the headline gives no details on patching or advisories.",
+    "status": "ongoing",
+    "cve": "CVE-2026-0768",
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.55,
+    "source": "OrcaRouter",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0wb29lNXIzTmYxSm5xYm0xSHBQdW5JVDBZUnlPVTItOFhhQjJaNVB0RWUzTUZBb3d0Y3d6SjdUbVlyUXQ1TkdIRXhjelB4Q3laT1FpRVpXMk9PZ1BjdWZfZGo2MGpBSlJzck4tMkxpRVQxNm5E?oc=5",
+    "sources": [
+      {
+        "name": "OrcaRouter",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0wb29lNXIzTmYxSm5xYm0xSHBQdW5JVDBZUnlPVTItOFhhQjJaNVB0RWUzTUZBb3d0Y3d6SjdUbVlyUXQ1TkdIRXhjelB4Q3laT1FpRVpXMk9PZ1BjdWZfZGo2MGpBSlJzck4tMkxpRVQxNm5E?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-26",
+        "event": "Reported by OrcaRouter"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-26T12:35:39Z",
+    "wire_id": "fd7aa710c8d2",
+    "first_seen": "2026-10-26T12:35:39Z",
+    "first_published": "2026-10-26T10:37:26Z",
+    "updated_at": "2026-10-26T12:35:39Z"
   }
 ]
