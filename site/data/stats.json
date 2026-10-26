@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-25T23:36:06Z",
-  "total": 235,
+  "generated_at": "2026-10-26T00:06:21Z",
+  "total": 234,
   "all_time_total": 433,
-  "window_from": "2025-10-25",
-  "window_to": "2026-10-25",
+  "window_from": "2025-10-26",
+  "window_to": "2026-10-26",
   "trend_from": "2025-01-01",
   "first_half_from": "2025-01",
   "first_half_to": "2025-06",
@@ -458,21 +458,6 @@
         0
       ],
       "growth_last4_vs_prev4": -1
-    },
-    {
-      "category": "AI misfire",
-      "n": 1,
-      "by_quarter": [
-        1,
-        0,
-        1,
-        2,
-        0,
-        0,
-        0,
-        0
-      ],
-      "growth_last4_vs_prev4": -4
     }
   ],
   "rising_category": "AI supply chain",
@@ -570,7 +555,7 @@
   "severity": {
     "critical": 39,
     "high": 106,
-    "medium": 84,
+    "medium": 83,
     "low": 6
   },
   "critical_high_pct": 62,
@@ -637,11 +622,6 @@
         "category": "AI exam fraud",
         "usd": 0,
         "disclosed": 0
-      },
-      {
-        "category": "AI misfire",
-        "usd": 0,
-        "disclosed": 0
       }
     ],
     "deepfake_share_pct": 100
@@ -660,11 +640,11 @@
       "n": 27
     },
     {
-      "sector": "Education & research",
-      "n": 18
+      "sector": "Unknown",
+      "n": 17
     },
     {
-      "sector": "Unknown",
+      "sector": "Education & research",
       "n": 17
     },
     {
@@ -703,7 +683,7 @@
     },
     {
       "country": "US",
-      "n": 50
+      "n": 49
     },
     {
       "country": "IN",
@@ -766,14 +746,14 @@
     },
     {
       "status": "resolved",
-      "n": 16
+      "n": 15
     },
     {
       "status": "unresolved",
       "n": 7
     }
   ],
-  "unresolved_pct": 66,
+  "unresolved_pct": 67,
   "verify_median_hours": 19.8,
   "verify_sample": 42,
   "researcher_demos": 21,
