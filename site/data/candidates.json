@@ -6268,5 +6268,53 @@
     "first_seen": "2026-10-26T12:35:39Z",
     "first_published": "2026-10-26T10:37:26Z",
     "updated_at": "2026-10-26T12:35:39Z"
+  },
+  {
+    "id": "johns-hopkins-unauthorized-ai-exposure",
+    "date": "2026-10-26",
+    "title": "Johns Hopkins data exposure traced to employee's unauthorized AI tool",
+    "category": "Model & data leak",
+    "direction": "on-ai",
+    "severity": "medium",
+    "country": "US",
+    "region": "North America",
+    "target": "Johns Hopkins data",
+    "loss_usd": null,
+    "summary": "The Baltimore Banner reports that a Johns Hopkins data exposure was caused by an employee using an unauthorized AI tool. Scope and data types are not given in the headline.",
+    "actor": "Unknown",
+    "actor_type": "accident",
+    "sector": "Unknown",
+    "attribution": "Not an external attack; the Baltimore Banner attributes the exposure to an employee's use of an unauthorized AI tool.",
+    "motive": "Unknown",
+    "vector": "Employee use of an unauthorized AI tool",
+    "root_cause": "Use of an unapproved AI tool by an employee led to data exposure. Details are not given in the headline.",
+    "impact": "Johns Hopkins data was exposed. Number of people affected and data types are Unknown.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.55,
+    "source": "The Baltimore Banner",
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxONVV3N2k4clNxOFo2Ui1paXo1U000RjNnZjh2Ym11RXpFbUxwLURVR01uQ3VSMFhCU2RLdTJZdWYzYnpDV0VjYU92RTBzcWQ2WGk1RG1lbXAySm56QlNoLThGY3I5RnQ0cktQOFpNN1hsV2ViRUpZMU93OE5XSDA3RXp3cXRkbGZEc192ZUViYWVOa1o0NnBVT3hpRkJzY2huUWlEbFFKLW9neHJsX2N3cjlWYmo5RWYxMUNlanhrbEpsQXVj?oc=5",
+    "sources": [
+      {
+        "name": "The Baltimore Banner",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxONVV3N2k4clNxOFo2Ui1paXo1U000RjNnZjh2Ym11RXpFbUxwLURVR01uQ3VSMFhCU2RLdTJZdWYzYnpDV0VjYU92RTBzcWQ2WGk1RG1lbXAySm56QlNoLThGY3I5RnQ0cktQOFpNN1hsV2ViRUpZMU93OE5XSDA3RXp3cXRkbGZEc192ZUViYWVOa1o0NnBVT3hpRkJzY2huUWlEbFFKLW9neHJsX2N3cjlWYmo5RWYxMUNlanhrbEpsQXVj?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-26",
+        "event": "Reported by The Baltimore Banner"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-26T13:05:39Z",
+    "wire_id": "67ad2a30ec59",
+    "first_seen": "2026-10-26T13:05:39Z",
+    "first_published": "2026-10-25T19:35:00Z",
+    "updated_at": "2026-10-26T13:05:39Z"
   }
 ]
