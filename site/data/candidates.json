@@ -6604,5 +6604,53 @@
     "first_seen": "2026-10-27T08:05:37Z",
     "first_published": "2026-10-27T07:57:23Z",
     "updated_at": "2026-10-27T08:05:37Z"
+  },
+  {
+    "id": "alabama-family-sues-openai-chatbot",
+    "date": "2026-10-27",
+    "title": "Alabama family sues OpenAI and Altman over ChatGPT's alleged role in harm to relative",
+    "category": "Chatbot harm",
+    "direction": "ai-harm",
+    "severity": "high",
+    "country": "US",
+    "region": "North America",
+    "target": "Alabama family (individual user of ChatGPT)",
+    "loss_usd": null,
+    "summary": "A family in Alabama has reportedly filed a lawsuit against OpenAI and Sam Altman, alleging a chatbot's words contributed to harm to a family member. Details are not given in the source.",
+    "actor": "OpenAI (ChatGPT)",
+    "actor_type": "product",
+    "sector": "Individuals & consumers",
+    "attribution": "Allegations come from the family's lawsuit as reported by lawnews.co.uk; no court has ruled.",
+    "motive": "Unknown",
+    "vector": "Alleged chatbot conversations; specifics unknown.",
+    "root_cause": "Alleged by the plaintiffs to stem from the chatbot's responses; no court finding.",
+    "impact": "A family's grief is described; the nature and extent of harm to the person are not specified in the available text.",
+    "response": "Family has filed a lawsuit in Alabama, per the report; OpenAI's response is unknown.",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.4,
+    "source": "https://www.lawnews.co.uk/",
+    "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOaVhhem1XMnUtdUNBN3Z0cExndXAtR19Mb29tcGhOak55aHRLRXc2c3BJUHJ4c0E2WHNkZXdHc2ZpUXl6cXYyaVB6TktPZkVUckdXV3Z6T0hsUzhOV0NMWmczMnFpY0ZTaXRZU19jSUhTdVBaOF9rdjZjMHB3RjAzWTE2TW1jVS1pMEljNTN2UVFGMUlaTk1TRHNNNVpmWERmUkRlbW9IOXdWSnJ6U18zM056ZFUxY3lSb1FXVXMweGZqSE0zNHFFTEZ4YUJ6NC1XQ3JPMk9UWjkwdXk4UjJJaE9KM1NlRzBXc2NZcHJ3?oc=5",
+    "sources": [
+      {
+        "name": "https://www.lawnews.co.uk/",
+        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOaVhhem1XMnUtdUNBN3Z0cExndXAtR19Mb29tcGhOak55aHRLRXc2c3BJUHJ4c0E2WHNkZXdHc2ZpUXl6cXYyaVB6TktPZkVUckdXV3Z6T0hsUzhOV0NMWmczMnFpY0ZTaXRZU19jSUhTdVBaOF9rdjZjMHB3RjAzWTE2TW1jVS1pMEljNTN2UVFGMUlaTk1TRHNNNVpmWERmUkRlbW9IOXdWSnJ6U18zM056ZFUxY3lSb1FXVXMweGZqSE0zNHFFTEZ4YUJ6NC1XQ3JPMk9UWjkwdXk4UjJJaE9KM1NlRzBXc2NZcHJ3?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-27",
+        "event": "Reported by https://www.lawnews.co.uk/"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-27T12:35:40Z",
+    "wire_id": "c006592f79c3",
+    "first_seen": "2026-10-27T12:35:40Z",
+    "first_published": "2026-10-27T10:29:24Z",
+    "updated_at": "2026-10-27T12:35:40Z"
   }
 ]
