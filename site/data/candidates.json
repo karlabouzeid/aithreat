@@ -6748,5 +6748,53 @@
     "first_seen": "2026-10-27T13:36:35Z",
     "first_published": "2026-10-27T13:03:27Z",
     "updated_at": "2026-10-27T13:36:35Z"
+  },
+  {
+    "id": "warp-agent-logs-vendor-breach",
+    "date": "2026-10-27",
+    "title": "Warp discloses vendor breach exposing AI agent logs and user telemetry",
+    "category": "Model & data leak",
+    "direction": "on-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "Warp agentic development environment users",
+    "loss_usd": null,
+    "summary": "Warp disclosed that an attack on a third-party vendor in its infrastructure exposed agent decision logs and telemetry data belonging to users of its agentic development environment.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Technology & AI vendors",
+    "attribution": "Not stated in the report; the attacker is unknown.",
+    "motive": "Unknown",
+    "vector": "Compromise of a third-party vendor in Warp's project infrastructure.",
+    "root_cause": "Breach at a third-party vendor in the infrastructure; the specific flaw is not stated.",
+    "impact": "Agent decision logs and user telemetry data were exposed. The number of affected users is not stated.",
+    "response": "Warp publicly disclosed the breach. Other remediation steps are not stated.",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.8,
+    "source": "BleepingComputer",
+    "url": "https://www.bleepingcomputer.com/news/security/warp-discloses-breach-exposing-ai-agent-logs-user-telemetry-data",
+    "sources": [
+      {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/warp-discloses-breach-exposing-ai-agent-logs-user-telemetry-data"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-27",
+        "event": "Reported by BleepingComputer"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-27T16:35:18Z",
+    "wire_id": "3d85f524f76b",
+    "first_seen": "2026-10-27T16:35:18Z",
+    "first_published": "2026-10-27T16:15:39Z",
+    "updated_at": "2026-10-27T16:35:18Z"
   }
 ]
