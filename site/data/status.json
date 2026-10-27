@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-27T17:35:42Z",
+  "updated_at": "2026-10-27T18:05:43Z",
   "wire_items": 800,
-  "new_items": 0,
+  "new_items": 2,
   "candidates": 146,
   "incidents": 433,
   "feeds_ok": [
@@ -51,6 +51,7 @@
     "CISA KEV (AI products)",
     "GitHub Advisory Database (AI packages)",
     "Hacker News",
+    "US court filings (CourtListener)",
     "GitHub new repositories",
     "Reddit r/netsec",
     "Europol",
@@ -61,7 +62,7 @@
     "Google News chatbot harm (ES)"
   ],
   "feeds_failed": [
-    "US court filings (CourtListener)"
+
   ],
-  "triage": "triaged 7 items with claude-sonnet-5-5 in 1 batches (0 failed); kept 0"
+  "triage": "triaged 8 items with claude-sonnet-5-5 in 1 batches (0 failed); kept 2"
 }
