@@ -6652,5 +6652,53 @@
     "first_seen": "2026-10-27T12:35:40Z",
     "first_published": "2026-10-27T10:29:24Z",
     "updated_at": "2026-10-27T12:35:40Z"
+  },
+  {
+    "id": "cairn-ai-pentest-panels-compromised",
+    "date": "2026-10-27",
+    "title": "17 exposed Cairn AI pentesting panels compromised to steal credentials and deploy malware",
+    "category": "Agent hijack",
+    "direction": "on-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "Internet-exposed Cairn AI penetration-testing panels",
+    "loss_usd": null,
+    "summary": "GBHackers reports attackers compromised at least 17 exposed Cairn AI pentesting panels, turning the autonomous agents against their own infrastructure to steal credentials, gain access and deploy malware.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Unknown",
+    "attribution": "Not stated in the summary; victims reportedly included panels linked to suspected criminal operations.",
+    "motive": "Credential theft, unauthorized access and malware deployment.",
+    "vector": "Internet-exposed Cairn AI penetration-testing panels whose autonomous security agents were turned against the operators' infrastructure.",
+    "root_cause": "Cairn panels were exposed to the internet; further detail is not given in the summary.",
+    "impact": "At least 17 panels compromised, with credentials stolen, unauthorized access established and malware deployed.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.55,
+    "source": "GBHackers",
+    "url": "https://gbhackers.com/ai-pentesting-panels",
+    "sources": [
+      {
+        "name": "GBHackers",
+        "url": "https://gbhackers.com/ai-pentesting-panels"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-27",
+        "event": "Reported by GBHackers"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-27T13:05:38Z",
+    "wire_id": "9631355d87b7",
+    "first_seen": "2026-10-27T13:05:38Z",
+    "first_published": "2026-10-27T12:39:39Z",
+    "updated_at": "2026-10-27T13:05:38Z"
   }
 ]
