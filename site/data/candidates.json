@@ -6844,5 +6844,53 @@
     "first_seen": "2026-10-27T17:05:45Z",
     "first_published": "2026-10-27T17:01:00Z",
     "updated_at": "2026-10-27T17:05:45Z"
+  },
+  {
+    "id": "ai-aided-pentester-90-orgs-8m-records",
+    "date": "2026-10-27",
+    "title": "Former pentester reportedly uses AI to breach 90 organizations, 8.2M records",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "About 90 organizations (names and locations not stated)",
+    "loss_usd": null,
+    "summary": "SecurityLab reports that a self-taught former pentester used AI tools to scale attacks, reportedly affecting 90 organizations and 8.2 million records. Details are not given in the headline.",
+    "actor": "Unknown former pentester (self-taught)",
+    "actor_type": "criminal",
+    "sector": "Multiple / cross-sector",
+    "attribution": "Reported by SecurityLab.ru as a single former pentester; no formal attribution given in the headline.",
+    "motive": "Unknown",
+    "vector": "AI tools reportedly used to automate and scale attacks; specific method not stated.",
+    "root_cause": "Unknown",
+    "impact": "Reportedly 8.2 million records taken across 90 organizations, per the headline.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.5,
+    "source": "SecurityLab.ru",
+    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBtZ3hlYUgyWkdmTW9keS1EeGlLclF5VGxlWnZXdk1rcEJzazNVN2JfdDNjWTlTVjRQcnBURVdZWHVFWFkxUE85c1pURVNkWl9vd0wwaw?oc=5",
+    "sources": [
+      {
+        "name": "SecurityLab.ru",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBtZ3hlYUgyWkdmTW9keS1EeGlLclF5VGxlWnZXdk1rcEJzazNVN2JfdDNjWTlTVjRQcnBURVdZWHVFWFkxUE85c1pURVNkWl9vd0wwaw?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-27",
+        "event": "Reported by SecurityLab.ru"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-27T22:35:41Z",
+    "wire_id": "0893f80e3e8f",
+    "first_seen": "2026-10-27T22:35:41Z",
+    "first_published": "2026-10-27T16:03:37Z",
+    "updated_at": "2026-10-27T22:35:41Z"
   }
 ]
