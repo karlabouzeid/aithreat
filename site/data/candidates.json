@@ -6508,5 +6508,101 @@
     "first_seen": "2026-10-27T07:05:40Z",
     "first_published": "2026-10-27T00:17:44Z",
     "updated_at": "2026-10-27T07:05:40Z"
+  },
+  {
+    "id": "spain-restaurants-ai-fake-food-complaint",
+    "date": "2026-10-27",
+    "title": "Spanish restaurants lose thousands of euros to AI-made fake food complaints",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "low",
+    "country": "ES",
+    "region": "Europe",
+    "target": "Restaurants in Spain",
+    "loss_usd": null,
+    "summary": "Per the report headline, restaurants in Spain are losing thousands of euros to fraudulent food complaints supported by AI-generated content. Details of the method are not given.",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "sector": "Retail & consumer brands",
+    "attribution": "Unknown; the headline does not name the perpetrators.",
+    "motive": "Financial gain through fraudulent refunds or compensation, as implied by the headline.",
+    "vector": "AI-generated content used to support fake complaints about food.",
+    "root_cause": "Unknown; the text does not say.",
+    "impact": "Restaurants reportedly lose thousands of euros; the number of businesses affected is not stated.",
+    "response": "Unknown",
+    "status": "ongoing",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.45,
+    "source": "Каталония без посредников",
+    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOcXB3WWlYQWtDamE1QmZoWk5kSFltQVotcVljeFFlOEE0RVY2LVVpN0NBZnZ6ZHIwSXd1OFVlbEM4SWVVeWYyXy1TYTNlSFhVX1lFS29lazUzY2VnRW1SWll6Z2NPSFJpcmxtUUQwZHotZVB6XzR6TTlMX09Hdk01NVRWbGVRN2E5YjM4LUhNa0Uwd2hWYTF6MUZ3YVpTOEVzeXhnQ3ZaOHdLZUJlcjBHb2Vmck1pelMta2xpRW1idEFZQ0pNdGRfYUE1am9DWUF5UGp3emtZUQ?oc=5",
+    "sources": [
+      {
+        "name": "Каталония без посредников",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOcXB3WWlYQWtDamE1QmZoWk5kSFltQVotcVljeFFlOEE0RVY2LVVpN0NBZnZ6ZHIwSXd1OFVlbEM4SWVVeWYyXy1TYTNlSFhVX1lFS29lazUzY2VnRW1SWll6Z2NPSFJpcmxtUUQwZHotZVB6XzR6TTlMX09Hdk01NVRWbGVRN2E5YjM4LUhNa0Uwd2hWYTF6MUZ3YVpTOEVzeXhnQ3ZaOHdLZUJlcjBHb2Vmck1pelMta2xpRW1idEFZQ0pNdGRfYUE1am9DWUF5UGp3emtZUQ?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-27",
+        "event": "Reported by Каталония без посредников"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-27T08:05:37Z",
+    "wire_id": "13fc831ad40e",
+    "first_seen": "2026-10-27T08:05:37Z",
+    "first_published": "2026-10-27T07:32:00Z",
+    "updated_at": "2026-10-27T08:05:37Z"
+  },
+  {
+    "id": "ispsystem-vmmanager-ai-attack",
+    "date": "2026-10-27",
+    "title": "ISPsystem repels large-scale AI attack on VMmanager of Russian providers",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "RU",
+    "region": "Europe",
+    "target": "ISPsystem VMmanager at Russian hosting providers",
+    "loss_usd": null,
+    "summary": "Per Techora.ru, ISPsystem neutralised a large-scale attack using AI against its VMmanager virtualisation software used by providers in Russia. Technical details are not given.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Technology & AI vendors",
+    "attribution": "Unknown; the headline does not name the attackers.",
+    "motive": "Unknown",
+    "vector": "AI-assisted attack on VMmanager; specific method not stated.",
+    "root_cause": "Unknown; the text does not say.",
+    "impact": "Unknown; headline says the attack was neutralised.",
+    "response": "ISPsystem reportedly neutralised the attack.",
+    "status": "contained",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.5,
+    "source": "Techora.ru",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQVWp0ZWxtT3dZWkszSDNXQXJrZENIWFctdEVmYXR6S1F4Y1ZhdEpKZFJ0RUNMeXpYRUZYVVdETFpETWRpLVFxNzh6QXpQR21DT2s2cmtGRlZydmdPTUptbjl0LUQ4ejRDMFk5THdHb05UWXdaLV94bXAxSTVDd0R5WThVYWU1NWotUklZ?oc=5",
+    "sources": [
+      {
+        "name": "Techora.ru",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQVWp0ZWxtT3dZWkszSDNXQXJrZENIWFctdEVmYXR6S1F4Y1ZhdEpKZFJ0RUNMeXpYRUZYVVdETFpETWRpLVFxNzh6QXpQR21DT2s2cmtGRlZydmdPTUptbjl0LUQ4ejRDMFk5THdHb05UWXdaLV94bXAxSTVDd0R5WThVYWU1NWotUklZ?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-27",
+        "event": "Reported by Techora.ru"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-27T08:05:37Z",
+    "wire_id": "39f9292c68ff",
+    "first_seen": "2026-10-27T08:05:37Z",
+    "first_published": "2026-10-27T07:57:23Z",
+    "updated_at": "2026-10-27T08:05:37Z"
   }
 ]
