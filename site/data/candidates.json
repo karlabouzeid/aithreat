@@ -6796,5 +6796,53 @@
     "first_seen": "2026-10-27T16:35:18Z",
     "first_published": "2026-10-27T16:15:39Z",
     "updated_at": "2026-10-27T16:35:18Z"
+  },
+  {
+    "id": "openai-chatgpt-epilepsy-death-suit",
+    "date": "2026-10-27",
+    "title": "Wrongful death suit alleges ChatGPT medical advice killed woman with epilepsy",
+    "category": "Chatbot harm",
+    "direction": "ai-harm",
+    "severity": "critical",
+    "country": "US",
+    "region": "North America",
+    "target": "Woman with epilepsy who used ChatGPT for medical advice",
+    "loss_usd": null,
+    "summary": "Social Media Victims Law Center and The Schenk Law Firm allege in a wrongful death lawsuit that ChatGPT's medical advice resulted in the death of a woman with epilepsy. Claims are unproven.",
+    "actor": "OpenAI (ChatGPT)",
+    "actor_type": "product",
+    "sector": "Individuals & consumers",
+    "attribution": "Alleged by plaintiffs' counsel (Social Media Victims Law Center, The Schenk Law Firm) in a Business Wire release; no court ruling reported.",
+    "motive": "Unknown",
+    "vector": "Alleged reliance on ChatGPT's medical advice about the woman's epilepsy, per plaintiffs.",
+    "root_cause": "Plaintiffs allege ChatGPT gave harmful medical advice; no court findings on cause.",
+    "impact": "Death of a woman with epilepsy, as alleged by plaintiffs' lawyers in the lawsuit.",
+    "response": "Wrongful death lawsuit filed against OpenAI by the Social Media Victims Law Center and The Schenk Law Firm. OpenAI's response is not stated.",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.8,
+    "source": "Business Wire",
+    "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxNX3ZNa1dXOGU1a1pRVmRkMjJOTFJqc1pkT2tQR19yOXVNZ1dxSU9tMmJRb3hlV005N1ItTGZxdlB3LTNsd2NZVHljcjdIVGJnbFhlaG1DTC1OcUZqYTFCbkloSmVEYWJNYThsZGt1OTJ6ZnQ0X1hLd09jX3Eyc3J1MnprZjlOS2ZCVURQSDNoY1RfRUdOLUZ3V2EtNDN2bjBHaDByTWpsdHYtUnRYRXFHUjB2X3g4b3dxT0p0bjNWTTZGNzlNdUF3VWpKa2NGRUZtX2ZVenpjbEVFVjlWd2RJMnFfT21mSU1SWmU3c180UzJWWDRiMHRqQ3JNd2ZDQzlhN3phTnpQRkRlNjVRb1BBU0EyZlJhTUw5a2xOMnJwTFVhQ29SRkdIbWJqTnlON2hxQ3ByTE1vbU5xN1RJWFllSUZ2QlNsaU91UVFUNFY5NUJwNkN3M2c?oc=5",
+    "sources": [
+      {
+        "name": "Business Wire",
+        "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxNX3ZNa1dXOGU1a1pRVmRkMjJOTFJqc1pkT2tQR19yOXVNZ1dxSU9tMmJRb3hlV005N1ItTGZxdlB3LTNsd2NZVHljcjdIVGJnbFhlaG1DTC1OcUZqYTFCbkloSmVEYWJNYThsZGt1OTJ6ZnQ0X1hLd09jX3Eyc3J1MnprZjlOS2ZCVURQSDNoY1RfRUdOLUZ3V2EtNDN2bjBHaDByTWpsdHYtUnRYRXFHUjB2X3g4b3dxT0p0bjNWTTZGNzlNdUF3VWpKa2NGRUZtX2ZVenpjbEVFVjlWd2RJMnFfT21mSU1SWmU3c180UzJWWDRiMHRqQ3JNd2ZDQzlhN3phTnpQRkRlNjVRb1BBU0EyZlJhTUw5a2xOMnJwTFVhQ29SRkdIbWJqTnlON2hxQ3ByTE1vbU5xN1RJWFllSUZ2QlNsaU91UVFUNFY5NUJwNkN3M2c?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-27",
+        "event": "Reported by Business Wire"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-27T17:05:45Z",
+    "wire_id": "0e476fdebb68",
+    "first_seen": "2026-10-27T17:05:45Z",
+    "first_published": "2026-10-27T17:01:00Z",
+    "updated_at": "2026-10-27T17:05:45Z"
   }
 ]
