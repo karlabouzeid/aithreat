@@ -6460,5 +6460,53 @@
     "first_seen": "2026-10-26T23:35:34Z",
     "first_published": "2026-10-26T12:51:43Z",
     "updated_at": "2026-10-26T23:35:34Z"
+  },
+  {
+    "id": "cloudflare-workers-ai-glm-leak",
+    "date": "2026-10-27",
+    "title": "Cloudflare Workers AI GLM-5.3 model leaks other users' content in 155 responses",
+    "category": "Model & data leak",
+    "direction": "on-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "Cloudflare Workers AI GLM-5.3 users",
+    "loss_usd": null,
+    "summary": "A cross-request data leak in the GLM-5.3 model on Cloudflare Workers AI returned other users' content in 155 responses. Cloudflare has fixed the flaw.",
+    "actor": "Unknown",
+    "actor_type": "accident",
+    "sector": "Technology & AI vendors",
+    "attribution": "No attacker reported; the headline describes a platform flaw that Cloudflare fixed.",
+    "motive": "Unknown",
+    "vector": "Cross-request leakage in the model-serving layer, so responses contained other users' content.",
+    "root_cause": "Unknown; the headline describes a cross-request data leak in the GLM-5.3 Workers AI deployment.",
+    "impact": "155 responses exposed other users' content. The number of users affected and the type of data are not stated.",
+    "response": "Cloudflare fixed the cross-request data leak in the GLM-5.3 Workers AI model.",
+    "status": "patched",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.7,
+    "source": "news.lavx.hu",
+    "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQQUJSY09QOTJfdjByaVlrVllyUXI0R0lrSkY5VWR6eVU1U0xZZGc5MWFDcG1LSkpTVkE2QU5OWmt3Z05jWWNaNDl0VUt0ZjVPNGdxRFlKZi1ueno5c00tSGVtaEtLYXRhUWgyVXlkZVdWeGpqb3dNNzUyMXBpODl5bzU1cUxwX3dmU0ZEUTcwU2tjZFNISnZFcUxSemkyeGR2WkRtTkpBM3VEdUVXWGVGNFFKWnF1RnJnemY3QVUwRjBfRjBFcnVMNFdXTHFTNHF1M3BucjVDeGp6SDNhQnc?oc=5",
+    "sources": [
+      {
+        "name": "news.lavx.hu",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQQUJSY09QOTJfdjByaVlrVllyUXI0R0lrSkY5VWR6eVU1U0xZZGc5MWFDcG1LSkpTVkE2QU5OWmt3Z05jWWNaNDl0VUt0ZjVPNGdxRFlKZi1ueno5c00tSGVtaEtLYXRhUWgyVXlkZVdWeGpqb3dNNzUyMXBpODl5bzU1cUxwX3dmU0ZEUTcwU2tjZFNISnZFcUxSemkyeGR2WkRtTkpBM3VEdUVXWGVGNFFKWnF1RnJnemY3QVUwRjBfRjBFcnVMNFdXTHFTNHF1M3BucjVDeGp6SDNhQnc?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-27",
+        "event": "Reported by news.lavx.hu"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-27T07:05:40Z",
+    "wire_id": "14456baa37d8",
+    "first_seen": "2026-10-27T07:05:40Z",
+    "first_published": "2026-10-27T00:17:44Z",
+    "updated_at": "2026-10-27T07:05:40Z"
   }
 ]
