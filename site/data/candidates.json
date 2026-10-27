@@ -6700,5 +6700,53 @@
     "first_seen": "2026-10-27T13:05:38Z",
     "first_published": "2026-10-27T12:39:39Z",
     "updated_at": "2026-10-27T13:05:38Z"
+  },
+  {
+    "id": "yoba-fake-ai-apps-signed-binaries",
+    "date": "2026-10-27",
+    "title": "Yoba malware spread via fake ChatGPT and Claude desktop apps on GitHub",
+    "category": "AI supply chain",
+    "direction": "on-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "Users seeking ChatGPT and Claude desktop apps",
+    "loss_usd": null,
+    "summary": "Check Point Research reports a two-month campaign using fake GitHub projects posing as AI desktop apps, abusing signed ChatGPT and Claude binaries, to deliver a custom malware chain called Yoba.",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "sector": "Individuals & consumers",
+    "attribution": "Not attributed in the summary; Check Point Research tracks the campaign and names the malware chain Yoba.",
+    "motive": "Unknown; malware distribution",
+    "vector": "Fake GitHub projects posing as AI desktop apps (e.g. GPT-5.6 Sol) that abuse signed ChatGPT and Claude binaries to load the malware.",
+    "root_cause": "Attackers exploit the popularity of AI tools and trust in signed legitimate binaries and GitHub project listings.",
+    "impact": "Victim count and losses are not stated in the summary.",
+    "response": "Check Point Research published an analysis of the campaign.",
+    "status": "ongoing",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.6,
+    "source": "Check Point Research",
+    "url": "https://research.checkpoint.com/2026/tricks-from-the-past-deployed-via-signed-chatgpt-and-claude-binaries",
+    "sources": [
+      {
+        "name": "Check Point Research",
+        "url": "https://research.checkpoint.com/2026/tricks-from-the-past-deployed-via-signed-chatgpt-and-claude-binaries"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-27",
+        "event": "Reported by Check Point Research"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-27T13:36:35Z",
+    "wire_id": "e846d42a1b38",
+    "first_seen": "2026-10-27T13:36:35Z",
+    "first_published": "2026-10-27T13:03:27Z",
+    "updated_at": "2026-10-27T13:36:35Z"
   }
 ]
