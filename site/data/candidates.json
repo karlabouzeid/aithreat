@@ -7036,5 +7036,53 @@
     "first_seen": "2026-10-28T09:05:42Z",
     "first_published": "2026-10-28T07:51:51Z",
     "updated_at": "2026-10-28T09:05:42Z"
+  },
+  {
+    "id": "kerala-ai-fake-lottery-tickets",
+    "date": "2026-10-28",
+    "title": "AI-powered fake lottery tickets fuel mass fraud in Kerala, India",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "IN",
+    "region": "Asia-Pacific",
+    "target": "Lottery buyers and sellers in Kerala",
+    "loss_usd": null,
+    "summary": "AI-generated fake lottery tickets are reportedly driving widespread fraud in Kerala. The Chief Minister has vowed a crackdown. The headline gives no figures.",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "sector": "Individuals & consumers",
+    "attribution": "Not attributed; the headline only says fraudsters are using AI-generated tickets.",
+    "motive": "Financial gain",
+    "vector": "AI-generated counterfeit lottery tickets sold or presented as genuine",
+    "root_cause": "Unknown; generative AI apparently makes convincing fake tickets easy to produce.",
+    "impact": "Described as massive fraud affecting lottery buyers or sellers in Kerala; the number of victims and the losses are not stated.",
+    "response": "The Kerala Chief Minister has vowed a crackdown.",
+    "status": "ongoing",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.5,
+    "source": "The South First",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxONGFtS2docmlUU01SNnRwTGhtR09xUGxjR3N3TUdiSGxLN2ZTRzZLVGtrWVpna2VvMjhTT2NaSkNVQnFGcWY5RFJnZFRZN2NCTERwMkNQUTF6eV9tck84MDdyTHlLV083QmNVX09jRnd3OHBXTVNrWXRGWng2SlBDMEQzMElHMUE3OGZieXdGQW9RNWlaWnNpNFFVR1F1YURBU0xiUGVQTHhXTHdRZ05URg?oc=5",
+    "sources": [
+      {
+        "name": "The South First",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxONGFtS2docmlUU01SNnRwTGhtR09xUGxjR3N3TUdiSGxLN2ZTRzZLVGtrWVpna2VvMjhTT2NaSkNVQnFGcWY5RFJnZFRZN2NCTERwMkNQUTF6eV9tck84MDdyTHlLV083QmNVX09jRnd3OHBXTVNrWXRGWng2SlBDMEQzMElHMUE3OGZieXdGQW9RNWlaWnNpNFFVR1F1YURBU0xiUGVQTHhXTHdRZ05URg?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-28",
+        "event": "Reported by The South First"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-28T10:05:44Z",
+    "wire_id": "31036a6289ba",
+    "first_seen": "2026-10-28T10:05:44Z",
+    "first_published": "2026-10-28T09:57:38Z",
+    "updated_at": "2026-10-28T10:05:44Z"
   }
 ]
