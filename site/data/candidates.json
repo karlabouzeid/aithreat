@@ -7132,5 +7132,53 @@
     "first_seen": "2026-10-28T10:35:43Z",
     "first_published": "2026-10-28T10:06:46Z",
     "updated_at": "2026-10-28T10:35:43Z"
+  },
+  {
+    "id": "123-reg-ai-cyberattack-customer-data",
+    "date": "2026-10-28",
+    "title": "123 Reg discloses AI cyberattack on customer data, suspects China nexus",
+    "category": "State actor AI ops",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "GB",
+    "region": "Europe",
+    "target": "123 Reg customer data",
+    "loss_usd": null,
+    "summary": "123 Reg disclosed an 'AI cyberattack' on customer data. Company chiefs suspect a China nexus and believe the attackers may be the same ones who used ARTEX against South Korean financial firms.",
+    "actor": "Unknown (suspected China-linked, possibly the ARTEX actors)",
+    "actor_type": "unknown",
+    "sector": "Technology & AI vendors",
+    "attribution": "123 Reg leadership suspects a China nexus and a possible link to the ARTEX attackers (per The Register); not confirmed.",
+    "motive": "Unknown",
+    "vector": "Described as an AI-driven cyberattack; the exact method is not stated.",
+    "root_cause": "Unknown",
+    "impact": "Customer data was affected. The scope and number of customers are not stated in the summary.",
+    "response": "123 Reg publicly disclosed the incident.",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.6,
+    "source": "The Register",
+    "url": "https://www.theregister.com/cyber-crime/2026/10/28/123-reg-discloses-ai-cyberattack-on-customer-data-suspects-china-nexus/5305936",
+    "sources": [
+      {
+        "name": "The Register",
+        "url": "https://www.theregister.com/cyber-crime/2026/10/28/123-reg-discloses-ai-cyberattack-on-customer-data-suspects-china-nexus/5305936"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-28",
+        "event": "Reported by The Register"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-28T12:05:40Z",
+    "wire_id": "dda9773dd3c9",
+    "first_seen": "2026-10-28T12:05:40Z",
+    "first_published": "2026-10-28T11:45:00Z",
+    "updated_at": "2026-10-28T12:05:40Z"
   }
 ]
