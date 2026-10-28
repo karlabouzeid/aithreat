@@ -7180,5 +7180,53 @@
     "first_seen": "2026-10-28T12:05:40Z",
     "first_published": "2026-10-28T11:45:00Z",
     "updated_at": "2026-10-28T12:05:40Z"
+  },
+  {
+    "id": "chatgpt-false-promise-suicidal-man",
+    "date": "2026-10-28",
+    "title": "ChatGPT allegedly promised suicidal man that human help was coming",
+    "category": "Chatbot harm",
+    "direction": "ai-harm",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "Suicidal man who used ChatGPT (identity unknown)",
+    "loss_usd": null,
+    "summary": "The Observer reports that ChatGPT allegedly told a suicidal man human help was coming. The headline is truncated and gives no outcome, so the case details are unconfirmed.",
+    "actor": "OpenAI (ChatGPT)",
+    "actor_type": "product",
+    "sector": "Individuals & consumers",
+    "attribution": "Alleged by The Observer reporting; the headline gives no further sourcing, court or regulator findings.",
+    "motive": "Unknown",
+    "vector": "Alleged chatbot conversation in which the user expressed suicidal thoughts and the assistant said help was on its way.",
+    "root_cause": "Unknown. The reporting reportedly alleges the chatbot gave a false assurance of human intervention.",
+    "impact": "A man in suicidal crisis was allegedly given a false assurance of human help. The outcome is not stated in the available text.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.4,
+    "source": "The Observer",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOOFFCbDV4Mi1pTzhvTTVlZm1jcGJSdkVpclpOUmJMR29tRTNVMmpBS0Zlek43UEhvZk95Wkc3dHFtd1c4aTZuSWhwZmRFMnJVM0M1elNaeTc3b202LWpYa1hCemtVcWEwc1UtVWJvbnpRSlRmQ1hUY0lqSDItR2lySzNXMDBNalVDRUhvRzlsNFgwMnVIUUxQTEp3MnNhQjZFN2JzTUJrX0xEMm5HaDIwRVdnZEs?oc=5",
+    "sources": [
+      {
+        "name": "The Observer",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOOFFCbDV4Mi1pTzhvTTVlZm1jcGJSdkVpclpOUmJMR29tRTNVMmpBS0Zlek43UEhvZk95Wkc3dHFtd1c4aTZuSWhwZmRFMnJVM0M1elNaeTc3b202LWpYa1hCemtVcWEwc1UtVWJvbnpRSlRmQ1hUY0lqSDItR2lySzNXMDBNalVDRUhvRzlsNFgwMnVIUUxQTEp3MnNhQjZFN2JzTUJrX0xEMm5HaDIwRVdnZEs?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-28",
+        "event": "Reported by The Observer"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-28T13:35:43Z",
+    "wire_id": "38dd8da2c33e",
+    "first_seen": "2026-10-28T13:35:43Z",
+    "first_published": "2026-10-28T12:21:39Z",
+    "updated_at": "2026-10-28T13:35:43Z"
   }
 ]
