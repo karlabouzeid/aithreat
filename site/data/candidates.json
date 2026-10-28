@@ -7420,5 +7420,53 @@
     "first_seen": "2026-10-28T16:35:42Z",
     "first_published": "2026-10-28T16:02:45Z",
     "updated_at": "2026-10-28T16:35:42Z"
+  },
+  {
+    "id": "creator-exposes-ai-voice-clone-scam",
+    "date": "2026-10-28",
+    "title": "Content creator exposes AI voice-cloning scam attempt",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "low",
+    "country": "MX",
+    "region": "Latin America",
+    "target": "Content creator",
+    "loss_usd": null,
+    "summary": "A content creator publicly exposed an attempted scam that used AI voice cloning and described its modus operandi. Details of any loss are not stated.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Individuals & consumers",
+    "attribution": "Unknown",
+    "motive": "Presumed financial fraud",
+    "vector": "AI voice cloning used to impersonate a person in an attempted scam",
+    "root_cause": "Unknown; the headline does not give details.",
+    "impact": "Attempted scam exposed; no loss reported.",
+    "response": "The creator publicly exposed the attempt and described how the scheme works.",
+    "status": "unresolved",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.4,
+    "source": "El Universal",
+    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQaUFZaWx3dC1XVnRnb25VS3dLZ0Rub3VTWG5paktpeHcteVFwTGlMQmM5QUVXdTlDM3c3Qm8zbGZOM3h2UzRyempQanpJSUR0d0RER3dHUkNXekhCMzFDVmhKRnAtQWtwUVlSd3JkZExSUHJnZlNRbzNlR2dkck01cVI2WHF1U3FQZkdSWEVPSjh1TmdieFlTOGE3R2FRZnF6Z1JLdHRNRHhlMXU5Y2VSemNQdjdDY0k0d2o0a1hNVlRyRzZBOXJ3bThLX3h0OUNBRUJ0WktScXVldw?oc=5",
+    "sources": [
+      {
+        "name": "El Universal",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQaUFZaWx3dC1XVnRnb25VS3dLZ0Rub3VTWG5paktpeHcteVFwTGlMQmM5QUVXdTlDM3c3Qm8zbGZOM3h2UzRyempQanpJSUR0d0RER3dHUkNXekhCMzFDVmhKRnAtQWtwUVlSd3JkZExSUHJnZlNRbzNlR2dkck01cVI2WHF1U3FQZkdSWEVPSjh1TmdieFlTOGE3R2FRZnF6Z1JLdHRNRHhlMXU5Y2VSemNQdjdDY0k0d2o0a1hNVlRyRzZBOXJ3bThLX3h0OUNBRUJ0WktScXVldw?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-28",
+        "event": "Reported by El Universal"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-28T21:35:43Z",
+    "wire_id": "38837b7313a5",
+    "first_seen": "2026-10-28T21:35:43Z",
+    "first_published": "2026-10-28T21:16:10Z",
+    "updated_at": "2026-10-28T21:35:43Z"
   }
 ]
