@@ -7084,5 +7084,53 @@
     "first_seen": "2026-10-28T10:05:44Z",
     "first_published": "2026-10-28T09:57:38Z",
     "updated_at": "2026-10-28T10:05:44Z"
+  },
+  {
+    "id": "claude-ai-domain-abuse-credential-theft",
+    "date": "2026-10-28",
+    "title": "Hackers abuse official Claude.ai domain to steal credentials and crypto",
+    "category": "AI phishing",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "Claude.ai users",
+    "loss_usd": null,
+    "summary": "Per a hi-Tech.ua headline, attackers abused the official Claude.ai domain to steal credentials and cryptocurrency. The summary gives no further detail.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Individuals & consumers",
+    "attribution": "Unknown",
+    "motive": "Credential and cryptocurrency theft",
+    "vector": "Abuse of the official Claude.ai domain, exact mechanism not stated",
+    "root_cause": "Unknown",
+    "impact": "Credentials and crypto reportedly stolen; number of victims and losses not stated.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.45,
+    "source": "hi-Tech.ua",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNYVJ6cnhTY01yMXVWU0NzczJURFdFWVlNSGs4XzNnR1lROFhBVVVBbENOb1dnWGRCV0NySmgteFItYUNoZ0p4TXBJNi0tbno2bXJLdDgwQ1g1bWx1U3FlOENLNExMNXJhOWliSGt1Z2NLcDhIdEJubGliaHhERko2VkNYaVM5U3dBTUhJRElsblk5X2pOdk5JdExB?oc=5",
+    "sources": [
+      {
+        "name": "hi-Tech.ua",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNYVJ6cnhTY01yMXVWU0NzczJURFdFWVlNSGs4XzNnR1lROFhBVVVBbENOb1dnWGRCV0NySmgteFItYUNoZ0p4TXBJNi0tbno2bXJLdDgwQ1g1bWx1U3FlOENLNExMNXJhOWliSGt1Z2NLcDhIdEJubGliaHhERko2VkNYaVM5U3dBTUhJRElsblk5X2pOdk5JdExB?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-28",
+        "event": "Reported by hi-Tech.ua"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-28T10:35:43Z",
+    "wire_id": "dc65a5fcd84c",
+    "first_seen": "2026-10-28T10:35:43Z",
+    "first_published": "2026-10-28T10:06:46Z",
+    "updated_at": "2026-10-28T10:35:43Z"
   }
 ]
