@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-28T17:35:43Z",
+  "updated_at": "2026-10-28T18:05:49Z",
   "wire_items": 800,
-  "new_items": 0,
+  "new_items": 6,
   "candidates": 158,
   "incidents": 433,
   "feeds_ok": [
@@ -63,5 +63,5 @@
     "Infosecurity Magazine",
     "US court filings (CourtListener)"
   ],
-  "triage": "triaged 3 items with claude-sonnet-5-5 in 1 batches (0 failed); kept 0"
+  "triage": "triaged 15 items with claude-sonnet-5-5 in 1 batches (0 failed); kept 6"
 }
