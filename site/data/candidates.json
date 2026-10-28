@@ -6940,5 +6940,53 @@
     "first_seen": "2026-10-28T04:35:37Z",
     "first_published": "2026-10-28T04:21:29Z",
     "updated_at": "2026-10-28T04:35:37Z"
+  },
+  {
+    "id": "au-woman-scam-face-in-ai-scam-ad",
+    "date": "2026-10-28",
+    "title": "Australian woman loses A$49,000 to phone scam, face then used in AI scam ad",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "AU",
+    "region": "Asia-Pacific",
+    "target": "Chinese-Australian woman (individual)",
+    "loss_usd": null,
+    "summary": "A Chinese-Australian woman lost A$49,000 to a telecom scam, and her face was then reportedly taken and used by scammers in an AI-generated scam advertisement.",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "sector": "Individuals & consumers",
+    "attribution": "Unknown; reported by Yeeyi, which does not identify the scammers.",
+    "motive": "Financial gain",
+    "vector": "Telephone scam, followed by reuse of the victim's face in an AI-generated advertisement to lure further victims.",
+    "root_cause": "Unknown; the victim's likeness was taken and reused in AI-made fraud content.",
+    "impact": "Victim lost A$49,000 and her likeness now promotes scams, adding reputational harm and a risk to others.",
+    "response": "Unknown; the report warns the public about the scam.",
+    "status": "unresolved",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.55,
+    "source": "yeeyi",
+    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9MUUVUQlZOWFNxSW9jaDZQV3NreUhDRFZHdGNWaVRaSkswUTdzaGVnRVJENjhDVHN4M21vQXVzckpERTdlc2tQMThLWDFFcUt4RjE5UF9R?oc=5",
+    "sources": [
+      {
+        "name": "yeeyi",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9MUUVUQlZOWFNxSW9jaDZQV3NreUhDRFZHdGNWaVRaSkswUTdzaGVnRVJENjhDVHN4M21vQXVzckpERTdlc2tQMThLWDFFcUt4RjE5UF9R?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-28",
+        "event": "Reported by yeeyi"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-28T05:05:40Z",
+    "wire_id": "70c0af34d8b3",
+    "first_seen": "2026-10-28T05:05:40Z",
+    "first_published": "2026-10-28T04:53:07Z",
+    "updated_at": "2026-10-28T05:05:40Z"
   }
 ]
