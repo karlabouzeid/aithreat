@@ -6988,5 +6988,53 @@
     "first_seen": "2026-10-28T05:05:40Z",
     "first_published": "2026-10-28T04:53:07Z",
     "updated_at": "2026-10-28T05:05:40Z"
+  },
+  {
+    "id": "papercut-ai-swarm-395-orgs",
+    "date": "2026-10-28",
+    "title": "AI swarm reportedly breaches 395 organizations via PaperCut",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "395 organizations using PaperCut",
+    "loss_usd": null,
+    "summary": "A Spanish-language report says an AI swarm breached 395 organizations through PaperCut. The headline gives no details on the actor, flaw or data affected.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Multiple / cross-sector",
+    "attribution": "Unknown; the headline names no actor.",
+    "motive": "Unknown",
+    "vector": "Reportedly an AI swarm exploiting PaperCut; the exact method is not stated.",
+    "root_cause": "Unknown; the headline does not say which PaperCut flaw or weakness was used.",
+    "impact": "395 organizations reportedly breached. Data affected and losses are not stated.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.5,
+    "source": "El Ecosistema Startup",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOWkVIQ0dSTjBrZ2duRlNHMkdjT093cDVub05qNE1TZ3pORFhwUVZDMHFxSDM4Ym11VUZheFFlT1YzMm5STVU2dGl3LXl4dnhFTmE4Qks5LTlMQUJqNVQ5czhGaHRrdWJOR2x3dVg0YmFVeTVfb1lIZjZONkxmaFRTck1ucnF6b19OS2FXXw?oc=5",
+    "sources": [
+      {
+        "name": "El Ecosistema Startup",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOWkVIQ0dSTjBrZ2duRlNHMkdjT093cDVub05qNE1TZ3pORFhwUVZDMHFxSDM4Ym11VUZheFFlT1YzMm5STVU2dGl3LXl4dnhFTmE4Qks5LTlMQUJqNVQ5czhGaHRrdWJOR2x3dVg0YmFVeTVfb1lIZjZONkxmaFRTck1ucnF6b19OS2FXXw?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-28",
+        "event": "Reported by El Ecosistema Startup"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-28T09:05:42Z",
+    "wire_id": "b9b74513cd4d",
+    "first_seen": "2026-10-28T09:05:42Z",
+    "first_published": "2026-10-28T07:51:51Z",
+    "updated_at": "2026-10-28T09:05:42Z"
   }
 ]
