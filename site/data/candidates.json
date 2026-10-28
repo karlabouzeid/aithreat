@@ -7324,5 +7324,53 @@
     "first_seen": "2026-10-28T15:05:45Z",
     "first_published": "2026-10-28T15:03:44Z",
     "updated_at": "2026-10-28T15:05:45Z"
+  },
+  {
+    "id": "ai-photo-missing-dog-reward-scam",
+    "date": "2026-10-28",
+    "title": "AI-generated photo sent to Australian man offering reward for missing dog",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "low",
+    "country": "AU",
+    "region": "Asia-Pacific",
+    "target": "Australian man offering a $10,000 missing-dog reward",
+    "loss_usd": null,
+    "summary": "After an Australian man offered $10,000 to find his missing dog, a stranger sent him an AI-generated photo, apparently to claim the reward. Further details are not given.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Individuals & consumers",
+    "attribution": "Unknown; the report only says a stranger sent the image.",
+    "motive": "Apparently to claim or extract the reward (unconfirmed).",
+    "vector": "AI-generated photo sent to the owner as supposed proof of the missing dog.",
+    "root_cause": "Easy access to AI image generation and a publicly advertised cash reward.",
+    "impact": "The man was targeted with a fake image. The summary does not state any financial loss.",
+    "response": "Unknown",
+    "status": "unresolved",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.5,
+    "source": "The Times of India",
+    "url": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxPckxLQTVlanZkSmJwUkVCbEkyS0o1b3JmcHVRaVNRc3pxYWRnZXB0eldCRmFsMFhQelFYbU1FR0NjLWhPRm5tSFJsLUJIQW1LRWotaXBZa242eHZnYWNfckN0cGNUQU9ISDJpSjVvUUhvUTlUaFNfdEh6Q3lWUG80ZklMdmd6UlYzUW1PVDA2WUpGTEhLMXhrSGNQUzRxZDFxMmxXNFBSOUpMLWZIaEoyZlZlbVhqYnNQRDBtdWx1anV2SnNra0QwQ0JwTU5iQkZiYjdTeGpCV3FLb2Z0azVvTzl6dDktX293QTJqeTZYMzAtQUpqa2E4V0tEcThib0Z1dnhrVGxBQlE3Y3RwQmpwMXpfQnVvOFZRa29wR1BqOVVkeE5iZlV3NVNRZk9mUHgyN1BuNE94anJhUW1CcDVNanBRSV95TGVu0gHOAkFVX3lxTE5DU2lDZE5BSlcxTkpCRU9WajNvSlowbVZUOWxOZjhmdE9uc3VKeXp2N04zeHB3WHhKa0l1dTU4UlVMdXJWRmZ4RmxEVEpURm5SN1YwV0FHU1k2b1R6RGp4RkRfUGQ0OEg0YWs4ZWJVVnRxVzRFekpJb0gtd2d6em9OblhSMXBzVDBhS0dzYzhyWVppblJxVVg3eHJTbGJ1Wi1pTk9xT0MyM3NiSTJzMUNFLWZ2Yk1EVmdlWHhrczk4aHdJN2xKcWdpWklCR0FkbjNlWTZhSVNEeUdGajg2OFUwM0VTN3dsZU1zajdMZDg4SzNWa1RXQ21CUl83VDJ6d3FNLXNZUkZtSXE4cS05aDRMemhaYVp1ay1QWmVwdEJwZUdmZlRNem9sQ1ZydHAycTl4U3gtLWdFMnctYTJaSHBwVnJpRWR3N3NxZmVobkE?oc=5",
+    "sources": [
+      {
+        "name": "The Times of India",
+        "url": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxPckxLQTVlanZkSmJwUkVCbEkyS0o1b3JmcHVRaVNRc3pxYWRnZXB0eldCRmFsMFhQelFYbU1FR0NjLWhPRm5tSFJsLUJIQW1LRWotaXBZa242eHZnYWNfckN0cGNUQU9ISDJpSjVvUUhvUTlUaFNfdEh6Q3lWUG80ZklMdmd6UlYzUW1PVDA2WUpGTEhLMXhrSGNQUzRxZDFxMmxXNFBSOUpMLWZIaEoyZlZlbVhqYnNQRDBtdWx1anV2SnNra0QwQ0JwTU5iQkZiYjdTeGpCV3FLb2Z0azVvTzl6dDktX293QTJqeTZYMzAtQUpqa2E4V0tEcThib0Z1dnhrVGxBQlE3Y3RwQmpwMXpfQnVvOFZRa29wR1BqOVVkeE5iZlV3NVNRZk9mUHgyN1BuNE94anJhUW1CcDVNanBRSV95TGVu0gHOAkFVX3lxTE5DU2lDZE5BSlcxTkpCRU9WajNvSlowbVZUOWxOZjhmdE9uc3VKeXp2N04zeHB3WHhKa0l1dTU4UlVMdXJWRmZ4RmxEVEpURm5SN1YwV0FHU1k2b1R6RGp4RkRfUGQ0OEg0YWs4ZWJVVnRxVzRFekpJb0gtd2d6em9OblhSMXBzVDBhS0dzYzhyWVppblJxVVg3eHJTbGJ1Wi1pTk9xT0MyM3NiSTJzMUNFLWZ2Yk1EVmdlWHhrczk4aHdJN2xKcWdpWklCR0FkbjNlWTZhSVNEeUdGajg2OFUwM0VTN3dsZU1zajdMZDg4SzNWa1RXQ21CUl83VDJ6d3FNLXNZUkZtSXE4cS05aDRMemhaYVp1ay1QWmVwdEJwZUdmZlRNem9sQ1ZydHAycTl4U3gtLWdFMnctYTJaSHBwVnJpRWR3N3NxZmVobkE?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-28",
+        "event": "Reported by The Times of India"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-28T15:35:48Z",
+    "wire_id": "a9a7c257a07a",
+    "first_seen": "2026-10-28T15:35:48Z",
+    "first_published": "2026-10-28T13:32:00Z",
+    "updated_at": "2026-10-28T15:35:48Z"
   }
 ]
