@@ -6892,5 +6892,53 @@
     "first_seen": "2026-10-27T22:35:41Z",
     "first_published": "2026-10-27T16:03:37Z",
     "updated_at": "2026-10-27T22:35:41Z"
+  },
+  {
+    "id": "rhode-island-ai-backdated-medicaid-recor",
+    "date": "2026-10-28",
+    "title": "Rhode Island agency allegedly used AI to backdate Medicaid records in $2M fraud",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "US",
+    "region": "North America",
+    "target": "Medicaid program (Rhode Island)",
+    "loss_usd": 2000000,
+    "summary": "Prosecutors allege a Rhode Island agency used AI to create backdated Medicaid records as part of a roughly $2 million fraud scheme. Details are limited to the headline.",
+    "actor": "Rhode Island agency (name not given in source)",
+    "actor_type": "unknown",
+    "sector": "Healthcare",
+    "attribution": "Prosecutors allege the agency used AI to create the records, per Medical Daily. No court finding is reported.",
+    "motive": "Financial gain (alleged)",
+    "vector": "AI-generated backdated Medicaid records, per prosecutors.",
+    "root_cause": "Unknown; the source gives no detail on which AI tools were used or how the records escaped detection.",
+    "impact": "Alleged fraud of about $2 million against Medicaid. Other impacts are not stated.",
+    "response": "Prosecutors have brought allegations. No further response is described.",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.55,
+    "source": "Medical Daily",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNVEdIcThCMzRNb2ZlOUJuVjV1Q3JVVkZRUi00NnZUY1Ytc2VKdEV2YTF0Zk5jaEdCcGxiZjVZbzVuekZHTXQ0YzhHSDRHZzFMRHB3ZVdKek1GREV0WXBLQXhkbVRGMDVMeFBpWUt2TXFZTGp0MjA1c01ybnBudGxVS3FndXVrLWJWZWlsWXJ3?oc=5",
+    "sources": [
+      {
+        "name": "Medical Daily",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNVEdIcThCMzRNb2ZlOUJuVjV1Q3JVVkZRUi00NnZUY1Ytc2VKdEV2YTF0Zk5jaEdCcGxiZjVZbzVuekZHTXQ0YzhHSDRHZzFMRHB3ZVdKek1GREV0WXBLQXhkbVRGMDVMeFBpWUt2TXFZTGp0MjA1c01ybnBudGxVS3FndXVrLWJWZWlsWXJ3?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-28",
+        "event": "Reported by Medical Daily"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-28T04:35:37Z",
+    "wire_id": "b55e9e3967b7",
+    "first_seen": "2026-10-28T04:35:37Z",
+    "first_published": "2026-10-28T04:21:29Z",
+    "updated_at": "2026-10-28T04:35:37Z"
   }
 ]
