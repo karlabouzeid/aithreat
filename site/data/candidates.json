@@ -7276,5 +7276,53 @@
     "first_seen": "2026-10-28T14:35:40Z",
     "first_published": "2026-10-28T13:14:24Z",
     "updated_at": "2026-10-28T14:35:40Z"
+  },
+  {
+    "id": "deepseek-seo-poisoning-kong-rat",
+    "date": "2026-10-28",
+    "title": "SEO poisoning targets DeepSeek users with Kong RAT malware",
+    "category": "AI supply chain",
+    "direction": "on-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "DeepSeek users searching for the AI service",
+    "loss_usd": null,
+    "summary": "A reported SEO poisoning campaign targets people searching for DeepSeek. A Chinese threat actor allegedly delivers Kong RAT through multi-stage attacks.",
+    "actor": "Chinese threat actor (unnamed)",
+    "actor_type": "unknown",
+    "sector": "Individuals & consumers",
+    "attribution": "Described in a Reddit r/netsec post as a Chinese threat actor; no further attribution detail in the summary.",
+    "motive": "Unknown",
+    "vector": "SEO poisoning of search results leading DeepSeek users to multi-stage infection chains that install Kong RAT.",
+    "root_cause": "Users searching for a popular AI tool are lured to malicious look-alike pages through manipulated search rankings.",
+    "impact": "Victim count and losses are unknown. Infected users risk remote access trojan compromise.",
+    "response": "Unknown",
+    "status": "ongoing",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.5,
+    "source": "Reddit r/netsec",
+    "url": "https://www.reddit.com/r/netsec/comments/1xhqj0w/seo_poisoning_campaign_targets_deepseek_users",
+    "sources": [
+      {
+        "name": "Reddit r/netsec",
+        "url": "https://www.reddit.com/r/netsec/comments/1xhqj0w/seo_poisoning_campaign_targets_deepseek_users"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-28",
+        "event": "Reported by Reddit r/netsec"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-28T15:05:45Z",
+    "wire_id": "977cb972bb1f",
+    "first_seen": "2026-10-28T15:05:45Z",
+    "first_published": "2026-10-28T15:03:44Z",
+    "updated_at": "2026-10-28T15:05:45Z"
   }
 ]
