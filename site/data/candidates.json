@@ -7228,5 +7228,53 @@
     "first_seen": "2026-10-28T13:35:43Z",
     "first_published": "2026-10-28T12:21:39Z",
     "updated_at": "2026-10-28T13:35:43Z"
+  },
+  {
+    "id": "bithumb-daishin-hacks-ai-wave-kr",
+    "date": "2026-10-28",
+    "title": "Korean police probe Bithumb and Daishin hacks possibly linked to AI attacks",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "KR",
+    "region": "Asia-Pacific",
+    "target": "Bithumb and Daishin",
+    "loss_usd": null,
+    "summary": "Korean police are investigating hacking incidents at Bithumb and Daishin that may be connected to a wave of AI-driven attacks. Details of the AI role are not confirmed.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Financial services",
+    "attribution": "Unknown; police are investigating a possible link to AI attacks.",
+    "motive": "Unknown",
+    "vector": "Unknown",
+    "root_cause": "Unknown",
+    "impact": "Hacking incidents reported at Bithumb and Daishin; scale of loss not stated.",
+    "response": "Korean police have opened an investigation.",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.4,
+    "source": "Cryptopolitan",
+    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNNHNKbHRJMmNVdGM2Nzhsc1JqZ0hfMGstQVc0WF84aloxd2pkTDV2QnJ1UWhrc2tudXZFX3lUTlo0SkpQXzVIaG9hWUZfNzVENEhsejVQa1RtYWxmRmNrcWRGRnBCUzBZZWVnVGZzaWYxdnl3SXRTWDZKeTJYZjZGZ1hoQQ?oc=5",
+    "sources": [
+      {
+        "name": "Cryptopolitan",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNNHNKbHRJMmNVdGM2Nzhsc1JqZ0hfMGstQVc0WF84aloxd2pkTDV2QnJ1UWhrc2tudXZFX3lUTlo0SkpQXzVIaG9hWUZfNzVENEhsejVQa1RtYWxmRmNrcWRGRnBCUzBZZWVnVGZzaWYxdnl3SXRTWDZKeTJYZjZGZ1hoQQ?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-28",
+        "event": "Reported by Cryptopolitan"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-28T14:35:40Z",
+    "wire_id": "ac1ad7222e50",
+    "first_seen": "2026-10-28T14:35:40Z",
+    "first_published": "2026-10-28T13:14:24Z",
+    "updated_at": "2026-10-28T14:35:40Z"
   }
 ]
