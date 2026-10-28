@@ -7372,5 +7372,53 @@
     "first_seen": "2026-10-28T15:35:48Z",
     "first_published": "2026-10-28T13:32:00Z",
     "updated_at": "2026-10-28T15:35:48Z"
+  },
+  {
+    "id": "php2shell-ai-assisted-us-gov-network",
+    "date": "2026-10-25",
+    "title": "AI-assisted PHP2Shell attack roots 25 servers, breaches US government-affiliated network",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "US",
+    "region": "North America",
+    "target": "Exposed PHP servers; US government-affiliated network",
+    "loss_usd": null,
+    "summary": "Researchers describe an apparently AI-assisted attack by a suspected China-nexus actor exploiting PHP2Shell vulnerabilities, observed on 25 Oct 2026, rooting 25 servers and breaching a US government-affiliated network.",
+    "actor": "Suspected China-nexus threat actor",
+    "actor_type": "unknown",
+    "sector": "Government & public sector",
+    "attribution": "Suspected China-nexus actor, per cybersecurity researchers cited by The Hacker News; not confirmed.",
+    "motive": "Unknown",
+    "vector": "Exploitation of PHP2Shell vulnerabilities in exposed systems, apparently with AI assistance.",
+    "root_cause": "Vulnerable, internet-exposed PHP systems exploited using AI-assisted tooling.",
+    "impact": "25 servers rooted and a US government-affiliated network breached.",
+    "response": "Researchers disclosed details of the activity; no other response stated.",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.6,
+    "source": "The Hacker News",
+    "url": "https://thehackernews.com/2026/10/php2shell-attack-roots-25-servers.html",
+    "sources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/php2shell-attack-roots-25-servers.html"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-25",
+        "event": "Reported by The Hacker News"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-28T16:35:42Z",
+    "wire_id": "eb73651e36ee",
+    "first_seen": "2026-10-28T16:35:42Z",
+    "first_published": "2026-10-28T16:02:45Z",
+    "updated_at": "2026-10-28T16:35:42Z"
   }
 ]
