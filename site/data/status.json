@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-29T17:05:45Z",
+  "updated_at": "2026-10-29T17:35:40Z",
   "wire_items": 800,
-  "new_items": 1,
+  "new_items": 0,
   "candidates": 164,
   "incidents": 433,
   "feeds_ok": [
@@ -12,7 +12,6 @@
     "Dark Reading",
     "The Register",
     "CyberScoop",
-    "Krebs on Security",
     "WIRED Security",
     "Help Net Security",
     "Infosecurity Magazine",
@@ -61,7 +60,8 @@
     "Google News chatbot harm (ES)"
   ],
   "feeds_failed": [
+    "Krebs on Security",
     "US court filings (CourtListener)"
   ],
-  "triage": "triaged 2 items with claude-sonnet-5-5 in 1 batches (0 failed); kept 1"
+  "triage": "triaged 2 items with claude-sonnet-5-5 in 1 batches (0 failed); kept 0"
 }
