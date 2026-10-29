@@ -7564,5 +7564,53 @@
     "first_seen": "2026-10-29T11:35:45Z",
     "first_published": "2026-10-29T07:49:17Z",
     "updated_at": "2026-10-29T11:35:45Z"
+  },
+  {
+    "id": "japan-ai-voice-scam-4-5b-yen",
+    "date": "2026-10-29",
+    "title": "Japan AI voice scam case worth about 4.5 billion yen reported",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "JP",
+    "region": "Asia-Pacific",
+    "target": "Victims of AI voice scams in Japan",
+    "loss_usd": null,
+    "summary": "A report describes a Japanese AI voice scam involving about 4.5 billion yen and questions whether it was a single incident or 143 separate cases.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Individuals & consumers",
+    "attribution": "Unknown; the headline names no perpetrator.",
+    "motive": "Unknown",
+    "vector": "AI voice scam (per headline); technique not detailed.",
+    "root_cause": "Unknown",
+    "impact": "Reported total of about 4.5 billion yen; number of incidents and victims unclear from the headline.",
+    "response": "Unknown",
+    "status": "unresolved",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.35,
+    "source": "OrcaRouter",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5BU0VtSG9pTkRpTnJlS2loSERxcF9MQjBEeU1HOUNqVjNhaVlzS2dfcm96TEY1RUpVc0FQOVpneXZXcDByOGw4RDYxVFRyTVVkd0JJUElRVHAwZ3NCbkFJdmJfbjNJdEZTVE0wV2dNaVVrWC0z?oc=5",
+    "sources": [
+      {
+        "name": "OrcaRouter",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5BU0VtSG9pTkRpTnJlS2loSERxcF9MQjBEeU1HOUNqVjNhaVlzS2dfcm96TEY1RUpVc0FQOVpneXZXcDByOGw4RDYxVFRyTVVkd0JJUElRVHAwZ3NCbkFJdmJfbjNJdEZTVE0wV2dNaVVrWC0z?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-29",
+        "event": "Reported by OrcaRouter"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-29T12:35:44Z",
+    "wire_id": "37f74145a6b1",
+    "first_seen": "2026-10-29T12:35:44Z",
+    "first_published": "2026-10-29T09:38:13Z",
+    "updated_at": "2026-10-29T12:35:44Z"
   }
 ]
