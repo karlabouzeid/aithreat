@@ -7708,5 +7708,53 @@
     "first_seen": "2026-10-29T16:35:46Z",
     "first_published": "2026-10-28T22:11:24Z",
     "updated_at": "2026-10-29T16:35:46Z"
+  },
+  {
+    "id": "doj-ai-student-loan-fraud-scheme",
+    "date": "2026-10-29",
+    "title": "DOJ uncovers alleged AI-powered fake-student federal loan fraud scheme",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "US",
+    "region": "North America",
+    "target": "US federal student aid programs",
+    "loss_usd": null,
+    "summary": "US officials allege scammers stole identities to enrol fictitious college students and collect federal aid, using AI to complete coursework. The headline gives no loss figure or defendants.",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "sector": "Government & public sector",
+    "attribution": "US Department of Justice officials allege the scheme; no named actors in the headline.",
+    "motive": "Financial gain from federal student aid payouts.",
+    "vector": "Stolen identities used to enrol made-up students, with AI used to complete coursework.",
+    "root_cause": "Unknown; the text suggests weak identity and enrolment verification, but this is not stated.",
+    "impact": "Federal student aid was allegedly fraudulently collected; the amount is not stated in the available text.",
+    "response": "The DOJ uncovered the scheme; the text does not give charges or arrests.",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.5,
+    "source": "X",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE41QVF2bm16V2Zma1pKeEpEUFQySTR3dEZtVUZROEwwLW1pOEk4a3F6NUlrYnpOWFk2WnoxNHhyQkFEd2tydGk0T0UyQmljNXl1ZkZaZk4tMW5xdFYxSUNNV1hRT3RodUFLWDZvaw?oc=5",
+    "sources": [
+      {
+        "name": "X",
+        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE41QVF2bm16V2Zma1pKeEpEUFQySTR3dEZtVUZROEwwLW1pOEk4a3F6NUlrYnpOWFk2WnoxNHhyQkFEd2tydGk0T0UyQmljNXl1ZkZaZk4tMW5xdFYxSUNNV1hRT3RodUFLWDZvaw?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-29",
+        "event": "Reported by X"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-29T18:05:43Z",
+    "wire_id": "e03f6220f624",
+    "first_seen": "2026-10-29T18:05:43Z",
+    "first_published": "2026-10-29T17:40:00Z",
+    "updated_at": "2026-10-29T18:05:43Z"
   }
 ]
