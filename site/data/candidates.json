@@ -7468,5 +7468,53 @@
     "first_seen": "2026-10-28T21:35:43Z",
     "first_published": "2026-10-28T21:16:10Z",
     "updated_at": "2026-10-28T21:35:43Z"
+  },
+  {
+    "id": "au-mp-plea-teen-ai-death",
+    "date": "2026-10-29",
+    "title": "Australian MP urges rethink after teen's death linked to AI",
+    "category": "Chatbot harm",
+    "direction": "ai-harm",
+    "severity": "high",
+    "country": "AU",
+    "region": "Asia-Pacific",
+    "target": "Teenager (unnamed)",
+    "loss_usd": null,
+    "summary": "News.com.au reports an MP's plea to 'think again' following a teenager's death linked to AI. Details of the chatbot and circumstances are not given in the headline; the link is alleged.",
+    "actor": "Unknown AI chatbot provider",
+    "actor_type": "product",
+    "sector": "Individuals & consumers",
+    "attribution": "Alleged link between AI and the teen's death per News.com.au headline; company and product not stated.",
+    "motive": "Unknown",
+    "vector": "Unknown; interaction with an AI chatbot or companion is implied by the headline.",
+    "root_cause": "Unknown; not stated in the available text.",
+    "impact": "A teenager died; reporting links the death to AI, which remains an allegation. Circumstances are not detailed.",
+    "response": "An MP publicly urged people to 'think again' about AI use; no legal or regulatory action is stated.",
+    "status": "unresolved",
+    "cve": null,
+    "young_people": true,
+    "setting": null,
+    "age_group": "teen",
+    "confidence": 0.35,
+    "source": "News.com.au",
+    "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOY0xBYmEtbnpPT2ZMRUFuYi1GUi1zOFdMSTB6VzlFUHBNRDFMTnVNN0Z6WEhKNFZpZzh0ZjdYZlNzbEFBdXJKaXFYOFJDQ2xaR09aZi1OUXRBNU53LTdtU2VqeHhWYlNSYWFyRkJIcEkwQ3ZCeTRWS19CTHpuLTBUTFNReE51MXYtLTdIU3ZtRnczQjQ3ZXBtcjBvVTcxZHpfZ01wN1p3aW0xTU96dWNzdG1VTk1ZNkh5LTZSc2tJVnRqdXk4YW1JSGNCU211dnZEb2ExQTU0eFdBVWUwNUdPRm84WkpQTUZScTdjWUl4a9IB9AFBVV95cUxNQUxnWFRMRUl0Mzl3Z1J1eTFFX1JFaXZLRzctSWRxWFB3TDhFejNObjRoTmdxMkViMjlZZXN4dEl4MUVDbmpnVGdEbVJZc0RyLVJwR0d0eGp4R2k3b3U1MmpVT3hwN3luQjFaUVhpU0VhOXFWYUZiOXNuMUY1THN4SzZNNkFKVEszbnNLUkRqSVZpZGg1UEExcXpwb3QyU1hGRVN4dkVMQTNzanVVSTF1YVZrYVN3ZFM2UVFXX200d0pLRHFaa2RmeHZaNXptZXZvRl9SdWVndXJ4NDdLYWVZYkdEU3NtcVNVeVZnSFVpMGNINkNm?oc=5",
+    "sources": [
+      {
+        "name": "News.com.au",
+        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOY0xBYmEtbnpPT2ZMRUFuYi1GUi1zOFdMSTB6VzlFUHBNRDFMTnVNN0Z6WEhKNFZpZzh0ZjdYZlNzbEFBdXJKaXFYOFJDQ2xaR09aZi1OUXRBNU53LTdtU2VqeHhWYlNSYWFyRkJIcEkwQ3ZCeTRWS19CTHpuLTBUTFNReE51MXYtLTdIU3ZtRnczQjQ3ZXBtcjBvVTcxZHpfZ01wN1p3aW0xTU96dWNzdG1VTk1ZNkh5LTZSc2tJVnRqdXk4YW1JSGNCU211dnZEb2ExQTU0eFdBVWUwNUdPRm84WkpQTUZScTdjWUl4a9IB9AFBVV95cUxNQUxnWFRMRUl0Mzl3Z1J1eTFFX1JFaXZLRzctSWRxWFB3TDhFejNObjRoTmdxMkViMjlZZXN4dEl4MUVDbmpnVGdEbVJZc0RyLVJwR0d0eGp4R2k3b3U1MmpVT3hwN3luQjFaUVhpU0VhOXFWYUZiOXNuMUY1THN4SzZNNkFKVEszbnNLUkRqSVZpZGg1UEExcXpwb3QyU1hGRVN4dkVMQTNzanVVSTF1YVZrYVN3ZFM2UVFXX200d0pLRHFaa2RmeHZaNXptZXZvRl9SdWVndXJ4NDdLYWVZYkdEU3NtcVNVeVZnSFVpMGNINkNm?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-29",
+        "event": "Reported by News.com.au"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-29T09:05:42Z",
+    "wire_id": "0c6f3ab94e8f",
+    "first_seen": "2026-10-29T09:05:42Z",
+    "first_published": "2026-10-29T08:01:16Z",
+    "updated_at": "2026-10-29T09:05:42Z"
   }
 ]
