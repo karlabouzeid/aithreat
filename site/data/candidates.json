@@ -7516,5 +7516,53 @@
     "first_seen": "2026-10-29T09:05:42Z",
     "first_published": "2026-10-29T08:01:16Z",
     "updated_at": "2026-10-29T09:05:42Z"
+  },
+  {
+    "id": "command-code-ai-key-attack",
+    "date": "2026-10-29",
+    "title": "Command Code attacked after OpenCode and Railway as hackers target AI model keys",
+    "category": "AI supply chain",
+    "direction": "on-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "Command Code AI coding tool and its users' AI model keys",
+    "loss_usd": null,
+    "summary": "Command Code was reportedly hit after OpenCode and Railway in an apparent campaign targeting AI model API keys. Details are limited to the headline.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Technology & AI vendors",
+    "attribution": "Unknown",
+    "motive": "Apparently theft of AI model keys, per the headline.",
+    "vector": "Unknown",
+    "root_cause": "Unknown",
+    "impact": "AI model keys reportedly targeted; the scale of exposure is not stated.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.45,
+    "source": "BlockBeats",
+    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5lNEV1enY1QlBJVVZaYU5lN1BOLXBXNTdZTWNUX25wVk1sOWw3aEpvSEJ3TWROUGtTWThnQW9EYlQ3QWRFZHdIbGtvak9sRzRFMWx4QUh3?oc=5",
+    "sources": [
+      {
+        "name": "BlockBeats",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5lNEV1enY1QlBJVVZaYU5lN1BOLXBXNTdZTWNUX25wVk1sOWw3aEpvSEJ3TWROUGtTWThnQW9EYlQ3QWRFZHdIbGtvak9sRzRFMWx4QUh3?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-29",
+        "event": "Reported by BlockBeats"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-29T11:35:45Z",
+    "wire_id": "e162de8e5414",
+    "first_seen": "2026-10-29T11:35:45Z",
+    "first_published": "2026-10-29T07:49:17Z",
+    "updated_at": "2026-10-29T11:35:45Z"
   }
 ]

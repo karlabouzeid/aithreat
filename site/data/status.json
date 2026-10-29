@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-29T11:05:44Z",
+  "updated_at": "2026-10-29T11:35:45Z",
   "wire_items": 800,
-  "new_items": 8,
-  "candidates": 160,
+  "new_items": 9,
+  "candidates": 161,
   "incidents": 433,
   "feeds_ok": [
     "BleepingComputer",
@@ -33,7 +33,6 @@
     "CrowdStrike",
     "SentinelOne Labs",
     "Check Point Research",
-    "Kaspersky Securelist",
     "ESET WeLiveSecurity",
     "Cisco Talos",
     "Zscaler ThreatLabz",
@@ -61,7 +60,8 @@
     "Google News chatbot harm (ES)"
   ],
   "feeds_failed": [
+    "Kaspersky Securelist",
     "US court filings (CourtListener)"
   ],
-  "triage": "triaged 19 items with claude-sonnet-5-5 in 1 batches (0 failed); kept 8"
+  "triage": "triaged 17 items with claude-sonnet-5-5 in 1 batches (0 failed); kept 9"
 }
