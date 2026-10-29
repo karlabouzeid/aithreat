@@ -7756,5 +7756,53 @@
     "first_seen": "2026-10-29T18:05:43Z",
     "first_published": "2026-10-29T17:40:00Z",
     "updated_at": "2026-10-29T18:05:43Z"
+  },
+  {
+    "id": "murmansk-governor-chibis-deepfake-scam",
+    "date": "2026-10-29",
+    "title": "Scammers use deepfake of Murmansk governor Chibis to deceive pensioners",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "RU",
+    "region": "Europe",
+    "target": "Pensioners in Murmansk region",
+    "loss_usd": null,
+    "summary": "Per regional broadcaster GTRK, fraudsters are using a deepfake of Governor Andrey Chibis to deceive elderly residents. The text gives no loss figures or victim counts.",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "sector": "Individuals & consumers",
+    "attribution": "Unattributed; the headline refers only to scammers.",
+    "motive": "Financial gain by defrauding elderly people.",
+    "vector": "Deepfake video or audio of a trusted regional official used to impersonate him to victims.",
+    "root_cause": "Unknown; the scam relies on public trust in a known official and on the availability of deepfake tools.",
+    "impact": "Pensioners are being targeted; the summary gives no confirmed loss figures or number of victims.",
+    "response": "Unknown; the regional broadcaster is publicising the scam as a warning.",
+    "status": "ongoing",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.55,
+    "source": "ГТРК «Мурман",
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNNXNibUdNLU8tWjBFSmloTGJUeldsYTJFc2dPMk5idDhrMnlTNDRiLVdPQkEwdzl3R3JQWGFUcWQ0RU02bnY3WXpvX1RRX1FhS3NpdXFtajZyQ25tQjNYWksxSy0xc01mZUtWRmlOTE9mNC04TlhhbFFQaVc5VE5mSkEtZEhLdm1adjM2Vi1rTUk4LVlRbl91RFd1T21Ma2tWWm1uMV9CWmFNMmpyemttV3k5WlUyLUFSQ3o2eEdNa3pUQQ?oc=5",
+    "sources": [
+      {
+        "name": "ГТРК «Мурман",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNNXNibUdNLU8tWjBFSmloTGJUeldsYTJFc2dPMk5idDhrMnlTNDRiLVdPQkEwdzl3R3JQWGFUcWQ0RU02bnY3WXpvX1RRX1FhS3NpdXFtajZyQ25tQjNYWksxSy0xc01mZUtWRmlOTE9mNC04TlhhbFFQaVc5VE5mSkEtZEhLdm1adjM2Vi1rTUk4LVlRbl91RFd1T21Ma2tWWm1uMV9CWmFNMmpyemttV3k5WlUyLUFSQ3o2eEdNa3pUQQ?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-29",
+        "event": "Reported by ГТРК «Мурман"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-29T19:05:40Z",
+    "wire_id": "5412213a4c7a",
+    "first_seen": "2026-10-29T19:05:40Z",
+    "first_published": "2026-10-29T18:53:57Z",
+    "updated_at": "2026-10-29T19:05:40Z"
   }
 ]
