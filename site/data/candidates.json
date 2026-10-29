@@ -7612,5 +7612,53 @@
     "first_seen": "2026-10-29T12:35:44Z",
     "first_published": "2026-10-29T09:38:13Z",
     "updated_at": "2026-10-29T12:35:44Z"
+  },
+  {
+    "id": "al-noufali-fake-ai-ads-videos",
+    "date": "2026-10-29",
+    "title": "Mohammed Al Noufali warns of fake AI ads built from his videos",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "low",
+    "country": "AE",
+    "region": "Middle East & Africa",
+    "target": "Mohammed Al Noufali and viewers of the fake ads",
+    "loss_usd": null,
+    "summary": "Mohammed Al Noufali warned his audience that fake AI-generated ads are using his videos. The text gives no details on losses or the product being promoted.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Individuals & consumers",
+    "attribution": "No attribution given in the headline; the actor is unknown.",
+    "motive": "Unknown; likely fraud by exploiting his public image.",
+    "vector": "AI-generated or manipulated ads reusing his videos.",
+    "root_cause": "Unknown; his public videos were apparently reused to produce fake AI ads.",
+    "impact": "Risk that followers are deceived by the ads. No victim count or financial loss is stated.",
+    "response": "Al Noufali publicly warned his followers about the fake ads.",
+    "status": "ongoing",
+    "cve": null,
+    "young_people": false,
+    "setting": "online",
+    "age_group": null,
+    "confidence": 0.4,
+    "source": "lovin.co",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQUGRkUUd4ZnJjcDRURDNkQWRfZjQzOXRJcVd0RGhLX1RtaEFCYUFkcWo4d2w3LXdNSjFQTDhGQTBheDFHZks4YlVjZldiYzhIa0ZRcndEVE1ZMnBqUTN1ZC1taVo5ajlETm42OVd2MUtZVVJLYmQtUEFwdDZhd2VUQl9OcVZad0d0UFJVQ3hB?oc=5",
+    "sources": [
+      {
+        "name": "lovin.co",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQUGRkUUd4ZnJjcDRURDNkQWRfZjQzOXRJcVd0RGhLX1RtaEFCYUFkcWo4d2w3LXdNSjFQTDhGQTBheDFHZks4YlVjZldiYzhIa0ZRcndEVE1ZMnBqUTN1ZC1taVo5ajlETm42OVd2MUtZVVJLYmQtUEFwdDZhd2VUQl9OcVZad0d0UFJVQ3hB?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-29",
+        "event": "Reported by lovin.co"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-29T14:05:51Z",
+    "wire_id": "70ba175f4485",
+    "first_seen": "2026-10-29T14:05:51Z",
+    "first_published": "2026-10-29T12:46:02Z",
+    "updated_at": "2026-10-29T14:05:51Z"
   }
 ]
