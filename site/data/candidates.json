@@ -7852,5 +7852,101 @@
     "first_seen": "2026-10-29T20:05:40Z",
     "first_published": "2026-10-29T18:39:00Z",
     "updated_at": "2026-10-29T20:05:40Z"
+  },
+  {
+    "id": "ai-bots-flood-uk-vape-consultation",
+    "date": "2026-10-29",
+    "title": "AI bots flood 2023 UK government consultation on disposable vapes ban",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "GB",
+    "region": "Europe",
+    "target": "UK government consultation on tobacco and vapes bill",
+    "loss_usd": null,
+    "summary": "AI bots reportedly submitted tens of thousands of fake responses to a 2023 UK consultation, in a failed attempt to block the disposable vapes ban. Three-quarters of all responses were reportedly affected.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Government & public sector",
+    "attribution": "The summary does not name who ran the bots.",
+    "motive": "To stop the UK ban on disposable vapes by distorting public consultation results.",
+    "vector": "AI bots submitting mass fake responses to a public government consultation.",
+    "root_cause": "Open public consultation channel without effective safeguards against automated, AI-generated submissions.",
+    "impact": "Three-quarters of responses to the 2023 consultation on the tobacco and vapes bill were reportedly fake. The attempt to stop the ban failed.",
+    "response": "Unknown",
+    "status": "unresolved",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.55,
+    "source": "AI Incident Database",
+    "url": "https://www.theguardian.com/society/2026/oct/27/ai-bots-flooded-2023-uk-government-consultation-disposable-vapes-ban",
+    "sources": [
+      {
+        "name": "AI Incident Database",
+        "url": "https://www.theguardian.com/society/2026/oct/27/ai-bots-flooded-2023-uk-government-consultation-disposable-vapes-ban"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-29",
+        "event": "Reported by AI Incident Database"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-29T20:35:39Z",
+    "wire_id": "2d27ef900c67",
+    "first_seen": "2026-10-29T20:35:39Z",
+    "first_published": "2026-10-29T00:00:00Z",
+    "updated_at": "2026-10-29T20:35:39Z"
+  },
+  {
+    "id": "storm-1516-talarico-deepfake-video",
+    "date": "2026-10-21",
+    "title": "Russian group Storm-1516 spreads AI deepfake video accusing Texas candidate Talarico",
+    "category": "State actor AI ops",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "US",
+    "region": "North America",
+    "target": "James Talarico, Texas Democratic Senate candidate",
+    "loss_usd": null,
+    "summary": "A Russian disinformation group reportedly spread AI-generated videos of a supposed former student accusing Talarico of misconduct. A fact-check rated the claim baseless. A network of accounts across major platforms pushed the content.",
+    "actor": "Storm-1516 (Russian disinformation group)",
+    "actor_type": "state",
+    "sector": "Politics & elections",
+    "attribution": "Item 2 attributes a coordinated account network to Storm-1516. Item 3 describes the source as a Russian disinformation group, per a fact-check.",
+    "motive": "To damage a Democratic Senate candidate with false sexual misconduct claims ahead of the election.",
+    "vector": "AI-generated deepfake videos spread by a coordinated network of accounts on Facebook, Instagram, Pinterest, Threads, TikTok, X and YouTube.",
+    "root_cause": "Cheap AI video generation and coordinated inauthentic accounts on social platforms allow fabricated accusations to spread widely.",
+    "impact": "Baseless misconduct claims about a Senate candidate circulated widely on X and other platforms. The researchers also found accounts impersonating a US Assistant Attorney General.",
+    "response": "A fact-check rated the claim Pants on Fire. Researchers published their findings on the account network.",
+    "status": "ongoing",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.8,
+    "source": "AI Incident Database",
+    "url": "https://politifact.com/factchecks/2026/oct/22/tweets/russian-disinformation-group-targets-james-talarico-with-baseless-claim-in-ai-generated-video",
+    "sources": [
+      {
+        "name": "AI Incident Database",
+        "url": "https://politifact.com/factchecks/2026/oct/22/tweets/russian-disinformation-group-targets-james-talarico-with-baseless-claim-in-ai-generated-video"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-21",
+        "event": "Reported by AI Incident Database"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-29T20:35:39Z",
+    "wire_id": "7fab0fe0da22",
+    "first_seen": "2026-10-29T20:35:39Z",
+    "first_published": "2026-10-29T00:00:00Z",
+    "updated_at": "2026-10-29T20:35:39Z"
   }
 ]
