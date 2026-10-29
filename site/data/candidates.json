@@ -7804,5 +7804,53 @@
     "first_seen": "2026-10-29T19:05:40Z",
     "first_published": "2026-10-29T18:53:57Z",
     "updated_at": "2026-10-29T19:05:40Z"
+  },
+  {
+    "id": "contractor-ai-agent-pentagon-system",
+    "date": "2026-10-29",
+    "title": "Defense contractor's personal AI agent given access to secure Pentagon system",
+    "category": "Agent hijack",
+    "direction": "on-ai",
+    "severity": "medium",
+    "country": "US",
+    "region": "North America",
+    "target": "Secure Pentagon system accessed via contractor's AI agent",
+    "loss_usd": null,
+    "summary": "WIRED reports that a defense contractor connected a personal AI agent to a secure Pentagon system. The summary gives no further detail on exposure or impact.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Defence & security",
+    "attribution": "Unknown; based only on the WIRED headline, no actor or exploitation is described.",
+    "motive": "Unknown",
+    "vector": "Personal AI agent granted access to a secure Pentagon system by a defense contractor",
+    "root_cause": "Unknown from the headline; apparently an unvetted personal AI agent was allowed access to a secure system.",
+    "impact": "Unknown; the text does not state whether data was exposed or misused.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.4,
+    "source": "WIRED",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObnc2SmpjTlVNU0UzQkVNZW1GNENySUQ2Q3dBY0xLMWRjU3BkdnhjZDl5VktMZFpyT2tCelNGT3Z2eUNybGgzWnQwMjFvbUtnV2ZSUjNqWXdsdTF4SXZRdHMwT1NyZk5GVjJzTmFqeXFDQ1A4QWJaTVRhRmZhaHdZWFhYS2xWdG1STThkeFpTZ21SVDBGQk9YRzlJN2dXMmdKc1pWT0tNaGhMMHpFZFBwX2xkOA?oc=5",
+    "sources": [
+      {
+        "name": "WIRED",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObnc2SmpjTlVNU0UzQkVNZW1GNENySUQ2Q3dBY0xLMWRjU3BkdnhjZDl5VktMZFpyT2tCelNGT3Z2eUNybGgzWnQwMjFvbUtnV2ZSUjNqWXdsdTF4SXZRdHMwT1NyZk5GVjJzTmFqeXFDQ1A4QWJaTVRhRmZhaHdZWFhYS2xWdG1STThkeFpTZ21SVDBGQk9YRzlJN2dXMmdKc1pWT0tNaGhMMHpFZFBwX2xkOA?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-29",
+        "event": "Reported by WIRED"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-29T20:05:40Z",
+    "wire_id": "3a5630cf59eb",
+    "first_seen": "2026-10-29T20:05:40Z",
+    "first_published": "2026-10-29T18:39:00Z",
+    "updated_at": "2026-10-29T20:05:40Z"
   }
 ]
