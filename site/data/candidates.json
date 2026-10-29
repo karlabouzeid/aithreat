@@ -7660,5 +7660,53 @@
     "first_seen": "2026-10-29T14:05:51Z",
     "first_published": "2026-10-29T12:46:02Z",
     "updated_at": "2026-10-29T14:05:51Z"
+  },
+  {
+    "id": "patient-records-spreadsheet-ai-platform",
+    "date": "2026-10-29",
+    "title": "Records of 3,000+ patients exposed after spreadsheet shared with AI platform",
+    "category": "Model & data leak",
+    "direction": "on-ai",
+    "severity": "medium",
+    "country": "US",
+    "region": "North America",
+    "target": "Healthcare provider patient records",
+    "loss_usd": null,
+    "summary": "Medical records on over 3,000 patients were reportedly exposed after a spreadsheet containing them was shared with an AI platform, per HealthExec. Further details were not provided.",
+    "actor": "Unknown",
+    "actor_type": "accident",
+    "sector": "Healthcare",
+    "attribution": "No attacker reported; exposure reportedly followed a spreadsheet being shared with an AI platform.",
+    "motive": "Unknown",
+    "vector": "Spreadsheet containing patient records shared with an AI platform",
+    "root_cause": "Patient data was uploaded to an AI platform; the headline gives no further cause. Country is inferred from the source and not confirmed.",
+    "impact": "Medical records on over 3,000 patients exposed.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.5,
+    "source": "HealthExec",
+    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPNUFVQjU4eWNIRDRWVl9WZXZnb2J1bzVHNml6eVRJNGVXQnVFVTY4eFZfRW40Qy1tLVdlLUx4LUtaTE5tVXJaSUMycXBZaEdrX3hzUWFMZVhtWUc0TldIb2RNLXFJa2pmM0ZxQjFSY3VwT3dBMnNfbzJ0WDRXRC1zZEpWNVBmYjJaVXE1b211b0tROWdoZ3ZMSzJqS1RqdVg5cUJ5bUhyNHhEQS1FSlhXdHg0NWJDbThiWWdlTWdsNzlneEhJNGxYRjh4RQ?oc=5",
+    "sources": [
+      {
+        "name": "HealthExec",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPNUFVQjU4eWNIRDRWVl9WZXZnb2J1bzVHNml6eVRJNGVXQnVFVTY4eFZfRW40Qy1tLVdlLUx4LUtaTE5tVXJaSUMycXBZaEdrX3hzUWFMZVhtWUc0TldIb2RNLXFJa2pmM0ZxQjFSY3VwT3dBMnNfbzJ0WDRXRC1zZEpWNVBmYjJaVXE1b211b0tROWdoZ3ZMSzJqS1RqdVg5cUJ5bUhyNHhEQS1FSlhXdHg0NWJDbThiWWdlTWdsNzlneEhJNGxYRjh4RQ?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-29",
+        "event": "Reported by HealthExec"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-29T16:35:46Z",
+    "wire_id": "9b6243efe5c2",
+    "first_seen": "2026-10-29T16:35:46Z",
+    "first_published": "2026-10-28T22:11:24Z",
+    "updated_at": "2026-10-29T16:35:46Z"
   }
 ]
