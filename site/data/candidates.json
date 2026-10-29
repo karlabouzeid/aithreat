@@ -7948,5 +7948,53 @@
     "first_seen": "2026-10-29T20:35:39Z",
     "first_published": "2026-10-29T00:00:00Z",
     "updated_at": "2026-10-29T20:35:39Z"
+  },
+  {
+    "id": "hugging-face-gpu-mining-returns",
+    "date": "2026-10-29",
+    "title": "Hugging Face model malware campaign returns to hijack GPUs for crypto mining",
+    "category": "AI supply chain",
+    "direction": "on-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "Hugging Face model users and GPU servers",
+    "loss_usd": null,
+    "summary": "A crypto-mining campaign abusing Hugging Face models returned days after takedown, hijacking GPU servers and planting backdoors. One model was downloaded over 28,000 times. A fake Solana kit also targets AI coding agents.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Technology & AI vendors",
+    "attribution": "Unknown; the summary names no actor.",
+    "motive": "Crypto mining using hijacked GPU compute; a separate fake kit aims to install a NetSupport RAT.",
+    "vector": "Malicious models hosted on Hugging Face that compromise GPU servers; a fake Solana starter kit on GitHub aimed at AI coding agents.",
+    "root_cause": "Unknown; the summary points to malicious models being hosted and downloaded from a public AI model hub.",
+    "impact": "GPU servers were hijacked and backdoors planted; one malicious model was downloaded more than 28,000 times. Total number of victims is Unknown.",
+    "response": "The campaign returned days after an earlier takedown, so the takedown did not stop it. No other response is stated.",
+    "status": "ongoing",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.7,
+    "source": "BleepingComputer",
+    "url": "https://www.bleepingcomputer.com/news/security/hugging-face-malware-campaign-returns-to-hijack-gpus-for-crypto-mining",
+    "sources": [
+      {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/hugging-face-malware-campaign-returns-to-hijack-gpus-for-crypto-mining"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-29",
+        "event": "Reported by BleepingComputer"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-29T22:35:42Z",
+    "wire_id": "15844ab6f7ae",
+    "first_seen": "2026-10-29T22:35:42Z",
+    "first_published": "2026-10-29T22:09:24Z",
+    "updated_at": "2026-10-29T22:35:42Z"
   }
 ]
