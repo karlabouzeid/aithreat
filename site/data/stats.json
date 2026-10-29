@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-28T23:36:14Z",
-  "total": 234,
+  "generated_at": "2026-10-29T00:06:11Z",
+  "total": 233,
   "all_time_total": 433,
-  "window_from": "2025-10-28",
-  "window_to": "2026-10-28",
+  "window_from": "2025-10-29",
+  "window_to": "2026-10-29",
   "trend_from": "2025-01-01",
   "first_half_from": "2025-01",
   "first_half_to": "2025-06",
@@ -19,13 +19,12 @@
       "australia-nasc-albanese-deepfake-7-4m",
       "singapore-pm-wong-deepfake-zoom"
     ],
-    "financial_services": 10,
+    "financial_services": 9,
     "individuals": 66,
     "fin_by_category": {
       "Deepfake fraud": 7,
       "AI-assisted malware": 1,
-      "AI phishing": 1,
-      "State actor AI ops": 1
+      "AI phishing": 1
     },
     "fin_by_quarter": [
       1,
@@ -160,7 +159,7 @@
   },
   "direction": {
     "on-ai": 80,
-    "with-ai": 125
+    "with-ai": 124
   },
   "on_ai_share_first_half": 31,
   "on_ai_share_last_half": 42,
@@ -371,7 +370,7 @@
     },
     {
       "category": "State actor AI ops",
-      "n": 19,
+      "n": 18,
       "by_quarter": [
         4,
         1,
@@ -494,10 +493,10 @@
     {
       "actor_type": "state",
       "by_year": {
-        "2025": 5,
+        "2025": 4,
         "2026": 21
       },
-      "n": 26
+      "n": 25
     },
     {
       "actor_type": "researcher",
@@ -554,7 +553,7 @@
   ],
   "severity": {
     "critical": 39,
-    "high": 106,
+    "high": 105,
     "medium": 83,
     "low": 6
   },
@@ -648,11 +647,11 @@
       "n": 17
     },
     {
-      "sector": "Financial services",
-      "n": 10
+      "sector": "Government & public sector",
+      "n": 9
     },
     {
-      "sector": "Government & public sector",
+      "sector": "Financial services",
       "n": 9
     },
     {
@@ -679,7 +678,7 @@
   "countries": [
     {
       "country": "GL",
-      "n": 107
+      "n": 106
     },
     {
       "country": "US",
@@ -726,7 +725,7 @@
       "n": 3
     }
   ],
-  "global_pct": 46,
+  "global_pct": 45,
   "status": [
     {
       "status": "under investigation",
@@ -734,7 +733,7 @@
     },
     {
       "status": "ongoing",
-      "n": 71
+      "n": 70
     },
     {
       "status": "contained",
@@ -1027,7 +1026,7 @@
       "kinds": {
         "incident": 46,
         "vulnerability": 25,
-        "research": 39,
+        "research": 38,
         "vendor-report": 5,
         "policy": 30,
         "other": 20,
@@ -1089,7 +1088,7 @@
         "vulnerability": 16,
         "research": 34,
         "vendor-report": 8,
-        "policy": 6,
+        "policy": 7,
         "other": 7,
         "untagged": 0
       }
