@@ -8428,5 +8428,53 @@
     "first_seen": "2026-10-30T16:05:40Z",
     "first_published": "2026-10-30T15:23:20Z",
     "updated_at": "2026-10-30T16:05:40Z"
+  },
+  {
+    "id": "crim-ai-services-extortion-exposed",
+    "date": "2026-10-30",
+    "title": "Criminal spends $7K+ on AI services for extortion attacks, leaves evidence exposed",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "Extortion attack victims (unspecified)",
+    "loss_usd": null,
+    "summary": "The Register reports a criminal spent more than $7,000 on AI services in extortion attacks and left evidence of the activity exposed for anyone to see.",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "sector": "Unknown",
+    "attribution": "Unnamed criminal actor, as reported by The Register; no further attribution given.",
+    "motive": "Extortion",
+    "vector": "AI services used to support extortion attacks; details not given in the summary.",
+    "root_cause": "Operational security failure by the attacker left evidence publicly accessible.",
+    "impact": "Victims and scale are not stated; the attacker's spending on AI services exceeded $7,000.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.5,
+    "source": "The Register",
+    "url": "https://www.theregister.com/security/2026/10/30/crim-spent-7k-on-ai-services-in-extortion-attacks-then-left-evidence-for-all-to-see/5306754",
+    "sources": [
+      {
+        "name": "The Register",
+        "url": "https://www.theregister.com/security/2026/10/30/crim-spent-7k-on-ai-services-in-extortion-attacks-then-left-evidence-for-all-to-see/5306754"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-30",
+        "event": "Reported by The Register"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-30T20:06:48Z",
+    "wire_id": "83d9201a844d",
+    "first_seen": "2026-10-30T20:06:48Z",
+    "first_published": "2026-10-30T19:37:12Z",
+    "updated_at": "2026-10-30T20:06:48Z"
   }
 ]
