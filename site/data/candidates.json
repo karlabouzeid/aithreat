@@ -8092,5 +8092,53 @@
     "first_seen": "2026-10-30T08:05:45Z",
     "first_published": "2026-10-30T04:41:09Z",
     "updated_at": "2026-10-30T08:05:45Z"
+  },
+  {
+    "id": "trojan-claude-code-extension-ssh",
+    "date": "2026-10-30",
+    "title": "Trojanized Claude Code VS Code extension installs persistent SSH backdoor",
+    "category": "AI supply chain",
+    "direction": "on-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "Developers using the Claude Code VS Code extension",
+    "loss_usd": null,
+    "summary": "Researchers found a trojanized anthropic.claude-code 2.1.313 on Open VSX with 66 added lines of JavaScript that give attackers persistent SSH access to developer machines.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Technology & AI vendors",
+    "attribution": "Unknown; the summary does not name an actor.",
+    "motive": "Unknown; likely remote access to developer systems.",
+    "vector": "Trojanized extension package on the Open VSX registry with a malicious loader added to the legitimate code.",
+    "root_cause": "A tampered extension was distributed through an open extension registry; how it was published is not stated.",
+    "impact": "Persistent SSH access to developer systems that install the package; number of victims is not stated.",
+    "response": "Researchers analysed the artifact; no takedown or vendor response is stated.",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.6,
+    "source": "GBHackers",
+    "url": "https://gbhackers.com/malicious-claude-code-vs-code-extension",
+    "sources": [
+      {
+        "name": "GBHackers",
+        "url": "https://gbhackers.com/malicious-claude-code-vs-code-extension"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-30",
+        "event": "Reported by GBHackers"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-30T08:34:01Z",
+    "wire_id": "86fe7fd71994",
+    "first_seen": "2026-10-30T08:34:01Z",
+    "first_published": "2026-10-30T08:07:53Z",
+    "updated_at": "2026-10-30T08:34:01Z"
   }
 ]
