@@ -8380,5 +8380,53 @@
     "first_seen": "2026-10-30T15:05:43Z",
     "first_published": "2026-10-30T14:35:49Z",
     "updated_at": "2026-10-30T15:05:43Z"
+  },
+  {
+    "id": "rogue-codex-claude-code-relays",
+    "date": "2026-10-30",
+    "title": "Unauthorized Codex and Claude Code relays disable sandboxing at 12 organizations",
+    "category": "AI supply chain",
+    "direction": "on-ai",
+    "severity": "medium",
+    "country": "CN",
+    "region": "Asia-Pacific",
+    "target": "Users of Codex and Claude Code CLIs, mostly in mainland China",
+    "loss_usd": null,
+    "summary": "Symantec says an unauthorized relay service installs genuine OpenAI Codex and Anthropic Claude Code CLIs, then rewrites their settings to turn off sandboxing. It has affected 12 organizations since early 2026.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Multiple / cross-sector",
+    "attribution": "Found by Symantec's Threat Hunter Team; the operator of the relay service is not identified in the summary.",
+    "motive": "Unknown",
+    "vector": "Unauthorized relay service that installs genuine AI coding CLIs and rewrites their configuration to disable sandbox protections.",
+    "root_cause": "Users install AI coding agents through an untrusted relay that silently weakens the tools' built-in security settings.",
+    "impact": "At least 12 organizations, mostly in mainland China, have had coding-agent sandboxing disabled since early 2026. Data loss is not stated.",
+    "response": "Symantec's Threat Hunter Team disclosed the findings. No other response is described.",
+    "status": "ongoing",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.6,
+    "source": "GBHackers",
+    "url": "https://gbhackers.com/codex-claude-code-relays",
+    "sources": [
+      {
+        "name": "GBHackers",
+        "url": "https://gbhackers.com/codex-claude-code-relays"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-30",
+        "event": "Reported by GBHackers"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-30T16:05:40Z",
+    "wire_id": "60d4c6d23266",
+    "first_seen": "2026-10-30T16:05:40Z",
+    "first_published": "2026-10-30T15:23:20Z",
+    "updated_at": "2026-10-30T16:05:40Z"
   }
 ]
