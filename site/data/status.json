@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-30T04:35:40Z",
+  "updated_at": "2026-10-30T05:05:40Z",
   "wire_items": 800,
-  "new_items": 1,
+  "new_items": 3,
   "candidates": 170,
   "incidents": 433,
   "feeds_ok": [
@@ -54,14 +54,14 @@
     "GitHub new repositories",
     "Reddit r/netsec",
     "Europol",
-    "FBI IC3 alerts",
     "Google News chatbot harm (EN)",
     "Google News chatbot harm (العربية)",
     "Google News chatbot harm (FR)",
     "Google News chatbot harm (ES)"
   ],
   "feeds_failed": [
-    "US court filings (CourtListener)"
+    "US court filings (CourtListener)",
+    "FBI IC3 alerts"
   ],
-  "triage": "triaged 5 items with claude-sonnet-5-5 in 1 batches (0 failed); kept 1"
+  "triage": "triaged 5 items with claude-sonnet-5-5 in 1 batches (0 failed); kept 3"
 }
