@@ -7996,5 +7996,53 @@
     "first_seen": "2026-10-29T22:35:42Z",
     "first_published": "2026-10-29T22:09:24Z",
     "updated_at": "2026-10-29T22:35:42Z"
+  },
+  {
+    "id": "binance-zero-day-ai-hackers",
+    "date": "2026-10-30",
+    "title": "Binance reportedly hit by AI-assisted zero-day attack, multi-billion-dollar loss claimed",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "critical",
+    "country": "GL",
+    "region": "Global",
+    "target": "Binance cryptocurrency exchange",
+    "loss_usd": null,
+    "summary": "Chinese outlet haiwaiwai reports AI-assisted hackers breached Binance via a zero-day and that about $5.5bn evaporated. Europe 1 cites a $6.3bn estimate. Figures conflict and are unverified.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Financial services",
+    "attribution": "No attribution given in the headlines; the outlet says only 'AI hackers'.",
+    "motive": "Unknown",
+    "vector": "Zero-day vulnerability reportedly exploited with AI assistance; details not given.",
+    "root_cause": "Unknown; headline cites a zero-day flaw.",
+    "impact": "Reported loss or value evaporation of $5.5bn-$6.3bn per two outlets with differing figures; real extent of theft unclear.",
+    "response": "Europe 1 says Binance confirmed a massive cyberattack; no other response details are given.",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.3,
+    "source": "haiwaiwai.com",
+    "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1oV2xSd05lN2NrM2s2d1JmSXY2Z3lmdEQ2R2cyOC1oQTV5YlNwRWNBbmN6cWhEUy1yV1JGdXo4bVZqZUdyeVh2eA?oc=5",
+    "sources": [
+      {
+        "name": "haiwaiwai.com",
+        "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1oV2xSd05lN2NrM2s2d1JmSXY2Z3lmdEQ2R2cyOC1oQTV5YlNwRWNBbmN6cWhEUy1yV1JGdXo4bVZqZUdyeVh2eA?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-30",
+        "event": "Reported by haiwaiwai.com"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-30T07:35:42Z",
+    "wire_id": "4c6d4ef61ecf",
+    "first_seen": "2026-10-30T07:35:42Z",
+    "first_published": "2026-10-30T07:16:50Z",
+    "updated_at": "2026-10-30T07:35:42Z"
   }
 ]
