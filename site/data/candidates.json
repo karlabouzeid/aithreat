@@ -8332,5 +8332,53 @@
     "first_seen": "2026-10-30T14:35:44Z",
     "first_published": "2026-10-30T14:13:29Z",
     "updated_at": "2026-10-30T14:35:44Z"
+  },
+  {
+    "id": "gold-ogre-aur0ra-ai-agents",
+    "date": "2026-10-30",
+    "title": "GOLD OGRE uses Cursor and Claude agents to automate Aur0ra ransomware intrusions",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "Unknown organizations hit by Aur0ra ransomware",
+    "loss_usd": null,
+    "summary": "Sophos researchers say the GOLD OGRE group used AI coding agents including Cursor and Claude to move from credential access to domain administrator with little human involvement.",
+    "actor": "GOLD OGRE",
+    "actor_type": "criminal",
+    "sector": "Unknown",
+    "attribution": "Sophos researchers attribute the activity to the GOLD OGRE cybercrime group.",
+    "motive": "Financial gain through ransomware (inferred from the Aur0ra ransomware operation).",
+    "vector": "AI coding agents (Cursor, Anthropic's Claude) automating intrusion steps from credential access to domain admin.",
+    "root_cause": "Unknown; the group used commercially available AI coding agents to automate intrusion steps.",
+    "impact": "Victim organizations and number of victims are not stated in the summary; Aur0ra ransomware was deployed.",
+    "response": "Sophos published research on the activity; no other response is stated.",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.7,
+    "source": "GBHackers",
+    "url": "https://gbhackers.com/aur0ra-ransomware-ai-attacks",
+    "sources": [
+      {
+        "name": "GBHackers",
+        "url": "https://gbhackers.com/aur0ra-ransomware-ai-attacks"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-30",
+        "event": "Reported by GBHackers"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-30T15:05:43Z",
+    "wire_id": "0504ff08681a",
+    "first_seen": "2026-10-30T15:05:43Z",
+    "first_published": "2026-10-30T14:35:49Z",
+    "updated_at": "2026-10-30T15:05:43Z"
   }
 ]
