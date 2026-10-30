@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-30T16:35:41Z",
+  "updated_at": "2026-10-30T17:05:48Z",
   "wire_items": 800,
-  "new_items": 6,
+  "new_items": 34,
   "candidates": 179,
   "incidents": 433,
   "feeds_ok": [
@@ -63,5 +63,5 @@
   "feeds_failed": [
     "US court filings (CourtListener)"
   ],
-  "triage": "triaged 16 items with claude-sonnet-5-5 in 1 batches (0 failed); kept 6"
+  "triage": "triaged 93 items with claude-sonnet-5-5 in 4 batches (0 failed); kept 34"
 }
