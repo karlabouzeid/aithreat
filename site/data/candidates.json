@@ -8044,5 +8044,53 @@
     "first_seen": "2026-10-30T07:35:42Z",
     "first_published": "2026-10-30T07:16:50Z",
     "updated_at": "2026-10-30T07:35:42Z"
+  },
+  {
+    "id": "widow-sues-openai-husband-death",
+    "date": "2026-10-30",
+    "title": "Widow sues OpenAI, blaming ChatGPT for her husband's death",
+    "category": "Chatbot harm",
+    "direction": "ai-harm",
+    "severity": "high",
+    "country": "US",
+    "region": "North America",
+    "target": "Individual user of ChatGPT (husband of plaintiff)",
+    "loss_usd": null,
+    "summary": "A widow alleges in a lawsuit, as reported by Courthouse News, that ChatGPT contributed to her husband's death. Details of the allegations are not given in the available text.",
+    "actor": "OpenAI (ChatGPT)",
+    "actor_type": "product",
+    "sector": "Individuals & consumers",
+    "attribution": "Allegation made by the plaintiff widow in a lawsuit against OpenAI, as reported by Courthouse News; no court ruling reported.",
+    "motive": "Unknown",
+    "vector": "Alleged interaction between the husband and the ChatGPT chatbot; specifics Unknown.",
+    "root_cause": "Alleged by the plaintiff that ChatGPT caused or contributed to the death; no findings reported.",
+    "impact": "Alleged death of the plaintiff's husband. Further details are Unknown.",
+    "response": "Widow has filed a lawsuit against OpenAI; OpenAI's response is Unknown.",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.5,
+    "source": "Courthouse News",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQNkFOTjIxZXhqdWJwZlJVaUxrUzFFRGs4YTJYMkZKRWVObFhveExhWDFGbldQaFNjQTQ1MllrckZnN21haXNxZTdReFNCU1NKWkc1d0JXazI4UXdTbXd3Y1Nsd2hIcWlpaVhDZE5HZC1zanF3M3JIbklrbnVSUTh2TEI1SkxtVndfbWRJNg?oc=5",
+    "sources": [
+      {
+        "name": "Courthouse News",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQNkFOTjIxZXhqdWJwZlJVaUxrUzFFRGs4YTJYMkZKRWVObFhveExhWDFGbldQaFNjQTQ1MllrckZnN21haXNxZTdReFNCU1NKWkc1d0JXazI4UXdTbXd3Y1Nsd2hIcWlpaVhDZE5HZC1zanF3M3JIbklrbnVSUTh2TEI1SkxtVndfbWRJNg?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-30",
+        "event": "Reported by Courthouse News"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-30T08:05:45Z",
+    "wire_id": "119e23a0bbfd",
+    "first_seen": "2026-10-30T08:05:45Z",
+    "first_published": "2026-10-30T04:41:09Z",
+    "updated_at": "2026-10-30T08:05:45Z"
   }
 ]
