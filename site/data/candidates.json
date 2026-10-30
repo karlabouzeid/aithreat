@@ -8476,5 +8476,101 @@
     "first_seen": "2026-10-30T20:06:48Z",
     "first_published": "2026-10-30T19:37:12Z",
     "updated_at": "2026-10-30T20:06:48Z"
+  },
+  {
+    "id": "chainalysis-ai-agent-attack",
+    "date": "2026-10-30",
+    "title": "Chainalysis breached; customer email cites attack by AI agents",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "Chainalysis (blockchain analytics firm)",
+    "loss_usd": null,
+    "summary": "Chainalysis was reportedly hacked. An email to customers cites an attack carried out by AI agents. Scope of data affected is not stated in the headline.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Technology & AI vendors",
+    "attribution": "Unknown; the customer email reportedly attributes the attack to AI agents, with no human actor named.",
+    "motive": "Unknown",
+    "vector": "AI agents used to attack the company, per its customer email; technical details not given.",
+    "root_cause": "Unknown",
+    "impact": "Unknown; the company reportedly notified customers by email.",
+    "response": "Chainalysis reportedly emailed customers about the attack.",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.5,
+    "source": "Pasquale Pillitteri",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPQ1ZZUFk2LWxhT0MtVGV6SnFvdG10Rk9UM0VHY1M5UXFxV3NyLW5yWWxYMTk0aHZpRFJsU3RudUxXbzBFdzVmYnRzVEJpcDdka0NoMVlwbU40RkFqbXB1WGlVU09SOWgxUVdBdDNqc0U4MkgwV3BYdlhPb0RmNWxlMW5IdTNMcy1NMkVNMWNncWFLMlU?oc=5",
+    "sources": [
+      {
+        "name": "Pasquale Pillitteri",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPQ1ZZUFk2LWxhT0MtVGV6SnFvdG10Rk9UM0VHY1M5UXFxV3NyLW5yWWxYMTk0aHZpRFJsU3RudUxXbzBFdzVmYnRzVEJpcDdka0NoMVlwbU40RkFqbXB1WGlVU09SOWgxUVdBdDNqc0U4MkgwV3BYdlhPb0RmNWxlMW5IdTNMcy1NMkVNMWNncWFLMlU?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-30",
+        "event": "Reported by Pasquale Pillitteri"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-30T21:05:38Z",
+    "wire_id": "a98ae24fc3c1",
+    "first_seen": "2026-10-30T21:05:38Z",
+    "first_published": "2026-10-30T20:50:45Z",
+    "updated_at": "2026-10-30T21:05:38Z"
+  },
+  {
+    "id": "honduras-ai-girlfriend-romance-scam",
+    "date": "2026-10-30",
+    "title": "Honduran man reports romance scam by AI-created 'girlfriend', loses L15,000",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "low",
+    "country": "HN",
+    "region": "Latin America",
+    "target": "Individual in Honduras",
+    "loss_usd": null,
+    "summary": "A Honduran man reported that he sent L15,000 to a supposed girlfriend who turned out to be an AI-created persona.",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "sector": "Individuals & consumers",
+    "attribution": "Unknown scammer; the victim's complaint describes an AI-created fake partner.",
+    "motive": "Financial gain",
+    "vector": "AI-generated fake online romantic persona used to solicit a money transfer.",
+    "root_cause": "Victim deceived by a convincing AI-generated identity.",
+    "impact": "Victim reports losing L15,000 (about 15 thousand lempiras).",
+    "response": "Victim filed a public complaint; no arrests reported.",
+    "status": "unresolved",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.6,
+    "source": "Diario Tiempo de Honduras",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQlgxZ1dVLVhJZHRTblVIRjdBRjMwcVgwZEJWUllOOW5SSWJzelk0TDZaX0trbUZrWVdKV0M1bDVQSGd2MlRUMnBTdVROaXI0Yk5RV3pIWlhQN3BvNk9iRVdFMjRlV3NYT050MVpUZUkxQ2dUdUxwZGpqLVdaLUJlMXo3WUVLZXVvRkxJSElHS1U2Y3pPWW9sVTZjYVpjWVlKU1Z3c04wYTZEQQ?oc=5",
+    "sources": [
+      {
+        "name": "Diario Tiempo de Honduras",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQlgxZ1dVLVhJZHRTblVIRjdBRjMwcVgwZEJWUllOOW5SSWJzelk0TDZaX0trbUZrWVdKV0M1bDVQSGd2MlRUMnBTdVROaXI0Yk5RV3pIWlhQN3BvNk9iRVdFMjRlV3NYT050MVpUZUkxQ2dUdUxwZGpqLVdaLUJlMXo3WUVLZXVvRkxJSElHS1U2Y3pPWW9sVTZjYVpjWVlKU1Z3c04wYTZEQQ?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-30",
+        "event": "Reported by Diario Tiempo de Honduras"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-30T21:05:38Z",
+    "wire_id": "90a392d16962",
+    "first_seen": "2026-10-30T21:05:38Z",
+    "first_published": "2026-10-30T20:11:43Z",
+    "updated_at": "2026-10-30T21:05:38Z"
   }
 ]
