@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-30T17:36:30Z",
+  "updated_at": "2026-10-30T18:09:29Z",
   "wire_items": 800,
-  "new_items": 7,
+  "new_items": 6,
   "candidates": 179,
   "incidents": 433,
   "feeds_ok": [
@@ -63,5 +63,5 @@
     "Kaspersky Securelist",
     "US court filings (CourtListener)"
   ],
-  "triage": "triaged 12 items with claude-sonnet-5-5 in 1 batches (0 failed); kept 7"
+  "triage": "triaged 8 items with claude-sonnet-5-5 in 1 batches (0 failed); kept 6"
 }
