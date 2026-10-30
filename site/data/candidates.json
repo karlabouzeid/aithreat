@@ -8188,5 +8188,101 @@
     "first_seen": "2026-10-30T09:05:45Z",
     "first_published": "2026-10-30T08:46:50Z",
     "updated_at": "2026-10-30T09:05:45Z"
+  },
+  {
+    "id": "china-linked-deepseek-200-orgs-attack",
+    "date": "2026-10-30",
+    "title": "China-linked hackers reportedly use DeepSeek and other AI against 200+ organizations in 11 days",
+    "category": "State actor AI ops",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "More than 200 organizations (not named in headline)",
+    "loss_usd": null,
+    "summary": "Per DiarioBitcoin, hackers linked to China used DeepSeek and another AI system to attack more than 200 organizations over 11 days. Details are limited to the headline.",
+    "actor": "China-linked hackers (not named)",
+    "actor_type": "state",
+    "sector": "Multiple / cross-sector",
+    "attribution": "Reported as China-linked by DiarioBitcoin; the headline gives no further attribution basis.",
+    "motive": "Unknown",
+    "vector": "AI tools, reportedly DeepSeek and another AI system, used to carry out attacks; specific techniques unknown.",
+    "root_cause": "Unknown",
+    "impact": "More than 200 organizations reportedly attacked within 11 days; the extent of breaches is not stated.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.5,
+    "source": "DiarioBitcoin",
+    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQMHFycFgxLThfdk9tWTkzeDFDeEZkQ0k4T0hWQmVkOEpWUmRYOEVHekJfQ2pKbDVWN3ZneDVvNmM3aXdWLTd5T0RJNlVnVGhRWU1jN1VsWi1GUzRsYklUWXUteU5ZM1NWUzIydmRFdGJaaFo3andscGdyTEpQZmkxdGRhQjJRcUNmSUV0b2Vrakpmbml6OEpReGV4ZUoxTkpsaExucE1aaVFQaGNqdUh0M1FncFFJWnI1RjF5NEFIaWw2QmFSMVVmSnFRZndEeW5KTWJBNC10dG1IZw?oc=5",
+    "sources": [
+      {
+        "name": "DiarioBitcoin",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQMHFycFgxLThfdk9tWTkzeDFDeEZkQ0k4T0hWQmVkOEpWUmRYOEVHekJfQ2pKbDVWN3ZneDVvNmM3aXdWLTd5T0RJNlVnVGhRWU1jN1VsWi1GUzRsYklUWXUteU5ZM1NWUzIydmRFdGJaaFo3andscGdyTEpQZmkxdGRhQjJRcUNmSUV0b2Vrakpmbml6OEpReGV4ZUoxTkpsaExucE1aaVFQaGNqdUh0M1FncFFJWnI1RjF5NEFIaWw2QmFSMVVmSnFRZndEeW5KTWJBNC10dG1IZw?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-30",
+        "event": "Reported by DiarioBitcoin"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-30T12:35:43Z",
+    "wire_id": "ee82e396da96",
+    "first_seen": "2026-10-30T12:35:43Z",
+    "first_published": "2026-10-30T12:06:16Z",
+    "updated_at": "2026-10-30T12:35:43Z"
+  },
+  {
+    "id": "moldova-ai-cyberattack-1m-identities",
+    "date": "2026-10-30",
+    "title": "AI-assisted cyberattack in Moldova threatens 1 million identities",
+    "category": "State actor AI ops",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "MD",
+    "region": "Europe",
+    "target": "Moldovan identity data (target not specified)",
+    "loss_usd": null,
+    "summary": "upday News reports a cyberattack using AI in Moldova that threatens 1 million identities. The headline gives no further details.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Unknown",
+    "attribution": "Unknown; the headline names no actor.",
+    "motive": "Unknown",
+    "vector": "Reported as an attack using AI; specific method unknown.",
+    "root_cause": "Unknown",
+    "impact": "About 1 million identities reportedly threatened; whether data was stolen is not stated.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.45,
+    "source": "upday News",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZ2tHZVBVbG5LaFNCVkZ2NFM5Y25SRnlIQ0kyS2FwRXNCMEFKN1Vjb2hBWUdBNm9IR2QxZ0kwZVBfR25nX3NDV1VTbE5DN2MxbURMRlljRFoxZ24yR0R5SEtqY2JJeTBfcGxuaTMwRlBKWjREU3pxTEZ2cDRnSEkzX3FUNHNjUjV0QVdjVXJPU3VJV0JxVmVBTFFpQTZKa29sOHRPUng2YUJwc1k?oc=5",
+    "sources": [
+      {
+        "name": "upday News",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZ2tHZVBVbG5LaFNCVkZ2NFM5Y25SRnlIQ0kyS2FwRXNCMEFKN1Vjb2hBWUdBNm9IR2QxZ0kwZVBfR25nX3NDV1VTbE5DN2MxbURMRlljRFoxZ24yR0R5SEtqY2JJeTBfcGxuaTMwRlBKWjREU3pxTEZ2cDRnSEkzX3FUNHNjUjV0QVdjVXJPU3VJV0JxVmVBTFFpQTZKa29sOHRPUng2YUJwc1k?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-30",
+        "event": "Reported by upday News"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-30T12:35:43Z",
+    "wire_id": "2e130c4e31bb",
+    "first_seen": "2026-10-30T12:35:43Z",
+    "first_published": "2026-10-29T07:52:43Z",
+    "updated_at": "2026-10-30T12:35:43Z"
   }
 ]
