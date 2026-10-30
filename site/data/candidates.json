@@ -8140,5 +8140,53 @@
     "first_seen": "2026-10-30T08:34:01Z",
     "first_published": "2026-10-30T08:07:53Z",
     "updated_at": "2026-10-30T08:34:01Z"
+  },
+  {
+    "id": "nk-hackers-ai-phishing-south-korea",
+    "date": "2026-10-30",
+    "title": "North Korean hackers use AI to mass-produce phishing documents targeting South Korea",
+    "category": "State actor AI ops",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "KR",
+    "region": "Asia-Pacific",
+    "target": "South Korean organizations and individuals",
+    "loss_usd": null,
+    "summary": "Chosun Ilbo reports North Korean hackers are using AI to mass-produce phishing documents aimed at South Korean targets. The specific victims and scale are not given in the headline.",
+    "actor": "North Korean hackers (specific group not stated)",
+    "actor_type": "state",
+    "sector": "Unknown",
+    "attribution": "Attributed to North Korean hackers per Chosun Ilbo headline; the specific group is not named in the available text.",
+    "motive": "Unknown",
+    "vector": "AI-generated phishing documents sent to South Korean targets",
+    "root_cause": "Unknown",
+    "impact": "Unknown; the text does not state confirmed victims or losses.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.5,
+    "source": "조선일보",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSkxFVlNSamItU2IxLWNISUhXeXEySldnNEp0WkV0am1SS2pfZjNyNWdWU2NldHExa0Z3ZFFRcnRzbDZOcFRfY2pxQi1FVmZrTHpnQjlYdGwtY292UE51Y3VwcGVNUldwQ3hsS29OUWNDeUpDcXBHdDJfX1h0ZW5CS0NaYUEtZkZC?oc=5",
+    "sources": [
+      {
+        "name": "조선일보",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSkxFVlNSamItU2IxLWNISUhXeXEySldnNEp0WkV0am1SS2pfZjNyNWdWU2NldHExa0Z3ZFFRcnRzbDZOcFRfY2pxQi1FVmZrTHpnQjlYdGwtY292UE51Y3VwcGVNUldwQ3hsS29OUWNDeUpDcXBHdDJfX1h0ZW5CS0NaYUEtZkZC?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-30",
+        "event": "Reported by 조선일보"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-30T09:05:45Z",
+    "wire_id": "c5f039e02c72",
+    "first_seen": "2026-10-30T09:05:45Z",
+    "first_published": "2026-10-30T08:46:50Z",
+    "updated_at": "2026-10-30T09:05:45Z"
   }
 ]
