@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-30T14:05:46Z",
+  "updated_at": "2026-10-30T14:35:44Z",
   "wire_items": 800,
-  "new_items": 5,
-  "candidates": 176,
+  "new_items": 4,
+  "candidates": 177,
   "incidents": 433,
   "feeds_ok": [
     "BleepingComputer",
@@ -37,6 +37,7 @@
     "ESET WeLiveSecurity",
     "Cisco Talos",
     "Zscaler ThreatLabz",
+    "Proofpoint",
     "Recorded Future",
     "Wiz Research",
     "Embrace The Red",
@@ -60,8 +61,7 @@
     "Google News chatbot harm (ES)"
   ],
   "feeds_failed": [
-    "Proofpoint",
     "US court filings (CourtListener)"
   ],
-  "triage": "triaged 16 items with claude-sonnet-5-5 in 1 batches (0 failed); kept 5"
+  "triage": "triaged 6 items with claude-sonnet-5-5 in 1 batches (0 failed); kept 4"
 }

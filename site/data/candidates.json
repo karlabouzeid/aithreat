@@ -8284,5 +8284,53 @@
     "first_seen": "2026-10-30T12:35:43Z",
     "first_published": "2026-10-29T07:52:43Z",
     "updated_at": "2026-10-30T12:35:43Z"
+  },
+  {
+    "id": "fake-github-repo-solanacry-agents",
+    "date": "2026-10-30",
+    "title": "Fake GitHub repo tricks AI agents into installing SolanaCry malware",
+    "category": "Agent hijack",
+    "direction": "on-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "AI agents that install software from GitHub repositories",
+    "loss_usd": null,
+    "summary": "Per a Hackread report, a fake GitHub repository tricks AI agents into installing SolanaCry malware. The headline gives no details on victims or losses.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Unknown",
+    "attribution": "Unknown; the headline names no actor.",
+    "motive": "Unknown",
+    "vector": "Fake GitHub repository that AI agents are deceived into installing from.",
+    "root_cause": "AI agents apparently trust and install code from unvetted repositories; no further detail given.",
+    "impact": "Unknown; the number of affected agents or users is not stated.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.5,
+    "source": "Hackread",
+    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9CVE1iRkZ0U2JHT1FIS2VaZmxqYlh3T1E4Q2dacW9rMUNIUGlEa2w0UmI1RVRuTFVHU0pSQnNWQ2ZEenY3Z3RYTGZnLTZqNEJjcldVWHhidUZxcGI5Z3FxdDFJM3pHd2pseXliMkJERzdfc2NydWtxRDJRdDltUQ?oc=5",
+    "sources": [
+      {
+        "name": "Hackread",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9CVE1iRkZ0U2JHT1FIS2VaZmxqYlh3T1E4Q2dacW9rMUNIUGlEa2w0UmI1RVRuTFVHU0pSQnNWQ2ZEenY3Z3RYTGZnLTZqNEJjcldVWHhidUZxcGI5Z3FxdDFJM3pHd2pseXliMkJERzdfc2NydWtxRDJRdDltUQ?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-30",
+        "event": "Reported by Hackread"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-30T14:35:44Z",
+    "wire_id": "8d3c6f001998",
+    "first_seen": "2026-10-30T14:35:44Z",
+    "first_published": "2026-10-30T14:13:29Z",
+    "updated_at": "2026-10-30T14:35:44Z"
   }
 ]
