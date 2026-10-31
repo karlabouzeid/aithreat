@@ -2137,25 +2137,6 @@
   {
     "date": "2026-04-28",
     "sectors": [
-      "Defence & security",
-      "Retail & consumer brands"
-    ],
-    "who": "Europol",
-    "who_type": "intergovernmental",
-    "country": "EU",
-    "kind": "warning",
-    "title": "Europol IOCTA 2026 says AI, encryption and proxies are expanding cybercrime",
-    "summary": "Europol's Internet Organised Crime Threat Assessment said generative AI makes fraud more convincing, ransomware groups are adopting AI tools, and it expects cybercrime to become more automated with minimal human involvement.",
-    "url": "https://eucrim.eu/news/iocta-2026/",
-    "source": "eucrim",
-    "id": "seed-b2N0YS0yMDI2Lw",
-    "lang": "en",
-    "added_at": "2026-10-26T18:29:46Z",
-    "origin": "research"
-  },
-  {
-    "date": "2026-04-28",
-    "sectors": [
       "Financial services",
       "Government & public sector"
     ],
@@ -2168,6 +2149,25 @@
     "url": "https://www.europol.europa.eu/cms/sites/default/files/documents/IOCTA-2026.pdf",
     "source": "Europol",
     "id": "seed-RBLTIwMjYucGRm",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-04-28",
+    "sectors": [
+      "Defence & security",
+      "Retail & consumer brands"
+    ],
+    "who": "Europol",
+    "who_type": "intergovernmental",
+    "country": "EU",
+    "kind": "warning",
+    "title": "Europol IOCTA 2026 says AI, encryption and proxies are expanding cybercrime",
+    "summary": "Europol's Internet Organised Crime Threat Assessment said generative AI makes fraud more convincing, ransomware groups are adopting AI tools, and it expects cybercrime to become more automated with minimal human involvement.",
+    "url": "https://eucrim.eu/news/iocta-2026/",
+    "source": "eucrim",
+    "id": "seed-b2N0YS0yMDI2Lw",
     "lang": "en",
     "added_at": "2026-10-26T18:29:46Z",
     "origin": "research"
