@@ -9340,5 +9340,53 @@
     "first_seen": "2026-10-31T17:05:39Z",
     "first_published": "2026-10-31T05:32:36Z",
     "updated_at": "2026-10-31T17:05:39Z"
+  },
+  {
+    "id": "northflank-breach-ai-api-key-abuse",
+    "date": "2026-10-31",
+    "title": "Northflank breach leads to abuse of customers' AI API keys",
+    "category": "LLMjacking",
+    "direction": "on-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "Northflank cloud hosting platform customers",
+    "loss_usd": null,
+    "summary": "Cloud hosting platform Northflank warned customers to rotate all credentials and secrets after a breach led to unauthorized use of customers' AI API keys.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Technology & AI vendors",
+    "attribution": "No attribution given in the report.",
+    "motive": "Unknown; likely free access to paid AI services, but the report does not say.",
+    "vector": "Breach of the Northflank platform exposed credentials and secrets, including AI API keys, stored by customers.",
+    "root_cause": "Unknown; the summary does not explain how the platform was breached.",
+    "impact": "Customers' AI API keys were used without authorization. Northflank advised rotating all credentials and secrets stored on the platform. Financial loss is not stated.",
+    "response": "Northflank warned customers and told them to rotate all credentials and secrets stored on its platform.",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.8,
+    "source": "BleepingComputer",
+    "url": "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys",
+    "sources": [
+      {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-31",
+        "event": "Reported by BleepingComputer"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-31T18:05:39Z",
+    "wire_id": "d5a1ee8adaa4",
+    "first_seen": "2026-10-31T18:05:39Z",
+    "first_published": "2026-10-31T18:01:12Z",
+    "updated_at": "2026-10-31T18:05:39Z"
   }
 ]
