@@ -290,6 +290,49 @@ class XDraft
   end
 end
 
+# ---- Breaking-news alert to the owner: when a fresh, serious case is published (critical
+# or high severity, incident in the last 7 days, verified in the last 12 hours), the robot
+# sends a ready LinkedIn post on Telegram, so the owner can be first with a sourced
+# explanation. Same secrets as the X draft. At most 3 a day.
+class Breaking
+  DAILY_CAP = 3
+  HOURS_UTC = (5..20).freeze
+
+  def initialize
+    @token = ENV["TELEGRAM_BOT_TOKEN"].to_s.strip
+    @chat = ENV["TELEGRAM_OWNER_CHAT_ID"].to_s.strip
+  end
+
+  def enabled?
+    !@token.empty? && !@chat.empty? && HOURS_UTC.cover?(Time.now.utc.hour)
+  end
+
+  def skip_reason
+    return "TELEGRAM_BOT_TOKEN not set" if @token.empty?
+    return "TELEGRAM_OWNER_CHAT_ID not set" if @chat.empty?
+    "outside posting hours (#{HOURS_UTC.first}:00-#{HOURS_UTC.last}:59 UTC)"
+  end
+
+  def self.eligible?(c)
+    %w[critical high].include?(c[:severity]) &&
+      c[:date].to_s >= (Time.now.utc - 7 * 86_400).strftime("%Y-%m-%d") &&
+      c[:verified_at] && Time.parse(c[:verified_at]) > Time.now - 12 * 3600
+  end
+
+  def compose(c)
+    [headline(c), "", c[:title], "", c[:summary], "", "Full case file with sources in the first comment 👇", "", hashtags(c).join(" ")].join("\n")
+  end
+
+  def post(c)
+    text = compose(c)
+    share = "https://www.linkedin.com/feed/?shareActive=true&text=#{CGI.escape(text)}"
+    msg = "🚨 <b>Breaking, worth posting now</b>\n\nLinkedIn post (tap to copy):\n<code>#{CGI.escapeHTML(text)}</code>\n\nFirst comment (tap to copy):\n<code>#{CGI.escapeHTML(c[:url])}</code>"
+    http_json(:post, "https://api.telegram.org/bot#{@token}/sendMessage",
+              body: { chat_id: @chat, text: msg, parse_mode: "HTML", link_preview_options: { is_disabled: true },
+                      reply_markup: { inline_keyboard: [[{ text: "Open LinkedIn", url: share }, { text: "Open the case", url: c[:url] }]] } })
+  end
+end
+
 # ---- Main
 state = File.exist?(STATE) ? JSON.parse(File.read(STATE)) : {}
 # Newest by verification, not by incident date: a case approved today about an incident
@@ -299,14 +342,14 @@ def cases_by_verification
   inc = JSON.parse(File.read(File.join(ROOT, "site", "data", "incidents.en.json")))
   inc.select { |i| i["verified"] != false && i["verified_at"] }
      .sort_by { |i| i["verified_at"] }.reverse.first(50)
-     .map { |i| { url: "https://aithreat.io/cases/#{i['id']}/", title: i["title"].to_s, summary: i["summary"].to_s, type: i["category"], severity: i["severity"] } }
+     .map { |i| { url: "https://aithreat.io/cases/#{i['id']}/", title: i["title"].to_s, summary: i["summary"].to_s, type: i["category"], severity: i["severity"], date: i["date"], verified_at: i["verified_at"] } }
 rescue StandardError
   []
 end
 cases = cases_by_verification
 cases = cases_from_feed if cases.empty?
 abort "social: no cases in #{FEED}" if cases.empty?
-platforms = { "bluesky" => Bluesky.new, "mastodon" => Mastodon.new, "telegram" => Telegram.new, "x" => (ENV["X_USE_API"] == "1" ? XPost.new : XDraft.new) }
+platforms = { "bluesky" => Bluesky.new, "mastodon" => Mastodon.new, "telegram" => Telegram.new, "x" => (ENV["X_USE_API"] == "1" ? XPost.new : XDraft.new), "breaking" => Breaking.new }
 
 platforms.each do |name, client|
   unless client.enabled? || DRY_RUN
@@ -334,6 +377,7 @@ platforms.each do |name, client|
     fresh = cases.each_with_index.reject { |c, _| posted.include?(c[:url]) }
                  .sort_by { |c, i| [SEVERITIES.index(c[:severity]) || 9, i] }.map(&:first).first(1)
   end
+  fresh = cases.reject { |c| posted.include?(c[:url]) }.select { |c| Breaking.eligible?(c) }.first(1) if client.is_a?(Breaking)
   fresh = cases.first(1) if DRY_RUN && fresh.empty?
   # X: rolling 24-hour cap, so a burst of new cases cannot exhaust the monthly API quota.
   sent_log = (state["#{name}_sent_at"] || []).select { |t| Time.parse(t) > Time.now - 86_400 }

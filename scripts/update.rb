@@ -330,13 +330,108 @@ elsif fresh.any?
   triage_note = "no ANTHROPIC_API_KEY: keyword filter only"
 end
 
+# ---------- 2b. automatic editor: check drafts on the web, then approve or reject ----------
+# Each draft is checked by Claude with web search against the original report and other
+# sources: is it real, is it summarised correctly, is it already a case? Approved drafts
+# become verified cases in step 3; rejected ones leave the queue. "wait" retries a day
+# later. config/approved.txt and rejected.txt still override, by id.
+EDITOR_LOG_PATH = File.join(DATA, "editor_log.json")
+EDITOR_BATCH = 4
+EDITOR_BATCHES = Integer(ENV.fetch("ATW_EDITOR_BATCHES", "2"))
+EDITOR_FIXABLE = %w[title date summary severity loss_usd country region target actor actor_type status impact response].freeze
+auto_approved, auto_rejected = [], []
+editor_log = (JSON.parse(File.read(EDITOR_LOG_PATH)) rescue [])
+if api_key && ENV["ATW_EDITOR"] != "0"
+  manual = File.exist?(APPROVED_PATH) ? File.read(APPROVED_PATH) : ""
+  manual += File.read(REJECTED_PATH) if File.exist?(REJECTED_PATH)
+  due = candidates.select do |c|
+    next false if manual.include?(c["id"])
+    next false if now - Time.parse(c["drafted_at"]) < 3600 # let a news wave settle, so duplicates can be compared
+    c["editor_checked_at"].nil? || now - Time.parse(c["editor_checked_at"]) > 86_400
+  end
+  due = due.sort_by { |c| [-c["confidence"].to_f, c["drafted_at"]] }.first(EDITOR_BATCH * EDITOR_BATCHES)
+  due.each_slice(EDITOR_BATCH).with_index do |batch, bi|
+    known = incidents.map { |i| "#{i['id']} | #{i['date']} | #{i['title']}" }.join("\n")
+    drafts = batch.map do |c|
+      c.slice("id", "date", "title", "category", "severity", "country", "target", "loss_usd", "summary", "actor", "status", "url", "source")
+    end
+    prompt = <<~P
+      You are the verifying editor of AI Threat Watch, a public reference of AI security incidents (attacks on AI systems, attacks carried out with AI, and serious harm caused by AI chatbots). Today is #{now.strftime('%Y-%m-%d')}.
+      Each draft below was written by a robot from a single headline. Before it is published as a case file, check it on the web: open the source URL and look for independent reporting.
+
+      Decide for each draft:
+      - "approve": the event is real and specific, at least one credible source (the original report, a reputable outlet, an official body or the security researchers who found it) confirms it, it is about AI security or AI harm as defined above, and it is NOT already one of the known cases listed below (same event under another name or date counts as already known).
+      - "reject": not real, not specific, not AI-related, only marketing or opinion, a duplicate of a known case, or a duplicate of another draft in this batch (keep the better one).
+      - "wait": it may be real but you could not confirm it yet.
+      When you approve, correct any field the sources contradict (only these: #{EDITOR_FIXABLE.join(', ')}), never add facts the sources do not state, write "alleged" where nothing is proven, and add up to two confirming sources.
+
+      Known cases (id | date | title):
+      #{known}
+
+      Drafts:
+      #{JSON.pretty_generate(drafts)}
+
+      End your answer with ONLY a JSON array, one object per draft:
+      {"id": draft id, "decision": "approve"|"reject"|"wait", "reason": one sentence, "duplicate_of": known case id or null, "fixes": {field: corrected value} or {}, "sources": [{"name": publication, "url": url}]}
+    P
+    begin
+      messages = [{ role: "user", content: prompt }]
+      text = nil
+      4.times do # a long search can pause the turn; send it back to continue
+        uri = URI("https://api.anthropic.com/v1/messages")
+        http = Net::HTTP.new(uri.host, uri.port); http.use_ssl = true; http.read_timeout = 300
+        req = Net::HTTP::Post.new(uri.path, { "content-type" => "application/json", "x-api-key" => api_key, "anthropic-version" => "2023-06-01" })
+        req.body = { model: MODEL, max_tokens: 16000, messages: messages,
+                     tools: [{ type: "web_search_20260209", name: "web_search", max_uses: 4 * batch.size },
+                             { type: "web_fetch_20260209", name: "web_fetch", max_uses: 2 * batch.size }] }.to_json
+        res = http.request(req)
+        raise "API #{res.code}: #{res.body[0, 200]}" unless res.is_a?(Net::HTTPSuccess)
+        body = JSON.parse(res.body)
+        raise "refused" if body["stop_reason"] == "refusal"
+        if body["stop_reason"] == "pause_turn"
+          messages = [messages.first, { role: "assistant", content: body["content"] }]
+          next
+        end
+        text = body["content"].select { |b| b["type"] == "text" }.map { |b| b["text"] }.join
+        break
+      end
+      raise "search did not finish" unless text
+      json = text.gsub(/```(?:json)?/, "")[/\[\s*\{.*\}\s*\]/m] or raise "no JSON: #{text[-160..]}"
+      JSON.parse(json).each do |v|
+        c = batch.find { |x| x["id"] == v["id"] } or next
+        c["editor_checked_at"] = now.iso8601
+        entry = { "id" => c["id"], "title" => c["title"], "decision" => v["decision"], "reason" => v["reason"].to_s[0, 300], "duplicate_of" => v["duplicate_of"], "at" => now.iso8601 }
+        case v["decision"]
+        when "approve"
+          (v["fixes"] || {}).each { |k, val| c[k] = val if EDITOR_FIXABLE.include?(k) && !val.nil? && val != "" }
+          Array(v["sources"]).first(2).each do |s|
+            next unless s.is_a?(Hash) && s["url"].to_s.start_with?("http") && c["sources"].none? { |x| x["url"] == s["url"] }
+            c["sources"] << { "name" => s["name"].to_s[0, 80], "url" => s["url"] }
+          end
+          c["verification"] = "reported" # "confirmed" stays a human call (official confirmation)
+          c["review"] = "auto"
+          auto_approved << c["id"]
+        when "reject"
+          auto_rejected << c["id"]
+        end
+        editor_log << entry
+        log "editor: #{v['decision']} #{c['id']}: #{entry['reason'][0, 120]}"
+      end
+    rescue => e
+      log "editor batch #{bi} failed: #{e.class} #{e.message[0, 160]}"
+      break if e.message.include?("credit balance")
+    end
+  end
+  File.write(EDITOR_LOG_PATH, JSON.pretty_generate(editor_log.last(2000)))
+end
+
 # ---------- 3. apply editor decisions (config/approved.txt, config/rejected.txt) ----------
 read_ids = ->(p) { File.exist?(p) ? File.read(p).lines.map { |l| l.strip.split(/\s+/).first }.compact.reject { |l| l.empty? || l.start_with?("#") } : [] }
-approved, rejected = read_ids.(APPROVED_PATH), read_ids.(REJECTED_PATH)
+approved, rejected = read_ids.(APPROVED_PATH) + auto_approved, read_ids.(REJECTED_PATH) + auto_rejected
 promoted = candidates.select { |c| approved.include?(c["id"]) }
 promoted.each do |c|
   next if incidents.any? { |i| i["id"] == c["id"] }
-  inc = c.reject { |k, _| %w[verified wire_id confidence first_published].include?(k) }
+  inc = c.reject { |k, _| %w[verified wire_id confidence first_published editor_checked_at].include?(k) }
   inc["verified_at"] = now.iso8601; inc["updated_at"] = now.iso8601
   inc["verification"] ||= "reported"
   incidents << inc
