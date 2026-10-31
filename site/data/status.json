@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-31T12:35:37Z",
-  "wire_items": 785,
-  "new_items": 4,
+  "updated_at": "2026-10-31T13:05:41Z",
+  "wire_items": 791,
+  "new_items": 6,
   "candidates": 196,
   "incidents": 433,
   "feeds_ok": [
@@ -87,5 +87,5 @@
     "US court filings (CourtListener)",
     "European Commission"
   ],
-  "triage": "triaged 9 items with claude-sonnet-5-5 in 1 batches (0 failed); kept 4"
+  "triage": "triaged 9 items with claude-sonnet-5-5 in 1 batches (0 failed); kept 6"
 }
