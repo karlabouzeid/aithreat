@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31T20:05:39Z",
+  "updated_at": "2026-10-31T20:17:49Z",
   "wire_items": 800,
   "new_items": 0,
   "candidates": 199,
@@ -41,6 +41,7 @@
     "Recorded Future",
     "Wiz Research",
     "Embrace The Red",
+    "Trail of Bits",
     "UK NCSC",
     "CERT-FR",
     "arXiv cs.CR",
@@ -83,7 +84,6 @@
     "Google News (official warnings)"
   ],
   "feeds_failed": [
-    "Trail of Bits",
     "US court filings (CourtListener)",
     "European Commission"
   ],
