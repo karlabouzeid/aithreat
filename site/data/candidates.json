@@ -9196,5 +9196,53 @@
     "first_seen": "2026-10-26T13:05:39Z",
     "first_published": "2026-10-26T11:45:42Z",
     "updated_at": "2026-10-31T11:13:25Z"
+  },
+  {
+    "id": "volta-autodoxer-infostealer",
+    "date": "2026-10-31",
+    "title": "Volta-Autodoxer infostealer uses AI to 'autodox' victims",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "Individual users' credentials, payment and account data",
+    "loss_usd": null,
+    "summary": "WIRED reports newly uncovered malware, Volta-Autodoxer, that uses AI tools to gather large amounts of victim data, including logins, credit card numbers, Discord sessions and UberEats receipts.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Individuals & consumers",
+    "attribution": "No attribution given in the summary.",
+    "motive": "Data theft and victim profiling; further motive Unknown.",
+    "vector": "Infostealer malware that uses AI tools to collect and process victim data. Delivery method Unknown.",
+    "root_cause": "Unknown",
+    "impact": "Credentials, credit card numbers, Discord sessions and food-delivery receipts are collected. Number of victims Unknown.",
+    "response": "Malware recently uncovered and reported by researchers. No other response stated.",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.6,
+    "source": "WIRED Security",
+    "url": "https://www.wired.com/story/kernel-panic-volta-autodoxer-ai-infostealer-malware",
+    "sources": [
+      {
+        "name": "WIRED Security",
+        "url": "https://www.wired.com/story/kernel-panic-volta-autodoxer-ai-infostealer-malware"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-31",
+        "event": "Reported by WIRED Security"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-31T12:05:37Z",
+    "wire_id": "c1759b401ffc",
+    "first_seen": "2026-10-31T12:05:37Z",
+    "first_published": "2026-10-31T12:00:00Z",
+    "updated_at": "2026-10-31T12:05:37Z"
   }
 ]
