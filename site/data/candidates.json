@@ -8572,5 +8572,53 @@
     "first_seen": "2026-10-30T21:05:38Z",
     "first_published": "2026-10-30T20:11:43Z",
     "updated_at": "2026-10-30T21:05:38Z"
+  },
+  {
+    "id": "dprk-ai-fake-resumes-309-us-firms",
+    "date": "2026-10-30",
+    "title": "North Korean hackers use AI fake resumes and interview answers to land jobs at 309 US firms",
+    "category": "State actor AI ops",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "US",
+    "region": "North America",
+    "target": "309 US companies (hiring processes)",
+    "loss_usd": null,
+    "summary": "Microsoft reportedly says North Korean hackers used AI to produce fake resumes and interview answers and obtained covert jobs at 309 US companies.",
+    "actor": "North Korean hacking groups",
+    "actor_type": "state",
+    "sector": "Multiple / cross-sector",
+    "attribution": "Microsoft attributes the activity to North Korean hackers, per the headline; further detail is not given.",
+    "motive": "Unknown; headline says the aim was to land covert jobs at US companies.",
+    "vector": "AI-generated fake resumes and AI-assisted interview answers used to pass hiring checks.",
+    "root_cause": "Unknown; hiring processes apparently failed to detect AI-assisted fake candidates.",
+    "impact": "Covert employment was reportedly obtained at 309 US companies; the extent of access or data loss is not stated.",
+    "response": "Unknown; Microsoft published its findings.",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.55,
+    "source": "BigGo Finance",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE12NUZaQWRjTTFrMTdORUdTTXdYZ1V4QXM5MG41SXNrdkR2VmlzVFFRQlRFOGRjR1lFR3EwemN1Uk10cXpRd1A5OG5jSmsxLU15Q0cyb2ZGaVpZeEE0b1lXdV8tZ1MyQ2VqTjI3X05JYnZnRzZzRXc?oc=5",
+    "sources": [
+      {
+        "name": "BigGo Finance",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE12NUZaQWRjTTFrMTdORUdTTXdYZ1V4QXM5MG41SXNrdkR2VmlzVFFRQlRFOGRjR1lFR3EwemN1Uk10cXpRd1A5OG5jSmsxLU15Q0cyb2ZGaVpZeEE0b1lXdV8tZ1MyQ2VqTjI3X05JYnZnRzZzRXc?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-30",
+        "event": "Reported by BigGo Finance"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-31T01:35:42Z",
+    "wire_id": "49ed0f03502b",
+    "first_seen": "2026-10-31T01:35:42Z",
+    "first_published": "2026-10-31T00:35:00Z",
+    "updated_at": "2026-10-31T01:35:42Z"
   }
 ]
