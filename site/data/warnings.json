@@ -777,6 +777,25 @@
     "origin": "robot"
   },
   {
+    "id": "8c8802c3e424",
+    "date": "2026-10-12",
+    "sectors": [
+      "Government & public sector",
+      "Multiple / cross-sector"
+    ],
+    "who": "UK minister (reported by The Irish News)",
+    "who_type": "minister",
+    "country": "GB",
+    "kind": "warning",
+    "title": "UK minister warns AI breach of cyber defences is 'likely, if not inevitable'",
+    "summary": "A UK minister warned that an AI-enabled breach of the UK's cyber defences is 'likely, if not inevitable', according to The Irish News. No further details are given in the available text.",
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPNkVabmFiZURNNVRtNXJqYnpiczFjYjM3dE5ORHpqdS12VURTaTdzdkFuQ2dHbExzNzFmc21rOUNrcEkwbkU0d2pUeGdIS2NWRVpja2ozN01fQWpDaENQMHpHb0ctSkJmUXN0ZmF5UUdzZGhQNHR0SDFjTE5seGxycHhTSHBWb1N1ZXhRZEtGcmtGdWc0SlI4amFYdzhoR3lvdV84ZHZLT0htYWxVUkdsQThJVkFSelJNUWY5ZTRiUDFBTF9EMnBUdFZOMUk?oc=5",
+    "source": "The Irish News",
+    "lang": "en",
+    "added_at": "2026-10-31T22:05:43Z",
+    "origin": "robot"
+  },
+  {
     "id": "a46c0ab77dd3",
     "date": "2026-10-12",
     "sectors": [
@@ -1471,6 +1490,25 @@
     "origin": "robot"
   },
   {
+    "id": "7787baf087f0",
+    "date": "2026-08-17",
+    "sectors": [
+      "Financial services",
+      "Individuals & consumers"
+    ],
+    "who": "Australian financial regulator (reported by MLex)",
+    "who_type": "regulator",
+    "country": "AU",
+    "kind": "warning",
+    "title": "Australian financial regulator warns of sharp rise in AI scams",
+    "summary": "An Australian financial regulator warned of a sharp rise in scams that use AI, according to MLex. No further details are given in the available text.",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMXBIM2VsLUpGSUloTDBWc0VrdzJxdnU0cFJBUVRKSDZEYnI4cW1MNTRtZDhDNm53alpYSGZSNk9uREJxSm80YkQ1VGRhV1BhWFl0M190aEY4bjhILW4xRzloVXczOW53U0Zlb3JGZndPQjB1SUMtNm5faC16dFJVSGMyd0dIVU11eENEM3lxdzkzQWlfUXFxd3pBd0dxWUlKRnczZF9QTkvSAVpBVV95cUxQUElNLUlFVlZCX3JkdUdRb1Y5aDdTR3pEX2E5Ump2cWNKd1ZIWlliWG03c2JCQ0QzNHMzUmV3a3pMeVFCWFp4cWk5bDNSekFLYzRZbDJ5cXlOX2c?oc=5",
+    "source": "MLex",
+    "lang": "en",
+    "added_at": "2026-10-31T22:05:43Z",
+    "origin": "robot"
+  },
+  {
     "date": "2026-08-17",
     "sectors": [
       "Retail & consumer brands",
@@ -1488,6 +1526,24 @@
     "lang": "en",
     "added_at": "2026-10-26T18:29:46Z",
     "origin": "research"
+  },
+  {
+    "id": "8488c2a16838",
+    "date": "2026-08-15",
+    "sectors": [
+      "Financial services"
+    ],
+    "who": "Swiss regulator (reported by Saudi Gazette)",
+    "who_type": "regulator",
+    "country": "CH",
+    "kind": "warning",
+    "title": "Swiss regulator warns financial sector of rising cyberattacks and AI risks",
+    "summary": "A Swiss regulator warned the financial sector about rising cyberattacks and AI-related risks, according to Saudi Gazette. No further details are given in the available text.",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOblJjS0FQbXBHRWFGeUtBT3ZvTXNfZkFkWUEwRkF0b1dxX1BtWGxxZGJWRzJRMXB5OTdZVl9mOWQzZXo5aU5MTjc2VXIyUWQyN3VnQ3Q5Y09IMkw1T0ZDM0NIbzB5ZGVqX3lDeW5RMWx2dlBPMnZldmo1STI4dk9fU2FCdms5M3BTUDVRMlVMNm9EanVIT0xXU1FmS3Z3ZnRNUXh4RlZfUWo1dmRJMURDUEQ4OU55dw?oc=5",
+    "source": "Saudi Gazette",
+    "lang": "en",
+    "added_at": "2026-10-31T22:05:43Z",
+    "origin": "robot"
   },
   {
     "date": "2026-08-04",
@@ -2156,25 +2212,6 @@
   {
     "date": "2026-04-28",
     "sectors": [
-      "Defence & security",
-      "Retail & consumer brands"
-    ],
-    "who": "Europol",
-    "who_type": "intergovernmental",
-    "country": "EU",
-    "kind": "warning",
-    "title": "Europol IOCTA 2026 says AI, encryption and proxies are expanding cybercrime",
-    "summary": "Europol's Internet Organised Crime Threat Assessment said generative AI makes fraud more convincing, ransomware groups are adopting AI tools, and it expects cybercrime to become more automated with minimal human involvement.",
-    "url": "https://eucrim.eu/news/iocta-2026/",
-    "source": "eucrim",
-    "id": "seed-b2N0YS0yMDI2Lw",
-    "lang": "en",
-    "added_at": "2026-10-26T18:29:46Z",
-    "origin": "research"
-  },
-  {
-    "date": "2026-04-28",
-    "sectors": [
       "Financial services",
       "Government & public sector"
     ],
@@ -2187,6 +2224,25 @@
     "url": "https://www.europol.europa.eu/cms/sites/default/files/documents/IOCTA-2026.pdf",
     "source": "Europol",
     "id": "seed-RBLTIwMjYucGRm",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-04-28",
+    "sectors": [
+      "Defence & security",
+      "Retail & consumer brands"
+    ],
+    "who": "Europol",
+    "who_type": "intergovernmental",
+    "country": "EU",
+    "kind": "warning",
+    "title": "Europol IOCTA 2026 says AI, encryption and proxies are expanding cybercrime",
+    "summary": "Europol's Internet Organised Crime Threat Assessment said generative AI makes fraud more convincing, ransomware groups are adopting AI tools, and it expects cybercrime to become more automated with minimal human involvement.",
+    "url": "https://eucrim.eu/news/iocta-2026/",
+    "source": "eucrim",
+    "id": "seed-b2N0YS0yMDI2Lw",
     "lang": "en",
     "added_at": "2026-10-26T18:29:46Z",
     "origin": "research"
