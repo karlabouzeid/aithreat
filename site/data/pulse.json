@@ -88,8 +88,8 @@
     "incident": 1
   },
   "2026-10-26": {
-    "incident": 65,
-    "other": 13,
+    "incident": 64,
+    "other": 12,
     "policy": 9,
     "research": 10,
     "vendor-report": 7,
@@ -120,7 +120,7 @@
     "vulnerability": 20
   },
   "2026-10-30": {
-    "incident": 91,
+    "incident": 92,
     "other": 15,
     "policy": 2,
     "research": 43,
@@ -129,6 +129,7 @@
   },
   "2026-10-31": {
     "incident": 4,
+    "other": 1,
     "vendor-report": 1
   }
 }
