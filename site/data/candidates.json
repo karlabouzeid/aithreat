@@ -9292,5 +9292,53 @@
     "first_seen": "2026-10-31T14:35:37Z",
     "first_published": "2026-10-31T14:19:29Z",
     "updated_at": "2026-10-31T14:35:37Z"
+  },
+  {
+    "id": "chernigovskaya-voice-image-scam",
+    "date": "2026-10-31",
+    "title": "Tatyana Chernigovskaya warns of scammers using her image and voice",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "low",
+    "country": "RU",
+    "region": "Europe",
+    "target": "Public who trust Tatyana Chernigovskaya",
+    "loss_usd": null,
+    "summary": "Russian scientist Tatyana Chernigovskaya warned that scammers are using her image and voice; the headline implies AI cloning but does not state it.",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "sector": "Individuals & consumers",
+    "attribution": "Unknown scammers; warning issued by Chernigovskaya, as reported by Piter.tv.",
+    "motive": "Likely financial fraud (implied, not stated).",
+    "vector": "Misuse of her likeness and voice, probably AI-generated; exact method not given.",
+    "root_cause": "Easy cloning of public figures' likeness and voice; details not stated.",
+    "impact": "Unknown; no victim losses reported in the headline.",
+    "response": "Chernigovskaya publicly warned people about the scammers.",
+    "status": "ongoing",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.5,
+    "source": "Piter.tv",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB5Y0hoQ0szcy1mX01zdks1VElwcTU1andxUDNrNzNoLUtCQlQ1eHRXYmdIOHJoYV9PZHJFQ1UzblVrc1VCNUZDQmFsNGJKNF9KX1pIUzFJT2NmOUpsX3F2dXd5RXFOZnVoREFaLWg5Um4?oc=5",
+    "sources": [
+      {
+        "name": "Piter.tv",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB5Y0hoQ0szcy1mX01zdks1VElwcTU1andxUDNrNzNoLUtCQlQ1eHRXYmdIOHJoYV9PZHJFQ1UzblVrc1VCNUZDQmFsNGJKNF9KX1pIUzFJT2NmOUpsX3F2dXd5RXFOZnVoREFaLWg5Um4?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-31",
+        "event": "Reported by Piter.tv"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-31T17:05:39Z",
+    "wire_id": "cdd30aad409a",
+    "first_seen": "2026-10-31T17:05:39Z",
+    "first_published": "2026-10-31T05:32:36Z",
+    "updated_at": "2026-10-31T17:05:39Z"
   }
 ]
