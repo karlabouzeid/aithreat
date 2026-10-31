@@ -79,3 +79,7 @@ HOME.each { |l, h| h.merge!(WINDOW[l] || {}) }
 # Navigation label for the Industries at risk section.
 require_relative "sector_strings"
 HOME.each { |l, h| h[:nav_sectors] = (SECTOR_UI[l] || SECTOR_UI["en"])[:industries] }
+
+# The briefing layer (Lens, Today's briefing, Threat weather, Check-up), added 2026-10-31.
+require_relative "briefing_strings"
+HOME.each { |l, h| h.merge!(BRIEFING[l] || {}) }
