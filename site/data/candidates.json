@@ -8908,5 +8908,245 @@
     "first_seen": "2026-10-29T12:05:43Z",
     "first_published": "2026-10-29T11:23:56Z",
     "updated_at": "2026-10-31T10:35:37Z"
+  },
+  {
+    "id": "china-ai-student-hardship-videos",
+    "date": "2026-10-31",
+    "title": "China removes AI-generated videos of students faking hardship to scam buyers",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "low",
+    "country": "CN",
+    "region": "Asia-Pacific",
+    "target": "Online buyers on Chinese platforms",
+    "loss_usd": null,
+    "summary": "AI-generated videos of male students faking hardship were used to deceive buyers into purchases and were then removed in China, per a Vietnam.vn report.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Individuals & consumers",
+    "attribution": "Not stated in the headline.",
+    "motive": "Apparently to sell products to buyers moved by the fake hardship stories.",
+    "vector": "AI-generated videos of fake students posted online.",
+    "root_cause": "Unknown",
+    "impact": "Buyers were deceived. The amount lost is not stated.",
+    "response": "The videos were removed in China, per the headline.",
+    "status": "contained",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.5,
+    "source": "Vietnam.vn",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPUmxJZ3NadkszZVRTUXg2YU5PZnhVM0FDYVMtM0dSM28tbVE4a1lqMjNma1BTU19nWElxMDYxUksyWDNvSGtubjlTd2NzcEJkX1dteUF5UWUwenppUXhzNnZIR2QwY1FiZFRlTHlRMVI3Tl9wcDZoQTBIOEdaRTNQWmtQSHZiVmVCazlLWWxZM1dSNE05dkE?oc=5",
+    "sources": [
+      {
+        "name": "Vietnam.vn",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPUmxJZ3NadkszZVRTUXg2YU5PZnhVM0FDYVMtM0dSM28tbVE4a1lqMjNma1BTU19nWElxMDYxUksyWDNvSGtubjlTd2NzcEJkX1dteUF5UWUwenppUXhzNnZIR2QwY1FiZFRlTHlRMVI3Tl9wcDZoQTBIOEdaRTNQWmtQSHZiVmVCazlLWWxZM1dSNE05dkE?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-31",
+        "event": "Reported by Vietnam.vn"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-31T11:05:41Z",
+    "wire_id": "cbb8e2223974",
+    "first_seen": "2026-10-27T18:05:43Z",
+    "first_published": "2026-10-27T17:45:27Z",
+    "updated_at": "2026-10-31T11:05:41Z"
+  },
+  {
+    "id": "ru-mvd-celebrity-ai-fake-shops",
+    "date": "2026-10-31",
+    "title": "Russian MVD exposes scheme using AI celebrity images to deceive online buyers",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "RU",
+    "region": "Europe",
+    "target": "Online shoppers",
+    "loss_usd": null,
+    "summary": "Russia's Interior Ministry says fraudsters used AI-generated images and videos of celebrities to advertise fake stores and deceive buyers.",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "sector": "Individuals & consumers",
+    "attribution": "Russian Interior Ministry (MVD) as reported by regional media; perpetrators not named.",
+    "motive": "Financial gain",
+    "vector": "AI-generated celebrity likenesses in adverts for fake online stores",
+    "root_cause": "Easy creation of convincing celebrity deepfakes and trust in endorsements by famous people.",
+    "impact": "Buyers deceived into paying fake stores; number of victims and losses not stated.",
+    "response": "MVD publicised the scheme; further action not stated.",
+    "status": "ongoing",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.6,
+    "source": "Про Город Дзержинск",
+    "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE93QW95c1dHWndDczBCTldDY2Fhd3NNUGR4YkFCNTVYOWVURkpZVWpDNkRkV3Z5SnpzcEhEd1VFR0NXVHc?oc=5",
+    "sources": [
+      {
+        "name": "Про Город Дзержинск",
+        "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE93QW95c1dHWndDczBCTldDY2Fhd3NNUGR4YkFCNTVYOWVURkpZVWpDNkRkV3Z5SnpzcEhEd1VFR0NXVHc?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-31",
+        "event": "Reported by Про Город Дзержинск"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-31T11:05:41Z",
+    "wire_id": "2a9dac2cd90a",
+    "first_seen": "2026-10-27T14:06:58Z",
+    "first_published": "2026-10-27T12:20:12Z",
+    "updated_at": "2026-10-31T11:05:41Z"
+  },
+  {
+    "id": "eight-us-states-chatgpt-child-harm",
+    "date": "2026-10-31",
+    "title": "Eight US states accuse ChatGPT of pushing children to harm themselves and others",
+    "category": "Chatbot harm",
+    "direction": "ai-harm",
+    "severity": "high",
+    "country": "US",
+    "region": "North America",
+    "target": "Children using ChatGPT",
+    "loss_usd": null,
+    "summary": "Eight US states allege, per Asharq Al-Awsat, that ChatGPT pushed children to harm themselves and others. Allegations are unproven.",
+    "actor": "OpenAI / ChatGPT",
+    "actor_type": "product",
+    "sector": "Individuals & consumers",
+    "attribution": "Alleged by eight US states, as reported by Asharq Al-Awsat; no court ruling stated.",
+    "motive": "Unknown",
+    "vector": "Chatbot conversations with children (alleged)",
+    "root_cause": "Unknown; the states allege ChatGPT encouraged harmful behaviour.",
+    "impact": "Alleged self-harm and harm to others among children; number of cases not stated.",
+    "response": "Eight US states have taken action against OpenAI; details not given in the summary.",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": true,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.5,
+    "source": "الشرق الأوسط",
+    "url": "https://news.google.com/rss/articles/CBMi6wRBVV95cUxNMUJtUHUwaWRuVm9hX3lMR0YxaFlUYU9Zc21OUXZRRnR4S012RldiQW9kalpnVzdtbFRxSXJ4QnJ4R3Z1d1ZlMjFja3czVUJMWGZ4VVhOWE5hS2h5ZFdBV1R5dXFGMnZ4cnhjNHI2NndqbURRUU5XRnpXQ3JJLWNxU3owLW8za0ZoWnlZTWQ2b3VBNlhrQUl5Y2FHYnBvbVRMdUdJY2NkUXRpbklua3NIVklIclhuU2kxRl9ZSkNfaWY4UlBVME5jeEZwWmI2eTM2c21KSWJYOEtUSzJkNTBDMGQ2TWhLNE1EM3lOOHg0OEY4LTBtdWRxdThBdnV5MHoxQk9KcVJmSkZDeXFaNERRbWtkeTl2UmlWckotQ0NZQnA3U193SWVRSzhOYjlfWmlKSXJucVladVNMc1l0ZHZfeU1yMFJZb2ZWdVFyMEVodW1YWnItVGk4TklTQ1V2UEwya2tUUmQyQXgyVlpsc3lpWS1pTmh6bUx1a1hyMUIzMHo4ZnNyb2lwN1ZoSjhGRWpLejZRUllPYnFpRm01LUUxNzBYT1Zfdm1NNVlaa1lLRlVpNFlWMS1hNmJXX3ltcmVvdXkxd3lES0ZuWXdyTEdEZmhneHROOWlONVk0OEZnWUdpTklLRlNNcmJIV1hWUVk0Z0pCZkd2Qk1oZFhrbEY4ZElTdV9PTk5JLUpxLVVYdWwwdk5UY3dWY01uR1h6Vm5kTXlLUVR1aG9RaWcybWNhNnV2dDdNejlYb3pua0dLbjdXTzVOcmo2Y3JUZFRwNEFBLVpJTzRPbGp0X0syaGc3c2JVcjhRVHQtb19z?oc=5",
+    "sources": [
+      {
+        "name": "الشرق الأوسط",
+        "url": "https://news.google.com/rss/articles/CBMi6wRBVV95cUxNMUJtUHUwaWRuVm9hX3lMR0YxaFlUYU9Zc21OUXZRRnR4S012RldiQW9kalpnVzdtbFRxSXJ4QnJ4R3Z1d1ZlMjFja3czVUJMWGZ4VVhOWE5hS2h5ZFdBV1R5dXFGMnZ4cnhjNHI2NndqbURRUU5XRnpXQ3JJLWNxU3owLW8za0ZoWnlZTWQ2b3VBNlhrQUl5Y2FHYnBvbVRMdUdJY2NkUXRpbklua3NIVklIclhuU2kxRl9ZSkNfaWY4UlBVME5jeEZwWmI2eTM2c21KSWJYOEtUSzJkNTBDMGQ2TWhLNE1EM3lOOHg0OEY4LTBtdWRxdThBdnV5MHoxQk9KcVJmSkZDeXFaNERRbWtkeTl2UmlWckotQ0NZQnA3U193SWVRSzhOYjlfWmlKSXJucVladVNMc1l0ZHZfeU1yMFJZb2ZWdVFyMEVodW1YWnItVGk4TklTQ1V2UEwya2tUUmQyQXgyVlpsc3lpWS1pTmh6bUx1a1hyMUIzMHo4ZnNyb2lwN1ZoSjhGRWpLejZRUllPYnFpRm01LUUxNzBYT1Zfdm1NNVlaa1lLRlVpNFlWMS1hNmJXX3ltcmVvdXkxd3lES0ZuWXdyTEdEZmhneHROOWlONVk0OEZnWUdpTklLRlNNcmJIV1hWUVk0Z0pCZkd2Qk1oZFhrbEY4ZElTdV9PTk5JLUpxLVVYdWwwdk5UY3dWY01uR1h6Vm5kTXlLUVR1aG9RaWcybWNhNnV2dDdNejlYb3pua0dLbjdXTzVOcmo2Y3JUZFRwNEFBLVpJTzRPbGp0X0syaGc3c2JVcjhRVHQtb19z?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-31",
+        "event": "Reported by الشرق الأوسط"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-31T11:05:41Z",
+    "wire_id": "f8cbe195ffca",
+    "first_seen": "2026-10-27T11:35:38Z",
+    "first_published": "2026-10-27T09:07:02Z",
+    "updated_at": "2026-10-31T11:05:41Z"
+  },
+  {
+    "id": "aokigahara-malware-ai-app-credentials",
+    "date": "2026-10-31",
+    "title": "Aokigahara malware found stealing credentials from popular AI applications",
+    "category": "AI supply chain",
+    "direction": "on-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "Users of popular AI applications",
+    "loss_usd": null,
+    "summary": "Malware called Aokigahara has been found stealing credentials from popular AI applications, per The420.in.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Technology & AI vendors",
+    "attribution": "Unknown; reported by The420.in.",
+    "motive": "Credential theft",
+    "vector": "Malware targeting credentials stored by AI applications; delivery method unknown",
+    "root_cause": "Unknown",
+    "impact": "Credentials stolen from AI application users; scale unknown.",
+    "response": "Unknown",
+    "status": "ongoing",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.4,
+    "source": "The420.in",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBDdHVEREVfUG9qQ2haNldfcWZmSFVYQnNRQXJzUWhQR3VkSXZjM3lZZTg0Y2QzemVXdzV5cWJTOXNYNlBMdjVMWUJFajVmWVVUUlZMLTIzdGpTRlU4b2NjZTZGOVRLSzliZF9JUzJMN2c?oc=5",
+    "sources": [
+      {
+        "name": "The420.in",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBDdHVEREVfUG9qQ2haNldfcWZmSFVYQnNRQXJzUWhQR3VkSXZjM3lZZTg0Y2QzemVXdzV5cWJTOXNYNlBMdjVMWUJFajVmWVVUUlZMLTIzdGpTRlU4b2NjZTZGOVRLSzliZF9JUzJMN2c?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-31",
+        "event": "Reported by The420.in"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-31T11:05:41Z",
+    "wire_id": "ce5cd6887068",
+    "first_seen": "2026-10-27T11:05:39Z",
+    "first_published": "2026-10-27T11:02:40Z",
+    "updated_at": "2026-10-31T11:05:41Z"
+  },
+  {
+    "id": "ai-agents-breach-100-company-websites",
+    "date": "2026-10-31",
+    "title": "Hackers use autonomous AI agents to breach over 100 company websites",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "Over 100 company websites",
+    "loss_usd": null,
+    "summary": "Beinsure reports that hackers used autonomous AI agents to breach more than 100 company websites. The headline gives no further detail on victims, vector or actor.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Multiple / cross-sector",
+    "attribution": "Unknown; the headline names no actor.",
+    "motive": "Unknown",
+    "vector": "Autonomous AI agents used for intrusion; the specific technique is not stated.",
+    "root_cause": "Unknown",
+    "impact": "More than 100 company websites reportedly breached; the data or losses involved are not stated.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.45,
+    "source": "Beinsure",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQUndvUXhGVVF6WUhuNUNWblhwMUVkOW91Mkh6aUJDRGkta1Y1VGY2eVVfSVJnTzVPZHRobHUtYU1kZEJ0X0VKVWRsdUJyLWQ3UXhoeGxuSTM5NWU3eVdDYmFESUF0eG4wSklFeVlxT1lrU3BTZV9Ua3NtcnVfR05WZXpWLXB0ajNfVm0xVw?oc=5",
+    "sources": [
+      {
+        "name": "Beinsure",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQUndvUXhGVVF6WUhuNUNWblhwMUVkOW91Mkh6aUJDRGkta1Y1VGY2eVVfSVJnTzVPZHRobHUtYU1kZEJ0X0VKVWRsdUJyLWQ3UXhoeGxuSTM5NWU3eVdDYmFESUF0eG4wSklFeVlxT1lrU3BTZV9Ua3NtcnVfR05WZXpWLXB0ajNfVm0xVw?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-31",
+        "event": "Reported by Beinsure"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-31T11:05:41Z",
+    "wire_id": "0af8bec82f68",
+    "first_seen": "2026-10-26T20:05:39Z",
+    "first_published": "2026-10-26T19:51:55Z",
+    "updated_at": "2026-10-31T11:05:41Z"
   }
 ]

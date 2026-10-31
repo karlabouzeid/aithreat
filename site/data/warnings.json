@@ -56,6 +56,25 @@
     "origin": "robot"
   },
   {
+    "id": "8a097a105a9b",
+    "date": "2026-10-28",
+    "sectors": [
+      "Government & public sector",
+      "Multiple / cross-sector"
+    ],
+    "who": "Ministry of Digital Transformation of Ukraine (Mintsifry)",
+    "who_type": "minister",
+    "country": "UA",
+    "kind": "warning",
+    "title": "Ukraine says enemy has stepped up AI-assisted cyberattacks on government and commercial sectors",
+    "summary": "Ukraine's Ministry of Digital Transformation says the enemy has intensified cyberattacks on Ukraine's state and commercial sectors using AI.",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE93blhHbWtGZTFaVFBlMUVya0xYSlFKZWd5akxKUmdiT0ZOcWx6LTF6LW01ektmQmNHWnZlX3VObURIN3kwV3YtZkNjYkFPVXBLdUkxSk9kcm1YS09neUZVNUZ30gFnQVVfeXFMUGg2U1Y1X2VYMmdDUWdKenVuekw0cFBTak1KSk9mTEJ6UnEzQWZpZGdCWVE1Y1htZWViLThUMmdPaHJXUExVck9OODlHMXd6Z3EwZDRvamo4Y3d0ZXBDUUJYV28yLXQ5dw?oc=5",
+    "source": "Інтерфакс-Україна",
+    "lang": "ru",
+    "added_at": "2026-10-31T11:05:41Z",
+    "origin": "robot"
+  },
+  {
     "id": "de95ca873333",
     "date": "2026-10-28",
     "sectors": [
@@ -90,6 +109,25 @@
     "source": "茉莉花新闻网",
     "lang": "zh",
     "added_at": "2026-10-31T10:35:37Z",
+    "origin": "robot"
+  },
+  {
+    "id": "c57ab6992d82",
+    "date": "2026-10-28",
+    "sectors": [
+      "Financial services",
+      "Energy, industrial & infrastructure"
+    ],
+    "who": "Nigerian Communications Commission (NCC)",
+    "who_type": "regulator",
+    "country": "NG",
+    "kind": "warning",
+    "title": "Nigeria's NCC warns AI-powered fraud threatens telecom security and banking",
+    "summary": "According to the headline, the Nigerian Communications Commission says AI-powered fraud poses a threat to telecom security and banking. No further detail was provided.",
+    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPOXk5UEg3V1lYY3NIN1FqNlVOMzNZclpzemFvcDFWclhvdmFuSzEwTUpMQ243aExlSy1MemNmb1pPZG01SVkzZUNtRHgtdXVYdTZkVmFBclhLWmJtZjBnZjFpVjJ2ZFg3WlBaSmFiZjlzM1F2YTRZRXB2S3MyaHFVY1BB?oc=5",
+    "source": "Punch Newspapers",
+    "lang": "en",
+    "added_at": "2026-10-31T11:05:41Z",
     "origin": "robot"
   },
   {
@@ -167,6 +205,138 @@
     "origin": "robot"
   },
   {
+    "id": "f32ab8dbded6",
+    "date": "2026-10-28",
+    "sectors": [
+      "Energy, industrial & infrastructure",
+      "Government & public sector"
+    ],
+    "who": "Australian government",
+    "who_type": "security_agency",
+    "country": "AU",
+    "kind": "warning",
+    "title": "Australia warns foreign governments are using AI to hack critical infrastructure",
+    "summary": "Per Infobae's headline, Australia warned that foreign governments are using AI to hack critical infrastructure. The issuing body and details are not given in the text provided.",
+    "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPYkpNakJqYndJbS1zdy1HYmVyZWwxX2N5a3VUMG45UUlPR05XblJMTVpIUjhha2ViUnZ4b3VXLWo2OVJnOGdQa0JhODA3SVJxS0VocEIwNTQxX1J4TlpLU0V2SkN0cGJ3R0VSYVRDZlc2dmdqMXY0ZDNqXzNrRzFBVHYzT3ctUUxGbmx5QUhlNGhGV1pJMUZLa0Jfemd6NUJ1SW1od3JuNy00N1FLMWVQcWZDVXp4d1RhTmp4OGpxY0tQSl9JalU2MDB1NU5pZVVtN0JWNkU4cUxCU3BJcGfSAfgBQVVfeXFMT1h0bXlneV9uNzhrQVg3Mmd0dEJuUVA1NXFFNGhOd0c1aE5SekV2V0hpM3Vzblk0cmt3N1F4MjdNWkhIZXlLeUh1ZTN6YnBjdUtEVExGblIxX3h6NjZfTVNfbXRLZHlCUW9abXAyc01uLXByR2I4QVRQVGV2WHlITmdTYTdWV05md3hKUEhGYXpueklGT0l0MHdfVWk4S2MwUzYwSUhBT2ZDWmRSdzhNTmtMX2ltWDVwWUVJV0JCSHM0SUxXZEVzNk1mYjNNcmNXLWNKaHE2TFE3S1VJNGFhVmdEUkdKc0JtM2lsWTBzUU5MUEFyaDBGbnc?oc=5",
+    "source": "Infobae",
+    "lang": "es",
+    "added_at": "2026-10-31T11:05:41Z",
+    "origin": "robot"
+  },
+  {
+    "id": "59431a2022a4",
+    "date": "2026-10-27",
+    "sectors": [
+      "Government & public sector"
+    ],
+    "who": "Government of Sweden",
+    "who_type": "head_of_government",
+    "country": "SE",
+    "kind": "rule",
+    "title": "Sweden blocks ChatGPT and Claude on officials' computers",
+    "summary": "The Swedish government reportedly blocked ChatGPT and Claude on its officials' computers. The headline does not give the stated reason.",
+    "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNd0ZsZGJsaXBmSDVrSFRSeVBFTWJhbTZySTlVdmdiRkp0RGd5R09fMVZwdE5QM01DNlduZENNMGUyQ3V4YnRHTEduaXFZbkp1WlJkSVhXTWJJbjlfLWtGcmpBa01Gd0pVdDBoNkpKcjRFRk5nTU9FQzRfQVo1N2k4Nm91R0JZT2RNa3diOW8xSTh0T0JoM3dlRmg1ZUV5NVU2Nnp2MHh3OU1sTmhDSFlxcG4tTmhvVUF6MkNxRTVHSjlYRVd1bm1FWEZzRldwbEpOakdaX0V3QnRCN2cwN1HSAd4BQVVfeXFMTXdGbGRibGlwZkg1a0hUUnlQRU1iYW02ckk5VXZnYkZKdERneUdPXzFWcHROUDNNQzZXbmRDTTBlMkN1eGJ0R0xHbmlxWW5KdVpSZElYV01iSW45Xy1rRnJqQWtNRndKVXQwaDZKSnI0RUZOZ01PRUM0X0FaNTdpODZvdUdCWU9kTWt3YjlvMUk4dE9CaDN3ZUZoNWVFeTVVNjZ6djB4dzlNbE5oQ0hZcXBuLU5ob1VBejJDcUU1R0o5WEVXdW5tRVhGc0ZXcGxKTmpHWl9Fd0J0QjdnMDdR?oc=5",
+    "source": "Infobae",
+    "lang": "es",
+    "added_at": "2026-10-31T11:05:41Z",
+    "origin": "robot"
+  },
+  {
+    "id": "f9709bfaaf30",
+    "date": "2026-10-27",
+    "sectors": [
+      "Retail & consumer brands",
+      "Individuals & consumers"
+    ],
+    "who": "Russian Interior Ministry (MVD)",
+    "who_type": "minister",
+    "country": "RU",
+    "kind": "advisory",
+    "title": "Russian MVD warns scammers use AI celebrity videos to promote fake online shops",
+    "summary": "The Russian Interior Ministry warned that scammers create AI-generated celebrity videos to advertise fake online stores and deceive buyers.",
+    "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9qUjFoMTZmR3pNcUVfZFFkLWNDTlRpVDFubkNRRHhKaHFpVWQyMWJrU1RBSWxSN0pKd29DTDdOcW1mYkt5bGV1OEpGbTI?oc=5",
+    "source": "ВКонтакте",
+    "lang": "ru",
+    "added_at": "2026-10-31T11:05:41Z",
+    "origin": "robot"
+  },
+  {
+    "id": "a81446ade613",
+    "date": "2026-10-27",
+    "sectors": [
+      "Retail & consumer brands",
+      "Individuals & consumers"
+    ],
+    "who": "Russian Interior Ministry (MVD)",
+    "who_type": "minister",
+    "country": "RU",
+    "kind": "advisory",
+    "title": "Russian MVD warns of AI videos with celebrities used to defraud buyers",
+    "summary": "The Russian Interior Ministry warned that buyers are being deceived with AI-generated videos featuring celebrities.",
+    "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE9keDd0RDNmU2pTMGp2U0tvYTJSLWZLZ0RQNktBY1pBaV9WeXpsd0RLaUVoWXFEZTFCcThZMUVYQVFGcDQ?oc=5",
+    "source": "Runet.news",
+    "lang": "ru",
+    "added_at": "2026-10-31T11:05:41Z",
+    "origin": "robot"
+  },
+  {
+    "id": "7da73ca74a4c",
+    "date": "2026-10-27",
+    "sectors": [
+      "Retail & consumer brands",
+      "Individuals & consumers"
+    ],
+    "who": "Russian Interior Ministry (MVD)",
+    "who_type": "minister",
+    "country": "RU",
+    "kind": "advisory",
+    "title": "Russian MVD warns of AI celebrity likenesses used to deceive online shoppers",
+    "summary": "The Russian Interior Ministry warned that scammers use AI-generated images of celebrities to deceive buyers.",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOTG9mNkpUOUFvSjZmYVZVQnpUWXVjRzhVLUpnVGlXQjFKSUR3a1hmSFB2bE1UNVJHYy1LbF8yd0puTVkwRTdRSDYxT0VGRDB2RjE5S085VmN1VHgzV2V4X09oQ0VkeGh5RWhsWF9McVFDWF80YXliZGZTemRfUjdfZE5ZZlY5b01fOFZBdHQ5Wmk3TU5YRzdRN2dOMi1nbE43QXNOc1NEME55WW14QVJCUNIBsAFBVV95cUxOTG9mNkpUOUFvSjZmYVZVQnpUWXVjRzhVLUpnVGlXQjFKSUR3a1hmSFB2bE1UNVJHYy1LbF8yd0puTVkwRTdRSDYxT0VGRDB2RjE5S085VmN1VHgzV2V4X09oQ0VkeGh5RWhsWF9McVFDWF80YXliZGZTemRfUjdfZE5ZZlY5b01fOFZBdHQ5Wmk3TU5YRzdRN2dOMi1nbE43QXNOc1NEME55WW14QVJCUA?oc=5",
+    "source": "INFOX.ru",
+    "lang": "ru",
+    "added_at": "2026-10-31T11:05:41Z",
+    "origin": "robot"
+  },
+  {
+    "id": "420ad7d89257",
+    "date": "2026-10-27",
+    "sectors": [
+      "Retail & consumer brands",
+      "Individuals & consumers"
+    ],
+    "who": "Russian Interior Ministry (MVD)",
+    "who_type": "minister",
+    "country": "RU",
+    "kind": "advisory",
+    "title": "Russian MVD warns of AI celebrity images used to deceive buyers",
+    "summary": "The Russian Interior Ministry warned that fraudsters use AI-generated celebrity images to deceive buyers.",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUVhvT3dOd3pwNm1BTkg1cWdieVRYUXQ2dU9xZnVzZUZ4TFRRSUY0dTNRdFVuZ0VfRnpmVy1NcXpvVmEwTkROY2FXYzRYX0ZCZ1J5dmhtRnRFR1FaU0xjdkVRYVFHbC1ScnRtaDZQVHoyNVA2SGJGWlY0R1VPM29qR3JZMEU0V2JNb0ZYdDgtYUF2dWI5NmNFMEY2V3lVcGFSU2xyNG85TU54TVAtN2hCeldsWjJza083VHJKbWh5cXJWYzA?oc=5",
+    "source": "RZN.info",
+    "lang": "ru",
+    "added_at": "2026-10-31T11:05:41Z",
+    "origin": "robot"
+  },
+  {
+    "id": "9a829e9411fd",
+    "date": "2026-10-27",
+    "sectors": [
+      "Retail & consumer brands",
+      "Individuals & consumers"
+    ],
+    "who": "Russian Interior Ministry (MVD)",
+    "who_type": "minister",
+    "country": "RU",
+    "kind": "advisory",
+    "title": "Russian MVD warns AI celebrity doubles are used to lure online scam victims",
+    "summary": "The Russian Interior Ministry warned that AI doubles of celebrities are being used as bait by online fraudsters.",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSk1VdS1aNEdBQmdSTm5Qb1RlQlZBMDJuN3I2aG1GWWZrVnUwb1JuNWsyTVZ4dzFucU8yOTJaTXQ3cXNSMDIzNGVWWDBwRHFJYlR2YTlRSkNxWEs3bElKTFNmZEQ0aFFvM3dhVThJa2c0YkpMcFplejFSMDkweVBwam1FbHVlaGpjVmRGTDRsQ25ua19HQVJB?oc=5",
+    "source": "Ведомости Урал",
+    "lang": "ru",
+    "added_at": "2026-10-31T11:05:41Z",
+    "origin": "robot"
+  },
+  {
     "id": "68eb6d92b599",
     "date": "2026-10-27",
     "sectors": [
@@ -183,6 +353,152 @@
     "source": "City of London Police",
     "lang": "en",
     "added_at": "2026-10-31T10:35:37Z",
+    "origin": "robot"
+  },
+  {
+    "id": "ee40aa979248",
+    "date": "2026-10-27",
+    "sectors": [
+      "Individuals & consumers",
+      "Financial services"
+    ],
+    "who": "Maryland legislature (new deepfake fraud law)",
+    "who_type": "legislature",
+    "country": "US",
+    "kind": "rule",
+    "title": "Maryland adopts new deepfake fraud law",
+    "summary": "Bethesda Magazine reports that Maryland has a new law targeting deepfake fraud. The summary gives no further provisions.",
+    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1UUENoM25VUDJPbGFqLWJXUkVESE5pTWpZY19fb25PeGJiZ1JpaTY2R2t1VmQ1T2I3MTVDeURVOFZMcVdaRzNiUDFESW9xcjVYMGtQOV9oSV9jVzlqN3VmNWVHSjR0WWk2ay14QkJqcG5kb2dha3JN?oc=5",
+    "source": "Bethesda Magazine",
+    "lang": "en",
+    "added_at": "2026-10-31T11:05:41Z",
+    "origin": "robot"
+  },
+  {
+    "id": "4a19c35c1757",
+    "date": "2026-10-27",
+    "sectors": [
+      "Multiple / cross-sector"
+    ],
+    "who": "Australia (government, per Euronews)",
+    "who_type": "security_agency",
+    "country": "AU",
+    "kind": "warning",
+    "title": "Australia warns of unprecedented AI-enabled cyberattacks",
+    "summary": "Euronews reports that Australia warned of unprecedented cyberattacks using AI. The summary gives no further details.",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOcjl4Y0tWYlljZlpOLTNDVTNXaTJPejJBR2Vxd0xweUxqQnBjR3VFZXlBUFo5VmlPcFJIbFc1UmlHeUFsR3JKSVltTGprbm1RZ2VqNDhfbXV6WXVkcy1RTzN3b0NBUGRqblpxSE9QWDNsOWtna1M0elZHMTdnQzdSbmt2V3hlVElqOXIzZkZWWGdRYktHUkpGY1FBV0RSZmtKREVzMmYzRE13TTRnN1g5Ynl0WjVUVUE?oc=5",
+    "source": "Euronews.com",
+    "lang": "ru",
+    "added_at": "2026-10-31T11:05:41Z",
+    "origin": "robot"
+  },
+  {
+    "id": "cfb84b9d21e2",
+    "date": "2026-10-27",
+    "sectors": [
+      "Multiple / cross-sector"
+    ],
+    "who": "Australian government",
+    "who_type": "head_of_government",
+    "country": "AU",
+    "kind": "warning",
+    "title": "Australia warns of 'unprecedented' AI-powered cyberattacks",
+    "summary": "According to Euronews, Australia has warned of 'unprecedented' AI-powered cyberattacks. The issuing body and further details were not given in the headline.",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQY2hoUlpDdkdzN0c4UjExTkpiQkpQSGZpa0lGcFFyUGd2dzJaLUNYVlFFQkdoa1BVX2RBcUtaWVdDUXduQ3E2QmpLaFBIbmQwbU9HUDdZbE9hazhmaDIyal9sX19fSE5jYlU4MC1BM0RIeThFWVF2cHN1RVZmdmtHV1ZfUWhWS3BUM0N0V3RYZE5JcXExZndRNXo3WTJzQjloZGgzYzZkLUgtWkRibkdKaWxIYlloNXJO?oc=5",
+    "source": "Euronews.com",
+    "lang": "en",
+    "added_at": "2026-10-31T11:05:41Z",
+    "origin": "robot"
+  },
+  {
+    "id": "723087d0a605",
+    "date": "2026-10-27",
+    "sectors": [
+      "Multiple / cross-sector"
+    ],
+    "who": "Australian government",
+    "who_type": "security_agency",
+    "country": "AU",
+    "kind": "warning",
+    "title": "Australia warns of 'unprecedented' AI-driven cyber threat",
+    "summary": "Australia warned of an 'unprecedented' AI threat in cyberspace, per the headline. The issuing body and details are not named in the text provided.",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNLUZOXzFBM3lBbnp0MzJWR3dpVHRWRDJGWnZqZjZVc2xsNUttMDZ6eHZLNUlEcjg2d0YzM3hFc21ZRlR1SXNXazJteTMtdnllTjZTZUw1enUySTZwb3gycWE3eW52dEhPN1B5c25IVS1waWRoM1dRNXNtQjM0emxIRWd5M3RSVzZDRVpIemhvOEZtczJNQW5tTUZfWXhjOWEtRHlwVQ?oc=5",
+    "source": "Free Malaysia Today",
+    "lang": "en",
+    "added_at": "2026-10-31T11:05:41Z",
+    "origin": "robot"
+  },
+  {
+    "id": "8e75a8f12109",
+    "date": "2026-10-27",
+    "sectors": [
+      "Multiple / cross-sector"
+    ],
+    "who": "Australian government",
+    "who_type": "security_agency",
+    "country": "AU",
+    "kind": "warning",
+    "title": "Australia warns hackers use AI to breach systems faster, putting firms at risk",
+    "summary": "Per the headline, hackers are using AI to breach systems faster and Australian businesses face cybersecurity risk. The issuing body is not named in the text provided.",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5PTW01WjhxSnBScjRBT0ZOQ1h0UUZiUEp6OG10YXJDdVZyMTVGMUlYY21fOUF1OTV2Q0I1aGNaeWVRcHFmODhhNmtoRW5CX3BUTmpMNm5VSkl1Q2RMRm9ydUVB0gFnQVVfeXFMTkxZUF9sNjBNbTQwU3RCT2xuR1lWYUxYbXJpTkozdm51ZVBDWnpRdXl3UGFfbzZUMm9FVWplbnBrckFKOG5NNFAwLTRyRVhlTEtDWlJpWW5GQzVzSFZpQzZjd2NyYWVRYw?oc=5",
+    "source": "大紀元",
+    "lang": "zh",
+    "added_at": "2026-10-31T11:05:41Z",
+    "origin": "robot"
+  },
+  {
+    "id": "8df73af7d8c0",
+    "date": "2026-10-27",
+    "sectors": [
+      "Multiple / cross-sector"
+    ],
+    "who": "Australian government",
+    "who_type": "security_agency",
+    "country": "AU",
+    "kind": "warning",
+    "title": "Australia warns AI is escalating the scale and speed of cyberattacks",
+    "summary": "Australia warned that AI is increasing the scale and speed of hacker attacks to an unprecedented level, per the headline. The issuing body is not named in the text provided.",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1EcnZieUVqMF83dUpPeFZZWlF5elh6dTVBTUxPNFNSclJHREgtaGJQV1EzbTRuYTlJaFYwZDl1dF94TGJBVnNCalNmekZoNk9pVmptSl9zNlRnWm4xZjdobWJiVHVLQ21pelE?oc=5",
+    "source": "联合早报",
+    "lang": "zh",
+    "added_at": "2026-10-31T11:05:41Z",
+    "origin": "robot"
+  },
+  {
+    "id": "99395a1c18ff",
+    "date": "2026-10-26",
+    "sectors": [
+      "Financial services"
+    ],
+    "who": "Conference of State Bank Supervisors (CSBS)",
+    "who_type": "regulator",
+    "country": "US",
+    "kind": "advisory",
+    "title": "CSBS outlines adversarial AI threats and defensive steps for financial institutions",
+    "summary": "CSBS outlined adversarial AI threats facing financial institutions and defensive steps they can take, per the JD Supra report.",
+    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNODFPeHp3NWwxX21mZE1MU21yMXE4QVdyaXJJRFB6NU14Z0RJRVFNYkE0azN0U2ozV1hwNmRLbWt0WE9JR0FPUXFtZERJSWIxcjlwemtSU0JKS3BGMkNBVjlsQ0syZ0h6Qzd3ZUd6VGZrZmwxVmZLZW14TUFQRHU0MVRNangzdw?oc=5",
+    "source": "JD Supra",
+    "lang": "en",
+    "added_at": "2026-10-31T11:05:41Z",
+    "origin": "robot"
+  },
+  {
+    "id": "7701c3ac0be4",
+    "date": "2026-10-26",
+    "sectors": [
+      "Energy, industrial & infrastructure",
+      "Multiple / cross-sector"
+    ],
+    "who": "Australian government",
+    "who_type": "security_agency",
+    "country": "AU",
+    "kind": "warning",
+    "title": "Australia raises top alert over AI-enabled cyberattacks on critical infrastructure",
+    "summary": "Australia raised its highest alert over AI cyberattacks, per the headline. Reports say China, Russia and North Korea are alleged to be targeting critical infrastructure. The issuing body is not named in the text.",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA4dVlxRjVWUmhfTUdWSkZ0TlVnTFFvVEM3VnFHT1lsdmtvV1J5c05RYUx3OWpDRzlWVjBqRGdNMEpTc21paE9IeVpkNnRqZmhwdEZBSXplTVJoaVhmdjdxd181VVAtdG8?oc=5",
+    "source": "1688澳洲新闻网",
+    "lang": "zh",
+    "added_at": "2026-10-31T11:05:41Z",
     "origin": "robot"
   },
   {
@@ -1802,25 +2118,6 @@
   {
     "date": "2026-04-28",
     "sectors": [
-      "Financial services",
-      "Government & public sector"
-    ],
-    "who": "Europol",
-    "who_type": "intergovernmental",
-    "country": "EU",
-    "kind": "warning",
-    "title": "Europol IOCTA 2026 says AI, encryption and proxies are expanding cybercrime",
-    "summary": "Europol's Internet Organised Crime Threat Assessment said generative AI helps fraudsters produce more convincing, tailored scams and anticipated that self-directed AI could take over parts of illicit activity.",
-    "url": "https://www.europol.europa.eu/cms/sites/default/files/documents/IOCTA-2026.pdf",
-    "source": "Europol",
-    "id": "seed-RBLTIwMjYucGRm",
-    "lang": "en",
-    "added_at": "2026-10-26T18:29:46Z",
-    "origin": "research"
-  },
-  {
-    "date": "2026-04-28",
-    "sectors": [
       "Defence & security",
       "Retail & consumer brands"
     ],
@@ -1833,6 +2130,25 @@
     "url": "https://eucrim.eu/news/iocta-2026/",
     "source": "eucrim",
     "id": "seed-b2N0YS0yMDI2Lw",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-04-28",
+    "sectors": [
+      "Financial services",
+      "Government & public sector"
+    ],
+    "who": "Europol",
+    "who_type": "intergovernmental",
+    "country": "EU",
+    "kind": "warning",
+    "title": "Europol IOCTA 2026 says AI, encryption and proxies are expanding cybercrime",
+    "summary": "Europol's Internet Organised Crime Threat Assessment said generative AI helps fraudsters produce more convincing, tailored scams and anticipated that self-directed AI could take over parts of illicit activity.",
+    "url": "https://www.europol.europa.eu/cms/sites/default/files/documents/IOCTA-2026.pdf",
+    "source": "Europol",
+    "id": "seed-RBLTIwMjYucGRm",
     "lang": "en",
     "added_at": "2026-10-26T18:29:46Z",
     "origin": "research"
