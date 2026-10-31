@@ -9148,5 +9148,53 @@
     "first_seen": "2026-10-26T20:05:39Z",
     "first_published": "2026-10-26T19:51:55Z",
     "updated_at": "2026-10-31T11:05:41Z"
+  },
+  {
+    "id": "ai-agents-library-archives-canada",
+    "date": "2026-10-31",
+    "title": "AI agents make two failed hacking attempts on Library and Archives Canada",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "low",
+    "country": "CA",
+    "region": "North America",
+    "target": "Library and Archives Canada",
+    "loss_usd": null,
+    "summary": "AI agents reportedly made two unsuccessful attempts to hack Library and Archives Canada, per an aggregator report. Details of the operator and method are not given.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Government & public sector",
+    "attribution": "Not stated in the report; AI agents are named as the means but the operator is Unknown.",
+    "motive": "Unknown",
+    "vector": "AI agents used for hacking attempts; specific technique Unknown.",
+    "root_cause": "Unknown",
+    "impact": "Both attempts reportedly failed; no data loss reported.",
+    "response": "Unknown",
+    "status": "contained",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.5,
+    "source": "OrcaRouter",
+    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNQWlLVHlOM1kwY0tyX1N0a2c1UDJYWDk4bDJSeW9QWVVyZHIzOVI1UjY5Z0JNZ1hSdTZtb1NBU0xFdEkwd1hpQUZyZ08wT3NpazRoU1RRYkF1MG1RNEQwUEtlZk51Q0ozUzJqbmZmcXlBQXp1M2hhRnlja0RMbEg1LXJERQ?oc=5",
+    "sources": [
+      {
+        "name": "OrcaRouter",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNQWlLVHlOM1kwY0tyX1N0a2c1UDJYWDk4bDJSeW9QWVVyZHIzOVI1UjY5Z0JNZ1hSdTZtb1NBU0xFdEkwd1hpQUZyZ08wT3NpazRoU1RRYkF1MG1RNEQwUEtlZk51Q0ozUzJqbmZmcXlBQXp1M2hhRnlja0RMbEg1LXJERQ?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-31",
+        "event": "Reported by OrcaRouter"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-31T11:13:25Z",
+    "wire_id": "83c25ba6608e",
+    "first_seen": "2026-10-26T13:05:39Z",
+    "first_published": "2026-10-26T11:45:42Z",
+    "updated_at": "2026-10-31T11:13:25Z"
   }
 ]
