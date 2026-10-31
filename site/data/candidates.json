@@ -8668,5 +8668,53 @@
     "first_seen": "2026-10-31T04:35:41Z",
     "first_published": "2026-10-31T03:05:05Z",
     "updated_at": "2026-10-31T04:35:41Z"
+  },
+  {
+    "id": "parents-sue-openai-chatgpt-daughter-deat",
+    "date": "2026-10-31",
+    "title": "Parents sue OpenAI over ChatGPT's alleged role in daughter's death",
+    "category": "Chatbot harm",
+    "direction": "ai-harm",
+    "severity": "critical",
+    "country": "US",
+    "region": "North America",
+    "target": "Daughter of the plaintiff parents (individual)",
+    "loss_usd": null,
+    "summary": "Per Movieguide, parents allege in a lawsuit that ChatGPT played a role in their daughter's death. The headline gives no details; the claims are allegations and have not been tested in court.",
+    "actor": "OpenAI (ChatGPT)",
+    "actor_type": "product",
+    "sector": "Individuals & consumers",
+    "attribution": "Allegation by the parents in a lawsuit against OpenAI, as reported by Movieguide; no court ruling is reported.",
+    "motive": "Unknown",
+    "vector": "Alleged interactions between the daughter and ChatGPT; details not given in the headline.",
+    "root_cause": "Unknown; the parents allege ChatGPT contributed to the death, and this has not been established.",
+    "impact": "A young woman died, and her parents allege ChatGPT contributed. The circumstances are not detailed in the headline.",
+    "response": "Parents have filed a lawsuit against OpenAI; OpenAI's response is not reported.",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.5,
+    "source": "Movieguide",
+    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOY2EzVFNwQjZSVlJUYXMzWHQ2NzNJNEVUelc0c0dHRWNPV0ZaYzBKVzJUdWV4aWhzNEgzRDNYSjVUblUtT3JVdUxBdkJnS0lrQ192eTVUV09oWUI2MnAySlQ2dUZBZ3I5dy1rTmk3VU9fempzeTRVTVloaUFMczdjYlAzcWgzcnY0bUxkUVo4c2NyX0pRTm41N3czWjNXQ295eEJRV0lJZk5BSTIzRWJ5S3NrSFlnTnh1bWRVRE1ZcW5DZXU1ZVZMc2E0Z25QZ0lE?oc=5",
+    "sources": [
+      {
+        "name": "Movieguide",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOY2EzVFNwQjZSVlJUYXMzWHQ2NzNJNEVUelc0c0dHRWNPV0ZaYzBKVzJUdWV4aWhzNEgzRDNYSjVUblUtT3JVdUxBdkJnS0lrQ192eTVUV09oWUI2MnAySlQ2dUZBZ3I5dy1rTmk3VU9fempzeTRVTVloaUFMczdjYlAzcWgzcnY0bUxkUVo4c2NyX0pRTm41N3czWjNXQ295eEJRV0lJZk5BSTIzRWJ5S3NrSFlnTnh1bWRVRE1ZcW5DZXU1ZVZMc2E0Z25QZ0lE?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-31",
+        "event": "Reported by Movieguide"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-31T06:35:38Z",
+    "wire_id": "907f3cf290fc",
+    "first_seen": "2026-10-31T06:35:38Z",
+    "first_published": "2026-10-31T04:17:25Z",
+    "updated_at": "2026-10-31T06:35:38Z"
   }
 ]
