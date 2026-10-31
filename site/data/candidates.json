@@ -8716,5 +8716,101 @@
     "first_seen": "2026-10-31T06:35:38Z",
     "first_published": "2026-10-31T04:17:25Z",
     "updated_at": "2026-10-31T06:35:38Z"
+  },
+  {
+    "id": "github-42-repos-ai-settings-malware",
+    "date": "2026-10-31",
+    "title": "Malware planted in 42 GitHub repositories via AI settings",
+    "category": "AI supply chain",
+    "direction": "on-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "42 GitHub repositories",
+    "loss_usd": null,
+    "summary": "Hackers reportedly implanted malware into 42 GitHub repositories by abusing AI-related settings. The headline gives no further detail.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Technology & AI vendors",
+    "attribution": "Unknown; no attribution given in the headline.",
+    "motive": "Unknown",
+    "vector": "AI-related settings or configuration in GitHub repositories, per the headline.",
+    "root_cause": "Unknown",
+    "impact": "Malware reportedly implanted in 42 repositories.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.45,
+    "source": "Techora.ru",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQOXZTa1RMdXdvZW9pTVNzc0dIMFlLWm1ZN2NrR2FUOUlMMElxUW5YOWgyb0d5Szc0cVZGZFBZdXdaTjl5Z3JKX1hLdzdZaGhha3YzZjVsNEpSLXI5Y0lJVXVmd3NSTzhEYUJqYnVnRHh0UjVYaFFOdTdGNkhCeDRXa1pKZ0Q?oc=5",
+    "sources": [
+      {
+        "name": "Techora.ru",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQOXZTa1RMdXdvZW9pTVNzc0dIMFlLWm1ZN2NrR2FUOUlMMElxUW5YOWgyb0d5Szc0cVZGZFBZdXdaTjl5Z3JKX1hLdzdZaGhha3YzZjVsNEpSLXI5Y0lJVXVmd3NSTzhEYUJqYnVnRHh0UjVYaFFOdTdGNkhCeDRXa1pKZ0Q?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-31",
+        "event": "Reported by Techora.ru"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-31T10:05:39Z",
+    "wire_id": "39dfa0ef2de3",
+    "first_seen": "2026-10-31T10:05:39Z",
+    "first_published": "2026-10-31T09:23:21Z",
+    "updated_at": "2026-10-31T10:05:39Z"
+  },
+  {
+    "id": "hugging-face-agent-cluster-breach",
+    "date": "2026-10-31",
+    "title": "Hugging Face breach reportedly involved 17,600 agent actions to reach cluster admin",
+    "category": "Agent hijack",
+    "direction": "on-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "Hugging Face cluster",
+    "loss_usd": null,
+    "summary": "Report says a Hugging Face breach involved 17,600 agent actions and 13 hours to gain cluster admin rights. Details are limited and a follow-up notice reportedly named no one.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Technology & AI vendors",
+    "attribution": "Not stated in the headline; a follow-up report says the notification named no one.",
+    "motive": "Unknown",
+    "vector": "Agent actions escalated to cluster administrator rights; exact method Unknown.",
+    "root_cause": "Unknown",
+    "impact": "Administrator-level access to a Hugging Face cluster reportedly obtained; data affected Unknown.",
+    "response": "A notification was reportedly issued but did not name those responsible.",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.4,
+    "source": "OrcaRouter",
+    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxORk1aS3QtdjFlSFRjR3oyeE12SExucFNaTEVoMGNlRVR5ZlZHcUVYemlZd2JRZWhDc1dna2pTWDlwMlFaS2tyMWhERnVRSEJUV1ZwMnJFNjhiSUt3TF9reW1udzU2RHU1RW5FdnpET2JNSXVxb3QtNlN3R3VZZ2d3Z1JXaw?oc=5",
+    "sources": [
+      {
+        "name": "OrcaRouter",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxORk1aS3QtdjFlSFRjR3oyeE12SExucFNaTEVoMGNlRVR5ZlZHcUVYemlZd2JRZWhDc1dna2pTWDlwMlFaS2tyMWhERnVRSEJUV1ZwMnJFNjhiSUt3TF9reW1udzU2RHU1RW5FdnpET2JNSXVxb3QtNlN3R3VZZ2d3Z1JXaw?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-31",
+        "event": "Reported by OrcaRouter"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-31T10:05:39Z",
+    "wire_id": "6ca0437db585",
+    "first_seen": "2026-10-30T17:05:48Z",
+    "first_published": "2026-10-30T10:41:14Z",
+    "updated_at": "2026-10-31T10:05:39Z"
   }
 ]

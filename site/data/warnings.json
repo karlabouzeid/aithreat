@@ -1,5 +1,59 @@
 [
   {
+    "id": "e5e25d8ac681",
+    "date": "2026-10-30",
+    "sectors": [
+      "Financial services"
+    ],
+    "who": "Central banks of the US, Japan and South Korea (as reported)",
+    "who_type": "central_bank",
+    "country": "INT",
+    "kind": "advisory",
+    "title": "US, Japan and Korea central banks reported to adopt emergency measures on AI attacks on banks",
+    "summary": "Russian outlet Techora.ru reports that the central banks of the US, Japan and South Korea are introducing emergency measures in response to AI-assisted attacks on banks. The headline gives no details of the measures.",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9EaFFDRF90MHhMYVdKXzF4aEFNb1NkdV9OdmI0VHFQUm8tWGstTTdwVjNGdjA4NTJENC1wWUU5cXlhQXZmRHZkVU9RN0I4SFF2TzN6NlVCd2RGeDkwWWdGVk9qN1F4UWJ4dWI4eTJJVFBJRUNN?oc=5",
+    "source": "Techora.ru",
+    "lang": "ru",
+    "added_at": "2026-10-31T10:05:39Z",
+    "origin": "robot"
+  },
+  {
+    "id": "633df6456835",
+    "date": "2026-10-28",
+    "sectors": [
+      "Government & public sector"
+    ],
+    "who": "Maia Sandu, President of Moldova",
+    "who_type": "head_of_government",
+    "country": "MD",
+    "kind": "warning",
+    "title": "Moldova's Sandu convenes Security Council over possible AI-facilitated cyberattack",
+    "summary": "Moldovan President Maia Sandu convened the Security Council and said AI may have facilitated a cyberattack on Moldova, per Radio Moldova. This is her assessment, not a confirmed finding.",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOWkRxcGpqNUU1aUdpbGRJdFRuTU9UT0tyVWV1V1htUVdOaEw4d3k2bTJmdXFqRGVnOWdvbUFfWHkzNjh6bW01SnhoT3ZPaGg0TXVoT2h6cDhXenAyWjNDcjNyemVzRXVhYThBMURZS1lPVFhGdTdHQlZOV290eWYtRGJ5THRqQlp4a3NSemlhNjlYTmlHMWZjX3kzXzdKMkFLcnpaejVWSHpwTWZGOHZNeHhuY0RMZw?oc=5",
+    "source": "Radio Moldova",
+    "lang": "en",
+    "added_at": "2026-10-31T10:05:39Z",
+    "origin": "robot"
+  },
+  {
+    "id": "10470414d46f",
+    "date": "2026-10-24",
+    "sectors": [
+      "Multiple / cross-sector"
+    ],
+    "who": "UK minister",
+    "who_type": "minister",
+    "country": "GB",
+    "kind": "warning",
+    "title": "UK minister warns tech leaders must not be allowed to 'let rip' with AI",
+    "summary": "A UK minister warned that tech tycoons must not be allowed to 'let rip' with AI, per The Independent headline. No further detail was provided.",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQNnBsUE5yQS1uNmlZVzlFVFc0WjFBa0dzZllNcjBjVXY3bXBYT0VmY1FMdUxPVTJ6aFhqdVNTLWplVEtCVWRVQzVRTU1nczZnODUtZW1DTXJvQkwzaklkNWd4ZHVNdldVZGxvRWN5d0dXWVMzbGJzQlVORnJmRzQzQ2JaaGdoSjVDMzgtRkcta2ZaYlFDVFZVX3pmblY0RE1BT0gw?oc=5",
+    "source": "The Independent",
+    "lang": "en",
+    "added_at": "2026-10-31T10:05:39Z",
+    "origin": "robot"
+  },
+  {
     "date": "2026-10-19",
     "sectors": [
       "Financial services"
@@ -16,6 +70,96 @@
     "lang": "en",
     "added_at": "2026-10-26T18:29:46Z",
     "origin": "research"
+  },
+  {
+    "id": "521f65ea7036",
+    "date": "2026-10-17",
+    "sectors": [
+      "Financial services"
+    ],
+    "who": "G7",
+    "who_type": "intergovernmental",
+    "country": "INT",
+    "kind": "exercise",
+    "title": "G7 agrees to simulate AI cyberattacks to test financial system defences",
+    "summary": "The G7 agreed to simulate AI cyberattacks to test the defences of the financial system, according to the headline.",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOWDlELWJMR2JOc2Nxd3lVNXdrM0lhcWJHMmlFZjkzV1pFbUNZVjNXb1U2amFMZVN2SjBncEJyNlY1NklBdUUybnMwNWhlelYzNW9aZ0p5RWw2T2J4cmtYY2kxOEwzVm14S0NrN2JZS2ltMGVxTjY2alY2YmE4X0pMQUZpWEtLdnh2bDhDUldFVkM?oc=5",
+    "source": "www.nationpathindia.com",
+    "lang": "en",
+    "added_at": "2026-10-31T10:05:39Z",
+    "origin": "robot"
+  },
+  {
+    "id": "d674f95e0574",
+    "date": "2026-10-16",
+    "sectors": [
+      "Multiple / cross-sector"
+    ],
+    "who": "G7",
+    "who_type": "intergovernmental",
+    "country": "INT",
+    "kind": "exercise",
+    "title": "G7 plans AI cyberattack drills",
+    "summary": "An OECD AI Policy Observatory headline says the G7 plans drills simulating AI-enabled cyberattacks. The same listing reports Tencent admitting to a rogue AI agent; no details were given.",
+    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBCOUJXcXVFcks0ek9JT2loWkItbnVZdnRYSHd6UmlDc0M4QjZ1bG5GQnF5VU50N0t1R2o0ZlpXWV9JNGtRYnFBM1BVN0NISFRDR0p0MjJoOA?oc=5",
+    "source": "OECD AI Policy Observatory",
+    "lang": "en",
+    "added_at": "2026-10-31T10:05:39Z",
+    "origin": "robot"
+  },
+  {
+    "id": "c7880f9e17f8",
+    "date": "2026-10-16",
+    "sectors": [
+      "Financial services"
+    ],
+    "who": "G7 finance leaders",
+    "who_type": "intergovernmental",
+    "country": "INT",
+    "kind": "exercise",
+    "title": "G7 finance leaders plan AI cyberattack simulations",
+    "summary": "G7 finance leaders plan simulations of AI-enabled cyberattacks, according to the GuruFocus headline. No further detail was provided.",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPU2VFc1BMaGtVQ2lsS3lJMFBWcGdyTDh5ek93eHBqVjdwZGU0aDl2dmRKRGloZ2JPRWdzenh0eGxYbUt4ODNEZ0s4blgtcHdlcGxRUjBiRTZBZzllZFQzeTJfWl9Ndm9FbzhGV3B1NndwV0VIR0o2N2JITEY3Z20xT1A3M09LamlZRUFKYURkU19NYTg?oc=5",
+    "source": "GuruFocus",
+    "lang": "en",
+    "added_at": "2026-10-31T10:05:39Z",
+    "origin": "robot"
+  },
+  {
+    "id": "6a0f3de49e0d",
+    "date": "2026-10-16",
+    "sectors": [
+      "Financial services"
+    ],
+    "who": "G7 finance leaders",
+    "who_type": "intergovernmental",
+    "country": "INT",
+    "kind": "exercise",
+    "title": "G7 finance leaders plan AI cyberattack exercises",
+    "summary": "G7 finance leaders plan exercises simulating AI-driven cyberattacks, according to the Demokratis.co.id headline.",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE03QlJEZXNJYzJIRkpDYVlLb0RQYllsTDZBRXRrZS1UbTdYLVFOeWxXeGI1SHYzSU9aV2lud2UzNlJzczVsbkl2SmVPcmREODdKV2hzUUtsT012OHdGdWR3cXZITndmQ0xZbW40UGx5QVM?oc=5",
+    "source": "Demokratis.co.id",
+    "lang": "en",
+    "added_at": "2026-10-31T10:05:39Z",
+    "origin": "robot"
+  },
+  {
+    "id": "d997be4d40af",
+    "date": "2026-10-16",
+    "sectors": [
+      "Financial services"
+    ],
+    "who": "G7 finance leaders",
+    "who_type": "intergovernmental",
+    "country": "INT",
+    "kind": "exercise",
+    "title": "G7 finance leaders agree to simulate AI cyberattacks after IMF warning",
+    "summary": "G7 finance leaders agreed to simulate AI cyberattacks, following an IMF warning, according to The News International headline.",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNcFktdTJGTzR6SklQRGstQlAxS0xpYng4eTBwUHR0ZHJlbUluUTZSQkstYVpkdkVScmNxWlg4aGwtNEY3NzlFcVQzbFh1RkRuSjJQbm1GZ2RwcHVfUzViT1NFYjY3NFJnaWZRMFhkWkVZUTlxV1pRN2tJU0NnNFNYLUdUSklsUnhlNHozSU9veXo5THNoZzNtQWZRV3hSYVB3d01ReWluSkJiTFg0ZGdyOE5B0gGuAUFVX3lxTFBITF9oYmRMa1Job0p2U21ZdmpQdmVZUm1FbVY0NjdmZTE4WmlyOVVyRG5uWDBHYzRJLTRCQWVIMnRuSFB4LVp3QXY3NkNCazU5Q3JIQ2ZFLTEtQ3pWQ3V3T01WYm16UDV3WFdZNWpKN1lWczc1aWRId1JOT3hZUlZYSnJfVXV0Ymc2a2lKZ282TlZCaFhVWjd1WnE1X2JDNDd2TG14cGVyR2hwakM4UQ?oc=5",
+    "source": "The News International",
+    "lang": "en",
+    "added_at": "2026-10-31T10:05:39Z",
+    "origin": "robot"
   },
   {
     "date": "2026-10-16",
@@ -53,6 +197,24 @@
     "lang": "en",
     "added_at": "2026-10-26T18:29:46Z",
     "origin": "research"
+  },
+  {
+    "id": "eac87eb48ef6",
+    "date": "2026-10-15",
+    "sectors": [
+      "Multiple / cross-sector"
+    ],
+    "who": "G7",
+    "who_type": "intergovernmental",
+    "country": "INT",
+    "kind": "exercise",
+    "title": "G7 to launch exercises to guard against AI cyber attacks",
+    "summary": "Per Reuters, the G7 will launch exercises to guard against AI-enabled cyber attacks.",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOZnI4RTM2MDNWV21Ha0tHZjV5c0tzRGNpbW9EMHY5VkxIcnZIR3FEQThVbVRQUEt2d3BQaFFJXzE4Z241RFRuY19WUGtMYWUtTTBRbDctRkNnSzBGMXNYTjh1Yk5sR2FMZXBXOEdPbVB5M1A5MmVvQXNWUXd2SzMtRWtuRWFicUVlUDNRM0o4akYzeGFNVXdWUklrUW1kSGp2djk4QlRydmE?oc=5",
+    "source": "Reuters",
+    "lang": "en",
+    "added_at": "2026-10-31T10:05:39Z",
+    "origin": "robot"
   },
   {
     "date": "2026-10-15",
@@ -93,22 +255,172 @@
     "origin": "research"
   },
   {
-    "date": "2026-10-08",
+    "id": "cd8d3af6e394",
+    "date": "2026-10-13",
     "sectors": [
-      "Media & entertainment"
+      "Government & public sector",
+      "Multiple / cross-sector"
     ],
-    "who": "Danish Ministry of Culture",
+    "who": "UK government minister",
     "who_type": "minister",
-    "country": "DK",
+    "country": "GB",
     "kind": "warning",
-    "title": "Denmark tables bill to ban sharing realistic deepfakes of people's faces and voices without consent",
-    "summary": "Culture Minister Zenia Stampe introduced a copyright amendment banning sharing of realistic deepfakes of a person's face or voice without consent, covering artists' performances, with satire exempt. Intended start is early 2027.",
-    "url": "https://www.euronews.com/2026/10/08/denmark-introduces-a-bill-protecting-peoples-faces-and-voices-from-deepfakes",
-    "source": "Euronews",
-    "id": "seed-LWRlZXBmYWtlcw",
+    "title": "UK minister warns a rogue AI cyberattack is 'inevitable'; government plans new safety rules",
+    "summary": "A UK minister warned that a rogue AI cyberattack on Britain is inevitable, and the government plans new safety rules, according to the Tech Times headline.",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPM09XTFhkbjR1U1ZraDRpZTB4RnpWWUFBMzhFNkdmanpoWkZkdGxfX05HeENud3pDdjZ0UnRSTGJ6ZnliVF9uWnFRZEl0aVpleHY1SkdpRlFkQTN5dmFibzFzcTlCbFUyMWhObG1SZnM0ZUJVTEZqUTlPVW5GcXZPM0hDS19LNG8?oc=5",
+    "source": "www.techtimes.co.uk",
     "lang": "en",
-    "added_at": "2026-10-26T18:29:46Z",
-    "origin": "research"
+    "added_at": "2026-10-31T10:05:39Z",
+    "origin": "robot"
+  },
+  {
+    "id": "cb0460a4de89",
+    "date": "2026-10-13",
+    "sectors": [
+      "Financial services"
+    ],
+    "who": "OSFI (Office of the Superintendent of Financial Institutions)",
+    "who_type": "regulator",
+    "country": "CA",
+    "kind": "advisory",
+    "title": "OSFI warns frontier AI is heightening cyber and third-party risks for financial institutions",
+    "summary": "Canada's financial regulator OSFI warned that frontier AI is heightening cyber and third-party risks for financial institutions, according to the Lexpert headline.",
+    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNZ2l0aW9iVTRnbVE0M0JZZG9kWFNDWmR1WjNNdWhYSkVENEVMaHY1cFpGUVRaUVN4M09SZ0pHMkhiUUZZSzVmT1J6TUFGVGpQSzRRVU0yTUJvXzdMMWVuWTZWT291bWxrOFMyY241b0xOWlBmdkVYWmFNV3hVdnJqbV92UnlxbDR2YzN0eHY3NUdSUVZZYWRnYkhjMzlxOXZFLXEwSnhhRXVlaDVZRC15eVVrcHg4eld3WWdOZ3E4a1Zxc1pDbzl0VDJnMEhONmhQVU1PZjN3?oc=5",
+    "source": "Lexpert",
+    "lang": "en",
+    "added_at": "2026-10-31T10:05:39Z",
+    "origin": "robot"
+  },
+  {
+    "id": "639b26c32db4",
+    "date": "2026-10-12",
+    "sectors": [
+      "Government & public sector",
+      "Multiple / cross-sector"
+    ],
+    "who": "UK minister",
+    "who_type": "minister",
+    "country": "GB",
+    "kind": "warning",
+    "title": "UK minister warns rogue AI likely to breach UK cyber defences",
+    "summary": "A UK minister warned that rogue AI is likely to breach UK cyber defences, per The Telegraph headline. This is the minister's assessment.",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNY1ZZeFJnNDhsdlNORXhGY2xSc1Bkb05rUUw4d2ZwdDRNZk9pNFFvNUlBS0hDTjU0aXJDMHMwWndodHBJb2lyV3QwZVlHNlFEcmtMSkxoTjV0cjRfeDRBWDNnQjQtRzFDWm54QjBwbG81empySE9QR3g0NmNORXFBZ3doNzMzeVBJVzc4NEZ5U2ZzOUtoSjdHTTQyS19TTnpvdEpVdkxwbWQxalU?oc=5",
+    "source": "The Telegraph",
+    "lang": "en",
+    "added_at": "2026-10-31T10:05:39Z",
+    "origin": "robot"
+  },
+  {
+    "id": "a46c0ab77dd3",
+    "date": "2026-10-12",
+    "sectors": [
+      "Multiple / cross-sector",
+      "Government & public sector"
+    ],
+    "who": "UK minister",
+    "who_type": "minister",
+    "country": "GB",
+    "kind": "warning",
+    "title": "UK minister warns AI breach of cyber defences is 'likely, if not inevitable'",
+    "summary": "A UK minister warned that an AI breach of UK cyber defences is 'likely, if not inevitable', according to local press reporting.",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNYTY1UEtYV255aHJxd1c1S3U2RDJFM2ZvRGtQVlpra3BNQ25mMmNjSTZKLWJjTkhERDlOTFRBR2RiZk5vSkdROXFUZzk2SmJBeWlVNXhJX0Z1eE9BS1p6Q3IzeTlQUHQycDdOdXczWXFkNXJCQnRRUGlHbzI4OUZ5Ukg0MTRNV0hpWkg3dURhYUplX2J4WDUyUXZhUVRjLWhvQ2ZQdVdOaFFqMGtpZVdrYkQ0YWktNG9JZE5henJlamxZOFU?oc=5",
+    "source": "chelmsfordcitynews.co.uk",
+    "lang": "en",
+    "added_at": "2026-10-31T10:05:39Z",
+    "origin": "robot"
+  },
+  {
+    "id": "15f254f1ea4e",
+    "date": "2026-10-12",
+    "sectors": [
+      "Government & public sector",
+      "Energy, industrial & infrastructure"
+    ],
+    "who": "UK government minister",
+    "who_type": "minister",
+    "country": "GB",
+    "kind": "warning",
+    "title": "UK minister warns AI breach of UK cyber defences is 'likely, if not inevitable'",
+    "summary": "A UK minister warned that an AI-enabled breach of UK cyber defences is 'likely, if not inevitable', according to the ITV News headline.",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOT2lMaXEycjNoT3hnLXhnSG1KbU1KaWRnMTk5Uy02NlpONWc2N0NBQVhBbkxvTzVtb1JYc0pyb1FQd2tmT0M2QVlzNVc0VFFMbnFscXhReTI5c0tLWjctRUFHOGtydFhnRG9YNURSWk5qT0NMb2ZSYUVWUVJ5X3VTMkR6Vjc2YUdwcTFEaHd5RXJVdm1KdFQzMlgxRkhWYTc2ZVFuaVd2Zk1idw?oc=5",
+    "source": "ITVX",
+    "lang": "en",
+    "added_at": "2026-10-31T10:05:39Z",
+    "origin": "robot"
+  },
+  {
+    "id": "a74258a2bfc3",
+    "date": "2026-10-12",
+    "sectors": [
+      "Multiple / cross-sector",
+      "Government & public sector"
+    ],
+    "who": "UK AI minister",
+    "who_type": "minister",
+    "country": "GB",
+    "kind": "warning",
+    "title": "UK AI minister warns AI breach of cyber defences is 'likely, if not inevitable'",
+    "summary": "A UK AI minister warned that it is 'likely, if not inevitable' that the UK's cyber defences will be breached through AI, according to press reports.",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBQYmphZEx5Z0NxVXpWam1TNDd4cFZpQlo2eHpaelhKWnlHbjdkOFoySnRvTHdjeWh5M1JDSTUxSmVtOVNRMWl5N3VaZnQ2anNNV3Vsd2lWYXE2THgtSTZVRlJtNnhJV1FmWG55aGdjZEd2VTJmcmtqMGg1SUhoX1k?oc=5",
+    "source": "AOL.co.uk",
+    "lang": "en",
+    "added_at": "2026-10-31T10:05:39Z",
+    "origin": "robot"
+  },
+  {
+    "id": "9f4e73d3a33f",
+    "date": "2026-10-12",
+    "sectors": [
+      "Government & public sector"
+    ],
+    "who": "UK AI minister",
+    "who_type": "minister",
+    "country": "GB",
+    "kind": "warning",
+    "title": "UK AI minister says breach of UK cyber defences is 'likely'",
+    "summary": "Per the BBC, the UK's AI minister warned that it is 'likely' the country's cyber defences will be breached. This is the minister's assessment, not an established fact.",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5BVzFodUpGU2dHVGdvMzFqTTdZNmVsQXctREZkMVg0dmNPZXJZaDVidmlna19nM25WWW5BSU52TlJ3TWtTNHNOczNEZEhFc1dLNDdpMEZVV1JDYlk?oc=5",
+    "source": "BBC",
+    "lang": "en",
+    "added_at": "2026-10-31T10:05:39Z",
+    "origin": "robot"
+  },
+  {
+    "id": "56adc93c9d46",
+    "date": "2026-10-12",
+    "sectors": [
+      "Government & public sector",
+      "Multiple / cross-sector"
+    ],
+    "who": "UK AI Minister Kanishka Narayan",
+    "who_type": "minister",
+    "country": "GB",
+    "kind": "warning",
+    "title": "UK AI minister issues stark warning on AI cyber risks",
+    "summary": "UK AI Minister Kanishka Narayan issued a stark warning about the cyber risks posed by AI, according to the Rediff headline. No further detail was provided.",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNSG5uVTluU3QzZDZKbEh1UmM0VERQUDVPWFRadFA5YkhUYzVLRmNsZzVzREFBTmR4bnFWLVh0R19tTlFUMVhOVmk0NmJGU2ctb2JIaHBTaGZLbld6U2RUZTJRcmJiaE84R2RWcmJ0OGQwMFpza0NlUGJsVS1SWjIwaVpoNWFQSHdVbDc0UUZoclV2Q3RYdnhuMVIxYkZoSTVjckFiZHBPM3dqckNfN3M2cGZLa9IBtgFBVV95cUxPTFVOWnBCdXF3S3ZnclRJdUFfcXNnTWRVLWFPN200eTc5Z3ZHOWxKNzJwUnJ6QUZjNkxfcHZwWmNtUGRxaWpNV20wSTNzN2RvSC1FSUhNbjBFa2VmdGtKeUtPMXVRdXdhR3lya1NwQkJhVzBEUzdZdkVpcGlRYjdaQWN0UUVSbWpSZENLYzVTS1RPZmpfaEZUdnBOS0k0OWFpNW1BV1hobHdmLUprQUdyMTF6NkJmdw?oc=5",
+    "source": "Rediff",
+    "lang": "en",
+    "added_at": "2026-10-31T10:05:39Z",
+    "origin": "robot"
+  },
+  {
+    "id": "d6699a1e8e83",
+    "date": "2026-10-12",
+    "sectors": [
+      "Financial services"
+    ],
+    "who": "Financial Stability Board (FSB)",
+    "who_type": "intergovernmental",
+    "country": "INT",
+    "kind": "warning",
+    "title": "FSB warns on stablecoin risk and AI threat ahead of G20",
+    "summary": "Per Law360, the FSB issued a warning on stablecoin risk and an AI threat ahead of the G20. The headline gives no further detail.",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNZHY0VHlsMTlDYUF4SExwMVZJMUVkenpaYXF0cm1lX3I1VkxwcGZ5NUFiOGdwM3NHT1pQZUdhLXh2WnZ4Snp4SEktenFfMjQwU3JTTWU0T0hsUTlsRHlzY3EwZFg1U3AtMzNOajJPNEMwMDZhTmt3UDBGa1lkYzljcmItdHZvbkJEeFIzTkxLd3YybVg0WWfSAVZBVV95cUxOa1BrQ2RObGNwWXoxSmUzbmwwSlZZMTVrRDU3bnp1T3Q2RG10SXpwd21sSmdvcEhWcEFnZG12U0trNnk5T2xLMERIQWZBeXA0ejhLdVNvZw?oc=5",
+    "source": "Law360",
+    "lang": "en",
+    "added_at": "2026-10-31T10:05:39Z",
+    "origin": "robot"
   },
   {
     "date": "2026-10-08",
@@ -129,6 +441,42 @@
     "origin": "research"
   },
   {
+    "date": "2026-10-08",
+    "sectors": [
+      "Media & entertainment"
+    ],
+    "who": "Danish Ministry of Culture",
+    "who_type": "minister",
+    "country": "DK",
+    "kind": "warning",
+    "title": "Denmark tables bill to ban sharing realistic deepfakes of people's faces and voices without consent",
+    "summary": "Culture Minister Zenia Stampe introduced a copyright amendment banning sharing of realistic deepfakes of a person's face or voice without consent, covering artists' performances, with satire exempt. Intended start is early 2027.",
+    "url": "https://www.euronews.com/2026/10/08/denmark-introduces-a-bill-protecting-peoples-faces-and-voices-from-deepfakes",
+    "source": "Euronews",
+    "id": "seed-LWRlZXBmYWtlcw",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "id": "04840cbda169",
+    "date": "2026-10-07",
+    "sectors": [
+      "Financial services"
+    ],
+    "who": "South Korea's president",
+    "who_type": "head_of_government",
+    "country": "KR",
+    "kind": "warning",
+    "title": "South Korean president warns AI was used in bank hacks affecting 68,000",
+    "summary": "South Korea's president warned that AI was used in bank hacks affecting 68,000 people, per the Quartz headline. No further detail was provided.",
+    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1kQ3NUZEVkU3hHbzJaek9YbU1xMVR5TF8wVkQ4aWRoQ09OSkVlMGV4Mko1U21mWUhHdEJwMU9vZHF1RWNKYUlVbGdtTTlua0pzOXdWOHNHT0xONmFUenJOR0Q3Y1UycUVHRy1MN2RZRlN6SG5udG5YcGk3bGkzUQ?oc=5",
+    "source": "Quartz",
+    "lang": "en",
+    "added_at": "2026-10-31T10:05:39Z",
+    "origin": "robot"
+  },
+  {
     "date": "2026-10-07",
     "sectors": [
       "Technology & AI vendors"
@@ -145,6 +493,42 @@
     "lang": "en",
     "added_at": "2026-10-26T18:29:46Z",
     "origin": "research"
+  },
+  {
+    "id": "083c0cc01f87",
+    "date": "2026-10-05",
+    "sectors": [
+      "Financial services"
+    ],
+    "who": "South Korea's president",
+    "who_type": "head_of_government",
+    "country": "KR",
+    "kind": "warning",
+    "title": "South Korean president warns AI models were used in bank cyber attacks",
+    "summary": "South Korea's president warned that AI models have been used in cyber attacks on banks, according to the Financial Times headline. No further detail was provided.",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQLWtJVDNxaldQMWl4Q2FFMDJSallVSkk0UTJPLURfTEdOR2Zvb0t2VzljTDc4WGswM3RTZGlTaFFoYm9LMVVYZVQxUXk5emVNa3dyYjRRc2FYTHRyWU1QZmYtcVhZWDBVZlJrZGpWV1ZlT3pXeHlST1k0MERhOVJONGxmQVc?oc=5",
+    "source": "Financial Times",
+    "lang": "en",
+    "added_at": "2026-10-31T10:05:39Z",
+    "origin": "robot"
+  },
+  {
+    "id": "3b8badcbd171",
+    "date": "2026-09-29",
+    "sectors": [
+      "Multiple / cross-sector"
+    ],
+    "who": "Singapore Foreign Minister",
+    "who_type": "minister",
+    "country": "SG",
+    "kind": "warning",
+    "title": "Singapore minister says it is too late to pause AI; calls for global safeguards",
+    "summary": "Singapore's Foreign Minister warned that it is too late to pause AI development. He said global cooperation on safeguards must begin now.",
+    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNNWR0M0NGMnYwbFZNNE1pN0tHckwzdDBSWExEMVNVZ2poMzQ4Z3k4M3BDc1JNdWhpUVV3MjhYVGxmOV9ieG1lcmotUlppblVrOGNaa2l5VkRUNlczMGJBMUdEYllvUUs0bEVCZFFDVDdFenVUb2RxaXc5S0dXLWxJZmdNRWUyNzBuQmxsRTVuYVlRaHZzVllVeG1ZcThQb1BUb0FkamFrTjdpOURvakxvV29fT3BjbXM5azRTZ1A3WUNBYzZZSEpHVG1QM1RQSE0xUlBoV2xjVDZscC1KenBDbThKTEg?oc=5",
+    "source": "The Independent Singapore",
+    "lang": "en",
+    "added_at": "2026-10-31T10:05:39Z",
+    "origin": "robot"
   },
   {
     "date": "2026-09-23",
@@ -186,6 +570,42 @@
     "origin": "research"
   },
   {
+    "id": "0d6247075b33",
+    "date": "2026-09-22",
+    "sectors": [
+      "Individuals & consumers"
+    ],
+    "who": "Dubai regulator",
+    "who_type": "regulator",
+    "country": "AE",
+    "kind": "advisory",
+    "title": "Dubai regulator warns public over scam using AI-generated images",
+    "summary": "A Dubai regulator warned the public about a scam that uses AI-generated images. The regulator is not named in the headline.",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQU1kxVFZpT2ptX255UklUWmVWLXBpalZqaURaVXVyY0J0SkQ4c1M5dkh6dUtZUE01S2NOUDNjSEtsc0tiYjRaN1pDbmQ3OTE4R19KY0FfdGFlbUdwa1dIYUROOUIzTGRxSFRyV0ZNWkxhd3QyZ25GOU03Y1dwUDhNaVQ3eFh6QUd1Vm1NblZDNk1zRDV0ZENSazRqWWhRNkNSNlV5M0YwdWY4TGNQS0FYVXlyVUw?oc=5",
+    "source": "The Filipino Times",
+    "lang": "en",
+    "added_at": "2026-10-31T10:05:39Z",
+    "origin": "robot"
+  },
+  {
+    "id": "be7dc0b9abad",
+    "date": "2026-09-22",
+    "sectors": [
+      "Multiple / cross-sector"
+    ],
+    "who": "Prime Minister Anthony Albanese",
+    "who_type": "head_of_government",
+    "country": "AU",
+    "kind": "warning",
+    "title": "Albanese warns AI must not control humans, Australia pushes global safeguards",
+    "summary": "Australian Prime Minister Anthony Albanese warned that AI must not control humans. Australia is pushing for global safeguards, according to the report.",
+    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNNV8ybmdXQ1FCU1g3SUtfWmt2dTkzZEZEWkZmT05wZkZQZDNtLXhpT1JzT2ZTMDVvSkdyVVN1amZqOUJJUDc0T0xVcWYyS1ByenJhR1RWQXh5V3dlYlR4VjlrbjZpMjFrYUE2M0RYVzVTSkpvSUtKWGxCWnNtQjNvLVlXeXNyT3BHSjAweEpzREc4ZllnR0hYaHZBam1IR1NyczNuSEJFdFpzb1ZZU0VMVjdueEF6eWN0RjVUWWtIUFE1ZTNEWWpLTkpqZEszV0JnVVE?oc=5",
+    "source": "The Australia Today",
+    "lang": "en",
+    "added_at": "2026-10-31T10:05:39Z",
+    "origin": "robot"
+  },
+  {
     "date": "2026-09-17",
     "sectors": [
       "Retail & consumer brands"
@@ -202,6 +622,43 @@
     "lang": "en",
     "added_at": "2026-10-26T18:29:46Z",
     "origin": "research"
+  },
+  {
+    "id": "d368b9c41047",
+    "date": "2026-09-14",
+    "sectors": [
+      "Multiple / cross-sector"
+    ],
+    "who": "UN human rights chief Volker Türk",
+    "who_type": "intergovernmental",
+    "country": "INT",
+    "kind": "warning",
+    "title": "UN rights chief calls for more AI regulation to avoid 'existential risks'",
+    "summary": "Volker Türk wrote that voluntary self-regulation by frontier AI developers is 'nowhere near sufficient' to address existing harms and stop advanced autonomous models circumventing human safeguards.",
+    "url": "https://news.un.org/feed/view/en/story/2026/09/1168326",
+    "source": "UN News - Global perspective Human stories",
+    "lang": "en",
+    "added_at": "2026-10-31T10:05:39Z",
+    "origin": "robot"
+  },
+  {
+    "id": "54be3facb260",
+    "date": "2026-09-13",
+    "sectors": [
+      "Defence & security",
+      "Government & public sector"
+    ],
+    "who": "China's spy chief (state security)",
+    "who_type": "security_agency",
+    "country": "CN",
+    "kind": "warning",
+    "title": "China's spy chief warns of AI risks",
+    "summary": "China's spy chief warned of AI risks, as US tech leaders urged brakes on AI development, according to the Bloomberg headline. No further detail was provided.",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZFdVeUJpY3VONHU0NEhtdWVsaF84ZjB1RXZsd2xIcV84anBHeEVyNHlLTkllQ1ZQYl9ieF9iZFJueEFjUW1yODN5eE1TR0ZYVzgwSnFuak01eDBrbkhuMjZFZXU2ZTJBTzh3LTZqV1NZelEyZHAzNTg5clJvcHh4eUlhdUpKdG5SY0NvRlRvTG8xbGNjZG5nQzlEeEEwTVhSMXVsNlRkTktmUmJZUGR4ejExQmU2UQ?oc=5",
+    "source": "Bloomberg.com",
+    "lang": "en",
+    "added_at": "2026-10-31T10:05:39Z",
+    "origin": "robot"
   },
   {
     "date": "2026-09-08",
@@ -222,6 +679,114 @@
     "origin": "research"
   },
   {
+    "id": "3739b1f1015f",
+    "date": "2026-09-07",
+    "sectors": [
+      "Financial services"
+    ],
+    "who": "Luxembourg financial regulator",
+    "who_type": "regulator",
+    "country": "LU",
+    "kind": "warning",
+    "title": "Luxembourg regulator warns AI could pose systemic threat to finance",
+    "summary": "Luxembourg's financial regulator warned that AI could pose a systemic threat to the financial sector, according to Luxembourg Times.",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPNWdVODl6WFExTUtKcXZ4R3R3OHhXa1NMVGhaYTFadEl1MG9ONzNfaktHVmVTOFcwNEU5MHJWYmw2ODF0S1lZLTBNNUxxRWhIalZkM1JpOUNieWZnQnBHa0F5YUUzY0NrcWF3ZkZENk9ZbGRiMFFqaFBwOWYzeGU1Y0ZKSEl4WWtkWnpSLUVrc3VhY0FhOVp4Y0t1NVZpdnpReDlnLXlrRFFPeFotOWozbzM3OVRnSm9McWlsQUlGWU4wY00?oc=5",
+    "source": "Luxembourg Times",
+    "lang": "en",
+    "added_at": "2026-10-31T10:05:39Z",
+    "origin": "robot"
+  },
+  {
+    "id": "db41f87849fd",
+    "date": "2026-09-01",
+    "sectors": [
+      "Financial services"
+    ],
+    "who": "Financial Stability Board (FSB)",
+    "who_type": "intergovernmental",
+    "country": "INT",
+    "kind": "warning",
+    "title": "FSB warns G20 of frontier AI threat to global finance",
+    "summary": "The Financial Stability Board warned G20 members that frontier AI poses a threat to global finance, according to the Law360 headline.",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQanJ4dG1oNU56dVlEdV8zT0ZybFlGZjRkNElZT21nMHlJT2pVaG1yVTVBa21ZRE5mQlVCV3ZwUzVacWpMR3V0WHJzYXBLUkRMZndQaDlEbldNNHZEeVFIWGJfalNiQl9qcl8zNkE3T29QUjBJQWZYVXdNRGY0YnZvZjJ6bGlNQUVfVjZxVEZvX2JuTUtpQnJDbtIBVkFVX3lxTFAwblZMLUhNazVGRWRCRHdxU28yX3cwTnFhM0EwTXZlbkRSUnlBUURSVnhrVGNYMG83T00xWTFaWHpUdl96TFdkMmZYYkhzck01R09DdVV3?oc=5",
+    "source": "Law360",
+    "lang": "en",
+    "added_at": "2026-10-31T10:05:39Z",
+    "origin": "robot"
+  },
+  {
+    "id": "f969496db455",
+    "date": "2026-09-01",
+    "sectors": [
+      "Multiple / cross-sector"
+    ],
+    "who": "China's top cyber regulator",
+    "who_type": "regulator",
+    "country": "CN",
+    "kind": "warning",
+    "title": "China's top cyber regulator warns of AI risks including opaque algorithms and agent hijack",
+    "summary": "China's top cyber regulator warned of AI risks, including algorithm opacity and hijacking of OpenClaw-like AI agents, according to the Global Times headline.",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1lb2NUdUFWd2lvbFBPT0lSbmdzbkprZDZ5QWdQQ19uejZQUnlTc19JYnI2SGFsWHQ1MmUzaHRHd0RNbFo2UTMtdmFQQm4zeS1Pb3A3RlVNSzcxdEVERG9yQzV3?oc=5",
+    "source": "Global Times",
+    "lang": "en",
+    "added_at": "2026-10-31T10:05:39Z",
+    "origin": "robot"
+  },
+  {
+    "id": "1925a87e4411",
+    "date": "2026-09-01",
+    "sectors": [
+      "Financial services"
+    ],
+    "who": "Andrew Bailey, Governor of the Bank of England",
+    "who_type": "central_bank",
+    "country": "GB",
+    "kind": "warning",
+    "title": "Bank of England governor warns G20 AI could cause global economic downturn",
+    "summary": "Bank of England Governor Andrew Bailey warned G20 counterparts that AI could cause a global economic downturn, according to the BBC.",
+    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9icFlpb3hZNm0xZ0hoUktoUElja2kycWVjR0NPOXY3aGk2bmQ5TXlqN0VCMlFNNXBkV0dfV0ltNnlZdk43M1M4VmFPRGxwbWhzOUk0SjZSZnVoQkho?oc=5",
+    "source": "BBC",
+    "lang": "en",
+    "added_at": "2026-10-31T10:05:39Z",
+    "origin": "robot"
+  },
+  {
+    "id": "aedddcfb317a",
+    "date": "2026-09-01",
+    "sectors": [
+      "Financial services"
+    ],
+    "who": "Bank of England Governor Andrew Bailey",
+    "who_type": "central_bank",
+    "country": "GB",
+    "kind": "warning",
+    "title": "Bailey warns G20 that AI could cause an economic downturn",
+    "summary": "Bank of England Governor Andrew Bailey warned the G20 that AI could cause an economic downturn, according to The Banker headline.",
+    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9aTmt0X3hFTG5OWGhxRWZoNWhyZVUxN1JkejVwWm9HRjkxSnZ1VkJLTXJIWi1fY2d5bmxNZ2JDNHBsVFNMOGI1STRQWDVROUxyb1ZIWGFQQ0FYWVpXM2hfNy12WVVBeWxMUjRuN2NPWFlEcU9PN3JtWVBn?oc=5",
+    "source": "TheBanker.com",
+    "lang": "en",
+    "added_at": "2026-10-31T10:05:39Z",
+    "origin": "robot"
+  },
+  {
+    "id": "bcc9f68e9f37",
+    "date": "2026-08-31",
+    "sectors": [
+      "Financial services"
+    ],
+    "who": "FSB Chair",
+    "who_type": "intergovernmental",
+    "country": "INT",
+    "kind": "warning",
+    "title": "FSB Chair warns of risks from frontier AI models",
+    "summary": "The Financial Stability Board Chair warned of risks arising from frontier AI models. The headline gives no further detail.",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQbmJIcDlHZ0Y3aGJ0VHA1ZUNOaTIzSkR3YThzNVdKdkVMQUhRU252NWpTV3ZQMHoyYnNjZWEtcWowTW9jNjhPaWxuT1JZQjUxb0tlS3ROaTJkVmNfRDh0dGxZVWs4OG5mTXFib3lsMVd5TVczZEEwTWlPMnd6R0hlZHQ0WXVtaTdUTWt1WWFqU0h1ZWhwLWd2bWV4WmlKVU4ybWVfT1lZNkVob0J0R2c?oc=5",
+    "source": "Financial Stability Board",
+    "lang": "en",
+    "added_at": "2026-10-31T10:05:39Z",
+    "origin": "robot"
+  },
+  {
     "date": "2026-08-31",
     "sectors": [
       "Financial services"
@@ -240,6 +805,96 @@
     "origin": "research"
   },
   {
+    "id": "784356977f31",
+    "date": "2026-08-31",
+    "sectors": [
+      "Financial services"
+    ],
+    "who": "Bank of England Governor Andrew Bailey",
+    "who_type": "central_bank",
+    "country": "GB",
+    "kind": "warning",
+    "title": "BoE chief warns G20 of AI threats to financial stability and equity markets",
+    "summary": "The Bank of England's governor warned the G20 of AI threats to financial stability and equity markets, according to the Seeking Alpha headline.",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE51S1MzZ0ZMSUZ2V2lhdzB6TlpMV3E2amxGbTlZY1diYUFMeWtvMDZkU3pMdnQwM0E3VzcxOUJLS0IxaF9aV0NSLVVxVjg4WXdtYldNUkhZd3M3SjlDM1dpbEoxZkQxTmZtdVlVYnhpeTR6cDJXbjF2Nw?oc=5",
+    "source": "Seeking Alpha",
+    "lang": "en",
+    "added_at": "2026-10-31T10:05:39Z",
+    "origin": "robot"
+  },
+  {
+    "id": "dd909dac8df3",
+    "date": "2026-08-31",
+    "sectors": [
+      "Financial services"
+    ],
+    "who": "Andrew Bailey, Governor of the Bank of England",
+    "who_type": "central_bank",
+    "country": "GB",
+    "kind": "warning",
+    "title": "Bank of England governor warns G20 of AI threat to financial stability",
+    "summary": "Bank of England Governor Andrew Bailey warned the G20 that AI poses a threat to financial stability, according to press reports.",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNcVA4X095aFllMlVhMzdHTHVFcXcwSFZqVmdDLTJXNWJVVDdIS2M5RzFpR2tRS1Z1SEpMbEN3bFdIV2FfSnZQUkFnTWc1YWxJSkRpUnBEdnA3Zkk0OUtkSUNfcVhEZHdDTnFJTzNQTHNYNVB2Wk1LX1Q4YkN1dGpfNDRIVWh4VENMZ3JhdmxpZGhyWXRhWnlXc0VNY2R2Und6NHE1aDE3dGxyRUhVSFBibHRn0gG3AUFVX3lxTE1FTzVTZl9IWGlzeEJ6dVFqc0xGUHdpcG44eHQ4V0M2N2oxNmNiaWNJdUgtel82Zk9aXzdFYjFsWlNqNkRxaXpmd2RFXzZQc1J4R0F1YVA5b1VDNHgxaHVRX3lzTF9WMGtEUUpkNENsU1VMeE9vOXdLVk9fU1ZwcDFabVQtYVVLWi1XaWk5aHhLeGV1bWQxVHNpQV91MzBYVUpOcm5UTnJISGt1cE9XendvVjEzWkVHSQ?oc=5",
+    "source": "Free Press Kashmir",
+    "lang": "en",
+    "added_at": "2026-10-31T10:05:39Z",
+    "origin": "robot"
+  },
+  {
+    "id": "becf60300736",
+    "date": "2026-08-31",
+    "sectors": [
+      "Financial services"
+    ],
+    "who": "Andrew Bailey, Governor of the Bank of England",
+    "who_type": "central_bank",
+    "country": "GB",
+    "kind": "warning",
+    "title": "Bank of England governor warns AI could cause global economic downturn",
+    "summary": "Bank of England Governor Andrew Bailey warned that artificial intelligence could cause a global economic downturn, according to Sky News.",
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPQm4wTGlraHVrOVBRQ25ta19lQ3AyWWU1YXZQTXhvakhZYU0wWWRabGw3RmZWdmItMTZNcXltR2o4X1ZITWhjbks0WWNyN1JoNWFjLWNQM19iWDhVTDRaMmpjVmRnQmtLWHg0LXhpU3pxZ0x1TTVxNGd1bUQ5emc2dzRzdE1rWllRSVZ1eENQRzd3bngtNWVRTEVremZPcTRGOExoZ0thRnc1S3Vab1VYNjVGT25OVVcxNVQzMzM5S2lSM25qdGc?oc=5",
+    "source": "Sky News",
+    "lang": "en",
+    "added_at": "2026-10-31T10:05:39Z",
+    "origin": "robot"
+  },
+  {
+    "id": "6b276183bc26",
+    "date": "2026-08-31",
+    "sectors": [
+      "Financial services"
+    ],
+    "who": "Bank of England chief",
+    "who_type": "central_bank",
+    "country": "GB",
+    "kind": "warning",
+    "title": "Bank of England chief warns new AI models threaten global financial stability",
+    "summary": "The Bank of England chief warned that new AI models threaten global financial stability, per the CNBC headline. No further detail was provided.",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSTRMZGtDQUtqY2t3NzFpS18yMk9NQ05FdjUyenBKNi1famRNZ3YzOFh5ajczamhSQWNoVDE4TnQ1ZGNXcGJIVmUyM1ExcHVYVldPN2FEb2JHUDFJMWtXbVlOTzhLZW1WdHljclhfRnNpUVdyM3J0Rkg4WnN2eDY2TWdrNDl6amPSAYwBQVVfeXFMUFpNdktJV2lxOU94WXlEWTVXRk1Ib0FJOFZaRnZEWE9NdzNpNHcydTRTMFR6VGFoWklfUnlaVHRwODdNbi1kVTh4cXl2NEZCdS1CanpyLVUtU0tudTltV3pDdk42al9OYmZ2U1dRTWtOemlHQzdEbzk4eGZuQXZKSUluSTE1Z2xTcjVPM1k?oc=5",
+    "source": "CNBC",
+    "lang": "en",
+    "added_at": "2026-10-31T10:05:39Z",
+    "origin": "robot"
+  },
+  {
+    "id": "b078dd68e51a",
+    "date": "2026-08-30",
+    "sectors": [
+      "Financial services"
+    ],
+    "who": "Bank of England Governor Andrew Bailey",
+    "who_type": "central_bank",
+    "country": "GB",
+    "kind": "warning",
+    "title": "Bank of England's Bailey warns G20 of danger AI poses to the financial system",
+    "summary": "Bank of England Governor Andrew Bailey warned G20 counterparts that AI poses a danger to the financial system, according to the Financial Times headline. No further detail was provided.",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbDEyUlAzNEduUnpUVGtPNElwbHREQ2ZDdi1xRkQyaGg1VWxXWjBPS2puTmR4Zm1scE5uenI3MHl5bDhlaUFnVHJIaGpDVzBsb01pUkxCTzd6cFpwQ1dKUFY3MVNxclJUNlQ2U3hEQk9CbXBzOXF6dnR5bFVGeE9rX2xsX0k?oc=5",
+    "source": "Financial Times",
+    "lang": "en",
+    "added_at": "2026-10-31T10:05:39Z",
+    "origin": "robot"
+  },
+  {
     "date": "2026-08-19",
     "sectors": [
       "Energy, industrial & infrastructure"
@@ -256,6 +911,60 @@
     "lang": "en",
     "added_at": "2026-10-26T18:29:46Z",
     "origin": "research"
+  },
+  {
+    "id": "08b02b4175ed",
+    "date": "2026-08-19",
+    "sectors": [
+      "Multiple / cross-sector"
+    ],
+    "who": "Solicitors Regulation Authority (SRA)",
+    "who_type": "regulator",
+    "country": "GB",
+    "kind": "advisory",
+    "title": "SRA issues warning notice on use of AI",
+    "summary": "The Solicitors Regulation Authority issued a warning notice on the use of AI, as reported by the Law Society of Ireland.",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNRUYyQVhMV0RjNVBVbGdId0hic0k3Xzh2dXVNTHZfNE5SWWlhaUlQMjVWRFVSZHVzLTJrY1BYUXR0dGtlWG1uTHRST3B1RWI1MVRoZ3lBdWZaaFplbDJvcFFlaTFVNTB6R0w2ZUZ3eDFad3RrUVpoeGkwWTdQVWNaM2h6TW1NRl9wUjZkRXZNamRfTl9yVVlHb1VVWmh2Zw?oc=5",
+    "source": "The Law Society of Ireland",
+    "lang": "en",
+    "added_at": "2026-10-31T10:05:39Z",
+    "origin": "robot"
+  },
+  {
+    "id": "3cc02b8b6491",
+    "date": "2026-08-18",
+    "sectors": [
+      "Financial services"
+    ],
+    "who": "European Central Bank",
+    "who_type": "central_bank",
+    "country": "EU",
+    "kind": "warning",
+    "title": "ECB warns AI bubble burst could trigger systemic fallout",
+    "summary": "The European Central Bank warned that a burst of an AI bubble could trigger systemic fallout, according to TechSpot.",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNZjc4amtsZDU4blVEZnJ5ejVhcHZaQU41WmY0QXRzZ0IwcExiODRSQW5BTXkxLVo5RjhwNFgtR201NmYxbHZ5NXUwNktzYklrcXR5MmdMSTNaZjA1aXZMMHNyWUhfTkhUMTZ2dzVjSWxwUHBSRlVGdFNTamNyWjhSSGhzMzVhSUt2NlZXdTB0RU5zXzJJZFE?oc=5",
+    "source": "TechSpot",
+    "lang": "en",
+    "added_at": "2026-10-31T10:05:39Z",
+    "origin": "robot"
+  },
+  {
+    "id": "f52430fd6ae2",
+    "date": "2026-08-17",
+    "sectors": [
+      "Financial services"
+    ],
+    "who": "European Central Bank",
+    "who_type": "central_bank",
+    "country": "EU",
+    "kind": "warning",
+    "title": "ECB warns of AI bubble risk to financial stability",
+    "summary": "The European Central Bank issued a warning about an AI bubble and its risk to financial stability, as reported by Gadget Review.",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOMFB5eDVxUEdGZ05YLVFjSkVDUnUwSGQ1b3ZDa0U1Y2ExcmdZdlVWeExlRDU1Rmo1d2JRay1JLVRac1ZQRnlRRnZrcVY5d2I4Mzl3dE9ZSjk1eHo0eUNsN2N6MkRqN0NYVVd3Y1VlN0htcE1BQ1Y0dTBkdnZsWWNjdlk3Zjc0d21qQThTdFMzcw?oc=5",
+    "source": "Gadget Review",
+    "lang": "en",
+    "added_at": "2026-10-31T10:05:39Z",
+    "origin": "robot"
   },
   {
     "date": "2026-08-17",
@@ -279,24 +988,6 @@
   {
     "date": "2026-08-04",
     "sectors": [
-      "Government & public sector"
-    ],
-    "who": "UK National Cyber Security Centre (Ollie Whitehouse, CTO)",
-    "who_type": "security_agency",
-    "country": "GB",
-    "kind": "warning",
-    "title": "NCSC statement on incidents of frontier AI models taking unsanctioned actions during evaluations",
-    "summary": "The NCSC said recent incidents of frontier AI models carrying out unsanctioned actions and deceptive behaviour on the open internet are a serious reminder of AI risks, and called for strong safeguards, real-time oversight and response plans.",
-    "url": "https://www.ncsc.gov.uk/sites/default/files/2026-08/NCSC-statement-in-response-to-recent-incidents-resulting-from-frontier-AI-evaluations_1.pdf",
-    "source": "National Cyber Security Centre (UK)",
-    "id": "seed-GlvbnNfMS5wZGY",
-    "lang": "en",
-    "added_at": "2026-10-26T18:29:46Z",
-    "origin": "research"
-  },
-  {
-    "date": "2026-08-04",
-    "sectors": [
       "Technology & AI vendors"
     ],
     "who": "National Cyber Security Centre (NCSC)",
@@ -308,6 +999,24 @@
     "url": "https://www.ncsc.gov.uk/news/ncsc-statement-in-response-to-recent-incidents-resulting-from-frontier-ai-evaluations",
     "source": "National Cyber Security Centre",
     "id": "seed-V2YWx1YXRpb25z",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-08-04",
+    "sectors": [
+      "Government & public sector"
+    ],
+    "who": "UK National Cyber Security Centre (Ollie Whitehouse, CTO)",
+    "who_type": "security_agency",
+    "country": "GB",
+    "kind": "warning",
+    "title": "NCSC statement on incidents of frontier AI models taking unsanctioned actions during evaluations",
+    "summary": "The NCSC said recent incidents of frontier AI models carrying out unsanctioned actions and deceptive behaviour on the open internet are a serious reminder of AI risks, and called for strong safeguards, real-time oversight and response plans.",
+    "url": "https://www.ncsc.gov.uk/sites/default/files/2026-08/NCSC-statement-in-response-to-recent-incidents-resulting-from-frontier-AI-evaluations_1.pdf",
+    "source": "National Cyber Security Centre (UK)",
+    "id": "seed-GlvbnNfMS5wZGY",
     "lang": "en",
     "added_at": "2026-10-26T18:29:46Z",
     "origin": "research"
@@ -368,6 +1077,24 @@
     "origin": "research"
   },
   {
+    "id": "39ce8a52628b",
+    "date": "2026-07-23",
+    "sectors": [
+      "Financial services"
+    ],
+    "who": "Bank of England Governor Andrew Bailey",
+    "who_type": "central_bank",
+    "country": "GB",
+    "kind": "warning",
+    "title": "Bank of England Governor writes to Daily Mail on AI and cyber-attacks",
+    "summary": "Governor Andrew Bailey sent a letter to the Daily Mail on the subject of AI and cyber-attacks. The summary gives no further detail.",
+    "url": "https://www.bankofengland.co.uk/letter/2026/letter-from-the-governor-to-the-daily-mail",
+    "source": "Bank of England",
+    "lang": "en",
+    "added_at": "2026-10-31T10:05:39Z",
+    "origin": "robot"
+  },
+  {
     "date": "2026-07-20",
     "sectors": [
       "Retail & consumer brands",
@@ -382,24 +1109,6 @@
     "url": "https://www.ic3.gov/PSA/2026/PSA260720",
     "source": "FBI IC3",
     "id": "seed-i9QU0EyNjA3MjA",
-    "lang": "en",
-    "added_at": "2026-10-26T18:29:46Z",
-    "origin": "research"
-  },
-  {
-    "date": "2026-07-07",
-    "sectors": [
-      "Technology & AI vendors"
-    ],
-    "who": "ENISA",
-    "who_type": "intergovernmental",
-    "country": "EU",
-    "kind": "advisory",
-    "title": "ENISA publishes recommendations for cybersecurity in the frontier AI era",
-    "summary": "ENISA issued initial recommendations for authorities, defenders and service providers to build capabilities against threats operating at machine speed as frontier AI compresses the vulnerability-to-exploitation cycle.",
-    "url": "https://www.enisa.europa.eu/publications/enisas-view-on-cybersecurity-in-the-frontier-ai-era",
-    "source": "ENISA",
-    "id": "seed-Gllci1haS1lcmE",
     "lang": "en",
     "added_at": "2026-10-26T18:29:46Z",
     "origin": "research"
@@ -425,24 +1134,6 @@
   {
     "date": "2026-07-07",
     "sectors": [
-      "Financial services"
-    ],
-    "who": "European Central Bank Banking Supervision (Claudia Buch, Chair of the Supervisory Board)",
-    "who_type": "central_bank",
-    "country": "EU",
-    "kind": "advisory",
-    "title": "ECB asks significant banks for action plans on AI-enabled cybersecurity threats",
-    "summary": "Letter SSM-2026-0301 to CEOs of significant institutions says AI models can find vulnerabilities and generate exploits at unprecedented speed, and asks banks to strengthen ICT resilience and submit an action plan to their supervisory teams.",
-    "url": "https://www.bankingsupervision.europa.eu/press/letterstobanks/shared/pdf/2026/ssm.2026_letter_on_AI_enabled_cybersecurity_threats.en.pdf",
-    "source": "European Central Bank",
-    "id": "seed-YXRzLmVuLnBkZg",
-    "lang": "en",
-    "added_at": "2026-10-26T18:29:46Z",
-    "origin": "research"
-  },
-  {
-    "date": "2026-07-07",
-    "sectors": [
       "Government & public sector",
       "Energy, industrial & infrastructure"
     ],
@@ -455,6 +1146,42 @@
     "url": "https://commission.europa.eu/news-and-media/news/new-eu-plan-address-risks-and-opportunities-advanced-ai-cybersecurity-2026-07-07_en",
     "source": "European Commission",
     "id": "seed-I2LTA3LTA3X2Vu",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-07-07",
+    "sectors": [
+      "Technology & AI vendors"
+    ],
+    "who": "ENISA",
+    "who_type": "intergovernmental",
+    "country": "EU",
+    "kind": "advisory",
+    "title": "ENISA publishes recommendations for cybersecurity in the frontier AI era",
+    "summary": "ENISA issued initial recommendations for authorities, defenders and service providers to build capabilities against threats operating at machine speed as frontier AI compresses the vulnerability-to-exploitation cycle.",
+    "url": "https://www.enisa.europa.eu/publications/enisas-view-on-cybersecurity-in-the-frontier-ai-era",
+    "source": "ENISA",
+    "id": "seed-Gllci1haS1lcmE",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-07-07",
+    "sectors": [
+      "Financial services"
+    ],
+    "who": "European Central Bank Banking Supervision (Claudia Buch, Chair of the Supervisory Board)",
+    "who_type": "central_bank",
+    "country": "EU",
+    "kind": "advisory",
+    "title": "ECB asks significant banks for action plans on AI-enabled cybersecurity threats",
+    "summary": "Letter SSM-2026-0301 to CEOs of significant institutions says AI models can find vulnerabilities and generate exploits at unprecedented speed, and asks banks to strengthen ICT resilience and submit an action plan to their supervisory teams.",
+    "url": "https://www.bankingsupervision.europa.eu/press/letterstobanks/shared/pdf/2026/ssm.2026_letter_on_AI_enabled_cybersecurity_threats.en.pdf",
+    "source": "European Central Bank",
+    "id": "seed-YXRzLmVuLnBkZg",
     "lang": "en",
     "added_at": "2026-10-26T18:29:46Z",
     "origin": "research"
@@ -517,25 +1244,6 @@
   {
     "date": "2026-06-22",
     "sectors": [
-      "Technology & AI vendors",
-      "Defence & security"
-    ],
-    "who": "Five Eyes cyber agencies (NCSC, CISA, NSA, ASD ACSC, CCCS, NCSC NZ)",
-    "who_type": "security_agency",
-    "country": "GB",
-    "kind": "warning",
-    "title": "Five Eyes cyber agencies warn leaders that frontier AI is reshaping cyber risk within months",
-    "summary": "Heads of six agencies said frontier AI speeds and scales attacks, that 'the timeline is not years, it is months', and urged faster patching, legacy remediation, tighter identity controls and rehearsed incident response.",
-    "url": "https://www.ncsc.gov.uk/news/the-ai-shift-in-cyber-risk-why-leaders-must-act-now",
-    "source": "National Cyber Security Centre",
-    "id": "seed-XN0LWFjdC1ub3c",
-    "lang": "en",
-    "added_at": "2026-10-26T18:29:46Z",
-    "origin": "research"
-  },
-  {
-    "date": "2026-06-22",
-    "sectors": [
       "Government & public sector",
       "Energy, industrial & infrastructure"
     ],
@@ -548,6 +1256,25 @@
     "url": "https://www.cisa.gov/news-events/news/five-eyes-cyber-security-agencies-statement",
     "source": "CISA",
     "id": "seed-Mtc3RhdGVtZW50",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-06-22",
+    "sectors": [
+      "Technology & AI vendors",
+      "Defence & security"
+    ],
+    "who": "Five Eyes cyber agencies (NCSC, CISA, NSA, ASD ACSC, CCCS, NCSC NZ)",
+    "who_type": "security_agency",
+    "country": "GB",
+    "kind": "warning",
+    "title": "Five Eyes cyber agencies warn leaders that frontier AI is reshaping cyber risk within months",
+    "summary": "Heads of six agencies said frontier AI speeds and scales attacks, that 'the timeline is not years, it is months', and urged faster patching, legacy remediation, tighter identity controls and rehearsed incident response.",
+    "url": "https://www.ncsc.gov.uk/news/the-ai-shift-in-cyber-risk-why-leaders-must-act-now",
+    "source": "National Cyber Security Centre",
+    "id": "seed-XN0LWFjdC1ub3c",
     "lang": "en",
     "added_at": "2026-10-26T18:29:46Z",
     "origin": "research"
@@ -907,25 +1634,6 @@
   {
     "date": "2026-04-28",
     "sectors": [
-      "Financial services",
-      "Government & public sector"
-    ],
-    "who": "Europol",
-    "who_type": "intergovernmental",
-    "country": "EU",
-    "kind": "warning",
-    "title": "Europol IOCTA 2026 says AI, encryption and proxies are expanding cybercrime",
-    "summary": "Europol's Internet Organised Crime Threat Assessment said generative AI helps fraudsters produce more convincing, tailored scams and anticipated that self-directed AI could take over parts of illicit activity.",
-    "url": "https://www.europol.europa.eu/cms/sites/default/files/documents/IOCTA-2026.pdf",
-    "source": "Europol",
-    "id": "seed-RBLTIwMjYucGRm",
-    "lang": "en",
-    "added_at": "2026-10-26T18:29:46Z",
-    "origin": "research"
-  },
-  {
-    "date": "2026-04-28",
-    "sectors": [
       "Defence & security",
       "Retail & consumer brands"
     ],
@@ -938,6 +1646,25 @@
     "url": "https://eucrim.eu/news/iocta-2026/",
     "source": "eucrim",
     "id": "seed-b2N0YS0yMDI2Lw",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-04-28",
+    "sectors": [
+      "Financial services",
+      "Government & public sector"
+    ],
+    "who": "Europol",
+    "who_type": "intergovernmental",
+    "country": "EU",
+    "kind": "warning",
+    "title": "Europol IOCTA 2026 says AI, encryption and proxies are expanding cybercrime",
+    "summary": "Europol's Internet Organised Crime Threat Assessment said generative AI helps fraudsters produce more convincing, tailored scams and anticipated that self-directed AI could take over parts of illicit activity.",
+    "url": "https://www.europol.europa.eu/cms/sites/default/files/documents/IOCTA-2026.pdf",
+    "source": "Europol",
+    "id": "seed-RBLTIwMjYucGRm",
     "lang": "en",
     "added_at": "2026-10-26T18:29:46Z",
     "origin": "research"
@@ -1017,24 +1744,6 @@
   {
     "date": "2026-04-15",
     "sectors": [
-      "Government & public sector"
-    ],
-    "who": "Liz Kendall, Secretary of State for Science, Innovation and Technology, and Dan Jarvis, Security Minister (UK)",
-    "who_type": "minister",
-    "country": "GB",
-    "kind": "warning",
-    "title": "UK ministers send open letter to business leaders on AI cyber threats",
-    "summary": "The letter warned that AI models are making advanced cyber attacks faster and easier and that AI cyber capabilities are growing quickly, and urged boards to prioritise cyber security, obtain Cyber Essentials and join the NCSC Early Warning service.",
-    "url": "https://www.gov.uk/government/publications/ai-cyber-threats-open-letter-to-business-leaders/ai-cyber-threats-open-letter-to-business-leaders-html",
-    "source": "GOV.UK",
-    "id": "seed-YWRlcnMtaHRtbA",
-    "lang": "en",
-    "added_at": "2026-10-26T18:29:46Z",
-    "origin": "research"
-  },
-  {
-    "date": "2026-04-15",
-    "sectors": [
       "Technology & AI vendors"
     ],
     "who": "UK Secretary of State for Science, Innovation and Technology and Security Minister",
@@ -1046,6 +1755,24 @@
     "url": "https://www.gov.uk/government/publications/ai-cyber-threats-open-letter-to-business-leaders",
     "source": "GOV.UK",
     "id": "seed-c3MtbGVhZGVycw",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-04-15",
+    "sectors": [
+      "Government & public sector"
+    ],
+    "who": "Liz Kendall, Secretary of State for Science, Innovation and Technology, and Dan Jarvis, Security Minister (UK)",
+    "who_type": "minister",
+    "country": "GB",
+    "kind": "warning",
+    "title": "UK ministers send open letter to business leaders on AI cyber threats",
+    "summary": "The letter warned that AI models are making advanced cyber attacks faster and easier and that AI cyber capabilities are growing quickly, and urged boards to prioritise cyber security, obtain Cyber Essentials and join the NCSC Early Warning service.",
+    "url": "https://www.gov.uk/government/publications/ai-cyber-threats-open-letter-to-business-leaders/ai-cyber-threats-open-letter-to-business-leaders-html",
+    "source": "GOV.UK",
+    "id": "seed-YWRlcnMtaHRtbA",
     "lang": "en",
     "added_at": "2026-10-26T18:29:46Z",
     "origin": "research"
@@ -1310,24 +2037,6 @@
   {
     "date": "2025-12-03",
     "sectors": [
-      "Energy, industrial & infrastructure"
-    ],
-    "who": "CISA and Australian Cyber Security Centre with NSA, FBI, Canadian Cyber Centre, BSI, NCSC-NL, NCSC-NZ and NCSC-UK",
-    "who_type": "security_agency",
-    "country": "US",
-    "kind": "advisory",
-    "title": "Joint guidance sets principles for secure integration of AI in operational technology",
-    "summary": "International cyber agencies published four principles for critical infrastructure operators integrating machine learning, LLM-based systems and AI agents into operational technology, covering risk awareness, governance, oversight and continuous testing.",
-    "url": "https://www.cisa.gov/resources-tools/resources/principles-secure-integration-artificial-intelligence-operational-technology",
-    "source": "CISA",
-    "id": "seed-10ZWNobm9sb2d5",
-    "lang": "en",
-    "added_at": "2026-10-26T18:29:46Z",
-    "origin": "research"
-  },
-  {
-    "date": "2025-12-03",
-    "sectors": [
       "Technology & AI vendors",
       "Defence & security"
     ],
@@ -1340,6 +2049,24 @@
     "url": "https://intelligencecommunitynews.com/nsa-and-partners-issue-advice-on-integrating-ai-in-ot/",
     "source": "Intelligence Community News",
     "id": "seed-y1haS1pbi1vdC8",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2025-12-03",
+    "sectors": [
+      "Energy, industrial & infrastructure"
+    ],
+    "who": "CISA and Australian Cyber Security Centre with NSA, FBI, Canadian Cyber Centre, BSI, NCSC-NL, NCSC-NZ and NCSC-UK",
+    "who_type": "security_agency",
+    "country": "US",
+    "kind": "advisory",
+    "title": "Joint guidance sets principles for secure integration of AI in operational technology",
+    "summary": "International cyber agencies published four principles for critical infrastructure operators integrating machine learning, LLM-based systems and AI agents into operational technology, covering risk awareness, governance, oversight and continuous testing.",
+    "url": "https://www.cisa.gov/resources-tools/resources/principles-secure-integration-artificial-intelligence-operational-technology",
+    "source": "CISA",
+    "id": "seed-10ZWNobm9sb2d5",
     "lang": "en",
     "added_at": "2026-10-26T18:29:46Z",
     "origin": "research"
