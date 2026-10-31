@@ -8620,5 +8620,53 @@
     "first_seen": "2026-10-31T01:35:42Z",
     "first_published": "2026-10-31T00:35:00Z",
     "updated_at": "2026-10-31T01:35:42Z"
+  },
+  {
+    "id": "vn-ai-begging-children-scam",
+    "date": "2026-10-31",
+    "title": "Scammers use AI to pose as begging children in Vietnam, earning 11M+ dong daily",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "low",
+    "country": "VN",
+    "region": "Asia-Pacific",
+    "target": "Members of the public giving money to beggars",
+    "loss_usd": null,
+    "summary": "Vietnam.vn reports that scammers use AI to impersonate children asking for money, earning over 11 million dong per day. The headline gives no further detail.",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "sector": "Individuals & consumers",
+    "attribution": "Unknown; the headline refers only to unnamed scammers.",
+    "motive": "Financial gain from donations and payments by sympathetic members of the public.",
+    "vector": "AI-generated or altered images or video of begging children, used to solicit money. Exact method not given.",
+    "root_cause": "Unknown; the headline suggests AI media is used to fake sympathetic personas, and the summary does not explain further.",
+    "impact": "Victims are donors deceived into giving money; the scammers reportedly earn over 11 million dong per day. Total losses are unknown.",
+    "response": "Unknown; the headline and summary mention no police or platform action.",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": "online",
+    "age_group": null,
+    "confidence": 0.45,
+    "source": "Vietnam.vn",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSnhrUjhXM1FNcmVBeVB3Y0lGX2ZBWU82ekY5aVkwV1lwSXZRLWdMQ2x2QnJUTG1kYkpiNjlocnJ1RjE1OXZyUDJkYUIxa0xDOTF6UDBBTWdJSFA0blVBSjhvc1VHQk1lN19EZFdHOTEtMU11Wk12YWZCalFIUzFEcUFVVkRUcUl1d1JseTdPWHFzQ28?oc=5",
+    "sources": [
+      {
+        "name": "Vietnam.vn",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSnhrUjhXM1FNcmVBeVB3Y0lGX2ZBWU82ekY5aVkwV1lwSXZRLWdMQ2x2QnJUTG1kYkpiNjlocnJ1RjE1OXZyUDJkYUIxa0xDOTF6UDBBTWdJSFA0blVBSjhvc1VHQk1lN19EZFdHOTEtMU11Wk12YWZCalFIUzFEcUFVVkRUcUl1d1JseTdPWHFzQ28?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-31",
+        "event": "Reported by Vietnam.vn"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-31T04:35:41Z",
+    "wire_id": "1481e9dabb7d",
+    "first_seen": "2026-10-31T04:35:41Z",
+    "first_published": "2026-10-31T03:05:05Z",
+    "updated_at": "2026-10-31T04:35:41Z"
   }
 ]
