@@ -1379,6 +1379,25 @@
     "origin": "research"
   },
   {
+    "id": "d8584cb119e7",
+    "date": "2026-08-19",
+    "sectors": [
+      "Individuals & consumers",
+      "Government & public sector"
+    ],
+    "who": "Senior Minister Shanmugam, Singapore",
+    "who_type": "minister",
+    "country": "SG",
+    "kind": "warning",
+    "title": "Singapore minister warns internet-enabled scams and AI pose challenges",
+    "summary": "Senior Minister Shanmugam warned that internet-enabled scams and AI pose challenges, per the headline. No further details were provided.",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQb0VQdXNkWTRjTmFpR1NONGNJaW53d0xRODVXeHF6UDRfTzZ2bnJkaTdmZXpRcEV6QUluM0lxam1hQnFaeXdpRkRaWWpVUDdBSElGd3hIaGxKYmxYOTh2OHluV1RsRXd1RVBmaF9URUNLR0dYNWp1eVd6bjZpVE94WmNpa3k1QXljZllIZ3NsUUJPNS1tTndFdU10NVdxODlHVUZEaDhZTG9rUTBFNTRBSUxGVzlsUlJy?oc=5",
+    "source": "https://www.tabla.com.sg/",
+    "lang": "en",
+    "added_at": "2026-10-31T14:35:37Z",
+    "origin": "robot"
+  },
+  {
     "id": "08b02b4175ed",
     "date": "2026-08-19",
     "sectors": [
@@ -2118,25 +2137,6 @@
   {
     "date": "2026-04-28",
     "sectors": [
-      "Financial services",
-      "Government & public sector"
-    ],
-    "who": "Europol",
-    "who_type": "intergovernmental",
-    "country": "EU",
-    "kind": "warning",
-    "title": "Europol IOCTA 2026 says AI, encryption and proxies are expanding cybercrime",
-    "summary": "Europol's Internet Organised Crime Threat Assessment said generative AI helps fraudsters produce more convincing, tailored scams and anticipated that self-directed AI could take over parts of illicit activity.",
-    "url": "https://www.europol.europa.eu/cms/sites/default/files/documents/IOCTA-2026.pdf",
-    "source": "Europol",
-    "id": "seed-RBLTIwMjYucGRm",
-    "lang": "en",
-    "added_at": "2026-10-26T18:29:46Z",
-    "origin": "research"
-  },
-  {
-    "date": "2026-04-28",
-    "sectors": [
       "Defence & security",
       "Retail & consumer brands"
     ],
@@ -2149,6 +2149,25 @@
     "url": "https://eucrim.eu/news/iocta-2026/",
     "source": "eucrim",
     "id": "seed-b2N0YS0yMDI2Lw",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-04-28",
+    "sectors": [
+      "Financial services",
+      "Government & public sector"
+    ],
+    "who": "Europol",
+    "who_type": "intergovernmental",
+    "country": "EU",
+    "kind": "warning",
+    "title": "Europol IOCTA 2026 says AI, encryption and proxies are expanding cybercrime",
+    "summary": "Europol's Internet Organised Crime Threat Assessment said generative AI helps fraudsters produce more convincing, tailored scams and anticipated that self-directed AI could take over parts of illicit activity.",
+    "url": "https://www.europol.europa.eu/cms/sites/default/files/documents/IOCTA-2026.pdf",
+    "source": "Europol",
+    "id": "seed-RBLTIwMjYucGRm",
     "lang": "en",
     "added_at": "2026-10-26T18:29:46Z",
     "origin": "research"

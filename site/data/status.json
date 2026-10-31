@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-31T14:05:39Z",
-  "wire_items": 793,
-  "new_items": 0,
-  "candidates": 196,
+  "updated_at": "2026-10-31T14:35:37Z",
+  "wire_items": 797,
+  "new_items": 5,
+  "candidates": 197,
   "incidents": 433,
   "feeds_ok": [
     "BleepingComputer",
@@ -24,6 +24,12 @@
     "AI Incident Database",
     "BBC Technology",
     "The Guardian Technology",
+    "Google News (English)",
+    "Google News (Français)",
+    "Google News (Español)",
+    "Google News (العربية)",
+    "Google News (中文)",
+    "Google News (Русский)",
     "CrowdStrike",
     "SentinelOne Labs",
     "Check Point Research",
@@ -49,6 +55,10 @@
     "Reddit r/netsec",
     "Europol",
     "FBI IC3 alerts",
+    "Google News chatbot harm (EN)",
+    "Google News chatbot harm (العربية)",
+    "Google News chatbot harm (FR)",
+    "Google News chatbot harm (ES)",
     "BIS press releases",
     "BIS central bankers speeches",
     "Financial Stability Board",
@@ -70,22 +80,12 @@
     "US FDA",
     "US Election Assistance Commission",
     "UN News",
-    "Elysee (France)"
-  ],
-  "feeds_failed": [
-    "Google News (English)",
-    "Google News (Français)",
-    "Google News (Español)",
-    "Google News (العربية)",
-    "Google News (中文)",
-    "Google News (Русский)",
-    "US court filings (CourtListener)",
-    "Google News chatbot harm (EN)",
-    "Google News chatbot harm (العربية)",
-    "Google News chatbot harm (FR)",
-    "Google News chatbot harm (ES)",
-    "European Commission",
+    "Elysee (France)",
     "Google News (official warnings)"
   ],
-  "triage": null
+  "feeds_failed": [
+    "US court filings (CourtListener)",
+    "European Commission"
+  ],
+  "triage": "triaged 10 items with claude-sonnet-5-5 in 1 batches (0 failed); kept 5"
 }

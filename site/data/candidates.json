@@ -9244,5 +9244,53 @@
     "first_seen": "2026-10-31T12:05:37Z",
     "first_published": "2026-10-31T12:00:00Z",
     "updated_at": "2026-10-31T12:05:37Z"
+  },
+  {
+    "id": "jancovici-ai-voice-clone-scam",
+    "date": "2026-10-31",
+    "title": "AI-cloned voice of Jancovici used to solicit French residents in scam",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "FR",
+    "region": "Europe",
+    "target": "French residents; Jean-Marc Jancovici (voice impersonated)",
+    "loss_usd": null,
+    "summary": "An AI reportedly imitates Jean-Marc Jancovici's voice to solicit French people. He publicly denounced it as a scam, per menow.fr.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Individuals & consumers",
+    "attribution": "Unknown; the perpetrators are not identified in the headline. Jancovici denounced the scam, per menow.fr.",
+    "motive": "Apparently fraud by soliciting French people; details Unknown.",
+    "vector": "AI voice imitation of a well-known public figure used in unsolicited contact with victims.",
+    "root_cause": "Unknown; the public figure's voice was apparently cloned with AI.",
+    "impact": "Unknown number of French people solicited; no losses reported in the headline.",
+    "response": "Jancovici publicly denounced the scam; no other response reported.",
+    "status": "unresolved",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.6,
+    "source": "www.menow.fr",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBxTGwzTnZVWThfV3NFWVRCZmwxRTU5dXF4VlhmLVNIcXZyNnh1VU9PUHNxLUZOZ3A0NXlPNUxacjRXMGRyMllfZldwTWh4b0swYTI1cEdobjJLd0twOUtjQ2Y3MEluZzhDYVE?oc=5",
+    "sources": [
+      {
+        "name": "www.menow.fr",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBxTGwzTnZVWThfV3NFWVRCZmwxRTU5dXF4VlhmLVNIcXZyNnh1VU9PUHNxLUZOZ3A0NXlPNUxacjRXMGRyMllfZldwTWh4b0swYTI1cEdobjJLd0twOUtjQ2Y3MEluZzhDYVE?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-31",
+        "event": "Reported by www.menow.fr"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-10-31T14:35:37Z",
+    "wire_id": "563a4634302a",
+    "first_seen": "2026-10-31T14:35:37Z",
+    "first_published": "2026-10-31T14:19:29Z",
+    "updated_at": "2026-10-31T14:35:37Z"
   }
 ]
