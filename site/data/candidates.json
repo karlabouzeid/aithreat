@@ -9532,5 +9532,101 @@
     "first_seen": "2026-11-01T03:35:40Z",
     "first_published": "2026-10-31T17:00:00Z",
     "updated_at": "2026-11-01T03:35:40Z"
+  },
+  {
+    "id": "banderas-face-fake-prostate-remedy",
+    "date": "2026-11-01",
+    "title": "Antonio Banderas's face used to sell fake prostate remedy",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "low",
+    "country": "ES",
+    "region": "Europe",
+    "target": "Consumers targeted by fake remedy ads; Antonio Banderas",
+    "loss_usd": null,
+    "summary": "El Caso reports that Antonio Banderas's face was used to promote a fake prostate remedy. The headline implies AI-generated or manipulated media, but the summary gives no details.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Individuals & consumers",
+    "attribution": "No attribution given; the actor is unknown.",
+    "motive": "Apparently financial: selling a fake health product.",
+    "vector": "Likely AI-manipulated video or images of a celebrity in online advertising; the details are not stated.",
+    "root_cause": "Unknown; the headline implies a celebrity likeness was misused to lend credibility to a bogus product.",
+    "impact": "Consumers are at risk of buying a fake remedy. The number of victims and the losses are unknown.",
+    "response": "Unknown",
+    "status": "unresolved",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.5,
+    "source": "El Caso",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVkgtX3hhcldtN2o2V0p5NTF1S1QtUWdPSXB2bFdqSDdKSnpkYnN3OW9kZ2licTFtaEZOQ3p3dGRESHg2Mm4zQTVSeFVQYnUxSHhOcHdDZGxhMHFEZy1Bamc3aHNuNjZGV0NYNzNtOXRobllYT2RyemdVQ1RsdVRfX2Z0VERmZzNWd3ZMYzBPTk9fOFFqNGVzbDh5SWVObkgzbU9kaGxES2NJcDhUbUhDeVhaNWpMX1k?oc=5",
+    "sources": [
+      {
+        "name": "El Caso",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVkgtX3hhcldtN2o2V0p5NTF1S1QtUWdPSXB2bFdqSDdKSnpkYnN3OW9kZ2licTFtaEZOQ3p3dGRESHg2Mm4zQTVSeFVQYnUxSHhOcHdDZGxhMHFEZy1Bamc3aHNuNjZGV0NYNzNtOXRobllYT2RyemdVQ1RsdVRfX2Z0VERmZzNWd3ZMYzBPTk9fOFFqNGVzbDh5SWVObkgzbU9kaGxES2NJcDhUbUhDeVhaNWpMX1k?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-11-01",
+        "event": "Reported by El Caso"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-11-01T04:05:38Z",
+    "wire_id": "77f13712737e",
+    "first_seen": "2026-11-01T04:05:38Z",
+    "first_published": "2026-10-30T04:30:00Z",
+    "updated_at": "2026-11-01T04:05:38Z"
+  },
+  {
+    "id": "brazil-court-prompt-injection-filing",
+    "date": "2026-11-01",
+    "title": "Brazilian court sanctions lawyers for prompt injection in court filing",
+    "category": "Prompt injection",
+    "direction": "on-ai",
+    "severity": "low",
+    "country": "BR",
+    "region": "Latin America",
+    "target": "Brazilian court and its AI-assisted review",
+    "loss_usd": null,
+    "summary": "A Brazilian court sanctioned lawyers who put prompt injection text into a court filing, apparently to manipulate AI tools reading it, according to a Jetstream Security write-up.",
+    "actor": "Unknown lawyers in a Brazilian case",
+    "actor_type": "unknown",
+    "sector": "Government & public sector",
+    "attribution": "The court sanctioned the lawyers; names and the party they represented are not given.",
+    "motive": "Probably to influence AI-assisted analysis of the filing; the text does not state this.",
+    "vector": "Hidden or embedded instructions in a legal filing aimed at AI tools.",
+    "root_cause": "AI models reading untrusted documents can follow embedded instructions.",
+    "impact": "The lawyers were sanctioned. The effect on the case is unknown.",
+    "response": "The court imposed sanctions on the lawyers.",
+    "status": "resolved",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.55,
+    "source": "jetstream.security via Hacker News",
+    "url": "https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing",
+    "sources": [
+      {
+        "name": "jetstream.security via Hacker News",
+        "url": "https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-11-01",
+        "event": "Reported by jetstream.security via Hacker News"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-11-01T04:05:38Z",
+    "wire_id": "2a10a176a3e7",
+    "first_seen": "2026-11-01T04:05:38Z",
+    "first_published": "2026-11-01T02:19:53Z",
+    "updated_at": "2026-11-01T04:05:38Z"
   }
 ]
