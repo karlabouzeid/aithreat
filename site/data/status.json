@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-01T15:05:40Z",
+  "updated_at": "2026-11-01T15:35:38Z",
   "wire_items": 800,
   "new_items": 1,
   "candidates": 209,
@@ -33,7 +33,6 @@
     "CrowdStrike",
     "SentinelOne Labs",
     "Check Point Research",
-    "Kaspersky Securelist",
     "ESET WeLiveSecurity",
     "Cisco Talos",
     "Zscaler ThreatLabz",
@@ -52,6 +51,7 @@
     "GitHub Advisory Database (AI packages)",
     "Hacker News",
     "GitHub new repositories",
+    "Reddit r/netsec",
     "Europol",
     "FBI IC3 alerts",
     "Google News chatbot harm (EN)",
@@ -83,9 +83,9 @@
     "Google News (official warnings)"
   ],
   "feeds_failed": [
+    "Kaspersky Securelist",
     "US court filings (CourtListener)",
-    "Reddit r/netsec",
     "European Commission"
   ],
-  "triage": "triaged 6 items with claude-sonnet-5-5 in 1 batches (0 failed); kept 1"
+  "triage": "triaged 19 items with claude-sonnet-5-5 in 1 batches (0 failed); kept 1"
 }
