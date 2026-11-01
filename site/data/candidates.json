@@ -9676,5 +9676,53 @@
     "first_seen": "2026-11-01T09:05:39Z",
     "first_published": "2026-11-01T07:18:12Z",
     "updated_at": "2026-11-01T09:05:39Z"
+  },
+  {
+    "id": "aprosi-ai-fake-documents-arrest",
+    "date": "2026-11-01",
+    "title": "APROSI official held over suspected AI-generated fake documents",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "low",
+    "country": "SN",
+    "region": "Middle East & Africa",
+    "target": "APROSI",
+    "loss_usd": null,
+    "summary": "An APROSI official was placed in police custody on suspicion of using AI-generated fake documents, per Leral.net. Details of the documents and any loss are not given.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Government & public sector",
+    "attribution": "A person described only as an APROSI official is in custody on suspicion; no charges or findings reported in the headline.",
+    "motive": "Unknown",
+    "vector": "AI-generated documents used as forgeries (specific tool unknown)",
+    "root_cause": "Unknown",
+    "impact": "Unknown; the headline gives no figures or victims.",
+    "response": "The suspect was placed in police custody (garde à vue).",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.45,
+    "source": "Leral.net",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPNEhvclNRYXhLUUMtTkNxT2FrTU9kS3hWMFhaeTBkdGh1ZGRRRVFwREt1T0hlRnhuMXFHTDdhM2lWNjBkdmVzWFhxcFZjLWJEM0RBT0QzTVpRVVBQTHlJNmRVN0RkemhDVWJiWFR6S1Z4YThhUzBidUZXZ25JZEpkNllDRmMwUXgwdjF2WU9TZ3U3endRSVl6Z1JvejZ3UEExelhBVzZpSHV3YnNKLWc5N3hkT3NKU2dlVUhaUHJfcXpReDJhLW9F?oc=5",
+    "sources": [
+      {
+        "name": "Leral.net",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPNEhvclNRYXhLUUMtTkNxT2FrTU9kS3hWMFhaeTBkdGh1ZGRRRVFwREt1T0hlRnhuMXFHTDdhM2lWNjBkdmVzWFhxcFZjLWJEM0RBT0QzTVpRVVBQTHlJNmRVN0RkemhDVWJiWFR6S1Z4YThhUzBidUZXZ25JZEpkNllDRmMwUXgwdjF2WU9TZ3U3endRSVl6Z1JvejZ3UEExelhBVzZpSHV3YnNKLWc5N3hkT3NKU2dlVUhaUHJfcXpReDJhLW9F?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-11-01",
+        "event": "Reported by Leral.net"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-11-01T10:35:39Z",
+    "wire_id": "902916738b1a",
+    "first_seen": "2026-11-01T10:35:39Z",
+    "first_published": "2026-10-30T11:10:00Z",
+    "updated_at": "2026-11-01T10:35:39Z"
   }
 ]
