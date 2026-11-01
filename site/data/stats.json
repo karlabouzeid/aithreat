@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-31T23:44:15Z",
-  "total": 233,
+  "generated_at": "2026-11-01T00:06:36Z",
+  "total": 232,
   "all_time_total": 433,
-  "window_from": "2025-10-31",
-  "window_to": "2026-10-31",
+  "window_from": "2025-11-01",
+  "window_to": "2026-11-01",
   "trend_from": "2025-01-01",
   "first_half_from": "2025-01",
   "first_half_to": "2025-06",
@@ -12,15 +12,15 @@
     "top_losses": [
       "fideuram-ai-voice-clone-ceo-fraud",
       "austria-albania-van-der-bellen-crypto",
-      "sweden-deepfake-pump-dump-500m-sek",
       "turkey-osmaniye-deepfake-410m-tl",
       "ai-music-streaming-royalty-fraud",
       "taiwan-starlink-deepfake-ecny",
       "australia-nasc-albanese-deepfake-7-4m",
-      "singapore-pm-wong-deepfake-zoom"
+      "singapore-pm-wong-deepfake-zoom",
+      "sao-paulo-fake-lawyer-voice-clone"
     ],
     "financial_services": 9,
-    "individuals": 66,
+    "individuals": 65,
     "fin_by_category": {
       "Deepfake fraud": 7,
       "AI-assisted malware": 1,
@@ -159,7 +159,7 @@
   },
   "direction": {
     "on-ai": 80,
-    "with-ai": 124
+    "with-ai": 123
   },
   "on_ai_share_first_half": 31,
   "on_ai_share_last_half": 42,
@@ -280,7 +280,7 @@
   "categories": [
     {
       "category": "Deepfake fraud",
-      "n": 42,
+      "n": 41,
       "by_quarter": [
         13,
         9,
@@ -461,7 +461,7 @@
   ],
   "rising_category": "AI supply chain",
   "top_category": "Deepfake fraud",
-  "top_category_n": 42,
+  "top_category_n": 41,
   "autonomous": {
     "by_year": {
       "2025": 1,
@@ -485,10 +485,10 @@
     {
       "actor_type": "criminal",
       "by_year": {
-        "2025": 14,
+        "2025": 13,
         "2026": 73
       },
-      "n": 87
+      "n": 86
     },
     {
       "actor_type": "state",
@@ -552,20 +552,20 @@
     "2026"
   ],
   "severity": {
-    "critical": 39,
+    "critical": 38,
     "high": 105,
     "medium": 83,
     "low": 6
   },
   "critical_high_pct": 62,
   "losses": {
-    "total_usd": 256366843,
-    "disclosed": 17,
+    "total_usd": 204366843,
+    "disclosed": 16,
     "by_category": [
       {
         "category": "Deepfake fraud",
-        "usd": 256366843,
-        "disclosed": 17
+        "usd": 204366843,
+        "disclosed": 16
       },
       {
         "category": "AI-assisted malware",
@@ -632,7 +632,7 @@
     },
     {
       "sector": "Individuals & consumers",
-      "n": 66
+      "n": 65
     },
     {
       "sector": "Multiple / cross-sector",
@@ -725,7 +725,7 @@
       "n": 3
     }
   ],
-  "global_pct": 45,
+  "global_pct": 46,
   "status": [
     {
       "status": "under investigation",
@@ -733,7 +733,7 @@
     },
     {
       "status": "ongoing",
-      "n": 70
+      "n": 69
     },
     {
       "status": "contained",
@@ -752,7 +752,7 @@
       "n": 7
     }
   ],
-  "unresolved_pct": 67,
+  "unresolved_pct": 66,
   "verify_median_hours": 19.8,
   "verify_sample": 42,
   "researcher_demos": 21,
@@ -1024,7 +1024,7 @@
     {
       "day": "2026-10-26",
       "kinds": {
-        "incident": 40,
+        "incident": 39,
         "vulnerability": 5,
         "research": 2,
         "vendor-report": 0,
@@ -1075,7 +1075,7 @@
         "incident": 103,
         "vulnerability": 12,
         "research": 35,
-        "vendor-report": 27,
+        "vendor-report": 28,
         "policy": 2,
         "other": 6,
         "untagged": 0

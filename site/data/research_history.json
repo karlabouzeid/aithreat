@@ -9,12 +9,26 @@
         "status": "none",
         "n": 0,
         "real_world": 0
+      },
+      {
+        "date": "2026-11-01",
+        "event": "month",
+        "status": "none",
+        "n": 0,
+        "real_world": 0
       }
     ],
     "unleashed-agents": [
       {
         "date": "2026-10-18",
         "event": "start",
+        "status": "observed",
+        "n": 18,
+        "real_world": 18
+      },
+      {
+        "date": "2026-11-01",
+        "event": "month",
         "status": "observed",
         "n": 18,
         "real_world": 18
@@ -27,6 +41,13 @@
         "status": "observed",
         "n": 4,
         "real_world": 4
+      },
+      {
+        "date": "2026-11-01",
+        "event": "month",
+        "status": "observed",
+        "n": 4,
+        "real_world": 4
       }
     ],
     "trust-exploited": [
@@ -36,12 +57,26 @@
         "status": "observed",
         "n": 28,
         "real_world": 28
+      },
+      {
+        "date": "2026-11-01",
+        "event": "month",
+        "status": "observed",
+        "n": 47,
+        "real_world": 47
       }
     ],
     "surveillance-power": [
       {
         "date": "2026-10-18",
         "event": "start",
+        "status": "early",
+        "n": 1,
+        "real_world": 1
+      },
+      {
+        "date": "2026-11-01",
+        "event": "month",
         "status": "early",
         "n": 1,
         "real_world": 1
@@ -54,12 +89,26 @@
         "status": "observed",
         "n": 87,
         "real_world": 86
+      },
+      {
+        "date": "2026-11-01",
+        "event": "month",
+        "status": "observed",
+        "n": 87,
+        "real_world": 86
       }
     ],
     "autonomous-weapons": [
       {
         "date": "2026-10-18",
         "event": "start",
+        "status": "outside",
+        "n": 0,
+        "real_world": 0
+      },
+      {
+        "date": "2026-11-01",
+        "event": "month",
         "status": "outside",
         "n": 0,
         "real_world": 0
@@ -72,12 +121,26 @@
         "status": "early",
         "n": 4,
         "real_world": 4
+      },
+      {
+        "date": "2026-11-01",
+        "event": "month",
+        "status": "early",
+        "n": 4,
+        "real_world": 4
       }
     ],
     "automated-economy": [
       {
         "date": "2026-10-18",
         "event": "start",
+        "status": "outside",
+        "n": 0,
+        "real_world": 0
+      },
+      {
+        "date": "2026-11-01",
+        "event": "month",
         "status": "outside",
         "n": 0,
         "real_world": 0
@@ -90,12 +153,26 @@
         "status": "outside",
         "n": 0,
         "real_world": 0
+      },
+      {
+        "date": "2026-11-01",
+        "event": "month",
+        "status": "outside",
+        "n": 0,
+        "real_world": 0
       }
     ],
     "leaked-or-stolen": [
       {
         "date": "2026-10-18",
         "event": "start",
+        "status": "observed",
+        "n": 11,
+        "real_world": 11
+      },
+      {
+        "date": "2026-11-01",
+        "event": "month",
         "status": "observed",
         "n": 11,
         "real_world": 11
@@ -108,12 +185,26 @@
         "status": "observed",
         "n": 15,
         "real_world": 15
+      },
+      {
+        "date": "2026-11-01",
+        "event": "month",
+        "status": "observed",
+        "n": 15,
+        "real_world": 15
       }
     ],
     "lab-safeguards-fail": [
       {
         "date": "2026-10-18",
         "event": "start",
+        "status": "observed",
+        "n": 12,
+        "real_world": 12
+      },
+      {
+        "date": "2026-11-01",
+        "event": "month",
         "status": "observed",
         "n": 12,
         "real_world": 12
@@ -126,12 +217,26 @@
         "status": "early",
         "n": 4,
         "real_world": 4
+      },
+      {
+        "date": "2026-11-01",
+        "event": "month",
+        "status": "early",
+        "n": 4,
+        "real_world": 4
       }
     ],
     "goal-drift": [
       {
         "date": "2026-10-18",
         "event": "start",
+        "status": "none",
+        "n": 0,
+        "real_world": 0
+      },
+      {
+        "date": "2026-11-01",
+        "event": "month",
         "status": "none",
         "n": 0,
         "real_world": 0
@@ -144,12 +249,26 @@
         "status": "early",
         "n": 6,
         "real_world": 6
+      },
+      {
+        "date": "2026-11-01",
+        "event": "month",
+        "status": "early",
+        "n": 6,
+        "real_world": 6
       }
     ],
     "ai-deception": [
       {
         "date": "2026-10-18",
         "event": "start",
+        "status": "early",
+        "n": 1,
+        "real_world": 1
+      },
+      {
+        "date": "2026-11-01",
+        "event": "month",
         "status": "early",
         "n": 1,
         "real_world": 1
@@ -162,12 +281,26 @@
         "status": "observed",
         "n": 81,
         "real_world": 81
+      },
+      {
+        "date": "2026-11-01",
+        "event": "month",
+        "status": "observed",
+        "n": 81,
+        "real_world": 81
       }
     ],
     "iasr-influence": [
       {
         "date": "2026-10-18",
         "event": "start",
+        "status": "early",
+        "n": 4,
+        "real_world": 4
+      },
+      {
+        "date": "2026-11-01",
+        "event": "month",
         "status": "early",
         "n": 4,
         "real_world": 4
@@ -180,12 +313,26 @@
         "status": "observed",
         "n": 87,
         "real_world": 86
+      },
+      {
+        "date": "2026-11-01",
+        "event": "month",
+        "status": "observed",
+        "n": 87,
+        "real_world": 86
       }
     ],
     "iasr-autonomous-attacks": [
       {
         "date": "2026-10-18",
         "event": "start",
+        "status": "observed",
+        "n": 17,
+        "real_world": 17
+      },
+      {
+        "date": "2026-11-01",
+        "event": "month",
         "status": "observed",
         "n": 17,
         "real_world": 17
@@ -198,6 +345,13 @@
         "status": "none",
         "n": 0,
         "real_world": 0
+      },
+      {
+        "date": "2026-11-01",
+        "event": "month",
+        "status": "none",
+        "n": 0,
+        "real_world": 0
       }
     ],
     "iasr-ai-as-target": [
@@ -207,12 +361,26 @@
         "status": "observed",
         "n": 84,
         "real_world": 50
+      },
+      {
+        "date": "2026-11-01",
+        "event": "month",
+        "status": "observed",
+        "n": 85,
+        "real_world": 50
       }
     ],
     "iasr-agent-failures": [
       {
         "date": "2026-10-18",
         "event": "start",
+        "status": "observed",
+        "n": 6,
+        "real_world": 6
+      },
+      {
+        "date": "2026-11-01",
+        "event": "month",
         "status": "observed",
         "n": 6,
         "real_world": 6
@@ -225,6 +393,13 @@
         "status": "lab",
         "n": 0,
         "real_world": 0
+      },
+      {
+        "date": "2026-11-01",
+        "event": "month",
+        "status": "lab",
+        "n": 0,
+        "real_world": 0
       }
     ],
     "iasr-companions": [
@@ -234,12 +409,26 @@
         "status": "early",
         "n": 25,
         "real_world": 25
+      },
+      {
+        "date": "2026-11-01",
+        "event": "month",
+        "status": "early",
+        "n": 44,
+        "real_world": 44
       }
     ],
     "iasr-labour": [
       {
         "date": "2026-10-18",
         "event": "start",
+        "status": "outside",
+        "n": 0,
+        "real_world": 0
+      },
+      {
+        "date": "2026-11-01",
+        "event": "month",
         "status": "outside",
         "n": 0,
         "real_world": 0
@@ -252,12 +441,26 @@
         "status": "early",
         "n": 5,
         "real_world": 4
+      },
+      {
+        "date": "2026-11-01",
+        "event": "month",
+        "status": "early",
+        "n": 5,
+        "real_world": 4
       }
     ],
     "metr-long-tasks": [
       {
         "date": "2026-10-18",
         "event": "start",
+        "status": "outside",
+        "n": 0,
+        "real_world": 0
+      },
+      {
+        "date": "2026-11-01",
+        "event": "month",
         "status": "outside",
         "n": 0,
         "real_world": 0
@@ -270,12 +473,26 @@
         "status": "lab",
         "n": 0,
         "real_world": 0
+      },
+      {
+        "date": "2026-11-01",
+        "event": "month",
+        "status": "lab",
+        "n": 0,
+        "real_world": 0
       }
     ],
     "apollo-oversight-subversion": [
       {
         "date": "2026-10-18",
         "event": "start",
+        "status": "lab",
+        "n": 0,
+        "real_world": 0
+      },
+      {
+        "date": "2026-11-01",
+        "event": "month",
         "status": "lab",
         "n": 0,
         "real_world": 0
@@ -288,12 +505,26 @@
         "status": "early",
         "n": 1,
         "real_world": 1
+      },
+      {
+        "date": "2026-11-01",
+        "event": "month",
+        "status": "early",
+        "n": 1,
+        "real_world": 1
       }
     ],
     "apollo-watched-behaviour": [
       {
         "date": "2026-10-18",
         "event": "start",
+        "status": "lab",
+        "n": 0,
+        "real_world": 0
+      },
+      {
+        "date": "2026-11-01",
+        "event": "month",
         "status": "lab",
         "n": 0,
         "real_world": 0
@@ -306,12 +537,26 @@
         "status": "observed",
         "n": 6,
         "real_world": 6
+      },
+      {
+        "date": "2026-11-01",
+        "event": "month",
+        "status": "observed",
+        "n": 6,
+        "real_world": 6
       }
     ],
     "aisi-self-replication": [
       {
         "date": "2026-10-18",
         "event": "start",
+        "status": "lab",
+        "n": 0,
+        "real_world": 0
+      },
+      {
+        "date": "2026-11-01",
+        "event": "month",
         "status": "lab",
         "n": 0,
         "real_world": 0
@@ -324,6 +569,13 @@
         "status": "lab",
         "n": 0,
         "real_world": 0
+      },
+      {
+        "date": "2026-11-01",
+        "event": "month",
+        "status": "lab",
+        "n": 0,
+        "real_world": 0
       }
     ],
     "aisi-emotional-reliance": [
@@ -333,12 +585,26 @@
         "status": "early",
         "n": 25,
         "real_world": 25
+      },
+      {
+        "date": "2026-11-01",
+        "event": "month",
+        "status": "early",
+        "n": 44,
+        "real_world": 44
       }
     ],
     "aisi-finance-agents": [
       {
         "date": "2026-10-18",
         "event": "start",
+        "status": "none",
+        "n": 0,
+        "real_world": 0
+      },
+      {
+        "date": "2026-11-01",
+        "event": "month",
         "status": "none",
         "n": 0,
         "real_world": 0
@@ -351,6 +617,13 @@
         "status": "outside",
         "n": 0,
         "real_world": 0
+      },
+      {
+        "date": "2026-11-01",
+        "event": "month",
+        "status": "outside",
+        "n": 0,
+        "real_world": 0
       }
     ],
     "mit-privacy-security": [
@@ -360,12 +633,26 @@
         "status": "observed",
         "n": 138,
         "real_world": 91
+      },
+      {
+        "date": "2026-11-01",
+        "event": "month",
+        "status": "observed",
+        "n": 141,
+        "real_world": 93
       }
     ],
     "mit-misinformation": [
       {
         "date": "2026-10-18",
         "event": "start",
+        "status": "early",
+        "n": 1,
+        "real_world": 1
+      },
+      {
+        "date": "2026-11-01",
+        "event": "month",
         "status": "early",
         "n": 1,
         "real_world": 1
@@ -378,6 +665,13 @@
         "status": "observed",
         "n": 180,
         "real_world": 179
+      },
+      {
+        "date": "2026-11-01",
+        "event": "month",
+        "status": "observed",
+        "n": 182,
+        "real_world": 181
       }
     ],
     "mit-human-computer": [
@@ -387,6 +681,13 @@
         "status": "observed",
         "n": 26,
         "real_world": 26
+      },
+      {
+        "date": "2026-11-01",
+        "event": "month",
+        "status": "observed",
+        "n": 45,
+        "real_world": 45
       }
     ],
     "mit-socioeconomic": [
@@ -396,12 +697,26 @@
         "status": "outside",
         "n": 0,
         "real_world": 0
+      },
+      {
+        "date": "2026-11-01",
+        "event": "month",
+        "status": "outside",
+        "n": 0,
+        "real_world": 0
       }
     ],
     "mit-system-safety": [
       {
         "date": "2026-10-18",
         "event": "start",
+        "status": "observed",
+        "n": 15,
+        "real_world": 15
+      },
+      {
+        "date": "2026-11-01",
+        "event": "month",
         "status": "observed",
         "n": 15,
         "real_world": 15
