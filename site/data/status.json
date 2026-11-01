@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-01T22:25:10Z",
+  "updated_at": "2026-11-01T22:35:38Z",
   "wire_items": 800,
-  "new_items": 2,
+  "new_items": 0,
   "candidates": 209,
   "incidents": 433,
   "feeds_ok": [
@@ -52,7 +52,6 @@
     "GitHub Advisory Database (AI packages)",
     "Hacker News",
     "GitHub new repositories",
-    "Reddit r/netsec",
     "Europol",
     "FBI IC3 alerts",
     "Google News chatbot harm (EN)",
@@ -85,7 +84,8 @@
   ],
   "feeds_failed": [
     "US court filings (CourtListener)",
+    "Reddit r/netsec",
     "European Commission"
   ],
-  "triage": "triaged 6 items with claude-sonnet-5-5 in 1 batches (0 failed); kept 2"
+  "triage": null
 }
