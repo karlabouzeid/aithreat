@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-01T13:05:38Z",
+  "updated_at": "2026-11-01T13:14:39Z",
   "wire_items": 800,
-  "new_items": 5,
+  "new_items": 3,
   "candidates": 208,
   "incidents": 433,
   "feeds_ok": [
@@ -33,7 +33,6 @@
     "CrowdStrike",
     "SentinelOne Labs",
     "Check Point Research",
-    "Kaspersky Securelist",
     "ESET WeLiveSecurity",
     "Cisco Talos",
     "Zscaler ThreatLabz",
@@ -84,8 +83,9 @@
     "Google News (official warnings)"
   ],
   "feeds_failed": [
+    "Kaspersky Securelist",
     "US court filings (CourtListener)",
     "European Commission"
   ],
-  "triage": "triaged 9 items with claude-sonnet-5-5 in 1 batches (0 failed); kept 5"
+  "triage": "triaged 6 items with claude-sonnet-5-5 in 1 batches (0 failed); kept 3"
 }
