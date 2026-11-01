@@ -9772,5 +9772,53 @@
     "first_seen": "2026-11-01T11:05:38Z",
     "first_published": "2026-11-01T10:04:47Z",
     "updated_at": "2026-11-01T11:05:38Z"
+  },
+  {
+    "id": "chatgpt-dying-mum-years-left",
+    "date": "2026-11-01",
+    "title": "Daughter says ChatGPT told dying mother she had 'years' left, delaying goodbye",
+    "category": "Chatbot harm",
+    "direction": "ai-harm",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "Terminally ill woman and her daughter",
+    "loss_usd": null,
+    "summary": "Per International Business Times UK, a daughter alleges ChatGPT told her dying mother she had 'years' left, which she says delayed her goodbye. The claim is unverified.",
+    "actor": "OpenAI ChatGPT",
+    "actor_type": "product",
+    "sector": "Individuals & consumers",
+    "attribution": "Allegation by the daughter, as reported by International Business Times UK; no court or regulator finding stated.",
+    "motive": "Not applicable",
+    "vector": "Alleged inaccurate prognosis given by the chatbot in conversation",
+    "root_cause": "Unknown; the daughter alleges the chatbot gave a wrong prognosis. No finding has been reported.",
+    "impact": "The daughter alleges the family delayed saying goodbye before the mother died. Details are unverified.",
+    "response": "Unknown; no company, court or regulator response is stated in the headline.",
+    "status": "unresolved",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.5,
+    "source": "International Business Times UK",
+    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5vbEtQZERsTS10d2VjU0dvazJmZWx4a1ZLZHBxRjh3OGphN285Qm13b0JHTl9SVzEwTlluVGNyQlVHV2FOWlk5ei1VU09IM0piYWszLUNrMFByaVNBTllmRVhIVWlCWFdpLVhicGpXOGRUS190WWJnMVVDejZKdw?oc=5",
+    "sources": [
+      {
+        "name": "International Business Times UK",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5vbEtQZERsTS10d2VjU0dvazJmZWx4a1ZLZHBxRjh3OGphN285Qm13b0JHTl9SVzEwTlluVGNyQlVHV2FOWlk5ei1VU09IM0piYWszLUNrMFByaVNBTllmRVhIVWlCWFdpLVhicGpXOGRUS190WWJnMVVDejZKdw?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-11-01",
+        "event": "Reported by International Business Times UK"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-11-01T12:35:38Z",
+    "wire_id": "ec940961d683",
+    "first_seen": "2026-11-01T12:35:38Z",
+    "first_published": "2026-10-31T13:05:00Z",
+    "updated_at": "2026-11-01T12:35:38Z"
   }
 ]
