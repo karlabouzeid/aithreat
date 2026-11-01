@@ -9484,5 +9484,53 @@
     "first_seen": "2026-11-01T01:05:45Z",
     "first_published": "2026-10-31T00:00:00Z",
     "updated_at": "2026-11-01T01:05:45Z"
+  },
+  {
+    "id": "man-spends-savings-ai-created-woman",
+    "date": "2026-11-01",
+    "title": "Man reportedly spends all his savings to meet an AI-created woman",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "Individual victim",
+    "loss_usd": null,
+    "summary": "Atomix reports that a man spent all his savings to meet a woman who was created with AI. Location, amount and fraud method are not stated in the headline.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Individuals & consumers",
+    "attribution": "Unknown; the headline names no perpetrator.",
+    "motive": "Unknown; the headline implies financial gain through romance fraud.",
+    "vector": "AI-generated female persona, presumably used for online contact; details Unknown.",
+    "root_cause": "Unknown; the headline implies the victim believed an AI-created persona was real.",
+    "impact": "The victim reportedly lost all his savings; the amount is Unknown.",
+    "response": "Unknown",
+    "status": "unresolved",
+    "cve": null,
+    "young_people": false,
+    "setting": "online",
+    "age_group": null,
+    "confidence": 0.4,
+    "source": "Atomix",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOeU9ZRWlPeXJ2bGhWSGIxZ3lhYU8zc3d4NktrdjhOSDBVQ3lmOFVzTFZJV2JISm84T2gxbGJ2OS1sVU9Ca08wN2hSd3VPaEpQM2IxRWxNeVVMa196bGdFMlFuZDBtc3ItZHYzOWNPVEswVVZ0TnBnYlFoZ21pWFpyVm5URXFtLTZ6WHBRczY3bS0?oc=5",
+    "sources": [
+      {
+        "name": "Atomix",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOeU9ZRWlPeXJ2bGhWSGIxZ3lhYU8zc3d4NktrdjhOSDBVQ3lmOFVzTFZJV2JISm84T2gxbGJ2OS1sVU9Ca08wN2hSd3VPaEpQM2IxRWxNeVVMa196bGdFMlFuZDBtc3ItZHYzOWNPVEswVVZ0TnBnYlFoZ21pWFpyVm5URXFtLTZ6WHBRczY3bS0?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-11-01",
+        "event": "Reported by Atomix"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-11-01T03:35:40Z",
+    "wire_id": "ece1cad71b8a",
+    "first_seen": "2026-11-01T03:35:40Z",
+    "first_published": "2026-10-31T17:00:00Z",
+    "updated_at": "2026-11-01T03:35:40Z"
   }
 ]
