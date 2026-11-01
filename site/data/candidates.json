@@ -9820,5 +9820,53 @@
     "first_seen": "2026-11-01T12:35:38Z",
     "first_published": "2026-10-31T13:05:00Z",
     "updated_at": "2026-11-01T12:35:38Z"
+  },
+  {
+    "id": "china-ai-connectwise-breach-us",
+    "date": "2026-11-01",
+    "title": "AI reportedly speeds up China-linked ConnectWise compromise in the US",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "US",
+    "region": "North America",
+    "target": "ConnectWise (US)",
+    "loss_usd": null,
+    "summary": "Russian-language report says AI accelerated Chinese cyber-espionage, including a hack of ConnectWise in the US. Details are limited in the headline.",
+    "actor": "China-linked actors (reportedly)",
+    "actor_type": "state",
+    "sector": "Technology & AI vendors",
+    "attribution": "Report attributes the activity to Chinese cyber-espionage; no further detail is given in the headline.",
+    "motive": "Cyber-espionage (reportedly)",
+    "vector": "Unknown; AI reportedly used to accelerate the intrusion",
+    "root_cause": "Unknown",
+    "impact": "ConnectWise reportedly breached in the US; scale Unknown.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.4,
+    "source": "Techora.ru",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNcGFjbTBTUl9IMVZuclJMR1pDc2Y0ajlENWl4YW0wZEZMS0FlUDRfczIycHZUM2tEQnVfblBuamNwdGZOVHQwNlgwTFN4WWdtemhZUDBLQ2ZhbmN4bmF5Zm9ZQVh0Tm5ZWmNSWkF2V0R6SDZZeUpadElZbWFJVnBlWElzajlZV0VjZUpoWi1B?oc=5",
+    "sources": [
+      {
+        "name": "Techora.ru",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNcGFjbTBTUl9IMVZuclJMR1pDc2Y0ajlENWl4YW0wZEZMS0FlUDRfczIycHZUM2tEQnVfblBuamNwdGZOVHQwNlgwTFN4WWdtemhZUDBLQ2ZhbmN4bmF5Zm9ZQVh0Tm5ZWmNSWkF2V0R6SDZZeUpadElZbWFJVnBlWElzajlZV0VjZUpoWi1B?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-11-01",
+        "event": "Reported by Techora.ru"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-11-01T14:05:43Z",
+    "wire_id": "e3a6cc92d388",
+    "first_seen": "2026-11-01T14:05:43Z",
+    "first_published": "2026-11-01T13:38:35Z",
+    "updated_at": "2026-11-01T14:05:43Z"
   }
 ]
