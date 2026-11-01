@@ -9628,5 +9628,53 @@
     "first_seen": "2026-11-01T04:05:38Z",
     "first_published": "2026-11-01T02:19:53Z",
     "updated_at": "2026-11-01T04:05:38Z"
+  },
+  {
+    "id": "ai-hackers-attack-93-companies",
+    "date": "2026-11-01",
+    "title": "Hackers using AI reportedly attack 93 companies without hunting software flaws",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "93 companies (unnamed)",
+    "loss_usd": null,
+    "summary": "A Russian-language report says hackers using AI attacked 93 companies and never searched for flaws in software. The headline gives no further detail on methods or victims.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Multiple / cross-sector",
+    "attribution": "Not stated in the headline.",
+    "motive": "Unknown",
+    "vector": "Unknown; the headline says the attackers did not look for software vulnerabilities.",
+    "root_cause": "Unknown",
+    "impact": "93 companies reportedly attacked; scale of damage unknown.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.35,
+    "source": "ВКонтакте",
+    "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9OVWZrNVBwUWJtTUtyZVdZZTBvOUV0eEh3X1YtaTNpS0NOTDFsZ1JZeDMwS2RqM0lzQmVmRjk3enN3dlRXT2RYcg?oc=5",
+    "sources": [
+      {
+        "name": "ВКонтакте",
+        "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9OVWZrNVBwUWJtTUtyZVdZZTBvOUV0eEh3X1YtaTNpS0NOTDFsZ1JZeDMwS2RqM0lzQmVmRjk3enN3dlRXT2RYcg?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-11-01",
+        "event": "Reported by ВКонтакте"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-11-01T09:05:39Z",
+    "wire_id": "6485905aa545",
+    "first_seen": "2026-11-01T09:05:39Z",
+    "first_published": "2026-11-01T07:18:12Z",
+    "updated_at": "2026-11-01T09:05:39Z"
   }
 ]
