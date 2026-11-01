@@ -9724,5 +9724,53 @@
     "first_seen": "2026-11-01T10:35:39Z",
     "first_published": "2026-10-30T11:10:00Z",
     "updated_at": "2026-11-01T10:35:39Z"
+  },
+  {
+    "id": "ai-generated-airbnb-scam-rome",
+    "date": "2026-11-01",
+    "title": "Traveller stranded in Rome by AI-generated Airbnb listing scam",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "low",
+    "country": "IT",
+    "region": "Europe",
+    "target": "Airbnb guest booking in Rome",
+    "loss_usd": null,
+    "summary": "A traveller reports being scammed through an AI-generated Airbnb listing and left stranded outside an empty lot in Rome. Financial loss is not stated in the headline.",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "sector": "Individuals & consumers",
+    "attribution": "Unknown; a first-person account reported by Yahoo, with no attribution to a named actor.",
+    "motive": "Financial gain through fake accommodation booking",
+    "vector": "AI-generated listing content on a rental platform used to deceive a guest into booking non-existent accommodation",
+    "root_cause": "Fake listings with AI-generated content were not detected by the platform or the guest before booking. Details are not given.",
+    "impact": "Victim stranded at a non-existent address in Rome. Amount lost is Unknown.",
+    "response": "Unknown",
+    "status": "unresolved",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.5,
+    "source": "Yahoo",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNaFBHNldIRUk5bm8ySzNLOEp3eXlETVVjU1ZkeGhjeVZHYkJ4LThobVdBU2RaT0RuTTBwZXh1YlFGMVdEaFJ5TDdEbElHaWtuZHNjVEJGSGt0VUZISmtLV1ZnRmRLTjBxdndqWHhpZW9LUlRraUd5Z3F1Skx6elJGRzluVm8xUElsTDVIX3BpRmJHV1RVOVlj?oc=5",
+    "sources": [
+      {
+        "name": "Yahoo",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNaFBHNldIRUk5bm8ySzNLOEp3eXlETVVjU1ZkeGhjeVZHYkJ4LThobVdBU2RaT0RuTTBwZXh1YlFGMVdEaFJ5TDdEbElHaWtuZHNjVEJGSGt0VUZISmtLV1ZnRmRLTjBxdndqWHhpZW9LUlRraUd5Z3F1Skx6elJGRzluVm8xUElsTDVIX3BpRmJHV1RVOVlj?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-11-01",
+        "event": "Reported by Yahoo"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-11-01T11:05:38Z",
+    "wire_id": "c58c3e11b82f",
+    "first_seen": "2026-11-01T11:05:38Z",
+    "first_published": "2026-11-01T10:04:47Z",
+    "updated_at": "2026-11-01T11:05:38Z"
   }
 ]
