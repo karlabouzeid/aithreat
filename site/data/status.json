@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T15:35:40Z",
+  "updated_at": "2026-11-02T16:05:40Z",
   "wire_items": 800,
   "new_items": 4,
   "candidates": 218,
@@ -64,7 +64,6 @@
     "Financial Stability Board",
     "ECB press",
     "ECB banking supervision",
-    "Federal Reserve press",
     "Federal Reserve speeches",
     "Bank of England",
     "UK FCA",
@@ -84,8 +83,9 @@
   ],
   "feeds_failed": [
     "US court filings (CourtListener)",
+    "Federal Reserve press",
     "European Commission",
     "European Parliament"
   ],
-  "triage": "triaged 13 items with claude-sonnet-5-5 in 1 batches (0 failed); kept 4"
+  "triage": "triaged 19 items with claude-sonnet-5-5 in 1 batches (0 failed); kept 4"
 }
