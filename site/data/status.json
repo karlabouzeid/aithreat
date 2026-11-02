@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-02T21:35:47Z",
+  "updated_at": "2026-11-02T22:05:42Z",
   "wire_items": 800,
-  "new_items": 0,
+  "new_items": 3,
   "candidates": 219,
   "incidents": 433,
   "feeds_ok": [
@@ -31,6 +31,7 @@
     "Google News (中文)",
     "Google News (Русский)",
     "CrowdStrike",
+    "SentinelOne Labs",
     "Check Point Research",
     "Kaspersky Securelist",
     "ESET WeLiveSecurity",
@@ -82,10 +83,9 @@
     "Google News (official warnings)"
   ],
   "feeds_failed": [
-    "SentinelOne Labs",
     "US court filings (CourtListener)",
     "European Commission",
     "European Parliament"
   ],
-  "triage": "triaged 3 items with claude-sonnet-5-5 in 1 batches (0 failed); kept 0"
+  "triage": "triaged 5 items with claude-sonnet-5-5 in 1 batches (0 failed); kept 3"
 }
