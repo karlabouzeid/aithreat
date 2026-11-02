@@ -10204,5 +10204,53 @@
     "first_seen": "2026-11-02T11:35:45Z",
     "first_published": "2026-11-02T10:49:59Z",
     "updated_at": "2026-11-02T11:35:45Z"
+  },
+  {
+    "id": "chatgpt-plus-billing-phishing-kit",
+    "date": "2026-11-02",
+    "title": "Fake ChatGPT Plus billing emails steal card details and OTPs via WordPress sites",
+    "category": "AI phishing",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "ChatGPT Plus subscribers",
+    "loss_usd": null,
+    "summary": "A phishing campaign impersonating OpenAI sends fake failed-payment emails pointing to disposable WordPress sites that steal card data and potentially one-time passwords.",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "sector": "Individuals & consumers",
+    "attribution": "Unknown; no actor named in the summary.",
+    "motive": "Financial theft of payment card details and OTPs.",
+    "vector": "Fraudulent ChatGPT Plus billing emails linking to counterfeit rotating WordPress pages, with live attacker oversight.",
+    "root_cause": "Brand impersonation of OpenAI and user trust in subscription billing notices.",
+    "impact": "Victims' payment card details and potentially OTPs exposed; loss figures not stated.",
+    "response": "Unknown",
+    "status": "ongoing",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.45,
+    "source": "GBHackers",
+    "url": "https://gbhackers.com/chatgpt-phishing-kit",
+    "sources": [
+      {
+        "name": "GBHackers",
+        "url": "https://gbhackers.com/chatgpt-phishing-kit"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-11-02",
+        "event": "Reported by GBHackers"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-11-02T12:05:39Z",
+    "wire_id": "769f646e382a",
+    "first_seen": "2026-11-02T12:05:39Z",
+    "first_published": "2026-11-02T11:56:05Z",
+    "updated_at": "2026-11-02T12:05:39Z"
   }
 ]
