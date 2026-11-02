@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-02T21:05:39Z",
+  "updated_at": "2026-11-02T21:35:47Z",
   "wire_items": 800,
-  "new_items": 2,
+  "new_items": 0,
   "candidates": 219,
   "incidents": 433,
   "feeds_ok": [
@@ -87,5 +87,5 @@
     "European Commission",
     "European Parliament"
   ],
-  "triage": "triaged 4 items with claude-sonnet-5-5 in 1 batches (0 failed); kept 2"
+  "triage": "triaged 3 items with claude-sonnet-5-5 in 1 batches (0 failed); kept 0"
 }
