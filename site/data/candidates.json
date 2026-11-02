@@ -10252,5 +10252,53 @@
     "first_seen": "2026-11-02T12:05:39Z",
     "first_published": "2026-11-02T11:56:05Z",
     "updated_at": "2026-11-02T12:05:39Z"
+  },
+  {
+    "id": "wa-mental-health-ai-privacy-breach",
+    "date": "2026-11-02",
+    "title": "AI use leads to potential privacy breach at WA mental health facilities",
+    "category": "Model & data leak",
+    "direction": "on-ai",
+    "severity": "medium",
+    "country": "US",
+    "region": "North America",
+    "target": "Washington state mental health facilities",
+    "loss_usd": null,
+    "summary": "The Seattle Times reports that AI use led to a potential privacy breach affecting Washington state mental health facilities. The headline gives no further details.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Healthcare",
+    "attribution": "Unknown; based only on a Seattle Times headline.",
+    "motive": "Unknown",
+    "vector": "Unknown; the headline says only that AI use led to the potential breach.",
+    "root_cause": "Unknown; the headline points to the use of an AI tool.",
+    "impact": "Potential exposure of private information at mental health facilities. The number of people affected is Unknown.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.5,
+    "source": "The Seattle Times",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPMW1RQ0hmeGJJd1VLYWtMUThBbUFIN2dmNmFSb2ZmSVpMLUQ3dHpnNzI1bjNLUXp6aUpLci1NY1NSeGtxeDNJdjhVQW5KdXNjYld1ZFllTFdpaU9SQ2JjNVY0akRseGRiN0VPVXJ3YnJ4d3dCOGVZdEZOVlQyZThSVnVfU29ON2JoQzNWanNNaEUtdUQ0cUxPcFNDbWtaeFU2TGtjWFNvUG1zTlRnTUhkM0d0RXJNTldscnNGa1FlUktvVTlBWlln?oc=5",
+    "sources": [
+      {
+        "name": "The Seattle Times",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPMW1RQ0hmeGJJd1VLYWtMUThBbUFIN2dmNmFSb2ZmSVpMLUQ3dHpnNzI1bjNLUXp6aUpLci1NY1NSeGtxeDNJdjhVQW5KdXNjYld1ZFllTFdpaU9SQ2JjNVY0akRseGRiN0VPVXJ3YnJ4d3dCOGVZdEZOVlQyZThSVnVfU29ON2JoQzNWanNNaEUtdUQ0cUxPcFNDbWtaeFU2TGtjWFNvUG1zTlRnTUhkM0d0RXJNTldscnNGa1FlUktvVTlBWlln?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-11-02",
+        "event": "Reported by The Seattle Times"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-11-02T14:36:12Z",
+    "wire_id": "52675b98a2ee",
+    "first_seen": "2026-11-02T14:36:12Z",
+    "first_published": "2026-11-02T14:00:00Z",
+    "updated_at": "2026-11-02T14:36:12Z"
   }
 ]
