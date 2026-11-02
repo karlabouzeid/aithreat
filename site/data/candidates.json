@@ -10108,5 +10108,53 @@
     "first_seen": "2026-11-02T08:35:41Z",
     "first_published": "2026-11-02T08:00:24Z",
     "updated_at": "2026-11-02T08:35:41Z"
+  },
+  {
+    "id": "china-ai-girlfriend-scam-15-victims",
+    "date": "2026-11-02",
+    "title": "15 people in China defrauded of over 1.8M yuan by AI 'girlfriend' scam",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "CN",
+    "region": "Asia-Pacific",
+    "target": "15 individuals deceived by an AI-created 'girlfriend'",
+    "loss_usd": null,
+    "summary": "Per a Sina mobile headline, 15 people were reportedly deceived out of more than 1.8 million yuan by an AI-created 'girlfriend' persona. Further details are not given.",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "sector": "Individuals & consumers",
+    "attribution": "Unknown; the headline does not name the perpetrators.",
+    "motive": "Financial gain",
+    "vector": "AI-generated 'girlfriend' persona used in a romance scam",
+    "root_cause": "Victims were deceived by a fake AI-generated persona. Further detail is Unknown.",
+    "impact": "15 victims reportedly lost a combined total of over 1.8 million yuan.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": "online",
+    "age_group": null,
+    "confidence": 0.55,
+    "source": "手机新浪网",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA2aGVGWS1LZUxjbVd6OWhhallfQzFuaFVEc1d4X3paeVI2em1GSWN4dkt5dExZVXJhODluZXhlOE9idnNtTmRKcmJTWmJrOE9PTmIzakh6TUxKcmtCa3hxRjV4a1ZjdDNTN2JsWlpBRTRQWkhSTkxrYTRtamRyblU?oc=5",
+    "sources": [
+      {
+        "name": "手机新浪网",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA2aGVGWS1LZUxjbVd6OWhhallfQzFuaFVEc1d4X3paeVI2em1GSWN4dkt5dExZVXJhODluZXhlOE9idnNtTmRKcmJTWmJrOE9PTmIzakh6TUxKcmtCa3hxRjV4a1ZjdDNTN2JsWlpBRTRQWkhSTkxrYTRtamRyblU?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-11-02",
+        "event": "Reported by 手机新浪网"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-11-02T10:05:45Z",
+    "wire_id": "2e697b47c3e1",
+    "first_seen": "2026-11-02T10:05:45Z",
+    "first_published": "2026-11-02T08:27:21Z",
+    "updated_at": "2026-11-02T10:05:45Z"
   }
 ]
