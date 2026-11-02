@@ -9868,5 +9868,101 @@
     "first_seen": "2026-11-01T14:05:43Z",
     "first_published": "2026-11-01T13:38:35Z",
     "updated_at": "2026-11-01T14:05:43Z"
+  },
+  {
+    "id": "game-devs-extorted-ai-cloning-threats",
+    "date": "2026-11-02",
+    "title": "Game developers extorted with threats of AI game-cloning",
+    "category": "AI phishing",
+    "direction": "with-ai",
+    "severity": "low",
+    "country": "GL",
+    "region": "Global",
+    "target": "Game developers",
+    "loss_usd": null,
+    "summary": "Risky Business Newsletters reports that game developers are being extorted with threats that their games will be cloned using AI. Details are limited.",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "sector": "Media & entertainment",
+    "attribution": "Unknown; the headline names no actor.",
+    "motive": "Extortion (financial gain implied by the headline).",
+    "vector": "Threats of AI-powered game cloning sent to developers; delivery method Unknown.",
+    "root_cause": "Unknown; the headline suggests AI makes cloning a game quick and cheap enough to serve as a credible threat.",
+    "impact": "Game developers are targeted for extortion. The number of victims and any payments are Unknown.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.45,
+    "source": "Risky Business Newsletters",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOX010T0JUTE5XU1A4dFVtQUFlZmVmaENpalBuVUZtRDA0LWUxVWdVUWJTTHRSeUN5aXVTNUFacnFJSnZYSTlVendzQTNKbFBYeklacGI0ZGRaVThPaWc3S25yQVFoNE1xelZCMmt2V045Skh3VmlLLVJWQkFOekh0dV9GZ1NfZE5KQS10XzlBbTMwWlYyaUIxQjhSQmE?oc=5",
+    "sources": [
+      {
+        "name": "Risky Business Newsletters",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOX010T0JUTE5XU1A4dFVtQUFlZmVmaENpalBuVUZtRDA0LWUxVWdVUWJTTHRSeUN5aXVTNUFacnFJSnZYSTlVendzQTNKbFBYeklacGI0ZGRaVThPaWc3S25yQVFoNE1xelZCMmt2V045Skh3VmlLLVJWQkFOekh0dV9GZ1NfZE5KQS10XzlBbTMwWlYyaUIxQjhSQmE?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-11-02",
+        "event": "Reported by Risky Business Newsletters"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-11-02T03:05:39Z",
+    "wire_id": "92bfbc9e4f9e",
+    "first_seen": "2026-11-02T03:05:39Z",
+    "first_published": "2026-11-02T02:18:12Z",
+    "updated_at": "2026-11-02T03:05:39Z"
+  },
+  {
+    "id": "ai-fake-donation-appeals-scam",
+    "date": "2026-11-02",
+    "title": "Scammers use AI-generated fake donation appeals",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "low",
+    "country": "GL",
+    "region": "Global",
+    "target": "Members of the public giving to charity",
+    "loss_usd": null,
+    "summary": "The Vibes reports that scammers are exploiting public sympathy with AI-generated fake donation appeals. Details of victims and losses are not given.",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "sector": "Individuals & consumers",
+    "attribution": "Unknown scammers; the headline names no actor.",
+    "motive": "Financial gain by diverting donations.",
+    "vector": "AI-generated content (images or video) used in fake donation appeals; platform Unknown.",
+    "root_cause": "Easy AI generation of emotive content, combined with donors' difficulty verifying appeals.",
+    "impact": "Donors are deceived into giving money. Number of victims and amounts are Unknown.",
+    "response": "Unknown",
+    "status": "ongoing",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.45,
+    "source": "The Vibes",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOeDJNZ012dG9oSHkzdHFpX3BXLXRYQ3h0X1BwMk1laS0td1hvOW4yVnNKQkVONmdoRzgzNVhDcmxwMzgyV2tZZ1ZJOWM0U2c1aHpmakltZDN4QkVNdVZJY1UxNXdBajJreUJMMXhTcVo1Z1RucnVJb05pdnVBSzZGS3VPVUdKa1lrUDJjLUpIRDBhZWZnMVR2a3lNbmJXTVVadHRqS0xJYzg5cWUwQUxZTktRa2o4WFluMXc?oc=5",
+    "sources": [
+      {
+        "name": "The Vibes",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOeDJNZ012dG9oSHkzdHFpX3BXLXRYQ3h0X1BwMk1laS0td1hvOW4yVnNKQkVONmdoRzgzNVhDcmxwMzgyV2tZZ1ZJOWM0U2c1aHpmakltZDN4QkVNdVZJY1UxNXdBajJreUJMMXhTcVo1Z1RucnVJb05pdnVBSzZGS3VPVUdKa1lrUDJjLUpIRDBhZWZnMVR2a3lNbmJXTVVadHRqS0xJYzg5cWUwQUxZTktRa2o4WFluMXc?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-11-02",
+        "event": "Reported by The Vibes"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-11-02T03:05:39Z",
+    "wire_id": "acf145cbf5df",
+    "first_seen": "2026-11-02T03:05:39Z",
+    "first_published": "2026-11-02T02:41:00Z",
+    "updated_at": "2026-11-02T03:05:39Z"
   }
 ]
