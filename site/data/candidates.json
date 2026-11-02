@@ -10012,5 +10012,53 @@
     "first_seen": "2026-11-02T07:35:42Z",
     "first_published": "2026-11-02T07:00:23Z",
     "updated_at": "2026-11-02T07:35:42Z"
+  },
+  {
+    "id": "anthropic-mythos-5-5-site-leak",
+    "date": "2026-11-02",
+    "title": "Mythos 5.5 information leaks on Anthropic website for a few hours",
+    "category": "Model & data leak",
+    "direction": "on-ai",
+    "severity": "low",
+    "country": "US",
+    "region": "North America",
+    "target": "Anthropic website",
+    "loss_usd": null,
+    "summary": "A report says information about Anthropic's Mythos 5.5 leaked on the company's website and was available only for a few hours.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Technology & AI vendors",
+    "attribution": "Not stated in the headline.",
+    "motive": "Unknown",
+    "vector": "Exposure on Anthropic's website; mechanism not stated.",
+    "root_cause": "Unknown",
+    "impact": "Content about Mythos 5.5 was reportedly publicly visible for only a few hours.",
+    "response": "The content was reportedly removed within hours; no further details given.",
+    "status": "contained",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.4,
+    "source": "Pasquale Pillitteri",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOZl9NOVRSLUdaVXdqX2xFb05mRklpeWlndnBwQkpBcXRxVnR2d1dUZl81ZkpSbW5hckk1eV81cG9VVUlzTHNyQ2NuUlMyaDlSckI0UlpCbnl5eXA1aTlFMFFvT09pWnR6NXBkMXBER1Z3TTdzc2VjMURmZVhjcC1YVQ?oc=5",
+    "sources": [
+      {
+        "name": "Pasquale Pillitteri",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOZl9NOVRSLUdaVXdqX2xFb05mRklpeWlndnBwQkpBcXRxVnR2d1dUZl81ZkpSbW5hckk1eV81cG9VVUlzTHNyQ2NuUlMyaDlSckI0UlpCbnl5eXA1aTlFMFFvT09pWnR6NXBkMXBER1Z3TTdzc2VjMURmZVhjcC1YVQ?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-11-02",
+        "event": "Reported by Pasquale Pillitteri"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-11-02T08:05:41Z",
+    "wire_id": "61601598faed",
+    "first_seen": "2026-11-02T08:05:41Z",
+    "first_published": "2026-11-02T07:50:58Z",
+    "updated_at": "2026-11-02T08:05:41Z"
   }
 ]
