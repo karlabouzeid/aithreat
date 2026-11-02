@@ -101,7 +101,7 @@
     "incident": 87,
     "other": 7,
     "policy": 4,
-    "research": 32,
+    "research": 22,
     "vendor-report": 7,
     "vulnerability": 16,
     "warning": 8
@@ -141,12 +141,12 @@
     "warning": 4
   },
   "2026-11-02": {
-    "incident": 34,
-    "other": 3,
+    "incident": 39,
+    "other": 5,
     "policy": 5,
     "research": 23,
     "vendor-report": 5,
-    "vulnerability": 5,
-    "warning": 4
+    "vulnerability": 6,
+    "warning": 6
   }
 }

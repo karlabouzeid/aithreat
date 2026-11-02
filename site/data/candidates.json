@@ -10156,5 +10156,53 @@
     "first_seen": "2026-11-02T10:05:45Z",
     "first_published": "2026-11-02T08:27:21Z",
     "updated_at": "2026-11-02T10:05:45Z"
+  },
+  {
+    "id": "sysgorat-gov-linux-espionage",
+    "date": "2026-11-02",
+    "title": "SysGoRAT and suspected AI-generated scripts target government Linux servers",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "Linux servers of government and state-affiliated entities",
+    "loss_usd": null,
+    "summary": "Palo Alto Networks Unit 42 reports an espionage campaign (Oct 2025 to Apr 2026) against government-linked Linux infrastructure using SysGoRAT and suspected AI-generated scripts.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Government & public sector",
+    "attribution": "Unknown; the summary does not name an actor. Activity was tracked by Palo Alto Networks Unit 42.",
+    "motive": "Cyber espionage, per the researchers.",
+    "vector": "SysGoRAT malware and scripts suspected to be AI-generated; initial access method not stated.",
+    "root_cause": "Unknown",
+    "impact": "Government and state-affiliated Linux infrastructure was targeted; the number of victims and any data loss are not stated.",
+    "response": "Unit 42 published its findings.",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.55,
+    "source": "The Hacker News",
+    "url": "https://thehackernews.com/2026/11/government-linux-servers-targeted-with.html",
+    "sources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/11/government-linux-servers-targeted-with.html"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-11-02",
+        "event": "Reported by The Hacker News"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-11-02T11:35:45Z",
+    "wire_id": "87a25e1b557b",
+    "first_seen": "2026-11-02T11:35:45Z",
+    "first_published": "2026-11-02T10:49:59Z",
+    "updated_at": "2026-11-02T11:35:45Z"
   }
 ]
