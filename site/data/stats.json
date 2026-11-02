@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T05:36:38Z",
+  "generated_at": "2026-11-02T06:07:51Z",
   "total": 232,
   "all_time_total": 433,
   "window_from": "2025-11-02",
@@ -1013,7 +1013,7 @@
       "day": "2026-10-27",
       "kinds": {
         "incident": 24,
-        "vulnerability": 18,
+        "vulnerability": 17,
         "research": 3,
         "vendor-report": 2,
         "policy": 2,
@@ -1084,7 +1084,7 @@
     {
       "day": "2026-11-02",
       "kinds": {
-        "incident": 8,
+        "incident": 9,
         "vulnerability": 0,
         "research": 16,
         "vendor-report": 1,
