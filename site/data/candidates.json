@@ -10060,5 +10060,53 @@
     "first_seen": "2026-11-02T08:05:41Z",
     "first_published": "2026-11-02T07:50:58Z",
     "updated_at": "2026-11-02T08:05:41Z"
+  },
+  {
+    "id": "cyberstrikeai-attacks-edu-institutions",
+    "date": "2026-11-02",
+    "title": "CyberStrikeAI framework automates post-exploitation in attacks on educational institutions",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "Educational institutions",
+    "loss_usd": null,
+    "summary": "Kaspersky analyzed a series of attacks on educational institutions in which the post-exploitation phase was fully automated with the CyberStrikeAI penetration testing framework.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Education & research",
+    "attribution": "Kaspersky Securelist analysis; the attacker is not named in the summary.",
+    "motive": "Unknown",
+    "vector": "CyberStrikeAI penetration testing framework automating the post-exploitation phase.",
+    "root_cause": "A legitimate AI-driven pentesting framework was used in real attacks; how initial access was gained is Unknown.",
+    "impact": "Several educational institutions were attacked; the number of victims and data affected are Unknown.",
+    "response": "Kaspersky published its analysis; no victim response is reported.",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.6,
+    "source": "Kaspersky Securelist",
+    "url": "https://securelist.com/tr/cyberstrikeai-attacks/121715",
+    "sources": [
+      {
+        "name": "Kaspersky Securelist",
+        "url": "https://securelist.com/tr/cyberstrikeai-attacks/121715"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-11-02",
+        "event": "Reported by Kaspersky Securelist"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-11-02T08:35:41Z",
+    "wire_id": "b81156e2c777",
+    "first_seen": "2026-11-02T08:35:41Z",
+    "first_published": "2026-11-02T08:00:24Z",
+    "updated_at": "2026-11-02T08:35:41Z"
   }
 ]
