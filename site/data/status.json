@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-02T09:24:44Z",
+  "updated_at": "2026-11-02T09:35:51Z",
   "wire_items": 800,
-  "new_items": 5,
+  "new_items": 3,
   "candidates": 214,
   "incidents": 433,
   "feeds_ok": [
@@ -37,6 +37,7 @@
     "ESET WeLiveSecurity",
     "Cisco Talos",
     "Zscaler ThreatLabz",
+    "Proofpoint",
     "Recorded Future",
     "Wiz Research",
     "Embrace The Red",
@@ -82,10 +83,9 @@
     "Google News (official warnings)"
   ],
   "feeds_failed": [
-    "Proofpoint",
     "US court filings (CourtListener)",
     "European Commission",
     "European Parliament"
   ],
-  "triage": "triaged 14 items with claude-sonnet-5-5 in 1 batches (0 failed); kept 5"
+  "triage": "triaged 4 items with claude-sonnet-5-5 in 1 batches (0 failed); kept 3"
 }
