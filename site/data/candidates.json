@@ -9964,5 +9964,53 @@
     "first_seen": "2026-11-02T03:05:39Z",
     "first_published": "2026-11-02T02:41:00Z",
     "updated_at": "2026-11-02T03:05:39Z"
+  },
+  {
+    "id": "russia-fully-ai-run-cyberattack",
+    "date": "2026-11-02",
+    "title": "Russian company hit by cyberattack reportedly carried out entirely by AI",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "RU",
+    "region": "Europe",
+    "target": "Unnamed Russian company",
+    "loss_usd": null,
+    "summary": "Gazeta reports that a successful cyberattack on a Russian company was investigated and was reportedly conducted entirely by AI. Victim, method and impact are not stated in the headline.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Unknown",
+    "attribution": "Unknown; headline says the attack was run entirely by AI, with no human actor named.",
+    "motive": "Unknown",
+    "vector": "Unknown",
+    "root_cause": "Unknown",
+    "impact": "Unknown; the headline describes the attack as successful.",
+    "response": "Reported as investigated in Russia; details unknown.",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.45,
+    "source": "Газета",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB4SGNHRi1aeEJPXzVCN2luMFpvazVLdEhnSVlzWFBiUmpJNC02bFNkdjgteWNnd043bVdjTy1RWXk2ZE82MGFuVFRVMjMwdjNKNlhOLVNTeGNBMVZOS0gxWUl0dU1NVmpZeDh5V9IBckFVX3lxTE1VRFk0X1VCUG14TkN0ampjemdUMlp4TXIxZEFSSkk3RnVWUjdqU1pQNVpLSXMzQlR1TG5BNER0WmtXYkRZVTZsWDBBSWE5M2hVUXlzclB4ZE8zTnJ5bzFLSDFZTlIwc3V5XzFESVdkZTNZQQ?oc=5",
+    "sources": [
+      {
+        "name": "Газета",
+        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB4SGNHRi1aeEJPXzVCN2luMFpvazVLdEhnSVlzWFBiUmpJNC02bFNkdjgteWNnd043bVdjTy1RWXk2ZE82MGFuVFRVMjMwdjNKNlhOLVNTeGNBMVZOS0gxWUl0dU1NVmpZeDh5V9IBckFVX3lxTE1VRFk0X1VCUG14TkN0ampjemdUMlp4TXIxZEFSSkk3RnVWUjdqU1pQNVpLSXMzQlR1TG5BNER0WmtXYkRZVTZsWDBBSWE5M2hVUXlzclB4ZE8zTnJ5bzFLSDFZTlIwc3V5XzFESVdkZTNZQQ?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-11-02",
+        "event": "Reported by Газета"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-11-02T07:35:42Z",
+    "wire_id": "e4c3df1c36aa",
+    "first_seen": "2026-11-02T07:35:42Z",
+    "first_published": "2026-11-02T07:00:23Z",
+    "updated_at": "2026-11-02T07:35:42Z"
   }
 ]
