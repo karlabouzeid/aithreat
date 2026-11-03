@@ -12220,5 +12220,53 @@
     "first_seen": "2026-11-03T19:06:15Z",
     "first_published": "2026-11-03T01:18:00Z",
     "updated_at": "2026-11-03T19:06:15Z"
+  },
+  {
+    "id": "lovable-data-leak-passports-chats",
+    "date": "2026-11-03",
+    "title": "Lovable data leak reportedly exposes passports and 200,000 chats without login",
+    "category": "Model & data leak",
+    "direction": "on-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "Lovable AI platform users",
+    "loss_usd": null,
+    "summary": "A report says Lovable leaked passports and about 200,000 chats that could be accessed without logging in. Details are limited to a headline.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Technology & AI vendors",
+    "attribution": "Unknown; the report does not name an attacker.",
+    "motive": "Unknown",
+    "vector": "Chats and documents reportedly accessible without authentication.",
+    "root_cause": "Unknown; reportedly missing access control on stored chats and documents.",
+    "impact": "Passports and about 200,000 chats reportedly exposed. Number of affected users is Unknown.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.5,
+    "source": "Pasquale Pillitteri",
+    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNYTEzc1hHZnpfcURJMWNuSHZWSEx1cjZHcmZyY1FONnNVcVBDcFhYS2ZfSm1SRHI5LUhTNTg5bVhkUFY4ME1JbUh1UmE0M0FrMDY3UzBwZDJnUU1XMGZPSVFIalc0dFFzY1F2SjdRVlBHZDNmSXFPcXZ2MUxPWWNDMGxB?oc=5",
+    "sources": [
+      {
+        "name": "Pasquale Pillitteri",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNYTEzc1hHZnpfcURJMWNuSHZWSEx1cjZHcmZyY1FONnNVcVBDcFhYS2ZfSm1SRHI5LUhTNTg5bVhkUFY4ME1JbUh1UmE0M0FrMDY3UzBwZDJnUU1XMGZPSVFIalc0dFFzY1F2SjdRVlBHZDNmSXFPcXZ2MUxPWWNDMGxB?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-11-03",
+        "event": "Reported by Pasquale Pillitteri"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-11-03T19:35:59Z",
+    "wire_id": "7334b9e3881e",
+    "first_seen": "2026-11-03T19:35:59Z",
+    "first_published": "2026-11-03T19:24:20Z",
+    "updated_at": "2026-11-03T19:35:59Z"
   }
 ]
