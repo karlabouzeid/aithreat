@@ -72,6 +72,24 @@
     "origin": "robot"
   },
   {
+    "id": "9c65e0aef4f7",
+    "date": "2026-11-03",
+    "sectors": [
+      "Individuals & consumers"
+    ],
+    "who": "New York State",
+    "who_type": "legislature",
+    "country": "US",
+    "kind": "rule",
+    "title": "New York bars AI chatbots from posing as children's friends",
+    "summary": "New York bars AI chatbots from posing as friends to children, with fines of up to $25,000 per violation, according to the report.",
+    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBDeDlwd2syUmtoUi1LU2U1T1prNzQxaXBzaUNJRVZJRkdUVHpBS3ZFZlh0eV9aMElGQmVJcFQwamdJNWY0U2hGMFBKMjJPNFFkLUJfdkFRVFVqejMtY1B4dktmU2NSanFPNEU2UG9uRGFmeHMtd1ktZkR4RHpOQQ?oc=5",
+    "source": "The Cool Down",
+    "lang": "en",
+    "added_at": "2026-11-03T01:05:39Z",
+    "origin": "robot"
+  },
+  {
     "id": "ffbe770cafe2",
     "date": "2026-11-03",
     "sectors": [
@@ -88,6 +106,24 @@
     "source": "UK NCSC",
     "lang": "en",
     "added_at": "2026-11-03T00:35:40Z",
+    "origin": "robot"
+  },
+  {
+    "id": "b1926c1f3f22",
+    "date": "2026-11-03",
+    "sectors": [
+      "Multiple / cross-sector"
+    ],
+    "who": "UK National Cyber Security Centre (NCSC)",
+    "who_type": "security_agency",
+    "country": "GB",
+    "kind": "warning",
+    "title": "NCSC says Britain should expect an AI cyberattack within two years",
+    "summary": "Per the headline, the UK NCSC says Britain should expect an AI-enabled cyberattack in the next two years. The NCSC is the source of this expectation. No further detail was provided.",
+    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE82Y0NaOXgxSVRVUklhTEswY0V1ZzZkd1BzLUpwRU5LRnlrblBsTTlmcVN3UHhfeWp6Q0duVnVHQks0UF9BRjUyQ0RLcFBmV28zQWRqZ1JDdEY5bE9pQlhR?oc=5",
+    "source": "The Jerusalem Post",
+    "lang": "en",
+    "added_at": "2026-11-03T01:05:39Z",
     "origin": "robot"
   },
   {
@@ -1105,25 +1141,6 @@
     "origin": "robot"
   },
   {
-    "id": "a46c0ab77dd3",
-    "date": "2026-10-12",
-    "sectors": [
-      "Multiple / cross-sector",
-      "Government & public sector"
-    ],
-    "who": "UK minister",
-    "who_type": "minister",
-    "country": "GB",
-    "kind": "warning",
-    "title": "UK minister warns AI breach of cyber defences is 'likely, if not inevitable'",
-    "summary": "A UK minister warned that an AI breach of UK cyber defences is 'likely, if not inevitable', according to local press reporting.",
-    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNYTY1UEtYV255aHJxd1c1S3U2RDJFM2ZvRGtQVlpra3BNQ25mMmNjSTZKLWJjTkhERDlOTFRBR2RiZk5vSkdROXFUZzk2SmJBeWlVNXhJX0Z1eE9BS1p6Q3IzeTlQUHQycDdOdXczWXFkNXJCQnRRUGlHbzI4OUZ5Ukg0MTRNV0hpWkg3dURhYUplX2J4WDUyUXZhUVRjLWhvQ2ZQdVdOaFFqMGtpZVdrYkQ0YWktNG9JZE5henJlamxZOFU?oc=5",
-    "source": "chelmsfordcitynews.co.uk",
-    "lang": "en",
-    "added_at": "2026-10-31T10:05:39Z",
-    "origin": "robot"
-  },
-  {
     "id": "8c8802c3e424",
     "date": "2026-10-12",
     "sectors": [
@@ -1140,6 +1157,25 @@
     "source": "The Irish News",
     "lang": "en",
     "added_at": "2026-10-31T22:05:43Z",
+    "origin": "robot"
+  },
+  {
+    "id": "a46c0ab77dd3",
+    "date": "2026-10-12",
+    "sectors": [
+      "Multiple / cross-sector",
+      "Government & public sector"
+    ],
+    "who": "UK minister",
+    "who_type": "minister",
+    "country": "GB",
+    "kind": "warning",
+    "title": "UK minister warns AI breach of cyber defences is 'likely, if not inevitable'",
+    "summary": "A UK minister warned that an AI breach of UK cyber defences is 'likely, if not inevitable', according to local press reporting.",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNYTY1UEtYV255aHJxd1c1S3U2RDJFM2ZvRGtQVlpra3BNQ25mMmNjSTZKLWJjTkhERDlOTFRBR2RiZk5vSkdROXFUZzk2SmJBeWlVNXhJX0Z1eE9BS1p6Q3IzeTlQUHQycDdOdXczWXFkNXJCQnRRUGlHbzI4OUZ5Ukg0MTRNV0hpWkg3dURhYUplX2J4WDUyUXZhUVRjLWhvQ2ZQdVdOaFFqMGtpZVdrYkQ0YWktNG9JZE5henJlamxZOFU?oc=5",
+    "source": "chelmsfordcitynews.co.uk",
+    "lang": "en",
+    "added_at": "2026-10-31T10:05:39Z",
     "origin": "robot"
   },
   {
@@ -2614,25 +2650,6 @@
   {
     "date": "2026-04-28",
     "sectors": [
-      "Defence & security",
-      "Retail & consumer brands"
-    ],
-    "who": "Europol",
-    "who_type": "intergovernmental",
-    "country": "EU",
-    "kind": "warning",
-    "title": "Europol IOCTA 2026 says AI, encryption and proxies are expanding cybercrime",
-    "summary": "Europol's Internet Organised Crime Threat Assessment said generative AI makes fraud more convincing, ransomware groups are adopting AI tools, and it expects cybercrime to become more automated with minimal human involvement.",
-    "url": "https://eucrim.eu/news/iocta-2026/",
-    "source": "eucrim",
-    "id": "seed-b2N0YS0yMDI2Lw",
-    "lang": "en",
-    "added_at": "2026-10-26T18:29:46Z",
-    "origin": "research"
-  },
-  {
-    "date": "2026-04-28",
-    "sectors": [
       "Financial services",
       "Government & public sector"
     ],
@@ -2645,6 +2662,25 @@
     "url": "https://www.europol.europa.eu/cms/sites/default/files/documents/IOCTA-2026.pdf",
     "source": "Europol",
     "id": "seed-RBLTIwMjYucGRm",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-04-28",
+    "sectors": [
+      "Defence & security",
+      "Retail & consumer brands"
+    ],
+    "who": "Europol",
+    "who_type": "intergovernmental",
+    "country": "EU",
+    "kind": "warning",
+    "title": "Europol IOCTA 2026 says AI, encryption and proxies are expanding cybercrime",
+    "summary": "Europol's Internet Organised Crime Threat Assessment said generative AI makes fraud more convincing, ransomware groups are adopting AI tools, and it expects cybercrime to become more automated with minimal human involvement.",
+    "url": "https://eucrim.eu/news/iocta-2026/",
+    "source": "eucrim",
+    "id": "seed-b2N0YS0yMDI2Lw",
     "lang": "en",
     "added_at": "2026-10-26T18:29:46Z",
     "origin": "research"
