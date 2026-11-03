@@ -11644,5 +11644,53 @@
     "first_seen": "2026-11-03T00:05:41Z",
     "first_published": "2026-05-22T07:52:15Z",
     "updated_at": "2026-11-03T00:05:41Z"
+  },
+  {
+    "id": "china-linked-ai-hack-taiwan-gov",
+    "date": "2026-11-03",
+    "title": "Suspected China-linked hackers reportedly use AI to breach Taiwan government network",
+    "category": "State actor AI ops",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "TW",
+    "region": "Asia-Pacific",
+    "target": "Taiwan government network",
+    "loss_usd": null,
+    "summary": "Chosun Ilbo Chinese edition reports suspected China-linked hackers used AI to break into Taiwan's government network. Further details are not given.",
+    "actor": "Suspected China-linked hackers",
+    "actor_type": "unknown",
+    "sector": "Government & public sector",
+    "attribution": "Described as suspected China-linked hackers by Chosun Ilbo Chinese edition; no confirmation given.",
+    "motive": "Unknown",
+    "vector": "AI used to breach government network; technique not specified.",
+    "root_cause": "Unknown",
+    "impact": "Taiwan government network reportedly breached; scope of data affected unknown.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.5,
+    "source": "朝鮮日報中文版",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPLUxERVdMY3EyTnpSMkxoRnYxTzU2N0tJak9KdFI0YkxLYVlaTlpvUEEyZmlhSWJlYndZUWs5VUd2dWRaWmozeVdQeHdRamZpbVlZV2lFbVNZcGhuelo5WTFQdW52Vl8xWGwyTGpGUm85czJEYzI1dEl3TzVVTVkyZGVjMnUxbVdoQklfVFo5emJSR2FKSGNfY1I3T0tCVDFD?oc=5",
+    "sources": [
+      {
+        "name": "朝鮮日報中文版",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPLUxERVdMY3EyTnpSMkxoRnYxTzU2N0tJak9KdFI0YkxLYVlaTlpvUEEyZmlhSWJlYndZUWs5VUd2dWRaWmozeVdQeHdRamZpbVlZV2lFbVNZcGhuelo5WTFQdW52Vl8xWGwyTGpGUm85czJEYzI1dEl3TzVVTVkyZGVjMnUxbVdoQklfVFo5emJSR2FKSGNfY1I3T0tCVDFD?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-11-03",
+        "event": "Reported by 朝鮮日報中文版"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-11-03T00:35:40Z",
+    "wire_id": "01ac4ab0c1ec",
+    "first_seen": "2026-11-03T00:35:40Z",
+    "first_published": "2026-11-02T03:00:18Z",
+    "updated_at": "2026-11-03T00:35:40Z"
   }
 ]
