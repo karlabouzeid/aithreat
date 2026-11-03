@@ -258,6 +258,25 @@
     "origin": "robot"
   },
   {
+    "id": "c58c18a6b41b",
+    "date": "2026-11-03",
+    "sectors": [
+      "Energy, industrial & infrastructure",
+      "Government & public sector"
+    ],
+    "who": "UK government official (as reported by The Morning Call)",
+    "who_type": "security_agency",
+    "country": "GB",
+    "kind": "warning",
+    "title": "UK official says AI-enabled cyberattacks on critical infrastructure expected by 2028",
+    "summary": "A UK official said, as reported, that the UK will face AI-enabled cyberattacks on critical infrastructure by 2028. This is the official's projection, not a confirmed event.",
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOZE9sSkhVZmQtWlBZNTRzTkJiV2dISTN4cVdKSUVDVERKX2hyZ0hScnpBVGpod3NBTUZrNDZwQXF4a1VaWjBoRE5RNERZTVFjb2dEd3VkcHpaNUdjUWctSndqQXVjZFR2b0lRUG9IZXZWenY1djAtekJXQzJfeDFQMUo2WWQ0VnFJZXU3Z3FNS0N1ck1kS2tqSHJxU3c5RHpaYXg0X1Z5S0NlSEx2cGdzdE50U3ZOZ3FfSmYxVXFIY0M0U0RxLUE?oc=5",
+    "source": "The Morning Call",
+    "lang": "es",
+    "added_at": "2026-11-03T19:06:15Z",
+    "origin": "robot"
+  },
+  {
     "id": "0e4a79b4d67d",
     "date": "2026-11-03",
     "sectors": [
@@ -741,6 +760,25 @@
     "source": "Resultsense",
     "lang": "en",
     "added_at": "2026-11-03T16:05:46Z",
+    "origin": "robot"
+  },
+  {
+    "id": "accfa4bf0106",
+    "date": "2026-11-03",
+    "sectors": [
+      "Multiple / cross-sector",
+      "Government & public sector"
+    ],
+    "who": "UK National Cyber Security Centre (NCSC)",
+    "who_type": "security_agency",
+    "country": "GB",
+    "kind": "advisory",
+    "title": "NCSC Annual Review 2026 assesses the impact of AI on cyber threat",
+    "summary": "The UK NCSC's Annual Review 2026 includes a section on understanding the threat and the impact of AI on the cyber threat. The summary provided gives no further detail.",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSkdxRTJOY2prWm1nSVBYeXotWVlFNV9BYW55a1dMQlN6Z1o5amN6OW82cjBYMHZkV2pSLWhVV2tDU0VvcUhtM1lWdjMtLXNrN2lKVTJKajVlSUs0NmZuRDFmMHg4eGFiVF9SeEt6elVfZlMyZEloY0VWTV96V18yazFHTm5NdFY4Rzc4aDctcWhsdGI2RUpTbmRhUVR4UQ?oc=5",
+    "source": "National Cyber Security Centre",
+    "lang": "en",
+    "added_at": "2026-11-03T19:06:15Z",
     "origin": "robot"
   },
   {
@@ -1850,25 +1888,6 @@
     "origin": "robot"
   },
   {
-    "id": "8c8802c3e424",
-    "date": "2026-10-12",
-    "sectors": [
-      "Government & public sector",
-      "Multiple / cross-sector"
-    ],
-    "who": "UK minister (reported by The Irish News)",
-    "who_type": "minister",
-    "country": "GB",
-    "kind": "warning",
-    "title": "UK minister warns AI breach of cyber defences is 'likely, if not inevitable'",
-    "summary": "A UK minister warned that an AI-enabled breach of the UK's cyber defences is 'likely, if not inevitable', according to The Irish News. No further details are given in the available text.",
-    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPNkVabmFiZURNNVRtNXJqYnpiczFjYjM3dE5ORHpqdS12VURTaTdzdkFuQ2dHbExzNzFmc21rOUNrcEkwbkU0d2pUeGdIS2NWRVpja2ozN01fQWpDaENQMHpHb0ctSkJmUXN0ZmF5UUdzZGhQNHR0SDFjTE5seGxycHhTSHBWb1N1ZXhRZEtGcmtGdWc0SlI4amFYdzhoR3lvdV84ZHZLT0htYWxVUkdsQThJVkFSelJNUWY5ZTRiUDFBTF9EMnBUdFZOMUk?oc=5",
-    "source": "The Irish News",
-    "lang": "en",
-    "added_at": "2026-10-31T22:05:43Z",
-    "origin": "robot"
-  },
-  {
     "id": "a46c0ab77dd3",
     "date": "2026-10-12",
     "sectors": [
@@ -1885,6 +1904,25 @@
     "source": "chelmsfordcitynews.co.uk",
     "lang": "en",
     "added_at": "2026-10-31T10:05:39Z",
+    "origin": "robot"
+  },
+  {
+    "id": "8c8802c3e424",
+    "date": "2026-10-12",
+    "sectors": [
+      "Government & public sector",
+      "Multiple / cross-sector"
+    ],
+    "who": "UK minister (reported by The Irish News)",
+    "who_type": "minister",
+    "country": "GB",
+    "kind": "warning",
+    "title": "UK minister warns AI breach of cyber defences is 'likely, if not inevitable'",
+    "summary": "A UK minister warned that an AI-enabled breach of the UK's cyber defences is 'likely, if not inevitable', according to The Irish News. No further details are given in the available text.",
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPNkVabmFiZURNNVRtNXJqYnpiczFjYjM3dE5ORHpqdS12VURTaTdzdkFuQ2dHbExzNzFmc21rOUNrcEkwbkU0d2pUeGdIS2NWRVpja2ozN01fQWpDaENQMHpHb0ctSkJmUXN0ZmF5UUdzZGhQNHR0SDFjTE5seGxycHhTSHBWb1N1ZXhRZEtGcmtGdWc0SlI4amFYdzhoR3lvdV84ZHZLT0htYWxVUkdsQThJVkFSelJNUWY5ZTRiUDFBTF9EMnBUdFZOMUk?oc=5",
+    "source": "The Irish News",
+    "lang": "en",
+    "added_at": "2026-10-31T22:05:43Z",
     "origin": "robot"
   },
   {
@@ -3359,25 +3397,6 @@
   {
     "date": "2026-04-28",
     "sectors": [
-      "Financial services",
-      "Government & public sector"
-    ],
-    "who": "Europol",
-    "who_type": "intergovernmental",
-    "country": "EU",
-    "kind": "warning",
-    "title": "Europol IOCTA 2026 says AI, encryption and proxies are expanding cybercrime",
-    "summary": "Europol's Internet Organised Crime Threat Assessment said generative AI helps fraudsters produce more convincing, tailored scams and anticipated that self-directed AI could take over parts of illicit activity.",
-    "url": "https://www.europol.europa.eu/cms/sites/default/files/documents/IOCTA-2026.pdf",
-    "source": "Europol",
-    "id": "seed-RBLTIwMjYucGRm",
-    "lang": "en",
-    "added_at": "2026-10-26T18:29:46Z",
-    "origin": "research"
-  },
-  {
-    "date": "2026-04-28",
-    "sectors": [
       "Defence & security",
       "Retail & consumer brands"
     ],
@@ -3390,6 +3409,25 @@
     "url": "https://eucrim.eu/news/iocta-2026/",
     "source": "eucrim",
     "id": "seed-b2N0YS0yMDI2Lw",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-04-28",
+    "sectors": [
+      "Financial services",
+      "Government & public sector"
+    ],
+    "who": "Europol",
+    "who_type": "intergovernmental",
+    "country": "EU",
+    "kind": "warning",
+    "title": "Europol IOCTA 2026 says AI, encryption and proxies are expanding cybercrime",
+    "summary": "Europol's Internet Organised Crime Threat Assessment said generative AI helps fraudsters produce more convincing, tailored scams and anticipated that self-directed AI could take over parts of illicit activity.",
+    "url": "https://www.europol.europa.eu/cms/sites/default/files/documents/IOCTA-2026.pdf",
+    "source": "Europol",
+    "id": "seed-RBLTIwMjYucGRm",
     "lang": "en",
     "added_at": "2026-10-26T18:29:46Z",
     "origin": "research"

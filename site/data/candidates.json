@@ -12124,5 +12124,101 @@
     "first_seen": "2026-11-03T18:35:58Z",
     "first_published": "2026-11-03T18:12:10Z",
     "updated_at": "2026-11-03T18:35:58Z"
+  },
+  {
+    "id": "chainstack-ai-campaign-breach",
+    "date": "2026-11-03",
+    "title": "Chainstack discloses production breach exposing customer data and password hashes",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "Chainstack production infrastructure",
+    "loss_usd": null,
+    "summary": "Blockchain infrastructure provider Chainstack said an unauthorized party accessed parts of its infrastructure. The incident is assessed as part of a large-scale AI-powered attack campaign.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Technology & AI vendors",
+    "attribution": "Unattributed; assessed as part of a large-scale AI-powered attack campaign.",
+    "motive": "Unknown",
+    "vector": "Unauthorized access to parts of Chainstack's infrastructure; exact method Unknown.",
+    "root_cause": "Unknown",
+    "impact": "Customer data and password hashes were exposed.",
+    "response": "Chainstack publicly disclosed the breach on Tuesday.",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.7,
+    "source": "The Hacker News",
+    "url": "https://thehackernews.com/2026/11/chainstack-reports-production-systems.html",
+    "sources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/11/chainstack-reports-production-systems.html"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-11-03",
+        "event": "Reported by The Hacker News"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-11-03T19:06:15Z",
+    "wire_id": "8afc2fab5966",
+    "first_seen": "2026-11-03T19:06:15Z",
+    "first_published": "2026-11-03T18:16:19Z",
+    "updated_at": "2026-11-03T19:06:15Z"
+  },
+  {
+    "id": "gitbook-ai-agent-attack",
+    "date": "2026-11-03",
+    "title": "GitBook discloses AI agent attack exposing some infrastructure credentials",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "GitBook infrastructure credentials",
+    "loss_usd": null,
+    "summary": "GitBook disclosed an attack by an AI agent in which some infrastructure credentials were accessed without authorization. It urged users to rotate their keys.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Technology & AI vendors",
+    "attribution": "Unattributed; GitBook describes the attack as carried out by an AI agent.",
+    "motive": "Unknown",
+    "vector": "AI agent-driven intrusion; exact method Unknown.",
+    "root_cause": "Unknown",
+    "impact": "Some infrastructure credentials were accessed without authorization.",
+    "response": "GitBook publicly disclosed the incident and urged users to rotate their keys.",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.7,
+    "source": "BlockBeats",
+    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE80d3doNWVDMy13eC0tTnE4cXZmNWNwOUR3RGhsVlB1cGlXRTB2ZUh6cVNUU2FwNEhySmRmS2VMb0owTmJRX0wtV25UcmR1Wkc0TEEwc3hn?oc=5",
+    "sources": [
+      {
+        "name": "BlockBeats",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE80d3doNWVDMy13eC0tTnE4cXZmNWNwOUR3RGhsVlB1cGlXRTB2ZUh6cVNUU2FwNEhySmRmS2VMb0owTmJRX0wtV25UcmR1Wkc0TEEwc3hn?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-11-03",
+        "event": "Reported by BlockBeats"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-11-03T19:06:15Z",
+    "wire_id": "037138118991",
+    "first_seen": "2026-11-03T19:06:15Z",
+    "first_published": "2026-11-03T01:18:00Z",
+    "updated_at": "2026-11-03T19:06:15Z"
   }
 ]
