@@ -11740,5 +11740,101 @@
     "first_seen": "2026-11-03T05:05:36Z",
     "first_published": "2026-11-03T04:59:05Z",
     "updated_at": "2026-11-03T05:05:36Z"
+  },
+  {
+    "id": "tarn-restaurants-ai-fake-refund",
+    "date": "2026-11-03",
+    "title": "Tarn restaurateurs scammed with AI-generated bank proof and doctored photo",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "low",
+    "country": "FR",
+    "region": "Europe",
+    "target": "Restaurants in the Tarn, France",
+    "loss_usd": null,
+    "summary": "Local press reports that several Tarn restaurateurs were targeted by a scam using an AI-generated bank proof of a duplicate payment and an AI-doctored photo to obtain cash refunds.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Retail & consumer brands",
+    "attribution": "Not attributed; local press (Le Tarn Libre, La Dépêche) does not name the scammer(s) in the headlines.",
+    "motive": "Financial gain through cash refunds of payments that never occurred.",
+    "vector": "AI-generated fake bank proof of a duplicate payment plus an AI-altered photo, used to claim cash refunds from restaurants.",
+    "root_cause": "Unknown; staff apparently accepted AI-fabricated evidence of a duplicate payment without independent verification.",
+    "impact": "Several restaurateurs in the Tarn were targeted; amounts lost are not stated in the headlines.",
+    "response": "Unknown",
+    "status": "unresolved",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.7,
+    "source": "letarnlibre.com",
+    "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNV0F1RjFlS2lqVVpfZHJDTVdlUERtYjdzVmtrX3c5Y0xscmFhWjBJRGJxb0hLY2xaTHRLS1VXN0cwOWxVMHdtb3NmRjh1VGl1Z3dKcUUtcExKV2VHbUZPZ1ZTRWRtSXZmbzZfcWdpN0YzRnc3aVFBbUNWZ0Nqd3VXYlN0dlY0N1dwNHotaVZWRXMxekZBZTlxSFlSNm8tNUFxZlJxRDV0ZEhLTjVYZHg1ME01ZDBKZUZzcG9GWVBhTTlZb3pFTDc3cXJxWm5wUnRBVWgxcnhVTGkwdnBNZFpnV1FzUUpaV29IOEVUcE54b0tKOFM4c3BwTA?oc=5",
+    "sources": [
+      {
+        "name": "letarnlibre.com",
+        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNV0F1RjFlS2lqVVpfZHJDTVdlUERtYjdzVmtrX3c5Y0xscmFhWjBJRGJxb0hLY2xaTHRLS1VXN0cwOWxVMHdtb3NmRjh1VGl1Z3dKcUUtcExKV2VHbUZPZ1ZTRWRtSXZmbzZfcWdpN0YzRnc3aVFBbUNWZ0Nqd3VXYlN0dlY0N1dwNHotaVZWRXMxekZBZTlxSFlSNm8tNUFxZlJxRDV0ZEhLTjVYZHg1ME01ZDBKZUZzcG9GWVBhTTlZb3pFTDc3cXJxWm5wUnRBVWgxcnhVTGkwdnBNZFpnV1FzUUpaV29IOEVUcE54b0tKOFM4c3BwTA?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-11-03",
+        "event": "Reported by letarnlibre.com"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-11-03T10:03:29Z",
+    "wire_id": "64a5bad34151",
+    "first_seen": "2026-11-03T10:03:29Z",
+    "first_published": "2026-11-03T09:30:00Z",
+    "updated_at": "2026-11-03T10:03:29Z"
+  },
+  {
+    "id": "cctv-ai-fiancee-romance-scam",
+    "date": "2026-11-03",
+    "title": "Man in China loses over 180,000 yuan to AI-generated online fiancée",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "CN",
+    "region": "Asia-Pacific",
+    "target": "Individual victim (Mr. Liu)",
+    "loss_usd": null,
+    "summary": "CCTV reported that a man surnamed Liu was defrauded of more than 180,000 yuan in an online romance scam in which his fiancée was generated entirely by AI.",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "sector": "Individuals & consumers",
+    "attribution": "Not attributed; scammers unidentified in the headline and summary, case reported by CCTV.",
+    "motive": "Financial gain through romance fraud.",
+    "vector": "AI-generated persona presented as a fiancée in an online relationship.",
+    "root_cause": "Victim could not distinguish an AI-generated persona from a real person during the online relationship.",
+    "impact": "Victim lost over 180,000 yuan (about 180k yuan, per CCTV).",
+    "response": "Case publicised by CCTV as a warning; other responses unknown.",
+    "status": "unresolved",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.75,
+    "source": "新浪财经_金融信息服务商",
+    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPQTc4dVBiSk91cHZDUmZGU2lfS3VfbDRfN003MERGOW5zcndnVWV5UnBLQWI0X0RuR011dEFhUXQ1eHAyanhsSFBMRlM2VFFSbEdiNFlscVRBYVB6WFJJUEdRWjVmS3ZDYUE3OG00dEloTnlCTmN5c28yS29EOWlXTWFn?oc=5",
+    "sources": [
+      {
+        "name": "新浪财经_金融信息服务商",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPQTc4dVBiSk91cHZDUmZGU2lfS3VfbDRfN003MERGOW5zcndnVWV5UnBLQWI0X0RuR011dEFhUXQ1eHAyanhsSFBMRlM2VFFSbEdiNFlscVRBYVB6WFJJUEdRWjVmS3ZDYUE3OG00dEloTnlCTmN5c28yS29EOWlXTWFn?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-11-03",
+        "event": "Reported by 新浪财经_金融信息服务商"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-11-03T10:03:29Z",
+    "wire_id": "a0a96af2d3b9",
+    "first_seen": "2026-11-03T10:03:29Z",
+    "first_published": "2026-11-03T07:08:05Z",
+    "updated_at": "2026-11-03T10:03:29Z"
   }
 ]
