@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-03T13:35:39Z",
+  "updated_at": "2026-11-03T14:05:41Z",
   "wire_items": 800,
-  "new_items": 2,
-  "candidates": 251,
+  "new_items": 6,
+  "candidates": 253,
   "incidents": 433,
   "feeds_ok": [
     "BleepingComputer",
@@ -14,7 +14,6 @@
     "CyberScoop",
     "Krebs on Security",
     "WIRED Security",
-    "Help Net Security",
     "Infosecurity Magazine",
     "TechCrunch Security",
     "Unit 42",
@@ -83,9 +82,10 @@
     "Google News (official warnings)"
   ],
   "feeds_failed": [
+    "Help Net Security",
     "US court filings (CourtListener)",
     "European Commission",
     "European Parliament"
   ],
-  "triage": "triaged 7 items with claude-sonnet-5-5 in 1 batches (0 failed); kept 2"
+  "triage": "triaged 13 items with claude-sonnet-5-5 in 1 batches (0 failed); kept 6"
 }

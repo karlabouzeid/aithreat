@@ -11884,5 +11884,101 @@
     "first_seen": "2026-11-03T13:35:39Z",
     "first_published": "2026-11-03T13:09:00Z",
     "updated_at": "2026-11-03T13:35:39Z"
+  },
+  {
+    "id": "3am-ransomware-ai-uk-school",
+    "date": "2026-11-03",
+    "title": "3AM ransomware affiliate hits UK school estate in suspected AI-assisted attack",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "GB",
+    "region": "Europe",
+    "target": "UK school estate",
+    "loss_usd": null,
+    "summary": "A 3AM ransomware affiliate encrypted about 37 of nearly 50 machines reached from an unmanaged host at a UK school estate. Evidence suggests a model may have generated and revised commands.",
+    "actor": "3AM ransomware affiliate",
+    "actor_type": "criminal",
+    "sector": "Education & research",
+    "attribution": "Reported as a 3AM ransomware affiliate (BleepingComputer). Researchers cited by Dark Reading stopped short of claiming full automation.",
+    "motive": "Unknown; ransomware encryption suggests extortion.",
+    "vector": "Unmanaged host used to reach nearly 50 machines; commands possibly generated and revised by an AI model.",
+    "root_cause": "An unmanaged host had network reach to other machines. The precise initial access is Unknown.",
+    "impact": "About 37 of nearly 50 reachable machines were encrypted. Wider data impact is Unknown.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": "school",
+    "age_group": null,
+    "confidence": 0.7,
+    "source": "BleepingComputer",
+    "url": "https://www.bleepingcomputer.com/news/security/uk-school-estate-hit-by-3am-ransomware-in-suspected-ai-assisted-attack",
+    "sources": [
+      {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/uk-school-estate-hit-by-3am-ransomware-in-suspected-ai-assisted-attack"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-11-03",
+        "event": "Reported by BleepingComputer"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-11-03T14:05:41Z",
+    "wire_id": "1a0635dce544",
+    "first_seen": "2026-11-03T14:05:41Z",
+    "first_published": "2026-11-03T14:00:00Z",
+    "updated_at": "2026-11-03T14:05:41Z"
+  },
+  {
+    "id": "kenya-websites-ai-hacking",
+    "date": "2026-11-03",
+    "title": "Kenyan websites hit by hackers exploiting AI",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "low",
+    "country": "KE",
+    "region": "Middle East & Africa",
+    "target": "Kenyan websites",
+    "loss_usd": null,
+    "summary": "Business Daily reports that Kenyan websites suffered attacks by hackers exploiting AI. The headline gives no details on victims, methods or scale.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Unknown",
+    "attribution": "Unknown",
+    "motive": "Unknown",
+    "vector": "Unknown; reported only as hackers exploiting AI.",
+    "root_cause": "Unknown",
+    "impact": "Described only as a blow to Kenyan websites. Details are Unknown.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.35,
+    "source": "Business Daily",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOUXVhY2dsUzFPcXdzY3c0cEV1X1ZaVGhQX2E3bmhWeXlGUkFyQmttSFdmVlZOMnRjOHh3UGN5b1ZkSms2cVFhbVcxMWNQNUFzalg3Vnc3bnI0bl9OckVBS2oxUEZEMTh1akxyMlNhVURtZ0RWZU9hcVFHS0pXajByS01aSVRYdzFjbFFwLXpnSTBWY0YyYmpjOFc3Z0YtUDZ4ZkhOQlROVExpUDZVZkJvOVpEdzc5TXA5?oc=5",
+    "sources": [
+      {
+        "name": "Business Daily",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOUXVhY2dsUzFPcXdzY3c0cEV1X1ZaVGhQX2E3bmhWeXlGUkFyQmttSFdmVlZOMnRjOHh3UGN5b1ZkSms2cVFhbVcxMWNQNUFzalg3Vnc3bnI0bl9OckVBS2oxUEZEMTh1akxyMlNhVURtZ0RWZU9hcVFHS0pXajByS01aSVRYdzFjbFFwLXpnSTBWY0YyYmpjOFc3Z0YtUDZ4ZkhOQlROVExpUDZVZkJvOVpEdzc5TXA5?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-11-03",
+        "event": "Reported by Business Daily"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-11-03T14:05:41Z",
+    "wire_id": "fa79689c86ca",
+    "first_seen": "2026-11-03T14:05:41Z",
+    "first_published": "2026-11-03T13:15:00Z",
+    "updated_at": "2026-11-03T14:05:41Z"
   }
 ]
