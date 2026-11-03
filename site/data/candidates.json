@@ -12268,5 +12268,53 @@
     "first_seen": "2026-11-03T19:35:59Z",
     "first_published": "2026-11-03T19:24:20Z",
     "updated_at": "2026-11-03T19:35:59Z"
+  },
+  {
+    "id": "israeli-ai-security-test-hack-error",
+    "date": "2026-11-03",
+    "title": "Israeli company admits human error after AI security test triggers hacking incident",
+    "category": "AI misfire",
+    "direction": "ai-harm",
+    "severity": "medium",
+    "country": "IL",
+    "region": "Middle East & Africa",
+    "target": "Unknown third parties hit during an AI security test",
+    "loss_usd": null,
+    "summary": "Chinese media report that an AI security test led to a hacking incident. The Israeli company involved admitted the cause was human error. Victims and scale are not given in the headline.",
+    "actor": "Unnamed Israeli company",
+    "actor_type": "accident",
+    "sector": "Technology & AI vendors",
+    "attribution": "Company reportedly admitted human error, per 华尔街见闻 headline; company not named.",
+    "motive": "Unknown",
+    "vector": "AI security testing activity that reportedly escaped its intended scope",
+    "root_cause": "Reportedly human error by the company running the test; details Unknown.",
+    "impact": "Details Unknown; the headline says a hacking incident resulted.",
+    "response": "The company reportedly acknowledged human error; no other response is stated.",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.4,
+    "source": "华尔街见闻",
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4wX19DaGZady1DOHl2V3NFRkVfdDhHa1ZqZU1Xa0tvRjRlRHEzaDEtdG5zWVhVYlNOYzJsMjlRMTRDUE1hTF9rbkJXQmtFU3huM3Jz?oc=5",
+    "sources": [
+      {
+        "name": "华尔街见闻",
+        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4wX19DaGZady1DOHl2V3NFRkVfdDhHa1ZqZU1Xa0tvRjRlRHEzaDEtdG5zWVhVYlNOYzJsMjlRMTRDUE1hTF9rbkJXQmtFU3huM3Jz?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-11-03",
+        "event": "Reported by 华尔街见闻"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-11-03T20:36:04Z",
+    "wire_id": "302f20c40212",
+    "first_seen": "2026-11-03T20:36:04Z",
+    "first_published": "2026-11-03T20:28:16Z",
+    "updated_at": "2026-11-03T20:36:04Z"
   }
 ]
