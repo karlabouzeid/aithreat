@@ -12028,5 +12028,53 @@
     "first_seen": "2026-11-03T15:05:41Z",
     "first_published": "2026-11-03T14:30:39Z",
     "updated_at": "2026-11-03T15:05:41Z"
+  },
+  {
+    "id": "pinellas-park-ai-fake-insurance-claim",
+    "date": "2026-11-03",
+    "title": "Pinellas Park woman arrested for using AI to make fake insurance claim",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "low",
+    "country": "US",
+    "region": "North America",
+    "target": "Insurance claim",
+    "loss_usd": null,
+    "summary": "A Pinellas Park woman was arrested for allegedly using AI to fabricate material for a fake insurance claim, according to Tampa Bay 28 citing the state.",
+    "actor": "Pinellas Park woman (arrested)",
+    "actor_type": "criminal",
+    "sector": "Financial services",
+    "attribution": "Arrest reported by Tampa Bay 28 citing state authorities; no court finding stated.",
+    "motive": "Alleged fraudulent insurance payout",
+    "vector": "AI-generated or AI-altered material submitted with an insurance claim (details not given)",
+    "root_cause": "Unknown",
+    "impact": "Unknown; details of the claim and any payout not given in the headline.",
+    "response": "Woman arrested by state authorities.",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.55,
+    "source": "Tampa Bay 28",
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNMy04WGpYQUVVcThidXNWS0tBRXcyTVpaVm1ta0hpaVl4U193LXlQdkhQaHBYZ2VMZ1BPal93eW9TLVp0VVR3T0VkQkRjbEF5WUtPTTBWaDZpYXB6ZXU4cEktWE8wM3R3cEYxVXhGLWtieW4wdUZ6V2FGYmxRaUpBUmJ2R0hTSGpPVG1EdGVacFVVdDNvRW1SU1JzY3oyNkZ2Q2drdUFPQlQzd2xqclFuTHk2VG9pRGRVNENyQkwyYllrZw?oc=5",
+    "sources": [
+      {
+        "name": "Tampa Bay 28",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNMy04WGpYQUVVcThidXNWS0tBRXcyTVpaVm1ta0hpaVl4U193LXlQdkhQaHBYZ2VMZ1BPal93eW9TLVp0VVR3T0VkQkRjbEF5WUtPTTBWaDZpYXB6ZXU4cEktWE8wM3R3cEYxVXhGLWtieW4wdUZ6V2FGYmxRaUpBUmJ2R0hTSGpPVG1EdGVacFVVdDNvRW1SU1JzY3oyNkZ2Q2drdUFPQlQzd2xqclFuTHk2VG9pRGRVNENyQkwyYllrZw?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-11-03",
+        "event": "Reported by Tampa Bay 28"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-11-03T16:05:46Z",
+    "wire_id": "f76cece19573",
+    "first_seen": "2026-11-03T16:05:46Z",
+    "first_published": "2026-11-03T10:06:03Z",
+    "updated_at": "2026-11-03T16:05:46Z"
   }
 ]
