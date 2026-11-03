@@ -11692,5 +11692,53 @@
     "first_seen": "2026-11-03T00:35:40Z",
     "first_published": "2026-11-02T03:00:18Z",
     "updated_at": "2026-11-03T00:35:40Z"
+  },
+  {
+    "id": "workos-ai-framework-breach",
+    "date": "2026-10-30",
+    "title": "WorkOS internal sales app breached using AI-assisted offensive framework",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "US",
+    "region": "North America",
+    "target": "WorkOS internal sales application",
+    "loss_usd": null,
+    "summary": "WorkOS reported unauthorized access to an internal sales application on Oct 30, 2026. Attackers reportedly used an AI-assisted framework to automate reconnaissance and exploitation. Customer data may be affected.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Technology & AI vendors",
+    "attribution": "Not attributed in the available text. WorkOS's investigation found an AI-assisted offensive security framework was used.",
+    "motive": "Unknown",
+    "vector": "AI-assisted offensive security framework automating reconnaissance and exploitation against an internal sales application.",
+    "root_cause": "Unknown. The text does not say which weakness was exploited.",
+    "impact": "Unauthorized access to an internal sales application. The ongoing inquiry suggests customer data was affected, but the scope is not stated in the text.",
+    "response": "WorkOS reported the incident and its investigation is ongoing.",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.8,
+    "source": "GBHackers",
+    "url": "https://gbhackers.com/hackers-use-ai-powered-attack-framework-to-breach-workos",
+    "sources": [
+      {
+        "name": "GBHackers",
+        "url": "https://gbhackers.com/hackers-use-ai-powered-attack-framework-to-breach-workos"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-30",
+        "event": "Reported by GBHackers"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-11-03T05:05:36Z",
+    "wire_id": "46e8ac2a8d36",
+    "first_seen": "2026-11-03T05:05:36Z",
+    "first_published": "2026-11-03T04:59:05Z",
+    "updated_at": "2026-11-03T05:05:36Z"
   }
 ]
