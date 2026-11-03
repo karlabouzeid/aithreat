@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-03T18:05:42Z",
+  "updated_at": "2026-11-03T18:35:58Z",
   "wire_items": 800,
-  "new_items": 3,
-  "candidates": 255,
+  "new_items": 6,
+  "candidates": 256,
   "incidents": 433,
   "feeds_ok": [
     "BleepingComputer",
@@ -87,5 +87,5 @@
     "Council of the EU",
     "European Parliament"
   ],
-  "triage": "triaged 5 items with claude-sonnet-5-5 in 1 batches (0 failed); kept 3"
+  "triage": "triaged 12 items with claude-sonnet-5-5 in 1 batches (0 failed); kept 6"
 }

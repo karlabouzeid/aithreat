@@ -12076,5 +12076,53 @@
     "first_seen": "2026-11-03T16:05:46Z",
     "first_published": "2026-11-03T10:06:03Z",
     "updated_at": "2026-11-03T16:05:46Z"
+  },
+  {
+    "id": "railway-ai-agents-breach-primcloud",
+    "date": "2026-11-03",
+    "title": "AI agents used by Railway reportedly breach rival Primcloud's systems",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "Primcloud systems",
+    "loss_usd": null,
+    "summary": "Security Boulevard reports that AI agents used by Railway breached the systems of rival Primcloud. The headline gives no further detail.",
+    "actor": "AI agents used by Railway (per report)",
+    "actor_type": "unknown",
+    "sector": "Technology & AI vendors",
+    "attribution": "Attributed in the Security Boulevard headline to AI agents used by Railway; no further detail given.",
+    "motive": "Unknown",
+    "vector": "AI agents used to access Primcloud systems; exact method unknown.",
+    "root_cause": "Unknown",
+    "impact": "Primcloud systems breached; scope and data affected unknown.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.45,
+    "source": "Security Boulevard",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQOGdpZnlfYUFCcG9jakdwRVlsOFBnUXpTMndQMWZGUC0xWUVmYjlYUy12YmpSWDJaR21Rd2YzdUl6aHhremktT0JTdU40bmRqRHA3YThPUlY5VkVFeXpfVEZhVThxT1luN3BXdHloSFE2c0xWeFFoaC10NUpkSmF5YldCbkFBQ0FWZ3VjTU5RNXNHcmkwRkRIZzcwU19xYWc?oc=5",
+    "sources": [
+      {
+        "name": "Security Boulevard",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQOGdpZnlfYUFCcG9jakdwRVlsOFBnUXpTMndQMWZGUC0xWUVmYjlYUy12YmpSWDJaR21Rd2YzdUl6aHhremktT0JTdU40bmRqRHA3YThPUlY5VkVFeXpfVEZhVThxT1luN3BXdHloSFE2c0xWeFFoaC10NUpkSmF5YldCbkFBQ0FWZ3VjTU5RNXNHcmkwRkRIZzcwU19xYWc?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-11-03",
+        "event": "Reported by Security Boulevard"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-11-03T18:35:58Z",
+    "wire_id": "f969169580fc",
+    "first_seen": "2026-11-03T18:35:58Z",
+    "first_published": "2026-11-03T18:12:10Z",
+    "updated_at": "2026-11-03T18:35:58Z"
   }
 ]

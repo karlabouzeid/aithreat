@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T18:07:06Z",
+  "generated_at": "2026-11-03T18:37:22Z",
   "total": 232,
   "all_time_total": 433,
   "window_from": "2025-11-03",
@@ -1024,11 +1024,11 @@
     {
       "day": "2026-10-29",
       "kinds": {
-        "incident": 36,
+        "incident": 35,
         "vulnerability": 14,
-        "research": 15,
+        "research": 14,
         "vendor-report": 9,
-        "policy": 5,
+        "policy": 1,
         "other": 4,
         "untagged": 0
       }
@@ -1084,12 +1084,12 @@
     {
       "day": "2026-11-03",
       "kinds": {
-        "incident": 60,
+        "incident": 64,
         "vulnerability": 2,
         "research": 36,
         "vendor-report": 2,
         "policy": 1,
-        "other": 6,
+        "other": 7,
         "untagged": 0
       }
     }
