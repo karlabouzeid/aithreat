@@ -1,12 +1,11 @@
 {
-  "updated_at": "2026-11-03T11:35:38Z",
+  "updated_at": "2026-11-03T12:05:42Z",
   "wire_items": 800,
   "new_items": 1,
   "candidates": 250,
   "incidents": 433,
   "feeds_ok": [
     "BleepingComputer",
-    "The Record",
     "The Hacker News",
     "SecurityWeek",
     "Dark Reading",
@@ -83,9 +82,10 @@
     "Google News (official warnings)"
   ],
   "feeds_failed": [
+    "The Record",
     "US court filings (CourtListener)",
     "European Commission",
     "European Parliament"
   ],
-  "triage": "triaged 4 items with claude-sonnet-5-5 in 1 batches (0 failed); kept 1"
+  "triage": "triaged 10 items with claude-sonnet-5-5 in 1 batches (0 failed); kept 1"
 }
