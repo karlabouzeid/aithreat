@@ -183,6 +183,44 @@
     "origin": "robot"
   },
   {
+    "id": "e63c35077c08",
+    "date": "2026-11-03",
+    "sectors": [
+      "Energy, industrial & infrastructure",
+      "Government & public sector"
+    ],
+    "who": "UK National Cyber Security Centre (NCSC)",
+    "who_type": "security_agency",
+    "country": "GB",
+    "kind": "warning",
+    "title": "NCSC warns AI-enabled malware could hit UK critical infrastructure by 2028",
+    "summary": "According to the headline, the UK NCSC warned that AI-enabled malware is expected to reach UK critical national infrastructure by 2028. This is the agency's assessment, not a confirmed event. No further detail was provided.",
+    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNanl2LWtjemRyTjlMY1EtZDhTUHMyOGdkU2ZSbzY2dFVrRTZxbkJac01KbHVraXdpMjQ3YzR0UlZwREFKNjRtWmlhaGZtOWFQVzdmNkdTRURlYTJmU040eENyZkxxZmgwT2Z2dEcya05mYndEUnR6MzBCRFV6X3hjc0tzc3JSdw?oc=5",
+    "source": "shattered.io",
+    "lang": "en",
+    "added_at": "2026-11-03T04:35:38Z",
+    "origin": "robot"
+  },
+  {
+    "id": "62ff20fb6d90",
+    "date": "2026-11-03",
+    "sectors": [
+      "Energy, industrial & infrastructure",
+      "Government & public sector"
+    ],
+    "who": "UK National Cyber Security Centre (NCSC)",
+    "who_type": "security_agency",
+    "country": "GB",
+    "kind": "warning",
+    "title": "NCSC warns AI malware will hit UK critical infrastructure by 2028",
+    "summary": "According to the headline, the UK NCSC warned that AI malware will hit UK critical national infrastructure by 2028. This is the agency's forecast, not a confirmed event. No further detail was provided.",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPQXl5QUM3bmc4V1ZvaGd0bXVGR3g0aVY0YXZxTnJtMnlsTU1uekluY0EweG95QkdxWkxfQnFzVy1WMHpTMXBMUHU1UlU0M2lYb21vTkwtQ3lWU0cyQm5nNGJwbnl0ZmxDUmdBQU1MU194ck1lai1xZEI0eTdua3NFOFo4ZVloQlN4UG5Relg0ZnNVYXAtU3c?oc=5",
+    "source": "https://tech-insider.org/",
+    "lang": "en",
+    "added_at": "2026-11-03T04:35:38Z",
+    "origin": "robot"
+  },
+  {
     "id": "b1926c1f3f22",
     "date": "2026-11-03",
     "sectors": [
@@ -1215,25 +1253,6 @@
     "origin": "robot"
   },
   {
-    "id": "a46c0ab77dd3",
-    "date": "2026-10-12",
-    "sectors": [
-      "Multiple / cross-sector",
-      "Government & public sector"
-    ],
-    "who": "UK minister",
-    "who_type": "minister",
-    "country": "GB",
-    "kind": "warning",
-    "title": "UK minister warns AI breach of cyber defences is 'likely, if not inevitable'",
-    "summary": "A UK minister warned that an AI breach of UK cyber defences is 'likely, if not inevitable', according to local press reporting.",
-    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNYTY1UEtYV255aHJxd1c1S3U2RDJFM2ZvRGtQVlpra3BNQ25mMmNjSTZKLWJjTkhERDlOTFRBR2RiZk5vSkdROXFUZzk2SmJBeWlVNXhJX0Z1eE9BS1p6Q3IzeTlQUHQycDdOdXczWXFkNXJCQnRRUGlHbzI4OUZ5Ukg0MTRNV0hpWkg3dURhYUplX2J4WDUyUXZhUVRjLWhvQ2ZQdVdOaFFqMGtpZVdrYkQ0YWktNG9JZE5henJlamxZOFU?oc=5",
-    "source": "chelmsfordcitynews.co.uk",
-    "lang": "en",
-    "added_at": "2026-10-31T10:05:39Z",
-    "origin": "robot"
-  },
-  {
     "id": "8c8802c3e424",
     "date": "2026-10-12",
     "sectors": [
@@ -1250,6 +1269,25 @@
     "source": "The Irish News",
     "lang": "en",
     "added_at": "2026-10-31T22:05:43Z",
+    "origin": "robot"
+  },
+  {
+    "id": "a46c0ab77dd3",
+    "date": "2026-10-12",
+    "sectors": [
+      "Multiple / cross-sector",
+      "Government & public sector"
+    ],
+    "who": "UK minister",
+    "who_type": "minister",
+    "country": "GB",
+    "kind": "warning",
+    "title": "UK minister warns AI breach of cyber defences is 'likely, if not inevitable'",
+    "summary": "A UK minister warned that an AI breach of UK cyber defences is 'likely, if not inevitable', according to local press reporting.",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNYTY1UEtYV255aHJxd1c1S3U2RDJFM2ZvRGtQVlpra3BNQ25mMmNjSTZKLWJjTkhERDlOTFRBR2RiZk5vSkdROXFUZzk2SmJBeWlVNXhJX0Z1eE9BS1p6Q3IzeTlQUHQycDdOdXczWXFkNXJCQnRRUGlHbzI4OUZ5Ukg0MTRNV0hpWkg3dURhYUplX2J4WDUyUXZhUVRjLWhvQ2ZQdVdOaFFqMGtpZVdrYkQ0YWktNG9JZE5henJlamxZOFU?oc=5",
+    "source": "chelmsfordcitynews.co.uk",
+    "lang": "en",
+    "added_at": "2026-10-31T10:05:39Z",
     "origin": "robot"
   },
   {
@@ -2724,25 +2762,6 @@
   {
     "date": "2026-04-28",
     "sectors": [
-      "Defence & security",
-      "Retail & consumer brands"
-    ],
-    "who": "Europol",
-    "who_type": "intergovernmental",
-    "country": "EU",
-    "kind": "warning",
-    "title": "Europol IOCTA 2026 says AI, encryption and proxies are expanding cybercrime",
-    "summary": "Europol's Internet Organised Crime Threat Assessment said generative AI makes fraud more convincing, ransomware groups are adopting AI tools, and it expects cybercrime to become more automated with minimal human involvement.",
-    "url": "https://eucrim.eu/news/iocta-2026/",
-    "source": "eucrim",
-    "id": "seed-b2N0YS0yMDI2Lw",
-    "lang": "en",
-    "added_at": "2026-10-26T18:29:46Z",
-    "origin": "research"
-  },
-  {
-    "date": "2026-04-28",
-    "sectors": [
       "Financial services",
       "Government & public sector"
     ],
@@ -2755,6 +2774,25 @@
     "url": "https://www.europol.europa.eu/cms/sites/default/files/documents/IOCTA-2026.pdf",
     "source": "Europol",
     "id": "seed-RBLTIwMjYucGRm",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-04-28",
+    "sectors": [
+      "Defence & security",
+      "Retail & consumer brands"
+    ],
+    "who": "Europol",
+    "who_type": "intergovernmental",
+    "country": "EU",
+    "kind": "warning",
+    "title": "Europol IOCTA 2026 says AI, encryption and proxies are expanding cybercrime",
+    "summary": "Europol's Internet Organised Crime Threat Assessment said generative AI makes fraud more convincing, ransomware groups are adopting AI tools, and it expects cybercrime to become more automated with minimal human involvement.",
+    "url": "https://eucrim.eu/news/iocta-2026/",
+    "source": "eucrim",
+    "id": "seed-b2N0YS0yMDI2Lw",
     "lang": "en",
     "added_at": "2026-10-26T18:29:46Z",
     "origin": "research"
