@@ -11836,5 +11836,53 @@
     "first_seen": "2026-11-03T10:03:29Z",
     "first_published": "2026-11-03T07:08:05Z",
     "updated_at": "2026-11-03T10:03:29Z"
+  },
+  {
+    "id": "91app-ai-breach-taiwan",
+    "date": "2026-11-03",
+    "title": "91APP reportedly breached by AI-driven attack, experts warn of scam risk",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "TW",
+    "region": "Asia-Pacific",
+    "target": "91APP e-commerce platform",
+    "loss_usd": null,
+    "summary": "Epoch Times reports 91APP was hacked by AI, and experts worry the stolen data could fuel spin-off scams. Details of the attack are not given in the headline.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Retail & consumer brands",
+    "attribution": "Unknown; the headline only says AI was used to break in.",
+    "motive": "Unknown",
+    "vector": "Unknown; described only as an AI-driven intrusion.",
+    "root_cause": "Unknown",
+    "impact": "Experts cited by the outlet fear derivative fraud risk for users. Scale of the data exposure is not stated.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.4,
+    "source": "大紀元",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9KWFllU1dLSDJZWlRteWw5UzF4N2NBWW1KTmFHMXI4amo4bjRUNmhvVmdzZ0tyVVljbTdLWGx3TWFOLTVRUmdWRjc4OHBJamp0VUVVZnhPSGFfRHBvNjNRNdIBZkFVX3lxTE5wUDg3d0dfRnNBVVV3ajhyZW4tNTFxQTRVcktqc3FjcjE1WTExVmF0bUJHWDlZLVRNblk0cHB5UUtScUluSFJhS2d1SVo2VmNQTzJGV1U0elhYUGlrdWdHVW5od1R2UQ?oc=5",
+    "sources": [
+      {
+        "name": "大紀元",
+        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9KWFllU1dLSDJZWlRteWw5UzF4N2NBWW1KTmFHMXI4amo4bjRUNmhvVmdzZ0tyVVljbTdLWGx3TWFOLTVRUmdWRjc4OHBJamp0VUVVZnhPSGFfRHBvNjNRNdIBZkFVX3lxTE5wUDg3d0dfRnNBVVV3ajhyZW4tNTFxQTRVcktqc3FjcjE1WTExVmF0bUJHWDlZLVRNblk0cHB5UUtScUluSFJhS2d1SVo2VmNQTzJGV1U0elhYUGlrdWdHVW5od1R2UQ?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-11-03",
+        "event": "Reported by 大紀元"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-11-03T13:35:39Z",
+    "wire_id": "4066829a778f",
+    "first_seen": "2026-11-03T13:35:39Z",
+    "first_published": "2026-11-03T13:09:00Z",
+    "updated_at": "2026-11-03T13:35:39Z"
   }
 ]
