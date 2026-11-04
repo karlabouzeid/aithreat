@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T21:18:00Z",
+  "generated_at": "2026-11-04T21:46:57Z",
   "licence": "CC BY 4.0",
   "sources": [
     {
@@ -322,8 +322,8 @@
       "claim": "As AI seems more human, people form relationships with it and trust it, and that trust can be exploited or lead to harm.",
       "status": "observed",
       "note": "The paper already cited the 2023 Belgian chatbot suicide. Since then the registry has filed lawsuits and inquests over deaths and crises linked to chatbots, and a fraud studio that ran thousands of AI personas on dating apps. Most chatbot cases are allegations in court, not findings.",
-      "n": 48,
-      "real_world": 48,
+      "n": 49,
+      "real_world": 49,
       "first_real_world": "2023-02-03",
       "months_after_publication": -4,
       "url": "https://aithreat.io/research/trust-exploited/",
@@ -332,6 +332,7 @@
         "eight-states-v-openai",
         "habib-v-openai-chatgpt-lebanon-teen",
         "korea-kcsc-ai-chatbot-minor-complaints",
+        "openai-school-shooting-lawsuit-failure-w",
         "anthropic-gtg-15001-dating-apps",
         "carrier-v-openai",
         "florida-ag-v-openai",
@@ -439,8 +440,8 @@
       "claim": "AI could lower the barrier to entry for cyberattacks and increase their scale, speed and success, including against the infrastructure societies depend on.",
       "status": "observed",
       "note": "The best-documented prediction in the registry: novices building ransomware with chatbots, malware that asks a model what to do next, state groups using AI at every stage of an attack, and AI-written scripts probing industrial controllers.",
-      "n": 94,
-      "real_world": 93,
+      "n": 96,
+      "real_world": 95,
       "first_real_world": "2025-01-10",
       "months_after_publication": 19,
       "url": "https://aithreat.io/research/cyberattack-barrier/",
@@ -450,8 +451,10 @@
         "gitbook-ai-agent-attack",
         "workos-ai-framework-breach",
         "bugster-deepseek-v4-india-universities",
+        "inc-gentlemen-claude-exposed-servers",
         "storm-0940-artex-connectwise",
         "storm-1516-talarico-deepfake-video",
+        "cairn-ai-platform-abused-100-orgs",
         "papercut-ai-agents-credential-theft",
         "storm-3168-agentic-azure-attacks",
         "unit42-ai-espionage-gov-linux",
@@ -1163,8 +1166,8 @@
       "claim": "There is strong evidence that criminal groups and state-backed attackers use AI in their operations, especially to find software flaws and write malicious code, though it is not yet clear whether AI has made attacks larger or more damaging overall.",
       "status": "observed",
       "note": "Matches the registry closely: AI-written ransomware and stealers, malware that asks a model what to do while it runs, and state groups using chatbots for reconnaissance, phishing and exploit work. Like the report, the case files show use, not overall effect.",
-      "n": 94,
-      "real_world": 93,
+      "n": 96,
+      "real_world": 95,
       "first_real_world": "2025-01-10",
       "months_after_publication": -13,
       "url": "https://aithreat.io/research/iasr-cyber-use/",
@@ -1174,8 +1177,10 @@
         "gitbook-ai-agent-attack",
         "workos-ai-framework-breach",
         "bugster-deepseek-v4-india-universities",
+        "inc-gentlemen-claude-exposed-servers",
         "storm-0940-artex-connectwise",
         "storm-1516-talarico-deepfake-video",
+        "cairn-ai-platform-abused-100-orgs",
         "papercut-ai-agents-credential-theft",
         "storm-3168-agentic-azure-attacks",
         "unit42-ai-espionage-gov-linux",
@@ -1576,8 +1581,8 @@
       "claim": "AI companion apps have reached tens of millions of users. Early, mixed evidence links frequent use to more loneliness and less social contact, and heavy reliance on AI can weaken people's own judgement.",
       "status": "early",
       "note": "The registry holds lawsuits, an inquest and press reports linking chatbot conversations to suicides, delusions and violence. Most are allegations in court, not findings, and they are severe individual cases rather than the population-wide effects the report discusses.",
-      "n": 45,
-      "real_world": 45,
+      "n": 46,
+      "real_world": 46,
       "first_real_world": "2023-02-03",
       "months_after_publication": -36,
       "url": "https://aithreat.io/research/iasr-companions/",
@@ -1586,6 +1591,7 @@
         "eight-states-v-openai",
         "habib-v-openai-chatgpt-lebanon-teen",
         "korea-kcsc-ai-chatbot-minor-complaints",
+        "openai-school-shooting-lawsuit-failure-w",
         "carrier-v-openai",
         "florida-ag-v-openai",
         "luca-walker-uk-inquest",
@@ -2014,8 +2020,8 @@
       "claim": "A third of UK adults surveyed had used AI for emotional support or company in the past year, and some users of companion apps showed withdrawal-like distress when the service went down.",
       "status": "early",
       "note": "The registry holds lawsuits, an inquest and press reports linking chatbot conversations to suicides, delusions and violence. Most are allegations in court, not findings.",
-      "n": 45,
-      "real_world": 45,
+      "n": 46,
+      "real_world": 46,
       "first_real_world": "2023-02-03",
       "months_after_publication": -34,
       "url": "https://aithreat.io/research/aisi-emotional-reliance/",
@@ -2024,6 +2030,7 @@
         "eight-states-v-openai",
         "habib-v-openai-chatgpt-lebanon-teen",
         "korea-kcsc-ai-chatbot-minor-complaints",
+        "openai-school-shooting-lawsuit-failure-w",
         "carrier-v-openai",
         "florida-ag-v-openai",
         "luca-walker-uk-inquest",
@@ -2163,8 +2170,8 @@
       "claim": "AI that leaks or infers sensitive personal data, and weaknesses in AI systems and their toolchains that attackers exploit.",
       "status": "observed",
       "note": "One of the two pillars of the registry: leaked chats and keys, exposed databases, prompt injection, hijacked agents, poisoned packages and stolen AI accounts.",
-      "n": 149,
-      "real_world": 101,
+      "n": 150,
+      "real_world": 102,
       "first_real_world": "2022-12-30",
       "months_after_publication": null,
       "url": "https://aithreat.io/research/mit-privacy-security/",
@@ -2173,6 +2180,7 @@
         "warp-agent-logs-vendor-breach",
         "cloudflare-workers-ai-glm-leak",
         "litellm-1-107-0-trojanized-release",
+        "wiz-llmjacking-cloud-billing-ads",
         "whatsapp-help-pages-meta-ai-prompt-leak",
         "aoki-infostealer-ai-assistant-creds",
         "jinx-2401-llm-hijacking-aws",
@@ -2381,8 +2389,8 @@
       "claim": "People using AI for disinformation, surveillance and propaganda at scale; for cyberattacks and weapons; and for fraud, scams and targeted manipulation.",
       "status": "observed",
       "note": "The other pillar of the registry: deepfake fraud, AI-built malware, AI phishing and state operations.",
-      "n": 198,
-      "real_world": 197,
+      "n": 200,
+      "real_world": 199,
       "first_real_world": "2025-01-05",
       "months_after_publication": null,
       "url": "https://aithreat.io/research/mit-malicious-actors/",
@@ -2397,8 +2405,10 @@
         "mendoza-retiree-messi-ai-scam",
         "deepfake-pm-scam-88-year-old-td-bank",
         "bugster-deepseek-v4-india-universities",
+        "inc-gentlemen-claude-exposed-servers",
         "storm-0940-artex-connectwise",
         "storm-1516-talarico-deepfake-video",
+        "cairn-ai-platform-abused-100-orgs",
         "scammers-clone-sheriff-voice",
         "wu-yue-ai-celebrity-impersonation-sales",
         "papercut-ai-agents-credential-theft",
@@ -2613,8 +2623,8 @@
       "claim": "People over-trusting or depending on AI, emotionally or materially, and handing it decisions in ways that weaken their own agency.",
       "status": "observed",
       "note": "Lawsuits and an inquest link chatbot conversations to suicides and delusions, and an engineer exposed sensitive data by acting on an AI agent's faulty advice. Most chatbot cases are allegations in court, not findings.",
-      "n": 46,
-      "real_world": 46,
+      "n": 47,
+      "real_world": 47,
       "first_real_world": "2023-02-03",
       "months_after_publication": null,
       "url": "https://aithreat.io/research/mit-human-computer/",
@@ -2623,6 +2633,7 @@
         "eight-states-v-openai",
         "habib-v-openai-chatgpt-lebanon-teen",
         "korea-kcsc-ai-chatbot-minor-complaints",
+        "openai-school-shooting-lawsuit-failure-w",
         "carrier-v-openai",
         "florida-ag-v-openai",
         "luca-walker-uk-inquest",
@@ -2772,7 +2783,7 @@
     {
       "source": "cais-2023",
       "claims": 17,
-      "matched_cases": 186,
+      "matched_cases": 189,
       "matched_pct": 40,
       "status_counts": {
         "observed": 7,
@@ -2785,7 +2796,7 @@
     {
       "source": "iasr-2026",
       "claims": 11,
-      "matched_cases": 332,
+      "matched_cases": 335,
       "matched_pct": 71,
       "status_counts": {
         "observed": 5,
@@ -2837,7 +2848,7 @@
     {
       "source": "aisi-trends-2025",
       "claims": 5,
-      "matched_cases": 50,
+      "matched_cases": 51,
       "matched_pct": 11,
       "status_counts": {
         "observed": 1,
@@ -2850,7 +2861,7 @@
     {
       "source": "mit-risk-repository",
       "claims": 7,
-      "matched_cases": 403,
+      "matched_cases": 407,
       "matched_pct": 87,
       "status_counts": {
         "observed": 4,
@@ -2868,9 +2879,9 @@
     "none": 4,
     "outside": 7
   },
-  "matched_cases": 404,
-  "total_cases": 465,
-  "warning_matched_cases": 363,
+  "matched_cases": 408,
+  "total_cases": 469,
+  "warning_matched_cases": 366,
   "unmatched_pct": 22,
   "unmatched_by_category": [
     {
@@ -2885,8 +2896,8 @@
     },
     {
       "category": "LLMjacking",
-      "unmatched": 14,
-      "total": 15
+      "unmatched": 15,
+      "total": 16
     },
     {
       "category": "AI misfire",
@@ -2916,7 +2927,7 @@
     {
       "category": "AI-assisted malware",
       "unmatched": 0,
-      "total": 52
+      "total": 54
     },
     {
       "category": "AI supply chain",
@@ -2926,7 +2937,7 @@
     {
       "category": "Chatbot harm",
       "unmatched": 0,
-      "total": 47
+      "total": 48
     },
     {
       "category": "Agent hijack",

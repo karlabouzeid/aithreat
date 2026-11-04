@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-04T21:18:00Z",
-  "total": 262,
-  "all_time_total": 465,
+  "generated_at": "2026-11-04T21:46:57Z",
+  "total": 266,
+  "all_time_total": 469,
   "window_from": "2025-11-04",
   "window_to": "2026-11-04",
   "trend_from": "2025-01-01",
@@ -20,7 +20,7 @@
       "sao-paulo-fake-lawyer-voice-clone"
     ],
     "financial_services": 9,
-    "individuals": 76,
+    "individuals": 77,
     "fin_by_category": {
       "Deepfake fraud": 7,
       "AI-assisted malware": 1,
@@ -46,24 +46,24 @@
     "vendors": [
       {
         "product": "OpenAI / ChatGPT",
-        "n": 48,
-        "critical_high": 34,
+        "n": 49,
+        "critical_high": 35,
         "with_cve": 0,
         "latest": "openai-chatgpt-epilepsy-death-suit"
       },
       {
         "product": "Anthropic / Claude",
-        "n": 29,
+        "n": 30,
         "critical_high": 22,
         "with_cve": 2,
-        "latest": "aoki-infostealer-ai-assistant-creds"
+        "latest": "inc-gentlemen-claude-exposed-servers"
       },
       {
         "product": "Google Gemini",
-        "n": 16,
-        "critical_high": 5,
+        "n": 17,
+        "critical_high": 6,
         "with_cve": 0,
-        "latest": "gemini-breakout-hacks-three-companies"
+        "latest": "wiz-llmjacking-cloud-billing-ads"
       },
       {
         "product": "MCP servers",
@@ -153,13 +153,13 @@
   },
   "this_quarter": {
     "q": "2026-Q4",
-    "n": 70,
+    "n": 73,
     "prev_q": "2026-Q3",
-    "prev_n": 49
+    "prev_n": 50
   },
   "direction": {
-    "on-ai": 86,
-    "with-ai": 146
+    "on-ai": 87,
+    "with-ai": 148
   },
   "on_ai_share_first_half": 31,
   "on_ai_share_last_half": 41,
@@ -250,31 +250,31 @@
     },
     {
       "q": "2026-Q3",
-      "n": 49,
+      "n": 50,
       "on-ai": 16,
       "with-ai": 33,
       "severity": {
-        "critical": 8,
+        "critical": 9,
         "high": 29,
         "medium": 10,
         "low": 2
       },
       "autonomous": 4,
-      "real_world": 46
+      "real_world": 47
     },
     {
       "q": "2026-Q4",
-      "n": 70,
-      "on-ai": 18,
-      "with-ai": 47,
+      "n": 73,
+      "on-ai": 19,
+      "with-ai": 49,
       "severity": {
         "critical": 3,
-        "high": 24,
-        "medium": 39,
+        "high": 26,
+        "medium": 40,
         "low": 4
       },
       "autonomous": 6,
-      "real_world": 69
+      "real_world": 72
     }
   ],
   "categories": [
@@ -295,7 +295,7 @@
     },
     {
       "category": "AI-assisted malware",
-      "n": 38,
+      "n": 40,
       "by_quarter": [
         1,
         5,
@@ -304,9 +304,9 @@
         5,
         5,
         6,
-        19
+        21
       ],
-      "growth_last4_vs_prev4": 18
+      "growth_last4_vs_prev4": 20
     },
     {
       "category": "AI supply chain",
@@ -325,7 +325,7 @@
     },
     {
       "category": "Chatbot harm",
-      "n": 24,
+      "n": 25,
       "by_quarter": [
         0,
         4,
@@ -333,10 +333,10 @@
         11,
         6,
         4,
-        0,
+        1,
         4
       ],
-      "growth_last4_vs_prev4": -12
+      "growth_last4_vs_prev4": -11
     },
     {
       "category": "Model & data leak",
@@ -415,7 +415,7 @@
     },
     {
       "category": "LLMjacking",
-      "n": 11,
+      "n": 12,
       "by_quarter": [
         3,
         1,
@@ -424,9 +424,9 @@
         2,
         3,
         3,
-        2
+        3
       ],
-      "growth_last4_vs_prev4": 5
+      "growth_last4_vs_prev4": 6
     },
     {
       "category": "AI phishing",
@@ -459,7 +459,7 @@
       "growth_last4_vs_prev4": 0
     }
   ],
-  "rising_category": "AI supply chain",
+  "rising_category": "AI-assisted malware",
   "top_category": "Deepfake fraud",
   "top_category_n": 50,
   "autonomous": {
@@ -486,9 +486,9 @@
       "actor_type": "criminal",
       "by_year": {
         "2025": 13,
-        "2026": 81
+        "2026": 84
       },
-      "n": 94
+      "n": 97
     },
     {
       "actor_type": "state",
@@ -552,9 +552,9 @@
     "2026"
   ],
   "severity": {
-    "critical": 39,
-    "high": 113,
-    "medium": 100,
+    "critical": 40,
+    "high": 115,
+    "medium": 101,
     "low": 10
   },
   "critical_high_pct": 58,
@@ -632,11 +632,11 @@
     },
     {
       "sector": "Individuals & consumers",
-      "n": 76
+      "n": 77
     },
     {
       "sector": "Multiple / cross-sector",
-      "n": 28
+      "n": 30
     },
     {
       "sector": "Education & research",
@@ -644,7 +644,7 @@
     },
     {
       "sector": "Unknown",
-      "n": 16
+      "n": 17
     },
     {
       "sector": "Government & public sector",
@@ -678,7 +678,7 @@
   "countries": [
     {
       "country": "GL",
-      "n": 114
+      "n": 117
     },
     {
       "country": "US",
@@ -697,11 +697,11 @@
       "n": 6
     },
     {
-      "country": "IL",
-      "n": 4
+      "country": "CA",
+      "n": 5
     },
     {
-      "country": "CA",
+      "country": "IL",
       "n": 4
     },
     {
@@ -729,7 +729,7 @@
   "status": [
     {
       "status": "under investigation",
-      "n": 91
+      "n": 94
     },
     {
       "status": "ongoing",
@@ -786,11 +786,15 @@
     {
       "status": "indicted and detained; trial pending",
       "n": 1
+    },
+    {
+      "status": "lawsuit filed; unresolved",
+      "n": 1
     }
   ],
   "unresolved_pct": 66,
   "verify_median_hours": 19.8,
-  "verify_sample": 73,
+  "verify_sample": 77,
   "researcher_demos": 21,
   "pulse": [
     {

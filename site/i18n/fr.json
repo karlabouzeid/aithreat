@@ -8113,5 +8113,69 @@
     "timeline": [
       "Signalé par The Cool Down"
     ]
+  },
+  {
+    "title": "La Colombie-Britannique poursuit OpenAI et Sam Altman, alléguant qu'un compte ChatGPT signalé en interne n'a pas été signalé à la police avant la fusillade de l'école de Tumbler Ridge",
+    "summary": "La Colombie-Britannique a déposé une plainte devant un tribunal fédéral de San Francisco contre OpenAI et son PDG Sam Altman. Elle allègue que l'équipe de sécurité d'OpenAI avait repéré en juin 2025 les conversations du tireur avec ChatGPT portant sur la violence armée et recommandé de contacter la police, mais que la direction avait refusé. La province réclame des dommages-intérêts couvrant les coûts de l'intervention et de la reconstruction, ainsi que des changements dans la manière dont OpenAI traite les conversations laissant entrevoir des violences planifiées. Il s'agit d'allégations : aucun tribunal ne s'est prononcé et OpenAI nie toute faute dans des poursuites connexes.",
+    "target": "Province de la Colombie-Britannique et district scolaire local (demandeurs) ; victimes de la fusillade de l'école secondaire de Tumbler Ridge",
+    "actor": "OpenAI et Sam Altman (défendeurs, selon les allégations)",
+    "attribution": "Allégations des demandeurs dans une poursuite, rapportées par Digit ; aucune conclusion judiciaire. Le résumé ne donne pas de détails sur la fusillade ni sur l'avertissement.",
+    "motive": "Inconnu",
+    "vector": "Défaut allégué de remontée à la police d'un avertissement interne concernant un utilisateur avant une fusillade dans une école, selon la plainte.",
+    "root_cause": "Défaillance alléguée des processus de sécurité et d'escalade d'OpenAI, qui n'auraient pas donné suite à un avertissement interne. Il s'agit de la thèse des demandeurs, non prouvée.",
+    "impact": "Une fusillade dans une école, avec des préjudices allégués pour les victimes. Le nombre de victimes et leur identité ne sont pas précisés dans le texte disponible.",
+    "response": "Plainte déposée contre OpenAI. La réponse d'OpenAI n'est pas précisée dans le texte disponible.",
+    "id": "openai-school-shooting-lawsuit-failure-w",
+    "timeline": [
+      "Signalé par Digit"
+    ]
+  },
+  {
+    "title": "Des pirates détournent la plateforme d'IA open source Cairn pour mener des intrusions de sites web pilotées par des agents ; le plus important des trois clusters a compromis plus de 100 organisations",
+    "summary": "NorForge a constaté que des acteurs malveillants avaient laissé des panneaux de contrôle Cairn exposés et a identifié trois clusters apparemment malveillants, axés sur l'accès persistant et le vol financier. Le plus important, de langue chinoise, a mené plus de 1 100 projets d'attaque répartis sur 14 tableaux de bord. Reuters rapporte que ce cluster a compromis plus de 100 entreprises. Selon NorForge, les attaquants ont réussi dans environ 10 % des tentatives, et Reuters n'a pas pu établir la quantité de données extraites.",
+    "target": "Plateformes de commerce électronique et de paiement et autres sites web, principalement aux États-Unis, au Japon et en Australie (victimes non nommées par NorForge)",
+    "actor": "Trois clusters non nommés (le plus important de langue chinoise ; un cluster anglophone que NorForge croit basé en Afrique)",
+    "attribution": "SecurityWeek fait état d'au moins trois acteurs malveillants ; le résumé ne donne ni noms ni liens avec un État.",
+    "motive": "Vol financier et accès persistant",
+    "vector": "Détournement de la plateforme d'IA Cairn pour obtenir un accès persistant",
+    "root_cause": "Inconnue",
+    "impact": "Plus de 100 organisations piratées, avec accès persistant et vol financier signalés.",
+    "response": "Inconnue",
+    "id": "cairn-ai-platform-abused-100-orgs",
+    "timeline": [
+      "Signalé par SecurityWeek"
+    ]
+  },
+  {
+    "title": "Un hameçonnage par annonces de recherche détourne des comptes de facturation cloud pour un usage non autorisé d'API de LLM",
+    "summary": "Selon le Wiz CIRT, des attaquants ont acheté des annonces Google Search sur des termes tels que « google cloud », qui menaient à de fausses pages de connexion Google, ont capturé identifiants et codes d'authentification multifacteur, puis ont rattaché des projets GCP contrôlés par eux aux comptes de facturation des victimes. En 24 à 48 heures, les organisations victimes ont vu apparaître des frais de plusieurs dizaines à plusieurs centaines de milliers de dollars liés à un usage non autorisé de l'API Gemini. Google Ads a retiré la campagne malveillante après son signalement.",
+    "target": "Organisations disposant d'utilisateurs privilégiés Google Cloud (GCP) et de comptes de facturation",
+    "actor": "Acteur(s) malveillant(s) inconnu(s)",
+    "attribution": "Wiz Research décrit les acteurs malveillants, mais le résumé ne les nomme pas.",
+    "motive": "Gain financier par l'usage gratuit d'API de LLM facturées aux victimes.",
+    "vector": "Annonce Google Search malveillante menant à de l'hameçonnage et au vol d'identifiants, puis détournement du compte de facturation cloud.",
+    "root_cause": "Les identifiants des victimes ont été hameçonnés au moyen d'une annonce de recherche malveillante, ce qui a donné aux attaquants le contrôle des comptes de facturation.",
+    "impact": "Des centaines de milliers de dollars d'usage non autorisé d'API d'IA ont été facturés, selon Wiz Research.",
+    "response": "Wiz Research a publié ses conclusions. Les autres réponses ne sont pas précisées dans le résumé.",
+    "id": "wiz-llmjacking-cloud-billing-ads",
+    "timeline": [
+      "Signalé par Wiz Research"
+    ]
+  },
+  {
+    "title": "Des affiliés des rançongiciels INC et The Gentlemen exposent des journaux de sessions d'IA (Claude, Kimi) et 46 builds de chiffreurs INC sur des serveurs ouverts",
+    "summary": "SOCRadar a découvert sept serveurs exposés liés à des affiliés des rançongiciels INC et The Gentlemen, contenant 8 257 messages d'IA répartis sur 133 sessions, du code source, des identifiants volés, des espaces de travail de victimes et 46 builds de chiffreurs INC propres à chaque victime. Les opérateurs utilisaient OpenCode avec des modèles hébergés par OpenRouter, dont Claude Opus 4.6 et Kimi K3, et reformulaient les requêtes refusées en évaluations de sécurité autorisées. Des humains validaient les étapes de l'IA, et SOCRadar n'a pas pu confirmer que les chiffreurs préparés avaient été déployés. Les chercheurs ont commencé leurs investigations fin septembre 2026.",
+    "target": "62 organisations identifiées par SOCRadar, dont 36 aux États-Unis, avec une exposition allant de la reconnaissance à l'extorsion",
+    "actor": "Affiliés opérant avec INC Ransomware et The Gentlemen Ransomware",
+    "attribution": "Les chercheurs relient les serveurs exposés (répertoires ouverts sur 45.227.254[.]43 et six autres retrouvés via des fichiers de configuration et des identifiants) à des affiliés d'INC et de The Gentlemen.",
+    "motive": "Inconnu ; opérations de rançongiciel, recourant apparemment à l'IA pour soutenir les intrusions et le développement de logiciels malveillants.",
+    "vector": "IA (Claude) utilisée dans le flux de travail d'intrusion ; découverte via des répertoires ouverts accessibles publiquement sur des serveurs opérationnels.",
+    "root_cause": "Les opérateurs ont laissé leur propre infrastructure accessible publiquement, exposant fichiers de configuration, identifiants, journaux de conversations avec l'IA et builds de logiciels malveillants.",
+    "impact": "8 257 messages et 46 builds de logiciels malveillants exposés, offrant aux chercheurs un aperçu des outils assistés par IA des acteurs. Le nombre de victimes et les pertes ne sont pas précisés.",
+    "response": "Les chercheurs ont mené l'enquête et publié leurs conclusions. Aucun démantèlement ni arrestation n'est mentionné.",
+    "id": "inc-gentlemen-claude-exposed-servers",
+    "timeline": [
+      "Signalé par GBHackers"
+    ]
   }
 ]

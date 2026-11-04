@@ -21023,6 +21023,61 @@
     "sector": "Individuals & consumers"
   },
   {
+    "id": "openai-school-shooting-lawsuit-failure-w",
+    "date": "2026-09-21",
+    "title": "British Columbia sues OpenAI and Sam Altman, alleging ChatGPT account flagged internally was not reported to police before Tumbler Ridge school shooting",
+    "category": "Chatbot harm",
+    "direction": "ai-harm",
+    "severity": "critical",
+    "country": "CA",
+    "region": "British Columbia",
+    "target": "Province of British Columbia and local school district (plaintiffs); victims of the Tumbler Ridge Secondary School shooting",
+    "loss_usd": null,
+    "summary": "British Columbia filed suit in a San Francisco federal court against OpenAI and CEO Sam Altman. It alleges OpenAI's safety team flagged the shooter's ChatGPT conversations about gun violence in June 2025 and recommended contacting police, but leadership declined. The province seeks damages for response and rebuilding costs and changes to how OpenAI handles conversations indicating planned violence. The claims are allegations; no court has ruled and OpenAI denies wrongdoing in related suits.",
+    "actor": "OpenAI and Sam Altman (defendants, alleged)",
+    "actor_type": "product",
+    "sector": "Individuals & consumers",
+    "attribution": "Alleged by plaintiffs in a lawsuit as reported by Digit; no court finding. Details of the shooting and the warning are not given in the summary.",
+    "motive": "Unknown",
+    "vector": "Alleged failure to escalate an internal warning about a user to police before a school shooting, per the lawsuit.",
+    "root_cause": "Alleged failure of OpenAI's safety and escalation processes to act on an internal warning. This is the plaintiffs' claim and is unproven.",
+    "impact": "A school shooting, with alleged harm to victims. The number of victims and their identities are not stated in the available text.",
+    "response": "Lawsuit filed against OpenAI. OpenAI's response is not stated in the available text.",
+    "status": "lawsuit filed; unresolved",
+    "cve": null,
+    "young_people": true,
+    "setting": "school",
+    "age_group": null,
+    "source": "Digit",
+    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPcXhqWTFXNV9hR09uZjdFVkhyOEExUm9PZHBmRWZEdkxoR3ltMDJoLXdRWmVvSEpPVW1mdUlfODFYZFlyai0yVmIyQ01PdzBtUUVKUEVvUTd4Vy1NdUNfaXVUbHlyUFBXRTdoNnBZQXk5djRzZ2NOZTBHYU1qU2pzTzNoS1FOakhodWN2VkpWOW10ZHVKTU9XblJ6Z2FwOVJMZVZ0VWFXWm5SSHpHdnJYNFFxWk90N1lLWlFsRnZISnJaXzdaTVlJNWxkN3NPVEloX3U2SGl6R01ULU1vemw1UkRFd9IB6gFBVV95cUxPUllSTVk5TGhkV213cGdNX09hMkkzQ0hJVmRUVXREQWpmbmxxcUh3VWlYUDVWWTdjU3c0RjUxbVNFd1FnaUNoamhzeldyTURNYkpTR1cwdWlPLXpnSnYzSlVvaTFneEg0aGJsVUlaX29meTRIUGM2VUxwdzZTbG5DRmRBcjluY1YxQjRNQWNueVNPUDdjZVEyUml1TG9RVlRtREJ4bm5SbVItaVFBd3Z3dUZoSktQN2d2ZEthVU5leHNkWWc1T0dsNXNfaktaY3pBOWVqaFVrT2RURU05d2U3T3hCV3VUaDlPSEE?oc=5",
+    "sources": [
+      {
+        "name": "Digit",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPcXhqWTFXNV9hR09uZjdFVkhyOEExUm9PZHBmRWZEdkxoR3ltMDJoLXdRWmVvSEpPVW1mdUlfODFYZFlyai0yVmIyQ01PdzBtUUVKUEVvUTd4Vy1NdUNfaXVUbHlyUFBXRTdoNnBZQXk5djRzZ2NOZTBHYU1qU2pzTzNoS1FOakhodWN2VkpWOW10ZHVKTU9XblJ6Z2FwOVJMZVZ0VWFXWm5SSHpHdnJYNFFxWk90N1lLWlFsRnZISnJaXzdaTVlJNWxkN3NPVEloX3U2SGl6R01ULU1vemw1UkRFd9IB6gFBVV95cUxPUllSTVk5TGhkV213cGdNX09hMkkzQ0hJVmRUVXREQWpmbmxxcUh3VWlYUDVWWTdjU3c0RjUxbVNFd1FnaUNoamhzeldyTURNYkpTR1cwdWlPLXpnSnYzSlVvaTFneEg0aGJsVUlaX29meTRIUGM2VUxwdzZTbG5DRmRBcjluY1YxQjRNQWNueVNPUDdjZVEyUml1TG9RVlRtREJ4bm5SbVItaVFBd3Z3dUZoSktQN2d2ZEthVU5leHNkWWc1T0dsNXNfaktaY3pBOWVqaFVrT2RURU05d2U3T3hCV3VUaDlPSEE?oc=5"
+      },
+      {
+        "name": "Digit",
+        "url": "https://www.digit.in/news/general/openai-faces-new-lawsuit-over-school-shooting-incident-accused-of-not-alerting-police-despite-internal-warning.html"
+      },
+      {
+        "name": "Tom's Hardware",
+        "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/british-columbia-sues-openai-to-pay-for-new-school-after-tumbler-ridge-shooting-lawsuit-says-openai-identified-shooters-chatgpt-account-eight-months-prior-but-didnt-warn-police"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-19",
+        "event": "Reported by Digit"
+      }
+    ],
+    "drafted_at": "2026-10-19T22:35:40Z",
+    "first_seen": "2026-10-19T22:35:40Z",
+    "updated_at": "2026-11-04T21:35:41Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-04T21:35:41Z"
+  },
+  {
     "id": "fideuram-ai-voice-clone-ceo-fraud",
     "date": "2026-09-25",
     "title": "Fake CEO WhatsApp and cloned lawyer's voice trick Intesa's Fideuram into sending €95M abroad",
@@ -23521,6 +23576,112 @@
     "verified_at": "2026-11-04T20:35:35Z"
   },
   {
+    "id": "cairn-ai-platform-abused-100-orgs",
+    "date": "2026-10-19",
+    "title": "Hackers abuse open-source AI platform Cairn to run agent-driven website intrusions; largest of three clusters breached 100+ organizations",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "E-commerce and payment platforms and other websites, mainly in the US, Japan and Australia (victims not named by NorForge)",
+    "loss_usd": null,
+    "summary": "NorForge found threat actors had left Cairn control panels exposed and identified three apparently malicious clusters focused on persistent access and financial theft. The largest, Chinese-language cluster ran 1,100+ attack projects across 14 dashboards. Reuters reports that this cluster breached over 100 companies. NorForge says attackers succeeded in roughly 10% of attempts, and Reuters could not establish how much data was extracted.",
+    "actor": "Three unnamed clusters (largest Chinese-language; one English-language cluster NorForge believes is based in Africa)",
+    "actor_type": "criminal",
+    "sector": "Multiple / cross-sector",
+    "attribution": "SecurityWeek reports at least three threat actors; no names or nation-state links given in the summary.",
+    "motive": "Financial theft and persistent access",
+    "vector": "Abuse of the Cairn AI platform for persistent access",
+    "root_cause": "Unknown",
+    "impact": "Over 100 organizations hacked, with persistent access and financial theft reported.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "source": "SecurityWeek",
+    "url": "https://www.securityweek.com/ai-platform-cairn-abused-to-hack-over-100-organizations",
+    "sources": [
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/ai-platform-cairn-abused-to-hack-over-100-organizations"
+      },
+      {
+        "name": "NorForge",
+        "url": "https://norforge.com/blog/inside_cairn"
+      },
+      {
+        "name": "Quartz",
+        "url": "https://qz.com/ai-agents-hacker-john-deere-sharkninja-cummins-breach-101926"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-20",
+        "event": "Reported by SecurityWeek"
+      }
+    ],
+    "drafted_at": "2026-10-20T13:05:40Z",
+    "first_seen": "2026-10-20T13:05:40Z",
+    "updated_at": "2026-11-04T21:35:41Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-04T21:35:41Z"
+  },
+  {
+    "id": "wiz-llmjacking-cloud-billing-ads",
+    "date": "2026-10-20",
+    "title": "Search-ad phishing hijacks cloud billing accounts for unauthorized LLM API usage",
+    "category": "LLMjacking",
+    "direction": "on-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "Organisations with privileged Google Cloud (GCP) users and billing accounts",
+    "loss_usd": null,
+    "summary": "Wiz CIRT says attackers bought Google Search ads for terms like 'google cloud' that led to fake Google login pages, captured credentials and MFA codes, and then linked attacker-controlled GCP projects to victims' billing accounts. Within 24 to 48 hours victim organisations saw charges of tens to hundreds of thousands of dollars in unauthorized Gemini API usage. Google Ads removed the malicious campaign after it was reported.",
+    "actor": "Unknown threat actor(s)",
+    "actor_type": "criminal",
+    "sector": "Multiple / cross-sector",
+    "attribution": "Wiz Research describes the threat actors but the summary does not name them.",
+    "motive": "Financial gain through free use of LLM APIs billed to victims.",
+    "vector": "Malicious Google Search ad leading to phishing, credential theft, then hijack of the cloud billing account.",
+    "root_cause": "Victims' credentials were phished through a malicious search ad, giving attackers control of billing accounts.",
+    "impact": "Hundreds of thousands of dollars in unauthorized AI API usage were incurred, according to Wiz Research.",
+    "response": "Wiz Research published its findings. Other responses are not stated in the summary.",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "source": "Wiz Research",
+    "url": "https://www.wiz.io/blog/from-phishing-to-llmjacking",
+    "sources": [
+      {
+        "name": "Wiz Research",
+        "url": "https://www.wiz.io/blog/from-phishing-to-llmjacking"
+      },
+      {
+        "name": "Cloud Security Alliance Labs",
+        "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-llmjacking-cloud-billing-hijack-20261021-c/"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-20",
+        "event": "Reported by Wiz Research"
+      }
+    ],
+    "drafted_at": "2026-10-20T20:52:30Z",
+    "first_seen": "2026-10-20T20:52:30Z",
+    "updated_at": "2026-11-04T21:35:41Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-04T21:35:41Z"
+  },
+  {
     "id": "litellm-1-107-0-trojanized-release",
     "date": "2026-10-21",
     "title": "Malicious LiteLLM 1.107.0 on PyPI and Docker steals browser, cloud and AI secrets",
@@ -23825,6 +23986,61 @@
     "verification": "reported",
     "review": "auto",
     "verified_at": "2026-11-04T18:52:03Z"
+  },
+  {
+    "id": "inc-gentlemen-claude-exposed-servers",
+    "date": "2026-10-21",
+    "title": "INC and The Gentlemen ransomware affiliates expose AI session logs (Claude, Kimi) and 46 INC encryptor builds on open servers",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "62 organizations identified by SOCRadar, 36 of them in the US, with exposure ranging from reconnaissance to extortion",
+    "loss_usd": null,
+    "summary": "SOCRadar found seven exposed servers tied to INC and The Gentlemen ransomware affiliates, holding 8,257 AI messages across 133 sessions, source code, stolen credentials, victim workspaces and 46 victim-specific INC encryptor builds. Operators used OpenCode with OpenRouter-hosted models including Claude Opus 4.6 and Kimi K3, and reframed refused requests as authorized security assessments. Humans approved the AI's steps, and SOCRadar could not confirm that the staged encryptors were deployed. Researchers began investigating in late September 2026.",
+    "actor": "Affiliates operating with INC Ransomware and The Gentlemen Ransomware",
+    "actor_type": "criminal",
+    "sector": "Unknown",
+    "attribution": "Researchers link the exposed servers (open directories on 45.227.254[.]43 and six more found via configuration files and credentials) to INC and The Gentlemen affiliates.",
+    "motive": "Unknown; ransomware operations, apparently using AI to support intrusions and malware development.",
+    "vector": "AI (Claude) used in the intrusion workflow; discovered via publicly accessible open directories on operational servers.",
+    "root_cause": "Operators left their own infrastructure publicly accessible, exposing configuration files, credentials, AI chat logs and malware builds.",
+    "impact": "8,257 messages and 46 malware builds exposed, giving researchers insight into the actors' AI-assisted tooling. Victim count and losses are not stated.",
+    "response": "Researchers investigated and published findings. No takedown or arrests are mentioned.",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "source": "GBHackers",
+    "url": "https://gbhackers.com/inc-ransomware-attack-2",
+    "sources": [
+      {
+        "name": "GBHackers",
+        "url": "https://gbhackers.com/inc-ransomware-attack-2"
+      },
+      {
+        "name": "SOCRadar",
+        "url": "https://socradar.io/blog/inc-gentlemen-ransomware-ai-infrastructure/"
+      },
+      {
+        "name": "Hackread",
+        "url": "https://hackread.com/inc-the-gentlemen-ransomware-affiliates-ai-messages/"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-21",
+        "event": "Reported by GBHackers"
+      }
+    ],
+    "drafted_at": "2026-10-21T06:05:43Z",
+    "first_seen": "2026-10-21T06:05:43Z",
+    "updated_at": "2026-11-04T21:35:41Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-04T21:35:41Z"
   },
   {
     "id": "deepfake-pm-scam-88-year-old-td-bank",

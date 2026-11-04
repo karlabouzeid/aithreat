@@ -382,5 +382,37 @@
     "reason": "The Recorded Future post describes the same ARTEX-driven attacks on South Korean financial institutions already logged as artex-ai-driven-korea-finance, now with the actor named TAG-217.",
     "duplicate_of": "artex-ai-driven-korea-finance",
     "at": "2026-11-04T21:05:40Z"
+  },
+  {
+    "id": "openai-school-shooting-lawsuit-failure-w",
+    "title": "Lawsuit alleges OpenAI failed to alert police despite internal warning before school shooting",
+    "decision": "approve",
+    "reason": "Digit (citing Reuters), Tom's Hardware and Engadget confirm British Columbia's lawsuit against OpenAI and Altman over the Tumbler Ridge shooting, a separate filing from the families' known suit, but the draft's date was wrong.",
+    "duplicate_of": null,
+    "at": "2026-11-04T21:35:41Z"
+  },
+  {
+    "id": "cairn-ai-platform-abused-100-orgs",
+    "title": "AI platform Cairn abused by three threat actors to hack over 100 organizations",
+    "decision": "approve",
+    "reason": "NorForge's research on exposed Cairn panels is confirmed by SecurityWeek and Reuters-based reports, with the 100+ breaches attributable to the largest cluster rather than all three actors.",
+    "duplicate_of": null,
+    "at": "2026-11-04T21:35:41Z"
+  },
+  {
+    "id": "wiz-llmjacking-cloud-billing-ads",
+    "title": "Search-ad phishing hijacks cloud billing accounts for unauthorized LLM API usage",
+    "decision": "approve",
+    "reason": "Wiz CIRT, the researchers who investigated the intrusions, published the findings on 2026-10-20 and the Cloud Security Alliance independently summarised them, but the draft overstated the loss as hundreds of thousands per case.",
+    "duplicate_of": null,
+    "at": "2026-11-04T21:35:41Z"
+  },
+  {
+    "id": "inc-gentlemen-claude-exposed-servers",
+    "title": "INC and The Gentlemen ransomware affiliates expose Claude chats and 46 malware builds",
+    "decision": "approve",
+    "reason": "SOCRadar's Threat Research Unit found the exposed servers and GBHackers and Hackread report it, though the 8,257 messages spanned Claude and Kimi models, not Claude alone.",
+    "duplicate_of": null,
+    "at": "2026-11-04T21:35:41Z"
   }
 ]

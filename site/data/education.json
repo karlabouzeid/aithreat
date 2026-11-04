@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-04T21:18:00Z",
+  "generated_at": "2026-11-04T21:46:57Z",
   "licence": "CC BY 4.0",
-  "total": 98,
-  "young_people": 95,
-  "in_education": 47,
+  "total": 99,
+  "young_people": 96,
+  "in_education": 48,
   "countries": 31,
-  "critical_high": 68,
+  "critical_high": 69,
   "by_setting": {
-    "school": 38,
+    "school": 39,
     "university": 9,
     "online": 38,
     "home": 13,
@@ -17,11 +17,11 @@
     "child": 5,
     "teen": 73,
     "young-adult": 15,
-    "unknown": 2
+    "unknown": 3
   },
   "by_category": {
     "Deepfake abuse": 45,
-    "Chatbot harm": 35,
+    "Chatbot harm": 36,
     "AI misfire": 6,
     "AI exam fraud": 5,
     "AI-assisted malware": 3,
@@ -34,9 +34,9 @@
     "GB": 6,
     "KR": 6,
     "AU": 5,
+    "CA": 4,
     "IN": 3,
     "JP": 3,
-    "CA": 3,
     "IT": 2,
     "AR": 2,
     "GL": 2,
@@ -92,7 +92,7 @@
       "unknown": 0
     },
     "2026": {
-      "school": 8,
+      "school": 9,
       "university": 2,
       "online": 16,
       "home": 4,
@@ -177,6 +177,19 @@
       "young_people": true,
       "response": "Raids and device seizures; school moved the four accused to remote classes over Zoom; education inspectors met families",
       "url": "https://aithreat.io/cases/lomas-de-zamora-ai-nudes-50-girls/"
+    },
+    {
+      "id": "openai-school-shooting-lawsuit-failure-w",
+      "date": "2026-09-21",
+      "title": "British Columbia sues OpenAI and Sam Altman, alleging ChatGPT account flagged internally was not reported to police before Tumbler Ridge school shooting",
+      "category": "Chatbot harm",
+      "severity": "critical",
+      "country": "CA",
+      "setting": "school",
+      "age_group": null,
+      "young_people": true,
+      "response": "Lawsuit filed against OpenAI. OpenAI's response is not stated in the available text.",
+      "url": "https://aithreat.io/cases/openai-school-shooting-lawsuit-failure-w/"
     },
     {
       "id": "anthropic-gtg-10007-exploit-foundry",

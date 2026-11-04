@@ -8113,5 +8113,69 @@
     "timeline": [
       "由 The Cool Down 报道"
     ]
+  },
+  {
+    "title": "不列颠哥伦比亚省起诉 OpenAI 及 Sam Altman，称 ChatGPT 账户已被内部标记，却在坦布勒岭（Tumbler Ridge）校园枪击案发生前未向警方报告",
+    "summary": "不列颠哥伦比亚省向旧金山联邦法院对 OpenAI 及其 CEO Sam Altman 提起诉讼。诉状称，OpenAI 安全团队于 2025 年 6 月标记了枪手与 ChatGPT 之间有关枪支暴力的对话，并建议联系警方，但公司领导层拒绝。该省要求赔偿应对和重建费用，并要求改变 OpenAI 处理涉及计划实施暴力的对话的方式。上述内容均为指控；法院尚未作出裁决，OpenAI 在相关诉讼中否认有不当行为。",
+    "target": "不列颠哥伦比亚省和当地学区（原告）；坦布勒岭（Tumbler Ridge）中学枪击案的受害者",
+    "actor": "OpenAI 和 Sam Altman（被告，被指控）",
+    "attribution": "据 Digit 报道，由原告在诉讼中提出指控；法院尚无认定。摘要中未给出枪击事件及预警的详细情况。",
+    "motive": "未知",
+    "vector": "据诉状称，在校园枪击案发生前，未将有关某用户的内部预警上报警方。",
+    "root_cause": "据称 OpenAI 的安全与上报流程未能对内部预警采取行动。这是原告的主张，尚未得到证实。",
+    "impact": "发生校园枪击案，据称造成受害者伤害。现有文本未说明受害者人数及身份。",
+    "response": "已对 OpenAI 提起诉讼。现有文本未说明 OpenAI 的回应。",
+    "id": "openai-school-shooting-lawsuit-failure-w",
+    "timeline": [
+      "Digit 报道"
+    ]
+  },
+  {
+    "title": "黑客滥用开源 AI 平台 Cairn 实施由智能体驱动的网站入侵；三个集群中最大的一个已攻陷 100 多家机构",
+    "summary": "NorForge 发现威胁行为者遗留了暴露的 Cairn 控制面板，并识别出三个疑似恶意的集群，其目标为维持持久访问和窃取资金。其中最大的是中文集群，在 14 个仪表板上运行了 1100 多个攻击项目。路透社（Reuters）报道称，该集群已攻陷 100 多家公司。NorForge 称攻击者的尝试成功率约为 10%，路透社无法确定被提取了多少数据。",
+    "target": "电商和支付平台及其他网站，主要位于美国、日本和澳大利亚（NorForge 未点名受害者）",
+    "actor": "三个未具名集群（最大的为中文集群；另有一个英文集群，NorForge 认为其位于非洲）",
+    "attribution": "SecurityWeek 报道称至少存在三个威胁行为者；摘要中未给出名称或国家背景关联。",
+    "motive": "窃取资金和维持持久访问",
+    "vector": "滥用 Cairn AI 平台以获取持久访问",
+    "root_cause": "未知",
+    "impact": "100 多家机构被攻陷，据报存在持久访问和资金窃取。",
+    "response": "未知",
+    "id": "cairn-ai-platform-abused-100-orgs",
+    "timeline": [
+      "SecurityWeek 报道"
+    ]
+  },
+  {
+    "title": "搜索广告钓鱼劫持云计费账户，用于未经授权的 LLM API 调用",
+    "summary": "Wiz CIRT 称，攻击者针对“google cloud”等搜索词购买了谷歌（Google）搜索广告，将用户引向伪造的谷歌登录页面，窃取凭据和 MFA 验证码，随后将攻击者控制的 GCP 项目关联到受害者的计费账户。24 至 48 小时内，受害组织就出现了因未经授权调用 Gemini API 而产生的数万至数十万美元费用。该恶意广告活动在被举报后已被 Google Ads 移除。",
+    "target": "拥有特权 Google Cloud（GCP）用户和计费账户的组织",
+    "actor": "未知威胁行为者",
+    "attribution": "Wiz Research 描述了这些威胁行为者，但摘要中未点名。",
+    "motive": "通过免费使用由受害者承担费用的 LLM API 获利。",
+    "vector": "恶意谷歌搜索广告引导至钓鱼页面，窃取凭据，进而劫持云计费账户。",
+    "root_cause": "受害者的凭据通过恶意搜索广告被钓取，使攻击者获得了计费账户的控制权。",
+    "impact": "据 Wiz Research 称，产生了数十万美元的未经授权 AI API 使用费用。",
+    "response": "Wiz Research 发布了其研究发现。摘要中未说明其他应对措施。",
+    "id": "wiz-llmjacking-cloud-billing-ads",
+    "timeline": [
+      "Wiz Research 报道"
+    ]
+  },
+  {
+    "title": "INC 与 The Gentlemen 勒索软件附属成员在开放服务器上暴露 AI 会话日志（Claude、Kimi）及 46 个 INC 加密器构建版本",
+    "summary": "SOCRadar 发现了与 INC 和 The Gentlemen 勒索软件附属成员相关的七台暴露服务器，其中存有 133 个会话中的 8257 条 AI 消息、源代码、被盗凭据、受害者工作区以及 46 个针对特定受害者的 INC 加密器构建版本。操作者使用 OpenCode 搭配 OpenRouter 托管的模型，包括 Claude Opus 4.6 和 Kimi K3，并将被拒绝的请求重新包装为经授权的安全评估。AI 的各个步骤均由人工批准，SOCRadar 无法确认这些已就绪的加密器是否已被部署。研究人员于 2026 年 9 月下旬开始调查。",
+    "target": "SOCRadar 识别出的 62 家组织，其中 36 家位于美国，受影响程度从侦察阶段到勒索阶段不等",
+    "actor": "使用 INC Ransomware 和 The Gentlemen Ransomware 的附属成员",
+    "attribution": "研究人员将这些暴露的服务器（45.227.254[.]43 上的开放目录，以及通过配置文件和凭据发现的另外六台）与 INC 和 The Gentlemen 的附属成员关联起来。",
+    "motive": "未知；属于勒索软件行动，显然是利用 AI 辅助入侵和恶意软件开发。",
+    "vector": "在入侵工作流程中使用 AI（Claude）；通过运营服务器上可公开访问的开放目录被发现。",
+    "root_cause": "操作者让自己的基础设施可被公开访问，导致配置文件、凭据、AI 聊天日志和恶意软件构建版本暴露。",
+    "impact": "8257 条消息和 46 个恶意软件构建版本被暴露，使研究人员得以了解这些行为者借助 AI 的工具链。受害者数量和损失未说明。",
+    "response": "研究人员展开调查并发布了发现。未提及服务器被取缔或有人被捕。",
+    "id": "inc-gentlemen-claude-exposed-servers",
+    "timeline": [
+      "GBHackers 报道"
+    ]
   }
 ]

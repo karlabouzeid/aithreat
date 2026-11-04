@@ -1941,54 +1941,6 @@
     "updated_at": "2026-10-19T21:05:43Z"
   },
   {
-    "id": "openai-school-shooting-lawsuit-failure-w",
-    "date": "2026-10-19",
-    "title": "Lawsuit alleges OpenAI failed to alert police despite internal warning before school shooting",
-    "category": "Chatbot harm",
-    "direction": "ai-harm",
-    "severity": "critical",
-    "country": "GL",
-    "region": "Global",
-    "target": "School shooting victims and families (per lawsuit)",
-    "loss_usd": null,
-    "summary": "A new lawsuit alleges OpenAI did not alert police despite an internal warning before a school shooting, per Digit's report. The claims are allegations and no court has ruled.",
-    "actor": "OpenAI (ChatGPT)",
-    "actor_type": "product",
-    "sector": "Individuals & consumers",
-    "attribution": "Alleged by plaintiffs in a lawsuit as reported by Digit; no court finding. Details of the shooting and the warning are not given in the summary.",
-    "motive": "Unknown",
-    "vector": "Alleged failure to escalate an internal warning about a user to police before a school shooting, per the lawsuit.",
-    "root_cause": "Alleged failure of OpenAI's safety and escalation processes to act on an internal warning. This is the plaintiffs' claim and is unproven.",
-    "impact": "A school shooting, with alleged harm to victims. The number of victims and their identities are not stated in the available text.",
-    "response": "Lawsuit filed against OpenAI. OpenAI's response is not stated in the available text.",
-    "status": "unresolved",
-    "cve": null,
-    "young_people": true,
-    "setting": "school",
-    "age_group": null,
-    "confidence": 0.6,
-    "source": "Digit",
-    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPcXhqWTFXNV9hR09uZjdFVkhyOEExUm9PZHBmRWZEdkxoR3ltMDJoLXdRWmVvSEpPVW1mdUlfODFYZFlyai0yVmIyQ01PdzBtUUVKUEVvUTd4Vy1NdUNfaXVUbHlyUFBXRTdoNnBZQXk5djRzZ2NOZTBHYU1qU2pzTzNoS1FOakhodWN2VkpWOW10ZHVKTU9XblJ6Z2FwOVJMZVZ0VWFXWm5SSHpHdnJYNFFxWk90N1lLWlFsRnZISnJaXzdaTVlJNWxkN3NPVEloX3U2SGl6R01ULU1vemw1UkRFd9IB6gFBVV95cUxPUllSTVk5TGhkV213cGdNX09hMkkzQ0hJVmRUVXREQWpmbmxxcUh3VWlYUDVWWTdjU3c0RjUxbVNFd1FnaUNoamhzeldyTURNYkpTR1cwdWlPLXpnSnYzSlVvaTFneEg0aGJsVUlaX29meTRIUGM2VUxwdzZTbG5DRmRBcjluY1YxQjRNQWNueVNPUDdjZVEyUml1TG9RVlRtREJ4bm5SbVItaVFBd3Z3dUZoSktQN2d2ZEthVU5leHNkWWc1T0dsNXNfaktaY3pBOWVqaFVrT2RURU05d2U3T3hCV3VUaDlPSEE?oc=5",
-    "sources": [
-      {
-        "name": "Digit",
-        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPcXhqWTFXNV9hR09uZjdFVkhyOEExUm9PZHBmRWZEdkxoR3ltMDJoLXdRWmVvSEpPVW1mdUlfODFYZFlyai0yVmIyQ01PdzBtUUVKUEVvUTd4Vy1NdUNfaXVUbHlyUFBXRTdoNnBZQXk5djRzZ2NOZTBHYU1qU2pzTzNoS1FOakhodWN2VkpWOW10ZHVKTU9XblJ6Z2FwOVJMZVZ0VWFXWm5SSHpHdnJYNFFxWk90N1lLWlFsRnZISnJaXzdaTVlJNWxkN3NPVEloX3U2SGl6R01ULU1vemw1UkRFd9IB6gFBVV95cUxPUllSTVk5TGhkV213cGdNX09hMkkzQ0hJVmRUVXREQWpmbmxxcUh3VWlYUDVWWTdjU3c0RjUxbVNFd1FnaUNoamhzeldyTURNYkpTR1cwdWlPLXpnSnYzSlVvaTFneEg0aGJsVUlaX29meTRIUGM2VUxwdzZTbG5DRmRBcjluY1YxQjRNQWNueVNPUDdjZVEyUml1TG9RVlRtREJ4bm5SbVItaVFBd3Z3dUZoSktQN2d2ZEthVU5leHNkWWc1T0dsNXNfaktaY3pBOWVqaFVrT2RURU05d2U3T3hCV3VUaDlPSEE?oc=5"
-      }
-    ],
-    "timeline": [
-      {
-        "date": "2026-10-19",
-        "event": "Reported by Digit"
-      }
-    ],
-    "verified": false,
-    "drafted_at": "2026-10-19T22:35:40Z",
-    "wire_id": "31c5390cdaab",
-    "first_seen": "2026-10-19T22:35:40Z",
-    "first_published": "2026-10-19T00:00:00Z",
-    "updated_at": "2026-10-19T22:35:40Z"
-  },
-  {
     "id": "fake-captain-ai-face-scam",
     "date": "2026-10-19",
     "title": "AI scam clones a real captain's face to defraud people",
@@ -2133,54 +2085,6 @@
     "updated_at": "2026-10-20T03:05:44Z"
   },
   {
-    "id": "cairn-ai-platform-abused-100-orgs",
-    "date": "2026-10-20",
-    "title": "AI platform Cairn abused by three threat actors to hack over 100 organizations",
-    "category": "AI-assisted malware",
-    "direction": "with-ai",
-    "severity": "high",
-    "country": "GL",
-    "region": "Global",
-    "target": "Over 100 organizations (unnamed)",
-    "loss_usd": null,
-    "summary": "SecurityWeek reports at least three threat actors abused the Cairn AI platform to gain persistent access and commit financial theft at more than 100 organizations.",
-    "actor": "At least three unnamed threat actors",
-    "actor_type": "criminal",
-    "sector": "Multiple / cross-sector",
-    "attribution": "SecurityWeek reports at least three threat actors; no names or nation-state links given in the summary.",
-    "motive": "Financial theft and persistent access",
-    "vector": "Abuse of the Cairn AI platform for persistent access",
-    "root_cause": "Unknown",
-    "impact": "Over 100 organizations hacked, with persistent access and financial theft reported.",
-    "response": "Unknown",
-    "status": "under investigation",
-    "cve": null,
-    "young_people": false,
-    "setting": null,
-    "age_group": null,
-    "confidence": 0.6,
-    "source": "SecurityWeek",
-    "url": "https://www.securityweek.com/ai-platform-cairn-abused-to-hack-over-100-organizations",
-    "sources": [
-      {
-        "name": "SecurityWeek",
-        "url": "https://www.securityweek.com/ai-platform-cairn-abused-to-hack-over-100-organizations"
-      }
-    ],
-    "timeline": [
-      {
-        "date": "2026-10-20",
-        "event": "Reported by SecurityWeek"
-      }
-    ],
-    "verified": false,
-    "drafted_at": "2026-10-20T13:05:40Z",
-    "wire_id": "14b9ba09cbd0",
-    "first_seen": "2026-10-20T13:05:40Z",
-    "first_published": "2026-10-20T12:47:22Z",
-    "updated_at": "2026-10-20T13:05:40Z"
-  },
-  {
     "id": "thai-ai-forged-docs-romance-scam",
     "date": "2026-10-20",
     "title": "Thai police arrest man over AI-forged-document romance scam worth 21M+ baht",
@@ -2277,54 +2181,6 @@
     "updated_at": "2026-10-20T18:35:44Z"
   },
   {
-    "id": "wiz-llmjacking-cloud-billing-ads",
-    "date": "2026-10-20",
-    "title": "Search-ad phishing hijacks cloud billing accounts for unauthorized LLM API usage",
-    "category": "LLMjacking",
-    "direction": "on-ai",
-    "severity": "high",
-    "country": "GL",
-    "region": "Global",
-    "target": "Cloud billing account holders",
-    "loss_usd": null,
-    "summary": "Wiz Research reports that a Google Search ad click leads to credential theft and hijacking of cloud billing accounts, incurring hundreds of thousands of dollars in unauthorized AI API usage.",
-    "actor": "Unknown",
-    "actor_type": "criminal",
-    "sector": "Multiple / cross-sector",
-    "attribution": "Wiz Research describes the threat actors but the summary does not name them.",
-    "motive": "Financial gain through free use of LLM APIs billed to victims.",
-    "vector": "Malicious Google Search ad leading to phishing, credential theft, then hijack of the cloud billing account.",
-    "root_cause": "Victims' credentials were phished through a malicious search ad, giving attackers control of billing accounts.",
-    "impact": "Hundreds of thousands of dollars in unauthorized AI API usage were incurred, according to Wiz Research.",
-    "response": "Wiz Research published its findings. Other responses are not stated in the summary.",
-    "status": "under investigation",
-    "cve": null,
-    "young_people": false,
-    "setting": null,
-    "age_group": null,
-    "confidence": 0.6,
-    "source": "Wiz Research",
-    "url": "https://www.wiz.io/blog/from-phishing-to-llmjacking",
-    "sources": [
-      {
-        "name": "Wiz Research",
-        "url": "https://www.wiz.io/blog/from-phishing-to-llmjacking"
-      }
-    ],
-    "timeline": [
-      {
-        "date": "2026-10-20",
-        "event": "Reported by Wiz Research"
-      }
-    ],
-    "verified": false,
-    "drafted_at": "2026-10-20T20:52:30Z",
-    "wire_id": "6daf94111bf8",
-    "first_seen": "2026-10-20T20:52:30Z",
-    "first_published": "2026-10-20T20:03:10Z",
-    "updated_at": "2026-10-20T20:52:30Z"
-  },
-  {
     "id": "oregon-washington-county-candidate-deepf",
     "date": "2026-10-20",
     "title": "Deepfake of Washington County, Oregon, candidate goes viral nationwide",
@@ -2371,54 +2227,6 @@
     "first_seen": "2026-10-20T21:05:38Z",
     "first_published": "2026-10-20T20:46:55Z",
     "updated_at": "2026-10-20T21:05:38Z"
-  },
-  {
-    "id": "inc-gentlemen-claude-exposed-servers",
-    "date": "2026-10-21",
-    "title": "INC and The Gentlemen ransomware affiliates expose Claude chats and 46 malware builds",
-    "category": "AI-assisted malware",
-    "direction": "with-ai",
-    "severity": "medium",
-    "country": "GL",
-    "region": "Global",
-    "target": "Unknown victims of INC and The Gentlemen affiliates",
-    "loss_usd": null,
-    "summary": "Ransomware affiliates tied to INC and The Gentlemen left servers publicly accessible, exposing 8,257 messages with Claude and 46 malware builds. Researchers began investigating in late September 2026.",
-    "actor": "INC and The Gentlemen ransomware affiliates",
-    "actor_type": "criminal",
-    "sector": "Unknown",
-    "attribution": "Researchers link the exposed servers (open directories on 45.227.254[.]43 and six more found via configuration files and credentials) to INC and The Gentlemen affiliates.",
-    "motive": "Unknown; ransomware operations, apparently using AI to support intrusions and malware development.",
-    "vector": "AI (Claude) used in the intrusion workflow; discovered via publicly accessible open directories on operational servers.",
-    "root_cause": "Operators left their own infrastructure publicly accessible, exposing configuration files, credentials, AI chat logs and malware builds.",
-    "impact": "8,257 messages and 46 malware builds exposed, giving researchers insight into the actors' AI-assisted tooling. Victim count and losses are not stated.",
-    "response": "Researchers investigated and published findings. No takedown or arrests are mentioned.",
-    "status": "under investigation",
-    "cve": null,
-    "young_people": false,
-    "setting": null,
-    "age_group": null,
-    "confidence": 0.6,
-    "source": "GBHackers",
-    "url": "https://gbhackers.com/inc-ransomware-attack-2",
-    "sources": [
-      {
-        "name": "GBHackers",
-        "url": "https://gbhackers.com/inc-ransomware-attack-2"
-      }
-    ],
-    "timeline": [
-      {
-        "date": "2026-10-21",
-        "event": "Reported by GBHackers"
-      }
-    ],
-    "verified": false,
-    "drafted_at": "2026-10-21T06:05:43Z",
-    "wire_id": "0491c4754899",
-    "first_seen": "2026-10-21T06:05:43Z",
-    "first_published": "2026-10-21T05:57:08Z",
-    "updated_at": "2026-10-21T06:05:43Z"
   },
   {
     "id": "anthropic-models-hacked-3-orgs-testing",

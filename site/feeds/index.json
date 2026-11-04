@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T21:05:40Z",
+  "generated_at": "2026-11-04T21:35:41Z",
   "categories": [
     {
       "name": "AI exam fraud",
@@ -24,7 +24,7 @@
     {
       "name": "AI-assisted malware",
       "slug": "ai-assisted-malware",
-      "count": 52
+      "count": 54
     },
     {
       "name": "Agent hijack",
@@ -34,7 +34,7 @@
     {
       "name": "Chatbot harm",
       "slug": "chatbot-harm",
-      "count": 47
+      "count": 48
     },
     {
       "name": "Deepfake abuse",
@@ -49,7 +49,7 @@
     {
       "name": "LLMjacking",
       "slug": "llmjacking",
-      "count": 15
+      "count": 16
     },
     {
       "name": "Model & data leak",
@@ -98,7 +98,7 @@
     },
     {
       "code": "CA",
-      "count": 5
+      "count": 6
     },
     {
       "code": "CL",
@@ -146,7 +146,7 @@
     },
     {
       "code": "GL",
-      "count": 156
+      "count": 159
     },
     {
       "code": "GR",
