@@ -82,56 +82,75 @@
     "other": 1
   },
   "2026-10-24": {
-    "incident": 1
+    "warning": 1
   },
   "2026-10-25": {
     "incident": 1
   },
   "2026-10-26": {
-    "incident": 53,
-    "other": 10,
-    "policy": 7,
-    "research": 6,
-    "vendor-report": 6,
-    "vulnerability": 9
+    "incident": 1
   },
   "2026-10-27": {
-    "incident": 52,
-    "other": 18,
-    "policy": 14,
-    "research": 42,
-    "vendor-report": 12,
-    "vulnerability": 31
+    "incident": 1
   },
   "2026-10-28": {
-    "incident": 88,
-    "other": 8,
-    "policy": 9,
-    "research": 36,
-    "vendor-report": 11,
-    "vulnerability": 17
+    "incident": 1
   },
   "2026-10-29": {
-    "incident": 63,
-    "other": 13,
-    "policy": 11,
-    "research": 41,
-    "vendor-report": 16,
-    "vulnerability": 20
+    "incident": 11,
+    "other": 1,
+    "research": 2,
+    "vendor-report": 4
   },
   "2026-10-30": {
-    "incident": 95,
-    "other": 16,
-    "policy": 2,
-    "research": 43,
-    "vendor-report": 23,
-    "vulnerability": 9
+    "incident": 86,
+    "other": 4,
+    "policy": 5,
+    "research": 6,
+    "vendor-report": 14,
+    "vulnerability": 6
   },
   "2026-10-31": {
-    "incident": 11,
-    "other": 3,
-    "research": 1,
-    "vendor-report": 1,
-    "vulnerability": 2
+    "incident": 74,
+    "other": 6,
+    "research": 6,
+    "vendor-report": 9,
+    "vulnerability": 8
+  },
+  "2026-11-01": {
+    "incident": 33,
+    "other": 6,
+    "policy": 2,
+    "research": 5,
+    "vendor-report": 4,
+    "vulnerability": 5,
+    "warning": 4
+  },
+  "2026-11-02": {
+    "incident": 84,
+    "other": 21,
+    "policy": 8,
+    "research": 35,
+    "vendor-report": 12,
+    "vulnerability": 13,
+    "warning": 8
+  },
+  "2026-11-03": {
+    "incident": 121,
+    "other": 10,
+    "policy": 1,
+    "research": 39,
+    "vendor-report": 5,
+    "vulnerability": 2,
+    "warning": 52
+  },
+  "2026-11-04": {
+    "incident": 49,
+    "other": 7,
+    "policy": 1,
+    "research": 14,
+    "vendor-report": 5,
+    "vulnerability": 2,
+    "warning": 10
   }
 }
