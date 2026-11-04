@@ -8065,5 +8065,53 @@
     "timeline": [
       "404 Media 报道"
     ]
+  },
+  {
+    "title": "互联网观察基金会（IWF）称 Grok 似乎生成了 11 至 13 岁女童的性图像",
+    "summary": "互联网观察基金会（Internet Watch Foundation）称，其分析人员在一个暗网论坛上发现了 11 至 13 岁女童的犯罪图像，这些图像似乎是使用 xAI 的 Grok 创建的；论坛用户声称使用了 Grok Imagine，而在 X 平台本身未发现这些图像。",
+    "target": "AI 生成图像中被描绘的 11 至 13 岁女童",
+    "actor": "Grok（xAI）的身份不明用户",
+    "attribution": "互联网观察基金会称，这些图像似乎是使用 Grok 创建的；用户身份未被确认。",
+    "motive": "不明",
+    "vector": "通过提示词诱导 xAI 旗下的 Grok 图像生成工具生成儿童性化图像。",
+    "root_cause": "不明；摘要未描述 Grok 的防护措施。",
+    "impact": "互联网观察基金会的分析人员发现了 11 至 13 岁女童的犯罪图像；未给出图像数量。",
+    "response": "不明；摘要未给出公司或监管机构的回应。",
+    "id": "iwf-grok-child-sexual-imagery",
+    "timeline": [
+      "由 AI Incident Database 报道"
+    ]
+  },
+  {
+    "title": "参议院共和党人（NRSC）发布针对德克萨斯州联邦参议员候选人 James Talarico 的 AI 深度伪造广告",
+    "summary": "参议院共和党人发布了一则网络广告，其中包含由 AI 伪造的民主党候选人 James Talarico 的逼真形象，他对着镜头直接讲话超过一分钟，当时中期选举相关的深度伪造内容正不断激增。",
+    "target": "James Talarico，德克萨斯州美国联邦参议员选举的民主党提名人",
+    "actor": "美国共和党全国参议院委员会（National Republican Senatorial Committee，NRSC）",
+    "attribution": "报道称参议院共和党人发布了该广告；来源文本被截断。",
+    "motive": "中期选举竞争中的政治广告宣传",
+    "vector": "在网络广告中使用 AI 生成的真实候选人视频",
+    "root_cause": "竞选团队使用逼真的生成式视频伪造对手形象，而对政治深度伪造的限制很少。",
+    "impact": "一名候选人在一则被广泛传播的广告中被呈现为对着镜头说出了他并未说过的话。",
+    "response": "不明",
+    "id": "talarico-ai-deepfake-republican-ad",
+    "timeline": [
+      "由 AI Incident Database 报道"
+    ]
+  },
+  {
+    "title": "不列颠哥伦比亚省 88 岁男子因总理 Mark Carney 的深度伪造视频损失 45 万美元；道明银行（TD Bank）尚未向其偿还",
+    "summary": "CBC Go Public 报道称，不列颠哥伦比亚省 Qualicum Beach 的 88 岁男子 Ralph Moore 被一段总理 Mark Carney 的深度伪造视频吸引，陷入一起网络投资骗局，在 10 个月内损失 45 万美元；其家人称道明银行尚未对他进行赔偿。",
+    "target": "Ralph Moore，88 岁，居住于不列颠哥伦比亚省 Qualicum Beach",
+    "actor": "不明",
+    "attribution": "骗子身份不明；未给出归因。",
+    "motive": "谋取经济利益",
+    "vector": "利用总理的深度伪造视频说服受害者汇款。",
+    "root_cause": "受害者被逼真的深度伪造内容欺骗；银行拒绝承担这笔损失。",
+    "impact": "一名老年受害者损失 45 万美元；货币和国家是根据标题推断的。",
+    "response": "据报道，道明银行不会向受害者赔偿。",
+    "id": "deepfake-pm-scam-88-year-old-td-bank",
+    "timeline": [
+      "由 The Cool Down 报道"
+    ]
   }
 ]

@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-11-04T20:43:45Z",
+  "generated_at": "2026-11-04T21:18:00Z",
   "licence": "CC BY 4.0",
-  "total": 97,
-  "young_people": 94,
+  "total": 98,
+  "young_people": 95,
   "in_education": 47,
   "countries": 31,
-  "critical_high": 67,
+  "critical_high": 68,
   "by_setting": {
     "school": 38,
     "university": 9,
-    "online": 37,
+    "online": 38,
     "home": 13,
     "unknown": 0
   },
   "by_age": {
-    "child": 4,
+    "child": 5,
     "teen": 73,
     "young-adult": 15,
     "unknown": 2
   },
   "by_category": {
-    "Deepfake abuse": 44,
+    "Deepfake abuse": 45,
     "Chatbot harm": 35,
     "AI misfire": 6,
     "AI exam fraud": 5,
@@ -37,10 +37,11 @@
     "IN": 3,
     "JP": 3,
     "CA": 3,
-    "ES": 2,
-    "AR": 2,
-    "BR": 2,
     "IT": 2,
+    "AR": 2,
+    "GL": 2,
+    "ES": 2,
+    "BR": 2,
     "VN": 1,
     "MY": 1,
     "SG": 1,
@@ -59,7 +60,6 @@
     "NZ": 1,
     "IL": 1,
     "TZ": 1,
-    "GL": 1,
     "LB": 1,
     "KG": 1
   },
@@ -94,7 +94,7 @@
     "2026": {
       "school": 8,
       "university": 2,
-      "online": 15,
+      "online": 16,
       "home": 4,
       "unknown": 0
     }
@@ -463,6 +463,19 @@
       "young_people": true,
       "response": "Character.AI said it was reviewing the allegations, cited its under-18 safety work, and said it was disappointed the state chose litigation over talks.",
       "url": "https://aithreat.io/cases/kentucky-ag-v-character-ai/"
+    },
+    {
+      "id": "iwf-grok-child-sexual-imagery",
+      "date": "2026-01-07",
+      "title": "IWF says Grok appears to have generated sexual imagery of girls aged 11-13",
+      "category": "Deepfake abuse",
+      "severity": "high",
+      "country": "GL",
+      "setting": "online",
+      "age_group": "child",
+      "young_people": true,
+      "response": "Unknown; the summary gives no company or regulator response.",
+      "url": "https://aithreat.io/cases/iwf-grok-child-sexual-imagery/"
     },
     {
       "id": "sam-nelson-chatgpt-overdose",

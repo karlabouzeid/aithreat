@@ -8065,5 +8065,53 @@
     "timeline": [
       "Informado por 404 Media"
     ]
+  },
+  {
+    "title": "La IWF afirma que Grok parece haber generado imágenes sexuales de niñas de entre 11 y 13 años",
+    "summary": "La Internet Watch Foundation afirma que sus analistas encontraron en un foro de la dark web imágenes delictivas de niñas de entre 11 y 13 años que parecen haber sido creadas con Grok, de xAI; los usuarios del foro aseguraron haber utilizado Grok Imagine, y las imágenes no se hallaron en la propia X.",
+    "target": "Niñas de entre 11 y 13 años representadas en imágenes generadas por IA",
+    "actor": "Usuarios desconocidos de Grok (xAI)",
+    "attribution": "La Internet Watch Foundation afirma que las imágenes parecen haber sido creadas con Grok; no se identifica a los usuarios.",
+    "motive": "Desconocido",
+    "vector": "Uso de instrucciones en la herramienta de generación de imágenes Grok, propiedad de xAI, para producir imágenes sexualizadas de menores.",
+    "root_cause": "Desconocida; el resumen no describe las salvaguardas de Grok.",
+    "impact": "Los analistas de la IWF encontraron imágenes delictivas de niñas de entre 11 y 13 años; no se indica el número de imágenes.",
+    "response": "Desconocida; el resumen no menciona ninguna respuesta de la empresa ni de los reguladores.",
+    "id": "iwf-grok-child-sexual-imagery",
+    "timeline": [
+      "Reportado por AI Incident Database"
+    ]
+  },
+  {
+    "title": "Los republicanos del Senado (NRSC) publican un anuncio con un deepfake de IA del candidato al Senado por Texas James Talarico",
+    "summary": "Los republicanos del Senado publicaron un anuncio en línea con una versión realista, fabricada con IA, del candidato demócrata James Talarico hablando directamente a la cámara durante más de un minuto, en un contexto de proliferación de deepfakes en las elecciones de mitad de mandato.",
+    "target": "James Talarico, candidato demócrata al Senado de EE. UU. por Texas",
+    "actor": "National Republican Senatorial Committee (NRSC)",
+    "attribution": "Según la información publicada, los republicanos del Senado difundieron el anuncio; el texto de la fuente está truncado.",
+    "motive": "Publicidad política en una contienda de mitad de mandato",
+    "vector": "Vídeo generado con IA de un candidato real en un anuncio en línea",
+    "root_cause": "Campañas que emplean vídeo generativo realista de sus rivales, con pocos límites a los deepfakes políticos.",
+    "impact": "Un candidato aparece diciendo ante la cámara cosas que no dijo, en un anuncio ampliamente difundido.",
+    "response": "Desconocida",
+    "id": "talarico-ai-deepfake-republican-ad",
+    "timeline": [
+      "Reportado por AI Incident Database"
+    ]
+  },
+  {
+    "title": "Un hombre de 88 años de Columbia Británica pierde 450.000 USD por un vídeo deepfake del primer ministro Mark Carney; TD Bank no le ha reembolsado el dinero",
+    "summary": "CBC Go Public informa de que Ralph Moore, de 88 años y residente en Qualicum Beach (Columbia Británica), perdió 450.000 USD a lo largo de 10 meses en una estafa de inversión en línea a la que fue atraído por un vídeo deepfake del primer ministro Mark Carney; su familia afirma que TD Bank no le ha reembolsado.",
+    "target": "Ralph Moore, de 88 años, residente en Qualicum Beach, Columbia Británica",
+    "actor": "Desconocido",
+    "attribution": "Estafadores desconocidos; no se ofrece ninguna atribución.",
+    "motive": "Ánimo de lucro",
+    "vector": "Vídeo deepfake de un primer ministro utilizado para convencer a la víctima de que enviara dinero.",
+    "root_cause": "La víctima fue engañada por un deepfake convincente; el banco se negó a cubrir la pérdida.",
+    "impact": "Pérdida de 450.000 USD por parte de una víctima de edad avanzada; la divisa y el país se infieren del titular.",
+    "response": "Según los informes, TD Bank no reembolsará a la víctima.",
+    "id": "deepfake-pm-scam-88-year-old-td-bank",
+    "timeline": [
+      "Reportado por The Cool Down"
+    ]
   }
 ]

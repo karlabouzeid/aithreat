@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T20:43:45Z",
+  "generated_at": "2026-11-04T21:18:00Z",
   "licence": "CC BY 4.0",
   "sources": [
     {
@@ -1001,8 +1001,8 @@
       "claim": "Realistic AI-generated voices, images and video are used for fraud, extortion and sexual imagery made without consent, and cheap tools have made such content easy to produce at scale.",
       "status": "observed",
       "note": "The largest category in the registry: cloned voices and deepfake video calls impersonating executives, officials and relatives, and deepfake celebrity ads behind investment scams. The report adds that victims often do not report, so public cases undercount the harm.",
-      "n": 89,
-      "real_world": 89,
+      "n": 90,
+      "real_world": 90,
       "first_real_world": "2025-01-05",
       "months_after_publication": -13,
       "url": "https://aithreat.io/research/iasr-synthetic-content/",
@@ -1011,6 +1011,7 @@
         "tarn-restaurants-ai-fake-refund",
         "cctv-ai-fiancee-romance-scam",
         "mendoza-retiree-messi-ai-scam",
+        "deepfake-pm-scam-88-year-old-td-bank",
         "scammers-clone-sheriff-voice",
         "wu-yue-ai-celebrity-impersonation-sales",
         "korea-police-officer-deepfake-indicted",
@@ -2380,8 +2381,8 @@
       "claim": "People using AI for disinformation, surveillance and propaganda at scale; for cyberattacks and weapons; and for fraud, scams and targeted manipulation.",
       "status": "observed",
       "note": "The other pillar of the registry: deepfake fraud, AI-built malware, AI phishing and state operations.",
-      "n": 197,
-      "real_world": 196,
+      "n": 198,
+      "real_world": 197,
       "first_real_world": "2025-01-05",
       "months_after_publication": null,
       "url": "https://aithreat.io/research/mit-malicious-actors/",
@@ -2394,6 +2395,7 @@
         "cctv-ai-fiancee-romance-scam",
         "workos-ai-framework-breach",
         "mendoza-retiree-messi-ai-scam",
+        "deepfake-pm-scam-88-year-old-td-bank",
         "bugster-deepseek-v4-india-universities",
         "storm-0940-artex-connectwise",
         "storm-1516-talarico-deepfake-video",
@@ -2783,8 +2785,8 @@
     {
       "source": "iasr-2026",
       "claims": 11,
-      "matched_cases": 331,
-      "matched_pct": 72,
+      "matched_cases": 332,
+      "matched_pct": 71,
       "status_counts": {
         "observed": 5,
         "early": 3,
@@ -2848,7 +2850,7 @@
     {
       "source": "mit-risk-repository",
       "claims": 7,
-      "matched_cases": 402,
+      "matched_cases": 403,
       "matched_pct": 87,
       "status_counts": {
         "observed": 4,
@@ -2866,15 +2868,15 @@
     "none": 4,
     "outside": 7
   },
-  "matched_cases": 403,
-  "total_cases": 462,
-  "warning_matched_cases": 362,
+  "matched_cases": 404,
+  "total_cases": 465,
+  "warning_matched_cases": 363,
   "unmatched_pct": 22,
   "unmatched_by_category": [
     {
       "category": "Deepfake abuse",
-      "unmatched": 47,
-      "total": 47
+      "unmatched": 49,
+      "total": 49
     },
     {
       "category": "Model & data leak",
@@ -2909,7 +2911,7 @@
     {
       "category": "Deepfake fraud",
       "unmatched": 0,
-      "total": 92
+      "total": 93
     },
     {
       "category": "AI-assisted malware",

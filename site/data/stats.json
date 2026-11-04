@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-04T20:43:45Z",
-  "total": 259,
-  "all_time_total": 462,
+  "generated_at": "2026-11-04T21:18:00Z",
+  "total": 262,
+  "all_time_total": 465,
   "window_from": "2025-11-04",
   "window_to": "2026-11-04",
   "trend_from": "2025-01-01",
   "first_half_from": "2025-01",
   "first_half_to": "2025-06",
-  "all_time_losses_usd": 332617543,
+  "all_time_losses_usd": 333067543,
   "finance": {
     "top_losses": [
       "fideuram-ai-voice-clone-ceo-fraud",
@@ -20,7 +20,7 @@
       "sao-paulo-fake-lawyer-voice-clone"
     ],
     "financial_services": 9,
-    "individuals": 74,
+    "individuals": 76,
     "fin_by_category": {
       "Deepfake fraud": 7,
       "AI-assisted malware": 1,
@@ -115,6 +115,13 @@
         "latest": "meta-ai-model-exploits-flaw-in-eval"
       },
       {
+        "product": "xAI / Grok",
+        "n": 4,
+        "critical_high": 4,
+        "with_cve": 0,
+        "latest": "jane-does-v-xai-tennessee-teens"
+      },
+      {
         "product": "DeepSeek",
         "n": 3,
         "critical_high": 2,
@@ -141,28 +148,21 @@
         "critical_high": 3,
         "with_cve": 3,
         "latest": "ray-code-injection-cve-2025-62593"
-      },
-      {
-        "product": "xAI / Grok",
-        "n": 3,
-        "critical_high": 3,
-        "with_cve": 0,
-        "latest": "jane-does-v-xai-tennessee-teens"
       }
     ]
   },
   "this_quarter": {
     "q": "2026-Q4",
-    "n": 69,
+    "n": 70,
     "prev_q": "2026-Q3",
     "prev_n": 49
   },
   "direction": {
     "on-ai": 86,
-    "with-ai": 143
+    "with-ai": 146
   },
   "on_ai_share_first_half": 31,
-  "on_ai_share_last_half": 42,
+  "on_ai_share_last_half": 41,
   "quarters": [
     {
       "q": "2025-Q1",
@@ -222,17 +222,17 @@
     },
     {
       "q": "2026-Q1",
-      "n": 58,
+      "n": 60,
       "on-ai": 24,
-      "with-ai": 24,
+      "with-ai": 26,
       "severity": {
         "critical": 9,
-        "high": 26,
-        "medium": 20,
+        "high": 27,
+        "medium": 21,
         "low": 3
       },
       "autonomous": 0,
-      "real_world": 49
+      "real_world": 51
     },
     {
       "q": "2026-Q2",
@@ -264,23 +264,23 @@
     },
     {
       "q": "2026-Q4",
-      "n": 69,
+      "n": 70,
       "on-ai": 18,
-      "with-ai": 46,
+      "with-ai": 47,
       "severity": {
         "critical": 3,
-        "high": 23,
+        "high": 24,
         "medium": 39,
         "low": 4
       },
       "autonomous": 6,
-      "real_world": 68
+      "real_world": 69
     }
   ],
   "categories": [
     {
       "category": "Deepfake fraud",
-      "n": 49,
+      "n": 50,
       "by_quarter": [
         13,
         9,
@@ -289,9 +289,9 @@
         10,
         11,
         12,
-        9
+        10
       ],
-      "growth_last4_vs_prev4": -8
+      "growth_last4_vs_prev4": -7
     },
     {
       "category": "AI-assisted malware",
@@ -385,18 +385,18 @@
     },
     {
       "category": "Deepfake abuse",
-      "n": 18,
+      "n": 20,
       "by_quarter": [
         0,
         2,
         3,
         3,
-        7,
+        9,
         3,
         2,
         4
       ],
-      "growth_last4_vs_prev4": 8
+      "growth_last4_vs_prev4": 10
     },
     {
       "category": "Prompt injection",
@@ -461,7 +461,7 @@
   ],
   "rising_category": "AI supply chain",
   "top_category": "Deepfake fraud",
-  "top_category_n": 49,
+  "top_category_n": 50,
   "autonomous": {
     "by_year": {
       "2025": 1,
@@ -486,9 +486,9 @@
       "actor_type": "criminal",
       "by_year": {
         "2025": 13,
-        "2026": 80
+        "2026": 81
       },
-      "n": 93
+      "n": 94
     },
     {
       "actor_type": "state",
@@ -510,9 +510,9 @@
       "actor_type": "unknown",
       "by_year": {
         "2025": 1,
-        "2026": 67
+        "2026": 69
       },
-      "n": 68
+      "n": 70
     },
     {
       "actor_type": "autonomous-ai",
@@ -553,19 +553,19 @@
   ],
   "severity": {
     "critical": 39,
-    "high": 111,
-    "medium": 99,
+    "high": 113,
+    "medium": 100,
     "low": 10
   },
   "critical_high_pct": 58,
   "losses": {
-    "total_usd": 204636843,
-    "disclosed": 17,
+    "total_usd": 205086843,
+    "disclosed": 18,
     "by_category": [
       {
         "category": "Deepfake fraud",
-        "usd": 204636843,
-        "disclosed": 17
+        "usd": 205086843,
+        "disclosed": 18
       },
       {
         "category": "AI-assisted malware",
@@ -632,7 +632,7 @@
     },
     {
       "sector": "Individuals & consumers",
-      "n": 74
+      "n": 76
     },
     {
       "sector": "Multiple / cross-sector",
@@ -656,7 +656,7 @@
     },
     {
       "sector": "Politics & elections",
-      "n": 5
+      "n": 6
     },
     {
       "sector": "Defence & security",
@@ -678,18 +678,18 @@
   "countries": [
     {
       "country": "GL",
-      "n": 113
+      "n": 114
     },
     {
       "country": "US",
-      "n": 56
-    },
-    {
-      "country": "GB",
-      "n": 6
+      "n": 57
     },
     {
       "country": "KR",
+      "n": 6
+    },
+    {
+      "country": "GB",
       "n": 6
     },
     {
@@ -697,11 +697,11 @@
       "n": 6
     },
     {
-      "country": "FR",
+      "country": "IL",
       "n": 4
     },
     {
-      "country": "IL",
+      "country": "CA",
       "n": 4
     },
     {
@@ -709,19 +709,19 @@
       "n": 4
     },
     {
-      "country": "UA",
-      "n": 3
-    },
-    {
-      "country": "GR",
-      "n": 3
-    },
-    {
-      "country": "CA",
-      "n": 3
+      "country": "FR",
+      "n": 4
     },
     {
       "country": "NG",
+      "n": 3
+    },
+    {
+      "country": "BR",
+      "n": 3
+    },
+    {
+      "country": "TW",
       "n": 3
     }
   ],
@@ -729,11 +729,11 @@
   "status": [
     {
       "status": "under investigation",
-      "n": 90
+      "n": 91
     },
     {
       "status": "ongoing",
-      "n": 72
+      "n": 73
     },
     {
       "status": "contained",
@@ -749,7 +749,7 @@
     },
     {
       "status": "unresolved",
-      "n": 8
+      "n": 9
     },
     {
       "status": "suspect arrested and confessed",
@@ -790,7 +790,7 @@
   ],
   "unresolved_pct": 66,
   "verify_median_hours": 19.8,
-  "verify_sample": 70,
+  "verify_sample": 73,
   "researcher_demos": 21,
   "pulse": [
     {
@@ -1060,7 +1060,7 @@
     {
       "day": "2026-10-30",
       "kinds": {
-        "incident": 74,
+        "incident": 71,
         "vulnerability": 4,
         "research": 5,
         "vendor-report": 13,
@@ -1108,7 +1108,7 @@
     {
       "day": "2026-11-03",
       "kinds": {
-        "incident": 123,
+        "incident": 124,
         "vulnerability": 2,
         "research": 39,
         "vendor-report": 5,
@@ -1125,7 +1125,7 @@
         "research": 14,
         "vendor-report": 6,
         "policy": 3,
-        "other": 8,
+        "other": 10,
         "untagged": 0
       }
     }

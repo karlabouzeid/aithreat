@@ -350,5 +350,37 @@
     "reason": "Migalhas and other Brazilian outlets confirm the Federal Police arrested a candidate in São Luís on 18 October 2026 for allegedly using a phone connected to an AI tool during the OAB exam; it is not a known case.",
     "duplicate_of": null,
     "at": "2026-11-04T20:35:35Z"
+  },
+  {
+    "id": "talarico-ai-deepfake-republican-ad",
+    "title": "Republicans release AI deepfake ad of Texas Senate candidate James Talarico",
+    "decision": "approve",
+    "reason": "CNN and Reuters confirm the NRSC released an AI-fabricated video of Democratic nominee James Talarico in March 2026, which is a different event from the known Storm-1516 Talarico deepfake of October.",
+    "duplicate_of": null,
+    "at": "2026-11-04T21:05:40Z"
+  },
+  {
+    "id": "iwf-grok-child-sexual-imagery",
+    "title": "IWF says Grok appears to have generated sexual imagery of girls aged 11-13",
+    "decision": "approve",
+    "reason": "The IWF, BBC and NBC report analysts found criminal imagery of girls aged 11-13 that appears to have been made with Grok, shared by dark-web forum users who claimed to have used Grok Imagine. This is a distinct finding from the known Ofcom and Indonesia/Malaysia entries.",
+    "duplicate_of": null,
+    "at": "2026-11-04T21:05:40Z"
+  },
+  {
+    "id": "deepfake-pm-scam-88-year-old-td-bank",
+    "title": "88-year-old loses $450,000 to Prime Minister deepfake video; TD Bank declines refund",
+    "decision": "approve",
+    "reason": "CBC Go Public reports 88-year-old Ralph Moore lost $450,000 over 10 months to a scam launched by a deepfake video of PM Mark Carney, and TD has not reimbursed him; the currency is not stated as USD.",
+    "duplicate_of": null,
+    "at": "2026-11-04T21:05:40Z"
+  },
+  {
+    "id": "tag-217-artex-south-korea-finance",
+    "title": "TAG-217 uses AI-driven ARTEX framework against South Korean financial services",
+    "decision": "reject",
+    "reason": "The Recorded Future post describes the same ARTEX-driven attacks on South Korean financial institutions already logged as artex-ai-driven-korea-finance, now with the actor named TAG-217.",
+    "duplicate_of": "artex-ai-driven-korea-finance",
+    "at": "2026-11-04T21:05:40Z"
   }
 ]

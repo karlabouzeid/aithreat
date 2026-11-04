@@ -12784,6 +12784,57 @@
     "age_group": "young-adult"
   },
   {
+    "id": "iwf-grok-child-sexual-imagery",
+    "date": "2026-01-07",
+    "title": "IWF says Grok appears to have generated sexual imagery of girls aged 11-13",
+    "category": "Deepfake abuse",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "Girls aged 11-13 depicted in AI-generated imagery",
+    "loss_usd": null,
+    "summary": "The Internet Watch Foundation says its analysts found criminal imagery of girls aged 11-13 on a dark-web forum that appears to have been created using xAI's Grok; forum users claimed to have used Grok Imagine, and the images were not found on X itself.",
+    "actor": "Unknown users of Grok (xAI)",
+    "actor_type": "unknown",
+    "sector": "Individuals & consumers",
+    "attribution": "The Internet Watch Foundation says the imagery appears to have been created with Grok; users are not identified.",
+    "motive": "Unknown",
+    "vector": "Prompting the Grok image generation tool, owned by xAI, to produce sexualised images of children.",
+    "root_cause": "Unknown; the summary does not describe Grok's safeguards.",
+    "impact": "Criminal imagery of girls aged 11-13 was found by IWF analysts; the number of images is not given.",
+    "response": "Unknown; the summary gives no company or regulator response.",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": true,
+    "setting": "online",
+    "age_group": "child",
+    "source": "AI Incident Database",
+    "url": "https://www.bbc.com/news/articles/cvg1mzlryxeo",
+    "sources": [
+      {
+        "name": "AI Incident Database",
+        "url": "https://www.bbc.com/news/articles/cvg1mzlryxeo"
+      },
+      {
+        "name": "NBC News",
+        "url": "https://www.nbcnews.com/tech/internet/grok-x-bikini-make-imagine-ai-elon-musk-rcna252864"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-01-05",
+        "event": "Reported by AI Incident Database"
+      }
+    ],
+    "drafted_at": "2026-10-21T20:05:42Z",
+    "first_seen": "2026-10-21T20:05:42Z",
+    "updated_at": "2026-11-04T21:05:40Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-04T21:05:40Z"
+  },
+  {
     "id": "kuwait-cbk-nbk-deepfake-warning",
     "date": "2026-01-08",
     "title": "NBK warns of deepfake investment ads under Central Bank of Kuwait Let's Be Aware campaign",
@@ -15112,6 +15163,57 @@
     "age_group": "teen",
     "verified_at": "2026-10-19T13:40:55Z",
     "updated_at": "2026-10-19T13:40:55Z"
+  },
+  {
+    "id": "talarico-ai-deepfake-republican-ad",
+    "date": "2026-03-11",
+    "title": "Senate Republicans (NRSC) release AI deepfake ad of Texas Senate candidate James Talarico",
+    "category": "Deepfake abuse",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "US",
+    "region": "North America",
+    "target": "James Talarico, Democratic nominee for US Senate in Texas",
+    "loss_usd": null,
+    "summary": "Senate Republicans released an online ad with a realistic AI-fabricated version of Democratic candidate James Talarico speaking directly to camera for over a minute, amid proliferating midterm deepfakes.",
+    "actor": "National Republican Senatorial Committee (NRSC)",
+    "actor_type": "unknown",
+    "sector": "Politics & elections",
+    "attribution": "Reporting says Senate Republicans released the ad; the source text is truncated.",
+    "motive": "Political advertising in midterm race",
+    "vector": "AI-generated video of a real candidate in an online ad",
+    "root_cause": "Campaigns using realistic generative video of opponents with few limits on political deepfakes.",
+    "impact": "A candidate depicted saying things he did not say on camera in a widely shared ad.",
+    "response": "Unknown",
+    "status": "ongoing",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "source": "AI Incident Database",
+    "url": "https://www.cnn.com/2026/03/13/politics/james-talarico-ai-deepfake-republicans-midterms",
+    "sources": [
+      {
+        "name": "AI Incident Database",
+        "url": "https://www.cnn.com/2026/03/13/politics/james-talarico-ai-deepfake-republicans-midterms"
+      },
+      {
+        "name": "Reuters (via Yahoo News)",
+        "url": "https://www.yahoo.com/news/articles/ai-deepfakes-blur-reality-2026-100554748.html"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-21",
+        "event": "Reported by AI Incident Database"
+      }
+    ],
+    "drafted_at": "2026-10-21T20:05:42Z",
+    "first_seen": "2026-10-21T20:05:42Z",
+    "updated_at": "2026-11-04T21:05:40Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-04T21:05:40Z"
   },
   {
     "id": "ai-built-clickfix-smartrat",
@@ -23723,6 +23825,61 @@
     "verification": "reported",
     "review": "auto",
     "verified_at": "2026-11-04T18:52:03Z"
+  },
+  {
+    "id": "deepfake-pm-scam-88-year-old-td-bank",
+    "date": "2026-10-22",
+    "title": "88-year-old BC man loses $450,000 to deepfake video of PM Mark Carney; TD Bank has not repaid him",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "CA",
+    "region": "North America",
+    "target": "Ralph Moore, 88, of Qualicum Beach, British Columbia",
+    "loss_usd": 450000,
+    "summary": "CBC Go Public reports Ralph Moore, 88, of Qualicum Beach, BC, lost $450,000 over 10 months to an online investment scam he was drawn into by a deepfake video of Prime Minister Mark Carney; his family says TD Bank has not reimbursed him.",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "sector": "Individuals & consumers",
+    "attribution": "Unknown scammers; no attribution given.",
+    "motive": "Financial gain",
+    "vector": "Deepfake video of a Prime Minister used to persuade the victim to send money.",
+    "root_cause": "Victim deceived by a convincing deepfake; the bank declined to cover the loss.",
+    "impact": "Loss of $450,000 by an elderly victim; currency and country are inferred from the headline.",
+    "response": "TD Bank reportedly will not reimburse the victim.",
+    "status": "unresolved",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "source": "The Cool Down",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNS3pTelBObVJaUE1teGVWYTBnMXZUaW1QUDJ6eEVvZGJsNkc2aWtHSHVBemxrdTh5VmxOT1c4NWYwSm9DeFJrM19MdnhCajc2SlhBeWZzTnRuYms4RE8wb2V1MkNfT3RGYkFwcXZyWlZROXJqVHAyX1QwTXZFb3hici05X2pBQlRZZUtFZVYwV1I?oc=5",
+    "sources": [
+      {
+        "name": "The Cool Down",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNS3pTelBObVJaUE1teGVWYTBnMXZUaW1QUDJ6eEVvZGJsNkc2aWtHSHVBemxrdTh5VmxOT1c4NWYwSm9DeFJrM19MdnhCajc2SlhBeWZzTnRuYms4RE8wb2V1MkNfT3RGYkFwcXZyWlZROXJqVHAyX1QwTXZFb3hici05X2pBQlRZZUtFZVYwV1I?oc=5"
+      },
+      {
+        "name": "CBC News Go Public",
+        "url": "https://www.cbc.ca/news/gopublic/bank-fraud-legislation-9.7382518"
+      },
+      {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/economy/policy/articles/88-old-loses-450-000-032700028.html"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-22",
+        "event": "Reported by The Cool Down"
+      }
+    ],
+    "drafted_at": "2026-10-22T03:35:41Z",
+    "first_seen": "2026-10-22T03:35:41Z",
+    "updated_at": "2026-11-04T21:05:40Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-04T21:05:40Z"
   },
   {
     "id": "mendoza-retiree-messi-ai-scam",
