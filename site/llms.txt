@@ -5,7 +5,7 @@
 Positioning: a reference registry of AI security incidents (attacks on AI systems, and attacks carried out with AI): structured, verified, fast, multilingual and openly licensed.
 
 ## Key pages
-- [All verified case files](https://aithreat.io/cases/): 433 incidents, newest first, with hubs by type and country
+- [All verified case files](https://aithreat.io/cases/): 438 incidents, newest first, with hubs by type and country
 - [Interactive world map](https://aithreat.io/): the same cases on a map with filters
 - [Live wire](https://aithreat.io/#wire): AI security headlines from vetted sources, refreshed every 30 minutes (machine-triaged, not verified)
 - [Data and citing](https://aithreat.io/#data): download links, field list, inclusion rule, severity scale
@@ -28,16 +28,16 @@ Positioning: a reference registry of AI security incidents (attacks on AI system
 - [AI exam fraud](https://aithreat.io/cases/category/ai-exam-fraud/): 5 cases
 - [AI misfire](https://aithreat.io/cases/category/ai-misfire/): 6 cases
 - [AI phishing](https://aithreat.io/cases/category/ai-phishing/): 16 cases
-- [AI supply chain](https://aithreat.io/cases/category/ai-supply-chain/): 45 cases
-- [AI-assisted malware](https://aithreat.io/cases/category/ai-assisted-malware/): 47 cases
+- [AI supply chain](https://aithreat.io/cases/category/ai-supply-chain/): 46 cases
+- [AI-assisted malware](https://aithreat.io/cases/category/ai-assisted-malware/): 48 cases
 - [Agent hijack](https://aithreat.io/cases/category/agent-hijack/): 26 cases
-- [Chatbot harm](https://aithreat.io/cases/category/chatbot-harm/): 46 cases
+- [Chatbot harm](https://aithreat.io/cases/category/chatbot-harm/): 47 cases
 - [Deepfake abuse](https://aithreat.io/cases/category/deepfake-abuse/): 44 cases
 - [Deepfake fraud](https://aithreat.io/cases/category/deepfake-fraud/): 84 cases
 - [LLMjacking](https://aithreat.io/cases/category/llmjacking/): 15 cases
-- [Model & data leak](https://aithreat.io/cases/category/model-data-leak/): 41 cases
+- [Model & data leak](https://aithreat.io/cases/category/model-data-leak/): 42 cases
 - [Prompt injection](https://aithreat.io/cases/category/prompt-injection/): 28 cases
-- [State actor AI ops](https://aithreat.io/cases/category/state-actor-ai-ops/): 30 cases
+- [State actor AI ops](https://aithreat.io/cases/category/state-actor-ai-ops/): 31 cases
 
 ## Case files by company
 - [13-year-old Character.AI user in Thornton, Colorado](https://aithreat.io/cases/company/13-year-old-character-ai-user-in-thornton-colorado/): 1 case
@@ -233,6 +233,7 @@ Positioning: a reference registry of AI security incidents (attacks on AI system
 - [Israeli banks and about 120 identity theft victims](https://aithreat.io/cases/company/israeli-banks-and-about-120-identity-theft-victims/): 1 case
 - [Israeli retail investors](https://aithreat.io/cases/company/israeli-retail-investors/): 1 case
 - [Italian business executives](https://aithreat.io/cases/company/italian-business-executives/): 1 case
+- [James Talarico, Texas Democratic Senate candidate](https://aithreat.io/cases/company/james-talarico-texas-democratic-senate-candidate/): 1 case
 - [Japanese internet users in a teen hacking chat group](https://aithreat.io/cases/company/japanese-internet-users-in-a-teen-hacking-chat-group/): 1 case
 - [Japanese residents called from a Kuala Lumpur call centre](https://aithreat.io/cases/company/japanese-residents-called-from-a-kuala-lumpur-call-centre/): 1 case
 - [Job seekers in Eastern European countries](https://aithreat.io/cases/company/job-seekers-in-eastern-european-countries/): 1 case
@@ -250,6 +251,7 @@ Positioning: a reference registry of AI security incidents (attacks on AI system
 - [Linux cloud environments](https://aithreat.io/cases/company/linux-cloud-environments/): 1 case
 - [Linux IoT devices across 17 architectures](https://aithreat.io/cases/company/linux-iot-devices-across-17-architectures/): 1 case
 - [LiteLLM proxies before 1.84.0 exposing MCP](https://aithreat.io/cases/company/litellm-proxies-before-1-84-0-exposing-mcp/): 1 case
+- [LiteLLM users on PyPI and Docker](https://aithreat.io/cases/company/litellm-users-on-pypi-and-docker/): 1 case
 - [Litigants with pending court cases in Sao Paulo state](https://aithreat.io/cases/company/litigants-with-pending-court-cases-in-sao-paulo-state/): 1 case
 - [Live systems of Indian organizations](https://aithreat.io/cases/company/live-systems-of-indian-organizations/): 1 case
 - [LLM-based malware analysis pipelines](https://aithreat.io/cases/company/llm-based-malware-analysis-pipelines/): 1 case
@@ -451,6 +453,7 @@ Positioning: a reference registry of AI security incidents (attacks on AI system
 - [VS Code, Cursor and Windsurf users](https://aithreat.io/cases/company/vs-code-cursor-and-windsurf-users/): 1 case
 - [VS Code users of AI coding assistant extensions](https://aithreat.io/cases/company/vs-code-users-of-ai-coding-assistant-extensions/): 1 case
 - [Vyro AI (ImagineArt, Chatly, Chatbotx apps)](https://aithreat.io/cases/company/vyro-ai-imagineart-chatly-chatbotx-apps/): 1 case
+- [Warp agentic development environment users](https://aithreat.io/cases/company/warp-agentic-development-environment-users/): 1 case
 - [Warren County High School (Tennessee) and a middle school in Oxford, Mississippi](https://aithreat.io/cases/company/warren-county-high-school-tennessee-and-a-middle-school-in-oxford-mississippi/): 1 case
 - [Web3 and crypto executives and blockchain developers](https://aithreat.io/cases/company/web3-and-crypto-executives-and-blockchain-developers/): 1 case
 - [Western companies hiring remote developers](https://aithreat.io/cases/company/western-companies-hiring-remote-developers/): 1 case
@@ -461,8 +464,10 @@ Positioning: a reference registry of AI security incidents (attacks on AI system
 - [Windows hosts targeted by the proof-of-concept framework](https://aithreat.io/cases/company/windows-hosts-targeted-by-the-proof-of-concept-framework/): 1 case
 - [Windows systems](https://aithreat.io/cases/company/windows-systems/): 1 case
 - [Windows users targeted by the group's malware](https://aithreat.io/cases/company/windows-users-targeted-by-the-group-s-malware/): 1 case
+- [Woman with epilepsy who used ChatGPT for medical advice](https://aithreat.io/cases/company/woman-with-epilepsy-who-used-chatgpt-for-medical-advice/): 1 case
 - [Women and minors whose photos were edited by Grok](https://aithreat.io/cases/company/women-and-minors-whose-photos-were-edited-by-grok/): 1 case
 - [Women including University of Hong Kong classmates, friends and secondary school teachers](https://aithreat.io/cases/company/women-including-university-of-hong-kong-classmates-friends-and-secondary-school-teachers/): 1 case
+- [WorkOS internal sales application](https://aithreat.io/cases/company/workos-internal-sales-application/): 1 case
 - [Wuhan MCN agency's official account and company registration](https://aithreat.io/cases/company/wuhan-mcn-agency-s-official-account-and-company-registration/): 1 case
 - [xAI Grok users](https://aithreat.io/cases/company/xai-grok-users/): 1 case
 - [xAI private and fine-tuned LLMs](https://aithreat.io/cases/company/xai-private-and-fine-tuned-llms/): 1 case
@@ -472,6 +477,11 @@ Positioning: a reference registry of AI security incidents (attacks on AI system
 - [Young Ukrainian ChatGPT user living in Poland](https://aithreat.io/cases/company/young-ukrainian-chatgpt-user-living-in-poland/): 1 case
 
 ## Verified case files
+- [WorkOS internal sales app breached using AI-assisted offensive framework](https://aithreat.io/cases/workos-ai-framework-breach/): 2026-10-30, medium, AI-assisted malware, United States. WorkOS reported unauthorized access to an internal sales application on 30 October 2026. Its investigation reportedly found the attackers used an AI-assisted offensive security framework to automate reconnaissance and exploitation. Customer data was reportedly accessed.
+- [Warp discloses vendor breach exposing AI agent logs and user telemetry](https://aithreat.io/cases/warp-agent-logs-vendor-breach/): 2026-10-27, medium, Model & data leak, Worldwide. Warp disclosed that an attack on a third-party vendor in its infrastructure exposed agent decision logs and telemetry data belonging to users of its agentic development environment.
+- [Wrongful death suit alleges ChatGPT medical advice killed woman with epilepsy](https://aithreat.io/cases/openai-chatgpt-epilepsy-death-suit/): 2026-10-27, critical, Chatbot harm, United States. Social Media Victims Law Center and The Schenk Law Firm allege in a wrongful death lawsuit that ChatGPT's medical advice resulted in the death of a woman with epilepsy. Claims are unproven.
+- [Russian group Storm-1516 spreads AI deepfake video accusing Texas candidate Talarico](https://aithreat.io/cases/storm-1516-talarico-deepfake-video/): 2026-10-21, medium, State actor AI ops, United States. A Russian disinformation group, identified by PolitiFact as Storm-1516, reportedly targeted Texas Democratic Senate candidate James Talarico with an AI-generated video showing a purported former student accusing him of misconduct. PolitiFact rated the claim baseless.
+- [Malicious LiteLLM 1.107.0 on PyPI and Docker steals browser, cloud and AI secrets](https://aithreat.io/cases/litellm-1-107-0-trojanized-release/): 2026-10-21, high, AI supply chain, Worldwide. Wiz reports a malicious LiteLLM 1.107.0 uploaded to PyPI and Docker on October 21, with a stealer for browser, cloud and AI secrets and a dormant C2.
 - [Hundreds of AI agents exploit PaperCut NG/MF servers to steal Windows credentials](https://aithreat.io/cases/papercut-ai-agents-credential-theft/): 2026-10-16, high, AI-assisted malware, Worldwide. A likely Russian-speaking actor used hundreds of AI agents to exploit PaperCut NG/MF servers, steal Windows credentials and set up reusable internal access. GreyNoise found 440 compromised instances.
 - [JINX-2401 LLM hijacking campaign targets AWS environments with IAM privilege escalation](https://aithreat.io/cases/jinx-2401-llm-hijacking-aws/): 2026-10-16, medium, LLMjacking, Worldwide. Wiz reports new LLM hijacking activity, including the JINX-2401 campaign that targets AWS environments using IAM privilege escalation tactics.
 - [Aoki infostealer expands to steal Claude, ChatGPT and Cursor credentials](https://aithreat.io/cases/aoki-infostealer-ai-assistant-creds/): 2026-10-16, medium, Model & data leak, Worldwide. The Aoki (Aokigahara) infostealer, first seen earlier in 2026, now collects credentials and session files from AI coding assistants, putting developer identities and connected infrastructure at risk.

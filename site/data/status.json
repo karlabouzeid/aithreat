@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-11-04T17:05:39Z",
+  "updated_at": "2026-11-04T17:45:22Z",
   "wire_items": 800,
-  "new_items": 1,
-  "candidates": 268,
-  "incidents": 433,
+  "new_items": 6,
+  "candidates": 261,
+  "incidents": 438,
   "feeds_ok": [
     "BleepingComputer",
     "The Record",
@@ -19,7 +19,6 @@
     "TechCrunch Security",
     "Unit 42",
     "Microsoft Security Blog",
-    "CISA Advisories",
     "Simon Willison (prompt injection)",
     "AI Incident Database",
     "BBC Technology",
@@ -71,7 +70,6 @@
     "US SEC",
     "Council of the EU",
     "UK NCSC news",
-    "CISA news",
     "UK government news",
     "UK DSIT",
     "US FTC",
@@ -82,10 +80,12 @@
     "Google News (official warnings)"
   ],
   "feeds_failed": [
+    "CISA Advisories",
     "US court filings (CourtListener)",
     "European Commission",
     "European Parliament",
-    "EDPB"
+    "EDPB",
+    "CISA news"
   ],
-  "triage": "triaged 5 items with claude-sonnet-5-5 in 1 batches (0 failed); kept 1"
+  "triage": "triaged 8 items with claude-sonnet-5-5 in 1 batches (0 failed); kept 6"
 }

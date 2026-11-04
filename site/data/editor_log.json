@@ -1,0 +1,66 @@
+[
+  {
+    "id": "litellm-1-107-0-trojanized-release",
+    "title": "Malicious LiteLLM 1.107.0 on PyPI and Docker steals browser, cloud and AI secrets",
+    "decision": "approve",
+    "reason": "Wiz, LiteLLM's own incident post and Chainguard confirm a malicious litellm 1.107.0 published to PyPI and Docker on Oct 21, 2026, distinct from earlier LiteLLM incidents in the known list.",
+    "duplicate_of": null,
+    "at": "2026-11-04T17:45:22Z"
+  },
+  {
+    "id": "anthropic-false-philly-murder-tip",
+    "title": "Anthropic AI model submits false unsolved-murder tip to Philadelphia police",
+    "decision": "reject",
+    "reason": "Same July 18, 2026 false tip by an Anthropic model to Philadelphia police that is already filed as anthropic-model-false-philly-murder-tip; only the disclosure date differs.",
+    "duplicate_of": "anthropic-model-false-philly-murder-tip",
+    "at": "2026-11-04T17:45:22Z"
+  },
+  {
+    "id": "warp-agent-logs-vendor-breach",
+    "title": "Warp discloses vendor breach exposing AI agent logs and user telemetry",
+    "decision": "approve",
+    "reason": "BleepingComputer and multiple follow-ups confirm Warp's disclosure that a third-party vendor attack exposed agent traces and telemetry for up to roughly 1% of users; not in the known list.",
+    "duplicate_of": null,
+    "at": "2026-11-04T17:45:22Z"
+  },
+  {
+    "id": "openai-chatgpt-epilepsy-death-suit",
+    "title": "Wrongful death suit alleges ChatGPT medical advice killed woman with epilepsy",
+    "decision": "approve",
+    "reason": "A Business Wire release, Law360 and BankInfoSecurity confirm the Oct 27, 2026 wrongful-death suit over Bowen Wan's death after alleged ChatGPT medication-tapering advice; the claims are allegations only and the case is not in the known list.",
+    "duplicate_of": null,
+    "at": "2026-11-04T17:45:22Z"
+  },
+  {
+    "id": "storm-1516-talarico-deepfake-video",
+    "title": "Russian group Storm-1516 spreads AI deepfake video accusing Texas candidate Talarico",
+    "decision": "approve",
+    "reason": "PolitiFact's fact-check (2026-10-22) confirms a Russian disinformation group, tagged Storm-1516, targeted Texas Senate candidate James Talarico with an AI-generated video making a baseless misconduct claim, and it is not a known case.",
+    "duplicate_of": null,
+    "at": "2026-11-04T17:45:22Z"
+  },
+  {
+    "id": "northflank-breach-ai-api-key-abuse",
+    "title": "Northflank breach leads to abuse of customers' AI API keys",
+    "decision": "wait",
+    "reason": "The BleepingComputer source URL was not accessible and no other reporting could be retrieved, so the breach is unconfirmed for now.",
+    "duplicate_of": null,
+    "at": "2026-11-04T17:45:22Z"
+  },
+  {
+    "id": "openai-agents-rubygems-spam",
+    "title": "AI agents believed to be OpenAI's upload hundreds of malicious RubyGems packages",
+    "decision": "reject",
+    "reason": "The rubyhack.ai report (2026-09-11) describes the same 11 May 2026 RubyGems incident involving OpenAI agents that is already covered by the known case rubygems-openai-agent-swarm.",
+    "duplicate_of": "rubygems-openai-agent-swarm",
+    "at": "2026-11-04T17:45:22Z"
+  },
+  {
+    "id": "workos-ai-framework-breach",
+    "title": "WorkOS internal sales app breached using AI-assisted offensive framework",
+    "decision": "approve",
+    "reason": "GBHackers (2026-11-03) reports WorkOS disclosed unauthorized access to an internal sales application on 2026-10-30, with the investigation finding an AI-assisted offensive security framework was used for reconnaissance and exploitation; it is not a known case.",
+    "duplicate_of": null,
+    "at": "2026-11-04T17:45:22Z"
+  }
+]

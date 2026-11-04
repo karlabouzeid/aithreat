@@ -7601,5 +7601,85 @@
       "Le National Assembly Research Service alerte sur la dépendance des adolescents aux chatbots",
       "L'arriéré de plaintes de la KCSC est révélé lors de l'audit parlementaire"
     ]
+  },
+  {
+    "title": "LiteLLM 1.107.0 malveillant sur PyPI et Docker : vol de secrets de navigateurs, du cloud et d’IA",
+    "summary": "Wiz signale qu’une version malveillante de LiteLLM 1.107.0 a été mise en ligne sur PyPI et Docker le 21 octobre, avec un voleur d’informations (stealer) ciblant les secrets des navigateurs, du cloud et de l’IA, ainsi qu’un C2 dormant.",
+    "target": "Utilisateurs de LiteLLM sur PyPI et Docker",
+    "actor": "Inconnu",
+    "attribution": "Wiz Research a signalé l’incident ; le résumé ne nomme aucun acteur et ne le relie pas à la précédente compromission de LiteLLM.",
+    "motive": "Vol d’identifiants, à en juger par le stealer ; non précisé.",
+    "vector": "Version piégée du paquet publiée sur PyPI et Docker, contenant un voleur d’identifiants et une capacité de C2 dormante.",
+    "root_cause": "Inconnue ; le résumé n’indique pas comment la version malveillante a été publiée.",
+    "impact": "Les identifiants des navigateurs, du cloud et des services d’IA sont exposés pour toute personne ayant installé cette version ; le nombre de victimes est inconnu.",
+    "response": "Wiz Research a publié un avis ; le résumé ne donne aucun détail sur les mesures de remédiation.",
+    "id": "litellm-1-107-0-trojanized-release",
+    "timeline": [
+      "Signalé par Wiz Research"
+    ]
+  },
+  {
+    "title": "Le groupe russe Storm-1516 diffuse une vidéo deepfake générée par IA accusant le candidat texan Talarico",
+    "summary": "Un groupe russe de désinformation, identifié par PolitiFact comme Storm-1516, aurait ciblé James Talarico, candidat démocrate au Sénat au Texas, au moyen d’une vidéo générée par IA montrant un prétendu ancien étudiant l’accusant de faute. PolitiFact a jugé l’affirmation sans fondement.",
+    "target": "James Talarico, candidat démocrate au Sénat au Texas",
+    "actor": "Storm-1516 (groupe russe de désinformation)",
+    "attribution": "L’élément 2 attribue un réseau coordonné de comptes à Storm-1516. L’élément 3 décrit la source comme un groupe russe de désinformation, selon une vérification des faits.",
+    "motive": "Nuire à un candidat démocrate au Sénat par de fausses accusations d’inconduite sexuelle avant l’élection.",
+    "vector": "Vidéos deepfake générées par IA, diffusées par un réseau coordonné de comptes sur Facebook, Instagram, Pinterest, Threads, TikTok, X et YouTube.",
+    "root_cause": "La génération de vidéos par IA à bas coût et les comptes inauthentiques coordonnés sur les plateformes sociales permettent la diffusion massive d’accusations fabriquées.",
+    "impact": "Des accusations d’inconduite sans fondement visant un candidat au Sénat ont largement circulé sur X et d’autres plateformes. Les chercheurs ont également découvert des comptes usurpant l’identité d’un procureur général adjoint des États-Unis.",
+    "response": "Une vérification des faits a classé l’affirmation « Pants on Fire ». Les chercheurs ont publié leurs conclusions sur le réseau de comptes.",
+    "id": "storm-1516-talarico-deepfake-video",
+    "timeline": [
+      "Signalé par AI Incident Database"
+    ]
+  },
+  {
+    "title": "Warp révèle une compromission chez un prestataire exposant des journaux d’agents IA et de la télémétrie utilisateur",
+    "summary": "Warp a révélé qu’une attaque contre un prestataire tiers de son infrastructure a exposé des journaux de décisions d’agents et des données de télémétrie appartenant aux utilisateurs de son environnement de développement agentique.",
+    "target": "Utilisateurs de l’environnement de développement agentique de Warp",
+    "actor": "Inconnu",
+    "attribution": "Non précisée dans le rapport ; l’attaquant est inconnu.",
+    "motive": "Inconnu",
+    "vector": "Compromission d’un prestataire tiers dans l’infrastructure du projet de Warp.",
+    "root_cause": "Intrusion chez un prestataire tiers de l’infrastructure ; la faille précise n’est pas indiquée.",
+    "impact": "Les journaux de décisions des agents et les données de télémétrie des utilisateurs ont été exposés. Le nombre d’utilisateurs touchés n’est pas précisé.",
+    "response": "Warp a divulgué publiquement la compromission. Les autres mesures de remédiation ne sont pas précisées.",
+    "id": "warp-agent-logs-vendor-breach",
+    "timeline": [
+      "Signalé par BleepingComputer"
+    ]
+  },
+  {
+    "title": "Une plainte pour mort injustifiée (wrongful death) allègue que les conseils médicaux de ChatGPT ont tué une femme épileptique",
+    "summary": "Le Social Media Victims Law Center et The Schenk Law Firm allèguent, dans une plainte pour mort injustifiée (wrongful death), que les conseils médicaux de ChatGPT ont entraîné le décès d’une femme épileptique. Ces allégations ne sont pas prouvées.",
+    "target": "Femme épileptique ayant utilisé ChatGPT pour obtenir des conseils médicaux",
+    "actor": "OpenAI (ChatGPT)",
+    "attribution": "Allégué par les avocats des plaignants (Social Media Victims Law Center, The Schenk Law Firm) dans un communiqué de Business Wire ; aucune décision de justice n’est rapportée.",
+    "motive": "Inconnu",
+    "vector": "Recours allégué aux conseils médicaux de ChatGPT concernant l’épilepsie de la femme, selon les plaignants.",
+    "root_cause": "Les plaignants allèguent que ChatGPT a donné des conseils médicaux préjudiciables ; aucune conclusion judiciaire sur la cause.",
+    "impact": "Décès d’une femme épileptique, tel qu’allégué par les avocats des plaignants dans la plainte.",
+    "response": "Plainte pour mort injustifiée (wrongful death) déposée contre OpenAI par le Social Media Victims Law Center et The Schenk Law Firm. La réponse d’OpenAI n’est pas précisée.",
+    "id": "openai-chatgpt-epilepsy-death-suit",
+    "timeline": [
+      "Signalé par Business Wire"
+    ]
+  },
+  {
+    "title": "Application commerciale interne de WorkOS compromise à l'aide d'un framework de sécurité offensive assisté par IA",
+    "summary": "WorkOS a signalé un accès non autorisé à une application commerciale interne le 30 octobre 2026. Son enquête aurait établi que les attaquants avaient utilisé un framework de sécurité offensive assisté par IA pour automatiser la reconnaissance et l'exploitation. Des données clients auraient été consultées.",
+    "target": "Application commerciale interne de WorkOS",
+    "actor": "Inconnu",
+    "attribution": "Non attribué dans le texte disponible. L'enquête de WorkOS a établi qu'un framework de sécurité offensive assisté par IA avait été utilisé.",
+    "motive": "Inconnu",
+    "vector": "Framework de sécurité offensive assisté par IA automatisant la reconnaissance et l'exploitation contre une application commerciale interne.",
+    "root_cause": "Inconnue. Le texte n'indique pas quelle faiblesse a été exploitée.",
+    "impact": "Accès non autorisé à une application commerciale interne. L'enquête en cours laisse penser que des données clients ont été touchées, mais l'étendue n'est pas précisée dans le texte.",
+    "response": "WorkOS a signalé l'incident et son enquête est en cours.",
+    "id": "workos-ai-framework-breach",
+    "timeline": [
+      "Signalé par GBHackers"
+    ]
   }
 ]

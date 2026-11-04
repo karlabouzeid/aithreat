@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-04T17:06:23Z",
-  "total": 231,
-  "all_time_total": 433,
+  "generated_at": "2026-11-04T17:52:06Z",
+  "total": 236,
+  "all_time_total": 438,
   "window_from": "2025-11-04",
   "window_to": "2026-11-04",
   "trend_from": "2025-01-01",
@@ -20,7 +20,7 @@
       "sao-paulo-fake-lawyer-voice-clone"
     ],
     "financial_services": 9,
-    "individuals": 65,
+    "individuals": 66,
     "fin_by_category": {
       "Deepfake fraud": 7,
       "AI-assisted malware": 1,
@@ -46,10 +46,10 @@
     "vendors": [
       {
         "product": "OpenAI / ChatGPT",
-        "n": 45,
-        "critical_high": 33,
+        "n": 46,
+        "critical_high": 34,
         "with_cve": 0,
-        "latest": "aoki-infostealer-ai-assistant-creds"
+        "latest": "openai-chatgpt-epilepsy-death-suit"
       },
       {
         "product": "Anthropic / Claude",
@@ -95,10 +95,10 @@
       },
       {
         "product": "LiteLLM",
-        "n": 5,
-        "critical_high": 5,
+        "n": 6,
+        "critical_high": 6,
         "with_cve": 4,
-        "latest": "litellm-sqli-cve-2026-42208"
+        "latest": "litellm-1-107-0-trojanized-release"
       },
       {
         "product": "Cursor",
@@ -153,13 +153,13 @@
   },
   "this_quarter": {
     "q": "2026-Q4",
-    "n": 42,
+    "n": 47,
     "prev_q": "2026-Q3",
     "prev_n": 48
   },
   "direction": {
-    "on-ai": 80,
-    "with-ai": 122
+    "on-ai": 82,
+    "with-ai": 124
   },
   "on_ai_share_first_half": 31,
   "on_ai_share_last_half": 42,
@@ -264,17 +264,17 @@
     },
     {
       "q": "2026-Q4",
-      "n": 42,
-      "on-ai": 12,
-      "with-ai": 26,
+      "n": 47,
+      "on-ai": 14,
+      "with-ai": 28,
       "severity": {
-        "critical": 2,
-        "high": 16,
-        "medium": 23,
+        "critical": 3,
+        "high": 17,
+        "medium": 26,
         "low": 1
       },
       "autonomous": 6,
-      "real_world": 41
+      "real_world": 46
     }
   ],
   "categories": [
@@ -295,7 +295,7 @@
     },
     {
       "category": "AI-assisted malware",
-      "n": 33,
+      "n": 34,
       "by_quarter": [
         1,
         5,
@@ -304,13 +304,13 @@
         5,
         5,
         6,
-        14
+        15
       ],
-      "growth_last4_vs_prev4": 13
+      "growth_last4_vs_prev4": 14
     },
     {
       "category": "AI supply chain",
-      "n": 30,
+      "n": 31,
       "by_quarter": [
         2,
         4,
@@ -319,13 +319,13 @@
         7,
         11,
         6,
-        6
+        7
       ],
-      "growth_last4_vs_prev4": 17
+      "growth_last4_vs_prev4": 18
     },
     {
       "category": "Chatbot harm",
-      "n": 23,
+      "n": 24,
       "by_quarter": [
         0,
         4,
@@ -334,13 +334,13 @@
         6,
         4,
         0,
-        3
+        4
       ],
-      "growth_last4_vs_prev4": -13
+      "growth_last4_vs_prev4": -12
     },
     {
       "category": "Model & data leak",
-      "n": 19,
+      "n": 20,
       "by_quarter": [
         5,
         5,
@@ -349,9 +349,24 @@
         9,
         2,
         5,
-        2
+        3
       ],
-      "growth_last4_vs_prev4": -3
+      "growth_last4_vs_prev4": -2
+    },
+    {
+      "category": "State actor AI ops",
+      "n": 19,
+      "by_quarter": [
+        4,
+        1,
+        4,
+        6,
+        4,
+        3,
+        6,
+        3
+      ],
+      "growth_last4_vs_prev4": 1
     },
     {
       "category": "Agent hijack",
@@ -367,21 +382,6 @@
         5
       ],
       "growth_last4_vs_prev4": 10
-    },
-    {
-      "category": "State actor AI ops",
-      "n": 18,
-      "by_quarter": [
-        4,
-        1,
-        4,
-        6,
-        4,
-        3,
-        6,
-        2
-      ],
-      "growth_last4_vs_prev4": 0
     },
     {
       "category": "Deepfake abuse",
@@ -494,9 +494,9 @@
       "actor_type": "state",
       "by_year": {
         "2025": 4,
-        "2026": 21
+        "2026": 22
       },
-      "n": 25
+      "n": 26
     },
     {
       "actor_type": "researcher",
@@ -510,9 +510,9 @@
       "actor_type": "unknown",
       "by_year": {
         "2025": 1,
-        "2026": 56
+        "2026": 59
       },
-      "n": 57
+      "n": 60
     },
     {
       "actor_type": "autonomous-ai",
@@ -552,9 +552,9 @@
     "2026"
   ],
   "severity": {
-    "critical": 38,
-    "high": 104,
-    "medium": 83,
+    "critical": 39,
+    "high": 105,
+    "medium": 86,
     "low": 6
   },
   "critical_high_pct": 61,
@@ -588,12 +588,12 @@
         "disclosed": 0
       },
       {
-        "category": "Agent hijack",
+        "category": "State actor AI ops",
         "usd": 0,
         "disclosed": 0
       },
       {
-        "category": "State actor AI ops",
+        "category": "Agent hijack",
         "usd": 0,
         "disclosed": 0
       },
@@ -628,11 +628,11 @@
   "sectors": [
     {
       "sector": "Technology & AI vendors",
-      "n": 76
+      "n": 79
     },
     {
       "sector": "Individuals & consumers",
-      "n": 65
+      "n": 66
     },
     {
       "sector": "Multiple / cross-sector",
@@ -655,12 +655,12 @@
       "n": 9
     },
     {
-      "sector": "Defence & security",
+      "sector": "Politics & elections",
       "n": 4
     },
     {
-      "sector": "Politics & elections",
-      "n": 3
+      "sector": "Defence & security",
+      "n": 4
     },
     {
       "sector": "Energy, industrial & infrastructure",
@@ -678,11 +678,11 @@
   "countries": [
     {
       "country": "GL",
-      "n": 105
+      "n": 107
     },
     {
       "country": "US",
-      "n": 49
+      "n": 52
     },
     {
       "country": "IN",
@@ -729,15 +729,15 @@
   "status": [
     {
       "status": "under investigation",
-      "n": 78
+      "n": 81
     },
     {
       "status": "ongoing",
-      "n": 69
+      "n": 70
     },
     {
       "status": "contained",
-      "n": 32
+      "n": 33
     },
     {
       "status": "patched",
@@ -754,7 +754,7 @@
   ],
   "unresolved_pct": 67,
   "verify_median_hours": 19.8,
-  "verify_sample": 42,
+  "verify_sample": 47,
   "researcher_demos": 21,
   "pulse": [
     {
@@ -1024,8 +1024,8 @@
     {
       "day": "2026-10-30",
       "kinds": {
-        "incident": 86,
-        "vulnerability": 6,
+        "incident": 81,
+        "vulnerability": 5,
         "research": 6,
         "vendor-report": 14,
         "policy": 5,
@@ -1084,11 +1084,11 @@
     {
       "day": "2026-11-04",
       "kinds": {
-        "incident": 49,
+        "incident": 51,
         "vulnerability": 2,
         "research": 14,
         "vendor-report": 5,
-        "policy": 1,
+        "policy": 2,
         "other": 7,
         "untagged": 0
       }

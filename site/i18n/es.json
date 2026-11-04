@@ -7601,5 +7601,85 @@
       "El Servicio de Investigación de la Asamblea Nacional advierte de la dependencia de los chatbots entre los adolescentes",
       "Se informa del rezago de denuncias de la KCSC durante la auditoría parlamentaria"
     ]
+  },
+  {
+    "title": "La versión maliciosa de LiteLLM 1.107.0 en PyPI y Docker roba secretos de navegadores, de la nube y de IA",
+    "summary": "Wiz informa de que una versión maliciosa de LiteLLM 1.107.0 se subió a PyPI y Docker el 21 de octubre, con un ladrón de información para secretos de navegadores, de la nube y de IA, y un C2 inactivo.",
+    "target": "Usuarios de LiteLLM en PyPI y Docker",
+    "actor": "Desconocido",
+    "attribution": "Wiz Research informó del incidente; el resumen no nombra a ningún actor ni lo vincula con el anterior compromiso de LiteLLM.",
+    "motive": "Robo de credenciales, a juzgar por el ladrón de información; no se indica expresamente.",
+    "vector": "Versión del paquete troyanizada y publicada en PyPI y Docker, que contenía un ladrón de credenciales y una capacidad de C2 inactiva.",
+    "root_cause": "Desconocida; el resumen no explica cómo se publicó la versión maliciosa.",
+    "impact": "Las credenciales de navegadores y de servicios en la nube y de IA quedan expuestas para cualquiera que instalara esa versión; se desconoce el número de víctimas.",
+    "response": "Wiz Research publicó un aviso; el resumen no ofrece detalles de remediación.",
+    "id": "litellm-1-107-0-trojanized-release",
+    "timeline": [
+      "Reportado por Wiz Research"
+    ]
+  },
+  {
+    "title": "El grupo ruso Storm-1516 difunde un vídeo deepfake de IA que acusa al candidato de Texas Talarico",
+    "summary": "Según se informa, un grupo ruso de desinformación, identificado por PolitiFact como Storm-1516, tuvo como objetivo al candidato demócrata al Senado por Texas James Talarico con un vídeo generado por IA en el que un supuesto antiguo alumno lo acusa de mala conducta. PolitiFact calificó la afirmación de infundada.",
+    "target": "James Talarico, candidato demócrata al Senado por Texas",
+    "actor": "Storm-1516 (grupo ruso de desinformación)",
+    "attribution": "El elemento 2 atribuye una red coordinada de cuentas a Storm-1516. El elemento 3 describe la fuente como un grupo ruso de desinformación, según una verificación de datos.",
+    "motive": "Dañar a un candidato demócrata al Senado con falsas acusaciones de conducta sexual indebida antes de las elecciones.",
+    "vector": "Vídeos deepfake generados por IA difundidos por una red coordinada de cuentas en Facebook, Instagram, Pinterest, Threads, TikTok, X y YouTube.",
+    "root_cause": "La generación de vídeo con IA a bajo coste y las cuentas inauténticas coordinadas en las plataformas sociales permiten que acusaciones fabricadas se difundan ampliamente.",
+    "impact": "Acusaciones infundadas de mala conducta contra un candidato al Senado circularon ampliamente en X y otras plataformas. Los investigadores también hallaron cuentas que suplantaban a un fiscal general adjunto de EE. UU.",
+    "response": "Una verificación de datos calificó la afirmación como “Pants on Fire”. Los investigadores publicaron sus hallazgos sobre la red de cuentas.",
+    "id": "storm-1516-talarico-deepfake-video",
+    "timeline": [
+      "Reportado por AI Incident Database"
+    ]
+  },
+  {
+    "title": "Warp revela una brecha en un proveedor que expuso registros de agentes de IA y telemetría de usuarios",
+    "summary": "Warp reveló que un ataque a un proveedor externo de su infraestructura expuso registros de decisiones de agentes y datos de telemetría pertenecientes a usuarios de su entorno de desarrollo agéntico.",
+    "target": "Usuarios del entorno de desarrollo agéntico de Warp",
+    "actor": "Desconocido",
+    "attribution": "No se indica en el informe; se desconoce al atacante.",
+    "motive": "Desconocido",
+    "vector": "Compromiso de un proveedor externo de la infraestructura del proyecto de Warp.",
+    "root_cause": "Brecha en un proveedor externo de la infraestructura; no se indica la vulnerabilidad concreta.",
+    "impact": "Se expusieron registros de decisiones de agentes y datos de telemetría de usuarios. No se indica el número de usuarios afectados.",
+    "response": "Warp divulgó públicamente la brecha. No se indican otras medidas de remediación.",
+    "id": "warp-agent-logs-vendor-breach",
+    "timeline": [
+      "Reportado por BleepingComputer"
+    ]
+  },
+  {
+    "title": "Una demanda por muerte por negligencia alega que los consejos médicos de ChatGPT mataron a una mujer con epilepsia",
+    "summary": "Social Media Victims Law Center y The Schenk Law Firm alegan en una demanda por muerte por negligencia que los consejos médicos de ChatGPT provocaron la muerte de una mujer con epilepsia. Las acusaciones no están probadas.",
+    "target": "Mujer con epilepsia que usó ChatGPT para obtener consejos médicos",
+    "actor": "OpenAI (ChatGPT)",
+    "attribution": "Alegado por los abogados de los demandantes (Social Media Victims Law Center, The Schenk Law Firm) en un comunicado de Business Wire; no se informa de ninguna resolución judicial.",
+    "motive": "Desconocido",
+    "vector": "Presunta confianza en los consejos médicos de ChatGPT sobre la epilepsia de la mujer, según los demandantes.",
+    "root_cause": "Los demandantes alegan que ChatGPT dio consejos médicos perjudiciales; no hay conclusiones judiciales sobre la causa.",
+    "impact": "Muerte de una mujer con epilepsia, según alegan los abogados de los demandantes en la demanda.",
+    "response": "Social Media Victims Law Center y The Schenk Law Firm presentaron una demanda por muerte por negligencia contra OpenAI. No se indica la respuesta de OpenAI.",
+    "id": "openai-chatgpt-epilepsy-death-suit",
+    "timeline": [
+      "Reportado por Business Wire"
+    ]
+  },
+  {
+    "title": "Vulneración de la aplicación interna de ventas de WorkOS mediante un framework ofensivo asistido por IA",
+    "summary": "WorkOS informó de un acceso no autorizado a una aplicación interna de ventas el 30 de octubre de 2026. Según se informa, su investigación concluyó que los atacantes utilizaron un framework de seguridad ofensiva asistido por IA para automatizar el reconocimiento y la explotación. Según se informa, se accedió a datos de clientes.",
+    "target": "Aplicación interna de ventas de WorkOS",
+    "actor": "Desconocido",
+    "attribution": "No se atribuye en el texto disponible. La investigación de WorkOS concluyó que se utilizó un framework de seguridad ofensiva asistido por IA.",
+    "motive": "Desconocido",
+    "vector": "Framework de seguridad ofensiva asistido por IA que automatiza el reconocimiento y la explotación contra una aplicación interna de ventas.",
+    "root_cause": "Desconocida. El texto no indica qué debilidad se explotó.",
+    "impact": "Acceso no autorizado a una aplicación interna de ventas. La investigación en curso sugiere que se vieron afectados datos de clientes, pero el texto no indica el alcance.",
+    "response": "WorkOS notificó el incidente y su investigación sigue en curso.",
+    "id": "workos-ai-framework-breach",
+    "timeline": [
+      "Informado por GBHackers"
+    ]
   }
 ]

@@ -7601,5 +7601,85 @@
       "韩国国会研究处（National Assembly Research Service）警告青少年对聊天机器人存在依赖",
       "议会审计期间披露 KCSC 投诉积压情况"
     ]
+  },
+  {
+    "title": "PyPI 与 Docker 上的恶意 LiteLLM 1.107.0 窃取浏览器、云和 AI 密钥",
+    "summary": "Wiz 报告称，10 月 21 日有恶意的 LiteLLM 1.107.0 被上传至 PyPI 和 Docker，其中带有可窃取浏览器、云和 AI 密钥的窃密程序以及处于休眠状态的 C2。",
+    "target": "PyPI 和 Docker 上的 LiteLLM 用户",
+    "actor": "未知",
+    "attribution": "该事件由 Wiz Research 报告；摘要未指明攻击者，也未将其与此前的 LiteLLM 入侵事件关联。",
+    "motive": "从窃密程序来看，目的可能是窃取凭据；报告未明确说明。",
+    "vector": "被植入木马的软件包版本发布到 PyPI 和 Docker，内含凭据窃取程序和处于休眠状态的 C2 功能。",
+    "root_cause": "未知；摘要未说明恶意版本是如何被发布的。",
+    "impact": "安装了该版本的用户，其浏览器、云服务和 AI 服务的凭据会暴露给攻击者；受害者数量未知。",
+    "response": "Wiz Research 发布了安全通告；摘要未给出修复细节。",
+    "id": "litellm-1-107-0-trojanized-release",
+    "timeline": [
+      "由 Wiz Research 报告"
+    ]
+  },
+  {
+    "title": "俄罗斯组织 Storm-1516 散布 AI 深度伪造视频，指控得克萨斯州候选人 Talarico",
+    "summary": "据报道，PolitiFact 认定的俄罗斯虚假信息组织 Storm-1516 针对得克萨斯州民主党联邦参议员候选人 James Talarico，散布了一段 AI 生成的视频，视频中一名所谓的前学生指控他行为不端。PolitiFact 将该说法评定为毫无依据。",
+    "target": "James Talarico，得克萨斯州民主党联邦参议员候选人",
+    "actor": "Storm-1516（俄罗斯虚假信息组织）",
+    "attribution": "第 2 项将一个协同账号网络归因于 Storm-1516。第 3 项根据一项事实核查，称消息来源为俄罗斯虚假信息组织。",
+    "motive": "在选举前以虚假的性侵犯指控抹黑一名民主党联邦参议员候选人。",
+    "vector": "由 Facebook、Instagram、Pinterest、Threads、TikTok、X 和 YouTube 上的协同账号网络传播 AI 生成的深度伪造视频。",
+    "root_cause": "低成本的 AI 视频生成技术，加上社交平台上协同运作的虚假账号，使捏造的指控得以广泛传播。",
+    "impact": "关于一名联邦参议员候选人的毫无依据的不端行为指控在 X 等平台上广泛流传。研究人员还发现了冒充美国助理司法部长的账号。",
+    "response": "一项事实核查将该说法评定为 Pants on Fire。研究人员发布了对该账号网络的调查结果。",
+    "id": "storm-1516-talarico-deepfake-video",
+    "timeline": [
+      "由 AI Incident Database 报告"
+    ]
+  },
+  {
+    "title": "Warp 披露供应商遭入侵，AI 智能体日志和用户遥测数据暴露",
+    "summary": "Warp 披露，其基础设施中的一家第三方供应商遭到攻击，导致其智能体开发环境用户的智能体决策日志和遥测数据暴露。",
+    "target": "Warp 智能体开发环境用户",
+    "actor": "未知",
+    "attribution": "报告未说明；攻击者未知。",
+    "motive": "未知",
+    "vector": "Warp 项目基础设施中的一家第三方供应商被攻陷。",
+    "root_cause": "基础设施中的第三方供应商遭到入侵；具体缺陷未说明。",
+    "impact": "智能体决策日志和用户遥测数据暴露。受影响用户数量未说明。",
+    "response": "Warp 公开披露了此次入侵。其他补救措施未说明。",
+    "id": "warp-agent-logs-vendor-breach",
+    "timeline": [
+      "由 BleepingComputer 报告"
+    ]
+  },
+  {
+    "title": "过失致死诉讼称 ChatGPT 的医疗建议导致一名癫痫女性死亡",
+    "summary": "Social Media Victims Law Center 和 The Schenk Law Firm 在一起过失致死诉讼中称，ChatGPT 提供的医疗建议导致一名癫痫女性死亡。上述指控尚未得到证实。",
+    "target": "向 ChatGPT 咨询医疗建议的癫痫女性",
+    "actor": "OpenAI（ChatGPT）",
+    "attribution": "由原告律师（Social Media Victims Law Center、The Schenk Law Firm）在 Business Wire 发布的新闻稿中指控；暂无法院裁决的报道。",
+    "motive": "未知",
+    "vector": "据原告称，该女性依赖 ChatGPT 提供的有关其癫痫的医疗建议。",
+    "root_cause": "原告称 ChatGPT 给出了有害的医疗建议；法院尚未就原因作出认定。",
+    "impact": "据原告律师在诉讼中指控，一名癫痫女性死亡。",
+    "response": "Social Media Victims Law Center 和 The Schenk Law Firm 已对 OpenAI 提起过失致死诉讼。OpenAI 的回应未说明。",
+    "id": "openai-chatgpt-epilepsy-death-suit",
+    "timeline": [
+      "由 Business Wire 报告"
+    ]
+  },
+  {
+    "title": "WorkOS 内部销售应用遭 AI 辅助攻击性框架入侵",
+    "summary": "WorkOS 报告称，其内部销售应用于 2026 年 10 月 30 日遭到未经授权的访问。据报道，其调查发现攻击者使用了 AI 辅助的攻击性安全框架来自动化侦察和利用。据报道，客户数据已被访问。",
+    "target": "WorkOS 内部销售应用",
+    "actor": "未知",
+    "attribution": "现有文本中未将此事归因于任何组织。WorkOS 的调查发现攻击者使用了 AI 辅助的攻击性安全框架。",
+    "motive": "未知",
+    "vector": "AI 辅助的攻击性安全框架针对内部销售应用自动化执行侦察和利用。",
+    "root_cause": "未知。文本未说明被利用的是哪一处弱点。",
+    "impact": "内部销售应用遭到未经授权的访问。正在进行的调查表明客户数据受到影响，但文本未说明影响范围。",
+    "response": "WorkOS 已报告该事件，调查仍在进行中。",
+    "id": "workos-ai-framework-breach",
+    "timeline": [
+      "GBHackers 报道"
+    ]
   }
 ]
