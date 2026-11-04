@@ -8353,5 +8353,53 @@
     "timeline": [
       "据 The Register 报道"
     ]
+  },
+  {
+    "title": "Volta-Autodoxer 信息窃取木马利用 AI 对受害者进行“autodox”",
+    "summary": "思科（Cisco）Talos 详细分析了 Volta-Autodoxer，这是一款最早由 WIRED 报道的 Windows 信息窃取木马。它窃取登录凭据、Cookie、支付卡、加密货币钱包、Discord 会话以及 UberEats 等订单收据，随后将数据发送给 AI 模型（默认使用 Claude，备用 Kimi K2 和 Gemini），以生成受害者档案并对受害者的资产进行排序。Talos 尚未在真实攻击中观察到该木马。",
+    "target": "个人用户的凭据、支付和账户数据",
+    "actor": "未知",
+    "attribution": "摘要中未给出归因。",
+    "motive": "窃取数据并对受害者进行画像；其他动机未知。",
+    "vector": "利用 AI 工具收集和处理受害者数据的信息窃取恶意软件。投递方式未知。",
+    "root_cause": "未知",
+    "impact": "登录凭据、信用卡号、Discord 会话和外卖订单收据被收集。受害者数量未知。",
+    "response": "该恶意软件近期被研究人员发现并披露。未说明其他响应措施。",
+    "id": "volta-autodoxer-infostealer",
+    "timeline": [
+      "WIRED Security 报道"
+    ]
+  },
+  {
+    "title": "Jancovici 指控有人利用疑似 AI 克隆的声音，向法国居民电话推销太阳能板和保温隔热工程",
+    "summary": "Jean-Marc Jancovici 称，有人利用 AI 模仿他的声音拨打未经请求的商业电话，推销太阳能板和保温隔热工程。他说自己已收到约十份证词，这些电话均与他无关，并提醒人们不要透露个人信息或银行信息。M6 Info 拍摄的一段通话视频于 10 月 30 日流传。来电者和所用工具尚未查明，也没有损失报告。",
+    "target": "接到电话的法国居民；Jean-Marc Jancovici（声音疑似被模仿）",
+    "actor": "未知",
+    "attribution": "未知；标题中未指明作案者。据 menow.fr 报道，Jancovici 对该骗局进行了公开指控。",
+    "motive": "疑似通过向法国人兜售推销以实施诈骗；详情未知。",
+    "vector": "利用 AI 模仿知名公众人物的声音，向受害者发起未经请求的联系。",
+    "root_cause": "未知；该公众人物的声音疑似被 AI 克隆。",
+    "impact": "被推销电话骚扰的法国人数量未知；标题中未报告损失。",
+    "response": "Jancovici 公开指控该骗局；未报告其他响应措施。",
+    "id": "jancovici-ai-voice-clone-scam",
+    "timeline": [
+      "www.menow.fr 报道"
+    ]
+  },
+  {
+    "title": "CyberStrikeAI 框架在针对教育机构的攻击中实现后渗透自动化",
+    "summary": "卡巴斯基（Kaspersky）分析了 9 月至 10 月间针对多个非洲和拉丁美洲国家教育机构的入侵活动。攻击者通过一台被攻陷的 SQL Server 入侵，随后使用开源的 CyberStrikeAI 框架，该框架由服务器端的 LLM 规划并生成植入体执行的命令。在一起案例中，代理部署后三到四天内即获得域管理员权限。卡巴斯基未将该活动与已知组织关联，但指出操作者为讲中文者。",
+    "target": "非洲和拉丁美洲的教育机构",
+    "actor": "未归因；据卡巴斯基的指标判断，操作者为讲中文者",
+    "attribution": "来自 Kaspersky Securelist 的分析；摘要中未点名攻击者。",
+    "motive": "未知",
+    "vector": "CyberStrikeAI 渗透测试框架，用于自动化后渗透阶段。",
+    "root_cause": "一款合法的 AI 驱动渗透测试框架被用于真实攻击；初始访问是如何获得的，未知。",
+    "impact": "多家教育机构遭到攻击；受害者数量和受影响的数据未知。",
+    "response": "卡巴斯基发布了分析报告；未报告受害方的响应措施。",
+    "id": "cyberstrikeai-attacks-edu-institutions",
+    "timeline": [
+      "Kaspersky Securelist 报道"
+    ]
   }
 ]

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-04T22:45:01Z",
-  "total": 277,
-  "all_time_total": 480,
+  "generated_at": "2026-11-04T23:16:12Z",
+  "total": 280,
+  "all_time_total": 483,
   "window_from": "2025-11-04",
   "window_to": "2026-11-04",
   "trend_from": "2025-01-01",
@@ -20,7 +20,7 @@
       "sao-paulo-fake-lawyer-voice-clone"
     ],
     "financial_services": 9,
-    "individuals": 83,
+    "individuals": 85,
     "fin_by_category": {
       "Deepfake fraud": 7,
       "AI-assisted malware": 1,
@@ -53,17 +53,17 @@
       },
       {
         "product": "Anthropic / Claude",
-        "n": 34,
+        "n": 35,
         "critical_high": 25,
         "with_cve": 2,
-        "latest": "123-reg-ai-cyberattack-customer-data"
+        "latest": "volta-autodoxer-infostealer"
       },
       {
         "product": "Google Gemini",
-        "n": 17,
+        "n": 18,
         "critical_high": 6,
         "with_cve": 0,
-        "latest": "wiz-llmjacking-cloud-billing-ads"
+        "latest": "volta-autodoxer-infostealer"
       },
       {
         "product": "MCP servers",
@@ -153,13 +153,13 @@
   },
   "this_quarter": {
     "q": "2026-Q4",
-    "n": 82,
+    "n": 85,
     "prev_q": "2026-Q3",
     "prev_n": 51
   },
   "direction": {
     "on-ai": 88,
-    "with-ai": 157
+    "with-ai": 160
   },
   "on_ai_share_first_half": 31,
   "on_ai_share_last_half": 41,
@@ -264,23 +264,23 @@
     },
     {
       "q": "2026-Q4",
-      "n": 82,
+      "n": 85,
       "on-ai": 20,
-      "with-ai": 57,
+      "with-ai": 60,
       "severity": {
         "critical": 3,
         "high": 30,
-        "medium": 43,
+        "medium": 46,
         "low": 6
       },
       "autonomous": 6,
-      "real_world": 81
+      "real_world": 84
     }
   ],
   "categories": [
     {
       "category": "Deepfake fraud",
-      "n": 55,
+      "n": 56,
       "by_quarter": [
         13,
         9,
@@ -289,13 +289,13 @@
         10,
         12,
         12,
-        14
+        15
       ],
-      "growth_last4_vs_prev4": -2
+      "growth_last4_vs_prev4": -1
     },
     {
       "category": "AI-assisted malware",
-      "n": 43,
+      "n": 45,
       "by_quarter": [
         1,
         5,
@@ -304,9 +304,9 @@
         5,
         5,
         6,
-        24
+        26
       ],
-      "growth_last4_vs_prev4": 23
+      "growth_last4_vs_prev4": 25
     },
     {
       "category": "AI supply chain",
@@ -476,7 +476,7 @@
   ],
   "rising_category": "AI-assisted malware",
   "top_category": "Deepfake fraud",
-  "top_category_n": 55,
+  "top_category_n": 56,
   "autonomous": {
     "by_year": {
       "2025": 1,
@@ -525,9 +525,9 @@
       "actor_type": "unknown",
       "by_year": {
         "2025": 1,
-        "2026": 73
+        "2026": 76
       },
-      "n": 74
+      "n": 77
     },
     {
       "actor_type": "autonomous-ai",
@@ -569,7 +569,7 @@
   "severity": {
     "critical": 40,
     "high": 119,
-    "medium": 106,
+    "medium": 109,
     "low": 12
   },
   "critical_high_pct": 57,
@@ -652,7 +652,7 @@
     },
     {
       "sector": "Individuals & consumers",
-      "n": 83
+      "n": 85
     },
     {
       "sector": "Multiple / cross-sector",
@@ -660,7 +660,7 @@
     },
     {
       "sector": "Education & research",
-      "n": 22
+      "n": 23
     },
     {
       "sector": "Unknown",
@@ -702,7 +702,7 @@
   "countries": [
     {
       "country": "GL",
-      "n": 117
+      "n": 119
     },
     {
       "country": "US",
@@ -726,7 +726,7 @@
     },
     {
       "country": "FR",
-      "n": 4
+      "n": 5
     },
     {
       "country": "CN",
@@ -749,11 +749,11 @@
       "n": 3
     }
   ],
-  "global_pct": 42,
+  "global_pct": 43,
   "status": [
     {
       "status": "under investigation",
-      "n": 101
+      "n": 103
     },
     {
       "status": "ongoing",
@@ -800,6 +800,10 @@
       "n": 1
     },
     {
+      "status": "alleged; operator unidentified",
+      "n": 1
+    },
+    {
       "status": "prosecuted; ring members sentenced to up to 11 years",
       "n": 1
     },
@@ -821,8 +825,8 @@
     }
   ],
   "unresolved_pct": 67,
-  "verify_median_hours": 25.0,
-  "verify_sample": 88,
+  "verify_median_hours": 30.0,
+  "verify_sample": 91,
   "researcher_demos": 21,
   "pulse": [
     {

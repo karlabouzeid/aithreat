@@ -8353,5 +8353,53 @@
     "timeline": [
       "Signalé par The Register"
     ]
+  },
+  {
+    "title": "L'infostealer Volta-Autodoxer utilise l'IA pour « autodoxer » ses victimes",
+    "summary": "Cisco Talos a détaillé Volta-Autodoxer, un infostealer Windows signalé en premier par WIRED. Il dérobe identifiants de connexion, cookies, cartes de paiement, portefeuilles de cryptomonnaies, sessions Discord et reçus de commande tels que ceux d'UberEats. Il transmet ensuite les données à des modèles d'IA (Claude par défaut, avec Kimi K2 et Gemini en solutions de repli) afin de constituer un dossier sur la victime et de hiérarchiser ses actifs. Talos ne l'a pas observé dans des attaques réelles.",
+    "target": "Identifiants, données de paiement et données de compte d'utilisateurs individuels",
+    "actor": "Inconnu",
+    "attribution": "Aucune attribution n'est indiquée dans le résumé.",
+    "motive": "Vol de données et profilage des victimes ; autre motivation inconnue.",
+    "vector": "Logiciel malveillant de type infostealer qui recourt à des outils d'IA pour collecter et traiter les données des victimes. Mode de diffusion inconnu.",
+    "root_cause": "Inconnue",
+    "impact": "Des identifiants, numéros de carte bancaire, sessions Discord et reçus de livraison de repas sont collectés. Nombre de victimes inconnu.",
+    "response": "Malware récemment mis au jour et signalé par des chercheurs. Aucune autre réponse n'est mentionnée.",
+    "id": "volta-autodoxer-infostealer",
+    "timeline": [
+      "Signalé par WIRED Security"
+    ]
+  },
+  {
+    "title": "Jancovici dénonce une prétendue voix clonée par IA utilisée dans des appels de démarchage vendant des panneaux solaires et de l'isolation à des résidents français",
+    "summary": "Jean-Marc Jancovici affirme qu'une imitation de sa voix par IA est utilisée dans des appels commerciaux non sollicités proposant des panneaux solaires et des travaux d'isolation. Il dit avoir reçu une dizaine de témoignages et n'être à l'origine d'aucun de ces appels, et met en garde contre la communication de données personnelles ou bancaires. Un extrait de M6 Info montrant l'un des appels a circulé le 30 octobre. L'auteur des appels et l'outil employé n'ont pas été établis, et aucune perte n'est signalée.",
+    "target": "Résidents français recevant les appels ; Jean-Marc Jancovici (dont la voix serait imitée)",
+    "actor": "Inconnu",
+    "attribution": "Inconnue ; les auteurs ne sont pas identifiés dans le titre. Jancovici a dénoncé l'escroquerie, selon menow.fr.",
+    "motive": "Apparemment la fraude, par le démarchage de Français ; détails inconnus.",
+    "vector": "Imitation vocale par IA d'une personnalité publique connue, utilisée pour contacter des victimes sans sollicitation.",
+    "root_cause": "Inconnue ; la voix de la personnalité publique aurait apparemment été clonée par IA.",
+    "impact": "Nombre de Français démarchés inconnu ; aucune perte signalée dans le titre.",
+    "response": "Jancovici a publiquement dénoncé l'escroquerie ; aucune autre réponse signalée.",
+    "id": "jancovici-ai-voice-clone-scam",
+    "timeline": [
+      "Signalé par www.menow.fr"
+    ]
+  },
+  {
+    "title": "Le framework CyberStrikeAI automatise la post-exploitation dans des attaques contre des établissements d'enseignement",
+    "summary": "Kaspersky a analysé des intrusions survenues entre septembre et octobre contre des établissements d'enseignement dans plusieurs pays d'Afrique et d'Amérique latine. Les attaquants se sont introduits via un SQL Server compromis, puis ont utilisé le framework open source CyberStrikeAI, dont le LLM côté serveur planifie et génère les commandes que l'implant exécute. Dans un cas, les droits d'administrateur de domaine ont été obtenus trois à quatre jours après le déploiement de l'agent. Kaspersky n'a pas rattaché l'activité à un groupe connu mais évoque un opérateur sinophone.",
+    "target": "Établissements d'enseignement en Afrique et en Amérique latine",
+    "actor": "Non attribué ; opérateur sinophone d'après les indicateurs de Kaspersky",
+    "attribution": "Analyse de Kaspersky Securelist ; l'attaquant n'est pas nommé dans le résumé.",
+    "motive": "Inconnu",
+    "vector": "Framework de test d'intrusion CyberStrikeAI automatisant la phase de post-exploitation.",
+    "root_cause": "Un framework de pentest légitime piloté par IA a été utilisé dans des attaques réelles ; la manière dont l'accès initial a été obtenu est inconnue.",
+    "impact": "Plusieurs établissements d'enseignement ont été attaqués ; le nombre de victimes et les données touchées sont inconnus.",
+    "response": "Kaspersky a publié son analyse ; aucune réponse des victimes n'est signalée.",
+    "id": "cyberstrikeai-attacks-edu-institutions",
+    "timeline": [
+      "Signalé par Kaspersky Securelist"
+    ]
   }
 ]

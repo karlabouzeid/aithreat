@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T22:45:01Z",
+  "generated_at": "2026-11-04T23:16:12Z",
   "licence": "CC BY 4.0",
   "sources": [
     {
@@ -440,8 +440,8 @@
       "claim": "AI could lower the barrier to entry for cyberattacks and increase their scale, speed and success, including against the infrastructure societies depend on.",
       "status": "observed",
       "note": "The best-documented prediction in the registry: novices building ransomware with chatbots, malware that asks a model what to do next, state groups using AI at every stage of an attack, and AI-written scripts probing industrial controllers.",
-      "n": 100,
-      "real_world": 99,
+      "n": 102,
+      "real_world": 101,
       "first_real_world": "2025-01-10",
       "months_after_publication": 19,
       "url": "https://aithreat.io/research/cyberattack-barrier/",
@@ -449,6 +449,8 @@
         "3am-ransomware-ai-uk-school",
         "chainstack-ai-campaign-breach",
         "gitbook-ai-agent-attack",
+        "cyberstrikeai-attacks-edu-institutions",
+        "volta-autodoxer-infostealer",
         "workos-ai-framework-breach",
         "123-reg-ai-cyberattack-customer-data",
         "korea-genai-hacking-8m-records-arrest",
@@ -1008,8 +1010,8 @@
       "claim": "Realistic AI-generated voices, images and video are used for fraud, extortion and sexual imagery made without consent, and cheap tools have made such content easy to produce at scale.",
       "status": "observed",
       "note": "The largest category in the registry: cloned voices and deepfake video calls impersonating executives, officials and relatives, and deepfake celebrity ads behind investment scams. The report adds that victims often do not report, so public cases undercount the harm.",
-      "n": 95,
-      "real_world": 95,
+      "n": 96,
+      "real_world": 96,
       "first_real_world": "2025-01-05",
       "months_after_publication": -13,
       "url": "https://aithreat.io/research/iasr-synthetic-content/",
@@ -1017,6 +1019,7 @@
         "priangarye-governor-deepfake-26m",
         "tarn-restaurants-ai-fake-refund",
         "cctv-ai-fiancee-romance-scam",
+        "jancovici-ai-voice-clone-scam",
         "dubai-cafe-ai-photo-refund-claim",
         "bon-jovi-impersonator-ai-video-scam",
         "sps-ai-fake-payment-receipts-phones",
@@ -1175,8 +1178,8 @@
       "claim": "There is strong evidence that criminal groups and state-backed attackers use AI in their operations, especially to find software flaws and write malicious code, though it is not yet clear whether AI has made attacks larger or more damaging overall.",
       "status": "observed",
       "note": "Matches the registry closely: AI-written ransomware and stealers, malware that asks a model what to do while it runs, and state groups using chatbots for reconnaissance, phishing and exploit work. Like the report, the case files show use, not overall effect.",
-      "n": 100,
-      "real_world": 99,
+      "n": 102,
+      "real_world": 101,
       "first_real_world": "2025-01-10",
       "months_after_publication": -13,
       "url": "https://aithreat.io/research/iasr-cyber-use/",
@@ -1184,6 +1187,8 @@
         "3am-ransomware-ai-uk-school",
         "chainstack-ai-campaign-breach",
         "gitbook-ai-agent-attack",
+        "cyberstrikeai-attacks-edu-institutions",
+        "volta-autodoxer-infostealer",
         "workos-ai-framework-breach",
         "123-reg-ai-cyberattack-customer-data",
         "korea-genai-hacking-8m-records-arrest",
@@ -2404,8 +2409,8 @@
       "claim": "People using AI for disinformation, surveillance and propaganda at scale; for cyberattacks and weapons; and for fraud, scams and targeted manipulation.",
       "status": "observed",
       "note": "The other pillar of the registry: deepfake fraud, AI-built malware, AI phishing and state operations.",
-      "n": 209,
-      "real_world": 208,
+      "n": 212,
+      "real_world": 211,
       "first_real_world": "2025-01-05",
       "months_after_publication": null,
       "url": "https://aithreat.io/research/mit-malicious-actors/",
@@ -2416,6 +2421,9 @@
         "priangarye-governor-deepfake-26m",
         "tarn-restaurants-ai-fake-refund",
         "cctv-ai-fiancee-romance-scam",
+        "cyberstrikeai-attacks-edu-institutions",
+        "jancovici-ai-voice-clone-scam",
+        "volta-autodoxer-infostealer",
         "workos-ai-framework-breach",
         "123-reg-ai-cyberattack-customer-data",
         "dubai-cafe-ai-photo-refund-claim",
@@ -2807,7 +2815,7 @@
     {
       "source": "cais-2023",
       "claims": 17,
-      "matched_cases": 193,
+      "matched_cases": 195,
       "matched_pct": 40,
       "status_counts": {
         "observed": 7,
@@ -2820,7 +2828,7 @@
     {
       "source": "iasr-2026",
       "claims": 11,
-      "matched_cases": 345,
+      "matched_cases": 348,
       "matched_pct": 72,
       "status_counts": {
         "observed": 5,
@@ -2885,7 +2893,7 @@
     {
       "source": "mit-risk-repository",
       "claims": 7,
-      "matched_cases": 417,
+      "matched_cases": 420,
       "matched_pct": 87,
       "status_counts": {
         "observed": 4,
@@ -2903,9 +2911,9 @@
     "none": 4,
     "outside": 7
   },
-  "matched_cases": 418,
-  "total_cases": 480,
-  "warning_matched_cases": 376,
+  "matched_cases": 421,
+  "total_cases": 483,
+  "warning_matched_cases": 379,
   "unmatched_pct": 22,
   "unmatched_by_category": [
     {
@@ -2946,12 +2954,12 @@
     {
       "category": "Deepfake fraud",
       "unmatched": 0,
-      "total": 98
+      "total": 99
     },
     {
       "category": "AI-assisted malware",
       "unmatched": 0,
-      "total": 57
+      "total": 59
     },
     {
       "category": "AI supply chain",

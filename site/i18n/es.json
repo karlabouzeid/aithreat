@@ -8353,5 +8353,53 @@
     "timeline": [
       "Publicado por The Register"
     ]
+  },
+  {
+    "title": "El infostealer Volta-Autodoxer utiliza IA para hacer “autodoxing” a sus víctimas",
+    "summary": "Cisco Talos detalló Volta-Autodoxer, un infostealer para Windows revelado por primera vez por WIRED. Roba credenciales de acceso, cookies, tarjetas de pago, monederos de criptomonedas, sesiones de Discord y recibos de pedidos como los de UberEats. Después envía los datos a modelos de IA (Claude por defecto, con Kimi K2 y Gemini como alternativas) para elaborar un dosier de la víctima y clasificar sus activos por orden de importancia. Talos no lo ha observado en ataques reales.",
+    "target": "Credenciales y datos de pago y de cuentas de usuarios particulares",
+    "actor": "Desconocido",
+    "attribution": "El resumen no indica ninguna atribución.",
+    "motive": "Robo de datos y elaboración de perfiles de las víctimas; cualquier otro motivo es desconocido.",
+    "vector": "Malware de tipo infostealer que utiliza herramientas de IA para recopilar y procesar los datos de las víctimas. Método de distribución desconocido.",
+    "root_cause": "Desconocida",
+    "impact": "Se recopilan credenciales, números de tarjetas de crédito, sesiones de Discord y recibos de servicios de comida a domicilio. Número de víctimas desconocido.",
+    "response": "Malware descubierto y comunicado recientemente por investigadores. No se indica ninguna otra respuesta.",
+    "id": "volta-autodoxer-infostealer",
+    "timeline": [
+      "Publicado por WIRED Security"
+    ]
+  },
+  {
+    "title": "Jancovici denuncia el supuesto uso de una voz clonada con IA en llamadas no solicitadas para vender paneles solares y aislamiento a residentes en Francia",
+    "summary": "Jean-Marc Jancovici afirma que se está utilizando una imitación de su voz creada con IA en llamadas comerciales no solicitadas que ofrecen paneles solares y obras de aislamiento. Asegura que ha recibido unos diez testimonios y que no está detrás de ninguna de las llamadas, y advierte de que no se faciliten datos personales ni bancarios. El 30 de octubre circuló un clip de M6 Info con una de las llamadas. No se ha identificado a quien llama ni la herramienta utilizada, y no se han notificado pérdidas.",
+    "target": "Residentes en Francia que reciben las llamadas; Jean-Marc Jancovici (cuya voz habría sido imitada)",
+    "actor": "Desconocido",
+    "attribution": "Desconocida; el titular no identifica a los responsables. Jancovici denunció la estafa, según menow.fr.",
+    "motive": "Aparentemente fraude mediante la captación de clientes entre la población francesa; detalles desconocidos.",
+    "vector": "Imitación con IA de la voz de una figura pública conocida, utilizada en contactos no solicitados con las víctimas.",
+    "root_cause": "Desconocida; la voz de la figura pública habría sido clonada aparentemente con IA.",
+    "impact": "Número desconocido de ciudadanos franceses contactados; el titular no menciona pérdidas.",
+    "response": "Jancovici denunció públicamente la estafa; no se informa de ninguna otra respuesta.",
+    "id": "jancovici-ai-voice-clone-scam",
+    "timeline": [
+      "Publicado por www.menow.fr"
+    ]
+  },
+  {
+    "title": "El framework CyberStrikeAI automatiza la posexplotación en ataques contra instituciones educativas",
+    "summary": "Kaspersky analizó intrusiones ocurridas entre septiembre y octubre contra instituciones educativas de varios países de África y América Latina. Los atacantes accedieron a través de un SQL Server comprometido y después utilizaron el framework de código abierto CyberStrikeAI, cuyo LLM en el servidor planifica y genera los comandos que ejecuta el implante. En un caso, se obtuvo el control de administrador de dominio en un plazo de tres a cuatro días desde el despliegue del agente. Kaspersky no vinculó la actividad con un grupo conocido, pero apunta a un operador de habla china.",
+    "target": "Instituciones educativas de África y América Latina",
+    "actor": "Sin atribuir; operador de habla china según los indicadores de Kaspersky",
+    "attribution": "Análisis de Kaspersky Securelist; el resumen no nombra al atacante.",
+    "motive": "Desconocido",
+    "vector": "Framework de pruebas de penetración CyberStrikeAI, que automatiza la fase de posexplotación.",
+    "root_cause": "Se utilizó en ataques reales un framework legítimo de pentesting basado en IA; se desconoce cómo se obtuvo el acceso inicial.",
+    "impact": "Varias instituciones educativas fueron atacadas; se desconocen el número de víctimas y los datos afectados.",
+    "response": "Kaspersky publicó su análisis; no se informa de ninguna respuesta por parte de las víctimas.",
+    "id": "cyberstrikeai-attacks-edu-institutions",
+    "timeline": [
+      "Publicado por Kaspersky Securelist"
+    ]
   }
 ]

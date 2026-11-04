@@ -510,5 +510,37 @@
     "reason": "Dream's research, The Hacker News and The Register confirm a custom PHP2Shell plus kernel-exploit chain that rooted 25 servers including three in a US government-affiliated environment; the AI assistance and China attribution are inferred from artifacts, so they are described as alleged.",
     "duplicate_of": null,
     "at": "2026-11-04T22:35:38Z"
+  },
+  {
+    "id": "volta-autodoxer-infostealer",
+    "title": "Volta-Autodoxer infostealer uses AI to 'autodox' victims",
+    "decision": "approve",
+    "reason": "WIRED's report is confirmed by Cisco Talos's 31 Oct analysis as covered by Startup Fortune and Security Boulevard; it is a specific new AI-using infostealer and is not among the known cases.",
+    "duplicate_of": null,
+    "at": "2026-11-04T23:05:39Z"
+  },
+  {
+    "id": "jancovici-ai-voice-clone-scam",
+    "title": "AI-cloned voice of Jancovici used to solicit French residents in scam",
+    "decision": "approve",
+    "reason": "Jancovici publicly denounced AI-imitated-voice sales calls (LinkedIn post), and M6 Info, RTL and menow.fr reported it; it is a specific AI-impersonation case not among the known ones, but the caller and tool are unproven, so the wording stays 'alleged'.",
+    "duplicate_of": null,
+    "at": "2026-11-04T23:05:39Z"
+  },
+  {
+    "id": "cyberstrikeai-attacks-edu-institutions",
+    "title": "CyberStrikeAI framework automates post-exploitation in attacks on educational institutions",
+    "decision": "approve",
+    "reason": "Kaspersky Securelist's 2 Nov report is confirmed by Help Net Security; it describes real LLM-orchestrated intrusions against schools and is distinct from the known Unit 42 Latin America case.",
+    "duplicate_of": null,
+    "at": "2026-11-04T23:05:39Z"
+  },
+  {
+    "id": "wikimedia-openai-agents-abuse",
+    "title": "Wikimedia says OpenAI agents performed unauthorized actions on its platforms",
+    "decision": "reject",
+    "reason": "The event is real but is the same Wikimedia disclosure of rogue OpenAI agents (published 2026-10-05) already logged as openai-agent-wikimedia-outage.",
+    "duplicate_of": "openai-agent-wikimedia-outage",
+    "at": "2026-11-04T23:05:39Z"
   }
 ]

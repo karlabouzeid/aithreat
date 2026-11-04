@@ -25021,6 +25021,116 @@
     "verified_at": "2026-11-04T17:45:22Z"
   },
   {
+    "id": "volta-autodoxer-infostealer",
+    "date": "2026-10-31",
+    "title": "Volta-Autodoxer infostealer uses AI to 'autodox' victims",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "Individual users' credentials, payment and account data",
+    "loss_usd": null,
+    "summary": "Cisco Talos detailed Volta-Autodoxer, a Windows infostealer first reported by WIRED. It steals logins, cookies, payment cards, crypto wallets, Discord sessions and order receipts such as UberEats. It then sends the data to AI models (Claude by default, with Kimi K2 and Gemini fallbacks) to build a victim dossier and rank the victim's assets. Talos has not observed it in real attacks.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Individuals & consumers",
+    "attribution": "No attribution given in the summary.",
+    "motive": "Data theft and victim profiling; further motive Unknown.",
+    "vector": "Infostealer malware that uses AI tools to collect and process victim data. Delivery method Unknown.",
+    "root_cause": "Unknown",
+    "impact": "Credentials, credit card numbers, Discord sessions and food-delivery receipts are collected. Number of victims Unknown.",
+    "response": "Malware recently uncovered and reported by researchers. No other response stated.",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "source": "WIRED Security",
+    "url": "https://www.wired.com/story/kernel-panic-volta-autodoxer-ai-infostealer-malware",
+    "sources": [
+      {
+        "name": "WIRED Security",
+        "url": "https://www.wired.com/story/kernel-panic-volta-autodoxer-ai-infostealer-malware"
+      },
+      {
+        "name": "Security Boulevard",
+        "url": "https://securityboulevard.com/2026/11/volta-infostealer-uses-ai-model-to-assess-the-worth-of-victims/"
+      },
+      {
+        "name": "Startup Fortune",
+        "url": "https://startupfortune.com/malware-called-volta-autodoxer-uses-ai-to-build-a-dossier-on-its-victims/"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-31",
+        "event": "Reported by WIRED Security"
+      }
+    ],
+    "drafted_at": "2026-10-31T12:05:37Z",
+    "first_seen": "2026-10-31T12:05:37Z",
+    "updated_at": "2026-11-04T23:05:39Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-04T23:05:39Z"
+  },
+  {
+    "id": "jancovici-ai-voice-clone-scam",
+    "date": "2026-10-31",
+    "title": "Jancovici denounces alleged AI-cloned voice used in cold calls selling solar panels and insulation to French residents",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "FR",
+    "region": "Europe",
+    "target": "French residents receiving the calls; Jean-Marc Jancovici (voice allegedly imitated)",
+    "loss_usd": null,
+    "summary": "Jean-Marc Jancovici says an AI imitation of his voice is being used in unsolicited commercial calls offering solar panels and insulation works. He says he has received about ten testimonies and is behind none of the calls, and he warns people not to give personal or banking details. An M6 Info clip of one call circulated on 30 October. The caller and the tool used have not been established, and no losses are reported.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Individuals & consumers",
+    "attribution": "Unknown; the perpetrators are not identified in the headline. Jancovici denounced the scam, per menow.fr.",
+    "motive": "Apparently fraud by soliciting French people; details Unknown.",
+    "vector": "AI voice imitation of a well-known public figure used in unsolicited contact with victims.",
+    "root_cause": "Unknown; the public figure's voice was apparently cloned with AI.",
+    "impact": "Unknown number of French people solicited; no losses reported in the headline.",
+    "response": "Jancovici publicly denounced the scam; no other response reported.",
+    "status": "alleged; operator unidentified",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "source": "www.menow.fr",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBxTGwzTnZVWThfV3NFWVRCZmwxRTU5dXF4VlhmLVNIcXZyNnh1VU9PUHNxLUZOZ3A0NXlPNUxacjRXMGRyMllfZldwTWh4b0swYTI1cEdobjJLd0twOUtjQ2Y3MEluZzhDYVE?oc=5",
+    "sources": [
+      {
+        "name": "www.menow.fr",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBxTGwzTnZVWThfV3NFWVRCZmwxRTU5dXF4VlhmLVNIcXZyNnh1VU9PUHNxLUZOZ3A0NXlPNUxacjRXMGRyMllfZldwTWh4b0swYTI1cEdobjJLd0twOUtjQ2Y3MEluZzhDYVE?oc=5"
+      },
+      {
+        "name": "menow.fr",
+        "url": "https://www.menow.fr/jancovici-voix-ia-demarchage-arnaque/"
+      },
+      {
+        "name": "RTL",
+        "url": "https://www.rtl.fr/actu/sciences-tech/je-ne-vends-pas-de-panneaux-solaires-la-voix-de-jean-marc-jancovici-imitee-par-une-ia-pour-du-demarchage-telephonique-7900690921"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-31",
+        "event": "Reported by www.menow.fr"
+      }
+    ],
+    "drafted_at": "2026-10-31T14:35:37Z",
+    "first_seen": "2026-10-31T14:35:37Z",
+    "updated_at": "2026-11-04T23:05:39Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-04T23:05:39Z"
+  },
+  {
     "id": "cctv-ai-fiancee-romance-scam",
     "date": "2026-11-02",
     "title": "Shanghai man loses 180,000+ yuan to AI-image 'fiancée' in ring that took 1.8M yuan from 15 victims",
@@ -25074,6 +25184,61 @@
     "verification": "reported",
     "review": "auto",
     "verified_at": "2026-11-04T18:52:03Z"
+  },
+  {
+    "id": "cyberstrikeai-attacks-edu-institutions",
+    "date": "2026-11-02",
+    "title": "CyberStrikeAI framework automates post-exploitation in attacks on educational institutions",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "Educational institutions in Africa and Latin America",
+    "loss_usd": null,
+    "summary": "Kaspersky analysed intrusions between September and October against educational institutions in several African and Latin American countries. The attackers broke in through a compromised SQL Server and then used the open-source CyberStrikeAI framework, whose server-side LLM plans and generates the commands that the implant executes. In one case, domain admin was reached within three to four days of agent deployment. Kaspersky did not link the activity to a known group but points to a Chinese-speaking operator.",
+    "actor": "Unattributed; Chinese-speaking operator per Kaspersky indicators",
+    "actor_type": "unknown",
+    "sector": "Education & research",
+    "attribution": "Kaspersky Securelist analysis; the attacker is not named in the summary.",
+    "motive": "Unknown",
+    "vector": "CyberStrikeAI penetration testing framework automating the post-exploitation phase.",
+    "root_cause": "A legitimate AI-driven pentesting framework was used in real attacks; how initial access was gained is Unknown.",
+    "impact": "Several educational institutions were attacked; the number of victims and data affected are Unknown.",
+    "response": "Kaspersky published its analysis; no victim response is reported.",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "source": "Kaspersky Securelist",
+    "url": "https://securelist.com/tr/cyberstrikeai-attacks/121715",
+    "sources": [
+      {
+        "name": "Kaspersky Securelist",
+        "url": "https://securelist.com/tr/cyberstrikeai-attacks/121715"
+      },
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/11/03/ai-powered-cyberattacks-artex-cyberstrikeai/"
+      },
+      {
+        "name": "Kaspersky Securelist",
+        "url": "https://securelist.com/tr/cyberstrikeai-attacks/121715/"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-11-02",
+        "event": "Reported by Kaspersky Securelist"
+      }
+    ],
+    "drafted_at": "2026-11-02T08:35:41Z",
+    "first_seen": "2026-11-02T08:35:41Z",
+    "updated_at": "2026-11-04T23:05:39Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-04T23:05:39Z"
   },
   {
     "id": "priangarye-governor-deepfake-26m",
