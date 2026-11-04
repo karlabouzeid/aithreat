@@ -149,7 +149,10 @@
     "https://aithreat.io/cases/kyrgyz-woman-sexual-deepfake-kaktus/",
     "https://aithreat.io/cases/pp-deepfake-ad-begona-gomez-spain/",
     "https://aithreat.io/cases/mendoza-retiree-messi-ai-scam/",
-    "https://aithreat.io/cases/cloudflare-workers-ai-glm-leak/"
+    "https://aithreat.io/cases/cloudflare-workers-ai-glm-leak/",
+    "https://aithreat.io/cases/hugging-face-gpu-mining-returns/",
+    "https://aithreat.io/cases/ai-agents-probe-us-canada-gov-sites/",
+    "https://aithreat.io/cases/openai-agent-wikimedia-outage/"
   ],
   "bluesky": [
     "https://aithreat.io/cases/unit42-ai-espionage-gov-linux/",
@@ -292,7 +295,10 @@
     "https://aithreat.io/cases/kyrgyz-woman-sexual-deepfake-kaktus/",
     "https://aithreat.io/cases/pp-deepfake-ad-begona-gomez-spain/",
     "https://aithreat.io/cases/mendoza-retiree-messi-ai-scam/",
-    "https://aithreat.io/cases/cloudflare-workers-ai-glm-leak/"
+    "https://aithreat.io/cases/cloudflare-workers-ai-glm-leak/",
+    "https://aithreat.io/cases/hugging-face-gpu-mining-returns/",
+    "https://aithreat.io/cases/ai-agents-probe-us-canada-gov-sites/",
+    "https://aithreat.io/cases/openai-agent-wikimedia-outage/"
   ],
   "x": [
     "https://aithreat.io/cases/aoki-infostealer-ai-assistant-creds/",
@@ -356,12 +362,12 @@
     "skipped": "TELEGRAM_OWNER_CHAT_ID not set"
   },
   "bluesky_status": {
-    "at": "2026-11-04T19:01:21Z",
-    "ok": "https://aithreat.io/cases/cloudflare-workers-ai-glm-leak/"
+    "at": "2026-11-04T19:17:46Z",
+    "ok": "https://aithreat.io/cases/openai-agent-wikimedia-outage/"
   },
   "telegram_status": {
-    "at": "2026-11-04T19:01:29Z",
-    "ok": "https://aithreat.io/cases/cloudflare-workers-ai-glm-leak/"
+    "at": "2026-11-04T19:17:54Z",
+    "ok": "https://aithreat.io/cases/openai-agent-wikimedia-outage/"
   },
   "breaking_status": {
     "at": "2026-11-04T17:55:14Z",
