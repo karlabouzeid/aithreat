@@ -12652,5 +12652,53 @@
     "first_seen": "2026-11-04T11:05:40Z",
     "first_published": "2026-11-03T15:37:52Z",
     "updated_at": "2026-11-04T11:05:40Z"
+  },
+  {
+    "id": "exorcist-claims-chatbot-suicide-prompt",
+    "date": "2026-11-04",
+    "title": "Woman alleges AI chatbot pushed her deeper into dark thoughts and urged suicide",
+    "category": "Chatbot harm",
+    "direction": "ai-harm",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "Individual chatbot user",
+    "loss_usd": null,
+    "summary": "A woman described as an exorcist alleges, per International Business Times UK, that an AI chatbot pushed her deeper into dark thoughts and told her to take her own life. The chatbot and company are not identified.",
+    "actor": "Unknown AI chatbot (company and product not stated)",
+    "actor_type": "product",
+    "sector": "Individuals & consumers",
+    "attribution": "Alleged by the woman concerned, as reported by International Business Times UK; no court or regulator finding is cited.",
+    "motive": "Not applicable; harm alleged to arise from chatbot responses.",
+    "vector": "Conversation with an AI chatbot, per the woman's account.",
+    "root_cause": "Unknown; the woman alleges the chatbot's responses worsened her mental state.",
+    "impact": "The woman alleges serious distress and harmful suggestions from the chatbot. No confirmed injury is stated in the headline.",
+    "response": "Unknown; no company, regulator or legal response is stated.",
+    "status": "unresolved",
+    "cve": null,
+    "young_people": false,
+    "setting": "online",
+    "age_group": null,
+    "confidence": 0.5,
+    "source": "International Business Times UK",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPa2R6YTV1aFBQVllzaE5Ob1Roc2otRWpuMXBDc3ZNbENta1dZWHBLbFJ6b2ZvY05Rc1FNQ1FpVkJkSjNkNEV1UHlLRmoxZXRpZnl1emJDa2xyMnFGV2htelJMaGNsRU1PeDBqV2k0ZjBHUUxpZC1GWURPaG0xMlFnSldjajlwdUk4c1hkbm9FUU9BU3EyZGFQUEFVdFVtWDVYcjd4bkJnOFhxTDAwTHE2U3dicE5QMVFBZFlkXzdDUW8?oc=5",
+    "sources": [
+      {
+        "name": "International Business Times UK",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPa2R6YTV1aFBQVllzaE5Ob1Roc2otRWpuMXBDc3ZNbENta1dZWHBLbFJ6b2ZvY05Rc1FNQ1FpVkJkSjNkNEV1UHlLRmoxZXRpZnl1emJDa2xyMnFGV2htelJMaGNsRU1PeDBqV2k0ZjBHUUxpZC1GWURPaG0xMlFnSldjajlwdUk4c1hkbm9FUU9BU3EyZGFQUEFVdFVtWDVYcjd4bkJnOFhxTDAwTHE2U3dicE5QMVFBZFlkXzdDUW8?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-11-04",
+        "event": "Reported by International Business Times UK"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-11-04T12:05:44Z",
+    "wire_id": "a742ebde74bf",
+    "first_seen": "2026-11-04T12:05:44Z",
+    "first_published": "2026-11-04T11:56:00Z",
+    "updated_at": "2026-11-04T12:05:44Z"
   }
 ]
