@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T21:46:57Z",
+  "generated_at": "2026-11-04T22:15:57Z",
   "licence": "CC BY 4.0",
   "sources": [
     {
@@ -1004,8 +1004,8 @@
       "claim": "Realistic AI-generated voices, images and video are used for fraud, extortion and sexual imagery made without consent, and cheap tools have made such content easy to produce at scale.",
       "status": "observed",
       "note": "The largest category in the registry: cloned voices and deepfake video calls impersonating executives, officials and relatives, and deepfake celebrity ads behind investment scams. The report adds that victims often do not report, so public cases undercount the harm.",
-      "n": 90,
-      "real_world": 90,
+      "n": 93,
+      "real_world": 93,
       "first_real_world": "2025-01-05",
       "months_after_publication": -13,
       "url": "https://aithreat.io/research/iasr-synthetic-content/",
@@ -1013,8 +1013,10 @@
         "priangarye-governor-deepfake-26m",
         "tarn-restaurants-ai-fake-refund",
         "cctv-ai-fiancee-romance-scam",
+        "bon-jovi-impersonator-ai-video-scam",
         "mendoza-retiree-messi-ai-scam",
         "deepfake-pm-scam-88-year-old-td-bank",
+        "spb-choreographer-beglov-ai-avatar-scam",
         "scammers-clone-sheriff-voice",
         "wu-yue-ai-celebrity-impersonation-sales",
         "korea-police-officer-deepfake-indicted",
@@ -1033,6 +1035,7 @@
         "chemnitz-lanz-deepfake-investhub",
         "tokyo-horie-deepfake-investment-ring",
         "israel-synthetic-identity-ai-agents",
+        "california-daughter-voice-clone-scam",
         "turkey-yapay-zeka-2-deepfake-ads",
         "sao-paulo-fake-lawyer-voice-clone",
         "singapore-pm-wong-deepfake-zoom",
@@ -2389,8 +2392,8 @@
       "claim": "People using AI for disinformation, surveillance and propaganda at scale; for cyberattacks and weapons; and for fraud, scams and targeted manipulation.",
       "status": "observed",
       "note": "The other pillar of the registry: deepfake fraud, AI-built malware, AI phishing and state operations.",
-      "n": 200,
-      "real_world": 199,
+      "n": 203,
+      "real_world": 202,
       "first_real_world": "2025-01-05",
       "months_after_publication": null,
       "url": "https://aithreat.io/research/mit-malicious-actors/",
@@ -2402,8 +2405,10 @@
         "tarn-restaurants-ai-fake-refund",
         "cctv-ai-fiancee-romance-scam",
         "workos-ai-framework-breach",
+        "bon-jovi-impersonator-ai-video-scam",
         "mendoza-retiree-messi-ai-scam",
         "deepfake-pm-scam-88-year-old-td-bank",
+        "spb-choreographer-beglov-ai-avatar-scam",
         "bugster-deepseek-v4-india-universities",
         "inc-gentlemen-claude-exposed-servers",
         "storm-0940-artex-connectwise",
@@ -2463,6 +2468,7 @@
         "israel-synthetic-identity-ai-agents",
         "nigeria-tinubu-ai-voice-arrest",
         "sophos-cursor-edr-evasion-lab",
+        "california-daughter-voice-clone-scam",
         "turkey-yapay-zeka-2-deepfake-ads",
         "checkpoint-nimbus-manticore-minifast",
         "sao-paulo-fake-lawyer-voice-clone",
@@ -2796,8 +2802,8 @@
     {
       "source": "iasr-2026",
       "claims": 11,
-      "matched_cases": 335,
-      "matched_pct": 71,
+      "matched_cases": 338,
+      "matched_pct": 72,
       "status_counts": {
         "observed": 5,
         "early": 3,
@@ -2861,7 +2867,7 @@
     {
       "source": "mit-risk-repository",
       "claims": 7,
-      "matched_cases": 407,
+      "matched_cases": 410,
       "matched_pct": 87,
       "status_counts": {
         "observed": 4,
@@ -2879,9 +2885,9 @@
     "none": 4,
     "outside": 7
   },
-  "matched_cases": 408,
-  "total_cases": 469,
-  "warning_matched_cases": 366,
+  "matched_cases": 411,
+  "total_cases": 472,
+  "warning_matched_cases": 369,
   "unmatched_pct": 22,
   "unmatched_by_category": [
     {
@@ -2922,7 +2928,7 @@
     {
       "category": "Deepfake fraud",
       "unmatched": 0,
-      "total": 93
+      "total": 96
     },
     {
       "category": "AI-assisted malware",

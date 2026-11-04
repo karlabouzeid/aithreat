@@ -8177,5 +8177,53 @@
     "timeline": [
       "GBHackers 报道"
     ]
+  },
+  {
+    "title": "加利福尼亚州马丁内斯一名母亲在假绑架电话中被疑似 AI 克隆的女儿声音欺骗，汇出 5400 美元",
+    "summary": "加利福尼亚州马丁内斯的 Deborah Del Mastro 称，一名来电者声称她 37 岁的女儿被贩毒集团绑架，并播放了听起来像是女儿惊恐呼救的声音，她称该声音是 AI 克隆的。在大约五个小时内，她向墨西哥汇出了 5400 美元，随后才确认女儿平安无事。AI 语音克隆一事仅为指称，所用工具未被指明；据报道，马丁内斯警方已展开调查。该事件于 2026 年 5 月被报道，并于 10 月下旬再度传播。",
+    "target": "Deborah Del Mastro，加利福尼亚州马丁内斯",
+    "actor": "不明",
+    "attribution": "不明；报道仅提及诈骗者。",
+    "motive": "谋取经济利益",
+    "vector": "利用 AI 克隆受害者女儿的声音，向受害者骗取钱财。",
+    "root_cause": "不明；报道未说明语音样本是如何获取的。",
+    "impact": "受害者被诈骗者骗走 5400 美元。",
+    "response": "不明",
+    "id": "california-daughter-voice-clone-scam",
+    "timeline": [
+      "Techora.ru 报道"
+    ]
+  },
+  {
+    "title": "圣彼得堡芭蕾舞教练 Komleva 在接到 Beglov 州长 AI 化身的电话后，以 910 万卢布出售住房",
+    "summary": "据报道，诈骗者在即时通讯软件的视频通话中，利用圣彼得堡州长 Alexander Beglov 的 AI 化身，以及一名冒充内务部第一副部长的男子，说服马林斯基剧院（Mariinsky Theatre）芭蕾舞教练、87 岁的 Gabriela Komleva 以 910 万卢布的价格出售她位于皇村（Tsarskoye Selo）的住房（2024 年 12 月），并将所得款项交给他们。数月后她意识到受骗并报警；该案因一项允许买家保留该住房的法院裁决而公开。",
+    "target": "Gabriela Komleva，87 岁，圣彼得堡马林斯基剧院芭蕾舞教练",
+    "actor": "不明",
+    "attribution": "诈骗者身份不明；报道未给出归因。",
+    "motive": "经济诈骗（推测）",
+    "vector": "利用 AI 生成的公职人员化身向受害者冒充该官员",
+    "root_cause": "官员的逼真 AI 化身可被用来冒充其本人并骗取受害者的信任。",
+    "impact": "圣彼得堡一名编舞者被诈骗者欺骗。标题中未说明损失金额。",
+    "response": "不明",
+    "id": "spb-choreographer-beglov-ai-avatar-scam",
+    "timeline": [
+      "Rambler（Рамблер）报道"
+    ]
+  },
+  {
+    "title": "冒充 Jon Bon Jovi 者利用 AI 视频骗走一名女子 1 万美元",
+    "summary": "一名在 Instagram 上冒充 Jon Bon Jovi 的骗子，在约 10 个月的时间里使用 AI 生成的视频，与路易斯安那州的粉丝 Leslie Pickett 建立信任，随后逼迫她支付比特币；她损失超过 1 万美元，并称自己差点失去住房。据报道，美国国家地理（National Geographic）“Super Scam Me”团队请来的一名道德黑客将该冒充者追踪至拉各斯；这一说法尚属指称。",
+    "target": "Leslie Pickett，路易斯安那州一名女子",
+    "actor": "不明（据追踪该冒充者的一名道德黑客称，疑为位于拉各斯的骗子）",
+    "attribution": "冒充名人的骗子身份不明；报道未给出归因。",
+    "motive": "谋取经济利益",
+    "vector": "利用 AI 生成的名人冒充者视频，取得受害者信任并骗取钱财。",
+    "root_cause": "受害者信任了 AI 生成的名人视频；摘要未提供平台或支付管控方面的细节。",
+    "impact": "该女子损失 1 万美元，据报道差点失去住房。",
+    "response": "不明",
+    "id": "bon-jovi-impersonator-ai-video-scam",
+    "timeline": [
+      "www.wrganews.com 报道"
+    ]
   }
 ]

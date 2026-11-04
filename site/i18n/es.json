@@ -8177,5 +8177,53 @@
     "timeline": [
       "Informado por GBHackers"
     ]
+  },
+  {
+    "title": "Una madre de Martinez, California, transfiere 5.400 USD en una falsa llamada de secuestro con la supuesta voz de su hija clonada mediante IA",
+    "summary": "Deborah Del Mastro, de Martinez, California, afirma que una persona al teléfono aseguró que su hija de 37 años había sido secuestrada por un cártel y reprodujo lo que parecía la voz angustiada de su hija, que según ella fue clonada con IA. En unas cinco horas transfirió 5.400 USD a México antes de confirmar que su hija estaba a salvo. La clonación de voz con IA es una alegación y no se identifica la herramienta utilizada; la policía de Martinez habría investigado el caso. Informado en mayo de 2026 y vuelto a difundir a finales de octubre.",
+    "target": "Deborah Del Mastro, Martinez, California",
+    "actor": "Desconocido",
+    "attribution": "Desconocida; el informe se refiere únicamente a estafadores.",
+    "motive": "Lucro económico",
+    "vector": "Clonación de voz con IA de la hija de la víctima, utilizada para extorsionar dinero a la víctima.",
+    "root_cause": "Desconocida; el informe no indica cómo se obtuvo la muestra de voz.",
+    "impact": "La víctima perdió 5.400 USD a manos de los estafadores.",
+    "response": "Desconocida",
+    "id": "california-daughter-voice-clone-scam",
+    "timeline": [
+      "Informado por Techora.ru"
+    ]
+  },
+  {
+    "title": "La maestra de ballet de San Petersburgo Komleva vende su apartamento por 9,1 millones de rublos tras recibir llamadas de un avatar de IA del gobernador Beglov",
+    "summary": "Según se informa, unos estafadores utilizaron un avatar de IA del gobernador de San Petersburgo, Alexander Beglov, junto con un hombre que se hacía pasar por primer viceministro del Interior, en videollamadas por mensajería para convencer a Gabriela Komleva, de 87 años, maestra de ballet del Teatro Mariinsky, de que vendiera su apartamento de Tsarskoye Selo por 9,1 millones de rublos (diciembre de 2024) y les entregara lo obtenido. Ella se dio cuenta del engaño meses después y acudió a la policía; el caso se hizo público a través de una sentencia judicial que permitió al comprador quedarse con el apartamento.",
+    "target": "Gabriela Komleva, de 87 años, maestra de ballet del Teatro Mariinsky, San Petersburgo",
+    "actor": "Desconocido",
+    "attribution": "Estafadores desconocidos; el informe no ofrece ninguna atribución.",
+    "motive": "Fraude económico (presunto)",
+    "vector": "Avatar generado por IA de un cargo público, utilizado para suplantarlo ante la víctima",
+    "root_cause": "Los avatares de IA realistas de funcionarios pueden utilizarse para suplantarlos y ganarse la confianza de las víctimas.",
+    "impact": "Una coreógrafa de San Petersburgo fue engañada por los estafadores. El titular no indica la cantidad perdida.",
+    "response": "Desconocida",
+    "id": "spb-choreographer-beglov-ai-avatar-scam",
+    "timeline": [
+      "Informado por Rambler"
+    ]
+  },
+  {
+    "title": "Un impostor de Jon Bon Jovi usa vídeos de IA para estafar 10.000 USD a una mujer",
+    "summary": "Un estafador que se hacía pasar por Jon Bon Jovi en Instagram utilizó vídeos generados por IA durante unos 10 meses para ganarse la confianza de Leslie Pickett, una fan de Luisiana, y después la presionó para que realizara pagos en bitcoin; ella perdió más de 10.000 USD y afirma que estuvo a punto de perder su casa. Un hacker ético contratado por el equipo de “Super Scam Me” de National Geographic habría rastreado al impostor hasta Lagos; esto es una alegación.",
+    "target": "Leslie Pickett, una mujer de Luisiana",
+    "actor": "Desconocido (presunto estafador con base en Lagos, según un hacker ético que rastreó al impostor)",
+    "attribution": "Estafador desconocido que se hacía pasar por una celebridad; el informe no ofrece ninguna atribución.",
+    "motive": "Lucro económico",
+    "vector": "Vídeos generados por IA de un impostor de una celebridad, utilizados para ganarse la confianza de la víctima y obtener dinero.",
+    "root_cause": "La víctima confió en vídeos de una celebridad generados por IA; el resumen no ofrece detalles sobre la plataforma ni sobre los controles de pago.",
+    "impact": "La mujer perdió 10.000 USD y, según se informa, estuvo a punto de perder su casa.",
+    "response": "Desconocida",
+    "id": "bon-jovi-impersonator-ai-video-scam",
+    "timeline": [
+      "Informado por www.wrganews.com"
+    ]
   }
 ]

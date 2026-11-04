@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-04T21:46:57Z",
-  "total": 266,
-  "all_time_total": 469,
+  "generated_at": "2026-11-04T22:15:57Z",
+  "total": 269,
+  "all_time_total": 472,
   "window_from": "2025-11-04",
   "window_to": "2026-11-04",
   "trend_from": "2025-01-01",
   "first_half_from": "2025-01",
   "first_half_to": "2025-06",
-  "all_time_losses_usd": 333067543,
+  "all_time_losses_usd": 333082943,
   "finance": {
     "top_losses": [
       "fideuram-ai-voice-clone-ceo-fraud",
@@ -20,7 +20,7 @@
       "sao-paulo-fake-lawyer-voice-clone"
     ],
     "financial_services": 9,
-    "individuals": 77,
+    "individuals": 80,
     "fin_by_category": {
       "Deepfake fraud": 7,
       "AI-assisted malware": 1,
@@ -153,13 +153,13 @@
   },
   "this_quarter": {
     "q": "2026-Q4",
-    "n": 73,
+    "n": 75,
     "prev_q": "2026-Q3",
     "prev_n": 50
   },
   "direction": {
     "on-ai": 87,
-    "with-ai": 148
+    "with-ai": 151
   },
   "on_ai_share_first_half": 31,
   "on_ai_share_last_half": 41,
@@ -236,17 +236,17 @@
     },
     {
       "q": "2026-Q2",
-      "n": 51,
+      "n": 52,
       "on-ai": 22,
-      "with-ai": 25,
+      "with-ai": 26,
       "severity": {
         "critical": 11,
         "high": 21,
-        "medium": 18,
+        "medium": 19,
         "low": 1
       },
       "autonomous": 0,
-      "real_world": 46
+      "real_world": 47
     },
     {
       "q": "2026-Q3",
@@ -264,34 +264,34 @@
     },
     {
       "q": "2026-Q4",
-      "n": 73,
+      "n": 75,
       "on-ai": 19,
-      "with-ai": 49,
+      "with-ai": 51,
       "severity": {
         "critical": 3,
         "high": 26,
-        "medium": 40,
+        "medium": 42,
         "low": 4
       },
       "autonomous": 6,
-      "real_world": 72
+      "real_world": 74
     }
   ],
   "categories": [
     {
       "category": "Deepfake fraud",
-      "n": 50,
+      "n": 53,
       "by_quarter": [
         13,
         9,
         13,
         15,
         10,
-        11,
         12,
-        10
+        12,
+        12
       ],
-      "growth_last4_vs_prev4": -7
+      "growth_last4_vs_prev4": -4
     },
     {
       "category": "AI-assisted malware",
@@ -461,7 +461,7 @@
   ],
   "rising_category": "AI-assisted malware",
   "top_category": "Deepfake fraud",
-  "top_category_n": 50,
+  "top_category_n": 53,
   "autonomous": {
     "by_year": {
       "2025": 1,
@@ -486,9 +486,9 @@
       "actor_type": "criminal",
       "by_year": {
         "2025": 13,
-        "2026": 84
+        "2026": 87
       },
-      "n": 97
+      "n": 100
     },
     {
       "actor_type": "state",
@@ -554,18 +554,18 @@
   "severity": {
     "critical": 40,
     "high": 115,
-    "medium": 101,
+    "medium": 104,
     "low": 10
   },
   "critical_high_pct": 58,
   "losses": {
-    "total_usd": 205086843,
-    "disclosed": 18,
+    "total_usd": 205102243,
+    "disclosed": 20,
     "by_category": [
       {
         "category": "Deepfake fraud",
-        "usd": 205086843,
-        "disclosed": 18
+        "usd": 205102243,
+        "disclosed": 20
       },
       {
         "category": "AI-assisted malware",
@@ -632,7 +632,7 @@
     },
     {
       "sector": "Individuals & consumers",
-      "n": 77
+      "n": 80
     },
     {
       "sector": "Multiple / cross-sector",
@@ -682,7 +682,7 @@
     },
     {
       "country": "US",
-      "n": 57
+      "n": 59
     },
     {
       "country": "KR",
@@ -725,11 +725,11 @@
       "n": 3
     }
   ],
-  "global_pct": 44,
+  "global_pct": 43,
   "status": [
     {
       "status": "under investigation",
-      "n": 94
+      "n": 96
     },
     {
       "status": "ongoing",
@@ -752,35 +752,7 @@
       "n": 9
     },
     {
-      "status": "suspect arrested and confessed",
-      "n": 1
-    },
-    {
-      "status": "criminal case opened",
-      "n": 1
-    },
-    {
-      "status": "contained; service restored 3 nov 2026",
-      "n": 1
-    },
-    {
-      "status": "contained; investigation closed 2 nov 2026",
-      "n": 1
-    },
-    {
-      "status": "prosecuted; ring members sentenced to up to 11 years",
-      "n": 1
-    },
-    {
-      "status": "suspect arrested",
-      "n": 1
-    },
-    {
-      "status": "account permanently banned; no known charges",
-      "n": 1
-    },
-    {
-      "status": "contained; impact unknown",
+      "status": "lawsuit filed; unresolved",
       "n": 1
     },
     {
@@ -788,13 +760,45 @@
       "n": 1
     },
     {
-      "status": "lawsuit filed; unresolved",
+      "status": "contained; impact unknown",
+      "n": 1
+    },
+    {
+      "status": "account permanently banned; no known charges",
+      "n": 1
+    },
+    {
+      "status": "suspect arrested",
+      "n": 1
+    },
+    {
+      "status": "criminal case opened; court let the flat buyer keep the property",
+      "n": 1
+    },
+    {
+      "status": "prosecuted; ring members sentenced to up to 11 years",
+      "n": 1
+    },
+    {
+      "status": "contained; investigation closed 2 nov 2026",
+      "n": 1
+    },
+    {
+      "status": "contained; service restored 3 nov 2026",
+      "n": 1
+    },
+    {
+      "status": "criminal case opened",
+      "n": 1
+    },
+    {
+      "status": "suspect arrested and confessed",
       "n": 1
     }
   ],
   "unresolved_pct": 66,
   "verify_median_hours": 19.8,
-  "verify_sample": 77,
+  "verify_sample": 80,
   "researcher_demos": 21,
   "pulse": [
     {
@@ -1064,7 +1068,7 @@
     {
       "day": "2026-10-30",
       "kinds": {
-        "incident": 71,
+        "incident": 69,
         "vulnerability": 4,
         "research": 5,
         "vendor-report": 13,
@@ -1124,12 +1128,12 @@
     {
       "day": "2026-11-04",
       "kinds": {
-        "incident": 55,
+        "incident": 56,
         "vulnerability": 2,
         "research": 14,
         "vendor-report": 6,
         "policy": 3,
-        "other": 10,
+        "other": 11,
         "untagged": 0
       }
     }

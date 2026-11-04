@@ -17694,6 +17694,61 @@
     "sector": "Individuals & consumers"
   },
   {
+    "id": "california-daughter-voice-clone-scam",
+    "date": "2026-05-24",
+    "title": "Martinez, California mother wires $5,400 in fake-kidnapping call using suspected AI-cloned voice of her daughter",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "US",
+    "region": "California",
+    "target": "Deborah Del Mastro, Martinez, California",
+    "loss_usd": 5400,
+    "summary": "Deborah Del Mastro of Martinez, California says a caller claimed her 37-year-old daughter had been kidnapped by a cartel and played what sounded like her daughter's panicked voice, which she says was AI-cloned. Over about five hours she wired $5,400 to Mexico before confirming her daughter was safe. The AI voice cloning is alleged and the tool used is not identified; Martinez police reportedly investigated. Reported in May 2026 and recirculated in late October.",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "sector": "Individuals & consumers",
+    "attribution": "Unknown; the report refers only to scammers.",
+    "motive": "Financial gain",
+    "vector": "AI voice cloning of the victim's daughter, used to extract money from the victim.",
+    "root_cause": "Unknown; the report does not say how the voice sample was obtained.",
+    "impact": "The victim lost $5,400 to the scammers.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "source": "Techora.ru",
+    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxORnk5bk1STWpvVFZiNHVETzRRWEhPOU8tNWJXQkZfMUt0eXJPQV9JRFZwN2ozVzZXdWQwVlJCM25SMWpWMGxEcVVIUm00bzllcGpUd0Z0eWpxOFREdUxGazB3dklyTEJEWjJtdWw5NUpKQ0s2U1ZTUXN1dWlVazFyc2VwNGpTUQ?oc=5",
+    "sources": [
+      {
+        "name": "Techora.ru",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxORnk5bk1STWpvVFZiNHVETzRRWEhPOU8tNWJXQkZfMUt0eXJPQV9JRFZwN2ozVzZXdWQwVlJCM25SMWpWMGxEcVVIUm00bzllcGpUd0Z0eWpxOFREdUxGazB3dklyTEJEWjJtdWw5NUpKQ0s2U1ZTUXN1dWlVazFyc2VwNGpTUQ?oc=5"
+      },
+      {
+        "name": "6abc",
+        "url": "https://6abc.com/amp/post/california-mom-thousands-scammers-use-ai-mimic-daughters-voice-fake-kidnapping-part-growing-trend/19175361/"
+      },
+      {
+        "name": "Fox News",
+        "url": "https://www.foxnews.com/tech/ai-voice-scam-traps-mom-5-hour-kidnapping-nightmare"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-24",
+        "event": "Reported by Techora.ru"
+      }
+    ],
+    "drafted_at": "2026-10-24T12:35:37Z",
+    "first_seen": "2026-10-24T12:35:37Z",
+    "updated_at": "2026-11-04T22:05:40Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-04T22:05:40Z"
+  },
+  {
     "id": "florida-ag-v-openai",
     "date": "2026-06-01",
     "title": "Florida Attorney General sues OpenAI and Sam Altman over concealed ChatGPT risks",
@@ -24098,6 +24153,61 @@
     "verified_at": "2026-11-04T21:05:40Z"
   },
   {
+    "id": "spb-choreographer-beglov-ai-avatar-scam",
+    "date": "2026-10-22",
+    "title": "St Petersburg ballet master Komleva sells flat for 9.1M rubles after calls from AI avatar of Governor Beglov",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "RU",
+    "region": "St Petersburg",
+    "target": "Gabriela Komleva, 87, Mariinsky Theatre ballet master, St Petersburg",
+    "loss_usd": null,
+    "summary": "Scammers reportedly used an AI avatar of St Petersburg governor Alexander Beglov, plus a man posing as a first deputy interior minister, in messenger video calls to convince Mariinsky Theatre ballet master Gabriela Komleva, 87, to sell her Tsarskoye Selo flat for 9.1M rubles (December 2024) and hand the proceeds to them. She realised the deception months later and went to police; the case became public via a court ruling that let the buyer keep the flat.",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "sector": "Individuals & consumers",
+    "attribution": "Unknown scammers; no attribution given in the report.",
+    "motive": "Financial fraud (presumed)",
+    "vector": "AI-generated avatar of a public official used to impersonate him to the victim",
+    "root_cause": "Realistic AI avatars of officials can be used to impersonate them and win victims' trust.",
+    "impact": "A St Petersburg choreographer was deceived by the scammers. The amount lost is not stated in the headline.",
+    "response": "Unknown",
+    "status": "criminal case opened; court let the flat buyer keep the property",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "source": "Рамблер",
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNOFotek5IZmJFX1Y4LWJSTHJBWUlfTm0yZ1dYajd0QjI2Z1ZCWGJhc0NVZ0p1NDl6YmtRVWlxSl9ZeWNQWU5KZVR1NzkzbWtqdnA2RTFHNFNZY3cyX2ZvUTdCaE9mWmVmdDRoMEFwQTJqV1FEaGZMMnpSXzUtZWxkVlR2NkE4Q3Zxblp5MmVGUkEzZzUtaDg0RjJTZjVySW1HSDg3czlxTlRSeWFnM2RRZ1pXN2d6UVBUaFpyTzF1WDdod9IBwgFBVV95cUxNOFotek5IZmJFX1Y4LWJSTHJBWUlfTm0yZ1dYajd0QjI2Z1ZCWGJhc0NVZ0p1NDl6YmtRVWlxSl9ZeWNQWU5KZVR1NzkzbWtqdnA2RTFHNFNZY3cyX2ZvUTdCaE9mWmVmdDRoMEFwQTJqV1FEaGZMMnpSXzUtZWxkVlR2NkE4Q3Zxblp5MmVGUkEzZzUtaDg0RjJTZjVySW1HSDg3czlxTlRSeWFnM2RRZ1pXN2d6UVBUaFpyTzF1WDdodw?oc=5",
+    "sources": [
+      {
+        "name": "Рамблер",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNOFotek5IZmJFX1Y4LWJSTHJBWUlfTm0yZ1dYajd0QjI2Z1ZCWGJhc0NVZ0p1NDl6YmtRVWlxSl9ZeWNQWU5KZVR1NzkzbWtqdnA2RTFHNFNZY3cyX2ZvUTdCaE9mWmVmdDRoMEFwQTJqV1FEaGZMMnpSXzUtZWxkVlR2NkE4Q3Zxblp5MmVGUkEzZzUtaDg0RjJTZjVySW1HSDg3czlxTlRSeWFnM2RRZ1pXN2d6UVBUaFpyTzF1WDdod9IBwgFBVV95cUxNOFotek5IZmJFX1Y4LWJSTHJBWUlfTm0yZ1dYajd0QjI2Z1ZCWGJhc0NVZ0p1NDl6YmtRVWlxSl9ZeWNQWU5KZVR1NzkzbWtqdnA2RTFHNFNZY3cyX2ZvUTdCaE9mWmVmdDRoMEFwQTJqV1FEaGZMMnpSXzUtZWxkVlR2NkE4Q3Zxblp5MmVGUkEzZzUtaDg0RjJTZjVySW1HSDg3czlxTlRSeWFnM2RRZ1pXN2d6UVBUaFpyTzF1WDdodw?oc=5"
+      },
+      {
+        "name": "Gazeta.ru via Rambler",
+        "url": "https://news.rambler.ru/community/57285112-v-peterburge-baletmeystera-komlevu-obmanuli-moshenniki-s-ii-avatarom-beglova/"
+      },
+      {
+        "name": "Life.ru",
+        "url": "https://life.ru/p/sud-ostavil-pokupatelnitse-peredannuyu-moshennikam-kvartiru-baletmeystera"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-22",
+        "event": "Reported by Рамблер"
+      }
+    ],
+    "drafted_at": "2026-10-22T20:05:56Z",
+    "first_seen": "2026-10-22T20:05:56Z",
+    "updated_at": "2026-11-04T22:05:40Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-04T22:05:40Z"
+  },
+  {
     "id": "mendoza-retiree-messi-ai-scam",
     "date": "2026-10-23",
     "title": "Mendoza retiree loses $24.5M pesos to crypto scam using AI-manipulated Messi and Scaloni video",
@@ -24151,6 +24261,61 @@
     "verification": "reported",
     "review": "auto",
     "verified_at": "2026-11-04T18:35:37Z"
+  },
+  {
+    "id": "bon-jovi-impersonator-ai-video-scam",
+    "date": "2026-10-24",
+    "title": "Jon Bon Jovi impersonator uses AI videos to scam woman out of $10K",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "US",
+    "region": "Louisiana",
+    "target": "Leslie Pickett, a Louisiana woman",
+    "loss_usd": 10000,
+    "summary": "A scammer posing as Jon Bon Jovi on Instagram used AI-generated videos over about 10 months to build trust with Louisiana fan Leslie Pickett, then pressed her for bitcoin payments; she lost over $10,000 and says she nearly lost her home. An ethical hacker brought in by the National Geographic 'Super Scam Me' team reportedly traced the impostor to Lagos; this is alleged.",
+    "actor": "Unknown (alleged Lagos-based scammer, per an ethical hacker who traced the impostor)",
+    "actor_type": "criminal",
+    "sector": "Individuals & consumers",
+    "attribution": "Unknown scammer posing as a celebrity; no attribution given in the report.",
+    "motive": "Financial gain",
+    "vector": "AI-generated videos of a celebrity impersonator used to gain the victim's trust and obtain money.",
+    "root_cause": "Victim trusted AI-generated celebrity videos; the summary gives no detail on platform or payment controls.",
+    "impact": "The woman lost $10,000 and reportedly nearly lost her home.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "source": "www.wrganews.com",
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQTTdPcFdEbTNXT3UwaEdhc0U1SkRwc2hJbUpqSEljaXh6SENULUpBM2FWM3gtV29MVlNjcm1KakpoaUZkXy1yc0tkbGdBMVh1R2F2bzVhU0VKWk5ienFWVWdQVDhBV2k5QldGZ1N5bV9BZ1RMeHRsZ1IzV200YlRoSU0wYmlFYUNEaklnc1RLMEkzTUdHRVVMNlBkTGdBaTJRZXdYS2g1bS1VMENHNGZVS21rU29MdDc5OXRiM3dkVk85M3ds?oc=5",
+    "sources": [
+      {
+        "name": "www.wrganews.com",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQTTdPcFdEbTNXT3UwaEdhc0U1SkRwc2hJbUpqSEljaXh6SENULUpBM2FWM3gtV29MVlNjcm1KakpoaUZkXy1yc0tkbGdBMVh1R2F2bzVhU0VKWk5ienFWVWdQVDhBV2k5QldGZ1N5bV9BZ1RMeHRsZ1IzV200YlRoSU0wYmlFYUNEaklnc1RLMEkzTUdHRVVMNlBkTGdBaTJRZXdYS2g1bS1VMENHNGZVS21rU29MdDc5OXRiM3dkVk85M3ds?oc=5"
+      },
+      {
+        "name": "Fox News",
+        "url": "https://www.foxnews.com/us/jon-bon-jovi-impersonator-uses-ai-videos-scam-woman-10k-nearly-costing-her-home"
+      },
+      {
+        "name": "IBTimes UK",
+        "url": "https://www.ibtimes.co.uk/louisiana-woman-ai-jon-bon-jovi-scam-1827701"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-24",
+        "event": "Reported by www.wrganews.com"
+      }
+    ],
+    "drafted_at": "2026-10-24T11:35:37Z",
+    "first_seen": "2026-10-24T11:35:37Z",
+    "updated_at": "2026-11-04T22:05:40Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-04T22:05:40Z"
   },
   {
     "id": "cloudflare-workers-ai-glm-leak",

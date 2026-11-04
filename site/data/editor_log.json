@@ -414,5 +414,37 @@
     "reason": "SOCRadar's Threat Research Unit found the exposed servers and GBHackers and Hackread report it, though the 8,257 messages spanned Claude and Kimi models, not Claude alone.",
     "duplicate_of": null,
     "at": "2026-11-04T21:35:41Z"
+  },
+  {
+    "id": "spb-choreographer-beglov-ai-avatar-scam",
+    "title": "St Petersburg choreographer scammed by AI avatar of Governor Beglov",
+    "decision": "approve",
+    "reason": "Multiple Russian outlets (citing KP.RU and a St Petersburg court ruling) confirm 87-year-old Mariinsky ballet master Gabriela Komleva was deceived in messenger video calls using an AI avatar of Governor Beglov and sold her flat for 9.1M rubles, which she handed to the scammers.",
+    "duplicate_of": null,
+    "at": "2026-11-04T22:05:40Z"
+  },
+  {
+    "id": "bon-jovi-impersonator-ai-video-scam",
+    "title": "Jon Bon Jovi impersonator uses AI videos to scam woman out of $10K",
+    "decision": "approve",
+    "reason": "Fox News and other outlets report Louisiana woman Leslie Pickett lost over $10,000 to a months-long romance scam in which a fake Jon Bon Jovi account used AI-generated videos.",
+    "duplicate_of": null,
+    "at": "2026-11-04T22:05:40Z"
+  },
+  {
+    "id": "california-daughter-voice-clone-scam",
+    "title": "Scammers clone daughter's voice with AI to extract $5,400 in California",
+    "decision": "approve",
+    "reason": "Real, specific case confirmed by 6abc, WISN, Fox News and the AI Incident Database: Martinez, California woman Deborah Del Mastro wired $5,400 to Mexico during a fake-kidnapping call using a suspected AI clone of her daughter's voice, but the original reports date from May 2026, not October.",
+    "duplicate_of": null,
+    "at": "2026-11-04T22:05:40Z"
+  },
+  {
+    "id": "lebanese-family-sues-openai-son-death",
+    "title": "Lebanese family sues ChatGPT owner over son's death",
+    "decision": "reject",
+    "reason": "This is the Habib family's wrongful-death suit against OpenAI over 15-year-old Mathias Habib's April 2026 suicide, already filed as known case habib-v-openai-chatgpt-lebanon-teen.",
+    "duplicate_of": "habib-v-openai-chatgpt-lebanon-teen",
+    "at": "2026-11-04T22:05:40Z"
   }
 ]
