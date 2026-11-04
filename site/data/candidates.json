@@ -12412,5 +12412,53 @@
     "first_seen": "2026-11-04T00:05:43Z",
     "first_published": "2026-10-18T00:00:00Z",
     "updated_at": "2026-11-04T00:05:43Z"
+  },
+  {
+    "id": "us-ai-streaming-fraud-conviction",
+    "date": "2026-11-04",
+    "title": "US landmark conviction over $8M AI-driven streaming fraud",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "US",
+    "region": "North America",
+    "target": "Music streaming platforms and royalty pools",
+    "loss_usd": 8000000,
+    "summary": "A US court reportedly delivered a historic conviction in a streaming fraud worth $8 million that relied on AI. Few details are given in the source.",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "sector": "Media & entertainment",
+    "attribution": "Defendant convicted in a US court, per Radio Monaco roundup; name not given in the headline.",
+    "motive": "Financial gain from fraudulent streaming royalties.",
+    "vector": "AI used to generate content and inflate streaming activity, per the headline; details Unknown.",
+    "root_cause": "Unknown; royalty payments were apparently exploitable through AI-generated streams.",
+    "impact": "Fraud valued at about $8 million, per the headline.",
+    "response": "Prosecution and conviction in the United States.",
+    "status": "resolved",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.5,
+    "source": "Radio Monaco",
+    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPOVJKa2FucjhWdThNT1ZBRXhQV2NmRjY4b0tiamZnRklJUnZKbTNJaUVzM19VWFhlNU0wMm4zdVV0TWZ1MEJ2OGJ5STYxNTVhbWQxQW9BYmpnSUprODh2d215cEh0djF1X1BoZHRaWjViMDJPbFhSekhKYzJvUkdPOXFuNkJGTnJBcUV4Ymk5dmdTclh1ZTJLMFJMUk5qTXpfdVNnbUw1N2p1MWEtR0UydXdJbWt4QzBSZmJNeDM4WHdvdjg4RC1rbE55YWllVVVHRk5uS2UwNTU?oc=5",
+    "sources": [
+      {
+        "name": "Radio Monaco",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPOVJKa2FucjhWdThNT1ZBRXhQV2NmRjY4b0tiamZnRklJUnZKbTNJaUVzM19VWFhlNU0wMm4zdVV0TWZ1MEJ2OGJ5STYxNTVhbWQxQW9BYmpnSUprODh2d215cEh0djF1X1BoZHRaWjViMDJPbFhSekhKYzJvUkdPOXFuNkJGTnJBcUV4Ymk5dmdTclh1ZTJLMFJMUk5qTXpfdVNnbUw1N2p1MWEtR0UydXdJbWt4QzBSZmJNeDM4WHdvdjg4RC1rbE55YWllVVVHRk5uS2UwNTU?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-11-04",
+        "event": "Reported by Radio Monaco"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-11-04T02:35:42Z",
+    "wire_id": "3e637c34c53c",
+    "first_seen": "2026-11-04T02:35:42Z",
+    "first_published": "2026-11-03T16:32:05Z",
+    "updated_at": "2026-11-04T02:35:42Z"
   }
 ]
