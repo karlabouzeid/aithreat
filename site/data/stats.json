@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-03T23:36:22Z",
-  "total": 232,
+  "generated_at": "2026-11-04T00:06:50Z",
+  "total": 231,
   "all_time_total": 433,
-  "window_from": "2025-11-03",
-  "window_to": "2026-11-03",
+  "window_from": "2025-11-04",
+  "window_to": "2026-11-04",
   "trend_from": "2025-01-01",
   "first_half_from": "2025-01",
   "first_half_to": "2025-06",
@@ -46,8 +46,8 @@
     "vendors": [
       {
         "product": "OpenAI / ChatGPT",
-        "n": 46,
-        "critical_high": 34,
+        "n": 45,
+        "critical_high": 33,
         "with_cve": 0,
         "latest": "aoki-infostealer-ai-assistant-creds"
       },
@@ -159,7 +159,7 @@
   },
   "direction": {
     "on-ai": 80,
-    "with-ai": 123
+    "with-ai": 122
   },
   "on_ai_share_first_half": 31,
   "on_ai_share_last_half": 42,
@@ -295,7 +295,7 @@
     },
     {
       "category": "AI-assisted malware",
-      "n": 34,
+      "n": 33,
       "by_quarter": [
         1,
         5,
@@ -509,10 +509,10 @@
     {
       "actor_type": "unknown",
       "by_year": {
-        "2025": 2,
+        "2025": 1,
         "2026": 56
       },
-      "n": 58
+      "n": 57
     },
     {
       "actor_type": "autonomous-ai",
@@ -553,11 +553,11 @@
   ],
   "severity": {
     "critical": 38,
-    "high": 105,
+    "high": 104,
     "medium": 83,
     "low": 6
   },
-  "critical_high_pct": 62,
+  "critical_high_pct": 61,
   "losses": {
     "total_usd": 204366843,
     "disclosed": 16,
@@ -639,12 +639,12 @@
       "n": 27
     },
     {
-      "sector": "Unknown",
+      "sector": "Education & research",
       "n": 17
     },
     {
-      "sector": "Education & research",
-      "n": 17
+      "sector": "Unknown",
+      "n": 16
     },
     {
       "sector": "Government & public sector",
@@ -678,7 +678,7 @@
   "countries": [
     {
       "country": "GL",
-      "n": 106
+      "n": 105
     },
     {
       "country": "US",
@@ -725,7 +725,7 @@
       "n": 3
     }
   ],
-  "global_pct": 46,
+  "global_pct": 45,
   "status": [
     {
       "status": "under investigation",
@@ -745,14 +745,14 @@
     },
     {
       "status": "resolved",
-      "n": 15
+      "n": 14
     },
     {
       "status": "unresolved",
       "n": 7
     }
   ],
-  "unresolved_pct": 66,
+  "unresolved_pct": 67,
   "verify_median_hours": 19.8,
   "verify_sample": 42,
   "researcher_demos": 21,
@@ -1036,12 +1036,12 @@
     {
       "day": "2026-10-30",
       "kinds": {
-        "incident": 125,
+        "incident": 124,
         "vulnerability": 13,
         "research": 36,
-        "vendor-report": 29,
+        "vendor-report": 27,
         "policy": 5,
-        "other": 8,
+        "other": 7,
         "untagged": 0
       }
     },
@@ -1084,10 +1084,10 @@
     {
       "day": "2026-11-03",
       "kinds": {
-        "incident": 104,
+        "incident": 107,
         "vulnerability": 2,
         "research": 38,
-        "vendor-report": 4,
+        "vendor-report": 5,
         "policy": 1,
         "other": 7,
         "untagged": 0

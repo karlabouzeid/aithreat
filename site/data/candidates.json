@@ -12316,5 +12316,101 @@
     "first_seen": "2026-11-03T20:36:04Z",
     "first_published": "2026-11-03T20:28:16Z",
     "updated_at": "2026-11-03T20:36:04Z"
+  },
+  {
+    "id": "braselton-police-chief-alpr-stalking",
+    "date": "2025-11-19",
+    "title": "Georgia police chief charged with using license plate readers to stalk people",
+    "category": "AI misfire",
+    "direction": "ai-harm",
+    "severity": "medium",
+    "country": "US",
+    "region": "North America",
+    "target": "People tracked via Braselton ALPR cameras",
+    "loss_usd": null,
+    "summary": "Braselton, Georgia's police chief was arrested on charges that he used the city's automated license plate recognition cameras to stalk and harass multiple people.",
+    "actor": "Michael Steffman, Braselton police chief",
+    "actor_type": "insider",
+    "sector": "Individuals & consumers",
+    "attribution": "GBI arrest and charges, as reported by AP and local media.",
+    "motive": "Alleged stalking and harassment of individuals.",
+    "vector": "Misuse of city automated license plate recognition cameras by an official with access.",
+    "root_cause": "Unknown; an official with system access allegedly misused the surveillance tool.",
+    "impact": "Multiple people were allegedly stalked and harassed. A woman's protective order request was reportedly denied before the arrest.",
+    "response": "The GBI arrested and charged him with violation of oath, stalking and harassing communications. He reportedly retired or resigned.",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.6,
+    "source": "AI Incident Database",
+    "url": "https://apnews.com/article/georgia-plate-readers-stalk-harass-chief-arrested-39adb6f89fc2074da61f2801fef3f180",
+    "sources": [
+      {
+        "name": "AI Incident Database",
+        "url": "https://apnews.com/article/georgia-plate-readers-stalk-harass-chief-arrested-39adb6f89fc2074da61f2801fef3f180"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2025-11-19",
+        "event": "Reported by AI Incident Database"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-11-04T00:05:43Z",
+    "wire_id": "2cb8c8ffd9fb",
+    "first_seen": "2026-11-04T00:05:43Z",
+    "first_published": "2026-10-18T00:00:00Z",
+    "updated_at": "2026-11-04T00:05:43Z"
+  },
+  {
+    "id": "haines-city-flock-camera-misuse",
+    "date": "2026-11-03",
+    "title": "Florida officer arrested for using Flock cameras to track estranged wife",
+    "category": "AI misfire",
+    "direction": "ai-harm",
+    "severity": "medium",
+    "country": "US",
+    "region": "North America",
+    "target": "Estranged wife of Haines City police officer",
+    "loss_usd": null,
+    "summary": "A Haines City police officer was arrested after an investigation found he allegedly searched his estranged wife's vehicle in Flock camera databases over 700 times.",
+    "actor": "Haines City police officer (unnamed in summary)",
+    "actor_type": "insider",
+    "sector": "Individuals & consumers",
+    "attribution": "Haines City Police arrest affidavit, as reported by local media.",
+    "motive": "Alleged tracking of his estranged wife.",
+    "vector": "Misuse of police access to Flock license plate camera databases.",
+    "root_cause": "Unknown; the officer had access to the system and misused it. Audit controls were reportedly added afterwards.",
+    "impact": "One person was allegedly tracked more than 700 times without authorisation.",
+    "response": "The officer was arrested. The department now requires formal audits of Flock use.",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.6,
+    "source": "AI Incident Database",
+    "url": "https://www.fox13news.com/news/haines-city-officer-arrested-misusing-flock-cameras-track-estranged-wife-officials",
+    "sources": [
+      {
+        "name": "AI Incident Database",
+        "url": "https://www.fox13news.com/news/haines-city-officer-arrested-misusing-flock-cameras-track-estranged-wife-officials"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-11-03",
+        "event": "Reported by AI Incident Database"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-11-04T00:05:43Z",
+    "wire_id": "a3b8e7529e14",
+    "first_seen": "2026-11-04T00:05:43Z",
+    "first_published": "2026-10-18T00:00:00Z",
+    "updated_at": "2026-11-04T00:05:43Z"
   }
 ]
