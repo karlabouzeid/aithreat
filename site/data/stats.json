@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-04T19:00:01Z",
-  "total": 248,
-  "all_time_total": 450,
+  "generated_at": "2026-11-04T19:15:37Z",
+  "total": 249,
+  "all_time_total": 452,
   "window_from": "2025-11-04",
   "window_to": "2026-11-04",
   "trend_from": "2025-01-01",
@@ -20,7 +20,7 @@
       "sao-paulo-fake-lawyer-voice-clone"
     ],
     "financial_services": 9,
-    "individuals": 70,
+    "individuals": 71,
     "fin_by_category": {
       "Deepfake fraud": 7,
       "AI-assisted malware": 1,
@@ -153,13 +153,13 @@
   },
   "this_quarter": {
     "q": "2026-Q4",
-    "n": 58,
+    "n": 59,
     "prev_q": "2026-Q3",
     "prev_n": 49
   },
   "direction": {
     "on-ai": 84,
-    "with-ai": 134
+    "with-ai": 135
   },
   "on_ai_share_first_half": 31,
   "on_ai_share_last_half": 42,
@@ -264,23 +264,23 @@
     },
     {
       "q": "2026-Q4",
-      "n": 58,
+      "n": 59,
       "on-ai": 16,
-      "with-ai": 37,
+      "with-ai": 38,
       "severity": {
         "critical": 3,
-        "high": 20,
+        "high": 21,
         "medium": 34,
         "low": 1
       },
       "autonomous": 6,
-      "real_world": 57
+      "real_world": 58
     }
   ],
   "categories": [
     {
       "category": "Deepfake fraud",
-      "n": 44,
+      "n": 45,
       "by_quarter": [
         13,
         9,
@@ -289,9 +289,9 @@
         10,
         11,
         12,
-        4
+        5
       ],
-      "growth_last4_vs_prev4": -13
+      "growth_last4_vs_prev4": -12
     },
     {
       "category": "AI-assisted malware",
@@ -461,7 +461,7 @@
   ],
   "rising_category": "AI supply chain",
   "top_category": "Deepfake fraud",
-  "top_category_n": 44,
+  "top_category_n": 45,
   "autonomous": {
     "by_year": {
       "2025": 1,
@@ -486,9 +486,9 @@
       "actor_type": "criminal",
       "by_year": {
         "2025": 13,
-        "2026": 75
+        "2026": 76
       },
-      "n": 88
+      "n": 89
     },
     {
       "actor_type": "state",
@@ -553,7 +553,7 @@
   ],
   "severity": {
     "critical": 39,
-    "high": 108,
+    "high": 109,
     "medium": 94,
     "low": 7
   },
@@ -632,7 +632,7 @@
     },
     {
       "sector": "Individuals & consumers",
-      "n": 70
+      "n": 71
     },
     {
       "sector": "Multiple / cross-sector",
@@ -701,14 +701,6 @@
       "n": 4
     },
     {
-      "country": "NG",
-      "n": 3
-    },
-    {
-      "country": "CA",
-      "n": 3
-    },
-    {
       "country": "UA",
       "n": 3
     },
@@ -721,7 +713,15 @@
       "n": 3
     },
     {
-      "country": "CN",
+      "country": "CA",
+      "n": 3
+    },
+    {
+      "country": "NG",
+      "n": 3
+    },
+    {
+      "country": "TW",
       "n": 3
     }
   ],
@@ -752,6 +752,10 @@
       "n": 8
     },
     {
+      "status": "criminal case opened",
+      "n": 1
+    },
+    {
       "status": "prosecuted; ring members sentenced to up to 11 years",
       "n": 1
     },
@@ -762,7 +766,7 @@
   ],
   "unresolved_pct": 67,
   "verify_median_hours": 19.8,
-  "verify_sample": 59,
+  "verify_sample": 60,
   "researcher_demos": 21,
   "pulse": [
     {

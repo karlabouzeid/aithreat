@@ -7873,5 +7873,37 @@
     "timeline": [
       "新浪财经_金融信息服务商 报道"
     ]
+  },
+  {
+    "title": "里诺市（Reno）一男子因赌场人脸识别系统将其误认为被禁入顾客而遭错误关押；诉讼仍在进行中",
+    "summary": "Jason Killinger 于 2023 年 9 月在里诺市（Reno）的 Peppermill 赌场被捕，此前该赌场的人脸识别系统将其标记为被禁入男子 Michael Ellis。据称一名警官将该比对结果视为充分依据，将其关押，直至指纹确认了他的身份。在其民权诉讼中，法庭记录显示，一名女侦探作证称，她在认定该次逮捕不当后被告知不要撰写报告。",
+    "target": "Jason Killinger，里诺市（Reno）居民",
+    "actor": "Peppermill 赌场人脸识别系统；里诺市（Reno）警察局警官 Richard Jager（逮捕警官，诉状中被点名）",
+    "attribution": "依据 Killinger 民权诉讼法庭记录中一名侦探的证词；相关指控尚未经法院裁决。",
+    "motive": "未知",
+    "vector": "在逮捕中使用人脸识别结果进行身份认定。",
+    "root_cause": "一次错误的人脸识别比对据称导致了错误逮捕，且一名上级据称下令不要撰写报告。",
+    "impact": "Killinger 被拘押并关押约 11 小时，之后指纹显示他并非那名被禁入者。",
+    "response": "Killinger 起诉了该警官，随后又起诉了里诺市（City of Reno）；赌场在开庭前达成和解；ACLU 与 Innocence Project 于 2026 年 9 月 21 日提交了法庭之友意见书。",
+    "id": "reno-facial-recognition-killinger",
+    "timeline": [
+      "由 AI Incident Database 报道"
+    ]
+  },
+  {
+    "title": "乌斯季伊利姆斯克（Ust-Ilimsk）一名退休老人被骗子利用伊尔库茨克州州长 Kobzev 的“数字分身”骗走 2600 万卢布，官员称",
+    "summary": "州长 Igor Kobzev 表示，骗子利用其“数字分身”欺骗了伊尔库茨克州（Irkutsk Oblast）乌斯季伊利姆斯克（Ust-Ilimsk）的一名退休老人，后者于 2026 年 10 月下旬交出了 2600 万卢布，几乎是她的全部积蓄。媒体报道称对方复制了声音并使用了视频通话，警方称另有 600 万卢布得以保住。该 AI 技术尚未得到独立核实。",
+    "target": "俄罗斯伊尔库茨克州（Irkutsk Oblast）乌斯季伊利姆斯克（Ust-Ilimsk）的一名退休老人",
+    "actor": "身份不明的诈骗者（据称）",
+    "attribution": "诈骗者身份不明；未指明任何团伙。",
+    "motive": "谋取经济利益",
+    "vector": "通过深度伪造冒充地区领导人来欺骗受害者。",
+    "root_cause": "以受信任官员为对象的逼真深度伪造，与针对老年受害者的社会工程学手段相结合。",
+    "impact": "受害者交出了 2600 万卢布，几乎是她的全部积蓄；警方阻止了另外 600 万卢布被转出。",
+    "response": "警方立了刑事案件，并叫来医护人员和救援人员，阻止最后 600 万卢布被交出；州长提醒居民警惕其数字分身。",
+    "id": "priangarye-governor-deepfake-26m",
+    "timeline": [
+      "由 prospect.com.ru 报道"
+    ]
   }
 ]

@@ -7873,5 +7873,37 @@
     "timeline": [
       "Signalé par 新浪财经_金融信息服务商"
     ]
+  },
+  {
+    "title": "Un homme de Reno injustement incarcéré après qu'un système de reconnaissance faciale de casino l'a confondu avec un client banni ; la procédure judiciaire est en cours",
+    "summary": "Jason Killinger a été arrêté au casino Peppermill de Reno en septembre 2023 après que le système de reconnaissance faciale du casino l'a signalé comme étant un homme banni, Michael Ellis. Un policier aurait considéré la correspondance comme un motif suffisant et l'aurait fait incarcérer jusqu'à ce que ses empreintes digitales confirment son identité. Dans le cadre de sa plainte pour atteinte aux droits civiques, les pièces du dossier judiciaire montrent qu'une inspectrice a déclaré avoir reçu l'ordre de ne pas rédiger de rapport après avoir conclu que l'arrestation était injustifiée.",
+    "target": "Jason Killinger, résident de Reno",
+    "actor": "Système de reconnaissance faciale du casino Peppermill ; policier de Reno Richard Jager (agent ayant procédé à l'arrestation, nommé dans la plainte)",
+    "attribution": "D'après le témoignage d'une inspectrice consigné dans les pièces du dossier de la plainte de Killinger pour atteinte aux droits civiques ; allégations sur lesquelles aucun tribunal ne s'est prononcé.",
+    "motive": "Inconnu",
+    "vector": "Identification par reconnaissance faciale utilisée lors d'une arrestation.",
+    "root_cause": "Une fausse correspondance de reconnaissance faciale aurait conduit à une arrestation injustifiée, et un supérieur aurait ordonné qu'aucun rapport ne soit rédigé.",
+    "impact": "Killinger a été détenu et incarcéré pendant environ 11 heures, jusqu'à ce que ses empreintes digitales montrent qu'il n'était pas la personne bannie.",
+    "response": "Killinger a poursuivi le policier, puis la ville de Reno ; le casino a conclu un accord à l'amiable avant le procès ; l'ACLU et l'Innocence Project ont déposé un mémoire d'amicus curiae le 21 septembre 2026.",
+    "id": "reno-facial-recognition-killinger",
+    "timeline": [
+      "Signalé par AI Incident Database"
+    ]
+  },
+  {
+    "title": "Une retraitée d'Ust-Ilimsk perd 26 millions de roubles face à des escrocs utilisant un « double numérique » du gouverneur d'Irkoutsk Kobzev, selon les autorités",
+    "summary": "Le gouverneur Igor Kobzev a déclaré que des escrocs avaient utilisé son « double numérique » pour tromper une retraitée d'Ust-Ilimsk, dans l'oblast d'Irkoutsk, qui a remis 26 millions de roubles, la quasi-totalité de ses économies, fin octobre 2026. Des articles de presse font état d'une voix copiée et d'un appel vidéo, et la police indique que 6 millions de roubles supplémentaires ont pu être sauvés. La technique d'IA employée n'a pas été vérifiée de manière indépendante.",
+    "target": "Retraitée d'Ust-Ilimsk, oblast d'Irkoutsk, Russie",
+    "actor": "Fraudeurs non identifiés (présumés)",
+    "attribution": "Escrocs inconnus ; aucun groupe n'est nommé.",
+    "motive": "Gain financier",
+    "vector": "Usurpation d'identité par hypertrucage (deepfake) d'un dirigeant régional afin de tromper la victime.",
+    "root_cause": "Des hypertrucages (deepfakes) convaincants d'un responsable de confiance, associés à de l'ingénierie sociale visant une victime âgée.",
+    "impact": "La victime a remis 26 millions de roubles, presque toutes ses économies ; la police a empêché le transfert de 6 millions de roubles supplémentaires.",
+    "response": "La police a ouvert une enquête pénale et fait appel à des médecins et à des secouristes pour empêcher la remise des derniers 6 millions de roubles ; le gouverneur a mis en garde les habitants contre son double numérique.",
+    "id": "priangarye-governor-deepfake-26m",
+    "timeline": [
+      "Signalé par prospect.com.ru"
+    ]
   }
 ]

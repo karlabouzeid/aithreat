@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T18:52:03Z",
+  "generated_at": "2026-11-04T19:05:41Z",
   "categories": [
     {
       "name": "AI exam fraud",
@@ -9,7 +9,7 @@
     {
       "name": "AI misfire",
       "slug": "ai-misfire",
-      "count": 6
+      "count": 7
     },
     {
       "name": "AI phishing",
@@ -44,7 +44,7 @@
     {
       "name": "Deepfake fraud",
       "slug": "deepfake-fraud",
-      "count": 87
+      "count": 88
     },
     {
       "name": "LLMjacking",
@@ -262,7 +262,7 @@
     },
     {
       "code": "RU",
-      "count": 1
+      "count": 2
     },
     {
       "code": "SE",
@@ -294,7 +294,7 @@
     },
     {
       "code": "US",
-      "count": 124
+      "count": 125
     },
     {
       "code": "UY",

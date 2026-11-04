@@ -7873,5 +7873,37 @@
     "timeline": [
       "Informado por 新浪财经_金融信息服务商"
     ]
+  },
+  {
+    "title": "Un hombre de Reno es encarcelado por error después de que el reconocimiento facial de un casino lo confundiera con un cliente con prohibición de entrada; la demanda sigue en curso",
+    "summary": "Jason Killinger fue detenido en el casino Peppermill de Reno en septiembre de 2023 después de que el sistema de reconocimiento facial del casino lo señalara como un hombre con prohibición de entrada, Michael Ellis. Presuntamente, un agente consideró la coincidencia como motivo suficiente y lo encarceló hasta que las huellas dactilares confirmaron su identidad. En la demanda de Killinger por violación de derechos civiles, los registros judiciales muestran que una detective declaró que se le dijo que no redactara un informe después de concluir que la detención había sido improcedente.",
+    "target": "Jason Killinger, residente de Reno",
+    "actor": "Sistema de reconocimiento facial del casino Peppermill; el agente de la policía de Reno Richard Jager (agente que practicó la detención, mencionado en la demanda)",
+    "attribution": "Basada en el testimonio de una detective recogido en los registros judiciales de la demanda por derechos civiles de Killinger; las alegaciones no han sido objeto de resolución judicial.",
+    "motive": "Desconocido",
+    "vector": "Identificación mediante reconocimiento facial utilizada en una detención.",
+    "root_cause": "Una coincidencia facial falsa llevó presuntamente a una detención improcedente, y un superior habría ordenado presuntamente que no se redactara ningún informe.",
+    "impact": "Killinger permaneció detenido y encarcelado durante aproximadamente 11 horas, hasta que las huellas dactilares demostraron que no era la persona con prohibición de entrada.",
+    "response": "Killinger demandó al agente y, posteriormente, a la ciudad de Reno; el casino llegó a un acuerdo antes del juicio; la ACLU y el Innocence Project presentaron un escrito de amicus curiae el 2026-09-21.",
+    "id": "reno-facial-recognition-killinger",
+    "timeline": [
+      "Informado por AI Incident Database"
+    ]
+  },
+  {
+    "title": "Una pensionista de Ust-Ilimsk pierde 26.000.000 RUB a manos de estafadores que usaron un “doble digital” del gobernador de Irkutsk, Kobzev, según las autoridades",
+    "summary": "El gobernador Igor Kobzev afirmó que unos estafadores usaron su “doble digital” para engañar a una pensionista de Ust-Ilimsk, en el óblast de Irkutsk, quien entregó 26.000.000 RUB, casi todos sus ahorros, a finales de octubre de 2026. Los medios describen una voz copiada y una videollamada, y la policía asegura que se logró salvar otros 6.000.000 RUB. La técnica de IA empleada no ha sido verificada de forma independiente.",
+    "target": "Pensionista de Ust-Ilimsk, óblast de Irkutsk, Rusia",
+    "actor": "Estafadores no identificados (presuntos)",
+    "attribution": "Estafadores desconocidos; no se ha señalado a ningún grupo.",
+    "motive": "Lucro económico",
+    "vector": "Suplantación mediante deepfake de un dirigente regional para engañar a la víctima.",
+    "root_cause": "Deepfakes convincentes de un funcionario de confianza combinados con ingeniería social dirigida a una víctima de edad avanzada.",
+    "impact": "La víctima entregó 26.000.000 RUB, casi todos sus ahorros; la policía impidió que se transfirieran otros 6.000.000 RUB.",
+    "response": "La policía abrió una causa penal y recurrió a personal médico y a rescatistas para evitar que se entregaran los últimos 6.000.000 RUB; el gobernador advirtió a los residentes sobre su doble digital.",
+    "id": "priangarye-governor-deepfake-26m",
+    "timeline": [
+      "Informado por prospect.com.ru"
+    ]
   }
 ]

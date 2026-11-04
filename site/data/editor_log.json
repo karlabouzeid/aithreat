@@ -190,5 +190,37 @@
     "reason": "Meta's AI support bot being tricked into handing over Instagram accounts is already filed as meta-ai-support-instagram; the Simon Willison source is itself dated June 2026.",
     "duplicate_of": "meta-ai-support-instagram",
     "at": "2026-11-04T18:52:03Z"
+  },
+  {
+    "id": "priangarye-governor-deepfake-26m",
+    "title": "Deepfake of Priangarye head used to steal 26M rubles from pensioner",
+    "decision": "approve",
+    "reason": "Governor Kobzev publicly confirmed a scam using his 'digital double' that took 26M rubles from an Ust-Ilimsk pensioner, and TASS, M24, Prime and regional police reports corroborate it, with a criminal case opened.",
+    "duplicate_of": null,
+    "at": "2026-11-04T19:05:41Z"
+  },
+  {
+    "id": "ultralytics-pypi-cryptomining-55e5",
+    "title": "Ultralytics AI library compromised via GitHub Actions to push cryptominer",
+    "decision": "reject",
+    "reason": "Same GitHub Actions compromise of Ultralytics pushing a cryptominer to PyPI that is already in the known list.",
+    "duplicate_of": "ultralytics-pypi-cryptomining",
+    "at": "2026-11-04T19:05:41Z"
+  },
+  {
+    "id": "aepd-first-ai-agent-data-breach",
+    "title": "Spanish AEPD reveals country's first AI agent-driven data breach",
+    "decision": "reject",
+    "reason": "Same AEPD announcement of Spain's first AI-agent-driven multi-stage data theft as the known case dated 2026-10-14.",
+    "duplicate_of": "aepd-spain-first-ai-agent-breach",
+    "at": "2026-11-04T19:05:41Z"
+  },
+  {
+    "id": "reno-facial-recognition-killinger",
+    "title": "Reno man wrongly jailed after false facial recognition match, suit says",
+    "decision": "approve",
+    "reason": "Jason Killinger's wrongful arrest after the Peppermill casino's facial recognition system misidentified him, and his ongoing federal suit, are confirmed by This Is Reno, the ACLU and Biometric Update, and the event is not a known case.",
+    "duplicate_of": null,
+    "at": "2026-11-04T19:05:41Z"
   }
 ]

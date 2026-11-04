@@ -450,51 +450,6 @@
     "updated_at": "2026-10-16T14:05:39Z"
   },
   {
-    "id": "ultralytics-pypi-cryptomining-55e5",
-    "date": "2024-12-05",
-    "title": "Ultralytics AI library compromised via GitHub Actions to push cryptominer",
-    "category": "AI supply chain",
-    "direction": "on-ai",
-    "severity": "high",
-    "country": "GL",
-    "region": "Global",
-    "target": "Ultralytics AI library and its PyPI users",
-    "loss_usd": null,
-    "summary": "A supply chain attack on Ultralytics exploited GitHub Actions to inject malicious PyPI packages that ran cryptomining on victims' systems.",
-    "actor": "Unknown",
-    "actor_type": "criminal",
-    "sector": "Technology & AI vendors",
-    "attribution": "No actor is named in the summary. The cryptomining payload suggests financially motivated attackers.",
-    "motive": "Cryptomining (financial gain)",
-    "vector": "GitHub Actions exploitation used to inject malicious PyPI packages",
-    "root_cause": "A weakness in the project's GitHub Actions workflow let attackers inject code into the release pipeline.",
-    "impact": "Malicious Ultralytics package versions were published to PyPI and mined cryptocurrency on users' machines. The number of victims is not stated.",
-    "response": "Wiz published mitigation steps; other remediation details are not stated.",
-    "status": "patched",
-    "cve": null,
-    "confidence": 0.65,
-    "source": "Wiz Research",
-    "url": "https://www.wiz.io/blog/ultralytics-ai-library-hacked-via-github-for-cryptomining",
-    "sources": [
-      {
-        "name": "Wiz Research",
-        "url": "https://www.wiz.io/blog/ultralytics-ai-library-hacked-via-github-for-cryptomining"
-      }
-    ],
-    "timeline": [
-      {
-        "date": "2024-12-05",
-        "event": "Reported by Wiz Research"
-      }
-    ],
-    "verified": false,
-    "drafted_at": "2026-10-16T14:05:39Z",
-    "wire_id": "55e50a2184f5",
-    "first_seen": "2026-10-16T14:05:39Z",
-    "first_published": "2024-12-09T15:56:01Z",
-    "updated_at": "2026-10-16T14:05:39Z"
-  },
-  {
     "id": "microsoft-ai-repo-38tb-sas-exposure",
     "date": "2023-09-18",
     "title": "Microsoft AI researchers' GitHub repo exposes 38TB via misconfigured SAS token",
@@ -9688,54 +9643,6 @@
     "updated_at": "2026-11-03T00:05:41Z"
   },
   {
-    "id": "aepd-first-ai-agent-data-breach",
-    "date": "2026-11-03",
-    "title": "Spanish AEPD reveals country's first AI agent-driven data breach",
-    "category": "AI-assisted malware",
-    "direction": "with-ai",
-    "severity": "high",
-    "country": "ES",
-    "region": "Europe",
-    "target": "Unknown organization in Spain",
-    "loss_usd": null,
-    "summary": "Spain's data protection agency AEPD says an AI agent carried out a multi-stage data theft attack, the country's first AI-powered data breach.",
-    "actor": "Unknown",
-    "actor_type": "unknown",
-    "sector": "Unknown",
-    "attribution": "AEPD attributes the attack to an AI agent; the human operator is not identified.",
-    "motive": "Unknown",
-    "vector": "AI agent running a multi-stage attack",
-    "root_cause": "Unknown",
-    "impact": "Data stolen in a multi-stage attack; volume and victim not stated.",
-    "response": "AEPD disclosed the breach.",
-    "status": "under investigation",
-    "cve": null,
-    "young_people": false,
-    "setting": null,
-    "age_group": null,
-    "confidence": 0.65,
-    "source": "Infosecurity Magazine",
-    "url": "https://www.infosecurity-magazine.com/news/ai-agent-carries-out-multistage",
-    "sources": [
-      {
-        "name": "Infosecurity Magazine",
-        "url": "https://www.infosecurity-magazine.com/news/ai-agent-carries-out-multistage"
-      }
-    ],
-    "timeline": [
-      {
-        "date": "2026-11-03",
-        "event": "Reported by Infosecurity Magazine"
-      }
-    ],
-    "verified": false,
-    "drafted_at": "2026-11-03T00:05:41Z",
-    "wire_id": "5cea1c7bb0f3",
-    "first_seen": "2026-11-03T00:05:41Z",
-    "first_published": "2026-09-17T08:25:00Z",
-    "updated_at": "2026-11-03T00:05:41Z"
-  },
-  {
     "id": "fake-codex-google-sites-macos-malware-456c",
     "date": "2026-11-03",
     "title": "Fake Codex download pages on Google Sites deliver macOS malware",
@@ -9923,54 +9830,6 @@
     "verified": false,
     "drafted_at": "2026-11-03T00:05:41Z",
     "wire_id": "d5dd6b7219be",
-    "first_seen": "2026-11-03T00:05:41Z",
-    "first_published": "2026-10-15T00:00:00Z",
-    "updated_at": "2026-11-03T00:05:41Z"
-  },
-  {
-    "id": "reno-facial-recognition-killinger",
-    "date": "2026-11-03",
-    "title": "Reno man wrongly jailed after false facial recognition match, suit says",
-    "category": "AI misfire",
-    "direction": "ai-harm",
-    "severity": "high",
-    "country": "US",
-    "region": "North America",
-    "target": "Jason Killinger, Reno resident",
-    "loss_usd": null,
-    "summary": "Court records in Jason Killinger's civil rights lawsuit show a Reno detective testified she was ordered not to write a report after concluding officer Richard Jager wrongly jailed him on a false facial recognition match.",
-    "actor": "Reno Police Department facial recognition use",
-    "actor_type": "accident",
-    "sector": "Individuals & consumers",
-    "attribution": "Based on a detective's testimony in court records of Killinger's civil rights lawsuit; allegations not ruled on by a court.",
-    "motive": "Unknown",
-    "vector": "Facial recognition identification used in an arrest.",
-    "root_cause": "A false facial recognition match allegedly led to a wrongful arrest, and a supervisor allegedly ordered that no report be written.",
-    "impact": "Killinger was jailed wrongly, per the lawsuit and testimony.",
-    "response": "Killinger filed a civil rights lawsuit; the detective's testimony is in the court record.",
-    "status": "under investigation",
-    "cve": null,
-    "young_people": false,
-    "setting": null,
-    "age_group": null,
-    "confidence": 0.65,
-    "source": "AI Incident Database",
-    "url": "https://thisisreno.com/2026/10/killinger-civil-rights-lawsuit",
-    "sources": [
-      {
-        "name": "AI Incident Database",
-        "url": "https://thisisreno.com/2026/10/killinger-civil-rights-lawsuit"
-      }
-    ],
-    "timeline": [
-      {
-        "date": "2026-11-03",
-        "event": "Reported by AI Incident Database"
-      }
-    ],
-    "verified": false,
-    "drafted_at": "2026-11-03T00:05:41Z",
-    "wire_id": "32dc435d6c95",
     "first_seen": "2026-11-03T00:05:41Z",
     "first_published": "2026-10-15T00:00:00Z",
     "updated_at": "2026-11-03T00:05:41Z"
@@ -11509,54 +11368,6 @@
     "wire_id": "8bb523deb14d",
     "first_seen": "2026-11-04T11:05:40Z",
     "first_published": "2026-11-04T10:31:20Z",
-    "updated_at": "2026-11-04T11:05:40Z"
-  },
-  {
-    "id": "priangarye-governor-deepfake-26m",
-    "date": "2026-11-04",
-    "title": "Deepfake of Priangarye head used to steal 26M rubles from pensioner",
-    "category": "Deepfake fraud",
-    "direction": "with-ai",
-    "severity": "high",
-    "country": "RU",
-    "region": "Europe",
-    "target": "Elderly woman (pensioner) in Russia",
-    "loss_usd": null,
-    "summary": "Scammers reportedly used a deepfake of the head of the Angara region (Priangarye) to take 26 million rubles from a pensioner.",
-    "actor": "Unknown",
-    "actor_type": "criminal",
-    "sector": "Individuals & consumers",
-    "attribution": "Unknown scammers; no group named.",
-    "motive": "Financial gain",
-    "vector": "Deepfake impersonation of a regional leader to deceive the victim.",
-    "root_cause": "Convincing deepfakes of a trusted official paired with social engineering of an elderly victim.",
-    "impact": "A pensioner reportedly lost 26 million rubles.",
-    "response": "Unknown",
-    "status": "under investigation",
-    "cve": null,
-    "young_people": false,
-    "setting": null,
-    "age_group": null,
-    "confidence": 0.7,
-    "source": "prospect.com.ru",
-    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNenBRcl9lX2wtWEwybjd6TnpUOFlVOVNTMktzY3djNHROWHdUbXdDWHlXV1pXT3JNeDZObXNhWnVxWXRWV01QTk1TbXpjMG9JMkJhTVhaUjZfVzdRNE8wRlh4MEExWFAybm0yd3ZmZVdMM2xfbk43SkkxendlUXc3OVBEX1VzM29yTzhCUnR0WVU4WGl2ZHVOYm9zczhyWlBlRHhXR3FJSWpWelljZU15amNzSXFUWlpESnVR?oc=5",
-    "sources": [
-      {
-        "name": "prospect.com.ru",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNenBRcl9lX2wtWEwybjd6TnpUOFlVOVNTMktzY3djNHROWHdUbXdDWHlXV1pXT3JNeDZObXNhWnVxWXRWV01QTk1TbXpjMG9JMkJhTVhaUjZfVzdRNE8wRlh4MEExWFAybm0yd3ZmZVdMM2xfbk43SkkxendlUXc3OVBEX1VzM29yTzhCUnR0WVU4WGl2ZHVOYm9zczhyWlBlRHhXR3FJSWpWelljZU15amNzSXFUWlpESnVR?oc=5"
-      }
-    ],
-    "timeline": [
-      {
-        "date": "2026-11-04",
-        "event": "Reported by prospect.com.ru"
-      }
-    ],
-    "verified": false,
-    "drafted_at": "2026-11-04T11:05:40Z",
-    "wire_id": "c852fa7b0c06",
-    "first_seen": "2026-11-04T11:05:40Z",
-    "first_published": "2026-11-03T15:37:52Z",
     "updated_at": "2026-11-04T11:05:40Z"
   },
   {

@@ -383,6 +383,61 @@
     "updated_at": "2026-10-19T13:40:55Z"
   },
   {
+    "id": "reno-facial-recognition-killinger",
+    "date": "2023-09-17",
+    "title": "Reno man wrongly jailed after casino facial recognition misidentified him as a banned patron; lawsuit ongoing",
+    "category": "AI misfire",
+    "direction": "ai-harm",
+    "severity": "high",
+    "country": "US",
+    "region": "North America",
+    "target": "Jason Killinger, Reno resident",
+    "loss_usd": null,
+    "summary": "Jason Killinger was arrested at the Peppermill casino in Reno in September 2023 after the casino's facial recognition system flagged him as a banned man, Michael Ellis. An officer allegedly treated the match as sufficient grounds and jailed him until fingerprints confirmed his identity. In his civil rights suit, court records show a detective testified she was told not to write a report after concluding the arrest was wrongful.",
+    "actor": "Peppermill casino facial recognition system; Reno police officer Richard Jager (arresting officer, named in suit)",
+    "actor_type": "accident",
+    "sector": "Individuals & consumers",
+    "attribution": "Based on a detective's testimony in court records of Killinger's civil rights lawsuit; allegations not ruled on by a court.",
+    "motive": "Unknown",
+    "vector": "Facial recognition identification used in an arrest.",
+    "root_cause": "A false facial recognition match allegedly led to a wrongful arrest, and a supervisor allegedly ordered that no report be written.",
+    "impact": "Killinger was detained and jailed for roughly 11 hours before fingerprints showed he was not the banned person.",
+    "response": "Killinger sued the officer and later the City of Reno; the casino settled before trial; the ACLU and Innocence Project filed an amicus brief on 2026-09-21.",
+    "status": "litigation ongoing",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "source": "AI Incident Database",
+    "url": "https://thisisreno.com/2026/10/killinger-civil-rights-lawsuit",
+    "sources": [
+      {
+        "name": "AI Incident Database",
+        "url": "https://thisisreno.com/2026/10/killinger-civil-rights-lawsuit"
+      },
+      {
+        "name": "ACLU",
+        "url": "https://www.aclu.org/cases/killinger-v-jager"
+      },
+      {
+        "name": "Biometric Update",
+        "url": "https://www.biometricupdate.com/202604/lawsuit-alleges-systemic-misuse-of-facial-recognition-by-reno-police"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-11-03",
+        "event": "Reported by AI Incident Database"
+      }
+    ],
+    "drafted_at": "2026-11-03T00:05:41Z",
+    "first_seen": "2026-11-03T00:05:41Z",
+    "updated_at": "2026-11-04T19:05:41Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-04T19:05:41Z"
+  },
+  {
     "id": "microsoft-ai-38tb-sas-token-exposure",
     "date": "2023-09-18",
     "title": "Microsoft AI researchers expose 38TB of data via misconfigured SAS token",
@@ -23724,5 +23779,60 @@
     "verification": "reported",
     "review": "auto",
     "verified_at": "2026-11-04T18:52:03Z"
+  },
+  {
+    "id": "priangarye-governor-deepfake-26m",
+    "date": "2026-11-03",
+    "title": "Pensioner in Ust-Ilimsk loses 26M rubles to scammers using a 'digital double' of Irkutsk governor Kobzev, officials say",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "RU",
+    "region": "Irkutsk Oblast",
+    "target": "Pensioner in Ust-Ilimsk, Irkutsk Oblast, Russia",
+    "loss_usd": null,
+    "summary": "Governor Igor Kobzev said scammers used his 'digital double' to deceive a pensioner in Ust-Ilimsk, Irkutsk Oblast, who handed over 26 million rubles, nearly all her savings, in late October 2026. Media reports describe a copied voice and a video call, and police say a further 6 million rubles was saved. The AI technique has not been independently verified.",
+    "actor": "Unidentified fraudsters (alleged)",
+    "actor_type": "criminal",
+    "sector": "Individuals & consumers",
+    "attribution": "Unknown scammers; no group named.",
+    "motive": "Financial gain",
+    "vector": "Deepfake impersonation of a regional leader to deceive the victim.",
+    "root_cause": "Convincing deepfakes of a trusted official paired with social engineering of an elderly victim.",
+    "impact": "Victim handed over 26 million rubles, almost all her savings; police prevented a further 6 million rubles from being transferred.",
+    "response": "Police opened a criminal case and called in medics and rescuers to stop the last 6M rubles being handed over; the governor warned residents about his digital double.",
+    "status": "criminal case opened",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "source": "prospect.com.ru",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNenBRcl9lX2wtWEwybjd6TnpUOFlVOVNTMktzY3djNHROWHdUbXdDWHlXV1pXT3JNeDZObXNhWnVxWXRWV01QTk1TbXpjMG9JMkJhTVhaUjZfVzdRNE8wRlh4MEExWFAybm0yd3ZmZVdMM2xfbk43SkkxendlUXc3OVBEX1VzM29yTzhCUnR0WVU4WGl2ZHVOYm9zczhyWlBlRHhXR3FJSWpWelljZU15amNzSXFUWlpESnVR?oc=5",
+    "sources": [
+      {
+        "name": "prospect.com.ru",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNenBRcl9lX2wtWEwybjd6TnpUOFlVOVNTMktzY3djNHROWHdUbXdDWHlXV1pXT3JNeDZObXNhWnVxWXRWV01QTk1TbXpjMG9JMkJhTVhaUjZfVzdRNE8wRlh4MEExWFAybm0yd3ZmZVdMM2xfbk43SkkxendlUXc3OVBEX1VzM29yTzhCUnR0WVU4WGl2ZHVOYm9zczhyWlBlRHhXR3FJSWpWelljZU15amNzSXFUWlpESnVR?oc=5"
+      },
+      {
+        "name": "TASS via Rambler",
+        "url": "https://news.rambler.ru/incidents/57352332-v-priangare-pensionerku-obmanuli-s-pomoschyu-tsifrovogo-dvoynika-gubernatora/"
+      },
+      {
+        "name": "M24",
+        "url": "https://www.m24.ru/news/03112026/960240"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-11-04",
+        "event": "Reported by prospect.com.ru"
+      }
+    ],
+    "drafted_at": "2026-11-04T11:05:40Z",
+    "first_seen": "2026-11-04T11:05:40Z",
+    "updated_at": "2026-11-04T19:05:41Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-04T19:05:41Z"
   }
 ]

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T19:00:01Z",
+  "generated_at": "2026-11-04T19:15:37Z",
   "licence": "CC BY 4.0",
   "sources": [
     {
@@ -752,9 +752,9 @@
       "claim": "AI systems are complex and unreliable, so accidents are normal; the goal must be to stop accidents from cascading into disasters.",
       "status": "observed",
       "note": "Coding agents have wiped databases and drives, assistants have published private chats, and staff acting on an AI agent's advice exposed sensitive data.",
-      "n": 16,
-      "real_world": 16,
-      "first_real_world": "2023-09-18",
+      "n": 17,
+      "real_world": 17,
+      "first_real_world": "2023-09-17",
       "months_after_publication": 3,
       "url": "https://aithreat.io/research/accidents-normal/",
       "cases": [
@@ -773,7 +773,8 @@
         "xai-key-leak-spacex-tesla-llms",
         "korea-pipc-deepseek-prompt-transfer",
         "deepseek-db-exposure",
-        "microsoft-ai-38tb-sas-token-exposure"
+        "microsoft-ai-38tb-sas-token-exposure",
+        "reno-facial-recognition-killinger"
       ],
       "history": [
         {
@@ -996,12 +997,13 @@
       "claim": "Realistic AI-generated voices, images and video are used for fraud, extortion and sexual imagery made without consent, and cheap tools have made such content easy to produce at scale.",
       "status": "observed",
       "note": "The largest category in the registry: cloned voices and deepfake video calls impersonating executives, officials and relatives, and deepfake celebrity ads behind investment scams. The report adds that victims often do not report, so public cases undercount the harm.",
-      "n": 84,
-      "real_world": 84,
+      "n": 85,
+      "real_world": 85,
       "first_real_world": "2025-01-05",
       "months_after_publication": -13,
       "url": "https://aithreat.io/research/iasr-synthetic-content/",
       "cases": [
+        "priangarye-governor-deepfake-26m",
         "cctv-ai-fiancee-romance-scam",
         "mendoza-retiree-messi-ai-scam",
         "ai-music-streaming-royalty-fraud",
@@ -2364,12 +2366,13 @@
       "claim": "People using AI for disinformation, surveillance and propaganda at scale; for cyberattacks and weapons; and for fraud, scams and targeted manipulation.",
       "status": "observed",
       "note": "The other pillar of the registry: deepfake fraud, AI-built malware, AI phishing and state operations.",
-      "n": 189,
-      "real_world": 188,
+      "n": 190,
+      "real_world": 189,
       "first_real_world": "2025-01-05",
       "months_after_publication": null,
       "url": "https://aithreat.io/research/mit-malicious-actors/",
       "cases": [
+        "priangarye-governor-deepfake-26m",
         "cctv-ai-fiancee-romance-scam",
         "workos-ai-framework-breach",
         "mendoza-retiree-messi-ai-scam",
@@ -2746,7 +2749,7 @@
     {
       "source": "cais-2023",
       "claims": 17,
-      "matched_cases": 181,
+      "matched_cases": 182,
       "matched_pct": 40,
       "status_counts": {
         "observed": 7,
@@ -2759,8 +2762,8 @@
     {
       "source": "iasr-2026",
       "claims": 11,
-      "matched_cases": 322,
-      "matched_pct": 72,
+      "matched_cases": 323,
+      "matched_pct": 71,
       "status_counts": {
         "observed": 5,
         "early": 3,
@@ -2824,7 +2827,7 @@
     {
       "source": "mit-risk-repository",
       "claims": 7,
-      "matched_cases": 392,
+      "matched_cases": 393,
       "matched_pct": 87,
       "status_counts": {
         "observed": 4,
@@ -2842,9 +2845,9 @@
     "none": 4,
     "outside": 7
   },
-  "matched_cases": 392,
-  "total_cases": 450,
-  "warning_matched_cases": 351,
+  "matched_cases": 394,
+  "total_cases": 452,
+  "warning_matched_cases": 353,
   "unmatched_pct": 22,
   "unmatched_by_category": [
     {
@@ -2865,7 +2868,7 @@
     {
       "category": "AI misfire",
       "unmatched": 6,
-      "total": 6
+      "total": 7
     },
     {
       "category": "AI exam fraud",
@@ -2885,7 +2888,7 @@
     {
       "category": "Deepfake fraud",
       "unmatched": 0,
-      "total": 87
+      "total": 88
     },
     {
       "category": "AI-assisted malware",

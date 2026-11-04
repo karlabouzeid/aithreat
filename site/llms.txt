@@ -5,7 +5,7 @@
 Positioning: a reference registry of AI security incidents (attacks on AI systems, and attacks carried out with AI): structured, verified, fast, multilingual and openly licensed.
 
 ## Key pages
-- [All verified case files](https://aithreat.io/cases/): 450 incidents, newest first, with hubs by type and country
+- [All verified case files](https://aithreat.io/cases/): 452 incidents, newest first, with hubs by type and country
 - [Interactive world map](https://aithreat.io/): the same cases on a map with filters
 - [Live wire](https://aithreat.io/#wire): AI security headlines from vetted sources, refreshed every 30 minutes (machine-triaged, not verified)
 - [Data and citing](https://aithreat.io/#data): download links, field list, inclusion rule, severity scale
@@ -26,14 +26,14 @@ Positioning: a reference registry of AI security incidents (attacks on AI system
 
 ## Case files by type
 - [AI exam fraud](https://aithreat.io/cases/category/ai-exam-fraud/): 5 cases
-- [AI misfire](https://aithreat.io/cases/category/ai-misfire/): 6 cases
+- [AI misfire](https://aithreat.io/cases/category/ai-misfire/): 7 cases
 - [AI phishing](https://aithreat.io/cases/category/ai-phishing/): 16 cases
 - [AI supply chain](https://aithreat.io/cases/category/ai-supply-chain/): 47 cases
 - [AI-assisted malware](https://aithreat.io/cases/category/ai-assisted-malware/): 49 cases
 - [Agent hijack](https://aithreat.io/cases/category/agent-hijack/): 28 cases
 - [Chatbot harm](https://aithreat.io/cases/category/chatbot-harm/): 47 cases
 - [Deepfake abuse](https://aithreat.io/cases/category/deepfake-abuse/): 47 cases
-- [Deepfake fraud](https://aithreat.io/cases/category/deepfake-fraud/): 87 cases
+- [Deepfake fraud](https://aithreat.io/cases/category/deepfake-fraud/): 88 cases
 - [LLMjacking](https://aithreat.io/cases/category/llmjacking/): 15 cases
 - [Model & data leak](https://aithreat.io/cases/category/model-data-leak/): 43 cases
 - [Prompt injection](https://aithreat.io/cases/category/prompt-injection/): 28 cases
@@ -245,6 +245,7 @@ Positioning: a reference registry of AI security incidents (attacks on AI system
 - [James Talarico, Texas Democratic Senate candidate](https://aithreat.io/cases/company/james-talarico-texas-democratic-senate-candidate/): 1 case
 - [Japanese internet users in a teen hacking chat group](https://aithreat.io/cases/company/japanese-internet-users-in-a-teen-hacking-chat-group/): 1 case
 - [Japanese residents called from a Kuala Lumpur call centre](https://aithreat.io/cases/company/japanese-residents-called-from-a-kuala-lumpur-call-centre/): 1 case
+- [Jason Killinger, Reno resident](https://aithreat.io/cases/company/jason-killinger-reno-resident/): 1 case
 - [Job seekers in Eastern European countries](https://aithreat.io/cases/company/job-seekers-in-eastern-european-countries/): 1 case
 - [Jordanian citizens; impersonated public figures](https://aithreat.io/cases/company/jordanian-citizens-impersonated-public-figures/): 1 case
 - [K-12 schools using Evolv Express AI weapons scanners (800+ schools)](https://aithreat.io/cases/company/k-12-schools-using-evolv-express-ai-weapons-scanners-800-schools/): 1 case
@@ -332,6 +333,7 @@ Positioning: a reference registry of AI security incidents (attacks on AI system
 - [Owners of internet-connected security cameras](https://aithreat.io/cases/company/owners-of-internet-connected-security-cameras/): 1 case
 - [PaperCut NG/MF servers at 395 organizations in 48 countries](https://aithreat.io/cases/company/papercut-ng-mf-servers-at-395-organizations-in-48-countries/): 1 case
 - [Pensioner in Mannheim/Heidelberg area](https://aithreat.io/cases/company/pensioner-in-mannheim-heidelberg-area/): 1 case
+- [Pensioner in Ust-Ilimsk, Irkutsk Oblast, Russia](https://aithreat.io/cases/company/pensioner-in-ust-ilimsk-irkutsk-oblast-russia/): 1 case
 - [Perplexity Comet AI browser](https://aithreat.io/cases/company/perplexity-comet-ai-browser/): 1 case
 - [Perplexity Comet, Copilot in Edge, Gemini in Chrome](https://aithreat.io/cases/company/perplexity-comet-copilot-in-edge-gemini-in-chrome/): 1 case
 - [Philadelphia Police Dept unsolved-murders tip line](https://aithreat.io/cases/company/philadelphia-police-dept-unsolved-murders-tip-line/): 1 case
@@ -489,6 +491,7 @@ Positioning: a reference registry of AI security incidents (attacks on AI system
 - [Young Ukrainian ChatGPT user living in Poland](https://aithreat.io/cases/company/young-ukrainian-chatgpt-user-living-in-poland/): 1 case
 
 ## Verified case files
+- [Pensioner in Ust-Ilimsk loses 26M rubles to scammers using a 'digital double' of Irkutsk governor Kobzev, officials say](https://aithreat.io/cases/priangarye-governor-deepfake-26m/): 2026-11-03, high, Deepfake fraud, Russia. Governor Igor Kobzev said scammers used his 'digital double' to deceive a pensioner in Ust-Ilimsk, Irkutsk Oblast, who handed over 26 million rubles, nearly all her savings, in late October 2026. Media reports describe a copied voice and a video call, and police say a further 6 million rubles was saved. The AI technique has not been independently verified.
 - [Shanghai man loses 180,000+ yuan to AI-image 'fiancée' in ring that took 1.8M yuan from 15 victims](https://aithreat.io/cases/cctv-ai-fiancee-romance-scam/): 2026-11-02, medium, Deepfake fraud, China. CCTV News reported that Mr. Liu, who works in Shanghai, transferred more than 180,000 yuan to an online 'fiancée' who turned out to be a fiction built by a fraud ring. Human chat operators followed a seven-day script and sent AI-generated or AI-altered photos, backed by forged medical and ID documents. Minhang police traced the ring and made arrests in Guangdong, Shandong, Guizhou and elsewhere. The ring defrauded 15 victims of more than 1.8 million yuan, and those involved received prison terms of up to 11 years.
 - [WorkOS internal sales app breached using AI-assisted offensive framework](https://aithreat.io/cases/workos-ai-framework-breach/): 2026-10-30, medium, AI-assisted malware, United States. WorkOS reported unauthorized access to an internal sales application on 30 October 2026. Its investigation reportedly found the attackers used an AI-assisted offensive security framework to automate reconnaissance and exploitation. Customer data was reportedly accessed.
 - [Hugging Face model malware campaign returns to hijack GPUs for crypto mining](https://aithreat.io/cases/hugging-face-gpu-mining-returns/): 2026-10-29, high, AI supply chain, Worldwide. Pluto Security found 31 malicious Hugging Face model repositories across seven accounts, published in two waves since September, that abuse the trust_remote_code option to install crypto miners and backdoors on GPU servers. The campaign returned within days of the first takedown, and a near-identical copy uploaded on 25 October was still live when BleepingComputer checked. The most popular model was downloaded over 28,000 times. BleepingComputer also reports, as a separate campaign, a fake Solana starter kit on GitHub aimed at tricking AI coding agents.
@@ -932,6 +935,7 @@ Positioning: a reference registry of AI security incidents (attacks on AI system
 - [Ecuador prosecutors probe AI sexual montages of 20 to 24 schoolgirls at a private Quito school](https://aithreat.io/cases/quito-school-ai-sexual-videos-classmates/): 2023-10-04, high, Deepfake abuse, EC. Two students at a private religious school near Quito allegedly used AI to make sexual montages of female classmates, with about 700 photos and videos reported to be circulating through WhatsApp groups. Ecuador's prosecutors opened a child pornography investigation, while parents and the group Rescate Escolar accused the school of failing to report the case promptly.
 - [AI 'undress' app used to make fake nudes of 20+ schoolgirls in Almendralejo; 15 minors later convicted](https://aithreat.io/cases/almendralejo-school-deepfake-nudes/): 2023-09-19, critical, Deepfake abuse, Spain. Boys aged 12 to 14 took girls' photos from social media, used an AI app to put their faces on naked bodies and shared the images in WhatsApp and Telegram groups, prompting at least 22 police complaints. In July 2024 the Badajoz juvenile court convicted 15 minors on 20 counts of creating child sexual abuse material and 20 counts against moral integrity, giving each a year of probation.
 - [Microsoft AI researchers expose 38TB of data via misconfigured SAS token](https://aithreat.io/cases/microsoft-ai-38tb-sas-token-exposure/): 2023-09-18, high, Model & data leak, United States. Wiz Research found Microsoft's AI GitHub repository exposed 38TB of data, including over 30,000 internal Teams messages, because of one misconfigured SAS token.
+- [Reno man wrongly jailed after casino facial recognition misidentified him as a banned patron; lawsuit ongoing](https://aithreat.io/cases/reno-facial-recognition-killinger/): 2023-09-17, high, AI misfire, United States. Jason Killinger was arrested at the Peppermill casino in Reno in September 2023 after the casino's facial recognition system flagged him as a banned man, Michael Ellis. An officer allegedly treated the match as sufficient grounds and jailed him until fingerprints confirmed his identity. In his civil rights suit, court records show a detective testified she was told not to write a report after concluding the arrest was wrongful.
 - [Peru prosecutors probe two Lima schoolboys accused of selling AI-made nudes of female classmates](https://aithreat.io/cases/lima-chorrillos-school-ai-nudes-sold/): 2023-08-29, high, Deepfake abuse, PE. Two secondary students, reportedly aged 13 and 14, allegedly took classmates' photos from social media, used an AI app to make nude images and sold them as packs for 15 to 30 soles. Chorrillos family prosecutors opened a child pornography investigation, the Women's Ministry demanded sanctions, and the school moved the two boys to virtual classes.
 - [Texas A&M-Commerce instructor asks ChatGPT if it wrote essays, then withholds grades of flagged seniors](https://aithreat.io/cases/texas-am-commerce-chatgpt-false-accusation/): 2023-05-18, medium, AI misfire, United States. An instructor pasted students' essays into ChatGPT, asked whether it had written them, and gave flagged students a zero or incomplete grade, putting some graduating seniors' diplomas on hold. ChatGPT cannot reliably detect AI text; the university said several students were cleared, one admitted using ChatGPT, and no one failed or was barred from graduating.
 - [Torswats swatting service uses synthesized voices to phone bomb and shooting threats to US high schools](https://aithreat.io/cases/torswats-synthetic-voice-school-swatting/): 2023-04-13, high, Deepfake abuse, United States. Motherboard found that a Telegram swatting-for-hire account, Torswats, used computer-generated voices in 33 of 35 recorded calls threatening bombings and mass shootings at high schools and other targets, charging $75 to close a school. The operator, a California teenager who was 16 when most calls were made, pleaded guilty to four federal counts and was sentenced in February 2025 to four years in prison for more than 375 swatting and threat calls.
