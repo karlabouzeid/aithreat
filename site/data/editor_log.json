@@ -62,5 +62,37 @@
     "reason": "GBHackers (2026-11-03) reports WorkOS disclosed unauthorized access to an internal sales application on 2026-10-30, with the investigation finding an AI-assisted offensive security framework was used for reconnaissance and exploitation; it is not a known case.",
     "duplicate_of": null,
     "at": "2026-11-04T17:45:22Z"
+  },
+  {
+    "id": "puente-alto-school-sexual-deepfakes",
+    "title": "AI sexual deepfakes of female students at Colegio Alicante del Sol, Puente Alto",
+    "decision": "approve",
+    "reason": "T13 (Chilean national broadcaster) reports parents' complaints that AI-made sexual material of Colegio Alicante del Sol pupils (grades 1-4 medio) was produced and circulated; the protest/clash details could not be verified and are removed, and the source date is 2026-10-03.",
+    "duplicate_of": null,
+    "at": "2026-11-04T18:05:40Z"
+  },
+  {
+    "id": "storm-0940-artex-connectwise",
+    "title": "Storm-0940 uses ARTEX agentic AI in ConnectWise supply chain compromise",
+    "decision": "approve",
+    "reason": "Microsoft Threat Intelligence's own 2026-10-21 post describes Storm-0940 using ARTEX agentic AI to speed a ConnectWise supply chain compromise with Microsoft 365 credential abuse, and it differs from the known unknown-actor ARTEX South Korea finance case.",
+    "duplicate_of": null,
+    "at": "2026-11-04T18:05:40Z"
+  },
+  {
+    "id": "kyrgyz-woman-sexual-deepfake-kaktus",
+    "title": "Kyrgyz woman, 23, says AI-undressed photo was sent to acquaintances",
+    "decision": "approve",
+    "reason": "Kaktus.media, a major Kyrgyz outlet, published the 23-year-old woman's account of an AI-made sexualised deepfake sent to acquaintances and her complaint that the police case is stalling; it is unproven, so the entry is marked alleged.",
+    "duplicate_of": null,
+    "at": "2026-11-04T18:05:40Z"
+  },
+  {
+    "id": "goias-ai-armed-photo-threat-ex",
+    "title": "Goiás man arrested for AI-faked armed photo used to threaten ex-partner",
+    "decision": "approve",
+    "reason": "Metropoles (2026-10-19) reports a man arrested in flagrante for an AI-forged gun image sent over WhatsApp to threaten his ex-partner, who recognised his tattoo; the draft date of 10-21 is corrected to the publication date.",
+    "duplicate_of": null,
+    "at": "2026-11-04T18:05:40Z"
   }
 ]

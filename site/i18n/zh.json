@@ -7681,5 +7681,69 @@
     "timeline": [
       "GBHackers 报道"
     ]
+  },
+  {
+    "title": "智利普恩特阿尔托（Puente Alto）Colegio Alicante del Sol 女生遭 AI 性深度伪造",
+    "summary": "家长指控，有人利用 AI 制作了智利普恩特阿尔托 Colegio Alicante del Sol 九至十二年级（primero a cuarto medio）女生的性内容材料，且该材料已在学生中流传。",
+    "target": "Colegio Alicante del Sol 的女生",
+    "actor": "不明",
+    "attribution": "在现有文本中未能确定材料的制作者；该案件被描述为指控性质。",
+    "motive": "不明",
+    "vector": "AI 生成的涉及学生的性化图像或视频，在校内人员之间传播。",
+    "root_cause": "不明；文本未说明使用了哪些 AI 工具，也未说明原始图像是如何获取的。",
+    "impact": "1-4 medio 年级的女生遭受数字性侵害。家长和学生愤怒不已，一场抗议最终演变为财物损毁以及与 Carabineros 的冲突。",
+    "response": "家长已提出投诉。抗议期间 Carabineros 到达学校。文中未提及其他官方行动。",
+    "id": "puente-alto-school-sexual-deepfakes",
+    "timeline": [
+      "由 AI Incident Database 报道"
+    ]
+  },
+  {
+    "title": "巴西戈亚斯州（Goiás）一男子因使用 AI 伪造持枪照片威胁前伴侣被捕",
+    "summary": "巴西戈亚斯州一名男子利用 AI 伪造了一张车内手枪的图像，并通过 WhatsApp 发送以威胁其前伴侣。受害人从图像中认出了一处纹身，该男子随后被当场抓获。",
+    "target": "其前伴侣",
+    "actor": "被戈亚斯州民事警察局（Polícia Civil de Goiás）逮捕的未具名男子",
+    "attribution": "警方逮捕了该男子；摘要中未提及其姓名。",
+    "motive": "恐吓前伴侣",
+    "vector": "利用 AI 图像生成或编辑技术伪造自己持枪的照片",
+    "root_cause": "易于获取的 AI 图像工具被滥用于家庭内部恐吓。",
+    "impact": "一名女性被以伪造的前伴侣持枪图像威胁。",
+    "response": "被戈亚斯州民事警察局（Polícia Civil de Goiás，PCGO）逮捕。",
+    "id": "goias-ai-armed-photo-threat-ex",
+    "timeline": [
+      "由 AI Incident Database 报道"
+    ]
+  },
+  {
+    "title": "Storm-0940 在 ConnectWise 供应链攻击中使用 ARTEX 智能体 AI",
+    "summary": "微软（Microsoft）报告了一起大规模国家级攻击活动：Storm-0940 利用 ARTEX 智能体 AI 加速对 ConnectWise 的供应链攻击，并滥用 Microsoft 365 中的应用程序凭据。",
+    "target": "ConnectWise 客户及 Microsoft 365 环境",
+    "actor": "Storm-0940",
+    "attribution": "Microsoft Security Blog 将该攻击活动归因于 Storm-0940，并称其为国家级攻击活动。",
+    "motive": "不明",
+    "vector": "借助 ARTEX 智能体 AI 加速的 ConnectWise 供应链攻击，随后在 Microsoft 365 中滥用应用程序凭据。",
+    "root_cause": "不明",
+    "impact": "被描述为大规模攻击；应用程序凭据在多个 Microsoft 365 环境中遭到滥用。受害者数量未说明。",
+    "response": "微软发布了对该攻击活动的分析。未给出其他响应细节。",
+    "id": "storm-0940-artex-connectwise",
+    "timeline": [
+      "由 Microsoft Security Blog 报道"
+    ]
+  },
+  {
+    "title": "吉尔吉斯斯坦 23 岁女子称其被 AI 脱衣的照片被发送给熟人",
+    "summary": "一名 23 岁女子向 Kaktus.media 表示，她是利用 AI 制作的性化深度伪造内容的受害者，该内容据称被发送给了熟人。她称担心警方的立案调查陷入停滞，肇事者可能逃脱惩罚；目前尚无任何事项得到证实。",
+    "target": "23 岁女子（普通个人）",
+    "actor": "不明",
+    "attribution": "不明；受害者向 Kaktus.media 表示，她担心肇事者会利用关系网逃避惩罚。",
+    "motive": "不明",
+    "vector": "利用 AI 工具根据她的照片生成性化图像，然后分发给熟人。",
+    "root_cause": "不明",
+    "impact": "针对受害者的性化深度伪造内容在其熟人之间流传；她称自己可能无法维护自己的权利。",
+    "response": "受害者联系了媒体，并抱怨案件进展迟缓。文中未描述官方行动。",
+    "id": "kyrgyz-woman-sexual-deepfake-kaktus",
+    "timeline": [
+      "由 AI Incident Database 报道"
+    ]
   }
 ]

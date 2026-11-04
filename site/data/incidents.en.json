@@ -20992,6 +20992,50 @@
     "sector": "Multiple / cross-sector"
   },
   {
+    "id": "puente-alto-school-sexual-deepfakes",
+    "date": "2026-10-03",
+    "title": "AI sexual deepfakes of female students at Colegio Alicante del Sol, Puente Alto",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "CL",
+    "region": "Latin America",
+    "target": "Female students at Colegio Alicante del Sol",
+    "loss_usd": null,
+    "summary": "Parents allege AI was used to create sexual material of female students in grades 9-12 (primero a cuarto medio) at Colegio Alicante del Sol in Puente Alto, Chile, and that the material circulated among students.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Education & research",
+    "attribution": "Creator(s) of the material not identified in the available text; the case is described as alleged.",
+    "motive": "Unknown",
+    "vector": "AI-generated sexualised images or videos of students, shared among people at the school.",
+    "root_cause": "Unknown; the text does not say which AI tools were used or how the source images were obtained.",
+    "impact": "Female students in grades 1-4 medio were affected by digital sexual abuse. Parents and students were angry, and a protest ended in damage and clashes with Carabineros.",
+    "response": "Parents filed complaints. Carabineros attended the school during the protest. No further official action is stated.",
+    "status": "under investigation",
+    "cve": null,
+    "source": "AI Incident Database",
+    "url": "https://www.t13.cl/noticia/nacional/mama-paso-algo-grave-apoderados-denuncian-abuso-sexual-digital-contra-sus-hijas-3-10-2026",
+    "sources": [
+      {
+        "name": "AI Incident Database",
+        "url": "https://www.t13.cl/noticia/nacional/mama-paso-algo-grave-apoderados-denuncian-abuso-sexual-digital-contra-sus-hijas-3-10-2026"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-15",
+        "event": "Reported by AI Incident Database"
+      }
+    ],
+    "drafted_at": "2026-10-17T20:35:37Z",
+    "first_seen": "2026-10-17T20:35:37Z",
+    "updated_at": "2026-11-04T18:05:40Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-04T18:05:40Z"
+  },
+  {
     "id": "ai-music-streaming-royalty-fraud",
     "date": "2026-10-06",
     "title": "Man sentenced in first US AI music streaming fraud case after $8M in bot-driven royalties",
@@ -22852,6 +22896,53 @@
     "verification": "reported"
   },
   {
+    "id": "goias-ai-armed-photo-threat-ex",
+    "date": "2026-10-19",
+    "title": "Goiás man arrested for AI-faked armed photo used to threaten ex-partner",
+    "category": "Deepfake abuse",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "BR",
+    "region": "Latin America",
+    "target": "His former partner",
+    "loss_usd": null,
+    "summary": "A man in Goiás, Brazil, used AI to forge an image of a pistol in a vehicle and sent it by WhatsApp to threaten his ex-partner. He was arrested in flagrante after the victim identified a tattoo in the image.",
+    "actor": "Unnamed man arrested by Polícia Civil de Goiás",
+    "actor_type": "criminal",
+    "sector": "Individuals & consumers",
+    "attribution": "Police arrested the man; he is not named in the summary.",
+    "motive": "Intimidation of ex-partner",
+    "vector": "AI image generation or editing to fake a photo of himself armed",
+    "root_cause": "Accessible AI image tools misused for domestic intimidation.",
+    "impact": "A woman was threatened with a fabricated image of her ex-partner armed.",
+    "response": "Arrested by Polícia Civil de Goiás (PCGO).",
+    "status": "suspect arrested",
+    "cve": null,
+    "young_people": false,
+    "setting": "home",
+    "age_group": null,
+    "source": "AI Incident Database",
+    "url": "https://www.metropoles.com/distrito-federal/na-mira/homem-usa-ia-para-simular-fotografia-armado-e-ameacar-ex-companheira",
+    "sources": [
+      {
+        "name": "AI Incident Database",
+        "url": "https://www.metropoles.com/distrito-federal/na-mira/homem-usa-ia-para-simular-fotografia-armado-e-ameacar-ex-companheira"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-21",
+        "event": "Reported by AI Incident Database"
+      }
+    ],
+    "drafted_at": "2026-10-21T20:05:42Z",
+    "first_seen": "2026-10-21T20:05:42Z",
+    "updated_at": "2026-11-04T18:05:40Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-04T18:05:40Z"
+  },
+  {
     "id": "litellm-1-107-0-trojanized-release",
     "date": "2026-10-21",
     "title": "Malicious LiteLLM 1.107.0 on PyPI and Docker steals browser, cloud and AI secrets",
@@ -22952,6 +23043,104 @@
     "verification": "reported",
     "review": "auto",
     "verified_at": "2026-11-04T17:45:22Z"
+  },
+  {
+    "id": "storm-0940-artex-connectwise",
+    "date": "2026-10-21",
+    "title": "Storm-0940 uses ARTEX agentic AI in ConnectWise supply chain compromise",
+    "category": "State actor AI ops",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "ConnectWise customers and Microsoft 365 environments",
+    "loss_usd": null,
+    "summary": "Microsoft reports a large-scale nation-state campaign in which Storm-0940 used ARTEX agentic AI to accelerate a ConnectWise supply chain compromise and abuse application credentials in Microsoft 365.",
+    "actor": "Storm-0940",
+    "actor_type": "state",
+    "sector": "Multiple / cross-sector",
+    "attribution": "Microsoft Security Blog attributes the campaign to Storm-0940 and describes it as nation-state activity.",
+    "motive": "Unknown",
+    "vector": "ConnectWise supply chain compromise accelerated by ARTEX agentic AI, then application credential abuse across Microsoft 365.",
+    "root_cause": "Unknown",
+    "impact": "Described as large-scale; application credentials were abused across Microsoft 365 environments. Number of victims not stated.",
+    "response": "Microsoft published its analysis of the campaign. Further response details are not given.",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "source": "Microsoft Security Blog",
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise",
+    "sources": [
+      {
+        "name": "Microsoft Security Blog",
+        "url": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise"
+      },
+      {
+        "name": "Microsoft Security Blog",
+        "url": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-21",
+        "event": "Reported by Microsoft Security Blog"
+      }
+    ],
+    "drafted_at": "2026-10-21T18:35:44Z",
+    "first_seen": "2026-10-21T18:35:44Z",
+    "updated_at": "2026-11-04T18:05:40Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-04T18:05:40Z"
+  },
+  {
+    "id": "kyrgyz-woman-sexual-deepfake-kaktus",
+    "date": "2026-10-21",
+    "title": "Kyrgyz woman, 23, alleges AI-undressed photo of her was sent to acquaintances",
+    "category": "Deepfake abuse",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "KG",
+    "region": "Asia-Pacific",
+    "target": "23-year-old woman (private individual)",
+    "loss_usd": null,
+    "summary": "A 23-year-old woman told Kaktus.media she was the victim of a sexualised deepfake made with AI and allegedly sent to acquaintances. She says she fears the police case is stalling and the culprit may escape punishment; nothing has been proven.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Individuals & consumers",
+    "attribution": "Unknown; the victim told Kaktus.media she fears the culprit will use connections to avoid punishment.",
+    "motive": "Unknown",
+    "vector": "AI tool used to create a sexualized image from her photo, then distributed to acquaintances.",
+    "root_cause": "Unknown",
+    "impact": "Sexualized deepfake of the victim circulated among people she knows; she says she may be unable to protect her rights.",
+    "response": "The victim contacted the media and complains of delays in the case. Official action is not described.",
+    "status": "unresolved",
+    "cve": null,
+    "young_people": true,
+    "setting": "online",
+    "age_group": "young-adult",
+    "source": "AI Incident Database",
+    "url": "https://kaktus.media/doc/554280_razdeli_fotografiu_cherez_ii_i_razoslali_znakomym._devyshka_jalyetsia_na_zatiagivanie_dela.html",
+    "sources": [
+      {
+        "name": "AI Incident Database",
+        "url": "https://kaktus.media/doc/554280_razdeli_fotografiu_cherez_ii_i_razoslali_znakomym._devyshka_jalyetsia_na_zatiagivanie_dela.html"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-21",
+        "event": "Reported by AI Incident Database"
+      }
+    ],
+    "drafted_at": "2026-10-21T18:35:44Z",
+    "first_seen": "2026-10-21T18:35:44Z",
+    "updated_at": "2026-11-04T18:05:40Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-04T18:05:40Z"
   },
   {
     "id": "warp-agent-logs-vendor-breach",

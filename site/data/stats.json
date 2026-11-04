@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-04T17:52:06Z",
-  "total": 236,
-  "all_time_total": 438,
+  "generated_at": "2026-11-04T18:14:53Z",
+  "total": 240,
+  "all_time_total": 442,
   "window_from": "2025-11-04",
   "window_to": "2026-11-04",
   "trend_from": "2025-01-01",
@@ -20,7 +20,7 @@
       "sao-paulo-fake-lawyer-voice-clone"
     ],
     "financial_services": 9,
-    "individuals": 66,
+    "individuals": 68,
     "fin_by_category": {
       "Deepfake fraud": 7,
       "AI-assisted malware": 1,
@@ -153,13 +153,13 @@
   },
   "this_quarter": {
     "q": "2026-Q4",
-    "n": 47,
+    "n": 51,
     "prev_q": "2026-Q3",
     "prev_n": 48
   },
   "direction": {
     "on-ai": 82,
-    "with-ai": 124
+    "with-ai": 128
   },
   "on_ai_share_first_half": 31,
   "on_ai_share_last_half": 42,
@@ -264,23 +264,23 @@
     },
     {
       "q": "2026-Q4",
-      "n": 47,
+      "n": 51,
       "on-ai": 14,
-      "with-ai": 28,
+      "with-ai": 32,
       "severity": {
         "critical": 3,
-        "high": 17,
-        "medium": 26,
+        "high": 19,
+        "medium": 28,
         "low": 1
       },
       "autonomous": 6,
-      "real_world": 46
+      "real_world": 50
     }
   ],
   "categories": [
     {
       "category": "Deepfake fraud",
-      "n": 41,
+      "n": 42,
       "by_quarter": [
         13,
         9,
@@ -289,9 +289,9 @@
         10,
         11,
         12,
-        1
+        2
       ],
-      "growth_last4_vs_prev4": -16
+      "growth_last4_vs_prev4": -15
     },
     {
       "category": "AI-assisted malware",
@@ -355,7 +355,7 @@
     },
     {
       "category": "State actor AI ops",
-      "n": 19,
+      "n": 20,
       "by_quarter": [
         4,
         1,
@@ -364,9 +364,9 @@
         4,
         3,
         6,
-        3
+        4
       ],
-      "growth_last4_vs_prev4": 1
+      "growth_last4_vs_prev4": 2
     },
     {
       "category": "Agent hijack",
@@ -385,7 +385,7 @@
     },
     {
       "category": "Deepfake abuse",
-      "n": 15,
+      "n": 17,
       "by_quarter": [
         0,
         2,
@@ -394,9 +394,9 @@
         7,
         3,
         2,
-        1
+        3
       ],
-      "growth_last4_vs_prev4": 5
+      "growth_last4_vs_prev4": 7
     },
     {
       "category": "Prompt injection",
@@ -461,7 +461,7 @@
   ],
   "rising_category": "AI supply chain",
   "top_category": "Deepfake fraud",
-  "top_category_n": 41,
+  "top_category_n": 42,
   "autonomous": {
     "by_year": {
       "2025": 1,
@@ -486,17 +486,17 @@
       "actor_type": "criminal",
       "by_year": {
         "2025": 13,
-        "2026": 73
+        "2026": 74
       },
-      "n": 86
+      "n": 87
     },
     {
       "actor_type": "state",
       "by_year": {
         "2025": 4,
-        "2026": 22
+        "2026": 23
       },
-      "n": 26
+      "n": 27
     },
     {
       "actor_type": "researcher",
@@ -510,9 +510,9 @@
       "actor_type": "unknown",
       "by_year": {
         "2025": 1,
-        "2026": 59
+        "2026": 61
       },
-      "n": 60
+      "n": 62
     },
     {
       "actor_type": "autonomous-ai",
@@ -553,8 +553,8 @@
   ],
   "severity": {
     "critical": 39,
-    "high": 105,
-    "medium": 86,
+    "high": 107,
+    "medium": 88,
     "low": 6
   },
   "critical_high_pct": 61,
@@ -632,15 +632,15 @@
     },
     {
       "sector": "Individuals & consumers",
-      "n": 66
+      "n": 68
     },
     {
       "sector": "Multiple / cross-sector",
-      "n": 27
+      "n": 28
     },
     {
       "sector": "Education & research",
-      "n": 17
+      "n": 18
     },
     {
       "sector": "Unknown",
@@ -678,14 +678,14 @@
   "countries": [
     {
       "country": "GL",
-      "n": 107
+      "n": 108
     },
     {
       "country": "US",
       "n": 52
     },
     {
-      "country": "IN",
+      "country": "GB",
       "n": 5
     },
     {
@@ -693,7 +693,7 @@
       "n": 5
     },
     {
-      "country": "GB",
+      "country": "IN",
       "n": 5
     },
     {
@@ -701,11 +701,15 @@
       "n": 4
     },
     {
-      "country": "NG",
+      "country": "CA",
       "n": 3
     },
     {
-      "country": "CA",
+      "country": "TW",
+      "n": 3
+    },
+    {
+      "country": "NG",
       "n": 3
     },
     {
@@ -719,17 +723,13 @@
     {
       "country": "GR",
       "n": 3
-    },
-    {
-      "country": "TW",
-      "n": 3
     }
   ],
   "global_pct": 45,
   "status": [
     {
       "status": "under investigation",
-      "n": 81
+      "n": 83
     },
     {
       "status": "ongoing",
@@ -749,12 +749,16 @@
     },
     {
       "status": "unresolved",
-      "n": 7
+      "n": 8
+    },
+    {
+      "status": "suspect arrested",
+      "n": 1
     }
   ],
   "unresolved_pct": 67,
   "verify_median_hours": 19.8,
-  "verify_sample": 47,
+  "verify_sample": 51,
   "researcher_demos": 21,
   "pulse": [
     {
@@ -1024,8 +1028,8 @@
     {
       "day": "2026-10-30",
       "kinds": {
-        "incident": 81,
-        "vulnerability": 5,
+        "incident": 80,
+        "vulnerability": 4,
         "research": 6,
         "vendor-report": 14,
         "policy": 5,
@@ -1072,7 +1076,7 @@
     {
       "day": "2026-11-03",
       "kinds": {
-        "incident": 121,
+        "incident": 122,
         "vulnerability": 2,
         "research": 39,
         "vendor-report": 5,
@@ -1084,7 +1088,7 @@
     {
       "day": "2026-11-04",
       "kinds": {
-        "incident": 51,
+        "incident": 52,
         "vulnerability": 2,
         "research": 14,
         "vendor-report": 5,

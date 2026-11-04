@@ -7681,5 +7681,69 @@
     "timeline": [
       "Signalé par GBHackers"
     ]
+  },
+  {
+    "title": "Deepfakes sexuels générés par IA visant des élèves du Colegio Alicante del Sol, à Puente Alto",
+    "summary": "Des parents affirment que l'IA a servi à créer des contenus sexuels représentant des élèves de sexe féminin des classes de 9e à 12e année (primero a cuarto medio) du Colegio Alicante del Sol, à Puente Alto (Chili), et que ces contenus ont circulé parmi les élèves.",
+    "target": "Élèves de sexe féminin du Colegio Alicante del Sol",
+    "actor": "Inconnu",
+    "attribution": "Le ou les créateurs des contenus ne sont pas identifiés dans le texte disponible ; l'affaire est présentée comme présumée.",
+    "motive": "Inconnu",
+    "vector": "Images ou vidéos sexualisées d'élèves générées par IA, partagées entre des personnes de l'établissement.",
+    "root_cause": "Inconnue ; le texte ne précise ni les outils d'IA utilisés ni la manière dont les images sources ont été obtenues.",
+    "impact": "Des élèves de sexe féminin des niveaux 1 à 4 medio ont été victimes de violences sexuelles numériques. Parents et élèves étaient en colère, et une manifestation s'est soldée par des dégradations et des affrontements avec les Carabineros.",
+    "response": "Les parents ont déposé plainte. Les Carabineros se sont rendus à l'établissement pendant la manifestation. Aucune autre action officielle n'est mentionnée.",
+    "id": "puente-alto-school-sexual-deepfakes",
+    "timeline": [
+      "Signalé par l'AI Incident Database"
+    ]
+  },
+  {
+    "title": "Goiás : un homme arrêté pour avoir utilisé une photo truquée par IA le montrant armé afin de menacer son ex-compagne",
+    "summary": "Un homme de l'État de Goiás (Brésil) a utilisé l'IA pour fabriquer l'image d'un pistolet dans un véhicule et l'a envoyée par WhatsApp afin de menacer son ex-compagne. Il a été arrêté en flagrant délit après que la victime a reconnu un tatouage sur l'image.",
+    "target": "Son ex-compagne",
+    "actor": "Homme non nommé, arrêté par la Polícia Civil de Goiás",
+    "attribution": "La police a arrêté l'homme ; il n'est pas nommé dans le résumé.",
+    "motive": "Intimidation de son ex-compagne",
+    "vector": "Génération ou retouche d'image par IA pour truquer une photo le montrant armé",
+    "root_cause": "Détournement d'outils d'image par IA accessibles à des fins d'intimidation dans un cadre conjugal.",
+    "impact": "Une femme a été menacée au moyen d'une image fabriquée montrant son ex-compagnon armé.",
+    "response": "Arrestation par la Polícia Civil de Goiás (PCGO).",
+    "id": "goias-ai-armed-photo-threat-ex",
+    "timeline": [
+      "Signalé par l'AI Incident Database"
+    ]
+  },
+  {
+    "title": "Storm-0940 recourt à l'IA agentique ARTEX dans une compromission de la chaîne d'approvisionnement de ConnectWise",
+    "summary": "Microsoft rapporte une campagne étatique de grande ampleur dans laquelle Storm-0940 a utilisé l'IA agentique ARTEX pour accélérer une compromission de la chaîne d'approvisionnement de ConnectWise et abuser d'identifiants d'application dans Microsoft 365.",
+    "target": "Clients de ConnectWise et environnements Microsoft 365",
+    "actor": "Storm-0940",
+    "attribution": "Le Microsoft Security Blog attribue la campagne à Storm-0940 et la décrit comme une activité d'origine étatique.",
+    "motive": "Inconnu",
+    "vector": "Compromission de la chaîne d'approvisionnement de ConnectWise accélérée par l'IA agentique ARTEX, puis abus d'identifiants d'application dans Microsoft 365.",
+    "root_cause": "Inconnue",
+    "impact": "Décrite comme de grande ampleur ; des identifiants d'application ont fait l'objet d'abus dans des environnements Microsoft 365. Le nombre de victimes n'est pas indiqué.",
+    "response": "Microsoft a publié son analyse de la campagne. Aucun autre détail sur la réponse n'est fourni.",
+    "id": "storm-0940-artex-connectwise",
+    "timeline": [
+      "Signalé par le Microsoft Security Blog"
+    ]
+  },
+  {
+    "title": "Une Kirghize de 23 ans affirme qu'une photo d'elle dénudée par IA a été envoyée à des connaissances",
+    "summary": "Une femme de 23 ans a déclaré à Kaktus.media avoir été victime d'un deepfake sexualisé réalisé par IA, qui aurait été envoyé à des connaissances. Elle dit craindre que l'enquête de police ne piétine et que le responsable échappe à toute sanction ; rien n'a été prouvé.",
+    "target": "Femme de 23 ans (particulier)",
+    "actor": "Inconnu",
+    "attribution": "Inconnue ; la victime a déclaré à Kaktus.media craindre que le responsable use de ses relations pour échapper à la sanction.",
+    "motive": "Inconnu",
+    "vector": "Outil d'IA utilisé pour créer une image sexualisée à partir de sa photo, puis diffusée à des connaissances.",
+    "root_cause": "Inconnue",
+    "impact": "Un deepfake sexualisé de la victime a circulé parmi des personnes qu'elle connaît ; elle dit craindre de ne pas pouvoir protéger ses droits.",
+    "response": "La victime a contacté les médias et se plaint de retards dans le traitement de l'affaire. Aucune action officielle n'est décrite.",
+    "id": "kyrgyz-woman-sexual-deepfake-kaktus",
+    "timeline": [
+      "Signalé par l'AI Incident Database"
+    ]
   }
 ]
