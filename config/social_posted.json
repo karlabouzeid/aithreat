@@ -137,7 +137,10 @@
     "https://aithreat.io/cases/cat-in-the-hat-ai-school-threats-arrests/",
     "https://aithreat.io/cases/kochi-college-student-ai-morphed-teachers-telegram/",
     "https://aithreat.io/cases/lomas-de-zamora-ai-nudes-50-girls/",
-    "https://aithreat.io/cases/korea-kcsc-ai-chatbot-minor-complaints/"
+    "https://aithreat.io/cases/korea-kcsc-ai-chatbot-minor-complaints/",
+    "https://aithreat.io/cases/litellm-1-107-0-trojanized-release/",
+    "https://aithreat.io/cases/storm-1516-talarico-deepfake-video/",
+    "https://aithreat.io/cases/warp-agent-logs-vendor-breach/"
   ],
   "bluesky": [
     "https://aithreat.io/cases/unit42-ai-espionage-gov-linux/",
@@ -268,7 +271,10 @@
     "https://aithreat.io/cases/cat-in-the-hat-ai-school-threats-arrests/",
     "https://aithreat.io/cases/kochi-college-student-ai-morphed-teachers-telegram/",
     "https://aithreat.io/cases/lomas-de-zamora-ai-nudes-50-girls/",
-    "https://aithreat.io/cases/korea-kcsc-ai-chatbot-minor-complaints/"
+    "https://aithreat.io/cases/korea-kcsc-ai-chatbot-minor-complaints/",
+    "https://aithreat.io/cases/litellm-1-107-0-trojanized-release/",
+    "https://aithreat.io/cases/storm-1516-talarico-deepfake-video/",
+    "https://aithreat.io/cases/warp-agent-logs-vendor-breach/"
   ],
   "x": [
     "https://aithreat.io/cases/aoki-infostealer-ai-assistant-creds/",
@@ -329,6 +335,18 @@
   },
   "x_status": {
     "at": "2026-10-20T08:07:00Z",
+    "skipped": "TELEGRAM_OWNER_CHAT_ID not set"
+  },
+  "bluesky_status": {
+    "at": "2026-11-04T17:55:06Z",
+    "ok": "https://aithreat.io/cases/warp-agent-logs-vendor-breach/"
+  },
+  "telegram_status": {
+    "at": "2026-11-04T17:55:14Z",
+    "ok": "https://aithreat.io/cases/warp-agent-logs-vendor-breach/"
+  },
+  "breaking_status": {
+    "at": "2026-11-04T17:55:14Z",
     "skipped": "TELEGRAM_OWNER_CHAT_ID not set"
   }
 }
