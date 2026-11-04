@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T22:05:40Z",
+  "generated_at": "2026-11-04T22:35:38Z",
   "categories": [
     {
       "name": "AI exam fraud",
@@ -9,7 +9,7 @@
     {
       "name": "AI misfire",
       "slug": "ai-misfire",
-      "count": 7
+      "count": 8
     },
     {
       "name": "AI phishing",
@@ -19,12 +19,12 @@
     {
       "name": "AI supply chain",
       "slug": "ai-supply-chain",
-      "count": 48
+      "count": 49
     },
     {
       "name": "AI-assisted malware",
       "slug": "ai-assisted-malware",
-      "count": 54
+      "count": 57
     },
     {
       "name": "Agent hijack",
@@ -44,7 +44,7 @@
     {
       "name": "Deepfake fraud",
       "slug": "deepfake-fraud",
-      "count": 96
+      "count": 98
     },
     {
       "name": "LLMjacking",
@@ -64,17 +64,17 @@
     {
       "name": "State actor AI ops",
       "slug": "state-actor-ai-ops",
-      "count": 32
+      "count": 33
     }
   ],
   "countries": [
     {
       "code": "AE",
-      "count": 1
+      "count": 2
     },
     {
       "code": "AR",
-      "count": 5
+      "count": 6
     },
     {
       "code": "AT",
@@ -98,7 +98,7 @@
     },
     {
       "code": "CA",
-      "count": 6
+      "count": 7
     },
     {
       "code": "CL",
@@ -138,7 +138,7 @@
     },
     {
       "code": "GB",
-      "count": 10
+      "count": 11
     },
     {
       "code": "GH",
@@ -157,8 +157,16 @@
       "count": 1
     },
     {
+      "code": "Global",
+      "count": 1
+    },
+    {
       "code": "HK",
       "count": 3
+    },
+    {
+      "code": "HN",
+      "count": 1
     },
     {
       "code": "ID",
@@ -206,7 +214,7 @@
     },
     {
       "code": "KR",
-      "count": 12
+      "count": 13
     },
     {
       "code": "KW",
@@ -294,7 +302,7 @@
     },
     {
       "code": "US",
-      "count": 130
+      "count": 131
     },
     {
       "code": "UY",

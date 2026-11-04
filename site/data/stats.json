@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-04T22:15:57Z",
-  "total": 269,
-  "all_time_total": 472,
+  "generated_at": "2026-11-04T22:45:01Z",
+  "total": 277,
+  "all_time_total": 480,
   "window_from": "2025-11-04",
   "window_to": "2026-11-04",
   "trend_from": "2025-01-01",
@@ -20,7 +20,7 @@
       "sao-paulo-fake-lawyer-voice-clone"
     ],
     "financial_services": 9,
-    "individuals": 80,
+    "individuals": 83,
     "fin_by_category": {
       "Deepfake fraud": 7,
       "AI-assisted malware": 1,
@@ -46,17 +46,17 @@
     "vendors": [
       {
         "product": "OpenAI / ChatGPT",
-        "n": 49,
+        "n": 51,
         "critical_high": 35,
         "with_cve": 0,
-        "latest": "openai-chatgpt-epilepsy-death-suit"
+        "latest": "yoba-fake-ai-apps-signed-binaries"
       },
       {
         "product": "Anthropic / Claude",
-        "n": 30,
-        "critical_high": 22,
+        "n": 34,
+        "critical_high": 25,
         "with_cve": 2,
-        "latest": "inc-gentlemen-claude-exposed-servers"
+        "latest": "123-reg-ai-cyberattack-customer-data"
       },
       {
         "product": "Google Gemini",
@@ -153,13 +153,13 @@
   },
   "this_quarter": {
     "q": "2026-Q4",
-    "n": 75,
+    "n": 82,
     "prev_q": "2026-Q3",
-    "prev_n": 50
+    "prev_n": 51
   },
   "direction": {
-    "on-ai": 87,
-    "with-ai": 151
+    "on-ai": 88,
+    "with-ai": 157
   },
   "on_ai_share_first_half": 31,
   "on_ai_share_last_half": 41,
@@ -250,37 +250,37 @@
     },
     {
       "q": "2026-Q3",
-      "n": 50,
+      "n": 51,
       "on-ai": 16,
       "with-ai": 33,
       "severity": {
         "critical": 9,
         "high": 29,
-        "medium": 10,
+        "medium": 11,
         "low": 2
       },
       "autonomous": 4,
-      "real_world": 47
+      "real_world": 48
     },
     {
       "q": "2026-Q4",
-      "n": 75,
-      "on-ai": 19,
-      "with-ai": 51,
+      "n": 82,
+      "on-ai": 20,
+      "with-ai": 57,
       "severity": {
         "critical": 3,
-        "high": 26,
-        "medium": 42,
-        "low": 4
+        "high": 30,
+        "medium": 43,
+        "low": 6
       },
       "autonomous": 6,
-      "real_world": 74
+      "real_world": 81
     }
   ],
   "categories": [
     {
       "category": "Deepfake fraud",
-      "n": 53,
+      "n": 55,
       "by_quarter": [
         13,
         9,
@@ -289,13 +289,13 @@
         10,
         12,
         12,
-        12
+        14
       ],
-      "growth_last4_vs_prev4": -4
+      "growth_last4_vs_prev4": -2
     },
     {
       "category": "AI-assisted malware",
-      "n": 40,
+      "n": 43,
       "by_quarter": [
         1,
         5,
@@ -304,13 +304,13 @@
         5,
         5,
         6,
-        21
+        24
       ],
-      "growth_last4_vs_prev4": 20
+      "growth_last4_vs_prev4": 23
     },
     {
       "category": "AI supply chain",
-      "n": 33,
+      "n": 34,
       "by_quarter": [
         2,
         4,
@@ -319,9 +319,9 @@
         7,
         11,
         6,
-        9
+        10
       ],
-      "growth_last4_vs_prev4": 20
+      "growth_last4_vs_prev4": 21
     },
     {
       "category": "Chatbot harm",
@@ -354,6 +354,21 @@
       "growth_last4_vs_prev4": 0
     },
     {
+      "category": "State actor AI ops",
+      "n": 21,
+      "by_quarter": [
+        4,
+        1,
+        4,
+        6,
+        4,
+        3,
+        6,
+        5
+      ],
+      "growth_last4_vs_prev4": 3
+    },
+    {
       "category": "Agent hijack",
       "n": 21,
       "by_quarter": [
@@ -367,21 +382,6 @@
         6
       ],
       "growth_last4_vs_prev4": 12
-    },
-    {
-      "category": "State actor AI ops",
-      "n": 20,
-      "by_quarter": [
-        4,
-        1,
-        4,
-        6,
-        4,
-        3,
-        6,
-        4
-      ],
-      "growth_last4_vs_prev4": 2
     },
     {
       "category": "Deepfake abuse",
@@ -457,11 +457,26 @@
         1
       ],
       "growth_last4_vs_prev4": 0
+    },
+    {
+      "category": "AI misfire",
+      "n": 1,
+      "by_quarter": [
+        1,
+        0,
+        1,
+        2,
+        0,
+        0,
+        1,
+        0
+      ],
+      "growth_last4_vs_prev4": -3
     }
   ],
   "rising_category": "AI-assisted malware",
   "top_category": "Deepfake fraud",
-  "top_category_n": 53,
+  "top_category_n": 55,
   "autonomous": {
     "by_year": {
       "2025": 1,
@@ -486,9 +501,9 @@
       "actor_type": "criminal",
       "by_year": {
         "2025": 13,
-        "2026": 87
+        "2026": 90
       },
-      "n": 100
+      "n": 103
     },
     {
       "actor_type": "state",
@@ -510,9 +525,9 @@
       "actor_type": "unknown",
       "by_year": {
         "2025": 1,
-        "2026": 69
+        "2026": 73
       },
-      "n": 70
+      "n": 74
     },
     {
       "actor_type": "autonomous-ai",
@@ -553,11 +568,11 @@
   ],
   "severity": {
     "critical": 40,
-    "high": 115,
-    "medium": 104,
-    "low": 10
+    "high": 119,
+    "medium": 106,
+    "low": 12
   },
-  "critical_high_pct": 58,
+  "critical_high_pct": 57,
   "losses": {
     "total_usd": 205102243,
     "disclosed": 20,
@@ -588,12 +603,12 @@
         "disclosed": 0
       },
       {
-        "category": "Agent hijack",
+        "category": "State actor AI ops",
         "usd": 0,
         "disclosed": 0
       },
       {
-        "category": "State actor AI ops",
+        "category": "Agent hijack",
         "usd": 0,
         "disclosed": 0
       },
@@ -621,6 +636,11 @@
         "category": "AI exam fraud",
         "usd": 0,
         "disclosed": 0
+      },
+      {
+        "category": "AI misfire",
+        "usd": 0,
+        "disclosed": 0
       }
     ],
     "deepfake_share_pct": 100
@@ -628,11 +648,11 @@
   "sectors": [
     {
       "sector": "Technology & AI vendors",
-      "n": 85
+      "n": 86
     },
     {
       "sector": "Individuals & consumers",
-      "n": 80
+      "n": 83
     },
     {
       "sector": "Multiple / cross-sector",
@@ -648,7 +668,7 @@
     },
     {
       "sector": "Government & public sector",
-      "n": 10
+      "n": 11
     },
     {
       "sector": "Financial services",
@@ -659,12 +679,12 @@
       "n": 6
     },
     {
-      "sector": "Defence & security",
+      "sector": "Retail & consumer brands",
       "n": 4
     },
     {
-      "sector": "Retail & consumer brands",
-      "n": 2
+      "sector": "Defence & security",
+      "n": 4
     },
     {
       "sector": "Energy, industrial & infrastructure",
@@ -673,6 +693,10 @@
     {
       "sector": "Media & entertainment",
       "n": 2
+    },
+    {
+      "sector": "Healthcare",
+      "n": 1
     }
   ],
   "countries": [
@@ -682,15 +706,15 @@
     },
     {
       "country": "US",
-      "n": 59
-    },
-    {
-      "country": "KR",
-      "n": 6
+      "n": 60
     },
     {
       "country": "GB",
-      "n": 6
+      "n": 7
+    },
+    {
+      "country": "KR",
+      "n": 7
     },
     {
       "country": "IN",
@@ -698,10 +722,10 @@
     },
     {
       "country": "CA",
-      "n": 5
+      "n": 6
     },
     {
-      "country": "IL",
+      "country": "FR",
       "n": 4
     },
     {
@@ -709,15 +733,15 @@
       "n": 4
     },
     {
-      "country": "FR",
+      "country": "IL",
       "n": 4
     },
     {
-      "country": "NG",
+      "country": "GR",
       "n": 3
     },
     {
-      "country": "BR",
+      "country": "UA",
       "n": 3
     },
     {
@@ -725,19 +749,19 @@
       "n": 3
     }
   ],
-  "global_pct": 43,
+  "global_pct": 42,
   "status": [
     {
       "status": "under investigation",
-      "n": 96
+      "n": 101
     },
     {
       "status": "ongoing",
-      "n": 73
+      "n": 74
     },
     {
       "status": "contained",
-      "n": 33
+      "n": 34
     },
     {
       "status": "patched",
@@ -749,7 +773,7 @@
     },
     {
       "status": "unresolved",
-      "n": 9
+      "n": 10
     },
     {
       "status": "lawsuit filed; unresolved",
@@ -796,9 +820,9 @@
       "n": 1
     }
   ],
-  "unresolved_pct": 66,
-  "verify_median_hours": 19.8,
-  "verify_sample": 80,
+  "unresolved_pct": 67,
+  "verify_median_hours": 25.0,
+  "verify_sample": 88,
   "researcher_demos": 21,
   "pulse": [
     {

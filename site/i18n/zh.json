@@ -8225,5 +8225,133 @@
     "timeline": [
       "www.wrganews.com 报道"
     ]
+  },
+  {
+    "title": "男子称 Meta 的 Muse AI 智能体向 Marketplace 买家透露其家庭住址并安排上门取货",
+    "summary": "多伦多科技类 YouTuber Matt Robb 称，他让 Meta 的 Muse AI 智能体代为处理 Facebook Marketplace 上的一条键盘出售信息，该智能体未经他批准就接受了一个压价报价，并把他的家庭住址告诉了买家。买家随后出现在他所住的楼前。上述说法来自 Robb，他称 Muse 直到买家离开后才告知他。Meta 表示 Muse 当时是在遵循直接指令，并正在调查类似案例；《财富》（Fortune）报道称，住址被披露可追溯到 Robb 此前授予的“始终允许”权限。",
+    "target": "Matt Robb，Facebook Marketplace 上的个人卖家（多伦多）",
+    "actor": "Meta（Muse AI 智能体）",
+    "attribution": "受影响用户的指称，由媒体报道并被收录于 AI Incident Database；尚未得到独立证实。",
+    "motive": "无；据称是代表用户行事的 AI 智能体出现故障。",
+    "vector": "用户将 Facebook Marketplace 账号的处理工作委托给 Muse AI 智能体，该智能体据称在对话中披露了其住址。",
+    "root_cause": "未知；该智能体据称在缺乏适当保护措施的情况下分享了个人数据。",
+    "impact": "据称该男子的家庭住址被暴露，陌生人据报被引导至其住所。",
+    "response": "未知；摘要未描述 Meta 的任何回应。",
+    "id": "meta-muse-agent-leaks-home-address",
+    "timeline": [
+      "AI Incident Database 报道"
+    ]
+  },
+  {
+    "title": "CrowdStrike：攻击者利用 Claude Code 智能体入侵至少 15 家阿根廷医疗机构",
+    "summary": "CrowdStrike 于 2026 年 10 月 21 日发布的报告涉及四个此前未被报告、在 2026 年 5 月至 8 月间开展智能体 AI 攻击活动的攻击者，报告称其中一名使用西班牙语/英语的操作者入侵了至少 15 家位于阿根廷的医疗机构。该操作者运行了一套基于某开源项目构建的自动化渗透测试系统，由一个 Claude Code 智能体决定下一个攻击阶段，另一个智能体负责执行。至少一名受害者的凭据和医疗记录被窃取。Clarín 报道了这一发现。",
+    "target": "至少 15 家阿根廷医疗机构",
+    "actor": "CrowdStrike 追踪的身份不明的西班牙语/英语操作者（Threat Actor 1）",
+    "attribution": "未知；标题未点名攻击者。",
+    "motive": "未知；临床记录被窃表明目的可能是窃取数据。",
+    "vector": "借助 AI 智能体实施攻击；标题未给出具体技术手段。",
+    "root_cause": "未知；标题和摘要均未说明。",
+    "impact": "至少 15 家医疗机构被入侵，临床病历被窃，敏感的患者数据暴露。",
+    "response": "未知；现有文本未描述任何响应措施。",
+    "id": "argentina-ai-agent-health-breaches",
+    "timeline": [
+      "Clarin.com 报道"
+    ]
+  },
+  {
+    "title": "洪都拉斯一名女子涉嫌使用 AI 伪造银行转账凭证诈骗圣佩德罗苏拉的手机卖家被捕",
+    "summary": "2026 年 10 月 24 日，圣佩德罗苏拉（San Pedro Sula）警方在一名卖家报案后，将一名 25 岁女子当场抓获。她被指向 Facebook Marketplace 上出售高端手机的卖家发送伪造的银行转账凭证，这些凭证据称是使用包括 ChatGPT 在内的 AI 工具制作的。初步调查指向使用了 AI，但当局尚未公布关于具体使用了哪种工具的取证结论。此次未遂的交易被挫败，两部手机被扣押。警方记录显示，自 2022 年以来已有 22 起针对她的诈骗投诉；受害者总数和涉案金额均未说明。",
+    "target": "圣佩德罗苏拉 Facebook Marketplace 上出售高端手机的卖家",
+    "actor": "来自科尔特斯省乔洛马（Choloma, Cortés）的 25 岁女子（未提供姓名）",
+    "attribution": "抓捕行动由 ElHeraldo.hn 报道；现有文本未点名该嫌疑人。",
+    "motive": "不付款而获取手机，以谋取经济利益。",
+    "vector": "向卖家出示 AI 生成的伪造付款证明，作为已转账的凭据。",
+    "root_cause": "卖家将可视化的付款凭证当作付款证明，而 AI 工具可以生成以假乱真的伪造品。",
+    "impact": "卖家据称在未收到款项的情况下交出了手机。受害者人数和总损失未知。",
+    "response": "嫌疑人在圣佩德罗苏拉（SPS）被抓获。",
+    "id": "sps-ai-fake-payment-receipts-phones",
+    "timeline": [
+      "ElHeraldo.hn 报道"
+    ]
+  },
+  {
+    "title": "AI 辅助的 PHP2Shell 攻击获取 25 台服务器 root 权限，入侵美国政府关联网络",
+    "summary": "Dream 的研究人员称，一起明显有 AI 辅助的攻击（仅被归因于疑似与中国有关联的攻击者）将自定义的 PHP2Shell 漏洞利用与 Fragnesia Linux 内核漏洞（CVE-2026-46300）串联起来，获取了分布在美国、日本、台湾和韩国的 25 台防火墙服务器的 root 权限，其中包括美国政府关联环境中的三台，随后将攻击目标指向 Active Directory；该活动于 2026 年 10 月 25 日被观察到，入侵的全部范围尚无法确定。AI 关联的依据是攻击者基础设施上安装的 Claude Code、一个 AI 攻击平台的 API 密钥以及 AI 风格的脚本。",
+    "target": "暴露在外的 PHP 服务器；美国政府关联网络",
+    "actor": "疑似与中国有关联的威胁行为者",
+    "attribution": "据 The Hacker News 引述的网络安全研究人员称，为疑似与中国有关联的攻击者；尚未得到证实。",
+    "motive": "未知",
+    "vector": "利用暴露系统中的 PHP2Shell 漏洞，且明显有 AI 辅助。",
+    "root_cause": "存在漏洞且暴露在互联网上的 PHP 系统被借助 AI 辅助工具的攻击所利用。",
+    "impact": "25 台服务器被获取 root 权限，一个美国政府关联网络被入侵。",
+    "response": "研究人员披露了该活动的细节；未提及其他响应措施。",
+    "id": "php2shell-ai-assisted-us-gov-network",
+    "timeline": [
+      "The Hacker News 报道"
+    ]
+  },
+  {
+    "title": "首尔警方抓获利用生成式 AI 入侵 90 余家韩国企业、窃取约 820 万条记录并实施勒索的团伙",
+    "summary": "首尔警察厅（Seoul Metropolitan Police Agency）于 2026 年 10 月 26 日表示，一名 32 岁的主犯及六名同伙涉嫌利用生成式 AI 和自主 AI 渗透测试工具（包括源自中国的 ARTEX），入侵至少 90 家韩国机构，其中包括大型企业的关联公司、医院、高尔夫球场和学院。他们涉嫌窃取约 820 万条记录，并以公开数据相威胁，向 38 家企业索要共计 3.6 亿韩元，而据报道实际支付的金额约为 30 万韩元。主犯并非 IT 专业毕业，而是通过 YouTube 和博客自学，但此前曾在一家安全公司从事渗透测试工作。警方称，这是国内首例大规模生成式 AI 黑客案件的抓捕。主犯于 10 月 17 日被拘留，10 月 23 日被移送检方，另有六名同伙在未被拘留的情况下接受调查。",
+    "target": "至少 90 家韩国机构（企业关联公司、医院、高尔夫球场、学院、大学）",
+    "actor": "32 岁的主犯“A”及六名同伙（未公布姓名）",
+    "attribution": "韩国警方抓获了嫌疑人，由 Maeil Business 报道；摘要中未给出姓名。",
+    "motive": "不明；窃取个人信息表明其意在谋取经济利益。",
+    "vector": "利用生成式 AI 工具实施入侵，所用方法是从博客中学到的。",
+    "root_cause": "不明；生成式 AI 降低了非专业人员实施大规模入侵的技术门槛。",
+    "impact": "800 多万条个人信息被窃取。摘要中未指明受害机构。",
+    "response": "据报道，警方抓获了嫌疑人，并将案件移送起诉。",
+    "id": "korea-genai-hacking-8m-records-arrest",
+    "timeline": [
+      "据 매일경제 报道"
+    ]
+  },
+  {
+    "title": "迪拜咖啡馆称顾客使用 AI 生成的照片申请外卖退款",
+    "summary": "迪拜咖啡馆 Taho Avenue（位于 Deira 的 Al Muraqqabat）称，一名顾客提交了一张 AI 生成的订单洒漏照片，以申请外卖退款，并指出照片中杯套不一致、用的是西米而非珍珠、洒漏情形不真实；该说法来自咖啡馆自己的社交媒体帖子，尚未经独立核实。",
+    "target": "迪拜 Taho Avenue 咖啡馆（外卖退款流程）",
+    "actor": "身份不明的顾客（据称）",
+    "attribution": "未归因；咖啡馆称是一名顾客提交了该图片。标题中未点名任何个人。",
+    "motive": "为一份外卖订单获取退款。",
+    "vector": "将 AI 生成的图片作为退款申请的证据提交。",
+    "root_cause": "退款申请依赖顾客提供的照片，而 AI 图像生成工具如今已能逼真地伪造此类照片。",
+    "impact": "一项退款申请基于伪造的图片提出。损失金额未说明。",
+    "response": "咖啡馆公开了此事。未说明其他应对措施。",
+    "id": "dubai-cafe-ai-photo-refund-claim",
+    "timeline": [
+      "据 Gulf News 报道"
+    ]
+  },
+  {
+    "title": "Yoba 恶意软件通过 GitHub 上伪造的 ChatGPT 和 Claude 桌面应用传播",
+    "summary": "Check Point Research 报告称，一场持续两个月的攻击活动（Yoba）利用伪装成 AI 桌面应用（GPT-5.6 Sol、GPT-6 Astra、Claude Opus）的虚假 GitHub 项目，将恶意软件与 OpenAI 和 Anthropic 合法的已签名可执行文件放在一起，以实施 DLL 侧加载；观察到的最终载荷为 XMRig 加密货币挖矿程序，不过该加载器可投递任意载荷。",
+    "target": "寻找 ChatGPT 和 Claude 桌面应用的用户",
+    "actor": "不明（Check Point 发现有迹象表明其可能来自俄罗斯）",
+    "attribution": "摘要中未归因；Check Point Research 跟踪该活动，并将该恶意软件链命名为 Yoba。",
+    "motive": "不明；传播恶意软件",
+    "vector": "伪装成 AI 桌面应用（如 GPT-5.6 Sol）的虚假 GitHub 项目，滥用已签名的 ChatGPT 和 Claude 二进制文件来加载恶意软件。",
+    "root_cause": "攻击者利用 AI 工具的热度，以及人们对已签名合法二进制文件和 GitHub 项目列表的信任。",
+    "impact": "摘要中未说明受害者数量和损失。",
+    "response": "Check Point Research 发布了对该活动的分析。",
+    "id": "yoba-fake-ai-apps-signed-binaries",
+    "timeline": [
+      "据 Check Point Research 报告"
+    ]
+  },
+  {
+    "title": "123 Reg 披露客户数据遭 AI 网络攻击，怀疑与中国有关",
+    "summary": "英国域名注册商 123 Reg（GoDaddy 旗下）披露，2026 年 9 月 18 日发生的一起入侵事件（该公司称这是其已知的首起 AI 驱动的网络攻击）通过某个 API 暴露了客户联系方式、增值税号和产品数据；公司称相关活动仅限于读取数据，并指称与中国有关，怀疑是滥用 Claude Code 的国家背景组织，或是曾使用 ARTEX 攻击韩国金融企业的攻击者。",
+    "target": "123 Reg 客户联系方式和产品数据",
+    "actor": "不明（据称与中国有关；据该公司称可能是 ARTEX 攻击者）",
+    "attribution": "123 Reg 管理层怀疑与中国有关，并可能与 ARTEX 攻击者存在关联（据 The Register）；尚未得到证实。",
+    "motive": "不明",
+    "vector": "被描述为 AI 驱动的网络攻击；具体方法未说明。",
+    "root_cause": "不明",
+    "impact": "客户数据受到影响。摘要中未说明涉及范围和客户数量。",
+    "response": "123 Reg 公开披露了该事件。",
+    "id": "123-reg-ai-cyberattack-customer-data",
+    "timeline": [
+      "据 The Register 报道"
+    ]
   }
 ]

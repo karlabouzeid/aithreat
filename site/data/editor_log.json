@@ -446,5 +446,69 @@
     "reason": "This is the Habib family's wrongful-death suit against OpenAI over 15-year-old Mathias Habib's April 2026 suicide, already filed as known case habib-v-openai-chatgpt-lebanon-teen.",
     "duplicate_of": "habib-v-openai-chatgpt-lebanon-teen",
     "at": "2026-11-04T22:05:40Z"
+  },
+  {
+    "id": "meta-muse-agent-leaks-home-address",
+    "title": "Man says Meta Muse AI agent gave his home address to strangers",
+    "decision": "approve",
+    "reason": "Reported by Futurism, Cybernews, Fortune and CBC with the user named and Meta responding; the draft's date and country are wrong and 'strangers' overstates a single buyer, and no known case covers it.",
+    "duplicate_of": null,
+    "at": "2026-11-04T22:35:38Z"
+  },
+  {
+    "id": "sps-ai-fake-payment-receipts-phones",
+    "title": "Honduran woman arrested for using AI-made fake payment receipts to buy cellphones",
+    "decision": "approve",
+    "reason": "Several Honduran outlets report the 2026-10-24 arrest of a 25-year-old for allegedly using AI-made fake transfer receipts, which is a specific, confirmed event, though the AI tool is not forensically confirmed and the sale was foiled.",
+    "duplicate_of": null,
+    "at": "2026-11-04T22:35:38Z"
+  },
+  {
+    "id": "argentina-ai-agent-health-breaches",
+    "title": "AI-agent cyberattacks breach at least 15 Argentine health entities, medical records stolen",
+    "decision": "approve",
+    "reason": "CrowdStrike's 2026-10-21 report, covered by Clarín and Becker's, documents one actor using Claude Code agents against at least 15 Argentine healthcare entities, and no known case covers it; the date, actor and extent of data theft need correcting.",
+    "duplicate_of": null,
+    "at": "2026-11-04T22:35:38Z"
+  },
+  {
+    "id": "korea-genai-hacking-8m-records-arrest",
+    "title": "Korean police arrest group that used generative AI to hack and steal 8M+ personal records",
+    "decision": "approve",
+    "reason": "Seoul police announced the arrests on 2026-10-26 and several Korean outlets confirm it, and it is distinct from the known ARTEX cases; the draft's summary mischaracterises the ringleader and omits the extortion and scale details.",
+    "duplicate_of": null,
+    "at": "2026-11-04T22:35:38Z"
+  },
+  {
+    "id": "dubai-cafe-ai-photo-refund-claim",
+    "title": "Dubai café says customer used AI-generated photo to claim delivery refund",
+    "decision": "approve",
+    "reason": "Gulf News reports the Taho Avenue café's claim and The Global Filipino Magazine independently corroborates it; it is a specific AI-enabled refund fraud, but the claim is only the café's allegation.",
+    "duplicate_of": null,
+    "at": "2026-11-04T22:35:38Z"
+  },
+  {
+    "id": "yoba-fake-ai-apps-signed-binaries",
+    "title": "Yoba malware spread via fake ChatGPT and Claude desktop apps on GitHub",
+    "decision": "approve",
+    "reason": "Check Point Research's own report, confirmed by Security Affairs, documents the Yoba campaign of fake GitHub ChatGPT/Claude desktop apps; it is not a known case, and the draft's 'GL' country code is wrong.",
+    "duplicate_of": null,
+    "at": "2026-11-04T22:35:38Z"
+  },
+  {
+    "id": "123-reg-ai-cyberattack-customer-data",
+    "title": "123 Reg discloses AI cyberattack on customer data, suspects China nexus",
+    "decision": "approve",
+    "reason": "The Register reports 123 Reg's own disclosure of an AI-driven intrusion that exposed customer contact data; it is not a duplicate of the known ARTEX cases, which have different victims, and the attribution is only suspected.",
+    "duplicate_of": null,
+    "at": "2026-11-04T22:35:38Z"
+  },
+  {
+    "id": "php2shell-ai-assisted-us-gov-network",
+    "title": "AI-assisted PHP2Shell attack roots 25 servers, breaches US government-affiliated network",
+    "decision": "approve",
+    "reason": "Dream's research, The Hacker News and The Register confirm a custom PHP2Shell plus kernel-exploit chain that rooted 25 servers including three in a US government-affiliated environment; the AI assistance and China attribution are inferred from artifacts, so they are described as alleged.",
+    "duplicate_of": null,
+    "at": "2026-11-04T22:35:38Z"
   }
 ]

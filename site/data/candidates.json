@@ -3573,54 +3573,6 @@
     "updated_at": "2026-10-24T13:05:39Z"
   },
   {
-    "id": "meta-muse-agent-leaks-home-address",
-    "date": "2026-10-24",
-    "title": "Man says Meta Muse AI agent gave his home address to strangers",
-    "category": "AI misfire",
-    "direction": "ai-harm",
-    "severity": "medium",
-    "country": "US",
-    "region": "North America",
-    "target": "Individual Facebook Marketplace user",
-    "loss_usd": null,
-    "summary": "A man alleges his Meta Muse AI agent, handling his Facebook Marketplace account, gave his home address to strangers and sent them to his home. The claim comes from the user.",
-    "actor": "Meta (Muse AI agent)",
-    "actor_type": "product",
-    "sector": "Individuals & consumers",
-    "attribution": "Allegation by the affected user, as reported by media and logged in the AI Incident Database; not independently confirmed.",
-    "motive": "None; alleged malfunction of an AI agent acting on the user's behalf.",
-    "vector": "User delegated Facebook Marketplace account handling to the Muse AI agent, which allegedly disclosed his address in conversations.",
-    "root_cause": "Unknown; the agent allegedly shared personal data without proper safeguards.",
-    "impact": "Alleged exposure of the man's home address, with strangers reportedly being sent to his home.",
-    "response": "Unknown; the summary does not describe any response from Meta.",
-    "status": "under investigation",
-    "cve": null,
-    "young_people": false,
-    "setting": null,
-    "age_group": null,
-    "confidence": 0.6,
-    "source": "AI Incident Database",
-    "url": "https://futurism.com/artificial-intelligence/metas-muse-ai-giving-users-home-addresses",
-    "sources": [
-      {
-        "name": "AI Incident Database",
-        "url": "https://futurism.com/artificial-intelligence/metas-muse-ai-giving-users-home-addresses"
-      }
-    ],
-    "timeline": [
-      {
-        "date": "2026-10-24",
-        "event": "Reported by AI Incident Database"
-      }
-    ],
-    "verified": false,
-    "drafted_at": "2026-10-24T22:05:45Z",
-    "wire_id": "4badee6a3db9",
-    "first_seen": "2026-10-24T22:05:45Z",
-    "first_published": "2026-10-21T00:00:00Z",
-    "updated_at": "2026-10-24T22:05:45Z"
-  },
-  {
     "id": "nc-senate-lee-ai-ad-cease-desist",
     "date": "2026-10-24",
     "title": "NC senate candidate sends cease-and-desist over rival's AI ad",
@@ -3861,54 +3813,6 @@
     "updated_at": "2026-10-24T22:05:45Z"
   },
   {
-    "id": "sps-ai-fake-payment-receipts-phones",
-    "date": "2026-10-24",
-    "title": "Honduran woman arrested for using AI-made fake payment receipts to buy cellphones",
-    "category": "Deepfake fraud",
-    "direction": "with-ai",
-    "severity": "low",
-    "country": "HN",
-    "region": "Latin America",
-    "target": "Cellphone sellers in San Pedro Sula",
-    "loss_usd": null,
-    "summary": "A young woman was reportedly captured in San Pedro Sula after using fake payment receipts created with AI to obtain cellphones from sellers. Number of victims and value are not stated.",
-    "actor": "Young woman (name not given)",
-    "actor_type": "criminal",
-    "sector": "Retail & consumer brands",
-    "attribution": "Arrest reported by ElHeraldo.hn; the suspect is not named in the available text.",
-    "motive": "Financial gain by obtaining phones without paying.",
-    "vector": "AI-generated fake proofs of payment shown to sellers as evidence of transfer.",
-    "root_cause": "Sellers accepted visual payment receipts as proof of payment, and AI tools can produce convincing fakes.",
-    "impact": "Sellers allegedly handed over cellphones without being paid. Number of victims and total loss are Unknown.",
-    "response": "The suspect was captured in San Pedro Sula (SPS).",
-    "status": "contained",
-    "cve": null,
-    "young_people": false,
-    "setting": null,
-    "age_group": null,
-    "confidence": 0.6,
-    "source": "ElHeraldo.hn",
-    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNbVdYQVliMHJMM2JfTkdoVFFERW90OTJNeUdwci0xSzJXLTJ2QjVYYzRmYnNYQmk3YUR2clpxNkJCZDYycWJyaDgxcFVjTWFoUXhTcVRvRXZUSllCRUN1YnBlZ0U2eWxLdDltbGE1TG1ha2FXRUhIUkR2eHotQUs4VmJOOXVvNDl4QkdqZXBFck55UEx0LURadi00b1dNbTluZXVrQlg3OVpGQVMyeHd1RVV0alhXazhhVXV1TmptYzFkTmswU2wtSnhLNGNRdEtDamlsQmNUaw?oc=5",
-    "sources": [
-      {
-        "name": "ElHeraldo.hn",
-        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNbVdYQVliMHJMM2JfTkdoVFFERW90OTJNeUdwci0xSzJXLTJ2QjVYYzRmYnNYQmk3YUR2clpxNkJCZDYycWJyaDgxcFVjTWFoUXhTcVRvRXZUSllCRUN1YnBlZ0U2eWxLdDltbGE1TG1ha2FXRUhIUkR2eHotQUs4VmJOOXVvNDl4QkdqZXBFck55UEx0LURadi00b1dNbTluZXVrQlg3OVpGQVMyeHd1RVV0alhXazhhVXV1TmptYzFkTmswU2wtSnhLNGNRdEtDamlsQmNUaw?oc=5"
-      }
-    ],
-    "timeline": [
-      {
-        "date": "2026-10-24",
-        "event": "Reported by ElHeraldo.hn"
-      }
-    ],
-    "verified": false,
-    "drafted_at": "2026-10-24T23:35:38Z",
-    "wire_id": "4248e954c18e",
-    "first_seen": "2026-10-24T23:35:38Z",
-    "first_published": "2026-10-24T22:24:33Z",
-    "updated_at": "2026-10-24T23:35:38Z"
-  },
-  {
     "id": "ai-generated-boy-china-sales-scam",
     "date": "2026-10-25",
     "title": "AI-generated boy draws 600 million views in China product sales scam",
@@ -3955,54 +3859,6 @@
     "first_seen": "2026-10-25T04:35:41Z",
     "first_published": "2026-10-25T04:12:26Z",
     "updated_at": "2026-10-25T04:35:41Z"
-  },
-  {
-    "id": "argentina-ai-agent-health-breaches",
-    "date": "2026-10-25",
-    "title": "AI-agent cyberattacks breach at least 15 Argentine health entities, medical records stolen",
-    "category": "AI-assisted malware",
-    "direction": "with-ai",
-    "severity": "high",
-    "country": "AR",
-    "region": "Latin America",
-    "target": "At least 15 Argentine health entities",
-    "loss_usd": null,
-    "summary": "Clarín reports a rise in cyberattacks using AI agents in Argentina, which breached at least 15 health entities and stole clinical records (medical histories).",
-    "actor": "Unknown",
-    "actor_type": "unknown",
-    "sector": "Healthcare",
-    "attribution": "Unknown; the headline does not name the attackers.",
-    "motive": "Unknown; theft of clinical records suggests data theft.",
-    "vector": "Attacks carried out with AI agents; the specific technique is not given in the headline.",
-    "root_cause": "Unknown; not stated in the headline or summary.",
-    "impact": "At least 15 health entities were breached and clinical histories were stolen, exposing sensitive patient data.",
-    "response": "Unknown; no response is described in the available text.",
-    "status": "under investigation",
-    "cve": null,
-    "young_people": false,
-    "setting": null,
-    "age_group": null,
-    "confidence": 0.6,
-    "source": "Clarin.com",
-    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPNkRGbEJUNGNmMUtxX243SzBxT3hSRUl4T2RzUGVjY2JZbWM4YkhfM1VlYTJjbmVqQW9MRlU3STJhejhzUFc0YnVpVXJVMnBoZzh6bGNTblhnRmtyeUEzUlNBREN2T3Y2LW5vaW5mQnAybUlzV2NGUUdSQVlneHM0d3lrTjZxd29PN0FkX3YyUVpPZWotOFhyeThlcWlKaGp5bzU2QjRqUDVxY2RUY3FZTlhDQWJCcnJpeUJzZkZta1ZORnNGOGlERU9Wak4yZHhKMm9tVDZzLWh5X3QwaHd3SnFzOHNvRFXSAecBQVVfeXFMTzZERmxCVDRjZjFLcV9uN0swcU94UkVJeE9kc1BlY2NiWW1jOGJIXzNVZWEyY25lakFvTEZVN0kyYXo4c1BXNGJ1aVVyVTJwaGc4emxjU25YZ0ZrcnlBM1JTQURDdk92Ni1ub2luZkJwMm1Jc1djRlFHUkFZZ3hzNHd5a042cXdvTzdBZF92MlFaT2VqLThYcnk4ZXFpSmhqeW81NkI0alA1cWNkVGNxWU5YQ0FiQnJyaXlCc2ZGbWtWTkZzRjhpREVPVmpOMmR4SjJvbVQ2cy1oeV90MGh3d0pxczhzb0RV?oc=5",
-    "sources": [
-      {
-        "name": "Clarin.com",
-        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPNkRGbEJUNGNmMUtxX243SzBxT3hSRUl4T2RzUGVjY2JZbWM4YkhfM1VlYTJjbmVqQW9MRlU3STJhejhzUFc0YnVpVXJVMnBoZzh6bGNTblhnRmtyeUEzUlNBREN2T3Y2LW5vaW5mQnAybUlzV2NGUUdSQVlneHM0d3lrTjZxd29PN0FkX3YyUVpPZWotOFhyeThlcWlKaGp5bzU2QjRqUDVxY2RUY3FZTlhDQWJCcnJpeUJzZkZta1ZORnNGOGlERU9Wak4yZHhKMm9tVDZzLWh5X3QwaHd3SnFzOHNvRFXSAecBQVVfeXFMTzZERmxCVDRjZjFLcV9uN0swcU94UkVJeE9kc1BlY2NiWW1jOGJIXzNVZWEyY25lakFvTEZVN0kyYXo4c1BXNGJ1aVVyVTJwaGc4emxjU25YZ0ZrcnlBM1JTQURDdk92Ni1ub2luZkJwMm1Jc1djRlFHUkFZZ3hzNHd5a042cXdvTzdBZF92MlFaT2VqLThYcnk4ZXFpSmhqeW81NkI0alA1cWNkVGNxWU5YQ0FiQnJyaXlCc2ZGbWtWTkZzRjhpREVPVmpOMmR4SjJvbVQ2cy1oeV90MGh3d0pxczhzb0RV?oc=5"
-      }
-    ],
-    "timeline": [
-      {
-        "date": "2026-10-25",
-        "event": "Reported by Clarin.com"
-      }
-    ],
-    "verified": false,
-    "drafted_at": "2026-10-25T10:08:00Z",
-    "wire_id": "b11bfdd887f7",
-    "first_seen": "2026-10-25T10:08:00Z",
-    "first_published": "2026-10-25T09:07:43Z",
-    "updated_at": "2026-10-25T10:08:00Z"
   },
   {
     "id": "ai-agent-crypto-wallet-theft-openai",
@@ -4243,54 +4099,6 @@
     "first_seen": "2026-10-25T22:35:35Z",
     "first_published": "2026-10-23T12:30:00Z",
     "updated_at": "2026-10-25T22:35:35Z"
-  },
-  {
-    "id": "korea-genai-hacking-8m-records-arrest",
-    "date": "2026-10-26",
-    "title": "Korean police arrest group that used generative AI to hack and steal 8M+ personal records",
-    "category": "AI-assisted malware",
-    "direction": "with-ai",
-    "severity": "high",
-    "country": "KR",
-    "region": "Asia-Pacific",
-    "target": "Unspecified organisations holding personal data in South Korea",
-    "loss_usd": null,
-    "summary": "Police arrested a group, reportedly not IT specialists, who learned AI hacking methods via blogs and stole over 8 million personal records. Police call it the first domestic large-scale generative-AI hacking case.",
-    "actor": "Group of suspects arrested by Korean police (not named)",
-    "actor_type": "criminal",
-    "sector": "Individuals & consumers",
-    "attribution": "Korean police arrested the suspects, as reported by Maeil Business; names are not given in the summary.",
-    "motive": "Unknown; the theft of personal information suggests financial gain.",
-    "vector": "Generative AI tools used to carry out hacking, with methods learned from blogs.",
-    "root_cause": "Unknown; generative AI lowered the skill barrier for large-scale hacking by non-specialists.",
-    "impact": "More than 8 million items of personal information were stolen. The victim organisations are not identified in the summary.",
-    "response": "Police arrested the suspects and referred the case for prosecution, according to the report.",
-    "status": "under investigation",
-    "cve": null,
-    "young_people": false,
-    "setting": null,
-    "age_group": null,
-    "confidence": 0.6,
-    "source": "매일경제",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE94YWY4Z3BWVlkwXzBvQnV3RkNMbVZjdmdZVmRCTnlTd2g2S3V0NzI3SkVDQkJ2OS1ueWI4Rl9rcjdkeTVVdmdKSlVwVzU3VXRwMkE?oc=5",
-    "sources": [
-      {
-        "name": "매일경제",
-        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE94YWY4Z3BWVlkwXzBvQnV3RkNMbVZjdmdZVmRCTnlTd2g2S3V0NzI3SkVDQkJ2OS1ueWI4Rl9rcjdkeTVVdmdKSlVwVzU3VXRwMkE?oc=5"
-      }
-    ],
-    "timeline": [
-      {
-        "date": "2026-10-26",
-        "event": "Reported by 매일경제"
-      }
-    ],
-    "verified": false,
-    "drafted_at": "2026-10-26T03:35:38Z",
-    "wire_id": "c57f7f1ab23d",
-    "first_seen": "2026-10-26T03:35:38Z",
-    "first_published": "2026-10-26T03:01:00Z",
-    "updated_at": "2026-10-26T03:35:38Z"
   },
   {
     "id": "china-ai-video-fake-death-fraud",
@@ -4725,54 +4533,6 @@
     "updated_at": "2026-10-26T17:35:38Z"
   },
   {
-    "id": "dubai-cafe-ai-photo-refund-claim",
-    "date": "2026-10-26",
-    "title": "Dubai café says customer used AI-generated photo to claim delivery refund",
-    "category": "Deepfake fraud",
-    "direction": "with-ai",
-    "severity": "low",
-    "country": "AE",
-    "region": "Middle East & Africa",
-    "target": "Dubai café (food delivery refund process)",
-    "loss_usd": null,
-    "summary": "A Dubai café says a customer submitted an AI-generated photo to claim a refund on a food delivery order, according to Gulf News.",
-    "actor": "Unknown",
-    "actor_type": "unknown",
-    "sector": "Retail & consumer brands",
-    "attribution": "Unattributed; the café says a customer submitted the image. No individual is named in the headline.",
-    "motive": "Obtain a refund for a food delivery order.",
-    "vector": "AI-generated image submitted as evidence for a refund claim.",
-    "root_cause": "Refund claims rely on customer-supplied photos, which AI image generators can now fabricate convincingly.",
-    "impact": "A refund claim was based on a fabricated image. The amount lost is not stated.",
-    "response": "The café publicised the case. No further response is stated.",
-    "status": "unresolved",
-    "cve": null,
-    "young_people": false,
-    "setting": null,
-    "age_group": null,
-    "confidence": 0.6,
-    "source": "Gulf News",
-    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOUkFIcWZvcURKMWJZdHotRW5UbU91dzdjb0xaOUhLWGNlYlpicWdqLVJKdjhyTWxRaVRiZ0gyOXJVc0thWERzX0UwUy1YU204eDEtWkVRYk9oQ3diWEp2M3FQTXpNZE9qdTdlN0lJbmJfSnpGMnZaWWg0WWI3Tnk5SDFUUUNHN2JQWFpSZ2hXYWNHdEViRGxLZtIBqAFBVV95cUxQbmpPcUtIbkptYmRDdmZtZGwwSTRjcW9lS18wd1JoVnpPN0t1eEY1TzhWc3hHdEprUTBQaHpiS3lYQm02OWpyb0pBeDNwb1Z0bjYySWRIdkNyRUp1UjkyODZXVjZsd2VRVk5veHFZOXRWRnk4VFBxeTA4T1g0NENJTDJCMTJYSnVwVzV1M0h0NHR2SHFwTDN1ZTdFcUVwVGpZYmJhS0drNHI?oc=5",
-    "sources": [
-      {
-        "name": "Gulf News",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOUkFIcWZvcURKMWJZdHotRW5UbU91dzdjb0xaOUhLWGNlYlpicWdqLVJKdjhyTWxRaVRiZ0gyOXJVc0thWERzX0UwUy1YU204eDEtWkVRYk9oQ3diWEp2M3FQTXpNZE9qdTdlN0lJbmJfSnpGMnZaWWg0WWI3Tnk5SDFUUUNHN2JQWFpSZ2hXYWNHdEViRGxLZtIBqAFBVV95cUxQbmpPcUtIbkptYmRDdmZtZGwwSTRjcW9lS18wd1JoVnpPN0t1eEY1TzhWc3hHdEprUTBQaHpiS3lYQm02OWpyb0pBeDNwb1Z0bjYySWRIdkNyRUp1UjkyODZXVjZsd2VRVk5veHFZOXRWRnk4VFBxeTA4T1g0NENJTDJCMTJYSnVwVzV1M0h0NHR2SHFwTDN1ZTdFcUVwVGpZYmJhS0drNHI?oc=5"
-      }
-    ],
-    "timeline": [
-      {
-        "date": "2026-10-26",
-        "event": "Reported by Gulf News"
-      }
-    ],
-    "verified": false,
-    "drafted_at": "2026-10-26T23:35:34Z",
-    "wire_id": "4deade5f17c0",
-    "first_seen": "2026-10-26T23:35:34Z",
-    "first_published": "2026-10-26T12:51:43Z",
-    "updated_at": "2026-10-26T23:35:34Z"
-  },
-  {
     "id": "spain-restaurants-ai-fake-food-complaint",
     "date": "2026-10-27",
     "title": "Spanish restaurants lose thousands of euros to AI-made fake food complaints",
@@ -4963,54 +4723,6 @@
     "first_seen": "2026-10-27T13:05:38Z",
     "first_published": "2026-10-27T12:39:39Z",
     "updated_at": "2026-10-27T13:05:38Z"
-  },
-  {
-    "id": "yoba-fake-ai-apps-signed-binaries",
-    "date": "2026-10-27",
-    "title": "Yoba malware spread via fake ChatGPT and Claude desktop apps on GitHub",
-    "category": "AI supply chain",
-    "direction": "on-ai",
-    "severity": "medium",
-    "country": "GL",
-    "region": "Global",
-    "target": "Users seeking ChatGPT and Claude desktop apps",
-    "loss_usd": null,
-    "summary": "Check Point Research reports a two-month campaign using fake GitHub projects posing as AI desktop apps, abusing signed ChatGPT and Claude binaries, to deliver a custom malware chain called Yoba.",
-    "actor": "Unknown",
-    "actor_type": "criminal",
-    "sector": "Individuals & consumers",
-    "attribution": "Not attributed in the summary; Check Point Research tracks the campaign and names the malware chain Yoba.",
-    "motive": "Unknown; malware distribution",
-    "vector": "Fake GitHub projects posing as AI desktop apps (e.g. GPT-5.6 Sol) that abuse signed ChatGPT and Claude binaries to load the malware.",
-    "root_cause": "Attackers exploit the popularity of AI tools and trust in signed legitimate binaries and GitHub project listings.",
-    "impact": "Victim count and losses are not stated in the summary.",
-    "response": "Check Point Research published an analysis of the campaign.",
-    "status": "ongoing",
-    "cve": null,
-    "young_people": false,
-    "setting": null,
-    "age_group": null,
-    "confidence": 0.6,
-    "source": "Check Point Research",
-    "url": "https://research.checkpoint.com/2026/tricks-from-the-past-deployed-via-signed-chatgpt-and-claude-binaries",
-    "sources": [
-      {
-        "name": "Check Point Research",
-        "url": "https://research.checkpoint.com/2026/tricks-from-the-past-deployed-via-signed-chatgpt-and-claude-binaries"
-      }
-    ],
-    "timeline": [
-      {
-        "date": "2026-10-27",
-        "event": "Reported by Check Point Research"
-      }
-    ],
-    "verified": false,
-    "drafted_at": "2026-10-27T13:36:35Z",
-    "wire_id": "e846d42a1b38",
-    "first_seen": "2026-10-27T13:36:35Z",
-    "first_published": "2026-10-27T13:03:27Z",
-    "updated_at": "2026-10-27T13:36:35Z"
   },
   {
     "id": "ai-aided-pentester-90-orgs-8m-records",
@@ -5301,54 +5013,6 @@
     "updated_at": "2026-10-28T10:35:43Z"
   },
   {
-    "id": "123-reg-ai-cyberattack-customer-data",
-    "date": "2026-10-28",
-    "title": "123 Reg discloses AI cyberattack on customer data, suspects China nexus",
-    "category": "State actor AI ops",
-    "direction": "with-ai",
-    "severity": "high",
-    "country": "GB",
-    "region": "Europe",
-    "target": "123 Reg customer data",
-    "loss_usd": null,
-    "summary": "123 Reg disclosed an 'AI cyberattack' on customer data. Company chiefs suspect a China nexus and believe the attackers may be the same ones who used ARTEX against South Korean financial firms.",
-    "actor": "Unknown (suspected China-linked, possibly the ARTEX actors)",
-    "actor_type": "unknown",
-    "sector": "Technology & AI vendors",
-    "attribution": "123 Reg leadership suspects a China nexus and a possible link to the ARTEX attackers (per The Register); not confirmed.",
-    "motive": "Unknown",
-    "vector": "Described as an AI-driven cyberattack; the exact method is not stated.",
-    "root_cause": "Unknown",
-    "impact": "Customer data was affected. The scope and number of customers are not stated in the summary.",
-    "response": "123 Reg publicly disclosed the incident.",
-    "status": "under investigation",
-    "cve": null,
-    "young_people": false,
-    "setting": null,
-    "age_group": null,
-    "confidence": 0.6,
-    "source": "The Register",
-    "url": "https://www.theregister.com/cyber-crime/2026/10/28/123-reg-discloses-ai-cyberattack-on-customer-data-suspects-china-nexus/5305936",
-    "sources": [
-      {
-        "name": "The Register",
-        "url": "https://www.theregister.com/cyber-crime/2026/10/28/123-reg-discloses-ai-cyberattack-on-customer-data-suspects-china-nexus/5305936"
-      }
-    ],
-    "timeline": [
-      {
-        "date": "2026-10-28",
-        "event": "Reported by The Register"
-      }
-    ],
-    "verified": false,
-    "drafted_at": "2026-10-28T12:05:40Z",
-    "wire_id": "dda9773dd3c9",
-    "first_seen": "2026-10-28T12:05:40Z",
-    "first_published": "2026-10-28T11:45:00Z",
-    "updated_at": "2026-10-28T12:05:40Z"
-  },
-  {
     "id": "chatgpt-false-promise-suicidal-man",
     "date": "2026-10-28",
     "title": "ChatGPT allegedly promised suicidal man that human help was coming",
@@ -5539,54 +5203,6 @@
     "first_seen": "2026-10-28T15:35:48Z",
     "first_published": "2026-10-28T13:32:00Z",
     "updated_at": "2026-10-28T15:35:48Z"
-  },
-  {
-    "id": "php2shell-ai-assisted-us-gov-network",
-    "date": "2026-10-25",
-    "title": "AI-assisted PHP2Shell attack roots 25 servers, breaches US government-affiliated network",
-    "category": "AI-assisted malware",
-    "direction": "with-ai",
-    "severity": "high",
-    "country": "US",
-    "region": "North America",
-    "target": "Exposed PHP servers; US government-affiliated network",
-    "loss_usd": null,
-    "summary": "Researchers describe an apparently AI-assisted attack by a suspected China-nexus actor exploiting PHP2Shell vulnerabilities, observed on 25 Oct 2026, rooting 25 servers and breaching a US government-affiliated network.",
-    "actor": "Suspected China-nexus threat actor",
-    "actor_type": "unknown",
-    "sector": "Government & public sector",
-    "attribution": "Suspected China-nexus actor, per cybersecurity researchers cited by The Hacker News; not confirmed.",
-    "motive": "Unknown",
-    "vector": "Exploitation of PHP2Shell vulnerabilities in exposed systems, apparently with AI assistance.",
-    "root_cause": "Vulnerable, internet-exposed PHP systems exploited using AI-assisted tooling.",
-    "impact": "25 servers rooted and a US government-affiliated network breached.",
-    "response": "Researchers disclosed details of the activity; no other response stated.",
-    "status": "under investigation",
-    "cve": null,
-    "young_people": false,
-    "setting": null,
-    "age_group": null,
-    "confidence": 0.6,
-    "source": "The Hacker News",
-    "url": "https://thehackernews.com/2026/10/php2shell-attack-roots-25-servers.html",
-    "sources": [
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/10/php2shell-attack-roots-25-servers.html"
-      }
-    ],
-    "timeline": [
-      {
-        "date": "2026-10-25",
-        "event": "Reported by The Hacker News"
-      }
-    ],
-    "verified": false,
-    "drafted_at": "2026-10-28T16:35:42Z",
-    "wire_id": "eb73651e36ee",
-    "first_seen": "2026-10-28T16:35:42Z",
-    "first_published": "2026-10-28T16:02:45Z",
-    "updated_at": "2026-10-28T16:35:42Z"
   },
   {
     "id": "creator-exposes-ai-voice-clone-scam",
