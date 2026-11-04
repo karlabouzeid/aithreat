@@ -149,6 +149,42 @@
     "origin": "robot"
   },
   {
+    "id": "c46fed5b5386",
+    "date": "2026-11-04",
+    "sectors": [
+      "Financial services"
+    ],
+    "who": "India cybercrime agency",
+    "who_type": "security_agency",
+    "country": "IN",
+    "kind": "advisory",
+    "title": "India cybercrime agency warns financial firms about AI attacks",
+    "summary": "India's cybercrime agency warned financial firms about attacks using AI, per Arab News. The feed supplied no further detail.",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVW9ZdnBYVUFJZTlYY0lxdncxel9FMlNLaU9yMGk5NHhmVEgzNGhieEtNMTl3RndGNWtVa2o4WWZEdmlZd3NRUHhCUVBkUEw3cVQzdlZranMxU25tc0JyWTdQeUJFSllWWFcwcVdVQi1ac0ExRXhqUjN4TmU3d0ZtY080M25NenRPUzdHSWZOZ0gxUVFEc3NNa1BYYXJ4NVE?oc=5",
+    "source": "Arab News",
+    "lang": "en",
+    "added_at": "2026-11-04T15:07:25Z",
+    "origin": "robot"
+  },
+  {
+    "id": "342d1071309d",
+    "date": "2026-11-04",
+    "sectors": [
+      "Financial services"
+    ],
+    "who": "FINRA",
+    "who_type": "regulator",
+    "country": "US",
+    "kind": "warning",
+    "title": "FINRA warns AI is making investment fraud harder to detect",
+    "summary": "FINRA warned that AI is making investment fraud harder to detect. The feed supplied no further detail.",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQaWdGUXNvLU5iSnlzNE1SRk05aVdhRXAwd045R2RMaWZUMDNtcF9GRDhhT3hycGVjQ3Y2M3ZKUFh1cXBJLVIzQ2hyb010LV9TOG90Y19mWDBHSG0zbU1fcmtFeWNtTFpiMDVzQjdMWW1KQ3hmZEd6cTQyZUhRamxIeXEzaVp0M19KcHlwQlFxalNfa0s0dVRzWGl3MEo?oc=5",
+    "source": "Traders Magazine",
+    "lang": "en",
+    "added_at": "2026-11-04T15:07:25Z",
+    "origin": "robot"
+  },
+  {
     "id": "a1bf07b635b5",
     "date": "2026-11-03",
     "sectors": [
@@ -2128,25 +2164,6 @@
     "origin": "robot"
   },
   {
-    "id": "a46c0ab77dd3",
-    "date": "2026-10-12",
-    "sectors": [
-      "Multiple / cross-sector",
-      "Government & public sector"
-    ],
-    "who": "UK minister",
-    "who_type": "minister",
-    "country": "GB",
-    "kind": "warning",
-    "title": "UK minister warns AI breach of cyber defences is 'likely, if not inevitable'",
-    "summary": "A UK minister warned that an AI breach of UK cyber defences is 'likely, if not inevitable', according to local press reporting.",
-    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNYTY1UEtYV255aHJxd1c1S3U2RDJFM2ZvRGtQVlpra3BNQ25mMmNjSTZKLWJjTkhERDlOTFRBR2RiZk5vSkdROXFUZzk2SmJBeWlVNXhJX0Z1eE9BS1p6Q3IzeTlQUHQycDdOdXczWXFkNXJCQnRRUGlHbzI4OUZ5Ukg0MTRNV0hpWkg3dURhYUplX2J4WDUyUXZhUVRjLWhvQ2ZQdVdOaFFqMGtpZVdrYkQ0YWktNG9JZE5henJlamxZOFU?oc=5",
-    "source": "chelmsfordcitynews.co.uk",
-    "lang": "en",
-    "added_at": "2026-10-31T10:05:39Z",
-    "origin": "robot"
-  },
-  {
     "id": "8c8802c3e424",
     "date": "2026-10-12",
     "sectors": [
@@ -2163,6 +2180,25 @@
     "source": "The Irish News",
     "lang": "en",
     "added_at": "2026-10-31T22:05:43Z",
+    "origin": "robot"
+  },
+  {
+    "id": "a46c0ab77dd3",
+    "date": "2026-10-12",
+    "sectors": [
+      "Multiple / cross-sector",
+      "Government & public sector"
+    ],
+    "who": "UK minister",
+    "who_type": "minister",
+    "country": "GB",
+    "kind": "warning",
+    "title": "UK minister warns AI breach of cyber defences is 'likely, if not inevitable'",
+    "summary": "A UK minister warned that an AI breach of UK cyber defences is 'likely, if not inevitable', according to local press reporting.",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNYTY1UEtYV255aHJxd1c1S3U2RDJFM2ZvRGtQVlpra3BNQ25mMmNjSTZKLWJjTkhERDlOTFRBR2RiZk5vSkdROXFUZzk2SmJBeWlVNXhJX0Z1eE9BS1p6Q3IzeTlQUHQycDdOdXczWXFkNXJCQnRRUGlHbzI4OUZ5Ukg0MTRNV0hpWkg3dURhYUplX2J4WDUyUXZhUVRjLWhvQ2ZQdVdOaFFqMGtpZVdrYkQ0YWktNG9JZE5henJlamxZOFU?oc=5",
+    "source": "chelmsfordcitynews.co.uk",
+    "lang": "en",
+    "added_at": "2026-10-31T10:05:39Z",
     "origin": "robot"
   },
   {
@@ -3747,25 +3783,6 @@
   {
     "date": "2026-04-28",
     "sectors": [
-      "Defence & security",
-      "Retail & consumer brands"
-    ],
-    "who": "Europol",
-    "who_type": "intergovernmental",
-    "country": "EU",
-    "kind": "warning",
-    "title": "Europol IOCTA 2026 says AI, encryption and proxies are expanding cybercrime",
-    "summary": "Europol's Internet Organised Crime Threat Assessment said generative AI makes fraud more convincing, ransomware groups are adopting AI tools, and it expects cybercrime to become more automated with minimal human involvement.",
-    "url": "https://eucrim.eu/news/iocta-2026/",
-    "source": "eucrim",
-    "id": "seed-b2N0YS0yMDI2Lw",
-    "lang": "en",
-    "added_at": "2026-10-26T18:29:46Z",
-    "origin": "research"
-  },
-  {
-    "date": "2026-04-28",
-    "sectors": [
       "Financial services",
       "Government & public sector"
     ],
@@ -3778,6 +3795,25 @@
     "url": "https://www.europol.europa.eu/cms/sites/default/files/documents/IOCTA-2026.pdf",
     "source": "Europol",
     "id": "seed-RBLTIwMjYucGRm",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-04-28",
+    "sectors": [
+      "Defence & security",
+      "Retail & consumer brands"
+    ],
+    "who": "Europol",
+    "who_type": "intergovernmental",
+    "country": "EU",
+    "kind": "warning",
+    "title": "Europol IOCTA 2026 says AI, encryption and proxies are expanding cybercrime",
+    "summary": "Europol's Internet Organised Crime Threat Assessment said generative AI makes fraud more convincing, ransomware groups are adopting AI tools, and it expects cybercrime to become more automated with minimal human involvement.",
+    "url": "https://eucrim.eu/news/iocta-2026/",
+    "source": "eucrim",
+    "id": "seed-b2N0YS0yMDI2Lw",
     "lang": "en",
     "added_at": "2026-10-26T18:29:46Z",
     "origin": "research"

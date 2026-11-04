@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-04T14:35:44Z",
+  "updated_at": "2026-11-04T15:07:25Z",
   "wire_items": 800,
-  "new_items": 4,
+  "new_items": 6,
   "candidates": 268,
   "incidents": 433,
   "feeds_ok": [
@@ -69,7 +69,6 @@
     "Bank of England",
     "UK FCA",
     "US SEC",
-    "Council of the EU",
     "UK NCSC news",
     "CISA news",
     "UK government news",
@@ -84,8 +83,9 @@
   "feeds_failed": [
     "US court filings (CourtListener)",
     "European Commission",
+    "Council of the EU",
     "European Parliament",
     "EDPB"
   ],
-  "triage": "triaged 8 items with claude-sonnet-5-5 in 1 batches (0 failed); kept 4"
+  "triage": "triaged 9 items with claude-sonnet-5-5 in 1 batches (0 failed); kept 6"
 }
