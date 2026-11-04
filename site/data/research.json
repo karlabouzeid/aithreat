@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T20:13:39Z",
+  "generated_at": "2026-11-04T20:43:45Z",
   "licence": "CC BY 4.0",
   "sources": [
     {
@@ -755,13 +755,14 @@
       "claim": "AI systems are complex and unreliable, so accidents are normal; the goal must be to stop accidents from cascading into disasters.",
       "status": "observed",
       "note": "Coding agents have wiped databases and drives, assistants have published private chats, and staff acting on an AI agent's advice exposed sensitive data.",
-      "n": 17,
-      "real_world": 17,
+      "n": 18,
+      "real_world": 18,
       "first_real_world": "2023-09-17",
       "months_after_publication": 3,
       "url": "https://aithreat.io/research/accidents-normal/",
       "cases": [
         "cloudflare-workers-ai-glm-leak",
+        "whatsapp-help-pages-meta-ai-prompt-leak",
         "pixelleak-agent-screenshots",
         "meta-agent-data-exposure",
         "copilot-confidential-emails-bug",
@@ -1000,8 +1001,8 @@
       "claim": "Realistic AI-generated voices, images and video are used for fraud, extortion and sexual imagery made without consent, and cheap tools have made such content easy to produce at scale.",
       "status": "observed",
       "note": "The largest category in the registry: cloned voices and deepfake video calls impersonating executives, officials and relatives, and deepfake celebrity ads behind investment scams. The report adds that victims often do not report, so public cases undercount the harm.",
-      "n": 88,
-      "real_world": 88,
+      "n": 89,
+      "real_world": 89,
       "first_real_world": "2025-01-05",
       "months_after_publication": -13,
       "url": "https://aithreat.io/research/iasr-synthetic-content/",
@@ -1010,6 +1011,7 @@
         "tarn-restaurants-ai-fake-refund",
         "cctv-ai-fiancee-romance-scam",
         "mendoza-retiree-messi-ai-scam",
+        "scammers-clone-sheriff-voice",
         "wu-yue-ai-celebrity-impersonation-sales",
         "korea-police-officer-deepfake-indicted",
         "ai-music-streaming-royalty-fraud",
@@ -2160,8 +2162,8 @@
       "claim": "AI that leaks or infers sensitive personal data, and weaknesses in AI systems and their toolchains that attackers exploit.",
       "status": "observed",
       "note": "One of the two pillars of the registry: leaked chats and keys, exposed databases, prompt injection, hijacked agents, poisoned packages and stolen AI accounts.",
-      "n": 148,
-      "real_world": 100,
+      "n": 149,
+      "real_world": 101,
       "first_real_world": "2022-12-30",
       "months_after_publication": null,
       "url": "https://aithreat.io/research/mit-privacy-security/",
@@ -2170,6 +2172,7 @@
         "warp-agent-logs-vendor-breach",
         "cloudflare-workers-ai-glm-leak",
         "litellm-1-107-0-trojanized-release",
+        "whatsapp-help-pages-meta-ai-prompt-leak",
         "aoki-infostealer-ai-assistant-creds",
         "jinx-2401-llm-hijacking-aws",
         "bodyswap-deepfake-platform-breach",
@@ -2377,8 +2380,8 @@
       "claim": "People using AI for disinformation, surveillance and propaganda at scale; for cyberattacks and weapons; and for fraud, scams and targeted manipulation.",
       "status": "observed",
       "note": "The other pillar of the registry: deepfake fraud, AI-built malware, AI phishing and state operations.",
-      "n": 196,
-      "real_world": 195,
+      "n": 197,
+      "real_world": 196,
       "first_real_world": "2025-01-05",
       "months_after_publication": null,
       "url": "https://aithreat.io/research/mit-malicious-actors/",
@@ -2394,6 +2397,7 @@
         "bugster-deepseek-v4-india-universities",
         "storm-0940-artex-connectwise",
         "storm-1516-talarico-deepfake-video",
+        "scammers-clone-sheriff-voice",
         "wu-yue-ai-celebrity-impersonation-sales",
         "papercut-ai-agents-credential-theft",
         "storm-3168-agentic-azure-attacks",
@@ -2766,7 +2770,7 @@
     {
       "source": "cais-2023",
       "claims": 17,
-      "matched_cases": 185,
+      "matched_cases": 186,
       "matched_pct": 40,
       "status_counts": {
         "observed": 7,
@@ -2779,7 +2783,7 @@
     {
       "source": "iasr-2026",
       "claims": 11,
-      "matched_cases": 330,
+      "matched_cases": 331,
       "matched_pct": 72,
       "status_counts": {
         "observed": 5,
@@ -2844,7 +2848,7 @@
     {
       "source": "mit-risk-repository",
       "claims": 7,
-      "matched_cases": 400,
+      "matched_cases": 402,
       "matched_pct": 87,
       "status_counts": {
         "observed": 4,
@@ -2862,9 +2866,9 @@
     "none": 4,
     "outside": 7
   },
-  "matched_cases": 401,
-  "total_cases": 459,
-  "warning_matched_cases": 360,
+  "matched_cases": 403,
+  "total_cases": 462,
+  "warning_matched_cases": 362,
   "unmatched_pct": 22,
   "unmatched_by_category": [
     {
@@ -2875,7 +2879,7 @@
     {
       "category": "Model & data leak",
       "unmatched": 22,
-      "total": 43
+      "total": 44
     },
     {
       "category": "LLMjacking",
@@ -2889,8 +2893,8 @@
     },
     {
       "category": "AI exam fraud",
-      "unmatched": 5,
-      "total": 5
+      "unmatched": 6,
+      "total": 6
     },
     {
       "category": "State actor AI ops",
@@ -2905,7 +2909,7 @@
     {
       "category": "Deepfake fraud",
       "unmatched": 0,
-      "total": 91
+      "total": 92
     },
     {
       "category": "AI-assisted malware",

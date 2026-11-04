@@ -318,5 +318,37 @@
     "reason": "The Paper and Sina report that Wu Yue publicly said on 2026-10-18 that an account used AI face-swap and a cloned voice to sell goods, and WeChat permanently banned it, but the sources do not establish any proven victim losses.",
     "duplicate_of": null,
     "at": "2026-11-04T20:05:36Z"
+  },
+  {
+    "id": "orlando-teen-suicide-chatbot-settlement",
+    "title": "Orlando mother settles suit with AI company over 14-year-old son's suicide",
+    "decision": "reject",
+    "reason": "This is the Megan Garcia / Sewell Setzer III v. Character.AI case, already filed as garcia-v-character-ai-setzer; the settlement is a later development of that case, not a new incident.",
+    "duplicate_of": "garcia-v-character-ai-setzer",
+    "at": "2026-11-04T20:35:35Z"
+  },
+  {
+    "id": "whatsapp-help-pages-meta-ai-prompt-leak",
+    "title": "WhatsApp help pages leak hidden Meta chatbot instructions",
+    "decision": "approve",
+    "reason": "WIRED reported, and Meta confirmed, that a bug exposed hidden instructions for WhatsApp's support chatbot on about 80 help pages; it is a real, specific AI system-prompt exposure and not a known case.",
+    "duplicate_of": null,
+    "at": "2026-11-04T20:35:35Z"
+  },
+  {
+    "id": "scammers-clone-sheriff-voice",
+    "title": "Scammers use AI-cloned voice of a sheriff to impersonate him",
+    "decision": "approve",
+    "reason": "WKMG, Fox 35 and 404 Media report that the Osceola County (Florida) Sheriff's Office says scammers cloned the voice of a real captain in fake arrest-warrant voicemails; the draft wrongly names the sheriff as the person impersonated.",
+    "duplicate_of": null,
+    "at": "2026-11-04T20:35:35Z"
+  },
+  {
+    "id": "brazil-oab-exam-ai-fraud-arrest",
+    "title": "Brazilian Federal Police arrest OAB bar exam candidate for AI-assisted fraud",
+    "decision": "approve",
+    "reason": "Migalhas and other Brazilian outlets confirm the Federal Police arrested a candidate in São Luís on 18 October 2026 for allegedly using a phone connected to an AI tool during the OAB exam; it is not a known case.",
+    "duplicate_of": null,
+    "at": "2026-11-04T20:35:35Z"
   }
 ]

@@ -8017,5 +8017,53 @@
     "timeline": [
       "Signalé par BlockBeats"
     ]
+  },
+  {
+    "title": "La Police fédérale brésilienne arrête à São Luís un candidat à l’examen du barreau de l’OAB pour une fraude présumée assistée par IA",
+    "summary": "Le 18 octobre 2026, la Police fédérale a arrêté en flagrant délit un candidat à l’examen du barreau de l’OAB à São Luís, dans le Maranhão, après que des agents l’ont surpris en train d’utiliser un téléphone connecté à un outil d’IA, vraisemblablement pour obtenir un avantage. Il a été mis en cause pour fraude à un examen d’intérêt public, puis remis en liberté après avoir versé une caution. La police cherche à déterminer si d’autres personnes ont participé aux faits. Son identité n’a pas été divulguée.",
+    "target": "Examen de l’OAB (Ordre des avocats du Brésil)",
+    "actor": "Candidat à l’examen de l’OAB non identifié",
+    "attribution": "Arrestation par la Police fédérale rapportée par Jurinews ; le candidat n’est pas nommé dans le titre.",
+    "motive": "Inconnu",
+    "vector": "Recours à l’IA pour tricher à l’examen ; les outils et la méthode exacts ne sont pas précisés dans le titre.",
+    "root_cause": "Inconnue ; le titre ne donne aucun détail sur la manière dont la triche a contourné les contrôles de l’examen.",
+    "impact": "L’intégrité de l’examen a été compromise dans au moins un cas ; l’ampleur des faits et l’éventuelle implication d’autres personnes sont inconnues.",
+    "response": "Arrêté en flagrant délit par la Police fédérale ; remis en liberté sous caution ; l’enquête se poursuit.",
+    "id": "brazil-oab-exam-ai-fraud-arrest",
+    "timeline": [
+      "Révélé par Jurinews"
+    ]
+  },
+  {
+    "title": "Les pages d’aide de WhatsApp divulguent les instructions cachées du chatbot d’assistance de Meta",
+    "summary": "Environ 80 pages d’aide et de FAQ de WhatsApp contenaient quelque 100 blocs d’instructions cachées rédigées pour le chatbot d’assistance de Meta, dont une section « WHAT NOT TO SAY », dans un code de page libellé HelpContentGalaxyLLMInclude. La société spécialisée dans la protection de la vie privée Redact les a découvertes. Meta affirme qu’un bogue est à l’origine de l’exposition et a supprimé le texte après avoir été sollicitée par WIRED. Aucune conversation privée ni donnée de compte n’aurait été exposée.",
+    "target": "Chatbot d’assistance WhatsApp de Meta (pages d’aide et de FAQ)",
+    "actor": "Aucun attaquant ; Meta attribue l’exposition à un bogue (découvert par la société spécialisée dans la protection de la vie privée Redact, rapporté par WIRED)",
+    "attribution": "Aucun attaquant identifié. Meta attribue l’exposition à un bogue, selon WIRED.",
+    "motive": "Inconnu",
+    "vector": "Texte d’instructions du chatbot publié sur les pages d’aide publiques de WhatsApp.",
+    "root_cause": "Selon Meta, un bogue a fait apparaître les instructions cachées du chatbot sur des pages d’aide publiques.",
+    "impact": "Environ 80 pages exposaient les instructions internes du chatbot. Aucune perte de données d’utilisateurs n’est signalée.",
+    "response": "Meta a retiré les instructions des pages concernées après avoir été contactée par WIRED et affirme que le bogue est corrigé.",
+    "id": "whatsapp-help-pages-meta-ai-prompt-leak",
+    "timeline": [
+      "Révélé par WIRED Security"
+    ]
+  },
+  {
+    "title": "Des escrocs utilisent la voix clonée par IA d’un capitaine du shérif du comté d’Osceola, en Floride, dans de faux appels de mandat d’arrêt",
+    "summary": "Le bureau du shérif du comté d’Osceola indique que des escrocs ont utilisé l’IA pour cloner la voix du capitaine Steve Moser, ainsi que sa photo, dans des messages vocaux affirmant que les destinataires faisaient l’objet d’un mandat d’arrêt ou avaient manqué une convocation comme juré. Le bureau estime à une quarantaine le nombre de cas d’escrocs se faisant passer pour les forces de l’ordre cette année. Les sources ne font état d’aucune perte pour les victimes et ne précisent pas que les 40 cas impliquaient tous un clonage vocal par IA.",
+    "target": "Habitants du comté d’Osceola, en Floride, recevant de faux appels de mandat d’arrêt et de convocation manquée comme juré ; usurpation de l’identité du capitaine Steve Moser",
+    "actor": "Escrocs inconnus",
+    "attribution": "Escrocs non identifiés. Propos de la police rapportés par 404 Media.",
+    "motive": "Fraude",
+    "vector": "Clonage vocal par IA de la voix d’un shérif pour se faire passer pour lui.",
+    "root_cause": "Des échantillons de voix publics peuvent être clonés par IA afin d’usurper de façon convaincante l’identité de responsables.",
+    "impact": "L’identité du shérif a été usurpée. Les pertes et le nombre de victimes ne sont pas précisés.",
+    "response": "La police a rendu l’escroquerie publique. Aucune arrestation n’est signalée.",
+    "id": "scammers-clone-sheriff-voice",
+    "timeline": [
+      "Révélé par 404 Media"
+    ]
   }
 ]

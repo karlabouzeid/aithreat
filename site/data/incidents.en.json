@@ -23207,6 +23207,61 @@
     "verified_at": "2026-11-04T20:05:36Z"
   },
   {
+    "id": "brazil-oab-exam-ai-fraud-arrest",
+    "date": "2026-10-18",
+    "title": "Brazilian Federal Police arrest OAB bar exam candidate in São Luís for alleged AI-assisted fraud",
+    "category": "AI exam fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "BR",
+    "region": "Maranhão (São Luís)",
+    "target": "OAB (Brazilian Bar Association) exam",
+    "loss_usd": null,
+    "summary": "On 18 October 2026 the Federal Police arrested in flagrante a candidate at the OAB bar exam in São Luís, Maranhão, after agents found him using a phone connected to an AI tool, allegedly to gain an advantage. He was booked for fraud in a public-interest exam and released after paying bail. Police are investigating whether anyone else took part. His identity has not been released.",
+    "actor": "Unnamed OAB exam candidate",
+    "actor_type": "criminal",
+    "sector": "Education & research",
+    "attribution": "Federal Police arrest reported by Jurinews; the candidate is not named in the headline.",
+    "motive": "Unknown",
+    "vector": "Use of AI to cheat in the exam; exact tools and method are not stated in the headline.",
+    "root_cause": "Unknown; the headline gives no details on how the cheating got past exam controls.",
+    "impact": "Exam integrity was compromised in at least one case; the scale and whether others were involved are unknown.",
+    "response": "Arrested in flagrante by the Federal Police; released on bail; investigation continues.",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "source": "Jurinews",
+    "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOdEtSWGtVVFNUbzIyTUVKX3F0WHZtRDAyZ0VuXzV1ekZtNF82eFhDN2VjMVpETHhkMGZLLUdXTkx6NV9iRU5lZXlXR3ZKeENIcks2ZWVwbDJDb0h5WXdTdG0xSWhpdWREOHBBNG80LThtbmFhODFvTzB1cHFONXZLRU9rc2twME8xVVZDa1JhbGYwYXFKUF9JMmFvY2oxMTNFQTFEb3NySEdlYlBYQWFsZTJrWVFUdVJrbHZGeWNrRTBqSGVrZDN4RHNFb01sZkRHSkVHdXRFaWZEaU9aV3RZ?oc=5",
+    "sources": [
+      {
+        "name": "Jurinews",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOdEtSWGtVVFNUbzIyTUVKX3F0WHZtRDAyZ0VuXzV1ekZtNF82eFhDN2VjMVpETHhkMGZLLUdXTkx6NV9iRU5lZXlXR3ZKeENIcks2ZWVwbDJDb0h5WXdTdG0xSWhpdWREOHBBNG80LThtbmFhODFvTzB1cHFONXZLRU9rc2twME8xVVZDa1JhbGYwYXFKUF9JMmFvY2oxMTNFQTFEb3NySEdlYlBYQWFsZTJrWVFUdVJrbHZGeWNrRTBqSGVrZDN4RHNFb01sZkRHSkVHdXRFaWZEaU9aV3RZ?oc=5"
+      },
+      {
+        "name": "Migalhas",
+        "url": "https://www.migalhas.com.br/quentes/466789/pf-prende-candidato-suspeito-de-usar-ia-para-fraudar-exame-da-oab"
+      },
+      {
+        "name": "Juristas",
+        "url": "https://juristas.com.br/noticias/pf-prende-candidato-suspeito-de-usar-inteligencia-artificial-para-fraudar-exame-da-oab-no-maranhao/"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-19",
+        "event": "Reported by Jurinews"
+      }
+    ],
+    "drafted_at": "2026-10-19T20:05:42Z",
+    "first_seen": "2026-10-19T20:05:42Z",
+    "updated_at": "2026-11-04T20:35:35Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-04T20:35:35Z"
+  },
+  {
     "id": "goias-ai-armed-photo-threat-ex",
     "date": "2026-10-19",
     "title": "Goiás man arrested for AI-faked armed photo used to threaten ex-partner",
@@ -23252,6 +23307,116 @@
     "verification": "reported",
     "review": "auto",
     "verified_at": "2026-11-04T18:05:40Z"
+  },
+  {
+    "id": "whatsapp-help-pages-meta-ai-prompt-leak",
+    "date": "2026-10-19",
+    "title": "WhatsApp help pages leak hidden instructions for Meta's support chatbot",
+    "category": "Model & data leak",
+    "direction": "on-ai",
+    "severity": "low",
+    "country": "US",
+    "region": "North America",
+    "target": "Meta's WhatsApp support chatbot (help and FAQ pages)",
+    "loss_usd": null,
+    "summary": "About 80 WhatsApp help and FAQ pages carried roughly 100 blocks of hidden instructions written for Meta's support chatbot, including a 'WHAT NOT TO SAY' section, in page code labelled HelpContentGalaxyLLMInclude. Privacy firm Redact found them. Meta says a bug caused the exposure and removed the text after WIRED asked. No private chats or account data were reported exposed.",
+    "actor": "No attacker; Meta attributes the exposure to a bug (found by privacy firm Redact, reported by WIRED)",
+    "actor_type": "accident",
+    "sector": "Technology & AI vendors",
+    "attribution": "No attacker identified. Meta attributes the exposure to a bug, per WIRED.",
+    "motive": "Unknown",
+    "vector": "Chatbot instruction text published on public WhatsApp help pages.",
+    "root_cause": "Meta says a bug caused the chatbot's hidden instructions to appear on public help pages.",
+    "impact": "Roughly 80 pages exposed the internal chatbot instructions. No user data loss is reported.",
+    "response": "Meta removed the instructions from the affected pages after WIRED contacted it and says the bug is fixed.",
+    "status": "resolved",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "source": "WIRED Security",
+    "url": "https://www.wired.com/story/whatsapp-help-pages-leaked-hidden-instructions-for-a-meta-chatbot",
+    "sources": [
+      {
+        "name": "WIRED Security",
+        "url": "https://www.wired.com/story/whatsapp-help-pages-leaked-hidden-instructions-for-a-meta-chatbot"
+      },
+      {
+        "name": "WIRED (via WIRED Bluesky post)",
+        "url": "https://bsky.app/profile/wired.com/post/3myakxyuinc2c"
+      },
+      {
+        "name": "ChatAI",
+        "url": "https://www.chatai.com/posts/whatsapp-ai-chatbot-s-secret-instructions-leaked-across-80-pages-meta-confirms"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-19",
+        "event": "Reported by WIRED Security"
+      }
+    ],
+    "drafted_at": "2026-10-19T16:31:03Z",
+    "first_seen": "2026-10-19T16:31:03Z",
+    "updated_at": "2026-11-04T20:35:35Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-04T20:35:35Z"
+  },
+  {
+    "id": "scammers-clone-sheriff-voice",
+    "date": "2026-10-19",
+    "title": "Scammers use AI-cloned voice of Osceola County, Florida sheriff's captain in fake arrest-warrant calls",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "low",
+    "country": "US",
+    "region": "Florida (Osceola County)",
+    "target": "Residents of Osceola County, Florida receiving fake arrest-warrant and missed-jury-duty calls; Captain Steve Moser impersonated",
+    "loss_usd": null,
+    "summary": "The Osceola County Sheriff's Office says scammers used AI to clone the voice, and used the photo, of Captain Steve Moser in voicemails claiming recipients had an arrest warrant or had missed jury duty. The office estimates about 40 cases of scammers impersonating law enforcement this year. The sources report no victim losses and do not say all of the 40 cases involved AI voice cloning.",
+    "actor": "Unknown scammers",
+    "actor_type": "criminal",
+    "sector": "Individuals & consumers",
+    "attribution": "Unidentified scammers. Police are quoted by 404 Media.",
+    "motive": "Fraud",
+    "vector": "AI voice cloning of a sheriff's voice used to impersonate him.",
+    "root_cause": "Public voice samples can be cloned with AI to convincingly impersonate officials.",
+    "impact": "The sheriff's identity was abused. Losses and number of victims are not stated.",
+    "response": "Police have publicised the scam. No arrests are reported.",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "source": "404 Media",
+    "url": "https://www.404media.co/police-say-scammers-used-ai-to-clone-a-sheriffs-voice",
+    "sources": [
+      {
+        "name": "404 Media",
+        "url": "https://www.404media.co/police-say-scammers-used-ai-to-clone-a-sheriffs-voice"
+      },
+      {
+        "name": "WKMG ClickOrlando",
+        "url": "https://www.clickorlando.com/news/local/2026/10/19/scammers-use-ai-to-clone-florida-sheriffs-captains-voice-in-fake-arrest-warrant-calls/"
+      },
+      {
+        "name": "FOX 35 Orlando",
+        "url": "https://www.fox35orlando.com/news/ai-scammers-clone-deputies-voices-demand-money-from-osceola-county-residents-sheriff-says"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-19",
+        "event": "Reported by 404 Media"
+      }
+    ],
+    "drafted_at": "2026-10-19T16:31:03Z",
+    "first_seen": "2026-10-19T16:31:03Z",
+    "updated_at": "2026-11-04T20:35:35Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-04T20:35:35Z"
   },
   {
     "id": "litellm-1-107-0-trojanized-release",

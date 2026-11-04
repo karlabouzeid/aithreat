@@ -5,7 +5,7 @@
 Positioning: a reference registry of AI security incidents (attacks on AI systems, and attacks carried out with AI): structured, verified, fast, multilingual and openly licensed.
 
 ## Key pages
-- [All verified case files](https://aithreat.io/cases/): 459 incidents, newest first, with hubs by type and country
+- [All verified case files](https://aithreat.io/cases/): 462 incidents, newest first, with hubs by type and country
 - [Interactive world map](https://aithreat.io/): the same cases on a map with filters
 - [Live wire](https://aithreat.io/#wire): AI security headlines from vetted sources, refreshed every 30 minutes (machine-triaged, not verified)
 - [Data and citing](https://aithreat.io/#data): download links, field list, inclusion rule, severity scale
@@ -25,7 +25,7 @@ Positioning: a reference registry of AI security incidents (attacks on AI system
 - [Sitemap](https://aithreat.io/sitemap.xml)
 
 ## Case files by type
-- [AI exam fraud](https://aithreat.io/cases/category/ai-exam-fraud/): 5 cases
+- [AI exam fraud](https://aithreat.io/cases/category/ai-exam-fraud/): 6 cases
 - [AI misfire](https://aithreat.io/cases/category/ai-misfire/): 7 cases
 - [AI phishing](https://aithreat.io/cases/category/ai-phishing/): 16 cases
 - [AI supply chain](https://aithreat.io/cases/category/ai-supply-chain/): 48 cases
@@ -33,9 +33,9 @@ Positioning: a reference registry of AI security incidents (attacks on AI system
 - [Agent hijack](https://aithreat.io/cases/category/agent-hijack/): 28 cases
 - [Chatbot harm](https://aithreat.io/cases/category/chatbot-harm/): 47 cases
 - [Deepfake abuse](https://aithreat.io/cases/category/deepfake-abuse/): 47 cases
-- [Deepfake fraud](https://aithreat.io/cases/category/deepfake-fraud/): 91 cases
+- [Deepfake fraud](https://aithreat.io/cases/category/deepfake-fraud/): 92 cases
 - [LLMjacking](https://aithreat.io/cases/category/llmjacking/): 15 cases
-- [Model & data leak](https://aithreat.io/cases/category/model-data-leak/): 43 cases
+- [Model & data leak](https://aithreat.io/cases/category/model-data-leak/): 44 cases
 - [Prompt injection](https://aithreat.io/cases/category/prompt-injection/): 28 cases
 - [State actor AI ops](https://aithreat.io/cases/category/state-actor-ai-ops/): 32 cases
 
@@ -281,6 +281,7 @@ Positioning: a reference registry of AI security incidents (attacks on AI system
 - [Meta AI app users](https://aithreat.io/cases/company/meta-ai-app-users/): 1 case
 - [Meta AI chatbot](https://aithreat.io/cases/company/meta-ai-chatbot/): 1 case
 - [Meta internal systems](https://aithreat.io/cases/company/meta-internal-systems/): 1 case
+- [Meta's WhatsApp support chatbot (help and FAQ pages)](https://aithreat.io/cases/company/meta-s-whatsapp-support-chatbot-help-and-faq-pages/): 1 case
 - [METR (AI evaluation nonprofit), public-models API account](https://aithreat.io/cases/company/metr-ai-evaluation-nonprofit-public-models-api-account/): 1 case
 - [Mexican bank customers](https://aithreat.io/cases/company/mexican-bank-customers/): 1 case
 - [Mexican Facebook users; President Claudia Sheinbaum](https://aithreat.io/cases/company/mexican-facebook-users-president-claudia-sheinbaum/): 1 case
@@ -314,6 +315,7 @@ Positioning: a reference registry of AI security incidents (attacks on AI system
 - [npm/PyPI AI developer packages](https://aithreat.io/cases/company/npm-pypi-ai-developer-packages/): 1 case
 - [npm users with Solana wallets](https://aithreat.io/cases/company/npm-users-with-solana-wallets/): 1 case
 - [Nx build system users](https://aithreat.io/cases/company/nx-build-system-users/): 1 case
+- [OAB (Brazilian Bar Association) exam](https://aithreat.io/cases/company/oab-brazilian-bar-association-exam/): 1 case
 - [Old Mutual customers and South African public](https://aithreat.io/cases/company/old-mutual-customers-and-south-african-public/): 1 case
 - [OmniGPT (multi-model AI chat aggregator)](https://aithreat.io/cases/company/omnigpt-multi-model-ai-chat-aggregator/): 1 case
 - [Open-source maintainers on PyPI, npm and Docker Hub](https://aithreat.io/cases/company/open-source-maintainers-on-pypi-npm-and-docker-hub/): 1 case
@@ -356,6 +358,7 @@ Positioning: a reference registry of AI security incidents (attacks on AI system
 - [Ray (Anyscale) AI compute clusters](https://aithreat.io/cases/company/ray-anyscale-ai-compute-clusters/): 1 case
 - [Ray-Project Ray AI compute framework users](https://aithreat.io/cases/company/ray-project-ray-ai-compute-framework-users/): 1 case
 - [Replika users in Italy, including minors](https://aithreat.io/cases/company/replika-users-in-italy-including-minors/): 1 case
+- [Residents of Osceola County, Florida receiving fake arrest-warrant and missed-jury-duty calls; Captain Steve Moser impersonated](https://aithreat.io/cases/company/residents-of-osceola-county-florida-receiving-fake-arrest-warrant-and-missed-jury-duty-calls-captain-steve-moser-impersonated/): 1 case
 - [Restaurants in the Tarn, France](https://aithreat.io/cases/company/restaurants-in-the-tarn-france/): 1 case
 - [Retail investors across Europe](https://aithreat.io/cases/company/retail-investors-across-europe/): 1 case
 - [Retail investors in the UK and Europe](https://aithreat.io/cases/company/retail-investors-in-the-uk-and-europe/): 1 case
@@ -516,8 +519,11 @@ Positioning: a reference registry of AI security incidents (attacks on AI system
 - [Malicious LiteLLM 1.107.0 on PyPI and Docker steals browser, cloud and AI secrets](https://aithreat.io/cases/litellm-1-107-0-trojanized-release/): 2026-10-21, high, AI supply chain, Worldwide. Wiz reports a malicious LiteLLM 1.107.0 uploaded to PyPI and Docker on October 21, with a stealer for browser, cloud and AI secrets and a dormant C2.
 - [Kyrgyz woman, 23, alleges AI-undressed photo of her was sent to acquaintances](https://aithreat.io/cases/kyrgyz-woman-sexual-deepfake-kaktus/): 2026-10-21, medium, Deepfake abuse, KG. A 23-year-old woman told Kaktus.media she was the victim of a sexualised deepfake made with AI and allegedly sent to acquaintances. She says she fears the police case is stalling and the culprit may escape punishment; nothing has been proven.
 - [BUGSTER uses DeepSeek V4 as AI cybercrime assistant against Indian universities](https://aithreat.io/cases/bugster-deepseek-v4-india-universities/): 2026-10-21, medium, AI-assisted malware, India. Unit 42 reports that an actor using the handle BUGSTER ran the Hermes Agent framework with DeepSeek V4 as its reasoning engine, plus Cursor, with safety controls disabled. The actor ran an AI-generated brute-force campaign against one Indian university's website and achieved a confirmed intrusion at a second university, exfiltrating a database of more than 5,200 records with personal data on students. Unit 42 also found AI-assisted planning for VoIP fraud, Wi-Fi password cracking and cryptocurrency-holder reconnaissance, but no evidence of active call routing.
+- [WhatsApp help pages leak hidden instructions for Meta's support chatbot](https://aithreat.io/cases/whatsapp-help-pages-meta-ai-prompt-leak/): 2026-10-19, low, Model & data leak, United States. About 80 WhatsApp help and FAQ pages carried roughly 100 blocks of hidden instructions written for Meta's support chatbot, including a 'WHAT NOT TO SAY' section, in page code labelled HelpContentGalaxyLLMInclude. Privacy firm Redact found them. Meta says a bug caused the exposure and removed the text after WIRED asked. No private chats or account data were reported exposed.
+- [Scammers use AI-cloned voice of Osceola County, Florida sheriff's captain in fake arrest-warrant calls](https://aithreat.io/cases/scammers-clone-sheriff-voice/): 2026-10-19, low, Deepfake fraud, United States. The Osceola County Sheriff's Office says scammers used AI to clone the voice, and used the photo, of Captain Steve Moser in voicemails claiming recipients had an arrest warrant or had missed jury duty. The office estimates about 40 cases of scammers impersonating law enforcement this year. The sources report no victim losses and do not say all of the 40 cases involved AI voice cloning.
 - [Goiás man arrested for AI-faked armed photo used to threaten ex-partner](https://aithreat.io/cases/goias-ai-armed-photo-threat-ex/): 2026-10-19, medium, Deepfake abuse, Brazil. A man in Goiás, Brazil, used AI to forge an image of a pistol in a vehicle and sent it by WhatsApp to threaten his ex-partner. He was arrested in flagrante after the victim identified a tattoo in the image.
 - [AI deepfakes of actress Wu Yue and other celebrities used to push product sales](https://aithreat.io/cases/wu-yue-ai-celebrity-impersonation-sales/): 2026-10-18, medium, Deepfake fraud, China. Actress Wu Yue said on 18 October 2026 that the WeChat Channels account '花姐美肤日记' (Hua Jie Beauty Diary) used an AI face-swap and cloned voice of her to promote skincare products she never endorsed, and she demanded it repay viewers. Coverage says other public figures, such as Deng Yaping, have been faked in similar sales videos. No loss figure has been reported, and the buyers' losses are alleged.
+- [Brazilian Federal Police arrest OAB bar exam candidate in São Luís for alleged AI-assisted fraud](https://aithreat.io/cases/brazil-oab-exam-ai-fraud-arrest/): 2026-10-18, medium, AI exam fraud, Brazil. On 18 October 2026 the Federal Police arrested in flagrante a candidate at the OAB bar exam in São Luís, Maranhão, after agents found him using a phone connected to an AI tool, allegedly to gain an advantage. He was booked for fraud in a public-interest exam and released after paying bail. Police are investigating whether anyone else took part. His identity has not been released.
 - [Hundreds of AI agents exploit PaperCut NG/MF servers to steal Windows credentials](https://aithreat.io/cases/papercut-ai-agents-credential-theft/): 2026-10-16, high, AI-assisted malware, Worldwide. A likely Russian-speaking actor used hundreds of AI agents to exploit PaperCut NG/MF servers, steal Windows credentials and set up reusable internal access. GreyNoise found 440 compromised instances.
 - [JINX-2401 LLM hijacking campaign targets AWS environments with IAM privilege escalation](https://aithreat.io/cases/jinx-2401-llm-hijacking-aws/): 2026-10-16, medium, LLMjacking, Worldwide. Wiz reports new LLM hijacking activity, including the JINX-2401 campaign that targets AWS environments using IAM privilege escalation tactics.
 - [Aoki infostealer expands to steal Claude, ChatGPT and Cursor credentials](https://aithreat.io/cases/aoki-infostealer-ai-assistant-creds/): 2026-10-16, medium, Model & data leak, Worldwide. The Aoki (Aokigahara) infostealer, first seen earlier in 2026, now collects credentials and session files from AI coding assistants, putting developer identities and connected infrastructure at risk.

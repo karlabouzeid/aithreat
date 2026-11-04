@@ -8017,5 +8017,53 @@
     "timeline": [
       "BlockBeats 报道"
     ]
+  },
+  {
+    "title": "巴西联邦警察在圣路易斯（São Luís）逮捕涉嫌借助 AI 作弊的 OAB 律师资格考试考生",
+    "summary": "2026 年 10 月 18 日，联邦警察在马拉尼昂州圣路易斯的 OAB 律师资格考试现场当场逮捕了一名考生，探员发现他使用连接 AI 工具的手机，涉嫌借此获取优势。他因涉嫌在公共利益考试中作弊被登记立案，缴纳保释金后获释。警方正在调查是否有其他人参与。其身份尚未公布。",
+    "target": "OAB（巴西律师协会）考试",
+    "actor": "身份不明的 OAB 考试考生",
+    "attribution": "Jurinews 报道了联邦警察的此次逮捕；标题中未点名该考生。",
+    "motive": "不详",
+    "vector": "利用 AI 在考试中作弊；标题未说明具体工具和手法。",
+    "root_cause": "不详；标题未说明作弊行为如何绕过考试管控。",
+    "impact": "至少在一起案件中考试的公正性受到损害；规模以及是否有他人参与均不详。",
+    "response": "联邦警察当场逮捕；缴纳保释金后获释；调查仍在继续。",
+    "id": "brazil-oab-exam-ai-fraud-arrest",
+    "timeline": [
+      "Jurinews 报道"
+    ]
+  },
+  {
+    "title": "WhatsApp 帮助页面泄露 Meta 客服聊天机器人的隐藏指令",
+    "summary": "约 80 个 WhatsApp 帮助和常见问题页面的页面代码中带有约 100 段为 Meta 客服聊天机器人编写的隐藏指令，其中包括“WHAT NOT TO SAY”部分，代码标注为 HelpContentGalaxyLLMInclude。隐私公司 Redact 发现了这些内容。Meta 称是一个 bug 导致了此次暴露，并在 WIRED 询问后删除了这些文本。未报告有私人聊天或账户数据暴露。",
+    "target": "Meta 的 WhatsApp 客服聊天机器人（帮助和常见问题页面）",
+    "actor": "无攻击者；Meta 将此次暴露归因于一个 bug（由隐私公司 Redact 发现，WIRED 报道）",
+    "attribution": "未确认攻击者。据 WIRED 报道，Meta 将此次暴露归因于 bug。",
+    "motive": "不详",
+    "vector": "聊天机器人的指令文本被发布在公开的 WhatsApp 帮助页面上。",
+    "root_cause": "Meta 称，一个 bug 导致聊天机器人的隐藏指令出现在公开帮助页面上。",
+    "impact": "约 80 个页面暴露了聊天机器人的内部指令。未报告用户数据丢失。",
+    "response": "WIRED 联系 Meta 后，Meta 从受影响页面上删除了这些指令，并称该 bug 已修复。",
+    "id": "whatsapp-help-pages-meta-ai-prompt-leak",
+    "timeline": [
+      "WIRED Security 报道"
+    ]
+  },
+  {
+    "title": "诈骗者在虚假逮捕令电话中使用 AI 克隆的佛罗里达州奥西奥拉县警长办公室上尉的声音",
+    "summary": "奥西奥拉县警长办公室称，诈骗者利用 AI 克隆了上尉 Steve Moser 的声音并使用了其照片，在语音留言中声称收件人有逮捕令或缺席了陪审员义务。该办公室估计今年约有 40 起诈骗者冒充执法人员的案件。消息来源未报告受害者损失，也未说明这 40 起案件是否都涉及 AI 语音克隆。",
+    "target": "佛罗里达州奥西奥拉县收到虚假逮捕令和缺席陪审员义务电话的居民；被冒充的上尉 Steve Moser",
+    "actor": "身份不明的诈骗者",
+    "attribution": "诈骗者身份不明。警方的说法由 404 Media 引述。",
+    "motive": "诈骗",
+    "vector": "利用 AI 语音克隆技术克隆警长的声音以冒充其本人。",
+    "root_cause": "公开的语音样本可被 AI 克隆，从而令人信服地冒充官员。",
+    "impact": "警长的身份被滥用。损失和受害者人数未说明。",
+    "response": "警方已公开此骗局。未报告有人被捕。",
+    "id": "scammers-clone-sheriff-voice",
+    "timeline": [
+      "404 Media 报道"
+    ]
   }
 ]

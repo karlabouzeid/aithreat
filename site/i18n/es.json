@@ -8017,5 +8017,53 @@
     "timeline": [
       "Informado por BlockBeats"
     ]
+  },
+  {
+    "title": "La Policía Federal de Brasil detiene en São Luís a un candidato del examen de la OAB por presunto fraude con ayuda de IA",
+    "summary": "El 18 de octubre de 2026, la Policía Federal detuvo en flagrante a un candidato del examen de la OAB en São Luís, Maranhão, después de que los agentes lo sorprendieran usando un teléfono conectado a una herramienta de IA, presuntamente para obtener una ventaja. Quedó registrado por fraude en un certamen de interés público y fue puesto en libertad tras pagar la fianza. La policía investiga si participó alguien más. Su identidad no se ha hecho pública.",
+    "target": "Examen de la OAB (Colegio de Abogados de Brasil)",
+    "actor": "Candidato del examen de la OAB sin identificar",
+    "attribution": "Detención de la Policía Federal informada por Jurinews; el candidato no es nombrado en el titular.",
+    "motive": "Desconocido",
+    "vector": "Uso de IA para hacer trampa en el examen; el titular no indica las herramientas ni el método exactos.",
+    "root_cause": "Desconocida; el titular no ofrece detalles sobre cómo la trampa eludió los controles del examen.",
+    "impact": "La integridad del examen se vio comprometida en al menos un caso; se desconocen la magnitud y si hubo otras personas implicadas.",
+    "response": "Detenido en flagrante por la Policía Federal; puesto en libertad bajo fianza; la investigación continúa.",
+    "id": "brazil-oab-exam-ai-fraud-arrest",
+    "timeline": [
+      "Informado por Jurinews"
+    ]
+  },
+  {
+    "title": "Las páginas de ayuda de WhatsApp filtran instrucciones ocultas del chatbot de soporte de Meta",
+    "summary": "Unas 80 páginas de ayuda y preguntas frecuentes de WhatsApp contenían cerca de 100 bloques de instrucciones ocultas escritas para el chatbot de soporte de Meta, entre ellas una sección titulada “QUÉ NO DECIR”, en código de página etiquetado como HelpContentGalaxyLLMInclude. Las encontró la firma de privacidad Redact. Meta afirma que un error causó la exposición y eliminó el texto después de que WIRED le preguntara. No se informó de que se expusieran chats privados ni datos de cuentas.",
+    "target": "Chatbot de soporte de WhatsApp de Meta (páginas de ayuda y preguntas frecuentes)",
+    "actor": "Ningún atacante; Meta atribuye la exposición a un error (descubierto por la firma de privacidad Redact e informado por WIRED)",
+    "attribution": "No se identificó a ningún atacante. Meta atribuye la exposición a un error, según WIRED.",
+    "motive": "Desconocido",
+    "vector": "Texto de instrucciones del chatbot publicado en páginas públicas de ayuda de WhatsApp.",
+    "root_cause": "Meta afirma que un error hizo que las instrucciones ocultas del chatbot aparecieran en páginas de ayuda públicas.",
+    "impact": "Unas 80 páginas expusieron las instrucciones internas del chatbot. No se informa de pérdida de datos de usuarios.",
+    "response": "Meta eliminó las instrucciones de las páginas afectadas después de que WIRED se pusiera en contacto con la empresa, y afirma que el error está corregido.",
+    "id": "whatsapp-help-pages-meta-ai-prompt-leak",
+    "timeline": [
+      "Informado por WIRED Security"
+    ]
+  },
+  {
+    "title": "Estafadores usan la voz clonada con IA de un capitán del sheriff del condado de Osceola, Florida, en falsas llamadas sobre órdenes de arresto",
+    "summary": "La Oficina del Sheriff del condado de Osceola afirma que unos estafadores usaron IA para clonar la voz, y utilizaron la foto, del capitán Steve Moser en mensajes de voz en los que decían a los destinatarios que tenían una orden de arresto o que habían faltado a su deber como jurados. La oficina estima en unos 40 los casos de estafadores que se hacen pasar por agentes de la ley este año. Las fuentes no informan de pérdidas de víctimas y no indican que los 40 casos implicaran clonación de voz con IA.",
+    "target": "Residentes del condado de Osceola, Florida, que recibieron llamadas falsas sobre órdenes de arresto y faltas al deber de jurado; suplantación del capitán Steve Moser",
+    "actor": "Estafadores desconocidos",
+    "attribution": "Estafadores sin identificar. 404 Media cita a la policía.",
+    "motive": "Fraude",
+    "vector": "Clonación con IA de la voz de un sheriff para suplantarlo.",
+    "root_cause": "Las muestras de voz públicas pueden clonarse con IA para suplantar de forma convincente a funcionarios.",
+    "impact": "Se abusó de la identidad del sheriff. No se indican las pérdidas ni el número de víctimas.",
+    "response": "La policía ha dado a conocer la estafa. No se informa de detenciones.",
+    "id": "scammers-clone-sheriff-voice",
+    "timeline": [
+      "Informado por 404 Media"
+    ]
   }
 ]

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-04T20:13:39Z",
-  "total": 256,
-  "all_time_total": 459,
+  "generated_at": "2026-11-04T20:43:45Z",
+  "total": 259,
+  "all_time_total": 462,
   "window_from": "2025-11-04",
   "window_to": "2026-11-04",
   "trend_from": "2025-01-01",
@@ -20,7 +20,7 @@
       "sao-paulo-fake-lawyer-voice-clone"
     ],
     "financial_services": 9,
-    "individuals": 73,
+    "individuals": 74,
     "fin_by_category": {
       "Deepfake fraud": 7,
       "AI-assisted malware": 1,
@@ -153,13 +153,13 @@
   },
   "this_quarter": {
     "q": "2026-Q4",
-    "n": 66,
+    "n": 69,
     "prev_q": "2026-Q3",
     "prev_n": 49
   },
   "direction": {
-    "on-ai": 85,
-    "with-ai": 141
+    "on-ai": 86,
+    "with-ai": 143
   },
   "on_ai_share_first_half": 31,
   "on_ai_share_last_half": 42,
@@ -264,23 +264,23 @@
     },
     {
       "q": "2026-Q4",
-      "n": 66,
-      "on-ai": 17,
-      "with-ai": 44,
+      "n": 69,
+      "on-ai": 18,
+      "with-ai": 46,
       "severity": {
         "critical": 3,
         "high": 23,
-        "medium": 38,
-        "low": 2
+        "medium": 39,
+        "low": 4
       },
       "autonomous": 6,
-      "real_world": 65
+      "real_world": 68
     }
   ],
   "categories": [
     {
       "category": "Deepfake fraud",
-      "n": 48,
+      "n": 49,
       "by_quarter": [
         13,
         9,
@@ -289,9 +289,9 @@
         10,
         11,
         12,
-        8
+        9
       ],
-      "growth_last4_vs_prev4": -9
+      "growth_last4_vs_prev4": -8
     },
     {
       "category": "AI-assisted malware",
@@ -340,7 +340,7 @@
     },
     {
       "category": "Model & data leak",
-      "n": 21,
+      "n": 22,
       "by_quarter": [
         5,
         5,
@@ -349,9 +349,9 @@
         9,
         2,
         5,
-        4
+        5
       ],
-      "growth_last4_vs_prev4": -1
+      "growth_last4_vs_prev4": 0
     },
     {
       "category": "Agent hijack",
@@ -445,7 +445,7 @@
     },
     {
       "category": "AI exam fraud",
-      "n": 2,
+      "n": 3,
       "by_quarter": [
         0,
         1,
@@ -454,14 +454,14 @@
         0,
         0,
         1,
-        0
+        1
       ],
-      "growth_last4_vs_prev4": -1
+      "growth_last4_vs_prev4": 0
     }
   ],
   "rising_category": "AI supply chain",
   "top_category": "Deepfake fraud",
-  "top_category_n": 48,
+  "top_category_n": 49,
   "autonomous": {
     "by_year": {
       "2025": 1,
@@ -486,9 +486,9 @@
       "actor_type": "criminal",
       "by_year": {
         "2025": 13,
-        "2026": 78
+        "2026": 80
       },
-      "n": 91
+      "n": 93
     },
     {
       "actor_type": "state",
@@ -526,9 +526,9 @@
       "actor_type": "accident",
       "by_year": {
         "2025": 0,
-        "2026": 4
+        "2026": 5
       },
-      "n": 4
+      "n": 5
     },
     {
       "actor_type": "hacktivist",
@@ -554,10 +554,10 @@
   "severity": {
     "critical": 39,
     "high": 111,
-    "medium": 98,
-    "low": 8
+    "medium": 99,
+    "low": 10
   },
-  "critical_high_pct": 59,
+  "critical_high_pct": 58,
   "losses": {
     "total_usd": 204636843,
     "disclosed": 17,
@@ -628,11 +628,11 @@
   "sectors": [
     {
       "sector": "Technology & AI vendors",
-      "n": 84
+      "n": 85
     },
     {
       "sector": "Individuals & consumers",
-      "n": 73
+      "n": 74
     },
     {
       "sector": "Multiple / cross-sector",
@@ -640,7 +640,7 @@
     },
     {
       "sector": "Education & research",
-      "n": 21
+      "n": 22
     },
     {
       "sector": "Unknown",
@@ -682,7 +682,7 @@
     },
     {
       "country": "US",
-      "n": 54
+      "n": 56
     },
     {
       "country": "GB",
@@ -729,7 +729,7 @@
   "status": [
     {
       "status": "under investigation",
-      "n": 88
+      "n": 90
     },
     {
       "status": "ongoing",
@@ -745,7 +745,7 @@
     },
     {
       "status": "resolved",
-      "n": 14
+      "n": 15
     },
     {
       "status": "unresolved",
@@ -790,7 +790,7 @@
   ],
   "unresolved_pct": 66,
   "verify_median_hours": 19.8,
-  "verify_sample": 67,
+  "verify_sample": 70,
   "researcher_demos": 21,
   "pulse": [
     {

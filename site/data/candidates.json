@@ -1440,51 +1440,6 @@
     "updated_at": "2026-10-18T18:35:37Z"
   },
   {
-    "id": "orlando-teen-suicide-chatbot-settlement",
-    "date": "2026-10-18",
-    "title": "Orlando mother settles suit with AI company over 14-year-old son's suicide",
-    "category": "Chatbot harm",
-    "direction": "ai-harm",
-    "severity": "critical",
-    "country": "US",
-    "region": "North America",
-    "target": "14-year-old user in Orlando, Florida",
-    "loss_usd": null,
-    "summary": "Per WKMG, an Orlando mother has settled her lawsuit against an AI company over her 14-year-old son's suicide. The suit alleged the chatbot contributed to his death; no court has ruled.",
-    "actor": "AI company (unnamed in headline; likely Character.AI)",
-    "actor_type": "product",
-    "sector": "Individuals & consumers",
-    "attribution": "Allegation by the boy's mother in her lawsuit, as reported by WKMG. The headline names no company and no court has ruled on liability.",
-    "motive": "Unknown",
-    "vector": "Alleged use of an AI chatbot or companion product by a minor; details not given in the headline.",
-    "root_cause": "Unknown. The plaintiff alleges the chatbot product contributed to the death.",
-    "impact": "Death of a 14-year-old by suicide, as alleged in the lawsuit.",
-    "response": "Lawsuit settled, per WKMG; terms not stated in the headline.",
-    "status": "resolved",
-    "cve": null,
-    "confidence": 0.6,
-    "source": "WKMG",
-    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxONGhRNVZTeFFpQk5FZHlfcDVFSDRqLS1fbThkMFlaWEVUdFY2N3RNZHdlSGpYMjBlVUtONDFEb0gyRGhIZ25WSlBrTDJQWmlCSzEtUzYzX2xaWGdpcGduZTJnNndHWW1SQTUwWDFUdmt5emxXWURpa2JpVzR3N1VvTDV3UVlIN2VGekowMm5VbTROR3NjZkNoQ3ZaWVBPbThHOUw5SVNBeVJ3Wjl3amlZdkgxYnRwRlBMeFdVZWxDNGRhNVNxdy1n?oc=5",
-    "sources": [
-      {
-        "name": "WKMG",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxONGhRNVZTeFFpQk5FZHlfcDVFSDRqLS1fbThkMFlaWEVUdFY2N3RNZHdlSGpYMjBlVUtONDFEb0gyRGhIZ25WSlBrTDJQWmlCSzEtUzYzX2xaWGdpcGduZTJnNndHWW1SQTUwWDFUdmt5emxXWURpa2JpVzR3N1VvTDV3UVlIN2VGekowMm5VbTROR3NjZkNoQ3ZaWVBPbThHOUw5SVNBeVJ3Wjl3amlZdkgxYnRwRlBMeFdVZWxDNGRhNVNxdy1n?oc=5"
-      }
-    ],
-    "timeline": [
-      {
-        "date": "2026-10-18",
-        "event": "Reported by WKMG"
-      }
-    ],
-    "verified": false,
-    "drafted_at": "2026-10-18T19:35:35Z",
-    "wire_id": "f7c6858ae496",
-    "first_seen": "2026-10-18T19:35:35Z",
-    "first_published": "2026-10-16T21:50:33Z",
-    "updated_at": "2026-10-18T19:35:35Z"
-  },
-  {
     "id": "chatgpt-divine-prophecy-us-woman-suicide",
     "date": "2026-10-18",
     "title": "ChatGPT allegedly drove US woman to suicide 'to fulfill a divine prophecy'",
@@ -1890,102 +1845,6 @@
     "updated_at": "2026-10-19T11:05:36Z"
   },
   {
-    "id": "whatsapp-help-pages-meta-ai-prompt-leak",
-    "date": "2026-10-19",
-    "title": "WhatsApp help pages leak hidden Meta chatbot instructions",
-    "category": "Model & data leak",
-    "direction": "on-ai",
-    "severity": "low",
-    "country": "US",
-    "region": "North America",
-    "target": "Meta chatbot on WhatsApp",
-    "loss_usd": null,
-    "summary": "About 80 pages on WhatsApp's website exposed instructions written for its chatbot, including a 'WHAT NOT TO SAY' section. Meta says a bug caused the exposure.",
-    "actor": "Unknown",
-    "actor_type": "accident",
-    "sector": "Technology & AI vendors",
-    "attribution": "No attacker identified. Meta attributes the exposure to a bug, per WIRED.",
-    "motive": "Unknown",
-    "vector": "Chatbot instruction text published on public WhatsApp help pages.",
-    "root_cause": "Meta says a bug caused the chatbot's hidden instructions to appear on public help pages.",
-    "impact": "Roughly 80 pages exposed the internal chatbot instructions. No user data loss is reported.",
-    "response": "Meta says it was a bug. The summary does not say how or when it was fixed.",
-    "status": "under investigation",
-    "cve": null,
-    "young_people": false,
-    "setting": null,
-    "age_group": null,
-    "confidence": 0.6,
-    "source": "WIRED Security",
-    "url": "https://www.wired.com/story/whatsapp-help-pages-leaked-hidden-instructions-for-a-meta-chatbot",
-    "sources": [
-      {
-        "name": "WIRED Security",
-        "url": "https://www.wired.com/story/whatsapp-help-pages-leaked-hidden-instructions-for-a-meta-chatbot"
-      }
-    ],
-    "timeline": [
-      {
-        "date": "2026-10-19",
-        "event": "Reported by WIRED Security"
-      }
-    ],
-    "verified": false,
-    "drafted_at": "2026-10-19T16:31:03Z",
-    "wire_id": "2a02b51e9ea4",
-    "first_seen": "2026-10-19T16:31:03Z",
-    "first_published": "2026-10-19T16:00:00Z",
-    "updated_at": "2026-10-19T16:31:03Z"
-  },
-  {
-    "id": "scammers-clone-sheriff-voice",
-    "date": "2026-10-19",
-    "title": "Scammers use AI-cloned voice of a sheriff to impersonate him",
-    "category": "Deepfake fraud",
-    "direction": "with-ai",
-    "severity": "low",
-    "country": "US",
-    "region": "North America",
-    "target": "Sheriff impersonated; scam targets unspecified",
-    "loss_usd": null,
-    "summary": "Police say scammers used AI to clone a specific sheriff's voice and impersonate him. The summary gives no victim count or losses.",
-    "actor": "Unknown",
-    "actor_type": "criminal",
-    "sector": "Individuals & consumers",
-    "attribution": "Unidentified scammers. Police are quoted by 404 Media.",
-    "motive": "Fraud",
-    "vector": "AI voice cloning of a sheriff's voice used to impersonate him.",
-    "root_cause": "Public voice samples can be cloned with AI to convincingly impersonate officials.",
-    "impact": "The sheriff's identity was abused. Losses and number of victims are not stated.",
-    "response": "Police have publicised the scam. No arrests are reported.",
-    "status": "under investigation",
-    "cve": null,
-    "young_people": false,
-    "setting": null,
-    "age_group": null,
-    "confidence": 0.6,
-    "source": "404 Media",
-    "url": "https://www.404media.co/police-say-scammers-used-ai-to-clone-a-sheriffs-voice",
-    "sources": [
-      {
-        "name": "404 Media",
-        "url": "https://www.404media.co/police-say-scammers-used-ai-to-clone-a-sheriffs-voice"
-      }
-    ],
-    "timeline": [
-      {
-        "date": "2026-10-19",
-        "event": "Reported by 404 Media"
-      }
-    ],
-    "verified": false,
-    "drafted_at": "2026-10-19T16:31:03Z",
-    "wire_id": "3f65c4bbd1e8",
-    "first_seen": "2026-10-19T16:31:03Z",
-    "first_published": "2026-10-19T16:16:17Z",
-    "updated_at": "2026-10-19T16:31:03Z"
-  },
-  {
     "id": "touba-ai-cyber-extortion-arrest",
     "date": "2026-10-19",
     "title": "Touba police arrest suspect for cyber-fraud, blackmail and fraudulent AI use",
@@ -2031,54 +1890,6 @@
     "wire_id": "b9847c421b94",
     "first_seen": "2026-10-19T20:05:42Z",
     "first_published": "2026-10-18T00:00:00Z",
-    "updated_at": "2026-10-19T20:05:42Z"
-  },
-  {
-    "id": "brazil-oab-exam-ai-fraud-arrest",
-    "date": "2026-10-19",
-    "title": "Brazilian Federal Police arrest OAB bar exam candidate for AI-assisted fraud",
-    "category": "AI exam fraud",
-    "direction": "with-ai",
-    "severity": "medium",
-    "country": "BR",
-    "region": "Latin America",
-    "target": "OAB (Brazilian Bar Association) exam",
-    "loss_usd": null,
-    "summary": "Brazil's Federal Police arrested a candidate accused of fraud using artificial intelligence during the OAB bar exam, per Jurinews.",
-    "actor": "Unnamed OAB exam candidate",
-    "actor_type": "criminal",
-    "sector": "Education & research",
-    "attribution": "Federal Police arrest reported by Jurinews; the candidate is not named in the headline.",
-    "motive": "Unknown",
-    "vector": "Use of AI to cheat in the exam; exact tools and method are not stated in the headline.",
-    "root_cause": "Unknown; the headline gives no details on how the cheating got past exam controls.",
-    "impact": "Exam integrity was compromised in at least one case; the scale and whether others were involved are unknown.",
-    "response": "The Federal Police arrested the candidate.",
-    "status": "under investigation",
-    "cve": null,
-    "young_people": false,
-    "setting": null,
-    "age_group": null,
-    "confidence": 0.6,
-    "source": "Jurinews",
-    "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOdEtSWGtVVFNUbzIyTUVKX3F0WHZtRDAyZ0VuXzV1ekZtNF82eFhDN2VjMVpETHhkMGZLLUdXTkx6NV9iRU5lZXlXR3ZKeENIcks2ZWVwbDJDb0h5WXdTdG0xSWhpdWREOHBBNG80LThtbmFhODFvTzB1cHFONXZLRU9rc2twME8xVVZDa1JhbGYwYXFKUF9JMmFvY2oxMTNFQTFEb3NySEdlYlBYQWFsZTJrWVFUdVJrbHZGeWNrRTBqSGVrZDN4RHNFb01sZkRHSkVHdXRFaWZEaU9aV3RZ?oc=5",
-    "sources": [
-      {
-        "name": "Jurinews",
-        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOdEtSWGtVVFNUbzIyTUVKX3F0WHZtRDAyZ0VuXzV1ekZtNF82eFhDN2VjMVpETHhkMGZLLUdXTkx6NV9iRU5lZXlXR3ZKeENIcks2ZWVwbDJDb0h5WXdTdG0xSWhpdWREOHBBNG80LThtbmFhODFvTzB1cHFONXZLRU9rc2twME8xVVZDa1JhbGYwYXFKUF9JMmFvY2oxMTNFQTFEb3NySEdlYlBYQWFsZTJrWVFUdVJrbHZGeWNrRTBqSGVrZDN4RHNFb01sZkRHSkVHdXRFaWZEaU9aV3RZ?oc=5"
-      }
-    ],
-    "timeline": [
-      {
-        "date": "2026-10-19",
-        "event": "Reported by Jurinews"
-      }
-    ],
-    "verified": false,
-    "drafted_at": "2026-10-19T20:05:42Z",
-    "wire_id": "e47407a218ba",
-    "first_seen": "2026-10-19T20:05:42Z",
-    "first_published": "2026-10-19T19:35:00Z",
     "updated_at": "2026-10-19T20:05:42Z"
   },
   {

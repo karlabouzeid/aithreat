@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-04T20:05:36Z",
+  "generated_at": "2026-11-04T20:35:35Z",
   "categories": [
     {
       "name": "AI exam fraud",
       "slug": "ai-exam-fraud",
-      "count": 5
+      "count": 6
     },
     {
       "name": "AI misfire",
@@ -44,7 +44,7 @@
     {
       "name": "Deepfake fraud",
       "slug": "deepfake-fraud",
-      "count": 91
+      "count": 92
     },
     {
       "name": "LLMjacking",
@@ -54,7 +54,7 @@
     {
       "name": "Model & data leak",
       "slug": "model-data-leak",
-      "count": 43
+      "count": 44
     },
     {
       "name": "Prompt injection",
@@ -94,7 +94,7 @@
     },
     {
       "code": "BR",
-      "count": 6
+      "count": 7
     },
     {
       "code": "CA",
@@ -294,7 +294,7 @@
     },
     {
       "code": "US",
-      "count": 125
+      "count": 127
     },
     {
       "code": "UY",
