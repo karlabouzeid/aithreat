@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T18:46:43Z",
+  "generated_at": "2026-11-04T19:00:01Z",
   "licence": "CC BY 4.0",
   "sources": [
     {
@@ -439,13 +439,14 @@
       "claim": "AI could lower the barrier to entry for cyberattacks and increase their scale, speed and success, including against the infrastructure societies depend on.",
       "status": "observed",
       "note": "The best-documented prediction in the registry: novices building ransomware with chatbots, malware that asks a model what to do next, state groups using AI at every stage of an attack, and AI-written scripts probing industrial controllers.",
-      "n": 90,
-      "real_world": 89,
+      "n": 91,
+      "real_world": 90,
       "first_real_world": "2025-01-10",
       "months_after_publication": 19,
       "url": "https://aithreat.io/research/cyberattack-barrier/",
       "cases": [
         "workos-ai-framework-breach",
+        "bugster-deepseek-v4-india-universities",
         "storm-0940-artex-connectwise",
         "storm-1516-talarico-deepfake-video",
         "papercut-ai-agents-credential-theft",
@@ -995,12 +996,13 @@
       "claim": "Realistic AI-generated voices, images and video are used for fraud, extortion and sexual imagery made without consent, and cheap tools have made such content easy to produce at scale.",
       "status": "observed",
       "note": "The largest category in the registry: cloned voices and deepfake video calls impersonating executives, officials and relatives, and deepfake celebrity ads behind investment scams. The report adds that victims often do not report, so public cases undercount the harm.",
-      "n": 83,
-      "real_world": 83,
+      "n": 84,
+      "real_world": 84,
       "first_real_world": "2025-01-05",
       "months_after_publication": -13,
       "url": "https://aithreat.io/research/iasr-synthetic-content/",
       "cases": [
+        "cctv-ai-fiancee-romance-scam",
         "mendoza-retiree-messi-ai-scam",
         "ai-music-streaming-royalty-fraud",
         "puente-alto-school-sexual-deepfakes",
@@ -1150,13 +1152,14 @@
       "claim": "There is strong evidence that criminal groups and state-backed attackers use AI in their operations, especially to find software flaws and write malicious code, though it is not yet clear whether AI has made attacks larger or more damaging overall.",
       "status": "observed",
       "note": "Matches the registry closely: AI-written ransomware and stealers, malware that asks a model what to do while it runs, and state groups using chatbots for reconnaissance, phishing and exploit work. Like the report, the case files show use, not overall effect.",
-      "n": 90,
-      "real_world": 89,
+      "n": 91,
+      "real_world": 90,
       "first_real_world": "2025-01-10",
       "months_after_publication": -13,
       "url": "https://aithreat.io/research/iasr-cyber-use/",
       "cases": [
         "workos-ai-framework-breach",
+        "bugster-deepseek-v4-india-universities",
         "storm-0940-artex-connectwise",
         "storm-1516-talarico-deepfake-video",
         "papercut-ai-agents-credential-theft",
@@ -1360,8 +1363,8 @@
       "claim": "Attackers can manipulate AI systems through prompt injection, poisoned data and compromised components, to change how they behave or to pull out sensitive information.",
       "status": "observed",
       "note": "Hidden instructions that make assistants leak mail and files, hijacked coding agents, malicious packages and plugins aimed at AI developers, and actively exploited flaws in AI tools. Many prompt injection cases are demonstrations by researchers; most supply-chain attacks happened in the real world.",
-      "n": 87,
-      "real_world": 52,
+      "n": 89,
+      "real_world": 54,
       "first_real_world": "2022-12-30",
       "months_after_publication": -38,
       "url": "https://aithreat.io/research/iasr-ai-as-target/",
@@ -1377,6 +1380,8 @@
         "openclaw-skill-remcos-ghostloader",
         "ray-code-injection-cve-2025-62593",
         "wiz-red-agent-snowflake-jira",
+        "openai-agent-wikimedia-outage",
+        "ai-agents-probe-us-canada-gov-sites",
         "anthropic-gtg-50020-sandbox-keys",
         "chatgpt-gmail-covert-channel",
         "gtig-dustmaker-ci-prompts",
@@ -2143,8 +2148,8 @@
       "claim": "AI that leaks or infers sensitive personal data, and weaknesses in AI systems and their toolchains that attackers exploit.",
       "status": "observed",
       "note": "One of the two pillars of the registry: leaked chats and keys, exposed databases, prompt injection, hijacked agents, poisoned packages and stolen AI accounts.",
-      "n": 145,
-      "real_world": 97,
+      "n": 147,
+      "real_world": 99,
       "first_real_world": "2022-12-30",
       "months_after_publication": null,
       "url": "https://aithreat.io/research/mit-privacy-security/",
@@ -2166,6 +2171,8 @@
         "ray-code-injection-cve-2025-62593",
         "wiz-red-agent-snowflake-jira",
         "poellm-botnet-exposed-ai-servers",
+        "openai-agent-wikimedia-outage",
+        "ai-agents-probe-us-canada-gov-sites",
         "pixelleak-agent-screenshots",
         "anthropic-gtg-16005-alibaba-distill",
         "anthropic-gtg-16006-zhipu-distill",
@@ -2357,14 +2364,16 @@
       "claim": "People using AI for disinformation, surveillance and propaganda at scale; for cyberattacks and weapons; and for fraud, scams and targeted manipulation.",
       "status": "observed",
       "note": "The other pillar of the registry: deepfake fraud, AI-built malware, AI phishing and state operations.",
-      "n": 187,
-      "real_world": 186,
+      "n": 189,
+      "real_world": 188,
       "first_real_world": "2025-01-05",
       "months_after_publication": null,
       "url": "https://aithreat.io/research/mit-malicious-actors/",
       "cases": [
+        "cctv-ai-fiancee-romance-scam",
         "workos-ai-framework-breach",
         "mendoza-retiree-messi-ai-scam",
+        "bugster-deepseek-v4-india-universities",
         "storm-0940-artex-connectwise",
         "storm-1516-talarico-deepfake-video",
         "papercut-ai-agents-credential-theft",
@@ -2737,7 +2746,7 @@
     {
       "source": "cais-2023",
       "claims": 17,
-      "matched_cases": 180,
+      "matched_cases": 181,
       "matched_pct": 40,
       "status_counts": {
         "observed": 7,
@@ -2750,8 +2759,8 @@
     {
       "source": "iasr-2026",
       "claims": 11,
-      "matched_cases": 318,
-      "matched_pct": 71,
+      "matched_cases": 322,
+      "matched_pct": 72,
       "status_counts": {
         "observed": 5,
         "early": 3,
@@ -2815,7 +2824,7 @@
     {
       "source": "mit-risk-repository",
       "claims": 7,
-      "matched_cases": 388,
+      "matched_cases": 392,
       "matched_pct": 87,
       "status_counts": {
         "observed": 4,
@@ -2833,9 +2842,9 @@
     "none": 4,
     "outside": 7
   },
-  "matched_cases": 388,
-  "total_cases": 446,
-  "warning_matched_cases": 347,
+  "matched_cases": 392,
+  "total_cases": 450,
+  "warning_matched_cases": 351,
   "unmatched_pct": 22,
   "unmatched_by_category": [
     {
@@ -2876,12 +2885,12 @@
     {
       "category": "Deepfake fraud",
       "unmatched": 0,
-      "total": 86
+      "total": 87
     },
     {
       "category": "AI-assisted malware",
       "unmatched": 0,
-      "total": 48
+      "total": 49
     },
     {
       "category": "AI supply chain",
@@ -2896,7 +2905,7 @@
     {
       "category": "Agent hijack",
       "unmatched": 0,
-      "total": 26
+      "total": 28
     },
     {
       "category": "AI phishing",

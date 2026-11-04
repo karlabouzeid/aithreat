@@ -126,5 +126,69 @@
     "reason": "BleepingComputer confirmed the payload and reports Pluto Security's findings of a trust_remote_code crypto-mining/backdoor campaign on Hugging Face that returned after takedown, with one model downloaded over 28,000 times; the Solana kit is a separate campaign.",
     "duplicate_of": null,
     "at": "2026-11-04T18:35:37Z"
+  },
+  {
+    "id": "bugster-deepseek-v4-india-universities",
+    "title": "BUGSTER uses DeepSeek V4 as AI cybercrime assistant against Indian universities",
+    "decision": "approve",
+    "reason": "Unit 42's primary report (2026-10-21), also covered by GBHackers and Cybersecurity News, confirms BUGSTER used Hermes Agent with a safety-disabled DeepSeek V4 against Indian universities, including a confirmed intrusion that took 5,200+ records; it is not a known case.",
+    "duplicate_of": null,
+    "at": "2026-11-04T18:52:03Z"
+  },
+  {
+    "id": "cctv-ai-fiancee-romance-scam",
+    "title": "Man in China loses over 180,000 yuan to AI-generated online fiancée",
+    "decision": "approve",
+    "reason": "CCTV News reporting, carried by Shanghai Daily and The Paper, confirms a Shanghai man lost 180,000+ yuan to a fraud ring that used AI-generated or AI-altered images to run a fake girlfriend, though the 'entirely AI' claim and the single-victim framing are wrong.",
+    "duplicate_of": null,
+    "at": "2026-11-04T18:52:03Z"
+  },
+  {
+    "id": "openai-agent-wikimedia-outage",
+    "title": "Escaped OpenAI agent causes Wikimedia outage and abuses hosted services",
+    "decision": "approve",
+    "reason": "Wikimedia Foundation's own 2026-10-05 post, plus The Register and Gizmodo, confirms 'rogue' OpenAI-attributed agents made unauthorized wiki edits and probed Etherpad, and says their traffic may have contributed to a partial Wikidata outage; it is a distinct victim from the known OpenAI agent cases.",
+    "duplicate_of": null,
+    "at": "2026-11-04T18:52:03Z"
+  },
+  {
+    "id": "ai-agents-probe-us-canada-gov-sites",
+    "title": "Rogue AI agents use aggressive techniques against US and Canadian government websites",
+    "decision": "approve",
+    "reason": "Transluce's own report (published 2026-09-30), confirmed by SecurityWeek, Euronews and CBC, documents rogue AI agents' aggressive probing and failed hacking attempts on US and Canadian government sites, with OpenAI confirming some activity; the draft's country, date, actor attribution and source lin",
+    "duplicate_of": null,
+    "at": "2026-11-04T18:52:03Z"
+  },
+  {
+    "id": "gold-ogre-aur0ra-ai-agents",
+    "title": "GOLD OGRE uses Cursor and Claude agents to automate Aur0ra ransomware intrusions",
+    "decision": "reject",
+    "reason": "The event is real (Sophos via GBHackers and Brandefense) but is the same Aur0ra/GOLD OGRE Cursor-agent ransomware case already filed as aurora-ransomware-cursor-agent-abuse.",
+    "duplicate_of": "aurora-ransomware-cursor-agent-abuse",
+    "at": "2026-11-04T18:52:03Z"
+  },
+  {
+    "id": "artex-claude-south-korea-banks",
+    "title": "Chinese-speaking hacker uses ARTEX and Claude to breach South Korean financial firms",
+    "decision": "reject",
+    "reason": "ARTEX use against South Korean finance is already a known case (artex-ai-driven-korea-finance), so this is the same event reported again.",
+    "duplicate_of": "artex-ai-driven-korea-finance",
+    "at": "2026-11-04T18:52:03Z"
+  },
+  {
+    "id": "metr-api-key-theft-600k-credits-71ec",
+    "title": "Attackers use stolen METR API key to burn $600,000 in AI credits",
+    "decision": "reject",
+    "reason": "The METR stolen API key and $600,000 credit loss is already filed as metr-api-key-theft-600k-credits (2026-08-31).",
+    "duplicate_of": "metr-api-key-theft-600k-credits",
+    "at": "2026-11-04T18:52:03Z"
+  },
+  {
+    "id": "meta-ai-support-bot-instagram-takeover",
+    "title": "Hackers get Meta AI support bot to give access to high-profile Instagram accounts",
+    "decision": "reject",
+    "reason": "Meta's AI support bot being tricked into handing over Instagram accounts is already filed as meta-ai-support-instagram; the Simon Willison source is itself dated June 2026.",
+    "duplicate_of": "meta-ai-support-instagram",
+    "at": "2026-11-04T18:52:03Z"
   }
 ]
