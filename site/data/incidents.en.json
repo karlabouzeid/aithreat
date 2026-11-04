@@ -21285,6 +21285,110 @@
     "sector": "Technology & AI vendors"
   },
   {
+    "id": "korea-police-officer-deepfake-indicted",
+    "date": "2026-10-07",
+    "title": "Seoul police officer indicted for making and spreading deepfake videos of acquaintances",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "KR",
+    "region": "Asia-Pacific",
+    "target": "Acquaintances of the officer (individuals)",
+    "loss_usd": null,
+    "summary": "Busan prosecutors indicted, in detention, a serving Seoul Dongdaemun police officer accused of using an AI app to create about 400 sexually explicit deepfake videos of acquaintances and distributing some of them (about 50, per reports) on Telegram. Prosecutors also charged him over possession of illegal sexual material, including child sexual exploitation material; the case followed a Busan police undercover investigation of a Telegram chat room.",
+    "actor": "Serving police officer (unnamed)",
+    "actor_type": "insider",
+    "sector": "Individuals & consumers",
+    "attribution": "Busan District Prosecutors Office indicted the officer, per Yonhap.",
+    "motive": "Unknown",
+    "vector": "AI-generated deepfake videos distributed to others",
+    "root_cause": "Misuse of generative AI by an individual to produce videos of real people.",
+    "impact": "Deepfake videos of several acquaintances were created and spread; number of victims not stated in the summary.",
+    "response": "Arrested after a Busan police undercover investigation, relieved of duty, then indicted in detention by Busan District Prosecutors' Office",
+    "status": "indicted and detained; trial pending",
+    "cve": null,
+    "source": "AI Incident Database",
+    "url": "https://en.yna.co.kr/view/AEN20261007002700315",
+    "sources": [
+      {
+        "name": "AI Incident Database",
+        "url": "https://en.yna.co.kr/view/AEN20261007002700315"
+      },
+      {
+        "name": "The Korea Times",
+        "url": "https://www.koreatimes.co.kr/southkorea/law-crime/20261007/police-officer-indicted-for-fabricating-distributing-deepfake-videos-of-acquaintances"
+      },
+      {
+        "name": "Seoul Economic Daily",
+        "url": "https://en.sedaily.com/society/2026/10/06/police-officer-indicted-over-ai-generated-sexual-images-of"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-07",
+        "event": "Reported by AI Incident Database"
+      }
+    ],
+    "drafted_at": "2026-10-17T13:52:15Z",
+    "first_seen": "2026-10-17T13:52:15Z",
+    "updated_at": "2026-11-04T20:05:36Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-04T20:05:36Z"
+  },
+  {
+    "id": "shai-hulud-tensorlake-npm",
+    "date": "2026-10-08",
+    "title": "Shai-Hulud worm compromises Tensorlake npm release",
+    "category": "AI supply chain",
+    "direction": "on-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "Tensorlake AI agent platform npm SDK (tensorlake 0.5.144) and developers who installed it",
+    "loss_usd": null,
+    "summary": "A Shai-Hulud (ChainDrop-linked) worm variant reached AI agent infrastructure when tensorlake npm SDK version 0.5.144 was published through a compromised maintainer account. Socket flagged the credential-stealing payload 11 minutes after publication, the version was live for about 1 hour 40 minutes before removal, and the impact is unknown.",
+    "actor": "Unknown (Shai-Hulud / ChainDrop-linked worm variant)",
+    "actor_type": "unknown",
+    "sector": "Technology & AI vendors",
+    "attribution": "Linked to the Shai-Hulud worm family; the operators are not named.",
+    "motive": "Credential theft",
+    "vector": "Malicious npm release of a Tensorlake package carrying credential-stealing malware.",
+    "root_cause": "Unknown; the Tensorlake compromise let the worm publish a malicious npm release.",
+    "impact": "Impact unknown; the malware was detected within minutes of release.",
+    "response": "Detection within minutes of the npm release; no other response details given.",
+    "status": "contained; impact unknown",
+    "cve": null,
+    "source": "The Register",
+    "url": "https://www.theregister.com/security/2026/10/08/shai-hulud-worm-makes-jump-to-ai-infrastructure-with-tensorlake-compromise/5302054",
+    "sources": [
+      {
+        "name": "The Register",
+        "url": "https://www.theregister.com/security/2026/10/08/shai-hulud-worm-makes-jump-to-ai-infrastructure-with-tensorlake-compromise/5302054"
+      },
+      {
+        "name": "Socket",
+        "url": "https://socket.dev/blog/tensorlake-compromise"
+      },
+      {
+        "name": "Tensorlake GitHub security advisory",
+        "url": "https://github.com/tensorlakeai/tensorlake/security/advisories/GHSA-8g63-53c9-65j2"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-16",
+        "event": "Reported by The Register"
+      }
+    ],
+    "drafted_at": "2026-10-17T13:52:15Z",
+    "first_seen": "2026-10-17T13:52:15Z",
+    "updated_at": "2026-11-04T20:05:36Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-04T20:05:36Z"
+  },
+  {
     "id": "lomas-de-zamora-ai-nudes-50-girls",
     "date": "2026-10-09",
     "title": "Police raid homes of four teens accused of AI nudes of about 50 classmates in Lomas de Zamora",
@@ -23051,6 +23155,58 @@
     "verification": "reported"
   },
   {
+    "id": "wu-yue-ai-celebrity-impersonation-sales",
+    "date": "2026-10-18",
+    "title": "AI deepfakes of actress Wu Yue and other celebrities used to push product sales",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "CN",
+    "region": "Asia-Pacific",
+    "target": "Wu Yue, other impersonated celebrities and the buyers deceived",
+    "loss_usd": null,
+    "summary": "Actress Wu Yue said on 18 October 2026 that the WeChat Channels account '花姐美肤日记' (Hua Jie Beauty Diary) used an AI face-swap and cloned voice of her to promote skincare products she never endorsed, and she demanded it repay viewers. Coverage says other public figures, such as Deng Yaping, have been faked in similar sales videos. No loss figure has been reported, and the buyers' losses are alleged.",
+    "actor": "Alleged operator of the WeChat Channels account '花姐美肤日记' (unidentified)",
+    "actor_type": "criminal",
+    "sector": "Individuals & consumers",
+    "attribution": "Unknown; the videos are posted under an account or persona called \"Hua Jie\", and no individual or group has been identified.",
+    "motive": "Financial gain through deceptive celebrity-endorsed product sales.",
+    "vector": "AI-generated video and likely voice impersonation of celebrities, used for product promotion on social media.",
+    "root_cause": "Cheap AI impersonation tools and weak enforcement make fake celebrity endorsements hard to stop, which the headline describes as repeated.",
+    "impact": "Wu Yue publicly demanded refunds for victims who were defrauded. The number of victims and the amount lost are not stated.",
+    "response": "WeChat Channels permanently banned the account and cleared its content",
+    "status": "account permanently banned; no known charges",
+    "cve": null,
+    "source": "新浪网",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE45b1J2ZHAwZVBTZVNleDVMWmRaOGFzc2xTUWVjUnRqRVAzVTEtVUV2d1czNTh5VkpPcmZaZ0JjTEJMMXh3NWw5UVZpV2ZJajRNMGlQRkQtMVdiRk1kN2JLdVlCdw?oc=5",
+    "sources": [
+      {
+        "name": "新浪网",
+        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE45b1J2ZHAwZVBTZVNleDVMWmRaOGFzc2xTUWVjUnRqRVAzVTEtVUV2d1czNTh5VkpPcmZaZ0JjTEJMMXh3NWw5UVZpV2ZJajRNMGlQRkQtMVdiRk1kN2JLdVlCdw?oc=5"
+      },
+      {
+        "name": "The Paper (澎湃新闻)",
+        "url": "https://www.thepaper.cn/newsDetail_forward_34274620"
+      },
+      {
+        "name": "Sina News",
+        "url": "https://www.sina.cn/news/detail/5355353618257501.html"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-18",
+        "event": "Reported by 新浪网"
+      }
+    ],
+    "drafted_at": "2026-10-18T01:35:36Z",
+    "first_seen": "2026-10-18T01:35:36Z",
+    "updated_at": "2026-11-04T20:05:36Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-04T20:05:36Z"
+  },
+  {
     "id": "goias-ai-armed-photo-threat-ex",
     "date": "2026-10-19",
     "title": "Goiás man arrested for AI-faked armed photo used to threaten ex-partner",
@@ -23834,5 +23990,221 @@
     "verification": "reported",
     "review": "auto",
     "verified_at": "2026-11-04T19:05:41Z"
+  },
+  {
+    "id": "tarn-restaurants-ai-fake-refund",
+    "date": "2026-11-03",
+    "title": "Tarn restaurateurs scammed with AI-generated bank proof and doctored photo",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "low",
+    "country": "FR",
+    "region": "Europe",
+    "target": "Restaurants in the Tarn, France",
+    "loss_usd": null,
+    "summary": "According to the Tarn gendarmerie and local press, a scam targeted restaurants around Saint-Sulpice-la-Pointe: a caller claimed a duplicate payment, then a woman showed an AI-retouched bank statement on her phone to demand a cash refund. Gendarmes recorded at least five victims or attempts, and a suspect was arrested and confessed.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Retail & consumer brands",
+    "attribution": "Not attributed; local press (Le Tarn Libre, La Dépêche) does not name the scammer(s) in the headlines.",
+    "motive": "Financial gain through cash refunds of payments that never occurred.",
+    "vector": "AI-generated fake bank proof of a duplicate payment plus an AI-altered photo, used to claim cash refunds from restaurants.",
+    "root_cause": "Unknown; staff apparently accepted AI-fabricated evidence of a duplicate payment without independent verification.",
+    "impact": "At least five restaurants were victims or targets of attempts; two restaurateurs filed complaints.",
+    "response": "The Saint-Sulpice-la-Pointe gendarmerie identified a suspect with CCTV help and placed her in custody, and the Tarn gendarmerie urged merchants to be vigilant.",
+    "status": "suspect arrested and confessed",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "source": "letarnlibre.com",
+    "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNV0F1RjFlS2lqVVpfZHJDTVdlUERtYjdzVmtrX3c5Y0xscmFhWjBJRGJxb0hLY2xaTHRLS1VXN0cwOWxVMHdtb3NmRjh1VGl1Z3dKcUUtcExKV2VHbUZPZ1ZTRWRtSXZmbzZfcWdpN0YzRnc3aVFBbUNWZ0Nqd3VXYlN0dlY0N1dwNHotaVZWRXMxekZBZTlxSFlSNm8tNUFxZlJxRDV0ZEhLTjVYZHg1ME01ZDBKZUZzcG9GWVBhTTlZb3pFTDc3cXJxWm5wUnRBVWgxcnhVTGkwdnBNZFpnV1FzUUpaV29IOEVUcE54b0tKOFM4c3BwTA?oc=5",
+    "sources": [
+      {
+        "name": "letarnlibre.com",
+        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNV0F1RjFlS2lqVVpfZHJDTVdlUERtYjdzVmtrX3c5Y0xscmFhWjBJRGJxb0hLY2xaTHRLS1VXN0cwOWxVMHdtb3NmRjh1VGl1Z3dKcUUtcExKV2VHbUZPZ1ZTRWRtSXZmbzZfcWdpN0YzRnc3aVFBbUNWZ0Nqd3VXYlN0dlY0N1dwNHotaVZWRXMxekZBZTlxSFlSNm8tNUFxZlJxRDV0ZEhLTjVYZHg1ME01ZDBKZUZzcG9GWVBhTTlZb3pFTDc3cXJxWm5wUnRBVWgxcnhVTGkwdnBNZFpnV1FzUUpaV29IOEVUcE54b0tKOFM4c3BwTA?oc=5"
+      },
+      {
+        "name": "Le Journal d'Ici",
+        "url": "https://www.lejournaldici.com/actualite-26579-saint-sulpice-une-arnaque-au-double-paiement-resolue-la-suspecte-avoue"
+      },
+      {
+        "name": "La Dépêche (via TitresPresse)",
+        "url": "https://www.titrespresse.com/27596902603/ia-tarn-faux"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-11-03",
+        "event": "Reported by letarnlibre.com"
+      }
+    ],
+    "drafted_at": "2026-11-03T10:03:29Z",
+    "first_seen": "2026-11-03T10:03:29Z",
+    "updated_at": "2026-11-04T20:05:36Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-04T20:05:36Z"
+  },
+  {
+    "id": "3am-ransomware-ai-uk-school",
+    "date": "2026-11-03",
+    "title": "3AM ransomware affiliate hits UK school estate in suspected AI-assisted attack",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "GB",
+    "region": "Europe",
+    "target": "UK school estate",
+    "loss_usd": null,
+    "summary": "A 3AM ransomware affiliate encrypted about 37 of nearly 50 machines reached from an unmanaged host at a UK school estate. Evidence suggests a model may have generated and revised commands.",
+    "actor": "3AM ransomware affiliate",
+    "actor_type": "criminal",
+    "sector": "Education & research",
+    "attribution": "Reported as a 3AM ransomware affiliate (BleepingComputer). Researchers cited by Dark Reading stopped short of claiming full automation.",
+    "motive": "Unknown; ransomware encryption suggests extortion.",
+    "vector": "Unmanaged host used to reach nearly 50 machines; commands possibly generated and revised by an AI model.",
+    "root_cause": "An unmanaged host had network reach to other machines. The precise initial access is Unknown.",
+    "impact": "About 37 of nearly 50 reachable machines were encrypted. Wider data impact is Unknown.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": "school",
+    "age_group": null,
+    "source": "BleepingComputer",
+    "url": "https://www.bleepingcomputer.com/news/security/uk-school-estate-hit-by-3am-ransomware-in-suspected-ai-assisted-attack",
+    "sources": [
+      {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/uk-school-estate-hit-by-3am-ransomware-in-suspected-ai-assisted-attack"
+      },
+      {
+        "name": "Bitdefender Business Insights",
+        "url": "https://businessinsights.bitdefender.com/3am-ransomware-hybrid-ai-attack"
+      },
+      {
+        "name": "Infosecurity Magazine",
+        "url": "https://www.infosecurity-magazine.com/news/3am-ransomware-hybrid-ai-uk-school/"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-11-03",
+        "event": "Reported by BleepingComputer"
+      }
+    ],
+    "drafted_at": "2026-11-03T14:05:41Z",
+    "first_seen": "2026-11-03T14:05:41Z",
+    "updated_at": "2026-11-04T20:05:36Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-04T20:05:36Z"
+  },
+  {
+    "id": "chainstack-ai-campaign-breach",
+    "date": "2026-11-03",
+    "title": "Chainstack discloses production breach exposing customer data and password hashes",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "Chainstack production infrastructure",
+    "loss_usd": null,
+    "summary": "Blockchain infrastructure provider Chainstack disclosed that an external attacker reached its development environment on 26 Oct 2026 and some production systems on 29 Oct through a third-party component. The intrusion was detected and cut off on 31 Oct. The attacker accessed a database of customer account information including password hashes, plus systems holding node credentials. The company says its findings indicate the incident was part of a broader AI-powered attack campaign, which The Hacker News says overlaps with a China-linked cluster using ARTEX.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Technology & AI vendors",
+    "attribution": "Unattributed; assessed as part of a large-scale AI-powered attack campaign.",
+    "motive": "Unknown",
+    "vector": "Unauthorized access to parts of Chainstack's infrastructure; exact method Unknown.",
+    "root_cause": "Unknown",
+    "impact": "Organization names, account holder names, member email addresses and password hashes may have been exposed. Node credentials are treated as exposed, with no evidence they were read. Customer nodes, console and API were not modified.",
+    "response": "Chainstack cut the access paths, hardened its systems and emailed customers. It asked them to change passwords, rotate node credentials and regenerate platform API keys.",
+    "status": "contained; investigation closed 2 Nov 2026",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "source": "The Hacker News",
+    "url": "https://thehackernews.com/2026/11/chainstack-reports-production-systems.html",
+    "sources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/11/chainstack-reports-production-systems.html"
+      },
+      {
+        "name": "Chainstack",
+        "url": "https://chainstack.com/security-incident-nov-2026/"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-11-03",
+        "event": "Reported by The Hacker News"
+      }
+    ],
+    "drafted_at": "2026-11-03T19:06:15Z",
+    "first_seen": "2026-11-03T19:06:15Z",
+    "updated_at": "2026-11-04T20:05:36Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-04T20:05:36Z"
+  },
+  {
+    "id": "gitbook-ai-agent-attack",
+    "date": "2026-11-03",
+    "title": "GitBook discloses AI agent attack exposing some infrastructure credentials",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "GitBook infrastructure credentials",
+    "loss_usd": null,
+    "summary": "GitBook disclosed that on 2 Nov 2026 an attacker, described by the company as using AI agents in a targeted attack, gained unauthorized access to parts of its infrastructure and some infrastructure credentials. The company reported no evidence that customer content was altered and urged users to rotate their keys. The attacker's identity and exactly how the AI agents were used were not disclosed.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Technology & AI vendors",
+    "attribution": "Unattributed; GitBook describes the attack as carried out by an AI agent.",
+    "motive": "Unknown",
+    "vector": "AI agent-driven intrusion; exact method Unknown.",
+    "root_cause": "Unknown",
+    "impact": "Integration tokens, Git Sync keys, API tokens and questions visitors sent to GitBook Assistant may have been exposed; no tampering with customer content was found. Published docs sites and the app were disrupted, and PancakeSwap temporarily took its GitBook-hosted docs offline.",
+    "response": "GitBook revoked all personal API tokens and replaced credentials, restored service on 3 Nov, and advised users to rotate GitBook and third-party API tokens and keys and re-authenticate the GitBook MCP server.",
+    "status": "contained; service restored 3 Nov 2026",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "source": "BlockBeats",
+    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE80d3doNWVDMy13eC0tTnE4cXZmNWNwOUR3RGhsVlB1cGlXRTB2ZUh6cVNUU2FwNEhySmRmS2VMb0owTmJRX0wtV25UcmR1Wkc0TEEwc3hn?oc=5",
+    "sources": [
+      {
+        "name": "BlockBeats",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE80d3doNWVDMy13eC0tTnE4cXZmNWNwOUR3RGhsVlB1cGlXRTB2ZUh6cVNUU2FwNEhySmRmS2VMb0owTmJRX0wtV25UcmR1Wkc0TEEwc3hn?oc=5"
+      },
+      {
+        "name": "Decrypt",
+        "url": "https://decrypt.co/382465/crypto-docs-gitbook-ai-agent-security-breach"
+      },
+      {
+        "name": "GitBook status (Pulsetic)",
+        "url": "https://pulsetic.com/status/gitbook/incidents/156481/"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-11-03",
+        "event": "Reported by BlockBeats"
+      }
+    ],
+    "drafted_at": "2026-11-03T19:06:15Z",
+    "first_seen": "2026-11-03T19:06:15Z",
+    "updated_at": "2026-11-04T20:05:36Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-04T20:05:36Z"
   }
 ]

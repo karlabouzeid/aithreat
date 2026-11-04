@@ -7905,5 +7905,117 @@
     "timeline": [
       "Signalé par prospect.com.ru"
     ]
+  },
+  {
+    "title": "Un policier de Séoul inculpé pour avoir fabriqué et diffusé des vidéos deepfake de personnes de son entourage",
+    "summary": "Le parquet de Busan a inculpé, en détention, un policier en exercice du commissariat de Dongdaemun (Séoul), accusé d'avoir utilisé une application d'IA pour créer environ 400 vidéos deepfake sexuellement explicites de personnes de son entourage et d'en avoir diffusé une partie (une cinquantaine, selon les médias) sur Telegram. Le parquet l'a également poursuivi pour détention de contenus sexuels illégaux, dont des contenus d'exploitation sexuelle d'enfants ; l'affaire fait suite à une enquête sous couverture menée par la police de Busan sur un salon de discussion Telegram.",
+    "target": "Personnes de l'entourage du policier (particuliers)",
+    "actor": "Policier en exercice (non nommé)",
+    "attribution": "Le parquet du district de Busan a inculpé le policier, selon Yonhap.",
+    "motive": "Inconnu",
+    "vector": "Vidéos deepfake générées par IA et diffusées à des tiers",
+    "root_cause": "Détournement de l'IA générative par un individu pour produire des vidéos de personnes réelles.",
+    "impact": "Des vidéos deepfake de plusieurs personnes de son entourage ont été créées et diffusées ; le nombre de victimes n'est pas précisé dans le résumé.",
+    "response": "Arrêté à la suite d'une enquête sous couverture de la police de Busan, suspendu de ses fonctions, puis inculpé en détention par le parquet du district de Busan",
+    "id": "korea-police-officer-deepfake-indicted",
+    "timeline": [
+      "Signalé par AI Incident Database"
+    ]
+  },
+  {
+    "title": "Le ver Shai-Hulud compromet une publication npm de Tensorlake",
+    "summary": "Une variante du ver Shai-Hulud (liée à ChainDrop) a atteint l'infrastructure d'agents IA lorsque la version 0.5.144 du SDK npm tensorlake a été publiée via un compte de mainteneur compromis. Socket a signalé la charge utile de vol d'identifiants 11 minutes après la publication ; la version est restée en ligne environ 1 heure 40 avant son retrait, et l'impact est inconnu.",
+    "target": "SDK npm de la plateforme d'agents IA Tensorlake (tensorlake 0.5.144) et développeurs l'ayant installé",
+    "actor": "Inconnu (variante du ver Shai-Hulud / ChainDrop)",
+    "attribution": "Lié à la famille de vers Shai-Hulud ; les opérateurs ne sont pas nommés.",
+    "motive": "Vol d'identifiants",
+    "vector": "Publication npm malveillante d'un paquet Tensorlake embarquant un logiciel malveillant de vol d'identifiants.",
+    "root_cause": "Inconnue ; la compromission de Tensorlake a permis au ver de publier une version npm malveillante.",
+    "impact": "Impact inconnu ; le logiciel malveillant a été détecté quelques minutes après sa publication.",
+    "response": "Détection dans les minutes suivant la publication npm ; aucun autre détail sur la réponse n'est fourni.",
+    "id": "shai-hulud-tensorlake-npm",
+    "timeline": [
+      "Signalé par The Register"
+    ]
+  },
+  {
+    "title": "Des deepfakes IA de l'actrice Wu Yue et d'autres célébrités utilisés pour stimuler les ventes de produits",
+    "summary": "L'actrice Wu Yue a déclaré le 18 octobre 2026 que le compte WeChat Channels « 花姐美肤日记 » (Hua Jie Beauty Diary) avait utilisé un échange de visage par IA et une voix clonée à son effigie pour promouvoir des produits de soin de la peau qu'elle n'a jamais cautionnés, et elle a exigé qu'il rembourse les spectateurs. Selon la couverture médiatique, d'autres personnalités publiques, comme Deng Yaping, ont été imitées dans des vidéos de vente similaires. Aucun chiffre de perte n'a été communiqué, et les pertes des acheteurs sont présumées.",
+    "target": "Wu Yue, d'autres célébrités usurpées et les acheteurs trompés",
+    "actor": "Opérateur présumé du compte WeChat Channels « 花姐美肤日记 » (non identifié)",
+    "attribution": "Inconnue ; les vidéos sont publiées sous un compte ou un personnage nommé « Hua Jie », et aucun individu ni groupe n'a été identifié.",
+    "motive": "Gain financier par la vente trompeuse de produits présentés comme cautionnés par des célébrités.",
+    "vector": "Vidéos générées par IA et probable usurpation de voix de célébrités, utilisées pour la promotion de produits sur les réseaux sociaux.",
+    "root_cause": "Des outils d'usurpation par IA bon marché et une application insuffisante des règles rendent difficile l'arrêt des faux témoignages de célébrités, que le titre décrit comme répétés.",
+    "impact": "Wu Yue a publiquement exigé le remboursement des victimes escroquées. Le nombre de victimes et le montant des pertes ne sont pas précisés.",
+    "response": "WeChat Channels a banni définitivement le compte et supprimé son contenu",
+    "id": "wu-yue-ai-celebrity-impersonation-sales",
+    "timeline": [
+      "Signalé par 新浪网"
+    ]
+  },
+  {
+    "title": "Des restaurateurs du Tarn escroqués avec un faux justificatif bancaire généré par IA et une photo retouchée",
+    "summary": "Selon la gendarmerie du Tarn et la presse locale, une escroquerie a visé des restaurants autour de Saint-Sulpice-la-Pointe : un appelant prétendait qu'un paiement avait été effectué en double, puis une femme présentait sur son téléphone un relevé bancaire retouché par IA pour exiger un remboursement en espèces. Les gendarmes ont recensé au moins cinq victimes ou tentatives, et une suspecte a été arrêtée et a avoué.",
+    "target": "Restaurants du Tarn, France",
+    "actor": "Inconnu",
+    "attribution": "Non attribuée ; la presse locale (Le Tarn Libre, La Dépêche) ne nomme pas le ou les escrocs dans ses titres.",
+    "motive": "Gain financier par des remboursements en espèces de paiements qui n'ont jamais eu lieu.",
+    "vector": "Faux justificatif bancaire d'un double paiement généré par IA, accompagné d'une photo altérée par IA, utilisés pour réclamer des remboursements en espèces auprès de restaurants.",
+    "root_cause": "Inconnue ; le personnel aurait apparemment accepté une preuve de double paiement fabriquée par IA sans vérification indépendante.",
+    "impact": "Au moins cinq restaurants ont été victimes ou visés par des tentatives ; deux restaurateurs ont déposé plainte.",
+    "response": "La gendarmerie de Saint-Sulpice-la-Pointe a identifié une suspecte grâce à la vidéosurveillance et l'a placée en garde à vue, et la gendarmerie du Tarn a appelé les commerçants à la vigilance.",
+    "id": "tarn-restaurants-ai-fake-refund",
+    "timeline": [
+      "Signalé par letarnlibre.com"
+    ]
+  },
+  {
+    "title": "Un affilié du rançongiciel 3AM frappe un parc scolaire britannique lors d'une attaque soupçonnée d'être assistée par IA",
+    "summary": "Un affilié du rançongiciel 3AM a chiffré environ 37 machines sur près de 50 atteintes depuis un hôte non géré au sein d'un parc scolaire britannique. Des éléments suggèrent qu'un modèle pourrait avoir généré et révisé des commandes.",
+    "target": "Parc scolaire britannique",
+    "actor": "Affilié du rançongiciel 3AM",
+    "attribution": "Signalé comme étant un affilié du rançongiciel 3AM (BleepingComputer). Les chercheurs cités par Dark Reading se sont gardés d'affirmer que l'attaque était entièrement automatisée.",
+    "motive": "Inconnu ; le chiffrement par rançongiciel laisse penser à une extorsion.",
+    "vector": "Hôte non géré utilisé pour atteindre près de 50 machines ; commandes possiblement générées et révisées par un modèle d'IA.",
+    "root_cause": "Un hôte non géré disposait d'un accès réseau à d'autres machines. L'accès initial précis est inconnu.",
+    "impact": "Environ 37 des près de 50 machines accessibles ont été chiffrées. L'impact plus large sur les données est inconnu.",
+    "response": "Inconnu",
+    "id": "3am-ransomware-ai-uk-school",
+    "timeline": [
+      "Signalé par BleepingComputer"
+    ]
+  },
+  {
+    "title": "Chainstack révèle une intrusion dans son environnement de production exposant des données clients et des empreintes de mots de passe",
+    "summary": "Le fournisseur d'infrastructure blockchain Chainstack a indiqué qu'un attaquant externe avait atteint son environnement de développement le 26 octobre 2026, puis certains systèmes de production le 29 octobre, par l'intermédiaire d'un composant tiers. L'intrusion a été détectée et neutralisée le 31 octobre. L'attaquant a eu accès à une base de données d'informations de comptes clients, comprenant des empreintes de mots de passe, ainsi qu'à des systèmes contenant des identifiants de nœuds. Selon l'entreprise, ses constatations indiquent que l'incident s'inscrivait dans une campagne d'attaques plus large reposant sur l'IA, que The Hacker News dit recouper un cluster lié à la Chine utilisant ARTEX.",
+    "target": "Infrastructure de production de Chainstack",
+    "actor": "Inconnu",
+    "attribution": "Non attribuée ; considérée comme faisant partie d'une campagne d'attaques à grande échelle reposant sur l'IA.",
+    "motive": "Inconnu",
+    "vector": "Accès non autorisé à certaines parties de l'infrastructure de Chainstack ; méthode exacte inconnue.",
+    "root_cause": "Inconnue",
+    "impact": "Les noms d'organisations, les noms des titulaires de comptes, les adresses e-mail des membres et les empreintes de mots de passe pourraient avoir été exposés. Les identifiants de nœuds sont considérés comme exposés, sans preuve qu'ils aient été lus. Les nœuds des clients, la console et l'API n'ont pas été modifiés.",
+    "response": "Chainstack a coupé les chemins d'accès, renforcé ses systèmes et envoyé un e-mail à ses clients. Elle leur a demandé de changer leurs mots de passe, de renouveler les identifiants de nœuds et de régénérer les clés d'API de la plateforme.",
+    "id": "chainstack-ai-campaign-breach",
+    "timeline": [
+      "Signalé par The Hacker News"
+    ]
+  },
+  {
+    "title": "GitBook révèle une attaque par agents d'IA ayant exposé certains identifiants d'infrastructure",
+    "summary": "GitBook a indiqué que, le 2 novembre 2026, un attaquant, décrit par l'entreprise comme ayant utilisé des agents d'IA dans une attaque ciblée, avait obtenu un accès non autorisé à certaines parties de son infrastructure et à certains identifiants d'infrastructure. L'entreprise n'a relevé aucun signe d'altération du contenu des clients et a exhorté les utilisateurs à renouveler leurs clés. L'identité de l'attaquant et la manière exacte dont les agents d'IA ont été utilisés n'ont pas été divulguées.",
+    "target": "Identifiants d'infrastructure de GitBook",
+    "actor": "Inconnu",
+    "attribution": "Non attribuée ; GitBook décrit l'attaque comme menée par un agent d'IA.",
+    "motive": "Inconnu",
+    "vector": "Intrusion pilotée par un agent d'IA ; méthode exacte inconnue.",
+    "root_cause": "Inconnue",
+    "impact": "Des jetons d'intégration, des clés Git Sync, des jetons d'API et les questions envoyées par les visiteurs à GitBook Assistant pourraient avoir été exposés ; aucune altération du contenu des clients n'a été constatée. Les sites de documentation publiés et l'application ont été perturbés, et PancakeSwap a temporairement mis hors ligne sa documentation hébergée sur GitBook.",
+    "response": "GitBook a révoqué tous les jetons d'API personnels et remplacé les identifiants, rétabli le service le 3 novembre, et conseillé aux utilisateurs de renouveler les jetons et clés d'API de GitBook et de tiers, ainsi que de réauthentifier le serveur MCP de GitBook.",
+    "id": "gitbook-ai-agent-attack",
+    "timeline": [
+      "Signalé par BlockBeats"
+    ]
   }
 ]

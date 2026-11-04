@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-04T19:41:20Z",
-  "total": 249,
-  "all_time_total": 452,
+  "generated_at": "2026-11-04T20:13:39Z",
+  "total": 256,
+  "all_time_total": 459,
   "window_from": "2025-11-04",
   "window_to": "2026-11-04",
   "trend_from": "2025-01-01",
@@ -20,7 +20,7 @@
       "sao-paulo-fake-lawyer-voice-clone"
     ],
     "financial_services": 9,
-    "individuals": 71,
+    "individuals": 73,
     "fin_by_category": {
       "Deepfake fraud": 7,
       "AI-assisted malware": 1,
@@ -153,13 +153,13 @@
   },
   "this_quarter": {
     "q": "2026-Q4",
-    "n": 59,
+    "n": 66,
     "prev_q": "2026-Q3",
     "prev_n": 49
   },
   "direction": {
-    "on-ai": 84,
-    "with-ai": 135
+    "on-ai": 85,
+    "with-ai": 141
   },
   "on_ai_share_first_half": 31,
   "on_ai_share_last_half": 42,
@@ -264,23 +264,23 @@
     },
     {
       "q": "2026-Q4",
-      "n": 59,
-      "on-ai": 16,
-      "with-ai": 38,
+      "n": 66,
+      "on-ai": 17,
+      "with-ai": 44,
       "severity": {
         "critical": 3,
-        "high": 21,
-        "medium": 34,
-        "low": 1
+        "high": 23,
+        "medium": 38,
+        "low": 2
       },
       "autonomous": 6,
-      "real_world": 58
+      "real_world": 65
     }
   ],
   "categories": [
     {
       "category": "Deepfake fraud",
-      "n": 45,
+      "n": 48,
       "by_quarter": [
         13,
         9,
@@ -289,13 +289,13 @@
         10,
         11,
         12,
-        5
+        8
       ],
-      "growth_last4_vs_prev4": -12
+      "growth_last4_vs_prev4": -9
     },
     {
       "category": "AI-assisted malware",
-      "n": 35,
+      "n": 38,
       "by_quarter": [
         1,
         5,
@@ -304,13 +304,13 @@
         5,
         5,
         6,
-        16
+        19
       ],
-      "growth_last4_vs_prev4": 15
+      "growth_last4_vs_prev4": 18
     },
     {
       "category": "AI supply chain",
-      "n": 32,
+      "n": 33,
       "by_quarter": [
         2,
         4,
@@ -319,9 +319,9 @@
         7,
         11,
         6,
-        8
+        9
       ],
-      "growth_last4_vs_prev4": 19
+      "growth_last4_vs_prev4": 20
     },
     {
       "category": "Chatbot harm",
@@ -461,7 +461,7 @@
   ],
   "rising_category": "AI supply chain",
   "top_category": "Deepfake fraud",
-  "top_category_n": 45,
+  "top_category_n": 48,
   "autonomous": {
     "by_year": {
       "2025": 1,
@@ -486,9 +486,9 @@
       "actor_type": "criminal",
       "by_year": {
         "2025": 13,
-        "2026": 76
+        "2026": 78
       },
-      "n": 89
+      "n": 91
     },
     {
       "actor_type": "state",
@@ -510,9 +510,9 @@
       "actor_type": "unknown",
       "by_year": {
         "2025": 1,
-        "2026": 63
+        "2026": 67
       },
-      "n": 64
+      "n": 68
     },
     {
       "actor_type": "autonomous-ai",
@@ -542,9 +542,9 @@
       "actor_type": "insider",
       "by_year": {
         "2025": 0,
-        "2026": 1
+        "2026": 2
       },
-      "n": 1
+      "n": 2
     }
   ],
   "years": [
@@ -553,9 +553,9 @@
   ],
   "severity": {
     "critical": 39,
-    "high": 109,
-    "medium": 94,
-    "low": 7
+    "high": 111,
+    "medium": 98,
+    "low": 8
   },
   "critical_high_pct": 59,
   "losses": {
@@ -628,11 +628,11 @@
   "sectors": [
     {
       "sector": "Technology & AI vendors",
-      "n": 81
+      "n": 84
     },
     {
       "sector": "Individuals & consumers",
-      "n": 71
+      "n": 73
     },
     {
       "sector": "Multiple / cross-sector",
@@ -640,7 +640,7 @@
     },
     {
       "sector": "Education & research",
-      "n": 20
+      "n": 21
     },
     {
       "sector": "Unknown",
@@ -663,49 +663,53 @@
       "n": 4
     },
     {
+      "sector": "Retail & consumer brands",
+      "n": 2
+    },
+    {
       "sector": "Energy, industrial & infrastructure",
       "n": 2
     },
     {
       "sector": "Media & entertainment",
       "n": 2
-    },
-    {
-      "sector": "Retail & consumer brands",
-      "n": 1
     }
   ],
   "countries": [
     {
       "country": "GL",
-      "n": 110
+      "n": 113
     },
     {
       "country": "US",
       "n": 54
     },
     {
+      "country": "GB",
+      "n": 6
+    },
+    {
+      "country": "KR",
+      "n": 6
+    },
+    {
       "country": "IN",
       "n": 6
     },
     {
-      "country": "GB",
-      "n": 5
-    },
-    {
-      "country": "KR",
-      "n": 5
+      "country": "FR",
+      "n": 4
     },
     {
       "country": "IL",
       "n": 4
     },
     {
-      "country": "UA",
-      "n": 3
+      "country": "CN",
+      "n": 4
     },
     {
-      "country": "FR",
+      "country": "UA",
       "n": 3
     },
     {
@@ -719,17 +723,13 @@
     {
       "country": "NG",
       "n": 3
-    },
-    {
-      "country": "TW",
-      "n": 3
     }
   ],
   "global_pct": 44,
   "status": [
     {
       "status": "under investigation",
-      "n": 87
+      "n": 88
     },
     {
       "status": "ongoing",
@@ -752,7 +752,19 @@
       "n": 8
     },
     {
+      "status": "suspect arrested and confessed",
+      "n": 1
+    },
+    {
       "status": "criminal case opened",
+      "n": 1
+    },
+    {
+      "status": "contained; service restored 3 nov 2026",
+      "n": 1
+    },
+    {
+      "status": "contained; investigation closed 2 nov 2026",
       "n": 1
     },
     {
@@ -762,11 +774,23 @@
     {
       "status": "suspect arrested",
       "n": 1
+    },
+    {
+      "status": "account permanently banned; no known charges",
+      "n": 1
+    },
+    {
+      "status": "contained; impact unknown",
+      "n": 1
+    },
+    {
+      "status": "indicted and detained; trial pending",
+      "n": 1
     }
   ],
-  "unresolved_pct": 67,
+  "unresolved_pct": 66,
   "verify_median_hours": 19.8,
-  "verify_sample": 60,
+  "verify_sample": 67,
   "researcher_demos": 21,
   "pulse": [
     {
@@ -1036,7 +1060,7 @@
     {
       "day": "2026-10-30",
       "kinds": {
-        "incident": 75,
+        "incident": 74,
         "vulnerability": 4,
         "research": 5,
         "vendor-report": 13,
@@ -1100,7 +1124,7 @@
         "vulnerability": 2,
         "research": 14,
         "vendor-report": 6,
-        "policy": 2,
+        "policy": 3,
         "other": 8,
         "untagged": 0
       }

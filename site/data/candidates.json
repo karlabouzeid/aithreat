@@ -540,51 +540,6 @@
     "updated_at": "2026-10-16T16:35:37Z"
   },
   {
-    "id": "shai-hulud-tensorlake-npm",
-    "date": "2026-10-16",
-    "title": "Shai-Hulud worm compromises Tensorlake npm release",
-    "category": "AI supply chain",
-    "direction": "on-ai",
-    "severity": "medium",
-    "country": "GL",
-    "region": "Global",
-    "target": "Tensorlake AI infrastructure npm package",
-    "loss_usd": null,
-    "summary": "The Shai-Hulud worm reached AI infrastructure through a Tensorlake compromise; credential-stealing malware was detected within minutes of the npm release, and the impact is unknown.",
-    "actor": "Shai-Hulud worm operators",
-    "actor_type": "unknown",
-    "sector": "Technology & AI vendors",
-    "attribution": "Linked to the Shai-Hulud worm family; the operators are not named.",
-    "motive": "Credential theft",
-    "vector": "Malicious npm release of a Tensorlake package carrying credential-stealing malware.",
-    "root_cause": "Unknown; the Tensorlake compromise let the worm publish a malicious npm release.",
-    "impact": "Impact unknown; the malware was detected within minutes of release.",
-    "response": "Detection within minutes of the npm release; no other response details given.",
-    "status": "under investigation",
-    "cve": null,
-    "confidence": 0.6,
-    "source": "The Register",
-    "url": "https://www.theregister.com/security/2026/10/08/shai-hulud-worm-makes-jump-to-ai-infrastructure-with-tensorlake-compromise/5302054",
-    "sources": [
-      {
-        "name": "The Register",
-        "url": "https://www.theregister.com/security/2026/10/08/shai-hulud-worm-makes-jump-to-ai-infrastructure-with-tensorlake-compromise/5302054"
-      }
-    ],
-    "timeline": [
-      {
-        "date": "2026-10-16",
-        "event": "Reported by The Register"
-      }
-    ],
-    "verified": false,
-    "drafted_at": "2026-10-17T13:52:15Z",
-    "wire_id": "40f621da6d14",
-    "first_seen": "2026-10-17T13:52:15Z",
-    "first_published": "2026-10-08T16:54:48Z",
-    "updated_at": "2026-10-17T13:52:15Z"
-  },
-  {
     "id": "asos-simon-ai-breach",
     "date": "2026-10-16",
     "title": "ASOS breach linked to compromised agentic marketing platform Simon AI",
@@ -717,51 +672,6 @@
     "wire_id": "ffa388a06919",
     "first_seen": "2026-10-17T13:52:15Z",
     "first_published": "2026-10-10T00:00:00Z",
-    "updated_at": "2026-10-17T13:52:15Z"
-  },
-  {
-    "id": "korea-police-officer-deepfake-indicted",
-    "date": "2026-10-07",
-    "title": "Seoul police officer indicted for making and spreading deepfake videos of acquaintances",
-    "category": "Deepfake fraud",
-    "direction": "with-ai",
-    "severity": "medium",
-    "country": "KR",
-    "region": "Asia-Pacific",
-    "target": "Acquaintances of the officer (individuals)",
-    "loss_usd": null,
-    "summary": "Busan prosecutors indicted a Seoul police officer for using AI to create and distribute deepfake videos of people he knew.",
-    "actor": "Serving police officer (unnamed)",
-    "actor_type": "insider",
-    "sector": "Individuals & consumers",
-    "attribution": "Busan District Prosecutors Office indicted the officer, per Yonhap.",
-    "motive": "Unknown",
-    "vector": "AI-generated deepfake videos distributed to others",
-    "root_cause": "Misuse of generative AI by an individual to produce videos of real people.",
-    "impact": "Deepfake videos of several acquaintances were created and spread; number of victims not stated in the summary.",
-    "response": "Prosecutors indicted the officer.",
-    "status": "ongoing",
-    "cve": null,
-    "confidence": 0.6,
-    "source": "AI Incident Database",
-    "url": "https://en.yna.co.kr/view/AEN20261007002700315",
-    "sources": [
-      {
-        "name": "AI Incident Database",
-        "url": "https://en.yna.co.kr/view/AEN20261007002700315"
-      }
-    ],
-    "timeline": [
-      {
-        "date": "2026-10-07",
-        "event": "Reported by AI Incident Database"
-      }
-    ],
-    "verified": false,
-    "drafted_at": "2026-10-17T13:52:15Z",
-    "wire_id": "b48781338370",
-    "first_seen": "2026-10-17T13:52:15Z",
-    "first_published": "2026-10-08T00:00:00Z",
     "updated_at": "2026-10-17T13:52:15Z"
   },
   {
@@ -1035,51 +945,6 @@
     "updated_at": "2026-10-17T14:35:35Z"
   },
   {
-    "id": "vibetech-14m-record-exposure",
-    "date": "2026-10-17",
-    "title": "Vibetech AI developer exposes almost 14 million records compiled from past breaches",
-    "category": "Model & data leak",
-    "direction": "on-ai",
-    "severity": "medium",
-    "country": "GL",
-    "region": "Global",
-    "target": "Vibetech (AI development company) data store",
-    "loss_usd": null,
-    "summary": "AI development company Vibetech collected data from different breaches and accidentally made almost 14 million records accessible online, per TechRadar.",
-    "actor": "Unknown",
-    "actor_type": "accident",
-    "sector": "Technology & AI vendors",
-    "attribution": "No attacker; the company itself exposed the data accidentally.",
-    "motive": "Not applicable; accidental exposure.",
-    "vector": "Publicly accessible data store holding records aggregated from other breaches.",
-    "root_cause": "Misconfiguration left the aggregated breach data accessible online; exact mechanism not stated.",
-    "impact": "Almost 14 million records were exposed online. Details of data types and any misuse are not given.",
-    "response": "Unknown",
-    "status": "under investigation",
-    "cve": null,
-    "confidence": 0.6,
-    "source": "TechRadar",
-    "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxOWUJ4UUVHc0VLeDBXb2Q2OG00SkNoWXZ4MnBWamlJSXpONlJKM1lBVklUR2FNdVJfU0tJSG1ZOG0wMEZ2U0NYUHFiTEVWaVU5aFNsczV5TnIzNXAyTlk4ZTRhcUtRRDh3QzlYVUpiU3IyZWZSZ1UxaGJrSEtOSkRyRlRuWkFsYlo4bXpFTmZXNFpiUUN0MHAwNWg3bmJkdk1fbHNQaXg4eG1VbnZCTl9BQWFObHVTR0JXeExPMHdKbVdPX2gyN3lCWDZmanloakRoX0JPbFk1S1N0SmtHZE02T1ZWY3VCc0FTd2FicGtRUGdhS1liOVJHNXdpdDU2cjdFRmMxX0h6b2dKWjA3SDhGbGdjWTdCaGlOaWpfNlU4S0tyWlZndHJzcVl6eVpPcXNuMzVveFNR?oc=5",
-    "sources": [
-      {
-        "name": "TechRadar",
-        "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxOWUJ4UUVHc0VLeDBXb2Q2OG00SkNoWXZ4MnBWamlJSXpONlJKM1lBVklUR2FNdVJfU0tJSG1ZOG0wMEZ2U0NYUHFiTEVWaVU5aFNsczV5TnIzNXAyTlk4ZTRhcUtRRDh3QzlYVUpiU3IyZWZSZ1UxaGJrSEtOSkRyRlRuWkFsYlo4bXpFTmZXNFpiUUN0MHAwNWg3bmJkdk1fbHNQaXg4eG1VbnZCTl9BQWFObHVTR0JXeExPMHdKbVdPX2gyN3lCWDZmanloakRoX0JPbFk1S1N0SmtHZE02T1ZWY3VCc0FTd2FicGtRUGdhS1liOVJHNXdpdDU2cjdFRmMxX0h6b2dKWjA3SDhGbGdjWTdCaGlOaWpfNlU4S0tyWlZndHJzcVl6eVpPcXNuMzVveFNR?oc=5"
-      }
-    ],
-    "timeline": [
-      {
-        "date": "2026-10-17",
-        "event": "Reported by TechRadar"
-      }
-    ],
-    "verified": false,
-    "drafted_at": "2026-10-17T15:05:36Z",
-    "wire_id": "ec8a75828aab",
-    "first_seen": "2026-10-14T14:39:51Z",
-    "first_published": "2026-10-14T13:05:00Z",
-    "updated_at": "2026-10-17T15:05:36Z"
-  },
-  {
     "id": "korea-id-exposure-ai-hack-china-link",
     "date": "2026-10-17",
     "title": "Millions of Korean IDs exposed in AI-linked hack tied to China",
@@ -1303,51 +1168,6 @@
     "first_seen": "2026-10-17T21:05:39Z",
     "first_published": "2026-10-17T19:42:00Z",
     "updated_at": "2026-10-17T21:05:39Z"
-  },
-  {
-    "id": "wu-yue-ai-celebrity-impersonation-sales",
-    "date": "2026-10-18",
-    "title": "AI deepfakes of actress Wu Yue and other celebrities used to push product sales",
-    "category": "Deepfake fraud",
-    "direction": "with-ai",
-    "severity": "medium",
-    "country": "CN",
-    "region": "Asia-Pacific",
-    "target": "Wu Yue, other impersonated celebrities and the buyers deceived",
-    "loss_usd": null,
-    "summary": "Actress Wu Yue said AI videos impersonating her under the name \"Hua Jie\" were used to sell goods and take money from viewers. Several other celebrities were also faked for sales promotion.",
-    "actor": "Unknown",
-    "actor_type": "criminal",
-    "sector": "Individuals & consumers",
-    "attribution": "Unknown; the videos are posted under an account or persona called \"Hua Jie\", and no individual or group has been identified.",
-    "motive": "Financial gain through deceptive celebrity-endorsed product sales.",
-    "vector": "AI-generated video and likely voice impersonation of celebrities, used for product promotion on social media.",
-    "root_cause": "Cheap AI impersonation tools and weak enforcement make fake celebrity endorsements hard to stop, which the headline describes as repeated.",
-    "impact": "Wu Yue publicly demanded refunds for victims who were defrauded. The number of victims and the amount lost are not stated.",
-    "response": "Wu Yue posted a public complaint on Weibo. No platform or law enforcement action is stated.",
-    "status": "ongoing",
-    "cve": null,
-    "confidence": 0.6,
-    "source": "新浪网",
-    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE45b1J2ZHAwZVBTZVNleDVMWmRaOGFzc2xTUWVjUnRqRVAzVTEtVUV2d1czNTh5VkpPcmZaZ0JjTEJMMXh3NWw5UVZpV2ZJajRNMGlQRkQtMVdiRk1kN2JLdVlCdw?oc=5",
-    "sources": [
-      {
-        "name": "新浪网",
-        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE45b1J2ZHAwZVBTZVNleDVMWmRaOGFzc2xTUWVjUnRqRVAzVTEtVUV2d1czNTh5VkpPcmZaZ0JjTEJMMXh3NWw5UVZpV2ZJajRNMGlQRkQtMVdiRk1kN2JLdVlCdw?oc=5"
-      }
-    ],
-    "timeline": [
-      {
-        "date": "2026-10-18",
-        "event": "Reported by 新浪网"
-      }
-    ],
-    "verified": false,
-    "drafted_at": "2026-10-18T01:35:36Z",
-    "wire_id": "386996b01dfa",
-    "first_seen": "2026-10-18T01:35:36Z",
-    "first_published": "2026-10-18T01:03:00Z",
-    "updated_at": "2026-10-18T01:35:36Z"
   },
   {
     "id": "china-ai-face-voice-swap-fraud-cases",
@@ -10375,54 +10195,6 @@
     "updated_at": "2026-11-03T00:35:40Z"
   },
   {
-    "id": "tarn-restaurants-ai-fake-refund",
-    "date": "2026-11-03",
-    "title": "Tarn restaurateurs scammed with AI-generated bank proof and doctored photo",
-    "category": "Deepfake fraud",
-    "direction": "with-ai",
-    "severity": "low",
-    "country": "FR",
-    "region": "Europe",
-    "target": "Restaurants in the Tarn, France",
-    "loss_usd": null,
-    "summary": "Local press reports that several Tarn restaurateurs were targeted by a scam using an AI-generated bank proof of a duplicate payment and an AI-doctored photo to obtain cash refunds.",
-    "actor": "Unknown",
-    "actor_type": "unknown",
-    "sector": "Retail & consumer brands",
-    "attribution": "Not attributed; local press (Le Tarn Libre, La Dépêche) does not name the scammer(s) in the headlines.",
-    "motive": "Financial gain through cash refunds of payments that never occurred.",
-    "vector": "AI-generated fake bank proof of a duplicate payment plus an AI-altered photo, used to claim cash refunds from restaurants.",
-    "root_cause": "Unknown; staff apparently accepted AI-fabricated evidence of a duplicate payment without independent verification.",
-    "impact": "Several restaurateurs in the Tarn were targeted; amounts lost are not stated in the headlines.",
-    "response": "Unknown",
-    "status": "unresolved",
-    "cve": null,
-    "young_people": false,
-    "setting": null,
-    "age_group": null,
-    "confidence": 0.7,
-    "source": "letarnlibre.com",
-    "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNV0F1RjFlS2lqVVpfZHJDTVdlUERtYjdzVmtrX3c5Y0xscmFhWjBJRGJxb0hLY2xaTHRLS1VXN0cwOWxVMHdtb3NmRjh1VGl1Z3dKcUUtcExKV2VHbUZPZ1ZTRWRtSXZmbzZfcWdpN0YzRnc3aVFBbUNWZ0Nqd3VXYlN0dlY0N1dwNHotaVZWRXMxekZBZTlxSFlSNm8tNUFxZlJxRDV0ZEhLTjVYZHg1ME01ZDBKZUZzcG9GWVBhTTlZb3pFTDc3cXJxWm5wUnRBVWgxcnhVTGkwdnBNZFpnV1FzUUpaV29IOEVUcE54b0tKOFM4c3BwTA?oc=5",
-    "sources": [
-      {
-        "name": "letarnlibre.com",
-        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNV0F1RjFlS2lqVVpfZHJDTVdlUERtYjdzVmtrX3c5Y0xscmFhWjBJRGJxb0hLY2xaTHRLS1VXN0cwOWxVMHdtb3NmRjh1VGl1Z3dKcUUtcExKV2VHbUZPZ1ZTRWRtSXZmbzZfcWdpN0YzRnc3aVFBbUNWZ0Nqd3VXYlN0dlY0N1dwNHotaVZWRXMxekZBZTlxSFlSNm8tNUFxZlJxRDV0ZEhLTjVYZHg1ME01ZDBKZUZzcG9GWVBhTTlZb3pFTDc3cXJxWm5wUnRBVWgxcnhVTGkwdnBNZFpnV1FzUUpaV29IOEVUcE54b0tKOFM4c3BwTA?oc=5"
-      }
-    ],
-    "timeline": [
-      {
-        "date": "2026-11-03",
-        "event": "Reported by letarnlibre.com"
-      }
-    ],
-    "verified": false,
-    "drafted_at": "2026-11-03T10:03:29Z",
-    "wire_id": "64a5bad34151",
-    "first_seen": "2026-11-03T10:03:29Z",
-    "first_published": "2026-11-03T09:30:00Z",
-    "updated_at": "2026-11-03T10:03:29Z"
-  },
-  {
     "id": "91app-ai-breach-taiwan",
     "date": "2026-11-03",
     "title": "91APP reportedly breached by AI-driven attack, experts warn of scam risk",
@@ -10469,54 +10241,6 @@
     "first_seen": "2026-11-03T13:35:39Z",
     "first_published": "2026-11-03T13:09:00Z",
     "updated_at": "2026-11-03T13:35:39Z"
-  },
-  {
-    "id": "3am-ransomware-ai-uk-school",
-    "date": "2026-11-03",
-    "title": "3AM ransomware affiliate hits UK school estate in suspected AI-assisted attack",
-    "category": "AI-assisted malware",
-    "direction": "with-ai",
-    "severity": "medium",
-    "country": "GB",
-    "region": "Europe",
-    "target": "UK school estate",
-    "loss_usd": null,
-    "summary": "A 3AM ransomware affiliate encrypted about 37 of nearly 50 machines reached from an unmanaged host at a UK school estate. Evidence suggests a model may have generated and revised commands.",
-    "actor": "3AM ransomware affiliate",
-    "actor_type": "criminal",
-    "sector": "Education & research",
-    "attribution": "Reported as a 3AM ransomware affiliate (BleepingComputer). Researchers cited by Dark Reading stopped short of claiming full automation.",
-    "motive": "Unknown; ransomware encryption suggests extortion.",
-    "vector": "Unmanaged host used to reach nearly 50 machines; commands possibly generated and revised by an AI model.",
-    "root_cause": "An unmanaged host had network reach to other machines. The precise initial access is Unknown.",
-    "impact": "About 37 of nearly 50 reachable machines were encrypted. Wider data impact is Unknown.",
-    "response": "Unknown",
-    "status": "under investigation",
-    "cve": null,
-    "young_people": false,
-    "setting": "school",
-    "age_group": null,
-    "confidence": 0.7,
-    "source": "BleepingComputer",
-    "url": "https://www.bleepingcomputer.com/news/security/uk-school-estate-hit-by-3am-ransomware-in-suspected-ai-assisted-attack",
-    "sources": [
-      {
-        "name": "BleepingComputer",
-        "url": "https://www.bleepingcomputer.com/news/security/uk-school-estate-hit-by-3am-ransomware-in-suspected-ai-assisted-attack"
-      }
-    ],
-    "timeline": [
-      {
-        "date": "2026-11-03",
-        "event": "Reported by BleepingComputer"
-      }
-    ],
-    "verified": false,
-    "drafted_at": "2026-11-03T14:05:41Z",
-    "wire_id": "1a0635dce544",
-    "first_seen": "2026-11-03T14:05:41Z",
-    "first_published": "2026-11-03T14:00:00Z",
-    "updated_at": "2026-11-03T14:05:41Z"
   },
   {
     "id": "kenya-websites-ai-hacking",
@@ -10709,102 +10433,6 @@
     "first_seen": "2026-11-03T18:35:58Z",
     "first_published": "2026-11-03T18:12:10Z",
     "updated_at": "2026-11-03T18:35:58Z"
-  },
-  {
-    "id": "chainstack-ai-campaign-breach",
-    "date": "2026-11-03",
-    "title": "Chainstack discloses production breach exposing customer data and password hashes",
-    "category": "AI-assisted malware",
-    "direction": "with-ai",
-    "severity": "high",
-    "country": "GL",
-    "region": "Global",
-    "target": "Chainstack production infrastructure",
-    "loss_usd": null,
-    "summary": "Blockchain infrastructure provider Chainstack said an unauthorized party accessed parts of its infrastructure. The incident is assessed as part of a large-scale AI-powered attack campaign.",
-    "actor": "Unknown",
-    "actor_type": "unknown",
-    "sector": "Technology & AI vendors",
-    "attribution": "Unattributed; assessed as part of a large-scale AI-powered attack campaign.",
-    "motive": "Unknown",
-    "vector": "Unauthorized access to parts of Chainstack's infrastructure; exact method Unknown.",
-    "root_cause": "Unknown",
-    "impact": "Customer data and password hashes were exposed.",
-    "response": "Chainstack publicly disclosed the breach on Tuesday.",
-    "status": "under investigation",
-    "cve": null,
-    "young_people": false,
-    "setting": null,
-    "age_group": null,
-    "confidence": 0.7,
-    "source": "The Hacker News",
-    "url": "https://thehackernews.com/2026/11/chainstack-reports-production-systems.html",
-    "sources": [
-      {
-        "name": "The Hacker News",
-        "url": "https://thehackernews.com/2026/11/chainstack-reports-production-systems.html"
-      }
-    ],
-    "timeline": [
-      {
-        "date": "2026-11-03",
-        "event": "Reported by The Hacker News"
-      }
-    ],
-    "verified": false,
-    "drafted_at": "2026-11-03T19:06:15Z",
-    "wire_id": "8afc2fab5966",
-    "first_seen": "2026-11-03T19:06:15Z",
-    "first_published": "2026-11-03T18:16:19Z",
-    "updated_at": "2026-11-03T19:06:15Z"
-  },
-  {
-    "id": "gitbook-ai-agent-attack",
-    "date": "2026-11-03",
-    "title": "GitBook discloses AI agent attack exposing some infrastructure credentials",
-    "category": "AI-assisted malware",
-    "direction": "with-ai",
-    "severity": "high",
-    "country": "GL",
-    "region": "Global",
-    "target": "GitBook infrastructure credentials",
-    "loss_usd": null,
-    "summary": "GitBook disclosed an attack by an AI agent in which some infrastructure credentials were accessed without authorization. It urged users to rotate their keys.",
-    "actor": "Unknown",
-    "actor_type": "unknown",
-    "sector": "Technology & AI vendors",
-    "attribution": "Unattributed; GitBook describes the attack as carried out by an AI agent.",
-    "motive": "Unknown",
-    "vector": "AI agent-driven intrusion; exact method Unknown.",
-    "root_cause": "Unknown",
-    "impact": "Some infrastructure credentials were accessed without authorization.",
-    "response": "GitBook publicly disclosed the incident and urged users to rotate their keys.",
-    "status": "under investigation",
-    "cve": null,
-    "young_people": false,
-    "setting": null,
-    "age_group": null,
-    "confidence": 0.7,
-    "source": "BlockBeats",
-    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE80d3doNWVDMy13eC0tTnE4cXZmNWNwOUR3RGhsVlB1cGlXRTB2ZUh6cVNUU2FwNEhySmRmS2VMb0owTmJRX0wtV25UcmR1Wkc0TEEwc3hn?oc=5",
-    "sources": [
-      {
-        "name": "BlockBeats",
-        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE80d3doNWVDMy13eC0tTnE4cXZmNWNwOUR3RGhsVlB1cGlXRTB2ZUh6cVNUU2FwNEhySmRmS2VMb0owTmJRX0wtV25UcmR1Wkc0TEEwc3hn?oc=5"
-      }
-    ],
-    "timeline": [
-      {
-        "date": "2026-11-03",
-        "event": "Reported by BlockBeats"
-      }
-    ],
-    "verified": false,
-    "drafted_at": "2026-11-03T19:06:15Z",
-    "wire_id": "037138118991",
-    "first_seen": "2026-11-03T19:06:15Z",
-    "first_published": "2026-11-03T01:18:00Z",
-    "updated_at": "2026-11-03T19:06:15Z"
   },
   {
     "id": "lovable-data-leak-passports-chats",

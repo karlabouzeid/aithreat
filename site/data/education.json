@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-04T19:41:20Z",
+  "generated_at": "2026-11-04T20:13:39Z",
   "licence": "CC BY 4.0",
-  "total": 96,
+  "total": 97,
   "young_people": 94,
-  "in_education": 46,
+  "in_education": 47,
   "countries": 31,
   "critical_high": 67,
   "by_setting": {
-    "school": 37,
+    "school": 38,
     "university": 9,
     "online": 37,
     "home": 13,
@@ -24,16 +24,16 @@
     "Chatbot harm": 35,
     "AI misfire": 6,
     "AI exam fraud": 5,
-    "AI-assisted malware": 2,
+    "AI-assisted malware": 3,
     "Model & data leak": 2,
     "Deepfake fraud": 1,
     "Prompt injection": 1
   },
   "by_country": {
     "US": 42,
+    "GB": 6,
     "KR": 6,
     "AU": 5,
-    "GB": 5,
     "IN": 3,
     "JP": 3,
     "CA": 3,
@@ -92,7 +92,7 @@
       "unknown": 0
     },
     "2026": {
-      "school": 7,
+      "school": 8,
       "university": 2,
       "online": 15,
       "home": 4,
@@ -100,6 +100,19 @@
     }
   },
   "cases": [
+    {
+      "id": "3am-ransomware-ai-uk-school",
+      "date": "2026-11-03",
+      "title": "3AM ransomware affiliate hits UK school estate in suspected AI-assisted attack",
+      "category": "AI-assisted malware",
+      "severity": "medium",
+      "country": "GB",
+      "setting": "school",
+      "age_group": null,
+      "young_people": false,
+      "response": "Unknown",
+      "url": "https://aithreat.io/cases/3am-ransomware-ai-uk-school/"
+    },
     {
       "id": "kyrgyz-woman-sexual-deepfake-kaktus",
       "date": "2026-10-21",

@@ -254,5 +254,69 @@
     "reason": "This is the same December 2022 torchtriton dependency confusion attack on PyTorch, already recorded as torchtriton-pypi-dependency-confusion.",
     "duplicate_of": "torchtriton-pypi-dependency-confusion",
     "at": "2026-11-04T19:35:36Z"
+  },
+  {
+    "id": "tarn-restaurants-ai-fake-refund",
+    "title": "Tarn restaurateurs scammed with AI-generated bank proof and doctored photo",
+    "decision": "approve",
+    "reason": "The Tarn gendarmerie announced the case on 3 Nov 2026 and La Dépêche and Le Journal d'Ici reported it: an AI-retouched bank statement was used to claim fake duplicate payments and obtain cash refunds from restaurants, and it is not a known case.",
+    "duplicate_of": null,
+    "at": "2026-11-04T20:05:36Z"
+  },
+  {
+    "id": "3am-ransomware-ai-uk-school",
+    "title": "3AM ransomware affiliate hits UK school estate in suspected AI-assisted attack",
+    "decision": "approve",
+    "reason": "The original Bitdefender research and BleepingComputer both confirm a 3AM affiliate encrypted about 37 of roughly 50 reachable machines at a UK school estate, with command behaviour that Bitdefender says looks like a model-driven loop; this is not a known case.",
+    "duplicate_of": null,
+    "at": "2026-11-04T20:05:36Z"
+  },
+  {
+    "id": "chainstack-ai-campaign-breach",
+    "title": "Chainstack discloses production breach exposing customer data and password hashes",
+    "decision": "approve",
+    "reason": "Chainstack's own incident report and The Hacker News confirm the breach of its development and production environments (customer account data, password hashes, node credentials), which the company says is part of the AI-powered ARTEX campaign; it is a new victim, not a duplicate of the known ARTEX c",
+    "duplicate_of": null,
+    "at": "2026-11-04T20:05:36Z"
+  },
+  {
+    "id": "gitbook-ai-agent-attack",
+    "title": "GitBook discloses AI agent attack exposing some infrastructure credentials",
+    "decision": "approve",
+    "reason": "GitBook's own status incident and its security notice, reported by Decrypt and several crypto outlets, confirm a targeted attack using AI agents that accessed infrastructure credentials on 2 Nov 2026; it is not a known case.",
+    "duplicate_of": null,
+    "at": "2026-11-04T20:05:36Z"
+  },
+  {
+    "id": "shai-hulud-tensorlake-npm",
+    "title": "Shai-Hulud worm compromises Tensorlake npm release",
+    "decision": "approve",
+    "reason": "The Register, Socket, The Hacker News and Tensorlake's own advisory confirm the malicious tensorlake 0.5.144 npm release, but it was published on 2026-10-08, not 10-16, and it is a separate event from the May Mini Shai-Hulud case.",
+    "duplicate_of": null,
+    "at": "2026-11-04T20:05:36Z"
+  },
+  {
+    "id": "korea-police-officer-deepfake-indicted",
+    "title": "Seoul police officer indicted for making and spreading deepfake videos of acquaintances",
+    "decision": "approve",
+    "reason": "Korea Times and Seoul Economic Daily confirm the Busan prosecutors' indictment of a serving Seoul police officer for AI-made deepfakes of acquaintances, and it is not already a known case.",
+    "duplicate_of": null,
+    "at": "2026-11-04T20:05:36Z"
+  },
+  {
+    "id": "vibetech-14m-record-exposure",
+    "title": "Vibetech AI developer exposes almost 14 million records compiled from past breaches",
+    "decision": "reject",
+    "reason": "The exposure of 13.7M old breach records is real, but it involves no AI system, AI-enabled attack or AI harm, since 'AI development company' is only the owner's label, and the draft's source is an unopenable Google News redirect.",
+    "duplicate_of": null,
+    "at": "2026-11-04T20:05:36Z"
+  },
+  {
+    "id": "wu-yue-ai-celebrity-impersonation-sales",
+    "title": "AI deepfakes of actress Wu Yue and other celebrities used to push product sales",
+    "decision": "approve",
+    "reason": "The Paper and Sina report that Wu Yue publicly said on 2026-10-18 that an account used AI face-swap and a cloned voice to sell goods, and WeChat permanently banned it, but the sources do not establish any proven victim losses.",
+    "duplicate_of": null,
+    "at": "2026-11-04T20:05:36Z"
   }
 ]

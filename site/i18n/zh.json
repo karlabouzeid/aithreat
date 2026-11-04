@@ -7905,5 +7905,117 @@
     "timeline": [
       "由 prospect.com.ru 报道"
     ]
+  },
+  {
+    "title": "首尔一名警官因制作并传播熟人深度伪造视频被起诉",
+    "summary": "釜山检方对一名在职的首尔东大门警察署警官提起公诉并将其羁押。该警官被指使用 AI 应用制作了约 400 段涉及熟人的露骨色情深度伪造视频，并在 Telegram 上传播其中一部分（据报道约 50 段）。检方还以持有非法性内容（包括儿童性剥削材料）为由对其提出指控；此案源于釜山警方对一个 Telegram 聊天室的卧底侦查。",
+    "target": "该警官的熟人（个人）",
+    "actor": "在职警官（未具名）",
+    "attribution": "据 Yonhap 报道，釜山地方检察厅（Busan District Prosecutors Office）对该警官提起公诉。",
+    "motive": "不明",
+    "vector": "AI 生成的深度伪造视频被分发给他人",
+    "root_cause": "个人滥用生成式 AI 制作真实人物的视频。",
+    "impact": "多名熟人的深度伪造视频被制作并传播；摘要中未说明受害者人数。",
+    "response": "在釜山警方卧底侦查后被逮捕并停职，随后被釜山地方检察厅羁押起诉",
+    "id": "korea-police-officer-deepfake-indicted",
+    "timeline": [
+      "由 AI Incident Database 报道"
+    ]
+  },
+  {
+    "title": "Shai-Hulud 蠕虫入侵 Tensorlake npm 发布版本",
+    "summary": "一个 Shai-Hulud（与 ChainDrop 有关联）蠕虫变种波及 AI 智能体基础设施：tensorlake npm SDK 0.5.144 版本通过被攻陷的维护者账号发布。Socket 在发布 11 分钟后标记出该窃取凭据的载荷，该版本在被移除前在线约 1 小时 40 分钟，影响不明。",
+    "target": "Tensorlake AI 智能体平台 npm SDK（tensorlake 0.5.144）及安装该版本的开发者",
+    "actor": "不明（Shai-Hulud / ChainDrop 关联蠕虫变种）",
+    "attribution": "与 Shai-Hulud 蠕虫家族有关联；其运营者未被点名。",
+    "motive": "窃取凭据",
+    "vector": "恶意 npm 发布：Tensorlake 软件包携带窃取凭据的恶意软件。",
+    "root_cause": "不明；对 Tensorlake 的入侵使该蠕虫得以发布恶意 npm 版本。",
+    "impact": "影响不明；该恶意软件在发布后数分钟内即被检出。",
+    "response": "在 npm 版本发布后数分钟内检出；未提供其他响应细节。",
+    "id": "shai-hulud-tensorlake-npm",
+    "timeline": [
+      "由 The Register 报道"
+    ]
+  },
+  {
+    "title": "演员吴越（Wu Yue）等名人的 AI 深度伪造形象被用于推动商品销售",
+    "summary": "演员吴越（Wu Yue）于 2026 年 10 月 18 日表示，微信视频号（WeChat Channels）账号“花姐美肤日记”（Hua Jie Beauty Diary）利用 AI 换脸和克隆的声音冒充她推销护肤品，而她从未为这些产品代言，并要求该账号向观众退款。报道称，邓亚萍（Deng Yaping）等其他公众人物也曾在类似的销售视频中被伪造。目前尚无损失金额的报道，买家的损失均为指称。",
+    "target": "吴越（Wu Yue）、其他被冒充的名人以及受骗的买家",
+    "actor": "微信视频号账号“花姐美肤日记”的涉嫌运营者（身份未明）",
+    "attribution": "不明；这些视频发布于名为“Hua Jie”的账号或人设之下，尚未确认任何个人或团体。",
+    "motive": "通过欺骗性的名人代言商品销售牟利。",
+    "vector": "AI 生成的名人视频及疑似语音冒充，用于在社交媒体上推广商品。",
+    "root_cause": "廉价的 AI 冒充工具和薄弱的执法使虚假名人代言难以遏制，标题称此类情况屡次出现。",
+    "impact": "吴越公开要求为被欺骗的受害者退款。受害者人数和损失金额均未说明。",
+    "response": "微信视频号永久封禁了该账号并清除了其内容",
+    "id": "wu-yue-ai-celebrity-impersonation-sales",
+    "timeline": [
+      "新浪网报道"
+    ]
+  },
+  {
+    "title": "塔恩省（Tarn）餐馆老板遭遇 AI 生成银行凭证和篡改照片诈骗",
+    "summary": "据塔恩省宪兵队和当地媒体报道，一起诈骗针对 Saint-Sulpice-la-Pointe 周边的餐馆：先由来电者声称重复付款，随后一名女子在手机上出示经 AI 修饰的银行对账单，要求以现金退款。宪兵记录到至少五名受害者或未遂案例，一名嫌疑人已被逮捕并供认。",
+    "target": "法国塔恩省（Tarn）的餐馆",
+    "actor": "不明",
+    "attribution": "未确认归属；当地媒体（Le Tarn Libre、La Dépêche）的标题中未点名诈骗者。",
+    "motive": "通过对从未发生的付款进行现金退款牟利。",
+    "vector": "AI 生成的重复付款虚假银行凭证加上经 AI 篡改的照片，用于向餐馆索取现金退款。",
+    "root_cause": "不明；员工显然在未经独立核实的情况下接受了 AI 伪造的重复付款证据。",
+    "impact": "至少五家餐馆成为受害者或诈骗未遂的目标；两名餐馆老板已报案。",
+    "response": "Saint-Sulpice-la-Pointe 宪兵队借助监控录像锁定一名嫌疑人并将其拘留，塔恩省宪兵队呼吁商户保持警惕。",
+    "id": "tarn-restaurants-ai-fake-refund",
+    "timeline": [
+      "由 letarnlibre.com 报道"
+    ]
+  },
+  {
+    "title": "3AM 勒索软件附属成员疑借助 AI 攻击英国学校集群",
+    "summary": "一名 3AM 勒索软件附属成员从一台未受管主机出发，加密了英国某学校集群内可触达的近 50 台机器中的约 37 台。证据表明，可能有模型生成并修改过相关命令。",
+    "target": "英国学校集群",
+    "actor": "3AM 勒索软件附属成员",
+    "attribution": "据 BleepingComputer 报道，攻击者为 3AM 勒索软件附属成员。Dark Reading 援引的研究人员并未断言攻击已完全自动化。",
+    "motive": "未知；勒索软件加密行为表明其目的可能是勒索。",
+    "vector": "利用一台未受管主机触达近 50 台机器；命令可能由 AI 模型生成并修改。",
+    "root_cause": "一台未受管主机具备到其他机器的网络可达性。具体的初始入侵方式未知。",
+    "impact": "在可触达的近 50 台机器中，约 37 台被加密。更广泛的数据影响未知。",
+    "response": "未知",
+    "id": "3am-ransomware-ai-uk-school",
+    "timeline": [
+      "BleepingComputer 报道"
+    ]
+  },
+  {
+    "title": "Chainstack 披露生产环境遭入侵，客户数据和密码哈希暴露",
+    "summary": "区块链基础设施提供商 Chainstack 披露，外部攻击者于 2026 年 10 月 26 日进入其开发环境，并于 10 月 29 日通过一个第三方组件进入部分生产系统。该入侵于 10 月 31 日被发现并切断。攻击者访问了一个包含密码哈希在内的客户账户信息数据库，以及存放节点凭据的系统。该公司称，调查结果表明此次事件属于一场更大范围的 AI 驱动攻击活动的一部分，The Hacker News 称该活动与一个使用 ARTEX 的中国关联集群存在重叠。",
+    "target": "Chainstack 生产基础设施",
+    "actor": "未知",
+    "attribution": "未归因；被评估为大规模 AI 驱动攻击活动的一部分。",
+    "motive": "未知",
+    "vector": "未经授权访问 Chainstack 基础设施的部分内容；具体方法未知。",
+    "root_cause": "未知",
+    "impact": "组织名称、账户持有人姓名、成员电子邮件地址和密码哈希可能已暴露。节点凭据被视为已暴露，但没有证据表明其被读取。客户节点、控制台和 API 未被修改。",
+    "response": "Chainstack 切断了访问路径，加固了系统，并向客户发送了电子邮件，要求其更改密码、轮换节点凭据并重新生成平台 API 密钥。",
+    "id": "chainstack-ai-campaign-breach",
+    "timeline": [
+      "The Hacker News 报道"
+    ]
+  },
+  {
+    "title": "GitBook 披露 AI 智能体攻击，部分基础设施凭据暴露",
+    "summary": "GitBook 披露，2026 年 11 月 2 日，一名攻击者（该公司称其在一次定向攻击中使用了 AI 智能体）未经授权访问了其部分基础设施和部分基础设施凭据。该公司称没有证据表明客户内容被篡改，并敦促用户轮换密钥。攻击者的身份以及 AI 智能体具体是如何被使用的均未披露。",
+    "target": "GitBook 基础设施凭据",
+    "actor": "未知",
+    "attribution": "未归因；GitBook 称该攻击由 AI 智能体实施。",
+    "motive": "未知",
+    "vector": "由 AI 智能体驱动的入侵；具体方法未知。",
+    "root_cause": "未知",
+    "impact": "集成令牌、Git Sync 密钥、API 令牌以及访问者向 GitBook Assistant 发送的问题可能已暴露；未发现客户内容被篡改。已发布的文档站点和应用受到干扰，PancakeSwap 暂时下线了其托管在 GitBook 上的文档。",
+    "response": "GitBook 撤销了所有个人 API 令牌并更换了凭据，于 11 月 3 日恢复服务，并建议用户轮换 GitBook 及第三方 API 令牌和密钥，并对 GitBook MCP server 重新进行身份验证。",
+    "id": "gitbook-ai-agent-attack",
+    "timeline": [
+      "BlockBeats 报道"
+    ]
   }
 ]
