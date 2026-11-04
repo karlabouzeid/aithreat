@@ -222,5 +222,37 @@
     "reason": "Jason Killinger's wrongful arrest after the Peppermill casino's facial recognition system misidentified him, and his ongoing federal suit, are confirmed by This Is Reno, the ACLU and Biometric Update, and the event is not a known case.",
     "duplicate_of": null,
     "at": "2026-11-04T19:05:41Z"
+  },
+  {
+    "id": "teampcp-litellm-1-82-7-trojan",
+    "title": "TeamPCP trojanizes LiteLLM 1.82.7 and 1.82.8 to steal cloud and CI/CD secrets",
+    "decision": "reject",
+    "reason": "The Wiz post is dated 2026-03-24, and the poisoned LiteLLM 1.82.7/1.82.8 releases are the same event as the known case mercor-litellm-breach, so the October 2026 date is wrong and the entry duplicates it.",
+    "duplicate_of": "mercor-litellm-breach",
+    "at": "2026-11-04T19:35:36Z"
+  },
+  {
+    "id": "deepseek-exposed-database-wiz",
+    "title": "Exposed DeepSeek database leaks chat history and sensitive logs",
+    "decision": "reject",
+    "reason": "This is the same Wiz-discovered open DeepSeek ClickHouse database exposure of 2025-01-29, already recorded as deepseek-db-exposure.",
+    "duplicate_of": "deepseek-db-exposure",
+    "at": "2026-11-04T19:35:36Z"
+  },
+  {
+    "id": "microsoft-ai-repo-38tb-sas-exposure",
+    "title": "Microsoft AI researchers' GitHub repo exposes 38TB via misconfigured SAS token",
+    "decision": "reject",
+    "reason": "This is the same 2023-09-18 Wiz finding of 38TB exposed via a Microsoft SAS token, already recorded as microsoft-ai-38tb-sas-token-exposure.",
+    "duplicate_of": "microsoft-ai-38tb-sas-token-exposure",
+    "at": "2026-11-04T19:35:36Z"
+  },
+  {
+    "id": "pytorch-torchtriton-pypi-dependency-conf",
+    "title": "Malicious 'torchtriton' dependency confusion attack hits PyTorch on PyPI",
+    "decision": "reject",
+    "reason": "This is the same December 2022 torchtriton dependency confusion attack on PyTorch, already recorded as torchtriton-pypi-dependency-confusion.",
+    "duplicate_of": "torchtriton-pypi-dependency-confusion",
+    "at": "2026-11-04T19:35:36Z"
   }
 ]
