@@ -12460,5 +12460,197 @@
     "first_seen": "2026-11-04T02:35:42Z",
     "first_published": "2026-11-03T16:32:05Z",
     "updated_at": "2026-11-04T02:35:42Z"
+  },
+  {
+    "id": "ai-access-theft-cn-firms-loss",
+    "date": "2026-11-04",
+    "title": "Stolen AI access permissions cost several companies nearly 10 million yuan",
+    "category": "LLMjacking",
+    "direction": "on-ai",
+    "severity": "medium",
+    "country": "CN",
+    "region": "Asia-Pacific",
+    "target": "Multiple enterprises' AI service accounts",
+    "loss_usd": null,
+    "summary": "Chinese security media report that stolen AI access permissions caused several companies losses of nearly 10 million yuan. Details are not given in the headline.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Multiple / cross-sector",
+    "attribution": "Unknown",
+    "motive": "Unknown; probably financial gain from consuming AI services.",
+    "vector": "Compromised or stolen AI access credentials or permissions; exact method Unknown.",
+    "root_cause": "Unknown; headline points to theft or misuse of AI access permissions.",
+    "impact": "Several companies reportedly lost close to 10 million yuan in total.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.45,
+    "source": "安全内参",
+    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9SUHBEcUpicjlZMkI3Qmgta2pWVi1nXzhEdWthdHh3b1U5LVlYRGV3WnpVSU5DQ28yU25qS0VpRFZiZlJQcVJLVExTLTExUQ?oc=5",
+    "sources": [
+      {
+        "name": "安全内参",
+        "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9SUHBEcUpicjlZMkI3Qmgta2pWVi1nXzhEdWthdHh3b1U5LVlYRGV3WnpVSU5DQ28yU25qS0VpRFZiZlJQcVJLVExTLTExUQ?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-11-04",
+        "event": "Reported by 安全内参"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-11-04T11:05:40Z",
+    "wire_id": "9c885aaef15c",
+    "first_seen": "2026-11-04T11:05:40Z",
+    "first_published": "2026-11-04T10:35:15Z",
+    "updated_at": "2026-11-04T11:05:40Z"
+  },
+  {
+    "id": "uk-ai-lost-pet-photo-extortion",
+    "date": "2026-11-04",
+    "title": "UK scammers use AI-generated lost-pet photos to extort owners",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "low",
+    "country": "GB",
+    "region": "Europe",
+    "target": "UK pet owners with missing pets",
+    "loss_usd": null,
+    "summary": "Chinese media report a rise in UK fraud in which criminals use AI-generated photos of lost pets to threaten and extort owners.",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "sector": "Individuals & consumers",
+    "attribution": "Unknown criminals; no group named.",
+    "motive": "Financial extortion",
+    "vector": "AI-generated pet images sent to owners of missing pets to support threats and extortion.",
+    "root_cause": "Cheap generative image tools let scammers fabricate convincing evidence about missing pets.",
+    "impact": "Pet owners are reportedly being threatened and extorted; amounts are not stated.",
+    "response": "Unknown",
+    "status": "ongoing",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.45,
+    "source": "手机新浪网",
+    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1RWFh4SV9yMGE2UE8tcU94WmczSFhLd2NkNFprZV83ODE4NG82OUVSRzQ4TUd0NXNVbEVrSl9UN1EtYU9MejRHZkpYLVNQM3dSY3pEbW5YNUZXRVE5b3phckF6WmYyV05feWlnTHRpOGpHOXZTc2JUZFhDV243dw?oc=5",
+    "sources": [
+      {
+        "name": "手机新浪网",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1RWFh4SV9yMGE2UE8tcU94WmczSFhLd2NkNFprZV83ODE4NG82OUVSRzQ4TUd0NXNVbEVrSl9UN1EtYU9MejRHZkpYLVNQM3dSY3pEbW5YNUZXRVE5b3phckF6WmYyV05feWlnTHRpOGpHOXZTc2JUZFhDV243dw?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-11-04",
+        "event": "Reported by 手机新浪网"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-11-04T11:05:40Z",
+    "wire_id": "76025c050698",
+    "first_seen": "2026-11-04T11:05:40Z",
+    "first_published": "2026-11-04T10:42:00Z",
+    "updated_at": "2026-11-04T11:05:40Z"
+  },
+  {
+    "id": "ai-enhanced-fortigate-600-devices",
+    "date": "2026-11-04",
+    "title": "AI-enhanced attackers reportedly breach 600+ FortiGate devices",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "600+ FortiGate firewall devices",
+    "loss_usd": null,
+    "summary": "A report says AI-enhanced attackers compromised over 600 FortiGate devices. The headline gives no further details on victims or method.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Multiple / cross-sector",
+    "attribution": "Unknown",
+    "motive": "Unknown",
+    "vector": "AI-assisted attacks against FortiGate devices; exact method Unknown.",
+    "root_cause": "Unknown; the headline does not state the flaw or weakness exploited.",
+    "impact": "More than 600 FortiGate devices reportedly compromised.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.5,
+    "source": "OrcaRouter",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQYWc3TmtMbUdHWkVqRFRyYWJ6ZnRJdmhBalBfcDNUNnQ4TVVzZUF1Um5mQXZBSm5EMnRpMTlOQkh4dTM3bVNiREttbE14VFI0aThQSjYxNkhLY29JTXdLZEtVV3MtNV9BbUhYaTA2UkdCS2p6SkxHUF8xenRsSEJDdzhkT2hWZU9E?oc=5",
+    "sources": [
+      {
+        "name": "OrcaRouter",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQYWc3TmtMbUdHWkVqRFRyYWJ6ZnRJdmhBalBfcDNUNnQ4TVVzZUF1Um5mQXZBSm5EMnRpMTlOQkh4dTM3bVNiREttbE14VFI0aThQSjYxNkhLY29JTXdLZEtVV3MtNV9BbUhYaTA2UkdCS2p6SkxHUF8xenRsSEJDdzhkT2hWZU9E?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-11-04",
+        "event": "Reported by OrcaRouter"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-11-04T11:05:40Z",
+    "wire_id": "8bb523deb14d",
+    "first_seen": "2026-11-04T11:05:40Z",
+    "first_published": "2026-11-04T10:31:20Z",
+    "updated_at": "2026-11-04T11:05:40Z"
+  },
+  {
+    "id": "priangarye-governor-deepfake-26m",
+    "date": "2026-11-04",
+    "title": "Deepfake of Priangarye head used to steal 26M rubles from pensioner",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "RU",
+    "region": "Europe",
+    "target": "Elderly woman (pensioner) in Russia",
+    "loss_usd": null,
+    "summary": "Scammers reportedly used a deepfake of the head of the Angara region (Priangarye) to take 26 million rubles from a pensioner.",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "sector": "Individuals & consumers",
+    "attribution": "Unknown scammers; no group named.",
+    "motive": "Financial gain",
+    "vector": "Deepfake impersonation of a regional leader to deceive the victim.",
+    "root_cause": "Convincing deepfakes of a trusted official paired with social engineering of an elderly victim.",
+    "impact": "A pensioner reportedly lost 26 million rubles.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.7,
+    "source": "prospect.com.ru",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNenBRcl9lX2wtWEwybjd6TnpUOFlVOVNTMktzY3djNHROWHdUbXdDWHlXV1pXT3JNeDZObXNhWnVxWXRWV01QTk1TbXpjMG9JMkJhTVhaUjZfVzdRNE8wRlh4MEExWFAybm0yd3ZmZVdMM2xfbk43SkkxendlUXc3OVBEX1VzM29yTzhCUnR0WVU4WGl2ZHVOYm9zczhyWlBlRHhXR3FJSWpWelljZU15amNzSXFUWlpESnVR?oc=5",
+    "sources": [
+      {
+        "name": "prospect.com.ru",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNenBRcl9lX2wtWEwybjd6TnpUOFlVOVNTMktzY3djNHROWHdUbXdDWHlXV1pXT3JNeDZObXNhWnVxWXRWV01QTk1TbXpjMG9JMkJhTVhaUjZfVzdRNE8wRlh4MEExWFAybm0yd3ZmZVdMM2xfbk43SkkxendlUXc3OVBEX1VzM29yTzhCUnR0WVU4WGl2ZHVOYm9zczhyWlBlRHhXR3FJSWpWelljZU15amNzSXFUWlpESnVR?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-11-04",
+        "event": "Reported by prospect.com.ru"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-11-04T11:05:40Z",
+    "wire_id": "c852fa7b0c06",
+    "first_seen": "2026-11-04T11:05:40Z",
+    "first_published": "2026-11-03T15:37:52Z",
+    "updated_at": "2026-11-04T11:05:40Z"
   }
 ]
