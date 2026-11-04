@@ -5,7 +5,7 @@
 Positioning: a reference registry of AI security incidents (attacks on AI systems, and attacks carried out with AI): structured, verified, fast, multilingual and openly licensed.
 
 ## Key pages
-- [All verified case files](https://aithreat.io/cases/): 442 incidents, newest first, with hubs by type and country
+- [All verified case files](https://aithreat.io/cases/): 446 incidents, newest first, with hubs by type and country
 - [Interactive world map](https://aithreat.io/): the same cases on a map with filters
 - [Live wire](https://aithreat.io/#wire): AI security headlines from vetted sources, refreshed every 30 minutes (machine-triaged, not verified)
 - [Data and citing](https://aithreat.io/#data): download links, field list, inclusion rule, severity scale
@@ -28,14 +28,14 @@ Positioning: a reference registry of AI security incidents (attacks on AI system
 - [AI exam fraud](https://aithreat.io/cases/category/ai-exam-fraud/): 5 cases
 - [AI misfire](https://aithreat.io/cases/category/ai-misfire/): 6 cases
 - [AI phishing](https://aithreat.io/cases/category/ai-phishing/): 16 cases
-- [AI supply chain](https://aithreat.io/cases/category/ai-supply-chain/): 46 cases
+- [AI supply chain](https://aithreat.io/cases/category/ai-supply-chain/): 47 cases
 - [AI-assisted malware](https://aithreat.io/cases/category/ai-assisted-malware/): 48 cases
 - [Agent hijack](https://aithreat.io/cases/category/agent-hijack/): 26 cases
 - [Chatbot harm](https://aithreat.io/cases/category/chatbot-harm/): 47 cases
-- [Deepfake abuse](https://aithreat.io/cases/category/deepfake-abuse/): 46 cases
-- [Deepfake fraud](https://aithreat.io/cases/category/deepfake-fraud/): 85 cases
+- [Deepfake abuse](https://aithreat.io/cases/category/deepfake-abuse/): 47 cases
+- [Deepfake fraud](https://aithreat.io/cases/category/deepfake-fraud/): 86 cases
 - [LLMjacking](https://aithreat.io/cases/category/llmjacking/): 15 cases
-- [Model & data leak](https://aithreat.io/cases/category/model-data-leak/): 42 cases
+- [Model & data leak](https://aithreat.io/cases/category/model-data-leak/): 43 cases
 - [Prompt injection](https://aithreat.io/cases/category/prompt-injection/): 28 cases
 - [State actor AI ops](https://aithreat.io/cases/category/state-actor-ai-ops/): 32 cases
 
@@ -113,6 +113,7 @@ Positioning: a reference registry of AI security incidents (attacks on AI system
 - [Bangladeshi online shoppers](https://aithreat.io/cases/company/bangladeshi-online-shoppers/): 1 case
 - [Banks and crypto exchanges' KYC checks](https://aithreat.io/cases/company/banks-and-crypto-exchanges-kyc-checks/): 1 case
 - [Base44 (Wix) AI app platform](https://aithreat.io/cases/company/base44-wix-ai-app-platform/): 1 case
+- [Begoña Gómez and other Spanish political figures](https://aithreat.io/cases/company/bego-a-g-mez-and-other-spanish-political-figures/): 1 case
 - [Belgian father of two in his 30s using Chai](https://aithreat.io/cases/company/belgian-father-of-two-in-his-30s-using-chai/): 1 case
 - [BerriAI LiteLLM proxy](https://aithreat.io/cases/company/berriai-litellm-proxy/): 1 case
 - [BerriAI LiteLLM proxy deployments](https://aithreat.io/cases/company/berriai-litellm-proxy-deployments/): 1 case
@@ -134,6 +135,7 @@ Positioning: a reference registry of AI security incidents (attacks on AI system
 - [Cline CLI users](https://aithreat.io/cases/company/cline-cli-users/): 1 case
 - [Cloud and AI API account holders (OpenAI, AWS, Azure)](https://aithreat.io/cases/company/cloud-and-ai-api-account-holders-openai-aws-azure/): 1 case
 - [Cloud environment of an unnamed organisation](https://aithreat.io/cases/company/cloud-environment-of-an-unnamed-organisation/): 1 case
+- [Cloudflare Workers AI GLM-5.3 users](https://aithreat.io/cases/company/cloudflare-workers-ai-glm-5-3-users/): 1 case
 - [Codeway Chat & Ask AI](https://aithreat.io/cases/company/codeway-chat-ask-ai/): 1 case
 - [Colombian social media users; Mayor Federico Gutierrez](https://aithreat.io/cases/company/colombian-social-media-users-mayor-federico-gutierrez/): 1 case
 - [ComfyUI image-generation servers; Rubick.ai platform](https://aithreat.io/cases/company/comfyui-image-generation-servers-rubick-ai-platform/): 1 case
@@ -221,6 +223,7 @@ Positioning: a reference registry of AI security incidents (attacks on AI system
 - [His former partner](https://aithreat.io/cases/company/his-former-partner/): 1 case
 - [Hugging Face](https://aithreat.io/cases/company/hugging-face/): 1 case
 - [Hugging Face Hub users loading PyTorch models](https://aithreat.io/cases/company/hugging-face-hub-users-loading-pytorch-models/): 1 case
+- [Hugging Face model users and GPU servers](https://aithreat.io/cases/company/hugging-face-model-users-and-gpu-servers/): 1 case
 - [Hugging Face users downloading OpenAI releases](https://aithreat.io/cases/company/hugging-face-users-downloading-openai-releases/): 1 case
 - [Immigrants in Finland; Finnish Police](https://aithreat.io/cases/company/immigrants-in-finland-finnish-police/): 1 case
 - [Indian Facebook users; Finance Minister Nirmala Sitharaman](https://aithreat.io/cases/company/indian-facebook-users-finance-minister-nirmala-sitharaman/): 1 case
@@ -350,6 +353,7 @@ Positioning: a reference registry of AI security incidents (attacks on AI system
 - [Retail investors in the UK and Europe](https://aithreat.io/cases/company/retail-investors-in-the-uk-and-europe/): 1 case
 - [Retired couple in Pesaro; Prime Minister Meloni's likeness](https://aithreat.io/cases/company/retired-couple-in-pesaro-prime-minister-meloni-s-likeness/): 1 case
 - [Retired engineer in Surrey](https://aithreat.io/cases/company/retired-engineer-in-surrey/): 1 case
+- [Retired individual in Mendoza, Argentina](https://aithreat.io/cases/company/retired-individual-in-mendoza-argentina/): 1 case
 - [RubyGems / RubyDoc.info](https://aithreat.io/cases/company/rubygems-rubydoc-info/): 1 case
 - [SaaStr production database on Replit](https://aithreat.io/cases/company/saastr-production-database-on-replit/): 1 case
 - [Salesforce Agentforce](https://aithreat.io/cases/company/salesforce-agentforce/): 1 case
@@ -482,10 +486,14 @@ Positioning: a reference registry of AI security incidents (attacks on AI system
 
 ## Verified case files
 - [WorkOS internal sales app breached using AI-assisted offensive framework](https://aithreat.io/cases/workos-ai-framework-breach/): 2026-10-30, medium, AI-assisted malware, United States. WorkOS reported unauthorized access to an internal sales application on 30 October 2026. Its investigation reportedly found the attackers used an AI-assisted offensive security framework to automate reconnaissance and exploitation. Customer data was reportedly accessed.
+- [Hugging Face model malware campaign returns to hijack GPUs for crypto mining](https://aithreat.io/cases/hugging-face-gpu-mining-returns/): 2026-10-29, high, AI supply chain, Worldwide. Pluto Security found 31 malicious Hugging Face model repositories across seven accounts, published in two waves since September, that abuse the trust_remote_code option to install crypto miners and backdoors on GPU servers. The campaign returned within days of the first takedown, and a near-identical copy uploaded on 25 October was still live when BleepingComputer checked. The most popular model was downloaded over 28,000 times. BleepingComputer also reports, as a separate campaign, a fake Solana starter kit on GitHub aimed at tricking AI coding agents.
 - [Warp discloses vendor breach exposing AI agent logs and user telemetry](https://aithreat.io/cases/warp-agent-logs-vendor-breach/): 2026-10-27, medium, Model & data leak, Worldwide. Warp disclosed that an attack on a third-party vendor in its infrastructure exposed agent decision logs and telemetry data belonging to users of its agentic development environment.
 - [Wrongful death suit alleges ChatGPT medical advice killed woman with epilepsy](https://aithreat.io/cases/openai-chatgpt-epilepsy-death-suit/): 2026-10-27, critical, Chatbot harm, United States. Social Media Victims Law Center and The Schenk Law Firm allege in a wrongful death lawsuit that ChatGPT's medical advice resulted in the death of a woman with epilepsy. Claims are unproven.
+- [Cloudflare Workers AI GLM-5.3 model leaks other users' content in 155 responses](https://aithreat.io/cases/cloudflare-workers-ai-glm-leak/): 2026-10-26, medium, Model & data leak, Worldwide. Cloudflare disclosed on 26 October that its GLM-5.3 model on Workers AI returned data from other customers' sessions in 155 responses to very long prompts between 27 August and 9 September, caused by a KV-cache configuration mismatch interacting with an SGLang inference-engine bug. Security researcher Gadi Evron of Knostic reported it via HackerOne on 8 September. Cloudflare pulled the model, fixed the configuration and updated the engine on 9 September.
+- [Mendoza retiree loses $24.5M pesos to crypto scam using AI-manipulated Messi and Scaloni video](https://aithreat.io/cases/mendoza-retiree-messi-ai-scam/): 2026-10-23, medium, Deepfake fraud, Argentina. A 70-year-old retiree from Las Heras, Mendoza, lost about 24.5 million pesos after a sponsored Facebook post imitating a La Nación article and a video of Lionel Messi manipulated with AI promoted a fake crypto investment platform called 'Stake Manerix 0.6'. The image of coach Lionel Scaloni was also used. Per local media, a judge ordered Ualá and Mercado Pago to suspend loan collections and return $8.2M pesos while the case proceeds.
 - [Russian group Storm-1516 spreads AI deepfake video accusing Texas candidate Talarico](https://aithreat.io/cases/storm-1516-talarico-deepfake-video/): 2026-10-21, medium, State actor AI ops, United States. A Russian disinformation group, identified by PolitiFact as Storm-1516, reportedly targeted Texas Democratic Senate candidate James Talarico with an AI-generated video showing a purported former student accusing him of misconduct. PolitiFact rated the claim baseless.
 - [Storm-0940 uses ARTEX agentic AI in ConnectWise supply chain compromise](https://aithreat.io/cases/storm-0940-artex-connectwise/): 2026-10-21, high, State actor AI ops, Worldwide. Microsoft reports a large-scale nation-state campaign in which Storm-0940 used ARTEX agentic AI to accelerate a ConnectWise supply chain compromise and abuse application credentials in Microsoft 365.
+- [Spanish opposition PP ad uses deepfakes of PM's wife and other political figures](https://aithreat.io/cases/pp-deepfake-ad-begona-gomez-spain/): 2026-10-21, medium, Deepfake abuse, Spain. Spain's main opposition party, the Partido Popular, published an AI-made deepfake campaign video showing likenesses of PM Pedro Sánchez's wife Begoña Gómez and other Socialist-linked figures such as Zapatero and Ábalos appearing to admit wrongdoing, ahead of the 29 November general election. It drew outrage and a debate on AI in campaigns, and Gómez filed a legal complaint for identity theft against the PP, announced by Sánchez on 28 October.
 - [Malicious LiteLLM 1.107.0 on PyPI and Docker steals browser, cloud and AI secrets](https://aithreat.io/cases/litellm-1-107-0-trojanized-release/): 2026-10-21, high, AI supply chain, Worldwide. Wiz reports a malicious LiteLLM 1.107.0 uploaded to PyPI and Docker on October 21, with a stealer for browser, cloud and AI secrets and a dormant C2.
 - [Kyrgyz woman, 23, alleges AI-undressed photo of her was sent to acquaintances](https://aithreat.io/cases/kyrgyz-woman-sexual-deepfake-kaktus/): 2026-10-21, medium, Deepfake abuse, KG. A 23-year-old woman told Kaktus.media she was the victim of a sexualised deepfake made with AI and allegedly sent to acquaintances. She says she fears the police case is stalling and the culprit may escape punishment; nothing has been proven.
 - [Goiás man arrested for AI-faked armed photo used to threaten ex-partner](https://aithreat.io/cases/goias-ai-armed-photo-threat-ex/): 2026-10-19, medium, Deepfake abuse, Brazil. A man in Goiás, Brazil, used AI to forge an image of a pistol in a vehicle and sent it by WhatsApp to threaten his ex-partner. He was arrested in flagrante after the victim identified a tattoo in the image.

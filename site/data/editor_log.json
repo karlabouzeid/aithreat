@@ -94,5 +94,37 @@
     "reason": "Metropoles (2026-10-19) reports a man arrested in flagrante for an AI-forged gun image sent over WhatsApp to threaten his ex-partner, who recognised his tattoo; the draft date of 10-21 is corrected to the publication date.",
     "duplicate_of": null,
     "at": "2026-11-04T18:05:40Z"
+  },
+  {
+    "id": "mendoza-retiree-messi-ai-scam",
+    "title": "Mendoza retiree defrauded with AI-generated Messi image",
+    "decision": "approve",
+    "reason": "Multiple Argentine outlets (La Gaceta, Diario Uno, iProUP) report a 70-year-old Las Heras retiree losing $24.5M pesos to a fake crypto platform promoted with AI-manipulated Messi/Scaloni video, and a judge ordered partial restitution; the draft wrongly calls it an AI 'image' and omits Scaloni and th",
+    "duplicate_of": null,
+    "at": "2026-11-04T18:35:37Z"
+  },
+  {
+    "id": "pp-deepfake-ad-begona-gomez-spain",
+    "title": "Spanish opposition PP ad uses deepfakes of PM's wife and other political figures",
+    "decision": "approve",
+    "reason": "The Guardian and Spanish outlets confirm the PP released an AI deepfake ad of Begoña Gómez, Zapatero and other Socialist-linked figures, and Gómez filed an identity-theft complaint on 28 October.",
+    "duplicate_of": null,
+    "at": "2026-11-04T18:35:37Z"
+  },
+  {
+    "id": "cloudflare-workers-ai-glm-leak",
+    "title": "Cloudflare Workers AI GLM-5.3 model leaks other users' content in 155 responses",
+    "decision": "approve",
+    "reason": "Cloudflare's own post-incident blog and independent coverage confirm GLM-5.3 on Workers AI returned other customers' data in 155 responses between 27 Aug and 9 Sep, reported by Knostic's Gadi Evron; Cloudflare disclosed it on 26 October, not 27 October.",
+    "duplicate_of": null,
+    "at": "2026-11-04T18:35:37Z"
+  },
+  {
+    "id": "hugging-face-gpu-mining-returns",
+    "title": "Hugging Face model malware campaign returns to hijack GPUs for crypto mining",
+    "decision": "approve",
+    "reason": "BleepingComputer confirmed the payload and reports Pluto Security's findings of a trust_remote_code crypto-mining/backdoor campaign on Hugging Face that returned after takedown, with one model downloaded over 28,000 times; the Solana kit is a separate campaign.",
+    "duplicate_of": null,
+    "at": "2026-11-04T18:35:37Z"
   }
 ]

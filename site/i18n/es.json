@@ -7745,5 +7745,69 @@
     "timeline": [
       "Reportado por AI Incident Database"
     ]
+  },
+  {
+    "title": "Un anuncio del PP, principal partido de la oposición española, usa deepfakes de la esposa del presidente del Gobierno y de otras figuras políticas",
+    "summary": "El principal partido de la oposición en España, el Partido Popular, publicó un vídeo de campaña con deepfakes creados con IA que mostraban la imagen de Begoña Gómez, esposa del presidente del Gobierno, Pedro Sánchez, y de otras figuras vinculadas al PSOE, como Zapatero y Ábalos, que aparentaban admitir irregularidades, de cara a las elecciones generales del 29 de noviembre. El vídeo provocó indignación y un debate sobre el uso de la IA en las campañas, y Gómez presentó una denuncia judicial por usurpación de identidad contra el PP, que Sánchez anunció el 28 de octubre.",
+    "target": "Begoña Gómez y otras figuras políticas españolas",
+    "actor": "Partido Popular (principal partido de la oposición en España), según informaciones de los medios",
+    "attribution": "Los medios atribuyen el anuncio a la campaña del Partido Popular; el texto no recoge la versión del propio partido.",
+    "motive": "Propaganda política de cara a las elecciones generales (según lo publicado).",
+    "vector": "Vídeo generado con IA que suplanta a personas reales, publicado como anuncio político en redes sociales.",
+    "root_cause": "Un partido político utilizó IA generativa para suplantar a personas reales en material de campaña, aparentemente sin su consentimiento.",
+    "impact": "Indignación pública y un debate más amplio sobre la IA en la política de cara a las elecciones. Leire Díez, representada en un vídeo de IA relacionado, afirma que este la acusa falsamente de contratar a “matones”.",
+    "response": "Begoña Gómez presentó una denuncia judicial por usurpación de identidad contra el PP; el Partido Socialista dijo que estaba estudiando emprender acciones legales; el ministro para la Transformación Digital, Óscar López, criticó el vídeo.",
+    "id": "pp-deepfake-ad-begona-gomez-spain",
+    "timeline": [
+      "Reportado por AI Incident Database"
+    ]
+  },
+  {
+    "title": "Una jubilada de Mendoza pierde 24,5 millones de pesos en una estafa cripto con un vídeo de Messi y Scaloni manipulado con IA",
+    "summary": "Una jubilada de 70 años de Las Heras, Mendoza, perdió unos 24,5 millones de pesos después de que una publicación patrocinada en Facebook que imitaba un artículo de La Nación y un vídeo de Lionel Messi manipulado con IA promocionaran una falsa plataforma de inversión en criptomonedas llamada “Stake Manerix 0.6”. También se utilizó la imagen del entrenador Lionel Scaloni. Según medios locales, un juez ordenó a Ualá y Mercado Pago suspender el cobro de los préstamos y devolver 8,2 millones de pesos mientras avanza la causa.",
+    "target": "Persona jubilada en Mendoza, Argentina",
+    "actor": "Desconocido",
+    "attribution": "Estafadores desconocidos; las informaciones no nombran a ningún responsable.",
+    "motive": "Lucro económico",
+    "vector": "Imagen de Lionel Messi generada con IA (y, según se informa, del entrenador Scaloni) utilizada para promocionar una falsa oferta de inversión o de negocio lucrativa.",
+    "root_cause": "La víctima confió en un convincente respaldo de una celebridad generado con IA a una oferta fraudulenta.",
+    "impact": "Según se informa, la jubilada perdió unos 24 millones de pesos argentinos (informe de La Gaceta).",
+    "response": "Desconocida",
+    "id": "mendoza-retiree-messi-ai-scam",
+    "timeline": [
+      "Reportado por Diario Mendoza Today"
+    ]
+  },
+  {
+    "title": "El modelo GLM-5.3 de Cloudflare Workers AI filtra contenido de otros usuarios en 155 respuestas",
+    "summary": "Cloudflare reveló el 26 de octubre que su modelo GLM-5.3 en Workers AI devolvió datos de sesiones de otros clientes en 155 respuestas a prompts muy largos entre el 27 de agosto y el 9 de septiembre, a causa de una discrepancia de configuración de la caché KV que interactuaba con un error del motor de inferencia SGLang. El investigador de seguridad Gadi Evron, de Knostic, lo notificó a través de HackerOne el 8 de septiembre. Cloudflare retiró el modelo, corrigió la configuración y actualizó el motor el 9 de septiembre.",
+    "target": "Usuarios de Cloudflare Workers AI GLM-5.3",
+    "actor": "Ninguno (error de la plataforma descubierto por el investigador Gadi Evron, de Knostic)",
+    "attribution": "No se informa de ningún atacante; el titular describe un fallo de la plataforma que Cloudflare corrigió.",
+    "motive": "Desconocido",
+    "vector": "Filtración entre solicitudes en la capa de servicio del modelo, de modo que las respuestas contenían contenido de otros usuarios.",
+    "root_cause": "Desconocida; el titular describe una fuga de datos entre solicitudes en el despliegue de GLM-5.3 en Workers AI.",
+    "impact": "155 respuestas expusieron contenido de otros usuarios. No se indica el número de usuarios afectados ni el tipo de datos.",
+    "response": "Cloudflare corrigió la fuga de datos entre solicitudes en el modelo GLM-5.3 de Workers AI.",
+    "id": "cloudflare-workers-ai-glm-leak",
+    "timeline": [
+      "Reportado por news.lavx.hu"
+    ]
+  },
+  {
+    "title": "Regresa la campaña de malware en modelos de Hugging Face para secuestrar GPU y minar criptomonedas",
+    "summary": "Pluto Security halló 31 repositorios de modelos maliciosos de Hugging Face repartidos en siete cuentas, publicados en dos oleadas desde septiembre, que abusan de la opción trust_remote_code para instalar mineros de criptomonedas y puertas traseras en servidores con GPU. La campaña regresó a los pocos días de la primera retirada, y una copia casi idéntica subida el 25 de octubre seguía activa cuando BleepingComputer la comprobó. El modelo más popular se descargó más de 28.000 veces. BleepingComputer informa además, como campaña independiente, de un falso kit de inicio de Solana en GitHub dirigido a engañar a agentes de programación con IA.",
+    "target": "Usuarios de modelos de Hugging Face y servidores con GPU",
+    "actor": "Desconocido",
+    "attribution": "Desconocida; el resumen no nombra a ningún actor.",
+    "motive": "Minería de criptomonedas con capacidad de cómputo de GPU secuestrada; un kit falso independiente tiene como objetivo instalar un NetSupport RAT.",
+    "vector": "Modelos maliciosos alojados en Hugging Face que comprometen servidores con GPU; un falso kit de inicio de Solana en GitHub dirigido a agentes de programación con IA.",
+    "root_cause": "Desconocida; el resumen apunta a que se alojan y descargan modelos maliciosos desde un repositorio público de modelos de IA.",
+    "impact": "Se secuestraron servidores con GPU y se implantaron puertas traseras; un modelo malicioso se descargó más de 28.000 veces. Se desconoce el número total de víctimas.",
+    "response": "La campaña regresó días después de una retirada anterior, por lo que esta no la detuvo. No se indica ninguna otra respuesta.",
+    "id": "hugging-face-gpu-mining-returns",
+    "timeline": [
+      "Reportado por BleepingComputer"
+    ]
   }
 ]

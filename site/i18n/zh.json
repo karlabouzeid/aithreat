@@ -7745,5 +7745,69 @@
     "timeline": [
       "由 AI Incident Database 报道"
     ]
+  },
+  {
+    "title": "西班牙反对党 PP 的广告使用首相夫人及其他政界人物的深度伪造影像",
+    "summary": "西班牙主要反对党人民党（Partido Popular）发布了一段由 AI 制作的深度伪造竞选视频，视频中首相 Pedro Sánchez 的妻子 Begoña Gómez 以及 Zapatero、Ábalos 等与社会党相关的人物的形象似乎在承认不当行为，发布时间在 11 月 29 日大选之前。该视频引发愤怒，也引发了关于竞选中使用 AI 的讨论。Gómez 已就身份盗用向法院对 PP 提出法律投诉，Sánchez 于 10 月 28 日宣布了此事。",
+    "target": "Begoña Gómez 及其他西班牙政界人物",
+    "actor": "据媒体报道为人民党（Partido Popular，西班牙主要反对党）",
+    "attribution": "媒体报道称该广告出自人民党的竞选团队；文中未给出该党自己的说法。",
+    "motive": "大选前的政治竞选宣传（据报道）。",
+    "vector": "由 AI 生成、冒充真实人物的视频，作为政治广告发布在社交媒体上。",
+    "root_cause": "一个政党在竞选材料中使用生成式 AI 冒充真实个人，且似乎未经其同意。",
+    "impact": "引发公众愤怒，并在大选前引发了关于 AI 在政治中应用的更广泛讨论。在一段相关 AI 视频中被刻画的 Leire Díez 称，该视频虚假指控她雇佣“打手”。",
+    "response": "Begoña Gómez 已就身份盗用向法院对 PP 提出法律投诉；社会党表示正在考虑采取法律行动；数字化转型部长 Óscar López 批评了该视频。",
+    "id": "pp-deepfake-ad-begona-gomez-spain",
+    "timeline": [
+      "由 AI Incident Database 报告"
+    ]
+  },
+  {
+    "title": "门多萨一名退休老人因 AI 篡改的 Messi 和 Scaloni 视频而在加密货币骗局中损失 2450 万比索",
+    "summary": "门多萨 Las Heras 一名 70 岁的退休老人损失约 2450 万比索。一则模仿 La Nación 文章的 Facebook 赞助帖文，以及一段经 AI 篡改的 Lionel Messi 视频，推广了一个名为“Stake Manerix 0.6”的虚假加密货币投资平台。教练 Lionel Scaloni 的形象也被使用。据当地媒体报道，法官已下令 Ualá 和 Mercado Pago 暂停收取贷款，并在案件审理期间退还 820 万比索。",
+    "target": "阿根廷门多萨的一名退休人员",
+    "actor": "未知",
+    "attribution": "骗子身份未知；报道未点名任何作案者。",
+    "motive": "经济利益",
+    "vector": "使用 AI 生成的 Lionel Messi 形象（据报道还有教练 Scaloni）来推广虚假的高回报投资或商业项目。",
+    "root_cause": "受害者相信了一段以假乱真的 AI 生成的名人代言，该代言推广的是欺诈性项目。",
+    "impact": "据报道，这名退休老人损失约 2400 万阿根廷比索（La Gaceta 的报道）。",
+    "response": "未知",
+    "id": "mendoza-retiree-messi-ai-scam",
+    "timeline": [
+      "由 Diario Mendoza Today 报道"
+    ]
+  },
+  {
+    "title": "Cloudflare Workers AI 上的 GLM-5.3 模型在 155 次响应中泄露其他用户的内容",
+    "summary": "Cloudflare 于 10 月 26 日披露，其 Workers AI 上的 GLM-5.3 模型在 8 月 27 日至 9 月 9 日期间，针对超长提示词的 155 次响应中返回了其他客户会话的数据，原因是 KV 缓存配置不匹配与 SGLang 推理引擎的一个缺陷相互作用。Knostic 的安全研究员 Gadi Evron 于 9 月 8 日通过 HackerOne 报告了此问题。Cloudflare 于 9 月 9 日下线该模型、修复了配置并更新了引擎。",
+    "target": "Cloudflare Workers AI GLM-5.3 的用户",
+    "actor": "无（平台缺陷，由 Knostic 的研究员 Gadi Evron 发现）",
+    "attribution": "未报告攻击者；标题描述的是 Cloudflare 已修复的平台缺陷。",
+    "motive": "未知",
+    "vector": "模型服务层中的跨请求泄露，导致响应中包含其他用户的内容。",
+    "root_cause": "未知；标题描述的是 GLM-5.3 Workers AI 部署中的跨请求数据泄露。",
+    "impact": "155 次响应暴露了其他用户的内容。受影响的用户数量和数据类型未说明。",
+    "response": "Cloudflare 修复了 GLM-5.3 Workers AI 模型中的跨请求数据泄露问题。",
+    "id": "cloudflare-workers-ai-glm-leak",
+    "timeline": [
+      "由 news.lavx.hu 报道"
+    ]
+  },
+  {
+    "title": "Hugging Face 模型恶意软件攻击活动卷土重来，劫持 GPU 进行加密货币挖矿",
+    "summary": "Pluto Security 发现，七个账户下共有 31 个恶意 Hugging Face 模型仓库，自 9 月以来分两波发布，它们滥用 trust_remote_code 选项，在 GPU 服务器上安装加密货币挖矿程序和后门。该攻击活动在首次被下架后几天内卷土重来，10 月 25 日上传的一份近乎相同的副本在 BleepingComputer 核查时仍然在线。其中最受欢迎的模型被下载超过 28,000 次。BleepingComputer 还报道了另一起独立的攻击活动：GitHub 上一个虚假的 Solana 入门套件，意图欺骗 AI 编码代理。",
+    "target": "Hugging Face 模型用户和 GPU 服务器",
+    "actor": "未知",
+    "attribution": "未知；摘要中未点名任何攻击者。",
+    "motive": "利用被劫持的 GPU 算力进行加密货币挖矿；另一个虚假套件意在安装 NetSupport RAT。",
+    "vector": "托管在 Hugging Face 上、可入侵 GPU 服务器的恶意模型；GitHub 上针对 AI 编码代理的虚假 Solana 入门套件。",
+    "root_cause": "未知；摘要指向的是恶意模型被托管在公共 AI 模型中心并被下载。",
+    "impact": "GPU 服务器被劫持并被植入后门；一个恶意模型被下载超过 28,000 次。受害者总数未知。",
+    "response": "该攻击活动在此前的下架数日后卷土重来，说明下架并未阻止它。未说明其他响应措施。",
+    "id": "hugging-face-gpu-mining-returns",
+    "timeline": [
+      "由 BleepingComputer 报道"
+    ]
   }
 ]

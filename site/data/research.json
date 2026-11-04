@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T18:14:53Z",
+  "generated_at": "2026-11-04T18:46:43Z",
   "licence": "CC BY 4.0",
   "sources": [
     {
@@ -751,12 +751,13 @@
       "claim": "AI systems are complex and unreliable, so accidents are normal; the goal must be to stop accidents from cascading into disasters.",
       "status": "observed",
       "note": "Coding agents have wiped databases and drives, assistants have published private chats, and staff acting on an AI agent's advice exposed sensitive data.",
-      "n": 15,
-      "real_world": 15,
+      "n": 16,
+      "real_world": 16,
       "first_real_world": "2023-09-18",
       "months_after_publication": 3,
       "url": "https://aithreat.io/research/accidents-normal/",
       "cases": [
+        "cloudflare-workers-ai-glm-leak",
         "pixelleak-agent-screenshots",
         "meta-agent-data-exposure",
         "copilot-confidential-emails-bug",
@@ -994,12 +995,13 @@
       "claim": "Realistic AI-generated voices, images and video are used for fraud, extortion and sexual imagery made without consent, and cheap tools have made such content easy to produce at scale.",
       "status": "observed",
       "note": "The largest category in the registry: cloned voices and deepfake video calls impersonating executives, officials and relatives, and deepfake celebrity ads behind investment scams. The report adds that victims often do not report, so public cases undercount the harm.",
-      "n": 82,
-      "real_world": 82,
+      "n": 83,
+      "real_world": 83,
       "first_real_world": "2025-01-05",
       "months_after_publication": -13,
       "url": "https://aithreat.io/research/iasr-synthetic-content/",
       "cases": [
+        "mendoza-retiree-messi-ai-scam",
         "ai-music-streaming-royalty-fraud",
         "puente-alto-school-sexual-deepfakes",
         "fideuram-ai-voice-clone-ceo-fraud",
@@ -1358,12 +1360,13 @@
       "claim": "Attackers can manipulate AI systems through prompt injection, poisoned data and compromised components, to change how they behave or to pull out sensitive information.",
       "status": "observed",
       "note": "Hidden instructions that make assistants leak mail and files, hijacked coding agents, malicious packages and plugins aimed at AI developers, and actively exploited flaws in AI tools. Many prompt injection cases are demonstrations by researchers; most supply-chain attacks happened in the real world.",
-      "n": 86,
-      "real_world": 51,
+      "n": 87,
+      "real_world": 52,
       "first_real_world": "2022-12-30",
       "months_after_publication": -38,
       "url": "https://aithreat.io/research/iasr-ai-as-target/",
       "cases": [
+        "hugging-face-gpu-mining-returns",
         "litellm-1-107-0-trojanized-release",
         "jqwik-agent-delete-output-instruction",
         "legal-filing-hidden-prompt-injection",
@@ -2140,13 +2143,15 @@
       "claim": "AI that leaks or infers sensitive personal data, and weaknesses in AI systems and their toolchains that attackers exploit.",
       "status": "observed",
       "note": "One of the two pillars of the registry: leaked chats and keys, exposed databases, prompt injection, hijacked agents, poisoned packages and stolen AI accounts.",
-      "n": 143,
-      "real_world": 95,
+      "n": 145,
+      "real_world": 97,
       "first_real_world": "2022-12-30",
       "months_after_publication": null,
       "url": "https://aithreat.io/research/mit-privacy-security/",
       "cases": [
+        "hugging-face-gpu-mining-returns",
         "warp-agent-logs-vendor-breach",
+        "cloudflare-workers-ai-glm-leak",
         "litellm-1-107-0-trojanized-release",
         "aoki-infostealer-ai-assistant-creds",
         "jinx-2401-llm-hijacking-aws",
@@ -2352,13 +2357,14 @@
       "claim": "People using AI for disinformation, surveillance and propaganda at scale; for cyberattacks and weapons; and for fraud, scams and targeted manipulation.",
       "status": "observed",
       "note": "The other pillar of the registry: deepfake fraud, AI-built malware, AI phishing and state operations.",
-      "n": 186,
-      "real_world": 185,
+      "n": 187,
+      "real_world": 186,
       "first_real_world": "2025-01-05",
       "months_after_publication": null,
       "url": "https://aithreat.io/research/mit-malicious-actors/",
       "cases": [
         "workos-ai-framework-breach",
+        "mendoza-retiree-messi-ai-scam",
         "storm-0940-artex-connectwise",
         "storm-1516-talarico-deepfake-video",
         "papercut-ai-agents-credential-theft",
@@ -2731,7 +2737,7 @@
     {
       "source": "cais-2023",
       "claims": 17,
-      "matched_cases": 179,
+      "matched_cases": 180,
       "matched_pct": 40,
       "status_counts": {
         "observed": 7,
@@ -2744,7 +2750,7 @@
     {
       "source": "iasr-2026",
       "claims": 11,
-      "matched_cases": 316,
+      "matched_cases": 318,
       "matched_pct": 71,
       "status_counts": {
         "observed": 5,
@@ -2809,7 +2815,7 @@
     {
       "source": "mit-risk-repository",
       "claims": 7,
-      "matched_cases": 385,
+      "matched_cases": 388,
       "matched_pct": 87,
       "status_counts": {
         "observed": 4,
@@ -2827,20 +2833,20 @@
     "none": 4,
     "outside": 7
   },
-  "matched_cases": 385,
-  "total_cases": 442,
-  "warning_matched_cases": 344,
+  "matched_cases": 388,
+  "total_cases": 446,
+  "warning_matched_cases": 347,
   "unmatched_pct": 22,
   "unmatched_by_category": [
     {
       "category": "Deepfake abuse",
-      "unmatched": 46,
-      "total": 46
+      "unmatched": 47,
+      "total": 47
     },
     {
       "category": "Model & data leak",
       "unmatched": 22,
-      "total": 42
+      "total": 43
     },
     {
       "category": "LLMjacking",
@@ -2870,7 +2876,7 @@
     {
       "category": "Deepfake fraud",
       "unmatched": 0,
-      "total": 85
+      "total": 86
     },
     {
       "category": "AI-assisted malware",
@@ -2878,14 +2884,14 @@
       "total": 48
     },
     {
-      "category": "Chatbot harm",
+      "category": "AI supply chain",
       "unmatched": 0,
       "total": 47
     },
     {
-      "category": "AI supply chain",
+      "category": "Chatbot harm",
       "unmatched": 0,
-      "total": 46
+      "total": 47
     },
     {
       "category": "Agent hijack",

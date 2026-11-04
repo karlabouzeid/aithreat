@@ -4449,54 +4449,6 @@
     "updated_at": "2026-10-23T09:05:39Z"
   },
   {
-    "id": "mendoza-retiree-messi-ai-scam",
-    "date": "2026-10-23",
-    "title": "Mendoza retiree defrauded with AI-generated Messi image",
-    "category": "Deepfake fraud",
-    "direction": "with-ai",
-    "severity": "medium",
-    "country": "AR",
-    "region": "Latin America",
-    "target": "Retired individual in Mendoza, Argentina",
-    "loss_usd": null,
-    "summary": "Local media report a retiree in Mendoza was deceived by an AI-generated image of Messi, apparently presented as a business offer, and lost about 24 million pesos.",
-    "actor": "Unknown",
-    "actor_type": "criminal",
-    "sector": "Individuals & consumers",
-    "attribution": "Unknown scammers; the reports do not name a perpetrator.",
-    "motive": "Financial gain",
-    "vector": "AI-generated image of Lionel Messi (and reportedly coach Scaloni) used to promote a fake lucrative investment or business offer.",
-    "root_cause": "Victim trusted a convincing AI-generated celebrity endorsement of a fraudulent offer.",
-    "impact": "The retiree reportedly lost about 24 million Argentine pesos (La Gaceta report).",
-    "response": "Unknown",
-    "status": "under investigation",
-    "cve": null,
-    "young_people": false,
-    "setting": null,
-    "age_group": null,
-    "confidence": 0.7,
-    "source": "Diario Mendoza Today",
-    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxONzFvM3V4bExWNmdwTHZ3LUt2MzAxTnZWMjRzcDFLLWh6bl9WLU14anJmeGtWMHlZZ1ZkalBUeXl4TUh2dkhDZGY4eEprRlBueno4enNWZXVjYjVpdERBaEgxOGpZcEdaWXQwVmVnOGtjVUxyc19vT3BnajNqVDZDMFl6bllWVUI1eUJVOW9GZGlRNDEtRjVraWFMaFMxRmZYU0h3dXB6ZlpYazI4WWlCdDZmdGJYeW5XOEc0MWNEenRmTllY0gHEAUFVX3lxTE43MW8zdXhsTFY2Z3BMdnctS3YzMDFOdlYyNHNwMUstaHpuX1YtTXhqcmZ4a1YweVlnVmRqUFR5eXhNSHZ2SENkZjh4SmtGUG56ejh6c1ZldWNiNWl0REFoSDE4allwR1pZdDBWZWc4a2NVTHJzX29PcGdqM2pUNkMwWXpuWVZVQjV5QlU5b0ZkaVE0MS1GNWtpYUxoUzFGZlhTSHd1cHpmWlhrMjhZaUJ0NmZ0Ylh5blc4RzQxY0R6dGZOWVg?oc=5",
-    "sources": [
-      {
-        "name": "Diario Mendoza Today",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxONzFvM3V4bExWNmdwTHZ3LUt2MzAxTnZWMjRzcDFLLWh6bl9WLU14anJmeGtWMHlZZ1ZkalBUeXl4TUh2dkhDZGY4eEprRlBueno4enNWZXVjYjVpdERBaEgxOGpZcEdaWXQwVmVnOGtjVUxyc19vT3BnajNqVDZDMFl6bllWVUI1eUJVOW9GZGlRNDEtRjVraWFMaFMxRmZYU0h3dXB6ZlpYazI4WWlCdDZmdGJYeW5XOEc0MWNEenRmTllY0gHEAUFVX3lxTE43MW8zdXhsTFY2Z3BMdnctS3YzMDFOdlYyNHNwMUstaHpuX1YtTXhqcmZ4a1YweVlnVmRqUFR5eXhNSHZ2SENkZjh4SmtGUG56ejh6c1ZldWNiNWl0REFoSDE4allwR1pZdDBWZWc4a2NVTHJzX29PcGdqM2pUNkMwWXpuWVZVQjV5QlU5b0ZkaVE0MS1GNWtpYUxoUzFGZlhTSHd1cHpmWlhrMjhZaUJ0NmZ0Ylh5blc4RzQxY0R6dGZOWVg?oc=5"
-      }
-    ],
-    "timeline": [
-      {
-        "date": "2026-10-23",
-        "event": "Reported by Diario Mendoza Today"
-      }
-    ],
-    "verified": false,
-    "drafted_at": "2026-10-23T15:35:49Z",
-    "wire_id": "e464d36509ef",
-    "first_seen": "2026-10-23T15:35:49Z",
-    "first_published": "2026-10-23T13:54:47Z",
-    "updated_at": "2026-10-23T15:35:49Z"
-  },
-  {
     "id": "novosibirsk-ai-fake-video-scam",
     "date": "2026-10-23",
     "title": "Novosibirsk scammers use AI fake video to extract about 35,000 from victim",
@@ -5263,54 +5215,6 @@
     "first_seen": "2026-10-24T23:35:38Z",
     "first_published": "2026-10-24T22:24:33Z",
     "updated_at": "2026-10-24T23:35:38Z"
-  },
-  {
-    "id": "pp-deepfake-ad-begona-gomez-spain",
-    "date": "2026-10-21",
-    "title": "Spanish opposition PP ad uses deepfakes of PM's wife and other political figures",
-    "category": "Deepfake abuse",
-    "direction": "with-ai",
-    "severity": "medium",
-    "country": "ES",
-    "region": "Europe",
-    "target": "Begoña Gómez and other Spanish political figures",
-    "loss_usd": null,
-    "summary": "Spain's main opposition party published an AI-made deepfake video of the prime minister's wife, with other figures also depicted, weeks before general elections. It caused outrage and a debate on AI.",
-    "actor": "Partido Popular (Spain's main opposition party), per media reports",
-    "actor_type": "unknown",
-    "sector": "Politics & elections",
-    "attribution": "Media reports attribute the ad to the Partido Popular's campaign; the party's own account is not given in the text.",
-    "motive": "Political campaigning ahead of the general election (as reported).",
-    "vector": "AI-generated video impersonating real people, published as a political ad on social media.",
-    "root_cause": "A political party used generative AI to impersonate real individuals in campaign material, apparently without their consent.",
-    "impact": "Public outrage and a wider debate on AI in politics ahead of the election. Leire Díez, depicted in a related AI video, says it falsely accuses her of hiring 'thugs'.",
-    "response": "Leire Díez filed a criminal complaint (querella) against the PP over the AI video. Further responses are not stated.",
-    "status": "ongoing",
-    "cve": null,
-    "young_people": false,
-    "setting": "online",
-    "age_group": null,
-    "confidence": 0.7,
-    "source": "AI Incident Database",
-    "url": "https://www.theguardian.com/world/2026/oct/23/opposition-deepfake-video-spain-election",
-    "sources": [
-      {
-        "name": "AI Incident Database",
-        "url": "https://www.theguardian.com/world/2026/oct/23/opposition-deepfake-video-spain-election"
-      }
-    ],
-    "timeline": [
-      {
-        "date": "2026-10-21",
-        "event": "Reported by AI Incident Database"
-      }
-    ],
-    "verified": false,
-    "drafted_at": "2026-10-25T04:35:41Z",
-    "wire_id": "810c1d05b838",
-    "first_seen": "2026-10-25T04:35:41Z",
-    "first_published": "2026-10-24T00:00:00Z",
-    "updated_at": "2026-10-25T04:35:41Z"
   },
   {
     "id": "ai-generated-boy-china-sales-scam",
@@ -6175,54 +6079,6 @@
     "first_seen": "2026-10-26T23:35:34Z",
     "first_published": "2026-10-26T12:51:43Z",
     "updated_at": "2026-10-26T23:35:34Z"
-  },
-  {
-    "id": "cloudflare-workers-ai-glm-leak",
-    "date": "2026-10-27",
-    "title": "Cloudflare Workers AI GLM-5.3 model leaks other users' content in 155 responses",
-    "category": "Model & data leak",
-    "direction": "on-ai",
-    "severity": "medium",
-    "country": "GL",
-    "region": "Global",
-    "target": "Cloudflare Workers AI GLM-5.3 users",
-    "loss_usd": null,
-    "summary": "A cross-request data leak in the GLM-5.3 model on Cloudflare Workers AI returned other users' content in 155 responses. Cloudflare has fixed the flaw.",
-    "actor": "Unknown",
-    "actor_type": "accident",
-    "sector": "Technology & AI vendors",
-    "attribution": "No attacker reported; the headline describes a platform flaw that Cloudflare fixed.",
-    "motive": "Unknown",
-    "vector": "Cross-request leakage in the model-serving layer, so responses contained other users' content.",
-    "root_cause": "Unknown; the headline describes a cross-request data leak in the GLM-5.3 Workers AI deployment.",
-    "impact": "155 responses exposed other users' content. The number of users affected and the type of data are not stated.",
-    "response": "Cloudflare fixed the cross-request data leak in the GLM-5.3 Workers AI model.",
-    "status": "patched",
-    "cve": null,
-    "young_people": false,
-    "setting": null,
-    "age_group": null,
-    "confidence": 0.7,
-    "source": "news.lavx.hu",
-    "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQQUJSY09QOTJfdjByaVlrVllyUXI0R0lrSkY5VWR6eVU1U0xZZGc5MWFDcG1LSkpTVkE2QU5OWmt3Z05jWWNaNDl0VUt0ZjVPNGdxRFlKZi1ueno5c00tSGVtaEtLYXRhUWgyVXlkZVdWeGpqb3dNNzUyMXBpODl5bzU1cUxwX3dmU0ZEUTcwU2tjZFNISnZFcUxSemkyeGR2WkRtTkpBM3VEdUVXWGVGNFFKWnF1RnJnemY3QVUwRjBfRjBFcnVMNFdXTHFTNHF1M3BucjVDeGp6SDNhQnc?oc=5",
-    "sources": [
-      {
-        "name": "news.lavx.hu",
-        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQQUJSY09QOTJfdjByaVlrVllyUXI0R0lrSkY5VWR6eVU1U0xZZGc5MWFDcG1LSkpTVkE2QU5OWmt3Z05jWWNaNDl0VUt0ZjVPNGdxRFlKZi1ueno5c00tSGVtaEtLYXRhUWgyVXlkZVdWeGpqb3dNNzUyMXBpODl5bzU1cUxwX3dmU0ZEUTcwU2tjZFNISnZFcUxSemkyeGR2WkRtTkpBM3VEdUVXWGVGNFFKWnF1RnJnemY3QVUwRjBfRjBFcnVMNFdXTHFTNHF1M3BucjVDeGp6SDNhQnc?oc=5"
-      }
-    ],
-    "timeline": [
-      {
-        "date": "2026-10-27",
-        "event": "Reported by news.lavx.hu"
-      }
-    ],
-    "verified": false,
-    "drafted_at": "2026-10-27T07:05:40Z",
-    "wire_id": "14456baa37d8",
-    "first_seen": "2026-10-27T07:05:40Z",
-    "first_published": "2026-10-27T00:17:44Z",
-    "updated_at": "2026-10-27T07:05:40Z"
   },
   {
     "id": "spain-restaurants-ai-fake-food-complaint",
@@ -7519,54 +7375,6 @@
     "first_seen": "2026-10-29T20:35:39Z",
     "first_published": "2026-10-29T00:00:00Z",
     "updated_at": "2026-10-29T20:35:39Z"
-  },
-  {
-    "id": "hugging-face-gpu-mining-returns",
-    "date": "2026-10-29",
-    "title": "Hugging Face model malware campaign returns to hijack GPUs for crypto mining",
-    "category": "AI supply chain",
-    "direction": "on-ai",
-    "severity": "high",
-    "country": "GL",
-    "region": "Global",
-    "target": "Hugging Face model users and GPU servers",
-    "loss_usd": null,
-    "summary": "A crypto-mining campaign abusing Hugging Face models returned days after takedown, hijacking GPU servers and planting backdoors. One model was downloaded over 28,000 times. A fake Solana kit also targets AI coding agents.",
-    "actor": "Unknown",
-    "actor_type": "unknown",
-    "sector": "Technology & AI vendors",
-    "attribution": "Unknown; the summary names no actor.",
-    "motive": "Crypto mining using hijacked GPU compute; a separate fake kit aims to install a NetSupport RAT.",
-    "vector": "Malicious models hosted on Hugging Face that compromise GPU servers; a fake Solana starter kit on GitHub aimed at AI coding agents.",
-    "root_cause": "Unknown; the summary points to malicious models being hosted and downloaded from a public AI model hub.",
-    "impact": "GPU servers were hijacked and backdoors planted; one malicious model was downloaded more than 28,000 times. Total number of victims is Unknown.",
-    "response": "The campaign returned days after an earlier takedown, so the takedown did not stop it. No other response is stated.",
-    "status": "ongoing",
-    "cve": null,
-    "young_people": false,
-    "setting": null,
-    "age_group": null,
-    "confidence": 0.7,
-    "source": "BleepingComputer",
-    "url": "https://www.bleepingcomputer.com/news/security/hugging-face-malware-campaign-returns-to-hijack-gpus-for-crypto-mining",
-    "sources": [
-      {
-        "name": "BleepingComputer",
-        "url": "https://www.bleepingcomputer.com/news/security/hugging-face-malware-campaign-returns-to-hijack-gpus-for-crypto-mining"
-      }
-    ],
-    "timeline": [
-      {
-        "date": "2026-10-29",
-        "event": "Reported by BleepingComputer"
-      }
-    ],
-    "verified": false,
-    "drafted_at": "2026-10-29T22:35:42Z",
-    "wire_id": "15844ab6f7ae",
-    "first_seen": "2026-10-29T22:35:42Z",
-    "first_published": "2026-10-29T22:09:24Z",
-    "updated_at": "2026-10-29T22:35:42Z"
   },
   {
     "id": "binance-zero-day-ai-hackers",

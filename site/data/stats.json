@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-04T18:14:53Z",
-  "total": 240,
-  "all_time_total": 442,
+  "generated_at": "2026-11-04T18:46:43Z",
+  "total": 244,
+  "all_time_total": 446,
   "window_from": "2025-11-04",
   "window_to": "2026-11-04",
   "trend_from": "2025-01-01",
@@ -20,7 +20,7 @@
       "sao-paulo-fake-lawyer-voice-clone"
     ],
     "financial_services": 9,
-    "individuals": 68,
+    "individuals": 69,
     "fin_by_category": {
       "Deepfake fraud": 7,
       "AI-assisted malware": 1,
@@ -80,18 +80,18 @@
         "latest": "openclaw-skill-remcos-ghostloader"
       },
       {
+        "product": "Hugging Face",
+        "n": 7,
+        "critical_high": 6,
+        "with_cve": 1,
+        "latest": "hugging-face-gpu-mining-returns"
+      },
+      {
         "product": "Microsoft Copilot",
         "n": 7,
         "critical_high": 3,
         "with_cve": 2,
         "latest": "wiz-red-agent-snowflake-jira"
-      },
-      {
-        "product": "Hugging Face",
-        "n": 6,
-        "critical_high": 5,
-        "with_cve": 1,
-        "latest": "truffle-aws-keys-hugging-face"
       },
       {
         "product": "LiteLLM",
@@ -153,13 +153,13 @@
   },
   "this_quarter": {
     "q": "2026-Q4",
-    "n": 51,
+    "n": 55,
     "prev_q": "2026-Q3",
     "prev_n": 48
   },
   "direction": {
-    "on-ai": 82,
-    "with-ai": 128
+    "on-ai": 84,
+    "with-ai": 130
   },
   "on_ai_share_first_half": 31,
   "on_ai_share_last_half": 42,
@@ -264,23 +264,23 @@
     },
     {
       "q": "2026-Q4",
-      "n": 51,
-      "on-ai": 14,
-      "with-ai": 32,
+      "n": 55,
+      "on-ai": 16,
+      "with-ai": 34,
       "severity": {
         "critical": 3,
-        "high": 19,
-        "medium": 28,
+        "high": 20,
+        "medium": 31,
         "low": 1
       },
       "autonomous": 6,
-      "real_world": 50
+      "real_world": 54
     }
   ],
   "categories": [
     {
       "category": "Deepfake fraud",
-      "n": 42,
+      "n": 43,
       "by_quarter": [
         13,
         9,
@@ -289,9 +289,9 @@
         10,
         11,
         12,
-        2
+        3
       ],
-      "growth_last4_vs_prev4": -15
+      "growth_last4_vs_prev4": -14
     },
     {
       "category": "AI-assisted malware",
@@ -310,7 +310,7 @@
     },
     {
       "category": "AI supply chain",
-      "n": 31,
+      "n": 32,
       "by_quarter": [
         2,
         4,
@@ -319,9 +319,9 @@
         7,
         11,
         6,
-        7
+        8
       ],
-      "growth_last4_vs_prev4": 18
+      "growth_last4_vs_prev4": 19
     },
     {
       "category": "Chatbot harm",
@@ -340,7 +340,7 @@
     },
     {
       "category": "Model & data leak",
-      "n": 20,
+      "n": 21,
       "by_quarter": [
         5,
         5,
@@ -349,9 +349,9 @@
         9,
         2,
         5,
-        3
+        4
       ],
-      "growth_last4_vs_prev4": -2
+      "growth_last4_vs_prev4": -1
     },
     {
       "category": "State actor AI ops",
@@ -385,7 +385,7 @@
     },
     {
       "category": "Deepfake abuse",
-      "n": 17,
+      "n": 18,
       "by_quarter": [
         0,
         2,
@@ -394,9 +394,9 @@
         7,
         3,
         2,
-        3
+        4
       ],
-      "growth_last4_vs_prev4": 7
+      "growth_last4_vs_prev4": 8
     },
     {
       "category": "Prompt injection",
@@ -461,7 +461,7 @@
   ],
   "rising_category": "AI supply chain",
   "top_category": "Deepfake fraud",
-  "top_category_n": 42,
+  "top_category_n": 43,
   "autonomous": {
     "by_year": {
       "2025": 1,
@@ -486,9 +486,9 @@
       "actor_type": "criminal",
       "by_year": {
         "2025": 13,
-        "2026": 74
+        "2026": 75
       },
-      "n": 87
+      "n": 88
     },
     {
       "actor_type": "state",
@@ -510,9 +510,9 @@
       "actor_type": "unknown",
       "by_year": {
         "2025": 1,
-        "2026": 61
+        "2026": 63
       },
-      "n": 62
+      "n": 64
     },
     {
       "actor_type": "autonomous-ai",
@@ -526,9 +526,9 @@
       "actor_type": "accident",
       "by_year": {
         "2025": 0,
-        "2026": 3
+        "2026": 4
       },
-      "n": 3
+      "n": 4
     },
     {
       "actor_type": "hacktivist",
@@ -553,11 +553,11 @@
   ],
   "severity": {
     "critical": 39,
-    "high": 107,
-    "medium": 88,
+    "high": 108,
+    "medium": 91,
     "low": 6
   },
-  "critical_high_pct": 61,
+  "critical_high_pct": 60,
   "losses": {
     "total_usd": 204366843,
     "disclosed": 16,
@@ -628,11 +628,11 @@
   "sectors": [
     {
       "sector": "Technology & AI vendors",
-      "n": 79
+      "n": 81
     },
     {
       "sector": "Individuals & consumers",
-      "n": 68
+      "n": 69
     },
     {
       "sector": "Multiple / cross-sector",
@@ -656,7 +656,7 @@
     },
     {
       "sector": "Politics & elections",
-      "n": 4
+      "n": 5
     },
     {
       "sector": "Defence & security",
@@ -678,11 +678,15 @@
   "countries": [
     {
       "country": "GL",
-      "n": 108
+      "n": 110
     },
     {
       "country": "US",
       "n": 52
+    },
+    {
+      "country": "IN",
+      "n": 5
     },
     {
       "country": "GB",
@@ -693,23 +697,15 @@
       "n": 5
     },
     {
-      "country": "IN",
-      "n": 5
-    },
-    {
       "country": "IL",
       "n": 4
     },
     {
-      "country": "CA",
-      "n": 3
-    },
-    {
-      "country": "TW",
-      "n": 3
-    },
-    {
       "country": "NG",
+      "n": 3
+    },
+    {
+      "country": "CA",
       "n": 3
     },
     {
@@ -723,17 +719,21 @@
     {
       "country": "GR",
       "n": 3
+    },
+    {
+      "country": "TW",
+      "n": 3
     }
   ],
   "global_pct": 45,
   "status": [
     {
       "status": "under investigation",
-      "n": 83
+      "n": 84
     },
     {
       "status": "ongoing",
-      "n": 70
+      "n": 72
     },
     {
       "status": "contained",
@@ -741,7 +741,7 @@
     },
     {
       "status": "patched",
-      "n": 31
+      "n": 32
     },
     {
       "status": "resolved",
@@ -758,7 +758,7 @@
   ],
   "unresolved_pct": 67,
   "verify_median_hours": 19.8,
-  "verify_sample": 51,
+  "verify_sample": 55,
   "researcher_demos": 21,
   "pulse": [
     {
@@ -1028,10 +1028,10 @@
     {
       "day": "2026-10-30",
       "kinds": {
-        "incident": 80,
+        "incident": 78,
         "vulnerability": 4,
         "research": 6,
-        "vendor-report": 14,
+        "vendor-report": 13,
         "policy": 5,
         "other": 4,
         "untagged": 0
@@ -1076,7 +1076,7 @@
     {
       "day": "2026-11-03",
       "kinds": {
-        "incident": 122,
+        "incident": 123,
         "vulnerability": 2,
         "research": 39,
         "vendor-report": 5,
@@ -1091,7 +1091,7 @@
         "incident": 52,
         "vulnerability": 2,
         "research": 14,
-        "vendor-report": 5,
+        "vendor-report": 6,
         "policy": 2,
         "other": 7,
         "untagged": 0
