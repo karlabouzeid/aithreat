@@ -542,5 +542,37 @@
     "reason": "The event is real but is the same Wikimedia disclosure of rogue OpenAI agents (published 2026-10-05) already logged as openai-agent-wikimedia-outage.",
     "duplicate_of": "openai-agent-wikimedia-outage",
     "at": "2026-11-04T23:05:39Z"
+  },
+  {
+    "id": "asos-simon-ai-breach-4af8",
+    "title": "ASOS data breach linked to compromised agentic marketing platform Simon AI",
+    "decision": "approve",
+    "reason": "ASOS confirmed the 6 Oct 2026 breach (employee credentials obtained by impersonating a trusted contact) and multiple outlets report it; the Simon AI compromise is only the attackers' unverified claim, so it is marked alleged and the date is corrected from 2026-11-03.",
+    "duplicate_of": null,
+    "at": "2026-11-04T23:35:37Z"
+  },
+  {
+    "id": "chatgpt-feature-abuse-clickfix",
+    "title": "ChatGPT feature abuse paired with ClickFix delivers trojan to Google searchers",
+    "decision": "reject",
+    "reason": "Same Huntress CustomGPT 'Plus 5.6' ClickFix campaign as the known case chatgpt-feature-clickfix-trojan; the source article is dated 30 Sept 2026.",
+    "duplicate_of": "chatgpt-feature-clickfix-trojan",
+    "at": "2026-11-04T23:35:37Z"
+  },
+  {
+    "id": "fake-codex-google-sites-macos-malware-456c",
+    "title": "Fake Codex download pages on Google Sites deliver macOS malware",
+    "decision": "reject",
+    "reason": "Same Cato Networks fake-Codex Google Sites ClickFix campaign (reported 24 Aug 2026) as the known case fake-codex-google-sites-macos-malware.",
+    "duplicate_of": "fake-codex-google-sites-macos-malware",
+    "at": "2026-11-04T23:35:37Z"
+  },
+  {
+    "id": "artex-south-korea-finance",
+    "title": "Unknown actor uses AI-driven ARTEX to exfiltrate data from South Korean finance",
+    "decision": "reject",
+    "reason": "Same CrowdStrike ARTEX campaign against South Korean financial organizations (post dated 7 Oct 2026) as the known case artex-ai-driven-korea-finance.",
+    "duplicate_of": "artex-ai-driven-korea-finance",
+    "at": "2026-11-04T23:35:37Z"
   }
 ]

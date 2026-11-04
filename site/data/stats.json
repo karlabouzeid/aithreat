@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-04T23:16:12Z",
-  "total": 280,
-  "all_time_total": 483,
+  "generated_at": "2026-11-04T23:42:30Z",
+  "total": 281,
+  "all_time_total": 484,
   "window_from": "2025-11-04",
   "window_to": "2026-11-04",
   "trend_from": "2025-01-01",
@@ -153,12 +153,12 @@
   },
   "this_quarter": {
     "q": "2026-Q4",
-    "n": 85,
+    "n": 86,
     "prev_q": "2026-Q3",
     "prev_n": 51
   },
   "direction": {
-    "on-ai": 88,
+    "on-ai": 89,
     "with-ai": 160
   },
   "on_ai_share_first_half": 31,
@@ -264,17 +264,17 @@
     },
     {
       "q": "2026-Q4",
-      "n": 85,
-      "on-ai": 20,
+      "n": 86,
+      "on-ai": 21,
       "with-ai": 60,
       "severity": {
         "critical": 3,
         "high": 30,
-        "medium": 46,
+        "medium": 47,
         "low": 6
       },
       "autonomous": 6,
-      "real_world": 84
+      "real_world": 85
     }
   ],
   "categories": [
@@ -310,7 +310,7 @@
     },
     {
       "category": "AI supply chain",
-      "n": 34,
+      "n": 35,
       "by_quarter": [
         2,
         4,
@@ -319,9 +319,9 @@
         7,
         11,
         6,
-        10
+        11
       ],
-      "growth_last4_vs_prev4": 21
+      "growth_last4_vs_prev4": 22
     },
     {
       "category": "Chatbot harm",
@@ -525,9 +525,9 @@
       "actor_type": "unknown",
       "by_year": {
         "2025": 1,
-        "2026": 76
+        "2026": 77
       },
-      "n": 77
+      "n": 78
     },
     {
       "actor_type": "autonomous-ai",
@@ -569,7 +569,7 @@
   "severity": {
     "critical": 40,
     "high": 119,
-    "medium": 109,
+    "medium": 110,
     "low": 12
   },
   "critical_high_pct": 57,
@@ -680,7 +680,7 @@
     },
     {
       "sector": "Retail & consumer brands",
-      "n": 4
+      "n": 5
     },
     {
       "sector": "Defence & security",
@@ -710,7 +710,7 @@
     },
     {
       "country": "GB",
-      "n": 7
+      "n": 8
     },
     {
       "country": "KR",
@@ -749,11 +749,11 @@
       "n": 3
     }
   ],
-  "global_pct": 43,
+  "global_pct": 42,
   "status": [
     {
       "status": "under investigation",
-      "n": 103
+      "n": 104
     },
     {
       "status": "ongoing",
@@ -825,8 +825,8 @@
     }
   ],
   "unresolved_pct": 67,
-  "verify_median_hours": 30.0,
-  "verify_sample": 91,
+  "verify_median_hours": 32.8,
+  "verify_sample": 92,
   "researcher_demos": 21,
   "pulse": [
     {
@@ -1096,7 +1096,7 @@
     {
       "day": "2026-10-30",
       "kinds": {
-        "incident": 69,
+        "incident": 66,
         "vulnerability": 4,
         "research": 5,
         "vendor-report": 13,
@@ -1158,10 +1158,10 @@
       "kinds": {
         "incident": 56,
         "vulnerability": 2,
-        "research": 14,
-        "vendor-report": 6,
+        "research": 15,
+        "vendor-report": 7,
         "policy": 3,
-        "other": 11,
+        "other": 12,
         "untagged": 0
       }
     }

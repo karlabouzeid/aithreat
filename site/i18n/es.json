@@ -8401,5 +8401,21 @@
     "timeline": [
       "Publicado por Kaspersky Securelist"
     ]
+  },
+  {
+    "title": "Brecha de datos en ASOS: los atacantes afirman haber comprometido la plataforma agéntica de marketing Simon AI",
+    "summary": "ASOS confirmó una brecha el 6 de octubre de 2026 después de que un atacante se hiciera pasar por un contacto de confianza para obtener las credenciales de acceso de un empleado y las utilizara después para acceder a plataformas de terceros empleadas para comunicarse con los clientes y enviar una notificación push no autorizada. ASOS afirmó que la información de pago no se vio comprometida. El grupo que se hace llamar Xuanye Group declaró a la BBC que vulneró la plataforma agéntica de marketing Simon AI para obtener los datos; esta afirmación es una alegación sin verificar, y Snowflake indicó que el problema no se debió a ningún fallo de su servicio.",
+    "target": "Datos de clientes de ASOS a través de Simon AI",
+    "actor": "Xuanye Group (autoidentificado, presunto)",
+    "attribution": "El vínculo con Simon AI es una afirmación de los propios atacantes, según informó Infosecurity Magazine; ASOS atribuye el incidente al robo de credenciales de un empleado.",
+    "motive": "Desconocido",
+    "vector": "Credenciales de empleado robadas; compromiso de la plataforma de marketing Simon AI (afirmación de los atacantes)",
+    "root_cause": "Credenciales de empleado comprometidas; el papel de la plataforma de IA de terceros no está confirmado.",
+    "impact": "Se accedió a datos personales y de cuentas de clientes, incluidos datos de contacto; la información de pago no se vio comprometida, según ASOS",
+    "response": "ASOS confirmó la brecha.",
+    "id": "asos-simon-ai-breach-4af8",
+    "timeline": [
+      "Informado por Infosecurity Magazine"
+    ]
   }
 ]

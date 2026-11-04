@@ -21505,6 +21505,61 @@
     "sector": "Media & entertainment"
   },
   {
+    "id": "asos-simon-ai-breach-4af8",
+    "date": "2026-10-06",
+    "title": "ASOS data breach: attackers claim compromise of agentic marketing platform Simon AI",
+    "category": "AI supply chain",
+    "direction": "on-ai",
+    "severity": "medium",
+    "country": "GB",
+    "region": "Europe",
+    "target": "ASOS customer data via Simon AI",
+    "loss_usd": null,
+    "summary": "ASOS confirmed a breach on 6 October 2026 after an attacker impersonated a trusted contact to obtain an employee's login credentials, then used them to access third-party platforms used to communicate with customers and send a rogue push notification. ASOS said payment information was not compromised. The group calling itself Xuanye Group told the BBC it breached the agentic marketing platform Simon AI to get the data; this is alleged and unverified, and Snowflake said the issue did not result from any flaw in its service.",
+    "actor": "Xuanye Group (self-identified, alleged)",
+    "actor_type": "unknown",
+    "sector": "Retail & consumer brands",
+    "attribution": "The Simon AI link is the attackers' own claim, as reported by Infosecurity Magazine; ASOS cites stolen employee credentials.",
+    "motive": "Unknown",
+    "vector": "Stolen employee credentials; compromise of the Simon AI marketing platform (attacker claim)",
+    "root_cause": "Compromised employee credentials; the role of the third-party AI platform is unconfirmed.",
+    "impact": "Personal and customer account data accessed, including contact details; payment information not compromised, per ASOS",
+    "response": "ASOS confirmed the breach.",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "source": "Infosecurity Magazine",
+    "url": "https://www.infosecurity-magazine.com/news/asos-data-breach-stolen-employee",
+    "sources": [
+      {
+        "name": "Infosecurity Magazine",
+        "url": "https://www.infosecurity-magazine.com/news/asos-data-breach-stolen-employee"
+      },
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/10/07/asos-data-breach-app-notification/"
+      },
+      {
+        "name": "The Record",
+        "url": "https://therecord.media/asos-says-hackers-tricked-employee-access-push-notification"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-11-03",
+        "event": "Reported by Infosecurity Magazine"
+      }
+    ],
+    "drafted_at": "2026-11-03T00:05:41Z",
+    "first_seen": "2026-11-03T00:05:41Z",
+    "updated_at": "2026-11-04T23:35:37Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-04T23:35:37Z"
+  },
+  {
     "id": "poellm-botnet-exposed-ai-servers",
     "date": "2026-10-07",
     "title": "PoeLLM botnet infects 3,400 servers running exposed LiteLLM and Ollama for cryptomining",

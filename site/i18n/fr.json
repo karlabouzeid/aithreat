@@ -8401,5 +8401,21 @@
     "timeline": [
       "Signalé par Kaspersky Securelist"
     ]
+  },
+  {
+    "title": "Violation de données chez ASOS : des attaquants revendiquent la compromission de la plateforme de marketing agentique Simon AI",
+    "summary": "ASOS a confirmé une violation de données le 6 octobre 2026, après qu'un attaquant s'est fait passer pour un contact de confiance afin d'obtenir les identifiants de connexion d'un employé, puis les a utilisés pour accéder à des plateformes tierces servant à communiquer avec les clients et à envoyer une notification push frauduleuse. ASOS a indiqué que les informations de paiement n'avaient pas été compromises. Le groupe se faisant appeler Xuanye Group a déclaré à la BBC avoir compromis la plateforme de marketing agentique Simon AI pour obtenir les données ; cette affirmation est présumée et non vérifiée, et Snowflake a indiqué que le problème ne résultait d'aucune faille de son service.",
+    "target": "Données clients d'ASOS via Simon AI",
+    "actor": "Xuanye Group (auto-désigné, présumé)",
+    "attribution": "Le lien avec Simon AI relève de la seule revendication des attaquants, selon Infosecurity Magazine ; ASOS invoque le vol d'identifiants d'un employé.",
+    "motive": "Inconnu",
+    "vector": "Vol d'identifiants d'un employé ; compromission de la plateforme de marketing Simon AI (revendication des attaquants)",
+    "root_cause": "Compromission des identifiants d'un employé ; le rôle de la plateforme d'IA tierce n'est pas confirmé.",
+    "impact": "Accès à des données personnelles et à des données de comptes clients, y compris des coordonnées ; informations de paiement non compromises, selon ASOS",
+    "response": "ASOS a confirmé la violation de données.",
+    "id": "asos-simon-ai-breach-4af8",
+    "timeline": [
+      "Signalé par Infosecurity Magazine"
+    ]
   }
 ]

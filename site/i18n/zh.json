@@ -8401,5 +8401,21 @@
     "timeline": [
       "Kaspersky Securelist 报道"
     ]
+  },
+  {
+    "title": "ASOS 数据泄露事件：攻击者声称入侵代理式营销平台 Simon AI",
+    "summary": "ASOS 于 2026 年 10 月 6 日确认发生数据泄露：攻击者冒充可信联系人，骗取一名员工的登录凭据，随后利用这些凭据访问用于与客户沟通的第三方平台，并发送了一条未经授权的推送通知。ASOS 表示支付信息未受影响。自称 Xuanye Group 的组织向英国广播公司（BBC）表示，其入侵了代理式营销平台 Simon AI 以获取这些数据；该说法属于指称，尚未得到证实，Snowflake 表示此问题并非由其服务中的任何缺陷所致。",
+    "target": "通过 Simon AI 获取的 ASOS 客户数据",
+    "actor": "Xuanye Group（自称，属指称）",
+    "attribution": "据 Infosecurity Magazine 报道，与 Simon AI 相关联的说法来自攻击者自己的声称；ASOS 则称原因是员工凭据被盗。",
+    "motive": "未知",
+    "vector": "员工凭据被盗；Simon AI 营销平台遭入侵（攻击者声称）",
+    "root_cause": "员工凭据遭到泄露；第三方 AI 平台在其中所起的作用尚未得到证实。",
+    "impact": "个人及客户账户数据被访问，包括联系方式；据 ASOS 称，支付信息未受影响",
+    "response": "ASOS 已确认发生数据泄露。",
+    "id": "asos-simon-ai-breach-4af8",
+    "timeline": [
+      "由 Infosecurity Magazine 报道"
+    ]
   }
 ]

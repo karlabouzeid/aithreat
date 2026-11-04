@@ -5,7 +5,7 @@
 Positioning: a reference registry of AI security incidents (attacks on AI systems, and attacks carried out with AI): structured, verified, fast, multilingual and openly licensed.
 
 ## Key pages
-- [All verified case files](https://aithreat.io/cases/): 483 incidents, newest first, with hubs by type and country
+- [All verified case files](https://aithreat.io/cases/): 484 incidents, newest first, with hubs by type and country
 - [Interactive world map](https://aithreat.io/): the same cases on a map with filters
 - [Live wire](https://aithreat.io/#wire): AI security headlines from vetted sources, refreshed every 30 minutes (machine-triaged, not verified)
 - [Data and citing](https://aithreat.io/#data): download links, field list, inclusion rule, severity scale
@@ -28,7 +28,7 @@ Positioning: a reference registry of AI security incidents (attacks on AI system
 - [AI exam fraud](https://aithreat.io/cases/category/ai-exam-fraud/): 6 cases
 - [AI misfire](https://aithreat.io/cases/category/ai-misfire/): 8 cases
 - [AI phishing](https://aithreat.io/cases/category/ai-phishing/): 16 cases
-- [AI supply chain](https://aithreat.io/cases/category/ai-supply-chain/): 49 cases
+- [AI supply chain](https://aithreat.io/cases/category/ai-supply-chain/): 50 cases
 - [AI-assisted malware](https://aithreat.io/cases/category/ai-assisted-malware/): 59 cases
 - [Agent hijack](https://aithreat.io/cases/category/agent-hijack/): 28 cases
 - [Chatbot harm](https://aithreat.io/cases/category/chatbot-harm/): 48 cases
@@ -102,6 +102,7 @@ Positioning: a reference registry of AI security incidents (attacks on AI system
 - [Argentine Facebook users; YPF and spokesman Manuel Adorni](https://aithreat.io/cases/company/argentine-facebook-users-ypf-and-spokesman-manuel-adorni/): 1 case
 - [Argentine social media users](https://aithreat.io/cases/company/argentine-social-media-users/): 1 case
 - [Asana MCP server customers](https://aithreat.io/cases/company/asana-mcp-server-customers/): 1 case
+- [ASOS customer data via Simon AI](https://aithreat.io/cases/company/asos-customer-data-via-simon-ai/): 1 case
 - [At least 12 to 15 girls aged 13 to 16 at a private school in Chorrillos, Lima](https://aithreat.io/cases/company/at-least-12-to-15-girls-aged-13-to-16-at-a-private-school-in-chorrillos-lima/): 1 case
 - [At least 15 Argentine health entities](https://aithreat.io/cases/company/at-least-15-argentine-health-entities/): 1 case
 - [At least 22 girls aged 13 to 17 at a private school in San Martín, Buenos Aires province](https://aithreat.io/cases/company/at-least-22-girls-aged-13-to-17-at-a-private-school-in-san-mart-n-buenos-aires-province/): 1 case
@@ -604,6 +605,7 @@ Positioning: a reference registry of AI security incidents (attacks on AI system
 - [Shai-Hulud worm compromises Tensorlake npm release](https://aithreat.io/cases/shai-hulud-tensorlake-npm/): 2026-10-08, medium, AI supply chain, Worldwide. A Shai-Hulud (ChainDrop-linked) worm variant reached AI agent infrastructure when tensorlake npm SDK version 0.5.144 was published through a compromised maintainer account. Socket flagged the credential-stealing payload 11 minutes after publication, the version was live for about 1 hour 40 minutes before removal, and the impact is unknown.
 - [PoeLLM botnet infects 3,400 servers running exposed LiteLLM and Ollama for cryptomining](https://aithreat.io/cases/poellm-botnet-exposed-ai-servers/): 2026-10-07, critical, LLMjacking, Worldwide. Lumen Black Lotus Labs tracked an ELF implant named libgcrypt that derives its C2 address from words in a GitHub-hosted poem, scans ports 3000 and 4000, exploits LiteLLM CVE-2026-42271 and runs XMRig and Iron miners on more than 3,400 hosts.
 - [Seoul police officer indicted for making and spreading deepfake videos of acquaintances](https://aithreat.io/cases/korea-police-officer-deepfake-indicted/): 2026-10-07, medium, Deepfake fraud, South Korea. Busan prosecutors indicted, in detention, a serving Seoul Dongdaemun police officer accused of using an AI app to create about 400 sexually explicit deepfake videos of acquaintances and distributing some of them (about 50, per reports) on Telegram. Prosecutors also charged him over possession of illegal sexual material, including child sexual exploitation material; the case followed a Busan police undercover investigation of a Telegram chat room.
+- [ASOS data breach: attackers claim compromise of agentic marketing platform Simon AI](https://aithreat.io/cases/asos-simon-ai-breach-4af8/): 2026-10-06, medium, AI supply chain, United Kingdom. ASOS confirmed a breach on 6 October 2026 after an attacker impersonated a trusted contact to obtain an employee's login credentials, then used them to access third-party platforms used to communicate with customers and send a rogue push notification. ASOS said payment information was not compromised. The group calling itself Xuanye Group told the BBC it breached the agentic marketing platform Simon AI to get the data; this is alleged and unverified, and Snowflake said the issue did not result from any flaw in its service.
 - [Man sentenced in first US AI music streaming fraud case after $8M in bot-driven royalties](https://aithreat.io/cases/ai-music-streaming-royalty-fraud/): 2026-10-06, high, Deepfake fraud, United States. A North Carolina man got 18 months and must forfeit $8,091,843 after prosecutors said he streamed hundreds of thousands of AI-generated songs via about 10,000 bot accounts to collect royalties; first US AI streaming case
 - [Wikimedia says 'rogue' OpenAI-operated agents made unauthorized wiki edits, probed Etherpad and may have contributed to Wikidata outage](https://aithreat.io/cases/openai-agent-wikimedia-outage/): 2026-10-05, medium, Agent hijack, United States. On 5 October 2026 the Wikimedia Foundation said its own investigation found activity it believes came from agents operated by OpenAI. The agents made unauthorized edits on wikis, mostly in sandbox areas, attempted to exploit Wikimedia's public Etherpad instance, and sent millions of automated requests to public APIs, including hundreds of thousands of Wikidata Query Service queries. Wikimedia says this traffic may have contributed to a partial Wikidata Query Service outage in May 2026. It found no evidence that its systems or data were compromised, and OpenAI had not yet commented.
 - [AI sexual deepfakes of female students at Colegio Alicante del Sol, Puente Alto](https://aithreat.io/cases/puente-alto-school-sexual-deepfakes/): 2026-10-03, high, Deepfake fraud, Chile. Parents allege AI was used to create sexual material of female students in grades 9-12 (primero a cuarto medio) at Colegio Alicante del Sol in Puente Alto, Chile, and that the material circulated among students.

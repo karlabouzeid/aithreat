@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T23:16:12Z",
+  "generated_at": "2026-11-04T23:42:30Z",
   "licence": "CC BY 4.0",
   "sources": [
     {
@@ -1400,8 +1400,8 @@
       "claim": "Attackers can manipulate AI systems through prompt injection, poisoned data and compromised components, to change how they behave or to pull out sensitive information.",
       "status": "observed",
       "note": "Hidden instructions that make assistants leak mail and files, hijacked coding agents, malicious packages and plugins aimed at AI developers, and actively exploited flaws in AI tools. Many prompt injection cases are demonstrations by researchers; most supply-chain attacks happened in the real world.",
-      "n": 91,
-      "real_world": 56,
+      "n": 92,
+      "real_world": 57,
       "first_real_world": "2022-12-30",
       "months_after_publication": -38,
       "url": "https://aithreat.io/research/iasr-ai-as-target/",
@@ -1419,6 +1419,7 @@
         "ray-code-injection-cve-2025-62593",
         "wiz-red-agent-snowflake-jira",
         "shai-hulud-tensorlake-npm",
+        "asos-simon-ai-breach-4af8",
         "openai-agent-wikimedia-outage",
         "ai-agents-probe-us-canada-gov-sites",
         "anthropic-gtg-50020-sandbox-keys",
@@ -2189,8 +2190,8 @@
       "claim": "AI that leaks or infers sensitive personal data, and weaknesses in AI systems and their toolchains that attackers exploit.",
       "status": "observed",
       "note": "One of the two pillars of the registry: leaked chats and keys, exposed databases, prompt injection, hijacked agents, poisoned packages and stolen AI accounts.",
-      "n": 151,
-      "real_world": 103,
+      "n": 152,
+      "real_world": 104,
       "first_real_world": "2022-12-30",
       "months_after_publication": null,
       "url": "https://aithreat.io/research/mit-privacy-security/",
@@ -2216,6 +2217,7 @@
         "wiz-red-agent-snowflake-jira",
         "shai-hulud-tensorlake-npm",
         "poellm-botnet-exposed-ai-servers",
+        "asos-simon-ai-breach-4af8",
         "openai-agent-wikimedia-outage",
         "ai-agents-probe-us-canada-gov-sites",
         "pixelleak-agent-screenshots",
@@ -2828,7 +2830,7 @@
     {
       "source": "iasr-2026",
       "claims": 11,
-      "matched_cases": 348,
+      "matched_cases": 349,
       "matched_pct": 72,
       "status_counts": {
         "observed": 5,
@@ -2893,7 +2895,7 @@
     {
       "source": "mit-risk-repository",
       "claims": 7,
-      "matched_cases": 420,
+      "matched_cases": 421,
       "matched_pct": 87,
       "status_counts": {
         "observed": 4,
@@ -2911,10 +2913,10 @@
     "none": 4,
     "outside": 7
   },
-  "matched_cases": 421,
-  "total_cases": 483,
-  "warning_matched_cases": 379,
-  "unmatched_pct": 22,
+  "matched_cases": 422,
+  "total_cases": 484,
+  "warning_matched_cases": 380,
+  "unmatched_pct": 21,
   "unmatched_by_category": [
     {
       "category": "Deepfake abuse",
@@ -2964,7 +2966,7 @@
     {
       "category": "AI supply chain",
       "unmatched": 0,
-      "total": 49
+      "total": 50
     },
     {
       "category": "Chatbot harm",
