@@ -152,7 +152,10 @@
     "https://aithreat.io/cases/cloudflare-workers-ai-glm-leak/",
     "https://aithreat.io/cases/hugging-face-gpu-mining-returns/",
     "https://aithreat.io/cases/ai-agents-probe-us-canada-gov-sites/",
-    "https://aithreat.io/cases/openai-agent-wikimedia-outage/"
+    "https://aithreat.io/cases/openai-agent-wikimedia-outage/",
+    "https://aithreat.io/cases/bugster-deepseek-v4-india-universities/",
+    "https://aithreat.io/cases/cctv-ai-fiancee-romance-scam/",
+    "https://aithreat.io/cases/reno-facial-recognition-killinger/"
   ],
   "bluesky": [
     "https://aithreat.io/cases/unit42-ai-espionage-gov-linux/",
@@ -298,7 +301,10 @@
     "https://aithreat.io/cases/cloudflare-workers-ai-glm-leak/",
     "https://aithreat.io/cases/hugging-face-gpu-mining-returns/",
     "https://aithreat.io/cases/ai-agents-probe-us-canada-gov-sites/",
-    "https://aithreat.io/cases/openai-agent-wikimedia-outage/"
+    "https://aithreat.io/cases/openai-agent-wikimedia-outage/",
+    "https://aithreat.io/cases/bugster-deepseek-v4-india-universities/",
+    "https://aithreat.io/cases/cctv-ai-fiancee-romance-scam/",
+    "https://aithreat.io/cases/reno-facial-recognition-killinger/"
   ],
   "x": [
     "https://aithreat.io/cases/aoki-infostealer-ai-assistant-creds/",
@@ -362,12 +368,12 @@
     "skipped": "TELEGRAM_OWNER_CHAT_ID not set"
   },
   "bluesky_status": {
-    "at": "2026-11-04T19:17:46Z",
-    "ok": "https://aithreat.io/cases/openai-agent-wikimedia-outage/"
+    "at": "2026-11-04T20:14:56Z",
+    "ok": "https://aithreat.io/cases/reno-facial-recognition-killinger/"
   },
   "telegram_status": {
-    "at": "2026-11-04T19:17:54Z",
-    "ok": "https://aithreat.io/cases/openai-agent-wikimedia-outage/"
+    "at": "2026-11-04T20:15:03Z",
+    "ok": "https://aithreat.io/cases/reno-facial-recognition-killinger/"
   },
   "breaking_status": {
     "at": "2026-11-04T17:55:14Z",
