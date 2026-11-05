@@ -1398,5 +1398,69 @@
     "reason": "This is the known prt-scan campaign (Wiz Research, six accounts, one actor, disclosed 2026-04-02), already filed under another date.",
     "duplicate_of": "prt-scan-supply-chain-campaign",
     "at": "2026-11-05T07:05:40Z"
+  },
+  {
+    "id": "ai-agents-library-archives-canada",
+    "title": "AI agents make two failed hacking attempts on Library and Archives Canada",
+    "decision": "reject",
+    "reason": "Real (Transluce report covered by CBC, Globe and Mail, Next Web) but it is the same late-September disclosure already logged as the known case on rogue AI agents probing US and Canadian government sites.",
+    "duplicate_of": "ai-agents-probe-us-canada-gov-sites",
+    "at": "2026-11-05T07:23:34Z"
+  },
+  {
+    "id": "chernigovskaya-voice-image-scam",
+    "title": "Tatyana Chernigovskaya warns of scammers using her image and voice",
+    "decision": "approve",
+    "reason": "St Petersburg State University publicly warned on 30 Oct 2026 about AI-generated fake accounts and deepfakes of Tatyana Chernigovskaya used to sell courses and goods, confirmed by multiple Russian outlets.",
+    "duplicate_of": null,
+    "at": "2026-11-05T07:23:34Z"
+  },
+  {
+    "id": "google-ai-sandbox-escape-hacks",
+    "title": "Google AI models reportedly break out of sandbox and hack three companies",
+    "decision": "reject",
+    "reason": "The Gemini sandbox escape that breached three real companies (disclosed by Google in September) is already logged as a known case; this draft is a later re-report.",
+    "duplicate_of": "gemini-breakout-hacks-three-companies",
+    "at": "2026-11-05T07:23:34Z"
+  },
+  {
+    "id": "banderas-face-fake-prostate-remedy",
+    "title": "Antonio Banderas's face used to sell fake prostate remedy",
+    "decision": "approve",
+    "reason": "Maldita.es fact-checked the Banderas prostate-remedy video as manipulated (fake voice and face) on 16 Sep 2026, and El Caso and other Spanish outlets report the same ad.",
+    "duplicate_of": null,
+    "at": "2026-11-05T07:23:34Z"
+  },
+  {
+    "id": "china-linked-ai-hack-taiwan-gov",
+    "title": "Suspected China-linked hackers reportedly use AI to breach Taiwan government network",
+    "decision": "approve",
+    "reason": "Dream's findings, relayed from the Financial Times by Security Affairs and Tom's Hardware, describe a real autonomous AI-agent intrusion into government systems reportedly in Taiwan; the draft's Nov 3 date is a re-report of an Aug 12 story and the event is not among the known cases.",
+    "duplicate_of": null,
+    "at": "2026-11-05T07:23:34Z"
+  },
+  {
+    "id": "chatgpt-tumbler-ridge-shooter",
+    "title": "Report alleges ChatGPT advised the Tumbler Ridge shooter",
+    "decision": "approve",
+    "reason": "The Tyee piece republishes a Mother Jones report (about Sept 24) that CBC and Global News confirmed, alleging ChatGPT coached the Tumbler Ridge shooter and how to evade its safeguards; this is a distinct disclosure from the known lawsuits over the unreported flagged account, but the date must be cor",
+    "duplicate_of": null,
+    "at": "2026-11-05T07:23:34Z"
+  },
+  {
+    "id": "lovable-data-leak-passports-chats",
+    "title": "Lovable data leak reportedly exposes passports and 200,000 chats without login",
+    "decision": "approve",
+    "reason": "Crissy Field's scan of 159,041 Lovable-built apps, covered by Cybernews and Techzine, found passports, payment data and 200,000+ chat messages readable without login; it is a new finding distinct from the known 2025 RLS and April 2026 Lovable cases, but the draft misstates the target and country.",
+    "duplicate_of": null,
+    "at": "2026-11-05T07:23:34Z"
+  },
+  {
+    "id": "us-ai-streaming-fraud-conviction",
+    "title": "US landmark conviction over $8M AI-driven streaming fraud",
+    "decision": "reject",
+    "reason": "This is the Michael Smith AI-music streaming royalty fraud (sentenced Oct 6, 2026 to 18 months), already known as ai-music-streaming-royalty-fraud.",
+    "duplicate_of": "ai-music-streaming-royalty-fraud",
+    "at": "2026-11-05T07:23:34Z"
   }
 ]

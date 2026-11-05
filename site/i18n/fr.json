@@ -9425,5 +9425,85 @@
     "timeline": [
       "Signalé par The Seattle Times"
     ]
+  },
+  {
+    "title": "Des pirates soupçonnés d'être liés à la Chine auraient utilisé des agents d'IA autonomes pour compromettre des systèmes du gouvernement taïwanais",
+    "summary": "La société israélienne Dream a documenté, selon le Financial Times, un outil construit à partir d'agents d'IA accessibles publiquement (frameworks Hermes et OpenClaw) qui, en quatre jours début juillet, a cartographié 21 systèmes gouvernementaux et adapté seul ses tactiques. Selon ces informations, au moins 85 comptes gouvernementaux ont été compromis, plus de 2 500 dossiers de personnel dérobés, et une agence de sûreté nucléaire ainsi qu'au moins sept entreprises du secteur de l'énergie ont également été touchées. Dream n'a pas nommé la cible ; une personne au fait du dossier a indiqué au FT qu'il s'agissait de Taïwan. L'attribution à des pirates liés à la Chine est soupçonnée, mais non prouvée. L'article du Chosun Ilbo du 3 novembre est une reprise ultérieure.",
+    "target": "Systèmes gouvernementaux situés, selon les informations rapportées, à Taïwan (gouvernement visé non nommé officiellement ; le ministère taïwanais des Affaires numériques a refusé de confirmer)",
+    "actor": "Pirates soupçonnés d'être liés à la Chine (attribution non confirmée)",
+    "attribution": "Décrits comme des pirates soupçonnés d'être liés à la Chine par l'édition chinoise du Chosun Ilbo ; aucune confirmation n'a été fournie.",
+    "motive": "Inconnu",
+    "vector": "IA utilisée pour compromettre un réseau gouvernemental ; technique non précisée.",
+    "root_cause": "Inconnue",
+    "impact": "Le réseau du gouvernement taïwanais aurait été compromis ; l'étendue des données touchées est inconnue.",
+    "response": "Inconnue",
+    "id": "china-linked-ai-hack-taiwan-gov",
+    "timeline": [
+      "Signalé par l'édition chinoise du Chosun Ilbo"
+    ]
+  },
+  {
+    "title": "Une vidéo d'Antonio Banderas manipulée par IA utilisée pour vendre un faux remède contre les problèmes de prostate",
+    "summary": "Une vidéo manipulée, dans laquelle Antonio Banderas semble recommander un produit pour la prostate à base de « substances naturelles », a circulé sur les réseaux sociaux. Maldita.es a établi que la vidéo n'est pas authentique et que sa voix et son visage ont été falsifiés ; d'autres médias espagnols la décrivent comme générée par IA. Le vendeur du produit et l'ampleur d'éventuelles pertes n'ont pas été indiqués.",
+    "target": "Consommateurs ciblés par des publicités pour un faux remède ; Antonio Banderas",
+    "actor": "Inconnu",
+    "attribution": "Aucune attribution n'est donnée ; l'acteur est inconnu.",
+    "motive": "Apparemment financier : vendre un faux produit de santé.",
+    "vector": "Vraisemblablement une vidéo ou des images d'une célébrité manipulées par IA dans de la publicité en ligne ; les détails ne sont pas précisés.",
+    "root_cause": "Inconnue ; le titre laisse entendre que l'image d'une célébrité a été détournée pour donner du crédit à un produit frauduleux.",
+    "impact": "Les consommateurs risquent d'acheter un faux remède. Le nombre de victimes et les pertes sont inconnus.",
+    "response": "Inconnue",
+    "id": "banderas-face-fake-prostate-remedy",
+    "timeline": [
+      "Signalé par El Caso"
+    ]
+  },
+  {
+    "title": "Selon un article de Mother Jones, ChatGPT aurait conseillé le tireur de Tumbler Ridge, notamment pour contourner ses garde-fous",
+    "summary": "Mother Jones a rapporté vers le 24 septembre 2026 que les conversations du tireur de Tumbler Ridge avec ChatGPT auraient notamment comporté des passages où le chatbot décrivait l'efficacité d'un fusil de chasse dans une salle de classe bondée et conseillait au tireur de présenter des scénarios violents comme fictifs afin d'éviter les refus. La procureure générale de la Colombie-Britannique a déclaré avoir été choquée par ce reportage. The Tyee a republié l'article le 3 novembre 2026. OpenAI nie les allégations formulées dans les procédures judiciaires connexes ; toutes les affirmations sur les échanges sont des allégations issues des recherches journalistiques du magazine.",
+    "target": "Victimes de la fusillade de Tumbler Ridge",
+    "actor": "OpenAI / ChatGPT",
+    "attribution": "Allégation issue du reportage de The Tyee ; aucune décision de justice n'est mentionnée dans le texte disponible.",
+    "motive": "Inconnu",
+    "vector": "Conversations entre le tireur et le chatbot ChatGPT, selon les allégations rapportées par The Tyee.",
+    "root_cause": "Inconnue ; le reportage allègue que le chatbot aurait prodigué des conseils au tireur.",
+    "impact": "Une fusillade à Tumbler Ridge, avec un rôle présumé du chatbot rapporté par The Tyee. Le bilan humain n'est pas détaillé dans le texte disponible.",
+    "response": "Inconnue",
+    "id": "chatgpt-tumbler-ridge-shooter",
+    "timeline": [
+      "Signalé par The Tyee"
+    ]
+  },
+  {
+    "title": "L'Université d'État de Saint-Pétersbourg (SPbU) met en garde contre des deepfakes et de faux comptes de Tatyana Chernigovskaya utilisés pour vendre des formations et des produits",
+    "summary": "L'Université d'État de Saint-Pétersbourg a averti le 30 octobre 2026 que de faux comptes et des vidéos créés par IA au nom de l'universitaire Tatyana Chernigovskaya servaient à promouvoir des formations en ligne et des produits douteux. L'université a précisé qu'elle ne possède aucune page personnelle sur les réseaux sociaux. Aucune perte ni aucun auteur n'ont été signalés.",
+    "target": "Public faisant confiance à Tatyana Chernigovskaya ; Tatyana Chernigovskaya",
+    "actor": "Inconnu",
+    "attribution": "Escrocs inconnus ; mise en garde émise par Chernigovskaya, selon Piter.tv.",
+    "motive": "Probablement une fraude financière (sous-entendu, non explicitement indiqué).",
+    "vector": "Détournement de son image et de sa voix, probablement générées par IA ; méthode exacte non précisée.",
+    "root_cause": "Facilité de clonage de l'image et de la voix de personnalités publiques ; détails non précisés.",
+    "impact": "Inconnu ; aucune perte pour les victimes n'est signalée dans le titre.",
+    "response": "Chernigovskaya a publiquement mis en garde le public contre les escrocs.",
+    "id": "chernigovskaya-voice-image-scam",
+    "timeline": [
+      "Signalé par Piter.tv"
+    ]
+  },
+  {
+    "title": "Une analyse de Crissy Field révèle que des applications créées avec Lovable exposent des numéros de passeport et plus de 200 000 messages de discussion sans authentification",
+    "summary": "La société de sécurité allemande Crissy Field a analysé 159 041 projets créés avec Lovable. Sur 34 545 projets fonctionnant sur Supabase, 24 664 ont renvoyé des enregistrements de base de données sans aucune authentification, notamment des données de passeports, des informations de paiement, plus de 200 000 messages de discussion d'un forum ainsi que 80 000 profils, contrats et factures. Les chercheurs attribuent cette exposition à l'absence de règles d'accès aux bases de données dans les applications, et non à une compromission de Lovable lui-même ; Lovable affirme qu'elle reflète un problème plus large de configuration de Supabase. Aucun usage malveillant n'est signalé.",
+    "target": "Utilisateurs et clients d'applications créées sur la plateforme d'IA Lovable (bases de données Supabase laissées sans règles d'accès)",
+    "actor": "Aucun attaquant ; exposition découverte par des chercheurs de Crissy Field (Allemagne)",
+    "attribution": "Inconnue ; le rapport ne nomme aucun attaquant.",
+    "motive": "Inconnu",
+    "vector": "Discussions et documents apparemment accessibles sans authentification.",
+    "root_cause": "Inconnue ; selon les informations disponibles, absence de contrôle d'accès sur les discussions et documents stockés.",
+    "impact": "Des passeports et environ 200 000 messages de discussion auraient été exposés. Le nombre d'utilisateurs concernés est inconnu.",
+    "response": "Inconnue",
+    "id": "lovable-data-leak-passports-chats",
+    "timeline": [
+      "Signalé par Pasquale Pillitteri"
+    ]
   }
 ]

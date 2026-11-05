@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T07:05:40Z",
+  "generated_at": "2026-11-05T07:23:34Z",
   "categories": [
     {
       "name": "AI exam fraud",
@@ -34,7 +34,7 @@
     {
       "name": "Chatbot harm",
       "slug": "chatbot-harm",
-      "count": 50
+      "count": 51
     },
     {
       "name": "Deepfake abuse",
@@ -44,7 +44,7 @@
     {
       "name": "Deepfake fraud",
       "slug": "deepfake-fraud",
-      "count": 123
+      "count": 125
     },
     {
       "name": "LLMjacking",
@@ -54,7 +54,7 @@
     {
       "name": "Model & data leak",
       "slug": "model-data-leak",
-      "count": 48
+      "count": 49
     },
     {
       "name": "Prompt injection",
@@ -64,7 +64,7 @@
     {
       "name": "State actor AI ops",
       "slug": "state-actor-ai-ops",
-      "count": 36
+      "count": 37
     }
   ],
   "countries": [
@@ -98,7 +98,7 @@
     },
     {
       "code": "CA",
-      "count": 11
+      "count": 12
     },
     {
       "code": "CL",
@@ -126,7 +126,7 @@
     },
     {
       "code": "ES",
-      "count": 5
+      "count": 6
     },
     {
       "code": "FI",
@@ -146,7 +146,7 @@
     },
     {
       "code": "GL",
-      "count": 175
+      "count": 176
     },
     {
       "code": "GR",
@@ -270,7 +270,7 @@
     },
     {
       "code": "RU",
-      "count": 9
+      "count": 10
     },
     {
       "code": "SE",
@@ -294,7 +294,7 @@
     },
     {
       "code": "TW",
-      "count": 4
+      "count": 5
     },
     {
       "code": "TZ",

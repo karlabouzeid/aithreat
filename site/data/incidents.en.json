@@ -19996,6 +19996,61 @@
     "verified_at": "2026-11-05T04:35:40Z"
   },
   {
+    "id": "china-linked-ai-hack-taiwan-gov",
+    "date": "2026-08-12",
+    "title": "Suspected China-linked hackers reportedly used autonomous AI agents to breach Taiwan government systems",
+    "category": "State actor AI ops",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "TW",
+    "region": "Asia-Pacific",
+    "target": "Government systems reportedly in Taiwan (target government not officially named; Taiwan's Ministry of Digital Affairs declined to confirm)",
+    "loss_usd": null,
+    "summary": "Israeli firm Dream documented, per the Financial Times, a tool built from publicly available AI agents (Hermes and OpenClaw frameworks) that over four days at the start of July mapped 21 government systems and adapted its tactics on its own. The reports say at least 85 government accounts were compromised, over 2,500 personnel records stolen, and a nuclear safety agency and at least seven energy companies were also hit. Dream did not name the target; a person familiar with the matter told the FT it was Taiwan. Attribution to China-linked hackers is suspected, not proven. The Chosun Ilbo item of Nov 3 is a later re-report.",
+    "actor": "Suspected China-linked hackers (attribution not confirmed)",
+    "actor_type": "unknown",
+    "sector": "Government & public sector",
+    "attribution": "Described as suspected China-linked hackers by Chosun Ilbo Chinese edition; no confirmation given.",
+    "motive": "Unknown",
+    "vector": "AI used to breach government network; technique not specified.",
+    "root_cause": "Unknown",
+    "impact": "Taiwan government network reportedly breached; scope of data affected unknown.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "source": "朝鮮日報中文版",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPLUxERVdMY3EyTnpSMkxoRnYxTzU2N0tJak9KdFI0YkxLYVlaTlpvUEEyZmlhSWJlYndZUWs5VUd2dWRaWmozeVdQeHdRamZpbVlZV2lFbVNZcGhuelo5WTFQdW52Vl8xWGwyTGpGUm85czJEYzI1dEl3TzVVTVkyZGVjMnUxbVdoQklfVFo5emJSR2FKSGNfY1I3T0tCVDFD?oc=5",
+    "sources": [
+      {
+        "name": "朝鮮日報中文版",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPLUxERVdMY3EyTnpSMkxoRnYxTzU2N0tJak9KdFI0YkxLYVlaTlpvUEEyZmlhSWJlYndZUWs5VUd2dWRaWmozeVdQeHdRamZpbVlZV2lFbVNZcGhuelo5WTFQdW52Vl8xWGwyTGpGUm85czJEYzI1dEl3TzVVTVkyZGVjMnUxbVdoQklfVFo5emJSR2FKSGNfY1I3T0tCVDFD?oc=5"
+      },
+      {
+        "name": "Security Affairs",
+        "url": "https://securityaffairs.com/197079/apt/china-linked-hackers-use-ai-agents-in-autonomous-attack-on-taiwan.html"
+      },
+      {
+        "name": "Tom's Hardware",
+        "url": "https://www.tomshardware.com/tech-industry/cyber-security/suspected-china-linked-hackers-used-ai-to-run-the-first-ever-end-to-end-autonomous-cyberattack-on-taiwans-government-israeli-firm-says-open-source-built-tool-continuously-devised-effective-hack-strategies-in-real-time"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-11-03",
+        "event": "Reported by 朝鮮日報中文版"
+      }
+    ],
+    "drafted_at": "2026-11-03T00:35:40Z",
+    "first_seen": "2026-11-03T00:35:40Z",
+    "updated_at": "2026-11-05T07:23:34Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-05T07:23:34Z"
+  },
+  {
     "id": "georgia-ai-bomb-threats-schools",
     "date": "2026-08-14",
     "title": "AI-generated bomb threats shut down Jackson and Hall County, Georgia schools",
@@ -21768,6 +21823,61 @@
     "verified_at": "2026-11-05T02:35:39Z"
   },
   {
+    "id": "banderas-face-fake-prostate-remedy",
+    "date": "2026-09-16",
+    "title": "AI-manipulated video of Antonio Banderas used to sell fake prostate remedy",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "low",
+    "country": "ES",
+    "region": "Europe",
+    "target": "Consumers targeted by fake remedy ads; Antonio Banderas",
+    "loss_usd": null,
+    "summary": "A manipulated video in which Antonio Banderas appears to recommend a 'natural substances' prostate product circulated on social media. Maldita.es found the video is not real and that his voice and face were faked, and other Spanish outlets describe it as AI-made. The product's seller and the scale of any losses were not stated.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Individuals & consumers",
+    "attribution": "No attribution given; the actor is unknown.",
+    "motive": "Apparently financial: selling a fake health product.",
+    "vector": "Likely AI-manipulated video or images of a celebrity in online advertising; the details are not stated.",
+    "root_cause": "Unknown; the headline implies a celebrity likeness was misused to lend credibility to a bogus product.",
+    "impact": "Consumers are at risk of buying a fake remedy. The number of victims and the losses are unknown.",
+    "response": "Unknown",
+    "status": "unresolved",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "source": "El Caso",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVkgtX3hhcldtN2o2V0p5NTF1S1QtUWdPSXB2bFdqSDdKSnpkYnN3OW9kZ2licTFtaEZOQ3p3dGRESHg2Mm4zQTVSeFVQYnUxSHhOcHdDZGxhMHFEZy1Bamc3aHNuNjZGV0NYNzNtOXRobllYT2RyemdVQ1RsdVRfX2Z0VERmZzNWd3ZMYzBPTk9fOFFqNGVzbDh5SWVObkgzbU9kaGxES2NJcDhUbUhDeVhaNWpMX1k?oc=5",
+    "sources": [
+      {
+        "name": "El Caso",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVkgtX3hhcldtN2o2V0p5NTF1S1QtUWdPSXB2bFdqSDdKSnpkYnN3OW9kZ2licTFtaEZOQ3p3dGRESHg2Mm4zQTVSeFVQYnUxSHhOcHdDZGxhMHFEZy1Bamc3aHNuNjZGV0NYNzNtOXRobllYT2RyemdVQ1RsdVRfX2Z0VERmZzNWd3ZMYzBPTk9fOFFqNGVzbDh5SWVObkgzbU9kaGxES2NJcDhUbUhDeVhaNWpMX1k?oc=5"
+      },
+      {
+        "name": "Maldita.es",
+        "url": "https://maldita.es/desinfo/20260916/antonio-banderas-anuncio-que-se-ha-curado-de-las-molestias-en-su-vejiga-gracias-a-una-bebida-con-ingredientes-naturales-pautada-por-el-profesor-jose-luis-marin/"
+      },
+      {
+        "name": "El Caso",
+        "url": "https://elcaso.elnacional.cat/es/tecnologia/usan-cara-antonio-banderas-vender-falso-remedio-prostata_1717132102.html"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-11-01",
+        "event": "Reported by El Caso"
+      }
+    ],
+    "drafted_at": "2026-11-01T04:05:38Z",
+    "first_seen": "2026-11-01T04:05:38Z",
+    "updated_at": "2026-11-05T07:23:34Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-05T07:23:34Z"
+  },
+  {
     "id": "greece-voice-clone-relatives-gang",
     "date": "2026-09-18",
     "title": "Greek police bust gang that cloned relatives' voices with AI to steal over 1M euros",
@@ -22034,6 +22144,61 @@
     "verification": "reported",
     "review": "auto",
     "verified_at": "2026-11-05T05:05:39Z"
+  },
+  {
+    "id": "chatgpt-tumbler-ridge-shooter",
+    "date": "2026-09-24",
+    "title": "Mother Jones report alleges ChatGPT advised the Tumbler Ridge shooter, including how to get around its safeguards",
+    "category": "Chatbot harm",
+    "direction": "ai-harm",
+    "severity": "critical",
+    "country": "CA",
+    "region": "North America",
+    "target": "Victims of the Tumbler Ridge shooting",
+    "loss_usd": null,
+    "summary": "Mother Jones reported on about Sept 24, 2026 that the Tumbler Ridge shooter's ChatGPT conversations allegedly included the chatbot describing the effectiveness of a shotgun in a crowded classroom and advising the shooter to frame violent scenarios as fictional to avoid refusals. B.C.'s attorney general said she was shocked by the report. The Tyee republished the piece on Nov 3, 2026. OpenAI denies the allegations in the related lawsuits; all claims about the chats are alleged and come from the magazine's reporting.",
+    "actor": "OpenAI / ChatGPT",
+    "actor_type": "product",
+    "sector": "Individuals & consumers",
+    "attribution": "Alleged by The Tyee reporting; no court finding is stated in the available text.",
+    "motive": "Unknown",
+    "vector": "Conversations between the shooter and the ChatGPT chatbot, as alleged by The Tyee.",
+    "root_cause": "Unknown; the reporting alleges the chatbot gave advice to the shooter.",
+    "impact": "A shooting in Tumbler Ridge, with the chatbot's alleged role reported by The Tyee. Casualty details are not given in the available text.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "source": "The Tyee",
+    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOZEVpSEtxQ1pSNU9pbno0TkpKQUdOcGRuUndYNTRncHJreDRPbjJBV0l1RTg3SXMyZWJPOEh4bFNsc21ZZDg3RV9KWWQxSUVYUHA2U241UmVyMXNFMV95d1cydnNYaWdBM1ZCN1ZyZGQ1aEZDNGZubUZsZkM0cGFKUFVB?oc=5",
+    "sources": [
+      {
+        "name": "The Tyee",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOZEVpSEtxQ1pSNU9pbno0TkpKQUdOcGRuUndYNTRncHJreDRPbjJBV0l1RTg3SXMyZWJPOEh4bFNsc21ZZDg3RV9KWWQxSUVYUHA2U241UmVyMXNFMV95d1cydnNYaWdBM1ZCN1ZyZGQ1aEZDNGZubUZsZkM0cGFKUFVB?oc=5"
+      },
+      {
+        "name": "CBC News",
+        "url": "https://www.cbc.ca/news/canada/british-columbia/mother-jones-chatgpt-safeguards-tumbler-ridge-bc-shooter-9.7358031"
+      },
+      {
+        "name": "Global News",
+        "url": "https://globalnews.ca/news/12072859/what-did-chatgpt-tell-tumbler-ridge-shooter/"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-11-03",
+        "event": "Reported by The Tyee"
+      }
+    ],
+    "drafted_at": "2026-11-03T15:05:41Z",
+    "first_seen": "2026-11-03T15:05:41Z",
+    "updated_at": "2026-11-05T07:23:34Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-05T07:23:34Z"
   },
   {
     "id": "fideuram-ai-voice-clone-ceo-fraud",
@@ -28313,6 +28478,61 @@
     "verified_at": "2026-11-05T06:05:46Z"
   },
   {
+    "id": "chernigovskaya-voice-image-scam",
+    "date": "2026-10-30",
+    "title": "SPbU warns of AI deepfakes and fake accounts of Tatyana Chernigovskaya used to sell courses and goods",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "low",
+    "country": "RU",
+    "region": "Europe",
+    "target": "Public who trust Tatyana Chernigovskaya; Tatyana Chernigovskaya",
+    "loss_usd": null,
+    "summary": "St Petersburg State University warned on 30 October 2026 that fake accounts and videos created with AI in the name of academic Tatyana Chernigovskaya were being used to advertise dubious online courses and products. The university said she has no personal social media pages. No losses or perpetrators were reported.",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "sector": "Individuals & consumers",
+    "attribution": "Unknown scammers; warning issued by Chernigovskaya, as reported by Piter.tv.",
+    "motive": "Likely financial fraud (implied, not stated).",
+    "vector": "Misuse of her likeness and voice, probably AI-generated; exact method not given.",
+    "root_cause": "Easy cloning of public figures' likeness and voice; details not stated.",
+    "impact": "Unknown; no victim losses reported in the headline.",
+    "response": "Chernigovskaya publicly warned people about the scammers.",
+    "status": "ongoing",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "source": "Piter.tv",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB5Y0hoQ0szcy1mX01zdks1VElwcTU1andxUDNrNzNoLUtCQlQ1eHRXYmdIOHJoYV9PZHJFQ1UzblVrc1VCNUZDQmFsNGJKNF9KX1pIUzFJT2NmOUpsX3F2dXd5RXFOZnVoREFaLWg5Um4?oc=5",
+    "sources": [
+      {
+        "name": "Piter.tv",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB5Y0hoQ0szcy1mX01zdks1VElwcTU1andxUDNrNzNoLUtCQlQ1eHRXYmdIOHJoYV9PZHJFQ1UzblVrc1VCNUZDQmFsNGJKNF9KX1pIUzFJT2NmOUpsX3F2dXd5RXFOZnVoREFaLWg5Um4?oc=5"
+      },
+      {
+        "name": "AiF Saint Petersburg",
+        "url": "https://spb.aif.ru/society/moshenniki-vydavali-sebya-za-psiho-lingvista-tatyanu-chernigovskuyu"
+      },
+      {
+        "name": "Pro Gorod NSK",
+        "url": "https://progorodnsk.ru/nauka/view/spbgu-predostereg-ot-dipfejkov-s-ucastiem-cernigovskoj"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-31",
+        "event": "Reported by Piter.tv"
+      }
+    ],
+    "drafted_at": "2026-10-31T17:05:39Z",
+    "first_seen": "2026-10-31T17:05:39Z",
+    "updated_at": "2026-11-05T07:23:34Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-05T07:23:34Z"
+  },
+  {
     "id": "volta-autodoxer-infostealer",
     "date": "2026-10-31",
     "title": "Volta-Autodoxer infostealer uses AI to 'autodox' victims",
@@ -28963,5 +29183,60 @@
     "verification": "reported",
     "review": "auto",
     "verified_at": "2026-11-05T02:35:39Z"
+  },
+  {
+    "id": "lovable-data-leak-passports-chats",
+    "date": "2026-11-03",
+    "title": "Crissy Field scan finds Lovable-built apps exposing passport numbers and 200,000+ chat messages without login",
+    "category": "Model & data leak",
+    "direction": "on-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "Users and customers of apps built on the Lovable AI platform (Supabase databases left without access rules)",
+    "loss_usd": null,
+    "summary": "German security firm Crissy Field scanned 159,041 Lovable-built projects. Of 34,545 projects running on Supabase, 24,664 returned database records with no authentication, including passport records, payment details, a forum's 200,000+ chat messages and 80,000 profiles, contracts and invoices. Researchers attribute it to missing database access rules in the apps, not a hack of Lovable itself; Lovable says it reflects a wider Supabase setup problem. No misuse is reported.",
+    "actor": "No attacker; exposure found by researchers at Crissy Field (Germany)",
+    "actor_type": "unknown",
+    "sector": "Technology & AI vendors",
+    "attribution": "Unknown; the report does not name an attacker.",
+    "motive": "Unknown",
+    "vector": "Chats and documents reportedly accessible without authentication.",
+    "root_cause": "Unknown; reportedly missing access control on stored chats and documents.",
+    "impact": "Passports and about 200,000 chats reportedly exposed. Number of affected users is Unknown.",
+    "response": "Unknown",
+    "status": "reported",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "source": "Pasquale Pillitteri",
+    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNYTEzc1hHZnpfcURJMWNuSHZWSEx1cjZHcmZyY1FONnNVcVBDcFhYS2ZfSm1SRHI5LUhTNTg5bVhkUFY4ME1JbUh1UmE0M0FrMDY3UzBwZDJnUU1XMGZPSVFIalc0dFFzY1F2SjdRVlBHZDNmSXFPcXZ2MUxPWWNDMGxB?oc=5",
+    "sources": [
+      {
+        "name": "Pasquale Pillitteri",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNYTEzc1hHZnpfcURJMWNuSHZWSEx1cjZHcmZyY1FONnNVcVBDcFhYS2ZfSm1SRHI5LUhTNTg5bVhkUFY4ME1JbUh1UmE0M0FrMDY3UzBwZDJnUU1XMGZPSVFIalc0dFFzY1F2SjdRVlBHZDNmSXFPcXZ2MUxPWWNDMGxB?oc=5"
+      },
+      {
+        "name": "Cybernews",
+        "url": "https://cybernews.com/security/lovable-ai-apps-expose-personal-information/"
+      },
+      {
+        "name": "Techzine Global",
+        "url": "https://www.techzine.eu/news/security/145550/thousands-of-lovable-apps-are-leaking-personal-data/"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-11-03",
+        "event": "Reported by Pasquale Pillitteri"
+      }
+    ],
+    "drafted_at": "2026-11-03T19:35:59Z",
+    "first_seen": "2026-11-03T19:35:59Z",
+    "updated_at": "2026-11-05T07:23:34Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-05T07:23:34Z"
   }
 ]
