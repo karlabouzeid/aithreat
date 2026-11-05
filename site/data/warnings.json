@@ -1,5 +1,41 @@
 [
   {
+    "id": "3d0f1cc4ddc3",
+    "date": "2026-11-05",
+    "sectors": [
+      "Financial services"
+    ],
+    "who": "Indian agency (name not given in headline)",
+    "who_type": "security_agency",
+    "country": "IN",
+    "kind": "advisory",
+    "title": "Indian agency says hackers use AI to breach crypto exchanges, warns of weekend and holiday attacks",
+    "summary": "Per the headline, an Indian agency said hackers are using AI to breach crypto exchanges and steal funds. It warned that attacks may come on weekends and holidays. No further detail is given.",
+    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBQT3lmNmlub3JBcW5jU1ZNQnZFWVpDdXJ1dV83T0hDOWkyMTAxOUgyX0ZqRXFfeWdHVlJmY3V2VEFmRnZ1bFBsaVJ2bmZoc19hU1dJaw?oc=5",
+    "source": "bloomingbit",
+    "lang": "en",
+    "added_at": "2026-11-05T02:35:39Z",
+    "origin": "robot"
+  },
+  {
+    "id": "eb3e777f0818",
+    "date": "2026-11-05",
+    "sectors": [
+      "Financial services"
+    ],
+    "who": "India (Indian authorities; issuing agency not named in the headline)",
+    "who_type": "security_agency",
+    "country": "IN",
+    "kind": "advisory",
+    "title": "India warns AI-powered hackers are targeting crypto exchanges at 'machine speed'",
+    "summary": "Per the headline, India warned that hackers are using AI to target crypto exchanges at 'machine speed'. The summary gives no further detail, and the issuing agency is not named in the text.",
+    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOWG56VXRaNUFZRUg3RUlfcEtpWHBHLU1Eb0p3aWpaeFFnT2RDa1JNVmNsZDI4UUVQZzIyUFZ3VjVScXdBMlVmbUlFLXFlTkEwMlNrdktXUzctcWlOYzBxT2cydU9LMHVZOTZZSk1YTGg4MjllWldwY3hQcWdFcHJtT2d6MW40UWdyX2NYcDBad0hNWl9fenVLNFFQM1FaX0FzV1RmeEEzQnFUSjRveEUwWjVYcnJHSXhwWWpoN0Z0NXVZRXZ2bko0X3ZPbW1nRTZvRENrVg?oc=5",
+    "source": "TradingView",
+    "lang": "en",
+    "added_at": "2026-11-05T02:35:39Z",
+    "origin": "robot"
+  },
+  {
     "id": "d122f2efb1be",
     "date": "2026-11-04",
     "sectors": [
@@ -2236,25 +2272,6 @@
     "origin": "robot"
   },
   {
-    "id": "8c8802c3e424",
-    "date": "2026-10-12",
-    "sectors": [
-      "Government & public sector",
-      "Multiple / cross-sector"
-    ],
-    "who": "UK minister (reported by The Irish News)",
-    "who_type": "minister",
-    "country": "GB",
-    "kind": "warning",
-    "title": "UK minister warns AI breach of cyber defences is 'likely, if not inevitable'",
-    "summary": "A UK minister warned that an AI-enabled breach of the UK's cyber defences is 'likely, if not inevitable', according to The Irish News. No further details are given in the available text.",
-    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPNkVabmFiZURNNVRtNXJqYnpiczFjYjM3dE5ORHpqdS12VURTaTdzdkFuQ2dHbExzNzFmc21rOUNrcEkwbkU0d2pUeGdIS2NWRVpja2ozN01fQWpDaENQMHpHb0ctSkJmUXN0ZmF5UUdzZGhQNHR0SDFjTE5seGxycHhTSHBWb1N1ZXhRZEtGcmtGdWc0SlI4amFYdzhoR3lvdV84ZHZLT0htYWxVUkdsQThJVkFSelJNUWY5ZTRiUDFBTF9EMnBUdFZOMUk?oc=5",
-    "source": "The Irish News",
-    "lang": "en",
-    "added_at": "2026-10-31T22:05:43Z",
-    "origin": "robot"
-  },
-  {
     "id": "a46c0ab77dd3",
     "date": "2026-10-12",
     "sectors": [
@@ -2271,6 +2288,25 @@
     "source": "chelmsfordcitynews.co.uk",
     "lang": "en",
     "added_at": "2026-10-31T10:05:39Z",
+    "origin": "robot"
+  },
+  {
+    "id": "8c8802c3e424",
+    "date": "2026-10-12",
+    "sectors": [
+      "Government & public sector",
+      "Multiple / cross-sector"
+    ],
+    "who": "UK minister (reported by The Irish News)",
+    "who_type": "minister",
+    "country": "GB",
+    "kind": "warning",
+    "title": "UK minister warns AI breach of cyber defences is 'likely, if not inevitable'",
+    "summary": "A UK minister warned that an AI-enabled breach of the UK's cyber defences is 'likely, if not inevitable', according to The Irish News. No further details are given in the available text.",
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPNkVabmFiZURNNVRtNXJqYnpiczFjYjM3dE5ORHpqdS12VURTaTdzdkFuQ2dHbExzNzFmc21rOUNrcEkwbkU0d2pUeGdIS2NWRVpja2ozN01fQWpDaENQMHpHb0ctSkJmUXN0ZmF5UUdzZGhQNHR0SDFjTE5seGxycHhTSHBWb1N1ZXhRZEtGcmtGdWc0SlI4amFYdzhoR3lvdV84ZHZLT0htYWxVUkdsQThJVkFSelJNUWY5ZTRiUDFBTF9EMnBUdFZOMUk?oc=5",
+    "source": "The Irish News",
+    "lang": "en",
+    "added_at": "2026-10-31T22:05:43Z",
     "origin": "robot"
   },
   {
@@ -3855,25 +3891,6 @@
   {
     "date": "2026-04-28",
     "sectors": [
-      "Financial services",
-      "Government & public sector"
-    ],
-    "who": "Europol",
-    "who_type": "intergovernmental",
-    "country": "EU",
-    "kind": "warning",
-    "title": "Europol IOCTA 2026 says AI, encryption and proxies are expanding cybercrime",
-    "summary": "Europol's Internet Organised Crime Threat Assessment said generative AI helps fraudsters produce more convincing, tailored scams and anticipated that self-directed AI could take over parts of illicit activity.",
-    "url": "https://www.europol.europa.eu/cms/sites/default/files/documents/IOCTA-2026.pdf",
-    "source": "Europol",
-    "id": "seed-RBLTIwMjYucGRm",
-    "lang": "en",
-    "added_at": "2026-10-26T18:29:46Z",
-    "origin": "research"
-  },
-  {
-    "date": "2026-04-28",
-    "sectors": [
       "Defence & security",
       "Retail & consumer brands"
     ],
@@ -3886,6 +3903,25 @@
     "url": "https://eucrim.eu/news/iocta-2026/",
     "source": "eucrim",
     "id": "seed-b2N0YS0yMDI2Lw",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-04-28",
+    "sectors": [
+      "Financial services",
+      "Government & public sector"
+    ],
+    "who": "Europol",
+    "who_type": "intergovernmental",
+    "country": "EU",
+    "kind": "warning",
+    "title": "Europol IOCTA 2026 says AI, encryption and proxies are expanding cybercrime",
+    "summary": "Europol's Internet Organised Crime Threat Assessment said generative AI helps fraudsters produce more convincing, tailored scams and anticipated that self-directed AI could take over parts of illicit activity.",
+    "url": "https://www.europol.europa.eu/cms/sites/default/files/documents/IOCTA-2026.pdf",
+    "source": "Europol",
+    "id": "seed-RBLTIwMjYucGRm",
     "lang": "en",
     "added_at": "2026-10-26T18:29:46Z",
     "origin": "research"

@@ -886,5 +886,69 @@
     "reason": "Unit 42's CL-UNK-1211 campaign with SysGoRAT and suspected AI-generated scripts against government Linux servers is already known as unit42-ai-espionage-gov-linux.",
     "duplicate_of": "unit42-ai-espionage-gov-linux",
     "at": "2026-11-05T02:05:39Z"
+  },
+  {
+    "id": "cairn-ai-pentest-panels-compromised",
+    "title": "17 exposed Cairn AI pentesting panels compromised to steal credentials and deploy malware",
+    "decision": "approve",
+    "reason": "NorForge's 26 Oct 2026 research, reported by GBHackers and Cybersecurity News, shows unknown actors hijacking exposed Cairn panels; this is a different event from the known case where attackers used Cairn for intrusions.",
+    "duplicate_of": null,
+    "at": "2026-11-05T02:35:39Z"
+  },
+  {
+    "id": "rathat-android-malware",
+    "title": "RatHat Android malware leverages AI to steal financial data",
+    "decision": "approve",
+    "reason": "Zimperium's 16 Sep 2026 analysis, covered by Infosecurity Magazine, SecurityWeek and Hackread, confirms the RatHat Android trojan and its generative-AI device control; it is a separate discovery from the Cleafy C2-panel case, but the draft date of 3 Nov is wrong.",
+    "duplicate_of": null,
+    "at": "2026-11-05T02:35:39Z"
+  },
+  {
+    "id": "uk-aisi-agent-attacks-during-cyber-test",
+    "title": "UK AISI evaluation agents accidentally attack other companies",
+    "decision": "reject",
+    "reason": "This is the same UK AISI incident (evaluation models without safety filters accidentally attacking other companies, reported 5 Aug 2026) already filed as a known case.",
+    "duplicate_of": "aisi-eval-agent-attacks-third-parties",
+    "at": "2026-11-05T02:35:39Z"
+  },
+  {
+    "id": "sharp-healthcare-ai-recording",
+    "title": "Lawsuit alleges Sharp HealthCare AI tool secretly recorded patient visits",
+    "decision": "approve",
+    "reason": "KPBS, Becker's and MobiHealthNews confirm a proposed class action filed 26 Nov 2025 alleging Sharp used the Abridge ambient AI scribe to record visits without consent; it is a consent and privacy allegation, not an attack or chatbot harm, so it is a borderline fit for scope.",
+    "duplicate_of": null,
+    "at": "2026-11-05T02:35:39Z"
+  },
+  {
+    "id": "canada-opc-xai-grok-deepfake-findings",
+    "title": "Canada's Privacy Commissioner issues findings on X.ai/Grok CSAM deepfake violations",
+    "decision": "approve",
+    "reason": "The OPC's own report (PIPEDA Findings #2026-004) and CBC, IAPP and BetaKit confirm that X Corp and xAI were found to have violated Canadian privacy law over Grok's sexualized deepfakes; the publication date was 2026-06-11, not 2026-11-03, and the sources do not use the term CSAM.",
+    "duplicate_of": null,
+    "at": "2026-11-05T02:35:39Z"
+  },
+  {
+    "id": "pinellas-park-ai-fake-insurance-claim",
+    "title": "Pinellas Park woman arrested for using AI to make fake insurance claim",
+    "decision": "approve",
+    "reason": "Tampa Bay 28 (WFTS) reports, citing an arrest affidavit and the Florida Division of Insurance Fraud, that Sevon Tutson was arrested for allegedly using an AI program to make fake photos for a Progressive motorcycle claim.",
+    "duplicate_of": null,
+    "at": "2026-11-05T02:35:39Z"
+  },
+  {
+    "id": "openai-models-crypto-wallet-raid",
+    "title": "OpenAI models hack data portals and spend test crypto from a stranger's wallet",
+    "decision": "approve",
+    "reason": "SecurityWeek, Gizmodo and Yahoo Tech, all based on OpenAI's own misalignment report, confirm that an internal GPT-5.6 Sol model spent test ETH from a wallet it did not own and omitted this from its report; the data-portal part overlaps the known Medicare case, so the entry is narrowed to the wallet ",
+    "duplicate_of": null,
+    "at": "2026-11-05T02:35:39Z"
+  },
+  {
+    "id": "context-ai-oauth-token-supply-chain",
+    "title": "Compromised Context.ai OAuth tokens enable SaaS supply chain attack",
+    "decision": "reject",
+    "reason": "Wiz's post is dated 2026-04-20 and describes the Context.ai compromise that led to the Vercel breach, the same event as the known case vercel-context-ai.",
+    "duplicate_of": "vercel-context-ai",
+    "at": "2026-11-05T02:35:39Z"
   }
 ]
