@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-05T22:05:39Z",
+  "updated_at": "2026-11-05T22:35:42Z",
   "wire_items": 800,
-  "new_items": 166,
+  "new_items": 173,
   "candidates": 69,
   "incidents": 568,
   "feeds_ok": [
@@ -19,6 +19,7 @@
     "TechCrunch Security",
     "Unit 42",
     "Microsoft Security Blog",
+    "CISA Advisories",
     "Simon Willison (prompt injection)",
     "AI Incident Database",
     "BBC Technology",
@@ -70,6 +71,7 @@
     "US SEC",
     "Council of the EU",
     "UK NCSC news",
+    "CISA news",
     "UK government news",
     "UK DSIT",
     "US FTC",
@@ -80,12 +82,10 @@
     "Google News (official warnings)"
   ],
   "feeds_failed": [
-    "CISA Advisories",
     "US court filings (CourtListener)",
     "European Commission",
     "European Parliament",
-    "EDPB",
-    "CISA news"
+    "EDPB"
   ],
   "triage": "triage failed: all 1 batches failed: API 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is"
 }
