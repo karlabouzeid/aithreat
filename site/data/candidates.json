@@ -90,51 +90,6 @@
     "updated_at": "2026-10-16T11:05:36Z"
   },
   {
-    "id": "prt-scan-ai-pull-request-target-campaign",
-    "date": "2026-10-16",
-    "title": "prt-scan: AI-powered campaign exploits pull_request_target across six accounts",
-    "category": "AI supply chain",
-    "direction": "with-ai",
-    "severity": "medium",
-    "country": "GL",
-    "region": "Global",
-    "target": "GitHub repositories using pull_request_target workflows",
-    "loss_usd": null,
-    "summary": "Wiz traced the prt-scan supply chain campaign to one actor running six accounts. It was AI-powered, exploited pull_request_target, and ran about three weeks before anyone noticed. It follows hackerbot-claw.",
-    "actor": "Unknown",
-    "actor_type": "unknown",
-    "sector": "Technology & AI vendors",
-    "attribution": "Wiz Research linked six accounts to a single actor; no further identity given.",
-    "motive": "Unknown",
-    "vector": "AI-driven abuse of GitHub Actions pull_request_target workflows.",
-    "root_cause": "Misconfigured pull_request_target workflows that run untrusted pull request code with elevated privileges.",
-    "impact": "Unknown; the summary gives no victim count or losses.",
-    "response": "Wiz Research published an analysis tracing the actor back about three weeks before detection.",
-    "status": "under investigation",
-    "cve": null,
-    "confidence": 0.5,
-    "source": "Wiz Research",
-    "url": "https://www.wiz.io/blog/six-accounts-one-actor-inside-the-prt-scan-supply-chain-campaign",
-    "sources": [
-      {
-        "name": "Wiz Research",
-        "url": "https://www.wiz.io/blog/six-accounts-one-actor-inside-the-prt-scan-supply-chain-campaign"
-      }
-    ],
-    "timeline": [
-      {
-        "date": "2026-10-16",
-        "event": "Reported by Wiz Research"
-      }
-    ],
-    "verified": false,
-    "drafted_at": "2026-10-16T14:16:23Z",
-    "wire_id": "60916b269459",
-    "first_seen": "2026-10-16T14:16:23Z",
-    "first_published": "2026-04-04T09:36:51Z",
-    "updated_at": "2026-10-16T14:16:23Z"
-  },
-  {
     "id": "ai-romance-scam-2000km-coach-trip",
     "date": "2026-10-16",
     "title": "Man travels 2,000 km by coach to meet AI 'girlfriend' and is left penniless",
@@ -268,141 +223,6 @@
     "first_seen": "2026-10-16T16:35:37Z",
     "first_published": "2026-03-11T00:00:00Z",
     "updated_at": "2026-10-16T16:35:37Z"
-  },
-  {
-    "id": "georgia-ai-bomb-threats-schools",
-    "date": "2026-10-17",
-    "title": "AI-generated bomb threats shut down Jackson and Hall County, Georgia schools",
-    "category": "Deepfake fraud",
-    "direction": "with-ai",
-    "severity": "medium",
-    "country": "US",
-    "region": "North America",
-    "target": "Jackson and Hall County school districts, Georgia",
-    "loss_usd": null,
-    "summary": "A series of connected AI-generated bomb threats hit six Jackson County campuses and Cherokee Bluff High School. Sweeps found nothing credible. The FBI and state agencies are investigating.",
-    "actor": "Unknown",
-    "actor_type": "unknown",
-    "sector": "Education & research",
-    "attribution": "Officials suspect an international source; no actor has been named.",
-    "motive": "Unknown; the threats were hoaxes causing disruption.",
-    "vector": "AI-generated bomb threats delivered to school campuses.",
-    "root_cause": "Easy generation of synthetic threat messages that are hard to trace; the summaries give no further detail.",
-    "impact": "School campuses were evacuated and swept, and operations were disrupted before all-clear. No credible danger was found.",
-    "response": "Federal and state law enforcement are investigating; the campuses were swept and cleared.",
-    "status": "under investigation",
-    "cve": null,
-    "confidence": 0.5,
-    "source": "AI Incident Database",
-    "url": "https://www.wsbtv.com/news/local/atlanta/ai-bomb-threats-shut-down-georgia-school-district-fbi-investigating/4PGKPTQJDFBT3LKTXIQILBOI5M",
-    "sources": [
-      {
-        "name": "AI Incident Database",
-        "url": "https://www.wsbtv.com/news/local/atlanta/ai-bomb-threats-shut-down-georgia-school-district-fbi-investigating/4PGKPTQJDFBT3LKTXIQILBOI5M"
-      }
-    ],
-    "timeline": [
-      {
-        "date": "2026-10-17",
-        "event": "Reported by AI Incident Database"
-      }
-    ],
-    "verified": false,
-    "drafted_at": "2026-10-17T13:52:15Z",
-    "wire_id": "3bc5a3655fe3",
-    "first_seen": "2026-10-17T13:52:15Z",
-    "first_published": "2026-10-10T00:00:00Z",
-    "updated_at": "2026-10-17T13:52:15Z"
-  },
-  {
-    "id": "tiktok-ai-scam-ads-nigeria",
-    "date": "2026-10-15",
-    "title": "AI scam ads exploit TikTok advertising system to defraud Nigerians",
-    "category": "Deepfake fraud",
-    "direction": "with-ai",
-    "severity": "medium",
-    "country": "NG",
-    "region": "Middle East & Africa",
-    "target": "Nigerian TikTok users and investors",
-    "loss_usd": null,
-    "summary": "A special report details AI scam ads placed through TikTok's advertising system that defrauded Nigerians, including a Kwara State man who invested after losing his teaching job.",
-    "actor": "Unknown",
-    "actor_type": "criminal",
-    "sector": "Individuals & consumers",
-    "attribution": "Not stated in the summary.",
-    "motive": "Financial fraud",
-    "vector": "AI-generated scam advertisements served through TikTok's ad platform",
-    "root_cause": "Scam advertisers were able to place AI-generated ads on TikTok's ad system.",
-    "impact": "Victims such as Mohammed Yusuf of Ilorin lost money; total losses not stated.",
-    "response": "Unknown",
-    "status": "unresolved",
-    "cve": null,
-    "confidence": 0.5,
-    "source": "AI Incident Database",
-    "url": "https://www.premiumtimesng.com/news/headlines/897605-special-report-inside-ai-scam-ads-exploiting-tiktoks-advertising-system-to-defraud-nigerians.html",
-    "sources": [
-      {
-        "name": "AI Incident Database",
-        "url": "https://www.premiumtimesng.com/news/headlines/897605-special-report-inside-ai-scam-ads-exploiting-tiktoks-advertising-system-to-defraud-nigerians.html"
-      }
-    ],
-    "timeline": [
-      {
-        "date": "2026-10-15",
-        "event": "Reported by AI Incident Database"
-      }
-    ],
-    "verified": false,
-    "drafted_at": "2026-10-17T13:52:15Z",
-    "wire_id": "22577a4ac7a9",
-    "first_seen": "2026-10-17T13:52:15Z",
-    "first_published": "2026-10-07T00:00:00Z",
-    "updated_at": "2026-10-17T13:52:15Z"
-  },
-  {
-    "id": "fake-ai-columnist-canada-moroccan-dissid",
-    "date": "2026-10-15",
-    "title": "Fake AI columnist 'Daniel Robson' dupes Canadian press to target Moroccan dissidents",
-    "category": "State actor AI ops",
-    "direction": "with-ai",
-    "severity": "medium",
-    "country": "CA",
-    "region": "North America",
-    "target": "Canadian media outlets and Moroccan dissidents",
-    "loss_usd": null,
-    "summary": "An AI-generated persona, 'Daniel Robson', placed opinion pieces in Canadian conservative media in a campaign aimed at Moroccan dissidents, involving a Turkish middleman.",
-    "actor": "Unknown operators; a Turkish middleman is involved",
-    "actor_type": "unknown",
-    "sector": "Media & entertainment",
-    "attribution": "Not stated in the summary beyond a Turkish 'middleman'.",
-    "motive": "Targeting Moroccan dissidents",
-    "vector": "Fabricated AI columnist persona submitting opinion pieces to Canadian outlets",
-    "root_cause": "Outlets published pieces without verifying the author's identity.",
-    "impact": "Canadian outlets were duped into publishing the persona's content; extent of harm to dissidents is not stated.",
-    "response": "Unknown",
-    "status": "under investigation",
-    "cve": null,
-    "confidence": 0.5,
-    "source": "AI Incident Database",
-    "url": "https://www.turkiyetoday.com/world/exclusivefake-ai-columnist-dupes-canadian-press-to-target-moroccan-dissidents-and-a-t-3229120",
-    "sources": [
-      {
-        "name": "AI Incident Database",
-        "url": "https://www.turkiyetoday.com/world/exclusivefake-ai-columnist-dupes-canadian-press-to-target-moroccan-dissidents-and-a-t-3229120"
-      }
-    ],
-    "timeline": [
-      {
-        "date": "2026-10-15",
-        "event": "Reported by AI Incident Database"
-      }
-    ],
-    "verified": false,
-    "drafted_at": "2026-10-17T13:52:15Z",
-    "wire_id": "356463c0de31",
-    "first_seen": "2026-10-17T13:52:15Z",
-    "first_published": "2026-10-05T00:00:00Z",
-    "updated_at": "2026-10-17T13:52:15Z"
   },
   {
     "id": "ai-agents-canada-gov-website-attempt",
@@ -810,96 +630,6 @@
     "updated_at": "2026-10-17T21:05:39Z"
   },
   {
-    "id": "china-ai-face-voice-swap-fraud-cases",
-    "date": "2026-10-18",
-    "title": "Chinese police break AI face-swap and voice-clone fraud cases worth 500M yuan",
-    "category": "Deepfake fraud",
-    "direction": "with-ai",
-    "severity": "high",
-    "country": "CN",
-    "region": "Asia-Pacific",
-    "target": "Individuals defrauded via AI face-swap and voice-clone scams",
-    "loss_usd": null,
-    "summary": "Police in multiple Chinese localities have solved cases of fraud using AI face-swapping and voice imitation, with the cases reportedly involving a total of 500 million yuan.",
-    "actor": "Unknown",
-    "actor_type": "criminal",
-    "sector": "Individuals & consumers",
-    "attribution": "Unknown; the headline refers only to fraud gangs broken up by police in several areas.",
-    "motive": "Financial gain through fraud",
-    "vector": "AI face-swap and voice-imitation used to impersonate trusted people and deceive victims",
-    "root_cause": "Unknown; the headline does not say. It points to AI face and voice cloning making impersonation scams easy.",
-    "impact": "Cases reportedly involve a total of 500 million yuan (a yuan figure only; no USD loss stated).",
-    "response": "Police in several regions have cracked cases.",
-    "status": "contained",
-    "cve": null,
-    "confidence": 0.5,
-    "source": "VanPeople",
-    "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1za2ZFb3ZWdkkwWkx1NGhjdF9OeldCOFZCSUhBS09WV29GWXI2Y3dCWHBoeWlicUlXWFcyaEZsOEZ1X2x1LWcybnFZWUNzMmxM?oc=5",
-    "sources": [
-      {
-        "name": "VanPeople",
-        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1za2ZFb3ZWdkkwWkx1NGhjdF9OeldCOFZCSUhBS09WV29GWXI2Y3dCWHBoeWlicUlXWFcyaEZsOEZ1X2x1LWcybnFZWUNzMmxM?oc=5"
-      }
-    ],
-    "timeline": [
-      {
-        "date": "2026-10-18",
-        "event": "Reported by VanPeople"
-      }
-    ],
-    "verified": false,
-    "drafted_at": "2026-10-18T02:05:37Z",
-    "wire_id": "af822f9b9d5b",
-    "first_seen": "2026-10-18T02:05:37Z",
-    "first_published": "2026-10-18T01:59:28Z",
-    "updated_at": "2026-10-18T02:05:37Z"
-  },
-  {
-    "id": "openai-hacked-using-claude-model",
-    "date": "2026-10-18",
-    "title": "Three hackers breach OpenAI using rival Anthropic's Claude model",
-    "category": "AI-assisted malware",
-    "direction": "with-ai",
-    "severity": "medium",
-    "country": "US",
-    "region": "North America",
-    "target": "OpenAI",
-    "loss_usd": null,
-    "summary": "Three people reportedly used Anthropic's Claude to hack OpenAI, described as 'ethical' hacking. Headlines do not give technical detail, scope or what was accessed.",
-    "actor": "Three individuals (security researchers)",
-    "actor_type": "researcher",
-    "sector": "Technology & AI vendors",
-    "attribution": "Reported as a group of three people described as AI security experts; no names given in the headlines.",
-    "motive": "Apparently ethical hacking to expose frontier-lab security weaknesses.",
-    "vector": "Claude model used to find and exploit weaknesses in OpenAI systems; specifics unknown.",
-    "root_cause": "Unknown",
-    "impact": "Unknown; coverage says it shows frontier labs' vulnerabilities.",
-    "response": "Unknown",
-    "status": "under investigation",
-    "cve": null,
-    "confidence": 0.5,
-    "source": "CBS News",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1sYU85M1h2UmRpRWhzdWdqNGFrM0gycTJBR2YyMm80VU1MdTFuQUFieVFhb2hZV0tIM1RRc3RiV0JRWDJvbl9RQWNvMlRLMFJDRlg2Nm93TG0xbFZqekVVa1g4MVNtM3RFdm1OaGpJVEFRZkNGZGdmRWVfZzR6TVU?oc=5",
-    "sources": [
-      {
-        "name": "CBS News",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1sYU85M1h2UmRpRWhzdWdqNGFrM0gycTJBR2YyMm80VU1MdTFuQUFieVFhb2hZV0tIM1RRc3RiV0JRWDJvbl9RQWNvMlRLMFJDRlg2Nm93TG0xbFZqekVVa1g4MVNtM3RFdm1OaGpJVEFRZkNGZGdmRWVfZzR6TVU?oc=5"
-      }
-    ],
-    "timeline": [
-      {
-        "date": "2026-10-18",
-        "event": "Reported by CBS News"
-      }
-    ],
-    "verified": false,
-    "drafted_at": "2026-10-18T06:05:37Z",
-    "wire_id": "b9b9ff949d98",
-    "first_seen": "2026-10-18T06:05:37Z",
-    "first_published": "2026-09-22T07:00:00Z",
-    "updated_at": "2026-10-18T06:05:37Z"
-  },
-  {
     "id": "liege-fake-bank-app-iphone-scam",
     "date": "2026-10-18",
     "title": "Liège iPhone seller targeted with AI-made fake banking app as proof of payment",
@@ -942,7 +672,8 @@
     "wire_id": "9d9c9bd45c75",
     "first_seen": "2026-10-18T11:05:37Z",
     "first_published": "2026-10-17T03:55:00Z",
-    "updated_at": "2026-10-18T11:05:37Z"
+    "updated_at": "2026-10-18T11:05:37Z",
+    "editor_checked_at": "2026-11-05T03:05:38Z"
   },
   {
     "id": "grok-bank-data-shared-in-group",
@@ -1213,51 +944,6 @@
     "first_seen": "2026-10-19T07:05:39Z",
     "first_published": "2026-10-19T06:57:51Z",
     "updated_at": "2026-10-19T07:05:39Z"
-  },
-  {
-    "id": "belgian-royals-deepnudes",
-    "date": "2026-10-19",
-    "title": "Queen Mathilde and Princess Elisabeth of Belgium targeted by AI deepnudes",
-    "category": "Deepfake fraud",
-    "direction": "with-ai",
-    "severity": "medium",
-    "country": "BE",
-    "region": "Europe",
-    "target": "Queen Mathilde and Princess Elisabeth of Belgium",
-    "loss_usd": null,
-    "summary": "Belgian press reports that Queen Mathilde and Princess Elisabeth were victims of AI-generated deepnude images. The headline gives no further detail.",
-    "actor": "Unknown",
-    "actor_type": "unknown",
-    "sector": "Individuals & consumers",
-    "attribution": "Unknown; the headline does not name who made or spread the images.",
-    "motive": "Unknown",
-    "vector": "AI-generated nude deepfakes (deepnudes) of the two royals",
-    "root_cause": "Unknown; the headline gives no detail on the tools or distribution channel.",
-    "impact": "Sexualised fake images of the Queen and the Princess reportedly circulated. Extent of spread unknown.",
-    "response": "Unknown",
-    "status": "unresolved",
-    "cve": null,
-    "confidence": 0.5,
-    "source": "Soirmag",
-    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPV3B1Y05VWkRlN3h0bXkyRV90emVEUHFZNUl0anpUaHVPMGRKRHJVeHQ3blZGN3BNTzZXSktaVjl6YXU4TGkwalZBR3RaZUw4aXg5LVFHc09tM19Sd2VKV2E0UDI2cXl5eUhRQUNDTVpRaF8tcENZNXc2Wlp3OE9tM045bFhsU2FrQnNjMk5FX2JYNE9YLWFZZUxHRk1FSTJoQk1FTUFWbmQ4MzRZOUJqekZTaFNSX2M?oc=5",
-    "sources": [
-      {
-        "name": "Soirmag",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPV3B1Y05VWkRlN3h0bXkyRV90emVEUHFZNUl0anpUaHVPMGRKRHJVeHQ3blZGN3BNTzZXSktaVjl6YXU4TGkwalZBR3RaZUw4aXg5LVFHc09tM19Sd2VKV2E0UDI2cXl5eUhRQUNDTVpRaF8tcENZNXc2Wlp3OE9tM045bFhsU2FrQnNjMk5FX2JYNE9YLWFZZUxHRk1FSTJoQk1FTUFWbmQ4MzRZOUJqekZTaFNSX2M?oc=5"
-      }
-    ],
-    "timeline": [
-      {
-        "date": "2026-10-19",
-        "event": "Reported by Soirmag"
-      }
-    ],
-    "verified": false,
-    "drafted_at": "2026-10-19T07:35:37Z",
-    "wire_id": "9d67008d4eb1",
-    "first_seen": "2026-10-19T07:35:37Z",
-    "first_published": "2026-10-19T06:02:58Z",
-    "updated_at": "2026-10-19T07:35:37Z"
   },
   {
     "id": "fake-chatgpt-locks-russian-iphones",

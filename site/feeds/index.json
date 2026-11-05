@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T02:35:39Z",
+  "generated_at": "2026-11-05T03:05:38Z",
   "categories": [
     {
       "name": "AI exam fraud",
@@ -24,7 +24,7 @@
     {
       "name": "AI-assisted malware",
       "slug": "ai-assisted-malware",
-      "count": 61
+      "count": 62
     },
     {
       "name": "Agent hijack",
@@ -44,7 +44,7 @@
     {
       "name": "Deepfake fraud",
       "slug": "deepfake-fraud",
-      "count": 109
+      "count": 112
     },
     {
       "name": "LLMjacking",
@@ -64,7 +64,7 @@
     {
       "name": "State actor AI ops",
       "slug": "state-actor-ai-ops",
-      "count": 33
+      "count": 34
     }
   ],
   "countries": [
@@ -90,7 +90,7 @@
     },
     {
       "code": "BE",
-      "count": 1
+      "count": 2
     },
     {
       "code": "BR",
@@ -98,7 +98,7 @@
     },
     {
       "code": "CA",
-      "count": 8
+      "count": 9
     },
     {
       "code": "CL",
@@ -234,7 +234,7 @@
     },
     {
       "code": "NG",
-      "count": 3
+      "count": 4
     },
     {
       "code": "NL",
@@ -302,7 +302,7 @@
     },
     {
       "code": "US",
-      "count": 139
+      "count": 141
     },
     {
       "code": "UY",

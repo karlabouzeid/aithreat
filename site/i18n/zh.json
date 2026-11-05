@@ -8833,5 +8833,85 @@
     "timeline": [
       "Tampa Bay 28 报道"
     ]
+  },
+  {
+    "title": "AI 诈骗广告利用 TikTok 广告系统欺诈尼日利亚人",
+    "summary": "Premium Times 的一项调查发现，包括一则冒充 OPay 的广告在内的 AI 生成诈骗广告，正在 TikTok 上以付费推广的形式投放，目标是尼日利亚人。报道称，一名受害者、夸拉州（Kwara State）伊洛林（Ilorin）的前教师 Mohammed Yusuf 通过此类广告提交了自己的手机号码和 OPay 账户信息。记者表示，诈骗广告在该平台上依然盛行，TikTok 关于已删除广告的说法无法得到独立证实。",
+    "target": "尼日利亚的 TikTok 用户和投资者",
+    "actor": "未知",
+    "attribution": "摘要中未说明。",
+    "motive": "金融诈骗",
+    "vector": "通过 TikTok 广告平台投放的 AI 生成诈骗广告",
+    "root_cause": "诈骗广告主能够在 TikTok 广告系统中投放 AI 生成的广告。",
+    "impact": "伊洛林的 Mohammed Yusuf 等受害者遭受资金损失；总损失金额未说明。",
+    "response": "未知",
+    "id": "tiktok-ai-scam-ads-nigeria",
+    "timeline": [
+      "AI Incident Database 报道"
+    ]
+  },
+  {
+    "title": "AI 生成的炸弹威胁致佐治亚州杰克逊县和霍尔县学校停课",
+    "summary": "官员称，一系列相互关联的自动语音电话炸弹威胁似为 AI 生成，导致杰克逊县（Jackson County）六所学校接受搜查，霍尔县（Hall County）的彻罗基布拉夫高中（Cherokee Bluff High School）也曾短暂疏散。搜查未发现爆炸物或危险品。美国联邦调查局（FBI）、佐治亚州调查局（GBI）和佐治亚州应急管理局（GEMA）正在调查，并评估其他学区是否也成为目标。",
+    "target": "佐治亚州杰克逊县和霍尔县的学区",
+    "actor": "未知",
+    "attribution": "官员怀疑来源在境外；尚未点名任何行为者。",
+    "motive": "未知；这些威胁是造成混乱的恶作剧。",
+    "vector": "向学校校园发送的 AI 生成炸弹威胁。",
+    "root_cause": "合成威胁信息容易生成且难以追踪；摘要未提供更多细节。",
+    "impact": "学校疏散和全学区停课；未发现爆炸物",
+    "response": "美国联邦调查局（FBI）、佐治亚州调查局（Georgia Bureau of Investigation）和佐治亚州应急管理局（Georgia Emergency Management Agency）正在调查",
+    "id": "georgia-ai-bomb-threats-schools",
+    "timeline": [
+      "AI Incident Database 报道"
+    ]
+  },
+  {
+    "title": "Hacktron 研究人员利用 Anthropic 的 Claude 攻破 OpenAI 社区论坛，接管员工的 ChatGPT 和 Codex 账户",
+    "summary": "Hacktron 的三名研究人员（Harsh Jaiswal、Mohan Pedhapati、Rahul Maini）称，2026 年 7 月 25 日，他们在参与 OpenAI 漏洞赏金计划期间，使用 Claude 模型利用了 OpenAI 社区论坛所用 Discourse 软件中的一个漏洞。他们获取了登录令牌，借此可以接管 OpenAI 员工以及部分非关联用户的 ChatGPT 和 Codex 账户，并通过向内部代码库提交 pull request 证明了访问权限。他们称整个过程耗时不到 72 小时，且并非完全自主完成。OpenAI 已修补漏洞并撤销受影响的令牌和会话，并称未发现其他人利用该漏洞。该事件于 2026 年 9 月公开报道。",
+    "target": "OpenAI（社区论坛登录以及员工的 ChatGPT/Codex 账户）",
+    "actor": "Hacktron 研究人员（Harsh Jaiswal、Mohan Pedhapati、Rahul Maini）",
+    "attribution": "报道称其为三人小组，被描述为 AI 安全专家；标题中未给出姓名。",
+    "motive": "显然是出于道德黑客目的，意在揭露前沿实验室的安全弱点。",
+    "vector": "使用 Claude 模型发现并利用 OpenAI 系统中的弱点；具体细节未知。",
+    "root_cause": "未知",
+    "impact": "研究人员能够访问 OpenAI 员工和部分其他论坛用户的 ChatGPT 和 Codex 账户，并可能触及电子邮件、Slack 和 GitHub 等关联应用；他们称未获取任何敏感数据，OpenAI 称未发现其他人利用该漏洞。",
+    "response": "OpenAI 收窄了社区登录令牌的权限，并撤销了受影响的令牌和会话；OpenAI 和 Discourse 已修补相关漏洞；据报道研究人员获得了 6500 美元的赏金。",
+    "id": "openai-hacked-using-claude-model",
+    "timeline": [
+      "CBS News 报道"
+    ]
+  },
+  {
+    "title": "虚假 AI 专栏作者“Daniel Robson”欺骗加拿大媒体，针对摩洛哥异见人士",
+    "summary": "Türkiye Today 报道称，“Daniel Robson”是一个明显由 AI 捏造的记者身份，在加拿大媒体上发表了数十篇文章，其中包括将蒙特利尔商人 Hicham Jerando 与所谓贩毒团伙挂钩的文章。加拿大媒体已撤下这些文章。《环球邮报》（The Globe and Mail）报道称，摩洛哥情报部门涉入的嫌疑存在，但尚未得到证实。幕后操纵者身份不明。",
+    "target": "加拿大媒体机构和摩洛哥异见人士",
+    "actor": "身份不明的操纵者（据称）；怀疑摩洛哥情报部门涉入，但未经证实",
+    "attribution": "摘要中除一名土耳其“中间人”外未作说明。",
+    "motive": "针对摩洛哥异见人士",
+    "vector": "捏造的 AI 专栏作者身份向加拿大媒体投稿评论文章",
+    "root_cause": "媒体在未核实作者身份的情况下发表了文章。",
+    "impact": "加拿大媒体被欺骗而发表了该虚假身份的内容；对异见人士造成的伤害程度未说明。",
+    "response": "加拿大媒体撤下了该虚假身份撰写的文章，并称正在加强审核",
+    "id": "fake-ai-columnist-canada-moroccan-dissid",
+    "timeline": [
+      "AI Incident Database 报道"
+    ]
+  },
+  {
+    "title": "比利时王后玛蒂尔德与伊丽莎白王储遭 AI 深度伪造裸照（deepnudes）攻击",
+    "summary": "De Standaard 的一项调查报道称，出现了比利时王后玛蒂尔德（Mathilde）和王储伊丽莎白（Elisabeth）的 AI 生成色情图像与短视频，弗拉芒大区政府副首席部长 Melissa Depraetere 和前国防部长 Ludivine Dedonder 也成为受害对象。IBTimes 报道称，这些图像于 2026 年 10 月 19 日被发现，据称已在网上存在数日。比利时王宫已联系有关当局和各平台要求删除，并表示快速删除并不总是容易。Dedonder 打算提起法律诉讼。",
+    "target": "王后玛蒂尔德、王储伊丽莎白、Melissa Depraetere、Ludivine Dedonder 以及其他比利时公众女性人物",
+    "actor": "未知",
+    "attribution": "未知；标题未说明图像由谁制作或传播。",
+    "motive": "未知",
+    "vector": "针对两位王室成员的 AI 生成裸照深度伪造内容（deepnudes）",
+    "root_cause": "未知；标题未提供所用工具或传播渠道的细节。",
+    "impact": "据报道，针对王后和王储的性化虚假图像曾在网上流传。传播范围未知。",
+    "response": "比利时王宫已联系有关当局和各平台寻求删除；Dedonder 表示将提起法律诉讼。",
+    "id": "belgian-royals-deepnudes",
+    "timeline": [
+      "Soirmag 报道"
+    ]
   }
 ]

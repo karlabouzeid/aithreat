@@ -19465,6 +19465,50 @@
     "sector": "Individuals & consumers"
   },
   {
+    "id": "tiktok-ai-scam-ads-nigeria",
+    "date": "2026-07-24",
+    "title": "AI scam ads exploit TikTok advertising system to defraud Nigerians",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "NG",
+    "region": "Middle East & Africa",
+    "target": "Nigerian TikTok users and investors",
+    "loss_usd": null,
+    "summary": "A Premium Times investigation found AI-generated scam ads, including one impersonating OPay, running as paid promotions on TikTok and targeting Nigerians. The report says one victim, Mohammed Yusuf, a former teacher in Ilorin, Kwara State, submitted his phone number and OPay account details through such an ad. The reporter says scam ads remain prevalent on the platform, and TikTok's removal claims could not be independently confirmed.",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "sector": "Individuals & consumers",
+    "attribution": "Not stated in the summary.",
+    "motive": "Financial fraud",
+    "vector": "AI-generated scam advertisements served through TikTok's ad platform",
+    "root_cause": "Scam advertisers were able to place AI-generated ads on TikTok's ad system.",
+    "impact": "Victims such as Mohammed Yusuf of Ilorin lost money; total losses not stated.",
+    "response": "Unknown",
+    "status": "unresolved",
+    "cve": null,
+    "source": "AI Incident Database",
+    "url": "https://www.premiumtimesng.com/news/headlines/897605-special-report-inside-ai-scam-ads-exploiting-tiktoks-advertising-system-to-defraud-nigerians.html",
+    "sources": [
+      {
+        "name": "AI Incident Database",
+        "url": "https://www.premiumtimesng.com/news/headlines/897605-special-report-inside-ai-scam-ads-exploiting-tiktoks-advertising-system-to-defraud-nigerians.html"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-15",
+        "event": "Reported by AI Incident Database"
+      }
+    ],
+    "drafted_at": "2026-10-17T13:52:15Z",
+    "first_seen": "2026-10-17T13:52:15Z",
+    "updated_at": "2026-11-05T03:05:38Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-05T03:05:38Z"
+  },
+  {
     "id": "trend-ai-agent-pentest-pretext-sea",
     "date": "2026-07-29",
     "title": "Trend Micro: APT passes AI agent off as authorised pentest to attack Southeast Asian org",
@@ -19785,6 +19829,58 @@
       }
     ],
     "sector": "Government & public sector"
+  },
+  {
+    "id": "georgia-ai-bomb-threats-schools",
+    "date": "2026-08-14",
+    "title": "AI-generated bomb threats shut down Jackson and Hall County, Georgia schools",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "US",
+    "region": "North America",
+    "target": "Jackson and Hall County school districts, Georgia",
+    "loss_usd": null,
+    "summary": "Connected automated robocall bomb threats, which officials said appear to be AI-generated, led to searches of six Jackson County schools and a brief evacuation of Cherokee Bluff High School in Hall County. Searches found no explosives or hazards. The FBI, GBI and GEMA are investigating and assessing whether other districts were targeted.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Education & research",
+    "attribution": "Officials suspect an international source; no actor has been named.",
+    "motive": "Unknown; the threats were hoaxes causing disruption.",
+    "vector": "AI-generated bomb threats delivered to school campuses.",
+    "root_cause": "Easy generation of synthetic threat messages that are hard to trace; the summaries give no further detail.",
+    "impact": "School evacuations and district-wide closures; no explosives found",
+    "response": "FBI, Georgia Bureau of Investigation and Georgia Emergency Management Agency investigating",
+    "status": "under investigation",
+    "cve": null,
+    "source": "AI Incident Database",
+    "url": "https://www.wsbtv.com/news/local/atlanta/ai-bomb-threats-shut-down-georgia-school-district-fbi-investigating/4PGKPTQJDFBT3LKTXIQILBOI5M",
+    "sources": [
+      {
+        "name": "AI Incident Database",
+        "url": "https://www.wsbtv.com/news/local/atlanta/ai-bomb-threats-shut-down-georgia-school-district-fbi-investigating/4PGKPTQJDFBT3LKTXIQILBOI5M"
+      },
+      {
+        "name": "WSB-TV Channel 2 Atlanta",
+        "url": "https://www.wsbtv.com/news/local/atlanta/ai-bomb-threats-shut-down-georgia-school-district-fbi-investigating/4PGKPTQJDFBT3LKTXIQILBOI5M/"
+      },
+      {
+        "name": "Yahoo News",
+        "url": "https://www.yahoo.com/news/us/articles/ai-bomb-threats-shut-down-004758020.html"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-17",
+        "event": "Reported by AI Incident Database"
+      }
+    ],
+    "drafted_at": "2026-10-17T13:52:15Z",
+    "first_seen": "2026-10-17T13:52:15Z",
+    "updated_at": "2026-11-05T03:05:38Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-05T03:05:38Z"
   },
   {
     "id": "australia-nasc-albanese-deepfake-7-4m",
@@ -21503,6 +21599,58 @@
     "sector": "Individuals & consumers"
   },
   {
+    "id": "openai-hacked-using-claude-model",
+    "date": "2026-09-18",
+    "title": "Hacktron researchers use Anthropic's Claude to breach OpenAI's community forum and take over employee ChatGPT and Codex accounts",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "US",
+    "region": "North America",
+    "target": "OpenAI (community forum sign-in and employee ChatGPT/Codex accounts)",
+    "loss_usd": null,
+    "summary": "Three researchers from Hacktron (Harsh Jaiswal, Mohan Pedhapati, Rahul Maini) say that on 25 July 2026, while taking part in OpenAI's bug bounty, they used Claude models to exploit a flaw in the Discourse software behind OpenAI's community forum. They reached sign-in tokens that let them take over the ChatGPT and Codex accounts of OpenAI employees and some unaffiliated users, and they proved access with a pull request in an internal codebase. They say it took under 72 hours and was not fully autonomous. OpenAI patched and revoked affected tokens and sessions, and says it knows of no exploitation by others. Reported publicly in September 2026.",
+    "actor": "Hacktron researchers (Harsh Jaiswal, Mohan Pedhapati, Rahul Maini)",
+    "actor_type": "security researchers (authorised bug-bounty testing)",
+    "sector": "Technology & AI vendors",
+    "attribution": "Reported as a group of three people described as AI security experts; no names given in the headlines.",
+    "motive": "Apparently ethical hacking to expose frontier-lab security weaknesses.",
+    "vector": "Claude model used to find and exploit weaknesses in OpenAI systems; specifics unknown.",
+    "root_cause": "Unknown",
+    "impact": "Researchers could access ChatGPT and Codex accounts of OpenAI employees and some other forum users, with potential reach into connected apps such as email, Slack and GitHub; they say they retrieved no sensitive data, and OpenAI says it knows of no exploitation by others.",
+    "response": "OpenAI narrowed permissions on Community sign-in tokens and revoked affected tokens and sessions; OpenAI and Discourse patched the flaws; the researchers were reportedly paid a $6,500 bounty.",
+    "status": "resolved",
+    "cve": null,
+    "source": "CBS News",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1sYU85M1h2UmRpRWhzdWdqNGFrM0gycTJBR2YyMm80VU1MdTFuQUFieVFhb2hZV0tIM1RRc3RiV0JRWDJvbl9RQWNvMlRLMFJDRlg2Nm93TG0xbFZqekVVa1g4MVNtM3RFdm1OaGpJVEFRZkNGZGdmRWVfZzR6TVU?oc=5",
+    "sources": [
+      {
+        "name": "CBS News",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1sYU85M1h2UmRpRWhzdWdqNGFrM0gycTJBR2YyMm80VU1MdTFuQUFieVFhb2hZV0tIM1RRc3RiV0JRWDJvbl9RQWNvMlRLMFJDRlg2Nm93TG0xbFZqekVVa1g4MVNtM3RFdm1OaGpJVEFRZkNGZGdmRWVfZzR6TVU?oc=5"
+      },
+      {
+        "name": "CBS News",
+        "url": "https://www.cbsnews.com/news/openai-hack-anthropic-claude-vulnerabilities/"
+      },
+      {
+        "name": "Gizmodo",
+        "url": "https://gizmodo.com/three-hackers-used-claude-to-break-into-openai-in-less-than-72-hours-2000814009"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-18",
+        "event": "Reported by CBS News"
+      }
+    ],
+    "drafted_at": "2026-10-18T06:05:37Z",
+    "first_seen": "2026-10-18T06:05:37Z",
+    "updated_at": "2026-11-05T03:05:38Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-05T03:05:38Z"
+  },
+  {
     "id": "openai-school-shooting-lawsuit-failure-w",
     "date": "2026-09-21",
     "title": "British Columbia sues OpenAI and Sam Altman, alleging ChatGPT account flagged internally was not reported to police before Tumbler Ridge school shooting",
@@ -21737,6 +21885,58 @@
       }
     ],
     "sector": "Multiple / cross-sector"
+  },
+  {
+    "id": "fake-ai-columnist-canada-moroccan-dissid",
+    "date": "2026-09-29",
+    "title": "Fake AI columnist 'Daniel Robson' dupes Canadian press to target Moroccan dissidents",
+    "category": "State actor AI ops",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "CA",
+    "region": "North America",
+    "target": "Canadian media outlets and Moroccan dissidents",
+    "loss_usd": null,
+    "summary": "Türkiye Today reported that 'Daniel Robson', an apparently AI-fabricated journalist persona, placed dozens of articles in Canadian outlets, including pieces tying Montreal businessman Hicham Jerando to an alleged drug ring. Canadian outlets have taken down the articles. The Globe and Mail reports that Moroccan intelligence involvement is suspected but not proven. The operators are unidentified.",
+    "actor": "Unidentified operators (alleged); Moroccan intelligence involvement suspected but unproven",
+    "actor_type": "unknown",
+    "sector": "Media & entertainment",
+    "attribution": "Not stated in the summary beyond a Turkish 'middleman'.",
+    "motive": "Targeting Moroccan dissidents",
+    "vector": "Fabricated AI columnist persona submitting opinion pieces to Canadian outlets",
+    "root_cause": "Outlets published pieces without verifying the author's identity.",
+    "impact": "Canadian outlets were duped into publishing the persona's content; extent of harm to dissidents is not stated.",
+    "response": "Canadian outlets removed the articles written by the persona and said they are tightening vetting",
+    "status": "under investigation",
+    "cve": null,
+    "source": "AI Incident Database",
+    "url": "https://www.turkiyetoday.com/world/exclusivefake-ai-columnist-dupes-canadian-press-to-target-moroccan-dissidents-and-a-t-3229120",
+    "sources": [
+      {
+        "name": "AI Incident Database",
+        "url": "https://www.turkiyetoday.com/world/exclusivefake-ai-columnist-dupes-canadian-press-to-target-moroccan-dissidents-and-a-t-3229120"
+      },
+      {
+        "name": "The Globe and Mail",
+        "url": "https://www.theglobeandmail.com/world/article-ai-suspected-of-writing-dozens-of-articles-in-canadian-publications/"
+      },
+      {
+        "name": "The Hill Times",
+        "url": "https://www.hilltimes.com/2026/10/07/make-sure-this-doesnt-happen-again-editors-work-to-tighten-vetting-as-experts-warn-daniel-robson-persona-wont-be-the-last-ai-deception/521023/"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-15",
+        "event": "Reported by AI Incident Database"
+      }
+    ],
+    "drafted_at": "2026-10-17T13:52:15Z",
+    "first_seen": "2026-10-17T13:52:15Z",
+    "updated_at": "2026-11-05T03:05:38Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-05T03:05:38Z"
   },
   {
     "id": "ai-agents-probe-us-canada-gov-sites",
@@ -24430,6 +24630,58 @@
     "verification": "reported",
     "review": "auto",
     "verified_at": "2026-11-04T21:35:41Z"
+  },
+  {
+    "id": "belgian-royals-deepnudes",
+    "date": "2026-10-19",
+    "title": "Queen Mathilde and Princess Elisabeth of Belgium targeted by AI deepnudes",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "BE",
+    "region": "Europe",
+    "target": "Queen Mathilde, Crown Princess Elisabeth, Melissa Depraetere, Ludivine Dedonder and other Belgian women in public life",
+    "loss_usd": null,
+    "summary": "A De Standaard investigation reported AI-generated pornographic images and short videos of Queen Mathilde and Crown Princess Elisabeth of Belgium, and also of Flemish Vice-Minister-President Melissa Depraetere and former defence minister Ludivine Dedonder. IBTimes reports the images were discovered on 19 October 2026 and had reportedly been online for days. The Royal Palace has contacted the authorities and platforms to get them removed, and says quick removal is not always easy. Dedonder intends to file a legal complaint.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Individuals & consumers",
+    "attribution": "Unknown; the headline does not name who made or spread the images.",
+    "motive": "Unknown",
+    "vector": "AI-generated nude deepfakes (deepnudes) of the two royals",
+    "root_cause": "Unknown; the headline gives no detail on the tools or distribution channel.",
+    "impact": "Sexualised fake images of the Queen and the Princess reportedly circulated. Extent of spread unknown.",
+    "response": "The Royal Palace contacted the authorities and platforms to seek removal; Dedonder says she will file a legal complaint.",
+    "status": "unresolved",
+    "cve": null,
+    "source": "Soirmag",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPV3B1Y05VWkRlN3h0bXkyRV90emVEUHFZNUl0anpUaHVPMGRKRHJVeHQ3blZGN3BNTzZXSktaVjl6YXU4TGkwalZBR3RaZUw4aXg5LVFHc09tM19Sd2VKV2E0UDI2cXl5eUhRQUNDTVpRaF8tcENZNXc2Wlp3OE9tM045bFhsU2FrQnNjMk5FX2JYNE9YLWFZZUxHRk1FSTJoQk1FTUFWbmQ4MzRZOUJqekZTaFNSX2M?oc=5",
+    "sources": [
+      {
+        "name": "Soirmag",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPV3B1Y05VWkRlN3h0bXkyRV90emVEUHFZNUl0anpUaHVPMGRKRHJVeHQ3blZGN3BNTzZXSktaVjl6YXU4TGkwalZBR3RaZUw4aXg5LVFHc09tM19Sd2VKV2E0UDI2cXl5eUhRQUNDTVpRaF8tcENZNXc2Wlp3OE9tM045bFhsU2FrQnNjMk5FX2JYNE9YLWFZZUxHRk1FSTJoQk1FTUFWbmQ4MzRZOUJqekZTaFNSX2M?oc=5"
+      },
+      {
+        "name": "IBTimes UK",
+        "url": "https://www.ibtimes.co.uk/belgian-royals-politicians-targeted-nude-deepfakes-1826604"
+      },
+      {
+        "name": "21news.be",
+        "url": "https://www.21news.be/la-reine-mathilde-et-la-princesse-elisabeth-victimes-de-faux-contenus-pornographiques/"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-19",
+        "event": "Reported by Soirmag"
+      }
+    ],
+    "drafted_at": "2026-10-19T07:35:37Z",
+    "first_seen": "2026-10-19T07:35:37Z",
+    "updated_at": "2026-11-05T03:05:38Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-05T03:05:38Z"
   },
   {
     "id": "wiz-llmjacking-cloud-billing-ads",

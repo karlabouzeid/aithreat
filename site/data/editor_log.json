@@ -950,5 +950,69 @@
     "reason": "Wiz's post is dated 2026-04-20 and describes the Context.ai compromise that led to the Vercel breach, the same event as the known case vercel-context-ai.",
     "duplicate_of": "vercel-context-ai",
     "at": "2026-11-05T02:35:39Z"
+  },
+  {
+    "id": "prt-scan-ai-pull-request-target-campaign",
+    "title": "prt-scan: AI-powered campaign exploits pull_request_target across six accounts",
+    "decision": "reject",
+    "reason": "The Wiz post (published 2026-04-04) analyses the same prt-scan pull_request_target campaign disclosed on 2026-04-02, which is already known, and the draft date of 2026-10-16 is wrong.",
+    "duplicate_of": "prt-scan-supply-chain-campaign",
+    "at": "2026-11-05T03:05:38Z"
+  },
+  {
+    "id": "georgia-ai-bomb-threats-schools",
+    "title": "AI-generated bomb threats shut down Jackson and Hall County, Georgia schools",
+    "decision": "approve",
+    "reason": "WSB-TV and Yahoo News confirm connected AI-generated robocall bomb threats to Jackson and Hall County schools under FBI/GBI investigation, but the event date was 2026-08-14, not 2026-10-17.",
+    "duplicate_of": null,
+    "at": "2026-11-05T03:05:38Z"
+  },
+  {
+    "id": "tiktok-ai-scam-ads-nigeria",
+    "title": "AI scam ads exploit TikTok advertising system to defraud Nigerians",
+    "decision": "approve",
+    "reason": "Premium Times' investigative special report documents AI-generated scam ads running as paid TikTok promotions in Nigeria, but it was published 2026-07-24 and the draft misstates the victim's story.",
+    "duplicate_of": null,
+    "at": "2026-11-05T03:05:38Z"
+  },
+  {
+    "id": "fake-ai-columnist-canada-moroccan-dissid",
+    "title": "Fake AI columnist 'Daniel Robson' dupes Canadian press to target Moroccan dissidents",
+    "decision": "approve",
+    "reason": "Türkiye Today exposed the persona and the Globe and Mail and Hill Times independently report it, but the first report was 2026-09-29 and the Moroccan-intelligence link is only suspected.",
+    "duplicate_of": null,
+    "at": "2026-11-05T03:05:38Z"
+  },
+  {
+    "id": "china-ai-face-voice-swap-fraud-cases",
+    "title": "Chinese police break AI face-swap and voice-clone fraud cases worth 500M yuan",
+    "decision": "reject",
+    "reason": "The '500M yuan' figure is a national aggregate (300+ AI face-swap fraud cases, relayed via Economic Observer from a Sept 2026 Ministry of Public Security briefing), not a specific incident, and I found no primary report of the multi-locality police operation described.",
+    "duplicate_of": null,
+    "at": "2026-11-05T03:05:38Z"
+  },
+  {
+    "id": "openai-hacked-using-claude-model",
+    "title": "Three hackers breach OpenAI using rival Anthropic's Claude model",
+    "decision": "approve",
+    "reason": "CBS News and Gizmodo (citing the WSJ and Hacktron's own report) confirm that Hacktron researchers used Claude models to exploit a Discourse flaw in OpenAI's community forum and take over employee ChatGPT/Codex accounts; the draft's date was wrong, and the hack itself was in July.",
+    "duplicate_of": null,
+    "at": "2026-11-05T03:05:38Z"
+  },
+  {
+    "id": "liege-fake-bank-app-iphone-scam",
+    "title": "Liège iPhone seller targeted with AI-made fake banking app as proof of payment",
+    "decision": "wait",
+    "reason": "I could not open the Sudinfo link or find any independent report of this Liège seller or the AI-made fake banking app, so the event is unconfirmed.",
+    "duplicate_of": null,
+    "at": "2026-11-05T03:05:38Z"
+  },
+  {
+    "id": "belgian-royals-deepnudes",
+    "title": "Queen Mathilde and Princess Elisabeth of Belgium targeted by AI deepnudes",
+    "decision": "approve",
+    "reason": "IBTimes UK and 21news.be, drawing on a De Standaard investigation, confirm AI-generated sexual deepfakes of Queen Mathilde, Princess Elisabeth and Belgian female politicians, and it is not a known case.",
+    "duplicate_of": null,
+    "at": "2026-11-05T03:05:38Z"
   }
 ]

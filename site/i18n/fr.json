@@ -8833,5 +8833,85 @@
     "timeline": [
       "Signalé par Tampa Bay 28"
     ]
+  },
+  {
+    "title": "Des publicités frauduleuses générées par IA exploitent le système publicitaire de TikTok pour escroquer des Nigérians",
+    "summary": "Une enquête de Premium Times a mis au jour des publicités frauduleuses générées par IA, dont l'une usurpe l'identité d'OPay, diffusées sous forme de promotions payantes sur TikTok et ciblant des Nigérians. Selon le rapport, une victime, Mohammed Yusuf, ancien enseignant à Ilorin, dans l'État de Kwara, a transmis son numéro de téléphone et les identifiants de son compte OPay via une publicité de ce type. Le journaliste indique que les publicités frauduleuses restent très répandues sur la plateforme et que les affirmations de TikTok concernant leur retrait n'ont pas pu être confirmées de manière indépendante.",
+    "target": "Utilisateurs et investisseurs nigérians de TikTok",
+    "actor": "Inconnu",
+    "attribution": "Non précisé dans le résumé.",
+    "motive": "Fraude financière",
+    "vector": "Publicités frauduleuses générées par IA diffusées via la plateforme publicitaire de TikTok",
+    "root_cause": "Des annonceurs malveillants ont pu placer des publicités générées par IA dans le système publicitaire de TikTok.",
+    "impact": "Des victimes, telles que Mohammed Yusuf, d'Ilorin, ont perdu de l'argent ; le total des pertes n'est pas précisé.",
+    "response": "Inconnue",
+    "id": "tiktok-ai-scam-ads-nigeria",
+    "timeline": [
+      "Signalé par AI Incident Database"
+    ]
+  },
+  {
+    "title": "Des alertes à la bombe générées par IA paralysent des écoles des comtés de Jackson et de Hall, en Géorgie",
+    "summary": "Une série d'alertes à la bombe automatisées par appels robotisés, qui semblent avoir été générées par IA selon les autorités, ont conduit à la fouille de six écoles du comté de Jackson et à l'évacuation brève du lycée Cherokee Bluff, dans le comté de Hall. Les fouilles n'ont révélé ni explosifs ni danger. Le FBI, le GBI et la GEMA enquêtent et cherchent à déterminer si d'autres districts scolaires ont été visés.",
+    "target": "Districts scolaires des comtés de Jackson et de Hall, en Géorgie",
+    "actor": "Inconnu",
+    "attribution": "Les autorités soupçonnent une origine internationale ; aucun acteur n'a été nommé.",
+    "motive": "Inconnu ; les menaces étaient des canulars provoquant des perturbations.",
+    "vector": "Alertes à la bombe générées par IA transmises aux établissements scolaires.",
+    "root_cause": "Facilité de génération de messages de menace synthétiques difficiles à tracer ; les résumés ne donnent pas plus de détails.",
+    "impact": "Évacuations d'écoles et fermetures à l'échelle des districts ; aucun explosif découvert",
+    "response": "Enquête menée par le FBI, le Georgia Bureau of Investigation et la Georgia Emergency Management Agency",
+    "id": "georgia-ai-bomb-threats-schools",
+    "timeline": [
+      "Signalé par AI Incident Database"
+    ]
+  },
+  {
+    "title": "Des chercheurs de Hacktron utilisent Claude d'Anthropic pour pénétrer le forum communautaire d'OpenAI et prendre le contrôle de comptes ChatGPT et Codex d'employés",
+    "summary": "Trois chercheurs de Hacktron (Harsh Jaiswal, Mohan Pedhapati, Rahul Maini) affirment que, le 25 juillet 2026, alors qu'ils participaient au programme de bug bounty d'OpenAI, ils ont utilisé des modèles Claude pour exploiter une faille du logiciel Discourse qui sous-tend le forum communautaire d'OpenAI. Ils ont obtenu des jetons de connexion leur permettant de prendre le contrôle des comptes ChatGPT et Codex d'employés d'OpenAI et de certains utilisateurs non affiliés, et ils ont prouvé leur accès au moyen d'une pull request dans une base de code interne. Ils indiquent que l'opération a pris moins de 72 heures et n'était pas entièrement autonome. OpenAI a corrigé la faille et révoqué les jetons et sessions concernés, et affirme n'avoir connaissance d'aucune exploitation par des tiers. L'affaire a été rendue publique en septembre 2026.",
+    "target": "OpenAI (connexion au forum communautaire et comptes ChatGPT/Codex d'employés)",
+    "actor": "Chercheurs de Hacktron (Harsh Jaiswal, Mohan Pedhapati, Rahul Maini)",
+    "attribution": "Signalé comme un groupe de trois personnes décrites comme des experts en sécurité de l'IA ; aucun nom n'est donné dans les titres.",
+    "motive": "Apparemment du hacking éthique visant à mettre en évidence les faiblesses de sécurité des laboratoires d'IA de pointe.",
+    "vector": "Modèle Claude utilisé pour trouver et exploiter des faiblesses dans les systèmes d'OpenAI ; détails inconnus.",
+    "root_cause": "Inconnue",
+    "impact": "Les chercheurs ont pu accéder aux comptes ChatGPT et Codex d'employés d'OpenAI et de certains autres utilisateurs du forum, avec une portée potentielle sur des applications connectées telles que la messagerie, Slack et GitHub ; ils affirment n'avoir récupéré aucune donnée sensible, et OpenAI déclare n'avoir connaissance d'aucune exploitation par des tiers.",
+    "response": "OpenAI a restreint les permissions des jetons de connexion de Community et révoqué les jetons et sessions concernés ; OpenAI et Discourse ont corrigé les failles ; les chercheurs auraient perçu une prime de 6 500 $.",
+    "id": "openai-hacked-using-claude-model",
+    "timeline": [
+      "Signalé par CBS News"
+    ]
+  },
+  {
+    "title": "Le faux chroniqueur généré par IA « Daniel Robson » dupe la presse canadienne pour cibler des dissidents marocains",
+    "summary": "Türkiye Today a rapporté que « Daniel Robson », un personnage de journaliste apparemment fabriqué par IA, a fait publier des dizaines d'articles dans des médias canadiens, dont des textes liant l'homme d'affaires montréalais Hicham Jerando à un présumé réseau de trafic de drogue. Les médias canadiens ont retiré les articles. Le Globe and Mail indique qu'une implication des services de renseignement marocains est soupçonnée mais non prouvée. Les opérateurs n'ont pas été identifiés.",
+    "target": "Médias canadiens et dissidents marocains",
+    "actor": "Opérateurs non identifiés (présumés) ; implication des services de renseignement marocains soupçonnée mais non prouvée",
+    "attribution": "Non précisé dans le résumé, hormis un « intermédiaire » turc.",
+    "motive": "Cibler des dissidents marocains",
+    "vector": "Faux personnage de chroniqueur généré par IA soumettant des textes d'opinion à des médias canadiens",
+    "root_cause": "Les médias ont publié des textes sans vérifier l'identité de l'auteur.",
+    "impact": "Des médias canadiens ont été dupés et ont publié le contenu du personnage ; l'ampleur du préjudice subi par les dissidents n'est pas précisée.",
+    "response": "Les médias canadiens ont retiré les articles rédigés par le personnage et ont déclaré renforcer leurs procédures de vérification",
+    "id": "fake-ai-columnist-canada-moroccan-dissid",
+    "timeline": [
+      "Signalé par AI Incident Database"
+    ]
+  },
+  {
+    "title": "La reine Mathilde et la princesse Élisabeth de Belgique visées par des deepnudes générés par IA",
+    "summary": "Une enquête de De Standaard a fait état d'images pornographiques et de courtes vidéos générées par IA représentant la reine Mathilde et la princesse héritière Élisabeth de Belgique, ainsi que la vice-ministre-présidente flamande Melissa Depraetere et l'ancienne ministre de la Défense Ludivine Dedonder. Selon IBTimes, les images ont été découvertes le 19 octobre 2026 et seraient en ligne depuis plusieurs jours. Le Palais royal a contacté les autorités et les plateformes afin de les faire retirer, et précise qu'un retrait rapide n'est pas toujours aisé. Mme Dedonder entend déposer plainte.",
+    "target": "La reine Mathilde, la princesse héritière Élisabeth, Melissa Depraetere, Ludivine Dedonder et d'autres femmes belges engagées dans la vie publique",
+    "actor": "Inconnu",
+    "attribution": "Inconnue ; le titre ne nomme pas l'auteur de la création ou de la diffusion des images.",
+    "motive": "Inconnu",
+    "vector": "Deepfakes de nudité générés par IA (deepnudes) des deux membres de la famille royale",
+    "root_cause": "Inconnue ; le titre ne donne aucun détail sur les outils utilisés ni sur le canal de diffusion.",
+    "impact": "Des images truquées sexualisées de la reine et de la princesse auraient circulé. L'ampleur de la diffusion est inconnue.",
+    "response": "Le Palais royal a contacté les autorités et les plateformes pour demander le retrait des contenus ; Mme Dedonder indique qu'elle déposera plainte.",
+    "id": "belgian-royals-deepnudes",
+    "timeline": [
+      "Information rapportée par Soirmag"
+    ]
   }
 ]
