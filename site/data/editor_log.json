@@ -1174,5 +1174,69 @@
     "reason": "Spectrum News, Patch and Center Square confirm the NY Democratic Party complaint over Blakeman's AI depictions of Gov. Hochul. It was filed on 10 August, not 24 October, and the target is Hochul rather than Democratic candidates in general.",
     "duplicate_of": null,
     "at": "2026-11-05T04:35:40Z"
+  },
+  {
+    "id": "ky-dembo-pac-ai-attack-ad",
+    "title": "Dembo campaign says Trump-linked PAC used undisclosed AI in attack ad",
+    "decision": "approve",
+    "reason": "Forward Kentucky and Axios confirm the Dembo campaign's allegation that the No Going Back PAC ad used AI-generated images of Dembo without the disclosure Kentucky law requires, though the allegation is unproven; the draft date was wrong (reported 2026-09-22).",
+    "duplicate_of": null,
+    "at": "2026-11-05T05:05:39Z"
+  },
+  {
+    "id": "paxton-sues-openai-chatgpt-suicide",
+    "title": "Texas AG Paxton sues OpenAI and Altman over ChatGPT suicide claims",
+    "decision": "approve",
+    "reason": "Texas Tribune, USA Today, Fox 4 and others confirm Paxton sued OpenAI and Sam Altman on 2026-10-23 over ChatGPT safety and child protection; this is a distinct state suit from the Florida and eight-state cases, and the allegations are unproven.",
+    "duplicate_of": null,
+    "at": "2026-11-05T05:05:39Z"
+  },
+  {
+    "id": "eaton-county-ai-deputy-photo-scam",
+    "title": "Eaton County Sheriff warns of scam using AI-generated deputy photos and Bitcoin demands",
+    "decision": "approve",
+    "reason": "WILX and WNEM report the Eaton County Sheriff's 2026-10-24 Facebook warning about spoofed-number calls paired with AI-generated deputy images demanding Bitcoin-ATM payments; no victims or losses are stated, and it is not the known Osceola case.",
+    "duplicate_of": null,
+    "at": "2026-11-05T05:05:39Z"
+  },
+  {
+    "id": "fake-jagmeet-singh-arrest-ads-x-scam",
+    "title": "Fake Jagmeet Singh 'arrest' ads on X lead to trading scam targeting Canadians",
+    "decision": "approve",
+    "reason": "Now Toronto (published 2026-10-20) and Yahoo Finance Canada report AI-generated fake 'arrest' images of Jagmeet Singh in ads on X leading to a fake 'Groman Pro' AI trading scam; the draft date was wrong.",
+    "duplicate_of": null,
+    "at": "2026-11-05T05:05:39Z"
+  },
+  {
+    "id": "china-ai-video-fake-death-fraud",
+    "title": "Man uses AI video and fake 'father's death' story to defraud friends of 1.7M yuan",
+    "decision": "approve",
+    "reason": "Shanghai Putuo police case reported by The Paper and 21st Century Business Herald: a suspect surnamed Jiang used an AI-generated video of his ill father and a fake death story to take over 1.7M yuan from friends, and has been detained for fraud.",
+    "duplicate_of": null,
+    "at": "2026-11-05T05:05:39Z"
+  },
+  {
+    "id": "ai-generated-son-photo-scam-pesos",
+    "title": "Woman scammed of nearly a million pesos with AI-generated photo of her son",
+    "decision": "approve",
+    "reason": "Infobae and other Argentine outlets independently report a 67-year-old woman who transferred 920,000 pesos to a scammer posing as her son with an AI-altered photo; she filed a complaint with the Cybercrime Department.",
+    "duplicate_of": null,
+    "at": "2026-11-05T05:05:39Z"
+  },
+  {
+    "id": "ispsystem-vmmanager-ai-attack",
+    "title": "ISPsystem repels large-scale AI attack on VMmanager of Russian providers",
+    "decision": "approve",
+    "reason": "CNews, Computerra, CISOClub and Habr report ISPsystem closing a zero-day in VMmanager 6 Hosting exploited in a large attack on provider FirstVDS, with ISPsystem and Kaspersky saying AI was actively used and the malware was AI-written.",
+    "duplicate_of": null,
+    "at": "2026-11-05T05:05:39Z"
+  },
+  {
+    "id": "ai-aided-pentester-90-orgs-8m-records",
+    "title": "Former pentester reportedly uses AI to breach 90 organizations, 8.2M records",
+    "decision": "reject",
+    "reason": "Same event as the already known Seoul police arrests of a ring that used generative AI to hack about 90 firms and steal about 8.2M records (MLex, 27 Oct 2026).",
+    "duplicate_of": "korea-genai-hacking-8m-records-arrest",
+    "at": "2026-11-05T05:05:39Z"
   }
 ]

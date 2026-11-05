@@ -9105,5 +9105,117 @@
     "timeline": [
       "Techora.ru 报道"
     ]
+  },
+  {
+    "title": "Dembo 竞选团队指称与特朗普有关联的 PAC 在肯塔基州攻击广告中使用未披露的 AI",
+    "summary": "民主党人 Zach Dembo（肯塔基州第 6 选区）的竞选团队指称，与特朗普有关联的 No Going Back PAC 制作了一则攻击广告，使用了经 AI 篡改的 Dembo 图像，却没有按肯塔基州法律要求进行 AI 披露，并称将要求该 PAC 撤下该广告。Axios 另行报道称，该广告包含 AI 生成的 Dembo 深度伪造内容。违法指控尚未得到证实。",
+    "target": "Dembo 竞选团队（肯塔基州）",
+    "actor": "No Going Back PAC（与特朗普有关联，系指控）",
+    "attribution": "由 Dembo 竞选团队指控；摘要中未给出该 PAC 的回应。",
+    "motive": "对候选人进行政治攻击。",
+    "vector": "未按法律要求披露的 AI 生成或 AI 篡改攻击广告。",
+    "root_cause": "被指控未按肯塔基州法律要求披露 AI 的使用。",
+    "impact": "被指控为具有误导性的政治广告；未报告具体损失。",
+    "response": "竞选团队组织者计划将此事提交有关部门（摘要被截断）。",
+    "id": "ky-dembo-pac-ai-attack-ad",
+    "timeline": [
+      "据 AI Incident Database 报道"
+    ]
+  },
+  {
+    "title": "X 上出现虚假 Jagmeet Singh“被捕”广告，引向针对加拿大人的交易骗局",
+    "summary": "据报道，大量 AI 生成的图像和仿新闻式虚假广告正充斥 X，画面显示前新民主党（NDP）党魁 Jagmeet Singh 被捕或拿着一个旅行袋，点击后会跳转到一个名为 Groman Pro 的虚假“AI 驱动”交易平台，目标是加拿大人的积蓄。该具体行动未给出受害者人数或损失金额。",
+    "target": "加拿大投资者和储户",
+    "actor": "未知",
+    "attribution": "未知；标题未点明这些广告的运营者。",
+    "motive": "通过交易骗局牟取经济利益。",
+    "vector": "在 X 上投放付费社交媒体广告，冒充有关公众人物的新闻，并引向欺诈性交易网站。",
+    "root_cause": "未知；摘要未说明这些广告如何通过 X 的广告审核。",
+    "impact": "加拿大人的积蓄成为目标；受害者人数和损失金额未知。",
+    "response": "未知",
+    "id": "fake-jagmeet-singh-arrest-ads-x-scam",
+    "timeline": [
+      "据 Yahoo! Finance Canada 报道"
+    ]
+  },
+  {
+    "title": "德州总检察长 Paxton 就 ChatGPT 涉嫌儿童安全失职起诉 OpenAI 和 Altman",
+    "summary": "德克萨斯州总检察长 Ken Paxton 在科林县（Collin County）地区法院起诉 OpenAI 和 Sam Altman，指控其欺骗德州民众有关 ChatGPT 的安全性并未能保护儿童，违反了德克萨斯州《欺骗性贸易行为法》（Deceptive Trade Practices Act）和《SCOPE 法案》（SCOPE Act）。Dallas Express 的报道称，该诉讼援引了自杀相关主张，并寻求禁止德州未成年人使用 ChatGPT。上述指控尚未得到证实。",
+    "target": "使用 ChatGPT 的德州儿童和青少年",
+    "actor": "OpenAI（ChatGPT）",
+    "attribution": "据 Dallas Express 报道，指控由德克萨斯州总检察长在诉讼中提出；法院尚未作出裁决。",
+    "motive": "不适用；该产品被指加剧了自杀风险。",
+    "vector": "年轻用户与 ChatGPT 聊天机器人之间被指控的互动。",
+    "root_cause": "根据该州的主张，ChatGPT 被指防护措施不足；标题未给出细节。",
+    "impact": "该州指控该聊天机器人导致了自杀事件；标题未说明受害者人数。",
+    "response": "德州总检察长已对 OpenAI 和 Altman 提起诉讼，并寻求禁止德州儿童使用 ChatGPT。",
+    "id": "paxton-sues-openai-chatgpt-suicide",
+    "timeline": [
+      "据 Dallas Express 报道"
+    ]
+  },
+  {
+    "title": "伊顿县警长警告：骗局使用 AI 生成的副警长照片并索要比特币",
+    "summary": "密歇根州伊顿县（Eaton County）警长 Tom Reich 警告称，骗子使用伪造的本地号码来电，有时还会发送 AI 生成的虚假副警长站在加密货币机器旁的图像，诱导受害者将钱存入比特币 ATM 机。警长办公室表示，副警长绝不会通过电话索要付款。受害者人数和损失金额未说明。",
+    "target": "伊顿县居民（骗子冒充警长副手）",
+    "actor": "未知",
+    "attribution": "未知；警长办公室发布了警告，未点名任何嫌疑人。",
+    "motive": "通过索要比特币付款牟取经济利益",
+    "vector": "使用 AI 生成的照片冒充副警长，并要求以比特币付款",
+    "root_cause": "可轻易制作出逼真的 AI 生成警察图像，再加上公众对执法部门的信任。",
+    "impact": "未知；标题未给出受害者人数或损失金额。",
+    "response": "伊顿县警长就该骗局发布了公开警告。",
+    "id": "eaton-county-ai-deputy-photo-scam",
+    "timeline": [
+      "据 WILX 报道"
+    ]
+  },
+  {
+    "title": "上海一男子利用 AI 生成的父亲病重视频和编造的“父亲去世”故事，骗取朋友 170 多万元",
+    "summary": "上海普陀警方称，一名姓 Jiang 的男子自 2019 年起，以投资、购房和公司资金周转等理由向朋友借钱。后来他谎称父亲患癌并已去世，还发布了一段 AI 生成的父亲重病卧床的视频，以使这一说法更可信。涉案金额总计超过 170 万元，据称全部亏损在股市中。他已因涉嫌诈骗被刑事拘留，案件正在进一步调查中。",
+    "target": "嫌疑人的同学和朋友",
+    "actor": "姓 Jiang 的男子（嫌疑人，已被拘留）",
+    "attribution": "中国媒体报道（手机新浪网）描述的是一名男子单独作案；未给出正式归因。",
+    "motive": "经济利益",
+    "vector": "以 AI 生成的视频佐证虚假的亲人去世故事，针对身边熟人行骗。",
+    "root_cause": "受害者信任身边的熟人和 AI 制作的视频内容；没有任何核实环节。",
+    "impact": "据报道，朋友们被骗金额合计 170 万元。标题称这笔钱已损失。",
+    "response": "未知；标题未提及警方或法院的任何处置。",
+    "id": "china-ai-video-fake-death-fraud",
+    "timeline": [
+      "由手机新浪网报道"
+    ]
+  },
+  {
+    "title": "阿根廷 67 岁女性被冒充其儿子的骗子用 AI 篡改的照片骗走 92 万比索",
+    "summary": "阿根廷一名 67 岁女性向一名骗子转账 92 万比索。该骗子在 WhatsApp 上冒充她的儿子，并使用 AI 篡改的儿子照片来骗取她的信任。家人发现消息中的表达方式与她儿子平时不同，从而识破了骗局。她已向网络犯罪部门报案，并要求调查收款银行账户；责任人尚未查明。",
+    "target": "个人，一名 67 岁的女性（母亲）",
+    "actor": "身份不明的骗子",
+    "attribution": "未知；标题未点名诈骗者。",
+    "motive": "经济利益",
+    "vector": "利用 AI 生成的受害者儿子的照片，诱骗其付款",
+    "root_cause": "未知",
+    "impact": "受害者损失近 100 万比索（原文未说明货币和国家）。",
+    "response": "未知",
+    "id": "ai-generated-son-photo-scam-pesos",
+    "timeline": [
+      "由 Diario TAG 报道"
+    ]
+  },
+  {
+    "title": "ISPsystem 修复 VMmanager 6 零日漏洞，该漏洞曾被用于针对俄罗斯托管服务商 FirstVDS 的大规模攻击，据称攻击中大量使用了 AI",
+    "summary": "虚拟化平台 VMmanager 的开发商 ISPsystem 于 2026 年 10 月 27 日宣布，已修复 VMmanager 6 Hosting 版本中的一个零日漏洞（HTTP 请求走私）。该漏洞曾被用于针对俄罗斯托管服务商 FirstVDS 的大规模攻击，使用户数据面临风险，其中可能包括 SSH 密钥、密码和云访问令牌。ISPsystem 的分析称，此次攻击大量使用了 AI；协助调查的卡巴斯基（Kaspersky）表示，该恶意软件是借助 AI 编写的。ISPsystem 已发布安全更新，并与 Kaspersky 一起检查了客户的基础设施。",
+    "target": "运行 ISPsystem VMmanager 6 Hosting 的 FirstVDS（俄罗斯托管服务商）",
+    "actor": "未知",
+    "attribution": "未知；标题未点名攻击者。",
+    "motive": "未知",
+    "vector": "针对 VMmanager 的 AI 辅助攻击；具体手法未说明。",
+    "root_cause": "未知；文中未说明。",
+    "impact": "未知；标题称攻击已被化解。",
+    "response": "据报道，ISPsystem 已化解此次攻击。",
+    "id": "ispsystem-vmmanager-ai-attack",
+    "timeline": [
+      "由 Techora.ru 报道"
+    ]
   }
 ]

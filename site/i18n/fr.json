@@ -9105,5 +9105,117 @@
     "timeline": [
       "Signalé par Techora.ru"
     ]
+  },
+  {
+    "title": "La campagne de Dembo accuse un PAC proche de Trump d'avoir utilisé de l'IA sans le signaler dans une publicité d'attaque au Kentucky",
+    "summary": "La campagne du démocrate Zach Dembo (6e circonscription du Kentucky) affirme que le PAC No Going Back, proche de Trump, a réalisé une publicité d'attaque à partir d'images de Dembo manipulées par IA, sans la mention d'utilisation de l'IA qu'exige la loi du Kentucky, et indique qu'elle demandera au PAC de retirer la publicité. Axios a par ailleurs rapporté que la publicité contient des deepfakes de Dembo générés par IA. L'allégation de violation de la loi n'est pas prouvée.",
+    "target": "Campagne de Dembo (Kentucky)",
+    "actor": "PAC No Going Back (proche de Trump, présumé)",
+    "attribution": "Allégation de la campagne de Dembo ; la réponse du PAC n'est pas indiquée dans le résumé.",
+    "motive": "Attaque politique contre un candidat.",
+    "vector": "Publicité d'attaque générée ou altérée par IA, sans la mention légale obligatoire.",
+    "root_cause": "Défaut présumé de signalement de l'usage de l'IA, pourtant exigé par la loi du Kentucky.",
+    "impact": "Publicité politique trompeuse présumée ; aucune perte précise signalée.",
+    "response": "Les organisateurs de la campagne prévoient de saisir les autorités (le résumé est tronqué).",
+    "id": "ky-dembo-pac-ai-attack-ad",
+    "timeline": [
+      "Signalé par l'AI Incident Database"
+    ]
+  },
+  {
+    "title": "De fausses publicités sur X annonçant l'« arrestation » de Jagmeet Singh mènent à une arnaque au trading visant des Canadiens",
+    "summary": "Des images générées par IA et de fausses publicités au style journalistique montrant l'ancien chef du NPD Jagmeet Singh en train d'être arrêté ou de manipuler un sac de sport inonderaient X ; les clics mènent à une fausse plateforme de trading « propulsée par l'IA » baptisée Groman Pro, qui cible l'épargne des Canadiens. Aucun nombre de victimes ni aucun chiffre de pertes n'est indiqué pour cette campagne précise.",
+    "target": "Investisseurs et épargnants canadiens",
+    "actor": "Inconnu",
+    "attribution": "Inconnue ; le titre ne nomme pas les opérateurs des publicités.",
+    "motive": "Gain financier au moyen d'une arnaque au trading.",
+    "vector": "Publicités payantes sur le réseau social X, se faisant passer pour des informations sur une personnalité publique, et menant à un site de trading frauduleux.",
+    "root_cause": "Inconnue ; le résumé ne décrit pas comment les publicités ont franchi la vérification publicitaire de X.",
+    "impact": "L'épargne des Canadiens est visée ; le nombre de victimes et le montant perdu sont inconnus.",
+    "response": "Inconnue",
+    "id": "fake-jagmeet-singh-arrest-ads-x-scam",
+    "timeline": [
+      "Signalé par Yahoo! Finance Canada"
+    ]
+  },
+  {
+    "title": "Le procureur général du Texas, Ken Paxton, poursuit OpenAI et Sam Altman pour de présumées défaillances de ChatGPT en matière de protection des enfants",
+    "summary": "Le procureur général du Texas, Ken Paxton, a poursuivi OpenAI et Sam Altman devant le tribunal de district du comté de Collin, en alléguant des violations du Texas Deceptive Trade Practices Act (loi texane sur les pratiques commerciales trompeuses) et du SCOPE Act, pour avoir trompé les Texans sur la sécurité de ChatGPT et n'avoir pas protégé les enfants. Selon la couverture du Dallas Express, la plainte invoque des cas de suicide et vise à interdire ChatGPT aux mineurs au Texas. Les allégations ne sont pas prouvées.",
+    "target": "Enfants et adolescents texans utilisant ChatGPT",
+    "actor": "OpenAI (ChatGPT)",
+    "attribution": "Allégations formulées par le procureur général du Texas dans une plainte, selon le Dallas Express ; aucun tribunal ne s'est prononcé.",
+    "motive": "Sans objet ; le produit aurait contribué à un risque de suicide.",
+    "vector": "Interactions présumées entre de jeunes utilisateurs et l'agent conversationnel ChatGPT.",
+    "root_cause": "Garde-fous présumés insuffisants dans ChatGPT, selon les allégations de l'État ; les détails ne sont pas donnés dans le titre.",
+    "impact": "L'État allègue que l'agent conversationnel a contribué à des suicides ; le nombre de victimes n'est pas indiqué dans le titre.",
+    "response": "Le procureur général du Texas a engagé une action en justice contre OpenAI et Altman et demande l'interdiction de ChatGPT aux enfants texans.",
+    "id": "paxton-sues-openai-chatgpt-suicide",
+    "timeline": [
+      "Signalé par le Dallas Express"
+    ]
+  },
+  {
+    "title": "Le shérif du comté d'Eaton met en garde contre une arnaque utilisant de fausses photos d'adjoints générées par IA et des demandes de paiement en Bitcoin",
+    "summary": "Le shérif du comté d'Eaton (Michigan), Tom Reich, a averti que des escrocs appellent depuis des numéros locaux usurpés et envoient parfois des images générées par IA de faux adjoints posant à côté de distributeurs de cryptomonnaies, afin d'inciter les victimes à déposer de l'argent dans des distributeurs de Bitcoin. Le bureau du shérif précise que ses adjoints ne réclament jamais de paiement par téléphone. Le nombre de victimes et les pertes ne sont pas indiqués.",
+    "target": "Habitants du comté d'Eaton, par usurpation de l'identité d'adjoints du shérif",
+    "actor": "Inconnu",
+    "attribution": "Inconnue ; le bureau du shérif a lancé l'avertissement et aucun suspect n'est nommé.",
+    "motive": "Gain financier au moyen de demandes de paiement en Bitcoin",
+    "vector": "Usurpation de l'identité d'adjoints à l'aide de photos générées par IA, avec demandes de paiement en Bitcoin",
+    "root_cause": "Facilité de création d'images d'agents générées par IA et convaincantes, combinée à la confiance du public envers les forces de l'ordre.",
+    "impact": "Inconnu ; le titre ne donne ni nombre de victimes ni montant des pertes.",
+    "response": "Le shérif du comté d'Eaton a publié un avertissement public sur cette arnaque.",
+    "id": "eaton-county-ai-deputy-photo-scam",
+    "timeline": [
+      "Signalé par WILX"
+    ]
+  },
+  {
+    "title": "Un homme de Shanghai utilise une vidéo de son père malade générée par IA et une fausse histoire de « décès du père » pour escroquer ses amis de plus de 1,7 million de yuans",
+    "summary": "La police du district de Putuo, à Shanghai, indique qu'un homme dont le nom de famille est Jiang a emprunté de l'argent à des amis à partir de 2019, sous divers prétextes dont un investissement, l'achat d'un logement et la trésorerie de son entreprise. Il a ensuite affirmé que son père avait un cancer, puis qu'il était mort, et a publié une vidéo générée par IA montrant son père gravement malade, alité, afin de rendre cette histoire crédible. Le total a dépassé 1,7 million de yuans, qu'il aurait entièrement perdus en bourse. Il a été placé en détention pénale pour soupçon d'escroquerie et l'enquête se poursuit.",
+    "target": "Camarades de classe et amis du suspect",
+    "actor": "Homme de nom de famille Jiang (suspect, en détention)",
+    "attribution": "Un média chinois (Sina mobile) décrit un seul homme ; aucune attribution formelle n'est fournie.",
+    "motive": "Gain financier",
+    "vector": "Fausse histoire de deuil appuyée par une vidéo générée par IA, visant des connaissances personnelles.",
+    "root_cause": "Les victimes ont fait confiance à un proche et à un contenu vidéo produit par IA ; aucune étape de vérification n'était en place.",
+    "impact": "Les amis auraient été escroqués de 1,7 million de yuans au total. Le titre indique que l'argent a été perdu.",
+    "response": "Inconnue ; le titre ne mentionne aucune action de la police ni de la justice.",
+    "id": "china-ai-video-fake-death-fraud",
+    "timeline": [
+      "Signalé par 手机新浪网"
+    ]
+  },
+  {
+    "title": "Une Argentine de 67 ans vire 920 000 pesos à un escroc se faisant passer pour son fils à l'aide d'une photo retouchée par IA",
+    "summary": "Une femme de 67 ans, en Argentine, a viré 920 000 pesos à un escroc qui usurpait l'identité de son fils sur WhatsApp et utilisait une photo de celui-ci retouchée par IA pour gagner sa confiance. La famille a repéré la fraude parce que les messages contenaient des expressions qui ne ressemblaient pas à celles du fils. Elle a déposé plainte auprès du Département de la cybercriminalité et demandé que le compte bancaire destinataire fasse l'objet d'une enquête ; le responsable n'a pas été identifié.",
+    "target": "Particulier : une femme (mère), 67 ans",
+    "actor": "Escroc inconnu",
+    "attribution": "Inconnue ; le titre ne nomme pas les escrocs.",
+    "motive": "Gain financier",
+    "vector": "Photo du fils de la victime générée par IA, utilisée pour la tromper et l'amener à verser de l'argent",
+    "root_cause": "Inconnue",
+    "impact": "La victime a perdu près d'un million de pesos (la devise et le pays ne sont pas précisés dans le texte source).",
+    "response": "Inconnue",
+    "id": "ai-generated-son-photo-scam-pesos",
+    "timeline": [
+      "Signalé par Diario TAG"
+    ]
+  },
+  {
+    "title": "ISPsystem corrige une faille zero-day de VMmanager 6 après une attaque d'envergure contre l'hébergeur russe FirstVDS, qui aurait fait un usage actif de l'IA",
+    "summary": "ISPsystem, éditeur de la plateforme de virtualisation VMmanager, a annoncé le 27 octobre 2026 avoir corrigé une faille zero-day (HTTP request smuggling) dans un build VMmanager 6 Hosting. La faille a été exploitée lors d'une attaque d'envergure contre l'hébergeur russe FirstVDS, qui a mis en danger des données d'utilisateurs, dont potentiellement des clés SSH, des mots de passe et des jetons d'accès au cloud. L'analyse d'ISPsystem indique que l'attaque a fait un usage actif de l'IA, et Kaspersky, qui a participé à l'enquête, a déclaré que le malware avait été écrit avec l'aide de l'IA. ISPsystem a publié des mises à jour de sécurité et a vérifié l'infrastructure de ses clients avec Kaspersky.",
+    "target": "FirstVDS (hébergeur russe) utilisant ISPsystem VMmanager 6 Hosting",
+    "actor": "Inconnu",
+    "attribution": "Inconnue ; le titre ne nomme pas les attaquants.",
+    "motive": "Inconnu",
+    "vector": "Attaque assistée par IA contre VMmanager ; la méthode précise n'est pas indiquée.",
+    "root_cause": "Inconnue ; le texte ne le précise pas.",
+    "impact": "Inconnu ; le titre indique que l'attaque a été neutralisée.",
+    "response": "ISPsystem aurait neutralisé l'attaque.",
+    "id": "ispsystem-vmmanager-ai-attack",
+    "timeline": [
+      "Signalé par Techora.ru"
+    ]
   }
 ]
