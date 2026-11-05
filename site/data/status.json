@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-11-05T05:35:37Z",
+  "updated_at": "2026-11-05T06:05:46Z",
   "wire_items": 800,
-  "new_items": 3,
-  "candidates": 117,
-  "incidents": 537,
+  "new_items": 0,
+  "candidates": 113,
+  "incidents": 541,
   "feeds_ok": [
     "BleepingComputer",
     "The Record",
@@ -35,7 +35,6 @@
     "Kaspersky Securelist",
     "ESET WeLiveSecurity",
     "Cisco Talos",
-    "Zscaler ThreatLabz",
     "Proofpoint",
     "Recorded Future",
     "Wiz Research",
@@ -81,11 +80,12 @@
   ],
   "feeds_failed": [
     "CISA Advisories",
+    "Zscaler ThreatLabz",
     "US court filings (CourtListener)",
     "European Commission",
     "European Parliament",
     "EDPB",
     "CISA news"
   ],
-  "triage": "triaged 6 items with claude-sonnet-5-5 in 1 batches (0 failed); kept 3"
+  "triage": "triaged 2 items with claude-sonnet-5-5 in 1 batches (0 failed); kept 0"
 }

@@ -1270,5 +1270,37 @@
     "reason": "A Microsoft Threat Intelligence report of Oct 29, 2026, relayed by Yonhap, Financial News and Segye Ilbo, confirms DPRK groups used AI to mass-produce phishing lures against South Korean users; it is a new report not covered by existing cases.",
     "duplicate_of": null,
     "at": "2026-11-05T05:35:37Z"
+  },
+  {
+    "id": "china-linked-deepseek-200-orgs-attack",
+    "title": "China-linked hackers reportedly use DeepSeek and other AI against 200+ organizations in 11 days",
+    "decision": "approve",
+    "reason": "CrowdStrike's report on China-nexus VAPOR PANDA running ARTEX agents mostly on DeepSeek against 200+ organizations in 11 days is confirmed by NBC News and CyberScoop, and is distinct from the known ARTEX Japan, Korea and Storm-0940 cases.",
+    "duplicate_of": null,
+    "at": "2026-11-05T06:05:46Z"
+  },
+  {
+    "id": "fake-github-repo-solanacry-agents",
+    "title": "Fake GitHub repo tricks AI agents into installing SolanaCry malware",
+    "decision": "approve",
+    "reason": "AIR Research Lab's SolanaCry findings (fake Solana starter-kit repo that instructs AI coding agents to install NetSupport RAT) are reported by Hackread and noted by BleepingComputer, and the case is not already known.",
+    "duplicate_of": null,
+    "at": "2026-11-05T06:05:46Z"
+  },
+  {
+    "id": "crim-ai-services-extortion-exposed",
+    "title": "Criminal spends $7K+ on AI services for extortion attacks, leaves evidence exposed",
+    "decision": "approve",
+    "reason": "The Register, citing SOCRadar's investigation of an exposed n0n ransomware operator server, confirms $7,216+ of AI usage in extortion intrusions; it is a different case from the known INC/Gentlemen log exposure.",
+    "duplicate_of": null,
+    "at": "2026-11-05T06:05:46Z"
+  },
+  {
+    "id": "chainalysis-ai-agent-attack",
+    "title": "Chainalysis breached; customer email cites attack by AI agents",
+    "decision": "approve",
+    "reason": "Chainalysis published a notice on 30 October disclosing a breach by an actor using 'offensive agentic techniques', covered by The Block and FinanceFeeds, and it is not a known case.",
+    "duplicate_of": null,
+    "at": "2026-11-05T06:05:46Z"
   }
 ]

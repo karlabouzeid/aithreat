@@ -9265,5 +9265,69 @@
     "timeline": [
       "Rapporté par 조선일보"
     ]
+  },
+  {
+    "title": "CrowdStrike : le groupe VAPOR PANDA, lié à la Chine, a utilisé des agents d'IA ARTEX, principalement DeepSeek, contre plus de 200 organisations dans au moins 14 pays en 11 jours",
+    "summary": "Selon CrowdStrike, à partir du 17 octobre 2026, un unique contrôleur ARTEX, lié au groupe VAPOR PANDA (China-nexus), a employé des agents d'IA fonctionnant principalement sur DeepSeek (ainsi que sur un second LLM que CrowdStrike n'a pas pu confirmer) contre plus de 200 organisations dans au moins 14 pays pendant 11 jours, sous la conduite d'un opérateur humain. CrowdStrike a confirmé des activités de post-exploitation (porte dérobée BLOODALCHEMY, pulvérisation d'identifiants) dans neuf organisations ; CyberScoop rapporte qu'environ 70 % des cibles ont été confirmées comme compromises ou présentaient des indices de compromission avec un niveau de confiance modéré. Les organisations n'ont pas été nommées.",
+    "target": "Plus de 200 organisations dans au moins 14 pays, dont des ministères des Affaires étrangères, des agences de défense et de renseignement, des opérateurs de télécommunications et des entreprises américaines des secteurs pharmaceutique, des semi-conducteurs, du nucléaire et de la finance (non nommées individuellement)",
+    "actor": "VAPOR PANDA (China-nexus, selon CrowdStrike)",
+    "attribution": "Présenté comme lié à la Chine par DiarioBitcoin ; le titre ne donne aucun autre fondement d'attribution.",
+    "motive": "Inconnu",
+    "vector": "Outils d'IA, apparemment DeepSeek et un autre système d'IA, utilisés pour mener les attaques ; techniques précises inconnues.",
+    "root_cause": "Inconnue",
+    "impact": "Plus de 200 organisations ciblées ; CrowdStrike a confirmé une post-exploitation dans neuf d'entre elles et une pulvérisation de mots de passe contre au moins 12 autres ; CyberScoop rapporte qu'environ 140 cibles ont été compromises.",
+    "response": "Inconnue",
+    "id": "china-linked-deepseek-200-orgs-attack",
+    "timeline": [
+      "Signalé par DiarioBitcoin"
+    ]
+  },
+  {
+    "title": "SolanaCry : un faux dépôt GitHub de kit de démarrage Solana piège les agents de codage IA et leur fait installer le RAT NetSupport",
+    "summary": "AIR Research Lab rapporte que le dépôt GitHub SolanaUpdateTools/solana-starter-kit, créé en novembre 2025 et comptant 286 étoiles au moment de l'examen, arrive en tête des résultats de recherche pour un kit de démarrage Solana. Son fichier README demande aux agents de codage IA d'exécuter une commande PowerShell qui télécharge un dropper et l'exécute en mémoire. Le dropper installe des composants signés de NetSupport Manager qui donnent aux attaquants un accès à distance aux PC Windows des développeurs et pourraient exposer des portefeuilles de cryptomonnaies. L'opérateur n'est pas identifié, et aucune victime ni aucune perte n'est signalée.",
+    "target": "Machines Windows de développeurs, via des agents de codage IA qui suivent les instructions figurant dans des dépôts GitHub",
+    "actor": "Inconnu (AIR note des similitudes avec le cluster EVALUSION, mais précise que cela ne confirme pas l'attribution)",
+    "attribution": "Inconnue ; le titre ne nomme aucun acteur.",
+    "motive": "Inconnu",
+    "vector": "Faux dépôt GitHub à partir duquel les agents d'IA sont trompés et procèdent à l'installation.",
+    "root_cause": "Les agents d'IA font apparemment confiance au code de dépôts non vérifiés et l'installent ; aucun autre détail n'est fourni.",
+    "impact": "Inconnu ; le nombre d'agents ou d'utilisateurs affectés n'est pas précisé.",
+    "response": "Inconnue",
+    "id": "fake-github-repo-solanacry-agents",
+    "timeline": [
+      "Signalé par Hackread"
+    ]
+  },
+  {
+    "title": "L'opérateur du rançongiciel n0n dépense plus de 7 000 $ en services d'IA de codage pour ses intrusions à visée d'extorsion et laisse son espace de travail exposé",
+    "summary": "SOCRadar a découvert un serveur accessible publiquement (1 719 fichiers) appartenant à l'opérateur du rançongiciel n0n, qui a tenté de pénétrer 23 organisations dans 14 pays. L'opérateur utilisait l'agent de codage OpenCode, configuré avec 154 entrées de modèles réparties chez sept fournisseurs, dont certains modèles non censurés, pour écrire et déboguer des centaines de scripts ; il avait engagé plus de 7 216 $ de frais d'IA au 22 octobre. SOCRadar n'a trouvé aucune preuve d'un système d'attaque entièrement autonome, et chaque intrusion documentée reposait sur des identifiants faibles ou volés plutôt que sur des exploits. Dans certains cas, des données et des sauvegardes ont été supprimées.",
+    "target": "23 organisations dans 14 pays (dont le MSP américain ChiBiTek et un compte AWS lié à Fanatics)",
+    "actor": "Groupe de rançongiciel n0n (que l'on croit basé en Russie ; SOCRadar n'a pas trouvé d'attribution définitive)",
+    "attribution": "Acteur criminel non nommé, selon The Register ; aucune autre attribution n'est donnée.",
+    "motive": "Extorsion",
+    "vector": "Services d'IA utilisés pour appuyer des attaques d'extorsion ; détails non fournis dans le résumé.",
+    "root_cause": "Défaillance de sécurité opérationnelle de l'attaquant, qui a laissé des preuves accessibles publiquement.",
+    "impact": "n0n a revendiqué 108 victimes depuis son apparition ; dans certaines intrusions, des données et des sauvegardes ont été supprimées, et dans un cas, 110 Go de données S3 par bucket ont été extraits et des buckets sensibles purgés.",
+    "response": "Inconnue",
+    "id": "crim-ai-services-extortion-exposed",
+    "timeline": [
+      "Signalé par The Register"
+    ]
+  },
+  {
+    "title": "Chainalysis révèle une intrusion menée par un attaquant recourant à des « techniques agentiques offensives » ; noms et adresses électroniques de clients consultés",
+    "summary": "Chainalysis a indiqué à ses clients avoir détecté un acteur externe utilisant des « techniques agentiques offensives », qui a obtenu un accès non autorisé à ses systèmes et à ses outils internes en octobre. Les données consultées étaient des identifiants d'utilisateur, des noms complets, des adresses électroniques et des libellés de rôle au sein des organisations, que l'entreprise qualifie de non sensibles. Elle affirme n'avoir trouvé aucune preuve de vol de mots de passe, de données d'authentification multifacteur ou de dossiers d'enquête, et précise que l'intrusion n'a aucun rapport avec le piratage de Binance. Chainalysis n'a nommé aucun modèle d'IA ni décrit le déroulement de l'attaque ; l'affirmation selon laquelle des agents d'IA l'auraient menée repose donc uniquement sur la formulation de l'entreprise.",
+    "target": "Chainalysis (société d'analyse de la blockchain)",
+    "actor": "Acteur externe inconnu (soupçonné d'avoir employé des techniques d'IA agentique)",
+    "attribution": "Inconnue ; le courriel adressé aux clients attribuerait l'attaque à des agents d'IA, sans qu'aucun acteur humain ne soit nommé.",
+    "motive": "Inconnu",
+    "vector": "Agents d'IA utilisés pour attaquer l'entreprise, selon son courriel aux clients ; détails techniques non fournis.",
+    "root_cause": "Inconnue",
+    "impact": "Identifiants d'utilisateur, noms, adresses électroniques et libellés de rôle de clients consultés ; aucune preuve à ce jour d'un accès à des mots de passe, à des données d'authentification multifacteur ou à des dossiers d'enquête.",
+    "response": "Chainalysis aurait informé ses clients de l'attaque par courriel.",
+    "id": "chainalysis-ai-agent-attack",
+    "timeline": [
+      "Signalé par Pasquale Pillitteri"
+    ]
   }
 ]

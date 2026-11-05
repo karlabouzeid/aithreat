@@ -27775,6 +27775,61 @@
     "verified_at": "2026-11-05T05:35:37Z"
   },
   {
+    "id": "china-linked-deepseek-200-orgs-attack",
+    "date": "2026-10-29",
+    "title": "CrowdStrike: China-nexus VAPOR PANDA used ARTEX AI agents, mostly DeepSeek, against 200+ organizations in 14+ countries in 11 days",
+    "category": "State actor AI ops",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "200+ organizations in at least 14 countries, including foreign ministries, defense and intelligence agencies, telecom providers and US pharmaceutical, semiconductor, nuclear and financial firms (not individually named)",
+    "loss_usd": null,
+    "summary": "CrowdStrike says that from 17 October 2026 a single ARTEX controller, linked to the China-nexus group VAPOR PANDA, used AI agents running mostly on DeepSeek (plus a second LLM CrowdStrike could not confirm) against more than 200 organizations in at least 14 countries over 11 days, with a human operator steering. CrowdStrike confirmed post-exploitation (BLOODALCHEMY backdoor, credential spraying) at nine organizations; CyberScoop reports that about 70% of targets were confirmed compromised or showed moderate-confidence evidence of compromise. The organizations were not named.",
+    "actor": "VAPOR PANDA (China-nexus, per CrowdStrike)",
+    "actor_type": "state",
+    "sector": "Multiple / cross-sector",
+    "attribution": "Reported as China-linked by DiarioBitcoin; the headline gives no further attribution basis.",
+    "motive": "Unknown",
+    "vector": "AI tools, reportedly DeepSeek and another AI system, used to carry out attacks; specific techniques unknown.",
+    "root_cause": "Unknown",
+    "impact": "More than 200 organizations targeted; CrowdStrike confirmed post-exploitation at nine and password spraying against at least 12 more; CyberScoop reports about 140 targets compromised.",
+    "response": "Unknown",
+    "status": "ongoing",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "source": "DiarioBitcoin",
+    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQMHFycFgxLThfdk9tWTkzeDFDeEZkQ0k4T0hWQmVkOEpWUmRYOEVHekJfQ2pKbDVWN3ZneDVvNmM3aXdWLTd5T0RJNlVnVGhRWU1jN1VsWi1GUzRsYklUWXUteU5ZM1NWUzIydmRFdGJaaFo3andscGdyTEpQZmkxdGRhQjJRcUNmSUV0b2Vrakpmbml6OEpReGV4ZUoxTkpsaExucE1aaVFQaGNqdUh0M1FncFFJWnI1RjF5NEFIaWw2QmFSMVVmSnFRZndEeW5KTWJBNC10dG1IZw?oc=5",
+    "sources": [
+      {
+        "name": "DiarioBitcoin",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQMHFycFgxLThfdk9tWTkzeDFDeEZkQ0k4T0hWQmVkOEpWUmRYOEVHekJfQ2pKbDVWN3ZneDVvNmM3aXdWLTd5T0RJNlVnVGhRWU1jN1VsWi1GUzRsYklUWXUteU5ZM1NWUzIydmRFdGJaaFo3andscGdyTEpQZmkxdGRhQjJRcUNmSUV0b2Vrakpmbml6OEpReGV4ZUoxTkpsaExucE1aaVFQaGNqdUh0M1FncFFJWnI1RjF5NEFIaWw2QmFSMVVmSnFRZndEeW5KTWJBNC10dG1IZw?oc=5"
+      },
+      {
+        "name": "NBC News",
+        "url": "https://www.nbcnews.com/tech/security/china-linked-hackers-used-ai-target-200-organizations-crowdstrike-says-rcna606343"
+      },
+      {
+        "name": "CyberScoop",
+        "url": "https://cyberscoop.com/china-vapor-panda-agentic-ai-artex-campaign-crowdstrike/"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-30",
+        "event": "Reported by DiarioBitcoin"
+      }
+    ],
+    "drafted_at": "2026-10-30T12:35:43Z",
+    "first_seen": "2026-10-30T12:35:43Z",
+    "updated_at": "2026-11-05T06:05:46Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-05T06:05:46Z"
+  },
+  {
     "id": "workos-ai-framework-breach",
     "date": "2026-10-30",
     "title": "WorkOS internal sales app breached using AI-assisted offensive framework",
@@ -27875,6 +27930,167 @@
     "verification": "reported",
     "review": "auto",
     "verified_at": "2026-11-05T00:05:39Z"
+  },
+  {
+    "id": "fake-github-repo-solanacry-agents",
+    "date": "2026-10-30",
+    "title": "SolanaCry: fake Solana starter-kit GitHub repo tricks AI coding agents into installing NetSupport RAT",
+    "category": "Agent hijack",
+    "direction": "on-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "Developers' Windows machines, via AI coding agents that follow instructions in GitHub repositories",
+    "loss_usd": null,
+    "summary": "AIR Research Lab reports that the GitHub repository SolanaUpdateTools/solana-starter-kit, created in November 2025 and with 286 stars when examined, ranks first in search results for a Solana starter kit. Its README tells AI coding agents to run a PowerShell command that downloads and runs a dropper in memory. The dropper installs signed NetSupport Manager components that give attackers remote access to developers' Windows PCs and could expose crypto wallets. The operator is not identified, and no victims or losses are reported.",
+    "actor": "Unknown (AIR notes similarities to the EVALUSION cluster but says this does not confirm attribution)",
+    "actor_type": "unknown",
+    "sector": "Unknown",
+    "attribution": "Unknown; the headline names no actor.",
+    "motive": "Unknown",
+    "vector": "Fake GitHub repository that AI agents are deceived into installing from.",
+    "root_cause": "AI agents apparently trust and install code from unvetted repositories; no further detail given.",
+    "impact": "Unknown; the number of affected agents or users is not stated.",
+    "response": "Unknown",
+    "status": "reported by researchers; no victims reported",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "source": "Hackread",
+    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9CVE1iRkZ0U2JHT1FIS2VaZmxqYlh3T1E4Q2dacW9rMUNIUGlEa2w0UmI1RVRuTFVHU0pSQnNWQ2ZEenY3Z3RYTGZnLTZqNEJjcldVWHhidUZxcGI5Z3FxdDFJM3pHd2pseXliMkJERzdfc2NydWtxRDJRdDltUQ?oc=5",
+    "sources": [
+      {
+        "name": "Hackread",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9CVE1iRkZ0U2JHT1FIS2VaZmxqYlh3T1E4Q2dacW9rMUNIUGlEa2w0UmI1RVRuTFVHU0pSQnNWQ2ZEenY3Z3RYTGZnLTZqNEJjcldVWHhidUZxcGI5Z3FxdDFJM3pHd2pseXliMkJERzdfc2NydWtxRDJRdDltUQ?oc=5"
+      },
+      {
+        "name": "Hackread",
+        "url": "https://hackread.com/fake-github-repo-ai-coding-agents-solanacry-malware/"
+      },
+      {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/hugging-face-malware-campaign-returns-to-hijack-gpus-for-crypto-mining/"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-30",
+        "event": "Reported by Hackread"
+      }
+    ],
+    "drafted_at": "2026-10-30T14:35:44Z",
+    "first_seen": "2026-10-30T14:35:44Z",
+    "updated_at": "2026-11-05T06:05:46Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-05T06:05:46Z"
+  },
+  {
+    "id": "crim-ai-services-extortion-exposed",
+    "date": "2026-10-30",
+    "title": "n0n ransomware operator spends $7K+ on AI coding services for extortion intrusions, leaves workspace exposed",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "23 organizations in 14 countries (including US MSP ChiBiTek and a Fanatics-linked AWS account)",
+    "loss_usd": null,
+    "summary": "SOCRadar found a publicly accessible server (1,719 files) belonging to the n0n ransomware operator, which tried to break into 23 organizations across 14 countries. The operator used the OpenCode coding agent configured with 154 model entries across seven providers, including some uncensored models, to write and debug hundreds of scripts, and had incurred over $7,216 in AI costs by 22 October. SOCRadar found no evidence of a fully autonomous attack system, and every documented intrusion relied on weak or stolen credentials rather than exploits. In some cases data and backups were deleted.",
+    "actor": "n0n ransomware group (believed Russia-based; SOCRadar did not find definitive attribution)",
+    "actor_type": "criminal",
+    "sector": "Unknown",
+    "attribution": "Unnamed criminal actor, as reported by The Register; no further attribution given.",
+    "motive": "Extortion",
+    "vector": "AI services used to support extortion attacks; details not given in the summary.",
+    "root_cause": "Operational security failure by the attacker left evidence publicly accessible.",
+    "impact": "n0n has claimed 108 victims since emerging; in some intrusions data and backups were deleted, and in one case 110 GB-per-bucket S3 data was pulled and sensitive buckets purged.",
+    "response": "Unknown",
+    "status": "documented by SOCRadar; no arrests reported",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "source": "The Register",
+    "url": "https://www.theregister.com/security/2026/10/30/crim-spent-7k-on-ai-services-in-extortion-attacks-then-left-evidence-for-all-to-see/5306754",
+    "sources": [
+      {
+        "name": "The Register",
+        "url": "https://www.theregister.com/security/2026/10/30/crim-spent-7k-on-ai-services-in-extortion-attacks-then-left-evidence-for-all-to-see/5306754"
+      },
+      {
+        "name": "SOCRadar",
+        "url": "https://socradar.io/blog/n0n-ransomware-ai-assisted-extortion/"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-30",
+        "event": "Reported by The Register"
+      }
+    ],
+    "drafted_at": "2026-10-30T20:06:48Z",
+    "first_seen": "2026-10-30T20:06:48Z",
+    "updated_at": "2026-11-05T06:05:46Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-05T06:05:46Z"
+  },
+  {
+    "id": "chainalysis-ai-agent-attack",
+    "date": "2026-10-30",
+    "title": "Chainalysis discloses breach by attacker using 'offensive agentic techniques'; customer names and emails accessed",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "Chainalysis (blockchain analytics firm)",
+    "loss_usd": null,
+    "summary": "Chainalysis told customers it detected an external actor using 'offensive agentic techniques' that gained unauthorized access to its systems and internal tools in October. The accessed data was user IDs, full names, email addresses and organization role labels, which the company calls non-sensitive. It said it had found no evidence of password, MFA or case-file theft, and that the breach is unrelated to the Binance hack. Chainalysis did not name an AI model or describe how the attack unfolded, so the claim that AI agents carried it out rests on the company's own wording.",
+    "actor": "Unknown external actor (alleged to have used agentic AI techniques)",
+    "actor_type": "unknown",
+    "sector": "Technology & AI vendors",
+    "attribution": "Unknown; the customer email reportedly attributes the attack to AI agents, with no human actor named.",
+    "motive": "Unknown",
+    "vector": "AI agents used to attack the company, per its customer email; technical details not given.",
+    "root_cause": "Unknown",
+    "impact": "Customer user IDs, names, emails and role labels accessed; no evidence so far of passwords, MFA or case files being accessed.",
+    "response": "Chainalysis reportedly emailed customers about the attack.",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "source": "Pasquale Pillitteri",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPQ1ZZUFk2LWxhT0MtVGV6SnFvdG10Rk9UM0VHY1M5UXFxV3NyLW5yWWxYMTk0aHZpRFJsU3RudUxXbzBFdzVmYnRzVEJpcDdka0NoMVlwbU40RkFqbXB1WGlVU09SOWgxUVdBdDNqc0U4MkgwV3BYdlhPb0RmNWxlMW5IdTNMcy1NMkVNMWNncWFLMlU?oc=5",
+    "sources": [
+      {
+        "name": "Pasquale Pillitteri",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPQ1ZZUFk2LWxhT0MtVGV6SnFvdG10Rk9UM0VHY1M5UXFxV3NyLW5yWWxYMTk0aHZpRFJsU3RudUxXbzBFdzVmYnRzVEJpcDdka0NoMVlwbU40RkFqbXB1WGlVU09SOWgxUVdBdDNqc0U4MkgwV3BYdlhPb0RmNWxlMW5IdTNMcy1NMkVNMWNncWFLMlU?oc=5"
+      },
+      {
+        "name": "The Block",
+        "url": "https://www.theblock.co/news/business/2026-10-31-chainalysis-says-hacker-using-offensive-agentic-techniques-accessed-its-customers-names-and-emails-432244"
+      },
+      {
+        "name": "FinanceFeeds",
+        "url": "https://financefeeds.com/chainalysis-hack-customer-data-breach-agentic-ai/"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-30",
+        "event": "Reported by Pasquale Pillitteri"
+      }
+    ],
+    "drafted_at": "2026-10-30T21:05:38Z",
+    "first_seen": "2026-10-30T21:05:38Z",
+    "updated_at": "2026-11-05T06:05:46Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-05T06:05:46Z"
   },
   {
     "id": "volta-autodoxer-infostealer",

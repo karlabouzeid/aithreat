@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T05:35:37Z",
+  "generated_at": "2026-11-05T06:05:46Z",
   "categories": [
     {
       "name": "AI exam fraud",
@@ -24,12 +24,12 @@
     {
       "name": "AI-assisted malware",
       "slug": "ai-assisted-malware",
-      "count": 64
+      "count": 66
     },
     {
       "name": "Agent hijack",
       "slug": "agent-hijack",
-      "count": 32
+      "count": 33
     },
     {
       "name": "Chatbot harm",
@@ -64,7 +64,7 @@
     {
       "name": "State actor AI ops",
       "slug": "state-actor-ai-ops",
-      "count": 35
+      "count": 36
     }
   ],
   "countries": [
@@ -146,7 +146,7 @@
     },
     {
       "code": "GL",
-      "count": 169
+      "count": 173
     },
     {
       "code": "GR",

@@ -9265,5 +9265,69 @@
     "timeline": [
       "由 조선일보 报道"
     ]
+  },
+  {
+    "title": "CrowdStrike：中国关联组织 VAPOR PANDA 在 11 天内使用 ARTEX AI 智能体（主要基于 DeepSeek）攻击 14 个以上国家的 200 多家组织",
+    "summary": "CrowdStrike 称，自 2026 年 10 月 17 日起，一个与中国关联组织 VAPOR PANDA 有关的 ARTEX 控制器，使用主要运行在 DeepSeek 上的 AI 智能体（另有一个 CrowdStrike 无法确认的 LLM），在 11 天内攻击了至少 14 个国家的 200 多家组织，并由人工操作员进行引导。CrowdStrike 确认其中 9 家组织遭遇了后渗透活动（BLOODALCHEMY 后门、凭据喷洒）；CyberScoop 报道称，约 70% 的目标被确认失陷，或存在中等置信度的失陷证据。这些组织未被点名。",
+    "target": "至少 14 个国家的 200 多家组织，包括外交部门、国防和情报机构、电信运营商，以及美国的制药、半导体、核能和金融企业（未逐一点名）",
+    "actor": "VAPOR PANDA（中国关联，据 CrowdStrike）",
+    "attribution": "DiarioBitcoin 报道其与中国有关联；标题未给出进一步的归因依据。",
+    "motive": "未知",
+    "vector": "据称使用 DeepSeek 和另一个 AI 系统等 AI 工具实施攻击；具体技术未知。",
+    "root_cause": "未知",
+    "impact": "200 多家组织成为攻击目标；CrowdStrike 确认其中 9 家出现后渗透活动，另有至少 12 家遭遇密码喷洒；CyberScoop 报道称约 140 个目标失陷。",
+    "response": "未知",
+    "id": "china-linked-deepseek-200-orgs-attack",
+    "timeline": [
+      "DiarioBitcoin 报道"
+    ]
+  },
+  {
+    "title": "SolanaCry：伪造的 Solana 入门套件 GitHub 仓库诱骗 AI 编程智能体安装 NetSupport RAT",
+    "summary": "AIR Research Lab 报告称，GitHub 仓库 SolanaUpdateTools/solana-starter-kit 创建于 2025 年 11 月，被检查时已有 286 个星标，在 Solana 入门套件的搜索结果中排名第一。其 README 指示 AI 编程智能体运行一条 PowerShell 命令，该命令会下载并在内存中运行一个投放器。该投放器会安装带签名的 NetSupport Manager 组件，使攻击者能够远程访问开发者的 Windows 电脑，并可能导致加密货币钱包暴露。运营者身份未知，也未报告受害者或损失。",
+    "target": "开发者的 Windows 设备，攻击经由遵循 GitHub 仓库中指令的 AI 编程智能体实施",
+    "actor": "未知（AIR 指出其与 EVALUSION 集群存在相似之处，但表示这并不能确认归因）",
+    "attribution": "未知；标题未点名任何攻击者。",
+    "motive": "未知",
+    "vector": "伪造的 GitHub 仓库，AI 智能体被欺骗从中安装恶意内容。",
+    "root_cause": "AI 智能体显然会信任并安装来自未经审查仓库的代码；未给出更多细节。",
+    "impact": "未知；未说明受影响的智能体或用户数量。",
+    "response": "未知",
+    "id": "fake-github-repo-solanacry-agents",
+    "timeline": [
+      "Hackread 报道"
+    ]
+  },
+  {
+    "title": "n0n 勒索软件运营者在勒索入侵中花费 7000 多美元购买 AI 编程服务，并导致其工作空间暴露",
+    "summary": "SOCRadar 发现一台可公开访问的服务器（含 1,719 个文件），属于 n0n 勒索软件运营者，该运营者曾试图入侵 14 个国家的 23 家组织。该运营者使用 OpenCode 编程智能体，配置了来自 7 家提供商的 154 个模型条目（其中包括一些未经审查的模型），用于编写和调试数百个脚本，截至 10 月 22 日已产生超过 7216 美元的 AI 费用。SOCRadar 未发现完全自主攻击系统的证据，且所有已记录的入侵都依赖弱凭据或被盗凭据，而非漏洞利用。在部分案例中，数据和备份被删除。",
+    "target": "14 个国家的 23 家组织（包括美国 MSP ChiBiTek 以及一个与 Fanatics 有关联的 AWS 账户）",
+    "actor": "n0n 勒索软件团伙（据信位于俄罗斯；SOCRadar 未找到确切的归因依据）",
+    "attribution": "据 The Register 报道为未具名的犯罪行为者；未给出进一步归因。",
+    "motive": "勒索",
+    "vector": "使用 AI 服务支持勒索攻击；摘要未给出详情。",
+    "root_cause": "攻击者的运营安全失误导致证据可被公开访问。",
+    "impact": "n0n 自出现以来已声称拥有 108 名受害者；在部分入侵中数据和备份被删除，其中一起案例中，每个存储桶 110 GB 的 S3 数据被拉取，敏感存储桶被清空。",
+    "response": "未知",
+    "id": "crim-ai-services-extortion-exposed",
+    "timeline": [
+      "The Register 报道"
+    ]
+  },
+  {
+    "title": "Chainalysis 披露遭到使用“进攻性智能体技术”的攻击者入侵；客户姓名和电子邮箱被访问",
+    "summary": "Chainalysis 告知客户，其检测到一名外部行为者使用“进攻性智能体技术”，于 10 月未经授权访问了其系统和内部工具。被访问的数据为用户 ID、全名、电子邮箱地址和组织角色标签，公司称这些数据不属于敏感信息。公司表示未发现密码、MFA 或案件文件被窃取的证据，并称此次入侵与币安（Binance）遭黑客攻击一事无关。Chainalysis 未指明所用的 AI 模型，也未描述攻击经过，因此关于 AI 智能体实施了此次攻击的说法仅依据该公司自己的措辞。",
+    "target": "Chainalysis（区块链分析公司）",
+    "actor": "未知外部行为者（据称使用了智能体 AI 技术）",
+    "attribution": "未知；据称客户邮件将攻击归因于 AI 智能体，未点名任何人类行为者。",
+    "motive": "未知",
+    "vector": "据其客户邮件称，攻击者使用 AI 智能体攻击该公司；未给出技术细节。",
+    "root_cause": "未知",
+    "impact": "客户的用户 ID、姓名、电子邮箱和角色标签被访问；目前尚无证据表明密码、MFA 或案件文件被访问。",
+    "response": "据称 Chainalysis 已就该攻击向客户发送电子邮件。",
+    "id": "chainalysis-ai-agent-attack",
+    "timeline": [
+      "Pasquale Pillitteri 报道"
+    ]
   }
 ]

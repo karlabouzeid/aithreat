@@ -9265,5 +9265,69 @@
     "timeline": [
       "Informado por Chosun Ilbo"
     ]
+  },
+  {
+    "title": "CrowdStrike: VAPOR PANDA, grupo vinculado a China, usó agentes de IA ARTEX, en su mayoría DeepSeek, contra más de 200 organizaciones en al menos 14 países en 11 días",
+    "summary": "CrowdStrike afirma que, desde el 17 de octubre de 2026, un único controlador ARTEX, vinculado al grupo con base en China VAPOR PANDA, utilizó agentes de IA que funcionaban sobre todo con DeepSeek (además de un segundo LLM que CrowdStrike no pudo confirmar) contra más de 200 organizaciones en al menos 14 países durante 11 días, con un operador humano dirigiéndolos. CrowdStrike confirmó actividad posterior a la explotación (puerta trasera BLOODALCHEMY, pulverización de credenciales) en nueve organizaciones; CyberScoop informa de que alrededor del 70 % de los objetivos fueron confirmados como comprometidos o presentaron indicios de compromiso con confianza moderada. Las organizaciones no fueron identificadas por su nombre.",
+    "target": "Más de 200 organizaciones en al menos 14 países, entre ellas ministerios de Exteriores, agencias de defensa e inteligencia, proveedores de telecomunicaciones y empresas estadounidenses farmacéuticas, de semiconductores, nucleares y financieras (sin identificar individualmente)",
+    "actor": "VAPOR PANDA (con base en China, según CrowdStrike)",
+    "attribution": "DiarioBitcoin lo describe como vinculado a China; el titular no ofrece más base de atribución.",
+    "motive": "Desconocido",
+    "vector": "Herramientas de IA, al parecer DeepSeek y otro sistema de IA, utilizadas para llevar a cabo los ataques; las técnicas específicas se desconocen.",
+    "root_cause": "Desconocida",
+    "impact": "Más de 200 organizaciones fueron objeto de ataques; CrowdStrike confirmó actividad posterior a la explotación en nueve y pulverización de contraseñas contra al menos 12 más; CyberScoop informa de que unos 140 objetivos resultaron comprometidos.",
+    "response": "Desconocida",
+    "id": "china-linked-deepseek-200-orgs-attack",
+    "timeline": [
+      "Informado por DiarioBitcoin"
+    ]
+  },
+  {
+    "title": "SolanaCry: un repositorio falso de GitHub con un kit de inicio de Solana engaña a agentes de programación con IA para que instalen NetSupport RAT",
+    "summary": "AIR Research Lab informa de que el repositorio de GitHub SolanaUpdateTools/solana-starter-kit, creado en noviembre de 2025 y con 286 estrellas en el momento de su examen, ocupa el primer lugar en los resultados de búsqueda de un kit de inicio de Solana. Su README indica a los agentes de programación con IA que ejecuten un comando de PowerShell que descarga y ejecuta en memoria un dropper. El dropper instala componentes firmados de NetSupport Manager que dan a los atacantes acceso remoto a los PC con Windows de los desarrolladores y podrían exponer monederos de criptomonedas. No se identifica al operador y no se informa de víctimas ni de pérdidas.",
+    "target": "Equipos Windows de desarrolladores, a través de agentes de programación con IA que siguen las instrucciones de repositorios de GitHub",
+    "actor": "Desconocido (AIR señala similitudes con el clúster EVALUSION, pero afirma que esto no confirma la atribución)",
+    "attribution": "Desconocida; el titular no menciona a ningún actor.",
+    "motive": "Desconocido",
+    "vector": "Repositorio falso de GitHub desde el que se engaña a los agentes de IA para que instalen el software.",
+    "root_cause": "Aparentemente, los agentes de IA confían en código de repositorios no verificados y lo instalan; no se ofrecen más detalles.",
+    "impact": "Desconocido; no se indica el número de agentes o usuarios afectados.",
+    "response": "Desconocida",
+    "id": "fake-github-repo-solanacry-agents",
+    "timeline": [
+      "Informado por Hackread"
+    ]
+  },
+  {
+    "title": "El operador del ransomware n0n gasta más de 7.000 USD en servicios de programación con IA para intrusiones de extorsión y deja su espacio de trabajo expuesto",
+    "summary": "SOCRadar encontró un servidor de acceso público (1.719 archivos) perteneciente al operador del ransomware n0n, que intentó irrumpir en 23 organizaciones de 14 países. El operador utilizó el agente de programación OpenCode, configurado con 154 entradas de modelos de siete proveedores, incluidos algunos modelos sin censura, para escribir y depurar cientos de scripts, y había acumulado más de 7.216 USD en costes de IA a fecha del 22 de octubre. SOCRadar no halló pruebas de un sistema de ataque totalmente autónomo, y todas las intrusiones documentadas se basaron en credenciales débiles o robadas, no en exploits. En algunos casos se eliminaron datos y copias de seguridad.",
+    "target": "23 organizaciones en 14 países (entre ellas el MSP estadounidense ChiBiTek y una cuenta de AWS vinculada a Fanatics)",
+    "actor": "Grupo de ransomware n0n (se cree que tiene base en Rusia; SOCRadar no encontró una atribución definitiva)",
+    "attribution": "Actor criminal sin nombre, según informa The Register; no se ofrece más atribución.",
+    "motive": "Extorsión",
+    "vector": "Servicios de IA utilizados para apoyar ataques de extorsión; el resumen no ofrece detalles.",
+    "root_cause": "Un fallo de seguridad operativa del atacante dejó pruebas accesibles públicamente.",
+    "impact": "n0n ha reivindicado 108 víctimas desde que apareció; en algunas intrusiones se eliminaron datos y copias de seguridad, y en un caso se extrajeron datos de S3 de 110 GB por bucket y se purgaron buckets sensibles.",
+    "response": "Desconocida",
+    "id": "crim-ai-services-extortion-exposed",
+    "timeline": [
+      "Informado por The Register"
+    ]
+  },
+  {
+    "title": "Chainalysis revela una brecha causada por un atacante que usó “técnicas agénticas ofensivas”; se accedió a nombres y correos electrónicos de clientes",
+    "summary": "Chainalysis comunicó a sus clientes que detectó a un actor externo que, mediante “técnicas agénticas ofensivas”, obtuvo acceso no autorizado a sus sistemas y herramientas internas en octubre. Los datos a los que se accedió fueron identificadores de usuario, nombres completos, direcciones de correo electrónico y etiquetas de rol en la organización, que la empresa califica de no sensibles. Señaló que no había encontrado pruebas de robo de contraseñas, de MFA ni de expedientes de casos, y que la brecha no guarda relación con el hackeo de Binance. Chainalysis no nombró ningún modelo de IA ni describió cómo se desarrolló el ataque, por lo que la afirmación de que agentes de IA lo llevaron a cabo se basa en la propia redacción de la empresa.",
+    "target": "Chainalysis (empresa de análisis de blockchain)",
+    "actor": "Actor externo desconocido (se alega que utilizó técnicas de IA agéntica)",
+    "attribution": "Desconocida; según se informa, el correo a los clientes atribuye el ataque a agentes de IA, sin nombrar a ningún actor humano.",
+    "motive": "Desconocido",
+    "vector": "Agentes de IA utilizados para atacar a la empresa, según su correo a los clientes; no se ofrecen detalles técnicos.",
+    "root_cause": "Desconocida",
+    "impact": "Se accedió a identificadores de usuario, nombres, correos electrónicos y etiquetas de rol de clientes; hasta ahora no hay pruebas de acceso a contraseñas, MFA ni expedientes de casos.",
+    "response": "Según se informa, Chainalysis envió un correo a sus clientes sobre el ataque.",
+    "id": "chainalysis-ai-agent-attack",
+    "timeline": [
+      "Informado por Pasquale Pillitteri"
+    ]
   }
 ]
