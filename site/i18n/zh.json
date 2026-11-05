@@ -9713,5 +9713,53 @@
     "timeline": [
       "由 AI Incident Database 报告"
     ]
+  },
+  {
+    "title": "骗子利用 AI 生成歌曲，在真实艺人的 Spotify 及其他流媒体主页上发布虚假曲目",
+    "summary": "404 Media 的一篇报道（Engadget 和 bdnews24 均有转述）称，骗子使用 AI 工具生成歌曲，并利用数字发行环节的漏洞，将这些歌曲作为新作发布到真实艺人在 Spotify 及其他流媒体服务上的主页。版税被骗子而非艺人拿走。乐队 Odette Child 称，自 7 月起一直在追踪该问题，已发现 300 多首此类 AI 生成歌曲；Spotify 正在开发面向艺人的发行审核工具，目前仍处于有限测试阶段。Panda Security 随后发布了面向听众的预警迹象。",
+    "target": "真实艺人在 Spotify 及其他流媒体服务上的主页",
+    "actor": "身份不明的骗子",
+    "attribution": "未知；标题仅称其为“欺诈者”（fraudsters）。",
+    "motive": "未知；推测为欺诈或谋取版税。",
+    "vector": "将 AI 生成的曲目发布到 Spotify 上真实艺人的主页下。",
+    "root_cause": "未知；文中未说明上传内容如何进入艺人主页。",
+    "impact": "虚假曲目产生的版税流向骗子而非真实艺人；Spotify 称无人管理的艺人主页和已故艺人的主页尤其容易受到影响。",
+    "response": "Spotify 正与发行商合作，并在测试一款有限测试版工具，允许艺人在发行内容出现在其主页之前进行审核。",
+    "id": "spotify-ai-tracks-on-real-artist-profile",
+    "timeline": [
+      "pandasecurity.com 报道"
+    ]
+  },
+  {
+    "title": "托管于 claude.ai Artifacts 和共享聊天中、并通过 Google Ads 推广的虚假“下载 Claude”页面，投放 AMOS 窃密木马和针对加密货币的 RAT",
+    "summary": "Gen Digital 的研究人员描述了两起恶意软件攻击活动：攻击者利用公开的 Artifact 和 Shared Chat 分享功能，在 Anthropic 自己的 claude.ai 域名上放置虚假的 Claude 安装页面，并购买 Google Ads 广告进行推广。在 Mac 上，受害者会被要求粘贴一条终端命令，从而安装 Atomic macOS Stealer（AMOS），该木马会窃取密码、浏览器会话和加密货币钱包。Gen Digital 称，该恶意软件可以将 Ledger 和 Trezor 应用替换为要求输入恢复短语的被篡改版本。第二起活动针对 Windows 用户，使用了不同的操作指引和恶意软件。Gen Digital 称，两起活动都无需入侵 Anthropic 的基础设施。",
+    "target": "搜索 Claude 下载的用户（Mac 和 Windows）",
+    "actor": "未知",
+    "attribution": "未知",
+    "motive": "窃取凭据和加密货币",
+    "vector": "滥用 Claude 官方域名 claude.ai，具体机制未说明",
+    "root_cause": "未知",
+    "impact": "按照指引操作的受害者安装了窃密木马或 RAT 恶意软件，其目标为密码、浏览器会话和加密货币钱包；受害者数量未说明。",
+    "response": "未知",
+    "id": "claude-ai-domain-abuse-credential-theft",
+    "timeline": [
+      "hi-Tech.ua 报道"
+    ]
+  },
+  {
+    "title": "Command Code 在发生事件后撤销所有 API 密钥，称该事件与针对 Anthropic 和 OpenAI 模型的大规模蒸馏攻击有关",
+    "summary": "2026 年 10 月 28 日，AI 编程工具 Command Code 表示，其检测并阻止了一起安全事件，该事件与其所称的针对 Anthropic 和 OpenAI 模型的大规模蒸馏攻击有关。作为预防措施，该公司撤销了所有 API 密钥，并请用户登录 Studio 生成新密钥。该公司称，目前尚未发现任何用户受到影响的证据，并正与 Cloudflare、Anthropic 和 OpenAI 合作展开调查。与蒸馏攻击的关联是该公司自己的归因；根本原因和影响范围均未公布。安全类文章将其与 OpenCode 和 Railway 的类似事件归为一类，但尚未确认存在共同原因。",
+    "target": "AI 编程工具 Command Code 及其 API 密钥",
+    "actor": "未知（被指称的蒸馏攻击者）",
+    "attribution": "未知",
+    "motive": "据标题所述，似乎是窃取 AI 模型密钥。",
+    "vector": "未知",
+    "root_cause": "未知",
+    "impact": "Command Code 的所有 API 密钥均被撤销；该厂商称目前尚未发现用户受到影响的证据。",
+    "response": "撤销所有 API 密钥，通知用户在 Studio 中重新生成密钥，并正与 Cloudflare、Anthropic 和 OpenAI 一同展开调查。",
+    "id": "command-code-ai-key-attack",
+    "timeline": [
+      "BlockBeats 报道"
+    ]
   }
 ]

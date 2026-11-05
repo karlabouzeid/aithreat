@@ -1654,5 +1654,37 @@
     "reason": "This is OpenAI's Oct 15 disclosure that a GPT-5.6 Sol research model spent testnet ETH from a stranger's Sepolia wallet, already logged as a known case; the draft's 'steals funds' also overstates it.",
     "duplicate_of": "openai-models-crypto-wallet-raid",
     "at": "2026-11-05T09:05:41Z"
+  },
+  {
+    "id": "spotify-ai-tracks-on-real-artist-profile",
+    "title": "Fraudsters publish AI-generated tracks on real artists' Spotify profiles",
+    "decision": "approve",
+    "reason": "404 Media's report, carried by Engadget and bdnews24, confirms scammers use AI-generated songs and a distributor loophole to post tracks on real artists' profiles and collect royalties; it is distinct from the known AI streaming royalty fraud sentencing.",
+    "duplicate_of": null,
+    "at": "2026-11-05T10:35:40Z"
+  },
+  {
+    "id": "spain-restaurants-ai-fake-food-complaint",
+    "title": "Spanish restaurants lose thousands of euros to AI-made fake food complaints",
+    "decision": "reject",
+    "reason": "The Oct 2026 item is a republished trend piece with no specific, dated incident or confirmed aggregate loss; the underlying claims are a chain's own estimate from July 2025 plus assorted anecdotes.",
+    "duplicate_of": null,
+    "at": "2026-11-05T10:35:40Z"
+  },
+  {
+    "id": "claude-ai-domain-abuse-credential-theft",
+    "title": "Hackers abuse official Claude.ai domain to steal credentials and crypto",
+    "decision": "approve",
+    "reason": "Gen Digital's 2026-10-26 research (covered by Notebookcheck and hi-Tech.ua) documents two new campaigns hosting fake Claude install pages on claude.ai via Artifacts and Shared Chats and Google Ads, distinct from the known Push Security Bing-redirect and Zscaler MacSync campaigns.",
+    "duplicate_of": null,
+    "at": "2026-11-05T10:35:40Z"
+  },
+  {
+    "id": "command-code-ai-key-attack",
+    "title": "Command Code attacked after OpenCode and Railway as hackers target AI model keys",
+    "decision": "approve",
+    "reason": "Command Code's own X statement confirms a security incident tied to an alleged large-scale distillation attack on Anthropic and OpenAI models, with all API keys revoked; it is a different company from the known OpenCode and Warp cases.",
+    "duplicate_of": null,
+    "at": "2026-11-05T10:35:40Z"
   }
 ]

@@ -22092,6 +22092,61 @@
     "verified_at": "2026-11-05T07:23:34Z"
   },
   {
+    "id": "spotify-ai-tracks-on-real-artist-profile",
+    "date": "2026-09-17",
+    "title": "Scammers use AI-generated songs to post fake tracks on real artists' Spotify and other streaming profiles",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "low",
+    "country": "GL",
+    "region": "Global",
+    "target": "Real artists' profiles on Spotify and other streaming services",
+    "loss_usd": null,
+    "summary": "A 404 Media report, covered by Engadget and bdnews24, says scammers generate songs with AI tools and use a digital-distribution loophole to publish them as new releases on real artists' profiles on Spotify and other streaming services. The scammers collect the royalties instead of the artists. The band Odette Child says it has tracked the problem since July and found more than 300 such AI-generated songs, and Spotify is developing a release-review tool for artists, still in limited beta. Panda Security later published warning signs for listeners.",
+    "actor": "Unknown scammers",
+    "actor_type": "criminal",
+    "sector": "Media & entertainment",
+    "attribution": "Unknown; the headline names only 'fraudsters'.",
+    "motive": "Unknown; presumably fraud or royalty gain.",
+    "vector": "AI-generated tracks published under real artists' profiles on Spotify.",
+    "root_cause": "Unknown; the text does not say how the uploads reach the artists' profiles.",
+    "impact": "Royalties from the fake tracks go to the scammers instead of the real artists; Spotify says unmanaged and deceased artists' profiles are especially vulnerable.",
+    "response": "Spotify is working with distributors and testing a limited-beta tool that lets artists review releases before they appear on their profiles.",
+    "status": "ongoing",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "source": "pandasecurity.com",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVmd6UzRhUEpfWmZTdnRKcm56bF9qSWVSVU13bTNfekhSWkxoT2oyMTVRaHdxLXpKTUxWN0pkSEpTeEpzOVdwaTB6SU11YnhCaVJLTmN1eHQ3VWhqUm1xUW51RGF3alJqb1lBQXlYRDFsdjVUZ19KLTRlQ19nRlZGTkZYY1k2N2YyLU40Y3gyZnV2NlZ6aHBZdVhrUkZhejJDS0ZGTTNHS0ExVWlWaTNFd1pXSE1KQQ?oc=5",
+    "sources": [
+      {
+        "name": "pandasecurity.com",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVmd6UzRhUEpfWmZTdnRKcm56bF9qSWVSVU13bTNfekhSWkxoT2oyMTVRaHdxLXpKTUxWN0pkSEpTeEpzOVdwaTB6SU11YnhCaVJLTmN1eHQ3VWhqUm1xUW51RGF3alJqb1lBQXlYRDFsdjVUZ19KLTRlQ19nRlZGTkZYY1k2N2YyLU40Y3gyZnV2NlZ6aHBZdVhrUkZhejJDS0ZGTTNHS0ExVWlWaTNFd1pXSE1KQQ?oc=5"
+      },
+      {
+        "name": "Engadget",
+        "url": "https://www.engadget.com/2261435/scammers-have-been-inserting-fake-songs-onto-real-artist-pages-on-spotify-and-other-platforms/"
+      },
+      {
+        "name": "bdnews24",
+        "url": "https://bdnews24.com/music/ai-music-spotify-fake-songs-music-streaming-scams"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-26",
+        "event": "Reported by pandasecurity.com"
+      }
+    ],
+    "drafted_at": "2026-10-26T15:05:40Z",
+    "first_seen": "2026-10-26T15:05:40Z",
+    "updated_at": "2026-11-05T10:35:40Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-05T10:35:40Z"
+  },
+  {
     "id": "greece-voice-clone-relatives-gang",
     "date": "2026-09-18",
     "title": "Greek police bust gang that cloned relatives' voices with AI to steal over 1M euros",
@@ -27814,6 +27869,61 @@
     "verified_at": "2026-11-05T05:05:39Z"
   },
   {
+    "id": "claude-ai-domain-abuse-credential-theft",
+    "date": "2026-10-26",
+    "title": "Fake 'Download Claude' pages hosted on claude.ai Artifacts and shared chats, promoted by Google Ads, deliver AMOS stealer and a crypto-targeting RAT",
+    "category": "AI phishing",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "Users searching for Claude downloads (Mac and Windows)",
+    "loss_usd": null,
+    "summary": "Gen Digital researchers describe two malware campaigns that placed fake Claude installation pages on Anthropic's own claude.ai domain, using the public Artifact and Shared Chat sharing features, and paid for Google Ads to promote them. On Macs, victims were told to paste a Terminal command that installed Atomic macOS Stealer (AMOS), which steals passwords, browser sessions and crypto wallets. Gen Digital says the malware can swap Ledger and Trezor apps for modified versions that ask for the recovery phrase. A second campaign targeted Windows users with different instructions and malware. Gen Digital says neither campaign required compromising Anthropic's infrastructure.",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "sector": "Individuals & consumers",
+    "attribution": "Unknown",
+    "motive": "Credential and cryptocurrency theft",
+    "vector": "Abuse of the official Claude.ai domain, exact mechanism not stated",
+    "root_cause": "Unknown",
+    "impact": "Victims who followed the instructions installed infostealer or RAT malware that targets passwords, browser sessions and cryptocurrency wallets; victim numbers were not stated.",
+    "response": "Unknown",
+    "status": "reported",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "source": "hi-Tech.ua",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNYVJ6cnhTY01yMXVWU0NzczJURFdFWVlNSGs4XzNnR1lROFhBVVVBbENOb1dnWGRCV0NySmgteFItYUNoZ0p4TXBJNi0tbno2bXJLdDgwQ1g1bWx1U3FlOENLNExMNXJhOWliSGt1Z2NLcDhIdEJubGliaHhERko2VkNYaVM5U3dBTUhJRElsblk5X2pOdk5JdExB?oc=5",
+    "sources": [
+      {
+        "name": "hi-Tech.ua",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNYVJ6cnhTY01yMXVWU0NzczJURFdFWVlNSGs4XzNnR1lROFhBVVVBbENOb1dnWGRCV0NySmgteFItYUNoZ0p4TXBJNi0tbno2bXJLdDgwQ1g1bWx1U3FlOENLNExMNXJhOWliSGt1Z2NLcDhIdEJubGliaHhERko2VkNYaVM5U3dBTUhJRElsblk5X2pOdk5JdExB?oc=5"
+      },
+      {
+        "name": "Gen Digital",
+        "url": "https://www.gendigital.com/blog/insights/research/claude-content-sharing-malware"
+      },
+      {
+        "name": "Notebookcheck",
+        "url": "https://www.notebookcheck.net/Fake-Claude-download-pages-on-claude-ai-steal-passwords-and-crypto.1435034.0.html"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-28",
+        "event": "Reported by hi-Tech.ua"
+      }
+    ],
+    "drafted_at": "2026-10-28T10:35:43Z",
+    "first_seen": "2026-10-28T10:35:43Z",
+    "updated_at": "2026-11-05T10:35:40Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-05T10:35:40Z"
+  },
+  {
     "id": "warp-agent-logs-vendor-breach",
     "date": "2026-10-27",
     "title": "Warp discloses vendor breach exposing AI agent logs and user telemetry",
@@ -28464,6 +28574,61 @@
     "verification": "reported",
     "review": "auto",
     "verified_at": "2026-11-05T06:35:37Z"
+  },
+  {
+    "id": "command-code-ai-key-attack",
+    "date": "2026-10-28",
+    "title": "Command Code revokes all API keys after incident it links to a large-scale distillation attack on Anthropic and OpenAI models",
+    "category": "AI supply chain",
+    "direction": "on-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "Command Code AI coding tool and its API keys",
+    "loss_usd": null,
+    "summary": "On 2026-10-28 the AI coding tool Command Code said it detected and stopped a security incident linked to what it called a large-scale distillation attack targeting Anthropic and OpenAI models. As a precaution it revoked all API keys and asked users to log in to Studio to generate new ones. It said it had so far found no evidence that any users were impacted and was working with Cloudflare, Anthropic and OpenAI to investigate. The distillation link is the company's own attribution; the root cause and scope are unpublished. Security write-ups group it with similar incidents at OpenCode and Railway, but no shared cause has been established.",
+    "actor": "Unknown (alleged distillation attackers)",
+    "actor_type": "unknown",
+    "sector": "Technology & AI vendors",
+    "attribution": "Unknown",
+    "motive": "Apparently theft of AI model keys, per the headline.",
+    "vector": "Unknown",
+    "root_cause": "Unknown",
+    "impact": "All Command Code API keys were revoked; the vendor says it has found no evidence of user impact so far.",
+    "response": "Revoked all API keys, told users to regenerate keys in Studio, and is investigating with Cloudflare, Anthropic and OpenAI.",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "source": "BlockBeats",
+    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5lNEV1enY1QlBJVVZaYU5lN1BOLXBXNTdZTWNUX25wVk1sOWw3aEpvSEJ3TWROUGtTWThnQW9EYlQ3QWRFZHdIbGtvak9sRzRFMWx4QUh3?oc=5",
+    "sources": [
+      {
+        "name": "BlockBeats",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5lNEV1enY1QlBJVVZaYU5lN1BOLXBXNTdZTWNUX25wVk1sOWw3aEpvSEJ3TWROUGtTWThnQW9EYlQ3QWRFZHdIbGtvak9sRzRFMWx4QUh3?oc=5"
+      },
+      {
+        "name": "Command Code on X",
+        "url": "https://x.com/CommandCodeAI/status/2115583532055826770"
+      },
+      {
+        "name": "Helix threat watch",
+        "url": "https://helix.ml/threat-watch/i/command-code-distillation-linked-incident-forces-revocation-of-all"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-29",
+        "event": "Reported by BlockBeats"
+      }
+    ],
+    "drafted_at": "2026-10-29T11:35:45Z",
+    "first_seen": "2026-10-29T11:35:45Z",
+    "updated_at": "2026-11-05T10:35:40Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-05T10:35:40Z"
   },
   {
     "id": "hugging-face-gpu-mining-returns",

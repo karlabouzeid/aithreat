@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T10:05:41Z",
+  "generated_at": "2026-11-05T10:35:40Z",
   "categories": [
     {
       "name": "AI exam fraud",
@@ -14,12 +14,12 @@
     {
       "name": "AI phishing",
       "slug": "ai-phishing",
-      "count": 17
+      "count": 18
     },
     {
       "name": "AI supply chain",
       "slug": "ai-supply-chain",
-      "count": 57
+      "count": 58
     },
     {
       "name": "AI-assisted malware",
@@ -44,7 +44,7 @@
     {
       "name": "Deepfake fraud",
       "slug": "deepfake-fraud",
-      "count": 127
+      "count": 128
     },
     {
       "name": "LLMjacking",
@@ -146,7 +146,7 @@
     },
     {
       "code": "GL",
-      "count": 181
+      "count": 184
     },
     {
       "code": "GR",

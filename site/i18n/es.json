@@ -9713,5 +9713,53 @@
     "timeline": [
       "Reportado por AI Incident Database"
     ]
+  },
+  {
+    "title": "Estafadores usan canciones generadas con IA para publicar temas falsos en los perfiles de artistas reales en Spotify y otras plataformas de streaming",
+    "summary": "Un informe de 404 Media, recogido por Engadget y bdnews24, afirma que estafadores generan canciones con herramientas de IA y aprovechan una laguna en la distribución digital para publicarlas como nuevos lanzamientos en los perfiles de artistas reales en Spotify y otros servicios de streaming. Los estafadores cobran las regalías en lugar de los artistas. La banda Odette Child afirma que sigue el problema desde julio y que ha encontrado más de 300 canciones de este tipo generadas con IA, y Spotify está desarrollando una herramienta de revisión de lanzamientos para artistas, todavía en beta limitada. Panda Security publicó después señales de alerta para los oyentes.",
+    "target": "Perfiles de artistas reales en Spotify y otros servicios de streaming",
+    "actor": "Estafadores desconocidos",
+    "attribution": "Desconocida; el titular solo menciona a “estafadores”.",
+    "motive": "Desconocido; presumiblemente fraude u obtención de regalías.",
+    "vector": "Temas generados con IA publicados bajo perfiles de artistas reales en Spotify.",
+    "root_cause": "Desconocida; el texto no explica cómo llegan las subidas a los perfiles de los artistas.",
+    "impact": "Las regalías de los temas falsos van a parar a los estafadores en lugar de a los artistas reales; Spotify afirma que los perfiles de artistas sin gestión y de artistas fallecidos son especialmente vulnerables.",
+    "response": "Spotify colabora con distribuidores y prueba una herramienta en beta limitada que permite a los artistas revisar los lanzamientos antes de que aparezcan en sus perfiles.",
+    "id": "spotify-ai-tracks-on-real-artist-profile",
+    "timeline": [
+      "Informado por pandasecurity.com"
+    ]
+  },
+  {
+    "title": "Páginas falsas de “Descargar Claude” alojadas en Artifacts y chats compartidos de claude.ai, promocionadas mediante Google Ads, distribuyen el stealer AMOS y un RAT dirigido a criptomonedas",
+    "summary": "Investigadores de Gen Digital describen dos campañas de malware que colocaron páginas falsas de instalación de Claude en el propio dominio claude.ai de Anthropic, mediante las funciones públicas de uso compartido Artifact y Shared Chat, y pagaron anuncios de Google Ads para promocionarlas. En Mac, se indicaba a las víctimas que pegaran un comando en Terminal que instalaba Atomic macOS Stealer (AMOS), el cual roba contraseñas, sesiones del navegador y monederos de criptomonedas. Gen Digital afirma que el malware puede reemplazar las aplicaciones de Ledger y Trezor por versiones modificadas que solicitan la frase de recuperación. Una segunda campaña se dirigió a usuarios de Windows con instrucciones y malware diferentes. Gen Digital afirma que ninguna de las dos campañas requirió comprometer la infraestructura de Anthropic.",
+    "target": "Usuarios que buscaban descargas de Claude (Mac y Windows)",
+    "actor": "Desconocido",
+    "attribution": "Desconocida",
+    "motive": "Robo de credenciales y de criptomonedas",
+    "vector": "Abuso del dominio oficial Claude.ai; no se indica el mecanismo exacto",
+    "root_cause": "Desconocida",
+    "impact": "Las víctimas que siguieron las instrucciones instalaron malware de tipo infostealer o RAT que apunta a contraseñas, sesiones del navegador y monederos de criptomonedas; no se indicó el número de víctimas.",
+    "response": "Desconocida",
+    "id": "claude-ai-domain-abuse-credential-theft",
+    "timeline": [
+      "Informado por hi-Tech.ua"
+    ]
+  },
+  {
+    "title": "Command Code revoca todas las claves de API tras un incidente que vincula con un ataque de destilación a gran escala contra modelos de Anthropic y OpenAI",
+    "summary": "El 28 de octubre de 2026, la herramienta de programación con IA Command Code dijo haber detectado y detenido un incidente de seguridad vinculado a lo que describió como un ataque de destilación a gran escala dirigido contra modelos de Anthropic y OpenAI. Como medida de precaución, revocó todas las claves de API y pidió a los usuarios que iniciaran sesión en Studio para generar otras nuevas. Indicó que hasta el momento no había encontrado pruebas de que ningún usuario se hubiera visto afectado y que trabajaba con Cloudflare, Anthropic y OpenAI para investigar. El vínculo con la destilación es una atribución de la propia empresa; la causa raíz y el alcance no se han publicado. Análisis de seguridad lo agrupan con incidentes similares en OpenCode y Railway, pero no se ha establecido ninguna causa común.",
+    "target": "La herramienta de programación con IA Command Code y sus claves de API",
+    "actor": "Desconocido (presuntos atacantes de destilación)",
+    "attribution": "Desconocida",
+    "motive": "Aparentemente, robo de claves de modelos de IA, según el titular.",
+    "vector": "Desconocido",
+    "root_cause": "Desconocida",
+    "impact": "Se revocaron todas las claves de API de Command Code; el proveedor afirma que hasta ahora no ha encontrado pruebas de impacto en los usuarios.",
+    "response": "Revocó todas las claves de API, indicó a los usuarios que regeneraran sus claves en Studio e investiga junto con Cloudflare, Anthropic y OpenAI.",
+    "id": "command-code-ai-key-attack",
+    "timeline": [
+      "Informado por BlockBeats"
+    ]
   }
 ]

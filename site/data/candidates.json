@@ -1119,54 +1119,6 @@
     "updated_at": "2026-10-26T11:35:38Z"
   },
   {
-    "id": "spotify-ai-tracks-on-real-artist-profile",
-    "date": "2026-10-26",
-    "title": "Fraudsters publish AI-generated tracks on real artists' Spotify profiles",
-    "category": "Deepfake fraud",
-    "direction": "with-ai",
-    "severity": "low",
-    "country": "GL",
-    "region": "Global",
-    "target": "Real artists' Spotify profiles",
-    "loss_usd": null,
-    "summary": "Per Panda Security, fraudsters are uploading AI-generated songs to the Spotify profiles of real artists. The headline gives no further detail.",
-    "actor": "Unknown",
-    "actor_type": "criminal",
-    "sector": "Media & entertainment",
-    "attribution": "Unknown; the headline names only 'fraudsters'.",
-    "motive": "Unknown; presumably fraud or royalty gain.",
-    "vector": "AI-generated tracks published under real artists' profiles on Spotify.",
-    "root_cause": "Unknown; the text does not say how the uploads reach the artists' profiles.",
-    "impact": "Real artists' profiles carry fake AI-generated music. The number of artists affected and any losses are Unknown.",
-    "response": "Unknown",
-    "status": "under investigation",
-    "cve": null,
-    "young_people": false,
-    "setting": null,
-    "age_group": null,
-    "confidence": 0.45,
-    "source": "pandasecurity.com",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVmd6UzRhUEpfWmZTdnRKcm56bF9qSWVSVU13bTNfekhSWkxoT2oyMTVRaHdxLXpKTUxWN0pkSEpTeEpzOVdwaTB6SU11YnhCaVJLTmN1eHQ3VWhqUm1xUW51RGF3alJqb1lBQXlYRDFsdjVUZ19KLTRlQ19nRlZGTkZYY1k2N2YyLU40Y3gyZnV2NlZ6aHBZdVhrUkZhejJDS0ZGTTNHS0ExVWlWaTNFd1pXSE1KQQ?oc=5",
-    "sources": [
-      {
-        "name": "pandasecurity.com",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVmd6UzRhUEpfWmZTdnRKcm56bF9qSWVSVU13bTNfekhSWkxoT2oyMTVRaHdxLXpKTUxWN0pkSEpTeEpzOVdwaTB6SU11YnhCaVJLTmN1eHQ3VWhqUm1xUW51RGF3alJqb1lBQXlYRDFsdjVUZ19KLTRlQ19nRlZGTkZYY1k2N2YyLU40Y3gyZnV2NlZ6aHBZdVhrUkZhejJDS0ZGTTNHS0ExVWlWaTNFd1pXSE1KQQ?oc=5"
-      }
-    ],
-    "timeline": [
-      {
-        "date": "2026-10-26",
-        "event": "Reported by pandasecurity.com"
-      }
-    ],
-    "verified": false,
-    "drafted_at": "2026-10-26T15:05:40Z",
-    "wire_id": "4f7ba4e9021a",
-    "first_seen": "2026-10-26T15:05:40Z",
-    "first_published": "2026-10-26T13:42:04Z",
-    "updated_at": "2026-10-26T15:05:40Z"
-  },
-  {
     "id": "doge-alumni-ai-startup-breaks-into-anthr",
     "date": "2026-10-26",
     "title": "AI start-up founded by ex-DOGE staffers reportedly broke into Anthropic",
@@ -1215,54 +1167,6 @@
     "updated_at": "2026-10-26T17:35:38Z"
   },
   {
-    "id": "spain-restaurants-ai-fake-food-complaint",
-    "date": "2026-10-27",
-    "title": "Spanish restaurants lose thousands of euros to AI-made fake food complaints",
-    "category": "Deepfake fraud",
-    "direction": "with-ai",
-    "severity": "low",
-    "country": "ES",
-    "region": "Europe",
-    "target": "Restaurants in Spain",
-    "loss_usd": null,
-    "summary": "Per the report headline, restaurants in Spain are losing thousands of euros to fraudulent food complaints supported by AI-generated content. Details of the method are not given.",
-    "actor": "Unknown",
-    "actor_type": "criminal",
-    "sector": "Retail & consumer brands",
-    "attribution": "Unknown; the headline does not name the perpetrators.",
-    "motive": "Financial gain through fraudulent refunds or compensation, as implied by the headline.",
-    "vector": "AI-generated content used to support fake complaints about food.",
-    "root_cause": "Unknown; the text does not say.",
-    "impact": "Restaurants reportedly lose thousands of euros; the number of businesses affected is not stated.",
-    "response": "Unknown",
-    "status": "ongoing",
-    "cve": null,
-    "young_people": false,
-    "setting": null,
-    "age_group": null,
-    "confidence": 0.45,
-    "source": "Каталония без посредников",
-    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOcXB3WWlYQWtDamE1QmZoWk5kSFltQVotcVljeFFlOEE0RVY2LVVpN0NBZnZ6ZHIwSXd1OFVlbEM4SWVVeWYyXy1TYTNlSFhVX1lFS29lazUzY2VnRW1SWll6Z2NPSFJpcmxtUUQwZHotZVB6XzR6TTlMX09Hdk01NVRWbGVRN2E5YjM4LUhNa0Uwd2hWYTF6MUZ3YVpTOEVzeXhnQ3ZaOHdLZUJlcjBHb2Vmck1pelMta2xpRW1idEFZQ0pNdGRfYUE1am9DWUF5UGp3emtZUQ?oc=5",
-    "sources": [
-      {
-        "name": "Каталония без посредников",
-        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOcXB3WWlYQWtDamE1QmZoWk5kSFltQVotcVljeFFlOEE0RVY2LVVpN0NBZnZ6ZHIwSXd1OFVlbEM4SWVVeWYyXy1TYTNlSFhVX1lFS29lazUzY2VnRW1SWll6Z2NPSFJpcmxtUUQwZHotZVB6XzR6TTlMX09Hdk01NVRWbGVRN2E5YjM4LUhNa0Uwd2hWYTF6MUZ3YVpTOEVzeXhnQ3ZaOHdLZUJlcjBHb2Vmck1pelMta2xpRW1idEFZQ0pNdGRfYUE1am9DWUF5UGp3emtZUQ?oc=5"
-      }
-    ],
-    "timeline": [
-      {
-        "date": "2026-10-27",
-        "event": "Reported by Каталония без посредников"
-      }
-    ],
-    "verified": false,
-    "drafted_at": "2026-10-27T08:05:37Z",
-    "wire_id": "13fc831ad40e",
-    "first_seen": "2026-10-27T08:05:37Z",
-    "first_published": "2026-10-27T07:32:00Z",
-    "updated_at": "2026-10-27T08:05:37Z"
-  },
-  {
     "id": "alabama-family-sues-openai-chatbot",
     "date": "2026-10-27",
     "title": "Alabama family sues OpenAI and Altman over ChatGPT's alleged role in harm to relative",
@@ -1309,54 +1213,6 @@
     "first_seen": "2026-10-27T12:35:40Z",
     "first_published": "2026-10-27T10:29:24Z",
     "updated_at": "2026-10-27T12:35:40Z"
-  },
-  {
-    "id": "claude-ai-domain-abuse-credential-theft",
-    "date": "2026-10-28",
-    "title": "Hackers abuse official Claude.ai domain to steal credentials and crypto",
-    "category": "AI phishing",
-    "direction": "with-ai",
-    "severity": "medium",
-    "country": "GL",
-    "region": "Global",
-    "target": "Claude.ai users",
-    "loss_usd": null,
-    "summary": "Per a hi-Tech.ua headline, attackers abused the official Claude.ai domain to steal credentials and cryptocurrency. The summary gives no further detail.",
-    "actor": "Unknown",
-    "actor_type": "unknown",
-    "sector": "Individuals & consumers",
-    "attribution": "Unknown",
-    "motive": "Credential and cryptocurrency theft",
-    "vector": "Abuse of the official Claude.ai domain, exact mechanism not stated",
-    "root_cause": "Unknown",
-    "impact": "Credentials and crypto reportedly stolen; number of victims and losses not stated.",
-    "response": "Unknown",
-    "status": "under investigation",
-    "cve": null,
-    "young_people": false,
-    "setting": null,
-    "age_group": null,
-    "confidence": 0.45,
-    "source": "hi-Tech.ua",
-    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNYVJ6cnhTY01yMXVWU0NzczJURFdFWVlNSGs4XzNnR1lROFhBVVVBbENOb1dnWGRCV0NySmgteFItYUNoZ0p4TXBJNi0tbno2bXJLdDgwQ1g1bWx1U3FlOENLNExMNXJhOWliSGt1Z2NLcDhIdEJubGliaHhERko2VkNYaVM5U3dBTUhJRElsblk5X2pOdk5JdExB?oc=5",
-    "sources": [
-      {
-        "name": "hi-Tech.ua",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNYVJ6cnhTY01yMXVWU0NzczJURFdFWVlNSGs4XzNnR1lROFhBVVVBbENOb1dnWGRCV0NySmgteFItYUNoZ0p4TXBJNi0tbno2bXJLdDgwQ1g1bWx1U3FlOENLNExMNXJhOWliSGt1Z2NLcDhIdEJubGliaHhERko2VkNYaVM5U3dBTUhJRElsblk5X2pOdk5JdExB?oc=5"
-      }
-    ],
-    "timeline": [
-      {
-        "date": "2026-10-28",
-        "event": "Reported by hi-Tech.ua"
-      }
-    ],
-    "verified": false,
-    "drafted_at": "2026-10-28T10:35:43Z",
-    "wire_id": "dc65a5fcd84c",
-    "first_seen": "2026-10-28T10:35:43Z",
-    "first_published": "2026-10-28T10:06:46Z",
-    "updated_at": "2026-10-28T10:35:43Z"
   },
   {
     "id": "chatgpt-false-promise-suicidal-man",
@@ -1549,54 +1405,6 @@
     "first_seen": "2026-10-29T09:05:42Z",
     "first_published": "2026-10-29T08:01:16Z",
     "updated_at": "2026-10-29T09:05:42Z"
-  },
-  {
-    "id": "command-code-ai-key-attack",
-    "date": "2026-10-29",
-    "title": "Command Code attacked after OpenCode and Railway as hackers target AI model keys",
-    "category": "AI supply chain",
-    "direction": "on-ai",
-    "severity": "medium",
-    "country": "GL",
-    "region": "Global",
-    "target": "Command Code AI coding tool and its users' AI model keys",
-    "loss_usd": null,
-    "summary": "Command Code was reportedly hit after OpenCode and Railway in an apparent campaign targeting AI model API keys. Details are limited to the headline.",
-    "actor": "Unknown",
-    "actor_type": "unknown",
-    "sector": "Technology & AI vendors",
-    "attribution": "Unknown",
-    "motive": "Apparently theft of AI model keys, per the headline.",
-    "vector": "Unknown",
-    "root_cause": "Unknown",
-    "impact": "AI model keys reportedly targeted; the scale of exposure is not stated.",
-    "response": "Unknown",
-    "status": "under investigation",
-    "cve": null,
-    "young_people": false,
-    "setting": null,
-    "age_group": null,
-    "confidence": 0.45,
-    "source": "BlockBeats",
-    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5lNEV1enY1QlBJVVZaYU5lN1BOLXBXNTdZTWNUX25wVk1sOWw3aEpvSEJ3TWROUGtTWThnQW9EYlQ3QWRFZHdIbGtvak9sRzRFMWx4QUh3?oc=5",
-    "sources": [
-      {
-        "name": "BlockBeats",
-        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5lNEV1enY1QlBJVVZaYU5lN1BOLXBXNTdZTWNUX25wVk1sOWw3aEpvSEJ3TWROUGtTWThnQW9EYlQ3QWRFZHdIbGtvak9sRzRFMWx4QUh3?oc=5"
-      }
-    ],
-    "timeline": [
-      {
-        "date": "2026-10-29",
-        "event": "Reported by BlockBeats"
-      }
-    ],
-    "verified": false,
-    "drafted_at": "2026-10-29T11:35:45Z",
-    "wire_id": "e162de8e5414",
-    "first_seen": "2026-10-29T11:35:45Z",
-    "first_published": "2026-10-29T07:49:17Z",
-    "updated_at": "2026-10-29T11:35:45Z"
   },
   {
     "id": "japan-ai-voice-scam-4-5b-yen",
