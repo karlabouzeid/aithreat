@@ -188,7 +188,10 @@
     "https://aithreat.io/cases/volta-autodoxer-infostealer/",
     "https://aithreat.io/cases/jancovici-ai-voice-clone-scam/",
     "https://aithreat.io/cases/cyberstrikeai-attacks-edu-institutions/",
-    "https://aithreat.io/cases/asos-simon-ai-breach-4af8/"
+    "https://aithreat.io/cases/asos-simon-ai-breach-4af8/",
+    "https://aithreat.io/cases/ru-mvd-celebrity-ai-fake-shops/",
+    "https://aithreat.io/cases/rogue-codex-claude-code-relays/",
+    "https://aithreat.io/cases/trojan-claude-code-extension-ssh/"
   ],
   "bluesky": [
     "https://aithreat.io/cases/unit42-ai-espionage-gov-linux/",
@@ -370,7 +373,10 @@
     "https://aithreat.io/cases/volta-autodoxer-infostealer/",
     "https://aithreat.io/cases/jancovici-ai-voice-clone-scam/",
     "https://aithreat.io/cases/cyberstrikeai-attacks-edu-institutions/",
-    "https://aithreat.io/cases/asos-simon-ai-breach-4af8/"
+    "https://aithreat.io/cases/asos-simon-ai-breach-4af8/",
+    "https://aithreat.io/cases/ru-mvd-celebrity-ai-fake-shops/",
+    "https://aithreat.io/cases/rogue-codex-claude-code-relays/",
+    "https://aithreat.io/cases/trojan-claude-code-extension-ssh/"
   ],
   "x": [
     "https://aithreat.io/cases/aoki-infostealer-ai-assistant-creds/",
@@ -434,12 +440,12 @@
     "skipped": "TELEGRAM_OWNER_CHAT_ID not set"
   },
   "bluesky_status": {
-    "at": "2026-11-05T01:17:52Z",
-    "ok": "https://aithreat.io/cases/asos-simon-ai-breach-4af8/"
+    "at": "2026-11-05T01:48:09Z",
+    "ok": "https://aithreat.io/cases/trojan-claude-code-extension-ssh/"
   },
   "telegram_status": {
-    "at": "2026-11-05T01:17:59Z",
-    "ok": "https://aithreat.io/cases/asos-simon-ai-breach-4af8/"
+    "at": "2026-11-05T01:48:17Z",
+    "ok": "https://aithreat.io/cases/trojan-claude-code-extension-ssh/"
   },
   "breaking_status": {
     "at": "2026-11-04T17:55:14Z",
