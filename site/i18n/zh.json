@@ -9329,5 +9329,85 @@
     "timeline": [
       "Pasquale Pillitteri 报道"
     ]
+  },
+  {
+    "title": "AI 生成的“Xiaohai”男孩形象编造苦难故事，向中国老年观众推销商品",
+    "summary": "一个由 AI 生成、名为“Xiaohai”的男孩在短视频中讲述编造的苦难故事，并称呼观众为“阿姨们”和“妈妈们”，这类视频在中国短视频平台上获得约 6 亿次播放。这些账号涉嫌利用老年观众的同情心推销商品，而这些商品往往比其他渠道的同类商品更贵。报道称，一名 79 岁老人在前往见这个并不存在的男孩的途中被铁路警察拦下。多个账号已删除带货视频、关闭店铺或被封禁，但类似视频仍在不断出现。",
+    "target": "抖音（Douyin）等中国短视频平台上的中老年消费者",
+    "actor": "身份不明的 Xiaohai 系列账号运营者",
+    "attribution": "标题中未说明。",
+    "motive": "显然是向被虚假苦难故事打动的买家推销商品。",
+    "vector": "在网上发布 AI 生成的虚假学生视频。",
+    "root_cause": "未知",
+    "impact": "买家受到欺骗。损失金额未说明。",
+    "response": "部分账号删除了带货视频、关闭了店铺、被封禁或更改了名称；类似视频仍在不断出现。",
+    "id": "china-ai-student-hardship-videos",
+    "timeline": [
+      "Vietnam.vn 报道"
+    ]
+  },
+  {
+    "title": "西澳大利亚州一名男子收到 AI 生成的照片，对方借走失爱尔兰猎狼犬的悬赏行骗",
+    "summary": "西澳大利亚州 Balingup 的 Westyn Ruyter 在 Facebook 上为走失的爱尔兰猎狼犬 Bundy 悬赏 1 万澳元后，一名自称找到该犬的人约定了见面，但无人到场。当他要求对方提供证据时，对方发来一张狗在笼子里的图片，他称这张图片明显由 AI 生成；随后发送者不再回复。ACCC 下属的国家反诈骗中心（National Anti-Scam Centre）表示，已注意到有人在以走失宠物的主人为目标。报道未提及资金损失；骗子的身份和意图均属指称，尚未得到证实。",
+    "target": "Westyn Ruyter，位于西澳大利亚州 Balingup，他为走失的爱尔兰猎狼犬悬赏 1 万澳元",
+    "actor": "身份不明的疑似骗子",
+    "attribution": "未知；报道仅称有陌生人发来了这张图片。",
+    "motive": "显然是为了领取或骗取悬赏金（尚未证实）。",
+    "vector": "向失主发送 AI 生成的照片，作为已找到走失犬只的所谓证据。",
+    "root_cause": "AI 图像生成工具易于获取，且现金悬赏被公开发布。",
+    "impact": "该男子被发送了一张虚假图片。摘要未说明任何经济损失。",
+    "response": "未知",
+    "id": "ai-photo-missing-dog-reward-scam",
+    "timeline": [
+      "The Times of India 报道"
+    ]
+  },
+  {
+    "title": "AI 伪造彩票助长印度喀拉拉邦（Kerala）大规模诈骗",
+    "summary": "喀拉拉邦首席部长 V D Satheesan 于 10 月 28 日在邦议会表示，骗子正利用 AI 制作假冒的喀拉拉邦纸质彩票，并通过社交媒体出售，有时将同一张彩票卖给多名买家，并在有人兑大奖时关机。他说，这种做法在帕拉卡德（Palakkad）等地区尤为普遍，给邦财政造成损失，也损害了正规彩票销售商的利益，并承诺彩票管理部门和警方将采取严厉措施。报道未提及任何抓捕行动或损失数字。",
+    "target": "彩票买家、正规彩票销售商以及喀拉拉邦的邦彩票收入",
+    "actor": "未知（通过社交媒体售卖彩票的身份不明的骗子）",
+    "attribution": "未归因；标题仅称骗子正在使用 AI 生成的彩票。",
+    "motive": "谋取经济利益",
+    "vector": "以 AI 生成的假冒彩票冒充真票出售或出示",
+    "root_cause": "未知；生成式 AI 显然使制作逼真的假彩票变得容易。",
+    "impact": "被描述为影响喀拉拉邦彩票买家或销售商的大规模诈骗；受害者人数和损失均未说明。",
+    "response": "喀拉拉邦首席部长已誓言严厉打击。",
+    "id": "kerala-ai-fake-lottery-tickets",
+    "timeline": [
+      "The South First 报道"
+    ]
+  },
+  {
+    "title": "SEO 投毒瞄准 DeepSeek 用户，传播 Kong RAT 恶意软件",
+    "summary": "Hybrid Analysis 的研究人员描述了一起 SEO 投毒活动：仿冒 DeepSeek 的域名出现在搜索结果首页，并提供带有代码签名的虚假“DeepSeek Local Deployment Tool”安装程序，该程序会启动多阶段攻击链，最终释放 Kong RAT（含键盘记录器）。研究人员称，这似乎是 eSentire 记录的 2026 年 4 月 Kong RAT 活动的延续，并根据一条 PDB 路径字符串初步判断攻击者为讲中文的行为者。报道未提及受害者数量或损失。",
+    "target": "搜索该 AI 服务的 DeepSeek 用户",
+    "actor": "未知；可能是讲中文的威胁行为者（基于一条 PDB 路径引用作出的初步归因）",
+    "attribution": "Reddit r/netsec 的帖子称其为中国威胁行为者；摘要中没有更多归因细节。",
+    "motive": "未知",
+    "vector": "对搜索结果进行 SEO 投毒，将 DeepSeek 用户引向安装 Kong RAT 的多阶段感染链。",
+    "root_cause": "搜索热门 AI 工具的用户因搜索排名被操纵，被诱导至恶意的仿冒页面。",
+    "impact": "受害者数量和损失未知。受感染用户面临远程访问木马入侵的风险。",
+    "response": "未知",
+    "id": "deepseek-seo-poisoning-kong-rat",
+    "timeline": [
+      "Reddit r/netsec 报道"
+    ]
+  },
+  {
+    "title": "被盗 API 密钥驱动“Jet Night”无限量 AI 转售服务（每月 60 美元），近 100 万美元的令牌费用被转嫁给受害组织",
+    "summary": "谷歌（Google）威胁情报小组（Google Threat Intelligence Group，GTIG）与 Mandiant 报告称，某攻击者利用被盗的第三方 API 密钥为令牌路由服务 jet-night.com 提供支撑，在不到八小时内执行了超过 50 万次 LLM API 调用，并将近 100 万美元的令牌费用转嫁给一家受害组织。Jet Night 宣传其无限量套餐每月约 60 美元，GTIG 认为该模式之所以可行，只是因为依赖被盗密钥。受害组织未被点名。",
+    "target": "未具名受害组织的云端 LLM API 访问权限",
+    "actor": "未知（Jet Night 这一“LLM 混合器”服务的运营者；UNC6993 等其他 LLMjacking 集群另行跟踪）",
+    "attribution": "未知；SecurityLab.ru 称有未具名黑客在出售该访问权限。",
+    "motive": "通过转售无限量 AI 访问权限获取经济利益。",
+    "vector": "未经授权使用受害者的 AI 账户或访问权限；标题中未说明具体手法。",
+    "root_cause": "未知；可能是凭证或 API 访问权限遭到泄露，但来源文本未予说明。",
+    "impact": "受害者账户在 8 小时内被运行了约 50 万次请求，账单金额近 100 万美元。",
+    "response": "未知",
+    "id": "unlimited-ai-resale-1m-bill",
+    "timeline": [
+      "SecurityLab.ru 报道"
+    ]
   }
 ]

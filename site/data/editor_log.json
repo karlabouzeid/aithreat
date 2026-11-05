@@ -1302,5 +1302,69 @@
     "reason": "Chainalysis published a notice on 30 October disclosing a breach by an actor using 'offensive agentic techniques', covered by The Block and FinanceFeeds, and it is not a known case.",
     "duplicate_of": null,
     "at": "2026-11-05T06:05:46Z"
+  },
+  {
+    "id": "unlimited-ai-resale-1m-bill",
+    "title": "Hackers resell unlimited AI access for $60, victim billed nearly $1M",
+    "decision": "approve",
+    "reason": "Google GTIG/Mandiant report (covered by BleepingComputer) confirms an actor ran 500,000+ LLM API calls in under 8 hours on stolen keys via the Jet Night resale service, passing nearly $1M in token costs to a victim organization; not a known case.",
+    "duplicate_of": null,
+    "at": "2026-11-05T06:35:37Z"
+  },
+  {
+    "id": "papercut-ai-swarm-395-orgs",
+    "title": "AI swarm reportedly breaches 395 organizations via PaperCut",
+    "decision": "reject",
+    "reason": "Real GreyNoise-reported campaign (disclosed 2026-09-09, 395 orgs via PaperCut flaws), but it is already in the known list as papercut-ai-agents-credential-theft.",
+    "duplicate_of": "papercut-ai-agents-credential-theft",
+    "at": "2026-11-05T06:35:37Z"
+  },
+  {
+    "id": "kerala-ai-fake-lottery-tickets",
+    "title": "AI-powered fake lottery tickets fuel mass fraud in Kerala, India",
+    "decision": "approve",
+    "reason": "PTI (via ThePrint) and The South First report the Kerala Chief Minister telling the Assembly on 28 Oct that AI-generated counterfeit lottery tickets are being sold via social media; real, specific, not a known case.",
+    "duplicate_of": null,
+    "at": "2026-11-05T06:35:37Z"
+  },
+  {
+    "id": "deepseek-seo-poisoning-kong-rat",
+    "title": "SEO poisoning targets DeepSeek users with Kong RAT malware",
+    "decision": "approve",
+    "reason": "Hybrid Analysis (CrowdStrike) researchers published a technical analysis on 2026-10-28 of DeepSeek lookalike domains delivering Kong RAT via SEO poisoning, also listed by OffSeq/OTX; the Chinese attribution is only tentative.",
+    "duplicate_of": null,
+    "at": "2026-11-05T06:35:37Z"
+  },
+  {
+    "id": "ai-photo-missing-dog-reward-scam",
+    "title": "AI-generated photo sent to Australian man offering reward for missing dog",
+    "decision": "approve",
+    "reason": "ABC News reported that WA man Westyn Ruyter was sent a suspected AI-generated photo of his missing Irish wolfhound after offering a $10,000 reward, and the ACCC's National Anti-Scam Centre said it knew of such scams targeting pet owners.",
+    "duplicate_of": null,
+    "at": "2026-11-05T06:35:37Z"
+  },
+  {
+    "id": "parents-sue-openai-chatgpt-daughter-deat",
+    "title": "Parents sue OpenAI over ChatGPT's alleged role in daughter's death",
+    "decision": "reject",
+    "reason": "This is the Bowen Wan wrongful-death suit filed 2026-10-27 (ChatGPT allegedly coached a 31-year-old with epilepsy off seizure medication), which is already known as openai-chatgpt-epilepsy-death-suit.",
+    "duplicate_of": "openai-chatgpt-epilepsy-death-suit",
+    "at": "2026-11-05T06:35:37Z"
+  },
+  {
+    "id": "china-ai-student-hardship-videos",
+    "title": "China removes AI-generated videos of students faking hardship to scam buyers",
+    "decision": "approve",
+    "reason": "ECNS and Asia Business Daily independently report that an AI-generated boy character 'Xiaohai' used fabricated hardship stories on Chinese short-video platforms to sell products to older viewers, and the case matches no known case.",
+    "duplicate_of": null,
+    "at": "2026-11-05T06:35:37Z"
+  },
+  {
+    "id": "eight-us-states-chatgpt-child-harm",
+    "title": "Eight US states accuse ChatGPT of pushing children to harm themselves and others",
+    "decision": "reject",
+    "reason": "The eight-state lawsuits against OpenAI filed on 2026-10-14 are already known as eight-states-v-openai.",
+    "duplicate_of": "eight-states-v-openai",
+    "at": "2026-11-05T06:35:37Z"
   }
 ]

@@ -9329,5 +9329,85 @@
     "timeline": [
       "Informado por Pasquale Pillitteri"
     ]
+  },
+  {
+    "title": "Personaje infantil “Xiaohai” generado con IA y con falsas historias de penurias se usa para vender productos a espectadores chinos de edad avanzada",
+    "summary": "Los vídeos cortos de un niño generado con IA conocido como “Xiaohai”, que cuenta historias de penurias inventadas y se dirige a los espectadores como “tías” y “mamás”, acumularon unos 600 millones de visualizaciones en plataformas chinas de vídeo corto. Según las acusaciones, las cuentas explotaron la compasión de los espectadores mayores para vender productos que a menudo son más caros que otros comparables disponibles en otros lugares. Según los informes, la policía ferroviaria detuvo a una persona de 79 años cuando viajaba para encontrarse con el niño inexistente. Varias cuentas retiraron vídeos de venta, cerraron tiendas en línea o fueron suspendidas, pero siguen apareciendo vídeos similares.",
+    "target": "Consumidores mayores y de mediana edad en plataformas chinas de vídeo corto como Douyin",
+    "actor": "Operadores no identificados de las cuentas de Xiaohai",
+    "attribution": "No se indica en el titular.",
+    "motive": "Aparentemente, vender productos a compradores conmovidos por las falsas historias de penurias.",
+    "vector": "Vídeos generados con IA de falsos estudiantes publicados en línea.",
+    "root_cause": "Desconocida",
+    "impact": "Los compradores fueron engañados. No se indica la cantidad perdida.",
+    "response": "Algunas cuentas retiraron vídeos de venta, cerraron tiendas en línea, fueron suspendidas o cambiaron de nombre; siguen apareciendo vídeos similares.",
+    "id": "china-ai-student-hardship-videos",
+    "timeline": [
+      "Informado por Vietnam.vn"
+    ]
+  },
+  {
+    "title": "Foto generada con IA enviada a un hombre de Australia Occidental que ofrecía una recompensa por su lobero irlandés desaparecido",
+    "summary": "Después de que Westyn Ruyter, de Balingup, en Australia Occidental, ofreciera en Facebook una recompensa de 10.000 USD por su lobero irlandés desaparecido, Bundy, alguien que afirmaba haber encontrado al perro organizó un encuentro al que nadie acudió. Cuando él pidió pruebas, le enviaron una imagen del perro dentro de una jaula que, según él, es obviamente generada con IA; el remitente dejó entonces de responder. El National Anti-Scam Centre de la ACCC dijo que tenía conocimiento de que se estaba atacando a personas con mascotas desaparecidas. No se informa de pérdida de dinero; la identidad y la intención del estafador son presuntas y no están probadas.",
+    "target": "Westyn Ruyter, de Balingup (Australia Occidental), que ofreció una recompensa de 10.000 USD por su lobero irlandés desaparecido",
+    "actor": "Presunto o presuntos estafadores desconocidos",
+    "attribution": "Desconocida; el informe solo dice que un desconocido envió la imagen.",
+    "motive": "Aparentemente, reclamar u obtener la recompensa (sin confirmar).",
+    "vector": "Foto generada con IA enviada al dueño como supuesta prueba de que tenían al perro desaparecido.",
+    "root_cause": "Fácil acceso a la generación de imágenes con IA y una recompensa en efectivo anunciada públicamente.",
+    "impact": "El hombre fue objeto de un ataque con una imagen falsa. El resumen no indica ninguna pérdida económica.",
+    "response": "Desconocida",
+    "id": "ai-photo-missing-dog-reward-scam",
+    "timeline": [
+      "Informado por The Times of India"
+    ]
+  },
+  {
+    "title": "Billetes de lotería falsos creados con IA alimentan un fraude masivo en Kerala, India",
+    "summary": "El ministro principal de Kerala, V D Satheesan, dijo ante la Asamblea estatal el 28 de octubre que los estafadores están usando IA para producir billetes de lotería en papel de Kerala falsificados y venderlos a través de las redes sociales, a veces vendiendo el mismo billete a varios compradores y apagando sus teléfonos cuando se reclama un premio gordo. Afirmó que la práctica es especialmente frecuente en distritos como Palakkad, causa pérdidas al erario estatal y perjudica a los vendedores legítimos de lotería, y prometió medidas severas por parte del Departamento de Lotería y la policía. No se informa de detenciones ni de cifras de pérdidas.",
+    "target": "Compradores de billetes de lotería, vendedores legítimos de lotería y los ingresos de la lotería estatal de Kerala",
+    "actor": "Desconocido (estafadores no identificados que venden billetes a través de redes sociales)",
+    "attribution": "Sin atribución; el titular solo dice que los estafadores usan billetes generados con IA.",
+    "motive": "Beneficio económico",
+    "vector": "Billetes de lotería falsificados generados con IA, vendidos o presentados como auténticos",
+    "root_cause": "Desconocida; aparentemente, la IA generativa facilita la producción de billetes falsos convincentes.",
+    "impact": "Descrito como un fraude masivo que afecta a compradores o vendedores de lotería en Kerala; no se indican el número de víctimas ni las pérdidas.",
+    "response": "El ministro principal de Kerala ha prometido una ofensiva contra estas prácticas.",
+    "id": "kerala-ai-fake-lottery-tickets",
+    "timeline": [
+      "Informado por The South First"
+    ]
+  },
+  {
+    "title": "El envenenamiento SEO ataca a usuarios de DeepSeek con el malware Kong RAT",
+    "summary": "Investigadores de Hybrid Analysis describen una campaña de envenenamiento SEO en la que dominios que imitan a DeepSeek aparecen en la primera página de resultados de búsqueda y ofrecen un instalador falso con firma de código llamado “DeepSeek Local Deployment Tool”, que inicia una cadena de varias fases que termina en Kong RAT (incluido un keylogger). Los investigadores afirman que parece ser la continuación de una campaña de Kong RAT de abril de 2026 documentada por eSentire y apuntan, de forma tentativa, a un actor de habla china a partir de una cadena de ruta PDB. No se informa de número de víctimas ni de pérdidas.",
+    "target": "Usuarios de DeepSeek que buscan el servicio de IA",
+    "actor": "Desconocido; posiblemente un actor de amenazas de habla china (atribución tentativa basada en una referencia a una ruta PDB)",
+    "attribution": "Descrito en una publicación de Reddit r/netsec como un actor de amenazas chino; el resumen no ofrece más detalles de atribución.",
+    "motive": "Desconocido",
+    "vector": "Envenenamiento SEO de los resultados de búsqueda que lleva a los usuarios de DeepSeek a cadenas de infección de varias fases que instalan Kong RAT.",
+    "root_cause": "Los usuarios que buscan una herramienta de IA popular son atraídos a páginas maliciosas similares a las legítimas mediante clasificaciones de búsqueda manipuladas.",
+    "impact": "Se desconocen el número de víctimas y las pérdidas. Los usuarios infectados corren el riesgo de que un troyano de acceso remoto comprometa sus equipos.",
+    "response": "Desconocida",
+    "id": "deepseek-seo-poisoning-kong-rat",
+    "timeline": [
+      "Informado por Reddit r/netsec"
+    ]
+  },
+  {
+    "title": "Claves de API robadas impulsan el servicio de reventa de IA ilimitada “Jet Night” (60 USD al mes) y trasladan casi 1.000.000 USD en costes de tokens a la organización víctima",
+    "summary": "Google Threat Intelligence Group y Mandiant informan de que un actor utilizó claves de API de terceros robadas para alimentar el servicio de enrutamiento de tokens jet-night.com, ejecutando más de 500.000 llamadas a la API de LLM en menos de ocho horas y trasladando casi 1.000.000 USD en costes de tokens a una organización víctima. Jet Night anuncia un plan ilimitado por unos 60 USD al mes, que GTIG cree que solo es viable porque se basa en claves robadas. La víctima no ha sido identificada.",
+    "target": "Acceso a la API de LLM en la nube de la organización víctima no identificada",
+    "actor": "Desconocido (operadores del servicio “LLM mixer” Jet Night; otros clústeres de LLMjacking, como UNC6993, se rastrean por separado)",
+    "attribution": "Desconocida; SecurityLab.ru describe a hackers no identificados que venden el acceso.",
+    "motive": "Beneficio económico mediante la reventa de acceso ilimitado a IA.",
+    "vector": "Uso no autorizado de la cuenta o el acceso de IA de una víctima; el método exacto no se indica en el titular.",
+    "root_cause": "Desconocida; probablemente credenciales o acceso a la API comprometidos, pero el texto de la fuente no lo indica.",
+    "impact": "Se ejecutaron unas 500.000 solicitudes en 8 horas en la cuenta de la víctima, a la que se facturó casi 1.000.000 USD.",
+    "response": "Desconocida",
+    "id": "unlimited-ai-resale-1m-bill",
+    "timeline": [
+      "Informado por SecurityLab.ru"
+    ]
   }
 ]

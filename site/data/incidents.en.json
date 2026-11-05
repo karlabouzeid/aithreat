@@ -26192,6 +26192,61 @@
     "verified_at": "2026-11-05T04:35:40Z"
   },
   {
+    "id": "china-ai-student-hardship-videos",
+    "date": "2026-10-22",
+    "title": "AI-generated 'Xiaohai' boy character with fake hardship stories used to sell products to older Chinese viewers",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "low",
+    "country": "CN",
+    "region": "Asia-Pacific",
+    "target": "Older and middle-aged consumers on Chinese short-video platforms such as Douyin",
+    "loss_usd": null,
+    "summary": "Short videos of an AI-generated boy known as 'Xiaohai', who tells fabricated hardship stories and addresses viewers as 'aunties' and 'moms', drew about 600 million views on Chinese short-video platforms. The accounts allegedly exploited older viewers' sympathy to sell products that are often pricier than comparable goods elsewhere. Reports say a 79-year-old was stopped by railway police while travelling to meet the non-existent boy. Several accounts removed sales videos, closed storefronts or were banned, but similar videos continue to appear.",
+    "actor": "Unidentified operators of the Xiaohai accounts",
+    "actor_type": "criminal",
+    "sector": "Individuals & consumers",
+    "attribution": "Not stated in the headline.",
+    "motive": "Apparently to sell products to buyers moved by the fake hardship stories.",
+    "vector": "AI-generated videos of fake students posted online.",
+    "root_cause": "Unknown",
+    "impact": "Buyers were deceived. The amount lost is not stated.",
+    "response": "Some accounts removed sales videos, closed storefronts, were banned or renamed; similar videos keep appearing.",
+    "status": "ongoing",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "source": "Vietnam.vn",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPUmxJZ3NadkszZVRTUXg2YU5PZnhVM0FDYVMtM0dSM28tbVE4a1lqMjNma1BTU19nWElxMDYxUksyWDNvSGtubjlTd2NzcEJkX1dteUF5UWUwenppUXhzNnZIR2QwY1FiZFRlTHlRMVI3Tl9wcDZoQTBIOEdaRTNQWmtQSHZiVmVCazlLWWxZM1dSNE05dkE?oc=5",
+    "sources": [
+      {
+        "name": "Vietnam.vn",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPUmxJZ3NadkszZVRTUXg2YU5PZnhVM0FDYVMtM0dSM28tbVE4a1lqMjNma1BTU19nWElxMDYxUksyWDNvSGtubjlTd2NzcEJkX1dteUF5UWUwenppUXhzNnZIR2QwY1FiZFRlTHlRMVI3Tl9wcDZoQTBIOEdaRTNQWmtQSHZiVmVCazlLWWxZM1dSNE05dkE?oc=5"
+      },
+      {
+        "name": "ECNS (China News Service)",
+        "url": "http://www.ecns.cn/cns-wire/2026-10-23/detail-ihfmiwhm0741811.shtml"
+      },
+      {
+        "name": "The Asia Business Daily",
+        "url": "https://www.asiae.co.kr/en/article/science/2026102214161350675"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-31",
+        "event": "Reported by Vietnam.vn"
+      }
+    ],
+    "drafted_at": "2026-10-31T11:05:41Z",
+    "first_seen": "2026-10-27T18:05:43Z",
+    "updated_at": "2026-11-05T06:35:37Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-05T06:35:37Z"
+  },
+  {
     "id": "mendoza-retiree-messi-ai-scam",
     "date": "2026-10-23",
     "title": "Mendoza retiree loses $24.5M pesos to crypto scam using AI-manipulated Messi and Scaloni video",
@@ -27339,6 +27394,61 @@
     "verified_at": "2026-11-05T05:05:39Z"
   },
   {
+    "id": "ai-photo-missing-dog-reward-scam",
+    "date": "2026-10-27",
+    "title": "AI-generated photo sent to Western Australian man offering reward for missing Irish wolfhound",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "low",
+    "country": "AU",
+    "region": "Western Australia",
+    "target": "Westyn Ruyter, Balingup WA, who offered a $10,000 reward for his missing Irish wolfhound",
+    "loss_usd": null,
+    "summary": "After Westyn Ruyter of Balingup, Western Australia offered a $10,000 reward on Facebook for his missing Irish wolfhound Bundy, someone claiming to have found the dog arranged a meeting that nobody attended. When he asked for proof, they sent an image of the dog in a crate that he says is obviously AI-generated; the sender then stopped replying. The ACCC's National Anti-Scam Centre said it was aware that people with missing pets were being targeted. No money loss is reported; the scammer's identity and intent are alleged and unproven.",
+    "actor": "Unknown suspected scammer(s)",
+    "actor_type": "criminal",
+    "sector": "Individuals & consumers",
+    "attribution": "Unknown; the report only says a stranger sent the image.",
+    "motive": "Apparently to claim or extract the reward (unconfirmed).",
+    "vector": "AI-generated photo sent to the owner as supposed proof of the missing dog.",
+    "root_cause": "Easy access to AI image generation and a publicly advertised cash reward.",
+    "impact": "The man was targeted with a fake image. The summary does not state any financial loss.",
+    "response": "Unknown",
+    "status": "unresolved",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "source": "The Times of India",
+    "url": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxPckxLQTVlanZkSmJwUkVCbEkyS0o1b3JmcHVRaVNRc3pxYWRnZXB0eldCRmFsMFhQelFYbU1FR0NjLWhPRm5tSFJsLUJIQW1LRWotaXBZa242eHZnYWNfckN0cGNUQU9ISDJpSjVvUUhvUTlUaFNfdEh6Q3lWUG80ZklMdmd6UlYzUW1PVDA2WUpGTEhLMXhrSGNQUzRxZDFxMmxXNFBSOUpMLWZIaEoyZlZlbVhqYnNQRDBtdWx1anV2SnNra0QwQ0JwTU5iQkZiYjdTeGpCV3FLb2Z0azVvTzl6dDktX293QTJqeTZYMzAtQUpqa2E4V0tEcThib0Z1dnhrVGxBQlE3Y3RwQmpwMXpfQnVvOFZRa29wR1BqOVVkeE5iZlV3NVNRZk9mUHgyN1BuNE94anJhUW1CcDVNanBRSV95TGVu0gHOAkFVX3lxTE5DU2lDZE5BSlcxTkpCRU9WajNvSlowbVZUOWxOZjhmdE9uc3VKeXp2N04zeHB3WHhKa0l1dTU4UlVMdXJWRmZ4RmxEVEpURm5SN1YwV0FHU1k2b1R6RGp4RkRfUGQ0OEg0YWs4ZWJVVnRxVzRFekpJb0gtd2d6em9OblhSMXBzVDBhS0dzYzhyWVppblJxVVg3eHJTbGJ1Wi1pTk9xT0MyM3NiSTJzMUNFLWZ2Yk1EVmdlWHhrczk4aHdJN2xKcWdpWklCR0FkbjNlWTZhSVNEeUdGajg2OFUwM0VTN3dsZU1zajdMZDg4SzNWa1RXQ21CUl83VDJ6d3FNLXNZUkZtSXE4cS05aDRMemhaYVp1ay1QWmVwdEJwZUdmZlRNem9sQ1ZydHAycTl4U3gtLWdFMnctYTJaSHBwVnJpRWR3N3NxZmVobkE?oc=5",
+    "sources": [
+      {
+        "name": "The Times of India",
+        "url": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxPckxLQTVlanZkSmJwUkVCbEkyS0o1b3JmcHVRaVNRc3pxYWRnZXB0eldCRmFsMFhQelFYbU1FR0NjLWhPRm5tSFJsLUJIQW1LRWotaXBZa242eHZnYWNfckN0cGNUQU9ISDJpSjVvUUhvUTlUaFNfdEh6Q3lWUG80ZklMdmd6UlYzUW1PVDA2WUpGTEhLMXhrSGNQUzRxZDFxMmxXNFBSOUpMLWZIaEoyZlZlbVhqYnNQRDBtdWx1anV2SnNra0QwQ0JwTU5iQkZiYjdTeGpCV3FLb2Z0azVvTzl6dDktX293QTJqeTZYMzAtQUpqa2E4V0tEcThib0Z1dnhrVGxBQlE3Y3RwQmpwMXpfQnVvOFZRa29wR1BqOVVkeE5iZlV3NVNRZk9mUHgyN1BuNE94anJhUW1CcDVNanBRSV95TGVu0gHOAkFVX3lxTE5DU2lDZE5BSlcxTkpCRU9WajNvSlowbVZUOWxOZjhmdE9uc3VKeXp2N04zeHB3WHhKa0l1dTU4UlVMdXJWRmZ4RmxEVEpURm5SN1YwV0FHU1k2b1R6RGp4RkRfUGQ0OEg0YWs4ZWJVVnRxVzRFekpJb0gtd2d6em9OblhSMXBzVDBhS0dzYzhyWVppblJxVVg3eHJTbGJ1Wi1pTk9xT0MyM3NiSTJzMUNFLWZ2Yk1EVmdlWHhrczk4aHdJN2xKcWdpWklCR0FkbjNlWTZhSVNEeUdGajg2OFUwM0VTN3dsZU1zajdMZDg4SzNWa1RXQ21CUl83VDJ6d3FNLXNZUkZtSXE4cS05aDRMemhaYVp1ay1QWmVwdEJwZUdmZlRNem9sQ1ZydHAycTl4U3gtLWdFMnctYTJaSHBwVnJpRWR3N3NxZmVobkE?oc=5"
+      },
+      {
+        "name": "ABC News",
+        "url": "https://www.abc.net.au/news/2026-10-27/ai-photo-scam-targeting-pet-owners/107310844"
+      },
+      {
+        "name": "ABC News (South West and Great Southern WA local news briefing)",
+        "url": "https://www.abc.net.au/news/2026-10-27/south-west-and-great-southern-wa-local-news-briefing/107308456"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-28",
+        "event": "Reported by The Times of India"
+      }
+    ],
+    "drafted_at": "2026-10-28T15:35:48Z",
+    "first_seen": "2026-10-28T15:35:48Z",
+    "updated_at": "2026-11-05T06:35:37Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-05T06:35:37Z"
+  },
+  {
     "id": "123-reg-ai-cyberattack-customer-data",
     "date": "2026-10-28",
     "title": "123 Reg discloses AI cyberattack on customer data, suspects China nexus",
@@ -27443,6 +27553,116 @@
     "verification": "reported",
     "review": "auto",
     "verified_at": "2026-11-05T01:35:36Z"
+  },
+  {
+    "id": "kerala-ai-fake-lottery-tickets",
+    "date": "2026-10-28",
+    "title": "AI-powered fake lottery tickets fuel mass fraud in Kerala, India",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "IN",
+    "region": "Kerala (notably Palakkad district)",
+    "target": "Lottery ticket buyers, genuine lottery sellers and the Kerala state lottery revenue",
+    "loss_usd": null,
+    "summary": "Kerala Chief Minister V D Satheesan told the state Assembly on 28 October that fraudsters are using AI to produce counterfeit Kerala paper lottery tickets and selling them through social media, sometimes selling the same ticket to several buyers and switching off their phones when a big prize is claimed. He said the practice is especially prevalent in districts such as Palakkad, causes losses to the state exchequer and hurts genuine lottery sellers, and promised stringent action by the Lottery Department and police. No arrests or loss figures are reported.",
+    "actor": "Unknown (unidentified fraudsters selling tickets via social media)",
+    "actor_type": "criminal",
+    "sector": "Individuals & consumers",
+    "attribution": "Not attributed; the headline only says fraudsters are using AI-generated tickets.",
+    "motive": "Financial gain",
+    "vector": "AI-generated counterfeit lottery tickets sold or presented as genuine",
+    "root_cause": "Unknown; generative AI apparently makes convincing fake tickets easy to produce.",
+    "impact": "Described as massive fraud affecting lottery buyers or sellers in Kerala; the number of victims and the losses are not stated.",
+    "response": "The Kerala Chief Minister has vowed a crackdown.",
+    "status": "ongoing; government says action is being taken, no arrests reported",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "source": "The South First",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxONGFtS2docmlUU01SNnRwTGhtR09xUGxjR3N3TUdiSGxLN2ZTRzZLVGtrWVpna2VvMjhTT2NaSkNVQnFGcWY5RFJnZFRZN2NCTERwMkNQUTF6eV9tck84MDdyTHlLV083QmNVX09jRnd3OHBXTVNrWXRGWng2SlBDMEQzMElHMUE3OGZieXdGQW9RNWlaWnNpNFFVR1F1YURBU0xiUGVQTHhXTHdRZ05URg?oc=5",
+    "sources": [
+      {
+        "name": "The South First",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxONGFtS2docmlUU01SNnRwTGhtR09xUGxjR3N3TUdiSGxLN2ZTRzZLVGtrWVpna2VvMjhTT2NaSkNVQnFGcWY5RFJnZFRZN2NCTERwMkNQUTF6eV9tck84MDdyTHlLV083QmNVX09jRnd3OHBXTVNrWXRGWng2SlBDMEQzMElHMUE3OGZieXdGQW9RNWlaWnNpNFFVR1F1YURBU0xiUGVQTHhXTHdRZ05URg?oc=5"
+      },
+      {
+        "name": "ThePrint (PTI)",
+        "url": "https://theprint.in/india/stringent-action-against-fake-lottery-ticket-sale-via-social-media-using-ai-keralam-cm/3084167/"
+      },
+      {
+        "name": "The South First",
+        "url": "https://thesouthfirst.com/keralam/keralam-ai-powered-fake-lottery-tickets-fuel-massive-fraud-cm-vows-crackdown/"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-28",
+        "event": "Reported by The South First"
+      }
+    ],
+    "drafted_at": "2026-10-28T10:05:44Z",
+    "first_seen": "2026-10-28T10:05:44Z",
+    "updated_at": "2026-11-05T06:35:37Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-05T06:35:37Z"
+  },
+  {
+    "id": "deepseek-seo-poisoning-kong-rat",
+    "date": "2026-10-28",
+    "title": "SEO poisoning targets DeepSeek users with Kong RAT malware",
+    "category": "AI supply chain",
+    "direction": "on-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "DeepSeek users searching for the AI service",
+    "loss_usd": null,
+    "summary": "Hybrid Analysis researchers describe an SEO-poisoning campaign in which DeepSeek lookalike domains appear on first-page search results and serve a code-signed fake 'DeepSeek Local Deployment Tool' installer, which starts a multi-stage chain ending in Kong RAT (including a keylogger). The researchers say it appears to continue an April 2026 Kong RAT campaign documented by eSentire and tentatively point to a Chinese-speaking actor based on a PDB path string. No victim counts or losses are reported.",
+    "actor": "Unknown; possibly a Chinese-speaking threat actor (tentative attribution based on a PDB path reference)",
+    "actor_type": "unknown",
+    "sector": "Individuals & consumers",
+    "attribution": "Described in a Reddit r/netsec post as a Chinese threat actor; no further attribution detail in the summary.",
+    "motive": "Unknown",
+    "vector": "SEO poisoning of search results leading DeepSeek users to multi-stage infection chains that install Kong RAT.",
+    "root_cause": "Users searching for a popular AI tool are lured to malicious look-alike pages through manipulated search rankings.",
+    "impact": "Victim count and losses are unknown. Infected users risk remote access trojan compromise.",
+    "response": "Unknown",
+    "status": "ongoing (reported by researchers; no takedown or victim figures stated)",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "source": "Reddit r/netsec",
+    "url": "https://www.reddit.com/r/netsec/comments/1xhqj0w/seo_poisoning_campaign_targets_deepseek_users",
+    "sources": [
+      {
+        "name": "Reddit r/netsec",
+        "url": "https://www.reddit.com/r/netsec/comments/1xhqj0w/seo_poisoning_campaign_targets_deepseek_users"
+      },
+      {
+        "name": "Hybrid Analysis Blog",
+        "url": "https://hybrid-analysis.blogspot.com/2026/10/seo-poisoning-campaign-targets-deepseek.html"
+      },
+      {
+        "name": "OffSeq Threat Radar (AlienVault OTX)",
+        "url": "https://radar.offseq.com/threat/seo-poisoning-campaign-targets-deepseek-users-chinese-threat-actor-deploys-kong-rat-via-multi-stage-2f299658d22a95d2"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-28",
+        "event": "Reported by Reddit r/netsec"
+      }
+    ],
+    "drafted_at": "2026-10-28T15:05:45Z",
+    "first_seen": "2026-10-28T15:05:45Z",
+    "updated_at": "2026-11-05T06:35:37Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-05T06:35:37Z"
   },
   {
     "id": "hugging-face-gpu-mining-returns",
@@ -28311,6 +28531,61 @@
     "verification": "reported",
     "review": "auto",
     "verified_at": "2026-11-04T23:05:39Z"
+  },
+  {
+    "id": "unlimited-ai-resale-1m-bill",
+    "date": "2026-11-02",
+    "title": "Stolen API keys power 'Jet Night' unlimited-AI resale service ($60/month), passing nearly $1M in token costs to victim organization",
+    "category": "LLMjacking",
+    "direction": "on-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "Unnamed victim organization's cloud LLM API access",
+    "loss_usd": null,
+    "summary": "Google Threat Intelligence Group and Mandiant report that an actor used stolen third-party API keys to power the token-routing service jet-night.com, executing more than 500,000 LLM API calls in under eight hours and passing nearly $1 million in token costs to a victim organization. Jet Night advertises an unlimited plan for about $60 a month, which GTIG believes is only viable because it relies on stolen keys. The victim is not named.",
+    "actor": "Unknown (operators of the Jet Night 'LLM mixer' service; other LLMjacking clusters such as UNC6993 are tracked separately)",
+    "actor_type": "criminal",
+    "sector": "Unknown",
+    "attribution": "Unknown; SecurityLab.ru describes unnamed hackers selling the access.",
+    "motive": "Financial gain from reselling unlimited AI access.",
+    "vector": "Unauthorised use of a victim's AI account or access; exact method not stated in the headline.",
+    "root_cause": "Unknown; likely compromised credentials or API access, but the source text does not say.",
+    "impact": "About 500,000 requests in 8 hours were run on the victim's account, which was billed nearly $1 million.",
+    "response": "Unknown",
+    "status": "reported by Google/Mandiant; victim and actor not publicly identified",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "source": "SecurityLab.ru",
+    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9idU9TRlQ3MFRuaE9DUmFRZ05qWnFCbi14M1g3c2d2WHpVbW5KYld1MVhiU1N4WXdla1lGZkdYRS1QZndoVHhVYmNsY0lzQnZEVmg5eQ?oc=5",
+    "sources": [
+      {
+        "name": "SecurityLab.ru",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9idU9TRlQ3MFRuaE9DUmFRZ05qWnFCbi14M1g3c2d2WHpVbW5KYld1MVhiU1N4WXdla1lGZkdYRS1QZndoVHhVYmNsY0lzQnZEVmg5eQ?oc=5"
+      },
+      {
+        "name": "Google Cloud Blog (GTIG/Mandiant)",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/llmjacking-monetizing-compromised-cloud-models"
+      },
+      {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/google-llmjacking-attacks-rack-up-1-million-in-cloud-ai-charges/"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-11-05",
+        "event": "Reported by SecurityLab.ru"
+      }
+    ],
+    "drafted_at": "2026-11-05T05:35:37Z",
+    "first_seen": "2026-11-05T05:35:37Z",
+    "updated_at": "2026-11-05T06:35:37Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-05T06:35:37Z"
   },
   {
     "id": "priangarye-governor-deepfake-26m",
