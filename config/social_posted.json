@@ -206,7 +206,10 @@
     "https://aithreat.io/cases/au-woman-scam-face-in-ai-scam-ad/",
     "https://aithreat.io/cases/murmansk-governor-chibis-deepfake-scam/",
     "https://aithreat.io/cases/brazil-court-prompt-injection-filing/",
-    "https://aithreat.io/cases/langflow-cve-2026-0768-key-theft/"
+    "https://aithreat.io/cases/langflow-cve-2026-0768-key-theft/",
+    "https://aithreat.io/cases/claude-accessed-georgia-voter-data/",
+    "https://aithreat.io/cases/johns-hopkins-unauthorized-ai-exposure/",
+    "https://aithreat.io/cases/sharp-healthcare-ai-recording/"
   ],
   "bluesky": [
     "https://aithreat.io/cases/unit42-ai-espionage-gov-linux/",
@@ -406,7 +409,10 @@
     "https://aithreat.io/cases/au-woman-scam-face-in-ai-scam-ad/",
     "https://aithreat.io/cases/murmansk-governor-chibis-deepfake-scam/",
     "https://aithreat.io/cases/brazil-court-prompt-injection-filing/",
-    "https://aithreat.io/cases/langflow-cve-2026-0768-key-theft/"
+    "https://aithreat.io/cases/langflow-cve-2026-0768-key-theft/",
+    "https://aithreat.io/cases/claude-accessed-georgia-voter-data/",
+    "https://aithreat.io/cases/johns-hopkins-unauthorized-ai-exposure/",
+    "https://aithreat.io/cases/sharp-healthcare-ai-recording/"
   ],
   "x": [
     "https://aithreat.io/cases/aoki-infostealer-ai-assistant-creds/",
@@ -470,12 +476,12 @@
     "skipped": "TELEGRAM_OWNER_CHAT_ID not set"
   },
   "bluesky_status": {
-    "at": "2026-11-05T04:15:14Z",
-    "ok": "https://aithreat.io/cases/langflow-cve-2026-0768-key-theft/"
+    "at": "2026-11-05T04:47:58Z",
+    "ok": "https://aithreat.io/cases/sharp-healthcare-ai-recording/"
   },
   "telegram_status": {
-    "at": "2026-11-05T04:15:21Z",
-    "ok": "https://aithreat.io/cases/langflow-cve-2026-0768-key-theft/"
+    "at": "2026-11-05T04:48:06Z",
+    "ok": "https://aithreat.io/cases/sharp-healthcare-ai-recording/"
   },
   "breaking_status": {
     "at": "2026-11-04T17:55:14Z",
