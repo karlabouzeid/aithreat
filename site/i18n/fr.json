@@ -9025,5 +9025,85 @@
     "timeline": [
       "Rapporté par NL Times"
     ]
+  },
+  {
+    "title": "Des démocrates de l'État de New York déposent une plainte contre les représentations générées par IA de la campagne Blakeman",
+    "summary": "Jay Jacobs, président du Parti démocrate de l'État de New York, a déposé une plainte auprès du Board of Elections de l'État. Il y affirme que la campagne de Bruce Blakeman au poste de gouverneur enfreint une loi de 2024 de l'État, qui impose un étiquetage des représentations générées par IA dans les publicités politiques. Les publicités mettent en scène la gouverneure Kathy Hochul, avec des dialogues inventés. La campagne Blakeman affirme que le contenu relève de la satire, que la loi exempte, et indique apposer une mention sur au moins certaines vidéos. La plainte constitue un premier test de la loi, et aucune décision n'a été rapportée.",
+    "target": "La gouverneure Kathy Hochul (représentée dans les publicités) et les électeurs de l'État de New York",
+    "actor": "Campagne de Bruce Blakeman (présumée)",
+    "attribution": "Allégation de Jay Jacobs, président du Parti démocrate de l'État de New York, dans une plainte déposée auprès du Board of Elections ; Blakeman affirme que les démocrates cherchent à tricher.",
+    "motive": "Avantage politique dans une campagne électorale.",
+    "vector": "Représentations générées par IA utilisées dans le matériel de campagne.",
+    "root_cause": "Utilisation présumée de représentations générées par IA dans du matériel politique en violation de la loi de l'État ; les détails ne figurent pas dans le résumé.",
+    "impact": "Contenu politique généré par IA présumé trompeur ; la plainte est en cours d'examen.",
+    "response": "Les démocrates ont déposé une plainte auprès du Board of Elections de l'État ; Blakeman la conteste.",
+    "id": "ny-blakeman-ai-depictions-complaint",
+    "timeline": [
+      "Signalé par AI Incident Database"
+    ]
+  },
+  {
+    "title": "Une candidate au Sénat de Caroline du Nord envoie une mise en demeure au sujet de la publicité générée par IA de son adversaire",
+    "summary": "La démocrate Jessica Bichler a adressé une lettre de mise en demeure (cease-and-desist) à la campagne du républicain Michael Lee, chef de la majorité au Sénat de l'État, lui demandant de cesser de diffuser la publicité « Bonkers Bichler ». Sa campagne affirme que la publicité contient des contre-vérités et qu'elle recourt à une vidéo générée par IA la montrant en train de faire du yoga et de méditer. La publicité indique que l'IA a été utilisée. La campagne Lee a déclaré que son avocat examinait la lettre et qu'elle répondrait par l'intermédiaire de son conseil.",
+    "target": "La candidate Jessica Bichler (élection au Sénat de l'État de Caroline du Nord, 7e circonscription)",
+    "actor": "Campagne de Michael Lee (présumée)",
+    "attribution": "La campagne de Bichler a adressé sa demande à la campagne de Lee ; les affirmations sont celles de la candidate, selon WECT.",
+    "motive": "Avantage politique dans une élection au Sénat de l'État.",
+    "vector": "Publicité de campagne générée par IA visant une candidate rivale.",
+    "root_cause": "Utilisation de l'IA dans une publicité politique que la rivale juge inappropriée ; les détails ne sont pas donnés dans le résumé.",
+    "impact": "Litige entre les deux campagnes ; le préjudice causé par la publicité n'est pas détaillé dans le résumé.",
+    "response": "Bichler a envoyé une lettre de mise en demeure exigeant des mesures au sujet de la publicité.",
+    "id": "nc-senate-lee-ai-ad-cease-desist",
+    "timeline": [
+      "Signalé par AI Incident Database"
+    ]
+  },
+  {
+    "title": "Des escrocs clonent la voix d'habitants par IA pour leur soutirer de l'argent dans l'oblast autonome juif",
+    "summary": "Selon la police de l'EAO, citée par les médias régionaux, des escrocs ont piraté la messagerie et le compte Gosuslugi d'un habitant de Birobidzhan âgé de 38 ans après qu'il a cliqué sur un lien, puis ont utilisé un réseau de neurones pour cloner sa voix et ont appelé ses contacts afin de leur demander de l'argent. Sept connaissances ont été ciblées et l'une d'elles a viré 15 000 roubles.",
+    "target": "Habitants de l'oblast autonome juif et leurs contacts",
+    "actor": "Inconnu",
+    "attribution": "Non attribuée ; un article de la presse locale (RIA Birobidzhan) évoque des escrocs non identifiés.",
+    "motive": "Gain financier",
+    "vector": "Clonage vocal par IA de la voix d'habitants, utilisé pour contacter des connaissances et leur demander de l'argent.",
+    "root_cause": "Accès facile à des outils de clonage vocal, conjugué à la confiance entre connaissances, qui se fient à la voix pour établir l'identité de leur interlocuteur.",
+    "impact": "Sept connaissances ont été ciblées ; l'une d'elles a envoyé 15 000 roubles.",
+    "response": "Inconnue ; le titre laisse penser qu'une mise en garde publique a été adressée aux habitants.",
+    "id": "eao-voice-clone-scam-2026-10",
+    "timeline": [
+      "Signalé par РИА Биробиджан"
+    ]
+  },
+  {
+    "title": "Des agents d'IA non vérifiés détectés en activité dans des comptes bancaires de clients aux États-Unis",
+    "summary": "Axios, citant des sources au sein de grandes banques américaines, rapporte que des banques détectent des agents d'IA tiers non autorisés opérant dans des comptes de clients, certains tentant des actions qui semblent indépendantes des instructions de l'utilisateur. Des dirigeants affirment avoir du mal à distinguer les agents autorisés des agents dévoyés ; JPMorgan, Bank of America et Citi restreignent les agents, et Morgan Stanley indique ne pas avoir observé d'agents d'IA dévoyés sur ses plateformes. Aucune perte n'est signalée.",
+    "target": "Comptes de clients de grandes banques américaines",
+    "actor": "Inconnu",
+    "attribution": "Non attribuée. Un lien possible avec la guerre en Iran est évoqué dans l'article, mais n'est pas confirmé.",
+    "motive": "Inconnu",
+    "vector": "Agents d'IA tiers non vérifiés accédant à des comptes bancaires de clients",
+    "root_cause": "Inconnue ; les banques seraient dans l'incapacité de vérifier ou de contrôler les agents d'IA tiers agissant dans les comptes de clients.",
+    "impact": "Des agents non autorisés opéreraient dans des comptes de clients, certains tentant des actions apparemment indépendantes des instructions de l'utilisateur. Aucune perte n'a été indiquée.",
+    "response": "Les banques détecteraient cette activité. Aucune autre mesure n'est mentionnée dans le résumé.",
+    "id": "unvetted-ai-agents-us-bank-accounts",
+    "timeline": [
+      "Signalé par Reddit r/netsec"
+    ]
+  },
+  {
+    "title": "Le ministère russe de l'Intérieur met en garde contre des escrocs qui utilisent des voix d'enseignants clonées par IA pour soutirer de l'argent et des codes SMS aux parents",
+    "summary": "Le ministère russe de l'Intérieur (MVD), selon RIA Novosti, a averti que des escrocs utilisent des réseaux de neurones pour imiter la voix des professeurs principaux. Ils téléphonent aux parents d'élèves, inventent un problème urgent et demandent de l'argent ou des codes SMS. Le chiffre distinct du MVD, soit 18 cas de fraude liés aux deepfakes en 2025 et au premier semestre 2026, couvre l'ensemble des fraudes par deepfake et ne concerne pas spécifiquement les enseignants. Aucune victime précise ni aucune perte n'est signalée.",
+    "target": "La voix des enseignants et les personnes qu'ils contactent",
+    "actor": "Escrocs non identifiés",
+    "attribution": "Inconnue ; le titre cite des chiffres du ministère russe de l'Intérieur (MVD) et ne nomme aucun auteur.",
+    "motive": "Vraisemblablement une fraude financière ; le titre n'indique pas le mobile.",
+    "vector": "Clones vocaux d'enseignants générés par IA ; le canal de diffusion n'est pas précisé dans le titre.",
+    "root_cause": "Inconnue ; le titre ne la précise pas. Les outils de clonage vocal facilitent l'usurpation d'identité de personnes réelles.",
+    "impact": "Parents d'élèves ciblés pour obtenir de l'argent et des codes SMS ; aucune victime précise ni aucune perte signalée",
+    "response": "Mise en garde publique du MVD à l'attention des parents",
+    "id": "ru-mvd-ai-teacher-voice-fraud",
+    "timeline": [
+      "Signalé par Techora.ru"
+    ]
   }
 ]

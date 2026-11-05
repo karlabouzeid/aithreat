@@ -9025,5 +9025,85 @@
     "timeline": [
       "Publicado por NL Times"
     ]
+  },
+  {
+    "title": "Demócratas de Nueva York presentan una queja por las representaciones de IA de la campaña de Blakeman",
+    "summary": "El presidente del Partido Demócrata de Nueva York, Jay Jacobs, presentó una queja ante la Junta de Elecciones del estado en la que alega que la campaña a la gobernación de Bruce Blakeman infringe una ley estatal de 2024 que exige etiquetar las representaciones generadas por IA en los anuncios políticos. Los anuncios representan a la gobernadora Kathy Hochul, e incluyen diálogos inventados. La campaña de Blakeman sostiene que el contenido es sátira, algo que la ley exime, y afirma que etiqueta al menos algunos de los vídeos. La queja es la primera prueba de la ley y no se ha informado de ninguna resolución.",
+    "target": "La gobernadora Kathy Hochul (representada en los anuncios) y los votantes de Nueva York",
+    "actor": "Campaña de Bruce Blakeman (presunta)",
+    "attribution": "Alegado por el presidente del Partido Demócrata de Nueva York, Jay Jacobs, en una queja ante la Junta de Elecciones; Blakeman afirma que los demócratas intentan hacer trampa.",
+    "motive": "Ventaja política en una campaña electoral.",
+    "vector": "Representaciones generadas por IA utilizadas en material de campaña.",
+    "root_cause": "Presunto uso de representaciones de IA en material político en incumplimiento de la ley estatal; los detalles no figuran en el resumen.",
+    "impact": "Presunto contenido político engañoso generado con IA; la queja está pendiente.",
+    "response": "Los demócratas presentaron una queja ante la Junta de Elecciones del estado; Blakeman la rechaza.",
+    "id": "ny-blakeman-ai-depictions-complaint",
+    "timeline": [
+      "Reportado por AI Incident Database"
+    ]
+  },
+  {
+    "title": "Candidata al Senado de Carolina del Norte envía una carta de cese y desistimiento por un anuncio de IA de su rival",
+    "summary": "La demócrata Jessica Bichler envió una carta de cese y desistimiento a la campaña del líder de la mayoría del Senado estatal, el republicano Michael Lee, en la que exige que deje de emitir el anuncio “Bonkers Bichler”. Su campaña afirma que el anuncio contiene falsedades y que utiliza vídeo generado por IA en el que ella aparece haciendo yoga y meditando. El anuncio revela que se usó IA. La campaña de Lee dijo que su abogado estaba revisando la carta y que responderá a través de su representación legal.",
+    "target": "La candidata Jessica Bichler (contienda por el distrito 7 del Senado estatal de Carolina del Norte)",
+    "actor": "Campaña de Michael Lee (presunta)",
+    "attribution": "La campaña de Bichler envió el requerimiento a la campaña de Lee; las afirmaciones son de la candidata, según informó WECT.",
+    "motive": "Ventaja política en una contienda por el Senado estatal.",
+    "vector": "Anuncio de campaña generado con IA dirigido contra una candidata rival.",
+    "root_cause": "Uso de IA en un anuncio político que la rival considera improcedente; el resumen no ofrece detalles.",
+    "impact": "Disputa entre ambas campañas; el resumen no detalla el daño causado por el anuncio.",
+    "response": "Bichler envió una carta de cese y desistimiento en la que exige actuar respecto del anuncio.",
+    "id": "nc-senate-lee-ai-ad-cease-desist",
+    "timeline": [
+      "Reportado por AI Incident Database"
+    ]
+  },
+  {
+    "title": "Estafadores clonan con IA las voces de residentes para sacar dinero en el Óblast Autónomo Judío",
+    "summary": "Según la policía del EAO citada por medios regionales, unos estafadores se apoderaron de las cuentas de mensajería y de Gosuslugi de un residente de Birobidzhan de 38 años después de que este hiciera clic en un enlace; luego usaron una red neuronal para clonar su voz y llamaron a sus contactos para pedirles dinero. Siete conocidos fueron blanco del ataque y uno transfirió 15.000 RUB.",
+    "target": "Residentes del Óblast Autónomo Judío y sus contactos",
+    "actor": "Desconocido",
+    "attribution": "Sin atribución; una noticia local (RIA Birobidzhan) describe a estafadores sin identificar.",
+    "motive": "Beneficio económico",
+    "vector": "Clonación de voz con IA de las voces de residentes, utilizada para contactar con conocidos y pedirles dinero.",
+    "root_cause": "Fácil acceso a herramientas de clonación de voz combinado con la confianza entre conocidos, que se fían de la voz para verificar la identidad.",
+    "impact": "Siete conocidos fueron blanco del ataque; uno envió 15.000 RUB.",
+    "response": "Desconocida; el titular sugiere una advertencia pública a los residentes.",
+    "id": "eao-voice-clone-scam-2026-10",
+    "timeline": [
+      "Reportado por RIA Birobidzhan"
+    ]
+  },
+  {
+    "title": "Detectan agentes de IA sin verificar operando dentro de cuentas bancarias de clientes en EE. UU.",
+    "summary": "Axios, citando fuentes de grandes bancos estadounidenses, informa de que los bancos están detectando agentes de IA de terceros no autorizados que operan dentro de cuentas de clientes, algunos de ellos con intentos de realizar acciones que parecen independientes de las instrucciones del usuario. Los directivos afirman que les cuesta distinguir los agentes autorizados de los agentes fraudulentos; JPMorgan, Bank of America y Citi están restringiendo los agentes, y Morgan Stanley dice que no ha observado agentes de IA fraudulentos en sus plataformas. No se informa de pérdidas.",
+    "target": "Cuentas de clientes de grandes bancos de EE. UU.",
+    "actor": "Desconocido",
+    "attribution": "Sin atribución. El informe plantea un posible vínculo con la guerra de Irán, pero no está confirmado.",
+    "motive": "Desconocido",
+    "vector": "Agentes de IA de terceros sin verificar que acceden a cuentas bancarias de clientes",
+    "root_cause": "Desconocida; según se informa, los bancos no pueden verificar ni controlar los agentes de IA de terceros que actúan dentro de las cuentas de los clientes.",
+    "impact": "Según se informa, agentes no autorizados operan en cuentas de clientes y algunos intentan realizar acciones aparentemente independientes de las instrucciones del usuario. No se indicaron pérdidas.",
+    "response": "Según se informa, los bancos están detectando la actividad. El resumen no indica ninguna otra respuesta.",
+    "id": "unvetted-ai-agents-us-bank-accounts",
+    "timeline": [
+      "Reportado por Reddit r/netsec"
+    ]
+  },
+  {
+    "title": "El Ministerio del Interior ruso advierte de que estafadores utilizan voces de docentes clonadas con IA para sacar dinero y códigos SMS a los padres",
+    "summary": "El Ministerio del Interior de Rusia (MVD), según informó RIA Novosti, advirtió de que los estafadores utilizan redes neuronales para imitar las voces de los tutores de clase. Llaman por teléfono a los padres de escolares, inventan un problema urgente y les piden dinero o códigos SMS. La cifra aparte que ofrece el MVD, 18 casos de fraude relacionados con deepfakes en 2025 y el primer semestre de 2026, abarca todo el fraude con deepfakes y no es específica de los docentes. No se notifican víctimas ni pérdidas concretas.",
+    "target": "Las voces de los docentes y las personas a las que estos contactan",
+    "actor": "Estafadores desconocidos",
+    "attribution": "Desconocida; el titular cita cifras del Ministerio del Interior ruso (MVD) y no nombra a ningún responsable.",
+    "motive": "Presumiblemente fraude financiero; el titular no indica el motivo.",
+    "vector": "Clones de voz de docentes generados con IA; el titular no indica el canal de entrega.",
+    "root_cause": "Desconocida; el titular no lo especifica. Las herramientas de clonación de voz facilitan la suplantación de personas reales.",
+    "impact": "Padres de escolares son blanco de intentos de obtener dinero y códigos SMS; no se notifican víctimas ni pérdidas concretas",
+    "response": "Advertencia pública del MVD dirigida a los padres",
+    "id": "ru-mvd-ai-teacher-voice-fraud",
+    "timeline": [
+      "Publicado por Techora.ru"
+    ]
   }
 ]

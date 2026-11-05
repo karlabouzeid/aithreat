@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T04:05:40Z",
+  "generated_at": "2026-11-05T04:35:40Z",
   "categories": [
     {
       "name": "AI exam fraud",
@@ -29,7 +29,7 @@
     {
       "name": "Agent hijack",
       "slug": "agent-hijack",
-      "count": 31
+      "count": 32
     },
     {
       "name": "Chatbot harm",
@@ -39,12 +39,12 @@
     {
       "name": "Deepfake abuse",
       "slug": "deepfake-abuse",
-      "count": 53
+      "count": 55
     },
     {
       "name": "Deepfake fraud",
       "slug": "deepfake-fraud",
-      "count": 113
+      "count": 115
     },
     {
       "name": "LLMjacking",
@@ -270,7 +270,7 @@
     },
     {
       "code": "RU",
-      "count": 6
+      "count": 8
     },
     {
       "code": "SE",
@@ -306,7 +306,7 @@
     },
     {
       "code": "US",
-      "count": 142
+      "count": 145
     },
     {
       "code": "UY",

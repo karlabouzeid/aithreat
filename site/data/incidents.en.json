@@ -19941,6 +19941,61 @@
     "sector": "Government & public sector"
   },
   {
+    "id": "ny-blakeman-ai-depictions-complaint",
+    "date": "2026-08-10",
+    "title": "NY Democrats file complaint over Blakeman campaign's AI depictions",
+    "category": "Deepfake abuse",
+    "direction": "with-ai",
+    "severity": "low",
+    "country": "US",
+    "region": "North America",
+    "target": "Gov. Kathy Hochul (depicted in the ads) and New York voters",
+    "loss_usd": null,
+    "summary": "New York Democratic Party chair Jay Jacobs filed a complaint with the state Board of Elections alleging Bruce Blakeman's gubernatorial campaign violates a 2024 state law requiring labels on AI-generated depictions in political ads. The ads depict Gov. Kathy Hochul, including invented dialogue. The Blakeman campaign says the content is satire, which the law exempts, and says it labels at least some videos. The complaint is a first test of the law, and no ruling has been reported.",
+    "actor": "Bruce Blakeman campaign (alleged)",
+    "actor_type": "unknown",
+    "sector": "Politics & elections",
+    "attribution": "Alleged by NY Democratic Party chair Jay Jacobs in a Board of Elections complaint; Blakeman claims Democrats are trying to cheat.",
+    "motive": "Political advantage in an election campaign.",
+    "vector": "AI-generated depictions used in campaign material.",
+    "root_cause": "Alleged use of AI depictions in political material in violation of state law; details not in the summary.",
+    "impact": "Alleged misleading AI political content; the complaint is pending.",
+    "response": "Democrats filed a complaint with the state Board of Elections; Blakeman disputes it.",
+    "status": "ongoing",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "source": "AI Incident Database",
+    "url": "https://spectrumlocalnews.com/nys/central-ny/politics/2026/08/11/democrats-blakeman-ai-depictions-",
+    "sources": [
+      {
+        "name": "AI Incident Database",
+        "url": "https://spectrumlocalnews.com/nys/central-ny/politics/2026/08/11/democrats-blakeman-ai-depictions-"
+      },
+      {
+        "name": "Patch",
+        "url": "https://patch.com/new-york/longisland/state-democrats-file-complaint-over-blakeman-s-ai-ads-accuse-county-exec"
+      },
+      {
+        "name": "The Center Square",
+        "url": "https://www.thecentersquare.com/new_york/article_6a88065d-beaa-4298-a616-d791a045980e.html"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-24",
+        "event": "Reported by AI Incident Database"
+      }
+    ],
+    "drafted_at": "2026-10-24T22:05:45Z",
+    "first_seen": "2026-10-24T22:05:45Z",
+    "updated_at": "2026-11-05T04:35:40Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-05T04:35:40Z"
+  },
+  {
     "id": "georgia-ai-bomb-threats-schools",
     "date": "2026-08-14",
     "title": "AI-generated bomb threats shut down Jackson and Hall County, Georgia schools",
@@ -20731,6 +20786,61 @@
     "age_group": "young-adult",
     "verified_at": "2026-10-19T13:40:55Z",
     "updated_at": "2026-10-19T13:40:55Z"
+  },
+  {
+    "id": "nc-senate-lee-ai-ad-cease-desist",
+    "date": "2026-09-03",
+    "title": "NC senate candidate sends cease-and-desist over rival's AI ad",
+    "category": "Deepfake abuse",
+    "direction": "with-ai",
+    "severity": "low",
+    "country": "US",
+    "region": "North America",
+    "target": "Candidate Jessica Bichler (NC state senate district 7 race)",
+    "loss_usd": null,
+    "summary": "Democrat Jessica Bichler sent a cease-and-desist letter to Republican state senate majority leader Michael Lee's campaign, demanding it stop airing the 'Bonkers Bichler' ad. Her campaign says the ad contains falsehoods, and it uses AI-generated video of her doing yoga and meditating. The ad discloses that AI was used. The Lee campaign said its attorney was reviewing the letter and it would respond through counsel.",
+    "actor": "Michael Lee campaign (alleged)",
+    "actor_type": "unknown",
+    "sector": "Politics & elections",
+    "attribution": "Bichler's campaign sent the demand to Lee's campaign; the claims are the candidate's, as reported by WECT.",
+    "motive": "Political advantage in a state senate race.",
+    "vector": "AI-generated campaign advertisement targeting a rival candidate.",
+    "root_cause": "Use of AI in a political ad that the rival says is improper; details not given in the summary.",
+    "impact": "Dispute between the two campaigns; the harm caused by the ad is not detailed in the summary.",
+    "response": "Bichler sent a cease-and-desist letter demanding action over the ad.",
+    "status": "ongoing",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "source": "AI Incident Database",
+    "url": "https://www.wect.com/2026/09/03/wect-investigates-michael-lee-hit-with-cease-desist-over-ai-ad",
+    "sources": [
+      {
+        "name": "AI Incident Database",
+        "url": "https://www.wect.com/2026/09/03/wect-investigates-michael-lee-hit-with-cease-desist-over-ai-ad"
+      },
+      {
+        "name": "NPR",
+        "url": "https://www.npr.org/transcripts/nx-s1-5953990"
+      },
+      {
+        "name": "Talking Points Memo",
+        "url": "https://talkingpointsmemo.com/the-weekender/the-weird-the-menacing-and-the-false-tracking-the-worst-of-the-2026-midterms-ads"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-24",
+        "event": "Reported by AI Incident Database"
+      }
+    ],
+    "drafted_at": "2026-10-24T22:05:45Z",
+    "first_seen": "2026-10-24T22:05:45Z",
+    "updated_at": "2026-11-05T04:35:40Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-05T04:35:40Z"
   },
   {
     "id": "chatgpt-gmail-covert-channel",
@@ -25809,6 +25919,167 @@
     "verification": "reported",
     "review": "auto",
     "verified_at": "2026-11-05T01:35:36Z"
+  },
+  {
+    "id": "eao-voice-clone-scam-2026-10",
+    "date": "2026-10-22",
+    "title": "Scammers clone residents' voices with AI to extract money in Jewish Autonomous Oblast",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "RU",
+    "region": "Asia-Pacific",
+    "target": "Residents of the Jewish Autonomous Oblast and their contacts",
+    "loss_usd": null,
+    "summary": "Per EAO police quoted by regional media, scammers hijacked the messenger and Gosuslugi accounts of a 38-year-old Birobidzhan resident after he clicked a link, then used a neural network to clone his voice and phoned his contacts asking for money. Seven acquaintances were targeted and one transferred 15,000 rubles.",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "sector": "Individuals & consumers",
+    "attribution": "Unattributed; local news report (RIA Birobidzhan) describes unnamed scammers.",
+    "motive": "Financial gain",
+    "vector": "AI voice cloning of residents' voices, used to contact acquaintances and request money.",
+    "root_cause": "Easy access to voice-cloning tools combined with trust between acquaintances, who rely on voice for identity.",
+    "impact": "Seven acquaintances were targeted; one sent 15,000 rubles.",
+    "response": "Unknown; the headline suggests a public warning to residents.",
+    "status": "ongoing",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "source": "РИА Биробиджан",
+    "url": "https://news.google.com/rss/articles/CBMiPkFVX3lxTE40Y3ZVdWJRelNRemU1WHA0YW1vcGFHU1lxelRrYk45Qjc2b1MtYzNSTDlJZllGQ1dCMVZzUGpB?oc=5",
+    "sources": [
+      {
+        "name": "РИА Биробиджан",
+        "url": "https://news.google.com/rss/articles/CBMiPkFVX3lxTE40Y3ZVdWJRelNRemU1WHA0YW1vcGFHU1lxelRrYk45Qjc2b1MtYzNSTDlJZllGQ1dCMVZzUGpB?oc=5"
+      },
+      {
+        "name": "РИА Биробиджан",
+        "url": "https://riabir.ru/492457/"
+      },
+      {
+        "name": "АиФ Хабаровск",
+        "url": "https://hab.aif.ru/society/golos-birobidzhanca-skopirovali-neyrosetyu-i-vymanili-dengi-u-ego-znakomogo"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-22",
+        "event": "Reported by РИА Биробиджан"
+      }
+    ],
+    "drafted_at": "2026-10-22T01:05:44Z",
+    "first_seen": "2026-10-22T01:05:44Z",
+    "updated_at": "2026-11-05T04:35:40Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-05T04:35:40Z"
+  },
+  {
+    "id": "unvetted-ai-agents-us-bank-accounts",
+    "date": "2026-10-22",
+    "title": "Unvetted AI agents detected operating inside US customer bank accounts",
+    "category": "Agent hijack",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "US",
+    "region": "North America",
+    "target": "Customer accounts at major US banks",
+    "loss_usd": null,
+    "summary": "Axios, citing sources at major US banks, reports that banks are detecting unauthorized third-party AI agents operating inside customer accounts, some attempting actions that appear independent of user instructions. Executives say they struggle to tell authorized agents from rogue ones, JPMorgan, Bank of America and Citi are restricting agents, and Morgan Stanley says it has not observed rogue AI agents on its platforms. No losses are reported.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Financial services",
+    "attribution": "Unattributed. A possible link to the Iran War is raised in the report but not confirmed.",
+    "motive": "Unknown",
+    "vector": "Unvetted third-party AI agents accessing customer bank accounts",
+    "root_cause": "Unknown; banks reportedly cannot verify or control third-party AI agents acting inside customer accounts.",
+    "impact": "Unauthorized agents reportedly operate in customer accounts, with some attempting actions apparently independent of user instructions. No losses were stated.",
+    "response": "Banks are reportedly detecting the activity. No further response was stated in the summary.",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "source": "Reddit r/netsec",
+    "url": "https://www.reddit.com/r/netsec/comments/1xcrdup/unvetted_ai_agents_are_accessing_us_bank_accounts",
+    "sources": [
+      {
+        "name": "Reddit r/netsec",
+        "url": "https://www.reddit.com/r/netsec/comments/1xcrdup/unvetted_ai_agents_are_accessing_us_bank_accounts"
+      },
+      {
+        "name": "Axios",
+        "url": "https://www.axios.com/2026/10/22/ai-agents-banks-unauthorized-accounts-access"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-22",
+        "event": "Reported by Reddit r/netsec"
+      }
+    ],
+    "drafted_at": "2026-10-22T19:05:54Z",
+    "first_seen": "2026-10-22T19:05:54Z",
+    "updated_at": "2026-11-05T04:35:40Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-05T04:35:40Z"
+  },
+  {
+    "id": "ru-mvd-ai-teacher-voice-fraud",
+    "date": "2026-10-22",
+    "title": "Russian Interior Ministry warns scammers are using AI-cloned teachers' voices to extract money and SMS codes from parents",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "RU",
+    "region": "Europe",
+    "target": "Teachers' voices and the people they contact",
+    "loss_usd": null,
+    "summary": "Russia's Interior Ministry (MVD), as relayed by RIA Novosti, warned that scammers are using neural networks to imitate the voices of class teachers. They phone parents of schoolchildren, invent an urgent problem and ask for money or SMS codes. The MVD's separate figure of 18 deepfake-related fraud cases in 2025 and H1 2026 covers all deepfake fraud and is not specific to teachers. No specific victims or losses are reported.",
+    "actor": "Unknown scammers",
+    "actor_type": "criminal",
+    "sector": "Education & research",
+    "attribution": "Unknown; the headline cites Russian Interior Ministry (MVD) figures and names no perpetrators.",
+    "motive": "Presumably financial fraud; the headline does not state the motive.",
+    "vector": "AI-generated voice clones of teachers; delivery channel not stated in the headline.",
+    "root_cause": "Unknown; the headline does not say. Voice-cloning tools make impersonation of real people easy.",
+    "impact": "Parents of schoolchildren targeted for money and SMS codes; no specific victims or losses reported",
+    "response": "MVD public warning to parents",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "source": "Techora.ru",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNY01DLU5waDRnQmVXclNUR3JHVUUyeFN4TFMzSlFuR2VhWTZyZ1MyeTJKSGlnXzRoeGdTY1UwY2Rqc1JhSzl6MThKNDMwNFlPRk5TdzBCX2hpa19JamNyc1RVQ3JoQWZNb0xLNGgzQ2ZEaHVvaGNsaVgwV2dQRzNUZ05hT09seE0zYTg4?oc=5",
+    "sources": [
+      {
+        "name": "Techora.ru",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNY01DLU5waDRnQmVXclNUR3JHVUUyeFN4TFMzSlFuR2VhWTZyZ1MyeTJKSGlnXzRoeGdTY1UwY2Rqc1JhSzl6MThKNDMwNFlPRk5TdzBCX2hpa19JamNyc1RVQ3JoQWZNb0xLNGgzQ2ZEaHVvaGNsaVgwV2dQRzNUZ05hT09seE0zYTg4?oc=5"
+      },
+      {
+        "name": "Kommersant",
+        "url": "https://www.kommersant.ru/doc/9044482"
+      },
+      {
+        "name": "AiF",
+        "url": "https://aif.ru/society/mvd-aferisty-poddelyvayut-golosa-uchiteley-chtoby-krast-dengi-u-roditeley"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-24",
+        "event": "Reported by Techora.ru"
+      }
+    ],
+    "drafted_at": "2026-10-24T11:05:38Z",
+    "first_seen": "2026-10-24T11:05:38Z",
+    "updated_at": "2026-11-05T04:35:40Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-05T04:35:40Z"
   },
   {
     "id": "mendoza-retiree-messi-ai-scam",

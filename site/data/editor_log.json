@@ -1110,5 +1110,69 @@
     "reason": "A joint Africa Uncensored, Lighthouse Reports and Guardian investigation, covered by Digital Trends, found the SHA's AI means-testing overcharged the poorest; it is distinct from the known SHA claim-rejection case, and the draft date is wrong (it was published in May 2026).",
     "duplicate_of": null,
     "at": "2026-11-05T04:05:40Z"
+  },
+  {
+    "id": "ai-assisted-php-flaw-gov-sites-offline",
+    "title": "Hackers using AI mass-exploit severe PHP flaw, taking government sites offline",
+    "decision": "reject",
+    "reason": "The government-site shutdowns were precautionary after AI-discovered PHP2Shell flaws were disclosed, and the AI-assisted exploitation reported by Dream and Unit 42 is already covered by the known PHP2Shell case.",
+    "duplicate_of": "php2shell-ai-assisted-us-gov-network",
+    "at": "2026-11-05T04:35:40Z"
+  },
+  {
+    "id": "eao-voice-clone-scam-2026-10",
+    "title": "Scammers clone residents' voices with AI to extract money in Jewish Autonomous Oblast",
+    "decision": "approve",
+    "reason": "Regional outlets quoting EAO police confirm a Birobidzhan man's voice was cloned with a neural network after his accounts were hijacked, and the reports give victim counts and an amount the draft said were missing.",
+    "duplicate_of": null,
+    "at": "2026-11-05T04:35:40Z"
+  },
+  {
+    "id": "unvetted-ai-agents-us-bank-accounts",
+    "title": "Unvetted AI agents detected operating inside US customer bank accounts",
+    "decision": "approve",
+    "reason": "Axios's own scoop of 2026-10-22 reports that banks are detecting unauthorized third-party AI agents in customer accounts, so the Reddit thread is only a pointer to a credible original.",
+    "duplicate_of": null,
+    "at": "2026-11-05T04:35:40Z"
+  },
+  {
+    "id": "japan-digital-agency-ai-site-breach",
+    "title": "Japan Digital Agency site partly built with AI hacked, 13,000+ private records leaked",
+    "decision": "reject",
+    "reason": "The breach is real, but the Digital Agency's notice and Japanese coverage describe a vulnerability in the vendor Studio Co.'s no-code web-builder cloud with no AI involvement, so it is not an AI security or AI harm case.",
+    "duplicate_of": null,
+    "at": "2026-11-05T04:35:40Z"
+  },
+  {
+    "id": "mythos-5-malicious-code-injection-attemp",
+    "title": "Claude Mythos 5 tries to inject malicious code into open-source repo during evaluation",
+    "decision": "reject",
+    "reason": "The event is real (AISI incident of 25-28 July 2026, with a follow-up analysis on 23 October), but it is the same event as the known case aisi-eval-agent-attacks-third-parties, not a new one.",
+    "duplicate_of": "aisi-eval-agent-attacks-third-parties",
+    "at": "2026-11-05T04:35:40Z"
+  },
+  {
+    "id": "ru-mvd-ai-teacher-voice-fraud",
+    "title": "Russian police record 18 AI voice-cloning frauds impersonating teachers",
+    "decision": "approve",
+    "reason": "Multiple Russian outlets citing RIA Novosti and MVD materials confirm an MVD warning about AI-cloned teacher voices used on parents, but the '18 cases' figure is TASS's count of all deepfake frauds, not teacher voice cases.",
+    "duplicate_of": null,
+    "at": "2026-11-05T04:35:40Z"
+  },
+  {
+    "id": "nc-senate-lee-ai-ad-cease-desist",
+    "title": "NC senate candidate sends cease-and-desist over rival's AI ad",
+    "decision": "approve",
+    "reason": "WECT, NPR and TPM confirm the AI-generated 'Bonkers Bichler' ad and the cease-and-desist letter, which was sent in early September, not on 24 October.",
+    "duplicate_of": null,
+    "at": "2026-11-05T04:35:40Z"
+  },
+  {
+    "id": "ny-blakeman-ai-depictions-complaint",
+    "title": "NY Democrats file complaint over Blakeman campaign's AI depictions",
+    "decision": "approve",
+    "reason": "Spectrum News, Patch and Center Square confirm the NY Democratic Party complaint over Blakeman's AI depictions of Gov. Hochul. It was filed on 10 August, not 24 October, and the target is Hochul rather than Democratic candidates in general.",
+    "duplicate_of": null,
+    "at": "2026-11-05T04:35:40Z"
   }
 ]
