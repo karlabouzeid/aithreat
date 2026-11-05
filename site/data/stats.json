@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-05T00:42:16Z",
-  "total": 289,
-  "all_time_total": 492,
+  "generated_at": "2026-11-05T01:16:25Z",
+  "total": 293,
+  "all_time_total": 496,
   "window_from": "2025-11-05",
   "window_to": "2026-11-05",
   "trend_from": "2025-01-01",
@@ -153,13 +153,13 @@
   },
   "this_quarter": {
     "q": "2026-Q4",
-    "n": 93,
+    "n": 95,
     "prev_q": "2026-Q3",
     "prev_n": 52
   },
   "direction": {
-    "on-ai": 91,
-    "with-ai": 166
+    "on-ai": 93,
+    "with-ai": 167
   },
   "on_ai_share_first_half": 31,
   "on_ai_share_last_half": 41,
@@ -208,17 +208,17 @@
     },
     {
       "q": "2025-Q4",
-      "n": 52,
+      "n": 53,
       "on-ai": 8,
       "with-ai": 30,
       "severity": {
         "critical": 10,
         "high": 21,
-        "medium": 19,
+        "medium": 20,
         "low": 2
       },
       "autonomous": 1,
-      "real_world": 47
+      "real_world": 48
     },
     {
       "q": "2026-Q1",
@@ -236,17 +236,17 @@
     },
     {
       "q": "2026-Q2",
-      "n": 52,
+      "n": 53,
       "on-ai": 22,
-      "with-ai": 26,
+      "with-ai": 27,
       "severity": {
         "critical": 11,
         "high": 21,
-        "medium": 19,
+        "medium": 20,
         "low": 1
       },
       "autonomous": 0,
-      "real_world": 47
+      "real_world": 48
     },
     {
       "q": "2026-Q3",
@@ -264,17 +264,17 @@
     },
     {
       "q": "2026-Q4",
-      "n": 93,
-      "on-ai": 23,
+      "n": 95,
+      "on-ai": 25,
       "with-ai": 65,
       "severity": {
         "critical": 3,
-        "high": 31,
-        "medium": 51,
+        "high": 32,
+        "medium": 52,
         "low": 8
       },
       "autonomous": 6,
-      "real_world": 92
+      "real_world": 94
     }
   ],
   "categories": [
@@ -340,7 +340,7 @@
     },
     {
       "category": "Model & data leak",
-      "n": 22,
+      "n": 23,
       "by_quarter": [
         5,
         5,
@@ -349,9 +349,24 @@
         9,
         2,
         5,
-        5
+        6
       ],
-      "growth_last4_vs_prev4": 0
+      "growth_last4_vs_prev4": 1
+    },
+    {
+      "category": "Agent hijack",
+      "n": 22,
+      "by_quarter": [
+        0,
+        0,
+        7,
+        1,
+        3,
+        5,
+        6,
+        7
+      ],
+      "growth_last4_vs_prev4": 13
     },
     {
       "category": "State actor AI ops",
@@ -369,34 +384,19 @@
       "growth_last4_vs_prev4": 3
     },
     {
-      "category": "Agent hijack",
-      "n": 21,
-      "by_quarter": [
-        0,
-        0,
-        7,
-        1,
-        3,
-        5,
-        6,
-        6
-      ],
-      "growth_last4_vs_prev4": 12
-    },
-    {
       "category": "Deepfake abuse",
-      "n": 20,
+      "n": 21,
       "by_quarter": [
         0,
         2,
         3,
         3,
         9,
-        3,
+        4,
         2,
         4
       ],
-      "growth_last4_vs_prev4": 10
+      "growth_last4_vs_prev4": 11
     },
     {
       "category": "Prompt injection",
@@ -460,18 +460,18 @@
     },
     {
       "category": "AI misfire",
-      "n": 1,
+      "n": 2,
       "by_quarter": [
         1,
         0,
         1,
-        2,
+        3,
         0,
         0,
         1,
         0
       ],
-      "growth_last4_vs_prev4": -3
+      "growth_last4_vs_prev4": -4
     }
   ],
   "rising_category": "AI-assisted malware",
@@ -525,9 +525,9 @@
       "actor_type": "unknown",
       "by_year": {
         "2025": 1,
-        "2026": 81
+        "2026": 84
       },
-      "n": 82
+      "n": 85
     },
     {
       "actor_type": "autonomous-ai",
@@ -540,10 +540,10 @@
     {
       "actor_type": "accident",
       "by_year": {
-        "2025": 0,
+        "2025": 1,
         "2026": 5
       },
-      "n": 5
+      "n": 6
     },
     {
       "actor_type": "hacktivist",
@@ -568,8 +568,8 @@
   ],
   "severity": {
     "critical": 40,
-    "high": 120,
-    "medium": 115,
+    "high": 121,
+    "medium": 118,
     "low": 14
   },
   "critical_high_pct": 55,
@@ -603,12 +603,12 @@
         "disclosed": 0
       },
       {
-        "category": "State actor AI ops",
+        "category": "Agent hijack",
         "usd": 0,
         "disclosed": 0
       },
       {
-        "category": "Agent hijack",
+        "category": "State actor AI ops",
         "usd": 0,
         "disclosed": 0
       },
@@ -647,11 +647,11 @@
   },
   "sectors": [
     {
-      "sector": "Individuals & consumers",
-      "n": 87
+      "sector": "Technology & AI vendors",
+      "n": 88
     },
     {
-      "sector": "Technology & AI vendors",
+      "sector": "Individuals & consumers",
       "n": 87
     },
     {
@@ -664,7 +664,7 @@
     },
     {
       "sector": "Unknown",
-      "n": 17
+      "n": 18
     },
     {
       "sector": "Government & public sector",
@@ -675,16 +675,20 @@
       "n": 10
     },
     {
-      "sector": "Retail & consumer brands",
-      "n": 6
+      "sector": "Politics & elections",
+      "n": 7
     },
     {
-      "sector": "Politics & elections",
+      "sector": "Retail & consumer brands",
       "n": 6
     },
     {
       "sector": "Defence & security",
       "n": 4
+    },
+    {
+      "sector": "Healthcare",
+      "n": 2
     },
     {
       "sector": "Energy, industrial & infrastructure",
@@ -693,20 +697,16 @@
     {
       "sector": "Media & entertainment",
       "n": 2
-    },
-    {
-      "sector": "Healthcare",
-      "n": 1
     }
   ],
   "countries": [
     {
       "country": "GL",
-      "n": 120
+      "n": 122
     },
     {
       "country": "US",
-      "n": 62
+      "n": 63
     },
     {
       "country": "GB",
@@ -753,11 +753,11 @@
   "status": [
     {
       "status": "under investigation",
-      "n": 105
+      "n": 108
     },
     {
       "status": "ongoing",
-      "n": 76
+      "n": 77
     },
     {
       "status": "contained",
@@ -840,9 +840,9 @@
       "n": 1
     }
   ],
-  "unresolved_pct": 66,
-  "verify_median_hours": 62.5,
-  "verify_sample": 100,
+  "unresolved_pct": 67,
+  "verify_median_hours": 107.0,
+  "verify_sample": 104,
   "researcher_demos": 21,
   "pulse": [
     {

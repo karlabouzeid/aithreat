@@ -766,5 +766,37 @@
     "reason": "I could not open the source and found no independent reporting; the draft also lacks the currency, the court and the institution involved.",
     "duplicate_of": null,
     "at": "2026-11-05T00:35:44Z"
+  },
+  {
+    "id": "ai-aggregator-18m-files-leak",
+    "title": "AI aggregator leaks nearly 18 million files, including sex doll makers' support chats",
+    "decision": "approve",
+    "reason": "Cybernews researchers found 302.ai's unsecured Azure bucket exposing 17.6M files (22.72TB), corroborated by TechRadar and eSecurityPlanet, and it is not a known case.",
+    "duplicate_of": null,
+    "at": "2026-11-05T01:05:40Z"
+  },
+  {
+    "id": "citizens-for-sanity-talarico-ai-ad",
+    "title": "Citizens for Sanity AI ad depicts Texas Senate candidate Talarico singing in a dress",
+    "decision": "approve",
+    "reason": "PolitiFact confirms Citizens for Sanity's AI-generated ads of Talarico (viewed millions of times), but the event dates from June 2026, not October, and it differs from the known NRSC and Storm-1516 Talarico cases.",
+    "duplicate_of": null,
+    "at": "2026-11-05T01:05:40Z"
+  },
+  {
+    "id": "kenya-sha-faulty-ai-claim-rejections",
+    "title": "Kenya MPs say faulty AI system drove mass rejection of SHA hospital claims",
+    "decision": "approve",
+    "reason": "The Star reports a parliamentary Health Committee finding that SHA's AI claims system allegedly rejected genuine hospital claims; the event is real but dates from Dec 2025, not Oct 2026.",
+    "duplicate_of": null,
+    "at": "2026-11-05T01:05:40Z"
+  },
+  {
+    "id": "agents-md-hijack-rogue-npm-package",
+    "title": "Malicious AGENTS.md file tricks AI coding agent into installing rogue npm package",
+    "decision": "approve",
+    "reason": "Forever Security's finding is reported by BleepingComputer and Help Net Security: a malicious AGENTS.md in a customer's Downloads folder led a coding agent to attempt installing the rogue npm package 'function-color'.",
+    "duplicate_of": null,
+    "at": "2026-11-05T01:05:40Z"
   }
 ]

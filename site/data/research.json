@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T00:42:16Z",
+  "generated_at": "2026-11-05T01:16:25Z",
   "licence": "CC BY 4.0",
   "sources": [
     {
@@ -765,8 +765,8 @@
       "claim": "AI systems are complex and unreliable, so accidents are normal; the goal must be to stop accidents from cascading into disasters.",
       "status": "observed",
       "note": "Coding agents have wiped databases and drives, assistants have published private chats, and staff acting on an AI agent's advice exposed sensitive data.",
-      "n": 18,
-      "real_world": 18,
+      "n": 19,
+      "real_world": 19,
       "first_real_world": "2023-09-17",
       "months_after_publication": 3,
       "url": "https://aithreat.io/research/accidents-normal/",
@@ -776,6 +776,7 @@
         "pixelleak-agent-screenshots",
         "meta-agent-data-exposure",
         "copilot-confidential-emails-bug",
+        "kenya-sha-faulty-ai-claim-rejections",
         "antigravity-d-drive-wipe",
         "vyro-ai-elasticsearch-leak",
         "grok-chats-indexed",
@@ -1407,8 +1408,8 @@
       "claim": "Attackers can manipulate AI systems through prompt injection, poisoned data and compromised components, to change how they behave or to pull out sensitive information.",
       "status": "observed",
       "note": "Hidden instructions that make assistants leak mail and files, hijacked coding agents, malicious packages and plugins aimed at AI developers, and actively exploited flaws in AI tools. Many prompt injection cases are demonstrations by researchers; most supply-chain attacks happened in the real world.",
-      "n": 94,
-      "real_world": 59,
+      "n": 95,
+      "real_world": 60,
       "first_real_world": "2022-12-30",
       "months_after_publication": -38,
       "url": "https://aithreat.io/research/iasr-ai-as-target/",
@@ -1417,6 +1418,7 @@
         "hugging-face-gpu-mining-returns",
         "rogue-codex-claude-code-relays",
         "yoba-fake-ai-apps-signed-binaries",
+        "agents-md-hijack-rogue-npm-package",
         "litellm-1-107-0-trojanized-release",
         "jqwik-agent-delete-output-instruction",
         "legal-filing-hidden-prompt-injection",
@@ -2199,8 +2201,8 @@
       "claim": "AI that leaks or infers sensitive personal data, and weaknesses in AI systems and their toolchains that attackers exploit.",
       "status": "observed",
       "note": "One of the two pillars of the registry: leaked chats and keys, exposed databases, prompt injection, hijacked agents, poisoned packages and stolen AI accounts.",
-      "n": 154,
-      "real_world": 106,
+      "n": 156,
+      "real_world": 108,
       "first_real_world": "2022-12-30",
       "months_after_publication": null,
       "url": "https://aithreat.io/research/mit-privacy-security/",
@@ -2211,6 +2213,8 @@
         "warp-agent-logs-vendor-breach",
         "yoba-fake-ai-apps-signed-binaries",
         "cloudflare-workers-ai-glm-leak",
+        "agents-md-hijack-rogue-npm-package",
+        "ai-aggregator-18m-files-leak",
         "litellm-1-107-0-trojanized-release",
         "wiz-llmjacking-cloud-billing-ads",
         "whatsapp-help-pages-meta-ai-prompt-leak",
@@ -2834,7 +2838,7 @@
     {
       "source": "cais-2023",
       "claims": 17,
-      "matched_cases": 196,
+      "matched_cases": 197,
       "matched_pct": 40,
       "status_counts": {
         "observed": 7,
@@ -2847,8 +2851,8 @@
     {
       "source": "iasr-2026",
       "claims": 11,
-      "matched_cases": 357,
-      "matched_pct": 73,
+      "matched_cases": 358,
+      "matched_pct": 72,
       "status_counts": {
         "observed": 5,
         "early": 3,
@@ -2912,7 +2916,7 @@
     {
       "source": "mit-risk-repository",
       "claims": 7,
-      "matched_cases": 429,
+      "matched_cases": 431,
       "matched_pct": 87,
       "status_counts": {
         "observed": 4,
@@ -2930,20 +2934,20 @@
     "none": 4,
     "outside": 7
   },
-  "matched_cases": 430,
-  "total_cases": 492,
-  "warning_matched_cases": 388,
+  "matched_cases": 433,
+  "total_cases": 496,
+  "warning_matched_cases": 390,
   "unmatched_pct": 21,
   "unmatched_by_category": [
     {
       "category": "Deepfake abuse",
-      "unmatched": 49,
-      "total": 49
+      "unmatched": 50,
+      "total": 50
     },
     {
       "category": "Model & data leak",
-      "unmatched": 22,
-      "total": 44
+      "unmatched": 23,
+      "total": 45
     },
     {
       "category": "LLMjacking",
@@ -2953,7 +2957,7 @@
     {
       "category": "AI misfire",
       "unmatched": 7,
-      "total": 8
+      "total": 9
     },
     {
       "category": "AI exam fraud",
@@ -2993,7 +2997,7 @@
     {
       "category": "Agent hijack",
       "unmatched": 0,
-      "total": 28
+      "total": 29
     },
     {
       "category": "AI phishing",

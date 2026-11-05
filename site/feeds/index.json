@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T00:35:44Z",
+  "generated_at": "2026-11-05T01:05:40Z",
   "categories": [
     {
       "name": "AI exam fraud",
@@ -9,7 +9,7 @@
     {
       "name": "AI misfire",
       "slug": "ai-misfire",
-      "count": 8
+      "count": 9
     },
     {
       "name": "AI phishing",
@@ -29,7 +29,7 @@
     {
       "name": "Agent hijack",
       "slug": "agent-hijack",
-      "count": 28
+      "count": 29
     },
     {
       "name": "Chatbot harm",
@@ -39,7 +39,7 @@
     {
       "name": "Deepfake abuse",
       "slug": "deepfake-abuse",
-      "count": 49
+      "count": 50
     },
     {
       "name": "Deepfake fraud",
@@ -54,7 +54,7 @@
     {
       "name": "Model & data leak",
       "slug": "model-data-leak",
-      "count": 44
+      "count": 45
     },
     {
       "name": "Prompt injection",
@@ -146,7 +146,7 @@
     },
     {
       "code": "GL",
-      "count": 162
+      "count": 164
     },
     {
       "code": "GR",
@@ -202,7 +202,7 @@
     },
     {
       "code": "KE",
-      "count": 2
+      "count": 3
     },
     {
       "code": "KG",
@@ -302,7 +302,7 @@
     },
     {
       "code": "US",
-      "count": 133
+      "count": 134
     },
     {
       "code": "UY",

@@ -8545,5 +8545,69 @@
     "timeline": [
       "Reportado por 共同网"
     ]
+  },
+  {
+    "title": "Legisladores de Kenia afirman que un sistema de IA defectuoso provocó el rechazo masivo de reclamaciones hospitalarias a la SHA",
+    "summary": "Un informe del Comité de Salud de la Asamblea Nacional alega que la excesiva dependencia del procesamiento de reclamaciones basado en IA de la SHA, con poca supervisión humana, provocó que reclamaciones hospitalarias legítimas fueran marcadas como fraudulentas y rechazadas, lo que tensionó las finanzas de los hospitales. El secretario de Gabinete de Salud (Health CS) ha defendido el sistema al afirmar que ahorró dinero a los contribuyentes al detectar pagos irregulares.",
+    "target": "Hospitales que presentan reclamaciones a la Social Health Authority de Kenia",
+    "actor": "Sistema de IA de reclamaciones de la Social Health Authority",
+    "attribution": "Alegado en un informe del comité de salud de la Asamblea Nacional; el resumen no menciona al proveedor.",
+    "motive": "Desconocido",
+    "vector": "Procesamiento automatizado de reclamaciones basado en IA",
+    "root_cause": "Presunta dependencia excesiva de un sistema de IA defectuoso para la adjudicación de reclamaciones.",
+    "impact": "Presunto rechazo generalizado de reclamaciones hospitalarias, que perturbó la financiación de los centros de salud y el programa de la SHA.",
+    "response": "Los legisladores publicaron sus conclusiones; el Health CS Aden Duale defendió el programa Taifa Care.",
+    "id": "kenya-sha-faulty-ai-claim-rejections",
+    "timeline": [
+      "Reportado por AI Incident Database"
+    ]
+  },
+  {
+    "title": "Un anuncio de IA de Citizens for Sanity muestra al candidato al Senado de Texas Talarico cantando con un vestido",
+    "summary": "La organización conservadora sin fines de lucro Citizens for Sanity publicó anuncios generados con IA, entre seis difundidos a lo largo de varios días, uno de ellos visto millones de veces, que muestra a Talarico con un vestido cantando sobre niños transgénero. PolitiFact informa de que los anuncios distorsionaron sus palabras y posiciones; el grupo no respondió a sus preguntas.",
+    "target": "James Talarico, candidato demócrata al Senado de Texas",
+    "actor": "Citizens for Sanity",
+    "attribution": "La información periodística señala a Citizens for Sanity, una organización conservadora sin fines de lucro, como la editora del anuncio.",
+    "motive": "Persuasión política contra un candidato al Senado",
+    "vector": "Vídeo generado con IA de un candidato real publicado en línea",
+    "root_cause": "Fácil acceso a herramientas de vídeo generativo utilizadas en publicidad política sin límites de divulgación.",
+    "impact": "Anuncio visto millones de veces que tergiversa las palabras y posiciones de un candidato.",
+    "response": "Desconocida",
+    "id": "citizens-for-sanity-talarico-ai-ad",
+    "timeline": [
+      "Reportado por AI Incident Database"
+    ]
+  },
+  {
+    "title": "El agregador de IA 302.ai filtra 17,6 millones de archivos, entre ellos registros del chatbot de soporte de un fabricante de muñecas sexuales",
+    "summary": "Investigadores de Cybernews descubrieron que el agregador de IA 302.ai dejó un bucket de almacenamiento de Azure sin cifrar y de acceso público que exponía 17,6 millones de archivos (22,72 TB), entre ellos registros de chat, imágenes, vídeo, audio, documentos y conversaciones archivadas. Entre los datos expuestos había registros de un chatbot de atención al cliente vinculado a un destacado fabricante de muñecas sexuales.",
+    "target": "La plataforma agregadora de IA 302.ai, sus usuarios y clientes empresariales",
+    "actor": "Desconocido",
+    "attribution": "No se ha identificado a ningún atacante; la exposición fue reportada por Cybernews.",
+    "motive": "Desconocido",
+    "vector": "Desconocido; el titular dice que los archivos fueron filtrados o expuestos.",
+    "root_cause": "Desconocida; el resumen no indica cómo quedaron expuestos los archivos.",
+    "impact": "Cerca de 18 millones de archivos habrían quedado expuestos, incluidos chats de atención al cliente de fabricantes de muñecas sexuales.",
+    "response": "Desconocida",
+    "id": "ai-aggregator-18m-files-leak",
+    "timeline": [
+      "Reportado por Cybernews"
+    ]
+  },
+  {
+    "title": "Un archivo AGENTS.md malicioso en la carpeta Downloads hace que un agente de programación con IA intente instalar un paquete npm fraudulento",
+    "summary": "Investigadores de Forever Security encontraron un archivo AGENTS.md malicioso en la carpeta ~/Downloads de un cliente, que además era el directorio de trabajo del agente, lo que llevó a un agente de programación con IA a intentar instalar un paquete npm malicioso llamado “function-color”. Los investigadores también crearon una prueba de concepto que demuestra que una página web podría depositar silenciosamente un archivo de ese tipo en Downloads.",
+    "target": "Agente de programación con IA en el equipo de un cliente",
+    "actor": "Desconocido",
+    "attribution": "Desconocida. El actor de la amenaza no está identificado en el texto disponible; el hallazgo fue comunicado por investigadores a través de BleepingComputer.",
+    "motive": "Desconocido",
+    "vector": "Archivo de instrucciones AGENTS.md malicioso colocado en la carpeta Downloads, leído por el agente de programación con IA como instrucciones de confianza.",
+    "root_cause": "El agente de programación trató un archivo AGENTS.md no confiable como instrucciones legítimas, lo que permitió una inyección indirecta de prompts y la instalación de un paquete.",
+    "impact": "El agente instaló un paquete npm fraudulento en el sistema de un cliente. No se indican el alcance del compromiso ni la posible pérdida de datos.",
+    "response": "Los investigadores identificaron y comunicaron el archivo. El resumen no describe ninguna medida de remediación por parte del proveedor o del cliente.",
+    "id": "agents-md-hijack-rogue-npm-package",
+    "timeline": [
+      "Reportado por BleepingComputer"
+    ]
   }
 ]

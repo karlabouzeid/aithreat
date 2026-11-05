@@ -12344,6 +12344,53 @@
     "sector": "Individuals & consumers"
   },
   {
+    "id": "kenya-sha-faulty-ai-claim-rejections",
+    "date": "2025-12-04",
+    "title": "Kenya MPs say faulty AI system drove mass rejection of SHA hospital claims",
+    "category": "AI misfire",
+    "direction": "ai-harm",
+    "severity": "medium",
+    "country": "KE",
+    "region": "Middle East & Africa",
+    "target": "Hospitals claiming from Kenya's Social Health Authority",
+    "loss_usd": null,
+    "summary": "A National Assembly Health Committee report alleges that over-reliance on SHA's AI-driven claims processing, with little human oversight, caused legitimate hospital claims to be flagged as fraudulent and rejected, straining hospital finances. The Health CS has defended the system as having saved taxpayers money by catching irregular payments.",
+    "actor": "Social Health Authority claims AI system",
+    "actor_type": "accident",
+    "sector": "Healthcare",
+    "attribution": "Alleged in a National Assembly health committee report; vendor not named in the summary.",
+    "motive": "Unknown",
+    "vector": "Automated AI-based claims processing",
+    "root_cause": "Alleged over-reliance on a faulty AI system for claim adjudication.",
+    "impact": "Alleged widespread rejection of hospital claims, disrupting health facilities' funding and the SHA programme.",
+    "response": "MPs published findings; Health CS Aden Duale defended the Taifa Care programme.",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "source": "AI Incident Database",
+    "url": "https://www.the-star.co.ke/news/2025-12-04-ai-system-flaws-push-sha-into-chaos-mps",
+    "sources": [
+      {
+        "name": "AI Incident Database",
+        "url": "https://www.the-star.co.ke/news/2025-12-04-ai-system-flaws-push-sha-into-chaos-mps"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-21",
+        "event": "Reported by AI Incident Database"
+      }
+    ],
+    "drafted_at": "2026-10-21T20:05:42Z",
+    "first_seen": "2026-10-21T20:05:42Z",
+    "updated_at": "2026-11-05T01:05:40Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-05T01:05:40Z"
+  },
+  {
     "id": "danang-korean-deepfake-romance-ring",
     "date": "2025-12-05",
     "title": "Da Nang police arrest three South Koreans wanted for Cambodia deepfake romance scam ring",
@@ -18133,6 +18180,57 @@
       }
     ],
     "sector": "Technology & AI vendors"
+  },
+  {
+    "id": "citizens-for-sanity-talarico-ai-ad",
+    "date": "2026-06-09",
+    "title": "Citizens for Sanity AI ad depicts Texas Senate candidate Talarico singing in a dress",
+    "category": "Deepfake abuse",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "US",
+    "region": "North America",
+    "target": "James Talarico, Texas Democratic Senate candidate",
+    "loss_usd": null,
+    "summary": "Conservative nonprofit Citizens for Sanity published AI-generated ads, among six posted over several days, including one viewed millions of times that shows Talarico in a dress singing about transgender children. PolitiFact reports the ads skewed his words and positions; the group did not respond to its questions.",
+    "actor": "Citizens for Sanity",
+    "actor_type": "unknown",
+    "sector": "Politics & elections",
+    "attribution": "Reporting names Citizens for Sanity, a conservative nonprofit, as publisher of the ad.",
+    "motive": "Political persuasion against a Senate candidate",
+    "vector": "AI-generated video of a real candidate published online",
+    "root_cause": "Easy access to generative video tools used for political advertising without disclosure limits.",
+    "impact": "Ad viewed millions of times, misrepresenting a candidate's words and positions.",
+    "response": "Unknown",
+    "status": "ongoing",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "source": "AI Incident Database",
+    "url": "https://politifact.com/article/2026/jun/22/talarico-artificial-intelligence-ads-senate-texas",
+    "sources": [
+      {
+        "name": "AI Incident Database",
+        "url": "https://politifact.com/article/2026/jun/22/talarico-artificial-intelligence-ads-senate-texas"
+      },
+      {
+        "name": "Common Dreams",
+        "url": "https://www.commondreams.org/news/gop-talarico-ai-brainrot"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-21",
+        "event": "Reported by AI Incident Database"
+      }
+    ],
+    "drafted_at": "2026-10-21T20:05:42Z",
+    "first_seen": "2026-10-21T20:05:42Z",
+    "updated_at": "2026-11-05T01:05:40Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-05T01:05:40Z"
   },
   {
     "id": "carrier-v-openai",
@@ -24529,6 +24627,61 @@
     "verified_at": "2026-11-05T00:35:44Z"
   },
   {
+    "id": "ai-aggregator-18m-files-leak",
+    "date": "2026-10-21",
+    "title": "302.ai AI aggregator leaks 17.6 million files, including a sex doll maker's support chatbot logs",
+    "category": "Model & data leak",
+    "direction": "on-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "302.ai AI aggregator platform, its users and business customers",
+    "loss_usd": null,
+    "summary": "Cybernews researchers found that AI aggregator 302.ai left an unencrypted, publicly accessible Azure storage bucket exposing 17.6 million files (22.72TB), including chat logs, images, video, audio, documents and archived conversations. Among the exposed data were logs from a customer support chatbot linked to a prominent sex doll manufacturer.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Technology & AI vendors",
+    "attribution": "No attacker identified; exposure reported by Cybernews.",
+    "motive": "Unknown",
+    "vector": "Unknown; the headline says files were leaked or exposed.",
+    "root_cause": "Unknown; the summary does not say how the files became exposed.",
+    "impact": "Nearly 18 million files reportedly exposed, including customer support chats of sex doll makers.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "source": "Cybernews",
+    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBJeFRoTW1vT3A3a1UzUWRpLWFYcjdSbFRMT0RrX3djaGFxem9jMDdmTFJGNE52VGVMXzRvdndrODZTUWNIYkdEYlVrR0JST3h0T0dYdzdiN05oRmU3eC16dnVteFBSZGxTMGdvNXV5OTJ1UFpPemdWTVdMSQ?oc=5",
+    "sources": [
+      {
+        "name": "Cybernews",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBJeFRoTW1vT3A3a1UzUWRpLWFYcjdSbFRMT0RrX3djaGFxem9jMDdmTFJGNE52VGVMXzRvdndrODZTUWNIYkdEYlVrR0JST3h0T0dYdzdiN05oRmU3eC16dnVteFBSZGxTMGdvNXV5OTJ1UFpPemdWTVdMSQ?oc=5"
+      },
+      {
+        "name": "TechRadar",
+        "url": "https://www.techradar.com/pro/security/security-breach-at-ai-aggregator-exposes-over-18-million-files-including-some-very-embarrassing-chat-records"
+      },
+      {
+        "name": "eSecurityPlanet",
+        "url": "https://www.esecurityplanet.com/threats/news-302-ai-data-leak-private-chats/"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-21",
+        "event": "Reported by Cybernews"
+      }
+    ],
+    "drafted_at": "2026-10-21T11:35:45Z",
+    "first_seen": "2026-10-21T11:35:45Z",
+    "updated_at": "2026-11-05T01:05:40Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-05T01:05:40Z"
+  },
+  {
     "id": "deepfake-pm-scam-88-year-old-td-bank",
     "date": "2026-10-22",
     "title": "88-year-old BC man loses $450,000 to deepfake video of PM Mark Carney; TD Bank has not repaid him",
@@ -24857,6 +25010,57 @@
     "verification": "reported",
     "review": "auto",
     "verified_at": "2026-11-04T22:35:38Z"
+  },
+  {
+    "id": "agents-md-hijack-rogue-npm-package",
+    "date": "2026-10-25",
+    "title": "Malicious AGENTS.md file in Downloads folder makes AI coding agent try to install rogue npm package",
+    "category": "Agent hijack",
+    "direction": "on-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "AI coding agent on a customer's machine",
+    "loss_usd": null,
+    "summary": "Forever Security researchers found a malicious AGENTS.md file in a customer's ~/Downloads folder, which was also the agent's working directory, that led an AI coding agent to attempt installing a malicious npm package called 'function-color'. The researchers also built a proof of concept showing a web page could silently drop such a file into Downloads.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Unknown",
+    "attribution": "Unknown. The threat actor is not identified in the available text; the finding was reported by researchers via BleepingComputer.",
+    "motive": "Unknown",
+    "vector": "Malicious AGENTS.md instruction file placed in the Downloads folder, read by the AI coding agent as trusted instructions.",
+    "root_cause": "The coding agent treated an untrusted AGENTS.md file as legitimate instructions, which allowed indirect prompt injection and installation of a package.",
+    "impact": "The agent installed a rogue npm package on a customer's system. The extent of compromise and any data loss are not stated.",
+    "response": "Researchers identified and reported the file. No vendor or customer remediation is described in the summary.",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "source": "BleepingComputer",
+    "url": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder",
+    "sources": [
+      {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder"
+      },
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/10/26/ai-coding-agents-malware-openai-codex/"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-25",
+        "event": "Reported by BleepingComputer"
+      }
+    ],
+    "drafted_at": "2026-10-25T16:05:38Z",
+    "first_seen": "2026-10-25T16:05:38Z",
+    "updated_at": "2026-11-05T01:05:40Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-05T01:05:40Z"
   },
   {
     "id": "cloudflare-workers-ai-glm-leak",

@@ -8545,5 +8545,69 @@
     "timeline": [
       "Signalé par 共同网"
     ]
+  },
+  {
+    "title": "Kenya : des députés affirment qu'un système d'IA défaillant a provoqué le rejet massif de demandes de remboursement d'hôpitaux auprès de la SHA",
+    "summary": "Un rapport de la commission de la Santé de l'Assemblée nationale allègue que la confiance excessive accordée au traitement des demandes de remboursement par IA de la SHA, assortie d'une faible supervision humaine, a conduit à signaler comme frauduleuses, puis à rejeter, des demandes légitimes d'hôpitaux, ce qui a fragilisé les finances de ces établissements. Le Health CS a défendu le système en affirmant qu'il avait permis d'économiser l'argent des contribuables en détectant des paiements irréguliers.",
+    "target": "Hôpitaux soumettant des demandes de remboursement à la Social Health Authority du Kenya",
+    "actor": "Système d'IA de traitement des demandes de la Social Health Authority",
+    "attribution": "Allégation formulée dans un rapport de la commission de la Santé de l'Assemblée nationale ; le fournisseur n'est pas nommé dans le résumé.",
+    "motive": "Inconnu",
+    "vector": "Traitement automatisé des demandes de remboursement par IA",
+    "root_cause": "Confiance excessive, alléguée, accordée à un système d'IA défaillant pour statuer sur les demandes de remboursement.",
+    "impact": "Rejet massif, allégué, de demandes de remboursement d'hôpitaux, perturbant le financement des établissements de santé et le programme de la SHA.",
+    "response": "Les députés ont publié leurs conclusions ; le Health CS Aden Duale a défendu le programme Taifa Care.",
+    "id": "kenya-sha-faulty-ai-claim-rejections",
+    "timeline": [
+      "Signalé par AI Incident Database"
+    ]
+  },
+  {
+    "title": "Une publicité générée par IA de Citizens for Sanity montre le candidat au Sénat du Texas Talarico chantant en robe",
+    "summary": "L'organisation conservatrice à but non lucratif Citizens for Sanity a publié des publicités générées par IA, au nombre de six en quelques jours, dont l'une, vue des millions de fois, montre Talarico en robe chantant au sujet des enfants transgenres. PolitiFact indique que ces publicités ont déformé ses propos et ses positions ; le groupe n'a pas répondu à ses questions.",
+    "target": "James Talarico, candidat démocrate au Sénat du Texas",
+    "actor": "Citizens for Sanity",
+    "attribution": "Les sources nomment Citizens for Sanity, organisation conservatrice à but non lucratif, comme éditeur de la publicité.",
+    "motive": "Persuasion politique dirigée contre un candidat au Sénat",
+    "vector": "Vidéo générée par IA d'un candidat réel, publiée en ligne",
+    "root_cause": "Accès facile à des outils de génération vidéo utilisés pour de la publicité politique sans obligation de signalement.",
+    "impact": "Publicité vue des millions de fois, dénaturant les propos et les positions d'un candidat.",
+    "response": "Inconnue",
+    "id": "citizens-for-sanity-talarico-ai-ad",
+    "timeline": [
+      "Signalé par AI Incident Database"
+    ]
+  },
+  {
+    "title": "L'agrégateur d'IA 302.ai laisse fuiter 17,6 millions de fichiers, dont les journaux du chatbot de support d'un fabricant de poupées sexuelles",
+    "summary": "Des chercheurs de Cybernews ont découvert que l'agrégateur d'IA 302.ai avait laissé un compartiment de stockage Azure non chiffré et accessible publiquement, exposant 17,6 millions de fichiers (22,72 To), parmi lesquels des journaux de conversation, des images, des vidéos, des fichiers audio, des documents et des conversations archivées. Parmi les données exposées figuraient les journaux d'un chatbot de support client lié à un grand fabricant de poupées sexuelles.",
+    "target": "Plateforme d'agrégation d'IA 302.ai, ses utilisateurs et ses clients professionnels",
+    "actor": "Inconnu",
+    "attribution": "Aucun attaquant identifié ; exposition signalée par Cybernews.",
+    "motive": "Inconnu",
+    "vector": "Inconnu ; le titre indique que des fichiers ont fuité ou ont été exposés.",
+    "root_cause": "Inconnue ; le résumé n'indique pas comment les fichiers se sont retrouvés exposés.",
+    "impact": "Près de 18 millions de fichiers auraient été exposés, dont des conversations de support client de fabricants de poupées sexuelles.",
+    "response": "Inconnue",
+    "id": "ai-aggregator-18m-files-leak",
+    "timeline": [
+      "Signalé par Cybernews"
+    ]
+  },
+  {
+    "title": "Un fichier AGENTS.md malveillant dans le dossier Téléchargements pousse un agent de codage IA à tenter d'installer un paquet npm malveillant",
+    "summary": "Des chercheurs de Forever Security ont découvert un fichier AGENTS.md malveillant dans le dossier ~/Downloads d'un client, qui était aussi le répertoire de travail de l'agent, ce qui a conduit un agent de codage IA à tenter d'installer un paquet npm malveillant nommé « function-color ». Les chercheurs ont également élaboré une preuve de concept montrant qu'une page web pouvait déposer discrètement un tel fichier dans le dossier Téléchargements.",
+    "target": "Agent de codage IA sur la machine d'un client",
+    "actor": "Inconnu",
+    "attribution": "Inconnue. L'acteur de la menace n'est pas identifié dans le texte disponible ; la découverte a été rapportée par des chercheurs via BleepingComputer.",
+    "motive": "Inconnu",
+    "vector": "Fichier d'instructions AGENTS.md malveillant placé dans le dossier Téléchargements, lu par l'agent de codage IA comme des instructions de confiance.",
+    "root_cause": "L'agent de codage a traité un fichier AGENTS.md non fiable comme des instructions légitimes, ce qui a permis une injection de prompt indirecte et l'installation d'un paquet.",
+    "impact": "L'agent a installé un paquet npm malveillant sur le système d'un client. L'étendue de la compromission et d'éventuelles pertes de données ne sont pas précisées.",
+    "response": "Les chercheurs ont identifié le fichier et l'ont signalé. Aucune mesure de remédiation par un éditeur ou un client n'est décrite dans le résumé.",
+    "id": "agents-md-hijack-rogue-npm-package",
+    "timeline": [
+      "Signalé par BleepingComputer"
+    ]
   }
 ]

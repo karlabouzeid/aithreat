@@ -8545,5 +8545,69 @@
     "timeline": [
       "由共同网报道"
     ]
+  },
+  {
+    "title": "肯尼亚议员称有缺陷的 AI 系统导致 SHA 医院索赔被大量拒付",
+    "summary": "国民议会卫生委员会的一份报告指称，由于过度依赖肯尼亚社会健康局（SHA）由 AI 驱动的索赔处理系统，且几乎没有人工监督，合法的医院索赔被标记为欺诈并遭拒付，加剧了医院的财务压力。内阁卫生部长为该系统辩护，称其通过拦截不合规支付为纳税人节省了资金。",
+    "target": "向肯尼亚社会健康局索赔的医院",
+    "actor": "社会健康局索赔 AI 系统",
+    "attribution": "国民议会卫生委员会报告中的指称；摘要中未提及供应商名称。",
+    "motive": "未知",
+    "vector": "基于 AI 的自动化索赔处理",
+    "root_cause": "据称是在索赔裁定中过度依赖有缺陷的 AI 系统。",
+    "impact": "据称医院索赔被大范围拒付，扰乱了医疗机构的资金来源和 SHA 计划。",
+    "response": "议员们公布了调查结果；内阁卫生部长 Aden Duale 为 Taifa Care 计划辩护。",
+    "id": "kenya-sha-faulty-ai-claim-rejections",
+    "timeline": [
+      "AI Incident Database 报道"
+    ]
+  },
+  {
+    "title": "Citizens for Sanity 的 AI 广告将得克萨斯州参议员候选人 Talarico 描绘成身穿连衣裙唱歌",
+    "summary": "保守派非营利组织 Citizens for Sanity 发布了数日内张贴的六条 AI 生成广告，其中一条播放量达数百万次，画面中 Talarico 身穿连衣裙，唱着有关跨性别儿童的歌曲。PolitiFact 报道称，这些广告歪曲了他的言论和立场；该组织未回应其提问。",
+    "target": "James Talarico，得克萨斯州民主党参议员候选人",
+    "actor": "Citizens for Sanity",
+    "attribution": "报道指认保守派非营利组织 Citizens for Sanity 为该广告的发布者。",
+    "motive": "对一名参议员候选人进行政治劝说攻击",
+    "vector": "在网上发布的以真实候选人为对象的 AI 生成视频",
+    "root_cause": "生成式视频工具易于获取，被用于政治广告，且缺乏披露方面的限制。",
+    "impact": "广告播放量达数百万次，歪曲了候选人的言论和立场。",
+    "response": "未知",
+    "id": "citizens-for-sanity-talarico-ai-ad",
+    "timeline": [
+      "AI Incident Database 报道"
+    ]
+  },
+  {
+    "title": "AI 聚合平台 302.ai 泄露 1760 万个文件，其中包括某性爱娃娃制造商的客服聊天机器人日志",
+    "summary": "Cybernews 研究人员发现，AI 聚合平台 302.ai 留下了一个未加密且可公开访问的 Azure 存储桶，暴露了 1760 万个文件（22.72TB），包括聊天日志、图像、视频、音频、文档和已归档的对话。暴露的数据中包括与某知名性爱娃娃制造商相关的客服聊天机器人的日志。",
+    "target": "AI 聚合平台 302.ai 及其用户和企业客户",
+    "actor": "未知",
+    "attribution": "未确认攻击者；暴露事件由 Cybernews 报告。",
+    "motive": "未知",
+    "vector": "未知；标题称文件被泄露或暴露。",
+    "root_cause": "未知；摘要未说明这些文件是如何暴露的。",
+    "impact": "据报道近 1800 万个文件被暴露，其中包括性爱娃娃制造商的客服聊天记录。",
+    "response": "未知",
+    "id": "ai-aggregator-18m-files-leak",
+    "timeline": [
+      "Cybernews 报道"
+    ]
+  },
+  {
+    "title": "下载文件夹中的恶意 AGENTS.md 文件致使 AI 编程智能体尝试安装恶意 npm 包",
+    "summary": "Forever Security 的研究人员在一名客户的 ~/Downloads 文件夹中发现了一个恶意 AGENTS.md 文件，该文件夹同时也是智能体的工作目录，该文件诱使一个 AI 编程智能体尝试安装名为“function-color”的恶意 npm 包。研究人员还构建了一个概念验证，展示网页可以悄无声息地将此类文件投放到下载文件夹中。",
+    "target": "客户机器上的 AI 编程智能体",
+    "actor": "未知",
+    "attribution": "未知。现有文本中未指认威胁行为者；该发现由研究人员通过 BleepingComputer 报告。",
+    "motive": "未知",
+    "vector": "放置在下载文件夹中的恶意 AGENTS.md 指令文件，被 AI 编程智能体当作可信指令读取。",
+    "root_cause": "编程智能体将不可信的 AGENTS.md 文件当作合法指令，从而导致间接提示注入并安装了软件包。",
+    "impact": "该智能体在客户系统上安装了一个恶意 npm 包。入侵的范围以及是否有数据丢失均未说明。",
+    "response": "研究人员识别并报告了该文件。摘要中未描述供应商或客户的任何修复措施。",
+    "id": "agents-md-hijack-rogue-npm-package",
+    "timeline": [
+      "BleepingComputer 报道"
+    ]
   }
 ]
