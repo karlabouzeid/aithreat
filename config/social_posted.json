@@ -191,7 +191,10 @@
     "https://aithreat.io/cases/asos-simon-ai-breach-4af8/",
     "https://aithreat.io/cases/ru-mvd-celebrity-ai-fake-shops/",
     "https://aithreat.io/cases/rogue-codex-claude-code-relays/",
-    "https://aithreat.io/cases/trojan-claude-code-extension-ssh/"
+    "https://aithreat.io/cases/trojan-claude-code-extension-ssh/",
+    "https://aithreat.io/cases/smolensk-governor-deepfake-scam/",
+    "https://aithreat.io/cases/wheatland-ai-voice-bomb-threats/",
+    "https://aithreat.io/cases/thai-ai-forged-docs-romance-scam/"
   ],
   "bluesky": [
     "https://aithreat.io/cases/unit42-ai-espionage-gov-linux/",
@@ -376,7 +379,10 @@
     "https://aithreat.io/cases/asos-simon-ai-breach-4af8/",
     "https://aithreat.io/cases/ru-mvd-celebrity-ai-fake-shops/",
     "https://aithreat.io/cases/rogue-codex-claude-code-relays/",
-    "https://aithreat.io/cases/trojan-claude-code-extension-ssh/"
+    "https://aithreat.io/cases/trojan-claude-code-extension-ssh/",
+    "https://aithreat.io/cases/smolensk-governor-deepfake-scam/",
+    "https://aithreat.io/cases/wheatland-ai-voice-bomb-threats/",
+    "https://aithreat.io/cases/thai-ai-forged-docs-romance-scam/"
   ],
   "x": [
     "https://aithreat.io/cases/aoki-infostealer-ai-assistant-creds/",
@@ -440,12 +446,12 @@
     "skipped": "TELEGRAM_OWNER_CHAT_ID not set"
   },
   "bluesky_status": {
-    "at": "2026-11-05T01:48:09Z",
-    "ok": "https://aithreat.io/cases/trojan-claude-code-extension-ssh/"
+    "at": "2026-11-05T02:17:08Z",
+    "ok": "https://aithreat.io/cases/thai-ai-forged-docs-romance-scam/"
   },
   "telegram_status": {
-    "at": "2026-11-05T01:48:17Z",
-    "ok": "https://aithreat.io/cases/trojan-claude-code-extension-ssh/"
+    "at": "2026-11-05T02:17:15Z",
+    "ok": "https://aithreat.io/cases/thai-ai-forged-docs-romance-scam/"
   },
   "breaking_status": {
     "at": "2026-11-04T17:55:14Z",
