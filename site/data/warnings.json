@@ -1,5 +1,23 @@
 [
   {
+    "id": "a51a66eef54c",
+    "date": "2026-11-05",
+    "sectors": [
+      "Individuals & consumers"
+    ],
+    "who": "Head of Russia's Interior Ministry (MVD)",
+    "who_type": "minister",
+    "country": "RU",
+    "kind": "warning",
+    "title": "Russian Interior Minister warns AI development increases fraud threat",
+    "summary": "The head of Russia's Interior Ministry said that the threat of fraud is growing as artificial intelligence develops.",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPc3pkRVNNMDlETFVUN3p1N0tOVlhwRi1wdUVZNmQzd1hNa0NfMjJOT3Rqbi1uNmQ1c1hyWGNFVWR5d3RUblowNDV0aTJIT3NpbWVHU04tZVZWQTlJWklhRjFPY1MyUDZRRHFKUEQ2c3BWTUhLMWp1RC1HQi00bjhlSEFlZVhoU0pBWkRPQjJ6clItbjVGMUFLOThqNVJRVjF1NVVoYjd0ODNZUQ?oc=5",
+    "source": "КирТАГ",
+    "lang": "ru",
+    "added_at": "2026-11-05T09:35:41Z",
+    "origin": "robot"
+  },
+  {
     "id": "3d0f1cc4ddc3",
     "date": "2026-11-05",
     "sectors": [
@@ -123,6 +141,24 @@
     "source": "Business Standard",
     "lang": "en",
     "added_at": "2026-11-05T05:35:37Z",
+    "origin": "robot"
+  },
+  {
+    "id": "4f9bb7c1ff8e",
+    "date": "2026-11-05",
+    "sectors": [
+      "Financial services"
+    ],
+    "who": "CERT-In (Indian Computer Emergency Response Team)",
+    "who_type": "security_agency",
+    "country": "IN",
+    "kind": "advisory",
+    "title": "CERT-In flags AI-assisted threat actor Crafty Falcon targeting India's BFSI sector",
+    "summary": "CERT-In disclosed that an AI-assisted threat actor it tracks as Crafty Falcon is targeting Indian banking, financial services and insurance organisations. The headline says a backdoored ARTEX exposes 62 consoles to root access.",
+    "url": "https://thehackernews.com/2026/11/backdoored-docker-image-for-artex-ai.html",
+    "source": "The Hacker News",
+    "lang": "en",
+    "added_at": "2026-11-05T09:35:41Z",
     "origin": "robot"
   },
   {
@@ -2362,25 +2398,6 @@
     "origin": "robot"
   },
   {
-    "id": "a46c0ab77dd3",
-    "date": "2026-10-12",
-    "sectors": [
-      "Multiple / cross-sector",
-      "Government & public sector"
-    ],
-    "who": "UK minister",
-    "who_type": "minister",
-    "country": "GB",
-    "kind": "warning",
-    "title": "UK minister warns AI breach of cyber defences is 'likely, if not inevitable'",
-    "summary": "A UK minister warned that an AI breach of UK cyber defences is 'likely, if not inevitable', according to local press reporting.",
-    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNYTY1UEtYV255aHJxd1c1S3U2RDJFM2ZvRGtQVlpra3BNQ25mMmNjSTZKLWJjTkhERDlOTFRBR2RiZk5vSkdROXFUZzk2SmJBeWlVNXhJX0Z1eE9BS1p6Q3IzeTlQUHQycDdOdXczWXFkNXJCQnRRUGlHbzI4OUZ5Ukg0MTRNV0hpWkg3dURhYUplX2J4WDUyUXZhUVRjLWhvQ2ZQdVdOaFFqMGtpZVdrYkQ0YWktNG9JZE5henJlamxZOFU?oc=5",
-    "source": "chelmsfordcitynews.co.uk",
-    "lang": "en",
-    "added_at": "2026-10-31T10:05:39Z",
-    "origin": "robot"
-  },
-  {
     "id": "8c8802c3e424",
     "date": "2026-10-12",
     "sectors": [
@@ -2397,6 +2414,25 @@
     "source": "The Irish News",
     "lang": "en",
     "added_at": "2026-10-31T22:05:43Z",
+    "origin": "robot"
+  },
+  {
+    "id": "a46c0ab77dd3",
+    "date": "2026-10-12",
+    "sectors": [
+      "Multiple / cross-sector",
+      "Government & public sector"
+    ],
+    "who": "UK minister",
+    "who_type": "minister",
+    "country": "GB",
+    "kind": "warning",
+    "title": "UK minister warns AI breach of cyber defences is 'likely, if not inevitable'",
+    "summary": "A UK minister warned that an AI breach of UK cyber defences is 'likely, if not inevitable', according to local press reporting.",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNYTY1UEtYV255aHJxd1c1S3U2RDJFM2ZvRGtQVlpra3BNQ25mMmNjSTZKLWJjTkhERDlOTFRBR2RiZk5vSkdROXFUZzk2SmJBeWlVNXhJX0Z1eE9BS1p6Q3IzeTlQUHQycDdOdXczWXFkNXJCQnRRUGlHbzI4OUZ5Ukg0MTRNV0hpWkg3dURhYUplX2J4WDUyUXZhUVRjLWhvQ2ZQdVdOaFFqMGtpZVdrYkQ0YWktNG9JZE5henJlamxZOFU?oc=5",
+    "source": "chelmsfordcitynews.co.uk",
+    "lang": "en",
+    "added_at": "2026-10-31T10:05:39Z",
     "origin": "robot"
   },
   {
@@ -3981,25 +4017,6 @@
   {
     "date": "2026-04-28",
     "sectors": [
-      "Defence & security",
-      "Retail & consumer brands"
-    ],
-    "who": "Europol",
-    "who_type": "intergovernmental",
-    "country": "EU",
-    "kind": "warning",
-    "title": "Europol IOCTA 2026 says AI, encryption and proxies are expanding cybercrime",
-    "summary": "Europol's Internet Organised Crime Threat Assessment said generative AI makes fraud more convincing, ransomware groups are adopting AI tools, and it expects cybercrime to become more automated with minimal human involvement.",
-    "url": "https://eucrim.eu/news/iocta-2026/",
-    "source": "eucrim",
-    "id": "seed-b2N0YS0yMDI2Lw",
-    "lang": "en",
-    "added_at": "2026-10-26T18:29:46Z",
-    "origin": "research"
-  },
-  {
-    "date": "2026-04-28",
-    "sectors": [
       "Financial services",
       "Government & public sector"
     ],
@@ -4012,6 +4029,25 @@
     "url": "https://www.europol.europa.eu/cms/sites/default/files/documents/IOCTA-2026.pdf",
     "source": "Europol",
     "id": "seed-RBLTIwMjYucGRm",
+    "lang": "en",
+    "added_at": "2026-10-26T18:29:46Z",
+    "origin": "research"
+  },
+  {
+    "date": "2026-04-28",
+    "sectors": [
+      "Defence & security",
+      "Retail & consumer brands"
+    ],
+    "who": "Europol",
+    "who_type": "intergovernmental",
+    "country": "EU",
+    "kind": "warning",
+    "title": "Europol IOCTA 2026 says AI, encryption and proxies are expanding cybercrime",
+    "summary": "Europol's Internet Organised Crime Threat Assessment said generative AI makes fraud more convincing, ransomware groups are adopting AI tools, and it expects cybercrime to become more automated with minimal human involvement.",
+    "url": "https://eucrim.eu/news/iocta-2026/",
+    "source": "eucrim",
+    "id": "seed-b2N0YS0yMDI2Lw",
     "lang": "en",
     "added_at": "2026-10-26T18:29:46Z",
     "origin": "research"
