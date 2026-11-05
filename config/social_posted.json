@@ -269,7 +269,10 @@
     "https://aithreat.io/cases/grok-claude-latam-bank-attacks/",
     "https://aithreat.io/cases/primorsky-deepfake-scam-foiled/",
     "https://aithreat.io/cases/bossai-agentic-platform-taiwan/",
-    "https://aithreat.io/cases/co-kipp-first-deepfake-disclosure-compla/"
+    "https://aithreat.io/cases/co-kipp-first-deepfake-disclosure-compla/",
+    "https://aithreat.io/cases/spotify-ai-tracks-on-real-artist-profile/",
+    "https://aithreat.io/cases/claude-ai-domain-abuse-credential-theft/",
+    "https://aithreat.io/cases/command-code-ai-key-attack/"
   ],
   "bluesky": [
     "https://aithreat.io/cases/unit42-ai-espionage-gov-linux/",
@@ -532,7 +535,10 @@
     "https://aithreat.io/cases/grok-claude-latam-bank-attacks/",
     "https://aithreat.io/cases/primorsky-deepfake-scam-foiled/",
     "https://aithreat.io/cases/bossai-agentic-platform-taiwan/",
-    "https://aithreat.io/cases/co-kipp-first-deepfake-disclosure-compla/"
+    "https://aithreat.io/cases/co-kipp-first-deepfake-disclosure-compla/",
+    "https://aithreat.io/cases/spotify-ai-tracks-on-real-artist-profile/",
+    "https://aithreat.io/cases/claude-ai-domain-abuse-credential-theft/",
+    "https://aithreat.io/cases/command-code-ai-key-attack/"
   ],
   "x": [
     "https://aithreat.io/cases/aoki-infostealer-ai-assistant-creds/",
@@ -596,12 +602,12 @@
     "skipped": "TELEGRAM_OWNER_CHAT_ID not set"
   },
   "bluesky_status": {
-    "at": "2026-11-05T14:07:35Z",
-    "ok": "https://aithreat.io/cases/co-kipp-first-deepfake-disclosure-compla/"
+    "at": "2026-11-05T14:36:48Z",
+    "ok": "https://aithreat.io/cases/command-code-ai-key-attack/"
   },
   "telegram_status": {
-    "at": "2026-11-05T14:07:43Z",
-    "ok": "https://aithreat.io/cases/co-kipp-first-deepfake-disclosure-compla/"
+    "at": "2026-11-05T14:36:56Z",
+    "ok": "https://aithreat.io/cases/command-code-ai-key-attack/"
   },
   "breaking_status": {
     "at": "2026-11-04T17:55:14Z",
