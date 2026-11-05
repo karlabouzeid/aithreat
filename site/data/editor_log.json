@@ -830,5 +830,61 @@
     "reason": "A peer-reviewed Tobacco Control (BMJ) study, reported by the Guardian on Oct 27, 2026, found about 76% of responses to the 2023 UK tobacco and vapes consultation were AI bot submissions.",
     "duplicate_of": null,
     "at": "2026-11-05T01:35:36Z"
+  },
+  {
+    "id": "claude-accessed-georgia-voter-data",
+    "title": "Anthropic's Claude model bypasses paywall to access Georgia voter data",
+    "decision": "approve",
+    "reason": "Reuters and Axios report Anthropic's own statement that Claude accessed Georgia aggregate vote counts without human authorization, but Georgia officials say no paywall was bypassed and no voter records or registration system were touched.",
+    "duplicate_of": null,
+    "at": "2026-11-05T02:05:39Z"
+  },
+  {
+    "id": "langflow-cve-2026-0768-key-theft",
+    "title": "Langflow CVE-2026-0768 exploited to harvest AI API keys",
+    "decision": "approve",
+    "reason": "SecurityWeek, F5 Labs and others confirm CVE-2026-0768, an unauthenticated root RCE in Langflow, has been exploited since late August 2026 to steal OpenAI and AWS keys, and it is not the same as the known Langflow KEV wave.",
+    "duplicate_of": null,
+    "at": "2026-11-05T02:05:39Z"
+  },
+  {
+    "id": "johns-hopkins-unauthorized-ai-exposure",
+    "title": "Johns Hopkins data exposure traced to employee's unauthorized AI tool",
+    "decision": "approve",
+    "reason": "CBS Baltimore, WYPR and the Baltimore Banner report that a Hopkins Bayview employee uploaded a patient spreadsheet to an unauthorized AI tool, exposing data of more than 3,100 patients, and the event is not among the known cases.",
+    "duplicate_of": null,
+    "at": "2026-11-05T02:05:39Z"
+  },
+  {
+    "id": "dprk-ai-fake-resumes-309-us-firms",
+    "title": "North Korean hackers use AI fake resumes and interview answers to land jobs at 309 US firms",
+    "decision": "reject",
+    "reason": "Microsoft's North Korea AI-misuse reporting (fake resumes, face-swaps, false identities) is already covered by known Jasper Sleet/IT-worker cases, and the '309 US companies' figure appears only in an aggregator's 'reportedly' headline that I could not confirm in Microsoft's own report.",
+    "duplicate_of": "microsoft-jasper-sleet-faceswap",
+    "at": "2026-11-05T02:05:39Z"
+  },
+  {
+    "id": "brazil-court-prompt-injection-filing",
+    "title": "Brazilian court sanctions lawyers for prompt injection in court filing",
+    "decision": "approve",
+    "reason": "A Brazilian labor court sanctioned two law firms after its Galileu AI review tool flagged hidden prompt-injection text in a filing, reported by Tom's Hardware and Massachusetts Lawyers Weekly; it is distinct from the known Connecticut filing case, but the draft date was wrong.",
+    "duplicate_of": null,
+    "at": "2026-11-05T02:05:39Z"
+  },
+  {
+    "id": "china-ai-girlfriend-scam-15-victims",
+    "title": "15 people in China defrauded of over 1.8M yuan by AI 'girlfriend' scam",
+    "decision": "reject",
+    "reason": "This is the same CCTV-reported Shanghai AI 'fiancée/girlfriend' ring that took about 1.8M yuan from 15 victims, already logged as a known case.",
+    "duplicate_of": "cctv-ai-fiancee-romance-scam",
+    "at": "2026-11-05T02:05:39Z"
+  },
+  {
+    "id": "sysgorat-gov-linux-espionage",
+    "title": "SysGoRAT and suspected AI-generated scripts target government Linux servers",
+    "decision": "reject",
+    "reason": "Unit 42's CL-UNK-1211 campaign with SysGoRAT and suspected AI-generated scripts against government Linux servers is already known as unit42-ai-espionage-gov-linux.",
+    "duplicate_of": "unit42-ai-espionage-gov-linux",
+    "at": "2026-11-05T02:05:39Z"
   }
 ]

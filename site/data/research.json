@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T01:46:49Z",
+  "generated_at": "2026-11-05T02:15:57Z",
   "licence": "CC BY 4.0",
   "sources": [
     {
@@ -765,13 +765,14 @@
       "claim": "AI systems are complex and unreliable, so accidents are normal; the goal must be to stop accidents from cascading into disasters.",
       "status": "observed",
       "note": "Coding agents have wiped databases and drives, assistants have published private chats, and staff acting on an AI agent's advice exposed sensitive data.",
-      "n": 19,
-      "real_world": 19,
+      "n": 20,
+      "real_world": 20,
       "first_real_world": "2023-09-17",
       "months_after_publication": 3,
       "url": "https://aithreat.io/research/accidents-normal/",
       "cases": [
         "cloudflare-workers-ai-glm-leak",
+        "johns-hopkins-unauthorized-ai-exposure",
         "whatsapp-help-pages-meta-ai-prompt-leak",
         "pixelleak-agent-screenshots",
         "meta-agent-data-exposure",
@@ -1412,8 +1413,8 @@
       "claim": "Attackers can manipulate AI systems through prompt injection, poisoned data and compromised components, to change how they behave or to pull out sensitive information.",
       "status": "observed",
       "note": "Hidden instructions that make assistants leak mail and files, hijacked coding agents, malicious packages and plugins aimed at AI developers, and actively exploited flaws in AI tools. Many prompt injection cases are demonstrations by researchers; most supply-chain attacks happened in the real world.",
-      "n": 95,
-      "real_world": 60,
+      "n": 97,
+      "real_world": 62,
       "first_real_world": "2022-12-30",
       "months_after_publication": -38,
       "url": "https://aithreat.io/research/iasr-ai-as-target/",
@@ -1441,6 +1442,8 @@
         "chatgpt-gmail-covert-channel",
         "gtig-dustmaker-ci-prompts",
         "litellm-cve-2026-59822-kev",
+        "langflow-cve-2026-0768-key-theft",
+        "brazil-court-prompt-injection-filing",
         "mlflow-cve-2026-64849-kev",
         "ray-cve-2025-62593-rondodox-kev",
         "langflow-summer-2026-kev-wave",
@@ -2205,8 +2208,8 @@
       "claim": "AI that leaks or infers sensitive personal data, and weaknesses in AI systems and their toolchains that attackers exploit.",
       "status": "observed",
       "note": "One of the two pillars of the registry: leaked chats and keys, exposed databases, prompt injection, hijacked agents, poisoned packages and stolen AI accounts.",
-      "n": 156,
-      "real_world": 108,
+      "n": 159,
+      "real_world": 111,
       "first_real_world": "2022-12-30",
       "months_after_publication": null,
       "url": "https://aithreat.io/research/mit-privacy-security/",
@@ -2217,6 +2220,7 @@
         "warp-agent-logs-vendor-breach",
         "yoba-fake-ai-apps-signed-binaries",
         "cloudflare-workers-ai-glm-leak",
+        "johns-hopkins-unauthorized-ai-exposure",
         "agents-md-hijack-rogue-npm-package",
         "ai-aggregator-18m-files-leak",
         "litellm-1-107-0-trojanized-release",
@@ -2249,7 +2253,9 @@
         "gtig-dustmaker-ci-prompts",
         "okta-infostealer-ai-tokens",
         "litellm-cve-2026-59822-kev",
+        "langflow-cve-2026-0768-key-theft",
         "metr-api-key-theft-600k-credits",
+        "brazil-court-prompt-injection-filing",
         "truffle-aws-keys-hugging-face",
         "mlflow-cve-2026-64849-kev",
         "ray-cve-2025-62593-rondodox-kev",
@@ -2802,12 +2808,13 @@
       "claim": "AI pursuing goals that conflict with ours, having dangerous capabilities, failing under real conditions, being hard to understand, and risks that arise when many AI agents interact.",
       "status": "observed",
       "note": "Agents that wiped data, escaped test environments, reached outside systems and filed a false report. These are failures and unintended behaviour; none shows an AI pursuing goals of its own.",
-      "n": 15,
-      "real_world": 15,
+      "n": 16,
+      "real_world": 16,
       "first_real_world": "2025-07-19",
       "months_after_publication": null,
       "url": "https://aithreat.io/research/mit-system-safety/",
       "cases": [
+        "claude-accessed-georgia-voter-data",
         "cert-in-ai-agents-indian-orgs-access",
         "aisi-eval-agent-attacks-third-parties",
         "gemini-breakout-hacks-three-companies",
@@ -2846,7 +2853,7 @@
     {
       "source": "cais-2023",
       "claims": 17,
-      "matched_cases": 197,
+      "matched_cases": 198,
       "matched_pct": 39,
       "status_counts": {
         "observed": 7,
@@ -2859,7 +2866,7 @@
     {
       "source": "iasr-2026",
       "claims": 11,
-      "matched_cases": 362,
+      "matched_cases": 364,
       "matched_pct": 72,
       "status_counts": {
         "observed": 5,
@@ -2924,7 +2931,7 @@
     {
       "source": "mit-risk-repository",
       "claims": 7,
-      "matched_cases": 435,
+      "matched_cases": 439,
       "matched_pct": 87,
       "status_counts": {
         "observed": 4,
@@ -2942,9 +2949,9 @@
     "none": 4,
     "outside": 7
   },
-  "matched_cases": 437,
-  "total_cases": 500,
-  "warning_matched_cases": 394,
+  "matched_cases": 441,
+  "total_cases": 504,
+  "warning_matched_cases": 397,
   "unmatched_pct": 21,
   "unmatched_by_category": [
     {
@@ -2955,7 +2962,7 @@
     {
       "category": "Model & data leak",
       "unmatched": 23,
-      "total": 45
+      "total": 46
     },
     {
       "category": "LLMjacking",
@@ -2964,8 +2971,8 @@
     },
     {
       "category": "AI misfire",
-      "unmatched": 7,
-      "total": 9
+      "unmatched": 8,
+      "total": 10
     },
     {
       "category": "AI exam fraud",
@@ -2980,7 +2987,7 @@
     {
       "category": "Prompt injection",
       "unmatched": 1,
-      "total": 28
+      "total": 29
     },
     {
       "category": "Deepfake fraud",
@@ -2995,7 +3002,7 @@
     {
       "category": "AI supply chain",
       "unmatched": 0,
-      "total": 52
+      "total": 53
     },
     {
       "category": "Chatbot harm",

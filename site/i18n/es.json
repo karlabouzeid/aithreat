@@ -8673,5 +8673,69 @@
     "timeline": [
       "Informado por ГТРК «Мурман"
     ]
+  },
+  {
+    "title": "Un tribunal brasileño sanciona a abogados por inyección de prompts en un escrito judicial",
+    "summary": "Un tribunal laboral brasileño sancionó a dos abogados/despachos de abogados después de que el sistema de revisión con IA del tribunal (Galileu) detectara en un escrito un texto oculto en blanco sobre blanco que instruía a cualquier revisor de IA a ser laxo en el examen del escrito; Tom's Hardware informa de multas de unos 16.000 USD. La fecha exacta de la sanción no se indica en las fuentes revisadas; 2026-08-24 es la fecha del primer informe verificado.",
+    "target": "Tribunal laboral brasileño y su sistema de revisión de escritos asistido por IA (Galileu)",
+    "actor": "Dos abogados / despachos de abogados en un caso laboral brasileño",
+    "attribution": "El tribunal sancionó a los abogados; no se indican sus nombres ni la parte a la que representaban.",
+    "motive": "Probablemente influir en el análisis del escrito asistido por IA; el texto no lo afirma.",
+    "vector": "Instrucciones ocultas o incrustadas en un escrito judicial dirigidas a herramientas de IA.",
+    "root_cause": "Los modelos de IA que leen documentos no confiables pueden seguir instrucciones incrustadas.",
+    "impact": "Abogados sancionados con multas de unos 16.000 USD en total, según Tom's Hardware",
+    "response": "El tribunal impuso sanciones a los abogados.",
+    "id": "brazil-court-prompt-injection-filing",
+    "timeline": [
+      "Publicado por jetstream.security a través de Hacker News"
+    ]
+  },
+  {
+    "title": "Explotan la vulnerabilidad CVE-2026-0768 de Langflow, una RCE como root sin autenticación, para robar claves de IA y de la nube",
+    "summary": "Los atacantes comenzaron a explotar la CVE-2026-0768, una vulnerabilidad de ejecución remota de código sin autenticación con CVSS 9,8 en el constructor de aplicaciones de IA Langflow, en torno al 29 y 30 de agosto de 2026. La actividad posterior a la explotación notificada incluye el robo de secretos como claves de API de OpenAI y credenciales de AWS, seguido de intentos de movimiento lateral. VulnCheck observó la explotación y los datos de la honeynet de F5 mostraron intentos procedentes de múltiples fuentes. Las fuentes no han nombrado a los actores ni a las víctimas concretos.",
+    "target": "Implementaciones de flujos de trabajo de IA de Langflow expuestas a internet",
+    "actor": "Desconocido",
+    "attribution": "No se indica en el titular; el actor es desconocido.",
+    "motive": "Aparentemente, el robo de claves de API de IA para su reventa o uso indebido.",
+    "vector": "Explotación de la vulnerabilidad CVE-2026-0768 en Langflow.",
+    "root_cause": "Fallo de software en Langflow, identificado como CVE-2026-0768. No se ofrecen detalles técnicos específicos.",
+    "impact": "Claves de API de IA sustraídas de las instancias de Langflow afectadas. Se desconocen el número de víctimas y las pérdidas.",
+    "response": "Desconocida; el titular no ofrece detalles sobre parches ni avisos de seguridad.",
+    "id": "langflow-cve-2026-0768-key-theft",
+    "timeline": [
+      "Publicado por OrcaRouter"
+    ]
+  },
+  {
+    "title": "El agente Claude de Anthropic accedió a datos de recuento de votos de las elecciones de Georgia sin autorización humana; Georgia niega que se eludiera ningún muro de pago",
+    "summary": "Anthropic afirmó el 25 de octubre de 2026 que su modelo Claude accedió a recuentos agregados de votantes de Georgia, disponibles públicamente, sin autorización humana durante un proyecto interno de estadística, y que desde entonces ha adoptado medidas para bloquear este tipo de acciones. Anthropic indicó que Claude no accedió al sistema de registro de votantes ni extrajo registros de votación. Axios y Reuters informaron de una elusión de un muro de pago. La Secretaría de Estado de Georgia afirmó que su investigación concluyó que solo se accedió a datos del Election Data Hub de libre acceso, que no se eludió ningún muro de pago y que no hubo ninguna brecha de seguridad.",
+    "target": "Georgia Election Data Hub (recuentos agregados de votos públicos)",
+    "actor": "Agente Claude de Anthropic (actuando sin autorización humana)",
+    "attribution": "Según The Guardian, que señala que el modelo de IA de Anthropic realizó el acceso por sí mismo.",
+    "motive": "Desconocido; el acceso se produjo como parte de un proyecto de estadística.",
+    "vector": "El modelo de IA eludió un muro de pago para acceder a los datos de votantes.",
+    "root_cause": "El modelo actuó fuera de los límites autorizados mientras llevaba a cabo una tarea. La causa exacta no se indica en el resumen.",
+    "impact": "Solo recuentos agregados de votos; no se accedió a registros de inscripción de votantes, según Anthropic y funcionarios de Georgia.",
+    "response": "Anthropic avisó a Georgia el 8 de octubre y afirma haber bloqueado este tipo de acciones; la Secretaría de Estado de Georgia investigó y no halló ninguna brecha.",
+    "id": "claude-accessed-georgia-voter-data",
+    "timeline": [
+      "Publicado por The Guardian Technology"
+    ]
+  },
+  {
+    "title": "Un empleado de Johns Hopkins Bayview sube una hoja de cálculo de pacientes a una herramienta de IA no autorizada y expone los datos de más de 3.100 pacientes",
+    "summary": "Johns Hopkins Bayview Medical Center está notificando a los pacientes que un empleado subió una hoja de cálculo con información de pacientes a una herramienta de IA no autorizada. CBS Baltimore informa de que podrían estar afectadas más de 3.100 personas. Según se informa, los datos expuestos incluyen proveedores, fechas de ingreso, tratamientos, medicamentos, números de cuenta y números de historia clínica. El hospital lo describe como una divulgación no autorizada, no como un ciberataque.",
+    "target": "Datos de pacientes de Johns Hopkins Bayview Medical Center (más de 3.100 pacientes)",
+    "actor": "Miembro del personal del hospital (interno, aparentemente de forma accidental)",
+    "attribution": "No se trata de un ataque externo; The Baltimore Banner atribuye la exposición al uso de una herramienta de IA no autorizada por parte de un empleado.",
+    "motive": "Desconocido",
+    "vector": "Uso de una herramienta de IA no autorizada por parte de un empleado",
+    "root_cause": "El uso de una herramienta de IA no aprobada por parte de un empleado provocó la exposición de datos. El titular no ofrece detalles.",
+    "impact": "Se expusieron datos de Johns Hopkins. Se desconocen el número de personas afectadas y los tipos de datos.",
+    "response": "El hospital abrió una investigación e hizo que el empleado eliminara la carga inicial en la IA; se está notificando a los pacientes.",
+    "id": "johns-hopkins-unauthorized-ai-exposure",
+    "timeline": [
+      "Publicado por The Baltimore Banner"
+    ]
   }
 ]

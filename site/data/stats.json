@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-05T01:46:49Z",
-  "total": 297,
-  "all_time_total": 500,
+  "generated_at": "2026-11-05T02:15:57Z",
+  "total": 301,
+  "all_time_total": 504,
   "window_from": "2025-11-05",
   "window_to": "2026-11-05",
   "trend_from": "2025-01-01",
@@ -46,14 +46,14 @@
     "vendors": [
       {
         "product": "OpenAI / ChatGPT",
-        "n": 52,
-        "critical_high": 35,
-        "with_cve": 0,
+        "n": 53,
+        "critical_high": 36,
+        "with_cve": 1,
         "latest": "rogue-codex-claude-code-relays"
       },
       {
         "product": "Anthropic / Claude",
-        "n": 37,
+        "n": 38,
         "critical_high": 26,
         "with_cve": 2,
         "latest": "volta-autodoxer-infostealer"
@@ -108,6 +108,13 @@
         "latest": "litellm-1-107-0-trojanized-release"
       },
       {
+        "product": "Langflow",
+        "n": 4,
+        "critical_high": 4,
+        "with_cve": 4,
+        "latest": "langflow-cve-2026-0768-key-theft"
+      },
+      {
         "product": "Meta AI / Llama",
         "n": 4,
         "critical_high": 1,
@@ -129,13 +136,6 @@
         "latest": "bugster-deepseek-v4-india-universities"
       },
       {
-        "product": "Langflow",
-        "n": 3,
-        "critical_high": 3,
-        "with_cve": 3,
-        "latest": "langflow-summer-2026-kev-wave"
-      },
-      {
         "product": "Ollama",
         "n": 3,
         "critical_high": 2,
@@ -153,12 +153,12 @@
   },
   "this_quarter": {
     "q": "2026-Q4",
-    "n": 99,
+    "n": 101,
     "prev_q": "2026-Q3",
-    "prev_n": 52
+    "prev_n": 54
   },
   "direction": {
-    "on-ai": 93,
+    "on-ai": 96,
     "with-ai": 171
   },
   "on_ai_share_first_half": 31,
@@ -250,31 +250,31 @@
     },
     {
       "q": "2026-Q3",
-      "n": 52,
-      "on-ai": 16,
+      "n": 54,
+      "on-ai": 18,
       "with-ai": 34,
       "severity": {
-        "critical": 9,
+        "critical": 10,
         "high": 29,
         "medium": 12,
-        "low": 2
+        "low": 3
       },
       "autonomous": 4,
-      "real_world": 49
+      "real_world": 51
     },
     {
       "q": "2026-Q4",
-      "n": 99,
-      "on-ai": 25,
+      "n": 101,
+      "on-ai": 26,
       "with-ai": 69,
       "severity": {
         "critical": 3,
         "high": 32,
-        "medium": 56,
-        "low": 8
+        "medium": 57,
+        "low": 9
       },
-      "autonomous": 6,
-      "real_world": 98
+      "autonomous": 7,
+      "real_world": 100
     }
   ],
   "categories": [
@@ -310,7 +310,7 @@
     },
     {
       "category": "AI supply chain",
-      "n": 37,
+      "n": 38,
       "by_quarter": [
         2,
         4,
@@ -318,10 +318,10 @@
         1,
         7,
         11,
-        6,
+        7,
         13
       ],
-      "growth_last4_vs_prev4": 24
+      "growth_last4_vs_prev4": 25
     },
     {
       "category": "Chatbot harm",
@@ -340,7 +340,7 @@
     },
     {
       "category": "Model & data leak",
-      "n": 23,
+      "n": 24,
       "by_quarter": [
         5,
         5,
@@ -349,9 +349,9 @@
         9,
         2,
         5,
-        6
+        7
       ],
-      "growth_last4_vs_prev4": 1
+      "growth_last4_vs_prev4": 2
     },
     {
       "category": "Agent hijack",
@@ -400,7 +400,7 @@
     },
     {
       "category": "Prompt injection",
-      "n": 14,
+      "n": 15,
       "by_quarter": [
         1,
         3,
@@ -408,10 +408,10 @@
         4,
         3,
         3,
-        2,
+        3,
         3
       ],
-      "growth_last4_vs_prev4": -6
+      "growth_last4_vs_prev4": -5
     },
     {
       "category": "LLMjacking",
@@ -444,6 +444,21 @@
       "growth_last4_vs_prev4": -4
     },
     {
+      "category": "AI misfire",
+      "n": 3,
+      "by_quarter": [
+        1,
+        0,
+        1,
+        3,
+        0,
+        0,
+        1,
+        1
+      ],
+      "growth_last4_vs_prev4": -3
+    },
+    {
       "category": "AI exam fraud",
       "n": 3,
       "by_quarter": [
@@ -457,21 +472,6 @@
         1
       ],
       "growth_last4_vs_prev4": 0
-    },
-    {
-      "category": "AI misfire",
-      "n": 2,
-      "by_quarter": [
-        1,
-        0,
-        1,
-        3,
-        0,
-        0,
-        1,
-        0
-      ],
-      "growth_last4_vs_prev4": -4
     }
   ],
   "rising_category": "AI-assisted malware",
@@ -480,7 +480,7 @@
   "autonomous": {
     "by_year": {
       "2025": 1,
-      "2026": 10
+      "2026": 11
     },
     "ids": [
       "antigravity-d-drive-wipe",
@@ -493,7 +493,8 @@
       "meta-ai-model-exploits-flaw-in-eval",
       "gemini-breakout-hacks-three-companies",
       "aisi-eval-agent-attacks-third-parties",
-      "cert-in-ai-agents-indian-orgs-access"
+      "cert-in-ai-agents-indian-orgs-access",
+      "claude-accessed-georgia-voter-data"
     ]
   },
   "actors": [
@@ -525,25 +526,25 @@
       "actor_type": "unknown",
       "by_year": {
         "2025": 1,
-        "2026": 86
+        "2026": 88
       },
-      "n": 87
+      "n": 89
     },
     {
       "actor_type": "autonomous-ai",
       "by_year": {
         "2025": 1,
-        "2026": 10
+        "2026": 11
       },
-      "n": 11
+      "n": 12
     },
     {
       "actor_type": "accident",
       "by_year": {
         "2025": 1,
-        "2026": 5
+        "2026": 6
       },
-      "n": 6
+      "n": 7
     },
     {
       "actor_type": "hacktivist",
@@ -567,10 +568,10 @@
     "2026"
   ],
   "severity": {
-    "critical": 40,
+    "critical": 41,
     "high": 121,
-    "medium": 122,
-    "low": 14
+    "medium": 123,
+    "low": 16
   },
   "critical_high_pct": 54,
   "losses": {
@@ -633,12 +634,12 @@
         "disclosed": 0
       },
       {
-        "category": "AI exam fraud",
+        "category": "AI misfire",
         "usd": 0,
         "disclosed": 0
       },
       {
-        "category": "AI misfire",
+        "category": "AI exam fraud",
         "usd": 0,
         "disclosed": 0
       }
@@ -652,7 +653,7 @@
     },
     {
       "sector": "Technology & AI vendors",
-      "n": 88
+      "n": 89
     },
     {
       "sector": "Multiple / cross-sector",
@@ -664,11 +665,11 @@
     },
     {
       "sector": "Unknown",
-      "n": 18
+      "n": 19
     },
     {
       "sector": "Government & public sector",
-      "n": 13
+      "n": 14
     },
     {
       "sector": "Financial services",
@@ -676,7 +677,7 @@
     },
     {
       "sector": "Politics & elections",
-      "n": 7
+      "n": 8
     },
     {
       "sector": "Retail & consumer brands",
@@ -702,11 +703,11 @@
   "countries": [
     {
       "country": "GL",
-      "n": 122
+      "n": 123
     },
     {
       "country": "US",
-      "n": 64
+      "n": 66
     },
     {
       "country": "GB",
@@ -741,11 +742,11 @@
       "n": 4
     },
     {
-      "country": "NG",
-      "n": 3
+      "country": "BR",
+      "n": 4
     },
     {
-      "country": "UA",
+      "country": "NG",
       "n": 3
     }
   ],
@@ -757,7 +758,7 @@
     },
     {
       "status": "ongoing",
-      "n": 78
+      "n": 79
     },
     {
       "status": "contained",
@@ -769,7 +770,7 @@
     },
     {
       "status": "resolved",
-      "n": 15
+      "n": 16
     },
     {
       "status": "unresolved",
@@ -809,6 +810,14 @@
     },
     {
       "status": "criminal case opened; court let the flat buyer keep the property",
+      "n": 1
+    },
+    {
+      "status": "disputed",
+      "n": 1
+    },
+    {
+      "status": "patients being notified",
       "n": 1
     },
     {
@@ -853,8 +862,8 @@
     }
   ],
   "unresolved_pct": 66,
-  "verify_median_hours": 128.0,
-  "verify_sample": 108,
+  "verify_median_hours": 135.5,
+  "verify_sample": 112,
   "researcher_demos": 21,
   "pulse": [
     {
@@ -1112,7 +1121,7 @@
     {
       "day": "2026-10-30",
       "kinds": {
-        "incident": 62,
+        "incident": 61,
         "vulnerability": 4,
         "research": 5,
         "vendor-report": 13,
@@ -1189,7 +1198,7 @@
         "research": 0,
         "vendor-report": 0,
         "policy": 0,
-        "other": 2,
+        "other": 3,
         "untagged": 0
       }
     }
