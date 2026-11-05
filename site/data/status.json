@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-05T16:35:43Z",
+  "updated_at": "2026-11-05T17:05:40Z",
   "wire_items": 800,
-  "new_items": 86,
+  "new_items": 92,
   "candidates": 69,
   "incidents": 568,
   "feeds_ok": [
@@ -14,6 +14,7 @@
     "CyberScoop",
     "Krebs on Security",
     "WIRED Security",
+    "Help Net Security",
     "Infosecurity Magazine",
     "TechCrunch Security",
     "Unit 42",
@@ -79,7 +80,6 @@
     "Google News (official warnings)"
   ],
   "feeds_failed": [
-    "Help Net Security",
     "CISA Advisories",
     "US court filings (CourtListener)",
     "European Commission",
