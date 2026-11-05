@@ -8417,5 +8417,53 @@
     "timeline": [
       "Informado por Infosecurity Magazine"
     ]
+  },
+  {
+    "title": "El MVD ruso advierte de que tiendas en línea falsas podrían usar vídeos de famosos generados con IA para atraer a compradores",
+    "summary": "La dirección de ciberdelincuencia del Ministerio del Interior de Rusia advirtió el 27 de octubre de 2026 de que las tiendas en línea falsas que anuncian grandes descuentos o envíos desde el extranjero pueden usar vídeos de personas conocidas generados con IA para parecer convincentes. Se pide a los compradores que paguen por adelantado el importe completo y la mercancía nunca llega, mientras los vendedores culpan a retrasos aduaneros y se quedan con el dinero. El MVD no facilitó cifras de víctimas, pérdidas ni detenciones.",
+    "target": "Compradores en línea",
+    "actor": "Desconocido",
+    "attribution": "Ministerio del Interior de Rusia (MVD), según medios regionales; no se nombra a los autores.",
+    "motive": "Lucro económico",
+    "vector": "Imágenes de famosos generadas con IA en anuncios de tiendas en línea falsas",
+    "root_cause": "La facilidad para crear deepfakes convincentes de famosos y la confianza en los respaldos de personas conocidas.",
+    "impact": "Compradores engañados que pagan a tiendas falsas; no se indica el número de víctimas ni las pérdidas.",
+    "response": "El MVD dio a conocer públicamente el esquema; no se indican otras medidas.",
+    "id": "ru-mvd-celebrity-ai-fake-shops",
+    "timeline": [
+      "Informado por Про Город Дзержинск"
+    ]
+  },
+  {
+    "title": "Relés no autorizados de Codex y Claude Code desactivan el sandbox en 12 organizaciones",
+    "summary": "Symantec afirma que un servicio de relé no autorizado instala las CLI genuinas de OpenAI Codex y Anthropic Claude Code y luego las reconfigura para enrutar los prompts y las credenciales a través de servidores de terceros con el sandbox desactivado. Está activo desde al menos principios de 2026 y ha afectado a una docena de organizaciones, en su mayoría en China continental, además de filiales de multinacionales en Corea del Sur, Taiwán y Malasia.",
+    "target": "Usuarios de las CLI de Codex y Claude Code, principalmente en China continental",
+    "actor": "Desconocido",
+    "attribution": "Descubierto por el Threat Hunter Team de Symantec; el resumen no identifica al operador del servicio de relé.",
+    "motive": "Desconocido",
+    "vector": "Servicio de relé no autorizado que instala CLI genuinas de programación con IA y reescribe su configuración para desactivar las protecciones del sandbox.",
+    "root_cause": "Los usuarios instalan agentes de programación con IA a través de un relé no confiable que debilita silenciosamente los ajustes de seguridad integrados de las herramientas.",
+    "impact": "Al menos 12 organizaciones, en su mayoría en China continental, han tenido desactivado el sandbox de los agentes de programación desde principios de 2026. No se indica si hubo pérdida de datos.",
+    "response": "El Threat Hunter Team de Symantec divulgó los hallazgos. No se describe ninguna otra respuesta.",
+    "id": "rogue-codex-claude-code-relays",
+    "timeline": [
+      "Informado por GBHackers"
+    ]
+  },
+  {
+    "title": "La extensión de Claude Code 2.1.313 troyanizada en Cursor Marketplace instala una puerta trasera SSH persistente",
+    "summary": "Una versión troyanizada de anthropic.claude-code 2.1.313, con un cargador malicioso de 66 líneas antepuesto al paquete de la extensión, se distribuyó a través de Cursor Marketplace durante unas 11 horas el 29 de octubre de 2026. Añadía una clave SSH del atacante, instalaba persistencia y enviaba datos del host a un servidor del atacante; Cursor afirma que, como máximo, resultaron afectados 5.000 usuarios. Phorion lo informó por primera vez en Open VSX, pero Socket no encontró pruebas de que esa versión llegara a Open VSX ni al marketplace de Microsoft. No está claro cómo publicaron los atacantes la actualización.",
+    "target": "Usuarios de Cursor Marketplace de la extensión Claude Code (como máximo 5.000 usuarios)",
+    "actor": "Desconocido",
+    "attribution": "Desconocida; el resumen no nombra a ningún actor.",
+    "motive": "Desconocido; probablemente el acceso remoto a sistemas de desarrolladores.",
+    "vector": "Paquete de extensión troyanizado en el registro Open VSX, con un cargador malicioso añadido al código legítimo.",
+    "root_cause": "Una extensión manipulada se distribuyó a través de un registro abierto de extensiones; no se indica cómo se publicó.",
+    "impact": "Acceso SSH persistente a los sistemas de desarrolladores que instalen el paquete; no se indica el número de víctimas.",
+    "response": "Los investigadores analizaron el artefacto; no se indica ninguna retirada ni respuesta del proveedor.",
+    "id": "trojan-claude-code-extension-ssh",
+    "timeline": [
+      "Informado por GBHackers"
+    ]
   }
 ]

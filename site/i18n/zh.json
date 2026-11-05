@@ -8417,5 +8417,53 @@
     "timeline": [
       "由 Infosecurity Magazine 报道"
     ]
+  },
+  {
+    "title": "俄罗斯内务部（MVD）警告：虚假网店可能使用 AI 生成的名人视频诱骗买家",
+    "summary": "俄罗斯内务部网络犯罪局于 2026 年 10 月 27 日警告称，宣称大幅折扣或境外发货的虚假网店，可能使用 AI 生成的知名人物视频来显得可信。买家被要求全额预付款，货物却始终没有送达，卖家则将责任推给海关延误，并扣留款项。MVD 未公布受害者人数、损失金额或抓捕情况。",
+    "target": "网购用户",
+    "actor": "未知",
+    "attribution": "据地方媒体报道，信息来自俄罗斯内务部（MVD）；未点名作案者。",
+    "motive": "谋取经济利益",
+    "vector": "在虚假网店的广告中使用 AI 生成的名人肖像",
+    "root_cause": "制作逼真的名人深度伪造内容十分容易，且人们信任名人的代言。",
+    "impact": "买家被骗向虚假网店付款；受害者人数和损失金额未说明。",
+    "response": "MVD 公开了该骗局手段；是否采取进一步行动未说明。",
+    "id": "ru-mvd-celebrity-ai-fake-shops",
+    "timeline": [
+      "由 Про Город Дзержинск 报道"
+    ]
+  },
+  {
+    "title": "未授权的 Codex 和 Claude Code 中继服务在 12 家组织中关闭了沙箱",
+    "summary": "赛门铁克（Symantec）称，一个未授权的中继服务会安装正版的 OpenAI Codex 和 Anthropic Claude Code CLI，随后对其重新配置，使提示词和凭据经由第三方服务器转发，并关闭沙箱功能。该服务至少自 2026 年初起就已活跃，已影响 12 家组织，主要位于中国大陆，另有位于韩国、中国台湾和马来西亚的跨国公司子公司。",
+    "target": "Codex 和 Claude Code CLI 的用户，主要位于中国大陆",
+    "actor": "未知",
+    "attribution": "由赛门铁克的 Threat Hunter Team 发现；摘要中未指明该中继服务的运营者。",
+    "motive": "未知",
+    "vector": "未授权的中继服务安装正版 AI 编码 CLI，并改写其配置以关闭沙箱保护。",
+    "root_cause": "用户通过不受信任的中继安装 AI 编码代理，该中继悄悄削弱了这些工具内置的安全设置。",
+    "impact": "自 2026 年初以来，至少 12 家组织（主要位于中国大陆）的编码代理沙箱被关闭。数据是否泄露未说明。",
+    "response": "赛门铁克的 Threat Hunter Team 披露了调查结果。未描述其他响应措施。",
+    "id": "rogue-codex-claude-code-relays",
+    "timeline": [
+      "由 GBHackers 报道"
+    ]
+  },
+  {
+    "title": "Cursor Marketplace 上被植入木马的 Claude Code 扩展 2.1.313 会安装持久化 SSH 后门",
+    "summary": "被植入木马的 anthropic.claude-code 2.1.313 在扩展包前部添加了一段 66 行的恶意加载器，于 2026 年 10 月 29 日通过 Cursor Marketplace 分发了约 11 小时。它会添加攻击者的 SSH 密钥、安装持久化机制，并将主机信息发送至攻击者的服务器；Cursor 称受影响用户最多 5,000 人。Phorion 最先在 Open VSX 上报告了此事，但 Socket 未发现该版本进入过 Open VSX 或微软（Microsoft）的市场。攻击者如何发布该更新尚不清楚。",
+    "target": "使用 Claude Code 扩展的 Cursor Marketplace 用户（最多 5,000 人）",
+    "actor": "未知",
+    "attribution": "未知；摘要中未点名攻击者。",
+    "motive": "未知；可能是为了远程访问开发者系统。",
+    "vector": "Open VSX 注册中心上被植入木马的扩展包，在合法代码中加入了恶意加载器。",
+    "root_cause": "被篡改的扩展通过开放的扩展注册中心分发；其发布方式未说明。",
+    "impact": "安装该扩展包的开发者系统会被持久化 SSH 访问；受害者人数未说明。",
+    "response": "研究人员分析了该样本；未说明是否下架或厂商是否作出响应。",
+    "id": "trojan-claude-code-extension-ssh",
+    "timeline": [
+      "由 GBHackers 报道"
+    ]
   }
 ]

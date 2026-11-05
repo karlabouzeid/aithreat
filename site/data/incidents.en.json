@@ -24923,6 +24923,61 @@
     "verified_at": "2026-11-04T22:35:38Z"
   },
   {
+    "id": "ru-mvd-celebrity-ai-fake-shops",
+    "date": "2026-10-27",
+    "title": "Russian MVD warns fake online stores may use AI-generated celebrity videos to lure buyers",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "RU",
+    "region": "Europe",
+    "target": "Online shoppers",
+    "loss_usd": null,
+    "summary": "Russia's Interior Ministry cybercrime directorate warned on 27 October 2026 that fake online shops advertising steep discounts or foreign delivery may use AI-generated videos of well-known people to look convincing. Buyers are asked to prepay in full and the goods never arrive, with the sellers blaming customs delays and keeping the money. The MVD gave no victim numbers, losses or arrests.",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "sector": "Individuals & consumers",
+    "attribution": "Russian Interior Ministry (MVD) as reported by regional media; perpetrators not named.",
+    "motive": "Financial gain",
+    "vector": "AI-generated celebrity likenesses in adverts for fake online stores",
+    "root_cause": "Easy creation of convincing celebrity deepfakes and trust in endorsements by famous people.",
+    "impact": "Buyers deceived into paying fake stores; number of victims and losses not stated.",
+    "response": "MVD publicised the scheme; further action not stated.",
+    "status": "warning issued; no arrests or losses reported",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "source": "Про Город Дзержинск",
+    "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE93QW95c1dHWndDczBCTldDY2Fhd3NNUGR4YkFCNTVYOWVURkpZVWpDNkRkV3Z5SnpzcEhEd1VFR0NXVHc?oc=5",
+    "sources": [
+      {
+        "name": "Про Город Дзержинск",
+        "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE93QW95c1dHWndDczBCTldDY2Fhd3NNUGR4YkFCNTVYOWVURkpZVWpDNkRkV3Z5SnpzcEhEd1VFR0NXVHc?oc=5"
+      },
+      {
+        "name": "RIA Novosti",
+        "url": "https://ria.ru/20261027/mvd-2127196726.html"
+      },
+      {
+        "name": "Izvestia",
+        "url": "https://iz.ru/2191204/moshenniki-nachali-ispolzovat-obrazy-zvezd-dlia-reklamy-feikovykh-magazinov-izi"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-31",
+        "event": "Reported by Про Город Дзержинск"
+      }
+    ],
+    "drafted_at": "2026-10-31T11:05:41Z",
+    "first_seen": "2026-10-27T14:06:58Z",
+    "updated_at": "2026-11-05T00:05:39Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-05T00:05:39Z"
+  },
+  {
     "id": "123-reg-ai-cyberattack-customer-data",
     "date": "2026-10-28",
     "title": "123 Reg discloses AI cyberattack on customer data, suspects China nexus",
@@ -25029,6 +25084,61 @@
     "verified_at": "2026-11-04T18:35:37Z"
   },
   {
+    "id": "rogue-codex-claude-code-relays",
+    "date": "2026-10-29",
+    "title": "Unauthorized Codex and Claude Code relays disable sandboxing at 12 organizations",
+    "category": "AI supply chain",
+    "direction": "on-ai",
+    "severity": "medium",
+    "country": "CN",
+    "region": "Asia-Pacific",
+    "target": "Users of Codex and Claude Code CLIs, mostly in mainland China",
+    "loss_usd": null,
+    "summary": "Symantec says an unauthorized relay service installs the genuine OpenAI Codex and Anthropic Claude Code CLIs, then reconfigures them to route prompts and credentials through third-party servers with sandboxing switched off. It has been active since at least early 2026 and has affected a dozen organizations, mostly in mainland China, plus multinational subsidiaries in South Korea, Taiwan and Malaysia.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Multiple / cross-sector",
+    "attribution": "Found by Symantec's Threat Hunter Team; the operator of the relay service is not identified in the summary.",
+    "motive": "Unknown",
+    "vector": "Unauthorized relay service that installs genuine AI coding CLIs and rewrites their configuration to disable sandbox protections.",
+    "root_cause": "Users install AI coding agents through an untrusted relay that silently weakens the tools' built-in security settings.",
+    "impact": "At least 12 organizations, mostly in mainland China, have had coding-agent sandboxing disabled since early 2026. Data loss is not stated.",
+    "response": "Symantec's Threat Hunter Team disclosed the findings. No other response is described.",
+    "status": "ongoing",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "source": "GBHackers",
+    "url": "https://gbhackers.com/codex-claude-code-relays",
+    "sources": [
+      {
+        "name": "GBHackers",
+        "url": "https://gbhackers.com/codex-claude-code-relays"
+      },
+      {
+        "name": "Symantec (security.com)",
+        "url": "https://www.security.com/threat-intelligence/openai-claude-unauthorized-relays"
+      },
+      {
+        "name": "Cyberpress",
+        "url": "https://cyberpress.org/ai-relays-disable-safeguards/"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-30",
+        "event": "Reported by GBHackers"
+      }
+    ],
+    "drafted_at": "2026-10-30T16:05:40Z",
+    "first_seen": "2026-10-30T16:05:40Z",
+    "updated_at": "2026-11-05T00:05:39Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-05T00:05:39Z"
+  },
+  {
     "id": "workos-ai-framework-breach",
     "date": "2026-10-30",
     "title": "WorkOS internal sales app breached using AI-assisted offensive framework",
@@ -25074,6 +25184,61 @@
     "verification": "reported",
     "review": "auto",
     "verified_at": "2026-11-04T17:45:22Z"
+  },
+  {
+    "id": "trojan-claude-code-extension-ssh",
+    "date": "2026-10-30",
+    "title": "Trojanized Claude Code extension 2.1.313 on Cursor Marketplace installs persistent SSH backdoor",
+    "category": "AI supply chain",
+    "direction": "on-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "Cursor Marketplace users of the Claude Code extension (at most 5,000 users)",
+    "loss_usd": null,
+    "summary": "A trojanized anthropic.claude-code 2.1.313, with a 66-line malicious loader prepended to the extension bundle, was distributed through the Cursor Marketplace for about 11 hours on 29 October 2026. It added an attacker SSH key, installed persistence and sent host details to an attacker server; Cursor says at most 5,000 users were affected. Phorion first reported it on Open VSX, but Socket found no evidence that version reached Open VSX or Microsoft's marketplace. How the attackers published the update is unclear.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Technology & AI vendors",
+    "attribution": "Unknown; the summary does not name an actor.",
+    "motive": "Unknown; likely remote access to developer systems.",
+    "vector": "Trojanized extension package on the Open VSX registry with a malicious loader added to the legitimate code.",
+    "root_cause": "A tampered extension was distributed through an open extension registry; how it was published is not stated.",
+    "impact": "Persistent SSH access to developer systems that install the package; number of victims is not stated.",
+    "response": "Researchers analysed the artifact; no takedown or vendor response is stated.",
+    "status": "contained; malicious version removed, method of compromise unclear",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "source": "GBHackers",
+    "url": "https://gbhackers.com/malicious-claude-code-vs-code-extension",
+    "sources": [
+      {
+        "name": "GBHackers",
+        "url": "https://gbhackers.com/malicious-claude-code-vs-code-extension"
+      },
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html"
+      },
+      {
+        "name": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/10/30/claude-code-extension-ssh-backdoor/"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-30",
+        "event": "Reported by GBHackers"
+      }
+    ],
+    "drafted_at": "2026-10-30T08:34:01Z",
+    "first_seen": "2026-10-30T08:34:01Z",
+    "updated_at": "2026-11-05T00:05:39Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-05T00:05:39Z"
   },
   {
     "id": "volta-autodoxer-infostealer",

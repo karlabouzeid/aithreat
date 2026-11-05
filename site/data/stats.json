@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-04T23:42:30Z",
-  "total": 281,
-  "all_time_total": 484,
-  "window_from": "2025-11-04",
-  "window_to": "2026-11-04",
+  "generated_at": "2026-11-05T00:13:46Z",
+  "total": 284,
+  "all_time_total": 487,
+  "window_from": "2025-11-05",
+  "window_to": "2026-11-05",
   "trend_from": "2025-01-01",
   "first_half_from": "2025-01",
   "first_half_to": "2025-06",
@@ -20,7 +20,7 @@
       "sao-paulo-fake-lawyer-voice-clone"
     ],
     "financial_services": 9,
-    "individuals": 85,
+    "individuals": 86,
     "fin_by_category": {
       "Deepfake fraud": 7,
       "AI-assisted malware": 1,
@@ -46,15 +46,15 @@
     "vendors": [
       {
         "product": "OpenAI / ChatGPT",
-        "n": 51,
+        "n": 52,
         "critical_high": 35,
         "with_cve": 0,
-        "latest": "yoba-fake-ai-apps-signed-binaries"
+        "latest": "rogue-codex-claude-code-relays"
       },
       {
         "product": "Anthropic / Claude",
-        "n": 35,
-        "critical_high": 25,
+        "n": 37,
+        "critical_high": 26,
         "with_cve": 2,
         "latest": "volta-autodoxer-infostealer"
       },
@@ -94,18 +94,18 @@
         "latest": "wiz-red-agent-snowflake-jira"
       },
       {
+        "product": "Cursor",
+        "n": 6,
+        "critical_high": 4,
+        "with_cve": 1,
+        "latest": "trojan-claude-code-extension-ssh"
+      },
+      {
         "product": "LiteLLM",
         "n": 6,
         "critical_high": 6,
         "with_cve": 4,
         "latest": "litellm-1-107-0-trojanized-release"
-      },
-      {
-        "product": "Cursor",
-        "n": 5,
-        "critical_high": 3,
-        "with_cve": 1,
-        "latest": "bugster-deepseek-v4-india-universities"
       },
       {
         "product": "Meta AI / Llama",
@@ -153,13 +153,13 @@
   },
   "this_quarter": {
     "q": "2026-Q4",
-    "n": 86,
+    "n": 89,
     "prev_q": "2026-Q3",
     "prev_n": 51
   },
   "direction": {
-    "on-ai": 89,
-    "with-ai": 160
+    "on-ai": 91,
+    "with-ai": 161
   },
   "on_ai_share_first_half": 31,
   "on_ai_share_last_half": 41,
@@ -264,23 +264,23 @@
     },
     {
       "q": "2026-Q4",
-      "n": 86,
-      "on-ai": 21,
-      "with-ai": 60,
+      "n": 89,
+      "on-ai": 23,
+      "with-ai": 61,
       "severity": {
         "critical": 3,
-        "high": 30,
-        "medium": 47,
+        "high": 31,
+        "medium": 49,
         "low": 6
       },
       "autonomous": 6,
-      "real_world": 85
+      "real_world": 88
     }
   ],
   "categories": [
     {
       "category": "Deepfake fraud",
-      "n": 56,
+      "n": 57,
       "by_quarter": [
         13,
         9,
@@ -289,9 +289,9 @@
         10,
         12,
         12,
-        15
+        16
       ],
-      "growth_last4_vs_prev4": -1
+      "growth_last4_vs_prev4": 0
     },
     {
       "category": "AI-assisted malware",
@@ -310,7 +310,7 @@
     },
     {
       "category": "AI supply chain",
-      "n": 35,
+      "n": 37,
       "by_quarter": [
         2,
         4,
@@ -319,9 +319,9 @@
         7,
         11,
         6,
-        11
+        13
       ],
-      "growth_last4_vs_prev4": 22
+      "growth_last4_vs_prev4": 24
     },
     {
       "category": "Chatbot harm",
@@ -476,7 +476,7 @@
   ],
   "rising_category": "AI-assisted malware",
   "top_category": "Deepfake fraud",
-  "top_category_n": 56,
+  "top_category_n": 57,
   "autonomous": {
     "by_year": {
       "2025": 1,
@@ -501,9 +501,9 @@
       "actor_type": "criminal",
       "by_year": {
         "2025": 13,
-        "2026": 90
+        "2026": 91
       },
-      "n": 103
+      "n": 104
     },
     {
       "actor_type": "state",
@@ -525,9 +525,9 @@
       "actor_type": "unknown",
       "by_year": {
         "2025": 1,
-        "2026": 77
+        "2026": 79
       },
-      "n": 78
+      "n": 80
     },
     {
       "actor_type": "autonomous-ai",
@@ -568,11 +568,11 @@
   ],
   "severity": {
     "critical": 40,
-    "high": 119,
-    "medium": 110,
+    "high": 120,
+    "medium": 112,
     "low": 12
   },
-  "critical_high_pct": 57,
+  "critical_high_pct": 56,
   "losses": {
     "total_usd": 205102243,
     "disclosed": 20,
@@ -648,15 +648,15 @@
   "sectors": [
     {
       "sector": "Technology & AI vendors",
-      "n": 86
+      "n": 87
     },
     {
       "sector": "Individuals & consumers",
-      "n": 85
+      "n": 86
     },
     {
       "sector": "Multiple / cross-sector",
-      "n": 30
+      "n": 31
     },
     {
       "sector": "Education & research",
@@ -702,7 +702,7 @@
   "countries": [
     {
       "country": "GL",
-      "n": 119
+      "n": 120
     },
     {
       "country": "US",
@@ -730,7 +730,7 @@
     },
     {
       "country": "CN",
-      "n": 4
+      "n": 5
     },
     {
       "country": "IL",
@@ -757,7 +757,7 @@
     },
     {
       "status": "ongoing",
-      "n": 74
+      "n": 75
     },
     {
       "status": "contained",
@@ -800,6 +800,14 @@
       "n": 1
     },
     {
+      "status": "warning issued; no arrests or losses reported",
+      "n": 1
+    },
+    {
+      "status": "contained; malicious version removed, method of compromise unclear",
+      "n": 1
+    },
+    {
       "status": "alleged; operator unidentified",
       "n": 1
     },
@@ -825,8 +833,8 @@
     }
   ],
   "unresolved_pct": 67,
-  "verify_median_hours": 32.8,
-  "verify_sample": 92,
+  "verify_median_hours": 34.0,
+  "verify_sample": 95,
   "researcher_demos": 21,
   "pulse": [
     {
@@ -1096,7 +1104,7 @@
     {
       "day": "2026-10-30",
       "kinds": {
-        "incident": 66,
+        "incident": 63,
         "vulnerability": 4,
         "research": 5,
         "vendor-report": 13,
@@ -1161,7 +1169,7 @@
         "research": 15,
         "vendor-report": 7,
         "policy": 3,
-        "other": 12,
+        "other": 15,
         "untagged": 0
       }
     }

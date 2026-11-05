@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T23:42:30Z",
+  "generated_at": "2026-11-05T00:13:46Z",
   "licence": "CC BY 4.0",
   "sources": [
     {
@@ -1010,8 +1010,8 @@
       "claim": "Realistic AI-generated voices, images and video are used for fraud, extortion and sexual imagery made without consent, and cheap tools have made such content easy to produce at scale.",
       "status": "observed",
       "note": "The largest category in the registry: cloned voices and deepfake video calls impersonating executives, officials and relatives, and deepfake celebrity ads behind investment scams. The report adds that victims often do not report, so public cases undercount the harm.",
-      "n": 96,
-      "real_world": 96,
+      "n": 97,
+      "real_world": 97,
       "first_real_world": "2025-01-05",
       "months_after_publication": -13,
       "url": "https://aithreat.io/research/iasr-synthetic-content/",
@@ -1020,6 +1020,7 @@
         "tarn-restaurants-ai-fake-refund",
         "cctv-ai-fiancee-romance-scam",
         "jancovici-ai-voice-clone-scam",
+        "ru-mvd-celebrity-ai-fake-shops",
         "dubai-cafe-ai-photo-refund-claim",
         "bon-jovi-impersonator-ai-video-scam",
         "sps-ai-fake-payment-receipts-phones",
@@ -1400,13 +1401,15 @@
       "claim": "Attackers can manipulate AI systems through prompt injection, poisoned data and compromised components, to change how they behave or to pull out sensitive information.",
       "status": "observed",
       "note": "Hidden instructions that make assistants leak mail and files, hijacked coding agents, malicious packages and plugins aimed at AI developers, and actively exploited flaws in AI tools. Many prompt injection cases are demonstrations by researchers; most supply-chain attacks happened in the real world.",
-      "n": 92,
-      "real_world": 57,
+      "n": 94,
+      "real_world": 59,
       "first_real_world": "2022-12-30",
       "months_after_publication": -38,
       "url": "https://aithreat.io/research/iasr-ai-as-target/",
       "cases": [
+        "trojan-claude-code-extension-ssh",
         "hugging-face-gpu-mining-returns",
+        "rogue-codex-claude-code-relays",
         "yoba-fake-ai-apps-signed-binaries",
         "litellm-1-107-0-trojanized-release",
         "jqwik-agent-delete-output-instruction",
@@ -2190,13 +2193,15 @@
       "claim": "AI that leaks or infers sensitive personal data, and weaknesses in AI systems and their toolchains that attackers exploit.",
       "status": "observed",
       "note": "One of the two pillars of the registry: leaked chats and keys, exposed databases, prompt injection, hijacked agents, poisoned packages and stolen AI accounts.",
-      "n": 152,
-      "real_world": 104,
+      "n": 154,
+      "real_world": 106,
       "first_real_world": "2022-12-30",
       "months_after_publication": null,
       "url": "https://aithreat.io/research/mit-privacy-security/",
       "cases": [
+        "trojan-claude-code-extension-ssh",
         "hugging-face-gpu-mining-returns",
+        "rogue-codex-claude-code-relays",
         "warp-agent-logs-vendor-breach",
         "yoba-fake-ai-apps-signed-binaries",
         "cloudflare-workers-ai-glm-leak",
@@ -2411,8 +2416,8 @@
       "claim": "People using AI for disinformation, surveillance and propaganda at scale; for cyberattacks and weapons; and for fraud, scams and targeted manipulation.",
       "status": "observed",
       "note": "The other pillar of the registry: deepfake fraud, AI-built malware, AI phishing and state operations.",
-      "n": 212,
-      "real_world": 211,
+      "n": 213,
+      "real_world": 212,
       "first_real_world": "2025-01-05",
       "months_after_publication": null,
       "url": "https://aithreat.io/research/mit-malicious-actors/",
@@ -2428,6 +2433,7 @@
         "volta-autodoxer-infostealer",
         "workos-ai-framework-breach",
         "123-reg-ai-cyberattack-customer-data",
+        "ru-mvd-celebrity-ai-fake-shops",
         "dubai-cafe-ai-photo-refund-claim",
         "korea-genai-hacking-8m-records-arrest",
         "php2shell-ai-assisted-us-gov-network",
@@ -2830,7 +2836,7 @@
     {
       "source": "iasr-2026",
       "claims": 11,
-      "matched_cases": 349,
+      "matched_cases": 352,
       "matched_pct": 72,
       "status_counts": {
         "observed": 5,
@@ -2883,7 +2889,7 @@
       "source": "aisi-trends-2025",
       "claims": 5,
       "matched_cases": 51,
-      "matched_pct": 11,
+      "matched_pct": 10,
       "status_counts": {
         "observed": 1,
         "early": 1,
@@ -2895,7 +2901,7 @@
     {
       "source": "mit-risk-repository",
       "claims": 7,
-      "matched_cases": 421,
+      "matched_cases": 424,
       "matched_pct": 87,
       "status_counts": {
         "observed": 4,
@@ -2913,9 +2919,9 @@
     "none": 4,
     "outside": 7
   },
-  "matched_cases": 422,
-  "total_cases": 484,
-  "warning_matched_cases": 380,
+  "matched_cases": 425,
+  "total_cases": 487,
+  "warning_matched_cases": 383,
   "unmatched_pct": 21,
   "unmatched_by_category": [
     {
@@ -2956,7 +2962,7 @@
     {
       "category": "Deepfake fraud",
       "unmatched": 0,
-      "total": 99
+      "total": 100
     },
     {
       "category": "AI-assisted malware",
@@ -2966,7 +2972,7 @@
     {
       "category": "AI supply chain",
       "unmatched": 0,
-      "total": 50
+      "total": 52
     },
     {
       "category": "Chatbot harm",

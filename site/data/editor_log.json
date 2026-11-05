@@ -574,5 +574,69 @@
     "reason": "Same CrowdStrike ARTEX campaign against South Korean financial organizations (post dated 7 Oct 2026) as the known case artex-ai-driven-korea-finance.",
     "duplicate_of": "artex-ai-driven-korea-finance",
     "at": "2026-11-04T23:35:37Z"
+  },
+  {
+    "id": "trojan-claude-code-extension-ssh",
+    "title": "Trojanized Claude Code VS Code extension installs persistent SSH backdoor",
+    "decision": "approve",
+    "reason": "Confirmed by The Hacker News, Help Net Security and Cursor's own notice, though the compromised build was distributed via the Cursor Marketplace (up to 5,000 users, ~11 hours on Oct 29), not Open VSX as the draft says.",
+    "duplicate_of": null,
+    "at": "2026-11-05T00:05:39Z"
+  },
+  {
+    "id": "rogue-codex-claude-code-relays",
+    "title": "Unauthorized Codex and Claude Code relays disable sandboxing at 12 organizations",
+    "decision": "approve",
+    "reason": "Symantec's original threat-intelligence report (29 Oct 2026) confirms a grey-market relay that installs genuine Codex and Claude Code CLIs with sandboxing disabled, affecting a dozen organizations.",
+    "duplicate_of": null,
+    "at": "2026-11-05T00:05:39Z"
+  },
+  {
+    "id": "honduras-ai-girlfriend-romance-scam",
+    "title": "Honduran man reports romance scam by AI-created 'girlfriend', loses L15,000",
+    "decision": "wait",
+    "reason": "Only an unverified self-reported complaint in local media (Tunota); readers doubt it because the man is a content creator, and no investigation or identification of the profile operator has been reported.",
+    "duplicate_of": null,
+    "at": "2026-11-05T00:05:39Z"
+  },
+  {
+    "id": "ru-mvd-celebrity-ai-fake-shops",
+    "title": "Russian MVD exposes scheme using AI celebrity images to deceive online buyers",
+    "decision": "approve",
+    "reason": "Official MVD cybercrime directorate warning, widely reported by RIA, Izvestia and RAPSI on 27 Oct 2026, though it is a hedged advisory ('may use') rather than a described incident, and the draft's date and 'exposes' wording are wrong.",
+    "duplicate_of": null,
+    "at": "2026-11-05T00:05:39Z"
+  },
+  {
+    "id": "litellm-mcp-auth-bypass-kev",
+    "title": "LiteLLM MCP endpoint authentication bypass CVE-2026-59822 actively exploited",
+    "decision": "reject",
+    "reason": "CISA added CVE-2026-59822 to KEV on 2026-09-02, so this is the same event as the known case, with the wrong date.",
+    "duplicate_of": "litellm-cve-2026-59822-kev",
+    "at": "2026-11-05T00:05:39Z"
+  },
+  {
+    "id": "mlflow-ssrf-kev",
+    "title": "MLflow SSRF CVE-2026-64849 actively exploited",
+    "decision": "reject",
+    "reason": "The same CVE-2026-64849 KEV listing is already covered by known cases mlflow-cve-2026-64849-kev and mlflow-ssrf-cve-2026-64849.",
+    "duplicate_of": "mlflow-cve-2026-64849-kev",
+    "at": "2026-11-05T00:05:39Z"
+  },
+  {
+    "id": "ray-code-injection-kev",
+    "title": "Ray code injection CVE-2025-62593 actively exploited",
+    "decision": "reject",
+    "reason": "The same CVE-2025-62593 KEV listing is already covered by known cases ray-cve-2025-62593-rondodox-kev and ray-code-injection-cve-2025-62593.",
+    "duplicate_of": "ray-cve-2025-62593-rondodox-kev",
+    "at": "2026-11-05T00:05:39Z"
+  },
+  {
+    "id": "langflow-cve-2026-0770-kev",
+    "title": "Langflow CVE-2026-0770 remote code execution actively exploited",
+    "decision": "reject",
+    "reason": "CISA added CVE-2026-0770 to KEV on 2026-07-21, and it is the root-RCE entry in the known Langflow KEV wave case.",
+    "duplicate_of": "langflow-summer-2026-kev-wave",
+    "at": "2026-11-05T00:05:39Z"
   }
 ]

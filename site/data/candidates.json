@@ -5781,54 +5781,6 @@
     "updated_at": "2026-10-30T08:05:45Z"
   },
   {
-    "id": "trojan-claude-code-extension-ssh",
-    "date": "2026-10-30",
-    "title": "Trojanized Claude Code VS Code extension installs persistent SSH backdoor",
-    "category": "AI supply chain",
-    "direction": "on-ai",
-    "severity": "high",
-    "country": "GL",
-    "region": "Global",
-    "target": "Developers using the Claude Code VS Code extension",
-    "loss_usd": null,
-    "summary": "Researchers found a trojanized anthropic.claude-code 2.1.313 on Open VSX with 66 added lines of JavaScript that give attackers persistent SSH access to developer machines.",
-    "actor": "Unknown",
-    "actor_type": "unknown",
-    "sector": "Technology & AI vendors",
-    "attribution": "Unknown; the summary does not name an actor.",
-    "motive": "Unknown; likely remote access to developer systems.",
-    "vector": "Trojanized extension package on the Open VSX registry with a malicious loader added to the legitimate code.",
-    "root_cause": "A tampered extension was distributed through an open extension registry; how it was published is not stated.",
-    "impact": "Persistent SSH access to developer systems that install the package; number of victims is not stated.",
-    "response": "Researchers analysed the artifact; no takedown or vendor response is stated.",
-    "status": "under investigation",
-    "cve": null,
-    "young_people": false,
-    "setting": null,
-    "age_group": null,
-    "confidence": 0.6,
-    "source": "GBHackers",
-    "url": "https://gbhackers.com/malicious-claude-code-vs-code-extension",
-    "sources": [
-      {
-        "name": "GBHackers",
-        "url": "https://gbhackers.com/malicious-claude-code-vs-code-extension"
-      }
-    ],
-    "timeline": [
-      {
-        "date": "2026-10-30",
-        "event": "Reported by GBHackers"
-      }
-    ],
-    "verified": false,
-    "drafted_at": "2026-10-30T08:34:01Z",
-    "wire_id": "86fe7fd71994",
-    "first_seen": "2026-10-30T08:34:01Z",
-    "first_published": "2026-10-30T08:07:53Z",
-    "updated_at": "2026-10-30T08:34:01Z"
-  },
-  {
     "id": "nk-hackers-ai-phishing-south-korea",
     "date": "2026-10-30",
     "title": "North Korean hackers use AI to mass-produce phishing documents targeting South Korea",
@@ -6021,54 +5973,6 @@
     "updated_at": "2026-10-30T14:35:44Z"
   },
   {
-    "id": "rogue-codex-claude-code-relays",
-    "date": "2026-10-30",
-    "title": "Unauthorized Codex and Claude Code relays disable sandboxing at 12 organizations",
-    "category": "AI supply chain",
-    "direction": "on-ai",
-    "severity": "medium",
-    "country": "CN",
-    "region": "Asia-Pacific",
-    "target": "Users of Codex and Claude Code CLIs, mostly in mainland China",
-    "loss_usd": null,
-    "summary": "Symantec says an unauthorized relay service installs genuine OpenAI Codex and Anthropic Claude Code CLIs, then rewrites their settings to turn off sandboxing. It has affected 12 organizations since early 2026.",
-    "actor": "Unknown",
-    "actor_type": "unknown",
-    "sector": "Multiple / cross-sector",
-    "attribution": "Found by Symantec's Threat Hunter Team; the operator of the relay service is not identified in the summary.",
-    "motive": "Unknown",
-    "vector": "Unauthorized relay service that installs genuine AI coding CLIs and rewrites their configuration to disable sandbox protections.",
-    "root_cause": "Users install AI coding agents through an untrusted relay that silently weakens the tools' built-in security settings.",
-    "impact": "At least 12 organizations, mostly in mainland China, have had coding-agent sandboxing disabled since early 2026. Data loss is not stated.",
-    "response": "Symantec's Threat Hunter Team disclosed the findings. No other response is described.",
-    "status": "ongoing",
-    "cve": null,
-    "young_people": false,
-    "setting": null,
-    "age_group": null,
-    "confidence": 0.6,
-    "source": "GBHackers",
-    "url": "https://gbhackers.com/codex-claude-code-relays",
-    "sources": [
-      {
-        "name": "GBHackers",
-        "url": "https://gbhackers.com/codex-claude-code-relays"
-      }
-    ],
-    "timeline": [
-      {
-        "date": "2026-10-30",
-        "event": "Reported by GBHackers"
-      }
-    ],
-    "verified": false,
-    "drafted_at": "2026-10-30T16:05:40Z",
-    "wire_id": "60d4c6d23266",
-    "first_seen": "2026-10-30T16:05:40Z",
-    "first_published": "2026-10-30T15:23:20Z",
-    "updated_at": "2026-10-30T16:05:40Z"
-  },
-  {
     "id": "crim-ai-services-extortion-exposed",
     "date": "2026-10-30",
     "title": "Criminal spends $7K+ on AI services for extortion attacks, leaves evidence exposed",
@@ -6210,7 +6114,8 @@
     "wire_id": "90a392d16962",
     "first_seen": "2026-10-30T21:05:38Z",
     "first_published": "2026-10-30T20:11:43Z",
-    "updated_at": "2026-10-30T21:05:38Z"
+    "updated_at": "2026-10-30T21:05:38Z",
+    "editor_checked_at": "2026-11-05T00:05:39Z"
   },
   {
     "id": "dprk-ai-fake-resumes-309-us-firms",
@@ -6594,54 +6499,6 @@
     "wire_id": "cbb8e2223974",
     "first_seen": "2026-10-27T18:05:43Z",
     "first_published": "2026-10-27T17:45:27Z",
-    "updated_at": "2026-10-31T11:05:41Z"
-  },
-  {
-    "id": "ru-mvd-celebrity-ai-fake-shops",
-    "date": "2026-10-31",
-    "title": "Russian MVD exposes scheme using AI celebrity images to deceive online buyers",
-    "category": "Deepfake fraud",
-    "direction": "with-ai",
-    "severity": "medium",
-    "country": "RU",
-    "region": "Europe",
-    "target": "Online shoppers",
-    "loss_usd": null,
-    "summary": "Russia's Interior Ministry says fraudsters used AI-generated images and videos of celebrities to advertise fake stores and deceive buyers.",
-    "actor": "Unknown",
-    "actor_type": "criminal",
-    "sector": "Individuals & consumers",
-    "attribution": "Russian Interior Ministry (MVD) as reported by regional media; perpetrators not named.",
-    "motive": "Financial gain",
-    "vector": "AI-generated celebrity likenesses in adverts for fake online stores",
-    "root_cause": "Easy creation of convincing celebrity deepfakes and trust in endorsements by famous people.",
-    "impact": "Buyers deceived into paying fake stores; number of victims and losses not stated.",
-    "response": "MVD publicised the scheme; further action not stated.",
-    "status": "ongoing",
-    "cve": null,
-    "young_people": false,
-    "setting": null,
-    "age_group": null,
-    "confidence": 0.6,
-    "source": "Про Город Дзержинск",
-    "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE93QW95c1dHWndDczBCTldDY2Fhd3NNUGR4YkFCNTVYOWVURkpZVWpDNkRkV3Z5SnpzcEhEd1VFR0NXVHc?oc=5",
-    "sources": [
-      {
-        "name": "Про Город Дзержинск",
-        "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE93QW95c1dHWndDczBCTldDY2Fhd3NNUGR4YkFCNTVYOWVURkpZVWpDNkRkV3Z5SnpzcEhEd1VFR0NXVHc?oc=5"
-      }
-    ],
-    "timeline": [
-      {
-        "date": "2026-10-31",
-        "event": "Reported by Про Город Дзержинск"
-      }
-    ],
-    "verified": false,
-    "drafted_at": "2026-10-31T11:05:41Z",
-    "wire_id": "2a9dac2cd90a",
-    "first_seen": "2026-10-27T14:06:58Z",
-    "first_published": "2026-10-27T12:20:12Z",
     "updated_at": "2026-10-31T11:05:41Z"
   },
   {
@@ -8038,198 +7895,6 @@
     "updated_at": "2026-11-03T00:05:41Z"
   },
   {
-    "id": "litellm-mcp-auth-bypass-kev",
-    "date": "2026-11-03",
-    "title": "LiteLLM MCP endpoint authentication bypass CVE-2026-59822 actively exploited",
-    "category": "AI supply chain",
-    "direction": "on-ai",
-    "severity": "high",
-    "country": "GL",
-    "region": "Global",
-    "target": "BerriAI LiteLLM deployments",
-    "loss_usd": null,
-    "summary": "CISA lists an improper authentication flaw in LiteLLM's MCP Streamable HTTP endpoint as actively exploited; an unauthenticated attacker can open an authenticated MCP session with an arbitrary Bearer token.",
-    "actor": "Unknown",
-    "actor_type": "unknown",
-    "sector": "Technology & AI vendors",
-    "attribution": "No attribution given in the CISA KEV entry.",
-    "motive": "Unknown",
-    "vector": "Arbitrary Bearer token sent to the LiteLLM MCP Streamable HTTP endpoint.",
-    "root_cause": "Improper authentication on the MCP Streamable HTTP endpoint.",
-    "impact": "Unknown; exploitation in the wild per CISA KEV, victims not named.",
-    "response": "CISA added the flaw to its Known Exploited Vulnerabilities catalog.",
-    "status": "ongoing",
-    "cve": "CVE-2026-59822",
-    "young_people": false,
-    "setting": null,
-    "age_group": null,
-    "confidence": 0.6,
-    "source": "CISA KEV",
-    "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-59822",
-    "sources": [
-      {
-        "name": "CISA KEV",
-        "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-59822"
-      }
-    ],
-    "timeline": [
-      {
-        "date": "2026-11-03",
-        "event": "Reported by CISA KEV"
-      }
-    ],
-    "verified": false,
-    "drafted_at": "2026-11-03T00:05:41Z",
-    "wire_id": "f8f038b10536",
-    "first_seen": "2026-11-03T00:05:41Z",
-    "first_published": "2026-09-02T00:00:00Z",
-    "updated_at": "2026-11-03T00:05:41Z"
-  },
-  {
-    "id": "mlflow-ssrf-kev",
-    "date": "2026-11-03",
-    "title": "MLflow SSRF CVE-2026-64849 actively exploited",
-    "category": "AI supply chain",
-    "direction": "on-ai",
-    "severity": "high",
-    "country": "GL",
-    "region": "Global",
-    "target": "MLflow deployments",
-    "loss_usd": null,
-    "summary": "CISA lists an MLflow server-side request forgery flaw as actively exploited; attackers can reach internal or cloud metadata services and receive the response status and body.",
-    "actor": "Unknown",
-    "actor_type": "unknown",
-    "sector": "Technology & AI vendors",
-    "attribution": "No attribution given in the CISA KEV entry.",
-    "motive": "Unknown",
-    "vector": "Crafted requests to MLflow that reach internal or cloud metadata services.",
-    "root_cause": "Server-side request forgery in MLflow.",
-    "impact": "Unknown; exploitation in the wild per CISA KEV, victims not named.",
-    "response": "CISA added the flaw to its Known Exploited Vulnerabilities catalog.",
-    "status": "ongoing",
-    "cve": "CVE-2026-64849",
-    "young_people": false,
-    "setting": null,
-    "age_group": null,
-    "confidence": 0.6,
-    "source": "CISA KEV",
-    "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-64849",
-    "sources": [
-      {
-        "name": "CISA KEV",
-        "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-64849"
-      }
-    ],
-    "timeline": [
-      {
-        "date": "2026-11-03",
-        "event": "Reported by CISA KEV"
-      }
-    ],
-    "verified": false,
-    "drafted_at": "2026-11-03T00:05:41Z",
-    "wire_id": "5e4840c8af3f",
-    "first_seen": "2026-11-03T00:05:41Z",
-    "first_published": "2026-08-19T00:00:00Z",
-    "updated_at": "2026-11-03T00:05:41Z"
-  },
-  {
-    "id": "ray-code-injection-kev",
-    "date": "2026-11-03",
-    "title": "Ray code injection CVE-2025-62593 actively exploited",
-    "category": "AI supply chain",
-    "direction": "on-ai",
-    "severity": "high",
-    "country": "GL",
-    "region": "Global",
-    "target": "Ray-Project Ray users and developers",
-    "loss_usd": null,
-    "summary": "CISA lists a Ray code injection flaw allowing remote code execution as actively exploited; developers using Ray as a development tool may be exposed via Firefox and Safari.",
-    "actor": "Unknown",
-    "actor_type": "unknown",
-    "sector": "Technology & AI vendors",
-    "attribution": "No attribution given in the CISA KEV entry.",
-    "motive": "Unknown",
-    "vector": "Code injection exploitable through Firefox and Safari against developers running Ray.",
-    "root_cause": "Code injection vulnerability in Ray.",
-    "impact": "Unknown; exploitation in the wild per CISA KEV, victims not named.",
-    "response": "CISA added the flaw to its Known Exploited Vulnerabilities catalog.",
-    "status": "ongoing",
-    "cve": "CVE-2025-62593",
-    "young_people": false,
-    "setting": null,
-    "age_group": null,
-    "confidence": 0.6,
-    "source": "CISA KEV",
-    "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2025-62593",
-    "sources": [
-      {
-        "name": "CISA KEV",
-        "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2025-62593"
-      }
-    ],
-    "timeline": [
-      {
-        "date": "2026-11-03",
-        "event": "Reported by CISA KEV"
-      }
-    ],
-    "verified": false,
-    "drafted_at": "2026-11-03T00:05:41Z",
-    "wire_id": "4acb74823e15",
-    "first_seen": "2026-11-03T00:05:41Z",
-    "first_published": "2026-08-17T00:00:00Z",
-    "updated_at": "2026-11-03T00:05:41Z"
-  },
-  {
-    "id": "langflow-cve-2026-0770-kev",
-    "date": "2026-11-03",
-    "title": "Langflow CVE-2026-0770 remote code execution actively exploited",
-    "category": "AI supply chain",
-    "direction": "on-ai",
-    "severity": "high",
-    "country": "GL",
-    "region": "Global",
-    "target": "Langflow installations",
-    "loss_usd": null,
-    "summary": "CISA lists a Langflow flaw (inclusion of functionality from an untrusted control sphere) as actively exploited; remote attackers can execute arbitrary code on affected installations.",
-    "actor": "Unknown",
-    "actor_type": "unknown",
-    "sector": "Technology & AI vendors",
-    "attribution": "No attribution given in the CISA KEV entry.",
-    "motive": "Unknown",
-    "vector": "Remote requests exploiting untrusted functionality inclusion in Langflow.",
-    "root_cause": "Inclusion of functionality from an untrusted control sphere in Langflow.",
-    "impact": "Unknown; exploitation in the wild per CISA KEV, victims not named.",
-    "response": "CISA added the flaw to its Known Exploited Vulnerabilities catalog.",
-    "status": "ongoing",
-    "cve": "CVE-2026-0770",
-    "young_people": false,
-    "setting": null,
-    "age_group": null,
-    "confidence": 0.6,
-    "source": "CISA KEV",
-    "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-0770",
-    "sources": [
-      {
-        "name": "CISA KEV",
-        "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-0770"
-      }
-    ],
-    "timeline": [
-      {
-        "date": "2026-11-03",
-        "event": "Reported by CISA KEV"
-      }
-    ],
-    "verified": false,
-    "drafted_at": "2026-11-03T00:05:41Z",
-    "wire_id": "8503ec7a1882",
-    "first_seen": "2026-11-03T00:05:41Z",
-    "first_published": "2026-07-21T00:00:00Z",
-    "updated_at": "2026-11-03T00:05:41Z"
-  },
-  {
     "id": "langflow-cve-2026-55255-kev",
     "date": "2026-11-03",
     "title": "Langflow authorization bypass CVE-2026-55255 actively exploited",
@@ -9380,5 +9045,101 @@
     "first_seen": "2026-11-04T18:52:03Z",
     "first_published": "2026-11-04T18:34:36Z",
     "updated_at": "2026-11-04T18:52:03Z"
+  },
+  {
+    "id": "mg-core-bed-regulation-deaths",
+    "date": "2026-11-05",
+    "title": "Minas Gerais bed-regulation platform Core/MG linked to patient deaths awaiting ICU",
+    "category": "AI misfire",
+    "direction": "ai-harm",
+    "severity": "high",
+    "country": "BR",
+    "region": "Latin America",
+    "target": "Patients awaiting ICU beds in Minas Gerais",
+    "loss_usd": null,
+    "summary": "A public civil action challenges the Core/MG platform that replaced SUSFácil. A mother of twins reportedly died while seeking a neurological ICU bed.",
+    "actor": "Minas Gerais state health system (Core/MG platform)",
+    "actor_type": "accident",
+    "sector": "Healthcare",
+    "attribution": "Reported by Brazilian media via the AI Incident Database; a civil action has been filed. The text does not confirm the system uses AI.",
+    "motive": "Unknown",
+    "vector": "Replacement of the SUSFácil bed-regulation system with the Core/MG platform for allocating hospital beds.",
+    "root_cause": "Unknown. Families and the plaintiff question the new bed-allocation platform; the summary does not say whether AI is involved.",
+    "impact": "At least one patient death is linked to delays in obtaining an ICU bed. A second case, a 32-year-old psychologist, is reported as waiting five days for a bed.",
+    "response": "A civil action was filed against the platform. The state health secretariat said the second patient was regulated immediately.",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.35,
+    "source": "AI Incident Database",
+    "url": "https://tribunademinas.com.br/noticias/cidade/10-06-2026/pjf-acao-central-estadual-regulacao-leitos-saude.html",
+    "sources": [
+      {
+        "name": "AI Incident Database",
+        "url": "https://tribunademinas.com.br/noticias/cidade/10-06-2026/pjf-acao-central-estadual-regulacao-leitos-saude.html"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-11-05",
+        "event": "Reported by AI Incident Database"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-11-05T00:05:39Z",
+    "wire_id": "2e249ea12005",
+    "first_seen": "2026-11-05T00:05:39Z",
+    "first_published": "2026-10-19T00:00:00Z",
+    "updated_at": "2026-11-05T00:05:39Z"
+  },
+  {
+    "id": "touba-ai-blackmail-arrest",
+    "date": "2026-11-05",
+    "title": "Touba police arrest suspect for cyber-fraud, blackmail and fraudulent AI use",
+    "category": "Deepfake abuse",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "SN",
+    "region": "Middle East & Africa",
+    "target": "Online victims in Senegal",
+    "loss_usd": null,
+    "summary": "Ndamatou/Touba police dismantled a digital criminal operation that collected and spread illicit pornographic content and carried out blackmail and fraud, including fraudulent use of AI.",
+    "actor": "Arrested individual (name not given)",
+    "actor_type": "criminal",
+    "sector": "Individuals & consumers",
+    "attribution": "Police statement reported by Senegalese media; one individual arrested.",
+    "motive": "Financial gain through fraud and blackmail.",
+    "vector": "Illicit collection and distribution of pornographic content, with AI used fraudulently. The exact method is not stated in the summary.",
+    "root_cause": "Unknown. The summary does not say how the AI was used or how victims were reached.",
+    "impact": "Victims of blackmail and fraud. The number of victims and the amounts lost are not stated.",
+    "response": "Ndamatou/Touba police arrested one person and dismantled the operation.",
+    "status": "contained",
+    "cve": null,
+    "young_people": false,
+    "setting": "online",
+    "age_group": null,
+    "confidence": 0.45,
+    "source": "AI Incident Database",
+    "url": "https://www.rts.sn/actualite/detail/a-la-une/touba-un-individu-arrete-pour-cyber-escroquerie-chantage-et-usage-frauduleux-de-lia",
+    "sources": [
+      {
+        "name": "AI Incident Database",
+        "url": "https://www.rts.sn/actualite/detail/a-la-une/touba-un-individu-arrete-pour-cyber-escroquerie-chantage-et-usage-frauduleux-de-lia"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-11-05",
+        "event": "Reported by AI Incident Database"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-11-05T00:05:39Z",
+    "wire_id": "b9847c421b94",
+    "first_seen": "2026-11-05T00:05:39Z",
+    "first_published": "2026-10-18T00:00:00Z",
+    "updated_at": "2026-11-05T00:05:39Z"
   }
 ]
