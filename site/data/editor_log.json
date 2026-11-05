@@ -1046,5 +1046,69 @@
     "reason": "The source story was retracted: the viral Nafisa Fai flag video was not shown to be a deepfake, since newly obtained images showed the flag really was upside down, so there is no AI incident.",
     "duplicate_of": null,
     "at": "2026-11-05T03:35:38Z"
+  },
+  {
+    "id": "anthropic-models-hacked-3-orgs-testing",
+    "title": "Anthropic says its AI models hacked 3 organizations during testing",
+    "decision": "reject",
+    "reason": "The event is real (Anthropic blog post of 2026-07-30, covered by TechCrunch, Fortune and the Washington Post), but it is already known as anthropic-eval-claude-pypi-malware and the draft's 2026-10-21 date is wrong.",
+    "duplicate_of": "anthropic-eval-claude-pypi-malware",
+    "at": "2026-11-05T04:05:40Z"
+  },
+  {
+    "id": "china-ai-security-tool-japan-80-firms",
+    "title": "Hackers use Chinese-origin open-source AI security tool against ~80 Japanese firms",
+    "decision": "approve",
+    "reason": "GMO Cybersecurity by Ierae said it confirmed the China-developed AI pentest tool ARTEX was used in attacks on about 80 Japanese firms, reported by AFP/Taipei Times, Quartz/WSJ and Silicon UK, and it is not among the known ARTEX cases (Korea finance, ConnectWise).",
+    "duplicate_of": null,
+    "at": "2026-11-05T04:05:40Z"
+  },
+  {
+    "id": "790-github-repos-hijacked-ai-api-keys",
+    "title": "Hackers hijack 790 GitHub repositories to steal cloud credentials and AI API keys",
+    "decision": "reject",
+    "reason": "GhostAction is a real but generic GitHub Actions credential-theft campaign in which AI API keys are only a few of many secret types harvested, so it is not an AI security incident as defined.",
+    "duplicate_of": null,
+    "at": "2026-11-05T04:05:40Z"
+  },
+  {
+    "id": "unit42-ai-assisted-cybercrime-actor",
+    "title": "Threat actor bypasses AI safety controls to plan credential theft, VoIP fraud, data theft",
+    "decision": "reject",
+    "reason": "Unit 42's report on this actor (BUGSTER, using Hermes agent and DeepSeek V4 against Indian universities) is the same event as the known case bugster-deepseek-v4-india-universities.",
+    "duplicate_of": "bugster-deepseek-v4-india-universities",
+    "at": "2026-11-05T04:05:40Z"
+  },
+  {
+    "id": "ai-fake-passports-canadian-bank-scam",
+    "title": "Seven accused of using AI-made fake passports to open accounts and scam Canadian banks",
+    "decision": "approve",
+    "reason": "Pakistan's NCCIA announced the case at a 19 Oct 2026 Lahore press conference and several outlets confirm it; it is not a known case, but the draft date, status and summary need correcting.",
+    "duplicate_of": null,
+    "at": "2026-11-05T04:05:40Z"
+  },
+  {
+    "id": "nl-ai-bank-fraud-380k-arrests",
+    "title": "Two arrested in AI-powered bank fraud that cost victims €380,000",
+    "decision": "approve",
+    "reason": "NL Times reports the Rotterdam police arrests, and Security Affairs and SC Media independently confirm them; it is not a known case.",
+    "duplicate_of": null,
+    "at": "2026-11-05T04:05:40Z"
+  },
+  {
+    "id": "goodwin-complaint-patrick-ai-ads",
+    "title": "Texas candidate files police complaint over rival's alleged AI deepfake campaign ads",
+    "decision": "approve",
+    "reason": "Texas Tribune, KUT and Houston Public Media confirm Goodwin's police complaint over AI-generated ads, but the draft date is wrong and no investigation has been reported.",
+    "duplicate_of": null,
+    "at": "2026-11-05T04:05:40Z"
+  },
+  {
+    "id": "kenya-sha-ai-means-testing",
+    "title": "Kenya's AI means-testing for health insurance reportedly loads costs onto the poorest",
+    "decision": "approve",
+    "reason": "A joint Africa Uncensored, Lighthouse Reports and Guardian investigation, covered by Digital Trends, found the SHA's AI means-testing overcharged the poorest; it is distinct from the known SHA claim-rejection case, and the draft date is wrong (it was published in May 2026).",
+    "duplicate_of": null,
+    "at": "2026-11-05T04:05:40Z"
   }
 ]

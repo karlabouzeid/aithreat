@@ -8945,5 +8945,85 @@
     "timeline": [
       "Informado por lefilia.fr"
     ]
+  },
+  {
+    "title": "Una investigación sostiene que la evaluación de recursos con IA que Kenia aplica al seguro de salud cobra de más de forma sistemática a los más pobres y de menos a los más ricos",
+    "summary": "Una investigación conjunta de Africa Uncensored, Lighthouse Reports y The Guardian, publicada en mayo de 2026, informa de que la Autoridad de Salud Social de Kenia (Social Health Authority, SHA) utiliza un algoritmo de aprendizaje automático de evaluación de recursos mediante variables indirectas (proxy means-testing) para estimar los ingresos de los hogares y fijar las primas del seguro. La investigación afirma que el sistema sobrestimó los ingresos de los hogares pobres y subestimó los de los más ricos. También afirma que un informe de consultores había advertido de que el diseño era inequitativo antes de su puesta en marcha en octubre de 2024. La SHA defiende la herramienta.",
+    "target": "Solicitantes kenianos al Fondo de Seguro Social de Salud (Social Health Insurance Fund)",
+    "actor": "La Autoridad de Salud Social de Kenia (SHA) y el sistema gubernamental de evaluación de recursos",
+    "attribution": "Investigación de Africa Uncensored, Lighthouse Reports y The Guardian, según figura en la AI Incident Database.",
+    "motive": "Desconocido",
+    "vector": "Sistema de puntuación con IA que estima los recursos del hogar a partir de las respuestas de una encuesta realizada en visitas domiciliarias, como los materiales de las paredes.",
+    "root_cause": "Desconocida; el reportaje cuestiona el diseño de la evaluación de recursos con IA y la política que lo sustenta.",
+    "impact": "Presuntamente se asignaron a los kenianos más pobres costes desproporcionados de seguro de salud. El resumen no ofrece cifras exactas.",
+    "response": "Desconocida",
+    "id": "kenya-sha-ai-means-testing",
+    "timeline": [
+      "Informado por AI Incident Database"
+    ]
+  },
+  {
+    "title": "Una candidata de Texas presenta una denuncia policial por presuntos anuncios de campaña con deepfakes de IA de su rival",
+    "summary": "La candidata demócrata a vicegobernadora de Texas Vikki Goodwin presentó el 19 de septiembre de 2026 una denuncia policial ante la Oficina del Sheriff del condado de Travis. Alega que dos vídeos generados con IA en los que aparece, difundidos por la campaña del republicano Dan Patrick, actual titular del cargo, infringen una ley de Texas de 2019 contra los vídeos deepfake engañosos cercanos a una elección. Goodwin afirma que las palabras de los vídeos no eran suyas. La campaña de Patrick sostiene que los anuncios son parodias evidentes.",
+    "target": "Carrera por la vicegobernación de Texas",
+    "actor": "Campaña de Dan Patrick (según alega Vikki Goodwin; la campaña califica los anuncios de parodia)",
+    "attribution": "Alegado por Vikki Goodwin en una denuncia policial; la campaña de Patrick niega cualquier irregularidad y califica los anuncios de parodias.",
+    "motive": "Publicidad política de cara a las elecciones",
+    "vector": "Anuncios de campaña en vídeo generados con IA y difundidos por la propia campaña",
+    "root_cause": "Uso por parte de una campaña de vídeo generado con IA que, según sus oponentes, resulta engañoso conforme a una prohibición estatal aplicable cerca de las elecciones; su legalidad es objeto de disputa.",
+    "impact": "Disputa sobre anuncios políticos engañosos con IA en una carrera de alcance estatal. No se ha informado de ninguna resolución judicial.",
+    "response": "Goodwin presentó una denuncia policial; la campaña de Patrick afirma que los anuncios son parodia.",
+    "id": "goodwin-complaint-patrick-ai-ads",
+    "timeline": [
+      "Informado por AI Incident Database"
+    ]
+  },
+  {
+    "title": "La NCCIA de Pakistán afirma que tres personas fueron detenidas en Lahore por presuntos pasaportes falsos creados con IA para abrir cuentas en bancos canadienses; otros cuatro ciudadanos indios residentes en Canadá también están acusados",
+    "summary": "La Agencia Nacional de Investigación de Delitos Cibernéticos (National Cyber Crime Investigation Agency, NCCIA) de Pakistán informó el 19 de octubre de 2026 de que detuvo a tres hombres pakistaníes en Lahore. Alega que colaboraban con cuatro ciudadanos indios residentes en Canadá que elaboraban pasaportes y fotografías falsos generados con IA. Los documentos se habrían utilizado presuntamente para abrir cuentas a distancia en importantes bancos canadienses, y las tarjetas de crédito se enviaban a personas en Canadá. Las acusaciones no están probadas, no se ha facilitado ninguna cifra de pérdidas y no ha surgido información sobre la situación de los cuatro sospechosos en Canadá.",
+    "target": "Importantes bancos canadienses (controles de apertura de cuentas y KYC)",
+    "actor": "Tres ciudadanos pakistaníes (Subhan Butt, Gulraiz Butt, Muhammad Nauman) y cuatro ciudadanos indios residentes en Canadá, todos ellos presuntos autores",
+    "attribution": "Personas acusadas nombradas en un reportaje de Bhaskar English; no se dispone de más detalles de atribución.",
+    "motive": "Beneficio económico (presunto fraude bancario)",
+    "vector": "Pasaportes falsos generados con IA utilizados para superar controles de identidad y abrir cuentas bancarias",
+    "root_cause": "Desconocida; al parecer, la verificación de identidad de los bancos fue burlada mediante documentos de identidad falsificados con IA.",
+    "impact": "Presunto fraude a bancos canadienses; el titular no indica el importe de las pérdidas ni el número de cuentas.",
+    "response": "Siete personas acusadas; el titular no ofrece detalles sobre las detenciones ni los cargos.",
+    "id": "ai-fake-passports-canadian-bank-scam",
+    "timeline": [
+      "Informado por Bhaskar English"
+    ]
+  },
+  {
+    "title": "La herramienta de pentesting con IA ARTEX, desarrollada en China, vinculada a ataques contra unas 80 empresas japonesas",
+    "summary": "GMO Cybersecurity by Ierae afirmó haber confirmado que ARTEX, una herramienta de pruebas de penetración con IA desarrollada en China y publicada como código abierto, se utilizó en una oleada de ataques contra unas 80 empresas japonesas. Varias empresas notificaron accesos no autorizados o filtraciones de datos. Según se informa, la herramienta también estuvo implicada en ataques anteriores contra instituciones financieras surcoreanas. El Gobierno de Japón está dialogando con las empresas afectadas y estudia una posible implicación de actores extranjeros; los atacantes no han sido identificados.",
+    "target": "Unas 80 empresas japonesas de diversos sectores",
+    "actor": "Desconocido (se utilizó la herramienta ARTEX; los operadores no han sido identificados)",
+    "attribution": "Desconocida; la herramienta es de origen chino, pero el titular no atribuye el ataque a ningún actor concreto.",
+    "motive": "Desconocido",
+    "vector": "Herramienta de seguridad con IA de código abierto y origen chino reutilizada para atacar a los objetivos enumerados.",
+    "root_cause": "Herramientas de seguridad con IA de código abierto y de doble uso, aprovechadas de forma abusiva por los atacantes.",
+    "impact": "Unas 80 empresas japonesas figuraban como objetivos; no se indica el alcance de la vulneración.",
+    "response": "Desconocida",
+    "id": "china-ai-security-tool-japan-80-firms",
+    "timeline": [
+      "Informado por 茉莉花新闻网"
+    ]
+  },
+  {
+    "title": "Dos detenidos por un fraude bancario con IA que costó a las víctimas 380.000 EUR",
+    "summary": "La policía de Róterdam detuvo a dos hombres, de 23 y 25 años, acusados de una nueva forma de fraude al servicio de atención al cliente bancario. Las víctimas recibían llamadas con grabaciones generadas por IA en distintas voces y después eran conectadas con un falso empleado del banco. Se les decía que descargaran una aplicación y escanearan sus tarjetas bancarias, lo que presuntamente permitía a cómplices copiar las tarjetas de forma remota y retirar efectivo. Unas 170 víctimas habrían perdido alrededor de 380.000 EUR en tres semanas, aproximadamente 423.000 USD según Daily Hodl.",
+    "target": "Clientes de bancos neerlandeses (170 víctimas)",
+    "actor": "Dos hombres detenidos, de 23 años (Vaassen) y 25 años (Ede); no se facilitan sus nombres",
+    "attribution": "La policía detuvo a dos sospechosos, según NL Times; la red en su conjunto es desconocida.",
+    "motive": "Beneficio económico",
+    "vector": "Desconocido; descrito únicamente como fraude bancario con IA",
+    "root_cause": "Desconocida",
+    "impact": "Las víctimas perdieron 380.000 EUR en total, según NL Times.",
+    "response": "La policía detuvo a dos sospechosos.",
+    "id": "nl-ai-bank-fraud-380k-arrests",
+    "timeline": [
+      "Publicado por NL Times"
+    ]
   }
 ]

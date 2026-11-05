@@ -16958,6 +16958,61 @@
     "sector": "Technology & AI vendors"
   },
   {
+    "id": "kenya-sha-ai-means-testing",
+    "date": "2026-05-04",
+    "title": "Investigation alleges Kenya's AI means-testing for health insurance systematically overcharges the poorest and undercharges the wealthy",
+    "category": "AI misfire",
+    "direction": "ai-harm",
+    "severity": "medium",
+    "country": "KE",
+    "region": "Middle East & Africa",
+    "target": "Kenyan applicants to the Social Health Insurance Fund",
+    "loss_usd": null,
+    "summary": "A joint investigation by Africa Uncensored, Lighthouse Reports and The Guardian, published in May 2026, reports that Kenya's Social Health Authority uses a machine-learning proxy means-testing algorithm to estimate household income and set insurance premiums. The investigation says the system overestimated the incomes of poor households and underestimated those of richer ones. It also says a consultants' report had warned the design was inequitable before the October 2024 rollout. The SHA defends the tool.",
+    "actor": "Kenya's Social Health Authority (SHA) and government means-testing system",
+    "actor_type": "unknown",
+    "sector": "Individuals & consumers",
+    "attribution": "Investigation by Africa Uncensored, Lighthouse Reports and The Guardian, as listed by the AI Incident Database.",
+    "motive": "Unknown",
+    "vector": "AI scoring system estimating household means from home-visit survey answers, such as wall materials.",
+    "root_cause": "Unknown; the reporting questions the AI means-testing design and the politics behind it.",
+    "impact": "Poorer Kenyans were allegedly assigned disproportionate health insurance costs. Exact numbers are not given in the summary.",
+    "response": "Unknown",
+    "status": "reported by investigation; SHA defends the means-testing instrument",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "source": "AI Incident Database",
+    "url": "https://www.theelephant.info/investigations/2026/05/06/hiding-behind-ai-how-sha-was-used-to-load-health-system-costs-onto-poorest",
+    "sources": [
+      {
+        "name": "AI Incident Database",
+        "url": "https://www.theelephant.info/investigations/2026/05/06/hiding-behind-ai-how-sha-was-used-to-load-health-system-costs-onto-poorest"
+      },
+      {
+        "name": "Africa Uncensored",
+        "url": "https://africauncensored.online/blog/2026/05/04/uncovering_shas_ai/"
+      },
+      {
+        "name": "Digital Trends",
+        "url": "https://www.digitaltrends.com/cool-tech/ai-fueled-health-policies-are-depriving-the-needy-in-one-of-the-worlds-poorest-countries/"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-21",
+        "event": "Reported by AI Incident Database"
+      }
+    ],
+    "drafted_at": "2026-10-21T20:05:42Z",
+    "first_seen": "2026-10-21T20:05:42Z",
+    "updated_at": "2026-11-05T04:05:40Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-05T04:05:40Z"
+  },
+  {
     "id": "ghana-mahama-deepfake-arrests",
     "date": "2026-05-07",
     "title": "Ghana police arrest 16 over AI deepfake videos of President Mahama used to solicit money",
@@ -21706,6 +21761,61 @@
     "verified_at": "2026-11-05T03:05:38Z"
   },
   {
+    "id": "goodwin-complaint-patrick-ai-ads",
+    "date": "2026-09-19",
+    "title": "Texas candidate files police complaint over rival's alleged AI deepfake campaign ads",
+    "category": "Deepfake abuse",
+    "direction": "with-ai",
+    "severity": "low",
+    "country": "US",
+    "region": "North America",
+    "target": "Texas lieutenant governor race",
+    "loss_usd": null,
+    "summary": "Texas Democratic lieutenant governor candidate Vikki Goodwin filed a police report on 19 September 2026 with the Travis County Sheriff's Office. She alleges that two AI-generated videos of her, released by Republican incumbent Dan Patrick's campaign, violate a 2019 Texas law against deceptive deepfake videos near an election. Goodwin says the words in the videos were not hers. Patrick's campaign says the ads are obvious parodies.",
+    "actor": "Dan Patrick campaign (alleged by Vikki Goodwin; the campaign calls the ads parody)",
+    "actor_type": "unknown",
+    "sector": "Politics & elections",
+    "attribution": "Alleged by Vikki Goodwin in a police report; Patrick's campaign denies wrongdoing and calls the ads parodies.",
+    "motive": "Political advertising ahead of the election",
+    "vector": "AI-generated campaign video ads released by the campaign",
+    "root_cause": "Campaign use of AI-generated video that opponents say is deceptive under a state ban near elections; legality disputed.",
+    "impact": "Dispute over deceptive AI political ads in a statewide race. No court ruling reported.",
+    "response": "Goodwin filed a police report; Patrick's campaign says the ads are parody.",
+    "status": "police complaint filed with the Travis County Sheriff's Office; no finding of a violation reported",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "source": "AI Incident Database",
+    "url": "https://www.texastribune.org/2026/09/21/texas-goodwin-patrick-ad-police-complaint",
+    "sources": [
+      {
+        "name": "AI Incident Database",
+        "url": "https://www.texastribune.org/2026/09/21/texas-goodwin-patrick-ad-police-complaint"
+      },
+      {
+        "name": "Texas Tribune",
+        "url": "https://www.texastribune.org/2026/09/21/texas-goodwin-patrick-ad-police-complaint/"
+      },
+      {
+        "name": "KUT",
+        "url": "https://www.kut.org/politics/2026-09-21/vikki-goodwin-dan-patrick-ai-deepfake-campaign-ads-texas-lieutenant-governor-race"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-21",
+        "event": "Reported by AI Incident Database"
+      }
+    ],
+    "drafted_at": "2026-10-21T20:05:42Z",
+    "first_seen": "2026-10-21T20:05:42Z",
+    "updated_at": "2026-11-05T04:05:40Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-05T04:05:40Z"
+  },
+  {
     "id": "openai-school-shooting-lawsuit-failure-w",
     "date": "2026-09-21",
     "title": "British Columbia sues OpenAI and Sam Altman, alleging ChatGPT account flagged internally was not reported to police before Tumbler Ridge school shooting",
@@ -24739,6 +24849,61 @@
     "verified_at": "2026-11-05T03:05:38Z"
   },
   {
+    "id": "ai-fake-passports-canadian-bank-scam",
+    "date": "2026-10-19",
+    "title": "Pakistan's NCCIA says three arrested in Lahore over alleged AI-made fake passports used to open accounts at Canadian banks, with four Indian nationals in Canada also accused",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "CA",
+    "region": "North America",
+    "target": "Major Canadian banks (account-opening and KYC checks)",
+    "loss_usd": null,
+    "summary": "Pakistan's National Cyber Crime Investigation Agency (NCCIA) said on 19 October 2026 that it arrested three Pakistani men in Lahore. It alleges they worked with four Indian nationals living in Canada who made AI-generated fake passports and photos. The documents were allegedly used to open accounts remotely at major Canadian banks, and credit cards were sent to individuals in Canada. The allegations are unproven, no loss figure has been given, and no information has emerged on the status of the four suspects in Canada.",
+    "actor": "Three Pakistani nationals (Subhan Butt, Gulraiz Butt, Muhammad Nauman) and four Indian nationals based in Canada, all alleged",
+    "actor_type": "criminal",
+    "sector": "Financial services",
+    "attribution": "Accused individuals named in a Bhaskar English report; no further attribution details available.",
+    "motive": "Financial gain (alleged bank fraud)",
+    "vector": "AI-generated fake passports used to pass identity checks and open bank accounts",
+    "root_cause": "Unknown; bank identity verification was apparently defeated by AI-forged identity documents.",
+    "impact": "Canadian banks allegedly defrauded; amount of loss and number of accounts not stated in the headline.",
+    "response": "Seven people accused; the headline does not give details of arrests or charges.",
+    "status": "three suspects arrested in Pakistan; allegations unproven; status of the four suspects in Canada not reported",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "source": "Bhaskar English",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPRW9vOVQzMWNnTUZMYmVpTGp2bThmZTFYYmphT3c0Y05wRDhMN2I5YXYwRkIxVk9KVUJVSUNOdm5MZ1VlMkJCYWt4N0pDc3B5RzBjTGxXN1IyejV6WGtacTlYUmdWMWQzVE5pckxRWTdyWHI1d3FCb2xTblZwdWpVbDM5NmdkSWd0X1JHUmxTN0hSa3M1U1laajY0aDJybUE2bk1uS0R30gGrAUFVX3lxTE5xQXlNWmVpYW4zbUk0aFJmS0lpQ2lRWUZ3NDV5VGt0YjNqRDk3dkl3eXZQci02NEFaVzhSTndQZmxMdzc2RHRUX3A2NDVTeFdRbnNDVnIwRmJtSDlnQzliNnNLZ0lVUlFocy1NbC1nMld5Mmx1SHJvLS1RN09oclRSNFdtYi1zRV9oQ2dlV21wRGp6bGptdjEtWHpxWWE3UzFXWVRvTUt2ZnhJYw?oc=5",
+    "sources": [
+      {
+        "name": "Bhaskar English",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPRW9vOVQzMWNnTUZMYmVpTGp2bThmZTFYYmphT3c0Y05wRDhMN2I5YXYwRkIxVk9KVUJVSUNOdm5MZ1VlMkJCYWt4N0pDc3B5RzBjTGxXN1IyejV6WGtacTlYUmdWMWQzVE5pckxRWTdyWHI1d3FCb2xTblZwdWpVbDM5NmdkSWd0X1JHUmxTN0hSa3M1U1laajY0aDJybUE2bk1uS0R30gGrAUFVX3lxTE5xQXlNWmVpYW4zbUk0aFJmS0lpQ2lRWUZ3NDV5VGt0YjNqRDk3dkl3eXZQci02NEFaVzhSTndQZmxMdzc2RHRUX3A2NDVTeFdRbnNDVnIwRmJtSDlnQzliNnNLZ0lVUlFocy1NbC1nMld5Mmx1SHJvLS1RN09oclRSNFdtYi1zRV9oQ2dlV21wRGp6bGptdjEtWHpxWWE3UzFXWVRvTUt2ZnhJYw?oc=5"
+      },
+      {
+        "name": "Pajhwok Afghan News",
+        "url": "https://pajhwok.com/2026/10/23/3-arrested-in-pakistan-over-alleged-fraud-targeting-canadian-banks/"
+      },
+      {
+        "name": "PTC News",
+        "url": "https://www.ptcnews.tv/world-news/four-indians-three-pakistanis-join-hands-to-defraud-canadian-banks-using-ai-4430807"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-21",
+        "event": "Reported by Bhaskar English"
+      }
+    ],
+    "drafted_at": "2026-10-21T15:35:40Z",
+    "first_seen": "2026-10-21T15:35:40Z",
+    "updated_at": "2026-11-05T04:05:40Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-05T04:05:40Z"
+  },
+  {
     "id": "wiz-llmjacking-cloud-billing-ads",
     "date": "2026-10-20",
     "title": "Search-ad phishing hijacks cloud billing accounts for unauthorized LLM API usage",
@@ -24843,6 +25008,61 @@
     "verification": "reported",
     "review": "auto",
     "verified_at": "2026-11-05T03:35:38Z"
+  },
+  {
+    "id": "china-ai-security-tool-japan-80-firms",
+    "date": "2026-10-20",
+    "title": "China-developed AI pentest tool ARTEX tied to attacks on about 80 Japanese companies",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "JP",
+    "region": "Asia-Pacific",
+    "target": "About 80 Japanese companies across various industries",
+    "loss_usd": null,
+    "summary": "GMO Cybersecurity by Ierae said it confirmed that ARTEX, a China-developed AI-powered penetration-testing tool released as open source, was used in a spate of attacks on about 80 Japanese companies. Several companies reported unauthorized access or data breaches. The tool was reportedly also involved in earlier attacks on South Korean financial institutions. Japan's government is talking with affected companies and weighing possible foreign-actor involvement; the attackers have not been identified.",
+    "actor": "Unknown (ARTEX tool used; operators not identified)",
+    "actor_type": "unknown",
+    "sector": "Multiple / cross-sector",
+    "attribution": "Unknown; the tool is of Chinese origin but the headline does not attribute the attack to a specific actor.",
+    "motive": "Unknown",
+    "vector": "Open-source AI security tool of Chinese origin repurposed for attacks on listed targets.",
+    "root_cause": "Dual-use open-source AI security tooling abused by attackers.",
+    "impact": "About 80 Japanese companies were listed as targets; the extent of compromise is not stated.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "source": "茉莉花新闻网",
+    "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9mb08yX1pJeUhLZVNNR2pBMW9ZSjUtYm8ybjYyMnBfWS1QanJfUk85RUw4RW5UalF2ODBTSUw0eldNNEpBa3c?oc=5",
+    "sources": [
+      {
+        "name": "茉莉花新闻网",
+        "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9mb08yX1pJeUhLZVNNR2pBMW9ZSjUtYm8ybjYyMnBfWS1QanJfUk85RUw4RW5UalF2ODBTSUw0eldNNEpBa3c?oc=5"
+      },
+      {
+        "name": "Taipei Times (AFP)",
+        "url": "https://www.taipeitimes.com/News/world/archives/2026/10/21/2003866365"
+      },
+      {
+        "name": "Quartz",
+        "url": "https://qz.com/artex-ai-tool-japan-cyberattacks-companies-102126"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-21",
+        "event": "Reported by 茉莉花新闻网"
+      }
+    ],
+    "drafted_at": "2026-10-21T08:35:39Z",
+    "first_seen": "2026-10-21T08:35:39Z",
+    "updated_at": "2026-11-05T04:05:40Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-05T04:05:40Z"
   },
   {
     "id": "litellm-1-107-0-trojanized-release",
@@ -25369,6 +25589,61 @@
     "verification": "reported",
     "review": "auto",
     "verified_at": "2026-11-05T01:05:40Z"
+  },
+  {
+    "id": "nl-ai-bank-fraud-380k-arrests",
+    "date": "2026-10-21",
+    "title": "Two arrested in AI-powered bank fraud that cost victims €380,000",
+    "category": "AI phishing",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "NL",
+    "region": "Europe",
+    "target": "Dutch bank customers (170 victims)",
+    "loss_usd": 423114,
+    "summary": "Rotterdam police arrested two men, aged 23 and 25, accused of a new form of bank-helpdesk fraud. Victims got calls with AI-generated recordings in different voices and were then connected to a fake bank employee. They were told to download an app and scan their bank cards, which allegedly let accomplices copy the cards remotely and withdraw cash. About 170 victims reportedly lost around €380,000 in three weeks, roughly $423,000 per Daily Hodl.",
+    "actor": "Two arrested men, aged 23 (Vaassen) and 25 (Ede); names not given",
+    "actor_type": "criminal",
+    "sector": "Individuals & consumers",
+    "attribution": "Police arrested two suspects, per NL Times; the wider network is Unknown.",
+    "motive": "Financial gain",
+    "vector": "Unknown; described only as AI-powered bank fraud",
+    "root_cause": "Unknown",
+    "impact": "Victims lost €380,000 in total, per NL Times.",
+    "response": "Police arrested two suspects.",
+    "status": "two suspects arrested; investigation continuing",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "source": "NL Times",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPalg3V0owWXRBV0NfT2ZUOWZPYmhqRUhqdVRETnduMGNIU3lXTVZ5TmtiU1RQb3BId0k2d0N3Z096emRCVWRyOHdBd2RidzFvZ1VyOG43bURuMkZ5d0pJSnNMalVPTFhyRmRhZm9FbFVkWWpYQjR1VEtRdHM3SVlDcGxQamhRMzkwaUdIUmo0SC11TUg2Z1p4MFdicmlvZVo2ZVE?oc=5",
+    "sources": [
+      {
+        "name": "NL Times",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPalg3V0owWXRBV0NfT2ZUOWZPYmhqRUhqdVRETnduMGNIU3lXTVZ5TmtiU1RQb3BId0k2d0N3Z096emRCVWRyOHdBd2RidzFvZ1VyOG43bURuMkZ5d0pJSnNMalVPTFhyRmRhZm9FbFVkWWpYQjR1VEtRdHM3SVlDcGxQamhRMzkwaUdIUmo0SC11TUg2Z1p4MFdicmlvZVo2ZVE?oc=5"
+      },
+      {
+        "name": "NL Times",
+        "url": "https://nltimes.nl/2026/10/21/police-arrest-two-suspects-ai-powered-bank-fraud-cost-victims-eu380000"
+      },
+      {
+        "name": "Security Affairs",
+        "url": "https://securityaffairs.com/201786/cyber-crime/ai-generated-fake-bank-calls-and-nfc-app-enabled-e380000-fraud-dutch-police-say.html"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-21",
+        "event": "Reported by NL Times"
+      }
+    ],
+    "drafted_at": "2026-10-21T19:35:41Z",
+    "first_seen": "2026-10-21T19:35:41Z",
+    "updated_at": "2026-11-05T04:05:40Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-05T04:05:40Z"
   },
   {
     "id": "deepfake-pm-scam-88-year-old-td-bank",

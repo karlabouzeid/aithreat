@@ -8945,5 +8945,85 @@
     "timeline": [
       "由 lefilia.fr 报道"
     ]
+  },
+  {
+    "title": "调查指控肯尼亚医疗保险所用的 AI 经济状况审查系统性地向最贫困人群多收费、向富裕人群少收费",
+    "summary": "Africa Uncensored、Lighthouse Reports 与《卫报》（The Guardian）联合开展的一项调查于 2026 年 5 月发布，报道称肯尼亚社会健康管理局（Social Health Authority）使用一种机器学习代理经济状况审查（proxy means-testing）算法来估算家庭收入并确定保险费。调查称，该系统高估了贫困家庭的收入，低估了较富裕家庭的收入。调查还称，一份顾问报告在 2024 年 10 月系统上线之前就曾警告该设计有失公平。SHA 为该工具辩护。",
+    "target": "申请加入社会健康保险基金（Social Health Insurance Fund）的肯尼亚民众",
+    "actor": "肯尼亚社会健康管理局（SHA）及政府的经济状况审查系统",
+    "attribution": "据 AI Incident Database 列示，调查由 Africa Uncensored、Lighthouse Reports 与《卫报》（The Guardian）开展。",
+    "motive": "未知",
+    "vector": "AI 评分系统根据上门走访调查的答案（例如墙体材料）估算家庭经济状况。",
+    "root_cause": "未知；报道对 AI 经济状况审查的设计及其背后的政治因素提出了质疑。",
+    "impact": "据称较贫困的肯尼亚民众被分摊了不成比例的医疗保险费用。摘要中未给出具体数字。",
+    "response": "未知",
+    "id": "kenya-sha-ai-means-testing",
+    "timeline": [
+      "由 AI Incident Database 报道"
+    ]
+  },
+  {
+    "title": "得克萨斯州候选人就对手涉嫌使用 AI 深度伪造竞选广告向警方报案",
+    "summary": "得克萨斯州民主党副州长候选人 Vikki Goodwin 于 2026 年 9 月 19 日向特拉维斯县警长办公室（Travis County Sheriff's Office）提交了报案材料。她指控共和党现任者 Dan Patrick 的竞选团队发布了两段由 AI 生成的她的视频，违反了得克萨斯州 2019 年出台的、禁止在选举前后发布欺骗性深度伪造视频的法律。Goodwin 称视频中的话并非她所说。Patrick 的竞选团队称这些广告显然是恶搞模仿作品。",
+    "target": "得克萨斯州副州长竞选",
+    "actor": "Dan Patrick 竞选团队（由 Vikki Goodwin 指控；该团队称这些广告为恶搞模仿）",
+    "attribution": "由 Vikki Goodwin 在报案材料中指控；Patrick 的竞选团队否认有不当行为，并称这些广告是恶搞模仿作品。",
+    "motive": "选举前的政治广告宣传",
+    "vector": "由竞选团队发布的 AI 生成竞选视频广告",
+    "root_cause": "竞选团队使用 AI 生成视频，对手称其违反了该州选举前后的禁令、具有欺骗性；其合法性存在争议。",
+    "impact": "在一场全州范围的竞选中引发了关于欺骗性 AI 政治广告的争议。目前尚无法院裁决的报道。",
+    "response": "Goodwin 提交了报案材料；Patrick 的竞选团队称这些广告属于恶搞模仿。",
+    "id": "goodwin-complaint-patrick-ai-ads",
+    "timeline": [
+      "由 AI Incident Database 报道"
+    ]
+  },
+  {
+    "title": "巴基斯坦 NCCIA 称三人因涉嫌使用 AI 制作的假护照在加拿大银行开户而在拉合尔被捕，另有四名身在加拿大的印度籍人员同被指控",
+    "summary": "巴基斯坦国家网络犯罪调查局（NCCIA）于 2026 年 10 月 19 日表示，已在拉合尔逮捕三名巴基斯坦男子。该机构称，他们与四名居住在加拿大的印度籍人员合作，后者制作了由 AI 生成的假护照和照片。这些文件据称被用于远程在加拿大主要银行开设账户，信用卡则被寄给了身在加拿大的个人。上述指控尚未得到证实，目前未给出损失金额，也没有关于这四名身在加拿大的嫌疑人状况的信息。",
+    "target": "加拿大主要银行（开户及 KYC 审核）",
+    "actor": "三名巴基斯坦籍人员（Subhan Butt、Gulraiz Butt、Muhammad Nauman）以及四名常驻加拿大的印度籍人员，均为指控对象",
+    "attribution": "被指控者的姓名见于 Bhaskar English 的一篇报道；无更多归因细节。",
+    "motive": "谋取经济利益（涉嫌银行欺诈）",
+    "vector": "使用 AI 生成的假护照通过身份核验并开设银行账户",
+    "root_cause": "未知；银行的身份验证显然被 AI 伪造的身份证件绕过。",
+    "impact": "加拿大银行据称遭到欺诈；标题中未说明损失金额和账户数量。",
+    "response": "七人被指控；标题中未给出抓捕或指控的细节。",
+    "id": "ai-fake-passports-canadian-bank-scam",
+    "timeline": [
+      "由 Bhaskar English 报道"
+    ]
+  },
+  {
+    "title": "中国开发的 AI 渗透测试工具 ARTEX 被认定与约 80 家日本企业遭受的攻击有关",
+    "summary": "GMO Cybersecurity by Ierae 表示，已确认 ARTEX 被用于针对约 80 家日本企业的一连串攻击。ARTEX 是中国开发并以开源形式发布的 AI 驱动渗透测试工具。数家企业报告称遭遇未授权访问或数据泄露。据报道，该工具此前也曾涉及针对韩国金融机构的攻击。日本政府正与受影响企业沟通，并在研判是否有外国行为体介入；攻击者尚未被查明。",
+    "target": "约 80 家来自各行业的日本企业",
+    "actor": "未知（使用了 ARTEX 工具；操作者身份未查明）",
+    "attribution": "未知；该工具源自中国，但标题并未将攻击归因于某一特定行为体。",
+    "motive": "未知",
+    "vector": "源自中国的开源 AI 安全工具被改用于攻击所列目标。",
+    "root_cause": "两用性质的开源 AI 安全工具被攻击者滥用。",
+    "impact": "约 80 家日本企业被列为攻击目标；未说明受入侵的程度。",
+    "response": "未知",
+    "id": "china-ai-security-tool-japan-80-firms",
+    "timeline": [
+      "由茉莉花新闻网报道"
+    ]
+  },
+  {
+    "title": "两人因 AI 驱动的银行诈骗被捕，受害者损失 38 万欧元",
+    "summary": "鹿特丹警方逮捕了两名男子，年龄分别为 23 岁和 25 岁，二人被指实施一种新型银行客服诈骗。受害者接到带有 AI 生成的、声音各异的录音的电话，随后被转接给一名假冒的银行员工。他们被要求下载一款应用并扫描银行卡，据称这使同伙得以远程复制银行卡并提取现金。据报道，约 170 名受害者在三周内损失约 38 万欧元，据 Daily Hodl 报道约合 42.3 万美元。",
+    "target": "荷兰银行客户（170 名受害者）",
+    "actor": "两名被捕男子，分别为 23 岁（Vaassen）和 25 岁（Ede）；姓名未公布",
+    "attribution": "据 NL Times 报道，警方逮捕了两名嫌疑人；更广泛的犯罪网络情况未知。",
+    "motive": "谋取经济利益",
+    "vector": "未知；仅被描述为 AI 驱动的银行诈骗",
+    "root_cause": "未知",
+    "impact": "据 NL Times 报道，受害者共损失 38 万欧元。",
+    "response": "警方逮捕了两名嫌疑人。",
+    "id": "nl-ai-bank-fraud-380k-arrests",
+    "timeline": [
+      "NL Times 报道此事"
+    ]
   }
 ]
