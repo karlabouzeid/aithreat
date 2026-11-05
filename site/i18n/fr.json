@@ -8609,5 +8609,69 @@
     "timeline": [
       "Signalé par BleepingComputer"
     ]
+  },
+  {
+    "title": "À Providence, une agence d’agents de santé communautaires aurait utilisé l’IA pour antidater des dossiers de patients Medicaid dans une fraude de 2 M$ ; sept personnes inculpées",
+    "summary": "Le 22 octobre 2026, le procureur général du Rhode Island a annoncé une mise en accusation en 51 chefs visant sept personnes liées à U'Nique Diversity Innovations, une agence de agents de santé communautaires de Providence, dans le cadre d’un stratagème présumé visant à escroquer Medicaid d’environ 2 millions $. Selon l’accusation, la propriétaire et un autre prévenu auraient utilisé l’IA pour générer des notes de patients et des dossiers de traitement plusieurs mois après les prestations censées avoir été fournies, et des certificats de formation antidatés auraient également été falsifiés. Ces allégations n’ont pas été prouvées devant un tribunal.",
+    "target": "Programme Medicaid (Rhode Island)",
+    "actor": "U'Nique Diversity Innovations, LLC, sa propriétaire et son personnel (présumés)",
+    "attribution": "Selon Medical Daily, l’accusation soutient que l’agence a utilisé l’IA pour créer les dossiers. Aucune décision de justice n’est rapportée.",
+    "motive": "Cupidité financière (présumée)",
+    "vector": "Dossiers Medicaid antidatés générés par IA, selon l’accusation.",
+    "root_cause": "Inconnue ; la source ne donne aucun détail sur les outils d’IA utilisés ni sur la façon dont les dossiers ont échappé à la détection.",
+    "impact": "Fraude présumée d’environ 2 millions $ au préjudice de Medicaid. Les autres conséquences ne sont pas précisées.",
+    "response": "L’accusation a formulé ses allégations. Aucune autre réponse n’est décrite.",
+    "id": "rhode-island-ai-backdated-medicaid-recor",
+    "timeline": [
+      "Signalé par Medical Daily"
+    ]
+  },
+  {
+    "title": "Des bots d’IA inondent la consultation 2023 du gouvernement britannique sur l’interdiction des vapoteuses jetables",
+    "summary": "Une étude publiée dans Tobacco Control, relayée par le Guardian le 27 octobre 2026, a établi que 90 835 des 118 756 réponses à la consultation 2023 du gouvernement britannique sur le tabac et les vapoteuses étaient des contributions automatisées générées par IA, répondant presque toutes à une seule question et s’opposant à l’interdiction des vapoteuses jetables. Les bots cherchaient apparemment à faire échouer l’interdiction. Le ministère de la Santé les a écartés, et l’interdiction est entrée en vigueur le 1er juin 2025. La partie à l’origine des bots n’est pas identifiée.",
+    "target": "Consultation du gouvernement britannique sur le projet de loi relatif au tabac et aux vapoteuses",
+    "actor": "Inconnu",
+    "attribution": "Le résumé ne nomme pas l’exploitant des bots.",
+    "motive": "Empêcher l’interdiction britannique des vapoteuses jetables en faussant les résultats de la consultation publique.",
+    "vector": "Des bots d’IA soumettant en masse de fausses réponses à une consultation publique gouvernementale.",
+    "root_cause": "Canal de consultation publique ouvert, sans garde-fous efficaces contre les contributions automatisées générées par IA.",
+    "impact": "Environ les trois quarts des réponses à la consultation étaient générées par des machines et ont été exclues ; aucun effet sur la politique finalement adoptée.",
+    "response": "Inconnue",
+    "id": "ai-bots-flood-uk-vape-consultation",
+    "timeline": [
+      "Signalé par AI Incident Database"
+    ]
+  },
+  {
+    "title": "Une Australienne qui avait perdu près de 50 000 A$ dans une arnaque par SMS usurpant sa banque découvre que des images de son entretien auraient été utilisées dans des publicités frauduleuses générées par IA pour un faux service de recouvrement de fonds",
+    "summary": "Sunni Wan, une habitante de Sydney qui avait perdu près de 50 000 $ en 2023 dans une arnaque par SMS usurpant l’identité de sa banque, a découvert que des images de son entretien télévisé, où elle apparaissait en détresse, auraient été réutilisées dans des publicités Facebook générées par IA faisant la promotion d’un faux service de recouvrement d’Interpol ciblant d’autres victimes d’escroquerie. Infoblox attribue l’ensemble de la campagne à un acteur russophone, ce qui n’est pas prouvé de manière indépendante. Meta a retiré les publicités mettant en scène Mme Wan après des reportages dans les médias ; selon Infoblox, d’autres restent en ligne.",
+    "target": "Sunni Wan (particulier) et d’autres victimes de fraude cherchant à récupérer leur argent",
+    "actor": "Acteur présumé russophone (selon Infoblox, non prouvé)",
+    "attribution": "Inconnue ; signalé par Yeeyi, qui n’identifie pas les escrocs.",
+    "motive": "Cupidité financière",
+    "vector": "Arnaque par téléphone, suivie de la réutilisation du visage de la victime dans une publicité générée par IA afin d’attirer d’autres victimes.",
+    "root_cause": "Inconnue ; l’image de la victime a été captée puis réutilisée dans des contenus frauduleux produits par IA.",
+    "impact": "La victime a perdu 49 000 A$ et son image sert désormais à promouvoir des arnaques, ce qui ajoute un préjudice de réputation et un risque pour d’autres personnes.",
+    "response": "Inconnue ; l’article met le public en garde contre cette arnaque.",
+    "id": "au-woman-scam-face-in-ai-scam-ad",
+    "timeline": [
+      "Signalé par yeeyi"
+    ]
+  },
+  {
+    "title": "Des escrocs utilisent un deepfake du gouverneur de Mourmansk, Chibis, pour tromper des retraités",
+    "summary": "Les autorités de Mourmansk ont averti que des escrocs appellent en visioconférence des personnes âgées via des messageries et des réseaux sociaux, en utilisant une apparence générée par IA du gouverneur Andreï Chibis, promettant apparemment l’aide de membres des forces de l’ordre, ce qui constitue un piège. Aucun chiffre de pertes ni nombre de victimes n’a été communiqué.",
+    "target": "Retraités de la région de Mourmansk",
+    "actor": "Inconnu",
+    "attribution": "Non attribuée ; le titre ne fait référence qu’à des escrocs.",
+    "motive": "Cupidité financière, par l’escroquerie de personnes âgées.",
+    "vector": "Vidéo ou audio deepfake d’un responsable régional de confiance, utilisé pour se faire passer pour lui auprès des victimes.",
+    "root_cause": "Inconnue ; l’arnaque repose sur la confiance du public envers un responsable connu et sur la disponibilité d’outils de deepfake.",
+    "impact": "Des retraités sont visés ; le résumé ne donne ni chiffre de pertes confirmé ni nombre de victimes.",
+    "response": "Inconnue ; le diffuseur régional fait connaître l’arnaque à titre d’avertissement.",
+    "id": "murmansk-governor-chibis-deepfake-scam",
+    "timeline": [
+      "Signalé par ГТРК «Мурман"
+    ]
   }
 ]

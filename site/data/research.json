@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T01:16:25Z",
+  "generated_at": "2026-11-05T01:46:49Z",
   "licence": "CC BY 4.0",
   "sources": [
     {
@@ -1012,8 +1012,8 @@
       "claim": "Realistic AI-generated voices, images and video are used for fraud, extortion and sexual imagery made without consent, and cheap tools have made such content easy to produce at scale.",
       "status": "observed",
       "note": "The largest category in the registry: cloned voices and deepfake video calls impersonating executives, officials and relatives, and deepfake celebrity ads behind investment scams. The report adds that victims often do not report, so public cases undercount the harm.",
-      "n": 101,
-      "real_world": 101,
+      "n": 105,
+      "real_world": 105,
       "first_real_world": "2025-01-05",
       "months_after_publication": -13,
       "url": "https://aithreat.io/research/iasr-synthetic-content/",
@@ -1022,12 +1022,16 @@
         "tarn-restaurants-ai-fake-refund",
         "cctv-ai-fiancee-romance-scam",
         "jancovici-ai-voice-clone-scam",
+        "murmansk-governor-chibis-deepfake-scam",
+        "au-woman-scam-face-in-ai-scam-ad",
+        "ai-bots-flood-uk-vape-consultation",
         "ru-mvd-celebrity-ai-fake-shops",
         "dubai-cafe-ai-photo-refund-claim",
         "bon-jovi-impersonator-ai-video-scam",
         "sps-ai-fake-payment-receipts-phones",
         "mendoza-retiree-messi-ai-scam",
         "deepfake-pm-scam-88-year-old-td-bank",
+        "rhode-island-ai-backdated-medicaid-recor",
         "spb-choreographer-beglov-ai-avatar-scam",
         "scammers-clone-sheriff-voice",
         "wu-yue-ai-celebrity-impersonation-sales",
@@ -2426,8 +2430,8 @@
       "claim": "People using AI for disinformation, surveillance and propaganda at scale; for cyberattacks and weapons; and for fraud, scams and targeted manipulation.",
       "status": "observed",
       "note": "The other pillar of the registry: deepfake fraud, AI-built malware, AI phishing and state operations.",
-      "n": 218,
-      "real_world": 217,
+      "n": 222,
+      "real_world": 221,
       "first_real_world": "2025-01-05",
       "months_after_publication": null,
       "url": "https://aithreat.io/research/mit-malicious-actors/",
@@ -2442,7 +2446,10 @@
         "jancovici-ai-voice-clone-scam",
         "volta-autodoxer-infostealer",
         "workos-ai-framework-breach",
+        "murmansk-governor-chibis-deepfake-scam",
         "123-reg-ai-cyberattack-customer-data",
+        "au-woman-scam-face-in-ai-scam-ad",
+        "ai-bots-flood-uk-vape-consultation",
         "ru-mvd-celebrity-ai-fake-shops",
         "dubai-cafe-ai-photo-refund-claim",
         "korea-genai-hacking-8m-records-arrest",
@@ -2451,6 +2458,7 @@
         "sps-ai-fake-payment-receipts-phones",
         "mendoza-retiree-messi-ai-scam",
         "deepfake-pm-scam-88-year-old-td-bank",
+        "rhode-island-ai-backdated-medicaid-recor",
         "spb-choreographer-beglov-ai-avatar-scam",
         "argentina-ai-agent-health-breaches",
         "bugster-deepseek-v4-india-universities",
@@ -2839,7 +2847,7 @@
       "source": "cais-2023",
       "claims": 17,
       "matched_cases": 197,
-      "matched_pct": 40,
+      "matched_pct": 39,
       "status_counts": {
         "observed": 7,
         "early": 5,
@@ -2851,7 +2859,7 @@
     {
       "source": "iasr-2026",
       "claims": 11,
-      "matched_cases": 358,
+      "matched_cases": 362,
       "matched_pct": 72,
       "status_counts": {
         "observed": 5,
@@ -2916,7 +2924,7 @@
     {
       "source": "mit-risk-repository",
       "claims": 7,
-      "matched_cases": 431,
+      "matched_cases": 435,
       "matched_pct": 87,
       "status_counts": {
         "observed": 4,
@@ -2934,9 +2942,9 @@
     "none": 4,
     "outside": 7
   },
-  "matched_cases": 433,
-  "total_cases": 496,
-  "warning_matched_cases": 390,
+  "matched_cases": 437,
+  "total_cases": 500,
+  "warning_matched_cases": 394,
   "unmatched_pct": 21,
   "unmatched_by_category": [
     {
@@ -2977,7 +2985,7 @@
     {
       "category": "Deepfake fraud",
       "unmatched": 0,
-      "total": 104
+      "total": 108
     },
     {
       "category": "AI-assisted malware",

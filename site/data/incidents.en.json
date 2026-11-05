@@ -24792,6 +24792,61 @@
     "verified_at": "2026-11-04T22:05:40Z"
   },
   {
+    "id": "rhode-island-ai-backdated-medicaid-recor",
+    "date": "2026-10-22",
+    "title": "Providence health-worker agency allegedly used AI to backdate Medicaid patient records in $2M fraud; seven indicted",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "US",
+    "region": "North America",
+    "target": "Medicaid program (Rhode Island)",
+    "loss_usd": 2000000,
+    "summary": "On Oct 22, 2026 Rhode Island's Attorney General announced a 51-count indictment of seven people tied to U'Nique Diversity Innovations, a Providence community health worker agency, over an alleged scheme to defraud Medicaid of about $2 million. Prosecutors allege the owner and another defendant used AI to generate patient notes and treatment records months after the purported services, and that backdated training certificates were also forged. The allegations have not been proven in court.",
+    "actor": "U'Nique Diversity Innovations, LLC and its owner and staff (alleged)",
+    "actor_type": "unknown",
+    "sector": "Healthcare",
+    "attribution": "Prosecutors allege the agency used AI to create the records, per Medical Daily. No court finding is reported.",
+    "motive": "Financial gain (alleged)",
+    "vector": "AI-generated backdated Medicaid records, per prosecutors.",
+    "root_cause": "Unknown; the source gives no detail on which AI tools were used or how the records escaped detection.",
+    "impact": "Alleged fraud of about $2 million against Medicaid. Other impacts are not stated.",
+    "response": "Prosecutors have brought allegations. No further response is described.",
+    "status": "indicted; allegations not yet proven in court",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "source": "Medical Daily",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNVEdIcThCMzRNb2ZlOUJuVjV1Q3JVVkZRUi00NnZUY1Ytc2VKdEV2YTF0Zk5jaEdCcGxiZjVZbzVuekZHTXQ0YzhHSDRHZzFMRHB3ZVdKek1GREV0WXBLQXhkbVRGMDVMeFBpWUt2TXFZTGp0MjA1c01ybnBudGxVS3FndXVrLWJWZWlsWXJ3?oc=5",
+    "sources": [
+      {
+        "name": "Medical Daily",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNVEdIcThCMzRNb2ZlOUJuVjV1Q3JVVkZRUi00NnZUY1Ytc2VKdEV2YTF0Zk5jaEdCcGxiZjVZbzVuekZHTXQ0YzhHSDRHZzFMRHB3ZVdKek1GREV0WXBLQXhkbVRGMDVMeFBpWUt2TXFZTGp0MjA1c01ybnBudGxVS3FndXVrLWJWZWlsWXJ3?oc=5"
+      },
+      {
+        "name": "Rhode Island Attorney General's Office",
+        "url": "https://riag.ri.gov/press-releases/seven-individuals-charged-crimes-related-medicaid-fraud-2-million"
+      },
+      {
+        "name": "WPRI",
+        "url": "https://www.wpri.com/target-12/7-indicted-in-alleged-2m-medicaid-fraud-scheme-at-providence-health-worker-agency/"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-28",
+        "event": "Reported by Medical Daily"
+      }
+    ],
+    "drafted_at": "2026-10-28T04:35:37Z",
+    "first_seen": "2026-10-28T04:35:37Z",
+    "updated_at": "2026-11-05T01:35:36Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-05T01:35:36Z"
+  },
+  {
     "id": "mendoza-retiree-messi-ai-scam",
     "date": "2026-10-23",
     "title": "Mendoza retiree loses $24.5M pesos to crypto scam using AI-manipulated Messi and Scaloni video",
@@ -25448,6 +25503,57 @@
     "verified_at": "2026-11-05T00:05:39Z"
   },
   {
+    "id": "ai-bots-flood-uk-vape-consultation",
+    "date": "2026-10-27",
+    "title": "AI bots flood 2023 UK government consultation on disposable vapes ban",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "GB",
+    "region": "Europe",
+    "target": "UK government consultation on tobacco and vapes bill",
+    "loss_usd": null,
+    "summary": "A study in Tobacco Control, reported by the Guardian on Oct 27, 2026, found that 90,835 of 118,756 responses to the UK government's 2023 tobacco and vapes consultation were automated, AI-generated submissions, almost all answering one question and opposing the disposable vapes ban. The bots were apparently trying to block the ban. The health department screened them out, and the ban took effect on 1 June 2025. The party behind the bots is unidentified.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Government & public sector",
+    "attribution": "The summary does not name who ran the bots.",
+    "motive": "To stop the UK ban on disposable vapes by distorting public consultation results.",
+    "vector": "AI bots submitting mass fake responses to a public government consultation.",
+    "root_cause": "Open public consultation channel without effective safeguards against automated, AI-generated submissions.",
+    "impact": "Roughly three-quarters of consultation responses were machine-generated and excluded; no effect on the final policy.",
+    "response": "Unknown",
+    "status": "bot responses excluded from policy-making; ban took effect 1 June 2025; operator unidentified",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "source": "AI Incident Database",
+    "url": "https://www.theguardian.com/society/2026/oct/27/ai-bots-flooded-2023-uk-government-consultation-disposable-vapes-ban",
+    "sources": [
+      {
+        "name": "AI Incident Database",
+        "url": "https://www.theguardian.com/society/2026/oct/27/ai-bots-flooded-2023-uk-government-consultation-disposable-vapes-ban"
+      },
+      {
+        "name": "Tobacco Control (BMJ)",
+        "url": "https://tobaccocontrol.bmj.com/content/early/2026/10/22/tc-2026-060309"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-29",
+        "event": "Reported by AI Incident Database"
+      }
+    ],
+    "drafted_at": "2026-10-29T20:35:39Z",
+    "first_seen": "2026-10-29T20:35:39Z",
+    "updated_at": "2026-11-05T01:35:36Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-05T01:35:36Z"
+  },
+  {
     "id": "123-reg-ai-cyberattack-customer-data",
     "date": "2026-10-28",
     "title": "123 Reg discloses AI cyberattack on customer data, suspects China nexus",
@@ -25497,6 +25603,61 @@
     "verification": "reported",
     "review": "auto",
     "verified_at": "2026-11-04T22:35:38Z"
+  },
+  {
+    "id": "au-woman-scam-face-in-ai-scam-ad",
+    "date": "2026-10-28",
+    "title": "Australian woman who lost nearly A$50,000 to a bank-spoofing text scam finds her interview footage allegedly used in AI scam ads for a fake fraud-recovery service",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "AU",
+    "region": "Asia-Pacific",
+    "target": "Sunni Wan (individual) and other fraud victims seeking to recover money",
+    "loss_usd": null,
+    "summary": "Sunni Wan, a Sydney woman who lost almost $50,000 in a 2023 bank-impersonation text-message scam, found footage of her distressed media interview allegedly repurposed in AI-generated Facebook adverts for a fake Interpol recovery service targeting other scam victims. Infoblox attributes the broader campaign to a Russian-speaking actor, which is not independently proven. Meta removed the ads featuring Wan after media reports; Infoblox says others remain live.",
+    "actor": "Alleged Russian-speaking actor (per Infoblox, unproven)",
+    "actor_type": "criminal",
+    "sector": "Individuals & consumers",
+    "attribution": "Unknown; reported by Yeeyi, which does not identify the scammers.",
+    "motive": "Financial gain",
+    "vector": "Telephone scam, followed by reuse of the victim's face in an AI-generated advertisement to lure further victims.",
+    "root_cause": "Unknown; the victim's likeness was taken and reused in AI-made fraud content.",
+    "impact": "Victim lost A$49,000 and her likeness now promotes scams, adding reputational harm and a risk to others.",
+    "response": "Unknown; the report warns the public about the scam.",
+    "status": "Meta removed the ads featuring Wan; similar ads reportedly still live",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "source": "yeeyi",
+    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9MUUVUQlZOWFNxSW9jaDZQV3NreUhDRFZHdGNWaVRaSkswUTdzaGVnRVJENjhDVHN4M21vQXVzckpERTdlc2tQMThLWDFFcUt4RjE5UF9R?oc=5",
+    "sources": [
+      {
+        "name": "yeeyi",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9MUUVUQlZOWFNxSW9jaDZQV3NreUhDRFZHdGNWaVRaSkswUTdzaGVnRVJENjhDVHN4M21vQXVzckpERTdlc2tQMThLWDFFcUt4RjE5UF9R?oc=5"
+      },
+      {
+        "name": "Tech Times UK",
+        "url": "https://www.techtimes.co.uk/ai-scam-uses-fraud-victims-footage-recovery-ads-1809524"
+      },
+      {
+        "name": "ABC News (Australia)",
+        "url": "https://www.abc.net.au/news/2026-06-18/hsbc-bank-federal-court-hearing-scam-text/106772268"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-28",
+        "event": "Reported by yeeyi"
+      }
+    ],
+    "drafted_at": "2026-10-28T05:05:40Z",
+    "first_seen": "2026-10-28T05:05:40Z",
+    "updated_at": "2026-11-05T01:35:36Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-05T01:35:36Z"
   },
   {
     "id": "hugging-face-gpu-mining-returns",
@@ -25607,6 +25768,61 @@
     "verification": "reported",
     "review": "auto",
     "verified_at": "2026-11-05T00:05:39Z"
+  },
+  {
+    "id": "murmansk-governor-chibis-deepfake-scam",
+    "date": "2026-10-29",
+    "title": "Scammers use deepfake of Murmansk governor Chibis to deceive pensioners",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "RU",
+    "region": "Europe",
+    "target": "Pensioners in Murmansk region",
+    "loss_usd": null,
+    "summary": "Murmansk authorities warned that scammers are video-calling elderly residents in messengers and social networks using an AI-generated likeness of Governor Andrey Chibis, reportedly promising help from law-enforcement officers as a trap. No loss figures or victim counts were reported.",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "sector": "Individuals & consumers",
+    "attribution": "Unattributed; the headline refers only to scammers.",
+    "motive": "Financial gain by defrauding elderly people.",
+    "vector": "Deepfake video or audio of a trusted regional official used to impersonate him to victims.",
+    "root_cause": "Unknown; the scam relies on public trust in a known official and on the availability of deepfake tools.",
+    "impact": "Pensioners are being targeted; the summary gives no confirmed loss figures or number of victims.",
+    "response": "Unknown; the regional broadcaster is publicising the scam as a warning.",
+    "status": "ongoing",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "source": "ГТРК «Мурман",
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNNXNibUdNLU8tWjBFSmloTGJUeldsYTJFc2dPMk5idDhrMnlTNDRiLVdPQkEwdzl3R3JQWGFUcWQ0RU02bnY3WXpvX1RRX1FhS3NpdXFtajZyQ25tQjNYWksxSy0xc01mZUtWRmlOTE9mNC04TlhhbFFQaVc5VE5mSkEtZEhLdm1adjM2Vi1rTUk4LVlRbl91RFd1T21Ma2tWWm1uMV9CWmFNMmpyemttV3k5WlUyLUFSQ3o2eEdNa3pUQQ?oc=5",
+    "sources": [
+      {
+        "name": "ГТРК «Мурман",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNNXNibUdNLU8tWjBFSmloTGJUeldsYTJFc2dPMk5idDhrMnlTNDRiLVdPQkEwdzl3R3JQWGFUcWQ0RU02bnY3WXpvX1RRX1FhS3NpdXFtajZyQ25tQjNYWksxSy0xc01mZUtWRmlOTE9mNC04TlhhbFFQaVc5VE5mSkEtZEhLdm1adjM2Vi1rTUk4LVlRbl91RFd1T21Ma2tWWm1uMV9CWmFNMmpyemttV3k5WlUyLUFSQ3o2eEdNa3pUQQ?oc=5"
+      },
+      {
+        "name": "Interfax",
+        "url": "https://www.interfax.ru/russia/1126146"
+      },
+      {
+        "name": "AiF-Murmansk",
+        "url": "https://murmansk.aif.ru/incidents/videozvonki-s-feykom-chibisa-sovershayut-moshenniki-v-murmanskoy-oblasti"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-29",
+        "event": "Reported by ГТРК «Мурман"
+      }
+    ],
+    "drafted_at": "2026-10-29T19:05:40Z",
+    "first_seen": "2026-10-29T19:05:40Z",
+    "updated_at": "2026-11-05T01:35:36Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-05T01:35:36Z"
   },
   {
     "id": "workos-ai-framework-breach",

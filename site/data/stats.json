@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-05T01:16:25Z",
-  "total": 293,
-  "all_time_total": 496,
+  "generated_at": "2026-11-05T01:46:49Z",
+  "total": 297,
+  "all_time_total": 500,
   "window_from": "2025-11-05",
   "window_to": "2026-11-05",
   "trend_from": "2025-01-01",
   "first_half_from": "2025-01",
   "first_half_to": "2025-06",
-  "all_time_losses_usd": 333083543,
+  "all_time_losses_usd": 335083543,
   "finance": {
     "top_losses": [
       "fideuram-ai-voice-clone-ceo-fraud",
@@ -17,10 +17,10 @@
       "taiwan-starlink-deepfake-ecny",
       "australia-nasc-albanese-deepfake-7-4m",
       "singapore-pm-wong-deepfake-zoom",
-      "sao-paulo-fake-lawyer-voice-clone"
+      "rhode-island-ai-backdated-medicaid-recor"
     ],
     "financial_services": 10,
-    "individuals": 87,
+    "individuals": 89,
     "fin_by_category": {
       "Deepfake fraud": 7,
       "AI-assisted malware": 2,
@@ -153,13 +153,13 @@
   },
   "this_quarter": {
     "q": "2026-Q4",
-    "n": 95,
+    "n": 99,
     "prev_q": "2026-Q3",
     "prev_n": 52
   },
   "direction": {
     "on-ai": 93,
-    "with-ai": 167
+    "with-ai": 171
   },
   "on_ai_share_first_half": 31,
   "on_ai_share_last_half": 41,
@@ -264,23 +264,23 @@
     },
     {
       "q": "2026-Q4",
-      "n": 95,
+      "n": 99,
       "on-ai": 25,
-      "with-ai": 65,
+      "with-ai": 69,
       "severity": {
         "critical": 3,
         "high": 32,
-        "medium": 52,
+        "medium": 56,
         "low": 8
       },
       "autonomous": 6,
-      "real_world": 94
+      "real_world": 98
     }
   ],
   "categories": [
     {
       "category": "Deepfake fraud",
-      "n": 61,
+      "n": 65,
       "by_quarter": [
         13,
         9,
@@ -289,9 +289,9 @@
         10,
         12,
         13,
-        19
+        23
       ],
-      "growth_last4_vs_prev4": 4
+      "growth_last4_vs_prev4": 8
     },
     {
       "category": "AI-assisted malware",
@@ -476,7 +476,7 @@
   ],
   "rising_category": "AI-assisted malware",
   "top_category": "Deepfake fraud",
-  "top_category_n": 61,
+  "top_category_n": 65,
   "autonomous": {
     "by_year": {
       "2025": 1,
@@ -501,9 +501,9 @@
       "actor_type": "criminal",
       "by_year": {
         "2025": 13,
-        "2026": 94
+        "2026": 96
       },
-      "n": 107
+      "n": 109
     },
     {
       "actor_type": "state",
@@ -525,9 +525,9 @@
       "actor_type": "unknown",
       "by_year": {
         "2025": 1,
-        "2026": 84
+        "2026": 86
       },
-      "n": 85
+      "n": 87
     },
     {
       "actor_type": "autonomous-ai",
@@ -569,18 +569,18 @@
   "severity": {
     "critical": 40,
     "high": 121,
-    "medium": 118,
+    "medium": 122,
     "low": 14
   },
-  "critical_high_pct": 55,
+  "critical_high_pct": 54,
   "losses": {
-    "total_usd": 205102843,
-    "disclosed": 21,
+    "total_usd": 207102843,
+    "disclosed": 22,
     "by_category": [
       {
         "category": "Deepfake fraud",
-        "usd": 205102843,
-        "disclosed": 21
+        "usd": 207102843,
+        "disclosed": 22
       },
       {
         "category": "AI-assisted malware",
@@ -647,12 +647,12 @@
   },
   "sectors": [
     {
-      "sector": "Technology & AI vendors",
-      "n": 88
+      "sector": "Individuals & consumers",
+      "n": 89
     },
     {
-      "sector": "Individuals & consumers",
-      "n": 87
+      "sector": "Technology & AI vendors",
+      "n": 88
     },
     {
       "sector": "Multiple / cross-sector",
@@ -668,7 +668,7 @@
     },
     {
       "sector": "Government & public sector",
-      "n": 12
+      "n": 13
     },
     {
       "sector": "Financial services",
@@ -688,7 +688,7 @@
     },
     {
       "sector": "Healthcare",
-      "n": 2
+      "n": 3
     },
     {
       "sector": "Energy, industrial & infrastructure",
@@ -706,11 +706,11 @@
     },
     {
       "country": "US",
-      "n": 63
+      "n": 64
     },
     {
       "country": "GB",
-      "n": 8
+      "n": 9
     },
     {
       "country": "KR",
@@ -729,12 +729,12 @@
       "n": 5
     },
     {
-      "country": "CN",
+      "country": "RU",
       "n": 5
     },
     {
-      "country": "RU",
-      "n": 4
+      "country": "CN",
+      "n": 5
     },
     {
       "country": "IL",
@@ -749,7 +749,7 @@
       "n": 3
     }
   ],
-  "global_pct": 42,
+  "global_pct": 41,
   "status": [
     {
       "status": "under investigation",
@@ -757,7 +757,7 @@
     },
     {
       "status": "ongoing",
-      "n": 77
+      "n": 78
     },
     {
       "status": "contained",
@@ -804,11 +804,23 @@
       "n": 1
     },
     {
+      "status": "indicted; allegations not yet proven in court",
+      "n": 1
+    },
+    {
       "status": "criminal case opened; court let the flat buyer keep the property",
       "n": 1
     },
     {
+      "status": "bot responses excluded from policy-making; ban took effect 1 june 2025; operator unidentified",
+      "n": 1
+    },
+    {
       "status": "warning issued; no arrests or losses reported",
+      "n": 1
+    },
+    {
+      "status": "meta removed the ads featuring wan; similar ads reportedly still live",
       "n": 1
     },
     {
@@ -840,9 +852,9 @@
       "n": 1
     }
   ],
-  "unresolved_pct": 67,
-  "verify_median_hours": 107.0,
-  "verify_sample": 104,
+  "unresolved_pct": 66,
+  "verify_median_hours": 128.0,
+  "verify_sample": 108,
   "researcher_demos": 21,
   "pulse": [
     {
@@ -1088,9 +1100,9 @@
     {
       "day": "2026-10-29",
       "kinds": {
-        "incident": 11,
+        "incident": 10,
         "vulnerability": 0,
-        "research": 2,
+        "research": 1,
         "vendor-report": 4,
         "policy": 0,
         "other": 1,
@@ -1163,7 +1175,7 @@
         "incident": 56,
         "vulnerability": 2,
         "research": 15,
-        "vendor-report": 7,
+        "vendor-report": 8,
         "policy": 3,
         "other": 15,
         "untagged": 0
@@ -1177,7 +1189,7 @@
         "research": 0,
         "vendor-report": 0,
         "policy": 0,
-        "other": 1,
+        "other": 2,
         "untagged": 0
       }
     }
