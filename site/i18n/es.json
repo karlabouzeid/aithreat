@@ -9409,5 +9409,21 @@
     "timeline": [
       "Informado por SecurityLab.ru"
     ]
+  },
+  {
+    "title": "El uso de una plataforma de IA no autorizada por parte de personal sanitario pudo haber expuesto datos de pacientes en dos centros de salud mental administrados por el estado de Washington",
+    "summary": "The Seattle Times informa de que los pacientes de dos centros de salud mental administrados por el estado de Washington podrían haber visto expuesta su información personal de salud después de que un miembro del personal utilizara una plataforma de IA no autorizada para generar notas médicas sobre ellos. En el Lake Burien Transitional Care Facility, que atiende a jóvenes con necesidades intensivas de salud mental, se contactó a mediados de agosto con las familias de una docena de pacientes para informarles de la posible brecha. Un informe secundario señala que el miembro del personal utilizó una cuenta personal de ChatGPT para redactar notas de casos. La brecha se describe como potencial.",
+    "target": "Pacientes de dos centros de salud mental administrados por el estado de Washington, entre ellos el Lake Burien Transitional Care Facility",
+    "actor": "Miembro del personal que utilizó una plataforma de IA no autorizada (sin identificar)",
+    "attribution": "Desconocida; se basa únicamente en un titular de The Seattle Times.",
+    "motive": "Desconocido",
+    "vector": "Desconocido; el titular solo indica que el uso de IA provocó la posible brecha.",
+    "root_cause": "Desconocida; el titular apunta al uso de una herramienta de IA.",
+    "impact": "Información personal de salud de los pacientes, entre ellos una docena de jóvenes del Lake Burien, potencialmente expuesta; sus familias fueron notificadas a mediados de agosto.",
+    "response": "El Lake Burien contactó a mediados de agosto con las familias de una docena de pacientes para informarles de la posible brecha.",
+    "id": "wa-mental-health-ai-privacy-breach",
+    "timeline": [
+      "Reportado por The Seattle Times"
+    ]
   }
 ]

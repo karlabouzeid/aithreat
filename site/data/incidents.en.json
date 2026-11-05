@@ -28588,6 +28588,61 @@
     "verified_at": "2026-11-05T06:35:37Z"
   },
   {
+    "id": "wa-mental-health-ai-privacy-breach",
+    "date": "2026-11-02",
+    "title": "Staff use of unauthorized AI platform may have exposed patient data at two Washington state-run mental health facilities",
+    "category": "Model & data leak",
+    "direction": "on-ai",
+    "severity": "medium",
+    "country": "US",
+    "region": "North America",
+    "target": "Patients at two Washington state-run mental health facilities, including Lake Burien Transitional Care Facility",
+    "loss_usd": null,
+    "summary": "The Seattle Times reports that patients at two state-run mental health facilities in Washington may have had their personal health information exposed after a staff member used an unauthorized AI platform to generate medical notes about them. At Lake Burien Transitional Care Facility, which serves youth with intensive mental health needs, families of a dozen patients were contacted in mid-August about the potential breach. A secondary report says the staff member used a personal ChatGPT account to draft case notes. The breach is described as potential.",
+    "actor": "Staff member using an unauthorized AI platform (not named)",
+    "actor_type": "insider (accidental)",
+    "sector": "Healthcare",
+    "attribution": "Unknown; based only on a Seattle Times headline.",
+    "motive": "Unknown",
+    "vector": "Unknown; the headline says only that AI use led to the potential breach.",
+    "root_cause": "Unknown; the headline points to the use of an AI tool.",
+    "impact": "Personal health information of patients, including a dozen youth patients at Lake Burien, potentially exposed; their families were notified in mid-August.",
+    "response": "Lake Burien contacted the families of a dozen patients in mid-August to inform them of the potential breach.",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "source": "The Seattle Times",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPMW1RQ0hmeGJJd1VLYWtMUThBbUFIN2dmNmFSb2ZmSVpMLUQ3dHpnNzI1bjNLUXp6aUpLci1NY1NSeGtxeDNJdjhVQW5KdXNjYld1ZFllTFdpaU9SQ2JjNVY0akRseGRiN0VPVXJ3YnJ4d3dCOGVZdEZOVlQyZThSVnVfU29ON2JoQzNWanNNaEUtdUQ0cUxPcFNDbWtaeFU2TGtjWFNvUG1zTlRnTUhkM0d0RXJNTldscnNGa1FlUktvVTlBWlln?oc=5",
+    "sources": [
+      {
+        "name": "The Seattle Times",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPMW1RQ0hmeGJJd1VLYWtMUThBbUFIN2dmNmFSb2ZmSVpMLUQ3dHpnNzI1bjNLUXp6aUpLci1NY1NSeGtxeDNJdjhVQW5KdXNjYld1ZFllTFdpaU9SQ2JjNVY0akRseGRiN0VPVXJ3YnJ4d3dCOGVZdEZOVlQyZThSVnVfU29ON2JoQzNWanNNaEUtdUQ0cUxPcFNDbWtaeFU2TGtjWFNvUG1zTlRnTUhkM0d0RXJNTldscnNGa1FlUktvVTlBWlln?oc=5"
+      },
+      {
+        "name": "The Seattle Times (via Yakima Herald-Republic)",
+        "url": "https://www.yakimaherald.com/news/northwest/ai-use-leads-to-potential-privacy-breach-at-wa-mental-health-facilities/article_2011d3ac-633e-5bc7-a0aa-0a15436a4993.html"
+      },
+      {
+        "name": "Addiction/Recovery eBulletin",
+        "url": "https://addictionrecoveryebulletin.org/personal-chatgpt-use-raises-patient-privacy-concerns-at-washington-facilities/"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-11-02",
+        "event": "Reported by The Seattle Times"
+      }
+    ],
+    "drafted_at": "2026-11-02T14:36:12Z",
+    "first_seen": "2026-11-02T14:36:12Z",
+    "updated_at": "2026-11-05T07:05:40Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-05T07:05:40Z"
+  },
+  {
     "id": "priangarye-governor-deepfake-26m",
     "date": "2026-11-03",
     "title": "Pensioner in Ust-Ilimsk loses 26M rubles to scammers using a 'digital double' of Irkutsk governor Kobzev, officials say",

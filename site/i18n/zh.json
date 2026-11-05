@@ -9409,5 +9409,21 @@
     "timeline": [
       "SecurityLab.ru 报道"
     ]
+  },
+  {
+    "title": "员工使用未经授权的 AI 平台，可能导致华盛顿州两家州立精神健康机构的患者数据泄露",
+    "summary": "据 The Seattle Times 报道，华盛顿州两家州立精神健康机构的患者，其个人健康信息可能已遭泄露，原因是一名员工使用未经授权的 AI 平台生成了有关这些患者的医疗记录。Lake Burien Transitional Care Facility 为有高强度精神健康需求的青少年提供服务，8 月中旬，该机构就潜在泄露事件联系了十二名患者的家属。另一份报道称，该员工使用个人 ChatGPT 账户起草病例记录。该泄露事件被描述为潜在泄露。",
+    "target": "华盛顿州两家州立精神健康机构的患者，其中包括 Lake Burien Transitional Care Facility 的患者",
+    "actor": "使用未经授权 AI 平台的员工（未具名）",
+    "attribution": "未知；仅依据 The Seattle Times 的一则标题。",
+    "motive": "未知",
+    "vector": "未知；标题仅称使用 AI 导致了潜在泄露。",
+    "root_cause": "未知；标题指向对 AI 工具的使用。",
+    "impact": "患者的个人健康信息可能已遭泄露，其中包括 Lake Burien 的十二名青少年患者；他们的家属已于 8 月中旬获得通知。",
+    "response": "Lake Burien 于 8 月中旬联系了十二名患者的家属，告知其潜在泄露事件。",
+    "id": "wa-mental-health-ai-privacy-breach",
+    "timeline": [
+      "由 The Seattle Times 报道"
+    ]
   }
 ]

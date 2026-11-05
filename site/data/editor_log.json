@@ -1366,5 +1366,37 @@
     "reason": "The eight-state lawsuits against OpenAI filed on 2026-10-14 are already known as eight-states-v-openai.",
     "duplicate_of": "eight-states-v-openai",
     "at": "2026-11-05T06:35:37Z"
+  },
+  {
+    "id": "ai-generated-airbnb-scam-rome",
+    "title": "Traveller stranded in Rome by AI-generated Airbnb listing scam",
+    "decision": "reject",
+    "reason": "The source is a generic travel-advice article (also rehosted on travelbinger.com) with no dates, named victim, loss or official statement, so there is no specific, confirmable incident.",
+    "duplicate_of": null,
+    "at": "2026-11-05T07:05:40Z"
+  },
+  {
+    "id": "chatgpt-dying-mum-years-left",
+    "title": "Daughter says ChatGPT told dying mother she had 'years' left, delaying goodbye",
+    "decision": "wait",
+    "reason": "The account comes from a single anonymous Reddit post that IBTimes UK and TechTimes repeat, and the chats and medical records are unverified, so it cannot be confirmed yet.",
+    "duplicate_of": null,
+    "at": "2026-11-05T07:05:40Z"
+  },
+  {
+    "id": "wa-mental-health-ai-privacy-breach",
+    "title": "AI use leads to potential privacy breach at WA mental health facilities",
+    "decision": "approve",
+    "reason": "The Seattle Times (via the Yakima Herald) reports a staff member at two state-run Washington mental health facilities used an unauthorized AI platform to write patient notes, creating a potential privacy breach, and Addiction/Recovery eBulletin confirms it.",
+    "duplicate_of": null,
+    "at": "2026-11-05T07:05:40Z"
+  },
+  {
+    "id": "prt-scan-supply-chain-campaign-6091",
+    "title": "AI-powered prt-scan campaign exploits pull_request_target in GitHub repos",
+    "decision": "reject",
+    "reason": "This is the known prt-scan campaign (Wiz Research, six accounts, one actor, disclosed 2026-04-02), already filed under another date.",
+    "duplicate_of": "prt-scan-supply-chain-campaign",
+    "at": "2026-11-05T07:05:40Z"
   }
 ]

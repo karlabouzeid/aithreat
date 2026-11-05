@@ -9409,5 +9409,21 @@
     "timeline": [
       "Signalé par SecurityLab.ru"
     ]
+  },
+  {
+    "title": "L’utilisation d’une plateforme d’IA non autorisée par un membre du personnel pourrait avoir exposé des données de patients dans deux établissements de santé mentale gérés par l’État de Washington",
+    "summary": "Le Seattle Times rapporte que les informations de santé personnelles de patients de deux établissements de santé mentale gérés par l’État de Washington pourraient avoir été exposées après qu’un membre du personnel a utilisé une plateforme d’IA non autorisée pour générer des notes médicales les concernant. À la Lake Burien Transitional Care Facility, qui accueille des jeunes ayant d’importants besoins en santé mentale, les familles d’une douzaine de patients ont été contactées à la mi-août au sujet de la violation potentielle. Un second compte rendu indique que le membre du personnel a utilisé un compte ChatGPT personnel pour rédiger des notes de cas. La violation est décrite comme potentielle.",
+    "target": "Patients de deux établissements de santé mentale gérés par l’État de Washington, dont la Lake Burien Transitional Care Facility",
+    "actor": "Membre du personnel utilisant une plateforme d’IA non autorisée (non nommé)",
+    "attribution": "Inconnue ; fondée uniquement sur un titre du Seattle Times.",
+    "motive": "Inconnu",
+    "vector": "Inconnu ; le titre indique seulement que l’utilisation de l’IA a conduit à la violation potentielle.",
+    "root_cause": "Inconnue ; le titre pointe l’utilisation d’un outil d’IA.",
+    "impact": "Informations de santé personnelles de patients, dont une douzaine de jeunes patients de Lake Burien, potentiellement exposées ; leurs familles ont été averties à la mi-août.",
+    "response": "Lake Burien a contacté à la mi-août les familles d’une douzaine de patients afin de les informer de la violation potentielle.",
+    "id": "wa-mental-health-ai-privacy-breach",
+    "timeline": [
+      "Signalé par The Seattle Times"
+    ]
   }
 ]
