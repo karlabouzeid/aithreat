@@ -1558,5 +1558,69 @@
     "reason": "Russia's Interior Ministry spokeswoman announced the arrest on 19 Oct 2026 and RIA Novosti, AiF and Rambler reported it: a Barnaul hacker allegedly used AI tools to breach a large pizzeria chain's customer database.",
     "duplicate_of": null,
     "at": "2026-11-05T08:05:41Z"
+  },
+  {
+    "id": "bossai-agentic-platform-taiwan",
+    "title": "BOSSAI agentic attack platform exposes Taipei emergency medical and dispatch data",
+    "decision": "approve",
+    "reason": "Acronis TRU's own research, corroborated by eSecurityPlanet and CyberPress, documents a 12-agent AI attack mesh run by one operator against hundreds of organisations in 11 countries, exposing Taipei emergency medical and dispatch data; it is not a known case.",
+    "duplicate_of": null,
+    "at": "2026-11-05T08:35:39Z"
+  },
+  {
+    "id": "fake-chatgpt-locks-russian-iphones",
+    "title": "Scammers lock Russians' iPhones under guise of installing ChatGPT",
+    "decision": "reject",
+    "reason": "The scam is an Apple ID/Lost Mode ransom lock where ChatGPT is only the bait; no AI system is attacked, no AI is used in the attack, and no chatbot harm occurs, so it is outside AI Threat Watch's scope.",
+    "duplicate_of": null,
+    "at": "2026-11-05T08:35:39Z"
+  },
+  {
+    "id": "fake-web3-accelerator-npm-agent-hijack",
+    "title": "Fake Web3 accelerator uses npm packages to spread malware and hijack AI agent traffic",
+    "decision": "approve",
+    "reason": "Elastic Security Labs (REF8801) and The Hacker News document the fake 'Apex Accelerator' npm packages that drop stealers and reroute AI agent traffic via an attacker-controlled MCP entry; not a known case.",
+    "duplicate_of": null,
+    "at": "2026-11-05T08:35:39Z"
+  },
+  {
+    "id": "primorsky-deepfake-scam-foiled",
+    "title": "Primorsky Krai police stop online scam using deepfake technology",
+    "decision": "approve",
+    "reason": "Primorsky Krai police press service (via PrimaMedia and VL.ru) confirm a foiled scam where a deepfake video call of the regional governor was used against a 77-year-old man in Khorolsky district; no matching known case.",
+    "duplicate_of": null,
+    "at": "2026-11-05T08:35:39Z"
+  },
+  {
+    "id": "ai-assisted-microsoft-365-attacks",
+    "title": "Hackers use AI to compromise Microsoft 365 instances within three hours",
+    "decision": "reject",
+    "reason": "This is the Microsoft-reported Storm-0940 ARTEX/ConnectWise Cloud Backup campaign (2,250+ M365 tenants, privileged access in under three hours), already filed as storm-0940-artex-connectwise, and it also overlaps the 2,250-companies draft.",
+    "duplicate_of": "storm-0940-artex-connectwise",
+    "at": "2026-11-05T08:35:39Z"
+  },
+  {
+    "id": "grok-claude-latam-bank-attacks",
+    "title": "Hackers use Grok and Claude to attack Latin American banks",
+    "decision": "approve",
+    "reason": "Straiker's CARLIY0S report (published 2026-10-21 and first reported by The Information) is confirmed by several outlets, and it is not the Unit 42 September LatAm case or any other known case.",
+    "duplicate_of": null,
+    "at": "2026-11-05T08:35:39Z"
+  },
+  {
+    "id": "china-linked-ai-breach-2250-firms",
+    "title": "China-linked hackers reportedly use AI system to breach over 2,250 companies, per Microsoft",
+    "decision": "reject",
+    "reason": "This is the same Microsoft disclosure of Storm-0940 using ARTEX against 2,250+ M365 tenants via ConnectWise, already known as storm-0940-artex-connectwise.",
+    "duplicate_of": "storm-0940-artex-connectwise",
+    "at": "2026-11-05T08:35:39Z"
+  },
+  {
+    "id": "novosibirsk-ai-fake-video-scam",
+    "title": "Novosibirsk scammers use AI fake video to extract about 35,000 from victim",
+    "decision": "wait",
+    "reason": "The aggregator source could not be opened and searches found no independent report of this specific Novosibirsk case (about 35,000, currency unstated), only generic AI-scam warnings.",
+    "duplicate_of": null,
+    "at": "2026-11-05T08:35:39Z"
   }
 ]

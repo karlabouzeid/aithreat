@@ -9633,5 +9633,69 @@
     "timeline": [
       "Informado por Techora.ru"
     ]
+  },
+  {
+    "title": "Una falsa aceleradora Web3 usa paquetes npm para propagar malware y secuestrar el tráfico de agentes de IA",
+    "summary": "Elastic Security Labs (REF8801) descubrió una falsa aceleradora Web3, “Apex Accelerator”, que atraía a fundadores de proyectos cripto con créditos de IA gratuitos, herramientas de programación y auditorías mediante dos paquetes npm: @apexacc/cli (un agente de programación de código abierto reempaquetado) y @apexacc/audit (una herramienta de auditoría MCP). Los paquetes instalan programas robainformación y puertas traseras en Windows y macOS, y escriben una entrada MCP que redirige las solicitudes de los agentes de IA hacia servicios controlados por los atacantes. Elastic no observó una sustitución maliciosa de las respuestas de la IA y no se ha publicado el número de víctimas.",
+    "target": "Desarrolladores que instalan paquetes npm; tráfico de agentes de IA",
+    "actor": "Operador desconocido detrás de la falsa “Apex Accelerator” (Apex Arena)",
+    "attribution": "Desconocida; el titular no menciona a ningún actor.",
+    "motive": "Desconocido",
+    "vector": "Paquetes npm maliciosos promocionados a través de una falsa aceleradora Web3",
+    "root_cause": "Desconocida",
+    "impact": "Propagación de malware y secuestro del tráfico de agentes de IA, según el titular; escala desconocida.",
+    "response": "Desconocida",
+    "id": "fake-web3-accelerator-npm-agent-hijack",
+    "timeline": [
+      "Informado por The Hacker News"
+    ]
+  },
+  {
+    "title": "Straiker: CyberCartel usó agentes de IA de Claude, Grok y Kimi contra más de 400 objetivos financieros en América Latina",
+    "summary": "La empresa de seguridad Straiker informa de que un grupo criminal al que denomina CyberCartel utilizó agentes de IA basados en Claude de Anthropic, Grok de xAI y Kimi de Moonshot para coordinar ataques contra más de 400 bancos, proveedores de pagos y otros objetivos financieros de América Latina (presunto). Straiker no nombró a las instituciones, y los 4.493 registros mencionados no permiten establecer un número confirmado de víctimas ni de brechas.",
+    "target": "Más de 400 bancos, proveedores de pagos y otras organizaciones financieras de América Latina (sin nombrar por Straiker)",
+    "actor": "CyberCartel (según lo nombra Straiker; presunto)",
+    "attribution": "Desconocida; el titular no menciona a ningún actor.",
+    "motive": "Desconocido",
+    "vector": "Uso de modelos de IA Grok y Claude para apoyar ataques contra bancos; no se indica la técnica concreta.",
+    "root_cause": "Desconocida",
+    "impact": "Desconocido; según se informa, se atacó a bancos de América Latina.",
+    "response": "Desconocida",
+    "id": "grok-claude-latam-bank-attacks",
+    "timeline": [
+      "Informado por PYMNTS.com"
+    ]
+  },
+  {
+    "title": "La policía de Primorsky Krai frustra una estafa en línea que usaba tecnología deepfake",
+    "summary": "Según la policía de Primorsky Krai, los estafadores usaron una videollamada deepfake del gobernador regional, seguida de llamadas de falsos agentes de las fuerzas del orden y de Rosfinmonitoring, para presionar durante un mes a un hombre de 77 años del distrito de Khorolsky y lograr que retirara 1.000.000 RUB. El hombre sospechó y acudió a la policía, que cambió el efectivo por un paquete simulado y detuvo a una mujer de 79 años de San Petersburgo enviada a recogerlo; no se perdió dinero y se abrió una causa penal por intento de fraude.",
+    "target": "Pensionista de 77 años del distrito de Khorolsky, Primorsky Krai",
+    "actor": "Estafadores desconocidos; se detuvo a una mensajera de 79 años de San Petersburgo",
+    "attribution": "Desconocida; el informe policial solo dice que los estafadores usaron tecnología deepfake.",
+    "motive": "Fraude financiero",
+    "vector": "Estafa en línea con tecnología deepfake",
+    "root_cause": "Desconocida; el titular no indica detalles.",
+    "impact": "Desconocido; no se indican las víctimas ni las pérdidas.",
+    "response": "La policía frustró la estafa en línea, según el medio del Ministerio del Interior.",
+    "id": "primorsky-deepfake-scam-foiled",
+    "timeline": [
+      "Informado por МВД Медиа"
+    ]
+  },
+  {
+    "title": "La plataforma de ataque agéntica BOSSAI expone datos médicos de emergencia y de despacho de Taipéi",
+    "summary": "La Acronis Threat Research Unit informa de que un único operador usó BOSSAI, una malla de 12 agentes de IA (nueve activos), contra cientos de organizaciones en once países. Las brechas confirmadas afectaron a universidades y proveedores de emergencias; una plataforma de atención a pacientes de un departamento de bomberos de Taipéi expuso datos médicos sin credenciales, y los agentes extrajeron registros de casos del sistema de despacho 119 de una ciudad que abarca siete distritos de Taipéi. Acronis señala que los sistemas expuestos estaban débilmente protegidos antes de que interviniera cualquier IA.",
+    "target": "Servicios de emergencia, bancos, universidades, ejército, comercio electrónico",
+    "actor": "Un único operador que, según Acronis TRU con alta confianza, reside en la ciudad de Hualien, Taiwán (sin nombrar)",
+    "attribution": "GBHackers describe BOSSAI como operada por una sola persona; no se indica ningún actor con nombre ni vínculo estatal.",
+    "motive": "Desconocido",
+    "vector": "Plataforma de ataque de IA agéntica usada contra numerosas organizaciones; no se indican los métodos de entrada concretos.",
+    "root_cause": "Desconocida",
+    "impact": "Exposición de datos médicos de emergencia y de despacho en Taipéi. Se atacó a cientos de organizaciones en once países, con brechas confirmadas que incluyen universidades.",
+    "response": "Desconocida",
+    "id": "bossai-agentic-platform-taiwan",
+    "timeline": [
+      "Informado por GBHackers"
+    ]
   }
 ]

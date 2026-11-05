@@ -23253,6 +23253,58 @@
     "verified_at": "2026-11-05T07:35:38Z"
   },
   {
+    "id": "fake-web3-accelerator-npm-agent-hijack",
+    "date": "2026-10-12",
+    "title": "Fake Web3 accelerator uses npm packages to spread malware and hijack AI agent traffic",
+    "category": "AI supply chain",
+    "direction": "on-ai",
+    "severity": "medium",
+    "country": "Global",
+    "region": "Global",
+    "target": "Developers installing npm packages; AI agent traffic",
+    "loss_usd": null,
+    "summary": "Elastic Security Labs (REF8801) found a fake Web3 'Apex Accelerator' luring crypto founders with free AI credits, coding tools and audits via two npm packages, @apexacc/cli (a repackaged open-source coding agent) and @apexacc/audit (an MCP audit tool). The packages deliver information stealers and backdoors on Windows and macOS and write an MCP entry that redirects AI agent requests to attacker-controlled services. Elastic did not observe malicious substitution of AI responses and no victim count has been published.",
+    "actor": "Unknown operator behind the fake 'Apex Accelerator' (Apex Arena)",
+    "actor_type": "unknown",
+    "sector": "Technology & AI vendors",
+    "attribution": "Unknown; the headline names no actor.",
+    "motive": "Unknown",
+    "vector": "Malicious npm packages promoted through a fake Web3 accelerator",
+    "root_cause": "Unknown",
+    "impact": "Malware spread and AI agent traffic hijacked, per the headline; scale unknown.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "source": "The Hacker News",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUkF2UU5yWE9pZGxTODRmdFFFdEpxajIyb0pNNkpQVEstdTV5MEw1c1NmRzNaa2lwVk9zd18tc3NaaDZWVXV0ZDN5akY0Wks4OS1lei1FNGxYcmcwMDB3ZFN6Wl9VMkg0VnNGUlplTGoyVHJoQUpvMXc5V0xGOHFLdmoxU24?oc=5",
+    "sources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUkF2UU5yWE9pZGxTODRmdFFFdEpxajIyb0pNNkpQVEstdTV5MEw1c1NmRzNaa2lwVk9zd18tc3NaaDZWVXV0ZDN5akY0Wks4OS1lei1FNGxYcmcwMDB3ZFN6Wl9VMkg0VnNGUlplTGoyVHJoQUpvMXc5V0xGOHFLdmoxU24?oc=5"
+      },
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/fake-web3-accelerator-uses-npm-packages.html"
+      },
+      {
+        "name": "Cybersecurity News",
+        "url": "https://cybersecuritynews.com/fake-web3-accelerator/"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-19",
+        "event": "Reported by The Hacker News"
+      }
+    ],
+    "drafted_at": "2026-10-19T10:35:37Z",
+    "first_seen": "2026-10-19T10:35:37Z",
+    "updated_at": "2026-11-05T08:35:39Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-05T08:35:39Z"
+  },
+  {
     "id": "texas-ai-fake-receipt-purse-refund",
     "date": "2026-10-13",
     "title": "Alice, Texas store says apparently AI-generated receipt was used to obtain $600+ designer purse refund",
@@ -26450,6 +26502,61 @@
     "verified_at": "2026-11-05T04:05:40Z"
   },
   {
+    "id": "grok-claude-latam-bank-attacks",
+    "date": "2026-10-21",
+    "title": "Straiker: CyberCartel used Claude, Grok and Kimi AI agents against 400+ Latin American financial targets",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Latin America",
+    "target": "400+ banks, payment providers and other financial organisations in Latin America (unnamed by Straiker)",
+    "loss_usd": null,
+    "summary": "Security firm Straiker reports that a criminal group it calls CyberCartel used AI agents built on Anthropic's Claude, xAI's Grok and Moonshot's Kimi to coordinate attacks on more than 400 banks, payment providers and other financial targets in Latin America (alleged). Straiker did not name the institutions, and the reported 4,493 records do not establish a confirmed victim or breach count.",
+    "actor": "CyberCartel (as named by Straiker; alleged)",
+    "actor_type": "criminal group",
+    "sector": "Financial services",
+    "attribution": "Unknown; the headline names no actor.",
+    "motive": "Unknown",
+    "vector": "Use of Grok and Claude AI models to support attacks on banks; specific technique not stated.",
+    "root_cause": "Unknown",
+    "impact": "Unknown; banks in Latin America were reportedly targeted.",
+    "response": "Unknown",
+    "status": "reported by Straiker; victims not named, no confirmed loss",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "source": "PYMNTS.com",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNMUV3TTZhOXBPQWxWbDM4ZUJpVXdmbHZDenJkRm1Udm9rZGZZdm1XTXg0WXV0MEloakhMMURqS1Zpalo1THNEczl1N3A1bTJPbzhFX1VKOEVTSjBoTzVpd2dGM0hyeERFa0hrYmNPTnFhVkdGMldEek1wSlg0SU9FOWV2dEpoc2dwejZTS1RUOExQVVJQWjg0MHpTMA?oc=5",
+    "sources": [
+      {
+        "name": "PYMNTS.com",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNMUV3TTZhOXBPQWxWbDM4ZUJpVXdmbHZDenJkRm1Udm9rZGZZdm1XTXg0WXV0MEloakhMMURqS1Zpalo1THNEczl1N3A1bTJPbzhFX1VKOEVTSjBoTzVpd2dGM0hyeERFa0hrYmNPTnFhVkdGMldEek1wSlg0SU9FOWV2dEpoc2dwejZTS1RUOExQVVJQWjg0MHpTMA?oc=5"
+      },
+      {
+        "name": "Cybersecuritynews",
+        "url": "https://cybersecuritynews.com/hackers-used-claude-and-grok/"
+      },
+      {
+        "name": "Straiker",
+        "url": "https://www.straiker.ai/blog/inside-carliy0s-how-cybercartel-used-multiple-ai-models-to-attack-latin-american-banks"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-22",
+        "event": "Reported by PYMNTS.com"
+      }
+    ],
+    "drafted_at": "2026-10-22T03:35:41Z",
+    "first_seen": "2026-10-22T03:35:41Z",
+    "updated_at": "2026-11-05T08:35:39Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-05T08:35:39Z"
+  },
+  {
     "id": "deepfake-pm-scam-88-year-old-td-bank",
     "date": "2026-10-22",
     "title": "88-year-old BC man loses $450,000 to deepfake video of PM Mark Carney; TD Bank has not repaid him",
@@ -26829,6 +26936,61 @@
     "verification": "reported",
     "review": "auto",
     "verified_at": "2026-11-05T06:35:37Z"
+  },
+  {
+    "id": "primorsky-deepfake-scam-foiled",
+    "date": "2026-10-22",
+    "title": "Primorsky Krai police stop online scam using deepfake technology",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "RU",
+    "region": "Asia-Pacific",
+    "target": "77-year-old pensioner in Khorolsky district, Primorsky Krai",
+    "loss_usd": 0,
+    "summary": "Per Primorsky Krai police, scammers used a deepfake video call of the regional governor, followed by calls from fake law-enforcement and Rosfinmonitoring officers, to pressure a 77-year-old man in Khorolsky district for a month into withdrawing 1 million rubles. He became suspicious and went to police, who swapped the cash for a dummy and detained a 79-year-old St Petersburg woman sent to collect it; no money was lost and a criminal attempted-fraud case was opened.",
+    "actor": "Unknown scammers; a 79-year-old St Petersburg courier was detained",
+    "actor_type": "criminal",
+    "sector": "Individuals & consumers",
+    "attribution": "Unknown; police report only says fraudsters used deepfake technology.",
+    "motive": "Financial fraud",
+    "vector": "Online scam using deepfake technology",
+    "root_cause": "Unknown; details not stated in the headline.",
+    "impact": "Unknown; victims and losses not stated.",
+    "response": "Police stopped the online scam, per the Interior Ministry media outlet.",
+    "status": "contained",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "source": "МВД Медиа",
+    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNZnVBcFNzeS13bkNMVHRpVTdEUUNrWGtVZWdoekdzQzE4MWlIN2Z1TFZpaDJnQm1PU0t3cmplV2RJaWJLMnBCOUFmMVdub0tPWE9oUmxNbkdQM1ZpTkxyS2JXS3pkeThSU0FQSy1GQjBRSGVqSzNrcGNIOVc0QmY5MlR0NV93Nm9Za29mV052YzNOTHF1cEpBMEo2bHNNM3RiRU5hYVpYRzUyZzlxTHByMWtQVlVOTDFxdkVzNW4zT1lOTHpTc094bFdjWTN4MDJOR2hrSTRqMUZaTlRj?oc=5",
+    "sources": [
+      {
+        "name": "МВД Медиа",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNZnVBcFNzeS13bkNMVHRpVTdEUUNrWGtVZWdoekdzQzE4MWlIN2Z1TFZpaDJnQm1PU0t3cmplV2RJaWJLMnBCOUFmMVdub0tPWE9oUmxNbkdQM1ZpTkxyS2JXS3pkeThSU0FQSy1GQjBRSGVqSzNrcGNIOVc0QmY5MlR0NV93Nm9Za29mV052YzNOTHF1cEpBMEo2bHNNM3RiRU5hYVpYRzUyZzlxTHByMWtQVlVOTDFxdkVzNW4zT1lOTHpTc094bFdjWTN4MDJOR2hrSTRqMUZaTlRj?oc=5"
+      },
+      {
+        "name": "PrimaMedia",
+        "url": "https://primamedia.ru/news/2657811/"
+      },
+      {
+        "name": "VL.ru (AiF Vladivostok)",
+        "url": "https://vl.aif.ru/society/79-letnyuyu-kurershu-zhulikov-priletevshuyu-iz-peterburga-zaderzhali-v-primore"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-21",
+        "event": "Reported by МВД Медиа"
+      }
+    ],
+    "drafted_at": "2026-10-21T14:36:04Z",
+    "first_seen": "2026-10-21T14:36:04Z",
+    "updated_at": "2026-11-05T08:35:39Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-05T08:35:39Z"
   },
   {
     "id": "mendoza-retiree-messi-ai-scam",
@@ -29657,5 +29819,60 @@
     "verification": "reported",
     "review": "auto",
     "verified_at": "2026-11-05T07:23:34Z"
+  },
+  {
+    "id": "bossai-agentic-platform-taiwan",
+    "date": "2026-11-05",
+    "title": "BOSSAI agentic attack platform exposes Taipei emergency medical and dispatch data",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "TW",
+    "region": "Asia-Pacific",
+    "target": "Emergency services, banks, universities, military, e-commerce",
+    "loss_usd": null,
+    "summary": "Acronis Threat Research Unit reports a single operator used BOSSAI, a mesh of 12 AI agents (nine active), against hundreds of organisations in eleven countries. Confirmed breaches hit universities and emergency providers; a Taipei fire department patient-care platform exposed medical data without credentials, and agents pulled case records from a city's 119 dispatch system covering seven Taipei districts. Acronis notes the exposed systems were weakly protected before any AI was involved.",
+    "actor": "Single operator, assessed by Acronis TRU with high confidence to be based in Hualien City, Taiwan (unnamed)",
+    "actor_type": "unknown",
+    "sector": "Multiple / cross-sector",
+    "attribution": "GBHackers describes BOSSAI as run by one operator; no named actor or state link given.",
+    "motive": "Unknown",
+    "vector": "Agentic AI attack platform used against many organisations; specific entry methods not stated.",
+    "root_cause": "Unknown",
+    "impact": "Emergency medical and dispatch data exposed in Taipei. Hundreds of organisations in eleven countries were targeted, with confirmed breaches including universities.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "source": "GBHackers",
+    "url": "https://gbhackers.com/ai-powered-bossai-attacks",
+    "sources": [
+      {
+        "name": "GBHackers",
+        "url": "https://gbhackers.com/ai-powered-bossai-attacks"
+      },
+      {
+        "name": "Acronis Threat Research Unit",
+        "url": "https://www.acronis.com/en/tru/posts/bossai-inside-the-ai-attack-mesh-that-targeted-taiwans-emergency-services/"
+      },
+      {
+        "name": "eSecurityPlanet",
+        "url": "https://www.esecurityplanet.com/threats/news-bossai-ai-agents-taiwan-emergency-services-apac/"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-11-05",
+        "event": "Reported by GBHackers"
+      }
+    ],
+    "drafted_at": "2026-11-05T07:23:34Z",
+    "first_seen": "2026-11-05T07:23:34Z",
+    "updated_at": "2026-11-05T08:35:39Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-05T08:35:39Z"
   }
 ]

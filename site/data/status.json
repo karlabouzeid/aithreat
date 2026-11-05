@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-11-05T08:05:41Z",
+  "updated_at": "2026-11-05T08:35:39Z",
   "wire_items": 800,
   "new_items": 2,
-  "candidates": 83,
-  "incidents": 560,
+  "candidates": 76,
+  "incidents": 564,
   "feeds_ok": [
     "BleepingComputer",
     "The Record",
@@ -87,5 +87,5 @@
     "EDPB",
     "CISA news"
   ],
-  "triage": "triaged 4 items with claude-sonnet-5-5 in 1 batches (0 failed); kept 2"
+  "triage": "triaged 5 items with claude-sonnet-5-5 in 1 batches (0 failed); kept 2"
 }

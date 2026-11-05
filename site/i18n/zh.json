@@ -9633,5 +9633,69 @@
     "timeline": [
       "Techora.ru 报道"
     ]
+  },
+  {
+    "title": "虚假 Web3 加速器借 npm 包传播恶意软件并劫持 AI 智能体流量",
+    "summary": "Elastic Security Labs（REF8801）发现一个虚假的 Web3 “Apex Accelerator”项目，以免费 AI 额度、编程工具和审计服务为诱饵引诱加密货币领域的创始人，并通过两个 npm 包进行投放：@apexacc/cli（重新打包的开源编程智能体）和 @apexacc/audit（一款 MCP 审计工具）。这两个包会在 Windows 和 macOS 上投放信息窃取程序和后门，并写入一条 MCP 条目，将 AI 智能体的请求重定向至攻击者控制的服务。Elastic 未观察到 AI 响应被恶意替换的情况，目前也未公布受害者数量。",
+    "target": "安装 npm 包的开发者；AI 智能体流量",
+    "actor": "虚假“Apex Accelerator”（Apex Arena）背后的未知运营者",
+    "attribution": "未知；标题未点名任何行为者。",
+    "motive": "未知",
+    "vector": "通过虚假 Web3 加速器推广的恶意 npm 包",
+    "root_cause": "未知",
+    "impact": "据标题称，恶意软件被传播，AI 智能体流量遭劫持；影响规模未知。",
+    "response": "未知",
+    "id": "fake-web3-accelerator-npm-agent-hijack",
+    "timeline": [
+      "The Hacker News 报道"
+    ]
+  },
+  {
+    "title": "Straiker：CyberCartel 利用 Claude、Grok 和 Kimi AI 智能体攻击 400 多个拉美金融目标",
+    "summary": "安全公司 Straiker 报告称，其命名为 CyberCartel 的犯罪团伙使用基于 Anthropic 的 Claude、xAI 的 Grok 和 Moonshot 的 Kimi 构建的 AI 智能体，协同攻击拉丁美洲 400 多家银行、支付服务商及其他金融目标（指称）。Straiker 未点名相关机构，所报告的 4,493 条记录也无法证实确切的受害者数量或入侵数量。",
+    "target": "拉丁美洲 400 多家银行、支付服务商及其他金融机构（Straiker 未点名）",
+    "actor": "CyberCartel（由 Straiker 命名；指称）",
+    "attribution": "未知；标题未点名任何行为者。",
+    "motive": "未知",
+    "vector": "利用 Grok 和 Claude AI 模型协助攻击银行；具体技术手段未说明。",
+    "root_cause": "未知",
+    "impact": "未知；据报道拉丁美洲的银行成为攻击目标。",
+    "response": "未知",
+    "id": "grok-claude-latam-bank-attacks",
+    "timeline": [
+      "PYMNTS.com 报道"
+    ]
+  },
+  {
+    "title": "滨海边疆区警方制止一起利用深度伪造技术的网络诈骗",
+    "summary": "据滨海边疆区警方称，诈骗分子先利用该地区州长的深度伪造视频通话，随后又由冒充执法人员和俄罗斯联邦金融监测局（Rosfinmonitoring）官员的人员打来电话，对霍罗尔斯基区一名 77 岁男子施压长达一个月，迫使其取出 100 万卢布。该男子起了疑心并报警，警方用假钞包替换了现金，并拘留了被派去取钱的一名 79 岁圣彼得堡女子；没有资金损失，警方已就诈骗未遂立案侦查。",
+    "target": "滨海边疆区霍罗尔斯基区一名 77 岁的退休老人",
+    "actor": "身份不明的诈骗分子；一名 79 岁的圣彼得堡取款人（跑腿人）被拘留",
+    "attribution": "未知；警方通报仅称诈骗分子使用了深度伪造技术。",
+    "motive": "金融诈骗",
+    "vector": "利用深度伪造技术的网络诈骗",
+    "root_cause": "未知；标题未说明细节。",
+    "impact": "未知；标题未说明受害者和损失情况。",
+    "response": "据内务部媒体称，警方制止了这起网络诈骗。",
+    "id": "primorsky-deepfake-scam-foiled",
+    "timeline": [
+      "МВД Медиа 报道"
+    ]
+  },
+  {
+    "title": "BOSSAI 智能体攻击平台致台北急救医疗和调度数据暴露",
+    "summary": "Acronis Threat Research Unit 报告称，一名运营者使用由 12 个 AI 智能体（其中 9 个处于活跃状态）组成的网状平台 BOSSAI，攻击了 11 个国家的数百个组织。已确认的入侵影响了大学和急救服务机构；台北一消防部门的患者护理平台在无需凭据的情况下暴露了医疗数据，智能体还从某市的 119 调度系统中提取了涉及台北七个行政区的案件记录。Acronis 指出，这些暴露的系统在 AI 介入之前防护就很薄弱。",
+    "target": "急救服务机构、银行、大学、军方、电子商务",
+    "actor": "单一运营者，Acronis TRU 以高置信度判定其位于台湾花莲市（未具名）",
+    "attribution": "GBHackers 称 BOSSAI 由一名运营者运营；未给出具名行为者或与国家的关联。",
+    "motive": "未知",
+    "vector": "用于攻击众多组织的智能体 AI 攻击平台；具体入侵方式未说明。",
+    "root_cause": "未知",
+    "impact": "台北的急救医疗和调度数据暴露。11 个国家的数百个组织成为攻击目标，已确认的入侵包括多所大学。",
+    "response": "未知",
+    "id": "bossai-agentic-platform-taiwan",
+    "timeline": [
+      "GBHackers 报道"
+    ]
   }
 ]

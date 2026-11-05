@@ -9633,5 +9633,69 @@
     "timeline": [
       "Signalé par Techora.ru"
     ]
+  },
+  {
+    "title": "Un faux accélérateur Web3 se sert de paquets npm pour diffuser des logiciels malveillants et détourner le trafic d'agents IA",
+    "summary": "Elastic Security Labs (REF8801) a découvert un faux accélérateur Web3, « Apex Accelerator », qui appâte des fondateurs du secteur des cryptomonnaies avec des crédits d'IA gratuits, des outils de programmation et des audits, au moyen de deux paquets npm : @apexacc/cli (un agent de programmation open source reconditionné) et @apexacc/audit (un outil d'audit MCP). Les paquets déploient des infostealers et des portes dérobées sous Windows et macOS, et écrivent une entrée MCP qui redirige les requêtes des agents IA vers des services contrôlés par l'attaquant. Elastic n'a pas observé de substitution malveillante des réponses de l'IA, et aucun nombre de victimes n'a été publié.",
+    "target": "Développeurs installant des paquets npm ; trafic d'agents IA",
+    "actor": "Opérateur inconnu derrière le faux « Apex Accelerator » (Apex Arena)",
+    "attribution": "Inconnue ; le titre ne nomme aucun acteur.",
+    "motive": "Inconnu",
+    "vector": "Paquets npm malveillants promus par l'intermédiaire d'un faux accélérateur Web3",
+    "root_cause": "Inconnue",
+    "impact": "Diffusion de logiciels malveillants et détournement du trafic d'agents IA, selon le titre ; ampleur inconnue.",
+    "response": "Inconnue",
+    "id": "fake-web3-accelerator-npm-agent-hijack",
+    "timeline": [
+      "Signalé par The Hacker News"
+    ]
+  },
+  {
+    "title": "Straiker : CyberCartel a utilisé des agents IA Claude, Grok et Kimi contre plus de 400 cibles financières en Amérique latine",
+    "summary": "La société de sécurité Straiker rapporte qu'un groupe criminel qu'elle nomme CyberCartel a utilisé des agents IA fondés sur Claude d'Anthropic, Grok de xAI et Kimi de Moonshot pour coordonner des attaques contre plus de 400 banques, prestataires de paiement et autres cibles financières en Amérique latine (présumé). Straiker n'a pas nommé les établissements, et les 4 493 enregistrements signalés ne permettent pas d'établir un nombre confirmé de victimes ou de compromissions.",
+    "target": "Plus de 400 banques, prestataires de paiement et autres organisations financières en Amérique latine (non nommés par Straiker)",
+    "actor": "CyberCartel (nom donné par Straiker ; présumé)",
+    "attribution": "Inconnue ; le titre ne nomme aucun acteur.",
+    "motive": "Inconnu",
+    "vector": "Utilisation des modèles d'IA Grok et Claude pour appuyer des attaques contre des banques ; technique précise non indiquée.",
+    "root_cause": "Inconnue",
+    "impact": "Inconnu ; des banques d'Amérique latine auraient été ciblées.",
+    "response": "Inconnue",
+    "id": "grok-claude-latam-bank-attacks",
+    "timeline": [
+      "Signalé par PYMNTS.com"
+    ]
+  },
+  {
+    "title": "La police du kraï du Primorié déjoue une escroquerie en ligne recourant à la technologie deepfake",
+    "summary": "Selon la police du kraï du Primorié, des escrocs ont utilisé un appel vidéo en deepfake du gouverneur de la région, suivi d'appels de faux représentants des forces de l'ordre et de faux agents de Rosfinmonitoring, pour faire pression pendant un mois sur un homme de 77 ans du district de Khorolsky afin qu'il retire 1 million de roubles. Devenu méfiant, il s'est rendu à la police, qui a remplacé l'argent liquide par une fausse liasse et interpellé une coursière de 79 ans de Saint-Pétersbourg, envoyée pour le récupérer ; aucune somme n'a été perdue et une procédure pénale pour tentative d'escroquerie a été ouverte.",
+    "target": "Retraité de 77 ans du district de Khorolsky, kraï du Primorié",
+    "actor": "Escrocs inconnus ; une coursière de 79 ans de Saint-Pétersbourg a été interpellée",
+    "attribution": "Inconnue ; la police indique seulement que des fraudeurs ont utilisé la technologie deepfake.",
+    "motive": "Fraude financière",
+    "vector": "Escroquerie en ligne recourant à la technologie deepfake",
+    "root_cause": "Inconnue ; détails non indiqués dans le titre.",
+    "impact": "Inconnu ; victimes et pertes non indiquées.",
+    "response": "La police a mis fin à l'escroquerie en ligne, selon le média du ministère de l'Intérieur.",
+    "id": "primorsky-deepfake-scam-foiled",
+    "timeline": [
+      "Signalé par МВД Медиа"
+    ]
+  },
+  {
+    "title": "La plateforme d'attaque agentique BOSSAI expose des données médicales d'urgence et de répartition des secours à Taipei",
+    "summary": "L'Acronis Threat Research Unit rapporte qu'un opérateur unique a utilisé BOSSAI, un maillage de 12 agents IA (dont neuf actifs), contre des centaines d'organisations dans onze pays. Des compromissions confirmées ont touché des universités et des services d'urgence ; une plateforme de prise en charge des patients d'un service d'incendie de Taipei a exposé des données médicales sans identifiants, et des agents ont extrait des dossiers d'intervention du système de répartition des appels 119 d'une ville, couvrant sept arrondissements de Taipei. Acronis note que les systèmes exposés étaient faiblement protégés avant même l'intervention de toute IA.",
+    "target": "Services d'urgence, banques, universités, armée, commerce en ligne",
+    "actor": "Opérateur unique, que l'Acronis TRU estime avec un haut niveau de confiance basé à Hualien City, à Taïwan (non nommé)",
+    "attribution": "GBHackers décrit BOSSAI comme exploité par un seul opérateur ; aucun acteur nommé ni lien avec un État n'est indiqué.",
+    "motive": "Inconnu",
+    "vector": "Plateforme d'attaque d'IA agentique utilisée contre de nombreuses organisations ; méthodes d'intrusion précises non indiquées.",
+    "root_cause": "Inconnue",
+    "impact": "Données médicales d'urgence et de répartition des secours exposées à Taipei. Des centaines d'organisations dans onze pays ont été ciblées, avec des compromissions confirmées touchant notamment des universités.",
+    "response": "Inconnue",
+    "id": "bossai-agentic-platform-taiwan",
+    "timeline": [
+      "Signalé par GBHackers"
+    ]
   }
 ]
