@@ -8481,5 +8481,69 @@
     "timeline": [
       "Signalé par Рабочий путь"
     ]
+  },
+  {
+    "title": "Des alertes à la bombe à la voix générée par IA perturbent à répétition des écoles de Wheatland, en Californie",
+    "summary": "Le lycée Wheatland Union High School, dans le comté de Yuba (Californie), a reçu dans la nuit du 18 août 2026 une alerte à la bombe que la police a qualifiée de générée par ordinateur et dont les autorités ont indiqué qu'elle utilisait une voix générée par IA ; elle exigeait une rançon de 15 000 $ et a entraîné l'annulation des cours. Des menaces se sont répétées le lendemain au lycée et au collège Bear River Middle School, puis lors de jours ultérieurs. La police a fouillé le campus sans rien trouver et a qualifié les menaces de canulars ; les enquêteurs n'avaient pas identifié l'auteur des appels.",
+    "target": "Wheatland Union High School et Bear River Middle School, comté de Yuba, Californie",
+    "actor": "Inconnu",
+    "attribution": "Appelant anonyme ; aucune attribution dans les articles.",
+    "motive": "Inconnu ; les menaces étaient des canulars visant à provoquer des perturbations.",
+    "vector": "Appels téléphoniques utilisant une voix générée par IA.",
+    "root_cause": "Les voix synthétiques permettent à des appelants anonymes de proférer à répétition des menaces canular ; les résumés ne fournissent aucun autre détail.",
+    "impact": "Évacuation et annulation des cours au lycée Wheatland Union High School, suivies de menaces répétées pendant au moins trois jours.",
+    "response": "Les forces de l'ordre ont fouillé et dégagé le campus. Les cours ont repris et l'établissement a continué de fonctionner normalement malgré les menaces ultérieures.",
+    "id": "wheatland-ai-voice-bomb-threats",
+    "timeline": [
+      "Signalé par AI Incident Database"
+    ]
+  },
+  {
+    "title": "La police de Chanthaburi arrête un homme soupçonné d'une arnaque sentimentale fondée sur des documents falsifiés par IA, pour 21,29 millions de bahts",
+    "summary": "La police de Chanthaburi a arrêté un Thaïlandais soupçonné d'avoir escroqué une victime d'arnaque sentimentale de 21 287 731,88 bahts, au moyen de 623 paiements et remises d'argent entre avril 2025 et septembre 2026. Selon la police, il aurait utilisé des outils d'IA pour générer et modifier de faux documents bancaires faisant état d'un dépôt de plus de 14 millions de bahts, et l'essentiel de l'argent aurait été dépensé dans des jeux d'argent en ligne. Il est poursuivi pour faux et usage de faux et pour escroquerie.",
+    "target": "Une seule victime d'arnaque sentimentale (623 paiements sur environ 17 mois)",
+    "actor": "Homme thaïlandais arrêté par la police de Chanthaburi (présumé)",
+    "attribution": "Arrestation par la police thaïlandaise rapportée par QQ News ; le suspect n'est pas nommé dans le résumé.",
+    "motive": "Gain financier par la fraude sentimentale",
+    "vector": "Documents falsifiés par IA utilisés pour gagner la confiance et escroquer des victimes dans le cadre d'une arnaque sentimentale",
+    "root_cause": "Inconnue",
+    "impact": "Pertes signalées de plus de 21 millions de bahts pour l'ensemble des victimes concernées.",
+    "response": "La police thaïlandaise a arrêté le suspect.",
+    "id": "thai-ai-forged-docs-romance-scam",
+    "timeline": [
+      "Signalé par QQ News"
+    ]
+  },
+  {
+    "title": "Un magasin d'Alice, au Texas, affirme qu'un reçu apparemment généré par IA a servi à obtenir le remboursement de plus de 600 $ d'un sac à main de créateur",
+    "summary": "Le magasin Horseshoes Western Wear, à Alice (Texas), a indiqué qu'un reçu apparemment généré par IA avait été utilisé pour obtenir un remboursement sous garantie de plus de 600 $ pour un sac à main de créateur. Le faux n'a été repéré qu'après le versement du remboursement. Le Better Business Bureau a exhorté les entreprises à vérifier les reçus avant d'émettre des remboursements.",
+    "target": "Horseshoes Western Wear (et son distributeur), Alice, Texas",
+    "actor": "Inconnu",
+    "attribution": "Inconnue ; un escroc agissant seul est sous-entendu, mais n'est pas identifié dans le titre.",
+    "motive": "Gain financier par un remboursement frauduleux.",
+    "vector": "Faux reçu généré par IA présenté pour obtenir le remboursement d'une marchandise.",
+    "root_cause": "Inconnue ; le magasin a accepté un reçu dont il a ensuite été établi qu'il était généré par IA.",
+    "impact": "Le magasin a versé un remboursement de 600 $ pour un sac à main de créateur. Le titre ne donne pas davantage de précisions.",
+    "response": "Le magasin a repéré le reçu généré par IA après le remboursement. Aucune autre réponse n'est indiquée.",
+    "id": "texas-ai-fake-receipt-purse-refund",
+    "timeline": [
+      "Signalé par The Cool Down"
+    ]
+  },
+  {
+    "title": "IwaiCosmo Securities victime d'une cyberattaque contre son système de négociation, avec des transactions non autorisées ; l'IA est soupçonnée",
+    "summary": "IwaiCosmo Securities a indiqué qu'un tiers avait obtenu un accès non autorisé, le 14 octobre 2026, au système de gestion des transactions exploité par Trade Works, qui fait fonctionner sa plateforme de négociation en ligne. Des ordres non autorisés ont été passés sur sept comptes clients et exécutés sur cinq d'entre eux, et les données personnelles de 4 975 personnes ont fuité. Des médias japonais, dont Kyodo, Nikkei et MBS, rapportent que l'IA aurait été utilisée dans l'attaque, ce qui n'est pas confirmé. Le président de la société a présenté ses excuses le 23 octobre 2026.",
+    "target": "Système de négociation en ligne d'IwaiCosmo Securities (exploité par Trade Works)",
+    "actor": "Tiers non identifié (recours présumé à l'IA)",
+    "attribution": "Inconnue ; la société ne mentionne qu'un tiers non nommé.",
+    "motive": "Inconnu",
+    "vector": "Inconnu ; la société indique que l'IA a été utilisée dans l'attaque contre ses systèmes.",
+    "root_cause": "Inconnue",
+    "impact": "Ordres non autorisés sur 7 comptes, transactions exécutées sur 5 ; fuite des données personnelles de 4 975 personnes",
+    "response": "La société a rendu publique l'attaque ; aucun autre détail sur sa réponse n'a été fourni.",
+    "id": "iwai-cosmo-securities-ai-attack",
+    "timeline": [
+      "Signalé par 共同网"
+    ]
   }
 ]

@@ -702,5 +702,69 @@
     "reason": "It covers the same Zscaler ThreatLabz SmartRAT ClickFix campaign on AI-built typosquatted domains that is already in the registry.",
     "duplicate_of": "ai-built-clickfix-smartrat",
     "at": "2026-11-05T00:20:59Z"
+  },
+  {
+    "id": "s1ngularity-nx-supply-chain-ai-malware",
+    "title": "s1ngularity: Nx supply chain attack uses AI-powered malware",
+    "decision": "reject",
+    "reason": "This is the same Nx s1ngularity attack as the known case nx-s1ngularity, and the draft is only a follow-up Wiz analysis of it.",
+    "duplicate_of": "nx-s1ngularity",
+    "at": "2026-11-05T00:35:44Z"
+  },
+  {
+    "id": "moltbook-exposed-database-wiz",
+    "title": "Exposed Moltbook database leaks 35,000 emails and 1.5M API keys",
+    "decision": "reject",
+    "reason": "This is the same Moltbook database exposure (same date, same Wiz finding) as the known case moltbook-db-exposure.",
+    "duplicate_of": "moltbook-db-exposure",
+    "at": "2026-11-05T00:35:44Z"
+  },
+  {
+    "id": "asos-simon-ai-breach",
+    "title": "ASOS breach linked to compromised agentic marketing platform Simon AI",
+    "decision": "reject",
+    "reason": "This is the same ASOS / Simon AI breach claim as the known case asos-simon-ai-breach-4af8.",
+    "duplicate_of": "asos-simon-ai-breach-4af8",
+    "at": "2026-11-05T00:35:44Z"
+  },
+  {
+    "id": "wheatland-ai-voice-bomb-threats",
+    "title": "AI-voice bomb threats repeatedly disrupt Wheatland, California schools",
+    "decision": "approve",
+    "reason": "Local TV, CBS Sacramento and police statements confirm AI-generated-voice hoax bomb threats at Wheatland schools, but the draft date is wrong and the evacuation claim is unsupported.",
+    "duplicate_of": null,
+    "at": "2026-11-05T00:35:44Z"
+  },
+  {
+    "id": "texas-ai-fake-receipt-purse-refund",
+    "title": "Texas store spots AI-generated receipt after $600 designer purse refund scam",
+    "decision": "approve",
+    "reason": "Multiple local TV stations (KIII and affiliates) and Yahoo report a Horseshoes Western Wear store in Alice, Texas saying an apparently AI-generated receipt was used to obtain a $600+ purse refund; it is a distinct event from the other AI fake-refund cases already listed.",
+    "duplicate_of": null,
+    "at": "2026-11-05T00:35:44Z"
+  },
+  {
+    "id": "thai-ai-forged-docs-romance-scam",
+    "title": "Thai police arrest man over AI-forged-document romance scam worth 21M+ baht",
+    "decision": "approve",
+    "reason": "Chanthaburi police announced the arrest on 2026-10-11, and Thaiger, Thairath, Channel 7 and Chiang Rai Times report an alleged romance scam using AI-forged bank documents with losses of 21.29M baht.",
+    "duplicate_of": null,
+    "at": "2026-11-05T00:35:44Z"
+  },
+  {
+    "id": "iwai-cosmo-securities-ai-attack",
+    "title": "Iwai Cosmo Securities says third party used AI to attack its systems",
+    "decision": "approve",
+    "reason": "Nikkei, Nikkei Asia, Jiji and MBS confirm the 2026-10-14 cyberattack on IwaiCosmo's Trade Works trading system with unauthorized trades; Kyodo and MBS report AI was suspected to have been used, so AI involvement is stated as alleged.",
+    "duplicate_of": null,
+    "at": "2026-11-05T00:35:44Z"
+  },
+  {
+    "id": "almaty-deepfake-account-opening",
+    "title": "Accounts opened in Almaty woman's name via deepfake; court orders her to pay 3.2M",
+    "decision": "wait",
+    "reason": "I could not open the source and found no independent reporting; the draft also lacks the currency, the court and the institution involved.",
+    "duplicate_of": null,
+    "at": "2026-11-05T00:35:44Z"
   }
 ]

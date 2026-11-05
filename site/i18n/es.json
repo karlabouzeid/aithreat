@@ -8481,5 +8481,69 @@
     "timeline": [
       "Informado por Rabochy Put"
     ]
+  },
+  {
+    "title": "Amenazas de bomba con voz generada por IA interrumpen repetidamente las escuelas de Wheatland, California",
+    "summary": "El Wheatland Union High School, en el condado de Yuba (California), recibió durante la noche del 18 de agosto de 2026 una amenaza de bomba que la policía describió como generada por computadora y que, según los funcionarios, utilizaba una voz generada por IA; exigía un rescate de 15.000 USD y provocó la cancelación de clases. Las amenazas se repitieron al día siguiente en el instituto y en el Bear River Middle School, y de nuevo en días posteriores. La policía registró el campus, no encontró nada y calificó las amenazas de falsas alarmas; los investigadores no habían identificado a la persona que llamó.",
+    "target": "Wheatland Union High School y Bear River Middle School, condado de Yuba, California",
+    "actor": "Desconocido",
+    "attribution": "Persona anónima que realizó las llamadas; los informes no incluyen ninguna atribución.",
+    "motive": "Desconocido; las amenazas eran falsas alarmas que causaron interrupciones.",
+    "vector": "Llamadas telefónicas con una voz generada por IA.",
+    "root_cause": "Las voces sintéticas permiten a quienes llaman de forma anónima lanzar amenazas falsas repetidas; los resúmenes no ofrecen más detalles.",
+    "impact": "Evacuación y cancelación de clases en el Wheatland Union High School, seguidas de amenazas repetidas durante al menos tres días.",
+    "response": "Las fuerzas del orden despejaron el campus. Las clases se reanudaron y la escuela siguió funcionando con normalidad ante las amenazas posteriores.",
+    "id": "wheatland-ai-voice-bomb-threats",
+    "timeline": [
+      "Reportado por AI Incident Database"
+    ]
+  },
+  {
+    "title": "La policía de Chanthaburi detiene a un hombre acusado de una estafa sentimental con documentos falsificados mediante IA por 21,29 millones de baht",
+    "summary": "La policía de Chanthaburi arrestó a un hombre tailandés acusado de defraudar a una víctima de una estafa sentimental por 21.287.731,88 baht mediante 623 pagos y entregas entre abril de 2025 y septiembre de 2026. Según la policía, utilizó herramientas de IA para generar y alterar documentos bancarios falsos que mostraban un depósito de más de 14 millones de baht, y la mayor parte del dinero se habría gastado presuntamente en apuestas en línea. Se enfrenta a cargos de falsificación y fraude.",
+    "target": "Una única víctima de una estafa sentimental (623 pagos durante unos 17 meses)",
+    "actor": "Hombre tailandés detenido por la policía de Chanthaburi (presunto)",
+    "attribution": "Detención por la policía tailandesa informada por QQ News; el resumen no nombra al sospechoso.",
+    "motive": "Beneficio económico mediante fraude sentimental",
+    "vector": "Documentos falsificados con IA utilizados para generar confianza y defraudar a las víctimas en una estafa sentimental",
+    "root_cause": "Desconocida",
+    "impact": "Pérdidas notificadas de más de 21 millones de baht entre las víctimas implicadas.",
+    "response": "La policía tailandesa arrestó al sospechoso.",
+    "id": "thai-ai-forged-docs-romance-scam",
+    "timeline": [
+      "Reportado por QQ News"
+    ]
+  },
+  {
+    "title": "Una tienda de Alice, Texas, afirma que un recibo aparentemente generado por IA se usó para obtener el reembolso de un bolso de diseñador de más de 600 USD",
+    "summary": "Horseshoes Western Wear, en Alice (Texas), afirmó que se utilizó un recibo que parecía generado por IA para obtener un reembolso por garantía de más de 600 USD por un bolso de diseñador. La falsificación se detectó solo después de pagar el reembolso. La Better Business Bureau instó a las empresas a verificar los recibos antes de emitir reembolsos.",
+    "target": "Horseshoes Western Wear (y su distribuidor), Alice, Texas",
+    "actor": "Desconocido",
+    "attribution": "Desconocida; se da a entender que se trata de un estafador individual, pero el titular no lo identifica.",
+    "motive": "Beneficio económico mediante un reembolso fraudulento.",
+    "vector": "Recibo falso generado por IA presentado para obtener el reembolso de una mercancía.",
+    "root_cause": "Desconocida; la tienda aceptó un recibo que más tarde resultó haber sido generado por IA.",
+    "impact": "La tienda pagó un reembolso de 600 USD por un bolso de diseñador. El titular no ofrece más detalles.",
+    "response": "La tienda detectó el recibo generado por IA después del reembolso. No se indica ninguna otra respuesta.",
+    "id": "texas-ai-fake-receipt-purse-refund",
+    "timeline": [
+      "Reportado por The Cool Down"
+    ]
+  },
+  {
+    "title": "IwaiCosmo Securities sufre un ciberataque contra su sistema de negociación con operaciones no autorizadas; se sospecha del uso de IA",
+    "summary": "IwaiCosmo Securities informó de que un tercero obtuvo acceso no autorizado el 14 de octubre de 2026 al sistema de gestión de operaciones administrado por Trade Works, que opera su sistema de negociación en línea. Se emitieron órdenes no autorizadas en siete cuentas de clientes, que se ejecutaron en cinco, y se filtraron los datos personales de 4.975 personas. Medios japoneses, entre ellos Kyodo, Nikkei y MBS, informan de que se sospecha que se utilizó IA en el ataque, aunque no está confirmado. El presidente de la empresa pidió disculpas el 23 de octubre de 2026.",
+    "target": "Sistema de negociación en línea de IwaiCosmo Securities (operado por Trade Works)",
+    "actor": "Tercero no identificado (presunto uso de IA)",
+    "attribution": "Desconocida; la empresa solo se refiere a un tercero sin nombre.",
+    "motive": "Desconocido",
+    "vector": "Desconocido; la empresa afirma que se utilizó IA en el ataque contra sus sistemas.",
+    "root_cause": "Desconocida",
+    "impact": "Órdenes no autorizadas en 7 cuentas, operaciones ejecutadas en 5; filtración de datos personales de 4.975 personas",
+    "response": "La empresa divulgó públicamente el ataque; no se ofrecieron más detalles sobre la respuesta.",
+    "id": "iwai-cosmo-securities-ai-attack",
+    "timeline": [
+      "Reportado por 共同网"
+    ]
   }
 ]

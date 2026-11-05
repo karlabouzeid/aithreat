@@ -8481,5 +8481,69 @@
     "timeline": [
       "由 Рабочий путь 报道"
     ]
+  },
+  {
+    "title": "AI 语音炸弹威胁接连扰乱加利福尼亚州 Wheatland 学校",
+    "summary": "2026 年 8 月 18 日夜间，加利福尼亚州尤巴县的 Wheatland Union High School 收到一则炸弹威胁。警方称其为计算机生成，官员称其使用了 AI 生成的语音；威胁者索要 1.5 万美元赎金，并导致课程取消。次日，该高中和 Bear River Middle School 再次收到威胁，之后几天又有威胁出现。警方搜查了校园，未发现任何危险物品，并称这些威胁为恶作剧；调查人员尚未查明来电者身份。",
+    "target": "加利福尼亚州尤巴县的 Wheatland Union High School 和 Bear River Middle School",
+    "actor": "未知",
+    "attribution": "匿名来电者；报道中未给出归因。",
+    "motive": "未知；这些威胁属于恶作剧，造成了扰乱。",
+    "vector": "使用 AI 生成语音的电话。",
+    "root_cause": "合成语音使匿名来电者得以反复发出恶作剧威胁；摘要未提供更多细节。",
+    "impact": "Wheatland Union High School 被疏散、课程取消，此后至少三天内威胁反复出现。",
+    "response": "执法部门清查了校园。课程恢复，学校在之后再次出现威胁时仍照常运转。",
+    "id": "wheatland-ai-voice-bomb-threats",
+    "timeline": [
+      "由 AI Incident Database 报道"
+    ]
+  },
+  {
+    "title": "尖竹汶府（Chanthaburi）警方逮捕涉嫌利用 AI 伪造文件实施情感诈骗的男子，涉案金额 2129 万泰铢",
+    "summary": "尖竹汶府警方逮捕了一名泰国男子，该男子涉嫌在 2025 年 4 月至 2026 年 9 月间，通过 623 次付款和当面交付，从一名情感诈骗受害者处骗取 21,287,731.88 泰铢。警方称，他使用 AI 工具生成并篡改伪造的银行文件，显示存款超过 1400 万泰铢，所得款项大部分据称被用于网络赌博。他面临伪造和诈骗指控。",
+    "target": "一名情感诈骗受害者（约 17 个月内共 623 次付款）",
+    "actor": "被尖竹汶府警方逮捕的泰国男子（涉嫌）",
+    "attribution": "泰国警方的逮捕行动由 QQ News 报道；摘要中未点名嫌疑人。",
+    "motive": "通过情感诈骗谋取经济利益",
+    "vector": "在情感诈骗中使用 AI 伪造文件来建立信任并骗取受害者钱财",
+    "root_cause": "未知",
+    "impact": "据报道，涉案受害者的损失超过 2100 万泰铢。",
+    "response": "泰国警方逮捕了嫌疑人。",
+    "id": "thai-ai-forged-docs-romance-scam",
+    "timeline": [
+      "由 QQ News 报道"
+    ]
+  },
+  {
+    "title": "得克萨斯州爱丽丝市一家商店称，疑似 AI 生成的收据被用于骗取 600 多美元的名牌手袋退款",
+    "summary": "得克萨斯州爱丽丝市的 Horseshoes Western Wear 称，一张疑似由 AI 生成的收据被用于骗取一款名牌手袋超过 600 美元的保修退款。该伪造收据直到退款支付之后才被识别出来。商业改进局（Better Business Bureau）呼吁商家在办理退款前核实收据。",
+    "target": "得克萨斯州爱丽丝市的 Horseshoes Western Wear（及其经销商）",
+    "actor": "未知",
+    "attribution": "未知；标题暗示为个人骗子，但未指明身份。",
+    "motive": "通过欺诈性退款谋取经济利益。",
+    "vector": "出示 AI 生成的伪造收据以骗取商品退款。",
+    "root_cause": "未知；商店接受了一张后来被发现由 AI 生成的收据。",
+    "impact": "商店为一款名牌手袋支付了 600 美元的退款。标题未提供更多细节。",
+    "response": "商店在退款之后发现了这张 AI 生成的收据。文中未说明其他应对措施。",
+    "id": "texas-ai-fake-receipt-purse-refund",
+    "timeline": [
+      "由 The Cool Down 报道"
+    ]
+  },
+  {
+    "title": "IwaiCosmo Securities 交易系统遭网络攻击并出现未经授权交易，疑似使用 AI",
+    "summary": "IwaiCosmo Securities 称，2026 年 10 月 14 日，有第三方未经授权访问了由 Trade Works 运营的交易管理系统，该系统负责运营其网上交易系统。7 个客户账户中被下达了未经授权的委托，其中 5 个已成交，4,975 人的个人信息泄露。包括 Kyodo、Nikkei 和 MBS 在内的日本媒体报道称，此次攻击疑似使用了 AI，但这一点尚未得到证实。该公司会长于 2026 年 10 月 23 日公开道歉。",
+    "target": "IwaiCosmo Securities 的网上交易系统（由 Trade Works 运营）",
+    "actor": "身份不明的第三方（据称使用了 AI）",
+    "attribution": "未知；该公司仅提及一个未具名的第三方。",
+    "motive": "未知",
+    "vector": "未知；该公司称攻击其系统时使用了 AI。",
+    "root_cause": "未知",
+    "impact": "7 个账户出现未经授权的委托，其中 5 个账户成交；4,975 人的个人信息泄露",
+    "response": "该公司公开披露了此次攻击；未提供更多应对细节。",
+    "id": "iwai-cosmo-securities-ai-attack",
+    "timeline": [
+      "由共同网报道"
+    ]
   }
 ]

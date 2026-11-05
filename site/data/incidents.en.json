@@ -19681,6 +19681,58 @@
     "sector": "Technology & AI vendors"
   },
   {
+    "id": "wheatland-ai-voice-bomb-threats",
+    "date": "2026-08-18",
+    "title": "AI-voice bomb threats repeatedly disrupt Wheatland, California schools",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "US",
+    "region": "North America",
+    "target": "Wheatland Union High School and Bear River Middle School, Yuba County, California",
+    "loss_usd": null,
+    "summary": "Wheatland Union High School in Yuba County, California, received an overnight bomb threat on 18 August 2026 that police described as computer-generated and officials said used an AI-generated voice; it demanded a $15,000 ransom and led to class cancellations. Threats recurred the next day at the high school and Bear River Middle School, and again on later days. Police searched the campus, found nothing, and called the threats hoaxes; investigators had not identified the caller.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Education & research",
+    "attribution": "Anonymous caller; no attribution in the reports.",
+    "motive": "Unknown; the threats were hoaxes causing disruption.",
+    "vector": "Phone calls using an AI-generated voice.",
+    "root_cause": "Synthetic voices let anonymous callers deliver repeated hoax threats; the summaries give no further detail.",
+    "impact": "Evacuation and cancelled classes at Wheatland Union High School, followed by repeated threats over at least three days.",
+    "response": "Law enforcement cleared the campus. Classes resumed, and the school continued operating normally under later threats.",
+    "status": "ongoing",
+    "cve": null,
+    "source": "AI Incident Database",
+    "url": "https://www.kcra.com/article/wheatland-high-school-ai-generated-bomb-threat/73464241",
+    "sources": [
+      {
+        "name": "AI Incident Database",
+        "url": "https://www.kcra.com/article/wheatland-high-school-ai-generated-bomb-threat/73464241"
+      },
+      {
+        "name": "CBS Sacramento",
+        "url": "https://www.cbsnews.com/sacramento/news/bomb-threat-yuba-county-wheatland-union-high-bear-river-middle-school/"
+      },
+      {
+        "name": "FOX40",
+        "url": "https://fox40.com/news/bomb-threat-made-to-wheatland-union-high-school-deemed-non-credible/"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-17",
+        "event": "Reported by AI Incident Database"
+      }
+    ],
+    "drafted_at": "2026-10-17T13:52:15Z",
+    "first_seen": "2026-10-17T13:52:15Z",
+    "updated_at": "2026-11-05T00:35:44Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-05T00:35:44Z"
+  },
+  {
     "id": "bitdefender-silkparasite-ai-rats",
     "date": "2026-08-19",
     "title": "SilkParasite: China-nexus Central Asia espionage with AI-assisted lures and RAT code",
@@ -21813,6 +21865,113 @@
     "age_group": "teen",
     "verified_at": "2026-10-19T13:40:55Z",
     "updated_at": "2026-10-19T13:40:55Z"
+  },
+  {
+    "id": "thai-ai-forged-docs-romance-scam",
+    "date": "2026-10-11",
+    "title": "Chanthaburi police arrest man accused of AI-forged-document romance scam worth 21.29M baht",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "TH",
+    "region": "Asia-Pacific",
+    "target": "A single romance-scam victim (623 payments over about 17 months)",
+    "loss_usd": null,
+    "summary": "Chanthaburi police arrested a Thai man accused of defrauding one romance-scam victim of 21,287,731.88 baht through 623 payments and handovers between April 2025 and September 2026. Police say he used AI tools to generate and alter fake bank documents showing a deposit of over 14 million baht, and most of the money was allegedly spent on online gambling. He faces charges of forgery and fraud.",
+    "actor": "Thai man arrested by Chanthaburi police (alleged)",
+    "actor_type": "criminal",
+    "sector": "Individuals & consumers",
+    "attribution": "Thai police arrest reported by QQ News; the suspect is not named in the summary.",
+    "motive": "Financial gain through romance fraud",
+    "vector": "AI-forged documents used to build trust and defraud victims in a romance scam",
+    "root_cause": "Unknown",
+    "impact": "Reported losses of more than 21 million baht across the victims involved.",
+    "response": "Thai police arrested the suspect.",
+    "status": "suspect arrested; charged",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "source": "QQ News",
+    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9FMXEwLUhfUEgxQTRQSzdLckN0NlpRNGZGeG5ZbUYyTm5mUkFVSy12S2xPVkxkNno4SEt3ZHJLbjc2d3YxUXdPMkVzRFBWQXF5LUNlR0JB?oc=5",
+    "sources": [
+      {
+        "name": "QQ News",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9FMXEwLUhfUEgxQTRQSzdLckN0NlpRNGZGeG5ZbUYyTm5mUkFVSy12S2xPVkxkNno4SEt3ZHJLbjc2d3YxUXdPMkVzRFBWQXF5LUNlR0JB?oc=5"
+      },
+      {
+        "name": "Thaiger",
+        "url": "https://thethaiger.com/hot-news/crime/thai-man-held-over-21m-baht-romance-scam-fake-documents"
+      },
+      {
+        "name": "Chiang Rai Times",
+        "url": "https://www.chiangraitimes.com/crime/man-uses-ai-to-scam-women-our-of-21-million-baht/"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-20",
+        "event": "Reported by QQ News"
+      }
+    ],
+    "drafted_at": "2026-10-20T18:05:40Z",
+    "first_seen": "2026-10-20T18:05:40Z",
+    "updated_at": "2026-11-05T00:35:44Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-05T00:35:44Z"
+  },
+  {
+    "id": "texas-ai-fake-receipt-purse-refund",
+    "date": "2026-10-13",
+    "title": "Alice, Texas store says apparently AI-generated receipt was used to obtain $600+ designer purse refund",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "low",
+    "country": "US",
+    "region": "Texas",
+    "target": "Horseshoes Western Wear (and its distributor), Alice, Texas",
+    "loss_usd": 600,
+    "summary": "Horseshoes Western Wear in Alice, Texas said a receipt that appeared to be AI-generated was used to obtain a warranty refund of more than $600 on a designer purse. The fake was identified only after the refund was paid. The Better Business Bureau urged businesses to verify receipts before issuing refunds.",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "sector": "Retail & consumer brands",
+    "attribution": "Unknown; an individual scammer is implied but not identified in the headline.",
+    "motive": "Financial gain through a fraudulent refund.",
+    "vector": "AI-generated fake receipt presented to obtain a merchandise refund.",
+    "root_cause": "Unknown; the store accepted a receipt that was later found to be AI-generated.",
+    "impact": "The store paid out a $600 refund on a designer purse. The headline gives no further detail.",
+    "response": "The store spotted the AI-generated receipt after the refund. No other response is stated.",
+    "status": "unresolved",
+    "cve": null,
+    "source": "The Cool Down",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVUYyRkNBVHhNeHpkRmZSeGRZSmNmNFZ6OGNRQ3NVWUJOaUZxTlMtdFlRVEFyZlNDSlN1cTRibWg0NlRfd3RhNkhnWWNnWFFxeEpOUUFWNTBZTlZCRnFhNjluR3I2cjRWTzNucEhNaWc5WTVucEF5QlJUVldKMzRyMkl1YXpGSkdX?oc=5",
+    "sources": [
+      {
+        "name": "The Cool Down",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVUYyRkNBVHhNeHpkRmZSeGRZSmNmNFZ6OGNRQ3NVWUJOaUZxTlMtdFlRVEFyZlNDSlN1cTRibWg0NlRfd3RhNkhnWWNnWFFxeEpOUUFWNTBZTlZCRnFhNjluR3I2cjRWTzNucEhNaWc5WTVucEF5QlJUVldKMzRyMkl1YXpGSkdX?oc=5"
+      },
+      {
+        "name": "KPLC / KIII",
+        "url": "https://www.kplctv.com/2026/10/13/store-says-ai-generated-receipt-was-used-secure-fraudulent-purse-refund/"
+      },
+      {
+        "name": "Yahoo News",
+        "url": "https://www.yahoo.com/news/us/articles/texas-store-spots-ai-generated-035500162.html"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-18",
+        "event": "Reported by The Cool Down"
+      }
+    ],
+    "drafted_at": "2026-10-18T10:05:37Z",
+    "first_seen": "2026-10-18T10:05:37Z",
+    "updated_at": "2026-11-05T00:35:44Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-05T00:35:44Z"
   },
   {
     "id": "divd-zammad-agentic-ai-attack",
@@ -24313,6 +24472,61 @@
     "verification": "reported",
     "review": "auto",
     "verified_at": "2026-11-04T22:35:38Z"
+  },
+  {
+    "id": "iwai-cosmo-securities-ai-attack",
+    "date": "2026-10-21",
+    "title": "IwaiCosmo Securities hit by cyberattack on its trading system with unauthorized trades; AI suspected",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "JP",
+    "region": "Asia-Pacific",
+    "target": "IwaiCosmo Securities online trading system (operated by Trade Works)",
+    "loss_usd": null,
+    "summary": "IwaiCosmo Securities said a third party gained unauthorized access on 2026-10-14 to the trade management system run by Trade Works, which operates its online trading system. Unauthorized orders were placed in seven customer accounts and executed in five, and the personal data of 4,975 people leaked. Japanese media, including Kyodo, Nikkei and MBS, report that AI is suspected to have been used in the attack, but this is not confirmed. The company's chairman apologized on 2026-10-23.",
+    "actor": "Unidentified third party (alleged AI use)",
+    "actor_type": "unknown",
+    "sector": "Financial services",
+    "attribution": "Unknown; the company only refers to an unnamed third party.",
+    "motive": "Unknown",
+    "vector": "Unknown; the company says AI was used in the attack on its systems.",
+    "root_cause": "Unknown",
+    "impact": "Unauthorized orders in 7 accounts, trades executed in 5; personal data of 4,975 individuals leaked",
+    "response": "The company publicly disclosed the attack; no further response details were given.",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "source": "共同网",
+    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5Ma0NBa3B2dVlMR3BoLWdhbWM2UFJ4Uy01ODlJSGY5QkRPVTlXVjZfTVhoWV9YeVo4VzJFd1dTd0lxNW5MSXMzN1VkTXhJMVExbG5VRmxuZw?oc=5",
+    "sources": [
+      {
+        "name": "共同网",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5Ma0NBa3B2dVlMR3BoLWdhbWM2UFJ4Uy01ODlJSGY5QkRPVTlXVjZfTVhoWV9YeVo4VzJFd1dTd0lxNW5MSXMzN1VkTXhJMVExbG5VRmxuZw?oc=5"
+      },
+      {
+        "name": "Nikkei Asia",
+        "url": "https://asia.nikkei.com/spotlight/cybersecurity/japan-brokerage-iwaicosmo-hit-with-unauthorized-trades-in-cyberattack"
+      },
+      {
+        "name": "MBS News (Yahoo! Japan)",
+        "url": "https://news.yahoo.co.jp/articles/259fd1f0ea6e74e913bc3c2705d4ccec4059c9d0"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-21",
+        "event": "Reported by 共同网"
+      }
+    ],
+    "drafted_at": "2026-10-21T08:05:41Z",
+    "first_seen": "2026-10-21T08:05:41Z",
+    "updated_at": "2026-11-05T00:35:44Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-05T00:35:44Z"
   },
   {
     "id": "deepfake-pm-scam-88-year-old-td-bank",

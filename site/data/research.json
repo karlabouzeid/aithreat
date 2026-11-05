@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T00:25:41Z",
+  "generated_at": "2026-11-05T00:42:16Z",
   "licence": "CC BY 4.0",
   "sources": [
     {
@@ -440,8 +440,8 @@
       "claim": "AI could lower the barrier to entry for cyberattacks and increase their scale, speed and success, including against the infrastructure societies depend on.",
       "status": "observed",
       "note": "The best-documented prediction in the registry: novices building ransomware with chatbots, malware that asks a model what to do next, state groups using AI at every stage of an attack, and AI-written scripts probing industrial controllers.",
-      "n": 102,
-      "real_world": 101,
+      "n": 103,
+      "real_world": 102,
       "first_real_world": "2025-01-10",
       "months_after_publication": 19,
       "url": "https://aithreat.io/research/cyberattack-barrier/",
@@ -458,6 +458,7 @@
         "argentina-ai-agent-health-breaches",
         "bugster-deepseek-v4-india-universities",
         "inc-gentlemen-claude-exposed-servers",
+        "iwai-cosmo-securities-ai-attack",
         "storm-0940-artex-connectwise",
         "storm-1516-talarico-deepfake-video",
         "cairn-ai-platform-abused-100-orgs",
@@ -1010,8 +1011,8 @@
       "claim": "Realistic AI-generated voices, images and video are used for fraud, extortion and sexual imagery made without consent, and cheap tools have made such content easy to produce at scale.",
       "status": "observed",
       "note": "The largest category in the registry: cloned voices and deepfake video calls impersonating executives, officials and relatives, and deepfake celebrity ads behind investment scams. The report adds that victims often do not report, so public cases undercount the harm.",
-      "n": 98,
-      "real_world": 98,
+      "n": 101,
+      "real_world": 101,
       "first_real_world": "2025-01-05",
       "months_after_publication": -13,
       "url": "https://aithreat.io/research/iasr-synthetic-content/",
@@ -1030,6 +1031,8 @@
         "scammers-clone-sheriff-voice",
         "wu-yue-ai-celebrity-impersonation-sales",
         "smolensk-governor-deepfake-scam",
+        "texas-ai-fake-receipt-purse-refund",
+        "thai-ai-forged-docs-romance-scam",
         "korea-police-officer-deepfake-indicted",
         "ai-music-streaming-royalty-fraud",
         "puente-alto-school-sexual-deepfakes",
@@ -1037,6 +1040,7 @@
         "greece-voice-clone-relatives-gang",
         "anthropic-gtg-15001-dating-apps",
         "heidelberg-pensioner-deepfake-investment",
+        "wheatland-ai-voice-bomb-threats",
         "australia-nasc-albanese-deepfake-7-4m",
         "norway-ai-fake-documents-tax-fraud",
         "openai-poipet-scam-compound",
@@ -1180,8 +1184,8 @@
       "claim": "There is strong evidence that criminal groups and state-backed attackers use AI in their operations, especially to find software flaws and write malicious code, though it is not yet clear whether AI has made attacks larger or more damaging overall.",
       "status": "observed",
       "note": "Matches the registry closely: AI-written ransomware and stealers, malware that asks a model what to do while it runs, and state groups using chatbots for reconnaissance, phishing and exploit work. Like the report, the case files show use, not overall effect.",
-      "n": 102,
-      "real_world": 101,
+      "n": 103,
+      "real_world": 102,
       "first_real_world": "2025-01-10",
       "months_after_publication": -13,
       "url": "https://aithreat.io/research/iasr-cyber-use/",
@@ -1198,6 +1202,7 @@
         "argentina-ai-agent-health-breaches",
         "bugster-deepseek-v4-india-universities",
         "inc-gentlemen-claude-exposed-servers",
+        "iwai-cosmo-securities-ai-attack",
         "storm-0940-artex-connectwise",
         "storm-1516-talarico-deepfake-video",
         "cairn-ai-platform-abused-100-orgs",
@@ -2417,8 +2422,8 @@
       "claim": "People using AI for disinformation, surveillance and propaganda at scale; for cyberattacks and weapons; and for fraud, scams and targeted manipulation.",
       "status": "observed",
       "note": "The other pillar of the registry: deepfake fraud, AI-built malware, AI phishing and state operations.",
-      "n": 214,
-      "real_world": 213,
+      "n": 218,
+      "real_world": 217,
       "first_real_world": "2025-01-05",
       "months_after_publication": null,
       "url": "https://aithreat.io/research/mit-malicious-actors/",
@@ -2446,6 +2451,7 @@
         "argentina-ai-agent-health-breaches",
         "bugster-deepseek-v4-india-universities",
         "inc-gentlemen-claude-exposed-servers",
+        "iwai-cosmo-securities-ai-attack",
         "storm-0940-artex-connectwise",
         "storm-1516-talarico-deepfake-video",
         "cairn-ai-platform-abused-100-orgs",
@@ -2471,6 +2477,8 @@
         "uat-11985-taiwan-aitm-phishing",
         "unit42-agentic-attack-enterprise-breach",
         "unit42-latam-ai-tool-exfiltration-campai",
+        "texas-ai-fake-receipt-purse-refund",
+        "thai-ai-forged-docs-romance-scam",
         "korea-police-officer-deepfake-indicted",
         "ai-music-streaming-royalty-fraud",
         "puente-alto-school-sexual-deepfakes",
@@ -2487,6 +2495,7 @@
         "heidelberg-pensioner-deepfake-investment",
         "bitdefender-silkparasite-ai-rats",
         "cisa-aa26-231a-siemens-ai-scripts",
+        "wheatland-ai-voice-bomb-threats",
         "australia-nasc-albanese-deepfake-7-4m",
         "norway-ai-fake-documents-tax-fraud",
         "openai-poipet-scam-compound",
@@ -2825,7 +2834,7 @@
     {
       "source": "cais-2023",
       "claims": 17,
-      "matched_cases": 195,
+      "matched_cases": 196,
       "matched_pct": 40,
       "status_counts": {
         "observed": 7,
@@ -2838,8 +2847,8 @@
     {
       "source": "iasr-2026",
       "claims": 11,
-      "matched_cases": 353,
-      "matched_pct": 72,
+      "matched_cases": 357,
+      "matched_pct": 73,
       "status_counts": {
         "observed": 5,
         "early": 3,
@@ -2903,7 +2912,7 @@
     {
       "source": "mit-risk-repository",
       "claims": 7,
-      "matched_cases": 425,
+      "matched_cases": 429,
       "matched_pct": 87,
       "status_counts": {
         "observed": 4,
@@ -2921,9 +2930,9 @@
     "none": 4,
     "outside": 7
   },
-  "matched_cases": 426,
-  "total_cases": 488,
-  "warning_matched_cases": 384,
+  "matched_cases": 430,
+  "total_cases": 492,
+  "warning_matched_cases": 388,
   "unmatched_pct": 21,
   "unmatched_by_category": [
     {
@@ -2964,12 +2973,12 @@
     {
       "category": "Deepfake fraud",
       "unmatched": 0,
-      "total": 101
+      "total": 104
     },
     {
       "category": "AI-assisted malware",
       "unmatched": 0,
-      "total": 59
+      "total": 60
     },
     {
       "category": "AI supply chain",
