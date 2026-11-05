@@ -9697,5 +9697,21 @@
     "timeline": [
       "Signalé par GBHackers"
     ]
+  },
+  {
+    "title": "La sénatrice du Colorado Cathy Kipp dépose la première plainte au titre de la loi sur la divulgation des deepfakes",
+    "summary": "La sénatrice de l'État du Colorado Cathy Kipp a déposé le 5 août 2026 une plainte auprès du bureau du secrétaire d'État au sujet d'une vidéo générée par IA, réalisée pour l'Independence Institute, qui la montre en caissière d'épicerie empochant la monnaie d'un client, dans le cadre d'une campagne contre la Proposition NN. Elle soutient que la vidéo ne comportait pas l'avertissement clair exigé par la loi du Colorado sur la divulgation des deepfakes ; l'Institut affirme qu'elle relève de la satire ou de la parodie et qu'elle est donc exemptée. Le bureau a ouvert une enquête le 19 août, et une audience est fixée au 17 novembre.",
+    "target": "La sénatrice de l'État du Colorado Cathy Kipp",
+    "actor": "Independence Institute (présumé ; il affirme que la vidéo est une satire)",
+    "attribution": "Plainte déposée par la sénatrice Kipp ; le résumé ne précise pas qui a réalisé le contenu.",
+    "motive": "Inconnu ; vraisemblablement politique.",
+    "vector": "Contenu politique présumé généré par IA (deepfake) ne comportant pas la divulgation requise.",
+    "root_cause": "Violation présumée des exigences de divulgation du Colorado en matière de deepfakes.",
+    "impact": "Non détaillé dans le résumé ; il s'agit de la première plainte déposée au titre de la loi.",
+    "response": "Plainte déposée auprès du bureau du secrétaire d'État du Colorado.",
+    "id": "co-kipp-first-deepfake-disclosure-compla",
+    "timeline": [
+      "Signalé par l'AI Incident Database"
+    ]
   }
 ]

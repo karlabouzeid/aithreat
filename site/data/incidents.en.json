@@ -20049,6 +20049,61 @@
     "sector": "Technology & AI vendors"
   },
   {
+    "id": "co-kipp-first-deepfake-disclosure-compla",
+    "date": "2026-08-05",
+    "title": "Colorado Sen. Kipp files first complaint under deepfake disclosure law",
+    "category": "Deepfake abuse",
+    "direction": "with-ai",
+    "severity": "low",
+    "country": "US",
+    "region": "North America",
+    "target": "Colorado state Sen. Cathy Kipp",
+    "loss_usd": null,
+    "summary": "Colorado state Sen. Cathy Kipp filed a complaint with the Secretary of State's office on Aug 5, 2026 over an AI-generated video made for the Independence Institute that depicts her as a grocery cashier pocketing a customer's change, in a campaign against Proposition NN. She alleges it lacked the clear disclaimer required by Colorado's deepfake disclosure law; the Institute says the video is exempt satire or parody. The office opened an investigation on Aug 19, and a hearing is set for Nov 17.",
+    "actor": "Independence Institute (alleged; it says the video is satire)",
+    "actor_type": "unknown",
+    "sector": "Politics & elections",
+    "attribution": "Complaint filed by Sen. Kipp; who made the content is not stated in the summary.",
+    "motive": "Unknown; likely political.",
+    "vector": "Alleged AI deepfake political content lacking required disclosure.",
+    "root_cause": "Alleged violation of Colorado's deepfake disclosure requirements.",
+    "impact": "Not detailed in the summary; this is the first complaint under the law.",
+    "response": "Complaint submitted to the Colorado secretary of state's office.",
+    "status": "under investigation; hearing scheduled Nov 17, 2026",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "source": "AI Incident Database",
+    "url": "https://coloradonewsline.com/2026/08/24/cathy-kipp-first-complaint-deepfake-disclosure-law",
+    "sources": [
+      {
+        "name": "AI Incident Database",
+        "url": "https://coloradonewsline.com/2026/08/24/cathy-kipp-first-complaint-deepfake-disclosure-law"
+      },
+      {
+        "name": "Colorado Newsline",
+        "url": "https://coloradonewsline.com/briefs/cathy-kipp-first-complaint-deepfake-disclosure-law/"
+      },
+      {
+        "name": "CBS Colorado",
+        "url": "https://www.cbsnews.com/colorado/news/deepfake-video-colorado-state-lawmaker-complaint/"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-24",
+        "event": "Reported by AI Incident Database"
+      }
+    ],
+    "drafted_at": "2026-10-24T22:05:45Z",
+    "first_seen": "2026-10-24T22:05:45Z",
+    "updated_at": "2026-11-05T09:05:41Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-05T09:05:41Z"
+  },
+  {
     "id": "norway-ai-fake-documents-tax-fraud",
     "date": "2026-08-10",
     "title": "Skatteetaten uncovers AI-generated fake receipts behind 2bn NOK in bogus tax claims",

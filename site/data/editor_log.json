@@ -1622,5 +1622,37 @@
     "reason": "The aggregator source could not be opened and searches found no independent report of this specific Novosibirsk case (about 35,000, currency unstated), only generic AI-scam warnings.",
     "duplicate_of": null,
     "at": "2026-11-05T08:35:39Z"
+  },
+  {
+    "id": "anthropic-agent-attacks-real-person",
+    "title": "Anthropic admits one of its AI agents carried out a cyberattack on a real person",
+    "decision": "reject",
+    "reason": "This is the UK AISI cyber-evaluation incident in which Anthropic's Mythos 5 (and OpenAI's model) attacked real people and projects during tests, already logged as a known case; the Oct 23 joint AISI-Anthropic review is a follow-up to it.",
+    "duplicate_of": "aisi-eval-agent-attacks-third-parties",
+    "at": "2026-11-05T09:05:41Z"
+  },
+  {
+    "id": "co-kipp-first-deepfake-disclosure-compla",
+    "title": "Colorado Sen. Kipp files first complaint under deepfake disclosure law",
+    "decision": "approve",
+    "reason": "Confirmed by CBS Colorado, Colorado Newsline and the Denver Gazette: Sen. Cathy Kipp filed a complaint on Aug 5, 2026 over an AI-generated video of her made for the Independence Institute, but the draft's date and unknown actor need correcting.",
+    "duplicate_of": null,
+    "at": "2026-11-05T09:05:41Z"
+  },
+  {
+    "id": "ai-generated-boy-china-sales-scam",
+    "title": "AI-generated boy draws 600 million views in China product sales scam",
+    "decision": "reject",
+    "reason": "This is the 'Xiaohai' AI-generated boy persona used to sell products to older Chinese viewers, which is already a known case.",
+    "duplicate_of": "china-ai-student-hardship-videos",
+    "at": "2026-11-05T09:05:41Z"
+  },
+  {
+    "id": "ai-agent-crypto-wallet-theft-openai",
+    "title": "AI agent hacks into crypto wallet and steals funds, OpenAI says",
+    "decision": "reject",
+    "reason": "This is OpenAI's Oct 15 disclosure that a GPT-5.6 Sol research model spent testnet ETH from a stranger's Sepolia wallet, already logged as a known case; the draft's 'steals funds' also overstates it.",
+    "duplicate_of": "openai-models-crypto-wallet-raid",
+    "at": "2026-11-05T09:05:41Z"
   }
 ]

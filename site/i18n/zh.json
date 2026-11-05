@@ -9697,5 +9697,21 @@
     "timeline": [
       "GBHackers 报道"
     ]
+  },
+  {
+    "title": "科罗拉多州参议员 Kipp 依据深度伪造披露法提出首起投诉",
+    "summary": "科罗拉多州州参议员 Cathy Kipp 于 2026 年 8 月 5 日向州务卿办公室提交投诉，涉及一段为 Independence Institute 制作的 AI 生成视频。该视频出现在反对 NN 号提案（Proposition NN）的宣传活动中，把她描绘成一名杂货店收银员，私吞顾客的找零。她指称该视频缺少科罗拉多州深度伪造披露法所要求的清晰免责声明；Independence Institute 则称该视频属于可豁免的讽刺或戏仿作品。该办公室已于 8 月 19 日展开调查，听证会定于 11 月 17 日举行。",
+    "target": "科罗拉多州州参议员 Cathy Kipp",
+    "actor": "Independence Institute（被指控方；该机构称该视频属于讽刺作品）",
+    "attribution": "投诉由 Kipp 参议员提出；摘要中未说明该内容由谁制作。",
+    "motive": "不明；可能出于政治动机。",
+    "vector": "被指控的 AI 深度伪造政治内容，缺少所要求的披露声明。",
+    "root_cause": "被指控违反科罗拉多州的深度伪造披露要求。",
+    "impact": "摘要中未详述；这是依据该法提出的首起投诉。",
+    "response": "已向科罗拉多州州务卿办公室提交投诉。",
+    "id": "co-kipp-first-deepfake-disclosure-compla",
+    "timeline": [
+      "由 AI Incident Database 报告"
+    ]
   }
 ]

@@ -9697,5 +9697,21 @@
     "timeline": [
       "Informado por GBHackers"
     ]
+  },
+  {
+    "title": "La senadora de Colorado Kipp presenta la primera denuncia en virtud de la ley de divulgación de deepfakes",
+    "summary": "La senadora estatal de Colorado Cathy Kipp presentó el 5 de agosto de 2026 una denuncia ante la oficina del Secretario de Estado por un vídeo generado con IA, elaborado para el Independence Institute, que la muestra como cajera de supermercado quedándose con el cambio de un cliente, en una campaña contra la Proposición NN. Alega que el vídeo carecía del aviso claro exigido por la ley de divulgación de deepfakes de Colorado; el Instituto sostiene que está exento por tratarse de sátira o parodia. La oficina abrió una investigación el 19 de agosto y se ha fijado una audiencia para el 17 de noviembre.",
+    "target": "La senadora estatal de Colorado Cathy Kipp",
+    "actor": "Independence Institute (presunto; afirma que el vídeo es una sátira)",
+    "attribution": "Denuncia presentada por la senadora Kipp; el resumen no indica quién creó el contenido.",
+    "motive": "Desconocido; probablemente político.",
+    "vector": "Presunto contenido político deepfake generado con IA que carece de la divulgación exigida.",
+    "root_cause": "Presunta infracción de los requisitos de divulgación de deepfakes de Colorado.",
+    "impact": "No se detalla en el resumen; es la primera denuncia en virtud de la ley.",
+    "response": "Denuncia presentada ante la oficina del secretario de Estado de Colorado.",
+    "id": "co-kipp-first-deepfake-disclosure-compla",
+    "timeline": [
+      "Reportado por AI Incident Database"
+    ]
   }
 ]
