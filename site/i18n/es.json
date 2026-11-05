@@ -8465,5 +8465,21 @@
     "timeline": [
       "Informado por GBHackers"
     ]
+  },
+  {
+    "title": "Un deepfake del gobernador de Smolensk, Vasily Anokhin, insta a las aerolíneas extranjeras a proteger a sus tripulaciones en el espacio aéreo ruso",
+    "summary": "Circuló en línea un video generado por una red neuronal en el que el gobernador de la región de Smolensk, Vasily Anokhin, parecía instar a las aerolíneas extranjeras que sobrevuelan el espacio aéreo ruso a cuidar de sus tripulaciones. Anokhin afirmó en su canal de Max que no hizo tal alocución y que el video era falso. Los creadores no han sido identificados y no se ha informado de pérdidas económicas ni de ningún esquema de estafa.",
+    "target": "Vasily Anokhin, gobernador de la región de Smolensk (suplantado); el público",
+    "actor": "Personas no identificadas (descritas por el gobernador como “злоумышленники”, es decir, actores maliciosos)",
+    "attribution": "Descritos únicamente como estafadores; no hay un actor identificado por su nombre.",
+    "motive": "Fraude (implícito en el término “estafadores”); no se indican detalles.",
+    "vector": "Video o audio deepfake del gobernador distribuido en línea.",
+    "root_cause": "Se desconoce",
+    "impact": "Se desconoce; el titular no menciona víctimas ni pérdidas.",
+    "response": "Se desconoce",
+    "id": "smolensk-governor-deepfake-scam",
+    "timeline": [
+      "Informado por Rabochy Put"
+    ]
   }
 ]

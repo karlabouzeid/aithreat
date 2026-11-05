@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-05T00:13:46Z",
-  "total": 284,
-  "all_time_total": 487,
+  "generated_at": "2026-11-05T00:25:41Z",
+  "total": 285,
+  "all_time_total": 488,
   "window_from": "2025-11-05",
   "window_to": "2026-11-05",
   "trend_from": "2025-01-01",
@@ -153,13 +153,13 @@
   },
   "this_quarter": {
     "q": "2026-Q4",
-    "n": 89,
+    "n": 90,
     "prev_q": "2026-Q3",
     "prev_n": 51
   },
   "direction": {
     "on-ai": 91,
-    "with-ai": 161
+    "with-ai": 162
   },
   "on_ai_share_first_half": 31,
   "on_ai_share_last_half": 41,
@@ -264,23 +264,23 @@
     },
     {
       "q": "2026-Q4",
-      "n": 89,
+      "n": 90,
       "on-ai": 23,
-      "with-ai": 61,
+      "with-ai": 62,
       "severity": {
         "critical": 3,
         "high": 31,
         "medium": 49,
-        "low": 6
+        "low": 7
       },
       "autonomous": 6,
-      "real_world": 88
+      "real_world": 89
     }
   ],
   "categories": [
     {
       "category": "Deepfake fraud",
-      "n": 57,
+      "n": 58,
       "by_quarter": [
         13,
         9,
@@ -289,9 +289,9 @@
         10,
         12,
         12,
-        16
+        17
       ],
-      "growth_last4_vs_prev4": 0
+      "growth_last4_vs_prev4": 1
     },
     {
       "category": "AI-assisted malware",
@@ -476,7 +476,7 @@
   ],
   "rising_category": "AI-assisted malware",
   "top_category": "Deepfake fraud",
-  "top_category_n": 57,
+  "top_category_n": 58,
   "autonomous": {
     "by_year": {
       "2025": 1,
@@ -501,9 +501,9 @@
       "actor_type": "criminal",
       "by_year": {
         "2025": 13,
-        "2026": 91
+        "2026": 92
       },
-      "n": 104
+      "n": 105
     },
     {
       "actor_type": "state",
@@ -570,7 +570,7 @@
     "critical": 40,
     "high": 120,
     "medium": 112,
-    "low": 12
+    "low": 13
   },
   "critical_high_pct": 56,
   "losses": {
@@ -668,7 +668,7 @@
     },
     {
       "sector": "Government & public sector",
-      "n": 11
+      "n": 12
     },
     {
       "sector": "Financial services",
@@ -717,11 +717,11 @@
       "n": 7
     },
     {
-      "country": "IN",
+      "country": "CA",
       "n": 6
     },
     {
-      "country": "CA",
+      "country": "IN",
       "n": 6
     },
     {
@@ -733,6 +733,10 @@
       "n": 5
     },
     {
+      "country": "RU",
+      "n": 4
+    },
+    {
       "country": "IL",
       "n": 4
     },
@@ -742,10 +746,6 @@
     },
     {
       "country": "UA",
-      "n": 3
-    },
-    {
-      "country": "TW",
       "n": 3
     }
   ],
@@ -785,6 +785,10 @@
     },
     {
       "status": "contained; impact unknown",
+      "n": 1
+    },
+    {
+      "status": "reported; governor publicly denied the video",
       "n": 1
     },
     {
@@ -832,9 +836,9 @@
       "n": 1
     }
   ],
-  "unresolved_pct": 67,
-  "verify_median_hours": 34.0,
-  "verify_sample": 95,
+  "unresolved_pct": 66,
+  "verify_median_hours": 36.7,
+  "verify_sample": 96,
   "researcher_demos": 21,
   "pulse": [
     {

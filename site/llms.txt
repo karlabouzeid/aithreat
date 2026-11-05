@@ -5,7 +5,7 @@
 Positioning: a reference registry of AI security incidents (attacks on AI systems, and attacks carried out with AI): structured, verified, fast, multilingual and openly licensed.
 
 ## Key pages
-- [All verified case files](https://aithreat.io/cases/): 487 incidents, newest first, with hubs by type and country
+- [All verified case files](https://aithreat.io/cases/): 488 incidents, newest first, with hubs by type and country
 - [Interactive world map](https://aithreat.io/): the same cases on a map with filters
 - [Live wire](https://aithreat.io/#wire): AI security headlines from vetted sources, refreshed every 30 minutes (machine-triaged, not verified)
 - [Data and citing](https://aithreat.io/#data): download links, field list, inclusion rule, severity scale
@@ -33,7 +33,7 @@ Positioning: a reference registry of AI security incidents (attacks on AI system
 - [Agent hijack](https://aithreat.io/cases/category/agent-hijack/): 28 cases
 - [Chatbot harm](https://aithreat.io/cases/category/chatbot-harm/): 48 cases
 - [Deepfake abuse](https://aithreat.io/cases/category/deepfake-abuse/): 49 cases
-- [Deepfake fraud](https://aithreat.io/cases/category/deepfake-fraud/): 100 cases
+- [Deepfake fraud](https://aithreat.io/cases/category/deepfake-fraud/): 101 cases
 - [LLMjacking](https://aithreat.io/cases/category/llmjacking/): 16 cases
 - [Model & data leak](https://aithreat.io/cases/category/model-data-leak/): 44 cases
 - [Prompt injection](https://aithreat.io/cases/category/prompt-injection/): 28 cases
@@ -490,6 +490,7 @@ Positioning: a reference registry of AI security incidents (attacks on AI system
 - [Users seeking ChatGPT and Claude desktop apps](https://aithreat.io/cases/company/users-seeking-chatgpt-and-claude-desktop-apps/): 1 case
 - [Users visiting typosquatted domains](https://aithreat.io/cases/company/users-visiting-typosquatted-domains/): 1 case
 - [Utah children and teens using Snapchat](https://aithreat.io/cases/company/utah-children-and-teens-using-snapchat/): 1 case
+- [Vasily Anokhin, governor of Smolensk Oblast (impersonated); the public](https://aithreat.io/cases/company/vasily-anokhin-governor-of-smolensk-oblast-impersonated-the-public/): 1 case
 - [Vercel / Context.ai](https://aithreat.io/cases/company/vercel-context-ai/): 1 case
 - [Victims of April 2025 Florida State University shooting](https://aithreat.io/cases/company/victims-of-april-2025-florida-state-university-shooting/): 1 case
 - [Victims of investment, romance and impersonation scams](https://aithreat.io/cases/company/victims-of-investment-romance-and-impersonation-scams/): 1 case
@@ -583,6 +584,7 @@ Positioning: a reference registry of AI security incidents (attacks on AI system
 - [UAT-11985 uses AI-assisted event lures for Google AitM phishing in Taiwan](https://aithreat.io/cases/uat-11985-taiwan-aitm-phishing/): 2026-10-14, medium, AI phishing, Taiwan. Cisco Talos identified an APT spear-phishing campaign using AI-assisted lures and real-time Google adversary-in-the-middle phishing against Taiwan research affiliates.
 - [AI agents on Tencent Cloud made 2,818 attempts to get around Alibaba Amap's defences](https://aithreat.io/cases/tencent-cloud-agents-amap-scraping/): 2026-10-14, medium, Agent hijack, China. AI-safety group Swarmchasers logged 2,818 attempts by AI agents on Tencent Cloud infrastructure to pull data from Alibaba's Amap between 28 September and 8 October, escalating to proxies, code-running web tools and Amap keys found in public code. Tencent said the agents were evaluating third-party models and behaved in ways it did not intend.
 - [China-linked TA419 impersonates AI experts to phish US AI policy insiders](https://aithreat.io/cases/ta419-ai-policy-expert-phishing/): 2026-10-14, medium, State actor AI ops, United States. TA419 posed as AI policymakers and economists, including a spoofed Anthropic executive and ex-White House official, to phish US AI policy experts.
+- [Deepfake of Smolensk governor Vasily Anokhin urges foreign airlines to protect crews over Russian airspace](https://aithreat.io/cases/smolensk-governor-deepfake-scam/): 2026-10-14, low, Deepfake fraud, Russia. A neural-network-generated video circulated online in which Smolensk Oblast governor Vasily Anokhin appeared to urge foreign airlines flying through Russian airspace to look after their crews. Anokhin said in his Max channel that he made no such address and that the video was fake. The creators are unidentified and no financial loss or scam scheme has been reported.
 - [Ray code injection RCE (CVE-2025-62593) actively exploited](https://aithreat.io/cases/ray-code-injection-cve-2025-62593/): 2026-10-14, high, AI supply chain, Worldwide. CISA says a Ray code injection flaw allowing remote code execution is actively exploited; developers using Ray as a dev tool may be exposed via Firefox and Safari.
 - [RatHat malware C2 panel uses AI to build malware and rank victims across ~100 deployments](https://aithreat.io/cases/rathat-ai-c2-panel-maas/): 2026-10-14, medium, AI-assisted malware, Worldwide. RatHat's C2 panel builds malware and ranks victims with AI across nearly 100 deployments, pointing to malware-as-a-service. Zimperium describes the Android strain as Chinese-made, stealing financial data.
 - [PurpleDelta North Korean IT workers use AI personas and custom ChatGPT assistants](https://aithreat.io/cases/purpledelta-nk-it-worker-ai-personas/): 2026-10-14, medium, State actor AI ops, Worldwide. Recorded Future describes PurpleDelta, a North Korean IT worker cluster, using AI-generated personas and custom ChatGPT assistants in fraudulent employment operations to infiltrate organizations.

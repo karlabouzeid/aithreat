@@ -638,5 +638,69 @@
     "reason": "CISA added CVE-2026-0770 to KEV on 2026-07-21, and it is the root-RCE entry in the known Langflow KEV wave case.",
     "duplicate_of": "langflow-summer-2026-kev-wave",
     "at": "2026-11-05T00:05:39Z"
+  },
+  {
+    "id": "langflow-cve-2026-55255-kev",
+    "title": "Langflow authorization bypass CVE-2026-55255 actively exploited",
+    "decision": "reject",
+    "reason": "The flaw is real, but the CISA KEV listing was in July 2026, not 2026-11-03, and it is already covered as the IDOR listing in known case langflow-summer-2026-kev-wave.",
+    "duplicate_of": "langflow-summer-2026-kev-wave",
+    "at": "2026-11-05T00:20:59Z"
+  },
+  {
+    "id": "litellm-cmd-injection-kev",
+    "title": "LiteLLM command injection CVE-2026-42271 actively exploited",
+    "decision": "reject",
+    "reason": "CVE-2026-42271 was added to CISA KEV on 2026-06-08 and is already the known case litellm-cve-2026-42271.",
+    "duplicate_of": "litellm-cve-2026-42271",
+    "at": "2026-11-05T00:20:59Z"
+  },
+  {
+    "id": "langflow-cve-2025-34291-kev",
+    "title": "Langflow CORS origin validation flaw CVE-2025-34291 actively exploited",
+    "decision": "reject",
+    "reason": "CVE-2025-34291 was added to KEV on 2026-05-21, not 2026-11-03, and it is the token-hijack listing already covered by known case langflow-summer-2026-kev-wave.",
+    "duplicate_of": "langflow-summer-2026-kev-wave",
+    "at": "2026-11-05T00:20:59Z"
+  },
+  {
+    "id": "litellm-sqli-kev",
+    "title": "LiteLLM SQL injection CVE-2026-42208 actively exploited",
+    "decision": "reject",
+    "reason": "CVE-2026-42208 was added to KEV on 2026-05-08 and is already the known case litellm-sqli-cve-2026-42208.",
+    "duplicate_of": "litellm-sqli-cve-2026-42208",
+    "at": "2026-11-05T00:20:59Z"
+  },
+  {
+    "id": "braselton-police-chief-alpr-stalking",
+    "title": "Georgia police chief charged with using license plate readers to stalk people",
+    "decision": "reject",
+    "reason": "The arrest is real (GBI, AP, AJC), but it is an insider misusing a plate-reader database to stalk people, with no attack on or by an AI system and no chatbot harm, so it falls outside the registry's scope.",
+    "duplicate_of": null,
+    "at": "2026-11-05T00:20:59Z"
+  },
+  {
+    "id": "haines-city-flock-camera-misuse",
+    "title": "Florida officer arrested for using Flock cameras to track estranged wife",
+    "decision": "reject",
+    "reason": "An officer misusing a Flock plate-reader database is not AI security or AI harm as defined, and the draft's date is wrong (FOX 13 reported the arrest on 2026-08-11, not 2026-11-03).",
+    "duplicate_of": null,
+    "at": "2026-11-05T00:20:59Z"
+  },
+  {
+    "id": "smolensk-governor-deepfake-scam",
+    "title": "Scammers circulate deepfake of Smolensk Oblast governor",
+    "decision": "approve",
+    "reason": "Regional outlets and TASS-sourced reports confirm a neural-network-generated fake video of Governor Anokhin addressing foreign airlines, which he publicly denied, but no scam or loss is reported, so the title and summary are corrected.",
+    "duplicate_of": null,
+    "at": "2026-11-05T00:20:59Z"
+  },
+  {
+    "id": "ai-built-clickfix-smartrat-lures",
+    "title": "AI-built typosquat sites deliver SmartRAT via ClickFix campaign",
+    "decision": "reject",
+    "reason": "It covers the same Zscaler ThreatLabz SmartRAT ClickFix campaign on AI-built typosquatted domains that is already in the registry.",
+    "duplicate_of": "ai-built-clickfix-smartrat",
+    "at": "2026-11-05T00:20:59Z"
   }
 ]

@@ -23090,6 +23090,58 @@
     "age_group": "teen"
   },
   {
+    "id": "smolensk-governor-deepfake-scam",
+    "date": "2026-10-14",
+    "title": "Deepfake of Smolensk governor Vasily Anokhin urges foreign airlines to protect crews over Russian airspace",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "low",
+    "country": "RU",
+    "region": "Europe",
+    "target": "Vasily Anokhin, governor of Smolensk Oblast (impersonated); the public",
+    "loss_usd": null,
+    "summary": "A neural-network-generated video circulated online in which Smolensk Oblast governor Vasily Anokhin appeared to urge foreign airlines flying through Russian airspace to look after their crews. Anokhin said in his Max channel that he made no such address and that the video was fake. The creators are unidentified and no financial loss or scam scheme has been reported.",
+    "actor": "Unidentified persons (described by the governor as 'злоумышленники', malicious actors)",
+    "actor_type": "criminal",
+    "sector": "Government & public sector",
+    "attribution": "Described only as scammers; no named actor.",
+    "motive": "Fraud (implied by 'scammers'); details not stated.",
+    "vector": "Deepfake video or audio of the governor distributed online.",
+    "root_cause": "Unknown",
+    "impact": "Unknown; no victims or losses reported in the headline.",
+    "response": "Unknown",
+    "status": "reported; governor publicly denied the video",
+    "cve": null,
+    "source": "Рабочий путь",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPa1FjU3UwaWNFeVppeDdUZ1JaXzYtcTN4ck1YQThCeWp5VmpaYmFtNjlDMVNEejJjb3dGSjlhdHd1LVRFd3I3bWRHSzhiZkNManRSRmdDOUtKY0RhSGU5RmdQaTZTOGFUbFlDZGlleEFseG82VU9CcDZ0TG1yS1lqd1ZwU0lrZGpvbGxycHJ6Q1BWSG1yd1daSjBlRkNFRG9wd0N2YTlUcUxIdG5acTFZZUVR?oc=5",
+    "sources": [
+      {
+        "name": "Рабочий путь",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPa1FjU3UwaWNFeVppeDdUZ1JaXzYtcTN4ck1YQThCeWp5VmpaYmFtNjlDMVNEejJjb3dGSjlhdHd1LVRFd3I3bWRHSzhiZkNManRSRmdDOUtKY0RhSGU5RmdQaTZTOGFUbFlDZGlleEFseG82VU9CcDZ0TG1yS1lqd1ZwU0lrZGpvbGxycHJ6Q1BWSG1yd1daSjBlRkNFRG9wd0N2YTlUcUxIdG5acTFZZUVR?oc=5"
+      },
+      {
+        "name": "Smolensk i (Информагентство «О чём говорит Смоленск»)",
+        "url": "https://smolensk-i.ru/authority/v-seti-poyavilsya-dipfejk-s-gubernatorom-smolenskoj-oblasti_662946"
+      },
+      {
+        "name": "АиФ-Смоленск",
+        "url": "https://smol.aif.ru/society/ot-imeni-gubernatora-smolenskoy-oblasti-rasprostranyayut-dipfeyk"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-16",
+        "event": "Reported by Рабочий путь"
+      }
+    ],
+    "drafted_at": "2026-10-16T10:50:02Z",
+    "first_seen": "2026-10-16T10:50:02Z",
+    "updated_at": "2026-11-05T00:20:59Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-05T00:20:59Z"
+  },
+  {
     "id": "legal-filing-hidden-prompt-injection",
     "date": "2026-10-15",
     "title": "Hidden prompt injection in legal filing instructs AI reviewers to side with filer",

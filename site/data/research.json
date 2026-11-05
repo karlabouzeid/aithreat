@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T00:13:46Z",
+  "generated_at": "2026-11-05T00:25:41Z",
   "licence": "CC BY 4.0",
   "sources": [
     {
@@ -1010,8 +1010,8 @@
       "claim": "Realistic AI-generated voices, images and video are used for fraud, extortion and sexual imagery made without consent, and cheap tools have made such content easy to produce at scale.",
       "status": "observed",
       "note": "The largest category in the registry: cloned voices and deepfake video calls impersonating executives, officials and relatives, and deepfake celebrity ads behind investment scams. The report adds that victims often do not report, so public cases undercount the harm.",
-      "n": 97,
-      "real_world": 97,
+      "n": 98,
+      "real_world": 98,
       "first_real_world": "2025-01-05",
       "months_after_publication": -13,
       "url": "https://aithreat.io/research/iasr-synthetic-content/",
@@ -1029,6 +1029,7 @@
         "spb-choreographer-beglov-ai-avatar-scam",
         "scammers-clone-sheriff-voice",
         "wu-yue-ai-celebrity-impersonation-sales",
+        "smolensk-governor-deepfake-scam",
         "korea-police-officer-deepfake-indicted",
         "ai-music-streaming-royalty-fraud",
         "puente-alto-school-sexual-deepfakes",
@@ -2416,8 +2417,8 @@
       "claim": "People using AI for disinformation, surveillance and propaganda at scale; for cyberattacks and weapons; and for fraud, scams and targeted manipulation.",
       "status": "observed",
       "note": "The other pillar of the registry: deepfake fraud, AI-built malware, AI phishing and state operations.",
-      "n": 213,
-      "real_world": 212,
+      "n": 214,
+      "real_world": 213,
       "first_real_world": "2025-01-05",
       "months_after_publication": null,
       "url": "https://aithreat.io/research/mit-malicious-actors/",
@@ -2465,6 +2466,7 @@
         "ngate-variant-trojanized-nfc-app",
         "purpledelta-nk-it-worker-ai-personas",
         "rathat-ai-c2-panel-maas",
+        "smolensk-governor-deepfake-scam",
         "ta419-ai-policy-expert-phishing",
         "uat-11985-taiwan-aitm-phishing",
         "unit42-agentic-attack-enterprise-breach",
@@ -2836,7 +2838,7 @@
     {
       "source": "iasr-2026",
       "claims": 11,
-      "matched_cases": 352,
+      "matched_cases": 353,
       "matched_pct": 72,
       "status_counts": {
         "observed": 5,
@@ -2901,7 +2903,7 @@
     {
       "source": "mit-risk-repository",
       "claims": 7,
-      "matched_cases": 424,
+      "matched_cases": 425,
       "matched_pct": 87,
       "status_counts": {
         "observed": 4,
@@ -2919,9 +2921,9 @@
     "none": 4,
     "outside": 7
   },
-  "matched_cases": 425,
-  "total_cases": 487,
-  "warning_matched_cases": 383,
+  "matched_cases": 426,
+  "total_cases": 488,
+  "warning_matched_cases": 384,
   "unmatched_pct": 21,
   "unmatched_by_category": [
     {
@@ -2962,7 +2964,7 @@
     {
       "category": "Deepfake fraud",
       "unmatched": 0,
-      "total": 100
+      "total": 101
     },
     {
       "category": "AI-assisted malware",
