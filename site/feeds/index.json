@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T03:05:38Z",
+  "generated_at": "2026-11-05T03:35:38Z",
   "categories": [
     {
       "name": "AI exam fraud",
@@ -39,7 +39,7 @@
     {
       "name": "Deepfake abuse",
       "slug": "deepfake-abuse",
-      "count": 51
+      "count": 52
     },
     {
       "name": "Deepfake fraud",
@@ -54,7 +54,7 @@
     {
       "name": "Model & data leak",
       "slug": "model-data-leak",
-      "count": 46
+      "count": 47
     },
     {
       "name": "Prompt injection",
@@ -146,7 +146,7 @@
     },
     {
       "code": "GL",
-      "count": 168
+      "count": 169
     },
     {
       "code": "GR",
@@ -279,6 +279,10 @@
     {
       "code": "SG",
       "count": 4
+    },
+    {
+      "code": "SN",
+      "count": 1
     },
     {
       "code": "TH",

@@ -14572,6 +14572,61 @@
     "sector": "Individuals & consumers"
   },
   {
+    "id": "touba-ai-cyber-extortion-arrest",
+    "date": "2026-02-19",
+    "title": "Touba police arrest suspect over alleged cyber-fraud, blackmail and identity theft using AI voice-changing tools",
+    "category": "Deepfake abuse",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "SN",
+    "region": "Middle East & Africa",
+    "target": "A woman whose images were allegedly misused, and other individuals allegedly blackmailed online in the Touba area",
+    "loss_usd": null,
+    "summary": "Ndamatou/Touba police say they dismantled a digital criminal operation after a woman complained on 16 February 2026 of a smear and image-misuse campaign. The suspect, allegedly her ex-brother-in-law, is said to have copied photos and videos from her WhatsApp statuses to build fake profiles and used AI tools to change his voice in real time during audio and video calls to pose as a woman. Police allege he collected compromising images from victims and spread pornographic content, and he was placed in custody. Allegations are unproven.",
+    "actor": "Alleged suspect (reportedly the complainant's ex-brother-in-law), arrested by Ndamatou/Touba police",
+    "actor_type": "criminal",
+    "sector": "Individuals & consumers",
+    "attribution": "Arrest by the Ndamatou/Touba district police station, as reported by local news; no further attribution given.",
+    "motive": "Apparently financial gain through extortion and fraud; the text does not state it explicitly.",
+    "vector": "Online collection and distribution of pornographic content, blackmail and fraudulent use of AI; exact AI technique not stated.",
+    "root_cause": "Unknown; the summary does not describe how victims were targeted or what AI tool was used.",
+    "impact": "Victims were subject to cyber-scams and blackmail; the number of victims and any losses are not stated in the summary.",
+    "response": "Police dismantled the operation and arrested one individual.",
+    "status": "suspect arrested and in custody",
+    "cve": null,
+    "young_people": false,
+    "setting": "online",
+    "age_group": null,
+    "source": "AI Incident Database",
+    "url": "https://www.rts.sn/actualite/detail/a-la-une/touba-un-individu-arrete-pour-cyber-escroquerie-chantage-et-usage-frauduleux-de-lia",
+    "sources": [
+      {
+        "name": "AI Incident Database",
+        "url": "https://www.rts.sn/actualite/detail/a-la-une/touba-un-individu-arrete-pour-cyber-escroquerie-chantage-et-usage-frauduleux-de-lia"
+      },
+      {
+        "name": "Dakaractu",
+        "url": "https://www.dakaractu.com/Touba-interpellation-pour-cyber-escroquerie-chantage-et-usage-frauduleux-de-l-IA_a269329.html"
+      },
+      {
+        "name": "Sami24 TV",
+        "url": "https://sami24tv.com/cyber-escroquerie-a-touba-un-reseau-utilisant-lia-demantele/"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-19",
+        "event": "Reported by AI Incident Database"
+      }
+    ],
+    "drafted_at": "2026-10-19T20:05:42Z",
+    "first_seen": "2026-10-19T20:05:42Z",
+    "updated_at": "2026-11-05T03:35:38Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-05T03:35:38Z"
+  },
+  {
     "id": "anthropic-distillation",
     "date": "2026-02-23",
     "title": "Anthropic accuses DeepSeek, Moonshot and MiniMax of distilling Claude via 24,000 accounts",
@@ -24733,6 +24788,61 @@
     "verification": "reported",
     "review": "auto",
     "verified_at": "2026-11-04T21:35:41Z"
+  },
+  {
+    "id": "meta-muse-conversations-dns-leak",
+    "date": "2026-10-20",
+    "title": "Meta Muse shared-conversation links (about 6,800) discoverable via a single public DNS query; Meta pauses sharing",
+    "category": "Model & data leak",
+    "direction": "on-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "Meta Muse users who shared conversations via links",
+    "loss_usd": null,
+    "summary": "Security firm Claroc reported finding more than 6,800 share links to conversations created with Meta's Muse AI agent through one passive-DNS query, because Muse built each share hostname from the conversation title. Some of the pages it examined contained sensitive personal and business information, such as a loan application and an internal revenue review. Meta suspended Muse's conversation-sharing feature after the report.",
+    "actor": "No attacker; discovered by Claroc security researchers",
+    "actor_type": "unknown",
+    "sector": "Individuals & consumers",
+    "attribution": "No actor named in the report; the exposure appears to be a flaw rather than a deliberate attack.",
+    "motive": "Unknown",
+    "vector": "Publicly reachable conversation data, retrievable with a single DNS request, per the headline.",
+    "root_cause": "Unknown; the headline implies conversation data was exposed through a DNS-based access path.",
+    "impact": "More than 6,800 share hostnames were listed in passive DNS records; Claroc examined hundreds of the pages, some holding sensitive personal and business data.",
+    "response": "Meta suspended Muse's conversation-sharing feature.",
+    "status": "contained",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "source": "lefilia.fr",
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNeDQzcHc0d19xdVlwU0ZwRmU0TGtXQ0NyTGlmM21QSkdzN3laUVVKVldxQ0lsTUVQSU9mNnp5cjBaLXROWHNlUzRmSDgwem96ZFJpSllCdXhndkpSRlpudVBqSHA5V0h2LXhXYzE1TFl4TmRyRW0xVDhKZHN0ODlETG94SDJRWGk4SjhLNUt3c1RHRHhTVnE4c0FVVWhOZTN4Ym54OUlJUGZ4RUlnYThMamFTM2NUb1dGLTJiZE5aa0hUdTBnbnc?oc=5",
+    "sources": [
+      {
+        "name": "lefilia.fr",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNeDQzcHc0d19xdVlwU0ZwRmU0TGtXQ0NyTGlmM21QSkdzN3laUVVKVldxQ0lsTUVQSU9mNnp5cjBaLXROWHNlUzRmSDgwem96ZFJpSllCdXhndkpSRlpudVBqSHA5V0h2LXhXYzE1TFl4TmRyRW0xVDhKZHN0ODlETG94SDJRWGk4SjhLNUt3c1RHRHhTVnE4c0FVVWhOZTN4Ym54OUlJUGZ4RUlnYThMamFTM2NUb1dGLTJiZE5aa0hUdTBnbnc?oc=5"
+      },
+      {
+        "name": "Quartz",
+        "url": "https://qz.com/meta-muse-ai-shared-conversation-links-dns-102026"
+      },
+      {
+        "name": "eSecurityPlanet",
+        "url": "https://www.esecurityplanet.com/threats/news-meta-muse-chat-links-passive-dns-exposure/"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-20",
+        "event": "Reported by lefilia.fr"
+      }
+    ],
+    "drafted_at": "2026-10-20T18:35:44Z",
+    "first_seen": "2026-10-20T18:35:44Z",
+    "updated_at": "2026-11-05T03:35:38Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-05T03:35:38Z"
   },
   {
     "id": "litellm-1-107-0-trojanized-release",

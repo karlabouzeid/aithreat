@@ -8913,5 +8913,37 @@
     "timeline": [
       "Informado por Soirmag"
     ]
+  },
+  {
+    "title": "La policía de Touba detiene a un sospechoso por presunto ciberfraude, chantaje y usurpación de identidad mediante herramientas de IA para cambiar la voz",
+    "summary": "La policía de Ndamatou/Touba afirma haber desmantelado una operación criminal digital después de que una mujer presentara el 16 de febrero de 2026 una denuncia por una campaña de difamación y uso indebido de imágenes. El sospechoso, presuntamente su excuñado, habría copiado fotos y vídeos de los estados de WhatsApp de ella para crear perfiles falsos y habría utilizado herramientas de IA para cambiar su voz en tiempo real durante llamadas de audio y vídeo y hacerse pasar por una mujer. La policía sostiene que obtuvo imágenes comprometedoras de las víctimas y difundió contenido pornográfico, y fue puesto bajo custodia. Las acusaciones no están probadas.",
+    "target": "Una mujer cuyas imágenes habrían sido utilizadas indebidamente y otras personas presuntamente chantajeadas en línea en la zona de Touba",
+    "actor": "Presunto sospechoso (según se informa, excuñado de la denunciante), detenido por la policía de Ndamatou/Touba",
+    "attribution": "Detención por la comisaría del distrito de Ndamatou/Touba, según informan medios locales; no se ofrece ninguna otra atribución.",
+    "motive": "Aparentemente lucro económico mediante extorsión y fraude; el texto no lo indica de forma explícita.",
+    "vector": "Recopilación y distribución en línea de contenido pornográfico, chantaje y uso fraudulento de IA; no se indica la técnica de IA exacta.",
+    "root_cause": "Desconocida; el resumen no describe cómo se seleccionó a las víctimas ni qué herramienta de IA se utilizó.",
+    "impact": "Las víctimas sufrieron ciberestafas y chantaje; el resumen no indica el número de víctimas ni las pérdidas.",
+    "response": "La policía desmanteló la operación y detuvo a una persona.",
+    "id": "touba-ai-cyber-extortion-arrest",
+    "timeline": [
+      "Informado por AI Incident Database"
+    ]
+  },
+  {
+    "title": "Enlaces de conversaciones compartidas de Meta Muse (unos 6.800) localizables mediante una única consulta DNS pública; Meta suspende la función de compartir",
+    "summary": "La firma de seguridad Claroc informó de que encontró más de 6.800 enlaces para compartir conversaciones creadas con el agente de IA Muse de Meta mediante una sola consulta de DNS pasivo, porque Muse construía el nombre de host de cada enlace compartido a partir del título de la conversación. Algunas de las páginas que examinó contenían información personal y empresarial sensible, como una solicitud de préstamo y una revisión interna de ingresos. Meta suspendió la función de compartir conversaciones de Muse tras el informe.",
+    "target": "Usuarios de Meta Muse que compartieron conversaciones mediante enlaces",
+    "actor": "Sin atacante; descubierto por investigadores de seguridad de Claroc",
+    "attribution": "El informe no nombra a ningún actor; la exposición parece un fallo y no un ataque deliberado.",
+    "motive": "Desconocido",
+    "vector": "Datos de conversaciones accesibles públicamente, recuperables con una sola solicitud DNS, según el titular.",
+    "root_cause": "Desconocida; el titular da a entender que los datos de las conversaciones se expusieron a través de una vía de acceso basada en DNS.",
+    "impact": "Más de 6.800 nombres de host de enlaces compartidos figuraban en registros de DNS pasivo; Claroc examinó cientos de las páginas, algunas con datos personales y empresariales sensibles.",
+    "response": "Meta suspendió la función de compartir conversaciones de Muse.",
+    "id": "meta-muse-conversations-dns-leak",
+    "timeline": [
+      "Informado por lefilia.fr"
+    ]
   }
 ]

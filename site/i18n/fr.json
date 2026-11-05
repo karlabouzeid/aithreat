@@ -8913,5 +8913,37 @@
     "timeline": [
       "Information rapportée par Soirmag"
     ]
+  },
+  {
+    "title": "La police de Touba arrête un suspect dans une affaire présumée de cyberfraude, de chantage et d'usurpation d'identité à l'aide d'outils d'IA de modification de la voix",
+    "summary": "La police de Ndamatou/Touba affirme avoir démantelé une opération criminelle numérique après la plainte, déposée le 16 février 2026 par une femme, qui dénonçait une campagne de diffamation et d'utilisation détournée de ses images. Le suspect, présenté comme son ancien beau-frère, aurait copié des photos et des vidéos issues de ses statuts WhatsApp pour créer de faux profils, et aurait utilisé des outils d'IA pour modifier sa voix en temps réel lors d'appels audio et vidéo afin de se faire passer pour une femme. Selon la police, il aurait collecté des images compromettantes auprès de victimes et diffusé des contenus pornographiques ; il a été placé en garde à vue. Ces allégations ne sont pas prouvées.",
+    "target": "Une femme dont les images auraient été détournées, ainsi que d'autres personnes qui auraient été victimes de chantage en ligne dans la région de Touba",
+    "actor": "Suspect présumé (selon les informations, l'ancien beau-frère de la plaignante), arrêté par la police de Ndamatou/Touba",
+    "attribution": "Arrestation par le commissariat de district de Ndamatou/Touba, d'après la presse locale ; aucune autre attribution n'est fournie.",
+    "motive": "Apparemment un gain financier par l'extorsion et la fraude ; le texte ne l'indique pas explicitement.",
+    "vector": "Collecte et diffusion en ligne de contenus pornographiques, chantage et usage frauduleux de l'IA ; la technique d'IA exacte n'est pas précisée.",
+    "root_cause": "Inconnue ; le résumé ne décrit ni la manière dont les victimes ont été ciblées ni l'outil d'IA utilisé.",
+    "impact": "Les victimes ont subi des cyberescroqueries et du chantage ; le nombre de victimes et les éventuelles pertes ne sont pas précisés dans le résumé.",
+    "response": "La police a démantelé l'opération et arrêté un individu.",
+    "id": "touba-ai-cyber-extortion-arrest",
+    "timeline": [
+      "Signalé par l'AI Incident Database"
+    ]
+  },
+  {
+    "title": "Liens de conversations partagées de Meta Muse (environ 6 800) découvrables via une seule requête DNS publique ; Meta suspend le partage",
+    "summary": "L'entreprise de sécurité Claroc indique avoir trouvé plus de 6 800 liens de partage de conversations créées avec l'agent d'IA Muse de Meta au moyen d'une seule requête DNS passive, Muse construisant chaque nom d'hôte de partage à partir du titre de la conversation. Certaines des pages examinées contenaient des informations personnelles et professionnelles sensibles, telles qu'une demande de prêt et une revue interne du chiffre d'affaires. Meta a suspendu la fonctionnalité de partage de conversations de Muse après la publication du rapport.",
+    "target": "Utilisateurs de Meta Muse ayant partagé des conversations par liens",
+    "actor": "Aucun attaquant ; découverte par les chercheurs en sécurité de Claroc",
+    "attribution": "Aucun acteur n'est nommé dans le rapport ; l'exposition semble résulter d'une faille plutôt que d'une attaque délibérée.",
+    "motive": "Inconnu",
+    "vector": "Données de conversation accessibles publiquement, récupérables au moyen d'une seule requête DNS, selon le titre.",
+    "root_cause": "Inconnue ; le titre laisse entendre que des données de conversation ont été exposées par un chemin d'accès reposant sur le DNS.",
+    "impact": "Plus de 6 800 noms d'hôte de partage figuraient dans les enregistrements DNS passifs ; Claroc a examiné des centaines de pages, dont certaines contenaient des données personnelles et professionnelles sensibles.",
+    "response": "Meta a suspendu la fonctionnalité de partage de conversations de Muse.",
+    "id": "meta-muse-conversations-dns-leak",
+    "timeline": [
+      "Signalé par lefilia.fr"
+    ]
   }
 ]

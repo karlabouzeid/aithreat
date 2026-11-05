@@ -1014,5 +1014,37 @@
     "reason": "IBTimes UK and 21news.be, drawing on a De Standaard investigation, confirm AI-generated sexual deepfakes of Queen Mathilde, Princess Elisabeth and Belgian female politicians, and it is not a known case.",
     "duplicate_of": null,
     "at": "2026-11-05T03:05:38Z"
+  },
+  {
+    "id": "ai-agents-breach-100-companies-5000",
+    "title": "AI agents reportedly breach over 100 companies at a cost of about $5,000",
+    "decision": "reject",
+    "reason": "Real event (Reuters/NorForge, 2026-10-19) but it is the same Cairn-driven campaign already listed as cairn-ai-platform-abused-100-orgs, and the draft only cites an aggregator link.",
+    "duplicate_of": "cairn-ai-platform-abused-100-orgs",
+    "at": "2026-11-05T03:35:38Z"
+  },
+  {
+    "id": "touba-ai-cyber-extortion-arrest",
+    "title": "Touba police arrest suspect for cyber-fraud, blackmail and fraudulent AI use",
+    "decision": "approve",
+    "reason": "Senegalese police arrest is confirmed by RTS, Dakaractu and others, but the event date is 2026-02-19 rather than 2026-10-19, and the AI element is real-time voice-changing used to run fake female profiles.",
+    "duplicate_of": null,
+    "at": "2026-11-05T03:35:38Z"
+  },
+  {
+    "id": "meta-muse-conversations-dns-leak",
+    "title": "About 6,800 Meta Muse conversations reportedly exposed publicly via a DNS request",
+    "decision": "approve",
+    "reason": "Security firm Claroc's finding of about 6,800 Muse share links discoverable via passive DNS is confirmed by Quartz, eSecurityPlanet and others, and it differs from the known Muse home-address case; the draft wrongly implies the conversations themselves were counted and omits Meta's response.",
+    "duplicate_of": null,
+    "at": "2026-11-05T03:35:38Z"
+  },
+  {
+    "id": "oregon-washington-county-candidate-deepf",
+    "title": "Deepfake of Washington County, Oregon, candidate goes viral nationwide",
+    "decision": "reject",
+    "reason": "The source story was retracted: the viral Nafisa Fai flag video was not shown to be a deepfake, since newly obtained images showed the flag really was upside down, so there is no AI incident.",
+    "duplicate_of": null,
+    "at": "2026-11-05T03:35:38Z"
   }
 ]

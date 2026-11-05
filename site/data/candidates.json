@@ -1036,51 +1036,6 @@
     "updated_at": "2026-10-19T10:35:37Z"
   },
   {
-    "id": "ai-agents-breach-100-companies-5000",
-    "date": "2026-10-19",
-    "title": "AI agents reportedly breach over 100 companies at a cost of about $5,000",
-    "category": "AI-assisted malware",
-    "direction": "with-ai",
-    "severity": "high",
-    "country": "GL",
-    "region": "Global",
-    "target": "More than 100 companies (unnamed)",
-    "loss_usd": null,
-    "summary": "Per cisoclub, a hacker used AI agents to break into more than 100 companies for about $5,000. A related report says dozens of sites; the two may be the same event.",
-    "actor": "Unknown",
-    "actor_type": "criminal",
-    "sector": "Multiple / cross-sector",
-    "attribution": "A single hacker per the headlines; no name or group given.",
-    "motive": "Unknown",
-    "vector": "AI agents used to run intrusions at scale",
-    "root_cause": "Unknown",
-    "impact": "More than 100 companies reportedly breached; the data taken is not stated.",
-    "response": "Unknown",
-    "status": "under investigation",
-    "cve": null,
-    "confidence": 0.5,
-    "source": "cisoclub",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQbkdHTjQwUjZyME9jZmNib2ZQUzlSQlJKMkZxcGJRRzQzMHQ1eGpHYm5KcTB2aklWUFhRN01RNnNnM2x0Q3JBaXNxWnU5M0dkRVFKZGZ6UWNjVFZJTXRrWWJvc1h2cEszc01XcFdvS3ZXUjgxYlBnUndkR2JYVTVMU2pLTzVqTXQ2N0JpSklhT0hyQWREQ1A3T3EwTGtSdDc5N3czWEhn?oc=5",
-    "sources": [
-      {
-        "name": "cisoclub",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQbkdHTjQwUjZyME9jZmNib2ZQUzlSQlJKMkZxcGJRRzQzMHQ1eGpHYm5KcTB2aklWUFhRN01RNnNnM2x0Q3JBaXNxWnU5M0dkRVFKZGZ6UWNjVFZJTXRrWWJvc1h2cEszc01XcFdvS3ZXUjgxYlBnUndkR2JYVTVMU2pLTzVqTXQ2N0JpSklhT0hyQWREQ1A3T3EwTGtSdDc5N3czWEhn?oc=5"
-      }
-    ],
-    "timeline": [
-      {
-        "date": "2026-10-19",
-        "event": "Reported by cisoclub"
-      }
-    ],
-    "verified": false,
-    "drafted_at": "2026-10-19T10:35:37Z",
-    "wire_id": "c9fa9412c376",
-    "first_seen": "2026-10-19T10:35:37Z",
-    "first_published": "2026-10-19T10:33:20Z",
-    "updated_at": "2026-10-19T10:35:37Z"
-  },
-  {
     "id": "chinese-speaking-hacker-ai-1200-sites",
     "date": "2026-10-19",
     "title": "Chinese-speaking hacker uses AI to attack 1,200+ websites for about $5,000",
@@ -1124,54 +1079,6 @@
     "first_seen": "2026-10-19T11:05:36Z",
     "first_published": "2026-10-19T10:43:48Z",
     "updated_at": "2026-10-19T11:05:36Z"
-  },
-  {
-    "id": "touba-ai-cyber-extortion-arrest",
-    "date": "2026-10-19",
-    "title": "Touba police arrest suspect for cyber-fraud, blackmail and fraudulent AI use",
-    "category": "Deepfake abuse",
-    "direction": "with-ai",
-    "severity": "medium",
-    "country": "SN",
-    "region": "Middle East & Africa",
-    "target": "Individuals blackmailed online in Touba area",
-    "loss_usd": null,
-    "summary": "Ndamatou/Touba police dismantled a digital criminal operation that collected and spread illicit pornographic content, blackmailed victims and misused AI, and arrested one person.",
-    "actor": "Unnamed suspect arrested by Ndamatou/Touba police",
-    "actor_type": "criminal",
-    "sector": "Individuals & consumers",
-    "attribution": "Arrest by the Ndamatou/Touba district police station, as reported by local news; no further attribution given.",
-    "motive": "Apparently financial gain through extortion and fraud; the text does not state it explicitly.",
-    "vector": "Online collection and distribution of pornographic content, blackmail and fraudulent use of AI; exact AI technique not stated.",
-    "root_cause": "Unknown; the summary does not describe how victims were targeted or what AI tool was used.",
-    "impact": "Victims were subject to cyber-scams and blackmail; the number of victims and any losses are not stated in the summary.",
-    "response": "Police dismantled the operation and arrested one individual.",
-    "status": "contained",
-    "cve": null,
-    "young_people": false,
-    "setting": "online",
-    "age_group": null,
-    "confidence": 0.5,
-    "source": "AI Incident Database",
-    "url": "https://www.rts.sn/actualite/detail/a-la-une/touba-un-individu-arrete-pour-cyber-escroquerie-chantage-et-usage-frauduleux-de-lia",
-    "sources": [
-      {
-        "name": "AI Incident Database",
-        "url": "https://www.rts.sn/actualite/detail/a-la-une/touba-un-individu-arrete-pour-cyber-escroquerie-chantage-et-usage-frauduleux-de-lia"
-      }
-    ],
-    "timeline": [
-      {
-        "date": "2026-10-19",
-        "event": "Reported by AI Incident Database"
-      }
-    ],
-    "verified": false,
-    "drafted_at": "2026-10-19T20:05:42Z",
-    "wire_id": "b9847c421b94",
-    "first_seen": "2026-10-19T20:05:42Z",
-    "first_published": "2026-10-18T00:00:00Z",
-    "updated_at": "2026-10-19T20:05:42Z"
   },
   {
     "id": "nador-ai-scam-network-arrest",
@@ -1364,102 +1271,6 @@
     "first_seen": "2026-10-20T03:05:44Z",
     "first_published": "2026-10-20T02:00:20Z",
     "updated_at": "2026-10-20T03:05:44Z"
-  },
-  {
-    "id": "meta-muse-conversations-dns-leak",
-    "date": "2026-10-20",
-    "title": "About 6,800 Meta Muse conversations reportedly exposed publicly via a DNS request",
-    "category": "Model & data leak",
-    "direction": "on-ai",
-    "severity": "medium",
-    "country": "GL",
-    "region": "Global",
-    "target": "Meta Muse chatbot users",
-    "loss_usd": null,
-    "summary": "About 6,800 conversations with Meta Muse reportedly became publicly accessible. A single DNS request was reportedly enough to reach them, per lefilia.fr.",
-    "actor": "Unknown",
-    "actor_type": "unknown",
-    "sector": "Individuals & consumers",
-    "attribution": "No actor named in the report; the exposure appears to be a flaw rather than a deliberate attack.",
-    "motive": "Unknown",
-    "vector": "Publicly reachable conversation data, retrievable with a single DNS request, per the headline.",
-    "root_cause": "Unknown; the headline implies conversation data was exposed through a DNS-based access path.",
-    "impact": "About 6,800 user conversations with Meta Muse reportedly became public.",
-    "response": "Unknown",
-    "status": "under investigation",
-    "cve": null,
-    "young_people": false,
-    "setting": null,
-    "age_group": null,
-    "confidence": 0.5,
-    "source": "lefilia.fr",
-    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNeDQzcHc0d19xdVlwU0ZwRmU0TGtXQ0NyTGlmM21QSkdzN3laUVVKVldxQ0lsTUVQSU9mNnp5cjBaLXROWHNlUzRmSDgwem96ZFJpSllCdXhndkpSRlpudVBqSHA5V0h2LXhXYzE1TFl4TmRyRW0xVDhKZHN0ODlETG94SDJRWGk4SjhLNUt3c1RHRHhTVnE4c0FVVWhOZTN4Ym54OUlJUGZ4RUlnYThMamFTM2NUb1dGLTJiZE5aa0hUdTBnbnc?oc=5",
-    "sources": [
-      {
-        "name": "lefilia.fr",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNeDQzcHc0d19xdVlwU0ZwRmU0TGtXQ0NyTGlmM21QSkdzN3laUVVKVldxQ0lsTUVQSU9mNnp5cjBaLXROWHNlUzRmSDgwem96ZFJpSllCdXhndkpSRlpudVBqSHA5V0h2LXhXYzE1TFl4TmRyRW0xVDhKZHN0ODlETG94SDJRWGk4SjhLNUt3c1RHRHhTVnE4c0FVVWhOZTN4Ym54OUlJUGZ4RUlnYThMamFTM2NUb1dGLTJiZE5aa0hUdTBnbnc?oc=5"
-      }
-    ],
-    "timeline": [
-      {
-        "date": "2026-10-20",
-        "event": "Reported by lefilia.fr"
-      }
-    ],
-    "verified": false,
-    "drafted_at": "2026-10-20T18:35:44Z",
-    "wire_id": "12cfb4ea5f75",
-    "first_seen": "2026-10-20T18:35:44Z",
-    "first_published": "2026-10-20T15:19:39Z",
-    "updated_at": "2026-10-20T18:35:44Z"
-  },
-  {
-    "id": "oregon-washington-county-candidate-deepf",
-    "date": "2026-10-20",
-    "title": "Deepfake of Washington County, Oregon, candidate goes viral nationwide",
-    "category": "Deepfake abuse",
-    "direction": "with-ai",
-    "severity": "medium",
-    "country": "US",
-    "region": "North America",
-    "target": "Washington County, Oregon, political candidate",
-    "loss_usd": null,
-    "summary": "A deepfake of a Washington County, Oregon, candidate reportedly went viral across the US, according to the Oregon Journalism Project. Details of the content, creator and spread are not given.",
-    "actor": "Unknown",
-    "actor_type": "unknown",
-    "sector": "Politics & elections",
-    "attribution": "Unknown. The headline does not name the creator or distributor of the deepfake.",
-    "motive": "Unknown; likely to deceive or discredit a candidate, but the source does not say.",
-    "vector": "Viral spread of a deepfake, presumably on social media. The platforms are not named.",
-    "root_cause": "Easy access to deepfake tools and viral social sharing. The source gives no specifics.",
-    "impact": "The deepfake reportedly spread nationwide, targeting a local election candidate. Specific harm to the candidate or the election is not stated.",
-    "response": "Unknown; the headline and summary do not describe any platform, candidate or official response.",
-    "status": "under investigation",
-    "cve": null,
-    "young_people": false,
-    "setting": null,
-    "age_group": null,
-    "confidence": 0.5,
-    "source": "oregonjournalismproject.org via Hacker News",
-    "url": "https://www.oregonjournalismproject.org/deepfake-of-washington-county-oregon-candidate-goes-viral-nationwide",
-    "sources": [
-      {
-        "name": "oregonjournalismproject.org via Hacker News",
-        "url": "https://www.oregonjournalismproject.org/deepfake-of-washington-county-oregon-candidate-goes-viral-nationwide"
-      }
-    ],
-    "timeline": [
-      {
-        "date": "2026-10-20",
-        "event": "Reported by oregonjournalismproject.org via Hacker News"
-      }
-    ],
-    "verified": false,
-    "drafted_at": "2026-10-20T21:05:38Z",
-    "wire_id": "30acb96ce969",
-    "first_seen": "2026-10-20T21:05:38Z",
-    "first_published": "2026-10-20T20:46:55Z",
-    "updated_at": "2026-10-20T21:05:38Z"
   },
   {
     "id": "anthropic-models-hacked-3-orgs-testing",
