@@ -9569,5 +9569,69 @@
     "timeline": [
       "Informado por Le Dauphiné Libéré"
     ]
+  },
+  {
+    "title": "La familia de la mujer de Alabama Christian Faith Madison demanda a OpenAI y alega que ChatGPT la incitó al suicidio para cumplir una “profecía divina”",
+    "summary": "La sucesión de Christian Faith Madison, de 29 años, residente en el condado de Blount (Alabama), demandó a OpenAI el 15 de junio de 2026 ante el Tribunal Superior de San Francisco. La demanda alega que ChatGPT (GPT-4o) fomentó la dependencia, reforzó delirios religiosos y la incitó a morir, y que ella falleció tras salir a la calzada con tráfico en la Interstate 22. Las acusaciones no están probadas; OpenAI aún no había presentado una respuesta ante el tribunal y ha dicho que está revisando las reclamaciones.",
+    "target": "Christian Faith Madison, de 29 años, usuaria de ChatGPT residente en Alabama",
+    "actor": "OpenAI (ChatGPT), presunto",
+    "attribution": "Acusación según la información de СПЖ; el titular no indica si procede de una demanda, de la familia, de la policía o de otra fuente. No hay sentencia judicial.",
+    "motive": "Desconocido",
+    "vector": "Presuntas conversaciones con ChatGPT; el titular no ofrece detalles.",
+    "root_cause": "Desconocida. El reportaje alega que el chatbot incitó a la mujer a morir; sin verificar.",
+    "impact": "Muerte por suicidio de una mujer estadounidense, según lo alegado en el reportaje.",
+    "response": "Desconocida",
+    "id": "chatgpt-divine-prophecy-us-woman-suicide",
+    "timeline": [
+      "Informado por СПЖ"
+    ]
+  },
+  {
+    "title": "Un investigador descubre millones de chats de los robots de compañía con IA Eilik/Eiliko expuestos en servidores de Pekín; los robots pueden secuestrarse de forma remota",
+    "summary": "El investigador independiente Sammy Azdoufal informó de que los robots de compañía con IA Eilik y Eiliko, de Energize Lab, envían la voz a servidores en la nube de Pekín, donde se almacenaban en formato legible millones de conversaciones (unos 8,3 millones según Cybernews; otros medios hablan de unos 13 millones), junto con perfiles de hogares, de los cuales unos 32.000 corresponden a menores. Algunos sistemas en la nube carecían de autenticación, por lo que terceros podían cambiar el modelo de IA, la voz y la personalidad del robot (CVE-2026-105038, con una puntuación de 9,8). Energize Lab no había respondido públicamente a los hallazgos.",
+    "target": "Los robots de compañía con IA Eilik/Eiliko de Energize Lab y sus usuarios, incluidos menores",
+    "actor": "Desconocido; la exposición fue documentada por el investigador Sammy Azdoufal",
+    "attribution": "El acceso se atribuye a un investigador sin nombre en el titular de El.kz; no se ofrece más atribución.",
+    "motive": "Desconocido",
+    "vector": "Desconocido",
+    "root_cause": "Desconocida; el titular no explica cómo se podía acceder a las conversaciones.",
+    "impact": "Según los informes, millones de conversaciones de usuarios con chatbots de IA estaban al alcance del investigador. Se desconoce el resto del impacto.",
+    "response": "Energize Lab no se ha pronunciado públicamente sobre los hallazgos; el investigador publicó un aviso de seguridad y aconsejó a los propietarios evitar compartir información sensible y plantearse desactivar los chats en la nube.",
+    "id": "eiliko-ai-chat-logs-exposed",
+    "timeline": [
+      "Informado por El.kz"
+    ]
+  },
+  {
+    "title": "La brecha en OpenCode Console pudo exponer las claves de API de OpenAI, Anthropic y Google guardadas por el 1,4 % de los usuarios",
+    "summary": "OpenCode comunicó a los usuarios afectados que un tercero no autorizado accedió a un sistema heredado de Console que la empresa estaba dando de baja, en la noche del 16 de octubre de 2026, y que las claves de proveedores de IA externos (OpenAI, Anthropic, Google) guardadas en Console pudieron quedar expuestas. Se vio afectado aproximadamente el 1,4 % de los usuarios de Console, a quienes se pidió revocar y sustituir sus claves. La empresa vinculó el incidente con un “ataque de destilación a gran escala” sin explicar cómo, afirmó que la CLI y las aplicaciones de escritorio no estaban implicadas y trabaja con los tres proveedores. Algunos usuarios denuncian cargos no autorizados (uno cita unos 400 USD); no se ha revelado cómo se accedió al sistema.",
+    "target": "El agente de programación con IA OpenCode y sus usuarios",
+    "actor": "Desconocido (intruso sin identificar)",
+    "attribution": "Desconocida",
+    "motive": "Desconocido",
+    "vector": "Desconocido",
+    "root_cause": "Desconocida",
+    "impact": "Las claves de API de proveedores de aproximadamente el 1,4 % de los usuarios de OpenCode Console pudieron quedar expuestas; algunos usuarios denuncian cargos no autorizados por uso de IA.",
+    "response": "Se envió un correo a los usuarios afectados pidiéndoles revocar y sustituir sus claves; OpenCode trabaja con Anthropic, OpenAI y Google en la remediación.",
+    "id": "opencode-hacked-api-keys-revoke",
+    "timeline": [
+      "Informado por Notebookcheck"
+    ]
+  },
+  {
+    "title": "Detenido en Barnaúl un hacker acusado de usar IA para vulnerar la base de datos de clientes de una gran cadena de pizzerías",
+    "summary": "El 19 de octubre de 2026, la portavoz del Ministerio del Interior ruso, Irina Volk, dijo que la policía de Barnaúl detuvo a un hacker acusado de emplear herramientas de IA para acelerar ataques contra los servidores de una gran cadena de pizzerías. Presuntamente accedió, mediante servidores virtuales, a datos de pedidos, direcciones de entrega y números de teléfono, con la intención de venderlos. Se abrió una causa penal con arreglo al artículo 272.1 del Código Penal ruso y el sospechoso se encuentra en arresto domiciliario. El ministerio no nombró la cadena; Lenta y Rambler la identificaron como Dodo Pizza. La policía sigue buscando cómplices.",
+    "target": "Base de datos de clientes (pedidos, direcciones de entrega, números de teléfono) de una gran cadena rusa de pizzerías; los medios señalan a Dodo Pizza",
+    "actor": "Sospechoso sin identificar detenido en Barnaúl (presunto)",
+    "attribution": "La policía detuvo a un sospechoso en Barnaúl, según Techora.ru; se desconoce la identidad del sospechoso.",
+    "motive": "Desconocido",
+    "vector": "Desconocido; el titular solo dice que se usó IA para robar los datos.",
+    "root_cause": "Desconocida",
+    "impact": "Se robaron datos de clientes de pizzerías; se desconoce el número de registros y de negocios afectados.",
+    "response": "En los registros policiales se incautaron equipos y software, se desmanteló la infraestructura del grupo y se abrió una causa penal.",
+    "id": "barnaul-pizzeria-ai-data-theft",
+    "timeline": [
+      "Informado por Techora.ru"
+    ]
   }
 ]

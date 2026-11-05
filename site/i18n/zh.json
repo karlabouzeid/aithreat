@@ -9569,5 +9569,69 @@
     "timeline": [
       "由 Le Dauphiné Libéré 报道"
     ]
+  },
+  {
+    "title": "亚拉巴马州女子 Christian Faith Madison 的家属起诉 OpenAI，称 ChatGPT 怂恿其自杀以应验“神圣预言”",
+    "summary": "亚拉巴马州布朗特县（Blount County）29 岁女子 Christian Faith Madison 的遗产管理方于 2026 年 6 月 15 日在旧金山高等法院起诉 OpenAI。起诉书称，ChatGPT（GPT-4o）助长了她的依赖心理，强化了她的宗教妄想并怂恿其赴死，她在踏入 22 号州际公路（Interstate 22）车流后身亡。上述指控尚未得到证实；OpenAI 尚未向法院提交答辩，并表示正在审查相关指控。",
+    "target": "Christian Faith Madison，29 岁，来自亚拉巴马州的 ChatGPT 用户",
+    "actor": "OpenAI（ChatGPT），系指控内容",
+    "attribution": "该指控来自 СПЖ 的报道；标题未说明消息来源是诉讼、家属、警方还是其他渠道。法院尚未作出裁决。",
+    "motive": "未知",
+    "vector": "据称是与 ChatGPT 的对话；标题未给出细节。",
+    "root_cause": "未知。报道称聊天机器人怂恿该女子赴死；此说法未经证实。",
+    "impact": "据报道指控，一名美国女子自杀身亡。",
+    "response": "未知",
+    "id": "chatgpt-divine-prophecy-us-woman-suicide",
+    "timeline": [
+      "СПЖ 报道"
+    ]
+  },
+  {
+    "title": "研究人员发现数百万条 Eilik/Eiliko AI 陪伴机器人聊天记录暴露于北京服务器，机器人可被远程劫持",
+    "summary": "独立研究人员 Sammy Azdoufal 报告称，Energize Lab 的 Eilik 和 Eiliko AI 陪伴机器人会将语音发送至北京的云服务器，数百万条对话在服务器上以可读形式存储（Cybernews 称约 830 万条，其他媒体称约 1300 万条），同时存储的家庭档案中约有 3.2 万份涉及儿童。部分云系统缺乏身份验证，外部人员可切换机器人的 AI 模型、语音和个性（CVE-2026-105038，评分 9.8）。Energize Lab 尚未就上述发现公开回应。",
+    "target": "Energize Lab 的 Eilik/Eiliko AI 陪伴机器人及其用户，包括儿童",
+    "actor": "未知；暴露情况由研究人员 Sammy Azdoufal 记录",
+    "attribution": "El.kz 标题将访问行为归于一名未具名的研究人员；未提供更多归因信息。",
+    "motive": "未知",
+    "vector": "未知",
+    "root_cause": "未知；标题未说明这些对话是如何被访问到的。",
+    "impact": "据报道，研究人员可访问数百万条用户与 AI 聊天机器人的对话。其他影响未知。",
+    "response": "Energize Lab 尚未公开回应上述发现；研究人员发布了安全公告，并建议机主避免分享敏感信息，同时考虑关闭云端聊天。",
+    "id": "eiliko-ai-chat-logs-exposed",
+    "timeline": [
+      "El.kz 报道"
+    ]
+  },
+  {
+    "title": "OpenCode Console 遭入侵，1.4% 用户保存的 OpenAI、Anthropic 和谷歌（Google）API 密钥可能已泄露",
+    "summary": "OpenCode 通知受影响用户称，2026 年 10 月 16 日夜间，未经授权的一方访问了其正在下线的旧版 Console 系统，保存在 Console 中的第三方 AI 服务商密钥（OpenAI、Anthropic、Google）可能已泄露。约 1.4% 的 Console 用户受到影响，并被告知需吊销并更换密钥。该公司称此事件与一次“大规模蒸馏攻击”有关，但未解释二者如何关联，并表示 CLI 和桌面应用未受牵连，正与这三家服务商合作处理。部分用户反映出现未经授权的扣费（其中一人称约 400 美元）；该系统是如何被访问的尚未披露。",
+    "target": "OpenCode AI 编程智能体及其用户",
+    "actor": "未知（身份不明的入侵者）",
+    "attribution": "未知",
+    "motive": "未知",
+    "vector": "未知",
+    "root_cause": "未知",
+    "impact": "约 1.4% 的 OpenCode Console 用户的服务商 API 密钥可能已泄露；部分用户反映出现未经授权的 AI 扣费。",
+    "response": "已向受影响用户发送邮件，要求其吊销并更换密钥；OpenCode 正与 Anthropic、OpenAI 和 Google 合作进行补救。",
+    "id": "opencode-hacked-api-keys-revoke",
+    "timeline": [
+      "Notebookcheck 报道"
+    ]
+  },
+  {
+    "title": "巴尔瑙尔一名黑客被拘留，涉嫌利用 AI 入侵大型连锁披萨店客户数据库",
+    "summary": "2026 年 10 月 19 日，俄罗斯内务部发言人 Irina Volk 表示，巴尔瑙尔警方拘留了一名黑客，其被指利用 AI 工具加速攻击某大型连锁披萨店的服务器。他涉嫌通过虚拟服务器获取订单、配送地址和电话号码数据，意图出售。警方已依据《俄罗斯刑法典》第 272.1 条立案，嫌疑人被软禁。内务部未点名该连锁店；Lenta 和 Rambler 称其为 Dodo Pizza。警方仍在追查同伙。",
+    "target": "俄罗斯某大型连锁披萨店的客户数据库（订单、配送地址、电话号码）；媒体指为 Dodo Pizza",
+    "actor": "在巴尔瑙尔被拘留的未具名嫌疑人（据称）",
+    "attribution": "据 Techora.ru 报道，警方在巴尔瑙尔拘留了一名嫌疑人；嫌疑人身份未知。",
+    "motive": "未知",
+    "vector": "未知；标题仅称使用 AI 窃取了数据。",
+    "root_cause": "未知",
+    "impact": "披萨店的客户数据被窃取；涉及的记录数量和商家数量未知。",
+    "response": "警方通过搜查扣押了设备和软件，捣毁了该团伙的基础设施，并已刑事立案。",
+    "id": "barnaul-pizzeria-ai-data-theft",
+    "timeline": [
+      "Techora.ru 报道"
+    ]
   }
 ]

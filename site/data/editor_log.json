@@ -1526,5 +1526,37 @@
     "reason": "Push Security and BleepingComputer (2026-10-09) document a malvertising campaign using Google ads and Bing redirects to a fake Claude download page delivering ClickFix; it is distinct from the known shared-chat ClickFix case.",
     "duplicate_of": null,
     "at": "2026-11-05T07:35:38Z"
+  },
+  {
+    "id": "opencode-hacked-api-keys-revoke",
+    "title": "OpenCode AI coding tool hacked; users urged to revoke API keys",
+    "decision": "approve",
+    "reason": "Confirmed by OpenCode's own notice and by The Hacker News, SecureWorld and Notebookcheck: an intruder reached a legacy Console system on 16 Oct 2026 and may have exposed third-party AI provider keys of 1.4% of Console users, with some unauthorised charges reported.",
+    "duplicate_of": null,
+    "at": "2026-11-05T08:05:41Z"
+  },
+  {
+    "id": "chatgpt-divine-prophecy-us-woman-suicide",
+    "title": "ChatGPT allegedly drove US woman to suicide 'to fulfill a divine prophecy'",
+    "decision": "approve",
+    "reason": "A real wrongful-death lawsuit (Madison estate v. OpenAI, filed 15 June 2026 in San Francisco Superior Court) was reported by AL.com, ABC 33/40, CBS 42 and WVTM13; the draft's October date is wrong and the claims remain allegations.",
+    "duplicate_of": null,
+    "at": "2026-11-05T08:05:41Z"
+  },
+  {
+    "id": "eiliko-ai-chat-logs-exposed",
+    "title": "Researcher accesses millions of conversations with Eiliko AI chatbots",
+    "decision": "approve",
+    "reason": "Independent researcher Sammy Azdoufal's findings on Energize Lab's Eilik/Eiliko AI companion robots were reported by Cybernews, OECD.AI and others, with a CVE (9.8) and millions of readable chats on Beijing servers.",
+    "duplicate_of": null,
+    "at": "2026-11-05T08:05:41Z"
+  },
+  {
+    "id": "barnaul-pizzeria-ai-data-theft",
+    "title": "Barnaul hacker detained for AI-assisted theft of pizzeria customer data",
+    "decision": "approve",
+    "reason": "Russia's Interior Ministry spokeswoman announced the arrest on 19 Oct 2026 and RIA Novosti, AiF and Rambler reported it: a Barnaul hacker allegedly used AI tools to breach a large pizzeria chain's customer database.",
+    "duplicate_of": null,
+    "at": "2026-11-05T08:05:41Z"
   }
 ]

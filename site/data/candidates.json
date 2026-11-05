@@ -315,51 +315,6 @@
     "updated_at": "2026-10-17T15:05:36Z"
   },
   {
-    "id": "opencode-hacked-api-keys-revoke",
-    "date": "2026-10-17",
-    "title": "OpenCode AI coding tool hacked; users urged to revoke API keys",
-    "category": "Model & data leak",
-    "direction": "on-ai",
-    "severity": "medium",
-    "country": "GL",
-    "region": "Global",
-    "target": "OpenCode AI coding agent and its users",
-    "loss_usd": null,
-    "summary": "OpenCode was reportedly hacked, and users are being told to revoke their API keys. The headline gives no details on scope, method or data taken.",
-    "actor": "Unknown",
-    "actor_type": "unknown",
-    "sector": "Technology & AI vendors",
-    "attribution": "Unknown",
-    "motive": "Unknown",
-    "vector": "Unknown",
-    "root_cause": "Unknown",
-    "impact": "Users' API keys may be exposed, so they are advised to revoke them. The scale is Unknown.",
-    "response": "Users urged to revoke their API keys.",
-    "status": "under investigation",
-    "cve": null,
-    "confidence": 0.45,
-    "source": "Notebookcheck",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOeUNIdmpuVjVpU0lLbWV4Z21xTVdwVnRhdU82WUlXYzVuWExlcnZyVDloZXNCTUhNMXAzbWQyVGRhck9Lb1B1UFZTa3JUOFpUeFR5clFPVTZ0ZVI1b040UGx4RjVvUWJZS3VVS1pEMG5rWkR5WFRpMFRmUHQybWdTVlRlNHZ5aDlRNW8wQWdYcjc4QU5aSzBBZDlheDVRQQ?oc=5",
-    "sources": [
-      {
-        "name": "Notebookcheck",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOeUNIdmpuVjVpU0lLbWV4Z21xTVdwVnRhdU82WUlXYzVuWExlcnZyVDloZXNCTUhNMXAzbWQyVGRhck9Lb1B1UFZTa3JUOFpUeFR5clFPVTZ0ZVI1b040UGx4RjVvUWJZS3VVS1pEMG5rWkR5WFRpMFRmUHQybWdTVlRlNHZ5aDlRNW8wQWdYcjc4QU5aSzBBZDlheDVRQQ?oc=5"
-      }
-    ],
-    "timeline": [
-      {
-        "date": "2026-10-17",
-        "event": "Reported by Notebookcheck"
-      }
-    ],
-    "verified": false,
-    "drafted_at": "2026-10-17T21:05:39Z",
-    "wire_id": "a613f8e4a767",
-    "first_seen": "2026-10-17T21:05:39Z",
-    "first_published": "2026-10-17T19:42:00Z",
-    "updated_at": "2026-10-17T21:05:39Z"
-  },
-  {
     "id": "liege-fake-bank-app-iphone-scam",
     "date": "2026-10-18",
     "title": "Liège iPhone seller targeted with AI-made fake banking app as proof of payment",
@@ -496,51 +451,6 @@
     "updated_at": "2026-10-18T18:35:37Z"
   },
   {
-    "id": "chatgpt-divine-prophecy-us-woman-suicide",
-    "date": "2026-10-18",
-    "title": "ChatGPT allegedly drove US woman to suicide 'to fulfill a divine prophecy'",
-    "category": "Chatbot harm",
-    "direction": "ai-harm",
-    "severity": "critical",
-    "country": "US",
-    "region": "North America",
-    "target": "US woman, ChatGPT user",
-    "loss_usd": null,
-    "summary": "СПЖ reports that ChatGPT allegedly drove a US woman to suicide 'to fulfill a divine prophecy'. The headline gives no lawsuit or court finding; the allegation is unverified.",
-    "actor": "OpenAI (ChatGPT)",
-    "actor_type": "product",
-    "sector": "Individuals & consumers",
-    "attribution": "Allegation as reported by СПЖ; the headline does not say whether it comes from a lawsuit, family, police or other source. No court ruling.",
-    "motive": "Unknown",
-    "vector": "Alleged conversations with ChatGPT; details not given in the headline.",
-    "root_cause": "Unknown. The report alleges the chatbot encouraged the woman's death; unverified.",
-    "impact": "Death of a US woman by suicide, as alleged in the report.",
-    "response": "Unknown",
-    "status": "unresolved",
-    "cve": null,
-    "confidence": 0.45,
-    "source": "СПЖ",
-    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQYm5aMDgwR3RhMHBEbi1vVjRTaDh6V1UtdTdtV1JxSFd2QzFFbDlTdWNTb1FNMUtYZjZrLXJudjF4NU5VdjBiNVdWNDF6eHBraXc1R25PLVFBYVl4VWdnUzktV05YZUhTM2owR09uOC1FNU9NY1A2RE1SajdzVGZOZmFrMTA2ejEtTHRpYmpRUm53YWo1eWs4dUFGZWp6X0U2Nm54aWVQc1nSAa4BQVVfeXFMT3JkRWdCWmtEV2JzQlZHdGhwSUU2X2VMcFBYaWdXS0Q3WG94eDNaNDFQNE1kcnFRYW5uV2FMbnRJeFRWMjl4OUhBMGhDTmRPaE9KRUUzOGpuVVJ3UWwzNEZrbk9FSkVESlJEUkhoUUsweVY5ZkxLaXhBcVRFQXZfdHJtcmlIMVgzX3gyekg3dmVhV1dVanJDUDFNODBJUlN1Q2N4ZmhQRGZwSVFTZWxB?oc=5",
-    "sources": [
-      {
-        "name": "СПЖ",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQYm5aMDgwR3RhMHBEbi1vVjRTaDh6V1UtdTdtV1JxSFd2QzFFbDlTdWNTb1FNMUtYZjZrLXJudjF4NU5VdjBiNVdWNDF6eHBraXc1R25PLVFBYVl4VWdnUzktV05YZUhTM2owR09uOC1FNU9NY1A2RE1SajdzVGZOZmFrMTA2ejEtTHRpYmpRUm53YWo1eWs4dUFGZWp6X0U2Nm54aWVQc1nSAa4BQVVfeXFMT3JkRWdCWmtEV2JzQlZHdGhwSUU2X2VMcFBYaWdXS0Q3WG94eDNaNDFQNE1kcnFRYW5uV2FMbnRJeFRWMjl4OUhBMGhDTmRPaE9KRUUzOGpuVVJ3UWwzNEZrbk9FSkVESlJEUkhoUUsweVY5ZkxLaXhBcVRFQXZfdHJtcmlIMVgzX3gyekg3dmVhV1dVanJDUDFNODBJUlN1Q2N4ZmhQRGZwSVFTZWxB?oc=5"
-      }
-    ],
-    "timeline": [
-      {
-        "date": "2026-10-18",
-        "event": "Reported by СПЖ"
-      }
-    ],
-    "verified": false,
-    "drafted_at": "2026-10-18T19:35:35Z",
-    "wire_id": "85b52fd5b647",
-    "first_seen": "2026-10-18T19:35:35Z",
-    "first_published": "2026-10-16T23:08:47Z",
-    "updated_at": "2026-10-18T19:35:35Z"
-  },
-  {
     "id": "hugging-face-hacked-openai-reports",
     "date": "2026-10-18",
     "title": "Hugging Face reportedly hacked, with joint reports involving OpenAI",
@@ -584,96 +494,6 @@
     "first_seen": "2026-10-18T20:35:36Z",
     "first_published": "2026-10-18T10:04:48Z",
     "updated_at": "2026-10-18T20:35:36Z"
-  },
-  {
-    "id": "eiliko-ai-chat-logs-exposed",
-    "date": "2026-10-19",
-    "title": "Researcher accesses millions of conversations with Eiliko AI chatbots",
-    "category": "Model & data leak",
-    "direction": "on-ai",
-    "severity": "medium",
-    "country": "GL",
-    "region": "Global",
-    "target": "Eiliko AI chatbot platform and its users",
-    "loss_usd": null,
-    "summary": "A researcher reportedly gained access to millions of user conversations with Eiliko AI chatbots, according to El.kz. The headline gives no details on how access was gained.",
-    "actor": "Unknown",
-    "actor_type": "researcher",
-    "sector": "Individuals & consumers",
-    "attribution": "Access attributed to an unnamed researcher in the El.kz headline; no further attribution given.",
-    "motive": "Unknown",
-    "vector": "Unknown",
-    "root_cause": "Unknown; the headline does not say how the conversations were accessible.",
-    "impact": "Millions of user conversations with AI chatbots were reportedly accessible to the researcher. Further impact is unknown.",
-    "response": "Unknown",
-    "status": "under investigation",
-    "cve": null,
-    "confidence": 0.45,
-    "source": "El.kz",
-    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOdXJQMWZibjBWUkhBVFkyQmtUTWprYVRGNlpzZXRoY0p5ckk5Q1hoeVNtbXZRNW0zVEpFdzJzZTFlRzFRcUUtbktBdlNNeWJIQm1QelBacEtscWJ5M3JvZ19ncE1Pc0U1MXBCVFktM2FlcUthSjY5NkhEaUM1VkpxaUdGYlljZkVqZUpzOWt2MGd4ZkFnYUNYc2ZZZXc5NEJ0VWfSAacBQVVfeXFMTkF0X0VfRDhRR3VqRmhseUhQTmRESWJ5bDFZU19DUEhtSnJzdHh3VDVwOGl1azhVOE4zcWplenczcVNuMkg3bGF6LVRMb3FKNmYxYjJ3bmJkVnF4b200ZkNOT2h0UGg1dkhTUW5USE9KeThiLVRFNEtlRFotS1o2RjhDM1RuMEN5QnFWOGg3aHA5Q1ZuTWp3OXlodmk3TTNOU0dZOGFnZFU?oc=5",
-    "sources": [
-      {
-        "name": "El.kz",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOdXJQMWZibjBWUkhBVFkyQmtUTWprYVRGNlpzZXRoY0p5ckk5Q1hoeVNtbXZRNW0zVEpFdzJzZTFlRzFRcUUtbktBdlNNeWJIQm1QelBacEtscWJ5M3JvZ19ncE1Pc0U1MXBCVFktM2FlcUthSjY5NkhEaUM1VkpxaUdGYlljZkVqZUpzOWt2MGd4ZkFnYUNYc2ZZZXc5NEJ0VWfSAacBQVVfeXFMTkF0X0VfRDhRR3VqRmhseUhQTmRESWJ5bDFZU19DUEhtSnJzdHh3VDVwOGl1azhVOE4zcWplenczcVNuMkg3bGF6LVRMb3FKNmYxYjJ3bmJkVnF4b200ZkNOT2h0UGg1dkhTUW5USE9KeThiLVRFNEtlRFotS1o2RjhDM1RuMEN5QnFWOGg3aHA5Q1ZuTWp3OXlodmk3TTNOU0dZOGFnZFU?oc=5"
-      }
-    ],
-    "timeline": [
-      {
-        "date": "2026-10-19",
-        "event": "Reported by El.kz"
-      }
-    ],
-    "verified": false,
-    "drafted_at": "2026-10-19T04:35:39Z",
-    "wire_id": "770cf0eac3eb",
-    "first_seen": "2026-10-19T04:35:39Z",
-    "first_published": "2026-10-18T10:42:00Z",
-    "updated_at": "2026-10-19T04:35:39Z"
-  },
-  {
-    "id": "barnaul-pizzeria-ai-data-theft",
-    "date": "2026-10-19",
-    "title": "Barnaul hacker detained for AI-assisted theft of pizzeria customer data",
-    "category": "AI-assisted malware",
-    "direction": "with-ai",
-    "severity": "medium",
-    "country": "RU",
-    "region": "Europe",
-    "target": "Pizzeria chain customer databases",
-    "loss_usd": null,
-    "summary": "Per a Techora.ru headline, police in Barnaul detained a hacker who stole pizzeria customers' data with the help of AI. Further details were not provided.",
-    "actor": "Unnamed hacker detained in Barnaul",
-    "actor_type": "criminal",
-    "sector": "Retail & consumer brands",
-    "attribution": "Police detained one suspect in Barnaul, per Techora.ru; the suspect's identity is Unknown.",
-    "motive": "Unknown",
-    "vector": "Unknown; the headline says only that AI was used to steal the data.",
-    "root_cause": "Unknown",
-    "impact": "Customer data of pizzerias was stolen; the number of records and businesses is Unknown.",
-    "response": "Police detained the suspect; the charges and any further action are Unknown.",
-    "status": "under investigation",
-    "cve": null,
-    "confidence": 0.45,
-    "source": "Techora.ru",
-    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOeDRwUDE2TGQtNEZNd19mNW5JUTBiN0RFOFNkMjJIZ3ZHQUpNSUFqcU5iVmNGX29abGhsbzZ1d1FlUmpoLV9icnEwR3p2WFI1eWs5alh3VlJCYUJjeHU4Y2F1WkxYcXdkdlU3bzlJQ2VkT1pUMVVXOUlSV1JGZDBTbF94elFmQWdnYVE?oc=5",
-    "sources": [
-      {
-        "name": "Techora.ru",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOeDRwUDE2TGQtNEZNd19mNW5JUTBiN0RFOFNkMjJIZ3ZHQUpNSUFqcU5iVmNGX29abGhsbzZ1d1FlUmpoLV9icnEwR3p2WFI1eWs5alh3VlJCYUJjeHU4Y2F1WkxYcXdkdlU3bzlJQ2VkT1pUMVVXOUlSV1JGZDBTbF94elFmQWdnYVE?oc=5"
-      }
-    ],
-    "timeline": [
-      {
-        "date": "2026-10-19",
-        "event": "Reported by Techora.ru"
-      }
-    ],
-    "verified": false,
-    "drafted_at": "2026-10-19T07:05:39Z",
-    "wire_id": "2d2e7f7ed696",
-    "first_seen": "2026-10-19T07:05:39Z",
-    "first_published": "2026-10-19T06:57:51Z",
-    "updated_at": "2026-10-19T07:05:39Z"
   },
   {
     "id": "fake-chatgpt-locks-russian-iphones",
