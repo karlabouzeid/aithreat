@@ -9217,5 +9217,53 @@
     "timeline": [
       "Signalé par Techora.ru"
     ]
+  },
+  {
+    "title": "Opération Ghostbusters du DOJ : cinq personnes inculpées dans une affaire présumée de fraude à l'aide fédérale aux étudiants, fondée sur des « étudiants fantômes » et assistée par l'IA, liée à un réseau kényan",
+    "summary": "Le 29 octobre 2026, le département de la Justice a annoncé des actes d'accusation et des plaintes visant cinq prévenus dans le cadre de l'opération Ghostbusters, ainsi que la saisie de plus de 750 000 $ en cryptomonnaies. Selon le parquet, des criminels auraient utilisé des identités américaines volées pour ouvrir des comptes FAFSA frauduleux et inscrire des « étudiants fantômes », les remboursements étant détournés vers des comptes contrôlés depuis l'étranger par l'intermédiaire de mules financières américaines, dont des ressortissants kényans. Le DOJ indique que les fraudeurs recourent également à l'IA pour réaliser les travaux universitaires afin de prolonger l'escroquerie. Ces allégations ne sont pas prouvées.",
+    "target": "Programmes fédéraux américains d'aide aux étudiants (FAFSA) et établissements d'enseignement supérieur",
+    "actor": "Réseau transnational présumé lié à des ressortissants kényans ; cinq prévenus inculpés",
+    "attribution": "Des responsables du département de la Justice américain allèguent l'existence du stratagème ; aucun acteur nommé dans le titre.",
+    "motive": "Gain financier tiré des versements de l'aide fédérale aux étudiants.",
+    "vector": "Identités volées utilisées pour inscrire des étudiants fictifs, l'IA servant à réaliser les travaux universitaires.",
+    "root_cause": "Inconnue ; le texte laisse penser à une vérification faible des identités et des inscriptions, mais cela n'est pas indiqué explicitement.",
+    "impact": "L'aide fédérale aux étudiants aurait été perçue frauduleusement ; le montant n'est pas indiqué dans le texte disponible.",
+    "response": "Le DOJ a mis au jour le stratagème ; le texte ne précise ni les chefs d'accusation ni les arrestations.",
+    "id": "doj-ai-student-loan-fraud-scheme",
+    "timeline": [
+      "Rapporté par X"
+    ]
+  },
+  {
+    "title": "Une veuve poursuit OpenAI et Luka, éditeur de Replika, estimant que des chatbots ont contribué au suicide de son mari, Aleksandr Feinberg",
+    "summary": "Susan Feinberg a assigné OpenAI, Sam Altman et Luka Inc. (éditeur de Replika) devant la Cour supérieure du comté de San Francisco le 29 octobre 2026. Elle allègue que ChatGPT et Replika ont contribué au suicide de son mari Aleksandr, survenu le 21 juin 2024 à Saratoga, en Californie, et soutient qu'OpenAI a précipité la mise sur le marché de GPT-4o. La plainte ne comporte aucun journal de conversation et repose sur sa conviction, fondée sur les circonstances. Ces affirmations sont des allégations et ne sont pas prouvées.",
+    "target": "Aleksandr Feinberg, utilisateur de ChatGPT et de Replika, mort par suicide",
+    "actor": "OpenAI, Sam Altman et Luka Inc. (défendeurs ; présumés)",
+    "attribution": "Allégation formulée par la veuve, demanderesse, dans une action en justice contre OpenAI, selon Courthouse News ; aucune décision de justice n'est rapportée.",
+    "motive": "Inconnu",
+    "vector": "Interaction présumée entre le mari et le chatbot ChatGPT ; détails inconnus.",
+    "root_cause": "Selon la demanderesse, ChatGPT aurait causé le décès ou y aurait contribué ; aucune conclusion n'est rapportée.",
+    "impact": "Décès par suicide présumé lié à l'usage de chatbots",
+    "response": "La veuve a engagé une action en justice contre OpenAI ; la réponse d'OpenAI est inconnue.",
+    "id": "widow-sues-openai-husband-death",
+    "timeline": [
+      "Rapporté par Courthouse News"
+    ]
+  },
+  {
+    "title": "Microsoft : des groupes de pirates nord-coréens utilisent l'IA pour produire en masse des leurres d'hameçonnage contre des utilisateurs sud-coréens",
+    "summary": "Un rapport de Microsoft Threat Intelligence publié le 29 octobre 2026 indique que le groupe nord-coréen Onyx Sleet a produit au moins 100 leurres d'hameçonnage au format PDF, adaptés à leurs cibles, contre des utilisateurs sud-coréens en août-septembre 2026, des dizaines d'entre eux ayant été générés en quelques minutes. Microsoft estime que les documents ont très probablement été créés avec des plateformes d'IA. L'éditeur considère que trois des huit groupes de la RPDC qu'il suit (Jade Sleet, Coral Sleet, Jasper Sleet) sont pleinement intégrés dans l'usage de l'IA, sans être encore totalement autonomes.",
+    "target": "Organisations et particuliers sud-coréens",
+    "actor": "Onyx Sleet (lié à l'État nord-coréen ; l'un des huit groupes de la RPDC évalués par Microsoft)",
+    "attribution": "Attribué à des pirates nord-coréens selon le titre du Chosun Ilbo ; le groupe précis n'est pas nommé dans le texte disponible.",
+    "motive": "Inconnu",
+    "vector": "Documents d'hameçonnage générés par IA et envoyés à des cibles sud-coréennes",
+    "root_cause": "Inconnue",
+    "impact": "Inconnu ; le texte n'indique ni victimes confirmées ni pertes.",
+    "response": "Inconnue",
+    "id": "nk-hackers-ai-phishing-south-korea",
+    "timeline": [
+      "Rapporté par 조선일보"
+    ]
   }
 ]

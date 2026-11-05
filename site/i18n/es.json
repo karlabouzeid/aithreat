@@ -9217,5 +9217,53 @@
     "timeline": [
       "Publicado por Techora.ru"
     ]
+  },
+  {
+    "title": "Operación Ghostbusters del DOJ: cinco acusados por un presunto fraude de ayuda federal estudiantil con “estudiantes fantasma” asistido por IA y vinculado a una red keniana",
+    "summary": "El 29 de octubre de 2026, el Departamento de Justicia anunció acusaciones formales y denuncias penales en el marco de la Operación Ghostbusters contra cinco acusados, además de la incautación de más de 750.000 USD en criptomonedas. Los fiscales alegan que los delincuentes usaron identidades estadounidenses robadas para abrir cuentas fraudulentas de FAFSA e inscribir a “estudiantes fantasma”, con los reembolsos desviados a cuentas controladas desde el extranjero mediante mulas de dinero en EE. UU., entre ellos ciudadanos kenianos. El DOJ afirma que los estafadores también usan IA para completar tareas académicas y mantener la estafa en marcha. Las acusaciones no han sido probadas.",
+    "target": "Programas federales de ayuda estudiantil de EE. UU. (FAFSA) y universidades",
+    "actor": "Presunta red transnacional vinculada a ciudadanos kenianos; cinco acusados",
+    "attribution": "Funcionarios del Departamento de Justicia de EE. UU. alegan la existencia del esquema; el titular no nombra a ningún actor.",
+    "motive": "Lucro económico a partir de los pagos de ayuda federal estudiantil.",
+    "vector": "Identidades robadas utilizadas para inscribir a estudiantes inventados, con IA empleada para completar las tareas académicas.",
+    "root_cause": "Desconocida; el texto sugiere una verificación deficiente de identidad e inscripción, pero no lo afirma.",
+    "impact": "Presuntamente se cobró ayuda federal estudiantil de forma fraudulenta; el monto no se indica en el texto disponible.",
+    "response": "El DOJ descubrió el esquema; el texto no detalla cargos ni detenciones.",
+    "id": "doj-ai-student-loan-fraud-scheme",
+    "timeline": [
+      "Informado por X"
+    ]
+  },
+  {
+    "title": "Una viuda demanda a OpenAI y a Luka, creadora de Replika, alegando que los chatbots contribuyeron al suicidio de su esposo, Aleksandr Feinberg",
+    "summary": "Susan Feinberg demandó a OpenAI, Sam Altman y Luka Inc. (creadora de Replika) ante el Tribunal Superior del Condado de San Francisco el 29 de octubre de 2026. Alega que ChatGPT y Replika contribuyeron al suicidio de su esposo Aleksandr el 21 de junio de 2024 en Saratoga, California, y sostiene que OpenAI apresuró el lanzamiento de GPT-4o al mercado. La demanda no incluye registros de conversaciones y se basa en su convicción derivada de las circunstancias. Las afirmaciones son alegaciones, no hechos probados.",
+    "target": "Aleksandr Feinberg, usuario de ChatGPT y Replika que murió por suicidio",
+    "actor": "OpenAI, Sam Altman y Luka Inc. (demandados; presuntos)",
+    "attribution": "Alegación formulada por la viuda demandante en una demanda contra OpenAI, según informó Courthouse News; no se ha reportado ninguna resolución judicial.",
+    "motive": "Desconocido",
+    "vector": "Presunta interacción entre el esposo y el chatbot ChatGPT; se desconocen los detalles.",
+    "root_cause": "La demandante alega que ChatGPT causó o contribuyó a la muerte; no se han reportado conclusiones.",
+    "impact": "Muerte por suicidio que se alega vinculada al uso de chatbots",
+    "response": "La viuda ha presentado una demanda contra OpenAI; se desconoce la respuesta de OpenAI.",
+    "id": "widow-sues-openai-husband-death",
+    "timeline": [
+      "Informado por Courthouse News"
+    ]
+  },
+  {
+    "title": "Microsoft: grupos de hackers norcoreanos usan IA para producir en masa señuelos de phishing contra usuarios surcoreanos",
+    "summary": "Un informe de Microsoft Threat Intelligence publicado el 29 de octubre de 2026 afirma que el grupo norcoreano Onyx Sleet elaboró al menos 100 señuelos de phishing en PDF adaptados a sus objetivos contra usuarios surcoreanos entre agosto y septiembre de 2026, con decenas generados en cuestión de minutos. Microsoft evaluó que los documentos fueron muy probablemente creados con plataformas de IA. El informe califica a tres de los ocho grupos de Corea del Norte que monitorea (Jade Sleet, Coral Sleet y Jasper Sleet) como plenamente integrados en el uso de IA, aunque todavía no totalmente autónomos.",
+    "target": "Organizaciones e individuos de Corea del Sur",
+    "actor": "Onyx Sleet (vinculado al Estado norcoreano; uno de los ocho grupos de Corea del Norte evaluados por Microsoft)",
+    "attribution": "Atribuido a hackers norcoreanos según el titular de Chosun Ilbo; el grupo específico no se nombra en el texto disponible.",
+    "motive": "Desconocido",
+    "vector": "Documentos de phishing generados con IA y enviados a objetivos surcoreanos",
+    "root_cause": "Desconocida",
+    "impact": "Desconocido; el texto no indica víctimas confirmadas ni pérdidas.",
+    "response": "Desconocida",
+    "id": "nk-hackers-ai-phishing-south-korea",
+    "timeline": [
+      "Informado por Chosun Ilbo"
+    ]
   }
 ]

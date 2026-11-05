@@ -2810,102 +2810,6 @@
     "updated_at": "2026-10-29T14:05:51Z"
   },
   {
-    "id": "patient-records-spreadsheet-ai-platform",
-    "date": "2026-10-29",
-    "title": "Records of 3,000+ patients exposed after spreadsheet shared with AI platform",
-    "category": "Model & data leak",
-    "direction": "on-ai",
-    "severity": "medium",
-    "country": "US",
-    "region": "North America",
-    "target": "Healthcare provider patient records",
-    "loss_usd": null,
-    "summary": "Medical records on over 3,000 patients were reportedly exposed after a spreadsheet containing them was shared with an AI platform, per HealthExec. Further details were not provided.",
-    "actor": "Unknown",
-    "actor_type": "accident",
-    "sector": "Healthcare",
-    "attribution": "No attacker reported; exposure reportedly followed a spreadsheet being shared with an AI platform.",
-    "motive": "Unknown",
-    "vector": "Spreadsheet containing patient records shared with an AI platform",
-    "root_cause": "Patient data was uploaded to an AI platform; the headline gives no further cause. Country is inferred from the source and not confirmed.",
-    "impact": "Medical records on over 3,000 patients exposed.",
-    "response": "Unknown",
-    "status": "under investigation",
-    "cve": null,
-    "young_people": false,
-    "setting": null,
-    "age_group": null,
-    "confidence": 0.5,
-    "source": "HealthExec",
-    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPNUFVQjU4eWNIRDRWVl9WZXZnb2J1bzVHNml6eVRJNGVXQnVFVTY4eFZfRW40Qy1tLVdlLUx4LUtaTE5tVXJaSUMycXBZaEdrX3hzUWFMZVhtWUc0TldIb2RNLXFJa2pmM0ZxQjFSY3VwT3dBMnNfbzJ0WDRXRC1zZEpWNVBmYjJaVXE1b211b0tROWdoZ3ZMSzJqS1RqdVg5cUJ5bUhyNHhEQS1FSlhXdHg0NWJDbThiWWdlTWdsNzlneEhJNGxYRjh4RQ?oc=5",
-    "sources": [
-      {
-        "name": "HealthExec",
-        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPNUFVQjU4eWNIRDRWVl9WZXZnb2J1bzVHNml6eVRJNGVXQnVFVTY4eFZfRW40Qy1tLVdlLUx4LUtaTE5tVXJaSUMycXBZaEdrX3hzUWFMZVhtWUc0TldIb2RNLXFJa2pmM0ZxQjFSY3VwT3dBMnNfbzJ0WDRXRC1zZEpWNVBmYjJaVXE1b211b0tROWdoZ3ZMSzJqS1RqdVg5cUJ5bUhyNHhEQS1FSlhXdHg0NWJDbThiWWdlTWdsNzlneEhJNGxYRjh4RQ?oc=5"
-      }
-    ],
-    "timeline": [
-      {
-        "date": "2026-10-29",
-        "event": "Reported by HealthExec"
-      }
-    ],
-    "verified": false,
-    "drafted_at": "2026-10-29T16:35:46Z",
-    "wire_id": "9b6243efe5c2",
-    "first_seen": "2026-10-29T16:35:46Z",
-    "first_published": "2026-10-28T22:11:24Z",
-    "updated_at": "2026-10-29T16:35:46Z"
-  },
-  {
-    "id": "doj-ai-student-loan-fraud-scheme",
-    "date": "2026-10-29",
-    "title": "DOJ uncovers alleged AI-powered fake-student federal loan fraud scheme",
-    "category": "Deepfake fraud",
-    "direction": "with-ai",
-    "severity": "medium",
-    "country": "US",
-    "region": "North America",
-    "target": "US federal student aid programs",
-    "loss_usd": null,
-    "summary": "US officials allege scammers stole identities to enrol fictitious college students and collect federal aid, using AI to complete coursework. The headline gives no loss figure or defendants.",
-    "actor": "Unknown",
-    "actor_type": "criminal",
-    "sector": "Government & public sector",
-    "attribution": "US Department of Justice officials allege the scheme; no named actors in the headline.",
-    "motive": "Financial gain from federal student aid payouts.",
-    "vector": "Stolen identities used to enrol made-up students, with AI used to complete coursework.",
-    "root_cause": "Unknown; the text suggests weak identity and enrolment verification, but this is not stated.",
-    "impact": "Federal student aid was allegedly fraudulently collected; the amount is not stated in the available text.",
-    "response": "The DOJ uncovered the scheme; the text does not give charges or arrests.",
-    "status": "under investigation",
-    "cve": null,
-    "young_people": false,
-    "setting": null,
-    "age_group": null,
-    "confidence": 0.5,
-    "source": "X",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE41QVF2bm16V2Zma1pKeEpEUFQySTR3dEZtVUZROEwwLW1pOEk4a3F6NUlrYnpOWFk2WnoxNHhyQkFEd2tydGk0T0UyQmljNXl1ZkZaZk4tMW5xdFYxSUNNV1hRT3RodUFLWDZvaw?oc=5",
-    "sources": [
-      {
-        "name": "X",
-        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE41QVF2bm16V2Zma1pKeEpEUFQySTR3dEZtVUZROEwwLW1pOEk4a3F6NUlrYnpOWFk2WnoxNHhyQkFEd2tydGk0T0UyQmljNXl1ZkZaZk4tMW5xdFYxSUNNV1hRT3RodUFLWDZvaw?oc=5"
-      }
-    ],
-    "timeline": [
-      {
-        "date": "2026-10-29",
-        "event": "Reported by X"
-      }
-    ],
-    "verified": false,
-    "drafted_at": "2026-10-29T18:05:43Z",
-    "wire_id": "e03f6220f624",
-    "first_seen": "2026-10-29T18:05:43Z",
-    "first_published": "2026-10-29T17:40:00Z",
-    "updated_at": "2026-10-29T18:05:43Z"
-  },
-  {
     "id": "contractor-ai-agent-pentagon-system",
     "date": "2026-10-29",
     "title": "Defense contractor's personal AI agent given access to secure Pentagon system",
@@ -3000,102 +2904,6 @@
     "first_seen": "2026-10-30T07:35:42Z",
     "first_published": "2026-10-30T07:16:50Z",
     "updated_at": "2026-10-30T07:35:42Z"
-  },
-  {
-    "id": "widow-sues-openai-husband-death",
-    "date": "2026-10-30",
-    "title": "Widow sues OpenAI, blaming ChatGPT for her husband's death",
-    "category": "Chatbot harm",
-    "direction": "ai-harm",
-    "severity": "high",
-    "country": "US",
-    "region": "North America",
-    "target": "Individual user of ChatGPT (husband of plaintiff)",
-    "loss_usd": null,
-    "summary": "A widow alleges in a lawsuit, as reported by Courthouse News, that ChatGPT contributed to her husband's death. Details of the allegations are not given in the available text.",
-    "actor": "OpenAI (ChatGPT)",
-    "actor_type": "product",
-    "sector": "Individuals & consumers",
-    "attribution": "Allegation made by the plaintiff widow in a lawsuit against OpenAI, as reported by Courthouse News; no court ruling reported.",
-    "motive": "Unknown",
-    "vector": "Alleged interaction between the husband and the ChatGPT chatbot; specifics Unknown.",
-    "root_cause": "Alleged by the plaintiff that ChatGPT caused or contributed to the death; no findings reported.",
-    "impact": "Alleged death of the plaintiff's husband. Further details are Unknown.",
-    "response": "Widow has filed a lawsuit against OpenAI; OpenAI's response is Unknown.",
-    "status": "under investigation",
-    "cve": null,
-    "young_people": false,
-    "setting": null,
-    "age_group": null,
-    "confidence": 0.5,
-    "source": "Courthouse News",
-    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQNkFOTjIxZXhqdWJwZlJVaUxrUzFFRGs4YTJYMkZKRWVObFhveExhWDFGbldQaFNjQTQ1MllrckZnN21haXNxZTdReFNCU1NKWkc1d0JXazI4UXdTbXd3Y1Nsd2hIcWlpaVhDZE5HZC1zanF3M3JIbklrbnVSUTh2TEI1SkxtVndfbWRJNg?oc=5",
-    "sources": [
-      {
-        "name": "Courthouse News",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQNkFOTjIxZXhqdWJwZlJVaUxrUzFFRGs4YTJYMkZKRWVObFhveExhWDFGbldQaFNjQTQ1MllrckZnN21haXNxZTdReFNCU1NKWkc1d0JXazI4UXdTbXd3Y1Nsd2hIcWlpaVhDZE5HZC1zanF3M3JIbklrbnVSUTh2TEI1SkxtVndfbWRJNg?oc=5"
-      }
-    ],
-    "timeline": [
-      {
-        "date": "2026-10-30",
-        "event": "Reported by Courthouse News"
-      }
-    ],
-    "verified": false,
-    "drafted_at": "2026-10-30T08:05:45Z",
-    "wire_id": "119e23a0bbfd",
-    "first_seen": "2026-10-30T08:05:45Z",
-    "first_published": "2026-10-30T04:41:09Z",
-    "updated_at": "2026-10-30T08:05:45Z"
-  },
-  {
-    "id": "nk-hackers-ai-phishing-south-korea",
-    "date": "2026-10-30",
-    "title": "North Korean hackers use AI to mass-produce phishing documents targeting South Korea",
-    "category": "State actor AI ops",
-    "direction": "with-ai",
-    "severity": "medium",
-    "country": "KR",
-    "region": "Asia-Pacific",
-    "target": "South Korean organizations and individuals",
-    "loss_usd": null,
-    "summary": "Chosun Ilbo reports North Korean hackers are using AI to mass-produce phishing documents aimed at South Korean targets. The specific victims and scale are not given in the headline.",
-    "actor": "North Korean hackers (specific group not stated)",
-    "actor_type": "state",
-    "sector": "Unknown",
-    "attribution": "Attributed to North Korean hackers per Chosun Ilbo headline; the specific group is not named in the available text.",
-    "motive": "Unknown",
-    "vector": "AI-generated phishing documents sent to South Korean targets",
-    "root_cause": "Unknown",
-    "impact": "Unknown; the text does not state confirmed victims or losses.",
-    "response": "Unknown",
-    "status": "under investigation",
-    "cve": null,
-    "young_people": false,
-    "setting": null,
-    "age_group": null,
-    "confidence": 0.5,
-    "source": "조선일보",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSkxFVlNSamItU2IxLWNISUhXeXEySldnNEp0WkV0am1SS2pfZjNyNWdWU2NldHExa0Z3ZFFRcnRzbDZOcFRfY2pxQi1FVmZrTHpnQjlYdGwtY292UE51Y3VwcGVNUldwQ3hsS29OUWNDeUpDcXBHdDJfX1h0ZW5CS0NaYUEtZkZC?oc=5",
-    "sources": [
-      {
-        "name": "조선일보",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSkxFVlNSamItU2IxLWNISUhXeXEySldnNEp0WkV0am1SS2pfZjNyNWdWU2NldHExa0Z3ZFFRcnRzbDZOcFRfY2pxQi1FVmZrTHpnQjlYdGwtY292UE51Y3VwcGVNUldwQ3hsS29OUWNDeUpDcXBHdDJfX1h0ZW5CS0NaYUEtZkZC?oc=5"
-      }
-    ],
-    "timeline": [
-      {
-        "date": "2026-10-30",
-        "event": "Reported by 조선일보"
-      }
-    ],
-    "verified": false,
-    "drafted_at": "2026-10-30T09:05:45Z",
-    "wire_id": "c5f039e02c72",
-    "first_seen": "2026-10-30T09:05:45Z",
-    "first_published": "2026-10-30T08:46:50Z",
-    "updated_at": "2026-10-30T09:05:45Z"
   },
   {
     "id": "china-linked-deepseek-200-orgs-attack",
@@ -5690,5 +5498,53 @@
     "first_seen": "2026-11-05T00:05:39Z",
     "first_published": "2026-10-18T00:00:00Z",
     "updated_at": "2026-11-05T00:05:39Z"
+  },
+  {
+    "id": "unlimited-ai-resale-1m-bill",
+    "date": "2026-11-05",
+    "title": "Hackers resell unlimited AI access for $60, victim billed nearly $1M",
+    "category": "LLMjacking",
+    "direction": "on-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "Victim's AI service account (unnamed)",
+    "loss_usd": null,
+    "summary": "Hackers sold unlimited AI access for $60 and ran about 500,000 requests in 8 hours on a victim's account, which was then billed nearly $1 million, per SecurityLab.ru.",
+    "actor": "Unknown",
+    "actor_type": "criminal",
+    "sector": "Unknown",
+    "attribution": "Unknown; SecurityLab.ru describes unnamed hackers selling the access.",
+    "motive": "Financial gain from reselling unlimited AI access.",
+    "vector": "Unauthorised use of a victim's AI account or access; exact method not stated in the headline.",
+    "root_cause": "Unknown; likely compromised credentials or API access, but the source text does not say.",
+    "impact": "About 500,000 requests in 8 hours were run on the victim's account, which was billed nearly $1 million.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "confidence": 0.55,
+    "source": "SecurityLab.ru",
+    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9idU9TRlQ3MFRuaE9DUmFRZ05qWnFCbi14M1g3c2d2WHpVbW5KYld1MVhiU1N4WXdla1lGZkdYRS1QZndoVHhVYmNsY0lzQnZEVmg5eQ?oc=5",
+    "sources": [
+      {
+        "name": "SecurityLab.ru",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9idU9TRlQ3MFRuaE9DUmFRZ05qWnFCbi14M1g3c2d2WHpVbW5KYld1MVhiU1N4WXdla1lGZkdYRS1QZndoVHhVYmNsY0lzQnZEVmg5eQ?oc=5"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-11-05",
+        "event": "Reported by SecurityLab.ru"
+      }
+    ],
+    "verified": false,
+    "drafted_at": "2026-11-05T05:35:37Z",
+    "wire_id": "a0d9c2f53026",
+    "first_seen": "2026-11-05T05:35:37Z",
+    "first_published": "2026-11-05T05:02:45Z",
+    "updated_at": "2026-11-05T05:35:37Z"
   }
 ]

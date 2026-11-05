@@ -27610,6 +27610,171 @@
     "verified_at": "2026-11-05T01:35:36Z"
   },
   {
+    "id": "doj-ai-student-loan-fraud-scheme",
+    "date": "2026-10-29",
+    "title": "DOJ's Operation Ghostbusters: five charged over alleged AI-assisted 'ghost student' federal student aid fraud linked to a Kenyan network",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "US",
+    "region": "North America",
+    "target": "US federal student aid (FAFSA) programs and colleges",
+    "loss_usd": null,
+    "summary": "On Oct 29, 2026 the Justice Department announced indictments and complaints under Operation Ghostbusters against five defendants, plus seizure of more than $750,000 in cryptocurrency. Prosecutors allege criminals used stolen US identities to file fraudulent FAFSA accounts and enrol 'ghost students', with refunds diverted to foreign-controlled accounts via US money mules, including Kenyan nationals. DOJ says fraudsters also use AI to complete coursework to keep the scam going. The allegations are unproven.",
+    "actor": "Alleged transnational network linked to Kenyan nationals; five defendants charged",
+    "actor_type": "criminal",
+    "sector": "Government & public sector",
+    "attribution": "US Department of Justice officials allege the scheme; no named actors in the headline.",
+    "motive": "Financial gain from federal student aid payouts.",
+    "vector": "Stolen identities used to enrol made-up students, with AI used to complete coursework.",
+    "root_cause": "Unknown; the text suggests weak identity and enrolment verification, but this is not stated.",
+    "impact": "Federal student aid was allegedly fraudulently collected; the amount is not stated in the available text.",
+    "response": "The DOJ uncovered the scheme; the text does not give charges or arrests.",
+    "status": "charged",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "source": "X",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE41QVF2bm16V2Zma1pKeEpEUFQySTR3dEZtVUZROEwwLW1pOEk4a3F6NUlrYnpOWFk2WnoxNHhyQkFEd2tydGk0T0UyQmljNXl1ZkZaZk4tMW5xdFYxSUNNV1hRT3RodUFLWDZvaw?oc=5",
+    "sources": [
+      {
+        "name": "X",
+        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE41QVF2bm16V2Zma1pKeEpEUFQySTR3dEZtVUZROEwwLW1pOEk4a3F6NUlrYnpOWFk2WnoxNHhyQkFEd2tydGk0T0UyQmljNXl1ZkZaZk4tMW5xdFYxSUNNV1hRT3RodUFLWDZvaw?oc=5"
+      },
+      {
+        "name": "US Department of Justice (EDVA)",
+        "url": "https://www.justice.gov/usao-edva/pr/justice-department-unveils-indictments-nationwide-ghost-student-fraud-scam-linked"
+      },
+      {
+        "name": "Slashdot",
+        "url": "https://yro.slashdot.org/story/26/10/30/204230/thousands-of-ghost-students-use-ai-to-steal-millions-in-student-loans-doj-says"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-29",
+        "event": "Reported by X"
+      }
+    ],
+    "drafted_at": "2026-10-29T18:05:43Z",
+    "first_seen": "2026-10-29T18:05:43Z",
+    "updated_at": "2026-11-05T05:35:37Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-05T05:35:37Z"
+  },
+  {
+    "id": "widow-sues-openai-husband-death",
+    "date": "2026-10-29",
+    "title": "Widow sues OpenAI and Replika maker Luka, alleging chatbots contributed to husband Aleksandr Feinberg's suicide",
+    "category": "Chatbot harm",
+    "direction": "ai-harm",
+    "severity": "high",
+    "country": "US",
+    "region": "North America",
+    "target": "Aleksandr Feinberg, a ChatGPT and Replika user who died by suicide",
+    "loss_usd": null,
+    "summary": "Susan Feinberg sued OpenAI, Sam Altman and Luka Inc. (maker of Replika) in San Francisco County Superior Court on Oct 29, 2026. She alleges ChatGPT and Replika contributed to her husband Aleksandr's suicide on June 21, 2024 in Saratoga, California, and argues OpenAI rushed GPT-4o to market. The complaint includes no conversation logs and rests on her belief from circumstances. The claims are allegations, not proven.",
+    "actor": "OpenAI, Sam Altman and Luka Inc. (defendants; alleged)",
+    "actor_type": "product",
+    "sector": "Individuals & consumers",
+    "attribution": "Allegation made by the plaintiff widow in a lawsuit against OpenAI, as reported by Courthouse News; no court ruling reported.",
+    "motive": "Unknown",
+    "vector": "Alleged interaction between the husband and the ChatGPT chatbot; specifics Unknown.",
+    "root_cause": "Alleged by the plaintiff that ChatGPT caused or contributed to the death; no findings reported.",
+    "impact": "Death by suicide alleged to be linked to chatbot use",
+    "response": "Widow has filed a lawsuit against OpenAI; OpenAI's response is Unknown.",
+    "status": "lawsuit filed",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "source": "Courthouse News",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQNkFOTjIxZXhqdWJwZlJVaUxrUzFFRGs4YTJYMkZKRWVObFhveExhWDFGbldQaFNjQTQ1MllrckZnN21haXNxZTdReFNCU1NKWkc1d0JXazI4UXdTbXd3Y1Nsd2hIcWlpaVhDZE5HZC1zanF3M3JIbklrbnVSUTh2TEI1SkxtVndfbWRJNg?oc=5",
+    "sources": [
+      {
+        "name": "Courthouse News",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQNkFOTjIxZXhqdWJwZlJVaUxrUzFFRGs4YTJYMkZKRWVObFhveExhWDFGbldQaFNjQTQ1MllrckZnN21haXNxZTdReFNCU1NKWkc1d0JXazI4UXdTbXd3Y1Nsd2hIcWlpaVhDZE5HZC1zanF3M3JIbklrbnVSUTh2TEI1SkxtVndfbWRJNg?oc=5"
+      },
+      {
+        "name": "Courthouse News Service",
+        "url": "https://www.courthousenews.com/widow-sues-openai-blaming-chatgpt-for-her-husbands-death/"
+      },
+      {
+        "name": "Conversational AI Watch",
+        "url": "https://conversationalaiwatch.substack.com/p/2026-10-31-widow-sues-chatgpt-and-replika-over-suicide"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-30",
+        "event": "Reported by Courthouse News"
+      }
+    ],
+    "drafted_at": "2026-10-30T08:05:45Z",
+    "first_seen": "2026-10-30T08:05:45Z",
+    "updated_at": "2026-11-05T05:35:37Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-05T05:35:37Z"
+  },
+  {
+    "id": "nk-hackers-ai-phishing-south-korea",
+    "date": "2026-10-29",
+    "title": "Microsoft: North Korean hacking groups use AI to mass-produce phishing lures against South Korean users",
+    "category": "State actor AI ops",
+    "direction": "with-ai",
+    "severity": "medium",
+    "country": "KR",
+    "region": "Asia-Pacific",
+    "target": "South Korean organizations and individuals",
+    "loss_usd": null,
+    "summary": "A Microsoft Threat Intelligence report released Oct 29, 2026 says North Korean group Onyx Sleet produced at least 100 target-tailored PDF phishing lures against South Korean users in Aug-Sep 2026, with dozens generated within minutes. Microsoft assessed the documents were very likely made with AI platforms. It rates three of eight tracked DPRK groups (Jade Sleet, Coral Sleet, Jasper Sleet) as fully embedded in AI use, though not yet fully autonomous.",
+    "actor": "Onyx Sleet (North Korean state-linked; one of eight DPRK groups assessed by Microsoft)",
+    "actor_type": "state",
+    "sector": "Unknown",
+    "attribution": "Attributed to North Korean hackers per Chosun Ilbo headline; the specific group is not named in the available text.",
+    "motive": "Unknown",
+    "vector": "AI-generated phishing documents sent to South Korean targets",
+    "root_cause": "Unknown",
+    "impact": "Unknown; the text does not state confirmed victims or losses.",
+    "response": "Unknown",
+    "status": "reported by Microsoft Threat Intelligence",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "source": "조선일보",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSkxFVlNSamItU2IxLWNISUhXeXEySldnNEp0WkV0am1SS2pfZjNyNWdWU2NldHExa0Z3ZFFRcnRzbDZOcFRfY2pxQi1FVmZrTHpnQjlYdGwtY292UE51Y3VwcGVNUldwQ3hsS29OUWNDeUpDcXBHdDJfX1h0ZW5CS0NaYUEtZkZC?oc=5",
+    "sources": [
+      {
+        "name": "조선일보",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSkxFVlNSamItU2IxLWNISUhXeXEySldnNEp0WkV0am1SS2pfZjNyNWdWU2NldHExa0Z3ZFFRcnRzbDZOcFRfY2pxQi1FVmZrTHpnQjlYdGwtY292UE51Y3VwcGVNUldwQ3hsS29OUWNDeUpDcXBHdDJfX1h0ZW5CS0NaYUEtZkZC?oc=5"
+      },
+      {
+        "name": "Financial News (fnnews)",
+        "url": "https://en.fnnews.com/news/202610301547020118"
+      },
+      {
+        "name": "Segye Ilbo",
+        "url": "https://www.segye.com/newsView/20261030509940"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-30",
+        "event": "Reported by 조선일보"
+      }
+    ],
+    "drafted_at": "2026-10-30T09:05:45Z",
+    "first_seen": "2026-10-30T09:05:45Z",
+    "updated_at": "2026-11-05T05:35:37Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-05T05:35:37Z"
+  },
+  {
     "id": "workos-ai-framework-breach",
     "date": "2026-10-30",
     "title": "WorkOS internal sales app breached using AI-assisted offensive framework",

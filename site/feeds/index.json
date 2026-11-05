@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T05:05:39Z",
+  "generated_at": "2026-11-05T05:35:37Z",
   "categories": [
     {
       "name": "AI exam fraud",
@@ -34,7 +34,7 @@
     {
       "name": "Chatbot harm",
       "slug": "chatbot-harm",
-      "count": 49
+      "count": 50
     },
     {
       "name": "Deepfake abuse",
@@ -44,7 +44,7 @@
     {
       "name": "Deepfake fraud",
       "slug": "deepfake-fraud",
-      "count": 119
+      "count": 120
     },
     {
       "name": "LLMjacking",
@@ -64,7 +64,7 @@
     {
       "name": "State actor AI ops",
       "slug": "state-actor-ai-ops",
-      "count": 34
+      "count": 35
     }
   ],
   "countries": [
@@ -214,7 +214,7 @@
     },
     {
       "code": "KR",
-      "count": 13
+      "count": 14
     },
     {
       "code": "KW",
@@ -306,7 +306,7 @@
     },
     {
       "code": "US",
-      "count": 148
+      "count": 150
     },
     {
       "code": "UY",

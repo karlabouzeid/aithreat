@@ -9217,5 +9217,53 @@
     "timeline": [
       "由 Techora.ru 报道"
     ]
+  },
+  {
+    "title": "美国司法部（DOJ）Ghostbusters 行动：五人因涉嫌借助 AI 实施“幽灵学生”联邦助学金欺诈被起诉，案件与肯尼亚网络有关",
+    "summary": "2026 年 10 月 29 日，美国司法部宣布在 Ghostbusters 行动中对五名被告提起起诉和刑事控告，并查扣了价值逾 75 万美元的加密货币。检方称，犯罪分子利用窃取的美国公民身份信息注册欺诈性的 FAFSA 账户并为“幽灵学生”办理入学，退款则通过美国境内的钱骡（包括肯尼亚籍人员）转入由境外控制的账户。司法部称，欺诈者还利用 AI 完成课程作业，以维持骗局运转。上述指控尚未得到证实。",
+    "target": "美国联邦助学金（FAFSA）项目及各高校",
+    "actor": "涉嫌与肯尼亚籍人员有关的跨国网络；五名被告被起诉",
+    "attribution": "美国司法部官员指控了该骗局；标题中未点名具体行为人。",
+    "motive": "从联邦助学金发放中谋取经济利益。",
+    "vector": "利用被盗身份信息为虚构学生办理入学，并使用 AI 完成课程作业。",
+    "root_cause": "不详；文本暗示身份与入学核验薄弱，但并未明确说明。",
+    "impact": "联邦助学金涉嫌被欺诈性骗取；现有文本未说明具体金额。",
+    "response": "美国司法部查获了该骗局；文本未给出指控或抓捕情况。",
+    "id": "doj-ai-student-loan-fraud-scheme",
+    "timeline": [
+      "由 X 报道"
+    ]
+  },
+  {
+    "title": "遗孀起诉 OpenAI 及 Replika 开发商 Luka，指控聊天机器人对丈夫 Aleksandr Feinberg 的自杀负有责任",
+    "summary": "2026 年 10 月 29 日，Susan Feinberg 在旧金山县高等法院起诉 OpenAI、Sam Altman 和 Luka Inc.（Replika 开发商）。她指控 ChatGPT 和 Replika 对其丈夫 Aleksandr 于 2024 年 6 月 21 日在加利福尼亚州萨拉托加的自杀负有责任，并称 OpenAI 仓促将 GPT-4o 推向市场。起诉书未附任何对话记录，其依据是她根据相关情况形成的判断。这些主张均属指控，尚未得到证实。",
+    "target": "Aleksandr Feinberg，一名 ChatGPT 和 Replika 用户，死于自杀",
+    "actor": "OpenAI、Sam Altman 和 Luka Inc.（被告；系指控）",
+    "attribution": "据 Courthouse News 报道，这是原告遗孀在针对 OpenAI 的诉讼中提出的指控；未见法院裁决的报道。",
+    "motive": "不详",
+    "vector": "据称是其丈夫与 ChatGPT 聊天机器人之间的互动；具体情况不详。",
+    "root_cause": "原告指控 ChatGPT 导致或促成了死亡；未见任何调查结论的报道。",
+    "impact": "据称自杀死亡与使用聊天机器人有关",
+    "response": "遗孀已对 OpenAI 提起诉讼；OpenAI 的回应不详。",
+    "id": "widow-sues-openai-husband-death",
+    "timeline": [
+      "Courthouse News 报道"
+    ]
+  },
+  {
+    "title": "微软（Microsoft）：朝鲜黑客组织利用 AI 批量制作针对韩国用户的钓鱼诱饵",
+    "summary": "微软威胁情报团队（Microsoft Threat Intelligence）于 2026 年 10 月 29 日发布的报告称，朝鲜组织 Onyx Sleet 在 2026 年 8 至 9 月间针对韩国用户制作了至少 100 份量身定制的 PDF 钓鱼诱饵，其中数十份在几分钟内生成。微软评估认为，这些文档很可能是借助 AI 平台制作的。报告将其追踪的八个朝鲜组织中的三个（Jade Sleet、Coral Sleet、Jasper Sleet）评定为已全面嵌入 AI 使用，但尚未完全自主。",
+    "target": "韩国的组织和个人",
+    "actor": "Onyx Sleet（与朝鲜国家有关联；为微软评估的八个朝鲜组织之一）",
+    "attribution": "据 Chosun Ilbo 的标题，归因于朝鲜黑客；现有文本未点名具体组织。",
+    "motive": "不详",
+    "vector": "向韩国目标发送由 AI 生成的钓鱼文档",
+    "root_cause": "不详",
+    "impact": "不详；文本未说明已确认的受害者或损失。",
+    "response": "不详",
+    "id": "nk-hackers-ai-phishing-south-korea",
+    "timeline": [
+      "由 조선일보 报道"
+    ]
   }
 ]

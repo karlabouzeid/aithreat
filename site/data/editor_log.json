@@ -1238,5 +1238,37 @@
     "reason": "Same event as the already known Seoul police arrests of a ring that used generative AI to hack about 90 firms and steal about 8.2M records (MLex, 27 Oct 2026).",
     "duplicate_of": "korea-genai-hacking-8m-records-arrest",
     "at": "2026-11-05T05:05:39Z"
+  },
+  {
+    "id": "patient-records-spreadsheet-ai-platform",
+    "title": "Records of 3,000+ patients exposed after spreadsheet shared with AI platform",
+    "decision": "reject",
+    "reason": "HealthExec's report describes the Johns Hopkins Bayview employee uploading a patient spreadsheet to an unauthorized AI tool (3,182 patients), which is the known case johns-hopkins-unauthorized-ai-exposure.",
+    "duplicate_of": "johns-hopkins-unauthorized-ai-exposure",
+    "at": "2026-11-05T05:35:37Z"
+  },
+  {
+    "id": "doj-ai-student-loan-fraud-scheme",
+    "title": "DOJ uncovers alleged AI-powered fake-student federal loan fraud scheme",
+    "decision": "approve",
+    "reason": "The DOJ press release of Oct 29, 2026 confirms Operation Ghostbusters: five defendants charged, over $750,000 in crypto seized, a Kenyan-linked network, and the use of AI to complete coursework for ghost students; the event is not already known.",
+    "duplicate_of": null,
+    "at": "2026-11-05T05:35:37Z"
+  },
+  {
+    "id": "widow-sues-openai-husband-death",
+    "title": "Widow sues OpenAI, blaming ChatGPT for her husband's death",
+    "decision": "approve",
+    "reason": "Courthouse News and a daily AI brief confirm Susan Feinberg's Oct 29, 2026 suit against OpenAI, Altman and Replika maker Luka over her husband's June 2024 suicide, and the case is not already known.",
+    "duplicate_of": null,
+    "at": "2026-11-05T05:35:37Z"
+  },
+  {
+    "id": "nk-hackers-ai-phishing-south-korea",
+    "title": "North Korean hackers use AI to mass-produce phishing documents targeting South Korea",
+    "decision": "approve",
+    "reason": "A Microsoft Threat Intelligence report of Oct 29, 2026, relayed by Yonhap, Financial News and Segye Ilbo, confirms DPRK groups used AI to mass-produce phishing lures against South Korean users; it is a new report not covered by existing cases.",
+    "duplicate_of": null,
+    "at": "2026-11-05T05:35:37Z"
   }
 ]
