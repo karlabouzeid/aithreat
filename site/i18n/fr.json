@@ -9505,5 +9505,69 @@
     "timeline": [
       "Signalé par Pasquale Pillitteri"
     ]
+  },
+  {
+    "title": "Un acteur assisté par IA compromet plus de 600 pare-feu FortiGate dans 55 pays en exploitant des identifiants faibles, selon Amazon",
+    "summary": "Amazon Threat Intelligence indique qu'un acteur malveillant russophone, à motivation financière, a utilisé plusieurs services commerciaux d'IA générative pour compromettre plus de 600 équipements FortiGate dans plus de 55 pays entre le 11 janvier et le 18 février 2026. Aucune vulnérabilité de FortiGate n'a été exploitée ; la campagne reposait sur des ports de gestion exposés et des identifiants faibles à facteur unique, l'IA servant à planifier les attaques et à les mettre à l'échelle.",
+    "target": "Plus de 600 pare-feu FortiGate",
+    "actor": "Acteur malveillant russophone non nommé, à motivation financière",
+    "attribution": "Inconnue",
+    "motive": "Inconnu",
+    "vector": "Attaques assistées par IA contre des équipements FortiGate ; méthode exacte inconnue.",
+    "root_cause": "Inconnue ; le titre n'indique pas la faille ou la faiblesse exploitée.",
+    "impact": "Plus de 600 équipements FortiGate auraient été compromis.",
+    "response": "Inconnue",
+    "id": "ai-enhanced-fortigate-600-devices",
+    "timeline": [
+      "Signalé par OrcaRouter"
+    ]
+  },
+  {
+    "title": "Zscaler : la campagne Shai-Hulud passe de npm à PyPI avec les variantes Miasma et Hades ; la vague Hades sur PyPI pratique l'injection de prompt contre les scanners d'IA",
+    "summary": "Zscaler ThreatLabz indique qu'en six mois, la campagne d'attaque contre la chaîne d'approvisionnement Shai-Hulud est passée de npm à PyPI (Miasma, mars 2026 ; Hades, mai 2026), a détourné les mécanismes CI/CD et la publication de confiance OIDC (trusted publishing), et s'est étendue aux fichiers de configuration des IDE. Le 8 juin 2026, la vague Hades sur PyPI a introduit de l'injection de prompt dans des paquets afin de tromper les scanners de sécurité fondés sur des LLM. Les vagues antérieures sont rattachées avec un niveau de confiance élevé à TeamPCP (UNC6780 selon Mandiant) ; l'attribution après le 12 mai 2026, date à laquelle le code source du ver a été publié sous licence MIT, est moins certaine.",
+    "target": "Écosystèmes de paquets npm et PyPI et scanners de code fondés sur l'IA",
+    "actor": "TeamPCP (UNC6780) pour les vagues antérieures ; activité ultérieure moins certaine après la publication du code source du ver",
+    "attribution": "Zscaler ThreatLabz suit la campagne sous le nom de Shai-Hulud ; le résumé ne nomme aucun acteur.",
+    "motive": "Inconnu",
+    "vector": "Paquets malveillants sur npm et PyPI, avec des techniques d'évasion visant les scanners fondés sur l'IA.",
+    "root_cause": "Les registres de paquets ouverts sont exposés à la publication de contenus malveillants, et les scanners d'IA peuvent être contournés.",
+    "impact": "L'activité de la campagne s'est étendue à plusieurs écosystèmes de paquets ; le résumé ne donne ni nombre de victimes ni pertes.",
+    "response": "Zscaler ThreatLabz a publié une analyse de l'évolution de la campagne ; aucune autre réponse n'est mentionnée.",
+    "id": "shai-hulud-miasma-hades-ai-evasion",
+    "timeline": [
+      "Signalé par Zscaler ThreatLabz"
+    ]
+  },
+  {
+    "title": "Une campagne de malvertising diffuse une fausse page d'installation de Claude qui déploie une attaque ClickFix",
+    "summary": "Push Security a découvert une annonce Google pour la recherche « claude mac » qui, via une redirection Bing et un site WordPress compromis, envoyait les utilisateurs vers une fausse page de téléchargement de Claude (claude-desk-code[.]com). La page affiche la véritable commande d'installation d'Anthropic, mais copie dans le presse-papiers une autre commande, malveillante (ClickFix). La charge utile finale a été signalée comme inconnue.",
+    "target": "Utilisateurs recherchant et installant Claude sous macOS",
+    "actor": "Inconnu",
+    "attribution": "Inconnue ; le titre ne nomme aucun acteur.",
+    "motive": "Inconnu",
+    "vector": "Fausse page d'installation de Claude recourant à l'ingénierie sociale ClickFix pour amener les utilisateurs à exécuter des commandes malveillantes",
+    "root_cause": "Les utilisateurs sont dupés et exécutent des instructions fournies par l'attaquant depuis une page usurpant l'installateur d'un outil d'IA légitime.",
+    "impact": "Des logiciels malveillants ont été livrés aux victimes ; le nombre de victimes et les pertes ne sont pas indiqués.",
+    "response": "Inconnue",
+    "id": "fake-claude-install-page-clickfix",
+    "timeline": [
+      "Signalé par Security Boulevard"
+    ]
+  },
+  {
+    "title": "Un Brésilien vend ses biens et parcourt environ 2 000 km pour rencontrer sa « petite amie » TikTok générée par IA, et se retrouve bloqué",
+    "summary": "Edimar Rocha Martins, maçon brésilien de 49 ans, a vendu ses biens et voyagé en bus du Maranhão à Belo Horizonte, où il est arrivé le 11 octobre 2026, pour rencontrer une femme qu'il connaissait via le compte TikTok @JessicaFazendeira. Ce compte, suivi par environ 300 000 abonnés, s'est révélé être un personnage généré par IA (vidéo deepfake et voix off par IA). Selon les articles, elle ne lui a jamais demandé d'argent, et l'opérateur du compte affirme l'avoir géré pour l'engagement et la monétisation et nie toute intention de rencontrer ses abonnés ; aucune fraude n'est donc établie. Il s'est retrouvé sans argent, sans logement et sans moyen de rentrer chez lui, et a demandé l'aide des services sociaux de la ville de Belo Horizonte.",
+    "target": "Abonné à titre individuel qui croyait qu'une influenceuse générée par IA était réelle",
+    "actor": "Opérateur non identifié du personnage TikTok généré par IA @JessicaFazendeira",
+    "attribution": "Inconnue ; le titre ne fournit aucune attribution.",
+    "motive": "Gain financier (sous-entendu par la perte d'argent de la victime).",
+    "vector": "Relation en ligne avec un personnage généré par IA, selon le titre.",
+    "root_cause": "Victime trompée par un personnage d'IA se faisant passer pour une véritable partenaire amoureuse.",
+    "impact": "La victime a perdu son argent et s'est retrouvée bloquée loin de chez elle. Le montant n'est pas indiqué.",
+    "response": "Inconnue",
+    "id": "ai-romance-scam-2000km-coach-trip",
+    "timeline": [
+      "Signalé par Le Dauphiné Libéré"
+    ]
   }
 ]

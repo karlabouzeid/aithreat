@@ -1462,5 +1462,69 @@
     "reason": "This is the Michael Smith AI-music streaming royalty fraud (sentenced Oct 6, 2026 to 18 months), already known as ai-music-streaming-royalty-fraud.",
     "duplicate_of": "ai-music-streaming-royalty-fraud",
     "at": "2026-11-05T07:23:34Z"
+  },
+  {
+    "id": "ai-enhanced-fortigate-600-devices",
+    "title": "AI-enhanced attackers reportedly breach 600+ FortiGate devices",
+    "decision": "approve",
+    "reason": "Amazon Threat Intelligence's Feb 20, 2026 report, covered by The Hacker News and Infosecurity Magazine, confirms a Russian-speaking financially motivated actor used commercial generative AI services to compromise 600+ FortiGate devices in 55 countries; the draft's Nov 2026 date reflects a late re-re",
+    "duplicate_of": null,
+    "at": "2026-11-05T07:35:38Z"
+  },
+  {
+    "id": "exorcist-claims-chatbot-suicide-prompt",
+    "title": "Woman alleges AI chatbot pushed her deeper into dark thoughts and urged suicide",
+    "decision": "reject",
+    "reason": "It is an unverified anecdote from exorcist Bob Larson about an unnamed woman, with no identified chatbot, company, victim or date, and IBTimes itself says the messages are unverified.",
+    "duplicate_of": null,
+    "at": "2026-11-05T07:35:38Z"
+  },
+  {
+    "id": "shai-hulud-miasma-hades-ai-evasion",
+    "title": "Shai-Hulud evolves into Miasma and Hades variants that evade AI scanners",
+    "decision": "approve",
+    "reason": "Zscaler ThreatLabz's blog (dated June 12, 2026) is the original research, and SC World and Security Boulevard independently covered the June 8, 2026 Hades PyPI wave that used prompt injection against LLM scanners; the draft's Oct 16 date is wrong and the title overstates which variants evaded AI sca",
+    "duplicate_of": null,
+    "at": "2026-11-05T07:35:38Z"
+  },
+  {
+    "id": "ai-romance-scam-2000km-coach-trip",
+    "title": "Man travels 2,000 km by coach to meet AI 'girlfriend' and is left penniless",
+    "decision": "approve",
+    "reason": "Multiple outlets (citing G1/Rádio Itatiaia) confirm a Brazilian man travelled about 2,000 km believing an AI-generated TikTok persona was a real woman and was left stranded, though the draft wrongly places it in France and calls it a scam.",
+    "duplicate_of": null,
+    "at": "2026-11-05T07:35:38Z"
+  },
+  {
+    "id": "n8n-cve-2025-68613-kev-exploited",
+    "title": "CISA lists n8n workflow expression RCE (CVE-2025-68613) as actively exploited",
+    "decision": "reject",
+    "reason": "CISA added CVE-2025-68613 to KEV on 2026-03-11, which is already the known case n8n-cve-2025-68613-kev; the 2026-10-16 date is not a new event.",
+    "duplicate_of": "n8n-cve-2025-68613-kev",
+    "at": "2026-11-05T07:35:38Z"
+  },
+  {
+    "id": "ai-agents-canada-gov-website-attempt",
+    "title": "AI agents tried to hack a Canadian government website, research firm says",
+    "decision": "reject",
+    "reason": "Reuters reported this on 2026-09-30 (Transluce disclosure), which is the same event as known case ai-agents-probe-us-canada-gov-sites.",
+    "duplicate_of": "ai-agents-probe-us-canada-gov-sites",
+    "at": "2026-11-05T07:35:38Z"
+  },
+  {
+    "id": "haute-loire-ai-fake-benefit-docs",
+    "title": "Haute-Loire benefit fraud: 229 cases as AI-made fake documents surge",
+    "decision": "reject",
+    "reason": "The 229 cases are the Haute-Loire Caf's ordinary 2025 fraud tally, and the sources only say AI facilitates forged documents, so there is no specific AI incident and no confirmed surge.",
+    "duplicate_of": null,
+    "at": "2026-11-05T07:35:38Z"
+  },
+  {
+    "id": "fake-claude-install-page-clickfix",
+    "title": "Fake Claude installation page delivers malware via ClickFix",
+    "decision": "approve",
+    "reason": "Push Security and BleepingComputer (2026-10-09) document a malvertising campaign using Google ads and Bing redirects to a fake Claude download page delivering ClickFix; it is distinct from the known shared-chat ClickFix case.",
+    "duplicate_of": null,
+    "at": "2026-11-05T07:35:38Z"
   }
 ]

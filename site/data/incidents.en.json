@@ -14627,6 +14627,61 @@
     "verified_at": "2026-11-05T03:35:38Z"
   },
   {
+    "id": "ai-enhanced-fortigate-600-devices",
+    "date": "2026-02-20",
+    "title": "AI-assisted actor compromises 600+ FortiGate firewalls in 55 countries using weak credentials, Amazon reports",
+    "category": "AI-assisted malware",
+    "direction": "with-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "600+ FortiGate firewall devices",
+    "loss_usd": null,
+    "summary": "Amazon Threat Intelligence reported that a Russian-speaking, financially motivated threat actor used multiple commercial generative AI services to compromise more than 600 FortiGate devices across 55+ countries between 11 January and 18 February 2026. No FortiGate vulnerabilities were exploited; the campaign relied on exposed management ports and weak single-factor credentials, with AI used to plan and scale the attacks.",
+    "actor": "Unnamed Russian-speaking, financially motivated threat actor",
+    "actor_type": "criminal",
+    "sector": "Multiple / cross-sector",
+    "attribution": "Unknown",
+    "motive": "Unknown",
+    "vector": "AI-assisted attacks against FortiGate devices; exact method Unknown.",
+    "root_cause": "Unknown; the headline does not state the flaw or weakness exploited.",
+    "impact": "More than 600 FortiGate devices reportedly compromised.",
+    "response": "Unknown",
+    "status": "disclosed by Amazon Threat Intelligence",
+    "cve": null,
+    "young_people": false,
+    "setting": null,
+    "age_group": null,
+    "source": "OrcaRouter",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQYWc3TmtMbUdHWkVqRFRyYWJ6ZnRJdmhBalBfcDNUNnQ4TVVzZUF1Um5mQXZBSm5EMnRpMTlOQkh4dTM3bVNiREttbE14VFI0aThQSjYxNkhLY29JTXdLZEtVV3MtNV9BbUhYaTA2UkdCS2p6SkxHUF8xenRsSEJDdzhkT2hWZU9E?oc=5",
+    "sources": [
+      {
+        "name": "OrcaRouter",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQYWc3TmtMbUdHWkVqRFRyYWJ6ZnRJdmhBalBfcDNUNnQ4TVVzZUF1Um5mQXZBSm5EMnRpMTlOQkh4dTM3bVNiREttbE14VFI0aThQSjYxNkhLY29JTXdLZEtVV3MtNV9BbUhYaTA2UkdCS2p6SkxHUF8xenRsSEJDdzhkT2hWZU9E?oc=5"
+      },
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/02/ai-assisted-threat-actor-compromises.html"
+      },
+      {
+        "name": "Infosecurity Magazine",
+        "url": "https://www.infosecurity-magazine.com/news/russian-threat-actor-genai/"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-11-04",
+        "event": "Reported by OrcaRouter"
+      }
+    ],
+    "drafted_at": "2026-11-04T11:05:40Z",
+    "first_seen": "2026-11-04T11:05:40Z",
+    "updated_at": "2026-11-05T07:35:38Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-05T07:35:38Z"
+  },
+  {
     "id": "anthropic-distillation",
     "date": "2026-02-23",
     "title": "Anthropic accuses DeepSeek, Moonshot and MiniMax of distilling Claude via 24,000 accounts",
@@ -18614,6 +18669,58 @@
     "age_group": "teen",
     "verified_at": "2026-10-19T13:40:55Z",
     "updated_at": "2026-10-19T13:40:55Z"
+  },
+  {
+    "id": "shai-hulud-miasma-hades-ai-evasion",
+    "date": "2026-06-12",
+    "title": "Zscaler: Shai-Hulud campaign spreads from npm to PyPI as Miasma and Hades variants; Hades PyPI wave prompt-injects AI scanners",
+    "category": "AI supply chain",
+    "direction": "on-ai",
+    "severity": "high",
+    "country": "GL",
+    "region": "Global",
+    "target": "npm and PyPI package ecosystems and AI-based code scanners",
+    "loss_usd": null,
+    "summary": "Zscaler ThreatLabz reports that over six months the Shai-Hulud supply chain campaign expanded from npm into PyPI (Miasma, March 2026; Hades, May 2026), abused CI/CD and OIDC trusted publishing, and extended into IDE configuration files. On June 8, 2026 the Hades PyPI wave introduced prompt injection in packages to mislead LLM-based security scanners. Earlier waves are linked with high confidence to TeamPCP (Mandiant UNC6780); attribution after May 12, 2026, when the worm source code was released publicly under an MIT licence, is less certain.",
+    "actor": "TeamPCP (UNC6780) for earlier waves; later activity less certain after worm source code was published",
+    "actor_type": "unknown",
+    "sector": "Multiple / cross-sector",
+    "attribution": "Zscaler ThreatLabz tracks the campaign as Shai-Hulud; the summary names no actor.",
+    "motive": "Unknown",
+    "vector": "Malicious packages in npm and PyPI, with evasion aimed at AI-based scanners.",
+    "root_cause": "Open package registries are exposed to malicious uploads, and AI scanners can be evaded.",
+    "impact": "Campaign activity has expanded across package ecosystems; the summary gives no victim counts or losses.",
+    "response": "Zscaler ThreatLabz published analysis of the campaign's evolution; no other response is stated.",
+    "status": "ongoing",
+    "cve": null,
+    "source": "Zscaler ThreatLabz",
+    "url": "https://www.zscaler.com/blogs/security-research/shai-hulud-campaign-evolution-miasma-hades-and-ai-scanner-evasion",
+    "sources": [
+      {
+        "name": "Zscaler ThreatLabz",
+        "url": "https://www.zscaler.com/blogs/security-research/shai-hulud-campaign-evolution-miasma-hades-and-ai-scanner-evasion"
+      },
+      {
+        "name": "SC Media (SC World)",
+        "url": "https://www.scworld.com/news/mini-shai-hulud-hades-variant-affects-23-pypi-package-versions"
+      },
+      {
+        "name": "Security Boulevard",
+        "url": "https://securityboulevard.com/2026/06/shai-hulud-campaign-evolution-miasma-hades-and-ai-scanner-evasion/"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-16",
+        "event": "Reported by Zscaler ThreatLabz"
+      }
+    ],
+    "drafted_at": "2026-10-16T10:50:02Z",
+    "first_seen": "2026-10-16T10:50:02Z",
+    "updated_at": "2026-11-05T07:35:38Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-05T07:35:38Z"
   },
   {
     "id": "copilot-searchleak",
@@ -22883,6 +22990,58 @@
     "updated_at": "2026-10-19T13:40:55Z"
   },
   {
+    "id": "fake-claude-install-page-clickfix",
+    "date": "2026-10-09",
+    "title": "Malvertising campaign pushes fake Claude installer page that delivers ClickFix attack",
+    "category": "AI supply chain",
+    "direction": "on-ai",
+    "severity": "medium",
+    "country": "GL",
+    "region": "Global",
+    "target": "Users searching for and installing Claude on macOS",
+    "loss_usd": null,
+    "summary": "Push Security found a Google search ad for 'claude mac' that used a Bing redirect and a compromised WordPress site to send users to a fake Claude download page (claude-desk-code[.]com). The page shows Anthropic's real install command but copies a different malicious command to the clipboard (ClickFix). The final payload was reported as unknown.",
+    "actor": "Unknown",
+    "actor_type": "unknown",
+    "sector": "Individuals & consumers",
+    "attribution": "Unknown; the headline does not name an actor.",
+    "motive": "Unknown",
+    "vector": "Fake Claude installation page using ClickFix social engineering to get users to run malicious commands",
+    "root_cause": "Users are tricked into running attacker-supplied instructions from a page impersonating a legitimate AI tool installer.",
+    "impact": "Malware delivered to victims; number of victims and losses not stated.",
+    "response": "Unknown",
+    "status": "under investigation",
+    "cve": null,
+    "source": "Security Boulevard",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPa0ItNXVjbjFJZzVUeF9odHlqZnlYdWFIT1JUN050Q3Z3RGdCNTdxSTZyamVheTlqaUV6WnhnZHdFQWdqdDZWcnpVYnBXeGNRSzNtQW9VSVhGTXBHdzJMVTZwUmVVMm1tb1doSWY0QXFqY1FtdEFTNU9Lb2FpYTE4d2Rkam5Ed3FONmk1T2cyRGtDNkhES0x4UkNpdHhoelJkYXdJV1ZnekpkaHRTX0w2UXVpeDBZQ3ZyQU0wZHZTb1lpYlE?oc=5",
+    "sources": [
+      {
+        "name": "Security Boulevard",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPa0ItNXVjbjFJZzVUeF9odHlqZnlYdWFIT1JUN050Q3Z3RGdCNTdxSTZyamVheTlqaUV6WnhnZHdFQWdqdDZWcnpVYnBXeGNRSzNtQW9VSVhGTXBHdzJMVTZwUmVVMm1tb1doSWY0QXFqY1FtdEFTNU9Lb2FpYTE4d2Rkam5Ed3FONmk1T2cyRGtDNkhES0x4UkNpdHhoelJkYXdJV1ZnekpkaHRTX0w2UXVpeDBZQ3ZyQU0wZHZTb1lpYlE?oc=5"
+      },
+      {
+        "name": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-bing-redirects-to-push-claude-clickfix-attacks/"
+      },
+      {
+        "name": "Push Security",
+        "url": "http://pushsecurity.com/blog/adception-malvertising-another-search-engines-search-results"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-17",
+        "event": "Reported by Security Boulevard"
+      }
+    ],
+    "drafted_at": "2026-10-17T15:05:36Z",
+    "first_seen": "2026-10-14T14:39:51Z",
+    "updated_at": "2026-11-05T07:35:38Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-05T07:35:38Z"
+  },
+  {
     "id": "korea-kcsc-ai-chatbot-minor-complaints",
     "date": "2026-10-10",
     "title": "Korean AI character apps like Zeta pushed self-harm talk on teens as regulator left complaints unreviewed",
@@ -22988,6 +23147,58 @@
     "verification": "reported",
     "review": "auto",
     "verified_at": "2026-11-05T00:35:44Z"
+  },
+  {
+    "id": "ai-romance-scam-2000km-coach-trip",
+    "date": "2026-10-11",
+    "title": "Brazilian man sells belongings and travels about 2,000 km to meet AI-generated TikTok 'girlfriend', is left stranded",
+    "category": "Deepfake fraud",
+    "direction": "with-ai",
+    "severity": "low",
+    "country": "BR",
+    "region": "Europe",
+    "target": "Individual follower who believed an AI-generated influencer was real",
+    "loss_usd": null,
+    "summary": "Edimar Rocha Martins, a 49-year-old Brazilian bricklayer, sold his belongings and travelled by bus from Maranhão to Belo Horizonte, arriving on 11 October 2026, to meet a woman he knew from the TikTok account @JessicaFazendeira. The account, with about 300,000 followers, turned out to be an AI-generated persona (deepfake video and AI voiceover). Reports say she never asked him for money, and the account's operator said it was run for engagement and monetisation and denied any intention of meeting followers, so no fraud is established. He was left without money, housing or a way home and sought help from Belo Horizonte city social services.",
+    "actor": "Unidentified operator of the AI-generated TikTok persona @JessicaFazendeira",
+    "actor_type": "criminal",
+    "sector": "Individuals & consumers",
+    "attribution": "Unknown; the headline gives no attribution.",
+    "motive": "Financial gain (implied by the loss of the victim's money).",
+    "vector": "Online relationship with an AI-generated persona, per headline.",
+    "root_cause": "Victim deceived by an AI persona posing as a real romantic partner.",
+    "impact": "Victim lost his money and was stranded far from home. The amount is not stated.",
+    "response": "Unknown",
+    "status": "no charges reported",
+    "cve": null,
+    "source": "Le Dauphiné Libéré",
+    "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNdlpXZ3Vsc2YwQmZFaWo5cDRWTXhhNjQzM3VvMlFMZlJfNFlPTkh5ek5iVUlGeVpySnIzY1B2QWRQZzFsNmk1X0dIMS0xLVlTTVNvRjdWMlJuTFdzT2RSWVlWWmZoeWpiQnRqbzR2ZWw4VnRUVFRGbHNjV0xZQzN3cnltNGxJd08yWVpSTWltcXZkaWk0cFFSRGtLdnFtY0tDblUzWldidlJhUThoczgydFcyVlB3eGp6Z2lyUmdpWmtfRV9BdjFUQ0hpNklnVFprR1U0N0tBNjZRaXAtZWprQlV0RGNlN3JLYUZHeWExVUU?oc=5",
+    "sources": [
+      {
+        "name": "Le Dauphiné Libéré",
+        "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNdlpXZ3Vsc2YwQmZFaWo5cDRWTXhhNjQzM3VvMlFMZlJfNFlPTkh5ek5iVUlGeVpySnIzY1B2QWRQZzFsNmk1X0dIMS0xLVlTTVNvRjdWMlJuTFdzT2RSWVlWWmZoeWpiQnRqbzR2ZWw4VnRUVFRGbHNjV0xZQzN3cnltNGxJd08yWVpSTWltcXZkaWk0cFFSRGtLdnFtY0tDblUzWldidlJhUThoczgydFcyVlB3eGp6Z2lyUmdpWmtfRV9BdjFUQ0hpNklnVFprR1U0N0tBNjZRaXAtZWprQlV0RGNlN3JLYUZHeWExVUU?oc=5"
+      },
+      {
+        "name": "24heures",
+        "url": "https://www.24heures.ch/escroquerie-ia-il-fait-2000-km-pour-une-femme-qui-nexiste-pas-628216635366"
+      },
+      {
+        "name": "My Mobile India",
+        "url": "https://www.mymobileindia.com/man-sells-everything-to-meet-online-girlfriend-finds-she-is-ai/"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-16",
+        "event": "Reported by Le Dauphiné Libéré"
+      }
+    ],
+    "drafted_at": "2026-10-16T15:35:41Z",
+    "first_seen": "2026-10-16T15:35:41Z",
+    "updated_at": "2026-11-05T07:35:38Z",
+    "verification": "reported",
+    "review": "auto",
+    "verified_at": "2026-11-05T07:35:38Z"
   },
   {
     "id": "texas-ai-fake-receipt-purse-refund",

@@ -9505,5 +9505,69 @@
     "timeline": [
       "由 Pasquale Pillitteri 报告"
     ]
+  },
+  {
+    "title": "亚马逊（Amazon）报告：AI 辅助攻击者利用弱凭据入侵 55 个国家的 600 多台 FortiGate 防火墙",
+    "summary": "Amazon Threat Intelligence 报告称，一名讲俄语、以牟利为动机的威胁行为者使用多种商用生成式 AI 服务，在 2026 年 1 月 11 日至 2 月 18 日期间入侵了 55 个以上国家的 600 多台 FortiGate 设备。此次攻击未利用任何 FortiGate 漏洞；该行动依赖暴露的管理端口和薄弱的单因素凭据，并借助 AI 来策划和扩大攻击规模。",
+    "target": "600 多台 FortiGate 防火墙设备",
+    "actor": "身份不明、讲俄语、以牟利为动机的威胁行为者",
+    "attribution": "未知",
+    "motive": "未知",
+    "vector": "针对 FortiGate 设备的 AI 辅助攻击；具体方法未知。",
+    "root_cause": "未知；标题未说明被利用的缺陷或弱点。",
+    "impact": "据报道，600 多台 FortiGate 设备被入侵。",
+    "response": "未知",
+    "id": "ai-enhanced-fortigate-600-devices",
+    "timeline": [
+      "由 OrcaRouter 报道"
+    ]
+  },
+  {
+    "title": "Zscaler：Shai-Hulud 攻击活动从 npm 蔓延至 PyPI，演变为 Miasma 和 Hades 变种；Hades 的 PyPI 攻击波对 AI 扫描器实施提示词注入",
+    "summary": "Zscaler ThreatLabz 报告称，在六个月的时间里，Shai-Hulud 供应链攻击活动从 npm 扩展到 PyPI（Miasma，2026 年 3 月；Hades，2026 年 5 月），滥用了 CI/CD 和 OIDC 可信发布，并进一步延伸到 IDE 配置文件。2026 年 6 月 8 日，Hades 的 PyPI 攻击波在软件包中引入了提示词注入，以误导基于大语言模型（LLM）的安全扫描器。较早的几波攻击被高度确信地关联到 TeamPCP（Mandiant 追踪为 UNC6780）；2026 年 5 月 12 日蠕虫源代码以 MIT 许可证公开发布之后，攻击归属变得不那么确定。",
+    "target": "npm 和 PyPI 软件包生态系统以及基于 AI 的代码扫描器",
+    "actor": "较早的攻击波为 TeamPCP（UNC6780）；蠕虫源代码公开发布后，后续活动的归属不太确定",
+    "attribution": "Zscaler ThreatLabz 将该攻击活动追踪为 Shai-Hulud；摘要未点名任何攻击者。",
+    "motive": "未知",
+    "vector": "npm 和 PyPI 中的恶意软件包，并针对基于 AI 的扫描器进行规避。",
+    "root_cause": "开放的软件包注册中心容易遭到恶意上传，且 AI 扫描器可被规避。",
+    "impact": "攻击活动已扩展到多个软件包生态系统；摘要未给出受害者数量或损失。",
+    "response": "Zscaler ThreatLabz 发布了对该攻击活动演变过程的分析；未说明其他响应措施。",
+    "id": "shai-hulud-miasma-hades-ai-evasion",
+    "timeline": [
+      "由 Zscaler ThreatLabz 报告"
+    ]
+  },
+  {
+    "title": "恶意广告活动推送虚假 Claude 安装页面，投递 ClickFix 攻击",
+    "summary": "Push Security 发现一条针对“claude mac”的谷歌（Google）搜索广告，该广告通过 Bing 重定向和一个被入侵的 WordPress 站点，将用户引导至虚假的 Claude 下载页面（claude-desk-code[.]com）。该页面显示的是 Anthropic 的真实安装命令，但复制到剪贴板的却是另一条恶意命令（ClickFix）。据报道，最终载荷未知。",
+    "target": "在 macOS 上搜索并安装 Claude 的用户",
+    "actor": "未知",
+    "attribution": "未知；标题未点名攻击者。",
+    "motive": "未知",
+    "vector": "虚假的 Claude 安装页面，利用 ClickFix 社会工程手法诱使用户运行恶意命令",
+    "root_cause": "用户被诱骗运行来自仿冒合法 AI 工具安装程序页面的、由攻击者提供的指令。",
+    "impact": "恶意软件被投递给受害者；未说明受害者数量和损失。",
+    "response": "未知",
+    "id": "fake-claude-install-page-clickfix",
+    "timeline": [
+      "由 Security Boulevard 报道"
+    ]
+  },
+  {
+    "title": "巴西男子变卖家当，行程约 2000 公里去见 AI 生成的 TikTok“女友”，结果滞留他乡",
+    "summary": "Edimar Rocha Martins 是一名 49 岁的巴西泥瓦匠，他变卖了家当，乘长途汽车从马拉尼昂州（Maranhão）前往贝洛奥里藏特（Belo Horizonte），于 2026 年 10 月 11 日抵达，去见他通过 TikTok 账号 @JessicaFazendeira 认识的一名女子。该账号拥有约 30 万粉丝，后来被证实是 AI 生成的虚拟人设（深度伪造视频和 AI 配音）。报道称，她从未向他索要钱财；该账号的运营者表示，运营账号是为了获取互动和变现，并否认有与粉丝见面的意图，因此欺诈并未得到证实。他身无分文，没有住处，也无法回家，遂向贝洛奥里藏特市社会服务部门寻求帮助。",
+    "target": "误以为 AI 生成的网红是真人的个人粉丝",
+    "actor": "身份不明的 AI 生成 TikTok 人设 @JessicaFazendeira 的运营者",
+    "attribution": "未知；标题未给出归属信息。",
+    "motive": "牟利（由受害者钱财损失推断）。",
+    "vector": "据标题所述，是与 AI 生成的虚拟人设建立的网络关系。",
+    "root_cause": "受害者被冒充真实恋爱对象的 AI 人设所欺骗。",
+    "impact": "受害者损失了钱财，并滞留在远离家乡的地方。金额未说明。",
+    "response": "未知",
+    "id": "ai-romance-scam-2000km-coach-trip",
+    "timeline": [
+      "由 Le Dauphiné Libéré 报道"
+    ]
   }
 ]
