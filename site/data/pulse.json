@@ -106,17 +106,16 @@
     "incident": 1
   },
   "2026-11-01": {
-    "incident": 2,
-    "research": 1
+    "incident": 2
   },
   "2026-11-02": {
-    "incident": 22,
-    "other": 6,
-    "policy": 3,
-    "research": 4,
-    "vendor-report": 5,
-    "vulnerability": 3,
-    "warning": 2
+    "incident": 17,
+    "other": 5,
+    "policy": 2,
+    "research": 3,
+    "vendor-report": 4,
+    "vulnerability": 2,
+    "warning": 1
   },
   "2026-11-03": {
     "incident": 124,
@@ -143,11 +142,11 @@
     "other": 14,
     "policy": 2,
     "research": 16,
-    "untagged": 198,
+    "untagged": 199,
     "vendor-report": 7,
     "warning": 9
   },
   "2026-11-06": {
-    "untagged": 137
+    "untagged": 148
   }
 }
