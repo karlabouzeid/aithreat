@@ -338,18 +338,28 @@ end
 EDITOR_LOG_PATH = File.join(DATA, "editor_log.json")
 EDITOR_BATCH = 4
 EDITOR_BATCHES = Integer(ENV.fetch("ATW_EDITOR_BATCHES", "2"))
+# Spending caps: web search makes each check costly, and on 2026-11-05 the editor used up
+# the API credit in half a day. At most ATW_EDITOR_DAILY drafts are checked per UTC day,
+# and a draft that keeps coming back "wait" is given up after EDITOR_MAX_CHECKS checks
+# (it stays a draft until it expires or is approved by hand).
+EDITOR_DAILY = Integer(ENV.fetch("ATW_EDITOR_DAILY", "48"))
+EDITOR_MAX_CHECKS = 3
 EDITOR_FIXABLE = %w[title date summary severity loss_usd country region target actor actor_type status impact response].freeze
 auto_approved, auto_rejected = [], []
 editor_log = (JSON.parse(File.read(EDITOR_LOG_PATH)) rescue [])
 if api_key && ENV["ATW_EDITOR"] != "0"
   manual = File.exist?(APPROVED_PATH) ? File.read(APPROVED_PATH) : ""
   manual += File.read(REJECTED_PATH) if File.exist?(REJECTED_PATH)
+  today = now.iso8601[0, 10]
+  room = [EDITOR_DAILY - editor_log.count { |e| e["at"].to_s.start_with?(today) }, 0].max
   due = candidates.select do |c|
     next false if manual.include?(c["id"])
+    next false if c["editor_checks"].to_i >= EDITOR_MAX_CHECKS
     next false if now - Time.parse(c["drafted_at"]) < 3600 # let a news wave settle, so duplicates can be compared
     c["editor_checked_at"].nil? || now - Time.parse(c["editor_checked_at"]) > 86_400
   end
-  due = due.sort_by { |c| [-c["confidence"].to_f, c["drafted_at"]] }.first(EDITOR_BATCH * EDITOR_BATCHES)
+  log "editor: daily cap of #{EDITOR_DAILY} drafts reached, next checks tomorrow" if room.zero? && due.any?
+  due = due.sort_by { |c| [-c["confidence"].to_f, c["drafted_at"]] }.first([EDITOR_BATCH * EDITOR_BATCHES, room].min)
   due.each_slice(EDITOR_BATCH).with_index do |batch, bi|
     known = incidents.map { |i| "#{i['id']} | #{i['date']} | #{i['title']}" }.join("\n")
     drafts = batch.map do |c|
@@ -382,8 +392,8 @@ if api_key && ENV["ATW_EDITOR"] != "0"
         http = Net::HTTP.new(uri.host, uri.port); http.use_ssl = true; http.read_timeout = 300
         req = Net::HTTP::Post.new(uri.path, { "content-type" => "application/json", "x-api-key" => api_key, "anthropic-version" => "2023-06-01" })
         req.body = { model: MODEL, max_tokens: 16000, messages: messages,
-                     tools: [{ type: "web_search_20260209", name: "web_search", max_uses: 4 * batch.size },
-                             { type: "web_fetch_20260209", name: "web_fetch", max_uses: 2 * batch.size }] }.to_json
+                     tools: [{ type: "web_search_20260209", name: "web_search", max_uses: 3 * batch.size },
+                             { type: "web_fetch_20260209", name: "web_fetch", max_uses: batch.size }] }.to_json
         res = http.request(req)
         raise "API #{res.code}: #{res.body[0, 200]}" unless res.is_a?(Net::HTTPSuccess)
         body = JSON.parse(res.body)
@@ -400,6 +410,7 @@ if api_key && ENV["ATW_EDITOR"] != "0"
       JSON.parse(json).each do |v|
         c = batch.find { |x| x["id"] == v["id"] } or next
         c["editor_checked_at"] = now.iso8601
+        c["editor_checks"] = c["editor_checks"].to_i + 1
         entry = { "id" => c["id"], "title" => c["title"], "decision" => v["decision"], "reason" => v["reason"].to_s[0, 300], "duplicate_of" => v["duplicate_of"], "at" => now.iso8601 }
         case v["decision"]
         when "approve"
@@ -431,7 +442,7 @@ approved, rejected = read_ids.(APPROVED_PATH) + auto_approved, read_ids.(REJECTE
 promoted = candidates.select { |c| approved.include?(c["id"]) }
 promoted.each do |c|
   next if incidents.any? { |i| i["id"] == c["id"] }
-  inc = c.reject { |k, _| %w[verified wire_id confidence first_published editor_checked_at].include?(k) }
+  inc = c.reject { |k, _| %w[verified wire_id confidence first_published editor_checked_at editor_checks].include?(k) }
   inc["verified_at"] = now.iso8601; inc["updated_at"] = now.iso8601
   inc["verification"] ||= "reported"
   incidents << inc
