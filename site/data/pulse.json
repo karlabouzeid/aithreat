@@ -112,13 +112,13 @@
     "incident": 1
   },
   "2026-11-03": {
-    "incident": 3,
+    "incident": 2,
     "untagged": 1
   },
   "2026-11-04": {
-    "incident": 5,
+    "incident": 4,
     "other": 9,
-    "policy": 2,
+    "policy": 1,
     "research": 2,
     "untagged": 12,
     "vendor-report": 3,
@@ -134,12 +134,12 @@
     "warning": 9
   },
   "2026-11-06": {
-    "untagged": 318
+    "untagged": 319
   },
   "2026-11-07": {
     "untagged": 132
   },
   "2026-11-08": {
-    "untagged": 39
+    "untagged": 41
   }
 }
