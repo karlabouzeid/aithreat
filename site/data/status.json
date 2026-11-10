@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-10T09:05:41Z",
+  "updated_at": "2026-11-10T09:35:44Z",
   "wire_items": 800,
-  "new_items": 335,
+  "new_items": 341,
   "candidates": 69,
   "incidents": 568,
   "feeds_ok": [
@@ -69,7 +69,6 @@
     "Bank of England",
     "UK FCA",
     "US SEC",
-    "Council of the EU",
     "UK NCSC news",
     "CISA news",
     "UK government news",
@@ -84,6 +83,7 @@
   "feeds_failed": [
     "US court filings (CourtListener)",
     "European Commission",
+    "Council of the EU",
     "European Parliament",
     "EDPB"
   ],
