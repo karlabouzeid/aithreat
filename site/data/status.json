@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-11T09:05:41Z",
+  "updated_at": "2026-11-11T09:35:43Z",
   "wire_items": 800,
-  "new_items": 390,
+  "new_items": 405,
   "candidates": 69,
   "incidents": 568,
   "feeds_ok": [
@@ -24,6 +24,10 @@
     "AI Incident Database",
     "BBC Technology",
     "The Guardian Technology",
+    "Google News (English)",
+    "Google News (Français)",
+    "Google News (Español)",
+    "Google News (العربية)",
     "Google News (中文)",
     "Google News (Русский)",
     "CrowdStrike",
@@ -78,10 +82,6 @@
     "Google News (official warnings)"
   ],
   "feeds_failed": [
-    "Google News (English)",
-    "Google News (Français)",
-    "Google News (Español)",
-    "Google News (العربية)",
     "US court filings (CourtListener)",
     "European Commission",
     "European Parliament",
