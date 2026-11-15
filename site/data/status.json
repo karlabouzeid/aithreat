@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T05:05:39Z",
+  "updated_at": "2026-11-15T05:35:42Z",
   "wire_items": 800,
   "new_items": 432,
   "candidates": 69,
@@ -67,7 +67,6 @@
     "Federal Reserve press",
     "Federal Reserve speeches",
     "Bank of England",
-    "UK FCA",
     "US SEC",
     "Council of the EU",
     "UK NCSC news",
@@ -83,6 +82,7 @@
   ],
   "feeds_failed": [
     "US court filings (CourtListener)",
+    "UK FCA",
     "European Commission",
     "European Parliament",
     "EDPB"
