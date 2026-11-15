@@ -1,50 +1,5 @@
 [
   {
-    "id": "tangerhutte-town-hall-ai-attack",
-    "date": "2026-10-16",
-    "title": "Tangerhütte disconnects digital town hall after suspected AI attack",
-    "category": "AI-assisted malware",
-    "direction": "with-ai",
-    "severity": "medium",
-    "country": "DE",
-    "region": "Europe",
-    "target": "Tangerhütte municipal digital services",
-    "loss_usd": null,
-    "summary": "The municipality of Tangerhütte disconnected its digital town hall following an alleged attack involving AI. The headline gives no further technical detail.",
-    "actor": "Unknown",
-    "actor_type": "unknown",
-    "sector": "Government & public sector",
-    "attribution": "Unknown; the attack is described only as allegedly AI-driven.",
-    "motive": "Unknown",
-    "vector": "Unknown; described only as a suspected AI-enabled attack.",
-    "root_cause": "Unknown",
-    "impact": "The municipal digital town hall services were disconnected.",
-    "response": "Tangerhütte took its digital town hall offline.",
-    "status": "under investigation",
-    "cve": null,
-    "confidence": 0.4,
-    "source": "DiarioBitcoin",
-    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNdjk3M0F5WkdvcmpYZmFDTHgwQ1BKSExlTzhqcm9BZzBaSDVMTGNyck5NY0J4R2RMZ1A1bjRiVk0yWWNsUmlpbVd3UGI1bTNmZ0xCT29aUlhoTXZMazQwcW9JVjA4OW0wWGFGdXpUSVU0cXA5ekR5VHIyOS04OHdZSXZTWTc3NDBzeGdCNlhMekRnUENMdlJ5MjZ0MnRCZGR6QkY0ZnFQelhwOGZjRTdoVmJINnVxZHZPaktF?oc=5",
-    "sources": [
-      {
-        "name": "DiarioBitcoin",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNdjk3M0F5WkdvcmpYZmFDTHgwQ1BKSExlTzhqcm9BZzBaSDVMTGNyck5NY0J4R2RMZ1A1bjRiVk0yWWNsUmlpbVd3UGI1bTNmZ0xCT29aUlhoTXZMazQwcW9JVjA4OW0wWGFGdXpUSVU0cXA5ekR5VHIyOS04OHdZSXZTWTc3NDBzeGdCNlhMekRnUENMdlJ5MjZ0MnRCZGR6QkY0ZnFQelhwOGZjRTdoVmJINnVxZHZPaktF?oc=5"
-      }
-    ],
-    "timeline": [
-      {
-        "date": "2026-10-16",
-        "event": "Reported by DiarioBitcoin"
-      }
-    ],
-    "verified": false,
-    "drafted_at": "2026-10-16T11:05:36Z",
-    "wire_id": "cd6ab320870e",
-    "first_seen": "2026-10-16T11:05:36Z",
-    "first_published": "2026-10-14T14:49:12Z",
-    "updated_at": "2026-10-16T11:05:36Z"
-  },
-  {
     "id": "ai-hacking-breach-16-financial-firms",
     "date": "2026-10-16",
     "title": "AI hacking breach hits 16 financial institutions, leaks 100,000 records",
