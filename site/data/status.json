@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-16T04:35:38Z",
+  "updated_at": "2026-11-16T05:06:09Z",
   "wire_items": 800,
-  "new_items": 413,
+  "new_items": 419,
   "candidates": 67,
   "incidents": 568,
   "feeds_ok": [
@@ -46,7 +46,6 @@
     "CERT-FR",
     "arXiv cs.CR",
     "Schneier on Security",
-    "GBHackers",
     "404 Media",
     "CISA KEV (AI products)",
     "GitHub Advisory Database (AI packages)",
@@ -82,6 +81,7 @@
     "Google News (official warnings)"
   ],
   "feeds_failed": [
+    "GBHackers",
     "US court filings (CourtListener)",
     "European Commission",
     "European Parliament",
