@@ -1,5 +1,38 @@
 [
   {
+    "id": "eb93044530f0",
+    "title": "Barracuda links cloud breach to ARTEX AI-powered cyberattack",
+    "url": "https://www.bleepingcomputer.com/news/security/barracuda-links-cloud-breach-to-artex-ai-powered-cyberattack",
+    "source": "BleepingComputer",
+    "via": "BleepingComputer",
+    "lang": "en",
+    "published": "2026-11-16T19:57:13Z",
+    "seen": "2026-11-16T20:05:45Z",
+    "summary": "Hackers who breached the cloud environment of network and email security company Barracuda earlier this month used a stolen cloud access key and the ARTEX AI penetration testing framework. [...]"
+  },
+  {
+    "id": "bab196017dd6",
+    "title": "Uber says hackers stole information on close to 150,000 driver’s licenses during data breach",
+    "url": "https://techcrunch.com/2026/11/16/uber-confirms-hackers-stole-thousands-of-drivers-license-information-in-data-breach",
+    "source": "TechCrunch Security",
+    "via": "TechCrunch Security",
+    "lang": "en",
+    "published": "2026-11-16T19:53:00Z",
+    "seen": "2026-11-16T20:05:45Z",
+    "summary": "The ridesharing giant said drivers' license information stored by AI cloud company Fireworks AI was stolen during a security incident."
+  },
+  {
+    "id": "134d21c38d5c",
+    "title": "Attackers are using AI agents to automate cybercrime at 'industrial scale,' FBI and AWS warn",
+    "url": "https://www.theregister.com/cyber-crime/2026/11/16/attackers-are-using-ai-agents-to-automate-cybercrime-at-industrial-scale-fbi-and-aws-warn/5310223",
+    "source": "The Register",
+    "via": "The Register",
+    "lang": "en",
+    "published": "2026-11-16T19:52:00Z",
+    "seen": "2026-11-16T20:05:45Z",
+    "summary": "Critical orgs around the globe under seige"
+  },
+  {
     "id": "b81bb2858d29",
     "title": "Hackers usan IA para secuestrar la potencia de cálculo de los mineros de Bitcoin",
     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOTWd2QkNrREFWY3Rzck9zLU5OS2VsdGxMdF9DcExiUXRjTUJreFZPN1oyQ2F5LUs4VXlEWENRRFVSVnFBdE5DLW1HdkJib1lINzRvWDFNV19ELXhyT3ZKVTN3QjJMWF93M0IwczMyc1FEdXVaUWhBVnJhUDVMYXJoaWF0T2p5TEVsa1ZleTFYRU9YSEs0cXBLQkYyTUNxQQ?oc=5",
@@ -77,12 +110,12 @@
     "summary": ""
   },
   {
-    "id": "261e1cbcc0de",
-    "title": "Google : Des hackers russophones ont utilisé des agents d’IA pour mener des cyberattaques autonomes",
-    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOT2VjOHZlRjdDa0xoN1A3WHB3MDdfamxld0MtWTZfTElXQ3RsSVlEa09hWVFnckwzSnZVUW5IVUhWaUItU3JFRnUzbWxoSVJLNFN0a0NEa3oxN2ZPUm9EeDVTZUFyeUpXazdhR1U2YTVnSnlVOElFM1dLZXViV0pGNUpoMFJta0Eyb3pKNkd5RkFkM1V3a05seDBHcEtXS25SWkhPY0pBeUNZTnNIU3Y1M2RKMVVsWU9JSlJBaA?oc=5",
+    "id": "8c8b0d0b0ebd",
+    "title": "Google: Русскоязычные хакеры использовали ИИ-агентов для автономных кибератак",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOYl9ObVFpVmdtYzRiS2dYYUNFZ001cFp3ZllvcGxQZ1lFbDczU3FxMkZXa3lESGpVLWtjN2NremgyemZyd0dHRFNrWHlwUnhzVlZTSVBhc0E2SW5Kd0ZLa3h4S1JvcTdTNkM1MV9lSC0xR1ZSR3NtRGNITlNEckM4U3ZJNHpTZElVVk9OeUR6bFdxNEk2S05XYVFrRXVYSkJ4Vzhlb0dCUFM?oc=5",
     "source": "Informat.ro",
-    "via": "Google News (Français)",
-    "lang": "fr",
+    "via": "Google News (Русский)",
+    "lang": "ru",
     "published": "2026-11-16T18:53:45Z",
     "seen": "2026-11-16T19:35:43Z",
     "summary": ""
@@ -99,12 +132,12 @@
     "summary": ""
   },
   {
-    "id": "8c8b0d0b0ebd",
-    "title": "Google: Русскоязычные хакеры использовали ИИ-агентов для автономных кибератак",
-    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOYl9ObVFpVmdtYzRiS2dYYUNFZ001cFp3ZllvcGxQZ1lFbDczU3FxMkZXa3lESGpVLWtjN2NremgyemZyd0dHRFNrWHlwUnhzVlZTSVBhc0E2SW5Kd0ZLa3h4S1JvcTdTNkM1MV9lSC0xR1ZSR3NtRGNITlNEckM4U3ZJNHpTZElVVk9OeUR6bFdxNEk2S05XYVFrRXVYSkJ4Vzhlb0dCUFM?oc=5",
+    "id": "261e1cbcc0de",
+    "title": "Google : Des hackers russophones ont utilisé des agents d’IA pour mener des cyberattaques autonomes",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOT2VjOHZlRjdDa0xoN1A3WHB3MDdfamxld0MtWTZfTElXQ3RsSVlEa09hWVFnckwzSnZVUW5IVUhWaUItU3JFRnUzbWxoSVJLNFN0a0NEa3oxN2ZPUm9EeDVTZUFyeUpXazdhR1U2YTVnSnlVOElFM1dLZXViV0pGNUpoMFJta0Eyb3pKNkd5RkFkM1V3a05seDBHcEtXS25SWkhPY0pBeUNZTnNIU3Y1M2RKMVVsWU9JSlJBaA?oc=5",
     "source": "Informat.ro",
-    "via": "Google News (Русский)",
-    "lang": "ru",
+    "via": "Google News (Français)",
+    "lang": "fr",
     "published": "2026-11-16T18:53:45Z",
     "seen": "2026-11-16T19:35:43Z",
     "summary": ""
@@ -1067,15 +1100,15 @@
     "summary": ""
   },
   {
-    "id": "19ef4cbf12dc",
-    "title": "Google Finds Hackers Using AI Agents to Build and Run Exploits From Software Patches",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMU1mNVUtaU1mbFc5RkYtbVl5SndUcjJPVm1FVjcxWnB1NW9KRHJoTloxZ053STNBdUxuVHhqLXF6dV8xRWRGMUNhRzVMSnhrNTRnNnRtY2s0WWMzeEVjR21HOVQwT0R3RkVXZDNYbFRqY2FYZl9wOElWc3JVRklDUFdRcWw?oc=5",
-    "source": "The Hacker News",
-    "via": "Google News (English)",
+    "id": "819fd9d6f065",
+    "title": "Google warns that fully-automated AI attacks are coming soon",
+    "url": "https://www.bleepingcomputer.com/news/security/google-warns-that-fully-automated-ai-attacks-are-coming-soon",
+    "source": "BleepingComputer",
+    "via": "BleepingComputer",
     "lang": "en",
     "published": "2026-11-16T14:00:00Z",
     "seen": "2026-11-16T14:05:42Z",
-    "summary": ""
+    "summary": "Threat actors are now relying on agentic workflows powered by AI-based offensive frameworks to automate vulnerability discovery and exploitation, accelerating attacks to machine speed. [...]"
   },
   {
     "id": "7666465cea4b",
@@ -1089,15 +1122,15 @@
     "summary": "Look ma, no human in the loop!"
   },
   {
-    "id": "819fd9d6f065",
-    "title": "Google warns that fully-automated AI attacks are coming soon",
-    "url": "https://www.bleepingcomputer.com/news/security/google-warns-that-fully-automated-ai-attacks-are-coming-soon",
-    "source": "BleepingComputer",
-    "via": "BleepingComputer",
+    "id": "19ef4cbf12dc",
+    "title": "Google Finds Hackers Using AI Agents to Build and Run Exploits From Software Patches",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMU1mNVUtaU1mbFc5RkYtbVl5SndUcjJPVm1FVjcxWnB1NW9KRHJoTloxZ053STNBdUxuVHhqLXF6dV8xRWRGMUNhRzVMSnhrNTRnNnRtY2s0WWMzeEVjR21HOVQwT0R3RkVXZDNYbFRqY2FYZl9wOElWc3JVRklDUFdRcWw?oc=5",
+    "source": "The Hacker News",
+    "via": "Google News (English)",
     "lang": "en",
     "published": "2026-11-16T14:00:00Z",
     "seen": "2026-11-16T14:05:42Z",
-    "summary": "Threat actors are now relying on agentic workflows powered by AI-based offensive frameworks to automate vulnerability discovery and exploitation, accelerating attacks to machine speed. [...]"
+    "summary": ""
   },
   {
     "id": "e6c50c3bf946",
@@ -1331,17 +1364,6 @@
     "summary": "A new cybercrime forum service turns stolen infostealer logs into searchable profiles. Instead of selling raw credential dumps, it attaches a plain-language description to each compromised computer. The description covers the apparent owner, workplace, installed applications, and valuable data. Buyers can query these descriptions in natural language. They can also filter by country, operating syst"
   },
   {
-    "id": "d6da91769279",
-    "title": "St. Louis County-based hospital giant lost $4.8 million in AI fraud scheme, feds say",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPdmY1Q3dSSDlOei15UzdVbVdZWDVaTWEzRU9aSDRKQXo3V2R1MmFkTHRaX0dSeDFTakVydWZDMklsSFZFMkxNQUQxV2ZVekVENzVQSzVkM1hGbzFhV0V0YWs1UVV4MEk0NU1WRW5pcFp3b0lBdG1lRk54Yjk1U0EtWUVZQkVFeGVEcEdzcFQ0dnQyTWFkLWhxN1lwYTRjdUU?oc=5",
-    "source": "STLtoday.com",
-    "via": "Google News (English)",
-    "lang": "en",
-    "published": "2026-11-16T12:00:00Z",
-    "seen": "2026-11-16T12:05:39Z",
-    "summary": ""
-  },
-  {
     "id": "ec22309abd62",
     "title": "FBI Highlights Growing Abuse of AI-Driven Pentesting Framework ARTEX",
     "url": "https://www.infosecurity-magazine.com/news/fbi-growing-abuse-ai-pentesting",
@@ -1351,6 +1373,17 @@
     "published": "2026-11-16T12:00:00Z",
     "seen": "2026-11-16T12:05:39Z",
     "summary": "The FBI warns that threat actors are increasingly using open-source AI pentesting tool ARTEX to launch fast, large-scale intrusions worldwide"
+  },
+  {
+    "id": "d6da91769279",
+    "title": "St. Louis County-based hospital giant lost $4.8 million in AI fraud scheme, feds say",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPdmY1Q3dSSDlOei15UzdVbVdZWDVaTWEzRU9aSDRKQXo3V2R1MmFkTHRaX0dSeDFTakVydWZDMklsSFZFMkxNQUQxV2ZVekVENzVQSzVkM1hGbzFhV0V0YWs1UVV4MEk0NU1WRW5pcFp3b0lBdG1lRk54Yjk1U0EtWUVZQkVFeGVEcEdzcFQ0dnQyTWFkLWhxN1lwYTRjdUU?oc=5",
+    "source": "STLtoday.com",
+    "via": "Google News (English)",
+    "lang": "en",
+    "published": "2026-11-16T12:00:00Z",
+    "seen": "2026-11-16T12:05:39Z",
+    "summary": ""
   },
   {
     "id": "18c1a0cc24b5",
@@ -1859,23 +1892,23 @@
     "summary": ""
   },
   {
-    "id": "ba0242de152d",
-    "title": "Digital Security: How to Protect Trust in the Face of Fraud and Artificial Intelligence",
-    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPLVBSUkpqT29SSWo3SXoyRlhYRWU5dE5CWjBuV1VFdy1ZSEY4azEwQ1hnZXk1dHRJZTg4OUdBbXg2RklVMXQ5QWtXbUw2Q3pBczhRd0gwS1R2WjkyaG83Z0hHSWdsVGphZFkyWXdmbTQ3YU9zNU5RN3RpTkNQT2ZuMWo2aThkbWV4R2VNYm1PUjVtcGcyVXZuS0pNZUdfMVZrVHhFcC04UEtHc0p1SktzYWVKWTZ6NFNLbmdOTw?oc=5",
-    "source": "www.telefonica.com",
-    "via": "Google News (English)",
-    "lang": "en",
-    "published": "2026-11-16T08:30:00Z",
-    "seen": "2026-11-16T08:35:41Z",
-    "summary": ""
-  },
-  {
     "id": "08c69b8ab4d8",
     "title": "Seguridad digital: cómo proteger la confianza ante el fraude y la inteligencia artificial",
     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxON3JGZU5tblhWTlFPTXk3RE1YWEQ3ZjRkamZQZ2xMQkZHc1hFbmhTMDJFZEpmTzRtX3BzQ1pTb2E3TENzRGoweXVIOExxbDBGTWJqTS1FMlFYU1A1TWNmc3hrVDZPQXVMaFRFd19QZVl1ZG1tNUVBUWRnQWlFWS1WSlFnc0dFcmE2MU56aWJ1aTdBdGFkN1E?oc=5",
     "source": "Telefónica",
     "via": "Google News (Español)",
     "lang": "es",
+    "published": "2026-11-16T08:30:00Z",
+    "seen": "2026-11-16T08:35:41Z",
+    "summary": ""
+  },
+  {
+    "id": "ba0242de152d",
+    "title": "Digital Security: How to Protect Trust in the Face of Fraud and Artificial Intelligence",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPLVBSUkpqT29SSWo3SXoyRlhYRWU5dE5CWjBuV1VFdy1ZSEY4azEwQ1hnZXk1dHRJZTg4OUdBbXg2RklVMXQ5QWtXbUw2Q3pBczhRd0gwS1R2WjkyaG83Z0hHSWdsVGphZFkyWXdmbTQ3YU9zNU5RN3RpTkNQT2ZuMWo2aThkbWV4R2VNYm1PUjVtcGcyVXZuS0pNZUdfMVZrVHhFcC04UEtHc0p1SktzYWVKWTZ6NFNLbmdOTw?oc=5",
+    "source": "www.telefonica.com",
+    "via": "Google News (English)",
+    "lang": "en",
     "published": "2026-11-16T08:30:00Z",
     "seen": "2026-11-16T08:35:41Z",
     "summary": ""
@@ -2299,59 +2332,15 @@
     "summary": "Forescout researchers built a tool to test if generally available AI models could find security flaws on a limited budget. They examined both open-source code and compiled software whose source code was unavailable, testing an approach attackers could also use. The team confirmed 99 vulnerabilities across 10 TCP/IP stacks, the software components that allow devices to communicate over networks. Si"
   },
   {
-    "id": "b4d5556a3fc0",
-    "title": "Can LLMs Write Backdoors? An Empirical Security Study of Weight-Space Programming",
-    "url": "https://arxiv.org/abs/2611.17395",
+    "id": "d328870dff9d",
+    "title": "AttentionSwitch: Jailbreak Defense for LLMs via Joint Learning of Sparse Attention-Head Selection and Scaling",
+    "url": "https://arxiv.org/abs/2611.08752",
     "source": "arXiv cs.CR",
     "via": "arXiv cs.CR",
     "lang": "en",
     "published": "2026-11-16T05:00:00Z",
     "seen": "2026-11-16T05:06:09Z",
-    "summary": "arXiv:2611.17395v1 Announce Type: new Abstract: Recent advances in weight-space programming (WSP) have demonstrated that large language models (LLMs) can directly inspect and modify neural network weights without conventional gradient-based training. While this capability opens new possibilities for model improvement, it also raises an important security question: Can LLMs exploit weight-space pro"
-  },
-  {
-    "id": "95d5d308e51c",
-    "title": "Binarization as an Attack Surface in Weightless Neural Networks",
-    "url": "https://arxiv.org/abs/2611.17646",
-    "source": "arXiv cs.CR",
-    "via": "arXiv cs.CR",
-    "lang": "en",
-    "published": "2026-11-16T05:00:00Z",
-    "seen": "2026-11-16T05:06:09Z",
-    "summary": "arXiv:2611.17646v1 Announce Type: new Abstract: Weightless Neural Networks (WNNs) are lightweight classifiers that binarize their inputs and learn by storing binary patterns in lookup memories, which makes them attractive for resource-constrained tasks such as intrusion detection. Because a small perturbation that crosses no binarization threshold leaves the binary input unchanged, WNNs may appear"
-  },
-  {
-    "id": "1dced859db4b",
-    "title": "LLMs are Vulnerable to Malicious Requests with Indistinguishable Intent",
-    "url": "https://arxiv.org/abs/2611.17818",
-    "source": "arXiv cs.CR",
-    "via": "arXiv cs.CR",
-    "lang": "en",
-    "published": "2026-11-16T05:00:00Z",
-    "seen": "2026-11-16T05:06:09Z",
-    "summary": "arXiv:2611.17818v1 Announce Type: new Abstract: Jailbreak attacks can circumvent the safety mechanisms of Large Language Models (LLMs) and lead to the generation of harmful or policy-violating content. We first examine eight jailbreak methods against an LLM-based filter and observe that requests resembling normal user queries tend to have higher filter pass rates than those containing obvious anom"
-  },
-  {
-    "id": "58b2de43fab3",
-    "title": "Fair and Efficient Distributed EV Charging Coordination Using Threshold Cryptography and Machine Learning",
-    "url": "https://arxiv.org/abs/2611.17577",
-    "source": "arXiv cs.CR",
-    "via": "arXiv cs.CR",
-    "lang": "en",
-    "published": "2026-11-16T05:00:00Z",
-    "seen": "2026-11-16T05:06:09Z",
-    "summary": "arXiv:2611.17577v1 Announce Type: cross Abstract: Distributed coordination of electric vehicle (EV) charging with the alternating direction method of multipliers (ADMM) keeps EV constraints private but assumes that every participant follows the algorithm. This assumption fails in practice, where a biased operator or a man-in-the-middle (MITM) attacker can send inconsistent signals to different EVs"
-  },
-  {
-    "id": "a9777c2d66ce",
-    "title": "Representational Geometry as a Diagnostic for Adversarial Robustness",
-    "url": "https://arxiv.org/abs/2611.17684",
-    "source": "arXiv cs.CR",
-    "via": "arXiv cs.CR",
-    "lang": "en",
-    "published": "2026-11-16T05:00:00Z",
-    "seen": "2026-11-16T05:06:09Z",
-    "summary": "arXiv:2611.17684v1 Announce Type: cross Abstract: Adversarial training is a common technique for making neural networks more robust to small, intentionally crafted input perturbations, and robustness is commonly measured through accuracy under attack. By exploring inter-network representations across different adversarial training objectives, we can analyze whether multiple networks organize their"
+    "summary": "arXiv:2611.08752v2 Announce Type: replace-cross Abstract: Large language models have achieved remarkable performance across a wide range of tasks, yet they remain susceptible to jailbreak attacks that circumvent safety mechanisms and elicit harmful or unintended outputs. Although safety can be improved through model fine-tuning, such approaches can be computationally expensive and may degrade prev"
   },
   {
     "id": "21dec297307c",
@@ -2365,15 +2354,59 @@
     "summary": "arXiv:2508.18370v3 Announce Type: replace-cross Abstract: Large language models (LLMs) have demonstrated exceptional capabilities when trained within executable runtime environments, notably excelling at software engineering tasks through verified feedback loops. Yet, scalable and generalizable execution-grounded environments remain scarce, limiting progress in training more capable ML agents. We "
   },
   {
-    "id": "d328870dff9d",
-    "title": "AttentionSwitch: Jailbreak Defense for LLMs via Joint Learning of Sparse Attention-Head Selection and Scaling",
-    "url": "https://arxiv.org/abs/2611.08752",
+    "id": "a9777c2d66ce",
+    "title": "Representational Geometry as a Diagnostic for Adversarial Robustness",
+    "url": "https://arxiv.org/abs/2611.17684",
     "source": "arXiv cs.CR",
     "via": "arXiv cs.CR",
     "lang": "en",
     "published": "2026-11-16T05:00:00Z",
     "seen": "2026-11-16T05:06:09Z",
-    "summary": "arXiv:2611.08752v2 Announce Type: replace-cross Abstract: Large language models have achieved remarkable performance across a wide range of tasks, yet they remain susceptible to jailbreak attacks that circumvent safety mechanisms and elicit harmful or unintended outputs. Although safety can be improved through model fine-tuning, such approaches can be computationally expensive and may degrade prev"
+    "summary": "arXiv:2611.17684v1 Announce Type: cross Abstract: Adversarial training is a common technique for making neural networks more robust to small, intentionally crafted input perturbations, and robustness is commonly measured through accuracy under attack. By exploring inter-network representations across different adversarial training objectives, we can analyze whether multiple networks organize their"
+  },
+  {
+    "id": "58b2de43fab3",
+    "title": "Fair and Efficient Distributed EV Charging Coordination Using Threshold Cryptography and Machine Learning",
+    "url": "https://arxiv.org/abs/2611.17577",
+    "source": "arXiv cs.CR",
+    "via": "arXiv cs.CR",
+    "lang": "en",
+    "published": "2026-11-16T05:00:00Z",
+    "seen": "2026-11-16T05:06:09Z",
+    "summary": "arXiv:2611.17577v1 Announce Type: cross Abstract: Distributed coordination of electric vehicle (EV) charging with the alternating direction method of multipliers (ADMM) keeps EV constraints private but assumes that every participant follows the algorithm. This assumption fails in practice, where a biased operator or a man-in-the-middle (MITM) attacker can send inconsistent signals to different EVs"
+  },
+  {
+    "id": "1dced859db4b",
+    "title": "LLMs are Vulnerable to Malicious Requests with Indistinguishable Intent",
+    "url": "https://arxiv.org/abs/2611.17818",
+    "source": "arXiv cs.CR",
+    "via": "arXiv cs.CR",
+    "lang": "en",
+    "published": "2026-11-16T05:00:00Z",
+    "seen": "2026-11-16T05:06:09Z",
+    "summary": "arXiv:2611.17818v1 Announce Type: new Abstract: Jailbreak attacks can circumvent the safety mechanisms of Large Language Models (LLMs) and lead to the generation of harmful or policy-violating content. We first examine eight jailbreak methods against an LLM-based filter and observe that requests resembling normal user queries tend to have higher filter pass rates than those containing obvious anom"
+  },
+  {
+    "id": "95d5d308e51c",
+    "title": "Binarization as an Attack Surface in Weightless Neural Networks",
+    "url": "https://arxiv.org/abs/2611.17646",
+    "source": "arXiv cs.CR",
+    "via": "arXiv cs.CR",
+    "lang": "en",
+    "published": "2026-11-16T05:00:00Z",
+    "seen": "2026-11-16T05:06:09Z",
+    "summary": "arXiv:2611.17646v1 Announce Type: new Abstract: Weightless Neural Networks (WNNs) are lightweight classifiers that binarize their inputs and learn by storing binary patterns in lookup memories, which makes them attractive for resource-constrained tasks such as intrusion detection. Because a small perturbation that crosses no binarization threshold leaves the binary input unchanged, WNNs may appear"
+  },
+  {
+    "id": "b4d5556a3fc0",
+    "title": "Can LLMs Write Backdoors? An Empirical Security Study of Weight-Space Programming",
+    "url": "https://arxiv.org/abs/2611.17395",
+    "source": "arXiv cs.CR",
+    "via": "arXiv cs.CR",
+    "lang": "en",
+    "published": "2026-11-16T05:00:00Z",
+    "seen": "2026-11-16T05:06:09Z",
+    "summary": "arXiv:2611.17395v1 Announce Type: new Abstract: Recent advances in weight-space programming (WSP) have demonstrated that large language models (LLMs) can directly inspect and modify neural network weights without conventional gradient-based training. While this capability opens new possibilities for model improvement, it also raises an important security question: Can LLMs exploit weight-space pro"
   },
   {
     "id": "e1b5e40fd680",
@@ -2970,59 +3003,15 @@
     "summary": ""
   },
   {
-    "id": "77075a692af2",
-    "title": "Incident report: AI agents attempted exploits on our website during a third-party alignment evaluation",
-    "url": "https://epoch.ai/publications/incident-report-ai-agents-attempted-exploits-on-our-website",
+    "id": "1cd6b791618e",
+    "title": "United Airlines Is Banning AI Bots From Booking Flights",
+    "url": "https://www.wsj.com/tech/ai/united-airlines-is-banning-ai-bots-from-booking-flights-5b514b38",
     "source": "AI Incident Database",
     "via": "AI Incident Database",
     "lang": "en",
     "published": "2026-11-15T00:00:00Z",
     "seen": "2026-11-15T19:05:40Z",
-    "summary": "Overview In late October, three events occurred during alignment evals run by Trajectory Labs, PBC (Trajectory) in which AI agents — identified by Trajectory as publicly available frontier models — interacted with Epoch employees and the E ... (https://incidentdatabase.ai/cite/1828#8329)"
-  },
-  {
-    "id": "ed08a73195bc",
-    "title": "Responding to incidents during misalignment testing",
-    "url": "https://www.trajectorylabs.com/blog/responding-to-incidents-during-misalignment-testing",
-    "source": "AI Incident Database",
-    "via": "AI Incident Database",
-    "lang": "en",
-    "published": "2026-11-15T00:00:00Z",
-    "seen": "2026-11-15T19:05:40Z",
-    "summary": "Background In October, we were testing whether frontier models with safeguards enabled would behave like those in the recent Hugging Face incident, where AI agents reached real systems outside their test environment. We gave Gemini 4 Argon ... (https://incidentdatabase.ai/cite/1828#8330)"
-  },
-  {
-    "id": "ab43aeb954a2",
-    "title": "Gemini 4 Argon’s behavior during misalignment testing",
-    "url": "https://www.trajectorylabs.com/blog/gemini-4-argon-behavior-during-misalignment-testing",
-    "source": "AI Incident Database",
-    "via": "AI Incident Database",
-    "lang": "en",
-    "published": "2026-11-15T00:00:00Z",
-    "seen": "2026-11-15T19:05:40Z",
-    "summary": "On July 21, OpenAI disclosed that two of its models, running with reduced safeguards, had broken out of an isolated test environment and accessed Hugging Face’s infrastructure. Two layers of defense are meant to prevent this. The first is ... (https://incidentdatabase.ai/cite/1828#8331)"
-  },
-  {
-    "id": "88892f906db4",
-    "title": "Rogue AI Agents Posed As Epoch Staff And Tried To Hack Its Website",
-    "url": "https://www.fathom.news/ai-agent-exploits-epoch-website",
-    "source": "AI Incident Database",
-    "via": "AI Incident Database",
-    "lang": "en",
-    "published": "2026-11-15T00:00:00Z",
-    "seen": "2026-11-15T19:05:40Z",
-    "summary": "AI agents in a safety test run by Trajectory Labs tried to exploit the website of Epoch AI and posed as staff, but got no private data, Epoch said. Key Takeaways Agents sent 487 messages and made 36,411 calls to a planted API between 4:30 ... (https://incidentdatabase.ai/cite/1828#8332)"
-  },
-  {
-    "id": "546031e766b0",
-    "title": "Epoch AI discloses website exploit attempts during third-party agent evaluations",
-    "url": "https://casrai.org/news/epoch-ai-trajectory-agent-evaluation-incident-report-2026",
-    "source": "AI Incident Database",
-    "via": "AI Incident Database",
-    "lang": "en",
-    "published": "2026-11-15T00:00:00Z",
-    "seen": "2026-11-15T19:05:40Z",
-    "summary": "Epoch AI published an incident report on 13 November 2026 describing website exploit attempts and staff impersonation by agents in Trajectory Labs evaluations. The three events occurred on 20, 23 and 26 October. Epoch says no private or con ... (https://incidentdatabase.ai/cite/1828#8333)"
+    "summary": "United Airlines doesn’t want to deal with your AI agent. The airline said Wednesday that it will prevent personal artificial-intelligence assistants from accessing its systems to book tickets. United cited concerns that the third-party ag ... (report_number: 8335)"
   },
   {
     "id": "921a9fa73eb2",
@@ -3036,367 +3025,70 @@
     "summary": "Epoch AI, a nonprofit that studies the progress of artificial intelligence, has disclosed three incidents in which AI agents tried to reach its website and proprietary information while being tested. None of the agents came away with priva ... (https://incidentdatabase.ai/cite/1828#8334)"
   },
   {
-    "id": "1cd6b791618e",
-    "title": "United Airlines Is Banning AI Bots From Booking Flights",
-    "url": "https://www.wsj.com/tech/ai/united-airlines-is-banning-ai-bots-from-booking-flights-5b514b38",
+    "id": "546031e766b0",
+    "title": "Epoch AI discloses website exploit attempts during third-party agent evaluations",
+    "url": "https://casrai.org/news/epoch-ai-trajectory-agent-evaluation-incident-report-2026",
     "source": "AI Incident Database",
     "via": "AI Incident Database",
     "lang": "en",
     "published": "2026-11-15T00:00:00Z",
     "seen": "2026-11-15T19:05:40Z",
-    "summary": "United Airlines doesn’t want to deal with your AI agent. The airline said Wednesday that it will prevent personal artificial-intelligence assistants from accessing its systems to book tickets. United cited concerns that the third-party ag ... (report_number: 8335)"
+    "summary": "Epoch AI published an incident report on 13 November 2026 describing website exploit attempts and staff impersonation by agents in Trajectory Labs evaluations. The three events occurred on 20, 23 and 26 October. Epoch says no private or con ... (https://incidentdatabase.ai/cite/1828#8333)"
   },
   {
-    "id": "7c4558838073",
-    "title": "Kraja identitete dr. Erika Breclja",
-    "url": "https://www.zdravniskazbornica.si/informacije-publikacije-in-analize/obvestila/2026/04/17/kraja-identitete-dr.-erika-breclja",
+    "id": "88892f906db4",
+    "title": "Rogue AI Agents Posed As Epoch Staff And Tried To Hack Its Website",
+    "url": "https://www.fathom.news/ai-agent-exploits-epoch-website",
+    "source": "AI Incident Database",
+    "via": "AI Incident Database",
+    "lang": "en",
+    "published": "2026-11-15T00:00:00Z",
+    "seen": "2026-11-15T19:05:40Z",
+    "summary": "AI agents in a safety test run by Trajectory Labs tried to exploit the website of Epoch AI and posed as staff, but got no private data, Epoch said. Key Takeaways Agents sent 487 messages and made 36,411 calls to a planted API between 4:30 ... (https://incidentdatabase.ai/cite/1828#8332)"
+  },
+  {
+    "id": "ab43aeb954a2",
+    "title": "Gemini 4 Argon’s behavior during misalignment testing",
+    "url": "https://www.trajectorylabs.com/blog/gemini-4-argon-behavior-during-misalignment-testing",
+    "source": "AI Incident Database",
+    "via": "AI Incident Database",
+    "lang": "en",
+    "published": "2026-11-15T00:00:00Z",
+    "seen": "2026-11-15T19:05:40Z",
+    "summary": "On July 21, OpenAI disclosed that two of its models, running with reduced safeguards, had broken out of an isolated test environment and accessed Hugging Face’s infrastructure. Two layers of defense are meant to prevent this. The first is ... (https://incidentdatabase.ai/cite/1828#8331)"
+  },
+  {
+    "id": "ed08a73195bc",
+    "title": "Responding to incidents during misalignment testing",
+    "url": "https://www.trajectorylabs.com/blog/responding-to-incidents-during-misalignment-testing",
+    "source": "AI Incident Database",
+    "via": "AI Incident Database",
+    "lang": "en",
+    "published": "2026-11-15T00:00:00Z",
+    "seen": "2026-11-15T19:05:40Z",
+    "summary": "Background In October, we were testing whether frontier models with safeguards enabled would behave like those in the recent Hugging Face incident, where AI agents reached real systems outside their test environment. We gave Gemini 4 Argon ... (https://incidentdatabase.ai/cite/1828#8330)"
+  },
+  {
+    "id": "77075a692af2",
+    "title": "Incident report: AI agents attempted exploits on our website during a third-party alignment evaluation",
+    "url": "https://epoch.ai/publications/incident-report-ai-agents-attempted-exploits-on-our-website",
+    "source": "AI Incident Database",
+    "via": "AI Incident Database",
+    "lang": "en",
+    "published": "2026-11-15T00:00:00Z",
+    "seen": "2026-11-15T19:05:40Z",
+    "summary": "Overview In late October, three events occurred during alignment evals run by Trajectory Labs, PBC (Trajectory) in which AI agents — identified by Trajectory as publicly available frontier models — interacted with Epoch employees and the E ... (https://incidentdatabase.ai/cite/1828#8329)"
+  },
+  {
+    "id": "69dd4146d9ca",
+    "title": "AI Bots Are Using Credit Cards. Banks Are Racing to Keep Up.",
+    "url": "https://www.wsj.com/finance/ai-bots-are-using-credit-cards-banks-are-racing-to-keep-up-c30dda30",
     "source": "AI Incident Database",
     "via": "AI Incident Database",
     "lang": "en",
     "published": "2026-11-14T00:00:00Z",
     "seen": "2026-11-15T19:05:40Z",
-    "summary": "Na Zdravniški zbornici Slovenije ponovno opozarjamo na primer zavajanja in kraje identitete zdravnika v spletnih objavah, ki izkoriščajo stisko ljudi ter zavajajo javnost. Ugotavljamo, da gre za ponovno zlorabo identitete dr. Erika Brecelj ... (https://incidentdatabase.ai/cite/1819#8295)"
-  },
-  {
-    "id": "9aa448f82823",
-    "title": "Zdravniška zbornica Slovenije zaradi zlorabe osebnih podatkov dr. Erika Breclja podala kazensko ovadbo",
-    "url": "https://www.zdravniskazbornica.si/informacije-publikacije-in-analize/obvestila/2026/05/18/zdravni%C5%A1ka-zbornica-slovenije-zaradi-zlorabe-osebnih-podatkov-dr.-erika-breclja-podala-kazensko-ovadbo",
-    "source": "AI Incident Database",
-    "via": "AI Incident Database",
-    "lang": "en",
-    "published": "2026-11-14T00:00:00Z",
-    "seen": "2026-11-15T19:05:40Z",
-    "summary": "Zdravniška zbornica Slovenije je 17. aprila 2026 na Policijski postaji Ljubljana Bežigrad podala ovadbo zaradi zlorabe osebnih podatkov dr. Erika Breclja po 143. členu Kazenskega zakonika. Ovadba se nanaša na prirejen videoposnetek, ustvar ... (https://incidentdatabase.ai/cite/1819#8296)"
-  },
-  {
-    "id": "0ef728cbc31f",
-    "title": "Zaradi kraje identitete zdravnika Breclja podali kazensko ovadbo",
-    "url": "https://www.24ur.com/novice/slovenija/zaradi-kraje-identitete-zdravnika-breclja-podali-kazensko-ovadbo.html",
-    "source": "AI Incident Database",
-    "via": "AI Incident Database",
-    "lang": "en",
-    "published": "2026-11-14T00:00:00Z",
-    "seen": "2026-11-15T19:05:40Z",
-    "summary": "V prirejenem videoposnetku je uporabljen resničen videoposnetek Erika Breclja, medtem ko so bili vsebina, zvok in drugi elementi naknadno spremenjeni. V posnetku je Breclju pripisana izjava, ki je ni nikoli podal. V posnetku Brecelj promovi ... (https://incidentdatabase.ai/cite/1819#8297)"
-  },
-  {
-    "id": "393ec54138b5",
-    "title": "V oglasu za kremo za sklepe zlorabili podobo kirurga: \"Videti je bil kot čisto pravi dr. Erik Brecelj\"",
-    "url": "https://n1info.si/novice/slovenija/v-oglasu-za-kremo-za-sklepe-zlorabili-podobo-kirurga-videti-je-bil-kot-cisto-pravi-dr-erik-brecelj",
-    "source": "AI Incident Database",
-    "via": "AI Incident Database",
-    "lang": "en",
-    "published": "2026-11-14T00:00:00Z",
-    "seen": "2026-11-15T19:05:40Z",
-    "summary": "Na Facebooku se je pojavil nov goljufiv oglas, v katerem so zlorabili podobo onkološkega kirurga dr. Erika Breclja za prodajo kreme za sklepe. To je le ena od številnih prevar, ki zlorabljajo podobo zdravnikov. \"Pri takih oglasih gre za izk ... (https://incidentdatabase.ai/cite/1819#8298)"
-  },
-  {
-    "id": "918c0edaba4e",
-    "title": "Warning about new misleading advertisements: misuse of the GOVSI podcast",
-    "url": "https://www.gov.si/en/news/2025-10-27-warning-about-new-misleading-advertisements-misuse-of-the-govsi-podcast",
-    "source": "AI Incident Database",
-    "via": "AI Incident Database",
-    "lang": "en",
-    "published": "2026-11-14T00:00:00Z",
-    "seen": "2026-11-15T19:05:40Z",
-    "summary": "The Government of the Republic of Slovenia warns that misleading advertisements promoting questionable health products have once again appeared on Facebook, Instagram and other platforms. To give their product an appearance of legitimacy, t ... (https://incidentdatabase.ai/cite/1819#8299)"
-  },
-  {
-    "id": "bd063aa7276e",
-    "title": "Asistentes denuncian incumplimientos en evento Snowland Panamá; Acodeco inicia pesquisa",
-    "url": "https://www.prensa.com/economia/asistentes-denuncian-incumplimientos-en-evento-snowland-panama-y-acodeco-inicia-pesquisa",
-    "source": "AI Incident Database",
-    "via": "AI Incident Database",
-    "lang": "en",
-    "published": "2026-11-14T00:00:00Z",
-    "seen": "2026-11-15T19:05:40Z",
-    "summary": "Lo que fue promocionado como “el evento del año” terminó convertido en una ola de denuncias tras su inauguración, luego de que decenas de asistentes compartieran en redes sociales videos y testimonios asegurando que SnowlandPTY no cumplió c ... (https://incidentdatabase.ai/cite/1820#8300)"
-  },
-  {
-    "id": "daab7a62fb65",
-    "title": "Snowland Panamá acumula varias denuncias, investigación continúa en curso",
-    "url": "https://www.tvn-2.com/nacionales/snowland-panama-acumula-denuncias-investigacion-acodeco_1_2220481.html",
-    "source": "AI Incident Database",
-    "via": "AI Incident Database",
-    "lang": "en",
-    "published": "2026-11-14T00:00:00Z",
-    "seen": "2026-11-15T19:05:40Z",
-    "summary": "Ciudad de Panamá, Panamá/La Autoridad de Protección al Consumidor y Defensa de la Competencia (Acodeco) confirmó la recepción de denuncias formales por presunta publicidad engañosa relacionadas con la llamada experiencia Snowland Panamá, un ... (https://incidentdatabase.ai/cite/1820#8301)"
-  },
-  {
-    "id": "60ba23ff8ff7",
-    "title": "Cierran caso Snowland Panamá e imponen multa de $25 mil por publicidad engañosa",
-    "url": "https://www.tvn-2.com/nacionales/caso-snowland-panama-imponen-multa-acodeco-publicidad-enganosa_1_2262329.html",
-    "source": "AI Incident Database",
-    "via": "AI Incident Database",
-    "lang": "en",
-    "published": "2026-11-14T00:00:00Z",
-    "seen": "2026-11-15T19:05:40Z",
-    "summary": "Ciudad de Panamá, Panamá/La Autoridad de Protección al Consumidor y Defensa de la Competencia (Acodeco) cerró formalmente el proceso relacionado con Snowland Panamá, evento promocionado como una experiencia de nieve que se realizó en diciem ... (https://incidentdatabase.ai/cite/1820#8302)"
-  },
-  {
-    "id": "7bdcf717922a",
-    "title": "Vicepresidenta anuncia acciones y PGN presenta denuncia por vulneración de derechos de adolescentes en un colegio",
-    "url": "https://agn.gt/vicepresidenta-anuncia-acciones-y-pgn-presenta-denuncia-por-vulneracion-de-derechos-de-adolescentes-en-un-colegio",
-    "source": "AI Incident Database",
-    "via": "AI Incident Database",
-    "lang": "en",
-    "published": "2026-11-14T00:00:00Z",
-    "seen": "2026-11-15T19:05:40Z",
-    "summary": "Ciudad de Guatemala, 12 ago (AGN).- Desde la tarde de este lunes 12 de agosto han circulado en redes sociales denuncias de vulneración de derechos de adolescentes en un centro educativo privado de la ciudad de Guatemala. Según explican las ... (https://incidentdatabase.ai/cite/1821#8303)"
-  },
-  {
-    "id": "94b72cb24423",
-    "title": "Se registran seis denuncias tras incidente en colegio por presunta violación de derechos de adolescentes",
-    "url": "https://www.prensalibre.com/guatemala/justicia/se-registran-seis-denuncias-tras-incidente-en-colegio-por-presunta-violacion-de-derechos-de-adolescentes-breaking",
-    "source": "AI Incident Database",
-    "via": "AI Incident Database",
-    "lang": "en",
-    "published": "2026-11-14T00:00:00Z",
-    "seen": "2026-11-15T19:05:40Z",
-    "summary": "El Ministerio Público (MP) confirmó que hay seis denuncias que investiga por la posible violación de derechos de algunas estudiantes de un colegio en la zona 17 capitalina, al supuestamente utilizar sus fotografías y crear en contenidos por ... (https://incidentdatabase.ai/cite/1821#8304)"
-  },
-  {
-    "id": "9308e20f0ec1",
-    "title": "Ligan a proceso a exestudiantes del colegio Continental Americano por incidente de fotomontaje con imágenes de sus compañeras",
-    "url": "https://agn.gt/ligan-a-proceso-a-exestudiantes-del-colegio-continental-americano-por-incidente-de-fotomontaje-a-imagenes-de-sus-companeras",
-    "source": "AI Incident Database",
-    "via": "AI Incident Database",
-    "lang": "en",
-    "published": "2026-11-14T00:00:00Z",
-    "seen": "2026-11-15T19:05:40Z",
-    "summary": "Ciudad de Guatemala, 23 ene. (AGN).- Los cuatro adolescentes señalados en el caso de la difusión de fotomontajes del rostro de sus compañeras con cuerpos desnudos en el colegio Continental Americano fueron ligados a proceso por tres delitos ... (https://incidentdatabase.ai/cite/1821#8305)"
-  },
-  {
-    "id": "0e5e9c0b4c13",
-    "title": "Ligan a proceso a menores acusados de crear material inapropiado con IA en centro educativo de zona 17",
-    "url": "https://lahora.gt/nacionales/sosegueda/2025/01/24/ligan-a-proceso-a-menores-acusados-de-crear-material-inapropiado-con-ia-en-centro-educativo-de-zona-17",
-    "source": "AI Incident Database",
-    "via": "AI Incident Database",
-    "lang": "en",
-    "published": "2026-11-14T00:00:00Z",
-    "seen": "2026-11-15T19:05:40Z",
-    "summary": "El juzgado de Adolescentes en conflicto con la ley penal ligo a proceso a cuatro menores que son señalados de crear imágenes pornográficas de sus compañeras de estudio utilizando inteligencia artificial y posteriormente, comercializar el ma ... (https://incidentdatabase.ai/cite/1821#8306)"
-  },
-  {
-    "id": "e12179ce8a96",
-    "title": "Fue confundido con un ladrón por error en sistema de reconocimiento facial",
-    "url": "https://www.hoy.com.py/nacionales/2025/03/05/fue-confundido-con-un-ladron-por-error-en-sistema-de-reconocimiento-facial",
-    "source": "AI Incident Database",
-    "via": "AI Incident Database",
-    "lang": "en",
-    "published": "2026-11-14T00:00:00Z",
-    "seen": "2026-11-15T19:05:40Z",
-    "summary": "“Entré al supermercado de camino a la parada de buses, cuando de repente una empleada se me acerca y me dice que no era bienvenido. Le pregunté por qué y me respondió\\*\\*: ‘Vos asaltaste ayer este local y te identificaron.\\*\\* No sos bienve ... (https://incidentdatabase.ai/cite/1822#8307)"
-  },
-  {
-    "id": "72b97c5db16e",
-    "title": "Joven denuncia que fue tratado como ladrón y expulsado de un Biggie en San Lorenzo",
-    "url": "https://elnacional.com.py/nacionales/joven-denuncia-fue-tratado-como-ladron-expulsado-biggie-san-lorenzo-n82260",
-    "source": "AI Incident Database",
-    "via": "AI Incident Database",
-    "lang": "en",
-    "published": "2026-11-14T00:00:00Z",
-    "seen": "2026-11-15T19:05:40Z",
-    "summary": "Un estudiante de Medicina relató en redes sociales la humillante experiencia que vivió en una sucursal de Biggie Express en San Lorenzo, donde fue señalado como un ladrón y expulsado del local sin posibilidad de defenderse. Según su testim ... (https://incidentdatabase.ai/cite/1822#8308)"
-  },
-  {
-    "id": "bbd082536515",
-    "title": "Notice to Our Patients of Data Security Incident",
-    "url": "https://weill.cornell.edu/data-security-incident-nov-2026",
-    "source": "AI Incident Database",
-    "via": "AI Incident Database",
-    "lang": "en",
-    "published": "2026-11-14T00:00:00Z",
-    "seen": "2026-11-15T19:05:40Z",
-    "summary": "At Weill Cornell Medicine, we are committed to protecting the confidentiality and security of our patients’ information. This notice concerns a privacy incident involving some patient health information used in an unauthorized capacity in c ... (https://incidentdatabase.ai/cite/1823#8309)"
-  },
-  {
-    "id": "238a784bc49c",
-    "title": "Weill Cornell patient data entered into AI tools without authorization",
-    "url": "https://www.beckershospitalreview.com/healthcare-information-technology/ai/weill-cornell-patient-data-entered-into-ai-tools-without-authorization",
-    "source": "AI Incident Database",
-    "via": "AI Incident Database",
-    "lang": "en",
-    "published": "2026-11-14T00:00:00Z",
-    "seen": "2026-11-15T19:05:40Z",
-    "summary": "New York City-based Weill Cornell Medicine disclosed that patient health information was entered into AI tools and processed using machine learning without authorization as part of a radiology research study. Weill Cornell learned of the i ... (https://incidentdatabase.ai/cite/1823#8310)"
-  },
-  {
-    "id": "1441efeaaeb4",
-    "title": "Patient info improperly used in radiology AI research, academic institution says",
-    "url": "https://radiologybusiness.com/topics/artificial-intelligence/patient-info-improperly-used-radiology-ai-research-academic-institution-says",
-    "source": "AI Incident Database",
-    "via": "AI Incident Database",
-    "lang": "en",
-    "published": "2026-11-14T00:00:00Z",
-    "seen": "2026-11-15T19:05:40Z",
-    "summary": "Private patient information was improperly used in recent radiology artificial intelligence research, according to an alert from Weill Cornell Medicine shared on Thursday. The noted New York City-based institution says it first found out a ... (https://incidentdatabase.ai/cite/1823#8311)"
-  },
-  {
-    "id": "3d32c498f4de",
-    "title": "Improper AI use leads to another data incident, more patient notifications",
-    "url": "https://www.healthcareitnews.com/news/improper-ai-use-leads-another-data-incident-more-patient-notifications",
-    "source": "AI Incident Database",
-    "via": "AI Incident Database",
-    "lang": "en",
-    "published": "2026-11-14T00:00:00Z",
-    "seen": "2026-11-15T19:05:40Z",
-    "summary": "A Weill Cornell Medicine radiology research project involving protected health information fed that patient data into an AI tool at NewYork-Presbyterian two months ago, and now patients are being informed that some of their PHI may have bee ... (https://incidentdatabase.ai/cite/1823#8312)"
-  },
-  {
-    "id": "c4f5534f9cd7",
-    "title": "57 indicted over NT$900 million voice-cloning romance scam",
-    "url": "https://focustaiwan.tw/society/202609020019",
-    "source": "AI Incident Database",
-    "via": "AI Incident Database",
-    "lang": "en",
-    "published": "2026-11-14T00:00:00Z",
-    "seen": "2026-11-15T19:05:40Z",
-    "summary": "Taipei, Sept. 2 (CNA) Prosecutors in Taipei on Wednesday indicted 57 people in connection with a sophisticated romance scam that allegedly defrauded more than 20,000 people out of at least NT$900 million (US$28.32 million) using voice-cloni ... (https://incidentdatabase.ai/cite/1824#8313)"
-  },
-  {
-    "id": "89030f825e51",
-    "title": "刑事局破假愛情詐騙2萬人財損9億 北檢起訴57人求刑25年",
-    "url": "https://www.pbs.npa.gov.tw/ch/app/data/view?id=18740&module=wg183&serno=e709c4f7-7fa1-45ac-bd1e-0e27c0b8714e",
-    "source": "AI Incident Database",
-    "via": "AI Incident Database",
-    "lang": "en",
-    "published": "2026-11-14T00:00:00Z",
-    "seen": "2026-11-15T19:05:40Z",
-    "summary": "刑事局破獲黃姓男子夫妻檔籌組假戀愛詐騙集團，導致2萬多人受害，損失高達9億元，台北地檢署今天偵結起訴57名被告，審酌黃姓主嫌夫妻行徑惡劣，分別求處25年及18年重刑。 具有黑幫背景的黃姓主嫌夫妻檔打從111年開始組成詐騙集團，專門以美女照片註冊交友軟體、社群從事假交往真詐財。刑事局追查發現，集團分工細膩，分別新客、培養及回客組等機手逐漸誘騙被害人購買保健食品、贈送高檔手機，等陷入愛情陷阱再以生活費、手術費及償還債務等名義索討更多財務，為了取信被害人，集團還利用AI變聲軟體及 ... (https://incidentdatabase.ai/cite/1824#8314)"
-  },
-  {
-    "id": "12c3c2cfb521",
-    "title": "Prosecutors indict 57 over AI-powered romance scam",
-    "url": "https://www.taipeitimes.com/News/front/archives/2026/09/03/2003863596",
-    "source": "AI Incident Database",
-    "via": "AI Incident Database",
-    "lang": "en",
-    "published": "2026-11-14T00:00:00Z",
-    "seen": "2026-11-15T19:05:40Z",
-    "summary": "Taipei prosecutors yesterday indicted 57 people over alleged involvement in a romance scam ring, seeking a 25-year sentence for one. A man surnamed Huang (黃) and his wife, surnamed Hsu (許), allegedly set up a romance scam ring that utilize ... (https://incidentdatabase.ai/cite/1824#8315)"
-  },
-  {
-    "id": "242771f84279",
-    "title": "偶然出会った彼女はAI、電話に出た警察官はディープフェイク──急速に巧妙化するAI詐欺",
-    "url": "https://ascii.jp/limit/group/ida/elem/000/004/436/4436553",
-    "source": "AI Incident Database",
-    "via": "AI Incident Database",
-    "lang": "en",
-    "published": "2026-11-14T00:00:00Z",
-    "seen": "2026-11-15T19:05:40Z",
-    "summary": "　ChatGPTやClaude、Geminiといった主要AIを使えば、簡単なアプリなら数分でしっかり動作するものをつくってくれる。 　ちょっとした作業を効率化するのに非常に助かるのだが、問題は、悪用するハードルも大幅に下がっていることだ。この結果、詐欺の手口も、AIの進化によって急速に巧妙化が進んでいる。 　Claudeを開発・提供しているアンソロピック社が2026年9月、自社のClaudeが悪用された事例を集め、レポートとして公表している。 　たとえば、AIをフル活用 ... (https://incidentdatabase.ai/cite/1824#8316)"
-  },
-  {
-    "id": "f99ca676c927",
-    "title": "「豊岡市自動運転バス実証運行」の休止について",
-    "url": "https://www.city.toyooka.lg.jp/_res/projects/default_project/_page_/001/039/464/20261109-2.pdf",
-    "source": "AI Incident Database",
-    "via": "AI Incident Database",
-    "lang": "en",
-    "published": "2026-11-14T00:00:00Z",
-    "seen": "2026-11-15T19:05:40Z",
-    "summary": "本日から運行を開始しました自動運転バスについて、下記の通り運休します。 １　運休理由 豊岡市城崎町内において自動運転バス車両と石垣との接触事故が発生しました。 今後の安全運行に万全を期すため、原因の調査を行い、安全が確認されるまで運休します。 ２　運休期間 2026年11月９日（月）から安全確認が終了するまで ３　事故の状況 ⑴　発生時刻：11月９日（月）午前11時31分 ⑵　発生場所：城崎町湯島「元薬師バス停」横 ⑶　事故状況：対向する大型車両を検知し、回 ... (https://incidentdatabase.ai/cite/1825#8317)"
-  },
-  {
-    "id": "fa4c88330462",
-    "title": "一般客乗せた運行初日に…“自動運転バス”が石垣に接触　けが人なし　市は安全確認されるまでバス「運休」決定　兵庫・豊岡市",
-    "url": "https://newsdig.tbs.co.jp/articles/-/3073016",
-    "source": "AI Incident Database",
-    "via": "AI Incident Database",
-    "lang": "en",
-    "published": "2026-11-14T00:00:00Z",
-    "seen": "2026-11-15T19:05:40Z",
-    "summary": "兵庫県豊岡市で9日午前11時半ごろ、自動運転バスが道路沿いの石垣に接触する事故がありました。乗客・乗員らにけが人はいませんでした。 市によりますと、9日午前11時半ごろ、豊岡市の城崎温泉街にあるバス停近くで、運行中だった自動運転バスが、向かい側から走ってきた大型トラックを検知して左側に寄ったところ、道路沿いの石垣に車体をこすって接触しました。 バスには、観光客や市民ら計6人と、運転手役の「オペレーター」とトラブル対応などを担うスタッフ2人の計8人が乗っていて、けが人はいま ... (https://incidentdatabase.ai/cite/1825#8318)"
-  },
-  {
-    "id": "7d4692438945",
-    "title": "兼松、全但バス、損保ジャパン、KDDIが連携し、 豊岡市・城崎温泉で自動運転バスの実証運行を開始 ～各者の専門性を結集し、温泉街の交通課題解決を目指した社会実装を推進～",
-    "url": "https://www.kanematsu.co.jp/press/release/20261109_release",
-    "source": "AI Incident Database",
-    "via": "AI Incident Database",
-    "lang": "en",
-    "published": "2026-11-14T00:00:00Z",
-    "seen": "2026-11-15T19:05:40Z",
-    "summary": "兵庫県豊岡市（市長: 門間 雄司、以下「豊岡市」）、兼松株式会社（本社: 東京都千代田区、代表取締役社長: 宮部 佳也、以下「兼松」）、全但バス株式会社（本社: 兵庫県養父市、代表取締役社長: 村上 宣人、以下「全但バス」）、損害保険ジャパン株式会社（本社: 東京都新宿区、代表取締役社長: 石川 耕治、以下「損保ジャパン」）、KDDI株式会社（本社: 東京都港区、代表取締役社長CEO: 松田 浩路、以下「KDDI」）および、KDDIスマートモビリティ株式会社（本社: 東京都中 ... (https://incidentdatabase.ai/cite/1825#8319)"
-  },
-  {
-    "id": "8a218f42a438",
-    "title": "Kanematsu, Zentan Bus, Sompo Japan, and KDDI Collaborate to Launch an Autonomous Bus Demonstration in Kinosaki Onsen, Toyooka City",
-    "url": "https://www.kanematsu.co.jp/en/press/release/20261109_release",
-    "source": "AI Incident Database",
-    "via": "AI Incident Database",
-    "lang": "en",
-    "published": "2026-11-14T00:00:00Z",
-    "seen": "2026-11-15T19:05:40Z",
-    "summary": "Toyooka City, Hyogo Prefecture (“Toyooka City”); Kanematsu Corporation (“Kanematsu”); Zentan Bus Co., Ltd. (“Zentan Bus”); Sompo Japan Insurance Inc. (“Sompo Japan”); KDDI CORPORATION (“KDDI”); and KDDI Smart Mobility Inc. (“KDDI Smart Mobi ... (https://incidentdatabase.ai/cite/1825#8320)"
-  },
-  {
-    "id": "aba900425c5f",
-    "title": "兵庫城崎溫泉街自動駕駛巴士免費試乘　11月9日至12月4日平日每天3班",
-    "url": "https://n.yam.com/Article/20261109371447",
-    "source": "AI Incident Database",
-    "via": "AI Incident Database",
-    "lang": "en",
-    "published": "2026-11-14T00:00:00Z",
-    "seen": "2026-11-15T19:05:40Z",
-    "summary": "兵庫縣豐岡市與兼松、全但巴士、損保ジャパン、KDDI及KDDIスマートモビリティ共6個單位，自2026年11月9日起在城崎溫泉街展開自動駕駛巴士實證運行，期間至12月4日（週五），週六、週日與國定假日停駛。 本次以安全駕駛員隨車的Level 2自動駕駛進行，目標是未來在溫泉街實現Level 4正式營運。車輛採用韓國Autonomous a2z公司開發的「ROii」，據該公司調查，這是ROii首度用於日本的實證運行。 巴士行駛JR城崎溫泉站至城崎國際藝術中心附近約1.8公里 ... (https://incidentdatabase.ai/cite/1825#8321)"
-  },
-  {
-    "id": "ba3e467e50d6",
-    "title": "North Smithfield Man Charged with Multiple Child Exploitation Offenses Involving Surreptitious Filming of a Minor and Creating AI-Generated Child Sexual Abuse Material with Images of Minors Known to H",
-    "url": "https://www.justice.gov/usao-ri/pr/north-smithfield-man-charged-multiple-child-exploitation-offenses-involving",
-    "source": "AI Incident Database",
-    "via": "AI Incident Database",
-    "lang": "en",
-    "published": "2026-11-14T00:00:00Z",
-    "seen": "2026-11-15T19:05:40Z",
-    "summary": "PROVIDENCE – Joseph L. Mello III, 38, of North Smithfield, Rhode Island, was arrested yesterday, November 9, 2026, in connection with an investigation conducted by Homeland Security Investigations (HSI) and the Lincoln Police Department wit ... (https://incidentdatabase.ai/cite/1826#8322)"
-  },
-  {
-    "id": "833b876486a7",
-    "title": "North Smithfield man accused of creating AI-generated child sexual abuse material",
-    "url": "https://turnto10.com/news/local/north-smithfield-man-accused-of-creating-ai-generated-child-sexual-abuse-material-instructor-gymnastics-dance-facilities-artificial-intelligence-november-10-2026",
-    "source": "AI Incident Database",
-    "via": "AI Incident Database",
-    "lang": "en",
-    "published": "2026-11-14T00:00:00Z",
-    "seen": "2026-11-15T19:05:40Z",
-    "summary": "PROVIDENCE, R.I. (WJAR) — The Rhode Island U.S. Attorney’s Office said a former instructor at gymnastics and dance facilities was arrested after allegedly filming a minor and creating artificial intelligence-generated child sexual abuse mat ... (https://incidentdatabase.ai/cite/1826#8323)"
-  },
-  {
-    "id": "9bf64a67f21e",
-    "title": "‘Our daughters knew and trusted him’: Gymnastics instructor in Mass., R.I., allegedly used AI to make pornographic videos of children he coached",
-    "url": "https://www.bostonglobe.com/2026/11/12/metro/gymnastic-coach-in-ri-mass-ai-child-sexual-abuse-material",
-    "source": "AI Incident Database",
-    "via": "AI Incident Database",
-    "lang": "en",
-    "published": "2026-11-14T00:00:00Z",
-    "seen": "2026-11-15T19:05:40Z",
-    "summary": "PROVIDENCE — A youth gymnastics and cheerleading instructor who worked across Rhode Island and Massachusetts for more than a decade was charged in federal court this week with allegedly filming students and using AI tools to create sexually ... (https://incidentdatabase.ai/cite/1826#8324)"
-  },
-  {
-    "id": "2f3e409e2688",
-    "title": "Camión autónomo se desbarranca tras perder comunicación en rajo de Minera Centinela en Antofagasta",
-    "url": "https://www.biobiochile.cl/noticias/nacional/region-de-antofagasta/2026/11/12/camion-autonomo-se-desbarranca-tras-perder-comunicacion-en-rajo-de-minera-centinela-en-antofagasta.shtml",
-    "source": "AI Incident Database",
-    "via": "AI Incident Database",
-    "lang": "en",
-    "published": "2026-11-14T00:00:00Z",
-    "seen": "2026-11-15T19:05:40Z",
-    "summary": "Un camión de extracción autónomo de Minera Centinela se desbarrancó la jornada de este jueves en Intersección 04 ruta dique, después de que la unidad 207 perdiera la comunicación durante una operación en el rajo. Después de que se conoció ... (https://incidentdatabase.ai/cite/1827#8325)"
-  },
-  {
-    "id": "636116982bcf",
-    "title": "Camión minero autónomo pierde comunicación y termina desbarrancado en Minera Centinela",
-    "url": "https://www.redimin.cl/camion-minero-autonomo-pierde-comunicacion-y-termina-desbarrancado-en-minera-centinela",
-    "source": "AI Incident Database",
-    "via": "AI Incident Database",
-    "lang": "en",
-    "published": "2026-11-14T00:00:00Z",
-    "seen": "2026-11-15T19:05:40Z",
-    "summary": "Un camión de extracción autónomo de Minera Centinela, perteneciente a Antofagasta Minerals, terminó desbarrancado este jueves 12 de noviembre luego de que se reportara una pérdida de comunicación con el equipo mientras realizaba sus operaci ... (https://incidentdatabase.ai/cite/1827#8326)"
+    "summary": "Sudden advancements by artificial intelligence bots are opening new fronts in the battles over who will control the future of consumer payments. Meta’s Muse, Instinct and other personal AI assistants have been empowered in recent weeks to ... (report_number: 8328)"
   },
   {
     "id": "8ed2fc1a35e5",
@@ -3410,15 +3102,356 @@
     "summary": "Un incidente registrado en Minera Centinela, en la Región de Antofagasta, generó atención luego de que comenzara a circular en redes sociales una imagen de un camión de extracción autónomo que terminó desbarrancado en una zona de operacione ... (https://incidentdatabase.ai/cite/1827#8327)"
   },
   {
-    "id": "69dd4146d9ca",
-    "title": "AI Bots Are Using Credit Cards. Banks Are Racing to Keep Up.",
-    "url": "https://www.wsj.com/finance/ai-bots-are-using-credit-cards-banks-are-racing-to-keep-up-c30dda30",
+    "id": "636116982bcf",
+    "title": "Camión minero autónomo pierde comunicación y termina desbarrancado en Minera Centinela",
+    "url": "https://www.redimin.cl/camion-minero-autonomo-pierde-comunicacion-y-termina-desbarrancado-en-minera-centinela",
     "source": "AI Incident Database",
     "via": "AI Incident Database",
     "lang": "en",
     "published": "2026-11-14T00:00:00Z",
     "seen": "2026-11-15T19:05:40Z",
-    "summary": "Sudden advancements by artificial intelligence bots are opening new fronts in the battles over who will control the future of consumer payments. Meta’s Muse, Instinct and other personal AI assistants have been empowered in recent weeks to ... (report_number: 8328)"
+    "summary": "Un camión de extracción autónomo de Minera Centinela, perteneciente a Antofagasta Minerals, terminó desbarrancado este jueves 12 de noviembre luego de que se reportara una pérdida de comunicación con el equipo mientras realizaba sus operaci ... (https://incidentdatabase.ai/cite/1827#8326)"
+  },
+  {
+    "id": "2f3e409e2688",
+    "title": "Camión autónomo se desbarranca tras perder comunicación en rajo de Minera Centinela en Antofagasta",
+    "url": "https://www.biobiochile.cl/noticias/nacional/region-de-antofagasta/2026/11/12/camion-autonomo-se-desbarranca-tras-perder-comunicacion-en-rajo-de-minera-centinela-en-antofagasta.shtml",
+    "source": "AI Incident Database",
+    "via": "AI Incident Database",
+    "lang": "en",
+    "published": "2026-11-14T00:00:00Z",
+    "seen": "2026-11-15T19:05:40Z",
+    "summary": "Un camión de extracción autónomo de Minera Centinela se desbarrancó la jornada de este jueves en Intersección 04 ruta dique, después de que la unidad 207 perdiera la comunicación durante una operación en el rajo. Después de que se conoció ... (https://incidentdatabase.ai/cite/1827#8325)"
+  },
+  {
+    "id": "9bf64a67f21e",
+    "title": "‘Our daughters knew and trusted him’: Gymnastics instructor in Mass., R.I., allegedly used AI to make pornographic videos of children he coached",
+    "url": "https://www.bostonglobe.com/2026/11/12/metro/gymnastic-coach-in-ri-mass-ai-child-sexual-abuse-material",
+    "source": "AI Incident Database",
+    "via": "AI Incident Database",
+    "lang": "en",
+    "published": "2026-11-14T00:00:00Z",
+    "seen": "2026-11-15T19:05:40Z",
+    "summary": "PROVIDENCE — A youth gymnastics and cheerleading instructor who worked across Rhode Island and Massachusetts for more than a decade was charged in federal court this week with allegedly filming students and using AI tools to create sexually ... (https://incidentdatabase.ai/cite/1826#8324)"
+  },
+  {
+    "id": "833b876486a7",
+    "title": "North Smithfield man accused of creating AI-generated child sexual abuse material",
+    "url": "https://turnto10.com/news/local/north-smithfield-man-accused-of-creating-ai-generated-child-sexual-abuse-material-instructor-gymnastics-dance-facilities-artificial-intelligence-november-10-2026",
+    "source": "AI Incident Database",
+    "via": "AI Incident Database",
+    "lang": "en",
+    "published": "2026-11-14T00:00:00Z",
+    "seen": "2026-11-15T19:05:40Z",
+    "summary": "PROVIDENCE, R.I. (WJAR) — The Rhode Island U.S. Attorney’s Office said a former instructor at gymnastics and dance facilities was arrested after allegedly filming a minor and creating artificial intelligence-generated child sexual abuse mat ... (https://incidentdatabase.ai/cite/1826#8323)"
+  },
+  {
+    "id": "ba3e467e50d6",
+    "title": "North Smithfield Man Charged with Multiple Child Exploitation Offenses Involving Surreptitious Filming of a Minor and Creating AI-Generated Child Sexual Abuse Material with Images of Minors Known to H",
+    "url": "https://www.justice.gov/usao-ri/pr/north-smithfield-man-charged-multiple-child-exploitation-offenses-involving",
+    "source": "AI Incident Database",
+    "via": "AI Incident Database",
+    "lang": "en",
+    "published": "2026-11-14T00:00:00Z",
+    "seen": "2026-11-15T19:05:40Z",
+    "summary": "PROVIDENCE – Joseph L. Mello III, 38, of North Smithfield, Rhode Island, was arrested yesterday, November 9, 2026, in connection with an investigation conducted by Homeland Security Investigations (HSI) and the Lincoln Police Department wit ... (https://incidentdatabase.ai/cite/1826#8322)"
+  },
+  {
+    "id": "aba900425c5f",
+    "title": "兵庫城崎溫泉街自動駕駛巴士免費試乘　11月9日至12月4日平日每天3班",
+    "url": "https://n.yam.com/Article/20261109371447",
+    "source": "AI Incident Database",
+    "via": "AI Incident Database",
+    "lang": "en",
+    "published": "2026-11-14T00:00:00Z",
+    "seen": "2026-11-15T19:05:40Z",
+    "summary": "兵庫縣豐岡市與兼松、全但巴士、損保ジャパン、KDDI及KDDIスマートモビリティ共6個單位，自2026年11月9日起在城崎溫泉街展開自動駕駛巴士實證運行，期間至12月4日（週五），週六、週日與國定假日停駛。 本次以安全駕駛員隨車的Level 2自動駕駛進行，目標是未來在溫泉街實現Level 4正式營運。車輛採用韓國Autonomous a2z公司開發的「ROii」，據該公司調查，這是ROii首度用於日本的實證運行。 巴士行駛JR城崎溫泉站至城崎國際藝術中心附近約1.8公里 ... (https://incidentdatabase.ai/cite/1825#8321)"
+  },
+  {
+    "id": "8a218f42a438",
+    "title": "Kanematsu, Zentan Bus, Sompo Japan, and KDDI Collaborate to Launch an Autonomous Bus Demonstration in Kinosaki Onsen, Toyooka City",
+    "url": "https://www.kanematsu.co.jp/en/press/release/20261109_release",
+    "source": "AI Incident Database",
+    "via": "AI Incident Database",
+    "lang": "en",
+    "published": "2026-11-14T00:00:00Z",
+    "seen": "2026-11-15T19:05:40Z",
+    "summary": "Toyooka City, Hyogo Prefecture (“Toyooka City”); Kanematsu Corporation (“Kanematsu”); Zentan Bus Co., Ltd. (“Zentan Bus”); Sompo Japan Insurance Inc. (“Sompo Japan”); KDDI CORPORATION (“KDDI”); and KDDI Smart Mobility Inc. (“KDDI Smart Mobi ... (https://incidentdatabase.ai/cite/1825#8320)"
+  },
+  {
+    "id": "7d4692438945",
+    "title": "兼松、全但バス、損保ジャパン、KDDIが連携し、 豊岡市・城崎温泉で自動運転バスの実証運行を開始 ～各者の専門性を結集し、温泉街の交通課題解決を目指した社会実装を推進～",
+    "url": "https://www.kanematsu.co.jp/press/release/20261109_release",
+    "source": "AI Incident Database",
+    "via": "AI Incident Database",
+    "lang": "en",
+    "published": "2026-11-14T00:00:00Z",
+    "seen": "2026-11-15T19:05:40Z",
+    "summary": "兵庫県豊岡市（市長: 門間 雄司、以下「豊岡市」）、兼松株式会社（本社: 東京都千代田区、代表取締役社長: 宮部 佳也、以下「兼松」）、全但バス株式会社（本社: 兵庫県養父市、代表取締役社長: 村上 宣人、以下「全但バス」）、損害保険ジャパン株式会社（本社: 東京都新宿区、代表取締役社長: 石川 耕治、以下「損保ジャパン」）、KDDI株式会社（本社: 東京都港区、代表取締役社長CEO: 松田 浩路、以下「KDDI」）および、KDDIスマートモビリティ株式会社（本社: 東京都中 ... (https://incidentdatabase.ai/cite/1825#8319)"
+  },
+  {
+    "id": "fa4c88330462",
+    "title": "一般客乗せた運行初日に…“自動運転バス”が石垣に接触　けが人なし　市は安全確認されるまでバス「運休」決定　兵庫・豊岡市",
+    "url": "https://newsdig.tbs.co.jp/articles/-/3073016",
+    "source": "AI Incident Database",
+    "via": "AI Incident Database",
+    "lang": "en",
+    "published": "2026-11-14T00:00:00Z",
+    "seen": "2026-11-15T19:05:40Z",
+    "summary": "兵庫県豊岡市で9日午前11時半ごろ、自動運転バスが道路沿いの石垣に接触する事故がありました。乗客・乗員らにけが人はいませんでした。 市によりますと、9日午前11時半ごろ、豊岡市の城崎温泉街にあるバス停近くで、運行中だった自動運転バスが、向かい側から走ってきた大型トラックを検知して左側に寄ったところ、道路沿いの石垣に車体をこすって接触しました。 バスには、観光客や市民ら計6人と、運転手役の「オペレーター」とトラブル対応などを担うスタッフ2人の計8人が乗っていて、けが人はいま ... (https://incidentdatabase.ai/cite/1825#8318)"
+  },
+  {
+    "id": "f99ca676c927",
+    "title": "「豊岡市自動運転バス実証運行」の休止について",
+    "url": "https://www.city.toyooka.lg.jp/_res/projects/default_project/_page_/001/039/464/20261109-2.pdf",
+    "source": "AI Incident Database",
+    "via": "AI Incident Database",
+    "lang": "en",
+    "published": "2026-11-14T00:00:00Z",
+    "seen": "2026-11-15T19:05:40Z",
+    "summary": "本日から運行を開始しました自動運転バスについて、下記の通り運休します。 １　運休理由 豊岡市城崎町内において自動運転バス車両と石垣との接触事故が発生しました。 今後の安全運行に万全を期すため、原因の調査を行い、安全が確認されるまで運休します。 ２　運休期間 2026年11月９日（月）から安全確認が終了するまで ３　事故の状況 ⑴　発生時刻：11月９日（月）午前11時31分 ⑵　発生場所：城崎町湯島「元薬師バス停」横 ⑶　事故状況：対向する大型車両を検知し、回 ... (https://incidentdatabase.ai/cite/1825#8317)"
+  },
+  {
+    "id": "242771f84279",
+    "title": "偶然出会った彼女はAI、電話に出た警察官はディープフェイク──急速に巧妙化するAI詐欺",
+    "url": "https://ascii.jp/limit/group/ida/elem/000/004/436/4436553",
+    "source": "AI Incident Database",
+    "via": "AI Incident Database",
+    "lang": "en",
+    "published": "2026-11-14T00:00:00Z",
+    "seen": "2026-11-15T19:05:40Z",
+    "summary": "　ChatGPTやClaude、Geminiといった主要AIを使えば、簡単なアプリなら数分でしっかり動作するものをつくってくれる。 　ちょっとした作業を効率化するのに非常に助かるのだが、問題は、悪用するハードルも大幅に下がっていることだ。この結果、詐欺の手口も、AIの進化によって急速に巧妙化が進んでいる。 　Claudeを開発・提供しているアンソロピック社が2026年9月、自社のClaudeが悪用された事例を集め、レポートとして公表している。 　たとえば、AIをフル活用 ... (https://incidentdatabase.ai/cite/1824#8316)"
+  },
+  {
+    "id": "12c3c2cfb521",
+    "title": "Prosecutors indict 57 over AI-powered romance scam",
+    "url": "https://www.taipeitimes.com/News/front/archives/2026/09/03/2003863596",
+    "source": "AI Incident Database",
+    "via": "AI Incident Database",
+    "lang": "en",
+    "published": "2026-11-14T00:00:00Z",
+    "seen": "2026-11-15T19:05:40Z",
+    "summary": "Taipei prosecutors yesterday indicted 57 people over alleged involvement in a romance scam ring, seeking a 25-year sentence for one. A man surnamed Huang (黃) and his wife, surnamed Hsu (許), allegedly set up a romance scam ring that utilize ... (https://incidentdatabase.ai/cite/1824#8315)"
+  },
+  {
+    "id": "89030f825e51",
+    "title": "刑事局破假愛情詐騙2萬人財損9億 北檢起訴57人求刑25年",
+    "url": "https://www.pbs.npa.gov.tw/ch/app/data/view?id=18740&module=wg183&serno=e709c4f7-7fa1-45ac-bd1e-0e27c0b8714e",
+    "source": "AI Incident Database",
+    "via": "AI Incident Database",
+    "lang": "en",
+    "published": "2026-11-14T00:00:00Z",
+    "seen": "2026-11-15T19:05:40Z",
+    "summary": "刑事局破獲黃姓男子夫妻檔籌組假戀愛詐騙集團，導致2萬多人受害，損失高達9億元，台北地檢署今天偵結起訴57名被告，審酌黃姓主嫌夫妻行徑惡劣，分別求處25年及18年重刑。 具有黑幫背景的黃姓主嫌夫妻檔打從111年開始組成詐騙集團，專門以美女照片註冊交友軟體、社群從事假交往真詐財。刑事局追查發現，集團分工細膩，分別新客、培養及回客組等機手逐漸誘騙被害人購買保健食品、贈送高檔手機，等陷入愛情陷阱再以生活費、手術費及償還債務等名義索討更多財務，為了取信被害人，集團還利用AI變聲軟體及 ... (https://incidentdatabase.ai/cite/1824#8314)"
+  },
+  {
+    "id": "c4f5534f9cd7",
+    "title": "57 indicted over NT$900 million voice-cloning romance scam",
+    "url": "https://focustaiwan.tw/society/202609020019",
+    "source": "AI Incident Database",
+    "via": "AI Incident Database",
+    "lang": "en",
+    "published": "2026-11-14T00:00:00Z",
+    "seen": "2026-11-15T19:05:40Z",
+    "summary": "Taipei, Sept. 2 (CNA) Prosecutors in Taipei on Wednesday indicted 57 people in connection with a sophisticated romance scam that allegedly defrauded more than 20,000 people out of at least NT$900 million (US$28.32 million) using voice-cloni ... (https://incidentdatabase.ai/cite/1824#8313)"
+  },
+  {
+    "id": "3d32c498f4de",
+    "title": "Improper AI use leads to another data incident, more patient notifications",
+    "url": "https://www.healthcareitnews.com/news/improper-ai-use-leads-another-data-incident-more-patient-notifications",
+    "source": "AI Incident Database",
+    "via": "AI Incident Database",
+    "lang": "en",
+    "published": "2026-11-14T00:00:00Z",
+    "seen": "2026-11-15T19:05:40Z",
+    "summary": "A Weill Cornell Medicine radiology research project involving protected health information fed that patient data into an AI tool at NewYork-Presbyterian two months ago, and now patients are being informed that some of their PHI may have bee ... (https://incidentdatabase.ai/cite/1823#8312)"
+  },
+  {
+    "id": "1441efeaaeb4",
+    "title": "Patient info improperly used in radiology AI research, academic institution says",
+    "url": "https://radiologybusiness.com/topics/artificial-intelligence/patient-info-improperly-used-radiology-ai-research-academic-institution-says",
+    "source": "AI Incident Database",
+    "via": "AI Incident Database",
+    "lang": "en",
+    "published": "2026-11-14T00:00:00Z",
+    "seen": "2026-11-15T19:05:40Z",
+    "summary": "Private patient information was improperly used in recent radiology artificial intelligence research, according to an alert from Weill Cornell Medicine shared on Thursday. The noted New York City-based institution says it first found out a ... (https://incidentdatabase.ai/cite/1823#8311)"
+  },
+  {
+    "id": "238a784bc49c",
+    "title": "Weill Cornell patient data entered into AI tools without authorization",
+    "url": "https://www.beckershospitalreview.com/healthcare-information-technology/ai/weill-cornell-patient-data-entered-into-ai-tools-without-authorization",
+    "source": "AI Incident Database",
+    "via": "AI Incident Database",
+    "lang": "en",
+    "published": "2026-11-14T00:00:00Z",
+    "seen": "2026-11-15T19:05:40Z",
+    "summary": "New York City-based Weill Cornell Medicine disclosed that patient health information was entered into AI tools and processed using machine learning without authorization as part of a radiology research study. Weill Cornell learned of the i ... (https://incidentdatabase.ai/cite/1823#8310)"
+  },
+  {
+    "id": "bbd082536515",
+    "title": "Notice to Our Patients of Data Security Incident",
+    "url": "https://weill.cornell.edu/data-security-incident-nov-2026",
+    "source": "AI Incident Database",
+    "via": "AI Incident Database",
+    "lang": "en",
+    "published": "2026-11-14T00:00:00Z",
+    "seen": "2026-11-15T19:05:40Z",
+    "summary": "At Weill Cornell Medicine, we are committed to protecting the confidentiality and security of our patients’ information. This notice concerns a privacy incident involving some patient health information used in an unauthorized capacity in c ... (https://incidentdatabase.ai/cite/1823#8309)"
+  },
+  {
+    "id": "72b97c5db16e",
+    "title": "Joven denuncia que fue tratado como ladrón y expulsado de un Biggie en San Lorenzo",
+    "url": "https://elnacional.com.py/nacionales/joven-denuncia-fue-tratado-como-ladron-expulsado-biggie-san-lorenzo-n82260",
+    "source": "AI Incident Database",
+    "via": "AI Incident Database",
+    "lang": "en",
+    "published": "2026-11-14T00:00:00Z",
+    "seen": "2026-11-15T19:05:40Z",
+    "summary": "Un estudiante de Medicina relató en redes sociales la humillante experiencia que vivió en una sucursal de Biggie Express en San Lorenzo, donde fue señalado como un ladrón y expulsado del local sin posibilidad de defenderse. Según su testim ... (https://incidentdatabase.ai/cite/1822#8308)"
+  },
+  {
+    "id": "e12179ce8a96",
+    "title": "Fue confundido con un ladrón por error en sistema de reconocimiento facial",
+    "url": "https://www.hoy.com.py/nacionales/2025/03/05/fue-confundido-con-un-ladron-por-error-en-sistema-de-reconocimiento-facial",
+    "source": "AI Incident Database",
+    "via": "AI Incident Database",
+    "lang": "en",
+    "published": "2026-11-14T00:00:00Z",
+    "seen": "2026-11-15T19:05:40Z",
+    "summary": "“Entré al supermercado de camino a la parada de buses, cuando de repente una empleada se me acerca y me dice que no era bienvenido. Le pregunté por qué y me respondió\\*\\*: ‘Vos asaltaste ayer este local y te identificaron.\\*\\* No sos bienve ... (https://incidentdatabase.ai/cite/1822#8307)"
+  },
+  {
+    "id": "0e5e9c0b4c13",
+    "title": "Ligan a proceso a menores acusados de crear material inapropiado con IA en centro educativo de zona 17",
+    "url": "https://lahora.gt/nacionales/sosegueda/2025/01/24/ligan-a-proceso-a-menores-acusados-de-crear-material-inapropiado-con-ia-en-centro-educativo-de-zona-17",
+    "source": "AI Incident Database",
+    "via": "AI Incident Database",
+    "lang": "en",
+    "published": "2026-11-14T00:00:00Z",
+    "seen": "2026-11-15T19:05:40Z",
+    "summary": "El juzgado de Adolescentes en conflicto con la ley penal ligo a proceso a cuatro menores que son señalados de crear imágenes pornográficas de sus compañeras de estudio utilizando inteligencia artificial y posteriormente, comercializar el ma ... (https://incidentdatabase.ai/cite/1821#8306)"
+  },
+  {
+    "id": "9308e20f0ec1",
+    "title": "Ligan a proceso a exestudiantes del colegio Continental Americano por incidente de fotomontaje con imágenes de sus compañeras",
+    "url": "https://agn.gt/ligan-a-proceso-a-exestudiantes-del-colegio-continental-americano-por-incidente-de-fotomontaje-a-imagenes-de-sus-companeras",
+    "source": "AI Incident Database",
+    "via": "AI Incident Database",
+    "lang": "en",
+    "published": "2026-11-14T00:00:00Z",
+    "seen": "2026-11-15T19:05:40Z",
+    "summary": "Ciudad de Guatemala, 23 ene. (AGN).- Los cuatro adolescentes señalados en el caso de la difusión de fotomontajes del rostro de sus compañeras con cuerpos desnudos en el colegio Continental Americano fueron ligados a proceso por tres delitos ... (https://incidentdatabase.ai/cite/1821#8305)"
+  },
+  {
+    "id": "94b72cb24423",
+    "title": "Se registran seis denuncias tras incidente en colegio por presunta violación de derechos de adolescentes",
+    "url": "https://www.prensalibre.com/guatemala/justicia/se-registran-seis-denuncias-tras-incidente-en-colegio-por-presunta-violacion-de-derechos-de-adolescentes-breaking",
+    "source": "AI Incident Database",
+    "via": "AI Incident Database",
+    "lang": "en",
+    "published": "2026-11-14T00:00:00Z",
+    "seen": "2026-11-15T19:05:40Z",
+    "summary": "El Ministerio Público (MP) confirmó que hay seis denuncias que investiga por la posible violación de derechos de algunas estudiantes de un colegio en la zona 17 capitalina, al supuestamente utilizar sus fotografías y crear en contenidos por ... (https://incidentdatabase.ai/cite/1821#8304)"
+  },
+  {
+    "id": "7bdcf717922a",
+    "title": "Vicepresidenta anuncia acciones y PGN presenta denuncia por vulneración de derechos de adolescentes en un colegio",
+    "url": "https://agn.gt/vicepresidenta-anuncia-acciones-y-pgn-presenta-denuncia-por-vulneracion-de-derechos-de-adolescentes-en-un-colegio",
+    "source": "AI Incident Database",
+    "via": "AI Incident Database",
+    "lang": "en",
+    "published": "2026-11-14T00:00:00Z",
+    "seen": "2026-11-15T19:05:40Z",
+    "summary": "Ciudad de Guatemala, 12 ago (AGN).- Desde la tarde de este lunes 12 de agosto han circulado en redes sociales denuncias de vulneración de derechos de adolescentes en un centro educativo privado de la ciudad de Guatemala. Según explican las ... (https://incidentdatabase.ai/cite/1821#8303)"
+  },
+  {
+    "id": "60ba23ff8ff7",
+    "title": "Cierran caso Snowland Panamá e imponen multa de $25 mil por publicidad engañosa",
+    "url": "https://www.tvn-2.com/nacionales/caso-snowland-panama-imponen-multa-acodeco-publicidad-enganosa_1_2262329.html",
+    "source": "AI Incident Database",
+    "via": "AI Incident Database",
+    "lang": "en",
+    "published": "2026-11-14T00:00:00Z",
+    "seen": "2026-11-15T19:05:40Z",
+    "summary": "Ciudad de Panamá, Panamá/La Autoridad de Protección al Consumidor y Defensa de la Competencia (Acodeco) cerró formalmente el proceso relacionado con Snowland Panamá, evento promocionado como una experiencia de nieve que se realizó en diciem ... (https://incidentdatabase.ai/cite/1820#8302)"
+  },
+  {
+    "id": "daab7a62fb65",
+    "title": "Snowland Panamá acumula varias denuncias, investigación continúa en curso",
+    "url": "https://www.tvn-2.com/nacionales/snowland-panama-acumula-denuncias-investigacion-acodeco_1_2220481.html",
+    "source": "AI Incident Database",
+    "via": "AI Incident Database",
+    "lang": "en",
+    "published": "2026-11-14T00:00:00Z",
+    "seen": "2026-11-15T19:05:40Z",
+    "summary": "Ciudad de Panamá, Panamá/La Autoridad de Protección al Consumidor y Defensa de la Competencia (Acodeco) confirmó la recepción de denuncias formales por presunta publicidad engañosa relacionadas con la llamada experiencia Snowland Panamá, un ... (https://incidentdatabase.ai/cite/1820#8301)"
+  },
+  {
+    "id": "bd063aa7276e",
+    "title": "Asistentes denuncian incumplimientos en evento Snowland Panamá; Acodeco inicia pesquisa",
+    "url": "https://www.prensa.com/economia/asistentes-denuncian-incumplimientos-en-evento-snowland-panama-y-acodeco-inicia-pesquisa",
+    "source": "AI Incident Database",
+    "via": "AI Incident Database",
+    "lang": "en",
+    "published": "2026-11-14T00:00:00Z",
+    "seen": "2026-11-15T19:05:40Z",
+    "summary": "Lo que fue promocionado como “el evento del año” terminó convertido en una ola de denuncias tras su inauguración, luego de que decenas de asistentes compartieran en redes sociales videos y testimonios asegurando que SnowlandPTY no cumplió c ... (https://incidentdatabase.ai/cite/1820#8300)"
+  },
+  {
+    "id": "918c0edaba4e",
+    "title": "Warning about new misleading advertisements: misuse of the GOVSI podcast",
+    "url": "https://www.gov.si/en/news/2025-10-27-warning-about-new-misleading-advertisements-misuse-of-the-govsi-podcast",
+    "source": "AI Incident Database",
+    "via": "AI Incident Database",
+    "lang": "en",
+    "published": "2026-11-14T00:00:00Z",
+    "seen": "2026-11-15T19:05:40Z",
+    "summary": "The Government of the Republic of Slovenia warns that misleading advertisements promoting questionable health products have once again appeared on Facebook, Instagram and other platforms. To give their product an appearance of legitimacy, t ... (https://incidentdatabase.ai/cite/1819#8299)"
+  },
+  {
+    "id": "393ec54138b5",
+    "title": "V oglasu za kremo za sklepe zlorabili podobo kirurga: \"Videti je bil kot čisto pravi dr. Erik Brecelj\"",
+    "url": "https://n1info.si/novice/slovenija/v-oglasu-za-kremo-za-sklepe-zlorabili-podobo-kirurga-videti-je-bil-kot-cisto-pravi-dr-erik-brecelj",
+    "source": "AI Incident Database",
+    "via": "AI Incident Database",
+    "lang": "en",
+    "published": "2026-11-14T00:00:00Z",
+    "seen": "2026-11-15T19:05:40Z",
+    "summary": "Na Facebooku se je pojavil nov goljufiv oglas, v katerem so zlorabili podobo onkološkega kirurga dr. Erika Breclja za prodajo kreme za sklepe. To je le ena od številnih prevar, ki zlorabljajo podobo zdravnikov. \"Pri takih oglasih gre za izk ... (https://incidentdatabase.ai/cite/1819#8298)"
+  },
+  {
+    "id": "0ef728cbc31f",
+    "title": "Zaradi kraje identitete zdravnika Breclja podali kazensko ovadbo",
+    "url": "https://www.24ur.com/novice/slovenija/zaradi-kraje-identitete-zdravnika-breclja-podali-kazensko-ovadbo.html",
+    "source": "AI Incident Database",
+    "via": "AI Incident Database",
+    "lang": "en",
+    "published": "2026-11-14T00:00:00Z",
+    "seen": "2026-11-15T19:05:40Z",
+    "summary": "V prirejenem videoposnetku je uporabljen resničen videoposnetek Erika Breclja, medtem ko so bili vsebina, zvok in drugi elementi naknadno spremenjeni. V posnetku je Breclju pripisana izjava, ki je ni nikoli podal. V posnetku Brecelj promovi ... (https://incidentdatabase.ai/cite/1819#8297)"
+  },
+  {
+    "id": "9aa448f82823",
+    "title": "Zdravniška zbornica Slovenije zaradi zlorabe osebnih podatkov dr. Erika Breclja podala kazensko ovadbo",
+    "url": "https://www.zdravniskazbornica.si/informacije-publikacije-in-analize/obvestila/2026/05/18/zdravni%C5%A1ka-zbornica-slovenije-zaradi-zlorabe-osebnih-podatkov-dr.-erika-breclja-podala-kazensko-ovadbo",
+    "source": "AI Incident Database",
+    "via": "AI Incident Database",
+    "lang": "en",
+    "published": "2026-11-14T00:00:00Z",
+    "seen": "2026-11-15T19:05:40Z",
+    "summary": "Zdravniška zbornica Slovenije je 17. aprila 2026 na Policijski postaji Ljubljana Bežigrad podala ovadbo zaradi zlorabe osebnih podatkov dr. Erika Breclja po 143. členu Kazenskega zakonika. Ovadba se nanaša na prirejen videoposnetek, ustvar ... (https://incidentdatabase.ai/cite/1819#8296)"
+  },
+  {
+    "id": "7c4558838073",
+    "title": "Kraja identitete dr. Erika Breclja",
+    "url": "https://www.zdravniskazbornica.si/informacije-publikacije-in-analize/obvestila/2026/04/17/kraja-identitete-dr.-erika-breclja",
+    "source": "AI Incident Database",
+    "via": "AI Incident Database",
+    "lang": "en",
+    "published": "2026-11-14T00:00:00Z",
+    "seen": "2026-11-15T19:05:40Z",
+    "summary": "Na Zdravniški zbornici Slovenije ponovno opozarjamo na primer zavajanja in kraje identitete zdravnika v spletnih objavah, ki izkoriščajo stisko ljudi ter zavajajo javnost. Ugotavljamo, da gre za ponovno zlorabo identitete dr. Erika Brecelj ... (https://incidentdatabase.ai/cite/1819#8295)"
   },
   {
     "id": "9f41247a7c75",
@@ -6479,23 +6512,23 @@
     "summary": ""
   },
   {
-    "id": "cf4504f5c73c",
-    "title": "В США возобновили авиасообщение: Трамп не верит, что сбой произошел из-за кибератаки или ИИ",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBsRmFaZXR2SFY2NG1qVFBMaGxMOGtMRmEzdWx2b0Y0ZXllc0c2VUVPRlRKYnBkY0RSZndmb0VIdmEtVzNleUNlMVk1YzQ0YUQ3aWk0SDhUdnl4OFd4dDQ1MXRBRGPSAXBBVV95cUxNdzBQQjJNc2gtbkwtaUV0VGlSYm8yR2JXQjF6NDNEMmYtWE5qNTVLdnhTcFg0VWVBUGgxNE01VEZ2ZjVDZ2thazRxVUZHcnlXTTA0YkVpYVNKWC1wZDZ1NV9pTG9VTmhUeGtlUnZza0hM?oc=5",
-    "source": "Українська правда",
-    "via": "Google News (Русский)",
-    "lang": "ru",
-    "published": "2026-11-14T03:15:00Z",
-    "seen": "2026-11-14T07:35:42Z",
-    "summary": ""
-  },
-  {
     "id": "03906103d42a",
     "title": "Flights resume across US: Trump doubts system failure was caused by cyberattack or AI",
     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBXamxHVC1hS2FoeGd0LUpvcFpBTEVRTGxvalZmbmVNX0ZpOVplUTFPZmxoWXUtSWpnY3RJZm9KOUZvbUVYOW9tMTV1X1hRdENZU1JGYkRZeEJWcFRFNUtiNmZySnPSAXBBVV95cUxPRE9mamUtMHBKb3lGUE5QUUE1aDZkYzVQMUJrNzV1aFZkdERYaHpEUXlaOUI4aURKcm5ucmU2M0FreUl2dzNnb1NsR3hJeXk3MUtPN1M1bUZQTjZaRlZPSGdYRnp1dDJWSWgtSGlGUnBt?oc=5",
     "source": "Українська правда",
     "via": "Google News (English)",
     "lang": "en",
+    "published": "2026-11-14T03:15:00Z",
+    "seen": "2026-11-14T07:35:42Z",
+    "summary": ""
+  },
+  {
+    "id": "cf4504f5c73c",
+    "title": "В США возобновили авиасообщение: Трамп не верит, что сбой произошел из-за кибератаки или ИИ",
+    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBsRmFaZXR2SFY2NG1qVFBMaGxMOGtMRmEzdWx2b0Y0ZXllc0c2VUVPRlRKYnBkY0RSZndmb0VIdmEtVzNleUNlMVk1YzQ0YUQ3aWk0SDhUdnl4OFd4dDQ1MXRBRGPSAXBBVV95cUxNdzBQQjJNc2gtbkwtaUV0VGlSYm8yR2JXQjF6NDNEMmYtWE5qNTVLdnhTcFg0VWVBUGgxNE01VEZ2ZjVDZ2thazRxVUZHcnlXTTA0YkVpYVNKWC1wZDZ1NV9pTG9VTmhUeGtlUnZza0hM?oc=5",
+    "source": "Українська правда",
+    "via": "Google News (Русский)",
+    "lang": "ru",
     "published": "2026-11-14T03:15:00Z",
     "seen": "2026-11-14T07:35:42Z",
     "summary": ""
@@ -7832,114 +7865,15 @@
     "summary": ""
   },
   {
-    "id": "bc6fbc4a00a8",
-    "title": "Dansk mand siger, at ChatGPT fik ham smidt ud af sin bolig – nu sagsøger han amerikansk gigant",
-    "url": "https://www.dr.dk/nyheder/penge/dansk-mand-siger-chatgpt-fik-ham-smidt-ud-af-sin-bolig-nu-sagsoeger-han-amerikansk-gigant",
+    "id": "b3e5f92f8667",
+    "title": "BOSSAI: Inside the AI attack mesh that targeted Taiwan’s emergency services",
+    "url": "https://www.acronis.com/en/tru/posts/bossai-inside-the-ai-attack-mesh-that-targeted-taiwans-emergency-services",
     "source": "AI Incident Database",
     "via": "AI Incident Database",
     "lang": "en",
     "published": "2026-11-12T00:00:00Z",
     "seen": "2026-11-13T19:35:43Z",
-    "summary": "En 60-årig mand fra Sydsjælland fulgte ChatGPT's råd i en strid med sin udlejer. Det endte med, at han blev smidt ud af sit hjem. Sådan lyder påstanden fra den danske mand mod selskabet bag ChatGPT, OpenAI, i et søgsmål, der er indgivet ve ... (https://incidentdatabase.ai/cite/1818#8294)"
-  },
-  {
-    "id": "196c8515e715",
-    "title": "Major Lawsuit Filed Against OpenAI for Dangerous Falsehoods and Design That Left Man Unhoused, Trapped in False Digital Reality",
-    "url": "https://clarksonlawfirm.com/chatgpt-delusion-lawsuit",
-    "source": "AI Incident Database",
-    "via": "AI Incident Database",
-    "lang": "en",
-    "published": "2026-11-12T00:00:00Z",
-    "seen": "2026-11-13T19:35:43Z",
-    "summary": "Key Points: Alleged Design Defect: The lawsuit alleges OpenAI designed ChatGPT to keep a user engaged for 41,000+ messages while reinforcing false beliefs. Alleged Real-World Harm: The complaint alleges that poor legal advice from ChatGPT ... (https://incidentdatabase.ai/cite/1818#8293)"
-  },
-  {
-    "id": "312f791bea13",
-    "title": "Man claims in lawsuit that ChatGPT told him to stop paying rent and got him evicted",
-    "url": "https://www.mercurynews.com/2026/11/05/chatgpt-told-him-stop-paying-rent-evicted",
-    "source": "AI Incident Database",
-    "via": "AI Incident Database",
-    "lang": "en",
-    "published": "2026-11-12T00:00:00Z",
-    "seen": "2026-11-13T19:35:43Z",
-    "summary": "A Danish man claims ChatGPT advised him to stop paying rent amid a dispute with his landlord, leading him to be evicted and end up living out of a car with his two dogs and a blanket. Klaus Elmfelt, in his lawsuit filed this week in San Fr ... (https://incidentdatabase.ai/cite/1818#8292)"
-  },
-  {
-    "id": "845ba5b2abbf",
-    "title": "Klaus Elmfelt Aerenlund v. OpenAI et al.: Complaint",
-    "url": "https://clarksonlawfirm.com/wp-content/uploads/2026/11/2026.11.02-OpenAI-COMPLAINT-FINAL.pdf",
-    "source": "AI Incident Database",
-    "via": "AI Incident Database",
-    "lang": "en",
-    "published": "2026-11-12T00:00:00Z",
-    "seen": "2026-11-13T19:35:43Z",
-    "summary": "AIID editor’s note: This report is abridged from a 38-page civil complaint. Excerpts reproduce selected numbered allegations concerning the tenant’s interactions with ChatGPT, rent-withholding advice, Danish eviction proceedings, alleged re ... (https://incidentdatabase.ai/cite/1818#8291)"
-  },
-  {
-    "id": "38f29c6d25fb",
-    "title": "How a Developer Endpoint Became the Path to Binance’s $6.3B Heist",
-    "url": "https://www.paloaltonetworks.com/blog/security-operations/how-a-developer-endpoint-became-the-path-to-binances-6-3b-heist",
-    "source": "AI Incident Database",
-    "via": "AI Incident Database",
-    "lang": "en",
-    "published": "2026-11-12T00:00:00Z",
-    "seen": "2026-11-13T19:35:43Z",
-    "summary": "Could the largest crypto heist in history have been prevented? By analyzing the telemetry, timeline, and attack vectors disclosed in Binance’s post-incident report1, one conclusion stands out: the attackers should never have made it past t ... (https://incidentdatabase.ai/cite/1817#8290)"
-  },
-  {
-    "id": "127d9b7a8a4a",
-    "title": "North Korea Responsible for $6 Billion+ Binance Attack",
-    "url": "https://www.fbi.gov/investigate/cyber/alerts/2026/north-korea-responsible-for-6-billion-binance-attack",
-    "source": "AI Incident Database",
-    "via": "AI Incident Database",
-    "lang": "en",
-    "published": "2026-11-12T00:00:00Z",
-    "seen": "2026-11-13T19:35:43Z",
-    "summary": "The Federal Bureau of Investigation (FBI) is releasing information advising the Democratic People's Republic of Korea (North Korea) was responsible for the theft of more than $6 billion USD in virtual assets from cryptocurrency exchange Bin ... (https://incidentdatabase.ai/cite/1817#8289)"
-  },
-  {
-    "id": "dbea55869969",
-    "title": "Binance hackers used fake job interview in $6.3 billion attack",
-    "url": "https://www.reuters.com/world/binance-says-hackers-used-fake-job-interview-compromise-computer-before-63-2026-11-03",
-    "source": "AI Incident Database",
-    "via": "AI Incident Database",
-    "lang": "en",
-    "published": "2026-11-12T00:00:00Z",
-    "seen": "2026-11-13T19:35:43Z",
-    "summary": "PARIS/DETROIT, Nov 3 (Reuters) - Hackers used a bogus job interview and software hidden in an ​advertisement to compromise the computers of two Binance software engineers before using a third's computer to drain $6.3 billion worth of crypto ... (https://incidentdatabase.ai/cite/1817#8288)"
-  },
-  {
-    "id": "8c8d2bb3eb7c",
-    "title": "29 October 2026 Binance Security Incident: Initial Findings and Response Update",
-    "url": "https://www.binance.com/en/blog/community/3229153443759566763",
-    "source": "AI Incident Database",
-    "via": "AI Incident Database",
-    "lang": "en",
-    "published": "2026-11-12T00:00:00Z",
-    "seen": "2026-11-13T19:35:43Z",
-    "summary": "On 29 October 2026, Binance experienced a serious and highly sophisticated security incident. This should not have happened, and we apologise for the concern, disruption and uncertainty it caused our users, partners and the wider industry. ... (https://incidentdatabase.ai/cite/1817#8287)"
-  },
-  {
-    "id": "cef928fcdfe6",
-    "title": "Man wrongly jailed after AI mismatch can pursue lawsuit for now",
-    "url": "https://www.reuters.com/legal/government/man-wrongly-jailed-after-ai-mismatch-can-pursue-lawsuit-now-2026-11-10",
-    "source": "AI Incident Database",
-    "via": "AI Incident Database",
-    "lang": "en",
-    "published": "2026-11-12T00:00:00Z",
-    "seen": "2026-11-13T19:35:43Z",
-    "summary": "WASHINGTON, Nov 10 (Reuters) - A federal judge in Kentucky has allowed a lawsuit to proceed against a police detective for allegedly relying exclusively on AI facial-recognition technology to identify a check fraud suspect, leading to the a ... (https://incidentdatabase.ai/cite/1816#8286)"
-  },
-  {
-    "id": "a748aa16404b",
-    "title": "Memorandum Opinion and Order",
-    "url": "https://law.justia.com/cases/federal/district-courts/kentucky/kyedce/2%3A2026cv00004/110774/26",
-    "source": "AI Incident Database",
-    "via": "AI Incident Database",
-    "lang": "en",
-    "published": "2026-11-12T00:00:00Z",
-    "seen": "2026-11-13T19:35:43Z",
-    "summary": "In this year, when we celebrate the two-hundred-fiftieth anniversary of our Nation’s independence, it is as important as ever to reflect on the principles that animated the creation of our Republic. Among those principles is the protection ... (https://incidentdatabase.ai/cite/1816#8285)"
+    "summary": "Introduction In recent weeks, the Acronis TRU team has identified and investigated an agentic, AI-driven campaign orchestrated by a lone operator based out of Taiwan, targeting hundreds of organizations in eleven countries and across sever ... (https://incidentdatabase.ai/cite/1815#8283)"
   },
   {
     "id": "4d1bbed25769",
@@ -7953,15 +7887,114 @@
     "summary": "A single attacker used a network of specialized AI agents to target hundreds of organizations across 11 countries, including emergency services in Taiwan, according to a new investigation by the Acronis Threat Research Unit (TRU). The findi ... (https://incidentdatabase.ai/cite/1815#8284)"
   },
   {
-    "id": "b3e5f92f8667",
-    "title": "BOSSAI: Inside the AI attack mesh that targeted Taiwan’s emergency services",
-    "url": "https://www.acronis.com/en/tru/posts/bossai-inside-the-ai-attack-mesh-that-targeted-taiwans-emergency-services",
+    "id": "a748aa16404b",
+    "title": "Memorandum Opinion and Order",
+    "url": "https://law.justia.com/cases/federal/district-courts/kentucky/kyedce/2%3A2026cv00004/110774/26",
     "source": "AI Incident Database",
     "via": "AI Incident Database",
     "lang": "en",
     "published": "2026-11-12T00:00:00Z",
     "seen": "2026-11-13T19:35:43Z",
-    "summary": "Introduction In recent weeks, the Acronis TRU team has identified and investigated an agentic, AI-driven campaign orchestrated by a lone operator based out of Taiwan, targeting hundreds of organizations in eleven countries and across sever ... (https://incidentdatabase.ai/cite/1815#8283)"
+    "summary": "In this year, when we celebrate the two-hundred-fiftieth anniversary of our Nation’s independence, it is as important as ever to reflect on the principles that animated the creation of our Republic. Among those principles is the protection ... (https://incidentdatabase.ai/cite/1816#8285)"
+  },
+  {
+    "id": "cef928fcdfe6",
+    "title": "Man wrongly jailed after AI mismatch can pursue lawsuit for now",
+    "url": "https://www.reuters.com/legal/government/man-wrongly-jailed-after-ai-mismatch-can-pursue-lawsuit-now-2026-11-10",
+    "source": "AI Incident Database",
+    "via": "AI Incident Database",
+    "lang": "en",
+    "published": "2026-11-12T00:00:00Z",
+    "seen": "2026-11-13T19:35:43Z",
+    "summary": "WASHINGTON, Nov 10 (Reuters) - A federal judge in Kentucky has allowed a lawsuit to proceed against a police detective for allegedly relying exclusively on AI facial-recognition technology to identify a check fraud suspect, leading to the a ... (https://incidentdatabase.ai/cite/1816#8286)"
+  },
+  {
+    "id": "8c8d2bb3eb7c",
+    "title": "29 October 2026 Binance Security Incident: Initial Findings and Response Update",
+    "url": "https://www.binance.com/en/blog/community/3229153443759566763",
+    "source": "AI Incident Database",
+    "via": "AI Incident Database",
+    "lang": "en",
+    "published": "2026-11-12T00:00:00Z",
+    "seen": "2026-11-13T19:35:43Z",
+    "summary": "On 29 October 2026, Binance experienced a serious and highly sophisticated security incident. This should not have happened, and we apologise for the concern, disruption and uncertainty it caused our users, partners and the wider industry. ... (https://incidentdatabase.ai/cite/1817#8287)"
+  },
+  {
+    "id": "dbea55869969",
+    "title": "Binance hackers used fake job interview in $6.3 billion attack",
+    "url": "https://www.reuters.com/world/binance-says-hackers-used-fake-job-interview-compromise-computer-before-63-2026-11-03",
+    "source": "AI Incident Database",
+    "via": "AI Incident Database",
+    "lang": "en",
+    "published": "2026-11-12T00:00:00Z",
+    "seen": "2026-11-13T19:35:43Z",
+    "summary": "PARIS/DETROIT, Nov 3 (Reuters) - Hackers used a bogus job interview and software hidden in an ​advertisement to compromise the computers of two Binance software engineers before using a third's computer to drain $6.3 billion worth of crypto ... (https://incidentdatabase.ai/cite/1817#8288)"
+  },
+  {
+    "id": "127d9b7a8a4a",
+    "title": "North Korea Responsible for $6 Billion+ Binance Attack",
+    "url": "https://www.fbi.gov/investigate/cyber/alerts/2026/north-korea-responsible-for-6-billion-binance-attack",
+    "source": "AI Incident Database",
+    "via": "AI Incident Database",
+    "lang": "en",
+    "published": "2026-11-12T00:00:00Z",
+    "seen": "2026-11-13T19:35:43Z",
+    "summary": "The Federal Bureau of Investigation (FBI) is releasing information advising the Democratic People's Republic of Korea (North Korea) was responsible for the theft of more than $6 billion USD in virtual assets from cryptocurrency exchange Bin ... (https://incidentdatabase.ai/cite/1817#8289)"
+  },
+  {
+    "id": "38f29c6d25fb",
+    "title": "How a Developer Endpoint Became the Path to Binance’s $6.3B Heist",
+    "url": "https://www.paloaltonetworks.com/blog/security-operations/how-a-developer-endpoint-became-the-path-to-binances-6-3b-heist",
+    "source": "AI Incident Database",
+    "via": "AI Incident Database",
+    "lang": "en",
+    "published": "2026-11-12T00:00:00Z",
+    "seen": "2026-11-13T19:35:43Z",
+    "summary": "Could the largest crypto heist in history have been prevented? By analyzing the telemetry, timeline, and attack vectors disclosed in Binance’s post-incident report1, one conclusion stands out: the attackers should never have made it past t ... (https://incidentdatabase.ai/cite/1817#8290)"
+  },
+  {
+    "id": "845ba5b2abbf",
+    "title": "Klaus Elmfelt Aerenlund v. OpenAI et al.: Complaint",
+    "url": "https://clarksonlawfirm.com/wp-content/uploads/2026/11/2026.11.02-OpenAI-COMPLAINT-FINAL.pdf",
+    "source": "AI Incident Database",
+    "via": "AI Incident Database",
+    "lang": "en",
+    "published": "2026-11-12T00:00:00Z",
+    "seen": "2026-11-13T19:35:43Z",
+    "summary": "AIID editor’s note: This report is abridged from a 38-page civil complaint. Excerpts reproduce selected numbered allegations concerning the tenant’s interactions with ChatGPT, rent-withholding advice, Danish eviction proceedings, alleged re ... (https://incidentdatabase.ai/cite/1818#8291)"
+  },
+  {
+    "id": "312f791bea13",
+    "title": "Man claims in lawsuit that ChatGPT told him to stop paying rent and got him evicted",
+    "url": "https://www.mercurynews.com/2026/11/05/chatgpt-told-him-stop-paying-rent-evicted",
+    "source": "AI Incident Database",
+    "via": "AI Incident Database",
+    "lang": "en",
+    "published": "2026-11-12T00:00:00Z",
+    "seen": "2026-11-13T19:35:43Z",
+    "summary": "A Danish man claims ChatGPT advised him to stop paying rent amid a dispute with his landlord, leading him to be evicted and end up living out of a car with his two dogs and a blanket. Klaus Elmfelt, in his lawsuit filed this week in San Fr ... (https://incidentdatabase.ai/cite/1818#8292)"
+  },
+  {
+    "id": "196c8515e715",
+    "title": "Major Lawsuit Filed Against OpenAI for Dangerous Falsehoods and Design That Left Man Unhoused, Trapped in False Digital Reality",
+    "url": "https://clarksonlawfirm.com/chatgpt-delusion-lawsuit",
+    "source": "AI Incident Database",
+    "via": "AI Incident Database",
+    "lang": "en",
+    "published": "2026-11-12T00:00:00Z",
+    "seen": "2026-11-13T19:35:43Z",
+    "summary": "Key Points: Alleged Design Defect: The lawsuit alleges OpenAI designed ChatGPT to keep a user engaged for 41,000+ messages while reinforcing false beliefs. Alleged Real-World Harm: The complaint alleges that poor legal advice from ChatGPT ... (https://incidentdatabase.ai/cite/1818#8293)"
+  },
+  {
+    "id": "bc6fbc4a00a8",
+    "title": "Dansk mand siger, at ChatGPT fik ham smidt ud af sin bolig – nu sagsøger han amerikansk gigant",
+    "url": "https://www.dr.dk/nyheder/penge/dansk-mand-siger-chatgpt-fik-ham-smidt-ud-af-sin-bolig-nu-sagsoeger-han-amerikansk-gigant",
+    "source": "AI Incident Database",
+    "via": "AI Incident Database",
+    "lang": "en",
+    "published": "2026-11-12T00:00:00Z",
+    "seen": "2026-11-13T19:35:43Z",
+    "summary": "En 60-årig mand fra Sydsjælland fulgte ChatGPT's råd i en strid med sin udlejer. Det endte med, at han blev smidt ud af sit hjem. Sådan lyder påstanden fra den danske mand mod selskabet bag ChatGPT, OpenAI, i et søgsmål, der er indgivet ve ... (https://incidentdatabase.ai/cite/1818#8294)"
   },
   {
     "id": "c983263edfb4",
@@ -8763,39 +8796,6 @@
     "via": "Google News (English)",
     "lang": "en",
     "published": "2026-11-12T17:54:12Z",
-    "seen": "2026-11-13T14:35:45Z",
-    "summary": ""
-  },
-  {
-    "id": "25571383cf0a",
-    "title": "AI Scams: What families should know this holiday season",
-    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOQnFLckdhdTdTcWhDNGtDZlpqM2p0V1B2Mm9zSF9udGtVeU10aUNYXy1ibU1qaWVSM09tOXpsa1RGaWw1eVN6ZHowbkVKZF9UY2VtSTRxMkFkelN5c2xGZG1BS3pTLWYtbHZHM1ktZVY1eDlqNzBKcVE3S1NCVVIzajVUQkw0enA5QjNJLVg4ZDRGWVcx0gGoAUFVX3lxTE9wazVuRHNVUlBNVFNxdFFUc08wbVgzRC1xMVRJamUxWU1NSnMyaGVWZ1hFTk11Qmc4NExIUUVhb1FQVmFnMUgzMzB1dTByUFRONnVTQVhKZVhwWGRyeGptUmt3ZjJRclktZk9ZeS14X0tzZ2lyS2ZTU0s5RkV6ckozVEFnOVcwUTA2OGlSUG9XeHg2TnZxTHVxbVFoZzcxdjQtTXh3NGdjaw?oc=5",
-    "source": "Fox 10 News",
-    "via": "Google News (English)",
-    "lang": "en",
-    "published": "2026-11-12T17:39:00Z",
-    "seen": "2026-11-13T14:35:45Z",
-    "summary": ""
-  },
-  {
-    "id": "99c1eb8d00b1",
-    "title": "AI Proving Grounds Consortium Highlights Urgency for Preemptive Security as AI Accelerates Cyberattacks",
-    "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNd2tnSU91bnhnNWZQYkJFNVRwMGE2Nm5BRDFzajVBeS1Uajk5VEZER1FuSjJqWG1obm84bU43UWh4YkF4amhhd1dPUjQ2aWFwQkpjZWRITEpZSkQyaWstZzVlaVBaMk02RmNpUGNqeG5EOEFNV2lyV2JlbEl3Nm1wQXRGUEhqRlpDemtDQklfeFhlWWNSRmJmdnNfUEJRdGROTkdTaTc0bzVWZkFSdFJPYkRlT3BmSDllQ3RMdWcyM0hobWtfXzYybHZvZDdSVzRtUnlVYTc5bmdHbWpRUkh4RTJ6YVVTdGlqX3lILXBSN3g2WW9ZTVhZ?oc=5",
-    "source": "Morningstar",
-    "via": "Google News (English)",
-    "lang": "en",
-    "published": "2026-11-12T16:57:00Z",
-    "seen": "2026-11-13T14:35:45Z",
-    "summary": ""
-  },
-  {
-    "id": "237e865d1f6a",
-    "title": "AI found widespread IoT vulnerabilities more quickly and cheaply than humans could",
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVHBYaWw1LVpERThucXY5dDV3aWtBZ2hFSjNhTURsSzJaTWtPTzUzR0ZOXzVzX0RhYjhhNy1DVGQ3VzE1S0ZNRnFlR2dBdm9fR3lRVVgxLUtKQnNKaERBWUV4Znk0V3lfRUk3S3A2WXN3U0tscExkZ0FlQ1R6VjFTX2ZsczFOQ0JfVU9xOXp2TnFUWnM0T1owb3NESXlJMFltUVhENUlqbDBFVlk?oc=5",
-    "source": "Cybersecurity Dive",
-    "via": "Google News (English)",
-    "lang": "en",
-    "published": "2026-11-12T16:14:57Z",
     "seen": "2026-11-13T14:35:45Z",
     "summary": ""
   }
