@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-17T06:35:47Z",
+  "updated_at": "2026-11-17T07:05:43Z",
   "wire_items": 800,
-  "new_items": 434,
+  "new_items": 449,
   "candidates": 62,
   "incidents": 568,
   "feeds_ok": [
@@ -53,6 +53,7 @@
     "Reddit r/netsec",
     "Europol",
     "FBI IC3 alerts",
+    "Google News chatbot harm (EN)",
     "Google News chatbot harm (العربية)",
     "Google News chatbot harm (FR)",
     "BIS press releases",
@@ -74,18 +75,17 @@
     "US FDA",
     "US Election Assistance Commission",
     "UN News",
-    "Elysee (France)"
+    "Elysee (France)",
+    "Google News (official warnings)"
   ],
   "feeds_failed": [
     "Google News (Español)",
     "Google News (العربية)",
     "US court filings (CourtListener)",
-    "Google News chatbot harm (EN)",
     "Google News chatbot harm (ES)",
     "European Commission",
     "European Parliament",
-    "EDPB",
-    "Google News (official warnings)"
+    "EDPB"
   ],
   "triage": "triage failed: all 18 batches failed: API 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"r"
 }
