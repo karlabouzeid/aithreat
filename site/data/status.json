@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-17T10:39:44Z",
+  "updated_at": "2026-11-17T11:05:43Z",
   "wire_items": 800,
-  "new_items": 446,
-  "candidates": 62,
+  "new_items": 457,
+  "candidates": 61,
   "incidents": 568,
   "feeds_ok": [
     "BleepingComputer",
@@ -87,5 +87,5 @@
     "European Parliament",
     "EDPB"
   ],
-  "triage": "triage failed: all 18 batches failed: API 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"r"
+  "triage": "triage failed: all 19 batches failed: API 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"r"
 }
