@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-17T23:35:47Z",
+  "updated_at": "2026-11-18T00:05:47Z",
   "wire_items": 800,
-  "new_items": 455,
+  "new_items": 464,
   "candidates": 58,
   "incidents": 568,
   "feeds_ok": [
@@ -24,6 +24,7 @@
     "AI Incident Database",
     "BBC Technology",
     "The Guardian Technology",
+    "Google News (English)",
     "Google News (Français)",
     "Google News (Español)",
     "Google News (العربية)",
@@ -80,7 +81,6 @@
     "Google News (official warnings)"
   ],
   "feeds_failed": [
-    "Google News (English)",
     "US court filings (CourtListener)",
     "Reddit r/netsec",
     "European Commission",
