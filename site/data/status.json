@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-18T19:05:49Z",
+  "updated_at": "2026-11-18T19:23:20Z",
   "wire_items": 800,
-  "new_items": 456,
+  "new_items": 482,
   "candidates": 57,
   "incidents": 568,
   "feeds_ok": [
@@ -26,7 +26,9 @@
     "The Guardian Technology",
     "Google News (English)",
     "Google News (Français)",
+    "Google News (Español)",
     "Google News (العربية)",
+    "Google News (中文)",
     "Google News (Русский)",
     "CrowdStrike",
     "SentinelOne Labs",
@@ -79,13 +81,11 @@
     "Google News (official warnings)"
   ],
   "feeds_failed": [
-    "Google News (Español)",
-    "Google News (中文)",
     "US court filings (CourtListener)",
     "Reddit r/netsec",
     "European Commission",
     "European Parliament",
     "EDPB"
   ],
-  "triage": "triage failed: all 19 batches failed: API 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"r"
+  "triage": "triage failed: all 20 batches failed: API 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"r"
 }
