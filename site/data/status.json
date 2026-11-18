@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-18T10:43:32Z",
+  "updated_at": "2026-11-18T11:05:52Z",
   "wire_items": 800,
   "new_items": 472,
-  "candidates": 58,
+  "candidates": 57,
   "incidents": 568,
   "feeds_ok": [
     "BleepingComputer",
@@ -36,7 +36,6 @@
     "Kaspersky Securelist",
     "ESET WeLiveSecurity",
     "Cisco Talos",
-    "Zscaler ThreatLabz",
     "Proofpoint",
     "Recorded Future",
     "Wiz Research",
@@ -57,7 +56,6 @@
     "Google News chatbot harm (EN)",
     "Google News chatbot harm (العربية)",
     "Google News chatbot harm (FR)",
-    "Google News chatbot harm (ES)",
     "BIS press releases",
     "BIS central bankers speeches",
     "Financial Stability Board",
@@ -81,8 +79,10 @@
     "Google News (official warnings)"
   ],
   "feeds_failed": [
+    "Zscaler ThreatLabz",
     "US court filings (CourtListener)",
     "Reddit r/netsec",
+    "Google News chatbot harm (ES)",
     "European Commission",
     "European Parliament",
     "EDPB"
