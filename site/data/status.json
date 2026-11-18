@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-18T22:35:44Z",
+  "updated_at": "2026-11-18T23:05:41Z",
   "wire_items": 800,
-  "new_items": 460,
+  "new_items": 463,
   "candidates": 56,
   "incidents": 568,
   "feeds_ok": [
@@ -33,8 +33,10 @@
     "CrowdStrike",
     "SentinelOne Labs",
     "Check Point Research",
+    "Kaspersky Securelist",
     "ESET WeLiveSecurity",
     "Cisco Talos",
+    "Zscaler ThreatLabz",
     "Proofpoint",
     "Recorded Future",
     "Wiz Research",
@@ -79,8 +81,6 @@
     "Google News (official warnings)"
   ],
   "feeds_failed": [
-    "Kaspersky Securelist",
-    "Zscaler ThreatLabz",
     "US court filings (CourtListener)",
     "Reddit r/netsec",
     "European Commission",
