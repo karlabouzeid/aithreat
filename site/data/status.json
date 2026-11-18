@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-18T15:05:56Z",
+  "updated_at": "2026-11-18T15:35:41Z",
   "wire_items": 800,
-  "new_items": 477,
+  "new_items": 481,
   "candidates": 57,
   "incidents": 568,
   "feeds_ok": [
@@ -29,6 +29,7 @@
     "Google News (Español)",
     "Google News (العربية)",
     "Google News (中文)",
+    "Google News (Русский)",
     "CrowdStrike",
     "SentinelOne Labs",
     "Check Point Research",
@@ -80,7 +81,6 @@
     "Google News (official warnings)"
   ],
   "feeds_failed": [
-    "Google News (Русский)",
     "US court filings (CourtListener)",
     "Reddit r/netsec",
     "European Commission",
