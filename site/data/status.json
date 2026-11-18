@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-18T14:35:47Z",
+  "updated_at": "2026-11-18T15:05:56Z",
   "wire_items": 800,
-  "new_items": 470,
+  "new_items": 477,
   "candidates": 57,
   "incidents": 568,
   "feeds_ok": [
@@ -29,7 +29,6 @@
     "Google News (Español)",
     "Google News (العربية)",
     "Google News (中文)",
-    "Google News (Русский)",
     "CrowdStrike",
     "SentinelOne Labs",
     "Check Point Research",
@@ -56,6 +55,7 @@
     "FBI IC3 alerts",
     "Google News chatbot harm (EN)",
     "Google News chatbot harm (العربية)",
+    "Google News chatbot harm (FR)",
     "Google News chatbot harm (ES)",
     "BIS press releases",
     "BIS central bankers speeches",
@@ -80,12 +80,12 @@
     "Google News (official warnings)"
   ],
   "feeds_failed": [
+    "Google News (Русский)",
     "US court filings (CourtListener)",
     "Reddit r/netsec",
-    "Google News chatbot harm (FR)",
     "European Commission",
     "European Parliament",
     "EDPB"
   ],
-  "triage": "triage failed: all 19 batches failed: API 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"r"
+  "triage": "triage failed: all 20 batches failed: API 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"r"
 }
