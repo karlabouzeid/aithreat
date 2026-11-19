@@ -1,5 +1,269 @@
 [
   {
+    "id": "7755313937d5",
+    "title": "Credential stealer slipped into Microsoft’s official Python agent framework",
+    "url": "https://www.helpnetsecurity.com/2026/11/19/microsoft-agent-framework-package-pypi-compromised",
+    "source": "Help Net Security",
+    "via": "Help Net Security",
+    "lang": "en",
+    "published": "2026-11-19T12:53:44Z",
+    "seen": "2026-11-19T13:05:38Z",
+    "summary": "Two releases of Microsoft’s official agent-framework package on the Python Package Index (PyPI) carried code that steals cloud and CI/CD credentials from developers’ systems. Agent Framework is Microsoft’s open-source toolkit for building AI agents and running them in workflows. Three supply chain security companies, StepSecurity, OX Security and Socket, caught the malicious versions and shared th"
+  },
+  {
+    "id": "81f4e78f4214",
+    "title": "Une cyberattaque assistée par l'IA a ciblé la Commission européenne",
+    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOYmFSWV9hRVg0ZUUtUzBWdjZROHBwZG9DWHA4WHYwNDZVemwyLTVtX2IxLVNsaVNQaUxKeGV5VmsyckNlRFF1ZEs1dTJ6RFhUc2R3U0FmTEJWR3VaMTFFdlhrM0dJZTRHblh6a2RpZDFSdEFNUEpRcTk5eC1MVnk5WWxvd21KX3BHZ0FxNk44MWFHUURNYWhPUk9SRGdyLTgwczZTb3ktVmlvMXB3UmVQajNmTVVpVG43Q3pTVDNBVWE1TTNLMVlmazcta3k0QkRZ?oc=5",
+    "source": "France 24",
+    "via": "Google News (Français)",
+    "lang": "fr",
+    "published": "2026-11-19T12:52:23Z",
+    "seen": "2026-11-19T13:05:38Z",
+    "summary": ""
+  },
+  {
+    "id": "d4416cf6daa4",
+    "title": "Fiches de paie, remboursements de frais médicaux... : la Commission européenne victime d'une cyberattaque assistée par IA",
+    "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPN3pyMW9GZldpZ1o1Q1ZBRzFyUTNQcXIxYnJjZlRnWjh6SFRHeEk5amRRbXBscTBCZmFUWE1HcDZqWFVFSlZySldKOWI0Rm9iSXhGLTNCVWx6S2V2Nl9yYU85T0c1WmdfTjV5dTBnNGV6b19YZGZuQ0xXU1Z4STI2RlB6emljZkJYYU1ibGwwaV92ZkwweUlzSS02UkNVa3ZWWHRmSEZma21UeEdWVVNadm1uQzZuay03cXYxZUs2QXhMdTN1WFdRdTZ0Q21GTHRyQmZQamtMRWtESUJCSDJ5R0ZHZ2xHSGNRRDJaQzhQRlc3RkJWeUQyczJ3?oc=5",
+    "source": "L'Indépendant",
+    "via": "Google News (Français)",
+    "lang": "fr",
+    "published": "2026-11-19T12:51:00Z",
+    "seen": "2026-11-19T13:05:38Z",
+    "summary": ""
+  },
+  {
+    "id": "059096a56746",
+    "title": "Revelan que la Unión Europea fue víctima de ciberataque potenciado con inteligencia artificial",
+    "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOelh5VDVrUzM0T1FOdm9nNWgyem4yam1OOFZHbFpkcWNaSjE5TnNZQUI4OHVva1ljSW9yeTRqdWdYTjJjck1COFQxZi1OMmozcWtacGNEdGVYbTBTVEpETGhGaDMtYmNkVGE4am9MbTZHMUpVbG9ya3k5U1NCSHRGRGk5VHk3ZW0taENTTUo4VlJROUF4bmVlQkdURkMzTkNDMFh4eE9tMXE0T1lYdXJLNkRnR0NqTlpRYmtrdGRNQldtdk55X1BHRmtEMVhXaFgyaXBIVFNsNDltejJRWWNvMTRGcS1XUHVHQUJxdWIxZVI4R2Z2REZYaA?oc=5",
+    "source": "Independent en Español",
+    "via": "Google News (Español)",
+    "lang": "es",
+    "published": "2026-11-19T12:50:00Z",
+    "seen": "2026-11-19T13:05:38Z",
+    "summary": ""
+  },
+  {
+    "id": "08362581e68a",
+    "title": "European Commission confirms AI-assisted cyberattack in October",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTXNIMS10TEZva25IR1pDTVkzZTFZUEJIajhvWWctZUJEU19mU2ZrQThPVFVTbkYyQUNpUi1Td3pKWU5mQ1ppNDFzRFhycVg2QUgwQy12MC1vWHJRQkdrdnJqeV9OUUw1SEpERGprYmFsLV82MDZWMUxDbEoxcUR4M1FBS1BEMjFkUzAxeWhDVjFtV0pMVjBKbXU1WUd3M2VVMFlHc2VUTVhXdjJfUnZnODdn?oc=5",
+    "source": "The Peninsula Qatar",
+    "via": "Google News (official warnings)",
+    "lang": "en",
+    "published": "2026-11-19T12:49:10Z",
+    "seen": "2026-11-19T13:05:38Z",
+    "summary": ""
+  },
+  {
+    "id": "ae3de7f27289",
+    "title": "European Commission targeted in 'AI-generated' cyberattack",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9Od2JXVUFOc19rQ3VCbnBKak8xNjlMSmVicFN2Z004ckdta1pQYmQtOGs4Ujk5QV9hX0pNaHF2aVRTY243enlUbjNZU1BaejlzaUM2TC1mblFvbjFkQ0RlaFBUOW9ZV3d1Mml6VFlVT1NEMlE?oc=5",
+    "source": "Irish Examiner",
+    "via": "Google News (official warnings)",
+    "lang": "en",
+    "published": "2026-11-19T12:48:00Z",
+    "seen": "2026-11-19T13:05:38Z",
+    "summary": ""
+  },
+  {
+    "id": "4c7c50ce6599",
+    "title": "La Comisión Europea sufre un ciberataque con IA",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZWQxV1NTU2I2TDdjQWtTbjI1OHVjajBuam9zNEcyQXpNY2hKVWxUQnhSVXJic1JFVEE2eWhzWm5pZ0s4bHBzMXZmNHhLN1ZhcHNyMWc5Wlh2SnRqUHpKT2NuSFJFTmRBcXgxaWduYWx3ZGpDeGxZS2ZNRkFORVJmWGthZ3ZhMldKY05ldmNWYkVHUWQ1ZWtkRlBLWERwVlNXZFZ6R1ZR0gGrAUFVX3lxTE1Qb2VjVzk4dHlnSXY0aFhnZS1NSWY4RGRXUmFxMGlXX3dOQktXQkRkZUt5MzVDRkFZbkViYW1rdEcxVVRBNFRScUp6TS1NVjRQRENwLUd0ZE1GSzc1aXBqajdpYm8xOXl0aUhQZW9PQVJKdS0xWkM0THVCcVZGUms3U0xGRTVlQ0JqeTJmVEY1SWZtZ1Y4NlZ4T0FIWE50RnBmaDZuYlp3cGJrOA?oc=5",
+    "source": "La Vanguardia",
+    "via": "Google News (Español)",
+    "lang": "es",
+    "published": "2026-11-19T12:47:49Z",
+    "seen": "2026-11-19T13:05:38Z",
+    "summary": ""
+  },
+  {
+    "id": "692e956a53fd",
+    "title": "La Comisión Europea sufre un ciberataque generado con inteligencia artificial",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOOWpMdFF6R2JETjNBN2VxRTVCRzRXXzJwa0dXcVYtd1NZU3g4bzQtX1hnT21iV1Jwbi1DZFJPLTVZVWtvYVZQdGVFTi02QU41RWNvM3dwaC1rTzVxVkl1WFcyeVNsaEZKNHh0ODFiejFBNW8xV09lbWUtakRsZlVMcjRhSzZNZTktRTczbWVjMHJSMTFET0FPWDNNTWxORDTSAaQBQVVfeXFMUDFtMnJvY21mM2RJUHFJQ25EZEp0R0E4X2JGVUVXRHBZZmoyekVhQXV0bmZ4Uk1wX0dQZ3lfdXVGMDRscFo4TDJ4d0ZoQUFQa09BaFRCS0Y3Q1U2c2dZN1hXYUMtRzRHOThBbW1rYmtjekdneFhiQkhKTUx2aXRMbDlUMkxGSGEwcWx3Q1Zqck5mWjA5MjB6SkRncjUtMGNJaTBHR1Q?oc=5",
+    "source": "Diario de Sevilla",
+    "via": "Google News (Español)",
+    "lang": "es",
+    "published": "2026-11-19T12:41:43Z",
+    "seen": "2026-11-19T13:05:38Z",
+    "summary": ""
+  },
+  {
+    "id": "e09e7f6a668c",
+    "title": "La Commission européenne confirme avoir été ciblée par une cyberattaque utilisant l'intelligence artificielle",
+    "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOdWlLOVRPWUtpWEV5eDZ0SGJhSjBUZFM1MDlleml4cEVzcGRndTJkSlNuOW9SS2NjeDllbGlLRHNNWV9BbjFUbzFlSmtMWUoyV0xyZWFJRkRRYTE1MFdGSnJlUVlxQUhJYV9wQzhRaWdHRTBkR2lEVDRvdVV4cTBKbC1Md0NfUDgtTmtVb215cWw0bnNRVEExeDViOFptVHp6UnJCR29IUHVsLVFnRk1JeHlHNk9xOC1pTm1hM0RsUVEzUVhNakx3anZmZTRQdi1icTdXai0zcmZqQVplY2xv?oc=5",
+    "source": "RTBF",
+    "via": "Google News (Français)",
+    "lang": "fr",
+    "published": "2026-11-19T12:39:34Z",
+    "seen": "2026-11-19T13:05:38Z",
+    "summary": ""
+  },
+  {
+    "id": "adb1f3be8fcc",
+    "title": "Кибератаки, ИИ или случайность: что происходит с мировым интернетом последние несколько дней",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNdUtfVlJvRG1LVmZhMmFvdW9hZ1FtOEQyZ0w1amRMS2tuMUFPaTdNZWNsNlMyM2lKUkV4Sk45ZEtMOEVfRm9ia1JqNVpUcktXa1J5UnNuZHVGbXdMUGlnNkFua2pJRGF6NC1uaHpZWlU2MmVaRVN6bXo2eEwxVVlFVUUzVFh0aEpwV3R1Z2ZkMEpNd09iVUJUVkp0NVlUU1YzSUEzedIBqgFBVV95cUxPZlpKR0gxLUdYZDZrc0FHVEVhZGlMdVBpWURVTU11YmxqOGpnU3NmTGxNWnRGUkFYM2NubzFwdEhaMVJvanIzMHpBTDFTOHhiV1RLVDM0Z1ZodXk4Z3JTWUw5T3ltcmVITXFZSkpYb0dLSG1MMTlXM2RyQmJ4bG5uNWNzQWFrRjR0MEtpRy0tNFdIelRQZHB1OHVZNWJQclFxOWpjYno4bjlRdw?oc=5",
+    "source": "24 Канал",
+    "via": "Google News (Русский)",
+    "lang": "ru",
+    "published": "2026-11-19T12:31:00Z",
+    "seen": "2026-11-19T13:05:38Z",
+    "summary": ""
+  },
+  {
+    "id": "96d2377e10de",
+    "title": "AI-assisted cyberattack hit EU executive in October",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMWc4LXd0cXB6MUZQa3A1aWJwU1dURzQ1WFpxbkFMdUMyQW1rNWUta3NHcEN5Xy1LV3UwZ2ExUEdhT2JnX0c4cGNxSUVRXzZyS2hVb1VCUkphNjBjTU9sbGJmQ21UVEE4MFpWSnk0M3dtQXgyaS1fRFVwRGdycUlYcXVhb1I5RC1MTl9qZkZSNUFoV0xTX3lLMG5QVkVJSUFtNGhoYdIBqgFBVV95cUxQQk55cUFxX2FZOVdCZHhuZ3BfUExRUUJKWDBCOVdQVzd0M2RKQXhUOWJ0S1pJcjRBcDg1OFNfcWtrR2J6VmdiU1Jsdzh0VGF1MTN4dXlVZ0RIM1lpOW1pYVdIV1lsb3BSTTN3SFdCNTFiNG41Y2VRS2JiTUxaODN6dnBZTmRfYlplZWN5c2FxN1dnejRuTmV3WTlPWVpGRVJWNzNqLVluV01RUQ?oc=5",
+    "source": "Al Arabiya English",
+    "via": "Google News (English)",
+    "lang": "en",
+    "published": "2026-11-19T12:19:00Z",
+    "seen": "2026-11-19T13:05:38Z",
+    "summary": ""
+  },
+  {
+    "id": "443e739545a3",
+    "title": "EU Commission hit by AI-driven cyberattack",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPV2FoWEN1Z2NCNXBjajE4ZWF5dWNiZzVPaGR4SkFmNjBWUlRJX2l6R1VfOUdib2JUMVJKVnJYUXpEU1JYQmQ0b3E1MGRqeVNla1FXTlBtVnBjY2ppVDNLQjZQaVl3ZlBRVzF2UHBvS3BoN3V5dDJUMlRFdm8wakVPS1hEc3BhbF81Q2RQSQ?oc=5",
+    "source": "Yahoo",
+    "via": "Google News (English)",
+    "lang": "en",
+    "published": "2026-11-19T12:18:40Z",
+    "seen": "2026-11-19T13:05:38Z",
+    "summary": ""
+  },
+  {
+    "id": "7dc3d29fc6c6",
+    "title": "释新闻｜AI发现漏洞的速度，正在超过美国修复软件系统的能力？",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9CTVFBRXllVllNeUYySnVtU0cwNVg3ZHlDVHM2djZPMWxhdFhzNDR5RThJeWNRWHRRRXh6Szc1YUo0cVVVTzVBRHRJcElsZW1zU2xoQWpVelA0SEh4RFo3NQ?oc=5",
+    "source": "ThePaper.cn",
+    "via": "Google News (中文)",
+    "lang": "zh",
+    "published": "2026-11-19T11:34:05Z",
+    "seen": "2026-11-19T13:05:38Z",
+    "summary": ""
+  },
+  {
+    "id": "70417e135835",
+    "title": "La Commission européenne victime d’une cyberattaque",
+    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPVUkxbFBhbnJtTjBqaHE0U2xaVHVGWlQwMmZYbGVnLTVFV1IwQ1hZSkxWWTRlaUtRYmVjZngtWUQ3elI3MUREaFFod09aRi0tOVdyZUZBWmdfeExLWHM1ZVpIQnRudXFMOVhXOXUzV1VkeVhRTktkbmgxcVVyM3h1bjVDNUlheklNUE9GdGZvaTFsQUJNZmwxOXREN0JiaUh3TElxVDlPSWI1Y2NyaS1oQmladlZCWUJWUGp3b0hSM2lFSnVCbFhVZVZjR3NXbl81aWtQTkx3?oc=5",
+    "source": "RTL Info",
+    "via": "Google News (Français)",
+    "lang": "fr",
+    "published": "2026-11-19T09:34:05Z",
+    "seen": "2026-11-19T13:05:38Z",
+    "summary": ""
+  },
+  {
+    "id": "0e05cd597819",
+    "title": "Vulnerability Hidden in nginx for 11 Years: AI Finds 4 in 90 Minutes; Patches Released, Urgent Updates Needed",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9DS01CV1lubmFPX1BtZXNGMGw4UURxaE5mQ19TQkZQenpQNWpQRWE5a00wSjU5Q2ppYUZ2TWpLQl9qMnA2RjJHNWYxSTU1Vk9sLUIzNXdBWmlPTjBwTHE5aWRublBFeEdOYnpZamttMzV0cmJzSnc?oc=5",
+    "source": "BigGo Finance",
+    "via": "Google News (English)",
+    "lang": "en",
+    "published": "2026-11-19T00:57:00Z",
+    "seen": "2026-11-19T13:05:38Z",
+    "summary": ""
+  },
+  {
+    "id": "c758d337d2a9",
+    "title": "Массовые сбои в США объяснили спешкой с ИИ-патчами",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE84Y0hmbGJqQkRBZml4NUctdmNrTmFXT0hFakZranpoUkdJOHg3QjdiZ3JSaVZNUXMza2lSZU54WVlsUE5yeGEyOTYtY3FMWUdmRFZjblZXaWpGQ1Ezc1lBT05mSkFrLWlJdGRkdkgxdXBUMDV3X0FDWEhHUzhVUkk?oc=5",
+    "source": "Techora.ru",
+    "via": "Google News (Русский)",
+    "lang": "ru",
+    "published": "2026-11-19T00:42:45Z",
+    "seen": "2026-11-19T13:05:38Z",
+    "summary": ""
+  },
+  {
+    "id": "9cec21f95c5b",
+    "title": "Java4Shell : une faille critique dans Java à corriger d’urgence",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQQXV0eUM5SmhYdE94d3NHSmM5ckNocWNyWGhCOUNaT21zUHhjSTN3ZTE3MkRSVElKXzl5eVI0bHhXaWphRUlMaG04R0drV1pEM3pjNy1pUkFabU1ZMjRPejNRWFk4bjZldXJ2XzFQOEx3RjNDYktmbUdHYnlFNUNGd0tfSGdEY0xiRzBMenFZLXlaQUpyZ0NZYUpn?oc=5",
+    "source": "ChannelNews",
+    "via": "Google News (Français)",
+    "lang": "fr",
+    "published": "2026-11-18T19:01:27Z",
+    "seen": "2026-11-19T13:05:38Z",
+    "summary": ""
+  },
+  {
+    "id": "b6a3002494da",
+    "title": "Fully Automated AI Cyberattack 2026: What Google Just Found",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9VWWx2NmtuWk1KeDRsT0FOeXVyenNXSHRCeFd3cUdFel9IRU9Yd2tQWkROV19aT2duaVgzcUtEVHdsUGVFTE41dTltQzNMeEpuYXN0WHQxUDNVb2xkemRodUNn?oc=5",
+    "source": "Memeburn",
+    "via": "Google News (English)",
+    "lang": "en",
+    "published": "2026-11-18T05:25:14Z",
+    "seen": "2026-11-19T13:05:38Z",
+    "summary": ""
+  },
+  {
+    "id": "7669fb9c632c",
+    "title": "Уязвимости мировой экономики в условиях волны развития искусственного интеллекта.",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPV3JTWDF4VUQtbkZGQnl3VkV5enk5ZngyMUxJcC1iWGhkY1VBUVgtLWo0c1dvQUMwcFFsN292cHFPdF95QVY5WUhTNjA4MzQybl9CaGVTNEJTby1fRkliSkcxSHZwWlJCVGFfUnNCOG5wWDc5THR4b2oxUVRySkM3QTFXem53Yl82Q0FibF9YVGFkYTF6RnVrWkUzN2hiNVBMUmJaOWxn?oc=5",
+    "source": "Vietnam.vn",
+    "via": "Google News (Русский)",
+    "lang": "ru",
+    "published": "2026-11-18T05:12:26Z",
+    "seen": "2026-11-19T13:05:38Z",
+    "summary": ""
+  },
+  {
+    "id": "073a87b4d11e",
+    "title": "El sector asegurador, el más afectado por fraudes con fotos y documentos creados con la IA generativa",
+    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQZ2tiNWlFQWlzVllsejEyN1RqdzMzbHE1TGs0QkJtMlp1cW1nWTY4UUdWME5uZmpPVkpYUktQcEpaWTlwTDdHckV0MEtlNnMwY3FEaVNGQmtyMnhERm56YUdpWEI3N2ZvS3ozYXV5aC1VQk9LMVhFOG1WanlvVTRQT1E0VkQydzBBMVhRMUQwUTBPdFczOUVQZEU2Ynd1NVJIQWVQZlU0MGtQdm9UeG42LWRMNEZfLXdpdUwxZGpFbVVjZU81WHM0dA?oc=5",
+    "source": "SegurosNews",
+    "via": "Google News (Español)",
+    "lang": "es",
+    "published": "2026-11-18T05:05:20Z",
+    "seen": "2026-11-19T13:05:38Z",
+    "summary": ""
+  },
+  {
+    "id": "b100d52c90c3",
+    "title": "EchoGram: رمز يقلب حكم حاجز أمان الذكاء الاصطناعي",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1EM1VVV3Z2LUdTLU9LcUhmNUdCbW9VZW85WUFqaldxemhPZ2ZYMnJ1Mkp1dVhFMHFRRXpGWkg1Y0FoRHAwbDQtNXhEMG1uQl9ya0RuQVkxWmZzbDVrSWxOT0NlcDlsME5MMEQwWGtJWmRBaWVEQUc0bg?oc=5",
+    "source": "OrcaRouter",
+    "via": "Google News (العربية)",
+    "lang": "ar",
+    "published": "2026-11-18T03:28:36Z",
+    "seen": "2026-11-19T13:05:38Z",
+    "summary": ""
+  },
+  {
+    "id": "350cd4dcff38",
+    "title": "Фото разрушений Крымского моста после атаки ВСУ оказались сгенерированы ИИ",
+    "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBoUHM0ai1ReW9HOHZCU0JPV0ZTMEtFVV82UGdWOGdnalRkMEtobW5BdXdzYWhwN0FKVlJpSkJXQ1NLX20tQkZF?oc=5",
+    "source": "URA.RU",
+    "via": "Google News (Русский)",
+    "lang": "ru",
+    "published": "2026-11-17T18:33:00Z",
+    "seen": "2026-11-19T13:05:38Z",
+    "summary": ""
+  },
+  {
+    "id": "9c5bca8b0229",
+    "title": "جامعة بغداد: مشاريع بحثية في قطاعات الصحة والطاقة والصناعة والذكاء الاصطناعي",
+    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE53MXNFNkM0M2ZHOTF5NHpPd3lqNUFIRExHSmJTZ2JCd1NxWlFteTNpVGxFR2YwUmotaFBzUFdSazF2dkdnTGc1Q1B30gFKQVVfeXFMTncxc0U2QzQzZkc5MXk0ek93eWo1QUhETEdKYlNnYkJ3U3FaUW15M2lUbEVHZjBSai1oUHNQV1JrMXZ2R2dMZzVDUHc?oc=5",
+    "source": "هذا اليوم",
+    "via": "Google News chatbot harm (العربية)",
+    "lang": "ar",
+    "published": "2026-11-17T13:54:59Z",
+    "seen": "2026-11-19T13:05:38Z",
+    "summary": ""
+  },
+  {
+    "id": "31c9aa147b38",
+    "title": "\"لا يبدو انتحارا\".. عالم طب شرعي يشكك في الرواية الرسمية لوفاة إبستين | أخبار",
+    "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE50SWxXcXF2WUNMejZ3VC1qdTlLaW5LeXNBSENqUUkxZFBldXRuOVN3NWNXamZyT0ZIWVctc0hIUGJBd1pyWm5yNA?oc=5",
+    "source": "المحرر العربي",
+    "via": "Google News chatbot harm (العربية)",
+    "lang": "ar",
+    "published": "2026-11-17T13:49:07Z",
+    "seen": "2026-11-19T13:05:38Z",
+    "summary": ""
+  },
+  {
     "id": "ab32a14644ed",
     "title": "Компания Google обнаружила, что искусственный интеллект автоматически превращает обновления безопасности в оружие для кибератак.",
     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQOElzNUtBT1p4Q0p0c0h2a1ZFSHljbmczdmw5OU1KOTF3bk1SeXZWZzJLRDN3cDFqaTZ2NXF5SEpFOVBqeWNiV3BlMnhFR2tsSURadE5aeGgxUEdyRVdzbExMdWI5aGlvRVRfblVXZ1BoNmhhMlZESjRnbFVUVTIyQUhBS0d6M3NxXzdBZThYNTZKRGVGamFfSGtEQnI?oc=5",
@@ -66,23 +330,23 @@
     "summary": ""
   },
   {
-    "id": "97837f7a80f5",
-    "title": "Un hombre de Buzău fue víctima de un fraude con falsos oficiales del SRI e imágenes generadas por IA / Un ucraniano fue sorprendido en flagrante delito y detenido",
-    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPbEg3RmFLQ2VQb0dHbms3S1A2Z2JMdW9SbDU4YXIxY1JlRFBDVGdqRjFwdzhJUThuWXI1MzEtMnV0YlNRcTdoTTYtY3BjTm1vTkVhWElWdk5rTnB4dDBKSUhTTWh3QUNIUnFvaUszWFIyQVo3MDhhOXJ6TThYdDVjeV9pZ3Q1RVhLM1RLcmR2dkF2elMzMGJDb0lJM2J6SVE0MHNwTDc1UC1EYzRIeWJic1BKRk0wMDM4R1QzWGpVd0FmU0J4WENNZmxjZk9VLTl3?oc=5",
-    "source": "Informat.ro",
-    "via": "Google News (Español)",
-    "lang": "es",
-    "published": "2026-11-19T12:24:46Z",
-    "seen": "2026-11-19T12:35:48Z",
-    "summary": ""
-  },
-  {
     "id": "5ddd3aac8ceb",
     "title": "Un homme de Buzău a été la cible d’une fraude impliquant de faux officiers du SRI et des images générées par IA / Un Ukrainien a été pris en flagrant délit et arrêté",
     "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNTkNsMy1Jell2cm5FUjF1OVF1cHlQWU5wUjlDcmdPakNRNi1iVnhzakJwalJGdWpEdm1ULWlndzRCNnBNbzBoeXpJN1kxLUNXNHctbzNjXy1sc1g0cDVxaVJ1WGo4N09JYk9MekpYSmxNZzBCY05PUWM3aFIxNlBtd0c3dWgxMDJzSDBERFk5SHhmWXI2b0FrU0JGT0hSa3BidmcyYk5pdGNvWUNtNlVWVkJwS2lDTURWNjFxdHdfVEx6TFhYdUpnNTZwdG1yUUF2UTZmMmI3R1k3TGRCWFQzbEdtUWphUnM?oc=5",
     "source": "Informat.ro",
     "via": "Google News (Français)",
     "lang": "fr",
+    "published": "2026-11-19T12:24:46Z",
+    "seen": "2026-11-19T12:35:48Z",
+    "summary": ""
+  },
+  {
+    "id": "97837f7a80f5",
+    "title": "Un hombre de Buzău fue víctima de un fraude con falsos oficiales del SRI e imágenes generadas por IA / Un ucraniano fue sorprendido en flagrante delito y detenido",
+    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPbEg3RmFLQ2VQb0dHbms3S1A2Z2JMdW9SbDU4YXIxY1JlRFBDVGdqRjFwdzhJUThuWXI1MzEtMnV0YlNRcTdoTTYtY3BjTm1vTkVhWElWdk5rTnB4dDBKSUhTTWh3QUNIUnFvaUszWFIyQVo3MDhhOXJ6TThYdDVjeV9pZ3Q1RVhLM1RLcmR2dkF2elMzMGJDb0lJM2J6SVE0MHNwTDc1UC1EYzRIeWJic1BKRk0wMDM4R1QzWGpVd0FmU0J4WENNZmxjZk9VLTl3?oc=5",
+    "source": "Informat.ro",
+    "via": "Google News (Español)",
+    "lang": "es",
     "published": "2026-11-19T12:24:46Z",
     "seen": "2026-11-19T12:35:48Z",
     "summary": ""
@@ -1452,23 +1716,23 @@
     "summary": ""
   },
   {
-    "id": "d11afbb76b29",
-    "title": "Key facts: Coinbase Anthropic Futures; AI Blocks $4.7M Scam",
-    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQdzRKQWJzT0Z6WVY0aDRCT05RV2NrLWNPOXJoYnJYOWE0RElmVm9DdDdvRXdOUk50MEhjTjRmQ2c0MXRHOFRPWEVhUjBrM0J0UkFPTkp3MjdNN1BGSTM5T0k4VnUxbENqQlF3bDBxVmpEakdnR1pQOFVnODRfNDBBUG9IMjBqU0kyUUpQV243OGtpdi1LZkhqWGJiYVRjRG8wVEFlM0ZnMHJEeWNLckc5dkpXQmFqREIxN2c?oc=5",
-    "source": "TradingView",
-    "via": "Google News (English)",
-    "lang": "en",
-    "published": "2026-11-19T08:00:00Z",
-    "seen": "2026-11-19T08:35:38Z",
-    "summary": ""
-  },
-  {
     "id": "5d3534b2abef",
     "title": "Datos clave: Coinbase ofrecerá futuros de Anthropic; la IA bloquea una estafa de $4.7 millones",
     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE43N0pHUm8wVGN0TlhrVjYtU1F5dGhlWXhfWVlTc09PUEMwaEdEUlNGME5idExMS3BmYVYtVHh6ZWpUUFYxTjUzSVRuTWhyeTdyMTVpSmo3QldHcF9JWWE4aXhwazJDUU1jREwyXw?oc=5",
     "source": "TradingView",
     "via": "Google News (Español)",
     "lang": "es",
+    "published": "2026-11-19T08:00:00Z",
+    "seen": "2026-11-19T08:35:38Z",
+    "summary": ""
+  },
+  {
+    "id": "d11afbb76b29",
+    "title": "Key facts: Coinbase Anthropic Futures; AI Blocks $4.7M Scam",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQdzRKQWJzT0Z6WVY0aDRCT05RV2NrLWNPOXJoYnJYOWE0RElmVm9DdDdvRXdOUk50MEhjTjRmQ2c0MXRHOFRPWEVhUjBrM0J0UkFPTkp3MjdNN1BGSTM5T0k4VnUxbENqQlF3bDBxVmpEakdnR1pQOFVnODRfNDBBUG9IMjBqU0kyUUpQV243OGtpdi1LZkhqWGJiYVRjRG8wVEFlM0ZnMHJEeWNLckc5dkpXQmFqREIxN2c?oc=5",
+    "source": "TradingView",
+    "via": "Google News (English)",
+    "lang": "en",
     "published": "2026-11-19T08:00:00Z",
     "seen": "2026-11-19T08:35:38Z",
     "summary": ""
@@ -2332,180 +2596,15 @@
     "summary": "AI agents that employees build inside project trackers, CRMs and automation tools often run on the credentials of the person who created them and carry that person’s access to company data, according to Nudge Security. Source: Nudge Security The AI Adoption in Practice 2026 report draws on anonymized, aggregated telemetry from Nudge Security customer environments. It tracks which AI tools show up "
   },
   {
-    "id": "b0aee9977ada",
-    "title": "ElephantAgent: Contextual State Continuity in Agentic Systems",
-    "url": "https://arxiv.org/abs/2607.01919",
+    "id": "4f2a5fa1e27d",
+    "title": "ACaM: Automated Capability Modeling for Agentic AI Security",
+    "url": "https://arxiv.org/abs/2611.23507",
     "source": "arXiv cs.CR",
     "via": "arXiv cs.CR",
     "lang": "en",
     "published": "2026-11-19T05:00:00Z",
     "seen": "2026-11-19T05:05:36Z",
-    "summary": "arXiv:2607.01919v2 Announce Type: replace-cross Abstract: Agentic systems enhance their capabilities by invoking external tools and maintaining persistent memory. However, recent tool and memory poisoning attacks can covertly bias agent behavior. We observe that such attacks mounted out of band share a single enabler: each succeeds only by presenting the agent with a contextual state (e.g., tool s"
-  },
-  {
-    "id": "58401e67ffb0",
-    "title": "SCR: Detecting Backdoor-Poisoned Samples through Clean-Reference Residuals",
-    "url": "https://arxiv.org/abs/2611.24558",
-    "source": "arXiv cs.CR",
-    "via": "arXiv cs.CR",
-    "lang": "en",
-    "published": "2026-11-19T05:00:00Z",
-    "seen": "2026-11-19T05:05:36Z",
-    "summary": "arXiv:2611.24558v1 Announce Type: cross Abstract: Deep neural networks are vulnerable to backdoor attacks, in which adversaries manipulate model predictions by injecting poisoned samples into training data. Detecting these samples remains challenging because legitimate semantic variation can obscure poisoning-related signals in learned representations. Consequently, class-level statistics used by "
-  },
-  {
-    "id": "6a6aa7f9ab51",
-    "title": "Rented Oscillations: Multi-Tenant Data Center Workload Synchronization Attacks and Mitigation",
-    "url": "https://arxiv.org/abs/2611.23666",
-    "source": "arXiv cs.CR",
-    "via": "arXiv cs.CR",
-    "lang": "en",
-    "published": "2026-11-19T05:00:00Z",
-    "seen": "2026-11-19T05:05:36Z",
-    "summary": "arXiv:2611.23666v1 Announce Type: cross Abstract: Multi-tenant data center (DC) facilities rent computing capacity on demand, placing controllable load within reach of anyone willing to pay for it. This paper considers a stealthy adversary who rents workstations and runs deliberately unoptimized large language model (LLM) training, synchronizing their consumption into large periodic oscillations w"
-  },
-  {
-    "id": "9c1229ebd528",
-    "title": "A Survey on RLOps for Large Language Models",
-    "url": "https://arxiv.org/abs/2611.23357",
-    "source": "arXiv cs.CR",
-    "via": "arXiv cs.CR",
-    "lang": "en",
-    "published": "2026-11-19T05:00:00Z",
-    "seen": "2026-11-19T05:05:36Z",
-    "summary": "arXiv:2611.23357v1 Announce Type: cross Abstract: Reinforcement learning (RL) has become increasingly important for improving the reasoning, instruction-following, and task-solving capabilities of large language models (LLMs). However, scaling RL training exposes failures in distributed execution, feedback computation, and learning dynamics that can waste computational resources, slow training, an"
-  },
-  {
-    "id": "8d427bf46d19",
-    "title": "LLMs for Software Vulnerability Prediction and Prioritization: A Review",
-    "url": "https://arxiv.org/abs/2611.23304",
-    "source": "arXiv cs.CR",
-    "via": "arXiv cs.CR",
-    "lang": "en",
-    "published": "2026-11-19T05:00:00Z",
-    "seen": "2026-11-19T05:05:36Z",
-    "summary": "arXiv:2611.23304v1 Announce Type: cross Abstract: Large language models have moved beyond vulnerability detection into prediction, assessment, exploitability estimation, risk assessment and prioritization, yet the evidence for this shift has not been synthesised separately from the detection literature. In this systematic literature review, we examine how LLMs are used across those five task class"
-  },
-  {
-    "id": "24673aeae097",
-    "title": "PGPO: Prototype-Guided Progressive Obfuscation for Privacy-Preserving LLM-Enhanced Recommendation",
-    "url": "https://arxiv.org/abs/2611.23236",
-    "source": "arXiv cs.CR",
-    "via": "arXiv cs.CR",
-    "lang": "en",
-    "published": "2026-11-19T05:00:00Z",
-    "seen": "2026-11-19T05:05:36Z",
-    "summary": "arXiv:2611.23236v1 Announce Type: cross Abstract: LLM-enhanced recommender systems encode item side information into semantic embeddings, but these embeddings may leak sensitive textual attributes through inversion attacks. Existing input-side defenses rely on trusted collection or local token perturbation, often disrupting the inter-item semantic topology needed for recommendation. To address it,"
-  },
-  {
-    "id": "4b6b3ba92a66",
-    "title": "LLM-Guided Cyber-Physical Attack Path Identification in Smart Grids",
-    "url": "https://arxiv.org/abs/2611.24765",
-    "source": "arXiv cs.CR",
-    "via": "arXiv cs.CR",
-    "lang": "en",
-    "published": "2026-11-19T05:00:00Z",
-    "seen": "2026-11-19T05:05:36Z",
-    "summary": "arXiv:2611.24765v1 Announce Type: new Abstract: Identifying high-impact attack paths in cyber-physical power systems is critical for improving grid resilience. Existing methods typically rely on either structural topology analysis or simulation-based cascading-failure models. Topology-based approaches capture connectivity but lack adversarial reasoning, while simulation-driven methods are primaril"
-  },
-  {
-    "id": "0fa7c88f1777",
-    "title": "Gradient-Based Defensive Poisoning Against System Identification Attacks on Cyber-Physical Systems",
-    "url": "https://arxiv.org/abs/2611.24662",
-    "source": "arXiv cs.CR",
-    "via": "arXiv cs.CR",
-    "lang": "en",
-    "published": "2026-11-19T05:00:00Z",
-    "seen": "2026-11-19T05:05:36Z",
-    "summary": "arXiv:2611.24662v1 Announce Type: new Abstract: AI-driven attacks learn the models of cyber-physical systems (CPS) by passively observing controller and plant signals, then use this knowledge to act covertly. Because covertness depends on the accuracy of the identified model, degrading that accuracy is a viable countermeasure. This work applies Adversarial Machine Learning as a defense, injecting "
-  },
-  {
-    "id": "001e091b266a",
-    "title": "Drift-Aware Explainable Prioritization for Windows PE Malware Forensic Triage with Semantic Consistency Checks",
-    "url": "https://arxiv.org/abs/2611.24474",
-    "source": "arXiv cs.CR",
-    "via": "arXiv cs.CR",
-    "lang": "en",
-    "published": "2026-11-19T05:00:00Z",
-    "seen": "2026-11-19T05:05:36Z",
-    "summary": "arXiv:2611.24474v1 Announce Type: new Abstract: Forensic investigators must decide which suspicious files to examine first. Machine-learning (ML) and deep-learning (DL) malware detectors usually return a bare score that neither explains why a file deserves attention nor signals when changing data make the model unreliable. We present a framework for Windows Portable Executable (PE) malware forensi"
-  },
-  {
-    "id": "7b8371ec98cf",
-    "title": "PIPETTE: Prompt Injection Purple-Teaming for Robust LLM Agents",
-    "url": "https://arxiv.org/abs/2611.24362",
-    "source": "arXiv cs.CR",
-    "via": "arXiv cs.CR",
-    "lang": "en",
-    "published": "2026-11-19T05:00:00Z",
-    "seen": "2026-11-19T05:05:36Z",
-    "summary": "arXiv:2611.24362v1 Announce Type: new Abstract: Large language model (LLM) agents routinely interact with untrusted external data, exposing them to indirect prompt injection (IPI) attacks that hijack agents into executing attacker-chosen tasks. To uncover these vulnerabilities at scale, automated red-teaming methods often leverage reinforcement learning (RL) to generate attacks that achieve high a"
-  },
-  {
-    "id": "4d8e50dff2cd",
-    "title": "AutoPI: Taxonomy-Guided Adaptive Red Teaming for Prompt Injection in LLM Agents",
-    "url": "https://arxiv.org/abs/2611.24313",
-    "source": "arXiv cs.CR",
-    "via": "arXiv cs.CR",
-    "lang": "en",
-    "published": "2026-11-19T05:00:00Z",
-    "seen": "2026-11-19T05:05:36Z",
-    "summary": "arXiv:2611.24313v1 Announce Type: new Abstract: Prompt injection is the dominant unsolved security risk for LLM agents, and the community now agrees that robustness must be measured against adaptive attackers rather than fixed benchmark injections. Many adaptive red teamers exist, and most are built to maximize attack success rate (ASR). Yet ASR counts how often a target breaks, not in how many di"
-  },
-  {
-    "id": "b7a81c659ac0",
-    "title": "What Survives the Shift from Text to Pixels? Conditional Protection against Prompt Injection in Image-Rendered Documents",
-    "url": "https://arxiv.org/abs/2611.24231",
-    "source": "arXiv cs.CR",
-    "via": "arXiv cs.CR",
-    "lang": "en",
-    "published": "2026-11-19T05:00:00Z",
-    "seen": "2026-11-19T05:05:36Z",
-    "summary": "arXiv:2611.24231v1 Announce Type: new Abstract: Multimodal language models increasingly answer questions over external documents, exposing them to indirect prompt injection: commands planted in untrusted content to hijack the response. Rendering untrusted content as page images lowers attack success on average, leaving open which injected operations survive rendering, at what utility cost, and whe"
-  },
-  {
-    "id": "674cfbc32cef",
-    "title": "When Do Decision Models Help LLM-Driven Network Discovery?",
-    "url": "https://arxiv.org/abs/2611.23947",
-    "source": "arXiv cs.CR",
-    "via": "arXiv cs.CR",
-    "lang": "en",
-    "published": "2026-11-19T05:00:00Z",
-    "seen": "2026-11-19T05:05:36Z",
-    "summary": "arXiv:2611.23947v1 Announce Type: new Abstract: Network discovery, the identification of live hosts and their exposed services, is the first phase of every penetration test, and it is increasingly automated by harnesses driven by large language models (LLMs). To mitigate hallucinated or unsafe commands, recent work proposes inserting fast, non-generative decision models to validate actions prior t"
-  },
-  {
-    "id": "89c0ce6b226b",
-    "title": "Weighing the Envelope: Component Weight and Arbitration in Envelope-Layer Defenses for a Single LLM Agent",
-    "url": "https://arxiv.org/abs/2611.23844",
-    "source": "arXiv cs.CR",
-    "via": "arXiv cs.CR",
-    "lang": "en",
-    "published": "2026-11-19T05:00:00Z",
-    "seen": "2026-11-19T05:05:36Z",
-    "summary": "arXiv:2611.23844v1 Announce Type: new Abstract: The envelope layer is the channel through which malicious content enters an LLM agent. Prior work established label and memory effects on multi-agent A2A envelopes, but the weight structure when MCP tools and memory coexist in a single agent remains unclear. Our threat model assumes an attacker pre-plants a malicious tool and poisons long-term memory"
-  },
-  {
-    "id": "4a3656e09a0d",
-    "title": "Plug-and-Play Multi-Licensee Robust Watermarking for Mixture-of-Experts LLMs",
-    "url": "https://arxiv.org/abs/2611.23838",
-    "source": "arXiv cs.CR",
-    "via": "arXiv cs.CR",
-    "lang": "en",
-    "published": "2026-11-19T05:00:00Z",
-    "seen": "2026-11-19T05:05:36Z",
-    "summary": "arXiv:2611.23838v1 Announce Type: new Abstract: Mixture-of-Experts (MoE) architectures enable high-capacity large language models (LLMs) with high sparse computation, making them attractive for deployment on private hardware. However, distributing model weights exposes valuable intellectual property (IP) to leakage and unauthorized redistribution, creating an urgent need to both verify model owner"
-  },
-  {
-    "id": "9ac65580a3d2",
-    "title": "JEV vs. LLMs: A Comparative Analysis for Phishing Email Detection",
-    "url": "https://arxiv.org/abs/2611.23683",
-    "source": "arXiv cs.CR",
-    "via": "arXiv cs.CR",
-    "lang": "en",
-    "published": "2026-11-19T05:00:00Z",
-    "seen": "2026-11-19T05:05:36Z",
-    "summary": "arXiv:2611.23683v1 Announce Type: new Abstract: Phishing remains a major source of credential theft and fraudulent payments, and email security systems must classify large message volumes reliably, quickly, and at manageable cost. Large Language Models (LLMs) offer flexible text understanding, but their token-based generation increases response time and API cost, and the reliability of their confi"
+    "summary": "arXiv:2611.23507v1 Announce Type: new Abstract: In agentic AI systems, an LLM invokes tools that hold standing access to credentials, private data, filesystems, and external services. Such agents are increasingly deployed without an answer to a basic question: what can an agent access, exfiltrate, and propagate, independent of what it is designed for or is observed to do? The question goes unanswe"
   },
   {
     "id": "dd8796b34a77",
@@ -2519,15 +2618,180 @@
     "summary": "arXiv:2611.23660v1 Announce Type: new Abstract: Web applications have been essential to accessing and managing online services. Made available with weaknesses, much due to their rapid development and human error, they are exposed to frequent web injection attacks, leaving security analysts overwhelmed with threats and alerts that often lack critical details for proper risk assessment. Detecting th"
   },
   {
-    "id": "4f2a5fa1e27d",
-    "title": "ACaM: Automated Capability Modeling for Agentic AI Security",
-    "url": "https://arxiv.org/abs/2611.23507",
+    "id": "9ac65580a3d2",
+    "title": "JEV vs. LLMs: A Comparative Analysis for Phishing Email Detection",
+    "url": "https://arxiv.org/abs/2611.23683",
     "source": "arXiv cs.CR",
     "via": "arXiv cs.CR",
     "lang": "en",
     "published": "2026-11-19T05:00:00Z",
     "seen": "2026-11-19T05:05:36Z",
-    "summary": "arXiv:2611.23507v1 Announce Type: new Abstract: In agentic AI systems, an LLM invokes tools that hold standing access to credentials, private data, filesystems, and external services. Such agents are increasingly deployed without an answer to a basic question: what can an agent access, exfiltrate, and propagate, independent of what it is designed for or is observed to do? The question goes unanswe"
+    "summary": "arXiv:2611.23683v1 Announce Type: new Abstract: Phishing remains a major source of credential theft and fraudulent payments, and email security systems must classify large message volumes reliably, quickly, and at manageable cost. Large Language Models (LLMs) offer flexible text understanding, but their token-based generation increases response time and API cost, and the reliability of their confi"
+  },
+  {
+    "id": "4a3656e09a0d",
+    "title": "Plug-and-Play Multi-Licensee Robust Watermarking for Mixture-of-Experts LLMs",
+    "url": "https://arxiv.org/abs/2611.23838",
+    "source": "arXiv cs.CR",
+    "via": "arXiv cs.CR",
+    "lang": "en",
+    "published": "2026-11-19T05:00:00Z",
+    "seen": "2026-11-19T05:05:36Z",
+    "summary": "arXiv:2611.23838v1 Announce Type: new Abstract: Mixture-of-Experts (MoE) architectures enable high-capacity large language models (LLMs) with high sparse computation, making them attractive for deployment on private hardware. However, distributing model weights exposes valuable intellectual property (IP) to leakage and unauthorized redistribution, creating an urgent need to both verify model owner"
+  },
+  {
+    "id": "89c0ce6b226b",
+    "title": "Weighing the Envelope: Component Weight and Arbitration in Envelope-Layer Defenses for a Single LLM Agent",
+    "url": "https://arxiv.org/abs/2611.23844",
+    "source": "arXiv cs.CR",
+    "via": "arXiv cs.CR",
+    "lang": "en",
+    "published": "2026-11-19T05:00:00Z",
+    "seen": "2026-11-19T05:05:36Z",
+    "summary": "arXiv:2611.23844v1 Announce Type: new Abstract: The envelope layer is the channel through which malicious content enters an LLM agent. Prior work established label and memory effects on multi-agent A2A envelopes, but the weight structure when MCP tools and memory coexist in a single agent remains unclear. Our threat model assumes an attacker pre-plants a malicious tool and poisons long-term memory"
+  },
+  {
+    "id": "674cfbc32cef",
+    "title": "When Do Decision Models Help LLM-Driven Network Discovery?",
+    "url": "https://arxiv.org/abs/2611.23947",
+    "source": "arXiv cs.CR",
+    "via": "arXiv cs.CR",
+    "lang": "en",
+    "published": "2026-11-19T05:00:00Z",
+    "seen": "2026-11-19T05:05:36Z",
+    "summary": "arXiv:2611.23947v1 Announce Type: new Abstract: Network discovery, the identification of live hosts and their exposed services, is the first phase of every penetration test, and it is increasingly automated by harnesses driven by large language models (LLMs). To mitigate hallucinated or unsafe commands, recent work proposes inserting fast, non-generative decision models to validate actions prior t"
+  },
+  {
+    "id": "b7a81c659ac0",
+    "title": "What Survives the Shift from Text to Pixels? Conditional Protection against Prompt Injection in Image-Rendered Documents",
+    "url": "https://arxiv.org/abs/2611.24231",
+    "source": "arXiv cs.CR",
+    "via": "arXiv cs.CR",
+    "lang": "en",
+    "published": "2026-11-19T05:00:00Z",
+    "seen": "2026-11-19T05:05:36Z",
+    "summary": "arXiv:2611.24231v1 Announce Type: new Abstract: Multimodal language models increasingly answer questions over external documents, exposing them to indirect prompt injection: commands planted in untrusted content to hijack the response. Rendering untrusted content as page images lowers attack success on average, leaving open which injected operations survive rendering, at what utility cost, and whe"
+  },
+  {
+    "id": "4d8e50dff2cd",
+    "title": "AutoPI: Taxonomy-Guided Adaptive Red Teaming for Prompt Injection in LLM Agents",
+    "url": "https://arxiv.org/abs/2611.24313",
+    "source": "arXiv cs.CR",
+    "via": "arXiv cs.CR",
+    "lang": "en",
+    "published": "2026-11-19T05:00:00Z",
+    "seen": "2026-11-19T05:05:36Z",
+    "summary": "arXiv:2611.24313v1 Announce Type: new Abstract: Prompt injection is the dominant unsolved security risk for LLM agents, and the community now agrees that robustness must be measured against adaptive attackers rather than fixed benchmark injections. Many adaptive red teamers exist, and most are built to maximize attack success rate (ASR). Yet ASR counts how often a target breaks, not in how many di"
+  },
+  {
+    "id": "7b8371ec98cf",
+    "title": "PIPETTE: Prompt Injection Purple-Teaming for Robust LLM Agents",
+    "url": "https://arxiv.org/abs/2611.24362",
+    "source": "arXiv cs.CR",
+    "via": "arXiv cs.CR",
+    "lang": "en",
+    "published": "2026-11-19T05:00:00Z",
+    "seen": "2026-11-19T05:05:36Z",
+    "summary": "arXiv:2611.24362v1 Announce Type: new Abstract: Large language model (LLM) agents routinely interact with untrusted external data, exposing them to indirect prompt injection (IPI) attacks that hijack agents into executing attacker-chosen tasks. To uncover these vulnerabilities at scale, automated red-teaming methods often leverage reinforcement learning (RL) to generate attacks that achieve high a"
+  },
+  {
+    "id": "001e091b266a",
+    "title": "Drift-Aware Explainable Prioritization for Windows PE Malware Forensic Triage with Semantic Consistency Checks",
+    "url": "https://arxiv.org/abs/2611.24474",
+    "source": "arXiv cs.CR",
+    "via": "arXiv cs.CR",
+    "lang": "en",
+    "published": "2026-11-19T05:00:00Z",
+    "seen": "2026-11-19T05:05:36Z",
+    "summary": "arXiv:2611.24474v1 Announce Type: new Abstract: Forensic investigators must decide which suspicious files to examine first. Machine-learning (ML) and deep-learning (DL) malware detectors usually return a bare score that neither explains why a file deserves attention nor signals when changing data make the model unreliable. We present a framework for Windows Portable Executable (PE) malware forensi"
+  },
+  {
+    "id": "0fa7c88f1777",
+    "title": "Gradient-Based Defensive Poisoning Against System Identification Attacks on Cyber-Physical Systems",
+    "url": "https://arxiv.org/abs/2611.24662",
+    "source": "arXiv cs.CR",
+    "via": "arXiv cs.CR",
+    "lang": "en",
+    "published": "2026-11-19T05:00:00Z",
+    "seen": "2026-11-19T05:05:36Z",
+    "summary": "arXiv:2611.24662v1 Announce Type: new Abstract: AI-driven attacks learn the models of cyber-physical systems (CPS) by passively observing controller and plant signals, then use this knowledge to act covertly. Because covertness depends on the accuracy of the identified model, degrading that accuracy is a viable countermeasure. This work applies Adversarial Machine Learning as a defense, injecting "
+  },
+  {
+    "id": "4b6b3ba92a66",
+    "title": "LLM-Guided Cyber-Physical Attack Path Identification in Smart Grids",
+    "url": "https://arxiv.org/abs/2611.24765",
+    "source": "arXiv cs.CR",
+    "via": "arXiv cs.CR",
+    "lang": "en",
+    "published": "2026-11-19T05:00:00Z",
+    "seen": "2026-11-19T05:05:36Z",
+    "summary": "arXiv:2611.24765v1 Announce Type: new Abstract: Identifying high-impact attack paths in cyber-physical power systems is critical for improving grid resilience. Existing methods typically rely on either structural topology analysis or simulation-based cascading-failure models. Topology-based approaches capture connectivity but lack adversarial reasoning, while simulation-driven methods are primaril"
+  },
+  {
+    "id": "24673aeae097",
+    "title": "PGPO: Prototype-Guided Progressive Obfuscation for Privacy-Preserving LLM-Enhanced Recommendation",
+    "url": "https://arxiv.org/abs/2611.23236",
+    "source": "arXiv cs.CR",
+    "via": "arXiv cs.CR",
+    "lang": "en",
+    "published": "2026-11-19T05:00:00Z",
+    "seen": "2026-11-19T05:05:36Z",
+    "summary": "arXiv:2611.23236v1 Announce Type: cross Abstract: LLM-enhanced recommender systems encode item side information into semantic embeddings, but these embeddings may leak sensitive textual attributes through inversion attacks. Existing input-side defenses rely on trusted collection or local token perturbation, often disrupting the inter-item semantic topology needed for recommendation. To address it,"
+  },
+  {
+    "id": "8d427bf46d19",
+    "title": "LLMs for Software Vulnerability Prediction and Prioritization: A Review",
+    "url": "https://arxiv.org/abs/2611.23304",
+    "source": "arXiv cs.CR",
+    "via": "arXiv cs.CR",
+    "lang": "en",
+    "published": "2026-11-19T05:00:00Z",
+    "seen": "2026-11-19T05:05:36Z",
+    "summary": "arXiv:2611.23304v1 Announce Type: cross Abstract: Large language models have moved beyond vulnerability detection into prediction, assessment, exploitability estimation, risk assessment and prioritization, yet the evidence for this shift has not been synthesised separately from the detection literature. In this systematic literature review, we examine how LLMs are used across those five task class"
+  },
+  {
+    "id": "9c1229ebd528",
+    "title": "A Survey on RLOps for Large Language Models",
+    "url": "https://arxiv.org/abs/2611.23357",
+    "source": "arXiv cs.CR",
+    "via": "arXiv cs.CR",
+    "lang": "en",
+    "published": "2026-11-19T05:00:00Z",
+    "seen": "2026-11-19T05:05:36Z",
+    "summary": "arXiv:2611.23357v1 Announce Type: cross Abstract: Reinforcement learning (RL) has become increasingly important for improving the reasoning, instruction-following, and task-solving capabilities of large language models (LLMs). However, scaling RL training exposes failures in distributed execution, feedback computation, and learning dynamics that can waste computational resources, slow training, an"
+  },
+  {
+    "id": "6a6aa7f9ab51",
+    "title": "Rented Oscillations: Multi-Tenant Data Center Workload Synchronization Attacks and Mitigation",
+    "url": "https://arxiv.org/abs/2611.23666",
+    "source": "arXiv cs.CR",
+    "via": "arXiv cs.CR",
+    "lang": "en",
+    "published": "2026-11-19T05:00:00Z",
+    "seen": "2026-11-19T05:05:36Z",
+    "summary": "arXiv:2611.23666v1 Announce Type: cross Abstract: Multi-tenant data center (DC) facilities rent computing capacity on demand, placing controllable load within reach of anyone willing to pay for it. This paper considers a stealthy adversary who rents workstations and runs deliberately unoptimized large language model (LLM) training, synchronizing their consumption into large periodic oscillations w"
+  },
+  {
+    "id": "58401e67ffb0",
+    "title": "SCR: Detecting Backdoor-Poisoned Samples through Clean-Reference Residuals",
+    "url": "https://arxiv.org/abs/2611.24558",
+    "source": "arXiv cs.CR",
+    "via": "arXiv cs.CR",
+    "lang": "en",
+    "published": "2026-11-19T05:00:00Z",
+    "seen": "2026-11-19T05:05:36Z",
+    "summary": "arXiv:2611.24558v1 Announce Type: cross Abstract: Deep neural networks are vulnerable to backdoor attacks, in which adversaries manipulate model predictions by injecting poisoned samples into training data. Detecting these samples remains challenging because legitimate semantic variation can obscure poisoning-related signals in learned representations. Consequently, class-level statistics used by "
+  },
+  {
+    "id": "b0aee9977ada",
+    "title": "ElephantAgent: Contextual State Continuity in Agentic Systems",
+    "url": "https://arxiv.org/abs/2607.01919",
+    "source": "arXiv cs.CR",
+    "via": "arXiv cs.CR",
+    "lang": "en",
+    "published": "2026-11-19T05:00:00Z",
+    "seen": "2026-11-19T05:05:36Z",
+    "summary": "arXiv:2607.01919v2 Announce Type: replace-cross Abstract: Agentic systems enhance their capabilities by invoking external tools and maintaining persistent memory. However, recent tool and memory poisoning attacks can covertly bias agent behavior. We observe that such attacks mounted out of band share a single enabler: each succeeds only by presenting the agent with a contextual state (e.g., tool s"
   },
   {
     "id": "33e33bcbfdc1",
@@ -3553,23 +3817,23 @@
     "summary": ""
   },
   {
-    "id": "e8dc8e99f6de",
-    "title": "Singapour utilise l'IA pour lutter contre la fraude et étendre le crédit aux entreprises",
-    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOYUpLMVdXOWRBT0s2U21hUnNiS3VWYjMtdDdxb0c0OG1LalNtVGg0QmUxZktGTFlDRmJicllmbFFzWWF6QWZyQTQ5VlprZGt3MnItbVhIZEZsZ2FveDI2TmhoZFM4R0VQbEh2ZmpnUktZaGRBWWEta1U1UUN6dkJkMTVCazJsc3Zlb2REaDZqSmtobF9oYzBYbTlDbXVDRHNuOUdUaW0tQy1ScGpldkZpMC1pbDgxNk0xV19ZWVkteGZZaldJNmhBYUNxMDlGSmIzX05iZk1mWFc?oc=5",
-    "source": "IDNFinancials",
-    "via": "Google News (Français)",
-    "lang": "fr",
-    "published": "2026-11-18T23:20:00Z",
-    "seen": "2026-11-19T00:05:42Z",
-    "summary": ""
-  },
-  {
     "id": "7daae5021e94",
     "title": "Singapur utiliza la IA para combatir el fraude y expandir el crédito empresarial",
     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNODdmTmtTUXlCR0FsRjh3MUw3c3hKeXRRZmJIZmhiSWhzRWI3NEpJYTJvZWwwOVJjUGYyWER1dG1vM2l5NmZGaktxY1RaX2sxYjk0MXFUUk4wVm1lOEY3N2RVQXlNd2tjaVBMTHdTLUIza2NmZ1h4UUMwWDVuRDRUelc2M2xuYzROM3QzZTY4dHhkUVVleURYQ0VPQkQ1X21ndTQzd0J4elZ3NEpsVmFmTEVhNVA4Rmx2dURrZTRhZEx1U3ktWmFuTA?oc=5",
     "source": "IDNFinancials",
     "via": "Google News (Español)",
     "lang": "es",
+    "published": "2026-11-18T23:20:00Z",
+    "seen": "2026-11-19T00:05:42Z",
+    "summary": ""
+  },
+  {
+    "id": "e8dc8e99f6de",
+    "title": "Singapour utilise l'IA pour lutter contre la fraude et étendre le crédit aux entreprises",
+    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOYUpLMVdXOWRBT0s2U21hUnNiS3VWYjMtdDdxb0c0OG1LalNtVGg0QmUxZktGTFlDRmJicllmbFFzWWF6QWZyQTQ5VlprZGt3MnItbVhIZEZsZ2FveDI2TmhoZFM4R0VQbEh2ZmpnUktZaGRBWWEta1U1UUN6dkJkMTVCazJsc3Zlb2REaDZqSmtobF9oYzBYbTlDbXVDRHNuOUdUaW0tQy1ScGpldkZpMC1pbDgxNk0xV19ZWVkteGZZaldJNmhBYUNxMDlGSmIzX05iZk1mWFc?oc=5",
+    "source": "IDNFinancials",
+    "via": "Google News (Français)",
+    "lang": "fr",
     "published": "2026-11-18T23:20:00Z",
     "seen": "2026-11-19T00:05:42Z",
     "summary": ""
@@ -4158,23 +4422,23 @@
     "summary": ""
   },
   {
-    "id": "7ee32d91cbbd",
-    "title": "Ni ciberataque ni IA fuera de control: las claves detrás de apagones tecnológicos en EEUU",
-    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNTGdVQ2xpWDBRMlBGSHVEeFhHVW9aRXQ4YkVjbThUS2dHWTIwbHE4d1llWl94T1lwRElJWjBlekJ3M1RqMDdWUkhMU1Nza3pZaTVrNVh6YXA0Q1hKZjlmWWlXQ3U3WlZqQ1NrYms2R1hNREJtY3Z0dHJ6ZEZVMWN4YjZIQ2Z4WGs5RUdhNk9ZWW0zazRVc0J5OGNJY3FvbWpaSFRBellXYkhkeGdTSFdmTnVXd1NBWjlkT05pVi00RzVqWDlldHA0WThKTVM3NExCOS1CUE1zeGPSAfMBQVVfeXFMTWNEbjA3X0J3SXgteThMSm4wbXlGRFVNa0pXemlualF4OVhsMjFYRDhKSGlUOGN2STlVempCY3BGYmlwTUhGMWV5cENGLUc4SVdxMHc5NEZ3Ti1VSVRseGUxSllKRHQ1NmVBWlNIaEVFNG9xS0FxU1M2aXNvR2owQ0ZOOW44WWFjWWtOZWpRSzdEcWl6QzJXT3BjeFJSN2VKTUQzdmVwelZRNG1pOFhPNTRyNURsMllOVXJhUFAwdmI5cVlmUTkzWUp1S0p5QWR3eGk0Z0NpM1RsdkcydV9wRV9KXzVSY1d1U2ltMmU1alBIamxj?oc=5",
-    "source": "Infobae",
-    "via": "Google News (Español)",
-    "lang": "es",
-    "published": "2026-11-18T20:45:00Z",
-    "seen": "2026-11-18T21:05:42Z",
-    "summary": ""
-  },
-  {
     "id": "f334588dc342",
     "title": "State Throws Punch At ChatGPT Maker, Wants $2 Billion For Allegedly Endangering Kids",
     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQbXBmV1IxN1J2MlhFdHpLQkpEcXNPenNWV0MyemwySVl2MV9DRHB5anRvbDVMaUVuY1Vuckh5ZUp4WjRwdjZfTWdnMzBCT2tMZ0dBcGYyUmRyWnpWQUxsNWp6cFRSa251RWNPdkY1WGtrOWFMSVRKTTRxYjJyNXM0RjgyZXc0QnpkWlUw?oc=5",
     "source": "The Daily Caller",
     "via": "Google News chatbot harm (EN)",
     "lang": "en",
+    "published": "2026-11-18T20:45:00Z",
+    "seen": "2026-11-18T21:05:42Z",
+    "summary": ""
+  },
+  {
+    "id": "7ee32d91cbbd",
+    "title": "Ni ciberataque ni IA fuera de control: las claves detrás de apagones tecnológicos en EEUU",
+    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNTGdVQ2xpWDBRMlBGSHVEeFhHVW9aRXQ4YkVjbThUS2dHWTIwbHE4d1llWl94T1lwRElJWjBlekJ3M1RqMDdWUkhMU1Nza3pZaTVrNVh6YXA0Q1hKZjlmWWlXQ3U3WlZqQ1NrYms2R1hNREJtY3Z0dHJ6ZEZVMWN4YjZIQ2Z4WGs5RUdhNk9ZWW0zazRVc0J5OGNJY3FvbWpaSFRBellXYkhkeGdTSFdmTnVXd1NBWjlkT05pVi00RzVqWDlldHA0WThKTVM3NExCOS1CUE1zeGPSAfMBQVVfeXFMTWNEbjA3X0J3SXgteThMSm4wbXlGRFVNa0pXemlualF4OVhsMjFYRDhKSGlUOGN2STlVempCY3BGYmlwTUhGMWV5cENGLUc4SVdxMHc5NEZ3Ti1VSVRseGUxSllKRHQ1NmVBWlNIaEVFNG9xS0FxU1M2aXNvR2owQ0ZOOW44WWFjWWtOZWpRSzdEcWl6QzJXT3BjeFJSN2VKTUQzdmVwelZRNG1pOFhPNTRyNURsMllOVXJhUFAwdmI5cVlmUTkzWUp1S0p5QWR3eGk0Z0NpM1RsdkcydV9wRV9KXzVSY1d1U2ltMmU1alBIamxj?oc=5",
+    "source": "Infobae",
+    "via": "Google News (Español)",
+    "lang": "es",
     "published": "2026-11-18T20:45:00Z",
     "seen": "2026-11-18T21:05:42Z",
     "summary": ""
@@ -5148,23 +5412,23 @@
     "summary": ""
   },
   {
-    "id": "794dc2fc6c76",
-    "title": "ИИ выявил критическую уязвимость в Java, которая может угрожать финансовой системе",
-    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNSFl2dVdBLUhsdzlZcjNpTms4WE92aWlVaFZma24xbFBHX25JUjBMNkVzTGluWHZMWGE2WTh0Z1lHOWpMUVFKblFsX1JHZ3FaamIwUUpwYlAtRFNtUExOaFhiTEZINWo5MktzdHFRS3R1VzlSODRNTXBmNDZ2UHRPMVZ4eFduZV9LbTFpQnNBY05jTXE4WmNNNFhOM1h1X0duM1JNcTlRcGVvRWl4M2fSAawBQVVfeXFMTlFNeWM4VDByOUM2TDF2NW02OHdQMEZtUzVOZmtFTlRRbkZOTVI4dVFoNUpEUVFLZ18xNnFBTHotR1pRRnBjTGF6UFFMV01WRW12ZS0xSDRDbFE1WjNVWFRhV1FicTBqVkJ2eUZtRElzSkxnZk5mb3pfV2xQakR1aU5yMFZ4RHhqYWZxRkNPeXVHcUF3OXFISVFOQ1pPQjNBNkdGMVRxQzZOVEQ0ag?oc=5",
-    "source": "Українські Національні Новини (УНН)",
-    "via": "Google News (Русский)",
-    "lang": "ru",
-    "published": "2026-11-18T16:40:11Z",
-    "seen": "2026-11-18T17:05:52Z",
-    "summary": ""
-  },
-  {
     "id": "83dbd0667165",
     "title": "AI has detected a critical vulnerability in Java that could threaten the financial system",
     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNlVITW9ERGpsZlBQVFhWcXluSERrOTlPLUIta3BuQ3dENm5FaFI5aVo5dWVZUVVza3ExQWRHZEExcVMyUUMyWEhsSDQtbDMxR3hDNTVIOHpyZldHQ1dZT2RUNWRhSXlWNHpXRFNqeTBTeml6NXhGSDUxYngwZUhTeW5vbmZTOHIzaWNMWWN4eEVUZnpvYmFfZ09yREFPSjFFT1hYOFREX3RMZFlmamJhWHhB0gGwAUFVX3lxTFB0WWEzMF9FRGlMM2xWZkRrekJZZE5aalU5eVp3dkFPUU5vc2ZMc1R6aFFRZ0M4VU12T3FHZ29EbHVSY1dMc1d4aTFlTTd3TWRBRUJCWmQwRE1tbzZpYklVaXRmVXEwdDJuNUduaThicFB3YzFjY0ZZcm5nT2xIdG5ZdE54QWp4ZEV4bzNTZFdVbGdmU0xCVUozT0luMjRfc2h6UGw3QTBucEVwS2daRUhu?oc=5",
     "source": "Українські Національні Новини (УНН)",
     "via": "Google News (English)",
     "lang": "en",
+    "published": "2026-11-18T16:40:11Z",
+    "seen": "2026-11-18T17:05:52Z",
+    "summary": ""
+  },
+  {
+    "id": "794dc2fc6c76",
+    "title": "ИИ выявил критическую уязвимость в Java, которая может угрожать финансовой системе",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNSFl2dVdBLUhsdzlZcjNpTms4WE92aWlVaFZma24xbFBHX25JUjBMNkVzTGluWHZMWGE2WTh0Z1lHOWpMUVFKblFsX1JHZ3FaamIwUUpwYlAtRFNtUExOaFhiTEZINWo5MktzdHFRS3R1VzlSODRNTXBmNDZ2UHRPMVZ4eFduZV9LbTFpQnNBY05jTXE4WmNNNFhOM1h1X0duM1JNcTlRcGVvRWl4M2fSAawBQVVfeXFMTlFNeWM4VDByOUM2TDF2NW02OHdQMEZtUzVOZmtFTlRRbkZOTVI4dVFoNUpEUVFLZ18xNnFBTHotR1pRRnBjTGF6UFFMV01WRW12ZS0xSDRDbFE1WjNVWFRhV1FicTBqVkJ2eUZtRElzSkxnZk5mb3pfV2xQakR1aU5yMFZ4RHhqYWZxRkNPeXVHcUF3OXFISVFOQ1pPQjNBNkdGMVRxQzZOVEQ0ag?oc=5",
+    "source": "Українські Національні Новини (УНН)",
+    "via": "Google News (Русский)",
+    "lang": "ru",
     "published": "2026-11-18T16:40:11Z",
     "seen": "2026-11-18T17:05:52Z",
     "summary": ""
@@ -6831,23 +7095,23 @@
     "summary": ""
   },
   {
-    "id": "cafe03ea61ec",
-    "title": "Google: Hackers de habla rusa utilizaron agentes de IA para ataques cibernéticos autónomos",
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNV2MzZlZodlAtclJsT1ZoaGJzQXE1ZTFSWTR0aFFVMUZ2SkNCVW9wXzJoX2YxeUpzZWw0anhlaFZPYXZqNkwxZDhEdHdGZ0FnUGVhVXhXSkxocUdlNGRFLTFNS2dwSFpsY3VaeFA3VEZzNm5RWXV2aHpSaW1kRTNVa1o5VnhYblBFV0QwT1JKWnJxbHJaOXVIeHZjOW05WlRZNDZSOU1TN3d6WEVzWUE4bmhBdFI?oc=5",
-    "source": "Informat.ro",
-    "via": "Google News (Español)",
-    "lang": "es",
-    "published": "2026-11-16T18:53:45Z",
-    "seen": "2026-11-18T13:05:44Z",
-    "summary": ""
-  },
-  {
     "id": "261e1cbcc0de",
     "title": "Google : Des hackers russophones ont utilisé des agents d’IA pour mener des cyberattaques autonomes",
     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOT2VjOHZlRjdDa0xoN1A3WHB3MDdfamxld0MtWTZfTElXQ3RsSVlEa09hWVFnckwzSnZVUW5IVUhWaUItU3JFRnUzbWxoSVJLNFN0a0NEa3oxN2ZPUm9EeDVTZUFyeUpXazdhR1U2YTVnSnlVOElFM1dLZXViV0pGNUpoMFJta0Eyb3pKNkd5RkFkM1V3a05seDBHcEtXS25SWkhPY0pBeUNZTnNIU3Y1M2RKMVVsWU9JSlJBaA?oc=5",
     "source": "Informat.ro",
     "via": "Google News (Français)",
     "lang": "fr",
+    "published": "2026-11-16T18:53:45Z",
+    "seen": "2026-11-18T13:05:44Z",
+    "summary": ""
+  },
+  {
+    "id": "cafe03ea61ec",
+    "title": "Google: Hackers de habla rusa utilizaron agentes de IA para ataques cibernéticos autónomos",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNV2MzZlZodlAtclJsT1ZoaGJzQXE1ZTFSWTR0aFFVMUZ2SkNCVW9wXzJoX2YxeUpzZWw0anhlaFZPYXZqNkwxZDhEdHdGZ0FnUGVhVXhXSkxocUdlNGRFLTFNS2dwSFpsY3VaeFA3VEZzNm5RWXV2aHpSaW1kRTNVa1o5VnhYblBFV0QwT1JKWnJxbHJaOXVIeHZjOW05WlRZNDZSOU1TN3d6WEVzWUE4bmhBdFI?oc=5",
+    "source": "Informat.ro",
+    "via": "Google News (Español)",
+    "lang": "es",
     "published": "2026-11-16T18:53:45Z",
     "seen": "2026-11-18T13:05:44Z",
     "summary": ""
@@ -7898,15 +8162,15 @@
     "summary": ""
   },
   {
-    "id": "5adf36e942de",
-    "title": "Google Finds Hackers Using AI Agents to Build and Run Exploits From Software Patches",
-    "url": "https://thehackernews.com/2026/11/google-finds-hackers-using-ai-agents-to.html",
-    "source": "The Hacker News",
-    "via": "The Hacker News",
+    "id": "4cdfa2d33536",
+    "title": "Google warns that fully-automated AI attacks are coming soon",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdkVrMjlGbjJjVm5fSld6ZTNfczFnRmo3aTNuYy1xT1l0eHJQZ3IxXzYybjF2T05fS1RfVXIwUnVlN2o0RTlOZ0IyZlZZQ29xMkpQRDhkUEJWMXNYLXhCVmQ5TG9wUDR3VWkyeVNlOGZRLU80S2c4LTNwV1p1TDVpU3phRVh6c3BfODBrbFkyb3NvclRKam5adi1kUzZlYmlsa3pJMUlfemJ1T2Rk?oc=5",
+    "source": "BleepingComputer",
+    "via": "Google News (English)",
     "lang": "en",
     "published": "2026-11-16T14:00:00Z",
     "seen": "2026-11-18T10:05:54Z",
-    "summary": "Google on Monday revealed that adversarial use of artificial intelligence (AI) by threat actors has gone beyond manual prompting to deploying autonomous multi-agent offensive frameworks like ARTEX, CAIRN, CyberStrikeAI, and PentAGI to execute multi-stage intrusions at greater operational velocity. In tandem, threat actors are leveraging the power and capabilities of large language models (LLMs)"
+    "summary": ""
   },
   {
     "id": "7666465cea4b",
@@ -7920,15 +8184,15 @@
     "summary": "Look ma, no human in the loop!"
   },
   {
-    "id": "4cdfa2d33536",
-    "title": "Google warns that fully-automated AI attacks are coming soon",
-    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdkVrMjlGbjJjVm5fSld6ZTNfczFnRmo3aTNuYy1xT1l0eHJQZ3IxXzYybjF2T05fS1RfVXIwUnVlN2o0RTlOZ0IyZlZZQ29xMkpQRDhkUEJWMXNYLXhCVmQ5TG9wUDR3VWkyeVNlOGZRLU80S2c4LTNwV1p1TDVpU3phRVh6c3BfODBrbFkyb3NvclRKam5adi1kUzZlYmlsa3pJMUlfemJ1T2Rk?oc=5",
-    "source": "BleepingComputer",
-    "via": "Google News (English)",
+    "id": "5adf36e942de",
+    "title": "Google Finds Hackers Using AI Agents to Build and Run Exploits From Software Patches",
+    "url": "https://thehackernews.com/2026/11/google-finds-hackers-using-ai-agents-to.html",
+    "source": "The Hacker News",
+    "via": "The Hacker News",
     "lang": "en",
     "published": "2026-11-16T14:00:00Z",
     "seen": "2026-11-18T10:05:54Z",
-    "summary": ""
+    "summary": "Google on Monday revealed that adversarial use of artificial intelligence (AI) by threat actors has gone beyond manual prompting to deploying autonomous multi-agent offensive frameworks like ARTEX, CAIRN, CyberStrikeAI, and PentAGI to execute multi-stage intrusions at greater operational velocity. In tandem, threat actors are leveraging the power and capabilities of large language models (LLMs)"
   },
   {
     "id": "ef91f4bd13c9",
@@ -8008,12 +8272,12 @@
     "summary": ""
   },
   {
-    "id": "ee8f1f942d7c",
-    "title": "Искусственный интеллект обнаружил уязвимость в системе безопасности Java — третьего по популярности языка программирования в мире",
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNXhDU01pNW5RTEo5aGxhcFZIckRsYnR3N3lHMFB3VzlUZXE3NUUwSXVINHNhZXlFRUI4NzU2dTBzRDRVTHRHMFQ4RmJiYldWVEd2UlJkUmlyQzlLMVl5UE55ajZKODMtVE5vOXkxaHl3MWI3VTNFYnk2ZnNKMmE4MGItRk5ENS1FaVd3R01nV0p3U0xGVkE?oc=5",
+    "id": "f5bc84a35126",
+    "title": "Faille de sécurité découverte par l’intelligence artificielle dans Java, le troisième langage de programmation le plus utilisé au monde",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNT01BdXVCVlZfQV81Z3pxdG5ES1ozeEZwWXBpanRsd2l0SW42UG94RTdGUEFQeXRONGZWbzJjNFNjekhoYWlzbkNqbXlzVE82bEwyS21JWk1kZldtUDJiY1IwLU50QkpuLVZ6YUxwdURFYnpSWElHVVdwdnh0Y2I5R01YTzdmSkxOb3hRZE82THdhTW5ER2RabnVhdG4?oc=5",
     "source": "Informat.ro",
-    "via": "Google News (Русский)",
-    "lang": "ru",
+    "via": "Google News (Français)",
+    "lang": "fr",
     "published": "2026-11-18T08:29:54Z",
     "seen": "2026-11-18T09:35:55Z",
     "summary": ""
@@ -8030,12 +8294,12 @@
     "summary": ""
   },
   {
-    "id": "f5bc84a35126",
-    "title": "Faille de sécurité découverte par l’intelligence artificielle dans Java, le troisième langage de programmation le plus utilisé au monde",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNT01BdXVCVlZfQV81Z3pxdG5ES1ozeEZwWXBpanRsd2l0SW42UG94RTdGUEFQeXRONGZWbzJjNFNjekhoYWlzbkNqbXlzVE82bEwyS21JWk1kZldtUDJiY1IwLU50QkpuLVZ6YUxwdURFYnpSWElHVVdwdnh0Y2I5R01YTzdmSkxOb3hRZE82THdhTW5ER2RabnVhdG4?oc=5",
+    "id": "ee8f1f942d7c",
+    "title": "Искусственный интеллект обнаружил уязвимость в системе безопасности Java — третьего по популярности языка программирования в мире",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNXhDU01pNW5RTEo5aGxhcFZIckRsYnR3N3lHMFB3VzlUZXE3NUUwSXVINHNhZXlFRUI4NzU2dTBzRDRVTHRHMFQ4RmJiYldWVEd2UlJkUmlyQzlLMVl5UE55ajZKODMtVE5vOXkxaHl3MWI3VTNFYnk2ZnNKMmE4MGItRk5ENS1FaVd3R01nV0p3U0xGVkE?oc=5",
     "source": "Informat.ro",
-    "via": "Google News (Français)",
-    "lang": "fr",
+    "via": "Google News (Русский)",
+    "lang": "ru",
     "published": "2026-11-18T08:29:54Z",
     "seen": "2026-11-18T09:35:55Z",
     "summary": ""
@@ -8533,270 +8797,6 @@
     "lang": "en",
     "published": "2026-11-18T07:09:40Z",
     "seen": "2026-11-18T07:35:43Z",
-    "summary": ""
-  },
-  {
-    "id": "0b91aa764732",
-    "title": "Google最新报告：黑客进化了！AI Agent自动挖洞，补丁刚发就被武器化",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8wUkYxbTVpOE44ODBqVUcwTHlKNmllcGFvTV9vN2NiNGZnRHlNbXBPNDIwU2NlNTF4dnpubmJsYS1hV05xU2ctSlY4QlhkTllsYzkwMzZZcDVpY0xGd3VtWjZaeWlFSzNLMXgxaWxqSWkzSVhVRkNsT0N0Y2k0eFU?oc=5",
-    "source": "PANews",
-    "via": "Google News (中文)",
-    "lang": "zh",
-    "published": "2026-11-18T06:29:38Z",
-    "seen": "2026-11-18T07:35:43Z",
-    "summary": ""
-  },
-  {
-    "id": "b34c3b43359b",
-    "title": "California Sues OpenAI Over Escaped AI Agents—Who Pays When Testing Goes Wrong?",
-    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOSTRVX0c0VE4wZnF5VnU3ZWF5MG5hUGpWVlZkd1hYSU5Yb0xhZ2NROVZkS2o2WG9veWpNQlAtRzZTcld2SXFtTG9wa19IMzNoTjBfWGpWTDZucUdKenA2cFNucXpuRkFHMEx5bFJMcmtHNkl6bUEtd0k4RHBEY3RwYjJTQWtPQQ?oc=5",
-    "source": "Brave New Coin",
-    "via": "Google News (English)",
-    "lang": "en",
-    "published": "2026-11-18T04:24:41Z",
-    "seen": "2026-11-18T07:35:43Z",
-    "summary": ""
-  },
-  {
-    "id": "7cda4760e2a4",
-    "title": "Detectan con IA un fallo crítico en el lenguaje de programación Java, uno de los más usados del mundo",
-    "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQeTY2anF3VXZjMmg1Sl85djlMeWw1UXFOendQWVdYZEhZbVVrZFZqYlYydk9ZYy16Qm1ld0cteFhvWVdLQ0NXXzhsTzdiSVZBX2JLRTRuY3NqQVNibmI4ckFrNDhKdWFkOWhXVEVqb2hodnJCV2VteEVOXzdDLWlGRFA5eDd0RkRTNHh3YkZPUlY3dzl0aU5aYkI4bFl1ZUtGUUZGT29oNEVXVDlJc0xzc2JLZm9SSTR5Q3hMV1lhbGJpVTNfcXNxUGlPZTBzb2N0bTE0WXl1TGlQYXdQQThSTURLLUZZR3ZzSkFtUnhYZTZKR2FJ?oc=5",
-    "source": "LatinUS",
-    "via": "Google News (Español)",
-    "lang": "es",
-    "published": "2026-11-18T01:17:02Z",
-    "seen": "2026-11-18T07:35:43Z",
-    "summary": ""
-  },
-  {
-    "id": "fd6087261e00",
-    "title": "¿Cuándo hay que preocuparse por la tos de un niño? Una pediatra explica las señales de alerta",
-    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNSjN4U1hKb1JaSkpkVUlEUTVESHhiUHVKNFg0X3kxZGNsMldwZ2pSRGFrNGZNTFlWeDBOcFVGZDJkQkwwQjlyNEl1T0IxdzZvUDY3c01rV2V6ZTRvUVc3RUJrS3NZVXJHOEd2OVZvN1c2YUxJcG9HZUsxb20xR253TXRxRHJCT05lNG0xa0lMWjd3bUdhQ3dHaDNPbEVpWG82clM2SWF1TEp4RjVjVmxGR3hHWm1uWDF6QjhWSkFWTVkweGxEWHdTZlB2dDR6RDFUc3dvekp30gHWAUFVX3lxTE1KM3hTWEpvUlpKSmRVSURRNURIeGJQdUo0WDRfeTFkY2wyV3BnalJEYWs0Zk1MWVZ4ME5wVUZkMmRCTDBCOXI0SXVPQjF3Nm9QNjdzTWtXZXplNG9RVzdFQmtLc1lVckc4R3Y5Vm83VzZhTElwb0dlSzFvbTFHbndNdHFEckJPTmU0bTFrSUxaN3dtR2FDd0doM09sRWlYbzZyUzZJYXVMSnhGNWNWbEZHeEdabW5YMXpCOFZKQVZNWTB4bERYd1NmUHZ0NHpEMVRzd296Snc?oc=5",
-    "source": "La Opinión de Málaga",
-    "via": "Google News chatbot harm (ES)",
-    "lang": "es",
-    "published": "2026-11-16T09:23:21Z",
-    "seen": "2026-11-18T07:35:43Z",
-    "summary": ""
-  },
-  {
-    "id": "9c9595ddff48",
-    "title": "AI Cuts Vulnerability Discovery from Nine Months to 90 Hours",
-    "url": "https://www.infosecurity-magazine.com/news/ai-cut-vulnerability-discover-nine",
-    "source": "Infosecurity Magazine",
-    "via": "Infosecurity Magazine",
-    "lang": "en",
-    "published": "2026-11-16T09:00:00Z",
-    "seen": "2026-11-18T07:35:43Z",
-    "summary": "Forescout report claims to have found 66 new flaws in just 90 hours using AI"
-  },
-  {
-    "id": "f0334df13e06",
-    "title": "$30,000 Bounty: Cato Networks Challenges Hackers to Trick its AI Agents",
-    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9hUDhfS05mdFRJaWxZeEw0cjRPNWVBeUhHdWU1OU9lUmVZUHdPNTB4VHFOUmVLY19hMnlmOWd4WHVjdkluRGlXWTJyMkZOU2YwaEZmQVl5SEY?oc=5",
-    "source": "Israel Defense",
-    "via": "Google News (English)",
-    "lang": "en",
-    "published": "2026-11-18T06:47:12Z",
-    "seen": "2026-11-18T07:05:40Z",
-    "summary": ""
-  },
-  {
-    "id": "30ffbef79965",
-    "title": "Chinese AI models: reported cyberattack controls",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxON20tZHNfdDlGVTVoTHgwa2xUNjFnWXZYVTI4UFl5ZkxvbHVUV2RMeEppWGVlMEdiZlU1VERXZ0ZPc18zNEhkeXpScE5icWU5bDJVQUlMYmZrWWtMTXlVWTBxYUpSampKRnMxRHc4Q01VRFNjc2tyNnBIcE1BQ3I0YnY1V0VxamxVOXgwRE8wQU9vUQ?oc=5",
-    "source": "NeoTeo",
-    "via": "Google News (English)",
-    "lang": "en",
-    "published": "2026-11-18T06:45:48Z",
-    "seen": "2026-11-18T07:05:40Z",
-    "summary": ""
-  },
-  {
-    "id": "16af25abed17",
-    "title": "Des hackers ont volé les informations de permis de conduire de milliers de chauffeurs Uber : l'entreprise confirme une fuite de données",
-    "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxPcE5kWjJlNXRZa0hseEVXbHZvUDZDMVZNQW50a3FLY2hmd244Vm0tdUprSXg3OXlkbkc5a0phRlNxcU5INVJ5VkdGMWZhQzRMd3RhcmprZmJBTEdqa0JQbHBBYjQ5YUlFNUlhVkwzLUFKeV80X1hObmZ5cmdyTV9aeTNCN0Q4b1hfQ0NrbTdwa2d1YUVyRkw1eVlJSzJIc2pDRTh5VkFyNTA2ZEVSTlN5MjVMZVlYOG5FWUo1NHdVcWhYNEdBMzg5YkxTYnVLV3Q1S054OHZjMVFlcnFEQkppMkxXZXN1TGhFZVNncU0zaEpNZEtWM1NETXJLR0QyUnAxak5PZEw4ZXcwUWtiTlRNeksxZ29QTlN0TEd0Zw?oc=5",
-    "source": "Science et vie",
-    "via": "Google News (Français)",
-    "lang": "fr",
-    "published": "2026-11-18T06:30:29Z",
-    "seen": "2026-11-18T07:05:40Z",
-    "summary": ""
-  },
-  {
-    "id": "1e44257ef8cd",
-    "title": "AI helped hackers in most cyber events of last 10 days, says Palo Alto Networks CEO - CNBC TV18",
-    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxObmd6RzV5TXA3eUhKT3drNloxaG1DYjllNFNDbndoWG5fQVAzdkZLSWU0SEY2UlcxWnlhM3FJeFd0Z1JHa3kzdWlacXYycWNsQTJ0bkNNcEQ3bUpsZHl1RFlFVDVmbG1xMEotcWM0QXVFLTM2NUoyUC0yNkhFd1owS0FYZUJVOG1jRHh6aXJnd3htaTJDVmdnQjBsXzdLTWVuc0NpU2xEM1V5V2J3cG5ZRU4zRC04b2c?oc=5",
-    "source": "LinkedIn",
-    "via": "Google News (English)",
-    "lang": "en",
-    "published": "2026-11-18T06:28:34Z",
-    "seen": "2026-11-18T07:05:40Z",
-    "summary": ""
-  },
-  {
-    "id": "3cdc9711dacd",
-    "title": "AI黑客工具ARTEX曝光 中共关联网络行动进入机器速度时代",
-    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE94dDFjRkVMcEVlNTNJTzZyQ3pEYTR3NEVaOFlKV1U0bTFINWVQcG9JYkNXRzdZU2p4NmMtaE95VkNXMjB3YnVTVXNR?oc=5",
-    "source": "MNewsTV",
-    "via": "Google News (中文)",
-    "lang": "zh",
-    "published": "2026-11-18T06:23:37Z",
-    "seen": "2026-11-18T07:05:40Z",
-    "summary": ""
-  },
-  {
-    "id": "8a6a9b49b791",
-    "title": "Endesa detecta 3.900 enganches ilegales en Málaga con IA",
-    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMzF4aGN6WHFQQ1RkakRSWXJXUkhfOUtoVUhqVEJyZDM1Yms0Y3Mtc3JWeWRzN0J0RVdqa2s1TkFXNWZIVC1YdGtZWTB5Z0wxaExIQk9mMjNMWDVwdUdneTFvV3lMVW9BRFYzYy1vN3hfUFlXRUhSZ1YtbS01eHBaNTNXT2NGSmRnSWNEVkJwOGo?oc=5",
-    "source": "El Ecosistema Startup",
-    "via": "Google News (Español)",
-    "lang": "es",
-    "published": "2026-11-18T06:21:32Z",
-    "seen": "2026-11-18T07:05:40Z",
-    "summary": ""
-  },
-  {
-    "id": "92929f4025e6",
-    "title": "Coinbase拦截Elon Musk深度伪造诈骗，阻止470万美元流向诈骗钱包",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOb1JzWUlpS0Y1Z1N4cEJuazdLNFJTa3Rjd29TVzVmZmp3UGp2RklaNnA3d3VZYnVzVVFPTXBiNkZCRVpxVUhpRmZNWWJCVlVybHVvVFA1ajk4WHF6VEptcFJURXhqZkpfUmFlQXVKZUI0YWJNMFltRjEtNGROREwyRDJSRDNwTVZOb2ZGUGI2ZXZaRDlXT3JTSzFXaGJmQ0hpSC1Z?oc=5",
-    "source": "디지털투데이",
-    "via": "Google News (中文)",
-    "lang": "zh",
-    "published": "2026-11-18T06:18:01Z",
-    "seen": "2026-11-18T07:05:40Z",
-    "summary": ""
-  },
-  {
-    "id": "a40937292f52",
-    "title": "金融当局将修改电子金融监督规定,将大型金融公司的保安弱点评价次数从每年1次增加到每年2次。 这是针对以金融圈为中心的人工智能(AI)黑客攻击损失正在增加而采取的措施。金融委员会18日表示,截止到本月末..",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1MSURkbTZzOXZrZHd0VDkteDRDMUNYQnY1ZDI5SlFqd09FR2NfbDVjRVVBV0t0OExfOGk2eWxHMGRsMS1FTnBURUc4djVaa2p6eVE?oc=5",
-    "source": "매일경제",
-    "via": "Google News (中文)",
-    "lang": "zh",
-    "published": "2026-11-18T06:12:00Z",
-    "seen": "2026-11-18T07:05:40Z",
-    "summary": ""
-  },
-  {
-    "id": "74dfc490f565",
-    "title": "Власти США не связывают остановку работы аэропортов с атакой ИИ",
-    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPMUNHZDgtOU90UDdydzV4LU04am5lRXU2OFpkeklxTVJYR3VXOUJfNlNGc2NleWx0NFhWWWJiNDNjZS0yZmJyQ0M4azRYYU9HWUdaUmtqbDFJcjZGOVF2bVNyUE1hMm1LY0FoMXZjN2ZhVEpNZ1lGMGRhNV9RZW9qRDE2OGF2TXIxOHc3Z0lGTTU3UDZvaDNtTGxpa2hTZFBRSVJxT1ROV0jSAawBQVVfeXFMUDVFWWNxTUlRQ08xRlRxMU5vbjJZT2lwTTBnamQxakFJYmd5RjNMMHJ2SGp1aHlkOHYxQUZmemh4X2kwXzZsS1dfejRrN0JBN0k5Z1FDY29xTFR4VmNfeF9WbEpjSXVMMkhKOS1xcWxSMGNyZEF1NjE1Mi0tNVVUbmxfdzdtR2N6eW93R3lJUTdCbDA2V2tQMzZYN3FfRVJFUF80NU1FeXotcnJGWg?oc=5",
-    "source": "EADaily",
-    "via": "Google News (Русский)",
-    "lang": "ru",
-    "published": "2026-11-18T02:00:00Z",
-    "seen": "2026-11-18T07:05:40Z",
-    "summary": ""
-  },
-  {
-    "id": "d5826006bf82",
-    "title": "ФБР: ИИ-инструмент ARTEX ускоряет атаки на банки и цепочки поставок",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQU2lyQ0ZNUzVpTkhZLXdFRWFOaU4zbDk3M0diTHJRdl9KS1JPOHV2T1d3WTVXWEtzd2ZYMlhWUWpNWWtoZ0tUQTlBMnFEZVRlaGtHMFpSa0c1VnVsRWtuMm51V1FUam5Vb2lpNGFlWHpVQ2JvT3hHVmF4ai02UjRhak1rdGRfM1QwWkRzcjdneGZOU0NPQ3lqU2NaUURrZ1ZHdElPX0ppbw?oc=5",
-    "source": "Cryptopolitan",
-    "via": "Google News (Русский)",
-    "lang": "ru",
-    "published": "2026-11-17T04:41:43Z",
-    "seen": "2026-11-18T07:05:40Z",
-    "summary": ""
-  },
-  {
-    "id": "4f31ce76d1bd",
-    "title": "ECB’s Vujcic Warns AI and High Debt Threaten Financial Stability",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOX0JRT2RFUk95LURkYWVrOGZ3ZTBsbElvZVlYemFBLXFad1hRMHVnTjhOX0tOZ0dvRTRvWWRuMGhGVGoyUGtrdG5NcFZtdkl2aDNBdzNleFVxd0RxQWxBN0MtejhLa21ZVGFpY1Bwa2g5QUZrXzNGRHJHdlNXWUdWU2t5YzV3VDdpc2ZUNWRCQjlfOUVwQzlwbWZTc25famsyWXJTNTFQM1NQSlNHR1B0cW1qRDVKQQ?oc=5",
-    "source": "Bloomberg.com",
-    "via": "Google News (official warnings)",
-    "lang": "en",
-    "published": "2026-11-16T08:30:00Z",
-    "seen": "2026-11-18T07:05:40Z",
-    "summary": ""
-  },
-  {
-    "id": "d378b27abea8",
-    "title": "OpenAI Hit With $2 Billion Oregon Lawsuit Ahead of IPO, Accused of Deliberately Addicting Children to ChatGPT",
-    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5qZmctc19fb2YyY3pfWlNZQ0ZRcXpaTGxVQXNidHBSQnozWF8wTGZBcDIwVWF1ekV4YmEtS3diaDdRcmxDU1lwQUpvWlFDMTE0cjVYV0pCZUhQVE1SOTNDUlE0Qy1QWS1mcDJwNEVRUTJndzNrZFE?oc=5",
-    "source": "BigGo Finance",
-    "via": "Google News chatbot harm (EN)",
-    "lang": "en",
-    "published": "2026-11-18T06:05:00Z",
-    "seen": "2026-11-18T06:35:43Z",
-    "summary": ""
-  },
-  {
-    "id": "1a8fa7db748a",
-    "title": "Coinbase AI defense blocks $4.7 million from being sent to deepfake Elon Musk scam",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA4MXk2SFg2TGxpeVZyY3ZIS1NnWWwzRHBsNHMyUTdYOGs0NHhYYzlnTDlJbEk2NE1nR2pTR0JpQmhDUFgtTExmbTUtVW8xOHgwbVNlR05HMjFGUQ?oc=5",
-    "source": "Cryptonews.net",
-    "via": "Google News (English)",
-    "lang": "en",
-    "published": "2026-11-18T03:07:13Z",
-    "seen": "2026-11-18T06:35:43Z",
-    "summary": ""
-  },
-  {
-    "id": "08b3efcc2520",
-    "title": "美网络安全公司预测：AI加速应用或致2027年日本网络诈骗激增",
-    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQRUtJb0JXa3RCNFVrVE5sYlR2Z0tHYWUzcV96dHhjZnlxSmhOUk0wbzZtTDRPVDdqRXN6VHJ2bXI1OGk5V0JUNEhMbHJfQkllOW5wcE42OFBOR0Q2R3ZvMWdFdi1QSFFycDVBSHpEMHJsZWpzVzhjdV8xMXA0SzAzSHdNSnh0M05TdFE?oc=5",
-    "source": "旅日侨网",
-    "via": "Google News (中文)",
-    "lang": "zh",
-    "published": "2026-11-18T00:51:46Z",
-    "seen": "2026-11-18T06:35:43Z",
-    "summary": ""
-  },
-  {
-    "id": "d2710cafe296",
-    "title": "Why Banks Are Rethinking Fraud and Cybersecurity Together",
-    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQb3pLRnBOS05MYldXcEEzSHltSE05bHowVXZvY2xvSDBZS0taVDV6WjZzOElranp6TzJTQTZzaXByNWk5aEtPbi1MMS1Tam1hYndhYVRvWnptOWpROW8ycDVqTHY1Q3lVMmR5dkIwWGt1a0dsalJHMkNrMUNqNjRLX1lteFlvVkJpdWN0cm4xV1Q3OFgzdnZUTmhLZDJQZjhJNmZVSHczRjc?oc=5",
-    "source": "BankInfoSecurity",
-    "via": "Google News (English)",
-    "lang": "en",
-    "published": "2026-11-17T10:03:30Z",
-    "seen": "2026-11-18T06:35:43Z",
-    "summary": ""
-  },
-  {
-    "id": "08c69b8ab4d8",
-    "title": "Seguridad digital: cómo proteger la confianza ante el fraude y la inteligencia artificial",
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxON3JGZU5tblhWTlFPTXk3RE1YWEQ3ZjRkamZQZ2xMQkZHc1hFbmhTMDJFZEpmTzRtX3BzQ1pTb2E3TENzRGoweXVIOExxbDBGTWJqTS1FMlFYU1A1TWNmc3hrVDZPQXVMaFRFd19QZVl1ZG1tNUVBUWRnQWlFWS1WSlFnc0dFcmE2MU56aWJ1aTdBdGFkN1E?oc=5",
-    "source": "Telefónica",
-    "via": "Google News (Español)",
-    "lang": "es",
-    "published": "2026-11-16T08:30:00Z",
-    "seen": "2026-11-18T06:35:43Z",
-    "summary": ""
-  },
-  {
-    "id": "210413527e63",
-    "title": "Google Detects First AI-Led Autonomous Cyberattack",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSGdHLTBtWHpvRzNHdEdteFZ4OGoxc2N0OWxiaG9jekxmQ29qQkNlbEs1cnJJaFIta3FCS2pOeVhRRHMxX01GZ2RfT2xfUGtESGxhNmstckxITFE0WWowd3FlSVZiRHJReXpnQ2x6M3FOLVlVdFdVWTVhRDExc18wNVNqenhPZ193dHpLQ2VncHJPamp3NFZKZ0psU1hpMTF0M1JNatIBpwFBVV95cUxOQ0dWaEJTNUlWSldfeEdTX211T3R5elF1eHcwQ2R4M1FzZTRZb1ZPeVRPTkJpUDFhN0w1Rlk4N3JOMmluelZqRFZHbUN4TVJoTk5FS2FyMi1UeTF2eWxaYWh4ZjlfWEl2aEs5ZzRxeVBvNXBqcEpXY2ZuNHlyTmRZS25MQVRoU21ZWmpBbHUtc1NUb04xdmRyTy04WmU2WnNnZGlydTdkaw?oc=5",
-    "source": "Rediff",
-    "via": "Google News (English)",
-    "lang": "en",
-    "published": "2026-11-18T05:53:04Z",
-    "seen": "2026-11-18T06:05:39Z",
-    "summary": ""
-  },
-  {
-    "id": "9ad14b876e82",
-    "title": "Human Resources Development Service of Korea Files AI Fraud Complaint Against Tax Accountant Exam Cheat",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNbm1nSzBuNGxnTHZYeE1ud0NKVDZ6RUlOaXhrZy1ZN2EtRElaU2NKZXY2R1M4WVJfUUtzaVAzdWJoY2tvRWFpNU0zTk1xbHRCVHlGOElXc25uUmI1VFF0a0wwdlVWcHQ4d1g4bzFRVmNwLTRfSHV5TGhjb3FzM3ZjYTVsdzR0VWpj?oc=5",
-    "source": "조선일보",
-    "via": "Google News (English)",
-    "lang": "en",
-    "published": "2026-11-18T05:51:16Z",
-    "seen": "2026-11-18T06:05:39Z",
-    "summary": ""
-  },
-  {
-    "id": "fe419d682926",
-    "title": "Google détecte la première cyberattaque menée de bout en bout par une IA",
-    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPcVR3TGlieTZKcXJzT3p4NTE1RjBCWUhCOWsxQlJaSmkyMWJjbVpkMmhLazk0d21pSWhLZEt4VnkydHdWZjlVUHZkdEJ0MWZ4c21ZXzZpd1pWNXNoZ3p6TkdvRjJyRFJaOEhxN3FLc043N1R5cVZPbnZqZDZ1ejdsT1ZB0gGHAUFVX3lxTE9nTlZBWGxjcU05Ql81cDBGWTljc05Sd3JGRUFkTVZ2MkZ6b1NQZjI0ek9idWtoYVlvTEZFNDZfcXRoZk9lTElxNjc3OHNnVG5HeFpoa2s1MnVWdWJFcHZ6cWxsV1FzYlpPZXJSY0laYXlUeVNjZjJQS3p6cGxUeXVoTkl2c19IQQ?oc=5",
-    "source": "Génération NT",
-    "via": "Google News (Français)",
-    "lang": "fr",
-    "published": "2026-11-18T05:30:01Z",
-    "seen": "2026-11-18T06:05:39Z",
     "summary": ""
   }
 ]
