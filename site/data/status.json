@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T11:06:00Z",
+  "updated_at": "2026-11-19T11:35:39Z",
   "wire_items": 800,
   "new_items": 483,
   "candidates": 53,
@@ -26,6 +26,9 @@
     "The Guardian Technology",
     "Google News (English)",
     "Google News (Français)",
+    "Google News (Español)",
+    "Google News (العربية)",
+    "Google News (中文)",
     "Google News (Русский)",
     "CrowdStrike",
     "SentinelOne Labs",
@@ -78,9 +81,6 @@
     "Google News (official warnings)"
   ],
   "feeds_failed": [
-    "Google News (Español)",
-    "Google News (العربية)",
-    "Google News (中文)",
     "US court filings (CourtListener)",
     "Reddit r/netsec",
     "European Commission",
