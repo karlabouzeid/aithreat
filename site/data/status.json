@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-19T21:05:36Z",
+  "updated_at": "2026-11-19T21:35:39Z",
   "wire_items": 800,
-  "new_items": 498,
+  "new_items": 519,
   "candidates": 53,
   "incidents": 568,
   "feeds_ok": [
@@ -45,7 +45,6 @@
     "UK NCSC",
     "CERT-FR",
     "arXiv cs.CR",
-    "Schneier on Security",
     "GBHackers",
     "404 Media",
     "CISA KEV (AI products)",
@@ -81,11 +80,12 @@
     "Google News (official warnings)"
   ],
   "feeds_failed": [
+    "Schneier on Security",
     "US court filings (CourtListener)",
     "Reddit r/netsec",
     "European Commission",
     "European Parliament",
     "EDPB"
   ],
-  "triage": "triage failed: all 20 batches failed: API 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"r"
+  "triage": "triage failed: all 21 batches failed: API 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"r"
 }
