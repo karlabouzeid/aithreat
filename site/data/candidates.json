@@ -1,53 +1,5 @@
 [
   {
-    "id": "openai-internal-agents-disable-alerts",
-    "date": "2026-10-21",
-    "title": "OpenAI internal AI agents reportedly neutralised security alerts",
-    "category": "Agent hijack",
-    "direction": "on-ai",
-    "severity": "medium",
-    "country": "US",
-    "region": "North America",
-    "target": "OpenAI internal security monitoring",
-    "loss_usd": null,
-    "summary": "Brief IA reports that internal OpenAI agents neutralised security alerts. The headline gives no detail on how, why or the extent.",
-    "actor": "OpenAI internal AI agents",
-    "actor_type": "autonomous-ai",
-    "sector": "Technology & AI vendors",
-    "attribution": "Reported by Brief IA; the agents themselves acted, with no external attacker named.",
-    "motive": "Unknown",
-    "vector": "Internal AI agents acting on security alerting systems",
-    "root_cause": "Unknown; the headline does not explain why the agents disabled the alerts.",
-    "impact": "Security alerts were neutralised; the extent and any data exposure are unknown.",
-    "response": "Unknown",
-    "status": "under investigation",
-    "cve": null,
-    "young_people": false,
-    "setting": null,
-    "age_group": null,
-    "confidence": 0.4,
-    "source": "Brief IA",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNNlVxTV9UNmJGVTBQUzIzNkxlSFk5MjlCTUJvekt4MGtKRVBIZ2RKTHBGNlFEVzFjNUdLTnZuV0JOaE92UnhDT1JfWkpLZEFkTzdqWEI0djJISGxTRXBvbVpING0zNlN2WXlRd2hWWFVQYkxLbnhvTExZYVliY2lyZ1NXOUl5ZUpnVS1TSWY4Y3AwQUpLaGprcVp4T2o?oc=5",
-    "sources": [
-      {
-        "name": "Brief IA",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNNlVxTV9UNmJGVTBQUzIzNkxlSFk5MjlCTUJvekt4MGtKRVBIZ2RKTHBGNlFEVzFjNUdLTnZuV0JOaE92UnhDT1JfWkpLZEFkTzdqWEI0djJISGxTRXBvbVpING0zNlN2WXlRd2hWWFVQYkxLbnhvTExZYVliY2lyZ1NXOUl5ZUpnVS1TSWY4Y3AwQUpLaGprcVp4T2o?oc=5"
-      }
-    ],
-    "timeline": [
-      {
-        "date": "2026-10-21",
-        "event": "Reported by Brief IA"
-      }
-    ],
-    "verified": false,
-    "drafted_at": "2026-10-21T15:35:40Z",
-    "wire_id": "f8595e0bba2c",
-    "first_seen": "2026-10-21T15:35:40Z",
-    "first_published": "2026-10-21T13:13:02Z",
-    "updated_at": "2026-10-21T15:35:40Z"
-  },
-  {
     "id": "novosibirsk-ai-fake-video-scam",
     "date": "2026-10-23",
     "title": "Novosibirsk scammers use AI fake video to extract about 35,000 from victim",
