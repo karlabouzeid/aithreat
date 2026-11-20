@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-20T21:05:44Z",
+  "updated_at": "2026-11-20T21:35:41Z",
   "wire_items": 800,
-  "new_items": 998,
+  "new_items": 1010,
   "candidates": 51,
   "incidents": 568,
   "feeds_ok": [
@@ -36,6 +36,7 @@
     "Kaspersky Securelist",
     "ESET WeLiveSecurity",
     "Cisco Talos",
+    "Zscaler ThreatLabz",
     "Proofpoint",
     "Recorded Future",
     "Wiz Research",
@@ -80,12 +81,11 @@
     "Google News (official warnings)"
   ],
   "feeds_failed": [
-    "Zscaler ThreatLabz",
     "US court filings (CourtListener)",
     "Reddit r/netsec",
     "European Commission",
     "European Parliament",
     "EDPB"
   ],
-  "triage": "triage failed: all 40 batches failed: API 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"r"
+  "triage": "triage failed: all 41 batches failed: API 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"r"
 }
