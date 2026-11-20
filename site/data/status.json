@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-20T12:05:42Z",
+  "updated_at": "2026-11-20T12:35:43Z",
   "wire_items": 800,
-  "new_items": 997,
+  "new_items": 1009,
   "candidates": 52,
   "incidents": 568,
   "feeds_ok": [
@@ -46,7 +46,6 @@
     "CERT-FR",
     "arXiv cs.CR",
     "Schneier on Security",
-    "GBHackers",
     "404 Media",
     "CISA KEV (AI products)",
     "GitHub Advisory Database (AI packages)",
@@ -54,6 +53,7 @@
     "GitHub new repositories",
     "Europol",
     "FBI IC3 alerts",
+    "Google News chatbot harm (EN)",
     "Google News chatbot harm (العربية)",
     "Google News chatbot harm (FR)",
     "Google News chatbot harm (ES)",
@@ -76,16 +76,16 @@
     "US FDA",
     "US Election Assistance Commission",
     "UN News",
-    "Elysee (France)"
-  ],
-  "feeds_failed": [
-    "US court filings (CourtListener)",
-    "Reddit r/netsec",
-    "Google News chatbot harm (EN)",
-    "European Commission",
-    "European Parliament",
-    "EDPB",
+    "Elysee (France)",
     "Google News (official warnings)"
   ],
-  "triage": "triage failed: all 40 batches failed: API 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"r"
+  "feeds_failed": [
+    "GBHackers",
+    "US court filings (CourtListener)",
+    "Reddit r/netsec",
+    "European Commission",
+    "European Parliament",
+    "EDPB"
+  ],
+  "triage": "triage failed: all 41 batches failed: API 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"r"
 }
