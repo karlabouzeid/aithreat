@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-21T07:05:37Z",
+  "updated_at": "2026-11-21T07:35:36Z",
   "wire_items": 800,
-  "new_items": 991,
+  "new_items": 1003,
   "candidates": 51,
   "incidents": 568,
   "feeds_ok": [
@@ -77,15 +77,15 @@
     "US FDA",
     "US Election Assistance Commission",
     "UN News",
-    "Elysee (France)"
+    "Elysee (France)",
+    "Google News (official warnings)"
   ],
   "feeds_failed": [
     "US court filings (CourtListener)",
     "Reddit r/netsec",
     "European Commission",
     "European Parliament",
-    "EDPB",
-    "Google News (official warnings)"
+    "EDPB"
   ],
-  "triage": "triage failed: all 40 batches failed: API 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"r"
+  "triage": "triage failed: all 41 batches failed: API 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"r"
 }
