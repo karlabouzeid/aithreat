@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-21T13:05:38Z",
+  "updated_at": "2026-11-21T13:35:37Z",
   "wire_items": 800,
-  "new_items": 1015,
+  "new_items": 1056,
   "candidates": 51,
   "incidents": 568,
   "feeds_ok": [
@@ -54,6 +54,7 @@
     "GitHub new repositories",
     "Europol",
     "FBI IC3 alerts",
+    "Google News chatbot harm (EN)",
     "Google News chatbot harm (العربية)",
     "Google News chatbot harm (FR)",
     "Google News chatbot harm (ES)",
@@ -82,10 +83,9 @@
   "feeds_failed": [
     "US court filings (CourtListener)",
     "Reddit r/netsec",
-    "Google News chatbot harm (EN)",
     "European Commission",
     "European Parliament",
     "EDPB"
   ],
-  "triage": "triage failed: all 41 batches failed: API 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"r"
+  "triage": "triage failed: all 43 batches failed: API 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"r"
 }
