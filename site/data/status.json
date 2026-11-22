@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-22T05:05:41Z",
+  "updated_at": "2026-11-22T05:35:35Z",
   "wire_items": 800,
-  "new_items": 992,
+  "new_items": 1000,
   "candidates": 51,
   "incidents": 568,
   "feeds_ok": [
@@ -54,6 +54,7 @@
     "GitHub new repositories",
     "Europol",
     "FBI IC3 alerts",
+    "Google News chatbot harm (EN)",
     "Google News chatbot harm (العربية)",
     "Google News chatbot harm (FR)",
     "Google News chatbot harm (ES)",
@@ -82,7 +83,6 @@
   "feeds_failed": [
     "US court filings (CourtListener)",
     "Reddit r/netsec",
-    "Google News chatbot harm (EN)",
     "European Commission",
     "European Parliament",
     "EDPB"
