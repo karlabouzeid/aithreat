@@ -1,5 +1,38 @@
 [
   {
+    "id": "52386ee5b0c7",
+    "title": "聚焦AI与智能硬件创新 Future Makers2026北京站黑客松举办",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBGblVsa2RNbmZ2MnNxNlM0b2prdDAzQ3dUaUJoV25qYkx6ajlGcTlURDZuTm5JOEJxSklLbDgzUUFkNUhSb1d2Szk4WGxCUDBsZk5DZUl0LTB2NTFuRzJFZWhSNVkzZjBT?oc=5",
+    "source": "人民网",
+    "via": "Google News (中文)",
+    "lang": "zh",
+    "published": "2026-11-23T09:25:00Z",
+    "seen": "2026-11-23T09:35:41Z",
+    "summary": ""
+  },
+  {
+    "id": "483ed3a5b70d",
+    "title": "Министр образования Южной Кореи ушел в отставку из-за скандала вокруг мошенничества с ИИ на экзаменах",
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOUTAzc1dLZlVPVkRQUm9rYnV0S0VvSTh1Q3p5TGJCV0FLc2dPUDVmTFRfeU9XUl9SNzVqYmEtNnE5eEEzWjktQm1xTFBqNjRZcVlWYXBZWUFMVGhlWGxhMnZBLVBaYXJidV8ySXFmUFN6b2tlbEJQV2F2azhJbTBpQ3QxM0tZeU9BUXlld180akkxajBmV3BLYnFKLVlWS2xhb2RGZE1KN0toUFBVS0tWRi1mMEZ5U21hQ3VaVUJqVTU5bW1NQm1qMmQ4WTjSAdQBQVVfeXFMTlFZUHZUM0hCVHJlXzF2cENHdlI2ajRYYTc4NzFtbDFXLW91LThLYkRNUGY5eW9mR2lXbVpIMXR0aWItWFJGdnlMUU50M0MwVWIwbnE1TkduTVVpRjRlZlNoYVAtbUE0ajYzc3VwTFBXMjlyLWExVlc5UVN6NkxuaXpQWUhHYkdqMVoxSWdGdUJURTM5ZjkwbmVRWHNmaFg1cEFQazRlSlY5SDlDdlhQSVJuUWc4TlJ6NjduUUxxSUlacjlkYV9lYjlGT3lvdWZLRUtURDM?oc=5",
+    "source": "СБ. Беларусь сегодня",
+    "via": "Google News (Русский)",
+    "lang": "ru",
+    "published": "2026-11-23T08:26:43Z",
+    "seen": "2026-11-23T09:35:41Z",
+    "summary": ""
+  },
+  {
+    "id": "0529582250c1",
+    "title": "三天极限开发！北京这场AI黑客松正式开幕青年科创创作火热开启",
+    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5tQWF5RVBkb284Y3M1d3djaVMyV2locTlNUzR4Q1RxTU93RmlsWTZwMk9JeHR1YjJoVmpMbUVfNnpnVUszUVJ5dFZKekFOTjlPX2ltc1Rlc3ZtUDRXTEE?oc=5",
+    "source": "中华网",
+    "via": "Google News (中文)",
+    "lang": "zh",
+    "published": "2026-11-23T03:16:04Z",
+    "seen": "2026-11-23T09:35:41Z",
+    "summary": ""
+  },
+  {
     "id": "fa1284e33728",
     "title": "68% of Finance Leaders Say AI Gives Fraudsters the Upper Hand",
     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPOGZRWVlVcmoxVzBNWWl5UnQ4UlhvdDNQMjhwbEQxV2hzX0g2a2t6R0NqaVhvNXZ1eWVRRHgwOHY2cEl6VmFTemxPZS14Z1RaUWsyVkdBMkY3OGZqYjVkYUZ1X3pBSXlVQS1EdUtNTHJoSERpMlVMQVczVHFOYTlCeEFQSk12MFkxTk1wOUF6THQ3ZllkMThGcmlzeC16dXJnTmotcDFGLTBHNW5ZWGkzdg?oc=5",
@@ -627,169 +660,15 @@
     "summary": ""
   },
   {
-    "id": "25eee472f0ab",
-    "title": "Living off the Local Model: Abusing Browser-Embedded Language Models for Post-Exploitation",
-    "url": "https://arxiv.org/abs/2611.25086",
+    "id": "781cd346a83a",
+    "title": "Subverting Tool Arguments: Defense-Evading Metadata Poisoning in LLM Agents",
+    "url": "https://arxiv.org/abs/2611.27041",
     "source": "arXiv cs.CR",
     "via": "arXiv cs.CR",
     "lang": "en",
     "published": "2026-11-23T05:00:00Z",
     "seen": "2026-11-23T05:05:43Z",
-    "summary": "arXiv:2611.25086v2 Announce Type: replace Abstract: Browsers now ship local language models to ordinary endpoints. Google includes Gemini Nano in Chrome to enable productivity features such as summarization, with inference running entirely on the device. These browser-embedded models provide new living-off-the-land opportunities for attackers, each instance a potential post-exploitation engine alr"
-  },
-  {
-    "id": "53b605b3df03",
-    "title": "Permitted but Unauthorized: Affordance-Induced Delegated-Scope Violations in Multi-Agent LLM Systems",
-    "url": "https://arxiv.org/abs/2611.04086",
-    "source": "arXiv cs.CR",
-    "via": "arXiv cs.CR",
-    "lang": "en",
-    "published": "2026-11-23T05:00:00Z",
-    "seen": "2026-11-23T05:05:43Z",
-    "summary": "arXiv:2611.04086v2 Announce Type: replace Abstract: Multi-agent LLM systems place several agents on shared infrastructure, where each agent holds permissions far broader than the task it is delegated -- so every agent is routinely permitted to act on a peer's resources it was never assigned. We ask: under competitive pressure, what determines whether an agent crosses from its delegated scope into "
-  },
-  {
-    "id": "3ebd142aab2a",
-    "title": "ReDence: A Hybrid Agentic and System One Model Framework for Rapid, Evidence-Grounded Detection of Social Engineering Scams",
-    "url": "https://arxiv.org/abs/2610.30963",
-    "source": "arXiv cs.CR",
-    "via": "arXiv cs.CR",
-    "lang": "en",
-    "published": "2026-11-23T05:00:00Z",
-    "seen": "2026-11-23T05:05:43Z",
-    "summary": "arXiv:2610.30963v2 Announce Type: replace Abstract: Detecting online social engineering (SE) scams often requires examining website workflows, verifying claims against external sources, and connecting evidence across multiple pages. Existing detectors provide limited support for these tasks and rarely produce actionable evidence to support their decisions, leaving analysts to manually investigate "
-  },
-  {
-    "id": "b429e882c1f3",
-    "title": "CredLeakBench: Evaluating Credential Leakage and Recovery in LLM Agents",
-    "url": "https://arxiv.org/abs/2610.08871",
-    "source": "arXiv cs.CR",
-    "via": "arXiv cs.CR",
-    "lang": "en",
-    "published": "2026-11-23T05:00:00Z",
-    "seen": "2026-11-23T05:05:43Z",
-    "summary": "arXiv:2610.08871v2 Announce Type: replace Abstract: Language model agents are increasingly deployed to automate everyday digital chores from managing emails and social media to handling banking and bills allowing users to step away from supervision. However, this capability also exposes sensitive information to phishing. Safe execution requires distinguishing malicious requests from genuine ones w"
-  },
-  {
-    "id": "67bbfa04b941",
-    "title": "Codetta: High-Capacity, Keyless, and Undetectable Multi-Agent Collusion",
-    "url": "https://arxiv.org/abs/2609.28900",
-    "source": "arXiv cs.CR",
-    "via": "arXiv cs.CR",
-    "lang": "en",
-    "published": "2026-11-23T05:00:00Z",
-    "seen": "2026-11-23T05:05:43Z",
-    "summary": "arXiv:2609.28900v3 Announce Type: replace Abstract: Multi-agent systems built on large language models (LLMs) are increasingly deployed in high-stakes settings such as finance, healthcare, and software engineering, where agents coordinate through natural-language messages. The same channels, however, let colluding agents exfiltrate confidential information or coordinate unauthorized actions, and s"
-  },
-  {
-    "id": "4ebd593f1beb",
-    "title": "No-Box Vulnerability Analysis: Description-only Detection of Indirect Prompt Injection Vulnerabilities in MCP Servers",
-    "url": "https://arxiv.org/abs/2609.10854",
-    "source": "arXiv cs.CR",
-    "via": "arXiv cs.CR",
-    "lang": "en",
-    "published": "2026-11-23T05:00:00Z",
-    "seen": "2026-11-23T05:05:43Z",
-    "summary": "arXiv:2609.10854v3 Announce Type: replace Abstract: When auditing remotely hosted services or commercially gated software for vulnerabilities, third-party analysts may lack both direct system access and the ability to interact with the running system. We call this a no-box setting, in which analysts have access only to functionality metadata that may describe the intended inputs, behaviors, and ou"
-  },
-  {
-    "id": "3d398f507243",
-    "title": "SYSEVOLVE: Safe, Autonomous Attack-Defense Co-evolution for Evolving Cyber Defense",
-    "url": "https://arxiv.org/abs/2608.15012",
-    "source": "arXiv cs.CR",
-    "via": "arXiv cs.CR",
-    "lang": "en",
-    "published": "2026-11-23T05:00:00Z",
-    "seen": "2026-11-23T05:05:43Z",
-    "summary": "arXiv:2608.15012v2 Announce Type: replace Abstract: The offensive capability of large language models (LLMs) has crossed from research demonstration into documented reality. Frontier models have autonomously breached real production systems, and open-weight models now deliver frontier-level exploitation at negligible cost. Existing defenses cannot keep pace with such attacks: human-intensive defen"
-  },
-  {
-    "id": "c845e47ad3c0",
-    "title": "Comment and Control: Hijacking Agentic Workflows via Context-Grounded Evolution",
-    "url": "https://arxiv.org/abs/2605.11229",
-    "source": "arXiv cs.CR",
-    "via": "arXiv cs.CR",
-    "lang": "en",
-    "published": "2026-11-23T05:00:00Z",
-    "seen": "2026-11-23T05:05:43Z",
-    "summary": "arXiv:2605.11229v2 Announce Type: replace Abstract: Automation platforms such as GitHub Actions and n8n are increasingly adopting so-called agentic workflows, which integrate Large Language Model (LLM) agents for tasks such as code review and data synchronization. While bringing convenience for developers, this integration exposes a new risk: An adversary may control and craft certain inputs, such"
-  },
-  {
-    "id": "de4fea751949",
-    "title": "Mega-MMDF and DeepfakeBench-MM: Benchmarking Multimodal Deepfake Detection Across Diverse Forgery Pipelines",
-    "url": "https://arxiv.org/abs/2510.22622",
-    "source": "arXiv cs.CR",
-    "via": "arXiv cs.CR",
-    "lang": "en",
-    "published": "2026-11-23T05:00:00Z",
-    "seen": "2026-11-23T05:05:43Z",
-    "summary": "arXiv:2510.22622v3 Announce Type: replace Abstract: Audio-visual deepfakes can spread misinformation and enable impersonation, undermining trust in digital media. However, existing datasets provide limited coverage of forgery operations and their combinations, constraining detector development and systematic evaluation. We introduce Mega-MMDF, containing 100,000 real and 1.2 million forged clips a"
-  },
-  {
-    "id": "9d87b20872e4",
-    "title": "Autonomous Parameter Surgery: How LLMs Implant Selective Backdoors into Language Models",
-    "url": "https://arxiv.org/abs/2611.27920",
-    "source": "arXiv cs.CR",
-    "via": "arXiv cs.CR",
-    "lang": "en",
-    "published": "2026-11-23T05:00:00Z",
-    "seen": "2026-11-23T05:05:43Z",
-    "summary": "arXiv:2611.27920v1 Announce Type: new Abstract: Neural network weights are usually treated as opaque artifacts of gradient descent. Recent work on weight space programming, however, suggests that large language models can inspect and rewrite another network's parameters directly. In this paper, we ask whether a general language model can turn a natural language backdoor specification into persiste"
-  },
-  {
-    "id": "3e00739ce0e3",
-    "title": "Mjolnir: Finding and Reproducing Vulnerabilities in Root-of-Trust Firmware and RTL with Project-Grounded Agents",
-    "url": "https://arxiv.org/abs/2611.27567",
-    "source": "arXiv cs.CR",
-    "via": "arXiv cs.CR",
-    "lang": "en",
-    "published": "2026-11-23T05:00:00Z",
-    "seen": "2026-11-23T05:05:43Z",
-    "summary": "arXiv:2611.27567v1 Announce Type: new Abstract: A root of trust (RoT) anchors secure boot and attestation for the system above it, so a bug in RoT firmware or hardware undermines every layer that trusts it. LLM agents now find real vulnerabilities in general-purpose software, but RoT code presents two challenges. First, many security-relevant bugs depend on project-specific trust boundaries and fa"
-  },
-  {
-    "id": "9cb53931c2da",
-    "title": "Poisoning Attacks and Collaborative Defense Framework for LightRAG-Based Construction Regulation Knowledge",
-    "url": "https://arxiv.org/abs/2611.27460",
-    "source": "arXiv cs.CR",
-    "via": "arXiv cs.CR",
-    "lang": "en",
-    "published": "2026-11-23T05:00:00Z",
-    "seen": "2026-11-23T05:05:43Z",
-    "summary": "arXiv:2611.27460v1 Announce Type: new Abstract: Retrieval-augmented generation (RAG) is widely used in construction, yet the security of building-regulation knowledge bases has received little study. This thesis reports a pre-registered experiment on one fully instrumented LightRAG system built on the UK Approved Documents. Using a 150-item benchmark labeled with safety consequences and tampering "
-  },
-  {
-    "id": "abb9f28457f6",
-    "title": "TrojanMaxxing: One-shotting VLM Backdoors with Weight-Space Programming",
-    "url": "https://arxiv.org/abs/2611.27425",
-    "source": "arXiv cs.CR",
-    "via": "arXiv cs.CR",
-    "lang": "en",
-    "published": "2026-11-23T05:00:00Z",
-    "seen": "2026-11-23T05:05:43Z",
-    "summary": "arXiv:2611.27425v1 Announce Type: new Abstract: Recent work shows that large language models (LLMs) can reason directly about the weights of other neural networks. Given only a natural-language objective, an LLM can inspect a model's weights, understand what they compute, and edit them directly without gradient-based optimization. This capability, termed weight-space programming (WSP), has been us"
-  },
-  {
-    "id": "382af47d8ca5",
-    "title": "Detecting Word-Substitution Poisoning of a RAG Knowledge Base with Relative Entropy and Runtime Verification",
-    "url": "https://arxiv.org/abs/2611.27410",
-    "source": "arXiv cs.CR",
-    "via": "arXiv cs.CR",
-    "lang": "en",
-    "published": "2026-11-23T05:00:00Z",
-    "seen": "2026-11-23T05:05:43Z",
-    "summary": "arXiv:2611.27410v1 Announce Type: new Abstract: A retrieval-augmented generation (RAG) system answers questions using passages it retrieves from a knowledge base, so users must trust that knowledge base. We study an attacker who quietly edits existing passages by swapping words for synonyms (PWWS, TextFooler) in a cybersecurity RAG system built from MITRE ATT&CK and CAPEC. Using a reviewed 44-ques"
-  },
-  {
-    "id": "ba03b3f0d6e7",
-    "title": "Proactive Defense Benchmark against Deepfake Generation",
-    "url": "https://arxiv.org/abs/2611.27253",
-    "source": "arXiv cs.CR",
-    "via": "arXiv cs.CR",
-    "lang": "en",
-    "published": "2026-11-23T05:00:00Z",
-    "seen": "2026-11-23T05:05:43Z",
-    "summary": "arXiv:2611.27253v1 Announce Type: new Abstract: Despite the proliferation of proactive defenses against deepfakes, the lack of a unified evaluation protocol precludes fair comparison and masks critical vulnerabilities. To bridge this gap, we present the first comprehensive benchmark that systematically assesses disruption, robustness, and transferability encompassing pixel, perceptual, and identit"
+    "summary": "arXiv:2611.27041v1 Announce Type: new Abstract: Conventional indirect prompt injection (IPI) attacks hijack an LLM agent's workflow through malicious instructions embedded in retrieved external content. The growing adoption of the Model Context Protocol (MCP) exposes another attack surface: tool descriptions supplied by third-party MCP servers. Attackers can manipulate this metadata to induce mali"
   },
   {
     "id": "fa1db7cdd416",
@@ -803,15 +682,169 @@
     "summary": "arXiv:2611.27199v1 Announce Type: new Abstract: The MoT virtual environment, called the Metaverse of Things (MoT), combines machine learning (ML) and Internet of Things (IoT) to offer significant business opportunities in various sectors such as entertainment, healthcare, and education. In addition to its benefits, the MoT poses risks to privacy and security through unauthorized access, which thre"
   },
   {
-    "id": "781cd346a83a",
-    "title": "Subverting Tool Arguments: Defense-Evading Metadata Poisoning in LLM Agents",
-    "url": "https://arxiv.org/abs/2611.27041",
+    "id": "ba03b3f0d6e7",
+    "title": "Proactive Defense Benchmark against Deepfake Generation",
+    "url": "https://arxiv.org/abs/2611.27253",
     "source": "arXiv cs.CR",
     "via": "arXiv cs.CR",
     "lang": "en",
     "published": "2026-11-23T05:00:00Z",
     "seen": "2026-11-23T05:05:43Z",
-    "summary": "arXiv:2611.27041v1 Announce Type: new Abstract: Conventional indirect prompt injection (IPI) attacks hijack an LLM agent's workflow through malicious instructions embedded in retrieved external content. The growing adoption of the Model Context Protocol (MCP) exposes another attack surface: tool descriptions supplied by third-party MCP servers. Attackers can manipulate this metadata to induce mali"
+    "summary": "arXiv:2611.27253v1 Announce Type: new Abstract: Despite the proliferation of proactive defenses against deepfakes, the lack of a unified evaluation protocol precludes fair comparison and masks critical vulnerabilities. To bridge this gap, we present the first comprehensive benchmark that systematically assesses disruption, robustness, and transferability encompassing pixel, perceptual, and identit"
+  },
+  {
+    "id": "382af47d8ca5",
+    "title": "Detecting Word-Substitution Poisoning of a RAG Knowledge Base with Relative Entropy and Runtime Verification",
+    "url": "https://arxiv.org/abs/2611.27410",
+    "source": "arXiv cs.CR",
+    "via": "arXiv cs.CR",
+    "lang": "en",
+    "published": "2026-11-23T05:00:00Z",
+    "seen": "2026-11-23T05:05:43Z",
+    "summary": "arXiv:2611.27410v1 Announce Type: new Abstract: A retrieval-augmented generation (RAG) system answers questions using passages it retrieves from a knowledge base, so users must trust that knowledge base. We study an attacker who quietly edits existing passages by swapping words for synonyms (PWWS, TextFooler) in a cybersecurity RAG system built from MITRE ATT&CK and CAPEC. Using a reviewed 44-ques"
+  },
+  {
+    "id": "abb9f28457f6",
+    "title": "TrojanMaxxing: One-shotting VLM Backdoors with Weight-Space Programming",
+    "url": "https://arxiv.org/abs/2611.27425",
+    "source": "arXiv cs.CR",
+    "via": "arXiv cs.CR",
+    "lang": "en",
+    "published": "2026-11-23T05:00:00Z",
+    "seen": "2026-11-23T05:05:43Z",
+    "summary": "arXiv:2611.27425v1 Announce Type: new Abstract: Recent work shows that large language models (LLMs) can reason directly about the weights of other neural networks. Given only a natural-language objective, an LLM can inspect a model's weights, understand what they compute, and edit them directly without gradient-based optimization. This capability, termed weight-space programming (WSP), has been us"
+  },
+  {
+    "id": "9cb53931c2da",
+    "title": "Poisoning Attacks and Collaborative Defense Framework for LightRAG-Based Construction Regulation Knowledge",
+    "url": "https://arxiv.org/abs/2611.27460",
+    "source": "arXiv cs.CR",
+    "via": "arXiv cs.CR",
+    "lang": "en",
+    "published": "2026-11-23T05:00:00Z",
+    "seen": "2026-11-23T05:05:43Z",
+    "summary": "arXiv:2611.27460v1 Announce Type: new Abstract: Retrieval-augmented generation (RAG) is widely used in construction, yet the security of building-regulation knowledge bases has received little study. This thesis reports a pre-registered experiment on one fully instrumented LightRAG system built on the UK Approved Documents. Using a 150-item benchmark labeled with safety consequences and tampering "
+  },
+  {
+    "id": "3e00739ce0e3",
+    "title": "Mjolnir: Finding and Reproducing Vulnerabilities in Root-of-Trust Firmware and RTL with Project-Grounded Agents",
+    "url": "https://arxiv.org/abs/2611.27567",
+    "source": "arXiv cs.CR",
+    "via": "arXiv cs.CR",
+    "lang": "en",
+    "published": "2026-11-23T05:00:00Z",
+    "seen": "2026-11-23T05:05:43Z",
+    "summary": "arXiv:2611.27567v1 Announce Type: new Abstract: A root of trust (RoT) anchors secure boot and attestation for the system above it, so a bug in RoT firmware or hardware undermines every layer that trusts it. LLM agents now find real vulnerabilities in general-purpose software, but RoT code presents two challenges. First, many security-relevant bugs depend on project-specific trust boundaries and fa"
+  },
+  {
+    "id": "9d87b20872e4",
+    "title": "Autonomous Parameter Surgery: How LLMs Implant Selective Backdoors into Language Models",
+    "url": "https://arxiv.org/abs/2611.27920",
+    "source": "arXiv cs.CR",
+    "via": "arXiv cs.CR",
+    "lang": "en",
+    "published": "2026-11-23T05:00:00Z",
+    "seen": "2026-11-23T05:05:43Z",
+    "summary": "arXiv:2611.27920v1 Announce Type: new Abstract: Neural network weights are usually treated as opaque artifacts of gradient descent. Recent work on weight space programming, however, suggests that large language models can inspect and rewrite another network's parameters directly. In this paper, we ask whether a general language model can turn a natural language backdoor specification into persiste"
+  },
+  {
+    "id": "de4fea751949",
+    "title": "Mega-MMDF and DeepfakeBench-MM: Benchmarking Multimodal Deepfake Detection Across Diverse Forgery Pipelines",
+    "url": "https://arxiv.org/abs/2510.22622",
+    "source": "arXiv cs.CR",
+    "via": "arXiv cs.CR",
+    "lang": "en",
+    "published": "2026-11-23T05:00:00Z",
+    "seen": "2026-11-23T05:05:43Z",
+    "summary": "arXiv:2510.22622v3 Announce Type: replace Abstract: Audio-visual deepfakes can spread misinformation and enable impersonation, undermining trust in digital media. However, existing datasets provide limited coverage of forgery operations and their combinations, constraining detector development and systematic evaluation. We introduce Mega-MMDF, containing 100,000 real and 1.2 million forged clips a"
+  },
+  {
+    "id": "c845e47ad3c0",
+    "title": "Comment and Control: Hijacking Agentic Workflows via Context-Grounded Evolution",
+    "url": "https://arxiv.org/abs/2605.11229",
+    "source": "arXiv cs.CR",
+    "via": "arXiv cs.CR",
+    "lang": "en",
+    "published": "2026-11-23T05:00:00Z",
+    "seen": "2026-11-23T05:05:43Z",
+    "summary": "arXiv:2605.11229v2 Announce Type: replace Abstract: Automation platforms such as GitHub Actions and n8n are increasingly adopting so-called agentic workflows, which integrate Large Language Model (LLM) agents for tasks such as code review and data synchronization. While bringing convenience for developers, this integration exposes a new risk: An adversary may control and craft certain inputs, such"
+  },
+  {
+    "id": "3d398f507243",
+    "title": "SYSEVOLVE: Safe, Autonomous Attack-Defense Co-evolution for Evolving Cyber Defense",
+    "url": "https://arxiv.org/abs/2608.15012",
+    "source": "arXiv cs.CR",
+    "via": "arXiv cs.CR",
+    "lang": "en",
+    "published": "2026-11-23T05:00:00Z",
+    "seen": "2026-11-23T05:05:43Z",
+    "summary": "arXiv:2608.15012v2 Announce Type: replace Abstract: The offensive capability of large language models (LLMs) has crossed from research demonstration into documented reality. Frontier models have autonomously breached real production systems, and open-weight models now deliver frontier-level exploitation at negligible cost. Existing defenses cannot keep pace with such attacks: human-intensive defen"
+  },
+  {
+    "id": "4ebd593f1beb",
+    "title": "No-Box Vulnerability Analysis: Description-only Detection of Indirect Prompt Injection Vulnerabilities in MCP Servers",
+    "url": "https://arxiv.org/abs/2609.10854",
+    "source": "arXiv cs.CR",
+    "via": "arXiv cs.CR",
+    "lang": "en",
+    "published": "2026-11-23T05:00:00Z",
+    "seen": "2026-11-23T05:05:43Z",
+    "summary": "arXiv:2609.10854v3 Announce Type: replace Abstract: When auditing remotely hosted services or commercially gated software for vulnerabilities, third-party analysts may lack both direct system access and the ability to interact with the running system. We call this a no-box setting, in which analysts have access only to functionality metadata that may describe the intended inputs, behaviors, and ou"
+  },
+  {
+    "id": "67bbfa04b941",
+    "title": "Codetta: High-Capacity, Keyless, and Undetectable Multi-Agent Collusion",
+    "url": "https://arxiv.org/abs/2609.28900",
+    "source": "arXiv cs.CR",
+    "via": "arXiv cs.CR",
+    "lang": "en",
+    "published": "2026-11-23T05:00:00Z",
+    "seen": "2026-11-23T05:05:43Z",
+    "summary": "arXiv:2609.28900v3 Announce Type: replace Abstract: Multi-agent systems built on large language models (LLMs) are increasingly deployed in high-stakes settings such as finance, healthcare, and software engineering, where agents coordinate through natural-language messages. The same channels, however, let colluding agents exfiltrate confidential information or coordinate unauthorized actions, and s"
+  },
+  {
+    "id": "b429e882c1f3",
+    "title": "CredLeakBench: Evaluating Credential Leakage and Recovery in LLM Agents",
+    "url": "https://arxiv.org/abs/2610.08871",
+    "source": "arXiv cs.CR",
+    "via": "arXiv cs.CR",
+    "lang": "en",
+    "published": "2026-11-23T05:00:00Z",
+    "seen": "2026-11-23T05:05:43Z",
+    "summary": "arXiv:2610.08871v2 Announce Type: replace Abstract: Language model agents are increasingly deployed to automate everyday digital chores from managing emails and social media to handling banking and bills allowing users to step away from supervision. However, this capability also exposes sensitive information to phishing. Safe execution requires distinguishing malicious requests from genuine ones w"
+  },
+  {
+    "id": "3ebd142aab2a",
+    "title": "ReDence: A Hybrid Agentic and System One Model Framework for Rapid, Evidence-Grounded Detection of Social Engineering Scams",
+    "url": "https://arxiv.org/abs/2610.30963",
+    "source": "arXiv cs.CR",
+    "via": "arXiv cs.CR",
+    "lang": "en",
+    "published": "2026-11-23T05:00:00Z",
+    "seen": "2026-11-23T05:05:43Z",
+    "summary": "arXiv:2610.30963v2 Announce Type: replace Abstract: Detecting online social engineering (SE) scams often requires examining website workflows, verifying claims against external sources, and connecting evidence across multiple pages. Existing detectors provide limited support for these tasks and rarely produce actionable evidence to support their decisions, leaving analysts to manually investigate "
+  },
+  {
+    "id": "53b605b3df03",
+    "title": "Permitted but Unauthorized: Affordance-Induced Delegated-Scope Violations in Multi-Agent LLM Systems",
+    "url": "https://arxiv.org/abs/2611.04086",
+    "source": "arXiv cs.CR",
+    "via": "arXiv cs.CR",
+    "lang": "en",
+    "published": "2026-11-23T05:00:00Z",
+    "seen": "2026-11-23T05:05:43Z",
+    "summary": "arXiv:2611.04086v2 Announce Type: replace Abstract: Multi-agent LLM systems place several agents on shared infrastructure, where each agent holds permissions far broader than the task it is delegated -- so every agent is routinely permitted to act on a peer's resources it was never assigned. We ask: under competitive pressure, what determines whether an agent crosses from its delegated scope into "
+  },
+  {
+    "id": "25eee472f0ab",
+    "title": "Living off the Local Model: Abusing Browser-Embedded Language Models for Post-Exploitation",
+    "url": "https://arxiv.org/abs/2611.25086",
+    "source": "arXiv cs.CR",
+    "via": "arXiv cs.CR",
+    "lang": "en",
+    "published": "2026-11-23T05:00:00Z",
+    "seen": "2026-11-23T05:05:43Z",
+    "summary": "arXiv:2611.25086v2 Announce Type: replace Abstract: Browsers now ship local language models to ordinary endpoints. Google includes Gemini Nano in Chrome to enable productivity features such as summarization, with inference running entirely on the device. These browser-embedded models provide new living-off-the-land opportunities for attackers, each instance a potential post-exploitation engine alr"
   },
   {
     "id": "cefca54efa15",
@@ -1375,23 +1408,23 @@
     "summary": ""
   },
   {
-    "id": "79162e471403",
-    "title": "Soupçons de triche par IA : le ministère de l'Éducation étend son enquête aux précédentes épreuves du Suneung… Le ministère envisage également de traquer les fraudes passées",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1kcFhtOGl5aVJKRkVtNEg0LWYtMGtlY2p1eE90RGFQOXNnWEJSc3lMZUNPNUEtS0xmcVBZcWlxU1lsYW93U0ppWDJrbEF5MWZXaE5CWXVmc1phQVdKLXJYZg?oc=5",
-    "source": "재경일보",
-    "via": "Google News (Français)",
-    "lang": "fr",
-    "published": "2026-11-22T23:40:00Z",
-    "seen": "2026-11-23T00:05:40Z",
-    "summary": ""
-  },
-  {
     "id": "92eeba9a9d01",
     "title": "El Ministerio de Educación amplía la investigación sobre presunto fraude con IA hasta las pasadas pruebas del CSAT; se contempla rastrear casos de años anteriores",
     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE81OE9nTnEyb1lZZE5OWEQ5MjFzRUhVbURlazF6TFUyaDhKSU9WaWlLSEpoMEYzU1NiaXFraXNHcW1Dd2lILUV3MXRPUV9LMkl6QVY0LXJiNkdUVTNqeVZzRWpn?oc=5",
     "source": "재경일보",
     "via": "Google News (Español)",
     "lang": "es",
+    "published": "2026-11-22T23:40:00Z",
+    "seen": "2026-11-23T00:05:40Z",
+    "summary": ""
+  },
+  {
+    "id": "79162e471403",
+    "title": "Soupçons de triche par IA : le ministère de l'Éducation étend son enquête aux précédentes épreuves du Suneung… Le ministère envisage également de traquer les fraudes passées",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1kcFhtOGl5aVJKRkVtNEg0LWYtMGtlY2p1eE90RGFQOXNnWEJSc3lMZUNPNUEtS0xmcVBZcWlxU1lsYW93U0ppWDJrbEF5MWZXaE5CWXVmc1phQVdKLXJYZg?oc=5",
+    "source": "재경일보",
+    "via": "Google News (Français)",
+    "lang": "fr",
     "published": "2026-11-22T23:40:00Z",
     "seen": "2026-11-23T00:05:40Z",
     "summary": ""
@@ -2761,23 +2794,23 @@
     "summary": ""
   },
   {
-    "id": "a55910f63719",
-    "title": "Des agents d’IA découvrent et exploitent une faille zero-day sur un serveur universitaire, selon Amazon",
-    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNM1pvSXdqWGhJV2JKWm91SEJrMmZRMExTUkNVLTE1a0RMa2NQcEsxNmM0amExcnZrZzZxRkVGdHVkM2xmaVV0eEp4WWF1WWZ0bjFxVTJ2dFRTR3ZhQjY2RW1SakR6RUVNanNONVF0TjFqU3JvT0JRUFlhMlBLTE13cFNsa0NlNmxlb2ttMzdmcjRXT2NVYUp4bmYtQkdWX2ZjRk9CNlRwUm0xYk00RllxVlhtdGx5VW5aem1vaWRWaFEwWUwtREE4aHhNMEd4Zk0?oc=5",
-    "source": "news.lavx.hu",
-    "via": "Google News (Français)",
-    "lang": "fr",
-    "published": "2026-11-20T20:00:14Z",
-    "seen": "2026-11-22T13:05:40Z",
-    "summary": ""
-  },
-  {
     "id": "49be28b682e2",
     "title": "Agentes de IA encuentran y explotan una vulnerabilidad de día cero en un servidor universitario, dice Amazon",
     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOVXpzQUItMzVEQTl2d2c4MFMwRGkyUlBYSkxzUm5sZldGNXRpOFRsaXZJd2hFX3J6b3A3X0llWTR2emVCNVFIOWtFTXB0cU1PUnBrQ2syaHF6dzh2N093SDBSME1QQTJjQl92bDhQQzlZNUhBdWN5YmpsMkhtT1ZJZGs3aWtHSXhtUEtwd3BzNGRXS3ZJTzcwa2kwQUVQRVQtUFZyU3Q4NFFEd3l2bldkQzhkVVlFZkFIdVprTUt2ZzBTWDZEakYzM3llWDZxZFFKZGt4bER3?oc=5",
     "source": "news.lavx.hu",
     "via": "Google News (Español)",
     "lang": "es",
+    "published": "2026-11-20T20:00:14Z",
+    "seen": "2026-11-22T13:05:40Z",
+    "summary": ""
+  },
+  {
+    "id": "a55910f63719",
+    "title": "Des agents d’IA découvrent et exploitent une faille zero-day sur un serveur universitaire, selon Amazon",
+    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNM1pvSXdqWGhJV2JKWm91SEJrMmZRMExTUkNVLTE1a0RMa2NQcEsxNmM0amExcnZrZzZxRkVGdHVkM2xmaVV0eEp4WWF1WWZ0bjFxVTJ2dFRTR3ZhQjY2RW1SakR6RUVNanNONVF0TjFqU3JvT0JRUFlhMlBLTE13cFNsa0NlNmxlb2ttMzdmcjRXT2NVYUp4bmYtQkdWX2ZjRk9CNlRwUm0xYk00RllxVlhtdGx5VW5aem1vaWRWaFEwWUwtREE4aHhNMEd4Zk0?oc=5",
+    "source": "news.lavx.hu",
+    "via": "Google News (Français)",
+    "lang": "fr",
     "published": "2026-11-20T20:00:14Z",
     "seen": "2026-11-22T13:05:40Z",
     "summary": ""
@@ -4070,12 +4103,12 @@
     "summary": ""
   },
   {
-    "id": "a68f86b36a56",
-    "title": "Together AI Discloses Prompt Leak After Coding Agent Exposed Credential",
-    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNVHpXdXJnbmRKMEg1RlBiTC1IVWhxSC1NQTR1aWVSby1WdnJ1d0o4SGRsai0zNVd3bHFNYlRLQnp0eEhxLTBIeEk0SUxYWmlQMmtVMWVRQnQzaWItNVl1Tjk0Ry1Ra1FObVNuc0k0SUVDd0xELVUyLVhJSlRiYTFQa0JZaFBNNVZ2dG1KZGFSeWl5XzZZc015bA?oc=5",
+    "id": "8073ab887a98",
+    "title": "代码代理泄露凭据后，Together AI披露提示词泄露事件",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPX1JGMWxIdVB4V21lMkdNMHF2bFlBNWFhazFNZnR6LWVpT1Vja3VneFgxczBjaXVtYWhPeE1XaWIzeTJuSl9MemRzZUhCU2hwTnFFU2VwcnZCdW93UWRaZXFmNmY4YWtaVzVudXZvVVVZaE1KODh1VElSZzc4VTIzRlZsT0haRllpa2VqandmdUZJejBrbHhMWHQ2aUxUcURp?oc=5",
     "source": "Unite.AI",
-    "via": "Google News (English)",
-    "lang": "en",
+    "via": "Google News (中文)",
+    "lang": "zh",
     "published": "2026-11-21T23:38:04Z",
     "seen": "2026-11-22T00:05:35Z",
     "summary": ""
@@ -4092,12 +4125,12 @@
     "summary": ""
   },
   {
-    "id": "8073ab887a98",
-    "title": "代码代理泄露凭据后，Together AI披露提示词泄露事件",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPX1JGMWxIdVB4V21lMkdNMHF2bFlBNWFhazFNZnR6LWVpT1Vja3VneFgxczBjaXVtYWhPeE1XaWIzeTJuSl9MemRzZUhCU2hwTnFFU2VwcnZCdW93UWRaZXFmNmY4YWtaVzVudXZvVVVZaE1KODh1VElSZzc4VTIzRlZsT0haRllpa2VqandmdUZJejBrbHhMWHQ2aUxUcURp?oc=5",
+    "id": "a68f86b36a56",
+    "title": "Together AI Discloses Prompt Leak After Coding Agent Exposed Credential",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNVHpXdXJnbmRKMEg1RlBiTC1IVWhxSC1NQTR1aWVSby1WdnJ1d0o4SGRsai0zNVd3bHFNYlRLQnp0eEhxLTBIeEk0SUxYWmlQMmtVMWVRQnQzaWItNVl1Tjk0Ry1Ra1FObVNuc0k0SUVDd0xELVUyLVhJSlRiYTFQa0JZaFBNNVZ2dG1KZGFSeWl5XzZZc015bA?oc=5",
     "source": "Unite.AI",
-    "via": "Google News (中文)",
-    "lang": "zh",
+    "via": "Google News (English)",
+    "lang": "en",
     "published": "2026-11-21T23:38:04Z",
     "seen": "2026-11-22T00:05:35Z",
     "summary": ""
@@ -4466,169 +4499,15 @@
     "summary": ""
   },
   {
-    "id": "3cf5f943ba25",
-    "title": "Waymo pauses robotaxi service amid San Francisco storms: ‘We were kind of just stuck there’",
-    "url": "https://www.sfchronicle.com/sf/article/waymo-service-paused-storm-rain-22537988.php",
+    "id": "0bd9878abf5f",
+    "title": "Classified NSA communications network down, people familiar say",
+    "url": "https://www.nextgov.com/digital-government/2026/11/classified-nsa-communications-network-down-people-familiar-say/417277",
     "source": "AI Incident Database",
     "via": "AI Incident Database",
     "lang": "en",
     "published": "2026-11-21T00:00:00Z",
     "seen": "2026-11-21T19:35:40Z",
-    "summary": "Waymo suspended its autonomous ride-hail service Wednesday morning, provoking complaints that ripped through social media with nearly as much ferocity as a super El Niño pummeling the Bay Area. “We’ve paused for now due to weather,” the co ... (https://incidentdatabase.ai/cite/1835#8357)"
-  },
-  {
-    "id": "7e30b09e0401",
-    "title": "Bay Area Waymo robotaxi service suspended amid storm, flooding",
-    "url": "https://www.cbsnews.com/sanfrancisco/news/waymo-service-pause-bay-area-storm-flooding",
-    "source": "AI Incident Database",
-    "via": "AI Incident Database",
-    "lang": "en",
-    "published": "2026-11-21T00:00:00Z",
-    "seen": "2026-11-21T19:35:40Z",
-    "summary": "Heavy rain and localized flooding in the Bay Area prompted Waymo to suspend its driverless vehicle service on Wednesday, the company announced. The Waymo app indicated at around 11 a.m. that its robotaxi service would be paused until road ... (https://incidentdatabase.ai/cite/1835#8358)"
-  },
-  {
-    "id": "b17da93956d9",
-    "title": "Waymo resumes service as more storms loom over Bay Area",
-    "url": "https://www.sfchronicle.com/sf/article/waymo-resumes-service-22539972.php",
-    "source": "AI Incident Database",
-    "via": "AI Incident Database",
-    "lang": "en",
-    "published": "2026-11-21T00:00:00Z",
-    "seen": "2026-11-21T19:35:40Z",
-    "summary": "Waymo resumed service in the Bay Area on Thursday morning after a temporary stoppage Wednesday as robotaxis struggled to navigate battering storms. The restoration at 9 a.m. came as rain abated and wan sunlight pressed through cloud banks ... (https://incidentdatabase.ai/cite/1835#8359)"
-  },
-  {
-    "id": "6562b3a9fd69",
-    "title": "Tech outage wave reaches US government; Trump says all is 'fine'",
-    "url": "https://www.reuters.com/business/aerospace-defense/trump-shrugs-off-spate-us-outages-says-things-like-that-happen-2026-11-17",
-    "source": "AI Incident Database",
-    "via": "AI Incident Database",
-    "lang": "en",
-    "published": "2026-11-21T00:00:00Z",
-    "seen": "2026-11-21T19:35:40Z",
-    "summary": "WASHINGTON, Nov 17 (Reuters) - Technology outages that shut down email for many companies and grounded thousands of flights over the past few days extended to the US National Security Agency on Tuesday, as President Donald Trump's administr ... (https://incidentdatabase.ai/cite/1836#8360)"
-  },
-  {
-    "id": "50c77c244ab1",
-    "title": "National Security Agency network outage linked to software vulnerability",
-    "url": "https://www.cbsnews.com/news/national-security-agency-network-outage-software-vulnerability",
-    "source": "AI Incident Database",
-    "via": "AI Incident Database",
-    "lang": "en",
-    "published": "2026-11-21T00:00:00Z",
-    "seen": "2026-11-21T19:35:40Z",
-    "summary": "The National Security Agency's network outage Tuesday has been linked to an urgent patching of vulnerabilities in PHP, the programming language that powers the majority of all websites, multiple sources told CBS News. The NSA's internal ne ... (https://incidentdatabase.ai/cite/1836#8361)"
-  },
-  {
-    "id": "9bae6b273fc8",
-    "title": "NSA statement on network issues",
-    "url": "https://www.nsa.gov/Press-Room/Press-Releases-Statements/Press-Release-View/Article/4650245/nsa-statement-on-network-issues",
-    "source": "AI Incident Database",
-    "via": "AI Incident Database",
-    "lang": "en",
-    "published": "2026-11-21T00:00:00Z",
-    "seen": "2026-11-21T19:35:40Z",
-    "summary": "The National Security Agency experienced temporary degradation during scheduled routine maintenance. While some internal systems were affected, mission-critical capabilities remain fully operational and our ability to defend national securi ... (https://incidentdatabase.ai/cite/1836#8362)"
-  },
-  {
-    "id": "c394599fa2df",
-    "title": "Jay Clayton addresses concerns amid widespread tech outages",
-    "url": "https://www.foxbusiness.com/technology/jay-clayton-addresses-concerns-amid-widespread-tech-outages",
-    "source": "AI Incident Database",
-    "via": "AI Incident Database",
-    "lang": "en",
-    "published": "2026-11-21T00:00:00Z",
-    "seen": "2026-11-21T19:35:40Z",
-    "summary": "Director of National Intelligence Jay Clayton said Tuesday that officials see no signs of a coordinated cyberattack or state-sponsored activity behind a wave of technology outages, pointing instead to institutions installing security patche ... (https://incidentdatabase.ai/cite/1836#8363)"
-  },
-  {
-    "id": "e3f80aa13f80",
-    "title": "Exclusive: Highly classified US national security communications network goes down, sources say",
-    "url": "https://www.cnn.com/2026/11/17/politics/highly-classified-national-security-communications-network-goes-down",
-    "source": "AI Incident Database",
-    "via": "AI Incident Database",
-    "lang": "en",
-    "published": "2026-11-21T00:00:00Z",
-    "seen": "2026-11-21T19:35:40Z",
-    "summary": "The highly classified network that the National Security Agency uses for its internal communications is down, according to six people familiar with the matter. The NSA closed its campus to most employees on Tuesday night, reverting to essen ... (https://incidentdatabase.ai/cite/1836#8364)"
-  },
-  {
-    "id": "6f404d5d3cab",
-    "title": "Outage at NSA’s highly classified communications network has been resolved, sources say",
-    "url": "https://keyt.com/politics/cnn-us-politics/2026/11/20/outage-at-nsas-highly-classified-communications-network-has-been-resolved",
-    "source": "AI Incident Database",
-    "via": "AI Incident Database",
-    "lang": "en",
-    "published": "2026-11-21T00:00:00Z",
-    "seen": "2026-11-21T19:35:40Z",
-    "summary": "(CNN) — The outage of a key internal communications network at the National Security Agency that has kept large swaths of employees locked out for more than three days has now been resolved, according to a source familiar with the matter an ... (https://incidentdatabase.ai/cite/1836#8365)"
-  },
-  {
-    "id": "d0e3c3e7d1e1",
-    "title": "NSA outage hits key facility for Middle East intel operations as agency resorts to workarounds, sources say",
-    "url": "https://abc17news.com/politics/national-politics/cnn-us-politics/2026/11/18/nsa-outage-disrupts-key-intel-hub-that-supports-middle-east-intelligence-and-operations-sources-say",
-    "source": "AI Incident Database",
-    "via": "AI Incident Database",
-    "lang": "en",
-    "published": "2026-11-21T00:00:00Z",
-    "seen": "2026-11-21T19:35:40Z",
-    "summary": "(CNN) — The sweeping IT disruptions that have kept large swaths of the National Security Agency’s workforce at home for three days has also impacted operations at a critical Georgia facility that supports signals intelligence and cybersecur ... (https://incidentdatabase.ai/cite/1836#8366)"
-  },
-  {
-    "id": "f67114676f56",
-    "title": "NSA resumes normal operations following internal network disruptions",
-    "url": "https://therecord.media/nsa-resumes-normal-operations-following-internal-disruptions",
-    "source": "AI Incident Database",
-    "via": "AI Incident Database",
-    "lang": "en",
-    "published": "2026-11-21T00:00:00Z",
-    "seen": "2026-11-21T19:35:40Z",
-    "summary": "The National Security Agency has mostly returned to business as usual after patches to a commonly-used programming language caused an internal communications network to crash for much of the week. An NSA spokesperson said they “can confirm ... (https://incidentdatabase.ai/cite/1836#8367)"
-  },
-  {
-    "id": "b279e9c45692",
-    "title": "Security officials tell Congress tech outages are not malicious",
-    "url": "https://www.nextgov.com/cybersecurity/2026/11/security-officials-tell-congress-tech-outages-are-not-malicious/417312",
-    "source": "AI Incident Database",
-    "via": "AI Incident Database",
-    "lang": "en",
-    "published": "2026-11-21T00:00:00Z",
-    "seen": "2026-11-21T19:35:40Z",
-    "summary": "Officials on Wednesday sought to assuage fears about foreign adversaries accessing various digital platforms amid a series of major tech outages that affected online services over the last week. Homeland Security Secretary Markwayne Mullin ... (https://incidentdatabase.ai/cite/1836#8368)"
-  },
-  {
-    "id": "93c7f1ceb265",
-    "title": "Classified U.S. Intelligence System Is Down, U.S. Officials Say",
-    "url": "https://www.wsj.com/politics/national-security/classified-u-s-intelligence-system-is-down-for-now-u-s-officials-say-aa09b6d1",
-    "source": "AI Incident Database",
-    "via": "AI Incident Database",
-    "lang": "en",
-    "published": "2026-11-21T00:00:00Z",
-    "seen": "2026-11-21T19:35:40Z",
-    "summary": "WASHINGTON—A classified internal communications network is down at the National Security Agency, U.S. officials said, the latest in a string of digital systems that have temporarily gone down. A person familiar with the incident said the N ... (https://incidentdatabase.ai/cite/1836#8369)"
-  },
-  {
-    "id": "d1b73617ae19",
-    "title": "Classified communications network at the National Security Agency goes down, defense official says",
-    "url": "https://abcnews.com/Technology/wireStory/classified-communications-network-national-security-agency-defense-official-138223663",
-    "source": "AI Incident Database",
-    "via": "AI Incident Database",
-    "lang": "en",
-    "published": "2026-11-21T00:00:00Z",
-    "seen": "2026-11-21T19:35:40Z",
-    "summary": "WASHINGTON -- An internal network the National Security Agency uses to communicate classified information was offline Tuesday after what the agency described as “routine maintenance.” The problem disrupted the operations of NSANet, a class ... (https://incidentdatabase.ai/cite/1836#8370)"
-  },
-  {
-    "id": "bb59c1759a0e",
-    "title": "Update: Disruptions in NSA’s internal network caused by software patch, DNI says",
-    "url": "https://therecord.media/nsa-net-disruptions",
-    "source": "AI Incident Database",
-    "via": "AI Incident Database",
-    "lang": "en",
-    "published": "2026-11-21T00:00:00Z",
-    "seen": "2026-11-21T19:35:40Z",
-    "summary": "The National Security Agency’s classified internal communications network experienced a technical issue on Tuesday that resulted in a delayed opening and staggered employee arrivals. The difficulties with the system, known as NSA Net, were ... (https://incidentdatabase.ai/cite/1836#8371)"
+    "summary": "The National Security Agency’s classified internal communications network has gone down, slowing down analysts’ workflows and forcing employees to rearrange their arrivals at the agency’s campus, according to six people familiar with the ma ... (https://incidentdatabase.ai/cite/1836#8373)"
   },
   {
     "id": "74a7435602bf",
@@ -4642,15 +4521,169 @@
     "summary": "Washington — The National Security Agency's internal network used to store and share classified information went offline Tuesday, according to multiple U.S. officials familiar with the situation, prompting the agency to stagger arrival time ... (https://incidentdatabase.ai/cite/1836#8372)"
   },
   {
-    "id": "0bd9878abf5f",
-    "title": "Classified NSA communications network down, people familiar say",
-    "url": "https://www.nextgov.com/digital-government/2026/11/classified-nsa-communications-network-down-people-familiar-say/417277",
+    "id": "bb59c1759a0e",
+    "title": "Update: Disruptions in NSA’s internal network caused by software patch, DNI says",
+    "url": "https://therecord.media/nsa-net-disruptions",
     "source": "AI Incident Database",
     "via": "AI Incident Database",
     "lang": "en",
     "published": "2026-11-21T00:00:00Z",
     "seen": "2026-11-21T19:35:40Z",
-    "summary": "The National Security Agency’s classified internal communications network has gone down, slowing down analysts’ workflows and forcing employees to rearrange their arrivals at the agency’s campus, according to six people familiar with the ma ... (https://incidentdatabase.ai/cite/1836#8373)"
+    "summary": "The National Security Agency’s classified internal communications network experienced a technical issue on Tuesday that resulted in a delayed opening and staggered employee arrivals. The difficulties with the system, known as NSA Net, were ... (https://incidentdatabase.ai/cite/1836#8371)"
+  },
+  {
+    "id": "d1b73617ae19",
+    "title": "Classified communications network at the National Security Agency goes down, defense official says",
+    "url": "https://abcnews.com/Technology/wireStory/classified-communications-network-national-security-agency-defense-official-138223663",
+    "source": "AI Incident Database",
+    "via": "AI Incident Database",
+    "lang": "en",
+    "published": "2026-11-21T00:00:00Z",
+    "seen": "2026-11-21T19:35:40Z",
+    "summary": "WASHINGTON -- An internal network the National Security Agency uses to communicate classified information was offline Tuesday after what the agency described as “routine maintenance.” The problem disrupted the operations of NSANet, a class ... (https://incidentdatabase.ai/cite/1836#8370)"
+  },
+  {
+    "id": "93c7f1ceb265",
+    "title": "Classified U.S. Intelligence System Is Down, U.S. Officials Say",
+    "url": "https://www.wsj.com/politics/national-security/classified-u-s-intelligence-system-is-down-for-now-u-s-officials-say-aa09b6d1",
+    "source": "AI Incident Database",
+    "via": "AI Incident Database",
+    "lang": "en",
+    "published": "2026-11-21T00:00:00Z",
+    "seen": "2026-11-21T19:35:40Z",
+    "summary": "WASHINGTON—A classified internal communications network is down at the National Security Agency, U.S. officials said, the latest in a string of digital systems that have temporarily gone down. A person familiar with the incident said the N ... (https://incidentdatabase.ai/cite/1836#8369)"
+  },
+  {
+    "id": "b279e9c45692",
+    "title": "Security officials tell Congress tech outages are not malicious",
+    "url": "https://www.nextgov.com/cybersecurity/2026/11/security-officials-tell-congress-tech-outages-are-not-malicious/417312",
+    "source": "AI Incident Database",
+    "via": "AI Incident Database",
+    "lang": "en",
+    "published": "2026-11-21T00:00:00Z",
+    "seen": "2026-11-21T19:35:40Z",
+    "summary": "Officials on Wednesday sought to assuage fears about foreign adversaries accessing various digital platforms amid a series of major tech outages that affected online services over the last week. Homeland Security Secretary Markwayne Mullin ... (https://incidentdatabase.ai/cite/1836#8368)"
+  },
+  {
+    "id": "f67114676f56",
+    "title": "NSA resumes normal operations following internal network disruptions",
+    "url": "https://therecord.media/nsa-resumes-normal-operations-following-internal-disruptions",
+    "source": "AI Incident Database",
+    "via": "AI Incident Database",
+    "lang": "en",
+    "published": "2026-11-21T00:00:00Z",
+    "seen": "2026-11-21T19:35:40Z",
+    "summary": "The National Security Agency has mostly returned to business as usual after patches to a commonly-used programming language caused an internal communications network to crash for much of the week. An NSA spokesperson said they “can confirm ... (https://incidentdatabase.ai/cite/1836#8367)"
+  },
+  {
+    "id": "d0e3c3e7d1e1",
+    "title": "NSA outage hits key facility for Middle East intel operations as agency resorts to workarounds, sources say",
+    "url": "https://abc17news.com/politics/national-politics/cnn-us-politics/2026/11/18/nsa-outage-disrupts-key-intel-hub-that-supports-middle-east-intelligence-and-operations-sources-say",
+    "source": "AI Incident Database",
+    "via": "AI Incident Database",
+    "lang": "en",
+    "published": "2026-11-21T00:00:00Z",
+    "seen": "2026-11-21T19:35:40Z",
+    "summary": "(CNN) — The sweeping IT disruptions that have kept large swaths of the National Security Agency’s workforce at home for three days has also impacted operations at a critical Georgia facility that supports signals intelligence and cybersecur ... (https://incidentdatabase.ai/cite/1836#8366)"
+  },
+  {
+    "id": "6f404d5d3cab",
+    "title": "Outage at NSA’s highly classified communications network has been resolved, sources say",
+    "url": "https://keyt.com/politics/cnn-us-politics/2026/11/20/outage-at-nsas-highly-classified-communications-network-has-been-resolved",
+    "source": "AI Incident Database",
+    "via": "AI Incident Database",
+    "lang": "en",
+    "published": "2026-11-21T00:00:00Z",
+    "seen": "2026-11-21T19:35:40Z",
+    "summary": "(CNN) — The outage of a key internal communications network at the National Security Agency that has kept large swaths of employees locked out for more than three days has now been resolved, according to a source familiar with the matter an ... (https://incidentdatabase.ai/cite/1836#8365)"
+  },
+  {
+    "id": "e3f80aa13f80",
+    "title": "Exclusive: Highly classified US national security communications network goes down, sources say",
+    "url": "https://www.cnn.com/2026/11/17/politics/highly-classified-national-security-communications-network-goes-down",
+    "source": "AI Incident Database",
+    "via": "AI Incident Database",
+    "lang": "en",
+    "published": "2026-11-21T00:00:00Z",
+    "seen": "2026-11-21T19:35:40Z",
+    "summary": "The highly classified network that the National Security Agency uses for its internal communications is down, according to six people familiar with the matter. The NSA closed its campus to most employees on Tuesday night, reverting to essen ... (https://incidentdatabase.ai/cite/1836#8364)"
+  },
+  {
+    "id": "c394599fa2df",
+    "title": "Jay Clayton addresses concerns amid widespread tech outages",
+    "url": "https://www.foxbusiness.com/technology/jay-clayton-addresses-concerns-amid-widespread-tech-outages",
+    "source": "AI Incident Database",
+    "via": "AI Incident Database",
+    "lang": "en",
+    "published": "2026-11-21T00:00:00Z",
+    "seen": "2026-11-21T19:35:40Z",
+    "summary": "Director of National Intelligence Jay Clayton said Tuesday that officials see no signs of a coordinated cyberattack or state-sponsored activity behind a wave of technology outages, pointing instead to institutions installing security patche ... (https://incidentdatabase.ai/cite/1836#8363)"
+  },
+  {
+    "id": "9bae6b273fc8",
+    "title": "NSA statement on network issues",
+    "url": "https://www.nsa.gov/Press-Room/Press-Releases-Statements/Press-Release-View/Article/4650245/nsa-statement-on-network-issues",
+    "source": "AI Incident Database",
+    "via": "AI Incident Database",
+    "lang": "en",
+    "published": "2026-11-21T00:00:00Z",
+    "seen": "2026-11-21T19:35:40Z",
+    "summary": "The National Security Agency experienced temporary degradation during scheduled routine maintenance. While some internal systems were affected, mission-critical capabilities remain fully operational and our ability to defend national securi ... (https://incidentdatabase.ai/cite/1836#8362)"
+  },
+  {
+    "id": "50c77c244ab1",
+    "title": "National Security Agency network outage linked to software vulnerability",
+    "url": "https://www.cbsnews.com/news/national-security-agency-network-outage-software-vulnerability",
+    "source": "AI Incident Database",
+    "via": "AI Incident Database",
+    "lang": "en",
+    "published": "2026-11-21T00:00:00Z",
+    "seen": "2026-11-21T19:35:40Z",
+    "summary": "The National Security Agency's network outage Tuesday has been linked to an urgent patching of vulnerabilities in PHP, the programming language that powers the majority of all websites, multiple sources told CBS News. The NSA's internal ne ... (https://incidentdatabase.ai/cite/1836#8361)"
+  },
+  {
+    "id": "6562b3a9fd69",
+    "title": "Tech outage wave reaches US government; Trump says all is 'fine'",
+    "url": "https://www.reuters.com/business/aerospace-defense/trump-shrugs-off-spate-us-outages-says-things-like-that-happen-2026-11-17",
+    "source": "AI Incident Database",
+    "via": "AI Incident Database",
+    "lang": "en",
+    "published": "2026-11-21T00:00:00Z",
+    "seen": "2026-11-21T19:35:40Z",
+    "summary": "WASHINGTON, Nov 17 (Reuters) - Technology outages that shut down email for many companies and grounded thousands of flights over the past few days extended to the US National Security Agency on Tuesday, as President Donald Trump's administr ... (https://incidentdatabase.ai/cite/1836#8360)"
+  },
+  {
+    "id": "b17da93956d9",
+    "title": "Waymo resumes service as more storms loom over Bay Area",
+    "url": "https://www.sfchronicle.com/sf/article/waymo-resumes-service-22539972.php",
+    "source": "AI Incident Database",
+    "via": "AI Incident Database",
+    "lang": "en",
+    "published": "2026-11-21T00:00:00Z",
+    "seen": "2026-11-21T19:35:40Z",
+    "summary": "Waymo resumed service in the Bay Area on Thursday morning after a temporary stoppage Wednesday as robotaxis struggled to navigate battering storms. The restoration at 9 a.m. came as rain abated and wan sunlight pressed through cloud banks ... (https://incidentdatabase.ai/cite/1835#8359)"
+  },
+  {
+    "id": "7e30b09e0401",
+    "title": "Bay Area Waymo robotaxi service suspended amid storm, flooding",
+    "url": "https://www.cbsnews.com/sanfrancisco/news/waymo-service-pause-bay-area-storm-flooding",
+    "source": "AI Incident Database",
+    "via": "AI Incident Database",
+    "lang": "en",
+    "published": "2026-11-21T00:00:00Z",
+    "seen": "2026-11-21T19:35:40Z",
+    "summary": "Heavy rain and localized flooding in the Bay Area prompted Waymo to suspend its driverless vehicle service on Wednesday, the company announced. The Waymo app indicated at around 11 a.m. that its robotaxi service would be paused until road ... (https://incidentdatabase.ai/cite/1835#8358)"
+  },
+  {
+    "id": "3cf5f943ba25",
+    "title": "Waymo pauses robotaxi service amid San Francisco storms: ‘We were kind of just stuck there’",
+    "url": "https://www.sfchronicle.com/sf/article/waymo-service-paused-storm-rain-22537988.php",
+    "source": "AI Incident Database",
+    "via": "AI Incident Database",
+    "lang": "en",
+    "published": "2026-11-21T00:00:00Z",
+    "seen": "2026-11-21T19:35:40Z",
+    "summary": "Waymo suspended its autonomous ride-hail service Wednesday morning, provoking complaints that ripped through social media with nearly as much ferocity as a super El Niño pummeling the Bay Area. “We’ve paused for now due to weather,” the co ... (https://incidentdatabase.ai/cite/1835#8357)"
   },
   {
     "id": "d9e4030e3e02",
@@ -5181,23 +5214,23 @@
     "summary": ""
   },
   {
-    "id": "58793947c47c",
-    "title": "‘Hackers’ que ya no escriben código a mano, sino que “sueltan una inteligencia artificial”: así fue el inédito ciberataque que apuntó contra la Unión Europea",
-    "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxOVTVwU1k2WWJEMkpSaVU0ZTlTeHd2RTYwTG9mZW1qZlhsWnpQYUx4WjYtNTY5UTZma3c1NmdEcURSU1R5bXdzdVJtZHJYTXNDWWN2T2RGb3pCY0Nna2xGVGVfUE9zODB2c0F4UnFiSHdfS01rZ1FiZFVMd1JZRUdtV0Rid0gzeHAyTlZ6ZlRPV1cyYTVTYmp4Zm5xa0JKcnI1LTB6ZTNfejBrTGYwX1JiZXhQMnlzcGIzd05UTHg1RkVJMWp5eEx2NWZDaVNBd09PM1E2ajl1cVNlX0lld3dncnRQekh0VHVkSi1tWjlYWm9mYmhiOW5VUmQwWktMMVVYbEF4dHBqYkREWU5zRXdhdWlwUGFSWk9vcDFnRW9WMFJmaWVpaC1TM2wzLXFHQdIBwgJBVV95cUxQZjBld0ZLdW4xS0ZoOUQ3QU4xZlQxZ3dBN1h6RlBBTU1NSEtSMnJjTVZoUTBIc3M3V3VXbGxHN3Q2QmRGeVFkLTRNajR5SWNzNlQtVjlFc3ByNjNZV1JtSVNxYzJNV2NMeDdaQnVmWURLdkM4bW9ManF2MFpyQ0xFOXM2MEtnbFhsT2h5SG1SemJSeFo4MmVVNkxOWEVNZXM0UkhtMXYxZHliUFo5ODJZU1lfZXI3S2RvU2RpYXZRajdseUZCTldkQlMyWlFhcU5YU3pqeHRZU2owdzFBLTFCcHJlRUFWaEdWWGF4OEJUQWFOMnZrVnE1NU1SQTFkbDlUWFFuTzByMERvWVUyaTYzb3VmT0F0LVZtMGwxUWJ1bl9RemphbUZJMGZabVRneUtKX1o1V0JBOHBkN1hENm5iS3Rn?oc=5",
-    "source": "El Universo",
-    "via": "Google News (Español)",
-    "lang": "es",
-    "published": "2026-11-21T16:00:00Z",
-    "seen": "2026-11-21T16:35:37Z",
-    "summary": ""
-  },
-  {
     "id": "15a57a9855a8",
     "title": "断电危机 | 第2集：AI让黑客拥有超能力，美国电网正被瞄准",
     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9MY2M5ckZOUWpZR2hSZjFBUGFBNUdDUllNUUJ6amk1am9Lb3RTcFNKemJJeEJTd0g5QkJIZXRwd1pNX3YtZnMtOXdQRmpqUUdiU1p4MERELVl3cVRNWTNiUmkzVTRCRmhwQl80SDcwMNIBdEFVX3lxTFA5M0lrWjluc3VpXzNTTVlJeGVHVlEtbDNtWUZtUUpkMWtuOWV1TURjSWo4Y0Jjb2FDOEUxQzg4YWRkZ2ZtcHY4ejhQbE9xWGZyRlBpX012aW5JY1c5cWdYUTd0dEVJSnpKUENtMTl3R0U3Tncw?oc=5",
     "source": "禁闻网",
     "via": "Google News (中文)",
     "lang": "zh",
+    "published": "2026-11-21T16:00:00Z",
+    "seen": "2026-11-21T16:35:37Z",
+    "summary": ""
+  },
+  {
+    "id": "58793947c47c",
+    "title": "‘Hackers’ que ya no escriben código a mano, sino que “sueltan una inteligencia artificial”: así fue el inédito ciberataque que apuntó contra la Unión Europea",
+    "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxOVTVwU1k2WWJEMkpSaVU0ZTlTeHd2RTYwTG9mZW1qZlhsWnpQYUx4WjYtNTY5UTZma3c1NmdEcURSU1R5bXdzdVJtZHJYTXNDWWN2T2RGb3pCY0Nna2xGVGVfUE9zODB2c0F4UnFiSHdfS01rZ1FiZFVMd1JZRUdtV0Rid0gzeHAyTlZ6ZlRPV1cyYTVTYmp4Zm5xa0JKcnI1LTB6ZTNfejBrTGYwX1JiZXhQMnlzcGIzd05UTHg1RkVJMWp5eEx2NWZDaVNBd09PM1E2ajl1cVNlX0lld3dncnRQekh0VHVkSi1tWjlYWm9mYmhiOW5VUmQwWktMMVVYbEF4dHBqYkREWU5zRXdhdWlwUGFSWk9vcDFnRW9WMFJmaWVpaC1TM2wzLXFHQdIBwgJBVV95cUxQZjBld0ZLdW4xS0ZoOUQ3QU4xZlQxZ3dBN1h6RlBBTU1NSEtSMnJjTVZoUTBIc3M3V3VXbGxHN3Q2QmRGeVFkLTRNajR5SWNzNlQtVjlFc3ByNjNZV1JtSVNxYzJNV2NMeDdaQnVmWURLdkM4bW9ManF2MFpyQ0xFOXM2MEtnbFhsT2h5SG1SemJSeFo4MmVVNkxOWEVNZXM0UkhtMXYxZHliUFo5ODJZU1lfZXI3S2RvU2RpYXZRajdseUZCTldkQlMyWlFhcU5YU3pqeHRZU2owdzFBLTFCcHJlRUFWaEdWWGF4OEJUQWFOMnZrVnE1NU1SQTFkbDlUWFFuTzByMERvWVUyaTYzb3VmT0F0LVZtMGwxUWJ1bl9RemphbUZJMGZabVRneUtKX1o1V0JBOHBkN1hENm5iS3Rn?oc=5",
+    "source": "El Universo",
+    "via": "Google News (Español)",
+    "lang": "es",
     "published": "2026-11-21T16:00:00Z",
     "seen": "2026-11-21T16:35:37Z",
     "summary": ""
@@ -5412,17 +5445,6 @@
     "summary": "### Summary In affected versions, the SDK's OAuth client support (`mcp.client.auth`) let the MCP server a client connected to decide where the client's OAuth credentials were sent: - the authorization server metadata `issuer` was not validated on every discovery path, and - stored or pre-provisioned client credentials were not bound to the authorization server they belong to. A malicious or compro"
   },
   {
-    "id": "89b56a0e6719",
-    "title": "Cybersecurity CEO warns AI is accelerating vulnerability, discovery, exploitation",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBuRlRxS1R6ZktzNHhwMGg2S2VxSU5fSy16cnVvQWxsUFZpYzNBVEQzMzN1dWoxNDVIVHhhQ1VSYlp3ZVp0clQ4REFSUGcxRVdTeEpXZEh5eXRZeHM?oc=5",
-    "source": "Fox Business",
-    "via": "Google News (English)",
-    "lang": "en",
-    "published": "2026-11-19T22:44:42Z",
-    "seen": "2026-11-21T15:05:38Z",
-    "summary": ""
-  },
-  {
     "id": "ecd2511a2ab5",
     "title": "GHSA-phmp-hrw4-r36r / CVE-2026-97698: Mistune: Quadratic-time DoS in parse_link_href via unbounded parenthesis scan on empty-label links (mistune, high)",
     "url": "https://github.com/advisories/GHSA-phmp-hrw4-r36r",
@@ -5432,6 +5454,17 @@
     "published": "2026-11-19T22:44:42Z",
     "seen": "2026-11-21T15:05:38Z",
     "summary": "## Resolution **Fixed in Mistune 3.3.4.** Upgrade to 3.3.4 or later. - Affected versions: ` 0.80s, 12KB->3.15s, 24KB->12.5s, 48KB->49.8s (2x input -> ~3.9x time, clean O(n²)). This is the most severe of the mistune quadratic-DoS findings. ## Proof of Concept ```python import mistune md = mistune.create_markdown() # default HTML renderer, no plugins md(\"[](\" * 16000) # ~48KB input stalls a worker ~"
+  },
+  {
+    "id": "89b56a0e6719",
+    "title": "Cybersecurity CEO warns AI is accelerating vulnerability, discovery, exploitation",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBuRlRxS1R6ZktzNHhwMGg2S2VxSU5fSy16cnVvQWxsUFZpYzNBVEQzMzN1dWoxNDVIVHhhQ1VSYlp3ZVp0clQ4REFSUGcxRVdTeEpXZEh5eXRZeHM?oc=5",
+    "source": "Fox Business",
+    "via": "Google News (English)",
+    "lang": "en",
+    "published": "2026-11-19T22:44:42Z",
+    "seen": "2026-11-21T15:05:38Z",
+    "summary": ""
   },
   {
     "id": "e6f4877c86d2",
@@ -7480,6 +7513,17 @@
     "summary": ""
   },
   {
+    "id": "b7ddec497ef3",
+    "title": "Cyber attacks can happen within minutes thanks to AI",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMjNsdlhpM0ZDbHM1TjF5aUo0R1p4VFpYTWdRT3hXdGZMTG5DLW1kZTE2QUdGY2RVU29TZjFPTGpoME9PLXp6TDBydFJIWWtLQW91c2VObEhoaUFVY01Wbk1xRXAxbmhSb3dGZTJ5ZmU4cjJBUE9XbjZRYkwwb0ZUYzRFMTR6NnljNkJSRk5tLTJTWHZiZGdqcWJFQi1fbHo4b1N6Wk4wZHk?oc=5",
+    "source": "RNZ",
+    "via": "Google News (English)",
+    "lang": "en",
+    "published": "2026-11-20T22:27:06Z",
+    "seen": "2026-11-20T22:27:06Z",
+    "summary": ""
+  },
+  {
     "id": "9444b8d146e2",
     "title": "Cybersecurity Experts Warn Silicon Valley: AI's Biggest Vulnerability Is Its People, Not Its Code",
     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBYdjczRkQxWmpXUVMyemw3ZkZIb3l5UF82SmxDVEpiSnhMX0tUUVBCbFhNTno4NXMxaVluZjVQeUU3WjJXT240UjJNRVVISXJKeUVVYm05cTNUbUhSTWNnN1htZHprdmpJS2d6cV8wSVNhV3lMLWc?oc=5",
@@ -7876,6 +7920,17 @@
     "summary": ""
   },
   {
+    "id": "69a8acec2e05",
+    "title": "Meta's Muse Reads Signal Messages as Staff Fear a Cross-Account Leak",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVFpWUnlVcHdfaV9HMHNDMURxMWRUZXc2WFdoZTRVbzA0d1FKMmhBZ09lYW9kV3o5WUxRcFFLRHFFZUs2XzBXS192dENuNXB5anhrT051enRNYkhVTGVFQjNkalhVZGFtMWc5OWVtTEdDZlNFUnF1OFk0UVBqaGJiQkNQaGxHTVplLWFLZk9XYU1SdUF2OHc?oc=5",
+    "source": "Pasquale Pillitteri",
+    "via": "Google News (English)",
+    "lang": "en",
+    "published": "2026-11-20T20:06:18Z",
+    "seen": "2026-11-20T20:06:18Z",
+    "summary": ""
+  },
+  {
     "id": "335c27ca0a32",
     "title": "Tumbler Ridge : nouvelle enquête sur le rôle de ChatGPT",
     "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNV2dvaFVhSUlrRGNhN181V3FsWVVZWDZPbmw5Yk1kY2R2S2UyVUUyX1psQjcwVHRqVldyNXdjNUxDbDJ6VXBrdV9USXJ3eWZTY2sxMTVVY05BYU9IdVdvT21lejNWSF9hamRRc3AzeEJaVTBQTHN6eUxWSVFVdEU1eUVaRW0yb2N4QWY0X2prd1lWSkhXM0pCX3ptNGhvRUZxT3NSOTNlOGw4QXRvRXpPMXF0Yi1ET21xaGtmVTJqd1NOSlBfTEhhdkx0dUpRV0ZYMTM1YlZiSTBpcC1hbVJwVU5wb1poN3I2NlBIUQ?oc=5",
@@ -8261,23 +8316,23 @@
     "summary": ""
   },
   {
-    "id": "8d338f16c546",
-    "title": "La Comisión Europea confirma un ciberataque en octubre impulsado por IA",
-    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNcEhiODNDMDMyc3F2MTMxOUVFdnZGT1MxUlpkT19JNjJ0anNjZElBZFd0Z3J0cUZ3LU5KdW0zUlQxOHhNcktXdC15N1IwRVlDMV9idi1XbnBUSWl3cWhMZmhPc1NvUHNLLWdHMEpRZUd2QzJXQ1V5UGNubnZrSDdzcEZCemdVTHUxUFB2bW0yMHg1czViOFEtcFJwSFZaVmNnbTBxRGVvdkJpV1A1bVZNVzdENEVxczFTR005ZWRkNA?oc=5",
-    "source": "Investing.com España",
-    "via": "Google News (Español)",
-    "lang": "es",
-    "published": "2026-11-19T17:39:00Z",
-    "seen": "2026-11-20T19:05:43Z",
-    "summary": ""
-  },
-  {
     "id": "7857155c0227",
     "title": "欧盟委员会确认遭受AI辅助网络攻击，多个内部系统被迫下线 提供者 Investing.com",
     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1Nend2RmVqREdzY2NoSTdFU2RkX3VzdlFlSVpSZEpVeS1Sck9YVWtQT2FHUU1ydkMtR092TmpJRVVpcC1RTTEzY3VXZGwtZl9rbzlCcWk0YzlfRDdvR0VXbnZ6QjFXdFVaTGc?oc=5",
     "source": "英为财情 Investing.com",
     "via": "Google News (中文)",
     "lang": "zh",
+    "published": "2026-11-19T17:39:00Z",
+    "seen": "2026-11-20T19:05:43Z",
+    "summary": ""
+  },
+  {
+    "id": "8d338f16c546",
+    "title": "La Comisión Europea confirma un ciberataque en octubre impulsado por IA",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNcEhiODNDMDMyc3F2MTMxOUVFdnZGT1MxUlpkT19JNjJ0anNjZElBZFd0Z3J0cUZ3LU5KdW0zUlQxOHhNcktXdC15N1IwRVlDMV9idi1XbnBUSWl3cWhMZmhPc1NvUHNLLWdHMEpRZUd2QzJXQ1V5UGNubnZrSDdzcEZCemdVTHUxUFB2bW0yMHg1czViOFEtcFJwSFZaVmNnbTBxRGVvdkJpV1A1bVZNVzdENEVxczFTR005ZWRkNA?oc=5",
+    "source": "Investing.com España",
+    "via": "Google News (Español)",
+    "lang": "es",
     "published": "2026-11-19T17:39:00Z",
     "seen": "2026-11-20T19:05:43Z",
     "summary": ""
@@ -8569,17 +8624,6 @@
     "summary": ""
   },
   {
-    "id": "82b76084c3aa",
-    "title": "China attackers deployed AI agents that autonomously found and exploited a 0-day to take over a university server",
-    "url": "https://www.theregister.com/security/2026/11/20/china-attackers-deployed-ai-agents-that-autonomously-found-and-exploited-a-0-day-to-take-over-a-university-server/5311382",
-    "source": "The Register",
-    "via": "The Register",
-    "lang": "en",
-    "published": "2026-11-20T17:30:00Z",
-    "seen": "2026-11-20T17:35:39Z",
-    "summary": "'Agents kept adapting for nearly a full day without human direction,' Amazon CISO said"
-  },
-  {
     "id": "f7d0b7d63a7f",
     "title": "Hackers use autonomous AI tool Cairn to find zero-day, take over server",
     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZGVzUFN6Uk45UC1rS1JqSUc0b2tyLWhHSXR2a2hKX08xWlZjcW9veHpJM2FRQUVuM1JRSk5LSEpZSkpBa2RkVklXTHBvclFHN09oa3dYMjBDeU9ScTRWelNYeW1fdk1iVDFFaVcxSVp1ZDNtOER5aDdnblhYelZMeWxzZjVIYkFYU2haQU1kVVhTV1l6dFdaeG0zMkI3MElBZURWNFkwUXFJeW4yVTBDYm9TQUFwNWQzM1E?oc=5",
@@ -8589,6 +8633,17 @@
     "published": "2026-11-20T17:30:00Z",
     "seen": "2026-11-20T17:35:39Z",
     "summary": ""
+  },
+  {
+    "id": "82b76084c3aa",
+    "title": "China attackers deployed AI agents that autonomously found and exploited a 0-day to take over a university server",
+    "url": "https://www.theregister.com/security/2026/11/20/china-attackers-deployed-ai-agents-that-autonomously-found-and-exploited-a-0-day-to-take-over-a-university-server/5311382",
+    "source": "The Register",
+    "via": "The Register",
+    "lang": "en",
+    "published": "2026-11-20T17:30:00Z",
+    "seen": "2026-11-20T17:35:39Z",
+    "summary": "'Agents kept adapting for nearly a full day without human direction,' Amazon CISO said"
   },
   {
     "id": "6e1c20662502",
@@ -8741,61 +8796,6 @@
     "via": "Google News (中文)",
     "lang": "zh",
     "published": "2026-11-20T11:11:08Z",
-    "seen": "2026-11-20T17:05:48Z",
-    "summary": ""
-  },
-  {
-    "id": "3f67c42123d3",
-    "title": "欧盟委员会遭AI网络攻击 人力、医保报销等系统瘫痪 大量个人数据恐遭泄露 欧盟官员：没人能对此免疫",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPLVNuNmlqZWlleVItV3FOaXNpcUFpZ1gwOU00Q3dkWF9FZ1otVkNFaHZaSDdxS2RmdHhaSW11NlduaExjejhzc09FWENjLW5sa0RoT1E0R25VWW43eDZOSTZGX1IxQzJianlLNHE5UXFuZGFvODU5RVhEMkdZdEcwRERIMUxOQk5C?oc=5",
-    "source": "Sohu",
-    "via": "Google News (中文)",
-    "lang": "zh",
-    "published": "2026-11-20T04:53:22Z",
-    "seen": "2026-11-20T17:05:48Z",
-    "summary": ""
-  },
-  {
-    "id": "20df525593d9",
-    "title": "EU Commission Confirms AI-Assisted Cyberattack: 5 Key Facts",
-    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNMDNjWmVfXzBNNndwa2JqZVhnMW13aGprSGhkWEtNS29UTDlpdF83SDIzYlVlVG5QM2ZxX3I4eTc0ZUNPTm03OFMyX1g4X3J2WXpmUWJCQVlqY1diM2FHWG1YamQxcUc0MTRBUWpOaVh3NGdPdk5iRWpXZlVQN0dubmF4QzFCblBpT1Jr?oc=5",
-    "source": "shattered.io",
-    "via": "Google News (English)",
-    "lang": "en",
-    "published": "2026-11-19T17:02:02Z",
-    "seen": "2026-11-20T17:05:48Z",
-    "summary": ""
-  },
-  {
-    "id": "ac21c3321137",
-    "title": "Сбои в работе ряда сервисов США могли быть вызваны последствиями работы ИИ",
-    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE00ZlhUYUdieHVUWnduS1lQNXU4NmNpRS1LZ1Q5Tmo0Tm9KTGdReTFRdnZiMmZZZEZTc1kwVkMySms3TkIzMEpfRjRn0gFKQVVfeXFMTTRmWFRhR2J4dVRad25LWVA1dTg2Y2lFLUtnVDlOajROb0pMZ1F5MVF2dmIyZllkRlNzWTBWQzJKazdOQjMwSl9GNGc?oc=5",
-    "source": "BFM.ru",
-    "via": "Google News (Русский)",
-    "lang": "ru",
-    "published": "2026-11-19T16:56:21Z",
-    "seen": "2026-11-20T17:05:48Z",
-    "summary": ""
-  },
-  {
-    "id": "daa3807afc52",
-    "title": "Google reports first-ever autonomous AI cyberattack without human oversight",
-    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5HOTZyUlhqZWcteGtxUTQycndmYy0zak9zeFRwaEcyYkluMjROSFV1YkdYTjlROE5iQm1iT2k2SGNYZEdFSlpYdS1VTVVyZE1QSkNZUFA1UXhXM3BBRlRfZ2MyUQ?oc=5",
-    "source": "The Jerusalem Post",
-    "via": "Google News (English)",
-    "lang": "en",
-    "published": "2026-11-19T16:54:18Z",
-    "seen": "2026-11-20T17:05:48Z",
-    "summary": ""
-  },
-  {
-    "id": "4f18e6d65828",
-    "title": "C’est quoi Artex, le logiciel d’IA chinois utilisé pour pirater la Commission européenne ?",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9RQl9nVTFvZXJuTXFlRk5KQmtmYkVhbm8xeVdBeEgtUk9weTZ2aGhEZFV2Sm1YRzhZUDFRQTlzRl9xeWY3cldXdHFhR3V1eXNxU0JfbVdVdWV2bVlPaTJYbXZSdFZydjZwV2tHQmh1VQ?oc=5",
-    "source": "Yahoo Actualités",
-    "via": "Google News (Français)",
-    "lang": "fr",
-    "published": "2026-11-19T16:44:05Z",
     "seen": "2026-11-20T17:05:48Z",
     "summary": ""
   }
