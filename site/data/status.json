@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-23T10:35:39Z",
+  "updated_at": "2026-11-23T11:05:40Z",
   "wire_items": 800,
-  "new_items": 1023,
+  "new_items": 1028,
   "candidates": 48,
   "incidents": 568,
   "feeds_ok": [
@@ -69,6 +69,7 @@
     "UK FCA",
     "US SEC",
     "Council of the EU",
+    "EDPB",
     "UK NCSC news",
     "CISA news",
     "UK government news",
@@ -84,8 +85,7 @@
     "US court filings (CourtListener)",
     "Reddit r/netsec",
     "European Commission",
-    "European Parliament",
-    "EDPB"
+    "European Parliament"
   ],
-  "triage": "triage failed: all 41 batches failed: API 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"r"
+  "triage": "triage failed: all 42 batches failed: API 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"r"
 }
