@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-23T23:05:42Z",
+  "updated_at": "2026-11-23T23:35:36Z",
   "wire_items": 800,
-  "new_items": 1051,
+  "new_items": 1074,
   "candidates": 48,
   "incidents": 568,
   "feeds_ok": [
@@ -36,6 +36,7 @@
     "Kaspersky Securelist",
     "ESET WeLiveSecurity",
     "Cisco Talos",
+    "Zscaler ThreatLabz",
     "Proofpoint",
     "Recorded Future",
     "Wiz Research",
@@ -81,7 +82,6 @@
     "Google News (official warnings)"
   ],
   "feeds_failed": [
-    "Zscaler ThreatLabz",
     "US court filings (CourtListener)",
     "Reddit r/netsec",
     "European Commission",
