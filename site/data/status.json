@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-23T14:05:41Z",
+  "updated_at": "2026-11-23T14:35:43Z",
   "wire_items": 800,
-  "new_items": 1020,
+  "new_items": 1077,
   "candidates": 48,
   "incidents": 568,
   "feeds_ok": [
@@ -87,5 +87,5 @@
     "European Commission",
     "European Parliament"
   ],
-  "triage": "triage failed: all 41 batches failed: API 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"r"
+  "triage": "triage failed: all 44 batches failed: API 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"r"
 }
