@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-24T03:35:40Z",
+  "updated_at": "2026-11-24T04:05:47Z",
   "wire_items": 800,
-  "new_items": 1071,
+  "new_items": 1003,
   "candidates": 48,
   "incidents": 568,
   "feeds_ok": [
@@ -23,7 +23,6 @@
     "Simon Willison (prompt injection)",
     "AI Incident Database",
     "BBC Technology",
-    "The Guardian Technology",
     "Google News (English)",
     "Google News (Français)",
     "Google News (Español)",
@@ -82,10 +81,11 @@
     "Google News (official warnings)"
   ],
   "feeds_failed": [
+    "The Guardian Technology",
     "US court filings (CourtListener)",
     "Reddit r/netsec",
     "European Commission",
     "European Parliament"
   ],
-  "triage": "triage failed: all 43 batches failed: API 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"r"
+  "triage": "triage failed: all 41 batches failed: API 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"r"
 }
