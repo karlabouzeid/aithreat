@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-24T15:35:45Z",
+  "updated_at": "2026-11-24T16:05:50Z",
   "wire_items": 800,
-  "new_items": 1041,
+  "new_items": 1100,
   "candidates": 48,
   "incidents": 568,
   "feeds_ok": [
@@ -56,6 +56,7 @@
     "FBI IC3 alerts",
     "Google News chatbot harm (EN)",
     "Google News chatbot harm (العربية)",
+    "Google News chatbot harm (FR)",
     "Google News chatbot harm (ES)",
     "BIS press releases",
     "BIS central bankers speeches",
@@ -83,9 +84,8 @@
   "feeds_failed": [
     "US court filings (CourtListener)",
     "Reddit r/netsec",
-    "Google News chatbot harm (FR)",
     "European Commission",
     "European Parliament"
   ],
-  "triage": "triage failed: all 42 batches failed: API 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"r"
+  "triage": "triage failed: all 44 batches failed: API 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"r"
 }
