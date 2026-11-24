@@ -1,16 +1,14 @@
 {
-  "updated_at": "2026-11-24T16:35:41Z",
+  "updated_at": "2026-11-24T17:05:41Z",
   "wire_items": 800,
-  "new_items": 1099,
+  "new_items": 1081,
   "candidates": 48,
   "incidents": 568,
   "feeds_ok": [
     "BleepingComputer",
-    "The Record",
     "The Hacker News",
     "SecurityWeek",
     "Dark Reading",
-    "The Register",
     "CyberScoop",
     "Krebs on Security",
     "WIRED Security",
@@ -82,6 +80,8 @@
     "Google News (official warnings)"
   ],
   "feeds_failed": [
+    "The Record",
+    "The Register",
     "US court filings (CourtListener)",
     "Reddit r/netsec",
     "European Commission",
