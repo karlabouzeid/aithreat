@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-24T07:35:40Z",
+  "updated_at": "2026-11-24T08:05:42Z",
   "wire_items": 800,
-  "new_items": 1005,
+  "new_items": 1016,
   "candidates": 48,
   "incidents": 568,
   "feeds_ok": [
@@ -27,7 +27,6 @@
     "Google News (English)",
     "Google News (Français)",
     "Google News (Español)",
-    "Google News (العربية)",
     "Google News (中文)",
     "Google News (Русский)",
     "CrowdStrike",
@@ -81,6 +80,7 @@
     "Google News (official warnings)"
   ],
   "feeds_failed": [
+    "Google News (العربية)",
     "Zscaler ThreatLabz",
     "US court filings (CourtListener)",
     "Reddit r/netsec",
