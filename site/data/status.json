@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-24T07:05:44Z",
+  "updated_at": "2026-11-24T07:35:40Z",
   "wire_items": 800,
-  "new_items": 1087,
+  "new_items": 1005,
   "candidates": 48,
   "incidents": 568,
   "feeds_ok": [
@@ -25,6 +25,7 @@
     "BBC Technology",
     "The Guardian Technology",
     "Google News (English)",
+    "Google News (Français)",
     "Google News (Español)",
     "Google News (العربية)",
     "Google News (中文)",
@@ -35,7 +36,6 @@
     "Kaspersky Securelist",
     "ESET WeLiveSecurity",
     "Cisco Talos",
-    "Zscaler ThreatLabz",
     "Proofpoint",
     "Recorded Future",
     "Wiz Research",
@@ -81,11 +81,11 @@
     "Google News (official warnings)"
   ],
   "feeds_failed": [
-    "Google News (Français)",
+    "Zscaler ThreatLabz",
     "US court filings (CourtListener)",
     "Reddit r/netsec",
     "European Commission",
     "European Parliament"
   ],
-  "triage": "triage failed: all 44 batches failed: API 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"r"
+  "triage": "triage failed: all 41 batches failed: API 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"r"
 }
