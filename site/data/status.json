@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-25T17:05:39Z",
+  "updated_at": "2026-11-25T17:35:40Z",
   "wire_items": 800,
-  "new_items": 1020,
-  "candidates": 45,
+  "new_items": 1085,
+  "candidates": 44,
   "incidents": 568,
   "feeds_ok": [
     "BleepingComputer",
@@ -63,7 +63,6 @@
     "Financial Stability Board",
     "ECB press",
     "ECB banking supervision",
-    "Federal Reserve press",
     "Federal Reserve speeches",
     "Bank of England",
     "UK FCA",
@@ -84,8 +83,9 @@
   "feeds_failed": [
     "US court filings (CourtListener)",
     "Reddit r/netsec",
+    "Federal Reserve press",
     "European Commission",
     "European Parliament"
   ],
-  "triage": "triage failed: all 41 batches failed: API 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"r"
+  "triage": "triage failed: all 44 batches failed: API 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"r"
 }
