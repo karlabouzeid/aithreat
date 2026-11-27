@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-27T09:35:40Z",
+  "updated_at": "2026-11-27T10:05:44Z",
   "wire_items": 800,
-  "new_items": 852,
+  "new_items": 854,
   "candidates": 43,
   "incidents": 568,
   "feeds_ok": [
@@ -69,6 +69,7 @@
     "UK FCA",
     "US SEC",
     "Council of the EU",
+    "European Parliament",
     "EDPB",
     "UK NCSC news",
     "CISA news",
@@ -84,8 +85,7 @@
   "feeds_failed": [
     "US court filings (CourtListener)",
     "Reddit r/netsec",
-    "European Commission",
-    "European Parliament"
+    "European Commission"
   ],
   "triage": "free mode: sorted by keyword rules (no AI)"
 }
