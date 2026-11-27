@@ -598,19 +598,19 @@
     "skipped": "no secrets"
   },
   "x_status": {
-    "at": "2026-10-20T08:07:00Z",
-    "skipped": "TELEGRAM_OWNER_CHAT_ID not set"
+    "at": "2026-11-27T04:06:38Z",
+    "skipped": "TELEGRAM_BOT_TOKEN not set"
   },
   "bluesky_status": {
-    "at": "2026-11-05T14:36:48Z",
-    "ok": "https://aithreat.io/cases/command-code-ai-key-attack/"
+    "at": "2026-11-27T04:06:38Z",
+    "skipped": "no secrets"
   },
   "telegram_status": {
-    "at": "2026-11-05T14:36:56Z",
-    "ok": "https://aithreat.io/cases/command-code-ai-key-attack/"
+    "at": "2026-11-27T04:06:38Z",
+    "skipped": "no secrets"
   },
   "breaking_status": {
-    "at": "2026-11-04T17:55:14Z",
-    "skipped": "TELEGRAM_OWNER_CHAT_ID not set"
+    "at": "2026-11-27T04:06:38Z",
+    "skipped": "TELEGRAM_BOT_TOKEN not set"
   }
 }
