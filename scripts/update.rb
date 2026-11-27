@@ -154,6 +154,38 @@ end
 # exercises more than of attacks, so their items also pass on those words.
 OFFICIAL_RE = /\b(cyber\w*|threats?|risks?|resilien\w*|misuse|safety|security|warn(s|ed|ing)?|simulat\w*|stress[- ]test\w*|exercises?)\b/i
 
+# Keyword sorting used when no API key is set (free mode).
+RULE_TAGS = [
+  [/deepfake|voice[- ]clon|face[- ]swap/i, "Deepfake"], [/prompt[- ]injection|jailbreak/i, "Prompt injection"],
+  [/agent(s|ic)?\b.*(hijack|hack|exploit|delet)|MCP/i, "Agent hijack"], [/phish|smish/i, "AI phishing"],
+  [/malware|ransomware|infostealer|trojan|backdoor/i, "AI-assisted malware"], [/supply[- ]chain|npm|PyPI|package/i, "AI supply chain"],
+  [/LLMjacking|stolen (API )?keys|credential/i, "LLMjacking"], [/leak|expos|breach/i, "Data leak"],
+  [/state[- ]sponsored|APT\d*|espionage|nation[- ]state/i, "State actor"], [/scam|fraud/i, "AI fraud"]
+].freeze
+RULE_SECTORS = [
+  [/bank|financ|crypto|payment|fintech|insur|stock|trading/i, "Financial services"], [/hospital|health|medical|patient/i, "Healthcare"],
+  [/election|vot(e|er|ing)|campaign|candidate/i, "Politics & elections"], [/school|student|pupil|teacher|universit|exam/i, "Education & research"],
+  [/military|defen[cs]e|army|NATO/i, "Defence & security"], [/power grid|energy|utility|pipeline|industrial|water/i, "Energy, industrial & infrastructure"],
+  [/government|ministry|agency|council|parliament|police/i, "Government & public sector"], [/retail|shop|brand|e-?commerce/i, "Retail & consumer brands"],
+  [/media|journalist|news(paper|room)|actor|celebrit|music/i, "Media & entertainment"]
+].freeze
+def rule_sort(w)
+  t = "#{w['title']} #{w['summary']}"
+  w["kind"] =
+    if t =~ /CVE-\d{4}-\d+|vulnerabilit|\bflaw\b|patch(ed|es)?\b|zero[- ]day/i then "vulnerability"
+    elsif t =~ /\b(hack(ed|ers)?|breach(ed)?|stole|stolen|scam(med|mers)?|fraud(sters)?|extort|ransom|arrest(ed)?|charged|sentenced|lawsuit|sued|leak(ed)?|attack(ed)?|impersonat|victims?)\b/i then "incident"
+    elsif t =~ /\b(law|bill|regulat\w*|ban(s|ned)?|guidance|framework|legislat\w*|act)\b/i then "policy"
+    elsif t =~ /\bresearch(ers)?\b|\bstudy\b|\bpaper\b|benchmark/i then "research"
+    else "other"
+    end
+  # Products and campaigns against fraud are news, not incidents.
+  w["kind"] = "other" if w["kind"] == "incident" && t =~ /\b(detect|curb|prevent|combat|fight|tackl|protect|deploys?|launch)\w*/i
+  w["tag"] ||= (RULE_TAGS.find { |re, _| t =~ re } || [nil, "AI security"])[1]
+  w["one_line"] ||= w["title"].to_s[0, 140]
+  w["sector"] ||= (RULE_SECTORS.find { |re, _| t =~ re } || [nil, "Unknown"])[1]
+  w["sorted_by"] = "rules"
+end
+
 def relevant?(item, ai_only_source, official = false)
   text = "#{item[:title]} #{item[:summary]}"
   ai = ai_only_source || text =~ AI_RE
@@ -326,8 +358,11 @@ if api_key && !fresh.empty?
     log "triage failed: #{e.class} #{e.message}"
     triage_note = "triage failed: #{e.message[0, 120]}"
   end
-elsif fresh.any?
-  triage_note = "no ANTHROPIC_API_KEY: keyword filter only"
+elsif fresh.any? || existing.any? { |w| w["kind"].nil? }
+  # Free mode (no API key): sort stories with keyword rules so the news box keeps working.
+  # Cruder than Claude's triage; no case files are drafted in this mode.
+  (fresh + existing).each { |w| rule_sort(w) if w["kind"].nil? }
+  triage_note = "free mode: sorted by keyword rules (no AI)"
 end
 
 # ---------- 2b. automatic editor: check drafts on the web, then approve or reject ----------

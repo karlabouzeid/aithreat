@@ -68,7 +68,7 @@ def valid?(src, out)
 end
 
 api_key = ENV["ANTHROPIC_API_KEY"].to_s.strip
-abort "[translate] no ANTHROPIC_API_KEY, skipping" if api_key.empty? && !DRY_RUN
+(puts "[translate] no ANTHROPIC_API_KEY (free mode), skipping"; exit 0) if api_key.empty? && !DRY_RUN
 
 langs = Dir[File.join(I18N, "*.json")].map { |p| File.basename(p, ".json") }.reject { |l| l.start_with?("_") }.sort
 cases = JSON.parse(File.read(INC_PATH)).reject { |i| i["verified"] == false }
