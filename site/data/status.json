@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-27T08:05:37Z",
+  "updated_at": "2026-11-27T08:35:43Z",
   "wire_items": 800,
-  "new_items": 790,
+  "new_items": 778,
   "candidates": 43,
   "incidents": 568,
   "feeds_ok": [
@@ -56,7 +56,6 @@
     "FBI IC3 alerts",
     "Google News chatbot harm (EN)",
     "Google News chatbot harm (العربية)",
-    "Google News chatbot harm (FR)",
     "Google News chatbot harm (ES)",
     "BIS press releases",
     "BIS central bankers speeches",
@@ -84,6 +83,7 @@
   "feeds_failed": [
     "US court filings (CourtListener)",
     "Reddit r/netsec",
+    "Google News chatbot harm (FR)",
     "European Commission",
     "European Parliament"
   ],
