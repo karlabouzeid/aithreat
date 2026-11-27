@@ -172,18 +172,32 @@
     "untagged": 1
   },
   "2026-11-23": {
-    "untagged": 28
+    "incident": 4,
+    "other": 22,
+    "policy": 1
   },
   "2026-11-24": {
-    "untagged": 180
+    "incident": 34,
+    "other": 136,
+    "policy": 4,
+    "vulnerability": 4
   },
   "2026-11-25": {
-    "untagged": 329
+    "incident": 55,
+    "other": 248,
+    "policy": 9,
+    "research": 3,
+    "vulnerability": 14
   },
   "2026-11-26": {
-    "untagged": 249
+    "incident": 40,
+    "other": 195,
+    "policy": 1,
+    "research": 3,
+    "vulnerability": 10
   },
   "2026-11-27": {
-    "untagged": 14
+    "incident": 4,
+    "other": 13
   }
 }
