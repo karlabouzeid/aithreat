@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-27T13:46:40Z",
+  "updated_at": "2026-11-27T14:05:47Z",
   "wire_items": 800,
-  "new_items": 842,
+  "new_items": 798,
   "candidates": 42,
   "incidents": 568,
   "feeds_ok": [
@@ -26,7 +26,6 @@
     "The Guardian Technology",
     "Google News (English)",
     "Google News (Français)",
-    "Google News (Español)",
     "Google News (العربية)",
     "Google News (中文)",
     "Google News (Русский)",
@@ -58,7 +57,6 @@
     "Google News chatbot harm (العربية)",
     "Google News chatbot harm (FR)",
     "Google News chatbot harm (ES)",
-    "BIS press releases",
     "BIS central bankers speeches",
     "Financial Stability Board",
     "ECB press",
@@ -83,8 +81,10 @@
     "Google News (official warnings)"
   ],
   "feeds_failed": [
+    "Google News (Español)",
     "US court filings (CourtListener)",
     "Reddit r/netsec",
+    "BIS press releases",
     "European Commission"
   ],
   "triage": "free mode: sorted by keyword rules (no AI)"

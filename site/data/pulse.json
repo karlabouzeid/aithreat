@@ -176,14 +176,13 @@
     "other": 13
   },
   "2026-11-24": {
-    "incident": 6,
-    "other": 43,
-    "policy": 1,
-    "vulnerability": 1
+    "incident": 5,
+    "other": 39,
+    "policy": 1
   },
   "2026-11-25": {
     "incident": 57,
-    "other": 250,
+    "other": 249,
     "policy": 9,
     "research": 3,
     "vulnerability": 14
@@ -196,8 +195,8 @@
     "vulnerability": 12
   },
   "2026-11-27": {
-    "incident": 25,
-    "other": 96,
+    "incident": 26,
+    "other": 102,
     "policy": 1
   }
 }
