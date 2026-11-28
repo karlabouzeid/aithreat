@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-28T13:05:41Z",
+  "updated_at": "2026-11-28T13:35:42Z",
   "wire_items": 800,
-  "new_items": 855,
+  "new_items": 777,
   "candidates": 38,
   "incidents": 568,
   "feeds_ok": [
@@ -79,13 +79,13 @@
     "US FDA",
     "US Election Assistance Commission",
     "UN News",
-    "Elysee (France)",
-    "Google News (official warnings)"
+    "Elysee (France)"
   ],
   "feeds_failed": [
     "US court filings (CourtListener)",
     "Reddit r/netsec",
-    "European Commission"
+    "European Commission",
+    "Google News (official warnings)"
   ],
   "triage": "free mode: sorted by keyword rules (no AI)"
 }
