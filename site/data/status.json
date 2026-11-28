@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-28T06:05:46Z",
+  "updated_at": "2026-11-28T06:35:41Z",
   "wire_items": 800,
-  "new_items": 785,
+  "new_items": 787,
   "candidates": 40,
   "incidents": 568,
   "feeds_ok": [
@@ -29,6 +29,7 @@
     "Google News (Español)",
     "Google News (العربية)",
     "Google News (中文)",
+    "Google News (Русский)",
     "CrowdStrike",
     "SentinelOne Labs",
     "Check Point Research",
@@ -75,17 +76,16 @@
     "UK government news",
     "UK DSIT",
     "US FTC",
+    "US FDA",
     "US Election Assistance Commission",
     "UN News",
     "Elysee (France)",
     "Google News (official warnings)"
   ],
   "feeds_failed": [
-    "Google News (Русский)",
     "US court filings (CourtListener)",
     "Reddit r/netsec",
-    "European Commission",
-    "US FDA"
+    "European Commission"
   ],
   "triage": "free mode: sorted by keyword rules (no AI)"
 }
